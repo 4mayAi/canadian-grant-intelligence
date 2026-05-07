@@ -7,94 +7,87 @@ import time
 
 # Target Feeds
 FEEDS = {
-    "CanadaBuys": "https://canadabuys.canada.ca/en/tender-opportunities/rss",
-    "ISED": "https://www.canada.ca/en/innovation-science-economic-development/news.rss",
-    "Finance_Canada": "https://www.canada.ca/en/department-finance/news.rss",
-    "PMO_News": "https://www.pm.gc.ca/en/news.rss"
+        "CanadaBuys": "https://canadabuys.canada.ca/en/tender-opportunities/rss",
+        "ISED": "https://www.canada.ca/en/innovation-science-economic-development/news.rss",
+        "Finance_Canada": "https://www.canada.ca/en/department-finance/news.rss",
+        "PMO_News": "https://www.pm.gc.ca/en/news.rss"
 }
 
 KEYWORDS = ["grant", "stimulus", "incentive", "funding", "RFP", "tender", "economic support", "investment"]
 
 def get_gemini_insight(content):
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
-        return "Insight generation skipped: GEMINI_API_KEY not found."
-    
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
-    
+        api_key = os.getenv("GEMINI_API_KEY")
+        if not api_key:
+                    return "Insight generation skipped: GEMINI_API_KEY not found."
+
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+
     prompt = f"""
-    Analyze the following Canadian government announcement/tender and provide:
-    1. A 'LinkedIn Hook': A high-impact opening line to drive traffic.
-    2. Strategic Value: Why this matters for Canadian businesses.
-    3. Co-Bidding Opportunity: Identify if this RFP/grant favors consortia or B2B partnerships.
-    
-    Content: {content[:3000]}
-    """
-    
+        Analyze the following Canadian government announcement and provide:
+            1. A concise summary (1-2 sentences).
+                2. A 'LinkedIn Hook' - a compelling insight for Canadian business owners or investors.
+                    3. Credibility Score (1-10) based on source reliability.
+
+                            Content: {content[:4000]}
+                                """
+
     payload = {
-        "contents": [{
-            "parts": [{"text": prompt}]
-        }]
+                "contents": [{
+                                "parts": [{"text": prompt}]
+                }]
     }
-    
+
     try:
-        response = requests.post(url, json=payload, timeout=30)
-        data = response.json()
-        return data['candidates'][0]['content']['parts'][0]['text']
-    except Exception as e:
-        return f"Insight error: {str(e)}"
-
-def fetch_feed_data():
-    reports = []
-    lookback_limit = datetime.now() - timedelta(hours=48)
-    
-    for name, url in FEEDS.items():
-        print(f"Fetching {name}...")
-        feed = feedparser.parse(url)
-        
-        for entry in feed.entries:
-            # Check date
-            published = getattr(entry, 'published_parsed', None)
-            if published:
-                pub_date = datetime.fromtimestamp(time.mktime(published))
-                if pub_date < lookback_limit:
-                    continue
-            
-            # Check keywords
-            text_to_scan = (entry.title + " " + getattr(entry, 'summary', '')).lower()
-            if any(kw in text_to_scan for kw in KEYWORDS):
-                print(f"Match found: {entry.title}")
-                insight = get_gemini_insight(text_to_scan)
-                reports.append({
-                    "source": name,
-                    "title": entry.title,
-                    "link": entry.link,
-                    "date": pub_date.strftime("%Y-%m-%d"),
-                    "insight": insight
-                })
-    
-    return reports
-
-def generate_markdown_report(reports):
-    today = datetime.now().strftime("%Y-%m-%d")
-    filename = f"reports/grants/daily_grants_{today}.md"
-    
-    content = f"# Canadian Grant Intelligence Report - {today}\n\n"
-    if not reports:
-        content += "No high-impact funding or stimulus signals detected in the last 48 hours."
+                response = requests.post(url, json=payload, timeout=30)
+                data = response.json()
+                if 'candidates' in data and len(data['candidates']) > 0:
+                                return data['candidates'][0]['content']['parts'][0]['text']
     else:
-        for r in reports:
-            content += f"## [{r['source']}] {r['title']}\n"
-            content += f"- **Date:** {r['date']}\n"
-            content += f"- **Link:** [View Official Announcement]({r['link']})\n\n"
-            content += f"### AI Synthesis & LinkedIn Hooks\n{r['insight']}\n\n"
-            content += "---\n\n"
-            
-    os.makedirs(os.path.dirname(filename), exist_ok=True)
+            return f"Insight error: Unexpected API response format. Response: {data}"
+    except Exception as e:
+        return f"Insight error: {e}"
+
+def scrape():
+        print(f"Starting scrape at {datetime.now()}")
+        all_items = []
+
+    for name, url in FEEDS.items():
+                print(f"Fetching {name}...")
+                feed = feedparser.parse(url)
+                for entry in feed.entries:
+                                published = getattr(entry, 'published_parsed', None)
+                                if published:
+                                                    pub_date = datetime(*published[:6])
+                                                    if datetime.now() - pub_date > timedelta(days=1):
+                                                                            continue
+
+                                                text_to_search = (entry.title + " " + getattr(entry, 'summary', '')).lower()
+                                if any(kw.lower() in text_to_search for kw in KEYWORDS):
+                                                    insight = get_gemini_insight(entry.title + " " + getattr(entry, 'summary', ''))
+                                                    all_items.append({
+                                                        "source": name,
+                                                        "title": entry.title,
+                                                        "link": entry.link,
+                                                        "date": pub_date.strftime("%Y-%m-%d") if published else "N/A",
+                                                        "insight": insight
+                                                    })
+
+                        if not all_items:
+                                    report_content = f"# Canadian Grant Intelligence Report - {datetime.now().strftime('%Y-%m-%d')}\n\nNo new grants or relevant announcements found in the last 24 hours."
+else:
+        report_content = f"# Canadian Grant Intelligence Report - {datetime.now().strftime('%Y-%m-%d')}\n\n"
+        for item in all_items:
+                        report_content += f"## [{item['source']}] {item['title']}\n"
+                        report_content += f"- **Date**: {item['date']}\n"
+                        report_content += f"- **Link**: [View Official Announcement]({item['link']})\n"
+                        report_content += f"- **AI Synthesis & LinkedIn Hooks**:\n{item['insight']}\n\n"
+                        report_content += "---\n\n"
+
+    os.makedirs("reports/grants", exist_ok=True)
+    filename = f"reports/grants/daily_grants_{datetime.now().strftime('%Y-%m-%d')}.md"
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(content)
+                f.write(report_content)
     print(f"Report generated: {filename}")
 
-if __name__ == "__main__":
-    results = fetch_feed_data()
-    generate_markdown_report(results)
+if __name__ == '__main__':
+        scrape()
