@@ -39,8 +39,9 @@ def get_gemini_insight(content):
     
     try:
         response = requests.post(url, json=payload, timeout=30)
-        if response.status_code != 200:
-            print(f"ERROR: Gemini API returned {response.status_code}: {response.text}")
+        # Rate limit protection
+        time.sleep(2)
+        
         response.raise_for_status()
         data = response.json()
         
@@ -54,13 +55,10 @@ def get_gemini_insight(content):
         try:
             error_details = response.json()
             err_msg = error_details.get('error', {}).get('message', str(e))
-            print(f"ERROR: {err_msg}")
             return f"Gemini API Error ({response.status_code}): {err_msg}"
         except:
-            print(f"ERROR: Request failed: {str(e)}")
             return f"Request error: {str(e)}"
     except Exception as e:
-        print(f"ERROR: Unexpected error: {str(e)}")
         return f"Insight error: {str(e)}"
 
 def fetch_feed_data():
