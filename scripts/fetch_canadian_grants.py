@@ -39,8 +39,23 @@ def get_gemini_insight(content):
     
     try:
         response = requests.post(url, json=payload, timeout=30)
+        response.raise_for_status()
         data = response.json()
-        return data['candidates'][0]['content']['parts'][0]['text']
+        
+        if 'candidates' in data and data['candidates']:
+            return data['candidates'][0]['content']['parts'][0]['text']
+        else:
+            # Handle cases where response might be blocked or empty
+            feedback = data.get('promptFeedback', {}).get('blockReason', 'Unknown reason')
+            return f"Insight generation blocked by safety filters: {feedback}"
+            
+    except requests.exceptions.RequestException as e:
+        # Check if we have a response body with error details
+        try:
+            error_details = response.json()
+            return f"Gemini API Error ({response.status_code}): {error_details.get('error', {}).get('message', str(e))}"
+        except:
+            return f"Request error: {str(e)}"
     except Exception as e:
         return f"Insight error: {str(e)}"
 
