@@ -20,7 +20,7 @@ def get_gemini_insight(content):
     if not api_key:
         return "Insight generation skipped: GEMINI_API_KEY not found."
     
-    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent?key={api_key}"
     
     prompt = f"""
     Analyze the following Canadian government announcement/tender and provide:
@@ -39,25 +39,28 @@ def get_gemini_insight(content):
     
     try:
         response = requests.post(url, json=payload, timeout=30)
+        if response.status_code != 200:
+            print(f"ERROR: Gemini API returned {response.status_code}: {response.text}")
         response.raise_for_status()
         data = response.json()
-        print(f"DEBUG: Gemini Response for content snippet: {content[:50]}... -> {data}")
         
         if 'candidates' in data and data['candidates']:
             return data['candidates'][0]['content']['parts'][0]['text']
         else:
-            # Handle cases where response might be blocked or empty
             feedback = data.get('promptFeedback', {}).get('blockReason', 'Unknown reason')
             return f"Insight generation blocked by safety filters: {feedback}"
             
     except requests.exceptions.RequestException as e:
-        # Check if we have a response body with error details
         try:
             error_details = response.json()
-            return f"Gemini API Error ({response.status_code}): {error_details.get('error', {}).get('message', str(e))}"
+            err_msg = error_details.get('error', {}).get('message', str(e))
+            print(f"ERROR: {err_msg}")
+            return f"Gemini API Error ({response.status_code}): {err_msg}"
         except:
+            print(f"ERROR: Request failed: {str(e)}")
             return f"Request error: {str(e)}"
     except Exception as e:
+        print(f"ERROR: Unexpected error: {str(e)}")
         return f"Insight error: {str(e)}"
 
 def fetch_feed_data():
