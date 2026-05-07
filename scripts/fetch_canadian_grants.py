@@ -26,7 +26,7 @@ def get_gemini_insight(content):
     if not api_key:
         return "Insight generation skipped: GEMINI_API_KEY not found."
     
-    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash-lite:generateContent?key={api_key}"
     
     prompt = f"""
     Analyze the following Canadian government announcement/tender and provide:
@@ -43,29 +43,40 @@ def get_gemini_insight(content):
         }]
     }
     
-    try:
-        response = requests.post(url, json=payload, timeout=30)
-        # Rate limit protection
-        time.sleep(2)
-        
-        response.raise_for_status()
-        data = response.json()
-        
-        if 'candidates' in data and data['candidates']:
-            return data['candidates'][0]['content']['parts'][0]['text']
-        else:
-            feedback = data.get('promptFeedback', {}).get('blockReason', 'Unknown reason')
-            return f"Insight generation blocked by safety filters: {feedback}"
-            
-    except requests.exceptions.RequestException as e:
+    max_retries = 3
+    for attempt in range(max_retries):
         try:
-            error_details = response.json()
-            err_msg = error_details.get('error', {}).get('message', str(e))
-            return f"Gemini API Error ({response.status_code}): {err_msg}"
-        except:
-            return f"Request error: {str(e)}"
-    except Exception as e:
-        return f"Insight error: {str(e)}"
+            response = requests.post(url, json=payload, timeout=30)
+            
+            if response.status_code == 429:
+                wait_time = 10 * (attempt + 1)
+                print(f"Rate limited (429). Waiting {wait_time}s before retry {attempt + 1}/{max_retries}...")
+                time.sleep(wait_time)
+                continue
+            
+            response.raise_for_status()
+            data = response.json()
+            
+            # Rate limit protection between successful calls
+            time.sleep(4)
+            
+            if 'candidates' in data and data['candidates']:
+                return data['candidates'][0]['content']['parts'][0]['text']
+            else:
+                feedback = data.get('promptFeedback', {}).get('blockReason', 'Unknown reason')
+                return f"Insight generation blocked by safety filters: {feedback}"
+                
+        except requests.exceptions.RequestException as e:
+            try:
+                error_details = response.json()
+                err_msg = error_details.get('error', {}).get('message', str(e))
+                return f"Gemini API Error ({response.status_code}): {err_msg}"
+            except:
+                return f"Request error: {str(e)}"
+        except Exception as e:
+            return f"Insight error: {str(e)}"
+    
+    return "Gemini API Error: Rate limited after max retries."
 
 def fetch_feed_data():
     reports = []
