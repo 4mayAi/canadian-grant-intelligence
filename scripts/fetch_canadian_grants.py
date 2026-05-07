@@ -10,7 +10,13 @@ FEEDS = {
     "CanadaBuys": "https://canadabuys.canada.ca/en/tender-opportunities/rss",
     "ISED": "https://www.canada.ca/en/innovation-science-economic-development/news.rss",
     "Finance_Canada": "https://www.canada.ca/en/department-finance/news.rss",
-    "PMO_News": "https://www.pm.gc.ca/en/news.rss"
+    "PMO_News": "https://www.pm.gc.ca/en/news.rss",
+    "Ontario_News": "https://news.ontario.ca/newsroom/en/rss/allnews.rss",
+    "BC_News": "https://news.gov.bc.ca/feed",
+    "PHAC_Updates": "https://www.canada.ca/content/dam/phac-aspc/rss/new-eng.xml",
+    "Toronto_News": "https://wx.toronto.ca/inter/it/newsrel.nsf/rss.xml",
+    "Vancouver_News": "https://vancouver.ca/news-calendar/rss.aspx",
+    "Calgary_News": "https://newsroom.calgary.ca/rss/"
 }
 
 KEYWORDS = ["grant", "stimulus", "incentive", "funding", "RFP", "tender", "economic support", "investment"]
@@ -20,7 +26,7 @@ def get_gemini_insight(content):
     if not api_key:
         return "Insight generation skipped: GEMINI_API_KEY not found."
     
-    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={api_key}"
     
     prompt = f"""
     Analyze the following Canadian government announcement/tender and provide:
