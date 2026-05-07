@@ -6,11 +6,7 @@ Daily automated scan of federal funding and procurement opportunities.
 **Source:** PMO_News | **Date:** 2026-05-06
 
 ### Gemini Insight
-Gemini API Error (429): You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
-Please retry in 10.306668909s.
+Gemini API Error (404): models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
 
 [Link to Opportunity](https://www.pm.gc.ca/en/news/news-releases/2026/05/06/prime-minister-carney-welcomes-largest-order-commercial-aircraft)
 
@@ -20,13 +16,19 @@ Please retry in 10.306668909s.
 **Source:** PMO_News | **Date:** 2026-05-05
 
 ### Gemini Insight
-Gemini API Error (429): You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
-Please retry in 10.185014186s.
+Gemini API Error (404): models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
 
 [Link to Opportunity](https://www.pm.gc.ca/en/news/media-advisories/2026/05/05/wednesday-may-6-2026)
+
+---
+
+## Ontario Invests $1.5 Million to Protect Great Lakes and Drive Local Innovation
+**Source:** Ontario_News | **Date:** 2026-05-07
+
+### Gemini Insight
+Gemini API Error (404): models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+[Link to Opportunity](https://news.ontario.ca/en/release/1007417/ontario_invests_15_million_to_protect_great_lakes_and_drive_local_innovation)
 
 ---
 
