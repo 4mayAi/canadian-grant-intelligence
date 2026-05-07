@@ -41,6 +41,7 @@ def get_gemini_insight(content):
         response = requests.post(url, json=payload, timeout=30)
         response.raise_for_status()
         data = response.json()
+        print(f"DEBUG: Gemini Response for content snippet: {content[:50]}... -> {data}")
         
         if 'candidates' in data and data['candidates']:
             return data['candidates'][0]['content']['parts'][0]['text']
