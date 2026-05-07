@@ -1,0 +1,35 @@
+name: Daily Canadian Grants Scraper
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # 8:00 AM UTC Daily
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests beautifulsoup4 feedparser python-dateutil
+
+      - name: Run Scraper
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/fetch_canadian_grants.py
+
+      - name: Commit and Push Report
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add reports/grants/
+          git commit -m "Automated Daily Grant Report: $(date +'%Y-%m-%d')" || exit 0
+          git push
