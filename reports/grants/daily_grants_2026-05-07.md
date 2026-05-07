@@ -5,7 +5,7 @@
 - **Link:** [View Official Announcement](https://www.pm.gc.ca/en/news/news-releases/2026/05/06/prime-minister-carney-welcomes-largest-order-commercial-aircraft)
 
 ### AI Synthesis & LinkedIn Hooks
-Gemini API Error (404): models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Gemini API Error (404): models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
 
 ---
 
@@ -14,7 +14,7 @@ Gemini API Error (404): models/gemini-1.5-flash is not found for API version v1b
 - **Link:** [View Official Announcement](https://www.pm.gc.ca/en/news/media-advisories/2026/05/05/wednesday-may-6-2026)
 
 ### AI Synthesis & LinkedIn Hooks
-Gemini API Error (404): models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Gemini API Error (404): models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
 
 ---
 
