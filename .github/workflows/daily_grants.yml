@@ -1,35 +1,21 @@
 name: Daily Grant Intelligence
-on:
-  schedule:
-      - cron: '0 10 * * *'
-        workflow_dispatch:
-
-        jobs:
-          scrape-and-report:
-              runs-on: ubuntu-latest
-                  steps:
-                        - name: Checkout code
-                                uses: actions/checkout@v4
-
-                                      - name: Set up Python
-                                              uses: actions/setup-python@v4
-                                                      with:
-                                                                python-version: '3.10'
-
-                                                                      - name: Install dependencies
-                                                                              run: |
-                                                                                        pip install requests feedparser
-
-                                                                                              - name: Run scraper
-                                                                                                      env:
-                                                                                                                GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-                                                                                                                        run: python scripts/fetch_canadian_grants.py
-                                                                                                                        
-                                                                                                                              - name: Commit and push report
-                                                                                                                                      run: |
-                                                                                                                                                git config --global user.name "github-actions[bot]"
-                                                                                                                                                          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-                                                                                                                                                                    git add reports/grants/report.md
-                                                                                                                                                                              git commit -m "Update daily grant report [skip ci]" || echo "No changes to commit"
-                                                                                                                                                                                        git push
-                                                                                                                                                                                        
+on: [workflow_dispatch, schedule]
+jobs:
+  run:
+      runs-on: ubuntu-latest
+          steps:
+                - uses: actions/checkout@v4
+                      - uses: actions/setup-python@v4
+                              with:
+                                        python-version: '3.10'
+                                              - run: pip install requests feedparser
+                                                    - env:
+                                                              GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+                                                                      run: python scripts/fetch_canadian_grants.py
+                                                                            - run: |
+                                                                                      git config user.name "bot"
+                                                                                                git config user.email "bot"
+                                                                                                          git add reports/grants/report.md
+                                                                                                                    git commit -m "Update" || true
+                                                                                                                              git push
+                                                                                                                              
