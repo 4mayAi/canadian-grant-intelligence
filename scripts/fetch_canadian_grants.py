@@ -114,6 +114,22 @@ def generate_markdown_report(reports):
         f.write(content)
     print(f"Report generated: {filename}")
 
+def list_available_models():
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        print("GEMINI_API_KEY not found.")
+        return
+    url = f"https://generativelanguage.googleapis.com/v1beta/models?key={api_key}"
+    try:
+        response = requests.get(url, timeout=30)
+        data = response.json()
+        print("Available Models:")
+        for m in data.get('models', []):
+            print(f"- {m['name']}")
+    except Exception as e:
+        print(f"Error listing models: {e}")
+
 if __name__ == "__main__":
+    list_available_models()
     results = fetch_feed_data()
     generate_markdown_report(results)
