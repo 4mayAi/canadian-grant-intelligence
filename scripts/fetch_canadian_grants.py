@@ -20,7 +20,7 @@ def get_gemini_insight(content):
     if not api_key:
         return "Insight generation skipped: GEMINI_API_KEY not found."
     
-    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent?key={api_key}"
     
     prompt = f"""
     Analyze the following Canadian government announcement/tender and provide:
@@ -94,42 +94,30 @@ def fetch_feed_data():
     
     return reports
 
-def generate_markdown_report(reports):
-    today = datetime.now().strftime("%Y-%m-%d")
-    filename = f"reports/grants/daily_grants_{today}.md"
+def generate_markdown_report(results):
+    if not results:
+        print("No new grants/tenders found.")
+        return
+
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    filename = f"reports/grants/canadian_grants_{date_str}.md"
     
-    content = f"# Canadian Grant Intelligence Report - {today}\n\n"
-    if not reports:
-        content += "No high-impact funding or stimulus signals detected in the last 48 hours."
-    else:
-        for r in reports:
-            content += f"## [{r['source']}] {r['title']}\n"
-            content += f"- **Date:** {r['date']}\n"
-            content += f"- **Link:** [View Official Announcement]({r['link']})\n\n"
-            content += f"### AI Synthesis & LinkedIn Hooks\n{r['insight']}\n\n"
-            content += "---\n\n"
-            
     os.makedirs(os.path.dirname(filename), exist_ok=True)
+    
+    content = f"# Canadian Grant Intelligence Report - {date_str}\n\n"
+    content += "Daily automated scan of federal funding and procurement opportunities.\n\n"
+    
+    for item in results:
+        content += f"## {item['title']}\n"
+        content += f"**Source:** {item['source']} | **Date:** {item['date']}\n\n"
+        content += f"### Gemini Insight\n{item['insight']}\n\n"
+        content += f"[Link to Opportunity]({item['link']})\n\n"
+        content += "---\n\n"
+        
     with open(filename, "w", encoding="utf-8") as f:
         f.write(content)
     print(f"Report generated: {filename}")
 
-def list_available_models():
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
-        print("GEMINI_API_KEY not found.")
-        return
-    url = f"https://generativelanguage.googleapis.com/v1beta/models?key={api_key}"
-    try:
-        response = requests.get(url, timeout=30)
-        data = response.json()
-        print("Available Models:")
-        for m in data.get('models', []):
-            print(f"- {m['name']}")
-    except Exception as e:
-        print(f"Error listing models: {e}")
-
 if __name__ == "__main__":
-    list_available_models()
     results = fetch_feed_data()
     generate_markdown_report(results)
