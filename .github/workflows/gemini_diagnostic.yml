@@ -1,0 +1,17 @@
+name: Gemini Quota Diagnostic
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diagnostic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Gemini Connectivity
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          curl -X POST "https://generativelanguage.googleapis.com/v1/models/gemini-3-flash:generateContent?key=$GEMINI_API_KEY" \
+          -H 'Content-Type: application/json' \
+          -d '{"contents": [{"parts":[{"text": "ping"}]}]}' \
+          --verbose
