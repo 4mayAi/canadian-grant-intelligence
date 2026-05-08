@@ -368,7 +368,7 @@
                 }
 
                 reports = files
-                    .filter(f => f.name.endsWith('.md'))
+                    .filter(f => f.name.startsWith('canadian_grants_') && f.name.endsWith('.md'))
                     .sort((a, b) => b.name.localeCompare(a.name));
 
                 if (reports.length === 0) {
@@ -416,8 +416,9 @@
             const content = document.getElementById('reportContent');
             let html = '';
 
-            // Extract LinkedIn post section
-            const linkedinMatch = md.match(/## 📋 Today's LinkedIn Post\n\n>.*?\n\n([\s\S]*?)(?=\n---\n|$)/);
+            // Extract LinkedIn post section (new format)
+            const linkedinMatch = md.match(/## [^\n]*LinkedIn Post[\s\S]*?>.*?\n\n([\s\S]*?)(?=\n---\n)/)
+                || md.match(/## [^\n]*LinkedIn Post\n\n([\s\S]*?)(?=\n---\n|\n## )/);
             if (linkedinMatch) {
                 const postText = linkedinMatch[1].trim();
                 html += `
@@ -431,20 +432,15 @@
                 `;
             }
 
-            // Extract individual report sections
-            const sections = md.split(/^### /m).slice(1);
+            // Split on ## headings (primary sections in both formats)
+            const allSections = md.split(/^## /m).slice(1);
+            const filtered = allSections.filter(s => 
+                !s.match(/^[^\n]*LinkedIn Post/) && !s.startsWith('📊') && !s.startsWith('📋')
+            );
 
-            if (sections.length === 0) {
-                // Fallback: parse the old format (## Title)
-                const oldSections = md.split(/^## /m).slice(1).filter(s => !s.startsWith('📋') && !s.startsWith('📊'));
-                oldSections.forEach(section => {
-                    html += renderSection('## ' + section);
-                });
-            } else {
-                sections.forEach(section => {
-                    html += renderSection('### ' + section);
-                });
-            }
+            filtered.forEach(section => {
+                html += renderSection(section);
+            });
 
             if (!html) {
                 html = '<div class="empty-state"><h3>Report is empty</h3><p>No opportunities matched today\'s scan.</p></div>';
@@ -457,22 +453,22 @@
             const lines = section.split('\n');
             const title = lines[0].replace(/^#+\s*/, '').trim();
 
-            if (title.startsWith('📋') || title.startsWith('📊') || title === '---') return '';
+            if (!title || title === '---' || title.startsWith('📋') || title.startsWith('📊')) return '';
 
             // Extract source and date
             const metaMatch = section.match(/\*\*Source:\*\*\s*(\S+)\s*\|\s*\*\*Date:\*\*\s*(\S+)/);
             const source = metaMatch ? metaMatch[1] : '';
             const date = metaMatch ? metaMatch[2] : '';
 
-            // Extract insight
-            const insightMatch = section.match(/(?:####?\s*Gemini Insight|####?\s*Insight)\n([\s\S]*?)(?=\n\[Link to Opportunity\]|$)/);
+            // Extract insight — handle both ### Gemini Insight and #### Gemini Insight
+            const insightMatch = section.match(/#{2,4}\s*Gemini Insight\n([\s\S]*?)(?=\n\[Link to Opportunity\]|$)/);
             const insight = insightMatch ? insightMatch[1].trim() : '';
 
             // Extract link
             const linkMatch = section.match(/\[Link to Opportunity\]\(([^)]+)\)/);
             const link = linkMatch ? linkMatch[1] : '';
 
-            if (!title || title === '---') return '';
+            if (!source && !insight && !link) return '';
 
             return `
                 <div class="report-section">
