@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canadian Grant Intelligence — Daily Funding & Procurement Monitor</title>
+    <meta name="description" content="AI-powered daily intelligence on Canadian government grants, funding, and procurement opportunities across federal, provincial, and municipal levels.">
+    <meta property="og:title" content="Canadian Grant Intelligence">
+    <meta property="og:description" content="AI-powered daily intelligence on Canadian government grants, funding, and procurement opportunities.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://emurira.github.io/canadian-grant-intelligence/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg-primary: #0a0e17;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.7);
+            --border: rgba(99, 102, 241, 0.15);
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --accent-1: #6366f1;
+            --accent-2: #06b6d4;
+            --accent-gradient: linear-gradient(135deg, #6366f1, #06b6d4);
+            --success: #22c55e;
+            --radius: 16px;
+            --radius-sm: 10px;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* Animated background mesh */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 600px 400px at 20% 10%, rgba(99, 102, 241, 0.08), transparent),
+                radial-gradient(ellipse 500px 500px at 80% 80%, rgba(6, 182, 212, 0.06), transparent);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container { max-width: 960px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
+
+        /* Header */
+        header {
+            padding: 48px 0 32px;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 40px;
+        }
+        .logo-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .logo-icon {
+            width: 40px; height: 40px;
+            background: var(--accent-gradient);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        header h1 {
+            font-size: 28px;
+            font-weight: 800;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        header p {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-top: 6px;
+        }
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 16px;
+            padding: 6px 14px;
+            border-radius: 99px;
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--success);
+        }
+        .status-dot {
+            width: 7px; height: 7px;
+            background: var(--success);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        /* Navigation / Report Selector */
+        .report-nav {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding: 4px 0 20px;
+            scrollbar-width: none;
+        }
+        .report-nav::-webkit-scrollbar { display: none; }
+        .report-btn {
+            flex-shrink: 0;
+            padding: 8px 18px;
+            border-radius: 99px;
+            border: 1px solid var(--border);
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .report-btn:hover {
+            border-color: var(--accent-1);
+            color: var(--text-primary);
+        }
+        .report-btn.active {
+            background: var(--accent-gradient);
+            color: #fff;
+            border-color: transparent;
+        }
+
+        /* LinkedIn Post Card */
+        .linkedin-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 28px 28px 20px;
+            margin-bottom: 32px;
+            backdrop-filter: blur(12px);
+            position: relative;
+            overflow: hidden;
+        }
+        .linkedin-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: var(--accent-gradient);
+        }
+        .linkedin-card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+        .linkedin-card-header h2 {
+            font-size: 16px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .copy-btn {
+            padding: 6px 16px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .copy-btn:hover {
+            background: var(--accent-1);
+            color: #fff;
+            border-color: var(--accent-1);
+        }
+        .copy-btn.copied {
+            background: var(--success);
+            color: #fff;
+            border-color: var(--success);
+        }
+        .linkedin-body {
+            color: var(--text-secondary);
+            font-size: 14px;
+            white-space: pre-wrap;
+            line-height: 1.8;
+        }
+
+        /* Report Content */
+        .report-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 28px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(12px);
+            transition: border-color 0.3s;
+        }
+        .report-section:hover {
+            border-color: rgba(99, 102, 241, 0.35);
+        }
+        .report-section h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+        .report-meta {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+            display: flex;
+            gap: 16px;
+        }
+        .report-meta span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .insight-content {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.8;
+        }
+        .insight-content h1, .insight-content h2, .insight-content h3, .insight-content h4 {
+            color: var(--text-primary);
+            margin: 16px 0 8px;
+            font-size: 15px;
+        }
+        .insight-content ul, .insight-content ol {
+            padding-left: 20px;
+            margin: 8px 0;
+        }
+        .insight-content li { margin-bottom: 4px; }
+        .insight-content strong { color: var(--text-primary); }
+        .insight-content blockquote {
+            border-left: 3px solid var(--accent-1);
+            padding-left: 16px;
+            margin: 12px 0;
+            color: var(--text-primary);
+            font-style: italic;
+        }
+        .insight-content a {
+            color: var(--accent-2);
+            text-decoration: none;
+        }
+        .insight-content a:hover { text-decoration: underline; }
+        .opp-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 12px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            background: rgba(6, 182, 212, 0.1);
+            border: 1px solid rgba(6, 182, 212, 0.25);
+            color: var(--accent-2);
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .opp-link:hover { background: rgba(6, 182, 212, 0.2); }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 80px 0;
+            color: var(--text-muted);
+        }
+        .spinner {
+            width: 36px; height: 36px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent-1);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 16px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 0 32px;
+            color: var(--text-muted);
+            font-size: 12px;
+            border-top: 1px solid var(--border);
+            margin-top: 40px;
+        }
+        footer a { color: var(--accent-2); text-decoration: none; }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+        .empty-state h3 { color: var(--text-secondary); margin-bottom: 8px; }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            header h1 { font-size: 22px; }
+            .linkedin-card, .report-section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-row">
+                <div class="logo-icon">🇨🇦</div>
+                <h1>Canadian Grant Intelligence</h1>
+            </div>
+            <p>AI-powered daily monitor of federal, provincial & municipal funding opportunities</p>
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                Updated daily at 08:00 UTC
+            </div>
+        </header>
+
+        <nav class="report-nav" id="reportNav">
+            <!-- Populated by JS -->
+        </nav>
+
+        <main id="reportContent">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Loading intelligence reports...</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Powered by Gemini AI &middot; Built with GitHub Actions &middot; <a href="https://github.com/emurira/canadian-grant-intelligence">View Source</a></p>
+            <p style="margin-top: 4px">Data sourced from CanadaBuys, PMO, ISED, Ontario, BC, PHAC, Toronto, Vancouver, Calgary</p>
+        </footer>
+    </div>
+
+    <script>
+        const REPO = 'emurira/canadian-grant-intelligence';
+        const API_BASE = `https://api.github.com/repos/${REPO}/contents/reports/grants`;
+
+        let reports = [];
+        let activeReport = null;
+
+        async function init() {
+            try {
+                const res = await fetch(API_BASE);
+                const files = await res.json();
+
+                if (!Array.isArray(files)) {
+                    showEmpty('No reports available yet.');
+                    return;
+                }
+
+                reports = files
+                    .filter(f => f.name.endsWith('.md'))
+                    .sort((a, b) => b.name.localeCompare(a.name));
+
+                if (reports.length === 0) {
+                    showEmpty('No reports available yet.');
+                    return;
+                }
+
+                renderNav();
+                loadReport(reports[0]);
+            } catch (e) {
+                showEmpty('Failed to load reports. Please try again later.');
+            }
+        }
+
+        function renderNav() {
+            const nav = document.getElementById('reportNav');
+            nav.innerHTML = reports.map(r => {
+                const date = r.name.replace('canadian_grants_', '').replace('.md', '');
+                const label = formatDate(date);
+                return `<button class="report-btn" data-file="${r.name}" onclick="loadReport(this.dataset)">${label}</button>`;
+            }).join('');
+        }
+
+        async function loadReport(file) {
+            const fileName = file.name || file.file;
+            const content = document.getElementById('reportContent');
+            content.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading report...</p></div>';
+
+            // Update active nav button
+            document.querySelectorAll('.report-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.file === fileName);
+            });
+
+            try {
+                const res = await fetch(`${API_BASE}/${fileName}`);
+                const data = await res.json();
+                const md = atob(data.content);
+                renderReport(md);
+            } catch (e) {
+                content.innerHTML = '<div class="empty-state"><h3>Error loading report</h3><p>Please try again.</p></div>';
+            }
+        }
+
+        function renderReport(md) {
+            const content = document.getElementById('reportContent');
+            let html = '';
+
+            // Extract LinkedIn post section
+            const linkedinMatch = md.match(/## 📋 Today's LinkedIn Post\n\n>.*?\n\n([\s\S]*?)(?=\n---\n|$)/);
+            if (linkedinMatch) {
+                const postText = linkedinMatch[1].trim();
+                html += `
+                    <div class="linkedin-card">
+                        <div class="linkedin-card-header">
+                            <h2>📋 Today's LinkedIn Post</h2>
+                            <button class="copy-btn" onclick="copyPost(this)">Copy Post</button>
+                        </div>
+                        <div class="linkedin-body" id="linkedinPost">${escapeHtml(postText)}</div>
+                    </div>
+                `;
+            }
+
+            // Extract individual report sections
+            const sections = md.split(/^### /m).slice(1);
+
+            if (sections.length === 0) {
+                // Fallback: parse the old format (## Title)
+                const oldSections = md.split(/^## /m).slice(1).filter(s => !s.startsWith('📋') && !s.startsWith('📊'));
+                oldSections.forEach(section => {
+                    html += renderSection('## ' + section);
+                });
+            } else {
+                sections.forEach(section => {
+                    html += renderSection('### ' + section);
+                });
+            }
+
+            if (!html) {
+                html = '<div class="empty-state"><h3>Report is empty</h3><p>No opportunities matched today\'s scan.</p></div>';
+            }
+
+            content.innerHTML = html;
+        }
+
+        function renderSection(section) {
+            const lines = section.split('\n');
+            const title = lines[0].replace(/^#+\s*/, '').trim();
+
+            if (title.startsWith('📋') || title.startsWith('📊') || title === '---') return '';
+
+            // Extract source and date
+            const metaMatch = section.match(/\*\*Source:\*\*\s*(\S+)\s*\|\s*\*\*Date:\*\*\s*(\S+)/);
+            const source = metaMatch ? metaMatch[1] : '';
+            const date = metaMatch ? metaMatch[2] : '';
+
+            // Extract insight
+            const insightMatch = section.match(/(?:####?\s*Gemini Insight|####?\s*Insight)\n([\s\S]*?)(?=\n\[Link to Opportunity\]|$)/);
+            const insight = insightMatch ? insightMatch[1].trim() : '';
+
+            // Extract link
+            const linkMatch = section.match(/\[Link to Opportunity\]\(([^)]+)\)/);
+            const link = linkMatch ? linkMatch[1] : '';
+
+            if (!title || title === '---') return '';
+
+            return `
+                <div class="report-section">
+                    <h3>${escapeHtml(title)}</h3>
+                    <div class="report-meta">
+                        ${source ? `<span>📡 ${escapeHtml(source)}</span>` : ''}
+                        ${date ? `<span>📅 ${escapeHtml(date)}</span>` : ''}
+                    </div>
+                    <div class="insight-content">${simpleMarkdown(insight)}</div>
+                    ${link ? `<a class="opp-link" href="${escapeHtml(link)}" target="_blank" rel="noopener">View Original ↗</a>` : ''}
+                </div>
+            `;
+        }
+
+        function simpleMarkdown(text) {
+            if (!text) return '<p style="color: var(--text-muted)">No insight available.</p>';
+            return text
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+                .replace(/^#### (.+)$/gm, '<h4>$1</h4>')
+                .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+                .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.+?)\*/g, '<em>$1</em>')
+                .replace(/^\* (.+)$/gm, '<li>$1</li>')
+                .replace(/^- (.+)$/gm, '<li>$1</li>')
+                .replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>')
+                .replace(/^&gt; (.+)$/gm, '<blockquote>$1</blockquote>')
+                .replace(/\n\n/g, '<br><br>')
+                .replace(/\n/g, '<br>');
+        }
+
+        function escapeHtml(text) {
+            const d = document.createElement('div');
+            d.textContent = text;
+            return d.innerHTML;
+        }
+
+        function copyPost(btn) {
+            const post = document.getElementById('linkedinPost');
+            if (!post) return;
+            navigator.clipboard.writeText(post.textContent).then(() => {
+                btn.textContent = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = 'Copy Post';
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+
+        function formatDate(dateStr) {
+            try {
+                const d = new Date(dateStr + 'T12:00:00');
+                return d.toLocaleDateString('en-CA', { month: 'short', day: 'numeric', year: 'numeric' });
+            } catch {
+                return dateStr;
+            }
+        }
+
+        function showEmpty(msg) {
+            document.getElementById('reportContent').innerHTML = `
+                <div class="empty-state">
+                    <h3>📭 ${msg}</h3>
+                    <p>Reports are generated daily at 08:00 UTC.</p>
+                </div>
+            `;
+        }
+
+        init();
+    </script>
+</body>
+</html>
