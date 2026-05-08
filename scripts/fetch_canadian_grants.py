@@ -1,22 +1,21 @@
 import os
 import requests
 import feedparser
-from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import time
+import csv
+import io
+import json
 
 # Target Feeds
+# We removed brittle provincial feeds to focus purely on high-signal federal data and executive updates.
 FEEDS = {
-    "CanadaBuys": "https://canadabuys.canada.ca/en/tender-opportunities/rss",
-    "ISED": "https://www.canada.ca/en/innovation-science-economic-development/news.rss",
-    "Finance_Canada": "https://www.canada.ca/en/department-finance/news.rss",
-    "PMO_News": "https://www.pm.gc.ca/en/news.rss",
-    "Ontario_News": "https://news.ontario.ca/newsroom/en/rss/allnews.rss",
-    "BC_News": "https://news.gov.bc.ca/feed",
-    "PHAC_Updates": "https://www.canada.ca/content/dam/phac-aspc/rss/new-eng.xml",
-    "Toronto_News": "https://wx.toronto.ca/inter/it/newsrel.nsf/rss.xml",
-    "Vancouver_News": "https://vancouver.ca/news-calendar/rss.aspx",
-    "Calgary_News": "https://newsroom.calgary.ca/rss/"
+    "PMO_News": "https://www.pm.gc.ca/en/news.rss"
+}
+
+CANADABUYS_CKAN_API = "https://open.canada.ca/data/api/action/package_show?id=6abd20d4-7a1c-4b38-baa2-9525d0bb2fd2"
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
 KEYWORDS = ["grant", "stimulus", "incentive", "funding", "RFP", "tender", "economic support", "investment"]
@@ -137,23 +136,123 @@ Today's opportunities:
     return None
 
 
-def fetch_feed_data():
+def fetch_canadabuys_csvs():
+    """
+    Queries the official Open Government CKAN API to dynamically find and parse
+    the CanadaBuys 'New' and 'Open' tender notice CSVs.
+    """
+    print("Fetching CanadaBuys metadata...")
+    try:
+        data = requests.get(CANADABUYS_CKAN_API, headers=HEADERS, timeout=30).json()
+    except Exception as e:
+        print(f"Failed to fetch CanadaBuys API: {e}")
+        return []
+
+    if not data.get("success"):
+        print("CKAN API returned success=False")
+        return []
+
+    resources = data.get("result", {}).get("resources", [])
+    new_url = None
+    open_url = None
+
+    for res in resources:
+        name = res.get("name", "").lower()
+        if "new tender notices" in name:
+            new_url = res.get("url")
+        elif "open tender notices" in name:
+            open_url = res.get("url")
+
+    tenders = []
+    
+    # Process New Tenders
+    if new_url:
+        print(f"Downloading New Tenders from: {new_url}")
+        try:
+            resp = requests.get(new_url, headers=HEADERS, timeout=60)
+            resp.encoding = 'utf-8-sig'
+            reader = csv.DictReader(io.StringIO(resp.text))
+            for row in reader:
+                # Extract clean data from CSV fields
+                title = row.get("title-titre-eng", "")
+                desc = row.get("tenderDescription-descriptionAppelOffres-eng", "")
+                link = row.get("noticeURL-URLavis-eng", "")
+                close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
+                province = row.get("regionsOfDelivery-regionsLivraison-eng", "National")
+                category = row.get("procurementCategory-categorieApprovisionnement", "Uncategorized")
+                
+                if title and link:
+                    tenders.append({
+                        "type": "New",
+                        "title": title[:200], # Trim excessively long titles
+                        "description": desc[:500] + "..." if len(desc) > 500 else desc,
+                        "link": link,
+                        "closing_date": close_date,
+                        "province": province,
+                        "category": category
+                    })
+        except Exception as e:
+            print(f"Error parsing new tenders CSV: {e}")
+
+    # Process Open Tenders (Limit to top 50 recently updated to save processing)
+    if open_url:
+        print(f"Downloading Open Tenders from: {open_url}")
+        try:
+            resp = requests.get(open_url, headers=HEADERS, timeout=60)
+            resp.encoding = 'utf-8-sig'
+            reader = csv.DictReader(io.StringIO(resp.text))
+            
+            # Sort open tenders by publication date or just grab the first 50
+            # Usually the CSV is sorted by date descending.
+            count = 0
+            for row in reader:
+                if count >= 50:
+                    break
+                    
+                title = row.get("title-titre-eng", "")
+                desc = row.get("tenderDescription-descriptionAppelOffres-eng", "")
+                link = row.get("noticeURL-URLavis-eng", "")
+                close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
+                province = row.get("regionsOfDelivery-regionsLivraison-eng", "National")
+                category = row.get("procurementCategory-categorieApprovisionnement", "Uncategorized")
+                
+                if title and link:
+                    tenders.append({
+                        "type": "Open",
+                        "title": title[:200],
+                        "description": desc[:500] + "..." if len(desc) > 500 else desc,
+                        "link": link,
+                        "closing_date": close_date,
+                        "province": province,
+                        "category": category
+                    })
+                    count += 1
+        except Exception as e:
+            print(f"Error parsing open tenders CSV: {e}")
+
+    # Save to JSON for the UI to consume directly
+    os.makedirs("data", exist_ok=True)
+    with open("data/tenders.json", "w", encoding="utf-8") as f:
+        json.dump(tenders, f, ensure_ascii=False, indent=2)
+    print(f"Saved {len(tenders)} CanadaBuys tenders to data/tenders.json")
+    
+    return tenders
+
+def fetch_pmo_news():
     reports = []
     lookback_limit = datetime.now() - timedelta(hours=48)
     
     for name, url in FEEDS.items():
-        print(f"Fetching {name}...")
+        print(f"Fetching PMO News from {url}...")
         feed = feedparser.parse(url)
         
         for entry in feed.entries:
-            # Check date
             published = getattr(entry, 'published_parsed', None)
             if published:
                 pub_date = datetime.fromtimestamp(time.mktime(published))
                 if pub_date < lookback_limit:
                     continue
             
-            # Check keywords
             text_to_scan = (entry.title + " " + getattr(entry, 'summary', '')).lower()
             if any(kw in text_to_scan for kw in KEYWORDS):
                 print(f"Match found: {entry.title}")
@@ -214,5 +313,9 @@ def generate_markdown_report(results):
     print(f"Report generated: {filename}")
 
 if __name__ == "__main__":
-    results = fetch_feed_data()
-    generate_markdown_report(results)
+    # Fetch data
+    tenders = fetch_canadabuys_csvs()
+    pmo_reports = fetch_pmo_news()
+    
+    # Generate the markdown report for PMO news
+    generate_markdown_report(pmo_reports)

@@ -113,6 +113,29 @@
         }
 
         /* Navigation / Report Selector */
+        .tabs {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 16px;
+        }
+        .tab-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+        .tab-btn.active {
+            background: var(--accent-1);
+            color: #fff;
+        }
+        
         .report-nav {
             display: flex;
             gap: 8px;
@@ -141,6 +164,70 @@
             background: var(--accent-gradient);
             color: #fff;
             border-color: transparent;
+        }
+        
+        /* Filters */
+        .filters {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+        .filter-select {
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            outline: none;
+        }
+        .filter-select:focus {
+            border-color: var(--accent-2);
+        }
+        
+        /* Tender Badges */
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 700;
+            margin-right: 8px;
+        }
+        .badge-new {
+            background: rgba(34, 197, 94, 0.15);
+            color: #4ade80;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+        .badge-open {
+            background: rgba(148, 163, 184, 0.1);
+            color: #94a3b8;
+            border: 1px solid rgba(148, 163, 184, 0.2);
+        }
+        .tender-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+            margin-bottom: 16px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .tender-card:hover {
+            border-color: var(--accent-2);
+            transform: translateY(-2px);
+        }
+        .tender-card.is-open {
+            opacity: 0.8;
+            padding: 20px;
+        }
+        .tender-meta {
+            font-size: 12px;
+            color: var(--accent-2);
+            margin-top: 12px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
         }
 
         /* LinkedIn Post Card */
@@ -333,16 +420,36 @@
             </div>
         </header>
 
-        <nav class="report-nav" id="reportNav">
-            <!-- Populated by JS -->
-        </nav>
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab('tenders')">CanadaBuys Tenders</button>
+            <button class="tab-btn" onclick="switchTab('news')">PMO News & Insights</button>
+        </div>
 
-        <main id="reportContent">
-            <div class="loading">
-                <div class="spinner"></div>
-                <p>Loading intelligence reports...</p>
+        <div id="tendersView">
+            <div class="filters">
+                <select id="provinceFilter" class="filter-select" onchange="renderTenders()">
+                    <option value="All">All Provinces</option>
+                </select>
+                <select id="categoryFilter" class="filter-select" onchange="renderTenders()">
+                    <option value="All">All Categories</option>
+                </select>
             </div>
-        </main>
+            <div id="tendersContent">
+                <div class="loading"><div class="spinner"></div><p>Loading active tenders...</p></div>
+            </div>
+        </div>
+
+        <div id="newsView" style="display: none;">
+            <nav class="report-nav" id="reportNav">
+                <!-- Populated by JS -->
+            </nav>
+            <main id="reportContent">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading intelligence reports...</p>
+                </div>
+            </main>
+        </div>
 
         <footer>
             <p>Powered by Gemini AI &middot; Built with GitHub Actions &middot; <a href="https://github.com/emurira/canadian-grant-intelligence">View Source</a></p>
@@ -353,11 +460,103 @@
     <script>
         const REPO = 'emurira/canadian-grant-intelligence';
         const API_BASE = `https://api.github.com/repos/${REPO}/contents/reports/grants`;
+        // Using raw.githubusercontent for data to avoid API rate limits on large JSON
+        const TENDERS_URL = `https://raw.githubusercontent.com/${REPO}/main/data/tenders.json`;
 
         let reports = [];
+        let allTenders = [];
         let activeReport = null;
 
+        function switchTab(tab) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            if (tab === 'tenders') {
+                document.getElementById('tendersView').style.display = 'block';
+                document.getElementById('newsView').style.display = 'none';
+            } else {
+                document.getElementById('tendersView').style.display = 'none';
+                document.getElementById('newsView').style.display = 'block';
+            }
+        }
+
         async function init() {
+            loadTenders();
+            loadReports();
+        }
+
+        async function loadTenders() {
+            try {
+                // Try local first for testing, fallback to Github Raw
+                let res;
+                try {
+                    res = await fetch('../data/tenders.json');
+                    if (!res.ok) throw new Error('Local fail');
+                } catch {
+                    res = await fetch(TENDERS_URL);
+                }
+                
+                allTenders = await res.json();
+                
+                // Populate filters
+                const provinces = [...new Set(allTenders.map(t => t.province))].sort();
+                const categories = [...new Set(allTenders.map(t => t.category))].sort();
+                
+                const provSelect = document.getElementById('provinceFilter');
+                provinces.forEach(p => provSelect.innerHTML += `<option value="${p}">${p}</option>`);
+                
+                const catSelect = document.getElementById('categoryFilter');
+                categories.forEach(c => catSelect.innerHTML += `<option value="${c}">${c}</option>`);
+                
+                renderTenders();
+            } catch (e) {
+                document.getElementById('tendersContent').innerHTML = '<div class="empty-state"><h3>Failed to load tenders</h3><p>Data may still be generating.</p></div>';
+            }
+        }
+
+        function renderTenders() {
+            const prov = document.getElementById('provinceFilter').value;
+            const cat = document.getElementById('categoryFilter').value;
+            
+            let filtered = allTenders.filter(t => 
+                (prov === 'All' || t.province === prov) &&
+                (cat === 'All' || t.category === cat)
+            );
+            
+            if (filtered.length === 0) {
+                document.getElementById('tendersContent').innerHTML = '<div class="empty-state"><h3>No tenders match your filters</h3></div>';
+                return;
+            }
+
+            // Sort: New first, then Open
+            filtered.sort((a, b) => {
+                if (a.type === 'New' && b.type !== 'New') return -1;
+                if (b.type === 'New' && a.type !== 'New') return 1;
+                return 0;
+            });
+
+            const html = filtered.map(t => `
+                <div class="tender-card ${t.type === 'Open' ? 'is-open' : ''}">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px;">
+                        <h3 style="font-size:16px; font-weight:700;">
+                            <span class="badge ${t.type === 'New' ? 'badge-new' : 'badge-open'}">${t.type}</span>
+                            ${escapeHtml(t.title)}
+                        </h3>
+                    </div>
+                    <p style="font-size:14px; color:var(--text-secondary); line-height:1.6;">${escapeHtml(t.description)}</p>
+                    <div class="tender-meta">
+                        <span>📍 ${escapeHtml(t.province)}</span>
+                        <span>🏷️ ${escapeHtml(t.category)}</span>
+                        <span>⏳ Closes: ${escapeHtml(t.closing_date || 'N/A')}</span>
+                    </div>
+                    <a href="${escapeHtml(t.link)}" target="_blank" class="opp-link">View Tender ↗</a>
+                </div>
+            `).join('');
+            
+            document.getElementById('tendersContent').innerHTML = html;
+        }
+
+        async function loadReports() {
             try {
                 const res = await fetch(API_BASE);
                 const files = await res.json();
@@ -405,7 +604,15 @@
             try {
                 const res = await fetch(`${API_BASE}/${fileName}`);
                 const data = await res.json();
-                const md = atob(data.content);
+                
+                // Fixed UTF-8 decoding for Base64 from Github API
+                const binaryStr = atob(data.content.replace(/\n/g, ''));
+                const bytes = new Uint8Array(binaryStr.length);
+                for (let i = 0; i < binaryStr.length; i++) {
+                    bytes[i] = binaryStr.charCodeAt(i);
+                }
+                const md = new TextDecoder('utf-8').decode(bytes);
+                
                 renderReport(md);
             } catch (e) {
                 content.innerHTML = '<div class="empty-state"><h3>Error loading report</h3><p>Please try again.</p></div>';
