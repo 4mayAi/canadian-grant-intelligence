@@ -2,14 +2,14 @@ name: Daily Canadian Grants Scraper
 
 on:
   schedule:
-    - cron: '0 8 * * *'
-  workflow_dispatch:
+    - cron: '0 8 * * *' # 8:00 AM UTC Daily
+  workflow_dispatch: # Manual trigger
 
 permissions:
   contents: write
 
 jobs:
-  scraper_job:
+  scrape:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -21,7 +21,8 @@ jobs:
           python-version: '3.10'
 
       - name: Install Dependencies
-        run: pip install requests beautifulsoup4 feedparser python-dateutil
+        run: |
+          pip install requests beautifulsoup4 feedparser python-dateutil
 
       - name: Run Scraper
         env:
@@ -30,8 +31,30 @@ jobs:
 
       - name: Commit and Push Report
         run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
-          git add reports/grants/
-          git commit -m 'Automated Daily Grant Report' || exit 0
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add reports/
+          git commit -m "Automated Daily Grant Report: $(date +'%Y-%m-%d')" || exit 0
           git push
+
+      - name: Send Email Digest
+        if: hashFiles('reports/linkedin/latest_post.md') != ''
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.EMAIL_ADDRESS }}
+          password: ${{ secrets.EMAIL_APP_PASSWORD }}
+          subject: "🇨🇦 Grant Intelligence — $(date +'%b %d, %Y')"
+          to: ${{ secrets.EMAIL_ADDRESS }}
+          from: Canadian Grant Intelligence <${{ secrets.EMAIL_ADDRESS }}>
+          body: |
+            Your daily Canadian Grant Intelligence digest is ready.
+
+            View the full dashboard: https://emurira.github.io/canadian-grant-intelligence/
+
+            ---
+            LinkedIn Post (copy-paste ready):
+          html_body: file://reports/linkedin/latest_post.md
+          convert_markdown: true
