@@ -6,6 +6,34 @@ import time
 import csv
 import io
 import json
+from azure.storage.blob import BlobServiceClient, ContentSettings
+
+def upload_to_azure(data, blob_name):
+    """Uploads data to Azure Blob Storage using connection string from environment."""
+    connection_string = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
+    if not connection_string:
+        print("AZURE_STORAGE_CONNECTION_STRING not found. Skipping Azure upload.")
+        return False
+    
+    try:
+        blob_service_client = BlobServiceClient.from_connection_string(connection_string)
+        container_name = "data"
+        
+        blob_client = blob_service_client.get_blob_client(container=container_name, blob=blob_name)
+        
+        # Prepare data for upload
+        json_data = json.dumps(data, ensure_ascii=False, indent=2)
+        
+        # Set content type to application/json so browser renders/fetches it correctly
+        content_settings = ContentSettings(content_type='application/json')
+        
+        print(f"Uploading {blob_name} to Azure container '{container_name}'...")
+        blob_client.upload_blob(json_data, overwrite=True, content_settings=content_settings)
+        print(f"Successfully uploaded {blob_name} to Azure.")
+        return True
+    except Exception as e:
+        print(f"Failed to upload to Azure: {e}")
+        return False
 
 # Target Feeds
 # We removed brittle provincial feeds to focus purely on high-signal federal data and executive updates.
@@ -235,6 +263,9 @@ def fetch_canadabuys_csvs():
     with open("data/tenders.json", "w", encoding="utf-8") as f:
         json.dump(tenders, f, ensure_ascii=False, indent=2)
     print(f"Saved {len(tenders)} CanadaBuys tenders to data/tenders.json")
+    
+    # Surgical Automation: Upload to Azure for the live dashboard
+    upload_to_azure(tenders, "tenders.json")
     
     return tenders
 

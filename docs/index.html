@@ -461,7 +461,7 @@
         const REPO = 'emurira/canadian-grant-intelligence';
         const API_BASE = `https://api.github.com/repos/${REPO}/contents/reports/grants`;
         // Using raw.githubusercontent for data to avoid API rate limits on large JSON
-        const TENDERS_URL = `https://raw.githubusercontent.com/${REPO}/main/data/tenders.json`;
+        const TENDERS_URL = `https://canadiangrants.blob.core.windows.net/data/tenders.json`;
 
         let reports = [];
         let allTenders = [];

@@ -22,18 +22,19 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install requests feedparser python-dateutil
+          pip install requests feedparser python-dateutil azure-storage-blob
 
       - name: Run Scraper
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
         run: python scripts/fetch_canadian_grants.py
 
       - name: Commit and Push Report
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add reports/ data/
+          git add reports/
           git commit -m "Automated Daily Grant Report: $(date +'%Y-%m-%d')" || exit 0
           git push
 
