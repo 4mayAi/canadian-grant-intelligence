@@ -592,7 +592,7 @@
                         </div>
                         <div style="flex: 1;">
                             <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Category</div>
-                            <div style="color: var(--text-primary); font-weight: 500;">🏷️ ${escapeHtml(t.category)}</div>
+                            <div style="color: var(--text-primary); font-weight: 500;">🏷️ ${escapeHtml(getCategoryLabel(t.category))}</div>
                         </div>
                         <div style="flex: 1; text-align: right;">
                             <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Deadline</div>
@@ -607,6 +607,21 @@
             }).join('');
             
             document.getElementById('tendersContent').innerHTML = html;
+        }
+
+        function getCategoryLabel(code) {
+            if (!code) return 'Uncategorized';
+            const cleanCode = code.replace(/^\*+/, '').toLowerCase().trim();
+            const map = {
+                'cnst srv gd': 'Construction Services & Goods',
+                'gd': 'Goods',
+                'srv': 'Services',
+                'cnst': 'Construction',
+                'cnst srv': 'Construction Services',
+                'cnst gd': 'Construction Goods',
+                'srv gd': 'Services & Goods'
+            };
+            return map[cleanCode] || code;
         }
 
         async function loadReports() {
@@ -692,19 +707,19 @@
                 `;
             }
 
-            // Split on ## headings (primary sections in both formats)
-            const allSections = md.split(/^## /m).slice(1);
-            const filtered = allSections.filter(s => 
-                !s.match(/^[^\n]*LinkedIn Post/) && !s.startsWith('📊') && !s.startsWith('📋')
-            );
-
-            filtered.forEach(section => {
-                html += renderSection(section);
+            // Split on ## or ### headings that are followed by a Source line
+            const allSections = md.split(/^#{2,3}\s+(?=.*\n\*\*Source:\*\*)/m).slice(1);
+            
+            let insightsHtml = '';
+            allSections.forEach(section => {
+                insightsHtml += renderSection(section);
             });
 
-            if (!html) {
-                html = '<div class="empty-state"><h3>Report is empty</h3><p>No opportunities matched today\'s scan.</p></div>';
+            if (!insightsHtml) {
+                insightsHtml = '<div class="empty-state" style="margin-top: 20px;"><h3>No Actionable Insights</h3><p>Today\'s scan yielded non-strategic or PR content which has been filtered out.</p></div>';
             }
+
+            html += insightsHtml;
 
             content.innerHTML = html;
         }
