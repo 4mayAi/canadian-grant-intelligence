@@ -337,14 +337,19 @@
         .insight-content strong { color: var(--text-primary); }
         .insight-content blockquote {
             border-left: 3px solid var(--accent-1);
-            padding-left: 16px;
-            margin: 12px 0;
-            color: var(--text-primary);
+            padding: 16px;
+            margin: 16px 0;
+            background: rgba(99, 102, 241, 0.05);
+            border-radius: 0 8px 8px 0;
+            color: #fff;
             font-style: italic;
+            font-size: 15px;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
         }
         .insight-content a {
             color: var(--accent-2);
             text-decoration: none;
+            font-weight: 500;
         }
         .insight-content a:hover { text-decoration: underline; }
         .opp-link {
@@ -427,11 +432,19 @@
 
         <div id="tendersView">
             <div class="filters">
+                <select id="timeFilter" class="filter-select" onchange="renderTenders()">
+                    <option value="All">All Time</option>
+                    <option value="24h">Last 24 Hours</option>
+                </select>
                 <select id="provinceFilter" class="filter-select" onchange="renderTenders()">
                     <option value="All">All Provinces</option>
                 </select>
                 <select id="categoryFilter" class="filter-select" onchange="renderTenders()">
                     <option value="All">All Categories</option>
+                </select>
+                <select id="sortFilter" class="filter-select" onchange="renderTenders()">
+                    <option value="newest">Sort: Newest First</option>
+                    <option value="closing">Sort: Closing Soonest</option>
                 </select>
             </div>
             <div id="tendersContent">
@@ -515,43 +528,83 @@
         }
 
         function renderTenders() {
+            const time = document.getElementById('timeFilter').value;
             const prov = document.getElementById('provinceFilter').value;
             const cat = document.getElementById('categoryFilter').value;
+            const sort = document.getElementById('sortFilter').value;
             
-            let filtered = allTenders.filter(t => 
-                (prov === 'All' || t.province === prov) &&
-                (cat === 'All' || t.category === cat)
-            );
+            const now = new Date();
+            
+            let filtered = allTenders.filter(t => {
+                if (prov !== 'All' && t.province !== prov) return false;
+                if (cat !== 'All' && t.category !== cat) return false;
+                if (time === '24h' && t.type !== 'New') return false;
+                return true;
+            });
             
             if (filtered.length === 0) {
                 document.getElementById('tendersContent').innerHTML = '<div class="empty-state"><h3>No tenders match your filters</h3></div>';
                 return;
             }
 
-            // Sort: New first, then Open
+            // Sorting
             filtered.sort((a, b) => {
-                if (a.type === 'New' && b.type !== 'New') return -1;
-                if (b.type === 'New' && a.type !== 'New') return 1;
-                return 0;
+                if (sort === 'closing') {
+                    if (!a.closing_date) return 1;
+                    if (!b.closing_date) return -1;
+                    return new Date(a.closing_date) - new Date(b.closing_date);
+                } else {
+                    if (a.type === 'New' && b.type !== 'New') return -1;
+                    if (b.type === 'New' && a.type !== 'New') return 1;
+                    return 0;
+                }
             });
 
-            const html = filtered.map(t => `
+            const html = filtered.map(t => {
+                let deadlineBadge = '';
+                if (t.closing_date) {
+                    const closing = new Date(t.closing_date);
+                    const daysLeft = Math.ceil((closing - now) / (1000 * 60 * 60 * 24));
+                    if (daysLeft < 0) {
+                        deadlineBadge = `<span class="badge" style="background:rgba(239,68,68,0.1); color:#ef4444; border:1px solid #ef4444;">Closed</span>`;
+                    } else if (daysLeft <= 7) {
+                        deadlineBadge = `<span class="badge" style="background:rgba(239,68,68,0.1); color:#ef4444; border:1px solid #ef4444;">Closing in ${daysLeft} days</span>`;
+                    } else if (daysLeft <= 30) {
+                        deadlineBadge = `<span class="badge" style="background:rgba(234,179,8,0.1); color:#eab308; border:1px solid #eab308;">${daysLeft} days left</span>`;
+                    } else {
+                        deadlineBadge = `<span class="badge" style="background:rgba(34,197,94,0.1); color:#22c55e; border:1px solid #22c55e;">${daysLeft} days left</span>`;
+                    }
+                }
+
+                return `
                 <div class="tender-card ${t.type === 'Open' ? 'is-open' : ''}">
-                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px;">
-                        <h3 style="font-size:16px; font-weight:700;">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:12px;">
+                        <h3 style="font-size:16px; font-weight:700; line-height: 1.4;">
                             <span class="badge ${t.type === 'New' ? 'badge-new' : 'badge-open'}">${t.type}</span>
                             ${escapeHtml(t.title)}
                         </h3>
                     </div>
-                    <p style="font-size:14px; color:var(--text-secondary); line-height:1.6;">${escapeHtml(t.description)}</p>
-                    <div class="tender-meta">
-                        <span>📍 ${escapeHtml(t.province)}</span>
-                        <span>🏷️ ${escapeHtml(t.category)}</span>
-                        <span>⏳ Closes: ${escapeHtml(t.closing_date || 'N/A')}</span>
+                    <p style="font-size:14px; color:var(--text-secondary); line-height:1.6; margin-bottom: 16px;">${escapeHtml(t.description)}</p>
+                    <div class="tender-meta" style="display: flex; gap: 16px; align-items: center; background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px;">
+                        <div style="flex: 1;">
+                            <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Location</div>
+                            <div style="color: var(--text-primary); font-weight: 500;">📍 ${escapeHtml(t.province)}</div>
+                        </div>
+                        <div style="flex: 1;">
+                            <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Category</div>
+                            <div style="color: var(--text-primary); font-weight: 500;">🏷️ ${escapeHtml(t.category)}</div>
+                        </div>
+                        <div style="flex: 1; text-align: right;">
+                            <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Deadline</div>
+                            <div style="margin-top: 4px;">${deadlineBadge || 'N/A'}</div>
+                        </div>
                     </div>
-                    <a href="${escapeHtml(t.link)}" target="_blank" class="opp-link">View Tender ↗</a>
+                    <div style="margin-top: 16px; text-align: right;">
+                        <a href="${escapeHtml(t.link)}" target="_blank" class="opp-link">View Tender Docs ↗</a>
+                    </div>
                 </div>
-            `).join('');
+                `;
+            }).join('');
             
             document.getElementById('tendersContent').innerHTML = html;
         }
@@ -667,15 +720,15 @@
             const source = metaMatch ? metaMatch[1] : '';
             const date = metaMatch ? metaMatch[2] : '';
 
-            // Extract insight — handle both ### Gemini Insight and #### Gemini Insight
-            const insightMatch = section.match(/#{2,4}\s*Gemini Insight\n([\s\S]*?)(?=\n\[Link to Opportunity\]|$)/);
-            const insight = insightMatch ? insightMatch[1].trim() : '';
+            // Extract content body (everything between Date and Link)
+            const contentBodyMatch = section.match(/\*\*Date:\*\*\s*\S+\n\n([\s\S]*?)(?=\n\[Link to Opportunity\]|$)/);
+            const contentBody = contentBodyMatch ? contentBodyMatch[1].trim() : '';
 
             // Extract link
             const linkMatch = section.match(/\[Link to Opportunity\]\(([^)]+)\)/);
             const link = linkMatch ? linkMatch[1] : '';
 
-            if (!source && !insight && !link) return '';
+            if (!source && !contentBody && !link) return '';
 
             return `
                 <div class="report-section">
@@ -684,7 +737,7 @@
                         ${source ? `<span>📡 ${escapeHtml(source)}</span>` : ''}
                         ${date ? `<span>📅 ${escapeHtml(date)}</span>` : ''}
                     </div>
-                    <div class="insight-content">${simpleMarkdown(insight)}</div>
+                    <div class="insight-content">${simpleMarkdown(contentBody)}</div>
                     ${link ? `<a class="opp-link" href="${escapeHtml(link)}" target="_blank" rel="noopener">View Original ↗</a>` : ''}
                 </div>
             `;
@@ -707,9 +760,18 @@
                 .replace(/\n/g, '<br>');
         }
 
+        function decodeHtml(html) {
+            if (!html) return '';
+            const txt = document.createElement("textarea");
+            txt.innerHTML = html;
+            return txt.value;
+        }
+
         function escapeHtml(text) {
+            if (!text) return '';
+            const decoded = decodeHtml(text);
             const d = document.createElement('div');
-            d.textContent = text;
+            d.textContent = decoded;
             return d.innerHTML;
         }
 

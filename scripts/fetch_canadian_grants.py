@@ -6,6 +6,7 @@ import time
 import csv
 import io
 import json
+import html
 from azure.storage.blob import BlobServiceClient, ContentSettings
 
 def upload_to_azure(data, blob_name):
@@ -53,15 +54,20 @@ DASHBOARD_URL = "https://emurira.github.io/canadian-grant-intelligence/"
 def get_gemini_insight(content):
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
-        return "Insight generation skipped: GEMINI_API_KEY not found."
+        return {"linkedin_hook": "", "strategic_value": "Insight generation skipped: GEMINI_API_KEY not found.", "co_bidding_opportunity": ""}
     
     url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash-lite:generateContent?key={api_key}"
     
     prompt = f"""
-    Analyze the following Canadian government announcement/tender and provide:
-    1. A 'LinkedIn Hook': A high-impact opening line to drive traffic.
-    2. Strategic Value: Why this matters for Canadian businesses.
-    3. Co-Bidding Opportunity: Identify if this RFP/grant favors consortia or B2B partnerships.
+    Analyze the following Canadian government announcement/tender.
+    You MUST respond with a raw JSON object and nothing else. No markdown formatting, no backticks.
+    
+    CRITICAL: If the content is just a routine schedule, placeholder, or lacks strategic business value, you MUST set the strategic_value field EXACTLY to "No insight available". Do not write anything else in that field.
+    
+    The JSON object must have exactly these three keys:
+    "linkedin_hook": "A high-impact opening line to drive traffic (include an emoji).",
+    "strategic_value": "Why this matters for Canadian businesses, highlighting new markets or investments.",
+    "co_bidding_opportunity": "Identify if this favors consortia or B2B partnerships and why."
     
     Content: {content[:3000]}
     """
@@ -90,22 +96,28 @@ def get_gemini_insight(content):
             time.sleep(4)
             
             if 'candidates' in data and data['candidates']:
-                return data['candidates'][0]['content']['parts'][0]['text']
+                text = data['candidates'][0]['content']['parts'][0]['text']
+                # Clean up potential markdown code fences from the LLM response
+                text = text.replace("```json", "").replace("```", "").strip()
+                try:
+                    return json.loads(text)
+                except json.JSONDecodeError:
+                    return {"linkedin_hook": "", "strategic_value": f"Failed to parse LLM JSON: {text}", "co_bidding_opportunity": ""}
             else:
                 feedback = data.get('promptFeedback', {}).get('blockReason', 'Unknown reason')
-                return f"Insight generation blocked by safety filters: {feedback}"
+                return {"linkedin_hook": "", "strategic_value": f"Insight generation blocked by safety filters: {feedback}", "co_bidding_opportunity": ""}
                 
         except requests.exceptions.RequestException as e:
             try:
                 error_details = response.json()
                 err_msg = error_details.get('error', {}).get('message', str(e))
-                return f"Gemini API Error ({response.status_code}): {err_msg}"
+                return {"linkedin_hook": "", "strategic_value": f"Gemini API Error ({response.status_code}): {err_msg}", "co_bidding_opportunity": ""}
             except:
-                return f"Request error: {str(e)}"
+                return {"linkedin_hook": "", "strategic_value": f"Request error: {str(e)}", "co_bidding_opportunity": ""}
         except Exception as e:
-            return f"Insight error: {str(e)}"
+            return {"linkedin_hook": "", "strategic_value": f"Insight error: {str(e)}", "co_bidding_opportunity": ""}
     
-    return "Gemini API Error: Rate limited after max retries."
+    return {"linkedin_hook": "", "strategic_value": "Gemini API Error: Rate limited after max retries.", "co_bidding_opportunity": ""}
 
 
 def generate_linkedin_post(results):
@@ -203,13 +215,50 @@ def fetch_canadabuys_csvs():
             for row in reader:
                 # Extract clean data from CSV fields
                 title = row.get("title-titre-eng", "")
-                desc = row.get("tenderDescription-descriptionAppelOffres-eng", "")
+                desc = html.unescape(row.get("tenderDescription-descriptionAppelOffres-eng", ""))
                 link = row.get("noticeURL-URLavis-eng", "")
                 close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
-                province = row.get("regionsOfDelivery-regionsLivraison-eng", "National")
+                province = row.get("regionsOfDelivery-regionsLivraison-eng", "").strip()
                 category = row.get("procurementCategory-categorieApprovisionnement", "Uncategorized")
                 
-                if title and link:
+                # Province fallback
+                if not province:
+                    prov_keywords = {
+                        "Ontario": ["ontario", "toronto", "ottawa"],
+                        "British Columbia": ["british columbia", "vancouver", "victoria"],
+                        "Alberta": ["alberta", "calgary", "edmonton"],
+                        "Quebec": ["quebec", "québec", "montreal", "montréal"],
+                        "Nova Scotia": ["nova scotia", "halifax"],
+                        "New Brunswick": ["new brunswick"],
+                        "Manitoba": ["manitoba", "winnipeg"],
+                        "Saskatchewan": ["saskatchewan", "regina", "saskatoon"],
+                        "PEI": ["prince edward island", "pei"],
+                        "Newfoundland": ["newfoundland", "st. john's", "st johns"],
+                        "National": ["national", "canada-wide", "federal"]
+                    }
+                    import re
+                    text_to_search = f" {title} {desc} ".lower()
+                    for prov_name, keywords in prov_keywords.items():
+                        if any(re.search(rf"\b{re.escape(kw)}\b", text_to_search) for kw in keywords):
+                            province = prov_name
+                            break
+                    if not province:
+                        province = "National"
+                        
+                # Date filtering
+                is_valid_date = True
+                if close_date:
+                    try:
+                        dt = datetime.strptime(close_date[:10], "%Y-%m-%d")
+                        now = datetime.now()
+                        if dt < now - timedelta(days=1):
+                            is_valid_date = False
+                        if dt > now + timedelta(days=730):
+                            is_valid_date = False
+                    except:
+                        pass
+                
+                if title and link and is_valid_date:
                     tenders.append({
                         "type": "New",
                         "title": title[:200], # Trim excessively long titles
@@ -238,13 +287,50 @@ def fetch_canadabuys_csvs():
                     break
                     
                 title = row.get("title-titre-eng", "")
-                desc = row.get("tenderDescription-descriptionAppelOffres-eng", "")
+                desc = html.unescape(row.get("tenderDescription-descriptionAppelOffres-eng", ""))
                 link = row.get("noticeURL-URLavis-eng", "")
                 close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
-                province = row.get("regionsOfDelivery-regionsLivraison-eng", "National")
+                province = row.get("regionsOfDelivery-regionsLivraison-eng", "").strip()
                 category = row.get("procurementCategory-categorieApprovisionnement", "Uncategorized")
                 
-                if title and link:
+                # Province fallback
+                if not province:
+                    prov_keywords = {
+                        "Ontario": ["ontario", "toronto", "ottawa"],
+                        "British Columbia": ["british columbia", "vancouver", "victoria"],
+                        "Alberta": ["alberta", "calgary", "edmonton"],
+                        "Quebec": ["quebec", "québec", "montreal", "montréal"],
+                        "Nova Scotia": ["nova scotia", "halifax"],
+                        "New Brunswick": ["new brunswick"],
+                        "Manitoba": ["manitoba", "winnipeg"],
+                        "Saskatchewan": ["saskatchewan", "regina", "saskatoon"],
+                        "PEI": ["prince edward island", "pei"],
+                        "Newfoundland": ["newfoundland", "st. john's", "st johns"],
+                        "National": ["national", "canada-wide", "federal"]
+                    }
+                    import re
+                    text_to_search = f" {title} {desc} ".lower()
+                    for prov_name, keywords in prov_keywords.items():
+                        if any(re.search(rf"\b{re.escape(kw)}\b", text_to_search) for kw in keywords):
+                            province = prov_name
+                            break
+                    if not province:
+                        province = "National"
+                        
+                # Date filtering
+                is_valid_date = True
+                if close_date:
+                    try:
+                        dt = datetime.strptime(close_date[:10], "%Y-%m-%d")
+                        now = datetime.now()
+                        if dt < now - timedelta(days=1):
+                            is_valid_date = False
+                        if dt > now + timedelta(days=730):
+                            is_valid_date = False
+                    except:
+                        pass
+                
+                if title and link and is_valid_date:
                     tenders.append({
                         "type": "Open",
                         "title": title[:200],
@@ -258,11 +344,7 @@ def fetch_canadabuys_csvs():
         except Exception as e:
             print(f"Error parsing open tenders CSV: {e}")
 
-    # Save to JSON for the UI to consume directly
-    os.makedirs("data", exist_ok=True)
-    with open("data/tenders.json", "w", encoding="utf-8") as f:
-        json.dump(tenders, f, ensure_ascii=False, indent=2)
-    print(f"Saved {len(tenders)} CanadaBuys tenders to data/tenders.json")
+    print(f"Parsed {len(tenders)} CanadaBuys tenders.")
     
     # Surgical Automation: Upload to Azure for the live dashboard
     upload_to_azure(tenders, "tenders.json")
@@ -284,10 +366,17 @@ def fetch_pmo_news():
                 if pub_date < lookback_limit:
                     continue
             
-            text_to_scan = (entry.title + " " + getattr(entry, 'summary', '')).lower()
-            if any(kw in text_to_scan for kw in KEYWORDS):
+            text_to_search = (entry.title + " " + getattr(entry, 'summary', '')).lower()
+            if any(kw in text_to_search for kw in KEYWORDS):
                 print(f"Match found: {entry.title}")
-                insight = get_gemini_insight(text_to_scan)
+                insight = get_gemini_insight(text_to_search)
+                
+                # Check for API failure or lack of value to prevent empty/useless reports
+                strat_value = insight.get("strategic_value", "")
+                if "API Error" in strat_value or "blocked" in strat_value or "not found" in strat_value or "No insight available" in strat_value or "Failed to parse" in strat_value:
+                    print(f"Skipping due to lack of insight: {strat_value}")
+                    continue
+                    
                 reports.append({
                     "source": name,
                     "title": entry.title,
@@ -333,9 +422,20 @@ def generate_markdown_report(results):
     content += "## 📊 Detailed Analysis\n\n"
 
     for item in results:
-        content += f"### {item['title']}\n"
+        content += f"## {item['title']}\n"
         content += f"**Source:** {item['source']} | **Date:** {item['date']}\n\n"
-        content += f"#### Gemini Insight\n{item['insight']}\n\n"
+        
+        insight_obj = item['insight']
+        if isinstance(insight_obj, dict):
+            if insight_obj.get("linkedin_hook"):
+                content += f"### 1. LinkedIn Hook:\n> {insight_obj['linkedin_hook']}\n\n"
+            content += f"### 2. Strategic Value for Canadian Businesses:\n{insight_obj.get('strategic_value', 'No analysis available.')}\n\n"
+            if insight_obj.get("co_bidding_opportunity"):
+                content += f"### 3. Co-Bidding Opportunity:\n{insight_obj['co_bidding_opportunity']}\n\n"
+        else:
+            # Fallback if somehow a string was returned
+            content += f"### Strategic Insight\n{insight_obj}\n\n"
+            
         content += f"[Link to Opportunity]({item['link']})\n\n"
         content += "---\n\n"
         
