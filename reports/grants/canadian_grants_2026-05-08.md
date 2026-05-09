@@ -25,7 +25,7 @@ Full analysis with co-bidding strategies and strategic breakdowns 👉 https://e
 ### Prime Minister Carney speaks with President of the Republic of Korea Lee Jae Myung
 **Source:** PMO_News | **Date:** 2026-05-08
 
-#### Gemini Insight
+#### Insight
 This is an interesting announcement, but it's important to note that it doesn't appear to be a government *tender* or *grant* in the traditional sense. Instead, it's a readout of a diplomatic discussion between the Prime Minister of Canada and the President of the Republic of Korea. Therefore, the analysis will focus on the *implications* of this discussion for Canadian businesses.
 
 Here's an analysis based on that understanding:
@@ -73,7 +73,7 @@ However, the *nature of the discussions* strongly **suggests that consortia and 
 ### Prime Minister Carney welcomes the largest order of commercial aircraft in Canadian history
 **Source:** PMO_News | **Date:** 2026-05-06
 
-#### Gemini Insight
+#### Insight
 Here's an analysis of the Canadian government announcement:
 
 ## Analysis of Airbus/AirAsia Aircraft Order Announcement
@@ -113,7 +113,7 @@ Here's why:
 ### Ontario Investing More Than $5 Million to Unlock New Markets for Biofuel
 **Source:** Ontario_News | **Date:** 2026-05-08
 
-#### Gemini Insight
+#### Insight
 Let's break down this Ontario government announcement into actionable insights.
 
 ## Analysis of Ontario's Biofuel Investment Announcement
@@ -168,7 +168,7 @@ Here's why:
 ### Ontario Investing Over $3 Million to Support Sport and Recreation in Sault Ste. Marie
 **Source:** Ontario_News | **Date:** 2026-05-08
 
-#### Gemini Insight
+#### Insight
 Here's an analysis of the Ontario government announcement, tailored for a LinkedIn audience:
 
 ## Analysis of Ontario Government Announcement:
@@ -224,7 +224,7 @@ Here's why:
 ### Ontario Invests $1.5 Million to Protect Great Lakes and Drive Local Innovation
 **Source:** Ontario_News | **Date:** 2026-05-07
 
-#### Gemini Insight
+#### Insight
 Here's an analysis of the Ontario government announcement:
 
 ## Analysis of Ontario Government Announcement: "$1.5 Million Investment for Great Lakes Protection and Local Innovation"
