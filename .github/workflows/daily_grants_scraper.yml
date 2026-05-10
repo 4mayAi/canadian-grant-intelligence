@@ -39,7 +39,7 @@ jobs:
           git push
 
       - name: Send Email Digest
-        if: hashFiles('reports/linkedin/latest_post.md') != ''
+        if: success()
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com

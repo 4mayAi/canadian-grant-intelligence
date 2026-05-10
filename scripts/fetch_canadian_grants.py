@@ -387,6 +387,40 @@ def fetch_pmo_news():
     
     return reports
 
+def upload_pmo_json(results, linkedin_post_text):
+    """Serialize PMO insights as structured JSON and upload to Azure Blob Storage."""
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    
+    insights = []
+    for item in results:
+        insight_obj = item.get("insight", {})
+        if not isinstance(insight_obj, dict):
+            insight_obj = {"strategic_value": str(insight_obj)}
+        
+        insights.append({
+            "title": item.get("title", ""),
+            "source": item.get("source", ""),
+            "date": item.get("date", ""),
+            "link": item.get("link", ""),
+            "linkedin_hook": insight_obj.get("linkedin_hook", ""),
+            "strategic_value": insight_obj.get("strategic_value", ""),
+            "co_bidding_opportunity": insight_obj.get("co_bidding_opportunity", "")
+        })
+    
+    pmo_data = {
+        "generated_at": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "report_date": date_str,
+        "linkedin_post": linkedin_post_text or "",
+        "insights": insights
+    }
+    
+    uploaded = upload_to_azure(pmo_data, "pmo_insights.json")
+    if uploaded:
+        print(f"PMO insights JSON uploaded to Azure ({len(insights)} insights).")
+    else:
+        print("PMO insights JSON upload to Azure failed or skipped.")
+
+
 def generate_markdown_report(results):
     if not results:
         print("No new grants/tenders found.")
@@ -411,7 +445,7 @@ def generate_markdown_report(results):
         content += linkedin_post + "\n\n"
         content += "---\n\n"
 
-        # Write standalone LinkedIn post file
+        # Write standalone LinkedIn post file for email digest
         with open("reports/linkedin/latest_post.md", "w", encoding="utf-8") as lf:
             lf.write(f"# LinkedIn Post - {date_str}\n\n")
             lf.write(linkedin_post + "\n")
@@ -443,10 +477,14 @@ def generate_markdown_report(results):
         f.write(content)
     print(f"Report generated: {filename}")
 
+    # Upload structured JSON to Azure for the dashboard
+    upload_pmo_json(results, linkedin_post)
+
+
 if __name__ == "__main__":
     # Fetch data
     tenders = fetch_canadabuys_csvs()
     pmo_reports = fetch_pmo_news()
     
-    # Generate the markdown report for PMO news
+    # Generate the markdown report for PMO news (also uploads JSON to Azure)
     generate_markdown_report(pmo_reports)

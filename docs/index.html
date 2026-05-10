@@ -290,31 +290,69 @@
         }
 
         /* Report Content */
-        .report-section {
+        details.report-section {
             background: var(--bg-card);
             border: 1px solid var(--border);
             border-radius: var(--radius);
-            padding: 28px;
             margin-bottom: 20px;
             backdrop-filter: blur(12px);
             transition: border-color 0.3s;
         }
-        .report-section:hover {
+        details.report-section:hover {
             border-color: rgba(99, 102, 241, 0.35);
         }
-        .report-section h3 {
+        .report-summary {
+            padding: 28px;
+            cursor: pointer;
+            list-style: none; /* Hide default triangle in most browsers */
+            outline: none;
+            position: relative;
+        }
+        .report-summary::-webkit-details-marker {
+            display: none; /* Hide default triangle in Safari/older Chrome */
+        }
+        .report-summary h3 {
             font-size: 18px;
             font-weight: 700;
             margin-bottom: 6px;
+            padding-right: 24px; /* Space for the toggle icon */
+        }
+        /* Custom toggle icon */
+        .report-summary::after {
+            content: '+';
+            position: absolute;
+            top: 28px;
+            right: 28px;
+            font-size: 28px;
+            font-weight: 400;
+            color: var(--accent-1);
+            line-height: 1;
+        }
+        details[open].report-section .report-summary::after {
+            content: '−';
+            top: 24px;
         }
         .report-meta {
             font-size: 12px;
             color: var(--text-muted);
-            margin-bottom: 16px;
             display: flex;
             gap: 16px;
         }
-        .report-meta span {
+        .hook-subtitle {
+            font-size: 14px;
+            font-style: italic;
+            color: var(--accent-2);
+            margin: 4px 0 8px;
+            padding-right: 24px;
+            line-height: 1.5;
+        }
+        /* Styles for the expanded content area */
+        .insight-content-wrapper {
+            padding: 0 28px 28px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            margin-top: 4px;
+            padding-top: 20px;
+        }
             display: flex;
             align-items: center;
             gap: 4px;
@@ -475,6 +513,7 @@
         const API_BASE = `https://api.github.com/repos/${REPO}/contents/reports/grants`;
         // Using raw.githubusercontent for data to avoid API rate limits on large JSON
         const TENDERS_URL = `https://canadiangrants.blob.core.windows.net/data/tenders.json`;
+        const PMO_INSIGHTS_URL = `https://canadiangrants.blob.core.windows.net/data/pmo_insights.json`;
 
         let reports = [];
         let allTenders = [];
@@ -495,7 +534,7 @@
 
         async function init() {
             loadTenders();
-            loadReports();
+            loadPmoInsights();
         }
 
         async function loadTenders() {
@@ -624,7 +663,85 @@
             return map[cleanCode] || code;
         }
 
-        async function loadReports() {
+        // ── Primary PMO Data Path: Azure JSON ──
+        async function loadPmoInsights() {
+            const content = document.getElementById('reportContent');
+            try {
+                const res = await fetch(PMO_INSIGHTS_URL);
+                if (!res.ok) throw new Error(`Azure fetch failed: ${res.status}`);
+                const data = await res.json();
+                renderPmoInsights(data);
+            } catch (e) {
+                console.warn('Azure PMO fetch failed, falling back to GitHub markdown:', e);
+                loadReports_legacy();
+            }
+        }
+
+        function renderPmoInsights(data) {
+            const content = document.getElementById('reportContent');
+            const nav = document.getElementById('reportNav');
+            let html = '';
+
+            // Show the report date as a nav badge
+            if (data.report_date) {
+                nav.innerHTML = `<button class="report-btn active">${formatDate(data.report_date)}</button>`;
+            }
+
+            // LinkedIn Post card
+            if (data.linkedin_post) {
+                html += `
+                    <div class="linkedin-card">
+                        <div class="linkedin-card-header">
+                            <h2>📋 Today's LinkedIn Post</h2>
+                            <button class="copy-btn" onclick="copyPost(this)">Copy Post</button>
+                        </div>
+                        <div class="linkedin-body" id="linkedinPost">${escapeHtml(data.linkedin_post)}</div>
+                    </div>
+                `;
+            }
+
+            // Insight cards from structured JSON
+            let insightsHtml = '';
+            if (data.insights && data.insights.length > 0) {
+                data.insights.forEach(insight => {
+                    // Build the expanded content body
+                    let bodyHtml = '';
+                    if (insight.strategic_value) {
+                        bodyHtml += `<h4>Strategic Value for Canadian Businesses</h4><p>${escapeHtml(insight.strategic_value)}</p>`;
+                    }
+                    if (insight.co_bidding_opportunity) {
+                        bodyHtml += `<h4>Co-Bidding Opportunity</h4><p>${escapeHtml(insight.co_bidding_opportunity)}</p>`;
+                    }
+
+                    insightsHtml += `
+                        <details class="report-section">
+                            <summary class="report-summary">
+                                <h3>${escapeHtml(insight.title)}</h3>
+                                ${insight.linkedin_hook ? `<div class="hook-subtitle">${escapeHtml(insight.linkedin_hook)}</div>` : ''}
+                                <div class="report-meta">
+                                    ${insight.source ? `<span>📡 ${escapeHtml(insight.source)}</span>` : ''}
+                                    ${insight.date ? `<span>📅 ${escapeHtml(insight.date)}</span>` : ''}
+                                </div>
+                            </summary>
+                            <div class="insight-content-wrapper">
+                                <div class="insight-content">${bodyHtml || '<p style="color: var(--text-muted)">No insight available.</p>'}</div>
+                                ${insight.link ? `<a class="opp-link" href="${escapeHtml(insight.link)}" target="_blank" rel="noopener">View Original ↗</a>` : ''}
+                            </div>
+                        </details>
+                    `;
+                });
+            }
+
+            if (!insightsHtml) {
+                insightsHtml = '<div class="empty-state" style="margin-top: 20px;"><h3>No Actionable Insights</h3><p>Today\'s scan yielded non-strategic or PR content which has been filtered out.</p></div>';
+            }
+
+            html += insightsHtml;
+            content.innerHTML = html;
+        }
+
+        // ── Fallback: Legacy GitHub Markdown Path ──
+        async function loadReports_legacy() {
             try {
                 const res = await fetch(API_BASE);
                 const files = await res.json();
@@ -643,28 +760,27 @@
                     return;
                 }
 
-                renderNav();
-                loadReport(reports[0]);
+                renderNav_legacy();
+                loadReport_legacy(reports[0]);
             } catch (e) {
                 showEmpty('Failed to load reports. Please try again later.');
             }
         }
 
-        function renderNav() {
+        function renderNav_legacy() {
             const nav = document.getElementById('reportNav');
             nav.innerHTML = reports.map(r => {
                 const date = r.name.replace('canadian_grants_', '').replace('.md', '');
                 const label = formatDate(date);
-                return `<button class="report-btn" data-file="${r.name}" onclick="loadReport(this.dataset)">${label}</button>`;
+                return `<button class="report-btn" data-file="${r.name}" onclick="loadReport_legacy(this.dataset)">${label}</button>`;
             }).join('');
         }
 
-        async function loadReport(file) {
+        async function loadReport_legacy(file) {
             const fileName = file.name || file.file;
             const content = document.getElementById('reportContent');
             content.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading report...</p></div>';
 
-            // Update active nav button
             document.querySelectorAll('.report-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.dataset.file === fileName);
             });
@@ -673,7 +789,6 @@
                 const res = await fetch(`${API_BASE}/${fileName}`);
                 const data = await res.json();
                 
-                // Fixed UTF-8 decoding for Base64 from Github API
                 const binaryStr = atob(data.content.replace(/\n/g, ''));
                 const bytes = new Uint8Array(binaryStr.length);
                 for (let i = 0; i < binaryStr.length; i++) {
@@ -681,18 +796,17 @@
                 }
                 const md = new TextDecoder('utf-8').decode(bytes);
                 
-                renderReport(md);
+                renderReport_legacy(md);
             } catch (e) {
                 content.innerHTML = '<div class="empty-state"><h3>Error loading report</h3><p>Please try again.</p></div>';
             }
         }
 
-        function renderReport(md) {
+        function renderReport_legacy(md) {
             const content = document.getElementById('reportContent');
             let html = '';
 
-            // Extract LinkedIn post section (new format)
-            const linkedinMatch = md.match(/## [^\n]*LinkedIn Post[\s\S]*?>.*?\n\n([\s\S]*?)(?=\n---\n)/)
+            const linkedinMatch = md.match(/## [^\n]*LinkedIn Post[\s\S]*?> .*?\n\n([\s\S]*?)(?=\n---\n)/)
                 || md.match(/## [^\n]*LinkedIn Post\n\n([\s\S]*?)(?=\n---\n|\n## )/);
             if (linkedinMatch) {
                 const postText = linkedinMatch[1].trim();
@@ -707,12 +821,11 @@
                 `;
             }
 
-            // Split on ## or ### headings that are followed by a Source line
             const allSections = md.split(/^#{2,3}\s+(?=.*\n\*\*Source:\*\*)/m).slice(1);
             
             let insightsHtml = '';
             allSections.forEach(section => {
-                insightsHtml += renderSection(section);
+                insightsHtml += renderSection_legacy(section);
             });
 
             if (!insightsHtml) {
@@ -720,41 +833,41 @@
             }
 
             html += insightsHtml;
-
             content.innerHTML = html;
         }
 
-        function renderSection(section) {
+        function renderSection_legacy(section) {
             const lines = section.split('\n');
             const title = lines[0].replace(/^#+\s*/, '').trim();
 
             if (!title || title === '---' || title.startsWith('📋') || title.startsWith('📊')) return '';
 
-            // Extract source and date
             const metaMatch = section.match(/\*\*Source:\*\*\s*(\S+)\s*\|\s*\*\*Date:\*\*\s*(\S+)/);
             const source = metaMatch ? metaMatch[1] : '';
             const date = metaMatch ? metaMatch[2] : '';
 
-            // Extract content body (everything between Date and Link)
             const contentBodyMatch = section.match(/\*\*Date:\*\*\s*\S+\n\n([\s\S]*?)(?=\n\[Link to Opportunity\]|$)/);
             const contentBody = contentBodyMatch ? contentBodyMatch[1].trim() : '';
 
-            // Extract link
             const linkMatch = section.match(/\[Link to Opportunity\]\(([^)]+)\)/);
             const link = linkMatch ? linkMatch[1] : '';
 
             if (!source && !contentBody && !link) return '';
 
             return `
-                <div class="report-section">
-                    <h3>${escapeHtml(title)}</h3>
-                    <div class="report-meta">
-                        ${source ? `<span>📡 ${escapeHtml(source)}</span>` : ''}
-                        ${date ? `<span>📅 ${escapeHtml(date)}</span>` : ''}
+                <details class="report-section">
+                    <summary class="report-summary">
+                        <h3>${escapeHtml(title)}</h3>
+                        <div class="report-meta">
+                            ${source ? `<span>📡 ${escapeHtml(source)}</span>` : ''}
+                            ${date ? `<span>📅 ${escapeHtml(date)}</span>` : ''}
+                        </div>
+                    </summary>
+                    <div class="insight-content-wrapper">
+                        <div class="insight-content">${simpleMarkdown(contentBody)}</div>
+                        ${link ? `<a class="opp-link" href="${escapeHtml(link)}" target="_blank" rel="noopener">View Original ↗</a>` : ''}
                     </div>
-                    <div class="insight-content">${simpleMarkdown(contentBody)}</div>
-                    ${link ? `<a class="opp-link" href="${escapeHtml(link)}" target="_blank" rel="noopener">View Original ↗</a>` : ''}
-                </div>
+                </details>
             `;
         }
 
