@@ -56,18 +56,20 @@ def get_gemini_insight(content):
     if not api_key:
         return {"linkedin_hook": "", "strategic_value": "Insight generation skipped: GEMINI_API_KEY not found.", "co_bidding_opportunity": ""}
     
-    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash-lite:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
     
     prompt = f"""
+    You are a Senior Strategic Advisor for B2B Sales Executives and Bid Managers in Canada.
     Analyze the following Canadian government announcement/tender.
-    You MUST respond with a raw JSON object and nothing else. No markdown formatting, no backticks.
+    
+    You MUST respond with a raw JSON object and nothing else. Do not wrap the JSON in markdown code blocks.
     
     CRITICAL: If the content is just a routine schedule, placeholder, or lacks strategic business value, you MUST set the strategic_value field EXACTLY to "No insight available". Do not write anything else in that field.
     
-    The JSON object must have exactly these three keys:
-    "linkedin_hook": "A high-impact opening line to drive traffic (include an emoji).",
-    "strategic_value": "Why this matters for Canadian businesses, highlighting new markets or investments.",
-    "co_bidding_opportunity": "Identify if this favors consortia or B2B partnerships and why."
+    The JSON object must have exactly these three keys. For "strategic_value" and "co_bidding_opportunity", use markdown formatting (like bullet points) inside the JSON string to provide structured, consultative depth:
+    "linkedin_hook": "A 'Stop-the-scroll' high-impact opening line to drive traffic (include an emoji).",
+    "strategic_value": "Consultative analysis of why this matters. Use 3-5 markdown bullet points detailing sector impact, technical anchors, and economic signals.",
+    "co_bidding_opportunity": "Identify the technical or operational gap that requires a consortium. Provide actionable intelligence on why B2B partnerships are favored here (use bullet points if needed)."
     
     Content: {content[:3000]}
     """
