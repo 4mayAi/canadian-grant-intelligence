@@ -3,7 +3,13 @@ name: Daily Canadian Grants Scraper
 on:
   schedule:
     - cron: '0 8 * * *' # 8:00 AM UTC Daily
-  workflow_dispatch: # Manual trigger
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: 'Number of days to look back for PMO news (default: 2)'
+        required: false
+        default: '2'
+        type: string
 
 permissions:
   contents: write
@@ -28,6 +34,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+          SCRAPE_LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '2' }}
         run: python scripts/fetch_canadian_grants.py
 
       - name: Commit and Push Report

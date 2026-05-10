@@ -351,9 +351,10 @@ def fetch_canadabuys_csvs():
     
     return tenders
 
-def fetch_pmo_news():
+def fetch_pmo_news(lookback_days=2):
     reports = []
-    lookback_limit = datetime.now() - timedelta(hours=48)
+    lookback_limit = datetime.now() - timedelta(days=lookback_days)
+    print(f"PMO lookback window: {lookback_days} days (since {lookback_limit.strftime('%Y-%m-%d %H:%M')})")
     
     for name, url in FEEDS.items():
         print(f"Fetching PMO News from {url}...")
@@ -417,6 +418,10 @@ def upload_pmo_json(results, linkedin_post_text):
     uploaded = upload_to_azure(pmo_data, "pmo_insights.json")
     if uploaded:
         print(f"PMO insights JSON uploaded to Azure ({len(insights)} insights).")
+        # Archive a date-keyed snapshot so daily runs don't destroy history
+        archive_name = f"pmo_insights_{date_str}.json"
+        upload_to_azure(pmo_data, archive_name)
+        print(f"Archived as {archive_name}.")
     else:
         print("PMO insights JSON upload to Azure failed or skipped.")
 
@@ -482,9 +487,12 @@ def generate_markdown_report(results):
 
 
 if __name__ == "__main__":
+    # Lookback override for historical backfills (default: 2 days = 48h)
+    lookback_days = int(os.getenv("SCRAPE_LOOKBACK_DAYS", "2"))
+    
     # Fetch data
     tenders = fetch_canadabuys_csvs()
-    pmo_reports = fetch_pmo_news()
+    pmo_reports = fetch_pmo_news(lookback_days=lookback_days)
     
     # Generate the markdown report for PMO news (also uploads JSON to Azure)
     generate_markdown_report(pmo_reports)
