@@ -56,7 +56,7 @@ def get_gemini_insight(content):
     if not api_key:
         return {"linkedin_hook": "", "strategic_value": "Insight generation skipped: GEMINI_API_KEY not found.", "co_bidding_opportunity": ""}
     
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash-lite:generateContent?key={api_key}"
     
     prompt = f"""
     You are a Senior Strategic Advisor for B2B Sales Executives and Bid Managers in Canada.
