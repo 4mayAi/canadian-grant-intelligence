@@ -9,34 +9,41 @@
     <meta property="og:description" content="mayAi: Delivering Golden Opportunities via daily intelligence on Canadian government grants and funding.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://emurira.github.io/canadian-grant-intelligence/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-        :root {
-            --bg-primary: #0a0e17;
-            --bg-secondary: #111827;
-            --bg-card: rgba(17, 24, 39, 0.7);
+            --bg-primary: #05070a;
+            --bg-secondary: #0d1117;
+            --bg-card: rgba(13, 17, 23, 0.7);
             --border: rgba(255, 215, 0, 0.1);
-            --text-primary: #f1f5f9;
-            --text-secondary: #94a3b8;
-            --text-muted: #64748b;
+            --text-primary: #ffffff;
+            --text-secondary: #a1a1aa;
+            --text-muted: #52525b;
             --accent-1: #ffd700;
             --accent-2: #ff8c00;
             --accent-gradient: linear-gradient(135deg, #ffd700, #ff8c00);
-            --success: #22c55e;
-            --radius: 16px;
-            --radius-sm: 10px;
+            --success: #10b981;
+            --radius: 20px;
+            --radius-sm: 12px;
         }
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: var(--bg-primary);
+            background: #05070a;
             color: var(--text-primary);
-            line-height: 1.7;
+            line-height: 1.8;
             min-height: 100vh;
+            letter-spacing: -0.01em;
+            overflow-x: hidden;
+        }
+        .radial-bg {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle at 50% -10%, rgba(255, 215, 0, 0.05) 0%, rgba(0, 0, 0, 0) 80%);
+            pointer-events: none;
+            z-index: 0;
         }
 
         /* Animated background mesh */
@@ -51,14 +58,15 @@
             z-index: 0;
         }
 
-        .container { max-width: 960px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
+        .container { max-width: 1600px; margin: 0 auto; padding: 0 80px; position: relative; z-index: 1; }
 
         /* Header */
         header {
-            padding: 48px 0 32px;
+            padding: 40px 0 30px;
             text-align: center;
-            border-bottom: 1px solid var(--border);
-            margin-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .logo-row {
             display: flex;
@@ -146,25 +154,38 @@
         /* Navigation / Report Selector */
         .tabs {
             display: flex;
-            gap: 16px;
-            margin-bottom: 24px;
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 16px;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 40px;
+            background: rgba(255, 255, 255, 0.03);
+            padding: 6px;
+            border-radius: 100px;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid var(--border);
         }
         .tab-btn {
-            background: transparent;
+            padding: 10px 24px;
+            border-radius: 100px;
             border: none;
+            background: transparent;
             color: var(--text-secondary);
-            font-size: 16px;
-            font-weight: 600;
+            font-family: 'Outfit', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
             cursor: pointer;
-            padding: 8px 16px;
-            border-radius: 8px;
-            transition: all 0.2s;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
         .tab-btn.active {
-            background: var(--accent-1);
+            background: var(--accent-gradient);
+            color: #000;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+        }
+        .tab-btn:hover:not(.active) {
             color: #fff;
+            background: rgba(255, 255, 255, 0.05);
         }
         
         .report-nav {
@@ -200,21 +221,43 @@
         /* Filters */
         .filters {
             display: flex;
-            gap: 16px;
-            margin-bottom: 24px;
             flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            margin-bottom: 40px;
+            padding: 24px;
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            backdrop-filter: blur(10px);
+        }
+        #tendersContent {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+            gap: 24px;
+            width: 100%;
+        }
+        @media (max-width: 1300px) {
+            #tendersContent { grid-template-columns: 1fr; }
         }
         .filter-select {
-            background: var(--bg-secondary);
-            color: var(--text-primary);
+            background: #0d1117;
             border: 1px solid var(--border);
-            padding: 10px 16px;
-            border-radius: 8px;
+            border-radius: 12px;
+            padding: 12px 16px;
+            color: #fff;
+            font-family: 'Inter', sans-serif;
             font-size: 14px;
             outline: none;
+            transition: all 0.3s;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23ffd700' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 16px center;
         }
         .filter-select:focus {
-            border-color: var(--accent-2);
+            border-color: var(--accent-1);
+            box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.1);
         }
         
         /* Tender Badges */
@@ -237,20 +280,24 @@
             border: 1px solid rgba(148, 163, 184, 0.2);
         }
         .tender-card {
-            background: var(--bg-card);
+            background: linear-gradient(135deg, rgba(13, 17, 23, 0.9) 0%, rgba(5, 7, 10, 1) 100%);
             border: 1px solid var(--border);
             border-radius: var(--radius);
-            padding: 24px;
-            margin-bottom: 16px;
-            transition: transform 0.2s, border-color 0.2s;
+            padding: 28px;
+            margin-bottom: 0;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }
         .tender-card:hover {
-            border-color: var(--accent-2);
-            transform: translateY(-2px);
+            border-color: var(--accent-1);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4), 0 0 20px rgba(255, 215, 0, 0.05);
         }
         .tender-card.is-open {
-            opacity: 0.8;
-            padding: 20px;
+            border-left: 4px solid var(--accent-1);
         }
         .tender-meta {
             font-size: 12px;
@@ -263,17 +310,15 @@
 
         /* LinkedIn Post Card */
         .linkedin-card {
-            background: var(--bg-card);
+            background: linear-gradient(135deg, rgba(13, 17, 23, 0.8) 0%, rgba(5, 7, 10, 0.9) 100%);
             border: 1px solid var(--border);
             border-radius: var(--radius);
-            padding: 28px 28px 20px;
-            margin-bottom: 32px;
+            padding: 40px;
+            margin-bottom: 48px;
             backdrop-filter: blur(12px);
             position: relative;
-            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.4);
         }
-        .linkedin-card::before {
-            content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
             height: 3px;
@@ -351,12 +396,15 @@
             background: var(--bg-card);
             border: 1px solid var(--border);
             border-radius: var(--radius);
-            margin-bottom: 20px;
-            backdrop-filter: blur(12px);
-            transition: border-color 0.3s;
+            margin-bottom: 24px;
+            backdrop-filter: blur(16px);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
         }
         details.report-section:hover {
-            border-color: rgba(99, 102, 241, 0.35);
+            border-color: rgba(255, 215, 0, 0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
         }
         .report-summary {
             padding: 28px;
@@ -429,7 +477,7 @@
             margin: 8px 0;
         }
         .insight-content li { margin-bottom: 4px; }
-        .insight-content strong { color: var(--text-primary); }
+        .insight-content strong { color: var(--accent-1); font-weight: 700; }
         .insight-content blockquote {
             border-left: 3px solid var(--accent-1);
             padding: 16px;
@@ -507,43 +555,58 @@
         /* KPI Dashboard */
         .kpi-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 16px;
-            margin-bottom: 32px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin-bottom: 48px;
         }
         .kpi-card {
             background: var(--bg-card);
             border: 1px solid var(--border);
-            border-radius: var(--radius-sm);
-            padding: 20px;
+            border-radius: var(--radius);
+            padding: 32px 24px;
             text-align: center;
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
+            backdrop-filter: blur(12px);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        .kpi-card::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 2px;
+            background: var(--accent-gradient);
+            opacity: 0.3;
         }
         .kpi-card:hover {
-            transform: translateY(-4px);
-            border-color: var(--accent-1);
-            background: rgba(99, 102, 241, 0.05);
+            transform: translateY(-8px);
+            border-color: rgba(255, 215, 0, 0.5);
+            background: rgba(255, 215, 0, 0.05);
         }
         .kpi-value {
             display: block;
-            font-size: 28px;
+            font-family: 'Outfit', sans-serif;
+            font-size: 48px;
             font-weight: 800;
+            line-height: 1;
+            margin-bottom: 8px;
             background: var(--accent-gradient);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 4px;
         }
         .kpi-label {
+            display: block;
+            font-family: 'Outfit', sans-serif;
             font-size: 11px;
-            font-weight: 700;
             text-transform: uppercase;
+            letter-spacing: 0.15em;
             color: var(--text-secondary);
-            letter-spacing: 0.05em;
+            font-weight: 600;
         }
     </style>
 </head>
 <body>
+    <div class="radial-bg"></div>
     <div class="container">
         <header>
             <div class="logo-row">
@@ -766,7 +829,7 @@
                             ${escapeHtml(t.title)}
                         </h3>
                     </div>
-                    <p style="font-size:14px; color:var(--text-secondary); line-height:1.6; margin-bottom: 16px;">${escapeHtml(t.description)}</p>
+                    <div class="tender-description" style="font-size:14px; color:var(--text-secondary); line-height:1.6; margin-bottom: 16px;">${marked.parse(t.description || '')}</div>
                     <div class="tender-meta" style="display: flex; gap: 16px; align-items: center; background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px;">
                         <div style="flex: 1;">
                             <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Location</div>
@@ -954,7 +1017,7 @@
                         </div>
                         <div class="linkedin-grid">
                             <div>
-                                <div class="linkedin-body" id="linkedinPost">${escapeHtml(data.linkedin_post)}</div>
+                                <div class="linkedin-body" id="linkedinPost">${marked.parse(data.linkedin_post)}</div>
                             </div>
                             <div class="social-card-preview">
                                 <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; margin-bottom: 10px; font-weight: 600; letter-spacing: 1px;">Generated Engagement Image</div>
@@ -1142,9 +1205,9 @@
         }
 
         function copyPost(btn) {
-            const post = document.getElementById('linkedinPost');
-            if (!post) return;
-            navigator.clipboard.writeText(post.textContent).then(() => {
+            const raw = btn.dataset.raw;
+            const text = raw ? decodeHtml(raw) : document.getElementById('linkedinPost').textContent;
+            navigator.clipboard.writeText(text).then(() => {
                 btn.textContent = 'Copied!';
                 btn.classList.add('copied');
                 setTimeout(() => {
