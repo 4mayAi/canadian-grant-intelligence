@@ -11,6 +11,7 @@
     <meta property="og:url" content="https://emurira.github.io/canadian-grant-intelligence/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -706,11 +707,12 @@
                 data.insights.forEach(insight => {
                     // Build the expanded content body
                     let bodyHtml = '';
+                    // We use marked.parse to render the structured markdown from the JSON payload properly.
                     if (insight.strategic_value) {
-                        bodyHtml += `<h4>Strategic Value for Canadian Businesses</h4><p>${escapeHtml(insight.strategic_value)}</p>`;
+                        bodyHtml += `<h4>Strategic Value for Canadian Businesses</h4><div class="md-content">${marked.parse(insight.strategic_value)}</div>`;
                     }
                     if (insight.co_bidding_opportunity) {
-                        bodyHtml += `<h4>Co-Bidding Opportunity</h4><p>${escapeHtml(insight.co_bidding_opportunity)}</p>`;
+                        bodyHtml += `<h4>Co-Bidding Opportunity</h4><div class="md-content">${marked.parse(insight.co_bidding_opportunity)}</div>`;
                     }
 
                     insightsHtml += `
