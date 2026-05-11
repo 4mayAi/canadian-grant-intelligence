@@ -472,8 +472,8 @@ def generate_markdown_report(results):
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     os.makedirs("reports/linkedin", exist_ok=True)
     
-    content = f"# Canadian Grant Intelligence Report - {date_str}\n\n"
-    content += "Daily automated scan of federal, provincial, and municipal funding opportunities.\n\n"
+    content = f"# mayAi | Canadian Grant Intelligence Report - {date_str}\n\n"
+    content += "Daily automated scan of federal, provincial, and municipal 'Golden Opportunity' funding.\n\n"
 
     # Generate and insert LinkedIn post at the top
     print("Generating LinkedIn post summary...")
@@ -540,7 +540,7 @@ if __name__ == "__main__":
         try:
             # Extract top insight for the card
             top_item = pmo_reports[0]
-            top_hook = top_item['insight'].get('linkedin_hook', 'Canadian Grant Intelligence')
+            top_hook = top_item['insight'].get('linkedin_hook', 'mayAi | Golden Opportunities')
             # Extract a clean category from the strategic value
             raw_category = top_item['insight'].get('strategic_value', 'Executive Insight').split('\n')[0].lstrip('- ').strip()
             clean_category = raw_category[:40] if len(raw_category) > 5 else "Executive Intelligence Report"

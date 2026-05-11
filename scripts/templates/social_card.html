@@ -5,7 +5,7 @@
     <style>
         :root {
             --bg: #0a0e17;
-            --accent: linear-gradient(135deg, #6366f1, #06b6d4);
+            --accent: linear-gradient(135deg, #ffd700, #ff8c00);
             --text: #f1f5f9;
         }
         body {
@@ -21,7 +21,7 @@
         }
         body::before {
             content: ''; position: absolute; inset: 0;
-            background: radial-gradient(circle at 80% 20%, rgba(99, 102, 241, 0.15), transparent 50%);
+            background: radial-gradient(circle at 80% 20%, rgba(255, 215, 0, 0.07), transparent 50%);
             z-index: 0;
         }
         .content {
@@ -29,18 +29,46 @@
             position: relative; z-index: 1;
         }
         .header {
-            display: flex; align-items: center; gap: 15px; margin-bottom: 40px;
+            display: flex; align-items: center; gap: 20px; margin-bottom: 40px;
         }
-        .logo-box {
-            width: 50px; height: 50px;
-            background: var(--accent);
-            border-radius: 12px;
+        .logo-container {
+            position: relative;
+            width: 80px; height: 100px;
             display: flex; align-items: center; justify-content: center;
-            font-size: 24px;
+        }
+        .golden-egg {
+            width: 60px; height: 80px;
+            background: radial-gradient(circle at 30% 30%, #fffef0 0%, #ffd700 40%, #ff8c00 100%);
+            border-radius: 50% 50% 50% 50% / 65% 65% 35% 35%;
+            position: relative; z-index: 2;
+            box-shadow: 
+                inset -5px -5px 15px rgba(0,0,0,0.3),
+                inset 5px 5px 15px rgba(255,255,255,0.5),
+                0 10px 30px rgba(255, 215, 0, 0.3);
+            animation: eggPulse 4s ease-in-out infinite;
+        }
+        .egg-glow {
+            position: absolute;
+            width: 120px; height: 140px;
+            background: radial-gradient(circle, #ffd700, transparent 70%);
+            filter: blur(25px);
+            opacity: 0.3;
+            z-index: 1;
+            animation: glowPulse 4s ease-in-out infinite;
         }
         .brand {
-            font-size: 24px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px;
-            background: var(--accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            font-size: 42px; font-weight: 800; letter-spacing: -2px;
+            color: #fff;
+        }
+        .brand span { color: #ffd700; }
+        
+        @keyframes eggPulse {
+            0%, 100% { transform: scale(1) rotate(-2deg); }
+            50% { transform: scale(1.08) rotate(2deg); }
+        }
+        @keyframes glowPulse {
+            0%, 100% { transform: scale(1); opacity: 0.2; }
+            50% { transform: scale(1.4); opacity: 0.5; }
         }
         .hook {
             font-size: 48px; font-weight: 800; line-height: 1.2;
@@ -59,8 +87,11 @@
 <body>
     <div class="content">
         <div class="header">
-            <div class="logo-box">🇨🇦</div>
-            <div class="brand">Canadian Grant Intelligence</div>
+            <div class="logo-container">
+                <div class="golden-egg"></div>
+                <div class="egg-glow"></div>
+            </div>
+            <div class="brand">may<span>Ai</span></div>
         </div>
         <div class="hook" id="hook-text">
             Guayana's booming economy is a goldmine for Canadian B2B!
