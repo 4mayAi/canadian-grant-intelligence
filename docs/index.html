@@ -734,20 +734,32 @@
                 
                 allTenders = await res.json();
                 
+                // Clean up data for consistency
+                allTenders.forEach(t => {
+                    // Clean up provinces
+                    if (t.province) {
+                        const starCount = (t.province.match(/\*/g) || []).length;
+                        if (starCount >= 2 || t.province.length > 30) {
+                            t.province = 'Multiple Provinces';
+                        } else {
+                            t.province = t.province.replace(/\*/g, '').trim();
+                        }
+                    }
+                    
+                    // Pre-calculate category label for unified filtering
+                    t.category_label = getCategoryLabel(t.category);
+                });
+                
                 // Populate filters
                 const provinces = [...new Set(allTenders.map(t => t.province))].sort();
-                const categories = [...new Set(allTenders.map(t => t.category))].sort();
+                const categories = [...new Set(allTenders.map(t => t.category_label))].sort();
                 
                 const provSelect = document.getElementById('provinceFilter');
                 provinces.forEach(p => provSelect.innerHTML += `<option value="${p}">${p}</option>`);
                 
                 const catSelect = document.getElementById('categoryFilter');
                 categories.forEach(c => {
-                    const label = getCategoryLabel(c);
-                    // Avoid duplicate labels in the dropdown after normalization
-                    if (![...catSelect.options].some(opt => opt.text === label)) {
-                        catSelect.innerHTML += `<option value="${c}">${label}</option>`;
-                    }
+                    catSelect.innerHTML += `<option value="${c}">${c}</option>`;
                 });
                 
                 renderTenders();
@@ -767,7 +779,7 @@
             
             let filtered = allTenders.filter(t => {
                 if (prov !== 'All' && t.province !== prov) return false;
-                if (cat !== 'All' && t.category !== cat) return false;
+                if (cat !== 'All' && t.category_label !== cat) return false;
                 if (time === '24h' && t.type !== 'New') return false;
                 
                 if (expiry !== 'All') {
@@ -835,7 +847,7 @@
                         </div>
                         <div style="flex: 1;">
                             <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Category</div>
-                            <div style="color: var(--text-primary); font-weight: 500;">🏷️ ${escapeHtml(getCategoryLabel(t.category))}</div>
+                            <div style="color: var(--text-primary); font-weight: 500;">🏷️ ${escapeHtml(t.category_label)}</div>
                         </div>
                         <div style="flex: 1; text-align: right;">
                             <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Deadline</div>
@@ -854,7 +866,7 @@
 
         function getCategoryLabel(code) {
             if (!code) return 'Uncategorized';
-            const cleanCode = code.replace(/^\*+/, '').toLowerCase().trim();
+            const cleanCode = code.replace(/\*/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
             const map = {
                 'cnst srv gd': 'Construction, Services & Goods',
                 'gd': 'Goods',
@@ -863,6 +875,7 @@
                 'cnst srv': 'Construction & Services',
                 'cnst gd': 'Construction & Goods',
                 'srv gd': 'Services & Goods',
+                'gd srv': 'Services & Goods',
                 'der': 'Defence & Security',
                 'it': 'Information Technology',
                 'rc srv': 'Research & Consulting Services',
@@ -871,7 +884,7 @@
                 'env': 'Environmental Services',
                 'trans': 'Transportation & Logistics'
             };
-            return map[cleanCode] || code.replace(/^\*+/, '');
+            return map[cleanCode] || code.replace(/\*/g, '').replace(/\s+/g, ' ').trim();
         }
 
         function updateTenderKPIs(filtered) {
@@ -892,18 +905,18 @@
             kpiExpiring.innerText = expiring;
 
             const cats = filtered.reduce((acc, t) => {
-                const label = getCategoryLabel(t.category);
+                const label = t.category_label;
                 acc[label] = (acc[label] || 0) + 1;
                 return acc;
             }, {});
             const lead = Object.entries(cats).sort((a,b) => b[1] - a[1])[0];
             
-            // Format the lead sector for the KPI card (keep it brief but accurate)
+            // Format the lead sector for the KPI card
             let leadText = 'N/A';
             if (lead) {
-                // If it's a compound category like "Construction & Services", keep it as is,
-                // but truncate if it's absurdly long
-                leadText = lead[0].length > 25 ? lead[0].substring(0, 22) + '...' : lead[0];
+                const percentage = Math.round((lead[1] / filtered.length) * 100);
+                const leadName = lead[0].length > 18 ? lead[0].substring(0, 15) + '...' : lead[0];
+                leadText = `${leadName} (${percentage}%)`;
             }
             kpiLead.innerText = leadText;
         }
