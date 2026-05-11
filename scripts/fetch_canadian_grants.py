@@ -221,7 +221,8 @@ def fetch_canadabuys_csvs():
                 link = row.get("noticeURL-URLavis-eng", "")
                 close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
                 province = row.get("regionsOfDelivery-regionsLivraison-eng", "").strip()
-                category = row.get("procurementCategory-categorieApprovisionnement", "Uncategorized")
+                category = row.get("procurementCategory-categorieApprovisionnement", "Uncategorized").strip()
+                if category.startswith('*'): category = category.lstrip('*')
                 
                 # Province fallback
                 if not province:
@@ -293,7 +294,8 @@ def fetch_canadabuys_csvs():
                 link = row.get("noticeURL-URLavis-eng", "")
                 close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
                 province = row.get("regionsOfDelivery-regionsLivraison-eng", "").strip()
-                category = row.get("procurementCategory-categorieApprovisionnement", "Uncategorized")
+                category = row.get("procurementCategory-categorieApprovisionnement", "Uncategorized").strip()
+                if category.startswith('*'): category = category.lstrip('*')
                 
                 # Province fallback
                 if not province:

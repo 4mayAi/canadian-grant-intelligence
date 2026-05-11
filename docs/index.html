@@ -481,6 +481,13 @@
                 <select id="categoryFilter" class="filter-select" onchange="renderTenders()">
                     <option value="All">All Categories</option>
                 </select>
+                <select id="expiryFilter" class="filter-select" onchange="renderTenders()">
+                    <option value="All">All Deadlines</option>
+                    <option value="<7">Closing < 7 Days</option>
+                    <option value="<30">Closing < 30 Days</option>
+                    <option value=">30">Long Lead (> 30 Days)</option>
+                    <option value="Closed">Closed</option>
+                </select>
                 <select id="sortFilter" class="filter-select" onchange="renderTenders()">
                     <option value="newest">Sort: Newest First</option>
                     <option value="closing">Sort: Closing Soonest</option>
@@ -571,6 +578,7 @@
             const time = document.getElementById('timeFilter').value;
             const prov = document.getElementById('provinceFilter').value;
             const cat = document.getElementById('categoryFilter').value;
+            const expiry = document.getElementById('expiryFilter').value;
             const sort = document.getElementById('sortFilter').value;
             
             const now = new Date();
@@ -579,6 +587,17 @@
                 if (prov !== 'All' && t.province !== prov) return false;
                 if (cat !== 'All' && t.category !== cat) return false;
                 if (time === '24h' && t.type !== 'New') return false;
+                
+                if (expiry !== 'All') {
+                    if (!t.closing_date) return false;
+                    const closing = new Date(t.closing_date);
+                    const daysLeft = Math.ceil((closing - now) / (1000 * 60 * 60 * 24));
+                    if (expiry === '<7' && (daysLeft < 0 || daysLeft > 7)) return false;
+                    if (expiry === '<30' && (daysLeft < 0 || daysLeft > 30)) return false;
+                    if (expiry === '>30' && daysLeft <= 30) return false;
+                    if (expiry === 'Closed' && daysLeft >= 0) return false;
+                }
+                
                 return true;
             });
             
@@ -653,40 +672,115 @@
             if (!code) return 'Uncategorized';
             const cleanCode = code.replace(/^\*+/, '').toLowerCase().trim();
             const map = {
-                'cnst srv gd': 'Construction Services & Goods',
+                'cnst srv gd': 'Construction, Services & Goods',
                 'gd': 'Goods',
                 'srv': 'Services',
                 'cnst': 'Construction',
-                'cnst srv': 'Construction Services',
-                'cnst gd': 'Construction Goods',
-                'srv gd': 'Services & Goods'
+                'cnst srv': 'Construction & Services',
+                'cnst gd': 'Construction & Goods',
+                'srv gd': 'Services & Goods',
+                'der': 'Defence & Security',
+                'it': 'Information Technology',
+                'rc srv': 'Research & Consulting Services',
+                'r&d': 'Research & Development',
+                'health': 'Health & Medical',
+                'env': 'Environmental Services',
+                'trans': 'Transportation & Logistics'
             };
-            return map[cleanCode] || code;
+            return map[cleanCode] || code.replace(/^\*+/, '');
         }
 
-        // ── Primary PMO Data Path: Azure JSON ──
+        // ── Hybrid PMO Data Path: Azure JSON + GitHub Markdown ──
         async function loadPmoInsights() {
-            const content = document.getElementById('reportContent');
             try {
-                const res = await fetch(PMO_INSIGHTS_URL);
-                if (!res.ok) throw new Error(`Azure fetch failed: ${res.status}`);
-                const data = await res.json();
-                renderPmoInsights(data);
+                const res = await fetch(API_BASE);
+                const files = await res.json();
+
+                if (!Array.isArray(files)) {
+                    showEmpty('No reports available yet.');
+                    return;
+                }
+
+                reports = files
+                    .filter(f => f.name.startsWith('canadian_grants_') && f.name.endsWith('.md'))
+                    .sort((a, b) => b.name.localeCompare(a.name));
+
+                if (reports.length === 0) {
+                    showEmpty('No reports available yet.');
+                    return;
+                }
+
+                renderNav();
+                loadReportByDate(reports[0].name);
             } catch (e) {
-                console.warn('Azure PMO fetch failed, falling back to GitHub markdown:', e);
-                loadReports_legacy();
+                console.warn('Failed to fetch report list from GitHub API', e);
+                showEmpty('Failed to load reports list. Please try again later.');
+            }
+        }
+
+        function renderNav() {
+            const nav = document.getElementById('reportNav');
+            nav.innerHTML = reports.map(r => {
+                const date = r.name.replace('canadian_grants_', '').replace('.md', '');
+                const label = formatDate(date);
+                return `<button class="report-btn" data-file="${r.name}" onclick="loadReportByDate(this.dataset.file)">${label}</button>`;
+            }).join('');
+        }
+
+        async function loadReportByDate(fileName) {
+            const content = document.getElementById('reportContent');
+            content.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading report...</p></div>';
+
+            document.querySelectorAll('.report-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.file === fileName);
+            });
+
+            const dateStr = fileName.replace('canadian_grants_', '').replace('.md', '');
+
+            try {
+                // First try the JSON architecture for this date
+                const jsonUrl = `https://canadiangrants.blob.core.windows.net/data/pmo_insights_${dateStr}.json`;
+                const res = await fetch(jsonUrl);
+                if (res.ok) {
+                    const data = await res.json();
+                    renderPmoInsights(data);
+                    return;
+                }
+                
+                // If it's the most recent report and the archive failed, try the latest endpoint
+                if (reports[0].name === fileName) {
+                    const fallbackRes = await fetch(PMO_INSIGHTS_URL);
+                    if (fallbackRes.ok) {
+                        const data = await fallbackRes.json();
+                        renderPmoInsights(data);
+                        return;
+                    }
+                }
+                
+                throw new Error("JSON not found, trying markdown fallback");
+            } catch (e) {
+                // Fallback to GitHub markdown legacy
+                try {
+                    const res = await fetch(`${API_BASE}/${fileName}`);
+                    const data = await res.json();
+                    
+                    const binaryStr = atob(data.content.replace(/\n/g, ''));
+                    const bytes = new Uint8Array(binaryStr.length);
+                    for (let i = 0; i < binaryStr.length; i++) {
+                        bytes[i] = binaryStr.charCodeAt(i);
+                    }
+                    const md = new TextDecoder('utf-8').decode(bytes);
+                    
+                    renderReport_legacy(md);
+                } catch (err) {
+                    content.innerHTML = '<div class="empty-state"><h3>Error loading report</h3><p>Please try again.</p></div>';
+                }
             }
         }
 
         function renderPmoInsights(data) {
             const content = document.getElementById('reportContent');
-            const nav = document.getElementById('reportNav');
             let html = '';
-
-            // Show the report date as a nav badge
-            if (data.report_date) {
-                nav.innerHTML = `<button class="report-btn active">${formatDate(data.report_date)}</button>`;
-            }
 
             // LinkedIn Post card
             if (data.linkedin_post) {
@@ -740,68 +834,6 @@
 
             html += insightsHtml;
             content.innerHTML = html;
-        }
-
-        // ── Fallback: Legacy GitHub Markdown Path ──
-        async function loadReports_legacy() {
-            try {
-                const res = await fetch(API_BASE);
-                const files = await res.json();
-
-                if (!Array.isArray(files)) {
-                    showEmpty('No reports available yet.');
-                    return;
-                }
-
-                reports = files
-                    .filter(f => f.name.startsWith('canadian_grants_') && f.name.endsWith('.md'))
-                    .sort((a, b) => b.name.localeCompare(a.name));
-
-                if (reports.length === 0) {
-                    showEmpty('No reports available yet.');
-                    return;
-                }
-
-                renderNav_legacy();
-                loadReport_legacy(reports[0]);
-            } catch (e) {
-                showEmpty('Failed to load reports. Please try again later.');
-            }
-        }
-
-        function renderNav_legacy() {
-            const nav = document.getElementById('reportNav');
-            nav.innerHTML = reports.map(r => {
-                const date = r.name.replace('canadian_grants_', '').replace('.md', '');
-                const label = formatDate(date);
-                return `<button class="report-btn" data-file="${r.name}" onclick="loadReport_legacy(this.dataset)">${label}</button>`;
-            }).join('');
-        }
-
-        async function loadReport_legacy(file) {
-            const fileName = file.name || file.file;
-            const content = document.getElementById('reportContent');
-            content.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading report...</p></div>';
-
-            document.querySelectorAll('.report-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.dataset.file === fileName);
-            });
-
-            try {
-                const res = await fetch(`${API_BASE}/${fileName}`);
-                const data = await res.json();
-                
-                const binaryStr = atob(data.content.replace(/\n/g, ''));
-                const bytes = new Uint8Array(binaryStr.length);
-                for (let i = 0; i < binaryStr.length; i++) {
-                    bytes[i] = binaryStr.charCodeAt(i);
-                }
-                const md = new TextDecoder('utf-8').decode(bytes);
-                
-                renderReport_legacy(md);
-            } catch (e) {
-                content.innerHTML = '<div class="empty-state"><h3>Error loading report</h3><p>Please try again.</p></div>';
-            }
         }
 
         function renderReport_legacy(md) {

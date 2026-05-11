@@ -5,7 +5,7 @@ Daily automated scan of federal funding and procurement opportunities.
 ## Prime Minister Carney welcomes the largest order of commercial aircraft in Canadian history
 **Source:** PMO_News | **Date:** 2026-05-06
 
-#### Insight
+### Gemini Insight
 Here's an analysis of the provided Canadian government announcement:
 
 ## Analysis of Airbus & AirAsia Aircraft Order Announcement
@@ -52,7 +52,7 @@ While this announcement itself is not a direct tender or grant, it **strongly fa
 ## Ontario Invests $1.5 Million to Protect Great Lakes and Drive Local Innovation
 **Source:** Ontario_News | **Date:** 2026-05-07
 
-#### Insight
+### Gemini Insight
 Here's an analysis of the provided Canadian government announcement:
 
 ## Analysis of Ontario's $1.5 Million Great Lakes Investment
