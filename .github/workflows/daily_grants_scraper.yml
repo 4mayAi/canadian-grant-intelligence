@@ -28,7 +28,8 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install requests feedparser python-dateutil azure-storage-blob
+          pip install requests feedparser python-dateutil azure-storage-blob playwright
+          playwright install chromium
 
       - name: Run Scraper
         env:

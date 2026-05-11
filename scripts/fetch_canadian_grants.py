@@ -36,10 +36,32 @@ def upload_to_azure(data, blob_name):
         print(f"Failed to upload to Azure: {e}")
         return False
 
+def upload_file_to_azure(file_path, blob_name, content_type='image/png'):
+    """Uploads a binary file to Azure Blob Storage."""
+    connection_string = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
+    if not connection_string or not os.path.exists(file_path):
+        return False
+    
+    try:
+        blob_service_client = BlobServiceClient.from_connection_string(connection_string)
+        container_name = "data"
+        blob_client = blob_service_client.get_blob_client(container=container_name, blob=blob_name)
+        
+        content_settings = ContentSettings(content_type=content_type)
+        with open(file_path, "rb") as data:
+            blob_client.upload_blob(data, overwrite=True, content_settings=content_settings)
+        print(f"Successfully uploaded file {blob_name} to Azure.")
+        return True
+    except Exception as e:
+        print(f"Failed to upload file to Azure: {e}")
+        return False
+
 # Target Feeds
 # We removed brittle provincial feeds to focus purely on high-signal federal data and executive updates.
 FEEDS = {
-    "PMO_News": "https://www.pm.gc.ca/en/news.rss"
+    "PMO_News": "https://www.pm.gc.ca/en/news.rss",
+    "Global_Affairs": "https://www.international.gc.ca/news-nouvelles/rss/news-nouvelles.aspx?lang=eng",
+    "ISED_News": "https://www.canada.ca/en/innovation-science-economic-development/news.rss"
 }
 
 CANADABUYS_CKAN_API = "https://open.canada.ca/data/api/action/package_show?id=6abd20d4-7a1c-4b38-baa2-9525d0bb2fd2"
@@ -205,6 +227,17 @@ def fetch_canadabuys_csvs():
         elif "open tender notices" in name:
             open_url = res.get("url")
 
+    def clean_label(text):
+        if not text: return ""
+        # Remove newlines, leading/trailing asterisks, and extra whitespace
+        text = text.replace('\n', ' ').replace('\r', '').strip()
+        text = text.lstrip('*').strip()
+        # Normalize common patterns
+        if "Ontario (except NCR)" in text: text = "Ontario"
+        if "National Capital Region" in text: text = "NCR (Ottawa/Gatineau)"
+        if text.lower() == "canada": text = "National"
+        return text
+
     tenders = []
     
     # Process New Tenders
@@ -220,9 +253,8 @@ def fetch_canadabuys_csvs():
                 desc = html.unescape(row.get("tenderDescription-descriptionAppelOffres-eng", ""))
                 link = row.get("noticeURL-URLavis-eng", "")
                 close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
-                province = row.get("regionsOfDelivery-regionsLivraison-eng", "").strip()
-                category = row.get("procurementCategory-categorieApprovisionnement", "Uncategorized").strip()
-                if category.startswith('*'): category = category.lstrip('*')
+                province = clean_label(row.get("regionsOfDelivery-regionsLivraison-eng", ""))
+                category = clean_label(row.get("procurementCategory-categorieApprovisionnement", "Uncategorized"))
                 
                 # Province fallback
                 if not province:
@@ -293,9 +325,8 @@ def fetch_canadabuys_csvs():
                 desc = html.unescape(row.get("tenderDescription-descriptionAppelOffres-eng", ""))
                 link = row.get("noticeURL-URLavis-eng", "")
                 close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
-                province = row.get("regionsOfDelivery-regionsLivraison-eng", "").strip()
-                category = row.get("procurementCategory-categorieApprovisionnement", "Uncategorized").strip()
-                if category.startswith('*'): category = category.lstrip('*')
+                province = clean_label(row.get("regionsOfDelivery-regionsLivraison-eng", ""))
+                category = clean_label(row.get("procurementCategory-categorieApprovisionnement", "Uncategorized"))
                 
                 # Province fallback
                 if not province:
@@ -491,12 +522,46 @@ def generate_markdown_report(results):
 
 
 if __name__ == "__main__":
-    # Lookback override for historical backfills (default: 2 days = 48h)
+    # 1. Lookback override for historical backfills (default: 2 days = 48h)
     lookback_days = int(os.getenv("SCRAPE_LOOKBACK_DAYS", "2"))
     
-    # Fetch data
+    # 2. Fetch Data
     tenders = fetch_canadabuys_csvs()
     pmo_reports = fetch_pmo_news(lookback_days=lookback_days)
     
-    # Generate the markdown report for PMO news (also uploads JSON to Azure)
+    # 3. Generate Reports & LinkedIn Post
+    linkedin_post = generate_linkedin_post(pmo_reports)
+    
+    # 4. Generate the markdown report (this internaly uploads JSON to Azure too)
     generate_markdown_report(pmo_reports)
+    
+    # 5. Social Media Automation: Generate and Upload Card
+    if pmo_reports and linkedin_post:
+        try:
+            # Extract top insight for the card
+            top_item = pmo_reports[0]
+            top_hook = top_item['insight'].get('linkedin_hook', 'Canadian Grant Intelligence')
+            # Extract a clean category from the strategic value
+            raw_category = top_item['insight'].get('strategic_value', 'Executive Insight').split('\n')[0].lstrip('- ').strip()
+            clean_category = raw_category[:40] if len(raw_category) > 5 else "Executive Intelligence Report"
+
+            print(f"Generating Social Media Card for: {top_hook}")
+            import subprocess
+            subprocess.run([
+                "python", "scripts/generate_social_card.py", 
+                top_hook, 
+                clean_category, 
+                "reports/linkedin/social_card.png"
+            ], check=True)
+            
+            # Upload to Azure
+            upload_file_to_azure("reports/linkedin/social_card.png", "latest_social_card.png")
+            
+            # Archive with timestamp
+            date_str = datetime.now().strftime("%Y-%m-%d")
+            upload_file_to_azure("reports/linkedin/social_card.png", f"social_card_{date_str}.png")
+            
+        except Exception as e:
+            print(f"Social card automation skipped or failed: {e}")
+
+    print("Daily intelligence cycle complete.")
