@@ -553,6 +553,7 @@
         .empty-state h3 { color: var(--text-secondary); margin-bottom: 8px; }
 
         /* Responsive */
+        @media (max-width: 768px) {
             header h1 { font-size: 22px; }
             .linkedin-card, .report-section { padding: 20px; }
         }
@@ -896,7 +897,15 @@
                 return acc;
             }, {});
             const lead = Object.entries(cats).sort((a,b) => b[1] - a[1])[0];
-            kpiLead.innerText = lead ? lead[0].split(',')[0].split('&')[0].trim() : 'N/A';
+            
+            // Format the lead sector for the KPI card (keep it brief but accurate)
+            let leadText = 'N/A';
+            if (lead) {
+                // If it's a compound category like "Construction & Services", keep it as is,
+                // but truncate if it's absurdly long
+                leadText = lead[0].length > 25 ? lead[0].substring(0, 22) + '...' : lead[0];
+            }
+            kpiLead.innerText = leadText;
         }
 
         function updateNewsKPIs(insightsCount) {
