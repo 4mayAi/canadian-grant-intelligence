@@ -566,7 +566,13 @@
                 provinces.forEach(p => provSelect.innerHTML += `<option value="${p}">${p}</option>`);
                 
                 const catSelect = document.getElementById('categoryFilter');
-                categories.forEach(c => catSelect.innerHTML += `<option value="${c}">${c}</option>`);
+                categories.forEach(c => {
+                    const label = getCategoryLabel(c);
+                    // Avoid duplicate labels in the dropdown after normalization
+                    if (![...catSelect.options].some(opt => opt.text === label)) {
+                        catSelect.innerHTML += `<option value="${c}">${label}</option>`;
+                    }
+                });
                 
                 renderTenders();
             } catch (e) {
