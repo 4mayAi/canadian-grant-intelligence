@@ -14,36 +14,30 @@
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+        :root {
             --bg-primary: #05070a;
             --bg-secondary: #0d1117;
-            --bg-card: rgba(13, 17, 23, 0.7);
-            --border: rgba(255, 215, 0, 0.1);
+            --bg-card: #0d1117;
+            --border: rgba(255, 215, 0, 0.15);
             --text-primary: #ffffff;
-            --text-secondary: #a1a1aa;
-            --text-muted: #52525b;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
             --accent-1: #ffd700;
-            --accent-2: #ff8c00;
-            --accent-gradient: linear-gradient(135deg, #ffd700, #ff8c00);
+            --accent-2: #fbbf24;
+            --accent-gradient: linear-gradient(135deg, #ffd700, #fbbf24);
             --success: #10b981;
-            --radius: 20px;
-            --radius-sm: 12px;
+            --radius: 12px;
+            --radius-sm: 8px;
         }
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             background: #05070a;
-            color: var(--text-primary);
-            line-height: 1.8;
+            color: #e2e8f0;
+            line-height: 1.6;
             min-height: 100vh;
             letter-spacing: -0.01em;
             overflow-x: hidden;
-        }
-        .radial-bg {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: radial-gradient(circle at 50% -10%, rgba(255, 215, 0, 0.05) 0%, rgba(0, 0, 0, 0) 80%);
-            pointer-events: none;
-            z-index: 0;
         }
 
         /* Animated background mesh */
@@ -58,11 +52,11 @@
             z-index: 0;
         }
 
-        .container { max-width: 1600px; margin: 0 auto; padding: 0 80px; position: relative; z-index: 1; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
 
         /* Header */
         header {
-            padding: 40px 0 30px;
+            padding: 32px 0 24px;
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -131,12 +125,12 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            margin-top: 16px;
-            padding: 6px 14px;
+            margin-top: 12px;
+            padding: 4px 12px;
             border-radius: 99px;
-            background: rgba(34, 197, 94, 0.1);
-            border: 1px solid rgba(34, 197, 94, 0.3);
-            font-size: 12px;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            font-size: 11px;
             font-weight: 600;
             color: var(--success);
         }
@@ -223,33 +217,32 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 16px;
-            margin-bottom: 40px;
-            padding: 24px;
-            background: rgba(0, 0, 0, 0.2);
+            gap: 12px;
+            margin-bottom: 32px;
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.02);
             border: 1px solid var(--border);
-            border-radius: var(--radius);
-            backdrop-filter: blur(10px);
+            border-radius: var(--radius-sm);
         }
         #tendersContent {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-            gap: 24px;
+            grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+            gap: 20px;
             width: 100%;
         }
-        @media (max-width: 1300px) {
+        @media (max-width: 1000px) {
             #tendersContent { grid-template-columns: 1fr; }
         }
         .filter-select {
-            background: #0d1117;
+            background: var(--bg-secondary);
             border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 12px 16px;
+            border-radius: 8px;
+            padding: 10px 14px;
             color: #fff;
             font-family: 'Inter', sans-serif;
-            font-size: 14px;
+            font-size: 13px;
             outline: none;
-            transition: all 0.3s;
+            transition: all 0.2s;
             appearance: none;
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23ffd700' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
             background-repeat: no-repeat;
@@ -280,21 +273,29 @@
             border: 1px solid rgba(148, 163, 184, 0.2);
         }
         .tender-card {
-            background: linear-gradient(135deg, rgba(13, 17, 23, 0.9) 0%, rgba(5, 7, 10, 1) 100%);
+            background: var(--bg-card);
             border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 28px;
-            margin-bottom: 0;
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: var(--radius-sm);
+            padding: 24px;
+            transition: all 0.3s ease;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
         }
         .tender-card:hover {
-            border-color: var(--accent-1);
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.4), 0 0 20px rgba(255, 215, 0, 0.05);
+            border-color: rgba(255, 215, 0, 0.4);
+            transform: translateY(-4px);
+        }
+        .tender-card .marked-content {
+            max-width: 100%;
+            margin-top: 16px;
+            font-size: 14px;
+            color: #cbd5e1;
+            line-height: 1.6;
+        }
+        .tender-card .marked-content p {
+            margin-bottom: 12px;
+            max-width: 70ch; /* Standard line length */
         }
         .tender-card.is-open {
             border-left: 4px solid var(--accent-1);
@@ -310,14 +311,18 @@
 
         /* LinkedIn Post Card */
         .linkedin-card {
-            background: linear-gradient(135deg, rgba(13, 17, 23, 0.8) 0%, rgba(5, 7, 10, 0.9) 100%);
+            background: var(--bg-card);
             border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 40px;
-            margin-bottom: 48px;
+            border-radius: var(--radius-sm);
+            padding: 32px;
+            margin: 0 auto 32px;
+            max-width: 850px;
             backdrop-filter: blur(12px);
             position: relative;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+        }
+        .report-section {
+            max-width: 850px;
+            margin: 0 auto 16px;
         }
             position: absolute;
             top: 0; left: 0; right: 0;
@@ -555,44 +560,37 @@
         /* KPI Dashboard */
         .kpi-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 24px;
-            margin-bottom: 48px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        @media (max-width: 900px) {
+            .kpi-container { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 500px) {
+            .kpi-container { grid-template-columns: 1fr; }
         }
         .kpi-card {
             background: var(--bg-card);
             border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 32px 24px;
+            border-radius: var(--radius-sm);
+            padding: 16px 12px;
             text-align: center;
-            backdrop-filter: blur(12px);
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            position: relative;
-            overflow: hidden;
-        }
-        .kpi-card::after {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 2px;
-            background: var(--accent-gradient);
-            opacity: 0.3;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         }
         .kpi-card:hover {
-            transform: translateY(-8px);
-            border-color: rgba(255, 215, 0, 0.5);
-            background: rgba(255, 215, 0, 0.05);
+            border-color: rgba(255, 215, 0, 0.4);
+            background: rgba(255, 215, 0, 0.02);
         }
         .kpi-value {
             display: block;
             font-family: 'Outfit', sans-serif;
-            font-size: 48px;
+            font-size: 32px;
             font-weight: 800;
             line-height: 1;
-            margin-bottom: 8px;
-            background: var(--accent-gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            margin-bottom: 4px;
+            color: var(--accent-1);
         }
         .kpi-label {
             display: block;
@@ -606,7 +604,6 @@
     </style>
 </head>
 <body>
-    <div class="radial-bg"></div>
     <div class="container">
         <header>
             <div class="logo-row">
@@ -623,31 +620,31 @@
             </div>
         </header>
 
+        <div class="kpi-container">
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-total">0</span>
+                <span class="kpi-label">Active Tenders</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-expiring">0</span>
+                <span class="kpi-label">Expiring Soon</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-strategic">0</span>
+                <span class="kpi-label">Strategic Insights</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-lead">N/A</span>
+                <span class="kpi-label">Lead Sector</span>
+            </div>
+        </div>
+
         <div class="tabs">
             <button class="tab-btn active" onclick="switchTab('tenders')">CanadaBuys Tenders</button>
             <button class="tab-btn" onclick="switchTab('news')">PMO News & Insights</button>
         </div>
 
         <div id="tendersView">
-            <div class="kpi-container">
-                <div class="kpi-card">
-                    <span class="kpi-value" id="kpi-total">0</span>
-                    <span class="kpi-label">Active Tenders</span>
-                </div>
-                <div class="kpi-card">
-                    <span class="kpi-value" id="kpi-expiring">0</span>
-                    <span class="kpi-label">Expiring Soon</span>
-                </div>
-                <div class="kpi-card">
-                    <span class="kpi-value" id="kpi-strategic">0</span>
-                    <span class="kpi-label">Strategic Insights</span>
-                </div>
-                <div class="kpi-card">
-                    <span class="kpi-value" id="kpi-lead">N/A</span>
-                    <span class="kpi-label">Lead Sector</span>
-                </div>
-            </div>
-
             <div class="filters">
                 <select id="timeFilter" class="filter-select" onchange="renderTenders()">
                     <option value="All">All Time</option>
@@ -991,7 +988,11 @@
                     
                     renderReport_legacy(md);
                 } catch (err) {
-                    content.innerHTML = '<div class="empty-state"><h3>Error loading report</h3><p>Please try again.</p></div>';
+                    content.innerHTML = `<div class="empty-state">
+                        <h3>Error loading report</h3>
+                        <p>Unable to fetch from Azure or GitHub. If viewing locally, check CORS or browser security settings.</p>
+                        <p style="font-size: 11px; color: var(--text-muted); mt: 10px;">Attempted: ${fileName}</p>
+                    </div>`;
                 }
             }
         }
@@ -1005,12 +1006,11 @@
 
             updateNewsKPIs(data.insights ? data.insights.length : 0);
 
-            // LinkedIn Post card
             if (data.linkedin_post) {
                 const socialCardUrl = `https://canadiangrants.blob.core.windows.net/data/social_card_${date}.png`;
                 
                 html += `
-                    <div class="linkedin-card">
+                    <div class="linkedin-card report-section">
                         <div class="linkedin-card-header">
                             <h2>📋 ${cardTitle}</h2>
                             <button class="copy-btn" onclick="copyPost(this)">Copy Post</button>
@@ -1032,13 +1032,10 @@
                 `;
             }
 
-            // Insight cards from structured JSON
             let insightsHtml = '';
             if (data.insights && data.insights.length > 0) {
                 data.insights.forEach(insight => {
-                    // Build the expanded content body
                     let bodyHtml = '';
-                    // We use marked.parse to render the structured markdown from the JSON payload properly.
                     if (insight.strategic_value) {
                         bodyHtml += `<h4>Strategic Value for Canadian Businesses</h4><div class="md-content">${marked.parse(insight.strategic_value)}</div>`;
                     }
@@ -1073,7 +1070,7 @@
             content.innerHTML = html;
         }
 
-        function renderReport_legacy(md) {
+        function renderReport_legacy(md, fileName) {
             const content = document.getElementById('reportContent');
             let html = '';
 
@@ -1106,7 +1103,7 @@
                 insightsHtml = '<div class="empty-state" style="margin-top: 20px;"><h3>No Actionable Insights</h3><p>Today\'s scan yielded non-strategic or PR content which has been filtered out.</p></div>';
             }
 
-            html += insightsHtml;
+            html += `<div class="report-section">${insightsHtml}</div>`;
             content.innerHTML = html;
         }
 
