@@ -5,10 +5,8 @@ Daily automated scan of federal funding and procurement opportunities.
 ## Prime Minister Carney welcomes the largest order of commercial aircraft in Canadian history
 **Source:** PMO_News | **Date:** 2026-05-06
 
-### Gemini Insight
-Here's an analysis of the provided Canadian government announcement:
+### Strategic Analysis
 
-## Analysis of Airbus & AirAsia Aircraft Order Announcement
 
 **1. LinkedIn Hook:**
 

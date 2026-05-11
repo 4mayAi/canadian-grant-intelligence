@@ -20,25 +20,12 @@ Full analysis with co-bidding strategies and strategic breakdowns 👉 https://e
 
 ---
 
-## 📊 Detailed Analysis
+### Strategic Analysis
 
-### Prime Minister Carney speaks with President of the Republic of Korea Lee Jae Myung
-**Source:** PMO_News | **Date:** 2026-05-08
-
-#### Gemini Insight
-This is an interesting announcement, but it's important to note that it doesn't appear to be a government *tender* or *grant* in the traditional sense. Instead, it's a readout of a diplomatic discussion between the Prime Minister of Canada and the President of the Republic of Korea. Therefore, the analysis will focus on the *implications* of this discussion for Canadian businesses.
-
-Here's an analysis based on that understanding:
-
----
-
-## Analysis of Prime Minister Carney's Discussion with President Lee Jae-myung
 
 ### 1. LinkedIn Hook:
-
 **"Canada and South Korea are deepening ties: Your business could be part of the $100+ billion bilateral relationship, especially in tech, energy, and critical minerals. Don't get left behind!"**
 
----
 
 ### 2. Strategic Value for Canadian Businesses:
 
@@ -51,7 +38,7 @@ This announcement signals a **significant strengthening of the bilateral relatio
 *   **Strengthened Security Partnerships:** While not directly a commercial opportunity, stronger security and defense cooperation can indirectly benefit Canadian businesses by creating a more stable and predictable environment for economic engagement. It can also open doors for Canadian companies involved in defense technologies or services.
 *   **Market Diversification:** For Canadian businesses looking to diversify their export markets beyond traditional partners, South Korea represents a significant and growing opportunity.
 
----
+
 
 ### 3. Co-Bidding Opportunity:
 
@@ -73,10 +60,9 @@ However, the *nature of the discussions* strongly **suggests that consortia and 
 ### Prime Minister Carney welcomes the largest order of commercial aircraft in Canadian history
 **Source:** PMO_News | **Date:** 2026-05-06
 
-#### Gemini Insight
-Here's an analysis of the Canadian government announcement:
+### Strategic Analysis
+This order translates to sustained production, increased demand for raw materials (aluminum, composites), specialized components, and advanced manufacturing services. 
 
-## Analysis of Airbus/AirAsia Aircraft Order Announcement
 
 ### 1. LinkedIn Hook:
 

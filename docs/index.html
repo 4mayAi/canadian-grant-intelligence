@@ -741,30 +741,31 @@
                 btn.classList.toggle('active', btn.dataset.file === fileName);
             });
 
-            const dateStr = fileName.replace('canadian_grants_', '').replace('.md', '');
+                const dateStr = fileName.replace('canadian_grants_', '').replace('.md', '');
+                const isLatest = reports[0].name === fileName;
 
-            try {
-                // First try the JSON architecture for this date
-                const jsonUrl = `https://canadiangrants.blob.core.windows.net/data/pmo_insights_${dateStr}.json`;
-                const res = await fetch(jsonUrl);
-                if (res.ok) {
-                    const data = await res.json();
-                    renderPmoInsights(data);
-                    return;
-                }
-                
-                // If it's the most recent report and the archive failed, try the latest endpoint
-                if (reports[0].name === fileName) {
-                    const fallbackRes = await fetch(PMO_INSIGHTS_URL);
-                    if (fallbackRes.ok) {
-                        const data = await fallbackRes.json();
-                        renderPmoInsights(data);
+                try {
+                    // 1. Try the archived JSON for this specific date
+                    const jsonUrl = `https://canadiangrants.blob.core.windows.net/data/pmo_insights_${dateStr}.json`;
+                    const res = await fetch(jsonUrl);
+                    if (res.ok) {
+                        const data = await res.json();
+                        renderPmoInsights(data, dateStr);
                         return;
                     }
-                }
-                
-                throw new Error("JSON not found, trying markdown fallback");
-            } catch (e) {
+                    
+                    // 2. If it's the most recent button, try the 'latest' endpoint
+                    if (isLatest) {
+                        const fallbackRes = await fetch(PMO_INSIGHTS_URL);
+                        if (fallbackRes.ok) {
+                            const data = await fallbackRes.json();
+                            renderPmoInsights(data, dateStr);
+                            return;
+                        }
+                    }
+                    
+                    throw new Error("JSON not found");
+                } catch (e) {
                 // Fallback to GitHub markdown legacy
                 try {
                     const res = await fetch(`${API_BASE}/${fileName}`);
@@ -784,16 +785,19 @@
             }
         }
 
-        function renderPmoInsights(data) {
+        function renderPmoInsights(data, date) {
             const content = document.getElementById('reportContent');
             let html = '';
+
+            const isToday = date === new Date().toISOString().split('T')[0];
+            const cardTitle = isToday ? "Today's LinkedIn Post" : `LinkedIn Strategic Hook (${formatDate(date)})`;
 
             // LinkedIn Post card
             if (data.linkedin_post) {
                 html += `
                     <div class="linkedin-card">
                         <div class="linkedin-card-header">
-                            <h2>📋 Today's LinkedIn Post</h2>
+                            <h2>📋 ${cardTitle}</h2>
                             <button class="copy-btn" onclick="copyPost(this)">Copy Post</button>
                         </div>
                         <div class="linkedin-body" id="linkedinPost">${escapeHtml(data.linkedin_post)}</div>
@@ -848,12 +852,15 @@
 
             const linkedinMatch = md.match(/## [^\n]*LinkedIn Post[\s\S]*?> .*?\n\n([\s\S]*?)(?=\n---\n)/)
                 || md.match(/## [^\n]*LinkedIn Post\n\n([\s\S]*?)(?=\n---\n|\n## )/);
+            const isToday = fileName.includes(new Date().toISOString().split('T')[0]);
+            const cardTitle = isToday ? "Today's LinkedIn Post" : `LinkedIn Strategic Hook (${formatDate(fileName.replace('canadian_grants_', '').replace('.md', ''))})`;
+
             if (linkedinMatch) {
                 const postText = linkedinMatch[1].trim();
                 html += `
                     <div class="linkedin-card">
                         <div class="linkedin-card-header">
-                            <h2>📋 Today's LinkedIn Post</h2>
+                            <h2>📋 ${cardTitle}</h2>
                             <button class="copy-btn" onclick="copyPost(this)">Copy Post</button>
                         </div>
                         <div class="linkedin-body" id="linkedinPost">${escapeHtml(postText)}</div>
@@ -868,7 +875,7 @@
                 insightsHtml += renderSection_legacy(section);
             });
 
-            if (!insightsHtml) {
+            if (!insightsHtml && !linkedinMatch) {
                 insightsHtml = '<div class="empty-state" style="margin-top: 20px;"><h3>No Actionable Insights</h3><p>Today\'s scan yielded non-strategic or PR content which has been filtered out.</p></div>';
             }
 
@@ -887,7 +894,33 @@
             const date = metaMatch ? metaMatch[2] : '';
 
             const contentBodyMatch = section.match(/\*\*Date:\*\*\s*\S+\n\n([\s\S]*?)(?=\n\[Link to Opportunity\]|$)/);
-            const contentBody = contentBodyMatch ? contentBodyMatch[1].trim() : '';
+            let contentBody = contentBodyMatch ? contentBodyMatch[1].trim() : '';
+
+            // Extract buried LinkedIn Hook for historical reports (Handles bold, blockquotes, and multiple levels)
+            const hookMatch = contentBody.match(/### 1\. LinkedIn Hook:\s*\n+>?(.*?)\n/)
+                           || contentBody.match(/### 1\. LinkedIn Hook:\s*\n+\*\*(.*?)\*\*/)
+                           || contentBody.match(/\*\*1\. LinkedIn Hook:\*\*[\s\S]*?\n+>?(.*?)\n/)
+                           || contentBody.match(/1\. LinkedIn Hook:[\s\S]*?\n+>?(.*?)\n/)
+                           || contentBody.match(/\*\*LinkedIn Hook:\*\*\s*(.*?)\n/);
+            
+            let linkedinHook = hookMatch ? hookMatch[1].replace(/^[>\s*#"]+|[<\s*#"]+$/g, '').trim() : '';
+            
+            // Clean the body of the hook and sections to avoid redundancy and align with JSON view
+            let cleanedBody = contentBody
+                .replace(/### 1\. LinkedIn Hook:[\s\S]*?(?=\n### 2\.|$)/, '')
+                .replace(/\*\*1\. LinkedIn Hook:\*\*[\s\S]*?(?=\n\*\*2\.|$)/, '')
+                .replace(/1\. LinkedIn Hook:[\s\S]*?(?=\n2\.|$)/, '')
+                .replace(/\*\*LinkedIn Hook:\*\*\s*.*?\n/, '')
+                .replace(/^#+ Strategic Analysis\s*\n*/i, '')
+                .replace(/^#+ Gemini Insight\s*\n*/i, '')
+                .replace(/Here's an analysis of the provided Canadian government announcement:\s*\n*/i, '')
+                .replace(/## Analysis of.*?\n/i, '')
+                .replace(/### 2\. Strategic Value for Canadian Businesses:/, '#### Strategic Value for Canadian Businesses')
+                .replace(/### 3\. Co-Bidding Opportunity:/, '#### Co-Bidding Opportunity')
+                .replace(/\*\*2\. Strategic Value for Canadian Businesses:\*\*/, '#### Strategic Value for Canadian Businesses')
+                .replace(/\*\*3\. Co-Bidding Opportunity:\*\*/, '#### Co-Bidding Opportunity')
+                .replace(/---/g, '')
+                .trim();
 
             const linkMatch = section.match(/\[Link to Opportunity\]\(([^)]+)\)/);
             const link = linkMatch ? linkMatch[1] : '';
@@ -898,13 +931,14 @@
                 <details class="report-section">
                     <summary class="report-summary">
                         <h3>${escapeHtml(title)}</h3>
+                        ${linkedinHook ? `<div class="hook-subtitle">${escapeHtml(linkedinHook)}</div>` : ''}
                         <div class="report-meta">
                             ${source ? `<span>📡 ${escapeHtml(source)}</span>` : ''}
                             ${date ? `<span>📅 ${escapeHtml(date)}</span>` : ''}
                         </div>
                     </summary>
                     <div class="insight-content-wrapper">
-                        <div class="insight-content">${simpleMarkdown(contentBody)}</div>
+                        <div class="insight-content md-content">${marked.parse(cleanedBody)}</div>
                         ${link ? `<a class="opp-link" href="${escapeHtml(link)}" target="_blank" rel="noopener">View Original ↗</a>` : ''}
                     </div>
                 </details>
