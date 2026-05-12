@@ -1008,7 +1008,7 @@
                     }
                     const md = new TextDecoder('utf-8').decode(bytes);
                     
-                    renderReport_legacy(md);
+                    renderReport_legacy(md, fileName);
                 } catch (err) {
                     content.innerHTML = `<div class="empty-state">
                         <h3>Error loading report</h3>
