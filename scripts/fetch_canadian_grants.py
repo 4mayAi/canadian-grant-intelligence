@@ -61,7 +61,8 @@ def upload_file_to_azure(file_path, blob_name, content_type='image/png'):
 FEEDS = {
     "PMO_News": "https://www.pm.gc.ca/en/news.rss",
     "Global_Affairs": "https://www.international.gc.ca/news-nouvelles/rss/news-nouvelles.aspx?lang=eng",
-    "ISED_News": "https://www.canada.ca/en/innovation-science-economic-development/news.rss"
+    "ISED_News": "https://www.canada.ca/en/innovation-science-economic-development/news.rss",
+    "Finance_Canada": "https://www.canada.ca/en/department-finance/news.rss"
 }
 
 CANADABUYS_CKAN_API = "https://open.canada.ca/data/api/action/package_show?id=6abd20d4-7a1c-4b38-baa2-9525d0bb2fd2"

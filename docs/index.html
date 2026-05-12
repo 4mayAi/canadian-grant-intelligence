@@ -385,14 +385,25 @@
             transform: scale(1.02);
         }
         .linkedin-grid {
-            display: grid;
-            grid-template-columns: 1fr 320px;
+            display: flex;
             gap: 24px;
             margin-top: 10px;
+            flex-wrap: wrap;
+        }
+        .linkedin-grid > div:first-child {
+            flex: 1;
+            min-width: 0;
+        }
+        .social-card-preview {
+            width: 320px;
+            flex-shrink: 0;
         }
         @media (max-width: 900px) {
             .linkedin-grid {
-                grid-template-columns: 1fr;
+                flex-direction: column;
+            }
+            .social-card-preview {
+                width: 100%;
             }
         }
 
@@ -555,7 +566,18 @@
         /* Responsive */
         @media (max-width: 768px) {
             header h1 { font-size: 22px; }
-            .linkedin-card, .report-section { padding: 20px; }
+            .linkedin-card { padding: 16px; }
+            details.report-section { margin-bottom: 16px; }
+            .report-summary { padding: 16px; }
+            .report-summary h3 { font-size: 16px; padding-right: 32px; }
+            .report-summary::after { top: 16px; right: 16px; font-size: 24px; }
+            details[open].report-section .report-summary::after { top: 12px; }
+            .tabs { flex-wrap: wrap; margin-bottom: 24px; }
+            .tab-btn { padding: 8px 16px; font-size: 13px; flex: 1; text-align: center; }
+            .kpi-container { gap: 12px; margin-bottom: 24px; }
+            .kpi-card { padding: 12px 8px; }
+            .kpi-value { font-size: 24px; }
+            .insight-content-wrapper { padding: 0 16px 16px; }
         }
 
         /* KPI Dashboard */
@@ -615,7 +637,7 @@
                 <h1 style="font-family: 'Outfit', sans-serif; letter-spacing: -1px; margin-left: 15px;">may<span style="color: #ffd700;">Ai</span></h1>
             </div>
             <p>Canadian Grant Intelligence | Delivering Golden Opportunities Daily</p>
-            <div class="status-badge">
+            <div class="status-badge" id="update-status">
                 <span class="status-dot"></span>
                 Updated daily at 08:00 UTC
             </div>
@@ -717,8 +739,22 @@
         }
 
         async function init() {
+            updateTimestamp();
             loadTenders();
             loadPmoInsights();
+        }
+
+        function updateTimestamp() {
+            const now = new Date();
+            if (now.getUTCHours() < 8) {
+                now.setUTCDate(now.getUTCDate() - 1);
+            }
+            const options = { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' };
+            const dateStr = now.toLocaleDateString('en-US', options);
+            const statusEl = document.getElementById('update-status');
+            if (statusEl) {
+                statusEl.innerHTML = `<span class="status-dot"></span>Updated ${dateStr} at 08:00 UTC`;
+            }
         }
 
         async function loadTenders() {
