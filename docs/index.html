@@ -1181,24 +1181,20 @@
                 `;
             }
 
-            const allSections = md.split(/^#{2,3}\s+(?=.*\n\*\*Source:\*\*)/m).slice(1);
+            // Lenient split by any header, then filter for valid source-backed insights
+            const rawSections = md.split(/^#{2,3}\s+/m).slice(1);
+            const allSections = rawSections.filter(s => s.toLowerCase().includes('**source:**'));
             
-            updateNewsKPIs(allSections.length);
-
-            let insightsHtml = '';
-            allSections.forEach(section => {
-                insightsHtml += renderSection_legacy(section);
-            });
-
-            if (!insightsHtml && !linkedinMatch) {
+            let insightsHtml = allSections.map(section => renderSection_legacy(section)).join('');
+            if (!insightsHtml) {
                 insightsHtml = '<div class="empty-state" style="margin-top: 20px;"><h3>No Actionable Insights</h3><p>Today\'s scan yielded non-strategic or PR content which has been filtered out.</p></div>';
             }
 
             html += `<div class="report-section-container">${insightsHtml}</div>`;
             content.innerHTML = html;
             
-            // Recalculate KPI after rendering to ensure accuracy for legacy reports
-            updateNewsKPIs();
+            // Small delay to ensure DOM is fully rendered before self-healing KPI count
+            setTimeout(() => updateNewsKPIs(), 100);
         }
 
         function renderSection_legacy(section) {
