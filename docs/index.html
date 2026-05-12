@@ -542,6 +542,58 @@
             font-weight: 500;
         }
         .insight-content a:hover { text-decoration: underline; }
+        
+        /* Premium Segmented Styling */
+        .insight-segment {
+            margin-bottom: 28px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+        }
+        .insight-segment:last-child { border-bottom: none; margin-bottom: 0; }
+        
+        .segment-title {
+            font-size: 13px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .value-title { color: var(--accent-1); }
+        .bidding-title { color: var(--accent-2); }
+        
+        .segment-content {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.7;
+        }
+        .segment-content ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 12px 0;
+        }
+        .segment-content li {
+            position: relative;
+            padding-left: 24px;
+            margin-bottom: 12px;
+        }
+        .segment-content li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent-1);
+            font-weight: bold;
+            opacity: 0.6;
+        }
+        .segment-content strong {
+            color: var(--text-primary);
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
         .opp-link {
             display: inline-flex;
             align-items: center;
@@ -1262,27 +1314,43 @@
                 date = dMatch ? dMatch[1].trim() : '';
             }
 
-            // Extract Hook for subtitle
-            let hook = '';
-            const hookMatch = section.match(/\*\*1\. LinkedIn Hook:\*\*[\s\n]+>?(.*?)\n/)
-                           || section.match(/### 1\. LinkedIn Hook:\s*\n+>?(.*?)\n/)
-                           || section.match(/1\. LinkedIn Hook:?\s*\n+>?(.*?)\n/);
-            if (hookMatch) {
-                hook = hookMatch[1].replace(/^[>\s*#"]+|[<\s*#"]+$/g, '').trim();
+            // Extract segments specifically using flexible regex for various formats
+            const hookMatch = section.match(/(?:###|\*\*)\s*1\.\s*LinkedIn Hook:?\*?\*?\s*\n+>?(.*?)(?=\n(?:###|\*\*)\s*2\.|$)/is);
+            const valueMatch = section.match(/(?:###|\*\*)\s*2\.\s*Strategic Value.*?:?\*?\*?\s*\n+([\s\S]*?)(?=\n(?:###|\*\*)\s*3\.|$)/is);
+            const biddingMatch = section.match(/(?:###|\*\*)\s*3\.\s*Co-Bidding Opportunity:?\*?\*?\s*\n+([\s\S]*?)(?=\n\[Link to Opportunity\]|$)/is);
+
+            let hook = hookMatch ? hookMatch[1].replace(/^[>\s*#"]+|[<\s*#"]+$/g, '').trim() : '';
+            let strategicValue = valueMatch ? valueMatch[1].trim() : '';
+            let coBidding = biddingMatch ? biddingMatch[1].trim() : '';
+
+            // Build premium body
+            let bodyHtml = '';
+            if (strategicValue || coBidding) {
+                if (strategicValue) {
+                    bodyHtml += `
+                        <div class="insight-segment">
+                            <div class="segment-title value-title">💎 Strategic Value for Canadian Businesses</div>
+                            <div class="segment-content">${marked.parse(strategicValue)}</div>
+                        </div>`;
+                }
+                if (coBidding) {
+                    bodyHtml += `
+                        <div class="insight-segment">
+                            <div class="segment-title bidding-title">🤝 Co-Bidding Opportunity</div>
+                            <div class="segment-content">${marked.parse(coBidding)}</div>
+                        </div>`;
+                }
+            } else {
+                // Fallback for non-standard reports
+                let fallbackBody = lines.slice(1)
+                    .filter(l => !l.toLowerCase().includes('source:') && !l.includes('[Link to Opportunity]'))
+                    .join('\n')
+                    .replace(/^#+ Strategic Analysis\s*\n*/i, '')
+                    .replace(/^#+ Gemini Insight\s*\n*/i, '')
+                    .trim();
+                bodyHtml = `<div class="insight-content">${marked.parse(fallbackBody)}</div>`;
             }
 
-            // Cleanup body content (Remove meta and hook to avoid redundancy)
-            let bodyContent = lines.slice(1)
-                .filter(l => !l.toLowerCase().includes('source:') && !l.includes('[Link to Opportunity]'))
-                .join('\n')
-                .replace(/### 1\. LinkedIn Hook:[\s\S]*?(?=\n### 2\.|$)/, '')
-                .replace(/\*\*1\. LinkedIn Hook:\*\*[\s\S]*?(?=\n\*\*2\.|$)/, '')
-                .replace(/1\. LinkedIn Hook:?[\s\S]*?(?=\n2\.|$)/, '')
-                .replace(/^#+ Strategic Analysis\s*\n*/i, '')
-                .replace(/^#+ Gemini Insight\s*\n*/i, '')
-                .trim();
-
-            const cleanedBody = marked.parse(bodyContent);
             const linkMatch = section.match(/\[Link to Opportunity\]\((.*?)\)/);
             const linkUrl = linkMatch ? linkMatch[1] : '#';
 
@@ -1299,9 +1367,11 @@
                         </div>
                     </summary>
                     <div class="report-details">
-                        <div class="insight-content">${cleanedBody}</div>
-                        <div style="margin-top: 24px; text-align: right;">
-                            <a href="${linkUrl}" target="_blank" class="opp-link">View Full Source ↗</a>
+                        <div class="insight-content-wrapper">
+                            ${bodyHtml}
+                            <div style="margin-top: 24px; text-align: right;">
+                                <a href="${linkUrl}" target="_blank" class="opp-link">View Full Source ↗</a>
+                            </div>
                         </div>
                     </div>
                 </details>
