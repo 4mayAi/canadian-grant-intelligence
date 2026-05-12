@@ -498,11 +498,16 @@
             padding: 0 28px 28px;
             border-top: 1px solid rgba(255, 255, 255, 0.05);
             margin-top: 4px;
-            padding-top: 20px;
-        }
+        .report-badges {
             display: flex;
             align-items: center;
-            gap: 4px;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        .date-badge {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-muted);
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
         .insight-content {
             color: var(--text-secondary);
@@ -589,15 +594,20 @@
         }
         .empty-state h3 { color: var(--text-secondary); margin-bottom: 8px; }
 
-        /* Responsive */
         @media (max-width: 768px) {
             header h1 { font-size: 22px; }
-            .linkedin-card { padding: 16px; }
-            details.report-section { margin-bottom: 16px; }
-            .report-summary { padding: 16px; }
-            .report-summary h3 { font-size: 16px; padding-right: 32px; }
-            .report-summary::after { top: 16px; right: 16px; font-size: 24px; }
-            details[open].report-section .report-summary::after { top: 12px; }
+            .kpi-grid { grid-template-columns: 1fr; gap: 12px; }
+            .linkedin-card { padding: 16px; margin-bottom: 20px; }
+            .linkedin-card h2 { font-size: 16px; }
+            .linkedin-body { font-size: 14px; line-height: 1.6; }
+            details.report-section { margin-bottom: 12px; border-radius: 12px; }
+            .report-summary { padding: 20px; }
+            .report-summary h3 { font-size: 16px; padding-right: 32px; margin-bottom: 8px; }
+            .report-summary::after { top: 20px; right: 20px; font-size: 24px; }
+            details[open].report-section .report-summary::after { top: 16px; }
+            .insight-content { font-size: 13px; line-height: 1.7; }
+            .insight-hook { font-size: 12px; margin-top: 10px; }
+        }
             .tabs { flex-wrap: wrap; margin-bottom: 24px; }
             .tab-btn { padding: 8px 16px; font-size: 13px; flex: 1; text-align: center; }
             .kpi-container { gap: 12px; margin-bottom: 24px; }
@@ -665,7 +675,7 @@
             <p>Canadian Grant Intelligence | Delivering Golden Opportunities Daily</p>
             <div class="status-badge" id="update-status">
                 <span class="status-dot"></span>
-                Updated daily at 08:00 UTC
+                Updated: <span id="last-update-time">Loading...</span>
             </div>
         </header>
 
@@ -813,8 +823,13 @@
                 });
                 
                 // Populate filters
-                const provinces = [...new Set(allTenders.map(t => t.province))].sort();
-                const categories = [...new Set(allTenders.map(t => t.category_label))].sort();
+                const provinces = [...new Set(allTenders.map(t => {
+                    const p = t.province || 'Other';
+                    const map = { 'ON': 'Ontario', 'QC': 'Quebec', 'BC': 'British Columbia', 'AB': 'Alberta' };
+                    return map[p.toUpperCase()] || p;
+                }))].filter(Boolean).sort();
+                
+                const categories = [...new Set(allTenders.map(t => t.category_label))].filter(Boolean).sort();
                 
                 const provSelect = document.getElementById('provinceFilter');
                 provinces.forEach(p => provSelect.innerHTML += `<option value="${p}">${p}</option>`);
@@ -971,14 +986,23 @@
                 acc[label] = (acc[label] || 0) + 1;
                 return acc;
             }, {});
-            const lead = Object.entries(cats).sort((a,b) => b[1] - a[1])[0];
+            const sortedCats = Object.entries(cats).sort((a,b) => b[1] - a[1]);
+            const lead = sortedCats[0];
             
-            // Format the lead sector for the KPI card
             let leadText = 'N/A';
             if (lead) {
                 const percentage = Math.round((lead[1] / filtered.length) * 100);
-                const leadName = lead[0].length > 18 ? lead[0].substring(0, 15) + '...' : lead[0];
-                leadText = `${leadName} (${percentage}%)`;
+                const isTie = sortedCats.length > 1 && sortedCats[0][1] === sortedCats[1][1];
+                const isDiversified = sortedCats.length > 1 && percentage < 50;
+
+                if (isTie) {
+                    leadText = 'Mixed Sectors';
+                } else if (isDiversified) {
+                    leadText = 'Diversified';
+                } else {
+                    const leadName = lead[0].length > 18 ? lead[0].substring(0, 15) + '...' : lead[0];
+                    leadText = `${leadName} (${percentage}%)`;
+                }
             }
             kpiLead.innerText = leadText;
         }
@@ -1015,6 +1039,11 @@
 
                 renderNav();
                 loadReportByDate(reports[0].name);
+                
+                // Update the 'Last Updated' timestamp
+                const latestDate = reports[0].name.replace('canadian_grants_', '').replace('.md', '');
+                const timeEl = document.getElementById('last-update-time');
+                if (timeEl) timeEl.innerText = formatDate(latestDate);
             } catch (e) {
                 console.warn('Failed to fetch report list from GitHub API', e);
                 showEmpty('Failed to load reports list. Please try again later.');
@@ -1161,12 +1190,20 @@
 
         function renderReport_legacy(md, fileName) {
             const content = document.getElementById('reportContent');
-            let html = '';
+            const dateStr = fileName.replace('canadian_grants_', '').replace('.md', '');
+            const isToday = dateStr === new Date().toISOString().split('T')[0];
+            const cardTitle = isToday ? "Today's LinkedIn Post" : `LinkedIn Strategic Hook (${formatDate(dateStr)})`;
 
-            const linkedinMatch = md.match(/## [^\n]*LinkedIn Post[\s\S]*?> .*?\n\n([\s\S]*?)(?=\n---\n)/)
-                || md.match(/## [^\n]*LinkedIn Post\n\n([\s\S]*?)(?=\n---\n|\n## )/);
-            const isToday = fileName.includes(new Date().toISOString().split('T')[0]);
-            const cardTitle = isToday ? "Today's LinkedIn Post" : `LinkedIn Strategic Hook (${formatDate(fileName.replace('canadian_grants_', '').replace('.md', ''))})`;
+            // Update status badge to show the date of the SELECTED report
+            const timeEl = document.getElementById('last-update-time');
+            if (timeEl) timeEl.innerText = formatDate(dateStr) + " at 08:00 UTC";
+
+            let html = '';
+            
+            // Extract the main LinkedIn post if available
+            const linkedinMatch = md.match(/## 📋 Today's LinkedIn Post\s*\n+>?(.*?)\n\s*---/s)
+                               || md.match(/## 📋 Today's LinkedIn Post\s*\n+>?(.*?)\n\s*###/s)
+                               || md.match(/## 📋 Today's LinkedIn Post\s*\n+([\s\S]*?)(?=\n---|\n#|$)/);
 
             if (linkedinMatch) {
                 const postText = linkedinMatch[1].trim();
@@ -1179,81 +1216,93 @@
                         <div class="linkedin-body" id="linkedinPost">${escapeHtml(postText)}</div>
                     </div>
                 `;
+            } else {
+                // Synthesize from first hook
+                const firstHookMatch = md.match(/\*\*1\. LinkedIn Hook:\*\*\s*\n+>?(.*?)\n/)
+                                    || md.match(/### 1\. LinkedIn Hook:\s*\n+>?(.*?)\n/)
+                                    || md.match(/1\. LinkedIn Hook:?\s*\n+>?(.*?)\n/);
+                if (firstHookMatch) {
+                    const postText = firstHookMatch[1].replace(/^[>\s*#"]+|[<\s*#"]+$/g, '').trim();
+                    html += `
+                        <div class="linkedin-card">
+                            <div class="linkedin-card-header">
+                                <h2>📋 ${cardTitle}</h2>
+                                <button class="copy-btn" onclick="copyPost(this)">Copy Post</button>
+                            </div>
+                            <div class="linkedin-body" id="linkedinPost">${escapeHtml(postText)}</div>
+                        </div>
+                    `;
+                }
             }
 
-            // Lenient split by any header, then filter for valid source-backed insights
-            const rawSections = md.split(/^#{2,3}\s+/m).slice(1);
-            const allSections = rawSections.filter(s => s.toLowerCase().includes('**source:**'));
+            // Line-by-line split and parse
+            const rawSections = md.split(/^##\s+/m).filter(s => s.toLowerCase().includes('source:'));
+            let insightsHtml = rawSections.map(section => renderSection_legacy(section)).join('');
             
-            let insightsHtml = allSections.map(section => renderSection_legacy(section)).join('');
             if (!insightsHtml) {
-                insightsHtml = '<div class="empty-state" style="margin-top: 20px;"><h3>No Actionable Insights</h3><p>Today\'s scan yielded non-strategic or PR content which has been filtered out.</p></div>';
+                insightsHtml = '<div class="empty-state" style="margin-top: 20px;"><h3>No Actionable Insights</h3><p>Filtered out non-strategic content.</p></div>';
             }
-
-            html += `<div class="report-section-container">${insightsHtml}</div>`;
-            content.innerHTML = html;
             
-            // Small delay to ensure DOM is fully rendered before self-healing KPI count
-            setTimeout(() => updateNewsKPIs(), 100);
+            content.innerHTML = html + `<div class="report-section-container">${insightsHtml}</div>`;
+            updateNewsKPIs(rawSections.length);
         }
 
         function renderSection_legacy(section) {
-            const lines = section.split('\n');
-            const title = lines[0].replace(/^#+\s*/, '').trim();
-
+            const lines = section.trim().split('\n');
+            const title = lines[0].trim().replace(/^#+\s*/, '');
             if (!title || title === '---' || title.startsWith('📋') || title.startsWith('📊')) return '';
-
-            const metaMatch = section.match(/\*\*Source:\*\*\s*(\S+)\s*\|\s*\*\*Date:\*\*\s*(\S+)/);
-            const source = metaMatch ? metaMatch[1] : '';
-            const date = metaMatch ? metaMatch[2] : '';
-
-            const contentBodyMatch = section.match(/\*\*Date:\*\*\s*\S+\n\n([\s\S]*?)(?=\n\[Link to Opportunity\]|$)/);
-            let contentBody = contentBodyMatch ? contentBodyMatch[1].trim() : '';
-
-            // Extract buried LinkedIn Hook for historical reports (Handles bold, blockquotes, and multiple levels)
-            const hookMatch = contentBody.match(/### 1\. LinkedIn Hook:\s*\n+>?(.*?)\n/)
-                           || contentBody.match(/### 1\. LinkedIn Hook:\s*\n+\*\*(.*?)\*\*/)
-                           || contentBody.match(/\*\*1\. LinkedIn Hook:\*\*[\s\S]*?\n+>?(.*?)\n/)
-                           || contentBody.match(/1\. LinkedIn Hook:[\s\S]*?\n+>?(.*?)\n/)
-                           || contentBody.match(/\*\*LinkedIn Hook:\*\*\s*(.*?)\n/);
             
-            let linkedinHook = hookMatch ? hookMatch[1].replace(/^[>\s*#"]+|[<\s*#"]+$/g, '').trim() : '';
-            
-            // Clean the body of the hook and sections to avoid redundancy and align with JSON view
-            let cleanedBody = contentBody
+            let source = 'PMO_News';
+            let date = '';
+            const metaLine = lines.find(l => l.toLowerCase().includes('source:'));
+            if (metaLine) {
+                const sMatch = metaLine.match(/Source:\*?\*?\s*([^|*]+)/i);
+                const dMatch = metaLine.match(/Date:\*?\*?\s*([^|*]+)/i);
+                source = sMatch ? sMatch[1].trim() : 'PMO_News';
+                date = dMatch ? dMatch[1].trim() : '';
+            }
+
+            // Extract Hook for subtitle
+            let hook = '';
+            const hookMatch = section.match(/\*\*1\. LinkedIn Hook:\*\*[\s\n]+>?(.*?)\n/)
+                           || section.match(/### 1\. LinkedIn Hook:\s*\n+>?(.*?)\n/)
+                           || section.match(/1\. LinkedIn Hook:?\s*\n+>?(.*?)\n/);
+            if (hookMatch) {
+                hook = hookMatch[1].replace(/^[>\s*#"]+|[<\s*#"]+$/g, '').trim();
+            }
+
+            // Cleanup body content (Remove meta and hook to avoid redundancy)
+            let bodyContent = lines.slice(1)
+                .filter(l => !l.toLowerCase().includes('source:') && !l.includes('[Link to Opportunity]'))
+                .join('\n')
                 .replace(/### 1\. LinkedIn Hook:[\s\S]*?(?=\n### 2\.|$)/, '')
                 .replace(/\*\*1\. LinkedIn Hook:\*\*[\s\S]*?(?=\n\*\*2\.|$)/, '')
-                .replace(/1\. LinkedIn Hook:[\s\S]*?(?=\n2\.|$)/, '')
-                .replace(/\*\*LinkedIn Hook:\*\*\s*.*?\n/, '')
+                .replace(/1\. LinkedIn Hook:?[\s\S]*?(?=\n2\.|$)/, '')
                 .replace(/^#+ Strategic Analysis\s*\n*/i, '')
                 .replace(/^#+ Gemini Insight\s*\n*/i, '')
-                .replace(/Here's an analysis of the provided Canadian government announcement:\s*\n*/i, '')
-                .replace(/## Analysis of.*?\n/i, '')
-                .replace(/### 2\. Strategic Value for Canadian Businesses:/, '#### Strategic Value for Canadian Businesses')
-                .replace(/### 3\. Co-Bidding Opportunity:/, '#### Co-Bidding Opportunity')
-                .replace(/\*\*2\. Strategic Value for Canadian Businesses:\*\*/, '#### Strategic Value for Canadian Businesses')
-                .replace(/\*\*3\. Co-Bidding Opportunity:\*\*/, '#### Co-Bidding Opportunity')
-                .replace(/---/g, '')
                 .trim();
 
-            const linkMatch = section.match(/\[Link to Opportunity\]\(([^)]+)\)/);
-            const link = linkMatch ? linkMatch[1] : '';
-
-            if (!source && !contentBody && !link) return '';
+            const cleanedBody = marked.parse(bodyContent);
+            const linkMatch = section.match(/\[Link to Opportunity\]\((.*?)\)/);
+            const linkUrl = linkMatch ? linkMatch[1] : '#';
 
             return `
                 <details class="report-section">
                     <summary class="report-summary">
-                        <h3>${escapeHtml(title)}</h3>
-                        ${linkedinHook ? `<div class="hook-subtitle">${escapeHtml(linkedinHook)}</div>` : ''}
-                        <div class="report-meta">
-                            ${source ? `<span>📡 ${escapeHtml(source)}</span>` : ''}
-                            ${date ? `<span>📅 ${escapeHtml(date)}</span>` : ''}
+                        <div class="report-header-main">
+                            <div class="report-badges">
+                                <span class="badge source-badge">${escapeHtml(source)}</span>
+                                ${date ? `<span class="badge date-badge">${escapeHtml(date)}</span>` : ''}
+                            </div>
+                            <h3>${escapeHtml(title)}</h3>
+                            ${hook ? `<div class="insight-hook">💡 ${escapeHtml(hook)}</div>` : ''}
                         </div>
                     </summary>
-                    <div class="insight-content-wrapper">
-                        <div class="insight-content md-content">${marked.parse(cleanedBody)}</div>
-                        ${link ? `<a class="opp-link" href="${escapeHtml(link)}" target="_blank" rel="noopener">View Original ↗</a>` : ''}
+                    <div class="report-details">
+                        <div class="insight-content">${cleanedBody}</div>
+                        <div style="margin-top: 24px; text-align: right;">
+                            <a href="${linkUrl}" target="_blank" class="opp-link">View Full Source ↗</a>
+                        </div>
                     </div>
                 </details>
             `;
