@@ -983,9 +983,14 @@
             kpiLead.innerText = leadText;
         }
 
-        function updateNewsKPIs(insightsCount) {
+        function updateNewsKPIs(count) {
             const kpiStrat = document.getElementById('kpi-strategic');
-            if (kpiStrat) kpiStrat.innerText = insightsCount;
+            if (kpiStrat) {
+                // If count is provided, use it; otherwise, count actual elements on screen
+                const finalCount = (count !== undefined) ? count : 
+                    document.querySelectorAll('#reportContent .report-section').length;
+                kpiStrat.innerText = finalCount;
+            }
         }
 
         // ── Hybrid PMO Data Path: Azure JSON + GitHub Markdown ──
@@ -1189,8 +1194,11 @@
                 insightsHtml = '<div class="empty-state" style="margin-top: 20px;"><h3>No Actionable Insights</h3><p>Today\'s scan yielded non-strategic or PR content which has been filtered out.</p></div>';
             }
 
-            html += `<div class="report-section">${insightsHtml}</div>`;
+            html += `<div class="report-section-container">${insightsHtml}</div>`;
             content.innerHTML = html;
+            
+            // Recalculate KPI after rendering to ensure accuracy for legacy reports
+            updateNewsKPIs();
         }
 
         function renderSection_legacy(section) {
