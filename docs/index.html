@@ -36,16 +36,16 @@
                 <span class="kpi-label">Active Tenders</span>
             </div>
             <div class="kpi-card">
-                <span class="kpi-value" id="kpi-expiring">0</span>
-                <span class="kpi-label">Expiring Soon</span>
+                <span class="kpi-value" id="kpi-new-today">0</span>
+                <span class="kpi-label">New Today</span>
             </div>
             <div class="kpi-card">
-                <span class="kpi-value" id="kpi-strategic">0</span>
-                <span class="kpi-label">Strategic Insights</span>
+                <span class="kpi-value" id="kpi-closing-week">0</span>
+                <span class="kpi-label">Closing This Week</span>
             </div>
             <div class="kpi-card">
                 <span class="kpi-value" id="kpi-lead">N/A</span>
-                <span class="kpi-label">Lead Sector</span>
+                <span class="kpi-label">Top Category</span>
             </div>
         </div>
 
@@ -78,6 +78,7 @@
                     <option value="closing">Sort: Closing Soonest</option>
                 </select>
             </div>
+            <div id="tenderSummaryBar" style="padding: 10px 16px; background: rgba(255,215,0,0.05); border: 1px solid rgba(255,215,0,0.15); border-radius: 8px; margin-bottom: 16px; font-size: 13px; color: var(--text-secondary); display: none;"></div>
             <div id="tendersContent">
                 <div class="loading"><div class="spinner"></div><p>Loading active tenders...</p></div>
             </div>
@@ -229,9 +230,10 @@
             });
             
             updateTenderKPIs(filtered);
+            updateSummaryBar(filtered);
             
             if (filtered.length === 0) {
-                document.getElementById('tendersContent').innerHTML = '<div class="empty-state"><h3>No tenders match your filters</h3></div>';
+                document.getElementById('tendersContent').innerHTML = '<div class="empty-state"><h3>No actionable tenders match your filters</h3><p>Pre-solicitation notices (APNs) are excluded — only biddable opportunities are shown.</p></div>';
                 return;
             }
 
@@ -250,27 +252,33 @@
 
             const html = filtered.map(t => {
                 let deadlineBadge = '';
+                let urgencyClass = '';
                 if (t.closing_date) {
                     const closing = new Date(t.closing_date);
                     const daysLeft = Math.ceil((closing - now) / (1000 * 60 * 60 * 24));
                     if (daysLeft < 0) {
                         deadlineBadge = `<span class="badge" style="background:rgba(239,68,68,0.1); color:#ef4444; border:1px solid #ef4444;">Closed</span>`;
+                        urgencyClass = 'urgency-closed';
                     } else if (daysLeft <= 7) {
                         deadlineBadge = `<span class="badge" style="background:rgba(239,68,68,0.1); color:#ef4444; border:1px solid #ef4444;">Closing in ${daysLeft} days</span>`;
+                        urgencyClass = 'urgency-critical';
                     } else if (daysLeft <= 30) {
                         deadlineBadge = `<span class="badge" style="background:rgba(234,179,8,0.1); color:#eab308; border:1px solid #eab308;">${daysLeft} days left</span>`;
+                        urgencyClass = 'urgency-warning';
                     } else {
                         deadlineBadge = `<span class="badge" style="background:rgba(34,197,94,0.1); color:#22c55e; border:1px solid #22c55e;">${daysLeft} days left</span>`;
+                        urgencyClass = 'urgency-safe';
                     }
                 }
 
                 return `
-                <div class="tender-card ${t.type === 'Open' ? 'is-open' : ''}">
+                <div class="tender-card ${t.type === 'Open' ? 'is-open' : ''} ${urgencyClass}">
                     <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:12px;">
-                        <h3 style="font-size:16px; font-weight:700; line-height: 1.4;">
+                        <h3 style="font-size:17px; font-weight:700; line-height: 1.4; flex: 1;">
                             <span class="badge ${t.type === 'New' ? 'badge-new' : 'badge-open'}">${t.type}</span>
                             ${escapeHtml(t.title)}
                         </h3>
+                        <div style="margin-left: 12px; flex-shrink: 0;">${deadlineBadge || ''}</div>
                     </div>
                     <div class="tender-description" style="font-size:14px; color:var(--text-secondary); line-height:1.6; margin-bottom: 16px;">${marked.parse(t.description || '')}</div>
                     <div class="tender-meta" style="display: flex; gap: 16px; align-items: center; background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px;">
@@ -282,9 +290,9 @@
                             <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Category</div>
                             <div style="color: var(--text-primary); font-weight: 500;">🏷️ ${escapeHtml(t.category_label)}</div>
                         </div>
-                        <div style="flex: 1; text-align: right;">
-                            <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Deadline</div>
-                            <div style="margin-top: 4px;">${deadlineBadge || 'N/A'}</div>
+                        <div style="flex: 1; text-align: center;">
+                            <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Source</div>
+                            <div style="color: var(--text-primary); font-weight: 500;">📡 CanadaBuys</div>
                         </div>
                     </div>
                     <div style="margin-top: 16px; text-align: right;">
@@ -347,6 +355,7 @@
                 'cnst gd': 'Construction & Goods',
                 'srv gd': 'Services & Goods',
                 'gd srv': 'Services & Goods',
+                'srvtgd': 'Services (Goods-Related)',
                 'der': 'Defence & Security',
                 'it': 'Information Technology',
                 'rc srv': 'Research & Consulting Services',
@@ -360,20 +369,26 @@
 
         function updateTenderKPIs(filtered) {
             const kpiTotal = document.getElementById('kpi-total');
-            const kpiExpiring = document.getElementById('kpi-expiring');
+            const kpiNewToday = document.getElementById('kpi-new-today');
+            const kpiClosingWeek = document.getElementById('kpi-closing-week');
             const kpiLead = document.getElementById('kpi-lead');
-            if (!kpiTotal || !kpiExpiring || !kpiLead) return;
+            if (!kpiTotal || !kpiLead) return;
 
             kpiTotal.innerText = filtered.length;
             
+            // New Today count
+            const newToday = filtered.filter(t => t.type === 'New').length;
+            if (kpiNewToday) kpiNewToday.innerText = newToday;
+            
+            // Closing this week count
             const now = new Date();
-            const expiring = filtered.filter(t => {
+            const closingWeek = filtered.filter(t => {
                 if (!t.closing_date) return false;
                 const closing = new Date(t.closing_date);
                 const daysLeft = Math.ceil((closing - now) / (1000 * 60 * 60 * 24));
                 return daysLeft >= 0 && daysLeft <= 7;
             }).length;
-            kpiExpiring.innerText = expiring;
+            if (kpiClosingWeek) kpiClosingWeek.innerText = closingWeek;
 
             const cats = filtered.reduce((acc, t) => {
                 const label = t.category_label;
@@ -399,6 +414,31 @@
                 }
             }
             kpiLead.innerText = leadText;
+        }
+
+        function updateSummaryBar(filtered) {
+            const bar = document.getElementById('tenderSummaryBar');
+            if (!bar) return;
+            
+            if (filtered.length === 0) {
+                bar.style.display = 'none';
+                return;
+            }
+            
+            const newCount = filtered.filter(t => t.type === 'New').length;
+            const cats = filtered.reduce((acc, t) => {
+                const label = t.category_label;
+                acc[label] = (acc[label] || 0) + 1;
+                return acc;
+            }, {});
+            const sortedCats = Object.entries(cats).sort((a,b) => b[1] - a[1]).slice(0, 4);
+            const catBreakdown = sortedCats.map(([name, count]) => {
+                const shortName = name.length > 20 ? name.substring(0, 17) + '...' : name;
+                return `${count} ${shortName}`;
+            }).join(' · ');
+            
+            bar.innerHTML = `📊 Showing <strong>${filtered.length}</strong> tenders${newCount > 0 ? ` · <span style="color: #22c55e;">${newCount} New today</span>` : ''} · ${catBreakdown}`;
+            bar.style.display = 'block';
         }
 
         function updateNewsKPIs(count) {

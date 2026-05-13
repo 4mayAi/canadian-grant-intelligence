@@ -151,35 +151,51 @@ def get_gemini_insight(content):
     return {"linkedin_hook": "", "strategic_value": "Gemini API Error: Rate limited after max retries.", "co_bidding_opportunity": ""}
 
 
-def generate_linkedin_post(results):
-    """Synthesize all daily findings into one LinkedIn-ready post."""
+def generate_linkedin_post(results, tender_summaries=None):
+    """Synthesize all daily findings into one LinkedIn-ready post.
+    
+    Args:
+        results: PMO/department insight reports
+        tender_summaries: List of headline tender summary strings from CanadaBuys
+    """
     api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key or not results:
+    if not api_key or (not results and not tender_summaries):
         return None
 
     url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash-lite:generateContent?key={api_key}"
 
     summaries = "\n".join(
         f"- {r['title']} (Source: {r['source']}, Link: {r['link']})"
-        for r in results
+        for r in (results or [])
     )
 
-    prompt = f"""You are a professional LinkedIn content strategist for a Canadian business intelligence brand.
+    # Build tender context section for the prompt
+    tender_context = ""
+    if tender_summaries:
+        tender_lines = "\n".join(f"- {s}" for s in tender_summaries)
+        tender_context = f"""\n\nToday's Active Federal Tenders (from CanadaBuys):
+{tender_lines}
+
+IMPORTANT: Mention at least one specific active tender by name in the post body to drive procurement professionals to the dashboard."""
+
+    prompt = f"""You are a professional LinkedIn content strategist for a Canadian business intelligence brand called mayAi.
 
 Write a single LinkedIn post (MAX 250 words) that summarizes today's Canadian government funding and procurement highlights. 
 
 Rules:
 - Open with a bold, attention-grabbing hook line (use an emoji at the start)
-- Highlight the 2-3 most impactful opportunities from the list below
+- Bridge political/policy context with actionable procurement opportunities
+- Highlight the 2-3 most impactful items from BOTH the news AND the active tenders below
 - For each highlight, include ONE actionable sentence about who should pay attention and why
-- End with a call-to-action: "Full analysis with co-bidding strategies and strategic breakdowns 👉 {DASHBOARD_URL}"
+- End with a call-to-action: "Full dashboard with filters and strategic analysis 👉 {DASHBOARD_URL}"
 - Close with exactly 5 relevant hashtags on their own line
 - Do NOT use bullet points for the main body — use short paragraphs
 - Tone: Authoritative but accessible. Think Bloomberg meets LinkedIn thought leadership.
 - Do NOT wrap the post in markdown code fences or add a title
 
-Today's opportunities:
+Today's policy & news highlights:
 {summaries}
+{tender_context}
 """
 
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
@@ -301,9 +317,14 @@ def fetch_canadabuys_csvs():
                         pass
                 
                 if title and link and is_valid_date:
+                    # APN Exclusion — pre-solicitation notices with no bid opportunity
+                    apn_indicators = ["advance procurement notice", "apn_", "apn -", "apn–"]
+                    if any(ind in title.lower() for ind in apn_indicators):
+                        continue
+                    
                     tenders.append({
                         "type": "New",
-                        "title": title[:200], # Trim excessively long titles
+                        "title": title[:200],
                         "description": desc[:500] + "..." if len(desc) > 500 else desc,
                         "link": link,
                         "closing_date": close_date,
@@ -325,7 +346,7 @@ def fetch_canadabuys_csvs():
             # Usually the CSV is sorted by date descending.
             count = 0
             for row in reader:
-                if count >= 50:
+                if count >= 150:
                     break
                     
                 title = row.get("title-titre-eng", "")
@@ -373,6 +394,11 @@ def fetch_canadabuys_csvs():
                         pass
                 
                 if title and link and is_valid_date:
+                    # APN Exclusion — pre-solicitation notices with no bid opportunity
+                    apn_indicators = ["advance procurement notice", "apn_", "apn -", "apn–"]
+                    if any(ind in title.lower() for ind in apn_indicators):
+                        continue
+                    
                     tenders.append({
                         "type": "Open",
                         "title": title[:200],
@@ -386,12 +412,84 @@ def fetch_canadabuys_csvs():
         except Exception as e:
             print(f"Error parsing open tenders CSV: {e}")
 
-    print(f"Parsed {len(tenders)} CanadaBuys tenders.")
+    print(f"Parsed {len(tenders)} CanadaBuys tenders (APNs excluded).")
+    
+    # Deduplicate by link URL (same tender can appear in both New and Open CSVs)
+    seen_links = set()
+    unique_tenders = []
+    for t in tenders:
+        if t['link'] not in seen_links:
+            seen_links.add(t['link'])
+            unique_tenders.append(t)
+    tenders = unique_tenders
+    print(f"After deduplication: {len(tenders)} unique tenders.")
     
     # Surgical Automation: Upload to Azure for the live dashboard
     upload_to_azure(tenders, "tenders.json")
     
     return tenders
+
+
+def select_headline_tenders(tenders, max_count=3):
+    """Select the most LinkedIn-worthy tenders for the daily post.
+    
+    Priority: New tenders first, then by closing date urgency,
+    filtered to high-value keywords.
+    """
+    if not tenders:
+        return []
+    
+    high_value_keywords = [
+        "rfp", "investment", "infrastructure", "innovation", "technology",
+        "construction", "consulting", "defence", "security", "health",
+        "environmental", "energy", "digital", "cloud", "services"
+    ]
+    
+    scored = []
+    for t in tenders:
+        score = 0
+        title_lower = t['title'].lower()
+        desc_lower = (t.get('description', '') or '').lower()
+        
+        # New tenders get priority (published today)
+        if t.get('type') == 'New':
+            score += 10
+        
+        # Keyword relevance
+        for kw in high_value_keywords:
+            if kw in title_lower or kw in desc_lower:
+                score += 1
+        
+        # Actionable closing window (14-60 days)
+        if t.get('closing_date'):
+            try:
+                close_dt = datetime.strptime(t['closing_date'][:10], "%Y-%m-%d")
+                days_left = (close_dt - datetime.now()).days
+                if 14 <= days_left <= 60:
+                    score += 5
+                elif 0 <= days_left < 14:
+                    score += 3  # Urgent but may be too late for some
+            except:
+                pass
+        
+        scored.append((score, t))
+    
+    # Sort by score descending, take top N
+    scored.sort(key=lambda x: x[0], reverse=True)
+    
+    summaries = []
+    for _, t in scored[:max_count]:
+        close_info = ""
+        if t.get('closing_date'):
+            try:
+                close_dt = datetime.strptime(t['closing_date'][:10], "%Y-%m-%d")
+                close_info = f", closing {close_dt.strftime('%b %d')}"
+            except:
+                pass
+        cat = t.get('category', '').replace('*', '').strip()
+        summaries.append(f"{t['title']}{close_info} — {cat}")
+    
+    return summaries
 
 async def scrape_department_news_playwright(url, source_name):
     """Uses Playwright to extract news links from JS-rendered department pages."""
@@ -600,28 +698,44 @@ if __name__ == "__main__":
     # 1. Lookback override for historical backfills (default: 2 days = 48h)
     lookback_days = int(os.getenv("SCRAPE_LOOKBACK_DAYS", "2"))
     
-    # 2. Fetch Data
+    # 2. Fetch CanadaBuys tenders (APNs excluded, deduplicated)
     tenders = fetch_canadabuys_csvs()
+    
+    # 3. Select headline tenders for LinkedIn synthesis
+    headline_tenders = select_headline_tenders(tenders, max_count=3)
+    if headline_tenders:
+        print(f"Selected {len(headline_tenders)} headline tenders for LinkedIn:")
+        for ht in headline_tenders:
+            print(f"  → {ht}")
+    
+    # 4. Fetch PMO/department news with AI analysis
     pmo_reports = fetch_pmo_news(lookback_days=lookback_days)
     
-    # 3. Generate Reports & LinkedIn Post
-    linkedin_post = generate_linkedin_post(pmo_reports)
+    # 5. Generate LinkedIn post from BOTH streams (tenders + PMO context)
+    linkedin_post = generate_linkedin_post(pmo_reports, tender_summaries=headline_tenders)
     
-    # 4. Generate the markdown report (this internaly uploads JSON to Azure too)
+    # 6. Generate the markdown report (PMO insights only — tenders live in tenders.json)
     generate_markdown_report(pmo_reports)
     
-    # 5. Social Media Automation: Generate and Upload Card
-    if pmo_reports and linkedin_post:
+    # 7. Social Media Card: Prefer tender-focused hook over PMO-based hook
+    if linkedin_post or headline_tenders:
         try:
-            # Extract top insight for the card
-            top_item = pmo_reports[0]
-            top_hook = top_item['insight'].get('linkedin_hook', 'mayAi | Golden Opportunities')
-            # Extract a clean category from the strategic value
-            raw_category = top_item['insight'].get('strategic_value', 'Executive Insight').split('\n')[0].lstrip('- ').strip()
-            clean_category = raw_category[:40] if len(raw_category) > 5 else "Executive Intelligence Report"
+            import subprocess
+            
+            # Prefer a tender-based hook for the social card
+            if headline_tenders:
+                top_hook = f"🇨🇦 {len(tenders)} active federal tenders — {headline_tenders[0].split(' — ')[0]}"
+                clean_category = "Federal Procurement Intelligence"
+            elif pmo_reports:
+                top_item = pmo_reports[0]
+                top_hook = top_item['insight'].get('linkedin_hook', 'mayAi | Golden Opportunities')
+                raw_category = top_item['insight'].get('strategic_value', 'Executive Insight').split('\n')[0].lstrip('- ').strip()
+                clean_category = raw_category[:40] if len(raw_category) > 5 else "Executive Intelligence Report"
+            else:
+                top_hook = "mayAi | Golden Opportunities"
+                clean_category = "Canadian Grant Intelligence"
 
             print(f"Generating Social Media Card for: {top_hook}")
-            import subprocess
             subprocess.run([
                 "python", "scripts/generate_social_card.py", 
                 top_hook, 
