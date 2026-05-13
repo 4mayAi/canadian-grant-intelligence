@@ -7,6 +7,8 @@ import csv
 import io
 import json
 import html
+import asyncio
+from playwright.async_api import async_playwright
 from azure.storage.blob import BlobServiceClient, ContentSettings
 
 def upload_to_azure(data, blob_name):
@@ -58,11 +60,15 @@ def upload_file_to_azure(file_path, blob_name, content_type='image/png'):
 
 # Target Feeds
 # We removed brittle provincial feeds to focus purely on high-signal federal data and executive updates.
+# PMO maintains a stable RSS, but other departments require Playwright scraping due to JS-rendering and stale RSS feeds.
 FEEDS = {
-    "PMO_News": "https://www.pm.gc.ca/en/news.rss",
-    "Global_Affairs": "https://www.international.gc.ca/news-nouvelles/rss/news-nouvelles.aspx?lang=eng",
-    "ISED_News": "https://www.canada.ca/en/innovation-science-economic-development/news.rss",
-    "Finance_Canada": "https://www.canada.ca/en/department-finance/news.rss"
+    "PMO_News": "https://www.pm.gc.ca/en/news.rss"
+}
+
+HTML_SOURCES = {
+    "ISED_News": "https://ised-isde.canada.ca/site/ised/en/news",
+    "Global_Affairs": "https://www.international.gc.ca/news-nouvelles/news-nouvelles.aspx?lang=eng",
+    "Finance_Canada": "https://www.canada.ca/en/department-finance/news.html"
 }
 
 CANADABUYS_CKAN_API = "https://open.canada.ca/data/api/action/package_show?id=6abd20d4-7a1c-4b38-baa2-9525d0bb2fd2"
@@ -387,17 +393,58 @@ def fetch_canadabuys_csvs():
     
     return tenders
 
+async def scrape_department_news_playwright(url, source_name):
+    """Uses Playwright to extract news links from JS-rendered department pages."""
+    print(f"Scraping JS-rendered news from {url} using Playwright...")
+    results = []
+    try:
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(headless=True)
+            page = await browser.new_page()
+            await page.goto(url, wait_until='networkidle', timeout=30000)
+            
+            # Universal extraction heuristic for government news portals
+            items = await page.evaluate('''() => {
+                const links = Array.from(document.querySelectorAll('a'));
+                const results = [];
+                links.forEach(a => {
+                    const href = a.href || '';
+                    const title = a.innerText.trim();
+                    if (title.length > 20 && (href.includes('/news') || href.includes('news-releases') || href.includes('/news-nouvelles/') || href.includes('article'))) {
+                        if (!results.some(r => r.link === href)) {
+                            results.push({title: title, link: href});
+                        }
+                    }
+                });
+                return results.slice(0, 15);
+            }''')
+            
+            for item in items:
+                results.append({
+                    "title": item['title'],
+                    "link": item['link'],
+                    "source": source_name,
+                    "published_parsed": time.gmtime()
+                })
+            
+            await browser.close()
+    except Exception as e:
+        print(f"Playwright scraping failed for {source_name}: {e}")
+    return results
+
 def fetch_pmo_news(lookback_days=2):
     reports = []
     lookback_limit = datetime.now() - timedelta(days=lookback_days)
     print(f"PMO lookback window: {lookback_days} days (since {lookback_limit.strftime('%Y-%m-%d %H:%M')})")
     
+    # 1. Process standard stable RSS Feeds (e.g. PMO)
     for name, url in FEEDS.items():
         print(f"Fetching PMO News from {url}...")
         feed = feedparser.parse(url)
         
         for entry in feed.entries:
             published = getattr(entry, 'published_parsed', None)
+            pub_date = datetime.now()
             if published:
                 pub_date = datetime.fromtimestamp(time.mktime(published))
                 if pub_date < lookback_limit:
@@ -408,7 +455,7 @@ def fetch_pmo_news(lookback_days=2):
                 print(f"Match found: {entry.title}")
                 insight = get_gemini_insight(text_to_search)
                 
-                # Check for API failure or lack of value to prevent empty/useless reports
+                # Check for API failure or lack of value
                 strat_value = insight.get("strategic_value", "")
                 if "API Error" in strat_value or "blocked" in strat_value or "not found" in strat_value or "No insight available" in strat_value or "Failed to parse" in strat_value:
                     print(f"Skipping due to lack of insight: {strat_value}")
@@ -421,6 +468,33 @@ def fetch_pmo_news(lookback_days=2):
                     "date": pub_date.strftime("%Y-%m-%d"),
                     "insight": insight
                 })
+
+    # 2. Process JS-rendered pages via Playwright
+    scraped_items = []
+    for name, url in HTML_SOURCES.items():
+        try:
+            items = asyncio.run(scrape_department_news_playwright(url, name))
+            scraped_items.extend(items)
+        except Exception as e:
+            print(f"Error executing asyncio loop for {name}: {e}")
+
+    for entry in scraped_items:
+        text_to_search = entry['title'].lower()
+        if any(kw in text_to_search for kw in KEYWORDS):
+            print(f"Match found via Playwright: {entry['title']}")
+            insight = get_gemini_insight(text_to_search)
+            strat_value = insight.get("strategic_value", "")
+            if "API Error" in strat_value or "blocked" in strat_value or "not found" in strat_value or "No insight available" in strat_value or "Failed to parse" in strat_value:
+                print(f"Skipping due to lack of insight: {strat_value}")
+                continue
+                
+            reports.append({
+                "source": entry['source'],
+                "title": entry['title'],
+                "link": entry['link'],
+                "date": datetime.now().strftime("%Y-%m-%d"),
+                "insight": insight
+            })
     
     return reports
 
