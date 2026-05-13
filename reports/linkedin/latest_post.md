@@ -1,11 +1,13 @@
 # LinkedIn Post - 2026-05-13
 
-💡 **Canada's funding landscape is buzzing – discover what's driving growth!**
+📈 **Canada's resource and infrastructure sectors are buzzing with government support!**
 
-Today's headlines highlight significant investment in critical resources. The Canada Growth Fund's backing for Canada's largest operating lithium mine signals a strong push towards battery mineral supply chains. Companies involved in mining, processing, and related technological advancements should monitor this closely for potential partnership and expansion opportunities.
+Today’s announcements signal significant growth potential, particularly for the critical minerals and coastal community development fronts. The Canada Growth Fund’s investment in expanding Canada’s largest operating lithium mine is a clear signal of the government’s commitment to bolstering the nation's clean energy supply chain. Businesses involved in mining, exploration, and related technology services should take note for future partnership and supply opportunities.
 
-This strategic investment underscores the government's commitment to bolstering domestic resource production. Stay ahead of the curve by understanding how these developments can shape your business strategy and unlock new avenues for growth.
+Simultaneously, historic investments in Canada’s small craft harbours across New Brunswick underscore a drive to revitalize coastal economies and infrastructure. Maritime businesses, construction firms specializing in marine projects, and service providers to the fishing industry will find avenues for engagement and development.
 
-Full analysis with co-bidding strategies and strategic breakdowns 👉 https://emurira.github.io/canadian-grant-intelligence/
+Don’t miss out on the evolving landscape of Canadian government funding and procurement.
 
-#CanadianFunding #GovernmentProcurement #BusinessIntelligence #CanadaGrowth #ResourceSector
+Full dashboard with filters and strategic analysis 👉 https://emurira.github.io/canadian-grant-intelligence/
+
+#CanadianBusiness #GovtFunding #Procurement #Lithium #Infrastructure
