@@ -318,8 +318,8 @@ def fetch_canadabuys_csvs():
                 
                 if title and link and is_valid_date:
                     # APN Exclusion — pre-solicitation notices with no bid opportunity
-                    apn_indicators = ["advance procurement notice", "apn_", "apn -", "apn–"]
-                    if any(ind in title.lower() for ind in apn_indicators):
+                    import re
+                    if re.search(r'\bapn\b|advance procurement notice', (title + " " + desc).lower()):
                         continue
                     
                     tenders.append({
@@ -395,8 +395,8 @@ def fetch_canadabuys_csvs():
                 
                 if title and link and is_valid_date:
                     # APN Exclusion — pre-solicitation notices with no bid opportunity
-                    apn_indicators = ["advance procurement notice", "apn_", "apn -", "apn–"]
-                    if any(ind in title.lower() for ind in apn_indicators):
+                    import re
+                    if re.search(r'\bapn\b|advance procurement notice', (title + " " + desc).lower()):
                         continue
                     
                     tenders.append({
