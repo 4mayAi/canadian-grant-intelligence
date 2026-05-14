@@ -908,6 +908,11 @@ if __name__ == "__main__":
         raw_news = fetch_pmo_news(lookback_days=None, max_items=15)
         dynamic_priorities = get_strategic_priorities(raw_news)
         
+        # Cooldown: Let Gemini rate limiter reset before reporting phase
+        if dynamic_priorities:
+            print(f"Extracted {len(dynamic_priorities)} strategic priorities. Cooling down 15s before reporting phase...")
+            time.sleep(15)
+        
         # REPORTING: Fetch news within actual lookback window for dashboard display
         pmo_reports = fetch_pmo_news(lookback_days=lookback_days, strategic_priorities=dynamic_priorities)
     else:
