@@ -151,6 +151,85 @@ def get_gemini_insight(content):
     return {"linkedin_hook": "", "strategic_value": "Gemini API Error: Rate limited after max retries.", "co_bidding_opportunity": ""}
 
 
+def get_hero_hook(tenders, news_results):
+    """Generate a single high-impact 'Hero Hook' for the dashboard header."""
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        return "mayAi | Delivering Golden Opportunities Daily"
+
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash-lite:generateContent?key={api_key}"
+
+    # Provide context for the hook
+    tender_context = "\n".join([f"- {t['title']} ({t.get('category', 'Uncategorized')})" for t in tenders[:5]])
+    news_context = "\n".join([f"- {n['title']}" for n in (news_results or [])[:3]])
+
+    prompt = f"""You are a high-level executive intelligence advisor.
+Generate a single, powerful, one-sentence "Hero Hook" (MAX 20 words) that summarizes the most important theme in today's Canadian government procurement and policy updates.
+
+Use a professional but catchy tone (Bloomberg style). Include one relevant emoji.
+The hook will be the main headline on an executive dashboard.
+
+Context:
+Tenders:
+{tender_context}
+
+News:
+{news_context}
+"""
+
+    payload = {"contents": [{"parts": [{"text": prompt}]}]}
+
+    try:
+        response = requests.post(url, json=payload, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        if 'candidates' in data and data['candidates']:
+            return data['candidates'][0]['content']['parts'][0]['text'].strip().strip('"')
+    except Exception as e:
+        print(f"Hero hook generation failed: {e}")
+    
+    return "mayAi | Delivering Golden Opportunities Daily"
+
+
+def calculate_kpis(tenders):
+    """Pre-calculate high-level KPIs for the dashboard."""
+    now = datetime.now()
+    new_today = len([t for t in tenders if t.get('type') == 'New'])
+    
+    closing_week = 0
+    categories = {}
+    
+    for t in tenders:
+        # Closing this week
+        if t.get('closing_date'):
+            try:
+                dt = datetime.strptime(t['closing_date'][:10], "%Y-%m-%d")
+                if 0 <= (dt - now).days <= 7:
+                    closing_week += 1
+            except:
+                pass
+        
+        # Category tally
+        cat = t.get('category', 'Uncategorized').replace('*', '').strip()
+        categories[cat] = categories.get(cat, 0) + 1
+    
+    # Find top category
+    top_cat_name = "Mixed Sectors"
+    if categories:
+        sorted_cats = sorted(categories.items(), key=lambda x: x[1], reverse=True)
+        top_cat = sorted_cats[0]
+        percentage = int((top_cat[1] / len(tenders)) * 100)
+        top_cat_name = f"{top_cat[0]} ({percentage}%)"
+
+    return {
+        "total_active": len(tenders),
+        "new_today": new_today,
+        "closing_this_week": closing_week,
+        "top_category": top_cat_name,
+        "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    }
+
+
 def generate_linkedin_post(results, tender_summaries=None):
     """Synthesize all daily findings into one LinkedIn-ready post.
     
@@ -251,17 +330,145 @@ def fetch_canadabuys_csvs():
             open_url = res.get("url")
 
     def clean_label(text):
+        """Clean category labels and other generic text fields."""
         if not text: return ""
-        # Remove newlines, leading/trailing asterisks, and extra whitespace
         text = text.replace('\n', ' ').replace('\r', '').strip()
         text = text.lstrip('*').strip()
-        # Normalize common patterns
-        if "Ontario (except NCR)" in text: text = "Ontario"
-        if "National Capital Region" in text: text = "NCR (Ottawa/Gatineau)"
-        if text.lower() == "canada": text = "National"
         return text
 
+    # --- Canonical Province/Territory Whitelist ---
+    VALID_PROVINCES = {
+        "Alberta", "British Columbia", "Manitoba", "New Brunswick",
+        "Newfoundland and Labrador", "Nova Scotia", "Ontario", "Prince Edward Island",
+        "Quebec", "Saskatchewan", "Northwest Territories", "Nunavut", "Yukon",
+        "National", "NCR (Ottawa/Gatineau)", "Multiple Provinces"
+    }
+
+    # City / Base / Region → Province mapping (covers known CanadaBuys delivery locations)
+    LOCATION_TO_PROVINCE = {
+        # Ontario
+        "ottawa": "Ontario", "toronto": "Ontario", "kingston": "Ontario",
+        "london": "Ontario", "hamilton": "Ontario", "thunder bay": "Ontario",
+        "north bay": "Ontario", "petawawa": "Ontario", "trenton": "Ontario",
+        "borden": "Ontario", "meaford": "Ontario", "barrie": "Ontario",
+        "kitchener": "Ontario", "waterloo": "Ontario", "sudbury": "Ontario",
+        "windsor": "Ontario", "brampton": "Ontario", "mississauga": "Ontario",
+        "markham": "Ontario", "oshawa": "Ontario", "cornwall": "Ontario",
+        "belleville": "Ontario",
+        # Quebec
+        "montreal": "Quebec", "montréal": "Quebec", "quebec city": "Quebec",
+        "ville de québec": "Quebec", "gatineau": "Quebec", "sherbrooke": "Quebec",
+        "valcartier": "Quebec", "bagotville": "Quebec", "saint-jean": "Quebec",
+        "laval": "Quebec", "trois-rivières": "Quebec", "longueuil": "Quebec",
+        "drummondville": "Quebec",
+        # British Columbia
+        "vancouver": "British Columbia", "victoria": "British Columbia",
+        "esquimalt": "British Columbia", "comox": "British Columbia",
+        "nanaimo": "British Columbia", "kelowna": "British Columbia",
+        "kamloops": "British Columbia", "prince george": "British Columbia",
+        "chilliwack": "British Columbia",
+        # Alberta
+        "edmonton": "Alberta", "calgary": "Alberta", "cold lake": "Alberta",
+        "suffield": "Alberta", "wainwright": "Alberta", "red deer": "Alberta",
+        "lethbridge": "Alberta", "medicine hat": "Alberta", "banff": "Alberta",
+        # Nova Scotia
+        "halifax": "Nova Scotia", "shearwater": "Nova Scotia",
+        "greenwood": "Nova Scotia", "dartmouth": "Nova Scotia",
+        # New Brunswick
+        "fredericton": "New Brunswick", "moncton": "New Brunswick",
+        "gagetown": "New Brunswick", "oromocto": "New Brunswick",
+        "saint john": "New Brunswick",
+        # Manitoba
+        "winnipeg": "Manitoba", "shilo": "Manitoba", "portage la prairie": "Manitoba",
+        "brandon": "Manitoba",
+        # Saskatchewan
+        "regina": "Saskatchewan", "saskatoon": "Saskatchewan",
+        "moose jaw": "Saskatchewan", "dundurn": "Saskatchewan",
+        # Newfoundland and Labrador
+        "st. john's": "Newfoundland and Labrador", "st johns": "Newfoundland and Labrador",
+        "happy valley-goose bay": "Newfoundland and Labrador",
+        "goose bay": "Newfoundland and Labrador", "gander": "Newfoundland and Labrador",
+        # Prince Edward Island
+        "charlottetown": "Prince Edward Island",
+        # Northwest Territories
+        "yellowknife": "Northwest Territories",
+        # Nunavut
+        "iqaluit": "Nunavut", "alert": "Nunavut",
+        # Yukon
+        "whitehorse": "Yukon",
+    }
+
+    def normalize_province(raw_value):
+        """Normalize raw region-of-delivery strings to canonical province/territory names."""
+        if not raw_value:
+            return ""
+        
+        # Basic cleanup
+        text = raw_value.replace('\n', ' ').replace('\r', '').strip()
+        text = text.lstrip('*').strip()
+        
+        # If the value contains multiple asterisks or semicolons, it's multi-province
+        if text.count('*') >= 2 or ';' in text:
+            return "Multiple Provinces"
+        text = text.replace('*', '').strip()
+
+        # Direct match against whitelist (case-insensitive)
+        for valid in VALID_PROVINCES:
+            if text.lower() == valid.lower():
+                return valid
+
+        # Common synonyms / partial matches
+        text_lower = text.lower()
+        
+        import re
+        
+        # Exact match / substrings
+        if text_lower in ("canada", "federal", "canada-wide", "pan-canadian"):
+            return "National"
+        if "national capital region" in text_lower or text_lower == "ncr":
+            return "NCR (Ottawa/Gatineau)"
+        if "ontario (except ncr)" in text_lower or "ontario" in text_lower:
+            return "Ontario"
+        if "british columbia" in text_lower or re.search(r'\b(bc|b\.c\.)\b', text_lower):
+            return "British Columbia"
+        if "newfoundland" in text_lower:
+            return "Newfoundland and Labrador"
+        if "prince edward" in text_lower or re.search(r'\b(pei|p\.e\.i\.)\b', text_lower):
+            return "Prince Edward Island"
+        if "northwest territories" in text_lower or re.search(r'\b(nwt|n\.w\.t\.)\b', text_lower):
+            return "Northwest Territories"
+        if "new brunswick" in text_lower or re.search(r'\b(nb|n\.b\.)\b', text_lower):
+            return "New Brunswick"
+        if "nova scotia" in text_lower or re.search(r'\b(ns|n\.s\.)\b', text_lower):
+            return "Nova Scotia"
+        if "quebec" in text_lower or "québec" in text_lower or re.search(r'\b(qc|que)\b', text_lower):
+            return "Quebec"
+        if "alberta" in text_lower or re.search(r'\bab\b', text_lower):
+            return "Alberta"
+        if "manitoba" in text_lower or re.search(r'\bmb\b', text_lower):
+            return "Manitoba"
+        if "saskatchewan" in text_lower or re.search(r'\bsk\b', text_lower):
+            return "Saskatchewan"
+        if "nunavut" in text_lower or re.search(r'\bnu\b', text_lower):
+            return "Nunavut"
+        if "yukon" in text_lower or re.search(r'\b(yk|yt)\b', text_lower):
+            return "Yukon"
+
+        
+        # City/base/region lookup
+        if text_lower in LOCATION_TO_PROVINCE:
+            return LOCATION_TO_PROVINCE[text_lower]
+        
+        # Compound values like "Canada Manitoba" or "Canada Ontario"
+        for valid in VALID_PROVINCES:
+            if valid.lower() in text_lower and valid != "National":
+                return valid
+        
+        # Unknown — default to National rather than leaking raw text
+        return "National"
+
     tenders = []
+    import re
     
     # Process New Tenders
     if new_url:
@@ -276,32 +483,18 @@ def fetch_canadabuys_csvs():
                 desc = html.unescape(row.get("tenderDescription-descriptionAppelOffres-eng", ""))
                 link = row.get("noticeURL-URLavis-eng", "")
                 close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
-                province = clean_label(row.get("regionsOfDelivery-regionsLivraison-eng", ""))
+                province = normalize_province(row.get("regionsOfDelivery-regionsLivraison-eng", ""))
                 category = clean_label(row.get("procurementCategory-categorieApprovisionnement", "Uncategorized"))
                 
-                # Province fallback
-                if not province:
-                    prov_keywords = {
-                        "Ontario": ["ontario", "toronto", "ottawa"],
-                        "British Columbia": ["british columbia", "vancouver", "victoria"],
-                        "Alberta": ["alberta", "calgary", "edmonton"],
-                        "Quebec": ["quebec", "québec", "montreal", "montréal"],
-                        "Nova Scotia": ["nova scotia", "halifax"],
-                        "New Brunswick": ["new brunswick"],
-                        "Manitoba": ["manitoba", "winnipeg"],
-                        "Saskatchewan": ["saskatchewan", "regina", "saskatoon"],
-                        "PEI": ["prince edward island", "pei"],
-                        "Newfoundland": ["newfoundland", "st. john's", "st johns"],
-                        "National": ["national", "canada-wide", "federal"]
-                    }
-                    import re
-                    text_to_search = f" {title} {desc} ".lower()
-                    for prov_name, keywords in prov_keywords.items():
-                        if any(re.search(rf"\b{re.escape(kw)}\b", text_to_search) for kw in keywords):
-                            province = prov_name
-                            break
-                    if not province:
-                        province = "National"
+                # Province fallback: if CSV field was empty, try to infer from title/desc
+                if not province or province == "National":
+                    raw_region = row.get("regionsOfDelivery-regionsLivraison-eng", "").strip()
+                    if not raw_region:  # Only infer if the CSV field was truly empty
+                        text_to_search = f"{title} {desc}".lower()
+                        for city, prov in LOCATION_TO_PROVINCE.items():
+                            if re.search(rf"\b{re.escape(city)}\b", text_to_search):
+                                province = prov
+                                break
                         
                 # Date filtering
                 is_valid_date = True
@@ -317,9 +510,8 @@ def fetch_canadabuys_csvs():
                         pass
                 
                 if title and link and is_valid_date:
-                    # APN Exclusion — pre-solicitation notices with no bid opportunity
-                    import re
-                    if re.search(r'\bapn\b|advance procurement notice', (title + " " + desc).lower()):
+                    # REFINED APN Exclusion — pre-solicitation notices with no bid opportunity
+                    if re.search(r'\bapn\b|\badvance procurement notice\b|\bpre-solicitation\b', (title + " " + desc).lower()):
                         continue
                     
                     tenders.append({
@@ -334,7 +526,7 @@ def fetch_canadabuys_csvs():
         except Exception as e:
             print(f"Error parsing new tenders CSV: {e}")
 
-    # Process Open Tenders (Limit to top 50 recently updated to save processing)
+    # Process Open Tenders (Limit to top 150 recently updated to save processing)
     if open_url:
         print(f"Downloading Open Tenders from: {open_url}")
         try:
@@ -342,43 +534,27 @@ def fetch_canadabuys_csvs():
             resp.encoding = 'utf-8-sig'
             reader = csv.DictReader(io.StringIO(resp.text))
             
-            # Sort open tenders by publication date or just grab the first 50
-            # Usually the CSV is sorted by date descending.
             count = 0
             for row in reader:
-                if count >= 150:
+                if count >= 250: # Increased limit for better visibility
                     break
                     
                 title = row.get("title-titre-eng", "")
                 desc = html.unescape(row.get("tenderDescription-descriptionAppelOffres-eng", ""))
                 link = row.get("noticeURL-URLavis-eng", "")
                 close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
-                province = clean_label(row.get("regionsOfDelivery-regionsLivraison-eng", ""))
+                province = normalize_province(row.get("regionsOfDelivery-regionsLivraison-eng", ""))
                 category = clean_label(row.get("procurementCategory-categorieApprovisionnement", "Uncategorized"))
                 
-                # Province fallback
-                if not province:
-                    prov_keywords = {
-                        "Ontario": ["ontario", "toronto", "ottawa"],
-                        "British Columbia": ["british columbia", "vancouver", "victoria"],
-                        "Alberta": ["alberta", "calgary", "edmonton"],
-                        "Quebec": ["quebec", "québec", "montreal", "montréal"],
-                        "Nova Scotia": ["nova scotia", "halifax"],
-                        "New Brunswick": ["new brunswick"],
-                        "Manitoba": ["manitoba", "winnipeg"],
-                        "Saskatchewan": ["saskatchewan", "regina", "saskatoon"],
-                        "PEI": ["prince edward island", "pei"],
-                        "Newfoundland": ["newfoundland", "st. john's", "st johns"],
-                        "National": ["national", "canada-wide", "federal"]
-                    }
-                    import re
-                    text_to_search = f" {title} {desc} ".lower()
-                    for prov_name, keywords in prov_keywords.items():
-                        if any(re.search(rf"\b{re.escape(kw)}\b", text_to_search) for kw in keywords):
-                            province = prov_name
-                            break
-                    if not province:
-                        province = "National"
+                # Province fallback: if CSV field was empty, try to infer from title/desc
+                if not province or province == "National":
+                    raw_region = row.get("regionsOfDelivery-regionsLivraison-eng", "").strip()
+                    if not raw_region:  # Only infer if the CSV field was truly empty
+                        text_to_search = f"{title} {desc}".lower()
+                        for city, prov in LOCATION_TO_PROVINCE.items():
+                            if re.search(rf"\b{re.escape(city)}\b", text_to_search):
+                                province = prov
+                                break
                         
                 # Date filtering
                 is_valid_date = True
@@ -394,9 +570,8 @@ def fetch_canadabuys_csvs():
                         pass
                 
                 if title and link and is_valid_date:
-                    # APN Exclusion — pre-solicitation notices with no bid opportunity
-                    import re
-                    if re.search(r'\bapn\b|advance procurement notice', (title + " " + desc).lower()):
+                    # REFINED APN Exclusion
+                    if re.search(r'\bapn\b|\badvance procurement notice\b|\bpre-solicitation\b', (title + " " + desc).lower()):
                         continue
                     
                     tenders.append({
@@ -634,9 +809,9 @@ def upload_pmo_json(results, linkedin_post_text):
         print("PMO insights JSON upload to Azure failed or skipped.")
 
 
-def generate_markdown_report(results):
-    if not results:
-        print("No new grants/tenders found.")
+def generate_markdown_report(results, headline_tenders=None):
+    if not results and not headline_tenders:
+        print("No new data found to report.")
         return
 
     date_str = datetime.now().strftime("%Y-%m-%d")
@@ -650,7 +825,7 @@ def generate_markdown_report(results):
 
     # Generate and insert LinkedIn post at the top
     print("Generating LinkedIn post summary...")
-    linkedin_post = generate_linkedin_post(results)
+    linkedin_post = generate_linkedin_post(results, tender_summaries=headline_tenders)
     if linkedin_post:
         content += "---\n\n"
         content += "## 📋 Today's LinkedIn Post\n\n"
@@ -658,16 +833,19 @@ def generate_markdown_report(results):
         content += linkedin_post + "\n\n"
         content += "---\n\n"
 
-        # Write standalone LinkedIn post file for email digest
         with open("reports/linkedin/latest_post.md", "w", encoding="utf-8") as lf:
             lf.write(f"# LinkedIn Post - {date_str}\n\n")
             lf.write(linkedin_post + "\n")
         print("LinkedIn post saved to reports/linkedin/latest_post.md")
-    else:
-        print("LinkedIn post generation skipped or failed.")
 
-    content += "## 📊 Detailed Analysis\n\n"
+    if headline_tenders:
+        content += "## 🎯 Headline Procurement Opportunities\n\n"
+        content += "These high-value tenders represent strategic entry points for Canadian businesses:\n\n"
+        for ht in headline_tenders:
+            content += f"- {ht}\n"
+        content += "\n---\n\n"
 
+    content += "## 📊 Detailed Strategic Analysis\n\n"
     for item in results:
         content += f"## {item['title']}\n"
         content += f"**Source:** {item['source']} | **Date:** {item['date']}\n\n"
@@ -680,7 +858,6 @@ def generate_markdown_report(results):
             if insight_obj.get("co_bidding_opportunity"):
                 content += f"### 3. Co-Bidding Opportunity:\n{insight_obj['co_bidding_opportunity']}\n\n"
         else:
-            # Fallback if somehow a string was returned
             content += f"### Strategic Insight\n{insight_obj}\n\n"
             
         content += f"[Link to Opportunity]({item['link']})\n\n"
@@ -690,7 +867,6 @@ def generate_markdown_report(results):
         f.write(content)
     print(f"Report generated: {filename}")
 
-    # Upload structured JSON to Azure for the dashboard
     upload_pmo_json(results, linkedin_post)
 
 
@@ -706,16 +882,24 @@ if __name__ == "__main__":
     if headline_tenders:
         print(f"Selected {len(headline_tenders)} headline tenders for LinkedIn:")
         for ht in headline_tenders:
-            print(f"  → {ht}")
+            print(f"  -> {ht}")
     
     # 4. Fetch PMO/department news with AI analysis
     pmo_reports = fetch_pmo_news(lookback_days=lookback_days)
     
-    # 5. Generate LinkedIn post from BOTH streams (tenders + PMO context)
-    linkedin_post = generate_linkedin_post(pmo_reports, tender_summaries=headline_tenders)
+    # 5. Calculate Dashboard KPIs and Hero Hook
+    print("Calculating Dashboard Intelligence...")
+    kpis = calculate_kpis(tenders)
+    hero_hook = get_hero_hook(tenders, pmo_reports)
+    kpis["hero_hook"] = hero_hook
     
-    # 6. Generate the markdown report (PMO insights only — tenders live in tenders.json)
-    generate_markdown_report(pmo_reports)
+    # Upload KPIs to Azure
+    kpi_data = json.dumps(kpis, indent=2)
+    upload_to_azure(kpi_data, "kpis.json")
+    print(f"Dashboard KPIs uploaded: {kpis['total_active']} active tenders.")
+
+    # 6. Generate the markdown report
+    generate_markdown_report(pmo_reports, headline_tenders=headline_tenders)
     
     # 7. Social Media Card: Prefer tender-focused hook over PMO-based hook
     if linkedin_post or headline_tenders:

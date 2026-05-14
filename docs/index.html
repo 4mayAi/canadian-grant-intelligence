@@ -24,9 +24,24 @@
                 <h1 style="font-family: 'Outfit', sans-serif; letter-spacing: -1px; margin-left: 15px;">may<span style="color: #ffd700;">Ai</span></h1>
             </div>
             <p>Canadian Grant Intelligence | Delivering Golden Opportunities Daily</p>
-            <div class="status-badge" id="update-status">
-                <span class="status-dot"></span>
-                Updated: <span id="last-update-time">Loading...</span>
+            
+            <div id="hero-hook-container" class="hero-hook-container" style="display: none;">
+                <div class="hero-hook-glow"></div>
+                <p id="hero-hook-text">Synthesizing executive intelligence...</p>
+            </div>
+
+            <div class="header-controls">
+                <div class="status-badge" id="update-status">
+                    <span class="status-dot"></span>
+                    Updated: <span id="last-update-time">Loading...</span>
+                </div>
+                <div class="mode-toggle">
+                    <label class="switch">
+                        <input type="checkbox" id="executive-mode" onchange="toggleExecutiveMode()">
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="toggle-label">Executive Mode</span>
+                </div>
             </div>
         </header>
 
@@ -50,8 +65,8 @@
         </div>
 
         <div class="tabs">
-            <button class="tab-btn active" onclick="switchTab('tenders')">CanadaBuys Tenders</button>
-            <button class="tab-btn" onclick="switchTab('news')">PMO News & Insights</button>
+            <button class="tab-btn active" id="btn-tenders" onclick="switchTab('tenders')">CanadaBuys Tenders</button>
+            <button class="tab-btn" id="btn-news" onclick="switchTab('news')">PMO News & Insights</button>
         </div>
 
         <div id="tendersView">
@@ -108,10 +123,12 @@
         // Using raw.githubusercontent for data to avoid API rate limits on large JSON
         const TENDERS_URL = `https://canadiangrants.blob.core.windows.net/data/tenders.json`;
         const PMO_INSIGHTS_URL = `https://canadiangrants.blob.core.windows.net/data/pmo_insights.json`;
+        const KPIS_URL = `https://canadiangrants.blob.core.windows.net/data/kpis.json`;
 
         let reports = [];
         let allTenders = [];
         let activeReport = null;
+        let isExecutiveMode = false;
 
         function switchTab(tab) {
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -128,8 +145,51 @@
 
         async function init() {
             updateTimestamp();
+            loadKPIs();
             loadTenders();
             loadPmoInsights();
+        }
+
+        async function loadKPIs() {
+            try {
+                const res = await fetch(KPIS_URL);
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                const data = await res.json();
+                
+                // Update KPI Cards
+                document.getElementById('kpi-total').innerText = data.total_active || 0;
+                document.getElementById('kpi-new-today').innerText = data.new_today || 0;
+                document.getElementById('kpi-closing-week').innerText = data.closing_this_week || 0;
+                document.getElementById('kpi-lead').innerText = data.top_category || 'Mixed';
+
+                // Update Hero Hook
+                if (data.hero_hook) {
+                    const hookContainer = document.getElementById('hero-hook-container');
+                    const hookText = document.getElementById('hero-hook-text');
+                    hookText.innerText = data.hero_hook;
+                    hookContainer.style.display = 'block';
+                }
+
+                // Update timestamp if available
+                const timeEl = document.getElementById('last-update-time');
+                if (timeEl && data.generated_at) {
+                    const d = new Date(data.generated_at);
+                    timeEl.innerText = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+                }
+            } catch (e) {
+                console.error('Failed to load KPIs:', e);
+            }
+        }
+
+        function toggleExecutiveMode() {
+            isExecutiveMode = document.getElementById('executive-mode').checked;
+            const container = document.querySelector('.container');
+            if (isExecutiveMode) {
+                container.classList.add('executive-theme');
+            } else {
+                container.classList.remove('executive-theme');
+            }
+            renderTenders();
         }
 
         function updateTimestamp() {
@@ -166,24 +226,33 @@
                 if (!Array.isArray(allTenders)) throw new Error('Invalid JSON format');
 
                 // Clean up data for consistency
+                const VALID_PROVINCES = new Set([
+                    'Alberta', 'British Columbia', 'Manitoba', 'New Brunswick',
+                    'Newfoundland and Labrador', 'Nova Scotia', 'Ontario', 'Prince Edward Island',
+                    'Quebec', 'Saskatchewan', 'Northwest Territories', 'Nunavut', 'Yukon',
+                    'National', 'NCR (Ottawa/Gatineau)', 'Multiple Provinces'
+                ]);
+
                 allTenders.forEach(t => {
                     if (t.province) {
                         const starCount = (t.province.match(/\*/g) || []).length;
-                        if (starCount >= 2 || t.province.length > 30) {
+                        if (starCount >= 2 || t.province.length > 50) {
                             t.province = 'Multiple Provinces';
                         } else {
                             t.province = t.province.replace(/\*/g, '').trim();
                         }
+                        // Whitelist guard: if province isn't in the canonical set, map to National
+                        if (!VALID_PROVINCES.has(t.province)) {
+                            t.province = 'National';
+                        }
+                    } else {
+                        t.province = 'National';
                     }
                     t.category_label = getCategoryLabel(t.category);
                 });
                 
-                // Populate filters
-                const provinces = [...new Set(allTenders.map(t => {
-                    const p = t.province || 'Other';
-                    const map = { 'ON': 'Ontario', 'QC': 'Quebec', 'BC': 'British Columbia', 'AB': 'Alberta' };
-                    return map[p.toUpperCase()] || p;
-                }))].filter(Boolean).sort();
+                // Populate filters — provinces are now guaranteed clean
+                const provinces = [...new Set(allTenders.map(t => t.province))].filter(Boolean).sort();
                 
                 const categories = [...new Set(allTenders.map(t => t.category_label))].filter(Boolean).sort();
                 
@@ -212,6 +281,15 @@
             const now = new Date();
             
             let filtered = allTenders.filter(t => {
+                // In Executive Mode, we prioritize "New" or critical "Closing" tenders
+                // or just show everything but highlight differently if needed.
+                // For now, let's make it more selective in Executive Mode.
+                if (isExecutiveMode) {
+                    const closing = t.closing_date ? new Date(t.closing_date) : null;
+                    const daysLeft = closing ? Math.ceil((closing - now) / (1000 * 60 * 60 * 24)) : 999;
+                    if (t.type !== 'New' && daysLeft > 14) return false;
+                }
+
                 if (prov !== 'All' && t.province !== prov) return false;
                 if (cat !== 'All' && t.category_label !== cat) return false;
                 if (time === '24h' && t.type !== 'New') return false;
@@ -271,8 +349,10 @@
                     }
                 }
 
+                const isHighlight = isExecutiveMode && (t.type === 'New' || urgencyClass === 'urgency-critical');
+
                 return `
-                <div class="tender-card ${t.type === 'Open' ? 'is-open' : ''} ${urgencyClass}">
+                <div class="tender-card ${t.type === 'Open' ? 'is-open' : ''} ${urgencyClass} ${isHighlight ? 'executive-highlight' : ''}">
                     <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:12px;">
                         <h3 style="font-size:17px; font-weight:700; line-height: 1.4; flex: 1;">
                             <span class="badge ${t.type === 'New' ? 'badge-new' : 'badge-open'}">${t.type}</span>
