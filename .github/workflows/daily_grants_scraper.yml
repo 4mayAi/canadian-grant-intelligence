@@ -1,12 +1,22 @@
-name: Daily Canadian Grants Scraper
-
+name: Canadian Grants Intelligence Pipeline
+ 
 on:
   schedule:
-    - cron: '0 8 * * *' # 8:00 AM UTC Daily
+    - cron: '0 7 * * *'  # 7:00 AM UTC (Deep Dive)
+    - cron: '0 13 * * *' # 1:00 PM UTC (Pulse)
+    - cron: '0 19 * * *' # 7:00 PM UTC (Pulse)
   workflow_dispatch:
     inputs:
+      run_type:
+        description: 'Run mode (PULSE or DEEP_DIVE)'
+        required: true
+        default: 'PULSE'
+        type: choice
+        options:
+          - PULSE
+          - DEEP_DIVE
       lookback_days:
-        description: 'Number of days to look back for PMO news (default: 2)'
+        description: 'Number of days to look back for PMO news'
         required: false
         default: '2'
         type: string
@@ -25,29 +35,48 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+          cache: 'pip' # Caching pip dependencies
 
       - name: Install Dependencies
         run: |
           pip install requests feedparser python-dateutil azure-storage-blob playwright
-          playwright install chromium
+          
+      - name: Cache Playwright Binaries
+        uses: actions/cache@v3
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('**/requirements.txt') }}
+
+      - name: Install Playwright Browser
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: playwright install chromium
 
       - name: Run Scraper
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
           SCRAPE_LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '2' }}
+          RUN_TYPE: >-
+            ${{ 
+              github.event.inputs.run_type || 
+              (github.event.schedule == '0 7 * * *' && 'DEEP_DIVE' || 'PULSE') 
+            }}
         run: python scripts/fetch_canadian_grants.py
 
       - name: Commit and Push Report
+        # Only push git reports during DEEP_DIVE to avoid repo noise
+        if: env.RUN_TYPE == 'DEEP_DIVE'
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add reports/
-          git commit -m "Automated Daily Grant Report: $(date +'%Y-%m-%d')" || exit 0
+          git commit -m "Automated Intelligence Report: $(date +'%Y-%m-%d')" || exit 0
           git push
 
       - name: Send Email Digest
-        if: success()
+        # Only send email for high-signal Deep Dive runs
+        if: env.RUN_TYPE == 'DEEP_DIVE' && success()
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -59,10 +88,10 @@ jobs:
           to: ${{ secrets.EMAIL_ADDRESS }}
           from: Canadian Grant Intelligence <${{ secrets.EMAIL_ADDRESS }}>
           body: |
-            Your daily Canadian Grant Intelligence digest is ready.
-
+            Your daily Canadian Grant Intelligence deep-dive is ready.
+            
             View the full dashboard: https://emurira.github.io/canadian-grant-intelligence/
-
+            
             ---
             LinkedIn Post (copy-paste ready):
           html_body: file://reports/linkedin/latest_post.md

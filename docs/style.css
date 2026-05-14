@@ -838,7 +838,7 @@ footer a { color: var(--accent-2); text-decoration: none; }
 /* KPI Dashboard */
 .kpi-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 16px;
     margin-bottom: 32px;
 }

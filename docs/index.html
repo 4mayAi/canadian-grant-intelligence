@@ -36,7 +36,7 @@
                     Updated: <span id="last-update-time">Loading...</span>
                 </div>
                 <div class="mode-toggle">
-                    <label class="switch">
+                    <label class="switch" title="Executive Mode: Prioritizes immediate opportunities by filtering for New tenders and those closing within 14 days. Applies 'Executive Priority' highlights.">
                         <input type="checkbox" id="executive-mode" onchange="toggleExecutiveMode()">
                         <span class="slider round"></span>
                     </label>
@@ -61,6 +61,10 @@
             <div class="kpi-card">
                 <span class="kpi-value" id="kpi-lead">N/A</span>
                 <span class="kpi-label">Top Category</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-provincial-split" style="font-size: 1.2em; white-space: nowrap;">N/A</span>
+                <span class="kpi-label">Provincial Split</span>
             </div>
         </div>
 
@@ -494,6 +498,23 @@
                 }
             }
             kpiLead.innerText = leadText;
+
+            const kpiProvincialSplit = document.getElementById('kpi-provincial-split');
+            if (kpiProvincialSplit) {
+                const provs = filtered.reduce((acc, t) => {
+                    if (t.province_abbrev && t.province_abbrev !== 'NAT' && t.province_abbrev !== 'MULT') {
+                        acc[t.province_abbrev] = (acc[t.province_abbrev] || 0) + 1;
+                    }
+                    return acc;
+                }, {});
+                const sortedProvs = Object.entries(provs).sort((a,b) => b[1] - a[1]);
+                let provText = 'N/A';
+                if (sortedProvs.length > 0) {
+                    const top3 = sortedProvs.slice(0, 3);
+                    provText = top3.map(p => `${p[0]} ${Math.round((p[1] / filtered.length) * 100)}%`).join(' &middot; ');
+                }
+                kpiProvincialSplit.innerHTML = provText;
+            }
         }
 
         function updateSummaryBar(filtered) {
