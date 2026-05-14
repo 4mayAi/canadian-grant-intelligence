@@ -2,6 +2,26 @@
 
 Daily automated scan of federal, provincial, and municipal 'Golden Opportunity' funding.
 
+---
+
+## 📋 Today's LinkedIn Post
+
+> *Copy-paste ready for LinkedIn. Full analysis below.*
+
+🇨🇦 **Government Funding & Procurement Alert: Unlocking Your Canadian Market Potential!**
+
+Today’s policy landscape in Canada points towards increased investment in sustainability and digital transformation initiatives. Keep a close watch on emerging grants aimed at supporting green infrastructure and advanced tech adoption, particularly from departments focused on environmental protection and innovation.
+
+For procurement professionals, the federal government is actively seeking specialized services. The tender for **Copy of RFP F2599-250003B–CCGS Limnos–Installation of Supplied HVAC and Refrigeration Equipment**, closing June 25th, presents a prime opportunity for HVAC and refrigeration specialists. Businesses offering health and safety services should also note the upcoming deadline on June 22nd, as government departments are prioritizing workplace well-being.
+
+These signals indicate a strong demand for expertise across critical sectors.
+
+Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
+
+#CanadaProcurement #GovernmentFunding #BusinessIntelligence #MayAi #CanadianGovernment
+
+---
+
 ## 🎯 Headline Procurement Opportunities
 
 These high-value tenders represent strategic entry points for Canadian businesses:
@@ -13,26 +33,4 @@ These high-value tenders represent strategic entry points for Canadian businesse
 ---
 
 ## 📊 Detailed Strategic Analysis
-
-## Minister Champagne in New Brunswick to announce historic investments in Canada’s small craft harbours
-**Source:** Finance_Canada | **Date:** 2026-05-14
-
-### 1. LinkedIn Hook:
-> 🇨🇦 Historic Investments in Canada's Small Craft Harbours Announced: What This Means for Your B2B Strategy! 🌊
-
-### 2. Strategic Value for Canadian Businesses:
-*   **National Electricity Strategy Alignment:** While not directly energy, revitalized harbours can support marine logistics for offshore wind/tidal energy projects, a key component of the National Electricity Strategy. Investments in infrastructure can facilitate the movement of materials and personnel. 
-*   **Economic Diversification Signal:** This announcement signals a commitment to diversifying economic drivers beyond traditional sectors, potentially stimulating demand for specialized marine services, construction, and maintenance. 
-*   **Regional Economic Impact:** Investments in New Brunswick's small craft harbours will have a ripple effect on local economies, creating opportunities for businesses that can support maritime infrastructure development, maintenance, and operational enhancements. 
-*   **Infrastructure Modernization Trend:** This is part of a broader federal trend towards modernizing critical infrastructure, indicating potential for future similar announcements across other maritime and port facilities.
-
-### 3. Co-Bidding Opportunity:
-*   **Specialized Marine Engineering & Construction:** The need for upgrades and new construction in harbours will likely require a combination of expertise in marine engineering, dredging, breakwater construction, and specialized dock facility development. 
-*   **Environmental Remediation & Compliance:** Many older harbour facilities may require environmental assessments, remediation, and ongoing compliance support, necessitating partnerships with environmental consultants and waste management specialists. 
-*   **Technology Integration (Smart Harbours):** Modernizing harbours could involve the integration of smart technologies for navigation, security, waste management, and operational efficiency. This presents an opportunity for consortiums that combine traditional marine construction with IoT and AI solution providers. 
-*   **Supply Chain & Logistics Optimization:** Enhancing small craft harbours can improve the efficiency of regional supply chains. Businesses offering logistics, port management software, and specialized transport solutions could form partnerships to leverage these improvements.
-
-[Link to Opportunity](https://www.canada.ca/en/department-finance/news/2026/05/minister-champagne-in-new-brunswick-to-announce-historic-investments-in-canadas-small-craft-harbours.html)
-
----
 

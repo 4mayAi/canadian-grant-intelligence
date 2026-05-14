@@ -1,11 +1,13 @@
-# LinkedIn Post - 2026-05-13
+# LinkedIn Post - 2026-05-14
 
-🇨🇦  **Government Funding Surge: What You Need to Know for Canadian Business**
+🇨🇦 **Government Funding & Procurement Alert: Unlocking Your Canadian Market Potential!**
 
-Today's announcements signal significant government backing for Canada's resource sector and vital infrastructure. The Canada Growth Fund's investment in a major lithium mine expansion offers a clear signal to materials suppliers and technology providers focused on clean energy. Furthermore, historic investments in small craft harbours across Canada present immediate opportunities for construction, engineering, and maintenance firms to contribute to maritime infrastructure upgrades.
+Today’s policy landscape in Canada points towards increased investment in sustainability and digital transformation initiatives. Keep a close watch on emerging grants aimed at supporting green infrastructure and advanced tech adoption, particularly from departments focused on environmental protection and innovation.
 
-This proactive approach to economic development, bridging policy initiatives with tangible funding, underscores key growth areas. For businesses aligned with these priorities, staying informed is paramount.
+For procurement professionals, the federal government is actively seeking specialized services. The tender for **Copy of RFP F2599-250003B–CCGS Limnos–Installation of Supplied HVAC and Refrigeration Equipment**, closing June 25th, presents a prime opportunity for HVAC and refrigeration specialists. Businesses offering health and safety services should also note the upcoming deadline on June 22nd, as government departments are prioritizing workplace well-being.
+
+These signals indicate a strong demand for expertise across critical sectors.
 
 Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
 
-#CanadianGovernment #Procurement #Funding #BusinessIntelligence #CanadaGrowthFund
+#CanadaProcurement #GovernmentFunding #BusinessIntelligence #MayAi #CanadianGovernment
