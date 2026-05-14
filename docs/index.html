@@ -337,7 +337,14 @@
                 let urgencyClass = '';
                 if (t.closing_date) {
                     const closing = new Date(t.closing_date);
-                    const daysLeft = Math.ceil((closing - now) / (1000 * 60 * 60 * 24));
+                    // Use UTC midnight for more consistent "days left" calculation matching CanadaBuys
+                    const today = new Date();
+                    today.setHours(0, 0, 0, 0);
+                    closing.setHours(0, 0, 0, 0);
+                    
+                    const diffTime = closing - today;
+                    const daysLeft = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
                     if (daysLeft < 0) {
                         deadlineBadge = `<span class="badge" style="background:rgba(239,68,68,0.1); color:#ef4444; border:1px solid #ef4444;">Closed</span>`;
                         urgencyClass = 'urgency-closed';
@@ -375,8 +382,8 @@
                             <div style="color: var(--text-primary); font-weight: 500;">🏷️ ${escapeHtml(t.category_label)}</div>
                         </div>
                         <div style="flex: 1; text-align: center;">
-                            <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Source</div>
-                            <div style="color: var(--text-primary); font-weight: 500;">📡 CanadaBuys</div>
+                            <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Published</div>
+                            <div style="color: var(--text-primary); font-weight: 500;">📅 ${t.publication_date ? formatDate(t.publication_date) : 'N/A'}</div>
                         </div>
                     </div>
                     <div style="margin-top: 16px; text-align: right;">
@@ -538,7 +545,7 @@
                 return `${count} ${shortName}`;
             }).join(' · ');
             
-            bar.innerHTML = `📊 Showing <strong>${filtered.length}</strong> tenders${newCount > 0 ? ` · <span style="color: #22c55e;">${newCount} New today</span>` : ''} · ${catBreakdown}`;
+            bar.innerHTML = `🛡️ <strong>${filtered.length}</strong> High-Signal Opportunities <span style="color:var(--text-muted); font-size: 11px;">(Filtered from full 17.8k market)</span> · ${catBreakdown}`;
             bar.style.display = 'block';
         }
 

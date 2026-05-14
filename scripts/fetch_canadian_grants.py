@@ -469,6 +469,8 @@ def fetch_canadabuys_csvs(pulse_only=False):
                     continue
 
                 close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
+                pub_date = row.get("publicationDate-datePublication", "")
+                amend_date = row.get("amendmentDate-dateModification", "")
                 province = normalize_province(row.get("regionsOfDelivery-regionsLivraison-eng", ""))
                 category = clean_label(row.get("procurementCategory-categorieApprovisionnement", "Uncategorized"))
                 
@@ -492,6 +494,7 @@ def fetch_canadabuys_csvs(pulse_only=False):
                         "description": desc[:500] + "..." if len(desc) > 500 else desc,
                         "link": link,
                         "closing_date": close_date,
+                        "publication_date": pub_date or amend_date,
                         "province": province,
                         "province_abbrev": PROVINCE_ABBREV.get(province, "NAT"),
                         "category": category
