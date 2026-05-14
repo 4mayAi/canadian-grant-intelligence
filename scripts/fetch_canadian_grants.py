@@ -704,7 +704,9 @@ def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15):
                 break
             
             text_to_search = (entry.title + " " + getattr(entry, 'summary', '')).lower()
-            if any(kw.lower() in text_to_search for kw in KEYWORDS):
+            # SEEDING MODE: bypass keyword check to identify NEW priorities
+            # REPORTING MODE: enforce keyword check for dashboard signal
+            if lookback_limit is None or any(kw.lower() in text_to_search for kw in KEYWORDS):
                 print(f"Match found: {entry.title}")
                 insight = get_gemini_insight(text_to_search, strategic_context=strategic_priorities)
                 
@@ -744,7 +746,8 @@ def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15):
             continue
 
         text_to_search = entry['title'].lower()
-        if any(kw.lower() in text_to_search for kw in KEYWORDS):
+        # SEEDING MODE: bypass keyword check to identify NEW priorities
+        if lookback_limit is None or any(kw.lower() in text_to_search for kw in KEYWORDS):
             print(f"Match found via Playwright: {entry['title']}")
             insight = get_gemini_insight(text_to_search, strategic_context=strategic_priorities)
             strat_value = insight.get("strategic_value", "")
