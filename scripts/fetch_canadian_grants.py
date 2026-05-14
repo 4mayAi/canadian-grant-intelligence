@@ -186,9 +186,9 @@ def get_gemini_insight(content, strategic_context=None):
         try:
             response = requests.post(url, json=payload, timeout=30)
             
-            if response.status_code == 429:
-                wait_time = 10 * (attempt + 1)
-                print(f"Rate limited (429). Waiting {wait_time}s before retry {attempt + 1}/{max_retries}...")
+            if response.status_code in (429, 503):
+                wait_time = 30 * (attempt + 1)
+                print(f"Rate limited ({response.status_code}). Waiting {wait_time}s before retry {attempt + 1}/{max_retries}...")
                 time.sleep(wait_time)
                 continue
             
