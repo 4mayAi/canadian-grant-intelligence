@@ -6,6 +6,6 @@ Today's announcements signal significant government backing for Canada's resourc
 
 This proactive approach to economic development, bridging policy initiatives with tangible funding, underscores key growth areas. For businesses aligned with these priorities, staying informed is paramount.
 
-Full dashboard with filters and strategic analysis 👉 https://emurira.github.io/canadian-grant-intelligence/
+Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
 
 #CanadianGovernment #Procurement #Funding #BusinessIntelligence #CanadaGrowthFund

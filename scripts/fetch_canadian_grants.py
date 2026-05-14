@@ -108,18 +108,60 @@ KEYWORDS = [
     "infrastructure", "defense", "defence", "security", "quantum"
 ]
 
-DASHBOARD_URL = "https://emurira.github.io/canadian-grant-intelligence/"
+DASHBOARD_URL = "https://4mayAi.github.io/canadian-grant-intelligence/"
 
-def get_gemini_insight(content):
+def get_strategic_priorities(news_results):
+    """
+    Analyzes latest PMO/department news to extract active federal strategic priorities.
+    Returns a list of keywords/phrases to augment the CanadaBuys filter.
+    """
+    if not news_results:
+        return []
+        
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        return []
+        
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash-lite:generateContent?key={api_key}"
+    
+    news_titles = "\n".join([f"- {n['title']}" for n in news_results[:10]])
+    
+    prompt = f"""
+    Analyze the following Canadian government news headlines.
+    Extract exactly 10 high-signal, specific strategic priorities, project names, or policy anchors mentioned.
+    
+    Format: Return a raw JSON array of strings. No markdown.
+    
+    Headlines:
+    {news_titles}
+    """
+    
+    try:
+        response = requests.post(url, json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=20)
+        response.raise_for_status()
+        data = response.json()
+        if 'candidates' in data and data['candidates']:
+            text = data['candidates'][0]['content']['parts'][0]['text']
+            text = text.replace("```json", "").replace("```", "").strip()
+            return json.loads(text)
+    except Exception as e:
+        print(f"Strategic priority extraction failed: {e}")
+    return []
+
+def get_gemini_insight(content, strategic_context=None):
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         return {"linkedin_hook": "", "strategic_value": "Insight generation skipped: GEMINI_API_KEY not found.", "co_bidding_opportunity": ""}
     
     url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash-lite:generateContent?key={api_key}"
     
+    context_str = ""
+    if strategic_context:
+        context_str = f"\nCURRENT STRATEGIC PRIORITIES:\n- " + "\n- ".join(strategic_context)
+    
     prompt = f"""
     You are a Senior Strategic Advisor for B2B Sales Executives and Bid Managers in Canada.
-    Analyze the following Canadian government announcement/tender.
+    Analyze the following Canadian government announcement/tender in the context of the current federal strategy.{context_str}
     
     You MUST respond with a raw JSON object and nothing else. Do not wrap the JSON in markdown code blocks.
     
@@ -127,7 +169,7 @@ def get_gemini_insight(content):
     
     The JSON object must have exactly these three keys. For "strategic_value" and "co_bidding_opportunity", use markdown formatting (like bullet points) inside the JSON string to provide structured, consultative depth:
     "linkedin_hook": "A 'Stop-the-scroll' high-impact opening line to drive traffic (include an emoji).",
-    "strategic_value": "Consultative analysis of why this matters. Use 3-5 markdown bullet points detailing sector impact, technical anchors, and economic signals.",
+    "strategic_value": "Consultative analysis of why this matters. Use 3-5 markdown bullet points detailing sector impact, technical anchors, and economic signals. Connect it directly to the PM's strategy if relevant.",
     "co_bidding_opportunity": "Identify the technical or operational gap that requires a consortium. Provide actionable intelligence on why B2B partnerships are favored here (use bullet points if needed)."
     
     Content: {content[:3000]}
@@ -332,7 +374,7 @@ Today's policy & news highlights:
     return None
 
 
-def fetch_canadabuys_csvs(pulse_only=False):
+def fetch_canadabuys_csvs(pulse_only=False, dynamic_keywords=None):
     """
     Queries the official Open Government CKAN API to dynamically find and parse
     the CanadaBuys 'New' and 'Open' tender notice CSVs.
@@ -340,8 +382,12 @@ def fetch_canadabuys_csvs(pulse_only=False):
     Args:
         pulse_only (bool): If True, only fetch the 'New' tenders (smaller payload).
                            If False, fetch both, including the full 17k+ 'Open' set.
+        dynamic_keywords (list): Optional list of themes extracted from recent PMO news.
     """
+    effective_keywords = KEYWORDS + (dynamic_keywords or [])
     print(f"Fetching CanadaBuys metadata (Mode: {'PULSE' if pulse_only else 'DEEP DIVE'})...")
+    if dynamic_keywords:
+        print(f"Applying {len(dynamic_keywords)} dynamic strategic filters: {', '.join(dynamic_keywords[:5])}...")
     try:
         data = requests.get(CANADABUYS_CKAN_API, headers=HEADERS, timeout=30).json()
     except Exception as e:
@@ -465,7 +511,7 @@ def fetch_canadabuys_csvs(pulse_only=False):
                 
                 # SURGICAL FILTERING: Only proceed if high-signal keywords match
                 text_to_search = (title + " " + desc).lower()
-                if not any(kw.lower() in text_to_search for kw in KEYWORDS):
+                if not any(kw.lower() in text_to_search for kw in effective_keywords):
                     continue
 
                 close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
@@ -631,10 +677,14 @@ async def scrape_department_news_playwright(url, source_name):
         print(f"Playwright scraping failed for {source_name}: {e}")
     return results
 
-def fetch_pmo_news(lookback_days=2):
+def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15):
     reports = []
-    lookback_limit = datetime.now() - timedelta(days=lookback_days)
-    print(f"PMO lookback window: {lookback_days} days (since {lookback_limit.strftime('%Y-%m-%d %H:%M')})")
+    lookback_limit = None
+    if lookback_days is not None:
+        lookback_limit = datetime.now() - timedelta(days=lookback_days)
+        print(f"PMO lookback window: {lookback_days} days (since {lookback_limit.strftime('%Y-%m-%d %H:%M')})")
+    else:
+        print(f"PMO strategy seeding: Fetching last {max_items} releases regardless of date.")
     
     # 1. Process standard stable RSS Feeds (e.g. PMO)
     for name, url in FEEDS.items():
@@ -644,15 +694,19 @@ def fetch_pmo_news(lookback_days=2):
         for entry in feed.entries:
             published = getattr(entry, 'published_parsed', None)
             pub_date = datetime.now()
-            if published:
+            if published and lookback_limit:
                 pub_date = datetime.fromtimestamp(time.mktime(published))
                 if pub_date < lookback_limit:
                     continue
             
+            # Limit count per feed if we are in strategy seeding mode
+            if lookback_limit is None and len([r for r in reports if r['source'] == name]) >= max_items:
+                break
+            
             text_to_search = (entry.title + " " + getattr(entry, 'summary', '')).lower()
-            if any(kw in text_to_search for kw in KEYWORDS):
+            if any(kw.lower() in text_to_search for kw in KEYWORDS):
                 print(f"Match found: {entry.title}")
-                insight = get_gemini_insight(text_to_search)
+                insight = get_gemini_insight(text_to_search, strategic_context=strategic_priorities)
                 
                 # Check for API failure or lack of value
                 strat_value = insight.get("strategic_value", "")
@@ -678,10 +732,21 @@ def fetch_pmo_news(lookback_days=2):
             print(f"Error executing asyncio loop for {name}: {e}")
 
     for entry in scraped_items:
+        # Date logic for Playwright (default to now if unknown)
+        pub_date = datetime.now()
+        if lookback_limit:
+            # We don't have a precise date from Playwright usually, so we assume today
+            # But if it's already in the past relative to the limit, we'd skip (not applicable for today)
+            pass
+
+        # Limit count per source if in strategy seeding mode
+        if lookback_limit is None and len([r for r in reports if r['source'] == entry['source']]) >= max_items:
+            continue
+
         text_to_search = entry['title'].lower()
-        if any(kw in text_to_search for kw in KEYWORDS):
+        if any(kw.lower() in text_to_search for kw in KEYWORDS):
             print(f"Match found via Playwright: {entry['title']}")
-            insight = get_gemini_insight(text_to_search)
+            insight = get_gemini_insight(text_to_search, strategic_context=strategic_priorities)
             strat_value = insight.get("strategic_value", "")
             if "API Error" in strat_value or "blocked" in strat_value or "not found" in strat_value or "No insight available" in strat_value or "Failed to parse" in strat_value:
                 print(f"Skipping due to lack of insight: {strat_value}")
@@ -801,27 +866,31 @@ if __name__ == "__main__":
     # 1. Environment-driven run mode (PULSE or DEEP_DIVE)
     run_type = os.getenv("RUN_TYPE", "DEEP_DIVE").upper()
     pulse_only = (run_type == "PULSE")
-    
-    # 2. Lookback override (default: 2 days)
     lookback_days = int(os.getenv("SCRAPE_LOOKBACK_DAYS", "2"))
     
-    # 3. Fetch CanadaBuys tenders
-    tenders = fetch_canadabuys_csvs(pulse_only=pulse_only)
+    # 2. STRATEGY FIRST: Fetch PMO/department news to identify current priorities
+    pmo_reports = []
+    dynamic_priorities = []
+    if not pulse_only:
+        print("Strategy Phase: Extracting federal priorities from latest news...")
+        # SEEDING: Fetch last 15 releases regardless of date to ensure filter is always primed
+        raw_news = fetch_pmo_news(lookback_days=None, max_items=15)
+        dynamic_priorities = get_strategic_priorities(raw_news)
+        
+        # REPORTING: Fetch news within actual lookback window for dashboard display
+        pmo_reports = fetch_pmo_news(lookback_days=lookback_days, strategic_priorities=dynamic_priorities)
+    else:
+        print("Pulse mode: Skipping strategic context extraction.")
+
+    # 3. Fetch CanadaBuys tenders using augmented keyword list
+    tenders = fetch_canadabuys_csvs(pulse_only=pulse_only, dynamic_keywords=dynamic_priorities)
     
     # 4. Select headline tenders for LinkedIn synthesis
     headline_tenders = select_headline_tenders(tenders, max_count=3)
     if headline_tenders:
         print(f"Selected {len(headline_tenders)} headline tenders for LinkedIn.")
     
-    # 5. Fetch PMO/department news with AI analysis
-    # We only do full PMO news analysis in DEEP_DIVE mode to save LLM costs
-    pmo_reports = []
-    if not pulse_only:
-        pmo_reports = fetch_pmo_news(lookback_days=lookback_days)
-    else:
-        print("Pulse mode: Skipping PMO/department news scrape.")
-    
-    # 6. Calculate Dashboard KPIs and Hero Hook
+    # 5. Calculate Dashboard KPIs and Hero Hook
     print("Calculating Dashboard Intelligence...")
     kpis = calculate_kpis(tenders)
     hero_hook = get_hero_hook(tenders, pmo_reports)
