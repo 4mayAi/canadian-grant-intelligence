@@ -680,11 +680,13 @@ async def scrape_department_news_playwright(url, source_name):
 def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15):
     reports = []
     lookback_limit = None
-    if lookback_days is not None:
+    is_seeding = (lookback_days is None)
+    
+    if not is_seeding:
         lookback_limit = datetime.now() - timedelta(days=lookback_days)
         print(f"PMO lookback window: {lookback_days} days (since {lookback_limit.strftime('%Y-%m-%d %H:%M')})")
     else:
-        print(f"PMO strategy seeding: Fetching last {max_items} releases regardless of date.")
+        print(f"PMO strategy seeding: Collecting last {max_items} headlines (no Gemini calls).")
     
     # 1. Process standard stable RSS Feeds (e.g. PMO)
     for name, url in FEEDS.items():
@@ -700,13 +702,23 @@ def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15):
                     continue
             
             # Limit count per feed if we are in strategy seeding mode
-            if lookback_limit is None and len([r for r in reports if r['source'] == name]) >= max_items:
+            if is_seeding and len([r for r in reports if r['source'] == name]) >= max_items:
                 break
             
             text_to_search = (entry.title + " " + getattr(entry, 'summary', '')).lower()
-            # SEEDING MODE: bypass keyword check to identify NEW priorities
-            # REPORTING MODE: enforce keyword check for dashboard signal
-            if lookback_limit is None or any(kw.lower() in text_to_search for kw in KEYWORDS):
+            
+            if is_seeding:
+                # SEEDING MODE: Just collect headlines — NO Gemini calls
+                print(f"Seed collected: {entry.title}")
+                reports.append({
+                    "source": name,
+                    "title": entry.title,
+                    "link": entry.link,
+                    "date": pub_date.strftime("%Y-%m-%d"),
+                    "insight": {}  # Empty — seeding doesn't need insights
+                })
+            elif any(kw.lower() in text_to_search for kw in KEYWORDS):
+                # REPORTING MODE: Keyword filter + full Gemini insight generation
                 print(f"Match found: {entry.title}")
                 insight = get_gemini_insight(text_to_search, strategic_context=strategic_priorities)
                 
@@ -742,12 +754,28 @@ def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15):
             pass
 
         # Limit count per source if in strategy seeding mode
-        if lookback_limit is None and len([r for r in reports if r['source'] == entry['source']]) >= max_items:
+        if is_seeding and len([r for r in reports if r['source'] == entry['source']]) >= max_items:
             continue
 
         text_to_search = entry['title'].lower()
-        # SEEDING MODE: bypass keyword check to identify NEW priorities
-        if lookback_limit is None or any(kw.lower() in text_to_search for kw in KEYWORDS):
+        
+        # Filter out navigation junk from Playwright scrapes
+        junk_patterns = ["top of page", "skip to", "archived news", "all department"]
+        if any(junk in text_to_search for junk in junk_patterns):
+            continue
+        
+        if is_seeding:
+            # SEEDING MODE: Just collect headlines — NO Gemini calls
+            print(f"Seed collected via Playwright: {entry['title']}")
+            reports.append({
+                "source": entry['source'],
+                "title": entry['title'],
+                "link": entry['link'],
+                "date": datetime.now().strftime("%Y-%m-%d"),
+                "insight": {}
+            })
+        elif any(kw.lower() in text_to_search for kw in KEYWORDS):
+            # REPORTING MODE: Keyword filter + full Gemini insight generation
             print(f"Match found via Playwright: {entry['title']}")
             insight = get_gemini_insight(text_to_search, strategic_context=strategic_priorities)
             strat_value = insight.get("strategic_value", "")

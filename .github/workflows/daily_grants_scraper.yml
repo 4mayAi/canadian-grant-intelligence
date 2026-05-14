@@ -27,6 +27,12 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    env:
+      RUN_TYPE: >-
+        ${{ 
+          github.event.inputs.run_type || 
+          (github.event.schedule == '0 7 * * *' && 'DEEP_DIVE' || 'PULSE') 
+        }}
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -57,11 +63,6 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
           SCRAPE_LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '2' }}
-          RUN_TYPE: >-
-            ${{ 
-              github.event.inputs.run_type || 
-              (github.event.schedule == '0 7 * * *' && 'DEEP_DIVE' || 'PULSE') 
-            }}
         run: python scripts/fetch_canadian_grants.py
 
       - name: Commit and Push Report
