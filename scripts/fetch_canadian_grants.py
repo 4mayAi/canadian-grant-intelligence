@@ -10,6 +10,7 @@ import html
 import asyncio
 from playwright.async_api import async_playwright
 from azure.storage.blob import BlobServiceClient, ContentSettings
+from dateutil import parser as date_parser
 
 def upload_to_azure(data, blob_name):
     """Uploads data to Azure Blob Storage using connection string from environment."""
@@ -673,6 +674,7 @@ async def scrape_department_news_playwright(url, source_name):
             await page.goto(url, wait_until='networkidle', timeout=30000)
             
             # Universal extraction heuristic for government news portals
+            # Now includes basic date extraction attempts
             items = await page.evaluate('''() => {
                 const links = Array.from(document.querySelectorAll('a'));
                 const results = [];
@@ -681,7 +683,20 @@ async def scrape_department_news_playwright(url, source_name):
                     const title = a.innerText.trim();
                     if (title.length > 20 && (href.includes('/news') || href.includes('news-releases') || href.includes('/news-nouvelles/') || href.includes('article'))) {
                         if (!results.some(r => r.link === href)) {
-                            results.push({title: title, link: href});
+                            // Try to find a date near the link
+                            let dateText = '';
+                            const parent = a.closest('div, li, tr, article');
+                            if (parent) {
+                                const timeElem = parent.querySelector('time');
+                                if (timeElem) {
+                                    dateText = timeElem.getAttribute('datetime') || timeElem.innerText;
+                                } else {
+                                    // Look for elements with date-like classes
+                                    const dateElem = parent.querySelector('.date, .pubdate, .published');
+                                    if (dateElem) dateText = dateElem.innerText;
+                                }
+                            }
+                            results.push({title: title, link: href, dateText: dateText});
                         }
                     }
                 });
@@ -689,11 +704,20 @@ async def scrape_department_news_playwright(url, source_name):
             }''')
             
             for item in items:
+                # Parse date if found, otherwise use None (to be filtered/filled later)
+                pub_date_struct = None
+                if item.get('dateText'):
+                    try:
+                        dt = date_parser.parse(item['dateText'])
+                        pub_date_struct = dt.timetuple()
+                    except (ValueError, TypeError, OverflowError):
+                        pass
+                
                 results.append({
                     "title": item['title'],
                     "link": item['link'],
                     "source": source_name,
-                    "published_parsed": time.gmtime()
+                    "published_parsed": pub_date_struct
                 })
             
             await browser.close()
@@ -721,11 +745,18 @@ def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15, pro
         
         for entry in feed.entries:
             published = getattr(entry, 'published_parsed', None)
-            pub_date = datetime.now()
-            if published and lookback_limit:
+            pub_date = None
+            
+            if published:
                 pub_date = datetime.fromtimestamp(time.mktime(published))
-                if pub_date < lookback_limit:
+            
+            # Filtering by lookback window
+            if not is_seeding and lookback_limit:
+                if not pub_date or pub_date < lookback_limit:
                     continue
+            
+            # Final pub_date assignment for reporting (default to current only as last resort)
+            display_date = pub_date or datetime.now()
             
             # Limit count per feed if we are in strategy seeding mode
             if is_seeding and len([r for r in reports if r['source'] == name]) >= max_items:
@@ -740,7 +771,7 @@ def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15, pro
                     "source": name,
                     "title": entry.title,
                     "link": entry.link,
-                    "date": pub_date.strftime("%Y-%m-%d"),
+                    "date": display_date.strftime("%Y-%m-%d"),
                     "insight": {}  # Empty — seeding doesn't need insights
                 })
             elif any(kw.lower() in text_to_search for kw in KEYWORDS):
@@ -766,7 +797,7 @@ def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15, pro
                     "source": name,
                     "title": entry.title,
                     "link": entry.link,
-                    "date": pub_date.strftime("%Y-%m-%d"),
+                    "date": display_date.strftime("%Y-%m-%d"),
                     "insight": insight
                 })
 
@@ -780,12 +811,20 @@ def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15, pro
             print(f"Error executing asyncio loop for {name}: {e}")
 
     for entry in scraped_items:
-        # Date logic for Playwright (default to now if unknown)
-        pub_date = datetime.now()
-        if lookback_limit:
-            # We don't have a precise date from Playwright usually, so we assume today
-            # But if it's already in the past relative to the limit, we'd skip (not applicable for today)
-            pass
+        # Date logic for Playwright: use extracted date if available, fallback to now
+        pub_date = None
+        if entry.get('published_parsed'):
+            try:
+                pub_date = datetime.fromtimestamp(time.mktime(entry['published_parsed']))
+            except (ValueError, TypeError, OverflowError):
+                pass
+        
+        display_date = pub_date or datetime.now()
+        
+        # Filter by lookback window if we have a real date
+        if not is_seeding and lookback_limit and pub_date:
+            if pub_date < lookback_limit:
+                continue
 
         # Limit count per source if in strategy seeding mode
         if is_seeding and len([r for r in reports if r['source'] == entry['source']]) >= max_items:
@@ -805,7 +844,7 @@ def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15, pro
                 "source": entry['source'],
                 "title": entry['title'],
                 "link": entry['link'],
-                "date": datetime.now().strftime("%Y-%m-%d"),
+                "date": display_date.strftime("%Y-%m-%d"),
                 "insight": {}
             })
         elif any(kw.lower() in text_to_search for kw in KEYWORDS):
@@ -829,7 +868,7 @@ def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15, pro
                 "source": entry['source'],
                 "title": entry['title'],
                 "link": entry['link'],
-                "date": datetime.now().strftime("%Y-%m-%d"),
+                "date": display_date.strftime("%Y-%m-%d"),
                 "insight": insight
             })
     
@@ -1004,15 +1043,19 @@ if __name__ == "__main__":
         try:
             import subprocess
             
-            # Prefer a tender-based hook for the social card
-            if headline_tenders:
-                top_hook = f"🇨🇦 {len(tenders)} active federal tenders — {headline_tenders[0].split(' — ')[0]}"
+            # Social Card Hook: Use the strategic Hero Hook generated by Gemini
+            # This provides aggregate intelligence rather than a vague tender title.
+            if hero_hook and "mayAi" not in hero_hook:
+                top_hook = hero_hook
+                clean_category = "Strategic Intelligence Summary"
+            elif headline_tenders:
+                top_hook = f"🇨🇦 {len(tenders)} Active Opportunities — {headline_tenders[0].split(' — ')[0]}"
                 clean_category = "Federal Procurement Intelligence"
             elif pmo_reports:
                 top_item = pmo_reports[0]
-                top_hook = top_item['insight'].get('linkedin_hook', 'mayAi | Golden Opportunities')
+                top_hook = top_item['insight'].get('linkedin_hook', 'mayAi | Executive Intelligence')
                 raw_category = top_item['insight'].get('strategic_value', 'Executive Insight').split('\n')[0].lstrip('- ').strip()
-                clean_category = raw_category[:40] if len(raw_category) > 5 else "Executive Intelligence Report"
+                clean_category = raw_category[:40] if len(raw_category) > 10 else "Executive Intelligence Report"
             else:
                 top_hook = "mayAi | Golden Opportunities"
                 clean_category = "Canadian Grant Intelligence"

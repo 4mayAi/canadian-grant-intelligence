@@ -575,7 +575,8 @@ input:checked + .slider:before {
     min-width: 0;
 }
 .social-card-preview {
-    width: 320px;
+    width: 100%;
+    max-width: 500px;
     flex-shrink: 0;
 }
 
@@ -880,6 +881,7 @@ footer a { color: var(--accent-2); text-decoration: none; }
 
 @media (max-width: 900px) {
     .kpi-container { grid-template-columns: repeat(2, 1fr); }
+    .tender-card { padding: 16px; }
 }
 
 @media (max-width: 768px) {
@@ -901,7 +903,7 @@ footer a { color: var(--accent-2); text-decoration: none; }
     .kpi-card { padding: 12px 8px; }
     .kpi-value { font-size: 24px; }
     .insight-content-wrapper { padding: 0 16px 16px; }
-    .social-card-preview { width: 100%; }
+    .social-card-preview { width: 100%; max-width: 100%; }
 }
 
 @media (max-width: 500px) {
