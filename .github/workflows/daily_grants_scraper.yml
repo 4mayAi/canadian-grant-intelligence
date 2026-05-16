@@ -2,15 +2,15 @@ name: Canadian Grants Intelligence Pipeline
  
 on:
   schedule:
-    - cron: '0 7 * * *'  # 7:00 AM UTC (Deep Dive)
-    - cron: '0 13 * * *' # 1:00 PM UTC (Pulse)
-    - cron: '0 19 * * *' # 7:00 PM UTC (Pulse)
+    - cron: '0 14 * * *' # 10:00 AM EDT — catches morning releases
+    - cron: '0 18 * * *' # 2:00 PM EDT — catches midday releases
+    - cron: '0 22 * * *' # 6:00 PM EDT — catches end-of-day releases
   workflow_dispatch:
     inputs:
       run_type:
         description: 'Run mode (PULSE or DEEP_DIVE)'
         required: true
-        default: 'PULSE'
+        default: 'DEEP_DIVE'
         type: choice
         options:
           - PULSE
@@ -28,11 +28,7 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     env:
-      RUN_TYPE: >-
-        ${{ 
-          github.event.inputs.run_type || 
-          (github.event.schedule == '0 7 * * *' && 'DEEP_DIVE' || 'PULSE') 
-        }}
+      RUN_TYPE: ${{ github.event.inputs.run_type || 'DEEP_DIVE' }}
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -75,8 +71,8 @@ jobs:
           git push
 
       - name: Send Email Digest
-        # Only send email for high-signal Deep Dive runs
-        if: env.RUN_TYPE == 'DEEP_DIVE' && success()
+        # Only send email on the end-of-day run to avoid 3x daily emails
+        if: github.event.schedule == '0 22 * * *' && success()
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com

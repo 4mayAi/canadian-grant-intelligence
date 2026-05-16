@@ -81,6 +81,30 @@ def upload_file_to_azure(file_path, blob_name, content_type='image/png'):
         print(f"Failed to upload file to Azure: {e}")
         return False
 
+def download_processed_cache():
+    """Downloads the processed URL cache from Azure. Returns a dict keyed by URL with date processed."""
+    raw = download_blob("processed_urls.json")
+    if raw:
+        try:
+            cache = json.loads(raw)
+            # Prune entries older than 7 days to prevent unbounded growth
+            cutoff = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
+            pruned = {url: date for url, date in cache.items() if date >= cutoff}
+            if len(pruned) < len(cache):
+                print(f"Cache pruned: {len(cache) - len(pruned)} stale entries removed.")
+            print(f"Loaded {len(pruned)} cached URLs from Azure.")
+            return pruned
+        except (json.JSONDecodeError, AttributeError) as e:
+            print(f"Failed to parse processed_urls.json: {e}")
+    return {}
+
+def upload_processed_cache(cache):
+    """Uploads the processed URL cache to Azure."""
+    uploaded = upload_to_azure(cache, "processed_urls.json")
+    if uploaded:
+        print(f"Processed URL cache uploaded ({len(cache)} entries).")
+    return uploaded
+
 # Target Feeds
 # We removed brittle provincial feeds to focus purely on high-signal federal data and executive updates.
 # PMO maintains a stable RSS, but other departments require Playwright scraping due to JS-rendering and stale RSS feeds.
@@ -677,7 +701,9 @@ async def scrape_department_news_playwright(url, source_name):
         print(f"Playwright scraping failed for {source_name}: {e}")
     return results
 
-def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15):
+def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15, processed_cache=None):
+    if processed_cache is None:
+        processed_cache = {}
     reports = []
     lookback_limit = None
     is_seeding = (lookback_days is None)
@@ -719,6 +745,11 @@ def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15):
                 })
             elif any(kw.lower() in text_to_search for kw in KEYWORDS):
                 # REPORTING MODE: Keyword filter + full Gemini insight generation
+                # Check cache before calling Gemini
+                if entry.link in processed_cache:
+                    print(f"Skipping (cached on {processed_cache[entry.link]}): {entry.title}")
+                    continue
+                
                 print(f"Match found: {entry.title}")
                 insight = get_gemini_insight(text_to_search, strategic_context=strategic_priorities)
                 
@@ -727,6 +758,9 @@ def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15):
                 if "API Error" in strat_value or "blocked" in strat_value or "not found" in strat_value or "No insight available" in strat_value or "Failed to parse" in strat_value:
                     print(f"Skipping due to lack of insight: {strat_value}")
                     continue
+                
+                # Mark as processed
+                processed_cache[entry.link] = datetime.now().strftime("%Y-%m-%d")
                     
                 reports.append({
                     "source": name,
@@ -776,12 +810,20 @@ def fetch_pmo_news(lookback_days=2, strategic_priorities=None, max_items=15):
             })
         elif any(kw.lower() in text_to_search for kw in KEYWORDS):
             # REPORTING MODE: Keyword filter + full Gemini insight generation
+            # Check cache before calling Gemini
+            if entry['link'] in processed_cache:
+                print(f"Skipping (cached on {processed_cache[entry['link']]}): {entry['title']}")
+                continue
+            
             print(f"Match found via Playwright: {entry['title']}")
             insight = get_gemini_insight(text_to_search, strategic_context=strategic_priorities)
             strat_value = insight.get("strategic_value", "")
             if "API Error" in strat_value or "blocked" in strat_value or "not found" in strat_value or "No insight available" in strat_value or "Failed to parse" in strat_value:
                 print(f"Skipping due to lack of insight: {strat_value}")
                 continue
+            
+            # Mark as processed
+            processed_cache[entry['link']] = datetime.now().strftime("%Y-%m-%d")
                 
             reports.append({
                 "source": entry['source'],
@@ -819,6 +861,18 @@ def upload_pmo_json(results, linkedin_post_text):
         "linkedin_post": linkedin_post_text or "",
         "insights": insights
     }
+    
+    # Defensive guard: if no new insights, preserve existing Azure data
+    if not insights:
+        existing_raw = download_blob("pmo_insights.json")
+        if existing_raw:
+            try:
+                existing = json.loads(existing_raw)
+                if existing.get("insights"):
+                    print(f"No new PMO insights this run. Preserving {len(existing['insights'])} existing insights in Azure.")
+                    return
+            except (json.JSONDecodeError, AttributeError):
+                pass
     
     uploaded = upload_to_azure(pmo_data, "pmo_insights.json")
     if uploaded:
@@ -899,6 +953,9 @@ if __name__ == "__main__":
     pulse_only = (run_type == "PULSE")
     lookback_days = int(os.getenv("SCRAPE_LOOKBACK_DAYS", "2"))
     
+    # Load the processed URL cache from Azure for deduplication
+    processed_cache = download_processed_cache()
+    
     # 2. STRATEGY FIRST: Fetch PMO/department news to identify current priorities
     pmo_reports = []
     dynamic_priorities = []
@@ -914,7 +971,8 @@ if __name__ == "__main__":
             time.sleep(15)
         
         # REPORTING: Fetch news within actual lookback window for dashboard display
-        pmo_reports = fetch_pmo_news(lookback_days=lookback_days, strategic_priorities=dynamic_priorities)
+        # Pass processed_cache so Gemini only analyzes genuinely new articles
+        pmo_reports = fetch_pmo_news(lookback_days=lookback_days, strategic_priorities=dynamic_priorities, processed_cache=processed_cache)
     else:
         print("Pulse mode: Skipping strategic context extraction.")
 
@@ -976,5 +1034,8 @@ if __name__ == "__main__":
             
         except Exception as e:
             print(f"Social card automation skipped or failed: {e}")
+
+    # Upload the updated processed URL cache to Azure
+    upload_processed_cache(processed_cache)
 
     print("Daily intelligence cycle complete.")
