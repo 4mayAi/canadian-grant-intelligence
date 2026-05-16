@@ -178,8 +178,8 @@
                 const timeEl = document.getElementById('last-update-time');
                 if (timeEl && data.generated_at) {
                     const d = new Date(data.generated_at);
-                    const dateStr = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-                    const timeStr = d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false, timeZoneName: 'short' });
+                    const dateStr = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
+                    const timeStr = d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false, timeZoneName: 'short', timeZone: 'UTC' });
                     timeEl.innerText = `${dateStr} at ${timeStr}`;
                 }
             } catch (e) {
@@ -210,7 +210,7 @@
                 let res;
                 // Try local first for testing
                 try {
-                    res = await fetch('../data/tenders.json');
+                    res = await fetch('data/tenders.json');
                 } catch {
                     res = null;
                 }
@@ -406,8 +406,8 @@
                 const timeEl = document.getElementById('last-update-time');
                 if (timeEl && data.generated_at) {
                     const d = new Date(data.generated_at);
-                    const dateStr = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-                    const timeStr = d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false, timeZoneName: 'short' });
+                    const dateStr = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
+                    const timeStr = d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false, timeZoneName: 'short', timeZone: 'UTC' });
                     timeEl.innerText = `${dateStr} at ${timeStr}`;
                 }
 
