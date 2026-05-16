@@ -66,8 +66,7 @@ jobs:
         run: python scripts/fetch_canadian_grants.py
 
       - name: Commit and Push Report
-        # Only push git reports during DEEP_DIVE to avoid repo noise
-        if: env.RUN_TYPE == 'DEEP_DIVE'
+        # Push git reports on all runs to trigger Pages deployment
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
