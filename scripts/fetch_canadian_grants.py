@@ -588,10 +588,17 @@ def fetch_canadabuys_csvs(pulse_only=False, dynamic_keywords=None):
             if t.get('closing_date'):
                 dt = datetime.strptime(t['closing_date'][:10], "%Y-%m-%d")
                 if dt >= now - timedelta(days=1):
+                    # Ensure province & province_abbrev are populated
+                    t['province'] = normalize_province(t.get('province', 'National'))
+                    t['province_abbrev'] = PROVINCE_ABBREV.get(t['province'], 'NAT')
                     active_tenders.append(t)
             else:
+                t['province'] = normalize_province(t.get('province', 'National'))
+                t['province_abbrev'] = PROVINCE_ABBREV.get(t['province'], 'NAT')
                 active_tenders.append(t) # Keep if no date
         except:
+            t['province'] = normalize_province(t.get('province', 'National'))
+            t['province_abbrev'] = PROVINCE_ABBREV.get(t['province'], 'NAT')
             active_tenders.append(t)
 
     print(f"Total active tenders in database: {len(active_tenders)} (Merged {len(tenders)} new).")
@@ -1011,7 +1018,40 @@ if __name__ == "__main__":
         
         # REPORTING: Fetch news within actual lookback window for dashboard display
         # Pass processed_cache so Gemini only analyzes genuinely new articles
-        pmo_reports = fetch_pmo_news(lookback_days=lookback_days, strategic_priorities=dynamic_priorities, processed_cache=processed_cache)
+        new_reports = fetch_pmo_news(lookback_days=lookback_days, strategic_priorities=dynamic_priorities, processed_cache=processed_cache)
+        
+        # Consolidation: load existing pmo_insights.json for today and merge to avoid overwriting
+        seen_links = set()
+        
+        # Load existing pmo_insights.json to restore earlier runs of today
+        date_str = datetime.now().strftime("%Y-%m-%d")
+        existing_raw = download_blob("pmo_insights.json")
+        if existing_raw:
+            try:
+                existing = json.loads(existing_raw)
+                if existing.get("report_date") == date_str:
+                    for item in existing.get("insights", []):
+                        pmo_reports.append({
+                            "source": item.get("source", ""),
+                            "title": item.get("title", ""),
+                            "link": item.get("link", ""),
+                            "date": item.get("date", ""),
+                            "insight": {
+                                "linkedin_hook": item.get("linkedin_hook", ""),
+                                "strategic_value": item.get("strategic_value", ""),
+                                "co_bidding_opportunity": item.get("co_bidding_opportunity", "")
+                            }
+                        })
+                        seen_links.add(item.get("link"))
+                    print(f"Restored {len(pmo_reports)} existing reports for today from Azure.")
+            except Exception as e:
+                print(f"Error restoring existing insights: {e}")
+                
+        # Merge new reports
+        for item in new_reports:
+            if item["link"] not in seen_links:
+                pmo_reports.append(item)
+                seen_links.add(item["link"])
     else:
         print("Pulse mode: Skipping strategic context extraction.")
 

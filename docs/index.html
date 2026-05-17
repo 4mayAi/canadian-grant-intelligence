@@ -233,6 +233,15 @@
                     'National', 'NCR (Ottawa/Gatineau)', 'Multiple Provinces'
                 ]);
 
+                const PROV_MAP = {
+                    "National": "NAT", "NCR (Ottawa/Gatineau)": "NCR", "Ontario": "ON",
+                    "British Columbia": "BC", "Newfoundland and Labrador": "NL",
+                    "Prince Edward Island": "PE", "Northwest Territories": "NT",
+                    "New Brunswick": "NB", "Nova Scotia": "NS", "Quebec": "QC",
+                    "Alberta": "AB", "Manitoba": "MB", "Saskatchewan": "SK",
+                    "Nunavut": "NU", "Yukon": "YT", "Multiple Provinces": "MULT"
+                };
+
                 allTenders.forEach(t => {
                     if (t.province) {
                         const starCount = (t.province.match(/\*/g) || []).length;
@@ -248,6 +257,8 @@
                     } else {
                         t.province = 'National';
                     }
+                    // Dynamically map province abbreviation on client for perfect integrity
+                    t.province_abbrev = PROV_MAP[t.province] || "NAT";
                     t.category_label = getCategoryLabel(t.category);
                 });
                 
