@@ -71,8 +71,8 @@ jobs:
           git push
 
       - name: Send Email Digest
-        # Only send email on the end-of-day run to avoid 3x daily emails
-        if: github.event.schedule == '0 22 * * *' && success()
+        # Send email on end-of-day schedule or on manual trigger
+        if: (github.event.schedule == '0 22 * * *' || github.event_name == 'workflow_dispatch') && success()
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
