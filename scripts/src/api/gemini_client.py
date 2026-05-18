@@ -30,6 +30,9 @@ class GeminiClient:
                     time.sleep(wait_time)
                     continue
                     
+                if response.status_code != 200:
+                    logging.error(f"Gemini API error (Status {response.status_code}): {response.text}")
+                    
                 response.raise_for_status()
                 # Rate limit protection between successful calls
                 time.sleep(2)
@@ -37,6 +40,8 @@ class GeminiClient:
                 
             except requests.exceptions.RequestException as e:
                 logging.error(f"Gemini API request failed: {e}")
+                if hasattr(e, 'response') and e.response is not None:
+                    logging.error(f"Gemini API error response body: {e.response.text}")
                 if attempt == max_retries - 1:
                     return None
                 time.sleep(5)
@@ -119,16 +124,23 @@ class GeminiClient:
         feedback = data.get('promptFeedback', {}).get('blockReason', 'Unknown reason')
         return GeminiInsight(strategic_value=f"Insight generation blocked by safety filters: {feedback}")
 
-    def get_hero_hook(self, tenders_context: str, news_context: str) -> str:
+    def get_hero_hook(self, tenders_dict_list: List[dict], pmo_insights_list: List[dict]) -> str:
+        """Generates a high-impact Hero Hook for the dashboard."""
+        if not self.api_key:
+            return "mayAi | Delivering Golden Opportunities Daily"
+            
+        tender_context = "\n".join([f"- {t.get('title', '')} ({t.get('category_label', 'Uncategorized')})" for t in tenders_dict_list[:5]])
+        news_context = "\n".join([f"- {n.get('title', '')}" for n in (pmo_insights_list or [])[:3]])
+        
         prompt = f"""You are a high-level executive intelligence advisor.
         Generate a single, powerful, one-sentence "Hero Hook" (MAX 20 words) that summarizes the most important theme in today's Canadian government procurement and policy updates.
 
         Use a professional but catchy tone (Bloomberg style). Include one relevant emoji.
-        The hook will be the main headline on an executive dashboard.
+        The hook will be the main headline on an executive dashboard. Do not include quotes or prefixes.
 
         Context:
         Tenders:
-        {tenders_context}
+        {tender_context}
 
         News:
         {news_context}
@@ -137,7 +149,8 @@ class GeminiClient:
         data = self._retry_request(payload)
         
         if data and 'candidates' in data and data['candidates']:
-            return data['candidates'][0]['content']['parts'][0]['text'].strip().strip('"')
+            hook = data['candidates'][0]['content']['parts'][0]['text'].strip()
+            return hook.replace('"', '').replace('Hero Hook:', '').strip()
         return "mayAi | Delivering Golden Opportunities Daily"
 
     def generate_linkedin_post(self, news_summaries: str, tender_context: str) -> Optional[Dict[str, str]]:
@@ -180,47 +193,6 @@ class GeminiClient:
                 logging.error(f"Failed to parse LinkedIn post JSON: {text}")
         return None
 
-    def get_hero_hook(self, tenders_dict_list: List[dict], pmo_insights_list: List[dict]) -> str:
-        """Generates a high-impact Hero Hook for the dashboard."""
-        if not self.api_key:
-            return "mayAi | Delivering Golden Opportunities Daily"
-            
-        tender_context = "\n".join([f"- {t.get('title', '')} ({t.get('category_label', 'Uncategorized')})" for t in tenders_dict_list[:5]])
-        news_context = "\n".join([f"- {n.get('title', '')}" for n in (pmo_insights_list or [])[:3]])
-        
-        prompt = f"""You are a high-level executive intelligence advisor.
-Generate a single, powerful, one-sentence "Hero Hook" (MAX 20 words) that summarizes the most important theme in 
-today's Canadian government procurement and policy updates.
 
-Use a professional but catchy tone (Bloomberg style). Include one relevant emoji.
-The hook will be the main headline on an executive dashboard. Do not include quotes or prefixes.
-
-Context:
-Tenders:
-{tender_context}
-
-News:
-{news_context}
-"""
-        
-        try:
-            url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash-lite:generateContent?key={self.api_key}"
-            payload = {
-                "contents": [{"parts": [{"text": prompt}]}]
-            }
-            
-            response = requests.post(url, json=payload, headers={'Content-Type': 'application/json'})
-            response.raise_for_status()
-            
-            resp_json = response.json()
-            candidates = resp_json.get("candidates", [])
-            if candidates:
-                hook = candidates[0]["content"]["parts"][0]["text"].strip()
-                return hook.replace('"', '').replace('Hero Hook:', '').strip()
-                
-        except Exception as e:
-            logger.error(f"Failed to generate Hero Hook: {e}")
-            
-        return "mayAi | Delivering Golden Opportunities Daily"
 
 gemini_client = GeminiClient()

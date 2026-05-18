@@ -109,7 +109,20 @@ def fetch_html_news(lookback_limit: Optional[datetime] = None, max_items: int = 
     # Filter and format results
     counts_per_source = {}
     
-    junk_patterns = ["top of page", "skip to", "archived news", "all department"]
+    junk_patterns = [
+        "top of page", 
+        "skip to", 
+        "archived news", 
+        "all department",
+        "switch to basic html",
+        "basic html version",
+        "jobs and the workplace",
+        "about government",
+        "contact us",
+        "terms and conditions",
+        "privacy statement",
+        "corporate information"
+    ]
     
     for entry in scraped_items:
         source = entry['source']
@@ -132,7 +145,8 @@ def fetch_html_news(lookback_limit: Optional[datetime] = None, max_items: int = 
             continue
             
         # Filter junk
-        if any(junk in entry['text_to_search'] for junk in junk_patterns):
+        link_lower = entry['link'].lower()
+        if "wbdisable=true" in link_lower or any(junk in entry['text_to_search'] for junk in junk_patterns) or any(junk in link_lower for junk in ["/terms-conditions", "/privacy", "/contact-us"]):
             continue
             
         raw_results.append(entry)
