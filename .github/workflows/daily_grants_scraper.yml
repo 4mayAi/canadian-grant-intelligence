@@ -71,6 +71,7 @@ jobs:
           git config --global user.email "action@github.com"
           git add reports/
           git commit -m "Automated Intelligence Report: $(date +'%Y-%m-%d')" || exit 0
+          git pull --rebase origin main
           git push
 
       - name: Send Email Digest
