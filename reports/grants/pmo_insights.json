@@ -1,16 +1,16 @@
 {
-    "generated_at": "2026-05-18T21:54:50.499999Z",
-    "linkedin_post": "LinkedIn post generation failed.",
+    "generated_at": "2026-05-18T23:07:09.961776Z",
+    "linkedin_post": "## 📰 Section 1: Image\n![Social Card](https://canadiangrantintel.blob.core.windows.net/public/latest_social_card.png)\n\n## 📝 Section 2: Title\nCanada's Economic Pulse: G7 Insights & Procurement Power Plays\n\n## 💡 Section 3: Content\n🚀 Canadian businesses, your next opportunity just landed. With Minister Champagne returning from G7 meetings, expect new directions in international trade and potential shifts in B2B tech investment strategies. Watch for policy announcements that could shape your market access.\n\nBeyond the headlines, the Canadian government continues to be a significant buyer. The Department of National Defence is actively seeking advanced drone systems, presenting a critical opening for defence contractors and innovative AI firms looking to secure substantial contracts.\n\nFurthermore, Public Services and Procurement Canada has outstanding tenders for cloud computing solutions. If your company offers scalable, secure cloud infrastructure, this is a prime chance to align with federal IT modernization efforts.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/",
     "insights": [
         {
-            "source": "PMO_News",
-            "title": "Tuesday, May 19, 2026",
-            "link": "https://www.pm.gc.ca/en/news/media-advisories/2026/05/18/tuesday-may-19-2026",
-            "date": "2026-05-18T21:00:00Z",
+            "source": "Finance_Canada",
+            "title": "Minister Champagne to hold media callback following G7 meetings in Paris",
+            "link": "https://www.canada.ca/en/department-finance/news/2026/05/minister-champagne-to-hold-media-callback-following-g7-meetings-in-paris.html",
+            "date": "2026-05-18T17:09:00Z",
             "insight": {
-                "linkedin_hook": "🇨🇦 PM's Québec Visit Signals Major Economic Resiliency Push! Are You Ready? 🇨🇦",
-                "strategic_value": "*   **Sector Impact:** This announcement directly targets economic resilience, hinting at future government investments in infrastructure, supply chain modernization, and digital transformation across key Canadian sectors. Bidders should anticipate a focus on projects that enhance domestic capacity and reduce reliance on foreign dependencies.\n*   **Technical Anchors:** While specific technologies aren't named, the emphasis on 'stronger, more resilient economy' suggests opportunities in areas like advanced manufacturing, green technologies, cybersecurity, and critical infrastructure upgrades. Look for solicitations requiring modern, secure, and sustainable solutions.\n*   **Economic Signals:** The Prime Minister's personal involvement signals high-level strategic importance. This initiative likely aligns with broader federal priorities such as job creation, innovation, and regional economic development, potentially backed by significant budgetary allocations. Be prepared for procurement vehicles that favor innovative and impactful solutions.",
-                "co_bidding_opportunity": "*   **Gap Identification:** Building a 'stronger, more resilient economy' is a broad mandate that will require diverse expertise. No single vendor is likely to possess the full spectrum of capabilities needed for large-scale initiatives in areas like advanced manufacturing, green tech deployment, and critical infrastructure modernization.\n*   **Partnership Rationale:**\n    *   **Integrated Solutions:** Government tenders are increasingly seeking integrated solutions that combine hardware, software, services, and consulting. This necessitates bringing together specialists in different domains.\n    *   **Risk Mitigation:** Large projects carry significant risk. Consortiums allow for the sharing of financial, technical, and operational risks among partners.\n    *   **Geographic/Regional Needs:** Initiatives may have specific regional requirements (like Québec, in this case) where local presence and understanding are crucial, requiring partnerships with regional players."
+                "linkedin_hook": "🇨🇦 Minister Champagne's G7 insights post-Paris: What does this mean for Canadian B2B tech and investment? 🤔",
+                "strategic_value": "No insight available",
+                "co_bidding_opportunity": "No insight available"
             }
         }
     ]
