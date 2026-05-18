@@ -10,7 +10,7 @@ from src.models import GeminiInsight
 class GeminiClient:
     def __init__(self):
         self.api_key = os.getenv("GEMINI_API_KEY")
-        self.base_url = "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash-lite:generateContent"
+        self.base_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent"
         
     def _retry_request(self, payload: Dict[str, Any], max_retries: int = 3) -> Optional[Dict[str, Any]]:
         if not self.api_key:

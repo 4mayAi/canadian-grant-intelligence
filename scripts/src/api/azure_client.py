@@ -16,7 +16,7 @@ class AzureClient:
                 import logging
                 logging.error(f"Failed to initialize BlobServiceClient: {e}")
 
-    def upload_json(self, data: Any, blob_name: str) -> bool:
+    def upload_json(self, blob_name: str, data: Any) -> bool:
         """Uploads JSON serializable data to Azure Blob Storage."""
         if not self.blob_service_client:
             import logging

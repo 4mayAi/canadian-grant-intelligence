@@ -42,11 +42,19 @@ def fetch_and_process_news(lookback_limit, max_items_per_feed, processed_urls, t
         insight_model = gemini_client.get_gemini_insight(content)
         
         if insight_model:
+            dt = item.get('date')
+            if isinstance(dt, datetime):
+                date_str = dt.isoformat() + "Z"
+            elif isinstance(dt, str):
+                date_str = dt
+            else:
+                date_str = datetime.utcnow().isoformat() + "Z"
+                
             report_item_dict = {
                 "source": item['source'],
                 "title": item['title'],
                 "link": link,
-                "date": item.get('date', datetime.utcnow().isoformat() + "Z"),
+                "date": date_str,
                 "insight": insight_model.to_dict()
             }
             insights.append(report_item_dict)
