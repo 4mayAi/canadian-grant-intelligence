@@ -38,6 +38,16 @@ class ReportItem:
     insight: GeminiInsight
 
 @dataclass
+class PMOWrapper:
+    generated_at: str
+    linkedin_post: str
+    insights: List[ReportItem]
+    
+    def to_dict(self):
+        from dataclasses import asdict
+        return asdict(self)
+
+@dataclass
 class KPI:
     total_active: int
     new_today: int

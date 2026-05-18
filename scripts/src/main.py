@@ -42,7 +42,14 @@ def fetch_and_process_news(lookback_limit, max_items_per_feed, processed_urls, t
         insight_model = gemini_client.get_gemini_insight(content)
         
         if insight_model:
-            insights.append(insight_model.to_dict())
+            report_item_dict = {
+                "source": item['source'],
+                "title": item['title'],
+                "link": link,
+                "date": item.get('date', datetime.utcnow().isoformat() + "Z"),
+                "insight": insight_model.to_dict()
+            }
+            insights.append(report_item_dict)
             
         processed_urls.add(link)
         if test_mode and len(insights) >= 2:
@@ -153,14 +160,59 @@ def run_pipeline():
         # 4. Generate KPIs
         kpis_dict = generate_kpis(tenders_dict_list, pmo_insights)
         
+        # 4.5. Generate LinkedIn Post, Social Card, and Wrap Insights
+        tender_context = "\n".join([f"- {t.get('title')} (Closing: {t.get('closing_date', 'N/A')})" for t in tenders_dict_list[:5]])
+        news_summaries = "\n".join([f"- {n.get('title')}: {n.get('insight', {}).get('linkedin_hook', '')}" for n in pmo_insights[:5]])
+        
+        linkedin_json = gemini_client.generate_linkedin_post(news_summaries, tender_context)
+        hero_hook = kpis_dict.get('hero_hook', 'mayAi | Delivering Golden Opportunities Daily')
+        top_category = kpis_dict.get('top_category', 'Mixed Sectors')
+
+        if linkedin_json:
+            post_content = f"## 📰 Section 1: Image\n![Social Card](https://canadiangrantintel.blob.core.windows.net/public/latest_social_card.png)\n\n"
+            post_content += f"## 📝 Section 2: Title\n{linkedin_json.get('suggested_title', 'MayAi Daily Update')}\n\n"
+            post_content += f"## 💡 Section 3: Content\n{linkedin_json.get('article_content', '')}"
+        else:
+            post_content = "LinkedIn post generation failed."
+
+        os.makedirs("reports/linkedin", exist_ok=True)
+        with open("reports/linkedin/latest_post.md", "w", encoding="utf-8") as f:
+            f.write(post_content)
+        logging.info("Saved latest_post.md in three-section format.")
+
+        import subprocess
+        try:
+            logging.info("Generating social card...")
+            subprocess.run([
+                sys.executable, "scripts/generate_social_card.py", 
+                hero_hook, top_category, "reports/linkedin/social_card.png"
+            ], check=True)
+        except Exception as e:
+            logging.error(f"Failed to generate social card: {e}")
+
+        pmo_wrapper = {
+            "generated_at": datetime.utcnow().isoformat() + "Z",
+            "linkedin_post": post_content,
+            "insights": pmo_insights
+        }
+        
         # 5. Local Storage (for UI/Dashboard artifacts)
-        save_local_outputs(tenders_dict_list, pmo_insights, kpis_dict)
+        save_local_outputs(tenders_dict_list, pmo_wrapper, kpis_dict)
         
         # 6. Azure Cloud Storage Upload
         if not test_mode and not seed_strategy:
             azure_client.upload_json("tenders.json", tenders_dict_list)
-            azure_client.upload_json("pmo_insights.json", pmo_insights)
+            azure_client.upload_json("pmo_insights.json", pmo_wrapper)
             azure_client.upload_json("kpis.json", kpis_dict)
+            
+            try:
+                date_str = datetime.utcnow().strftime("%Y-%m-%d")
+                azure_client.upload_file("reports/linkedin/social_card.png", "latest_social_card.png", "image/png")
+                azure_client.upload_file("reports/linkedin/social_card.png", f"social_card_{date_str}.png", "image/png")
+                logging.info("Uploaded social cards to Azure.")
+            except Exception as e:
+                logging.error(f"Failed to upload social card to Azure: {e}")
+                
             logging.info("Uploaded processed files to Azure.")
             
     except Exception as e:

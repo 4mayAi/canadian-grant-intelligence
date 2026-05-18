@@ -92,3 +92,4 @@ jobs:
             LinkedIn Post (copy-paste ready):
           html_body: file://reports/linkedin/latest_post.md
           convert_markdown: true
+          attachments: reports/linkedin/social_card.png

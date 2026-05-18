@@ -1,12 +1,5 @@
-[
-    {
-        "linkedin_hook": "",
-        "strategic_value": "Gemini API Error: Request failed.",
-        "co_bidding_opportunity": ""
-    },
-    {
-        "linkedin_hook": "",
-        "strategic_value": "Gemini API Error: Request failed.",
-        "co_bidding_opportunity": ""
-    }
-]
+{
+    "generated_at": "2026-05-18T05:11:32.426390Z",
+    "linkedin_post": "LinkedIn post generation failed.",
+    "insights": []
+}

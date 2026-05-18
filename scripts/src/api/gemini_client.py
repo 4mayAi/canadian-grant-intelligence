@@ -140,7 +140,7 @@ class GeminiClient:
             return data['candidates'][0]['content']['parts'][0]['text'].strip().strip('"')
         return "mayAi | Delivering Golden Opportunities Daily"
 
-    def generate_linkedin_post(self, news_summaries: str, tender_context: str) -> Optional[str]:
+    def generate_linkedin_post(self, news_summaries: str, tender_context: str) -> Optional[Dict[str, str]]:
         prompt = f"""You are a professional LinkedIn content strategist for a Canadian business intelligence brand called mayAi.
 
         Write a single LinkedIn post (MAX 250 words) that summarizes today's Canadian government funding and procurement highlights. 
@@ -154,17 +154,30 @@ class GeminiClient:
         - Close with exactly 5 relevant hashtags on their own line
         - Do NOT use bullet points for the main body — use short paragraphs
         - Tone: Authoritative but accessible. Think Bloomberg meets LinkedIn thought leadership.
-        - Do NOT wrap the post in markdown code fences or add a title
+        
+        You MUST respond with a raw JSON object and nothing else.
+        Format:
+        {{
+            "suggested_title": "A high-impact suggested LinkedIn Article Title (Bloomberg style)",
+            "article_content": "The full article body adhering to the rules above"
+        }}
 
         Today's policy & news highlights:
         {news_summaries}
         {tender_context}
         """
-        payload = {"contents": [{"parts": [{"text": prompt}]}]}
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"responseMimeType": "application/json"}
+        }
         data = self._retry_request(payload)
         
         if data and 'candidates' in data and data['candidates']:
-            return data['candidates'][0]['content']['parts'][0]['text'].strip()
+            text = data['candidates'][0]['content']['parts'][0]['text']
+            try:
+                return json.loads(text)
+            except json.JSONDecodeError:
+                logging.error(f"Failed to parse LinkedIn post JSON: {text}")
         return None
 
     def get_hero_hook(self, tenders_dict_list: List[dict], pmo_insights_list: List[dict]) -> str:
