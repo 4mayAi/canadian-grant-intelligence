@@ -54,7 +54,6 @@ jobs:
           key: ${{ runner.os }}-playwright-${{ hashFiles('**/requirements.txt') }}
 
       - name: Install Playwright Browser
-        if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: playwright install chromium
 
       - name: Run Scraper
