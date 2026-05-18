@@ -1,5 +1,28 @@
 {
-    "generated_at": "2026-05-18T05:11:32.426390Z",
+    "generated_at": "2026-05-18T05:18:17.687745Z",
     "linkedin_post": "LinkedIn post generation failed.",
-    "insights": []
+    "insights": [
+        {
+            "source": "Finance_Canada",
+            "title": "Switch to basic HTML version",
+            "link": "https://www.canada.ca/en/department-finance/news.html?wbdisable=true",
+            "date": null,
+            "insight": {
+                "linkedin_hook": "",
+                "strategic_value": "Gemini API Error: Request failed.",
+                "co_bidding_opportunity": ""
+            }
+        },
+        {
+            "source": "Finance_Canada",
+            "title": "Jobs and the workplace",
+            "link": "https://www.canada.ca/en/department-finance/news.html#",
+            "date": null,
+            "insight": {
+                "linkedin_hook": "",
+                "strategic_value": "Gemini API Error: Request failed.",
+                "co_bidding_opportunity": ""
+            }
+        }
+    ]
 }
