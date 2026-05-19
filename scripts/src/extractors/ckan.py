@@ -69,6 +69,8 @@ def fetch_canadabuys_csvs(pulse_only: bool = False, dynamic_keywords: Optional[L
             
             for row in reader:
                 processed_count += 1
+                if processed_count == 1:
+                    logging.info(f"DEBUG: {list(row.keys())}")
                 link = row.get("noticeURL-URLavis-eng", "")
                 
                 if not link or link in seen_links:
