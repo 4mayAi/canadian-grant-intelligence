@@ -71,18 +71,18 @@ def fetch_canadabuys_csvs(pulse_only: bool = False, dynamic_keywords: Optional[L
                 processed_count += 1
                 if processed_count == 1:
                     logging.info(f"DEBUG Row 1: link='{row.get('noticeURL-URLavis-eng')}', title='{row.get('title-titre-eng')}', desc_keys={[k for k in row.keys() if 'desc' in k.lower() or 'tit' in k.lower()]}")
-                    link = row.get("noticeURL-URLavis-eng", "")
-                    if not link or link in seen_links:
+                link = row.get("noticeURL-URLavis-eng", "")
+                if not link or link in seen_links:
                         continue
                     title = row.get("title-titre-eng", "")
-                    gsin_desc = row.get("gsinDescription-nibsDescription-eng", "")
-                    unspsc_desc = row.get("unspscDescription-eng", "")
-                    desc = f"{gsin_desc} {unspsc_desc}".strip()
-                    text_to_search = (title + " " + desc).lower()
-                            if not any(kw.lower() in text_to_search for kw in effective_keywords):
-                                                continue
-                                            matched_kw = [kw for kw in effective_keywords if kw.lower() in text_to_search]
-                            logging.info(f"MATCH: title='{title}', matched_kw={matched_kw}")
+                gsin_desc = row.get("gsinDescription-nibsDescription-eng", "")
+                unspsc_desc = row.get("unspscDescription-eng", "")
+                desc = f"{gsin_desc} {unspsc_desc}".strip()
+                text_to_search = (title + " " + desc).lower()
+                if not any(kw.lower() in text_to_search for kw in effective_keywords):
+                        continue
+                    matched_kw = [kw for kw in effective_keywords if kw.lower() in text_to_search]
+                logging.info(f"MATCH: title='{title}', matched_kw={matched_kw}")
                 close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
                 pub_date = row.get("publicationDate-datePublication", "")
                 amend_date = row.get("amendmentDate-dateModification", "")
