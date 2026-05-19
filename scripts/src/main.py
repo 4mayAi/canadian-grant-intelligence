@@ -262,7 +262,7 @@ def run_pipeline():
         save_local_outputs(final_tenders, pmo_wrapper, kpis_dict)
         
         # 6. Azure Cloud Storage Upload
-        if not test_mode and not seed_strategy:
+        if not test_mode:
             azure_client.upload_json("tenders.json", final_tenders)
             azure_client.upload_json("pmo_insights.json", pmo_wrapper)
             azure_client.upload_json("kpis.json", kpis_dict)
@@ -282,12 +282,12 @@ def run_pipeline():
         raise e
     finally:
         # State Protection: ALWAYS attempt to save state
-        if len(processed_urls) > initial_processed_count:
-            if not test_mode and not seed_strategy:
+        if not test_mode:
+            if seed_strategy or len(processed_urls) > initial_processed_count:
                 azure_client.upload_json("processed_urls.json", list(processed_urls))
                 logging.info(f"Successfully saved updated processed_urls.json (Total: {len(processed_urls)}) to Azure.")
             else:
-                logging.info(f"Skipping Azure state upload due to {Config.RUN_TYPE} mode.")
+                logging.info(f"Skipping Azure state upload (no new URLs added).")
 
 if __name__ == "__main__":
     run_pipeline()
