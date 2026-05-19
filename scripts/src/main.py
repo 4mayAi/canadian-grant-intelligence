@@ -23,25 +23,35 @@ def setup_logging():
     logging.getLogger("azure.core.pipeline.policies.http_logging_policy").setLevel(logging.WARNING)
 
 def fetch_and_process_news(lookback_limit, max_items_per_feed, processed_urls, test_mode=False):
-    """Fetches PMO news, filters by lookback, and analyzes with LLM."""
+    """Fetches PMO news, filters by lookback, and analyzes with LLM using batching."""
     raw_rss = fetch_rss_feeds(lookback_limit, max_items_per_feed)
     raw_html = fetch_html_news(lookback_limit, max_items_per_feed)
     
     all_raw_news = raw_rss + raw_html
     
-    insights = []
-    
+    unprocessed_news = []
     for item in all_raw_news:
-        link = item['link']
-        if link in processed_urls:
-            continue
+        if item['link'] not in processed_urls:
+            unprocessed_news.append(item)
             
-        logging.info(f"Analyzing with LLM: {item['title']} - {link}")
-        content = f"Title: {item['title']}\nSource: {item['source']}\nDate: {item.get('date', 'Unknown')}\nContext: {item['text_to_search']}"
+    if test_mode:
+        unprocessed_news = unprocessed_news[:2]
         
-        insight_model = gemini_client.get_gemini_insight(content)
+    insights = []
+    BATCH_SIZE = 5
+    
+    for i in range(0, len(unprocessed_news), BATCH_SIZE):
+        batch = unprocessed_news[i:i + BATCH_SIZE]
+        logging.info(f"Analyzing batch of {len(batch)} news items with LLM...")
         
-        if insight_model:
+        contents = [
+            f"Title: {item['title']}\nSource: {item['source']}\nDate: {item.get('date', 'Unknown')}\nContext: {item['text_to_search']}"
+            for item in batch
+        ]
+        
+        insight_models = gemini_client.get_gemini_insights_batch(contents)
+        
+        for item, insight_model in zip(batch, insight_models):
             dt = item.get('date')
             if isinstance(dt, datetime):
                 date_str = dt.isoformat() + "Z"
@@ -53,15 +63,12 @@ def fetch_and_process_news(lookback_limit, max_items_per_feed, processed_urls, t
             report_item_dict = {
                 "source": item['source'],
                 "title": item['title'],
-                "link": link,
+                "link": item['link'],
                 "date": date_str,
                 "insight": insight_model.to_dict()
             }
             insights.append(report_item_dict)
-            
-        processed_urls.add(link)
-        if test_mode and len(insights) >= 2:
-            break
+            processed_urls.add(item['link'])
             
     return insights
 

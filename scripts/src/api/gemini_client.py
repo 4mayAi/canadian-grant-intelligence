@@ -10,23 +10,33 @@ from src.models import GeminiInsight
 class GeminiClient:
     def __init__(self):
         self.api_key = os.getenv("GEMINI_API_KEY")
-        self.base_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent"
+        self.fallback_models = [
+            "gemini-2.5-flash-lite",
+            "gemini-3.1-flash-lite",
+            "gemini-1.5-flash"
+        ]
+        
+    def _get_url(self, model_index: int = 0) -> str:
+        model_name = self.fallback_models[model_index % len(self.fallback_models)]
+        return f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={self.api_key}"
         
     def _retry_request(self, payload: Dict[str, Any], max_retries: int = 3) -> Optional[Dict[str, Any]]:
         if not self.api_key:
             logging.error("GEMINI_API_KEY not found.")
             return None
             
-        url = f"{self.base_url}?key={self.api_key}"
+        # Algorithmic Pacing: Guarantee < 15 RPM by waiting 4.1s before any request
+        time.sleep(4.1)
         
         for attempt in range(max_retries):
+            url = self._get_url(attempt) # Fallback to next model on retry
             try:
                 response = requests.post(url, json=payload, timeout=30)
                 
                 if response.status_code in (429, 503):
-                    # Exponential backoff for rate limits
+                    # Exponential backoff for rate limits + model waterfall pivot
                     wait_time = (2 ** attempt) * 15  # 15s, 30s, 60s
-                    logging.warning(f"Gemini Rate limited ({response.status_code}). Waiting {wait_time}s before retry {attempt + 1}/{max_retries}...")
+                    logging.warning(f"Gemini Rate limited ({response.status_code}). Pivoting model and waiting {wait_time}s before retry {attempt + 1}/{max_retries}...")
                     time.sleep(wait_time)
                     continue
                     
@@ -77,6 +87,70 @@ class GeminiClient:
             except Exception as e:
                 logging.error(f"Failed to parse strategic priorities: {e}")
         return []
+
+    def get_gemini_insights_batch(self, contents: List[str], strategic_context: Optional[List[str]] = None) -> List[GeminiInsight]:
+        context_str = ""
+        if strategic_context:
+            context_str = f"\nCURRENT STRATEGIC PRIORITIES:\n- " + "\n- ".join(strategic_context)
+            
+        items_str = ""
+        for idx, content in enumerate(contents):
+            items_str += f"\n--- ITEM {idx} ---\n{content[:3000]}\n"
+
+        prompt = f"""
+        You are a Senior Strategic Advisor for B2B Sales Executives and Bid Managers in Canada.
+        Analyze the following batch of {len(contents)} Canadian government announcements/tenders in the context of the current federal strategy.{context_str}
+        
+        You MUST respond with a raw JSON array containing exactly {len(contents)} objects. Ensure the array order strictly matches the order of the input items.
+        
+        CRITICAL: If the content is just a routine schedule, placeholder, or lacks strategic business value, you MUST set the strategic_value field EXACTLY to "No insight available". Do not write anything else in that field.
+        
+        Each JSON object in the array must have exactly these three keys. For "strategic_value" and "co_bidding_opportunity", use markdown formatting inside the string:
+        "linkedin_hook": "A 'Stop-the-scroll' high-impact opening line (include an emoji).",
+        "strategic_value": "Consultative analysis of why this matters (use 3-5 markdown bullet points).",
+        "co_bidding_opportunity": "Identify gaps requiring a consortium."
+        
+        Input Batch: {items_str}
+        """
+        
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"responseMimeType": "application/json"}
+        }
+        
+        data = self._retry_request(payload)
+        
+        insights = []
+        if not data:
+            for _ in contents:
+                insights.append(GeminiInsight(strategic_value="Gemini API Error: Request failed."))
+            return insights
+            
+        if 'candidates' in data and data['candidates']:
+            text = data['candidates'][0]['content']['parts'][0]['text']
+            try:
+                parsed_array = json.loads(text)
+                if isinstance(parsed_array, list):
+                    for parsed in parsed_array:
+                        insights.append(GeminiInsight(
+                            linkedin_hook=parsed.get("linkedin_hook", ""),
+                            strategic_value=parsed.get("strategic_value", "No insight available"),
+                            co_bidding_opportunity=parsed.get("co_bidding_opportunity", "")
+                        ))
+                    
+                    # Pad if the model returned fewer items than requested
+                    while len(insights) < len(contents):
+                        insights.append(GeminiInsight(strategic_value="Gemini API Error: Batch output length mismatch."))
+                        
+                    return insights[:len(contents)]
+                
+            except json.JSONDecodeError:
+                logging.error(f"Failed to parse batch LLM JSON: {text}")
+                
+        feedback = data.get('promptFeedback', {}).get('blockReason', 'Unknown reason') if data else "Unknown"
+        for _ in contents:
+            insights.append(GeminiInsight(strategic_value=f"Insight generation failed or blocked: {feedback}"))
+        return insights
 
     def get_gemini_insight(self, content: str, strategic_context: Optional[List[str]] = None) -> GeminiInsight:
         context_str = ""
