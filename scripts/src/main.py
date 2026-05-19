@@ -156,7 +156,9 @@ def run_pipeline():
     
     if seed_strategy:
         # Clear all historical tender URLs from processed_urls for the seeding run
-        tender_urls = [url for url in processed_urls if "canadabuys" in url.lower() or "tender" in url.lower()]
+        # Keep only PMO/news urls (pm.gc.ca, ised-isde, international.gc.ca, canada.ca)
+        news_domains = ['pm.gc.ca', 'ised-isde.canada.ca', 'international.gc.ca', 'canada.ca']
+        tender_urls = [url for url in processed_urls if not any(d in url.lower() for d in news_domains)]
         logging.info(f"Seeding mode: Clearing {len(tender_urls)} historical tender URLs from processed_urls to trigger re-evaluation.")
         for url in tender_urls:
             processed_urls.discard(url)
