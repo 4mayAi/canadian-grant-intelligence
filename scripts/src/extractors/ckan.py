@@ -79,10 +79,10 @@ def fetch_canadabuys_csvs(pulse_only: bool = False, dynamic_keywords: Optional[L
                     unspsc_desc = row.get("unspscDescription-eng", "")
                     desc = f"{gsin_desc} {unspsc_desc}".strip()
                     text_to_search = (title + " " + desc).lower()
-                                if not any(kw.lower() in text_to_search for kw in effective_keywords):
-                                                    continue
-                                                matched_kw = [kw for kw in effective_keywords if kw.lower() in text_to_search]
-                                logging.info(f"MATCH: title='{title}', matched_kw={matched_kw}")
+                            if not any(kw.lower() in text_to_search for kw in effective_keywords):
+                                                continue
+                                            matched_kw = [kw for kw in effective_keywords if kw.lower() in text_to_search]
+                            logging.info(f"MATCH: title='{title}', matched_kw={matched_kw}")
                 close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
                 pub_date = row.get("publicationDate-datePublication", "")
                 amend_date = row.get("amendmentDate-dateModification", "")
