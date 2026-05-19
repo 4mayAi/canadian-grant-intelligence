@@ -338,7 +338,15 @@ System secrets are isolated from the codebase and injected directly as runtime e
 2. **Direct Azure Blob Client Path**: The web browser fetches data directly from Azure Blob Storage. This bypasses the GitHub API, preventing `403 Rate Limit` blocks that occur when high traffic queries raw repository pages.
 3. **Client-Side Heavy Processing**: Geographic normalizations, provincial percentage splits, filters, and sorting algorithms execute entirely in the user's browser via high-performance vanilla JavaScript. This reduces processing requirements on the back-end and makes the dashboard highly responsive.
 
-### 6.2 Identified Gaps & Blanks (To Be Completed in Future Sessions)
+### 6.2 API Consumption & Resilience Architecture
+
+To protect against infrastructure limitations—specifically Google API quota ceilings (`429 Too Many Requests`)—the pipeline integrates several architectural safeguards:
+
+1. **Algorithmic Pacing (Throttling)**: The extraction orchestrator enforces strict geometric pacing (e.g., rigid `time.sleep` intervals) to guarantee execution requests mathematically never exceed the primary model's Requests Per Minute (RPM) ceiling (e.g., 15 RPM).
+2. **Batch Processing Pipelines**: To aggressively protect low RPM limits while maximizing high Tokens Per Minute (TPM) limits, input text (such as news feeds) is grouped and transmitted in unified batch arrays. The model enforces structured JSON output schemas to return parallel arrays of insights.
+3. **Model Waterfall (Fallback Strategy)**: The `GeminiClient` implements a tiered routing pattern. If a primary endpoint (`gemini-2.5-flash-lite`) is saturated or completely exhausted its daily RPD quota, the client traps the exception and dynamically pivots the payload to an equivalent secondary endpoint (`gemini-3.1-flash-lite`), which maintains a completely isolated quota bucket.
+
+### 6.3 Identified Gaps & Blanks (To Be Completed in Future Sessions)
 
 1. **Stale Historical Report View**:
    * *Status*: Identified as **[DEPRECATED/INCOMPLETE]** in `index.html` (Lines 441–444). Historical archive lookups are currently bypassed, only displaying the latest crawled daily update. A future session needs to structure a manifest array or implement Azure Blob directory listing to allow historic date navigation.
