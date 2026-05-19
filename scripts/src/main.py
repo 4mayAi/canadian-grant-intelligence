@@ -165,10 +165,50 @@ def run_pipeline():
         if test_mode:
             tenders_dict_list = tenders_dict_list[:5]
             
+        # 3.5 Merge with existing active tenders from Azure
+        existing_tenders = []
+        if not seed_strategy:
+            try:
+                existing_tenders = azure_client.download_json("tenders.json") or []
+                logging.info(f"Loaded {len(existing_tenders)} existing tenders from Azure.")
+            except Exception as e:
+                logging.error(f"Failed to load existing tenders from Azure: {e}")
+        
+        # Filter and normalize existing tenders
+        active_tenders = []
+        now_date = datetime.utcnow().date()
+        cutoff_date = now_date - timedelta(days=1)
+        for t in existing_tenders:
+            closing_date_str = t.get('closing_date')
+            if closing_date_str:
+                try:
+                    dt = datetime.strptime(closing_date_str[:10], "%Y-%m-%d").date()
+                    if dt < cutoff_date:
+                        logging.info(f"Pruning expired tender: {t.get('title')} (Closed: {closing_date_str})")
+                        continue
+                except Exception as e:
+                    logging.warning(f"Error parsing closing_date '{closing_date_str}': {e}")
+            
+            # Downgrade historical 'New' tenders to 'Open' since they are from a previous run
+            if t.get('type') == 'New':
+                t['type'] = 'Open'
+            active_tenders.append(t)
+            
+        # Merge new tenders (overwriting matching links to prioritize fresh data)
+        merged_tenders = {}
+        for t in active_tenders:
+            merged_tenders[t['link']] = t
+        for t in tenders_dict_list:
+            merged_tenders[t['link']] = t
+            
+        final_tenders = list(merged_tenders.values())
+        logging.info(f"Merged state: {len(existing_tenders)} existing -> {len(active_tenders)} active -> {len(final_tenders)} total merged tenders.")
+
         # 4. Generate KPIs
-        kpis_dict = generate_kpis(tenders_dict_list, pmo_insights)
+        kpis_dict = generate_kpis(final_tenders, pmo_insights)
         
         # 4.5. Generate LinkedIn Post, Social Card, and Wrap Insights
+        # Context uses only the newly scraped tenders to keep the daily LinkedIn post fresh
         tender_context = "\n".join([f"- {t.get('title')} (Closing: {t.get('closing_date', 'N/A')})" for t in tenders_dict_list[:5]])
         news_summaries = "\n".join([f"- {n.get('title')}: {n.get('insight', {}).get('linkedin_hook', '')}" for n in pmo_insights[:5]])
         
@@ -177,7 +217,7 @@ def run_pipeline():
         top_category = kpis_dict.get('top_category', 'Mixed Sectors')
 
         if linkedin_json:
-            post_content = f"## 📰 Section 1: Image\n![Social Card](https://canadiangrantintel.blob.core.windows.net/public/latest_social_card.png)\n\n"
+            post_content = f"## 📰 Section 1: Image\n![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)\n\n"
             post_content += f"## 📝 Section 2: Title\n{linkedin_json.get('suggested_title', 'MayAi Daily Update')}\n\n"
             post_content += f"## 💡 Section 3: Content\n{linkedin_json.get('article_content', '')}"
         else:
@@ -205,11 +245,11 @@ def run_pipeline():
         }
         
         # 5. Local Storage (for UI/Dashboard artifacts)
-        save_local_outputs(tenders_dict_list, pmo_wrapper, kpis_dict)
+        save_local_outputs(final_tenders, pmo_wrapper, kpis_dict)
         
         # 6. Azure Cloud Storage Upload
         if not test_mode and not seed_strategy:
-            azure_client.upload_json("tenders.json", tenders_dict_list)
+            azure_client.upload_json("tenders.json", final_tenders)
             azure_client.upload_json("pmo_insights.json", pmo_wrapper)
             azure_client.upload_json("kpis.json", kpis_dict)
             
