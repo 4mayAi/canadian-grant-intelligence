@@ -15,6 +15,7 @@ on:
         options:
           - PULSE
           - DEEP_DIVE
+          - seed_strategy
       lookback_days:
         description: 'Number of days to look back for PMO news'
         required: false

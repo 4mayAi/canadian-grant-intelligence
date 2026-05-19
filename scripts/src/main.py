@@ -147,6 +147,13 @@ def run_pipeline():
     processed_urls = set(processed_urls_list)
     logging.info(f"Loaded {len(processed_urls)} processed URLs from Azure.")
     
+    if seed_strategy:
+        # Clear all historical tender URLs from processed_urls for the seeding run
+        tender_urls = [url for url in processed_urls if "canadabuys" in url.lower() or "tender" in url.lower()]
+        logging.info(f"Seeding mode: Clearing {len(tender_urls)} historical tender URLs from processed_urls to trigger re-evaluation.")
+        for url in tender_urls:
+            processed_urls.discard(url)
+            
     initial_processed_count = len(processed_urls)
     
     try:
