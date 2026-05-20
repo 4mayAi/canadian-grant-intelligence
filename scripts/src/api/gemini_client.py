@@ -15,6 +15,19 @@ class GeminiClient:
             "gemini-3.1-flash-lite",
             "gemini-1.5-flash"
         ]
+        # Quality telemetry
+        self.stats = {
+            "requests_total": 0,
+            "requests_success": 0,
+            "requests_rate_limited": 0,
+            "model_fallbacks": 0,
+            "insights_no_value": 0,
+            "insights_api_error": 0,
+        }
+
+    def get_stats(self) -> dict:
+        """Return a copy of the quality telemetry counters."""
+        return dict(self.stats)
         
     def _get_url(self, model_index: int = 0) -> str:
         model_name = self.fallback_models[model_index % len(self.fallback_models)]
@@ -27,6 +40,7 @@ class GeminiClient:
             
         # Algorithmic Pacing: Guarantee < 15 RPM by waiting 4.1s before any request
         time.sleep(4.1)
+        self.stats["requests_total"] += 1
         
         for attempt in range(max_retries):
             url = self._get_url(attempt) # Fallback to next model on retry
@@ -35,6 +49,9 @@ class GeminiClient:
                 
                 if response.status_code in (429, 503):
                     # Exponential backoff for rate limits + model waterfall pivot
+                    self.stats["requests_rate_limited"] += 1
+                    if attempt > 0:
+                        self.stats["model_fallbacks"] += 1
                     wait_time = (2 ** attempt) * 15  # 15s, 30s, 60s
                     logging.warning(f"Gemini Rate limited ({response.status_code}). Pivoting model and waiting {wait_time}s before retry {attempt + 1}/{max_retries}...")
                     time.sleep(wait_time)
@@ -45,6 +62,7 @@ class GeminiClient:
                     
                 response.raise_for_status()
                 # Rate limit protection between successful calls
+                self.stats["requests_success"] += 1
                 time.sleep(2)
                 return response.json()
                 
@@ -124,6 +142,7 @@ class GeminiClient:
         if not data:
             for _ in contents:
                 insights.append(GeminiInsight(strategic_value="Gemini API Error: Request failed."))
+                self.stats["insights_api_error"] += 1
             return insights
             
         if 'candidates' in data and data['candidates']:
@@ -141,6 +160,12 @@ class GeminiClient:
                     # Pad if the model returned fewer items than requested
                     while len(insights) < len(contents):
                         insights.append(GeminiInsight(strategic_value="Gemini API Error: Batch output length mismatch."))
+                        self.stats["insights_api_error"] += 1
+
+                    # Track no-value insights
+                    for ins in insights:
+                        if ins.strategic_value == "No insight available":
+                            self.stats["insights_no_value"] += 1
                         
                     return insights[:len(contents)]
                 
@@ -150,6 +175,7 @@ class GeminiClient:
         feedback = data.get('promptFeedback', {}).get('blockReason', 'Unknown reason') if data else "Unknown"
         for _ in contents:
             insights.append(GeminiInsight(strategic_value=f"Insight generation failed or blocked: {feedback}"))
+            self.stats["insights_api_error"] += 1
         return insights
 
     def get_gemini_insight(self, content: str, strategic_context: Optional[List[str]] = None) -> GeminiInsight:

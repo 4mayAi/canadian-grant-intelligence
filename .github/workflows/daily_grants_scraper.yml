@@ -45,8 +45,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install requests feedparser python-dateutil azure-storage-blob playwright
-          
+          pip install -r requirements.txt
       - name: Cache Playwright Binaries
         uses: actions/cache@v3
         id: playwright-cache
@@ -63,6 +62,10 @@ jobs:
           AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
           SCRAPE_LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '2' }}
         run: python scripts/fetch_canadian_grants.py
+
+      - name: Validate Pipeline Output
+        if: success()
+        run: python scripts/validators/validate_output.py
 
       - name: Commit and Push Report
         # Push git reports on all runs to trigger Pages deployment
@@ -97,3 +100,23 @@ jobs:
           html_body: file://${{ github.workspace }}/reports/linkedin/latest_post.md
           convert_markdown: true
           attachments: reports/linkedin/social_card.png
+
+  prune:
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 22 * * 0'
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Prune Processed URLs (90-day TTL)
+        env:
+          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+        run: python scripts/validators/prune_processed_urls.py

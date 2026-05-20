@@ -69,6 +69,7 @@ def fetch_and_process_news(lookback_limit, max_items_per_feed, processed_urls, t
             }
             insights.append(report_item_dict)
             processed_urls.add(item['link'])
+            processed_urls_registry[item['link']] = datetime.utcnow().isoformat() + "Z"
             
     return insights
 
@@ -149,9 +150,19 @@ def run_pipeline():
     else:
         logging.info("Running in Strategy Seeding mode: Using limits per source.")
         
-    # Load State
-    processed_urls_list = azure_client.download_json("processed_urls.json") or []
-    processed_urls = set(processed_urls_list)
+    # Load State — supports both legacy list and new timestamped dict format
+    processed_urls_raw = azure_client.download_json("processed_urls.json") or []
+    if isinstance(processed_urls_raw, list):
+        # Migration: legacy flat list -> timestamped dict
+        processed_urls_registry = {url: datetime.utcnow().isoformat() + "Z" for url in processed_urls_raw}
+        logging.info(f"Migrated {len(processed_urls_registry)} URLs from legacy list to timestamped dict.")
+    elif isinstance(processed_urls_raw, dict):
+        processed_urls_registry = processed_urls_raw
+    else:
+        processed_urls_registry = {}
+    
+    # Set view for fast lookups (compatible with ckan.py seen_links parameter)
+    processed_urls = set(processed_urls_registry.keys())
     logging.info(f"Loaded {len(processed_urls)} processed URLs from Azure.")
     
     if seed_strategy:
@@ -162,6 +173,7 @@ def run_pipeline():
         logging.info(f"Seeding mode: Clearing {len(tender_urls)} historical tender URLs from processed_urls to trigger re-evaluation.")
         for url in tender_urls:
             processed_urls.discard(url)
+            del processed_urls_registry[url]
             
     initial_processed_count = len(processed_urls)
     
@@ -175,6 +187,26 @@ def run_pipeline():
         # 2. PMO News Extractor (RSS + Playwright) -> LLM
         max_items = 5 if test_mode else 15
         pmo_insights = fetch_and_process_news(lookback_limit, max_items, processed_urls, test_mode=test_mode)
+        
+        # Consolidate daily PMO insights by merging with existing insights from today
+        if not seed_strategy:
+            try:
+                existing_pmo = azure_client.download_json("pmo_insights.json")
+                if existing_pmo:
+                    existing_gen_date = existing_pmo.get("generated_at", "")[:10]
+                    today_utc_date = datetime.utcnow().strftime("%Y-%m-%d")
+                    if existing_gen_date == today_utc_date:
+                        existing_insights = existing_pmo.get("insights", [])
+                        seen_links = {item["link"] for item in pmo_insights}
+                        merged_insights = list(pmo_insights)
+                        for item in existing_insights:
+                            if item.get("link") not in seen_links:
+                                merged_insights.append(item)
+                                seen_links.add(item["link"])
+                        pmo_insights = merged_insights
+                        logging.info(f"Consolidated PMO insights: Merged {len(existing_insights)} existing insights from today. Total: {len(pmo_insights)}")
+            except Exception as e:
+                logging.error(f"Failed to consolidate existing PMO insights: {e}")
         
         # 3. Transform Tenders to dicts
         tenders_dict_list = [t.to_dict() for t in tenders]
@@ -219,6 +251,13 @@ def run_pipeline():
             
         final_tenders = list(merged_tenders.values())
         logging.info(f"Merged state: {len(existing_tenders)} existing -> {len(active_tenders)} active -> {len(final_tenders)} total merged tenders.")
+
+        # INTEGRITY ASSERTIONS
+        tender_links = [t['link'] for t in final_tenders]
+        assert len(tender_links) == len(set(tender_links)), f"DUPLICATE TENDERS DETECTED: {len(tender_links)} total, {len(set(tender_links))} unique"
+        for t in final_tenders:
+            for key in ('title', 'link', 'province', 'category'):
+                assert key in t, f"MISSING KEY '{key}' in tender: {t.get('title', 'UNKNOWN')}"
 
         # 4. Generate KPIs
         kpis_dict = generate_kpis(final_tenders, pmo_insights)
@@ -278,16 +317,26 @@ def run_pipeline():
                 logging.error(f"Failed to upload social card to Azure: {e}")
                 
             logging.info("Uploaded processed files to Azure.")
+
+        # Log pipeline health and LLM quality telemetry
+        stats = gemini_client.get_stats()
+        logging.info(f"LLM_STATS: {json.dumps(stats)}")
+        logging.info(f"HEALTH: Tenders={len(final_tenders)}, PMO_Insights={len(pmo_insights)}, "
+                     f"KPI_generated_at={kpis_dict.get('generated_at')}")
             
     except Exception as e:
         logging.error(f"Pipeline crashed: {e}")
         raise e
     finally:
-        # State Protection: ALWAYS attempt to save state
+        # State Protection: ALWAYS attempt to save state (now as timestamped dict)
         if not test_mode:
             if seed_strategy or len(processed_urls) > initial_processed_count:
-                azure_client.upload_json("processed_urls.json", list(processed_urls))
-                logging.info(f"Successfully saved updated processed_urls.json (Total: {len(processed_urls)}) to Azure.")
+                # Sync set additions back to registry
+                for url in processed_urls:
+                    if url not in processed_urls_registry:
+                        processed_urls_registry[url] = datetime.utcnow().isoformat() + "Z"
+                azure_client.upload_json("processed_urls.json", processed_urls_registry)
+                logging.info(f"Successfully saved updated processed_urls.json (Total: {len(processed_urls_registry)}) to Azure.")
             else:
                 logging.info(f"Skipping Azure state upload (no new URLs added).")
 
