@@ -312,21 +312,62 @@ def run_pipeline():
         # 5. Local Storage (for UI/Dashboard artifacts)
         save_local_outputs(final_tenders, pmo_wrapper, kpis_dict)
         
+        # 5.5. Validate Generated Outputs
+        try:
+            scripts_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            if scripts_dir not in sys.path:
+                sys.path.append(scripts_dir)
+            from validate_outputs import validate_outputs_func
+            validate_outputs_func(Config.OUTPUT_DIR)
+            logging.info("Automated output validation passed successfully.")
+        except Exception as val_err:
+            logging.error(f"Automated output validation failed: {val_err}")
+            raise Exception(f"Output validation failed: {val_err}")
+
         # 6. Azure Cloud Storage Upload
         if not test_mode:
             azure_client.upload_json("tenders.json", final_tenders)
             azure_client.upload_json("pmo_insights.json", pmo_wrapper)
             azure_client.upload_json("kpis.json", kpis_dict)
             
+            date_str = datetime.utcnow().strftime("%Y-%m-%d")
+            
+            # Historical date-stamped backups
+            azure_client.upload_json(f"reports/tenders_{date_str}.json", final_tenders)
+            azure_client.upload_json(f"reports/pmo_insights_{date_str}.json", pmo_wrapper)
+            azure_client.upload_json(f"reports/kpis_{date_str}.json", kpis_dict)
+            
+            # Manifest updates for date dropdown
             try:
-                date_str = datetime.utcnow().strftime("%Y-%m-%d")
+                manifest = azure_client.download_json("manifest.json") or []
+                if not isinstance(manifest, list):
+                    manifest = []
+                if date_str not in manifest:
+                    manifest.append(date_str)
+                    manifest.sort(reverse=True)
+                    azure_client.upload_json("manifest.json", manifest)
+                    logging.info(f"Updated date manifest in Azure with date: {date_str}")
+            except Exception as manifest_err:
+                logging.error(f"Failed to update manifest.json in Azure: {manifest_err}")
+            
+            try:
                 azure_client.upload_file("reports/linkedin/social_card.png", "latest_social_card.png", "image/png")
                 azure_client.upload_file("reports/linkedin/social_card.png", f"social_card_{date_str}.png", "image/png")
                 logging.info("Uploaded social cards to Azure.")
             except Exception as e:
                 logging.error(f"Failed to upload social card to Azure: {e}")
                 
-            logging.info("Uploaded processed files to Azure.")
+            logging.info("Uploaded processed files and historical backups to Azure.")
+
+        # 7. SMTP Email Distribution
+        if not test_mode:
+            try:
+                from src.api.mail_sender import mail_sender
+                markdown_path = os.path.join(linkedin_dir, "latest_post.md")
+                social_card_path = os.path.join(linkedin_dir, "social_card.png")
+                mail_sender.send_daily_digest(markdown_path, social_card_path)
+            except Exception as mail_err:
+                logging.error(f"Failed to distribute daily email digest: {mail_err}")
 
         # Log pipeline health and LLM quality telemetry
         stats = gemini_client.get_stats()
@@ -336,6 +377,11 @@ def run_pipeline():
             
     except Exception as e:
         logging.error(f"Pipeline crashed: {e}")
+        try:
+            from src.api.notifier import notifier
+            notifier.notify_failure("Canadian Grants Pipeline", str(e))
+        except Exception as alert_err:
+            logging.error(f"Failed to send failure alert notification: {alert_err}")
         raise e
     finally:
         # State Protection: ALWAYS attempt to save state (now as timestamped dict)

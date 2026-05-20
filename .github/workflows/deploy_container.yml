@@ -1,0 +1,53 @@
+name: Deploy Container to Azure Container Apps Job
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - 'Dockerfile'
+      - '.github/workflows/deploy_container.yml'
+      - 'requirements.txt'
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Log in to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Log in to Azure Container Registry
+        uses: azure/docker-login@v1
+        with:
+          login-server: ${{ secrets.ACR_REGISTRY || 'canadiangrants.azurecr.io' }}
+          username: ${{ secrets.ACR_USERNAME }}
+          password: ${{ secrets.ACR_PASSWORD }}
+
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: |
+            ${{ secrets.ACR_REGISTRY || 'canadiangrants.azurecr.io' }}/grant-scraper:${{ github.sha }}
+            ${{ secrets.ACR_REGISTRY || 'canadiangrants.azurecr.io' }}/grant-scraper:latest
+
+      - name: Update Azure Container Apps Job
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az containerapp job update \
+              --name ${{ secrets.ACA_JOB_NAME || 'grant-intelligence-job' }} \
+              --resource-group ${{ secrets.AZURE_RESOURCE_GROUP || 'canadian-grants-rg' }} \
+              --image ${{ secrets.ACR_REGISTRY || 'canadiangrants.azurecr.io' }}/grant-scraper:${{ github.sha }}
