@@ -20,10 +20,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Install Playwright and download Chromium with its required system dependencies
 RUN playwright install chromium --with-deps
 
-# Copy application directories into the container workspace
+# Copy application source code only
 COPY scripts/ /app/scripts/
-COPY reports/ /app/reports/
-COPY docs/ /app/docs/
+
+# Create output directory for pipeline-generated reports
+RUN mkdir -p /app/reports/grants /app/reports/linkedin
 
 # Expose PYTHONPATH to support absolute imports under the scripts folder
 ENV PYTHONPATH=/app/scripts

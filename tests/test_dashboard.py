@@ -141,6 +141,62 @@ class TestPipelineAndDashboard(unittest.TestCase):
         self.assertTrue(success)
         self.assertEqual(mock_server.sendmail.call_count, 2)
 
+    @patch('os.path.exists', return_value=False)
+    def test_validation_fails_missing_files(self, mock_exists):
+        """Verify that validation fails if any required output file is missing."""
+        with self.assertRaises(Exception) as context:
+            validate_outputs_func("mock/path")
+        self.assertIn("Missing output file", str(context.exception))
+
+    @patch('os.path.exists', return_value=True)
+    @patch('builtins.open')
+    def test_validation_fails_stale_data(self, mock_file_open, mock_exists):
+        """Verify that validation fails when the generated_at date is older than the threshold."""
+        stale_kpis = self.mock_kpis.copy()
+        # 3 hours ago (older than default 2-hour threshold)
+        from datetime import datetime, timezone, timedelta
+        stale_time = (datetime.now(timezone.utc) - timedelta(hours=3)).isoformat().replace("+00:00", "Z")
+        stale_kpis["generated_at"] = stale_time
+
+        file_contents = [
+            json.dumps(stale_kpis),
+            json.dumps(self.mock_tenders),
+            json.dumps(self.mock_pmo)
+        ]
+        mock_file_open.side_effect = [
+            mock_open(read_data=content).return_value for content in file_contents
+        ]
+
+        with self.assertRaises(Exception) as context:
+            validate_outputs_func("mock/path")
+        self.assertIn("is stale", str(context.exception))
+
+    @patch('src.api.notifier.requests.post')
+    def test_discord_alert_failure(self, mock_post):
+        """Verify Discord Webhook returns False if request fails or returns non-2xx status."""
+        mock_response = MagicMock()
+        mock_response.status_code = 400
+        mock_response.text = "Bad Request"
+        mock_post.return_value = mock_response
+
+        notifier = Notifier()
+        notifier.discord_url = "https://discord.com/api/webhooks/mock"
+        
+        result = notifier.send_discord_alert("Test alert message")
+        self.assertFalse(result)
+
+    @patch('src.api.mail_sender.azure_client.download_json')
+    def test_mail_sender_no_subscribers(self, mock_download):
+        """Verify MailSender fails if subscriber list is empty and no operator email fallback exists."""
+        mock_download.return_value = []
+        
+        sender = MailSender()
+        sender.smtp_user = None  # Disable fallback to check standard failure path
+        sender.smtp_pass = None
+
+        success = sender.send_daily_digest("mock/post.md", "mock/card.png")
+        self.assertFalse(success)
+
 
 if __name__ == '__main__':
     unittest.main()

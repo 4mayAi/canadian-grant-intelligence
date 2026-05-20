@@ -1,0 +1,40 @@
+# Version control
+.git
+.gitignore
+
+# Virtual environments
+.venv*/
+__pycache__/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local scratch and debug artifacts
+scratch/
+scratch.py
+chrome_stderr.log
+chrome_stdout.log
+
+# Session logs and documentation (not needed in container)
+docs/session_*.md
+docs/*.png
+docs/architecture_arc42.md
+
+# GitHub Actions config (not needed in container)
+.github/
+
+# Tests (not needed in container)
+tests/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Local reports (pipeline reads from Azure, not local)
+reports/
+
+# Static frontend (hosted on GitHub Pages, not needed in container)
+docs/

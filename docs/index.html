@@ -145,15 +145,14 @@
         let currentDate = 'latest';
 
         function getUrl(type) {
-            if (currentDate === 'latest') {
-                if (type === 'tenders') return TENDERS_URL;
-                if (type === 'pmo') return PMO_INSIGHTS_URL;
-                if (type === 'kpis') return KPIS_URL;
-            } else {
-                if (type === 'tenders') return `https://canadiangrants.blob.core.windows.net/data/reports/tenders_${currentDate}.json`;
-                if (type === 'pmo') return `https://canadiangrants.blob.core.windows.net/data/reports/pmo_insights_${currentDate}.json`;
-                if (type === 'kpis') return `https://canadiangrants.blob.core.windows.net/data/reports/kpis_${currentDate}.json`;
-            }
+            const base = 'https://canadiangrants.blob.core.windows.net/data';
+            const urls = {
+                tenders: currentDate === 'latest' ? TENDERS_URL : `${base}/reports/tenders_${currentDate}.json`,
+                pmo:     currentDate === 'latest' ? PMO_INSIGHTS_URL : `${base}/reports/pmo_insights_${currentDate}.json`,
+                kpis:    currentDate === 'latest' ? KPIS_URL : `${base}/reports/kpis_${currentDate}.json`
+            };
+            if (!urls[type]) throw new Error(`getUrl: unknown data type "${type}"`);
+            return urls[type];
         }
 
         async function loadManifest() {
@@ -163,12 +162,13 @@
                 const dates = await res.json();
                 if (Array.isArray(dates) && dates.length > 0) {
                     const select = document.getElementById('date-select');
-                    select.innerHTML = '<option value="latest">Latest Run</option>';
+                    let html = '<option value="latest">Latest Run</option>';
                     dates.forEach(date => {
                         const d = new Date(date + 'T12:00:00');
                         const dateFormatted = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-                        select.innerHTML += `<option value="${date}">${dateFormatted}</option>`;
+                        html += `<option value="${date}">${dateFormatted}</option>`;
                     });
+                    select.innerHTML = html;
                 }
             } catch (e) {
                 console.error('Failed to load date manifest:', e);
@@ -177,6 +177,13 @@
 
         async function selectHistoricalDate(date) {
             currentDate = date;
+            
+            // Reset all filters to prevent stale values from hiding valid data
+            document.getElementById('timeFilter').value = 'All';
+            document.getElementById('provinceFilter').value = 'All';
+            document.getElementById('categoryFilter').value = 'All';
+            document.getElementById('expiryFilter').value = 'All';
+            document.getElementById('sortFilter').value = 'newest';
             
             // Show loading spinners in views
             document.getElementById('tendersContent').innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading historical tenders...</p></div>';
