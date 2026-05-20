@@ -583,7 +583,7 @@
                     <div class="linkedin-card report-section">
                         <div class="linkedin-card-header">
                             <h2>📋 ${cardTitle}</h2>
-                            <button class="copy-btn" onclick="copyPost(this)">Copy Post</button>
+                            <button class="copy-btn" data-raw="${escapeHtml(data.linkedin_post)}" onclick="copyPost(this)">Copy Post</button>
                         </div>
                         <div class="linkedin-grid">
                             <div>

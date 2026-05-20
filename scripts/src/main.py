@@ -69,7 +69,6 @@ def fetch_and_process_news(lookback_limit, max_items_per_feed, processed_urls, t
             }
             insights.append(report_item_dict)
             processed_urls.add(item['link'])
-            processed_urls_registry[item['link']] = datetime.utcnow().isoformat() + "Z"
             
     return insights
 
@@ -272,30 +271,41 @@ def run_pipeline():
         top_category = kpis_dict.get('top_category', 'Mixed Sectors')
 
         if linkedin_json:
-            post_content = f"## 📰 Section 1: Image\n![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)\n\n"
-            post_content += f"## 📝 Section 2: Title\n{linkedin_json.get('suggested_title', 'MayAi Daily Update')}\n\n"
-            post_content += f"## 💡 Section 3: Content\n{linkedin_json.get('article_content', '')}"
-        else:
-            post_content = "LinkedIn post generation failed."
+            # Clean text formatting for UI copy-paste (no image, no Section headings)
+            ui_post_content = f"# {linkedin_json.get('suggested_title', 'MayAi Daily Update')}\n\n"
+            ui_post_content += f"{linkedin_json.get('article_content', '')}"
 
-        os.makedirs("reports/linkedin", exist_ok=True)
-        with open("reports/linkedin/latest_post.md", "w", encoding="utf-8") as f:
-            f.write(post_content)
-        logging.info("Saved latest_post.md in three-section format.")
+            # Format for email body (with banner image, no draft headers)
+            email_post_content = f"![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)\n\n"
+            email_post_content += f"# {linkedin_json.get('suggested_title', 'MayAi Daily Update')}\n\n"
+            email_post_content += f"{linkedin_json.get('article_content', '')}"
+        else:
+            ui_post_content = "LinkedIn post generation failed."
+            email_post_content = "LinkedIn post generation failed."
+
+        project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        linkedin_dir = os.path.join(project_root, "reports", "linkedin")
+        os.makedirs(linkedin_dir, exist_ok=True)
+        
+        with open(os.path.join(linkedin_dir, "latest_post.md"), "w", encoding="utf-8") as f:
+            f.write(email_post_content)
+        logging.info("Saved latest_post.md in professional newsletter format.")
 
         import subprocess
         try:
             logging.info("Generating social card...")
+            script_path = os.path.join(project_root, "scripts", "generate_social_card.py")
+            output_path = os.path.join(linkedin_dir, "social_card.png")
             subprocess.run([
-                sys.executable, "scripts/generate_social_card.py", 
-                hero_hook, top_category, "reports/linkedin/social_card.png"
+                sys.executable, script_path, 
+                hero_hook, top_category, output_path
             ], check=True)
         except Exception as e:
             logging.error(f"Failed to generate social card: {e}")
 
         pmo_wrapper = {
             "generated_at": datetime.utcnow().isoformat() + "Z",
-            "linkedin_post": post_content,
+            "linkedin_post": ui_post_content,
             "insights": pmo_insights
         }
         

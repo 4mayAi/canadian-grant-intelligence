@@ -493,7 +493,7 @@ input:checked + .slider:before {
     border-radius: var(--radius-sm);
     padding: 32px;
     margin: 0 auto 32px;
-    max-width: 850px;
+    max-width: 1000px;
     backdrop-filter: blur(12px);
     position: relative;
 }
@@ -565,19 +565,18 @@ input:checked + .slider:before {
     transform: scale(1.02);
 }
 .linkedin-grid {
-    display: flex;
-    gap: 24px;
-    margin-top: 10px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 32px;
+    margin-top: 20px;
+    align-items: start;
 }
 .linkedin-grid > div:first-child {
-    flex: 1;
     min-width: 0;
 }
 .social-card-preview {
     width: 100%;
-    max-width: 500px;
-    flex-shrink: 0;
+    max-width: 100%;
 }
 
 /* Report Content — Expandable Insight Cards */
@@ -904,6 +903,7 @@ footer a { color: var(--accent-2); text-decoration: none; }
     .kpi-value { font-size: 24px; }
     .insight-content-wrapper { padding: 0 16px 16px; }
     .social-card-preview { width: 100%; max-width: 100%; }
+    .linkedin-grid { grid-template-columns: 1fr; gap: 20px; }
 }
 
 @media (max-width: 500px) {
@@ -940,8 +940,5 @@ footer a { color: var(--accent-2); text-decoration: none; }
     }
     .linkedin-card h2 {
         font-size: 16px;
-    }
-    .linkedin-grid {
-        flex-direction: column;
     }
 }

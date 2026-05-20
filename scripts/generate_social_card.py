@@ -5,7 +5,8 @@ from playwright.async_api import async_playwright
 
 async def generate_card(hook_text, category_text, output_path):
     """Renders the HTML template with dynamic text and captures a high-res screenshot."""
-    template_path = os.path.abspath("scripts/templates/social_card.html")
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    template_path = os.path.join(script_dir, "templates", "social_card.html")
     
     if not os.path.exists(template_path):
         print(f"Error: Template not found at {template_path}")
