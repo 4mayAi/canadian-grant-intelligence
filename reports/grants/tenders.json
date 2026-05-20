@@ -625,5 +625,27 @@
         "province": "NCR (Ottawa/Gatineau)",
         "province_abbrev": "NCR",
         "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "RFP EN891-261700 Acquisition Cards",
+        "description": "*Financial and Insurance Services*Banking and investment*Funds transfer and clearance and exchange services*Remittance processing services",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012060?anId=ANONYMOUS",
+        "closing_date": "2026-06-30T14:00:00",
+        "publication_date": "2026-05-20",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRV"
+    },
+    {
+        "type": "New",
+        "title": "W6369-230357 - RFP - Strategic Deployable Terminals (SDT)",
+        "description": "*Communications Devices and Accessories*Satellite system maintenance or repair service",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110013399?anId=ANONYMOUS",
+        "closing_date": "2026-06-30T14:00:00",
+        "publication_date": "2026-05-20",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRV"
     }
 ]

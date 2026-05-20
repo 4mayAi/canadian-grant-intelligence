@@ -1,11 +1,11 @@
 {
-  "validated_at": "2026-05-20T15:49:20.536395+00:00",
+  "validated_at": "2026-05-20T16:45:12.042258+00:00",
   "results": {
     "files_exist": true,
     "tenders_schema": true,
     "kpis_schema": true,
     "pmo_schema": true,
-    "data_freshness": false,
+    "data_freshness": true,
     "no_duplicates": true,
     "cross_consistency": true,
     "llm_quality": true
