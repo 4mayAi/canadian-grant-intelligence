@@ -3,6 +3,7 @@ from unittest.mock import patch, MagicMock, mock_open
 import os
 import json
 import sys
+from datetime import datetime, timezone
 
 # Ensure scripts folder is on the python search path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'scripts')))
@@ -15,6 +16,7 @@ from src.api.mail_sender import MailSender
 class TestPipelineAndDashboard(unittest.TestCase):
 
     def setUp(self):
+        current_time = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
         self.mock_tenders = [
             {
                 "type": "New",
@@ -34,10 +36,10 @@ class TestPipelineAndDashboard(unittest.TestCase):
             "closing_this_week": 0,
             "top_category": "Services",
             "hero_hook": "Golden opportunity detected!",
-            "generated_at": "2026-05-20T18:00:00Z"
+            "generated_at": current_time
         }
         self.mock_pmo = {
-            "generated_at": "2026-05-20T18:00:00Z",
+            "generated_at": current_time,
             "linkedin_post": "Hello linkedin!",
             "insights": [
                 {
@@ -196,6 +198,45 @@ class TestPipelineAndDashboard(unittest.TestCase):
 
         success = sender.send_daily_digest("mock/post.md", "mock/card.png")
         self.assertFalse(success)
+
+    @patch('src.extractors.ckan.requests.get')
+    def test_canadabuys_apn_exclusion(self, mock_get):
+        """Verify that CanadaBuys tenders containing APN (e.g. APN_EDMONTON) are correctly excluded by the filter."""
+        from src.extractors.ckan import fetch_canadabuys_csvs
+        
+        # Mock CKAN package response
+        mock_api_resp = MagicMock()
+        mock_api_resp.json.return_value = {
+            "success": True,
+            "result": {
+                "resources": [
+                    {"name": "New Tender Notices", "url": "https://example.com/new.csv"}
+                ]
+            }
+        }
+        
+        # Mock CSV contents containing one normal grant and two APN notices
+        csv_data = (
+            "noticeURL-URLavis-eng,title-titre-eng,gsinDescription-nibsDescription-eng,unspscDescription-eng,tenderClosingDate-appelOffresDateCloture,publicationDate-datePublication,amendmentDate-dateModification,regionsOfDelivery-regionsLivraison-eng,procurementCategory-categorieApprovisionnement\n"
+            "https://example.com/valid,Valid Grant Project,Some funding description,Some unspsc,2026-06-01,2026-05-20,,National,Services\n"
+            "https://example.com/apn1,APN_EDMONTON BASE INFRASTRUCTURE,Some description,Some unspsc,2026-06-01,2026-05-20,,National,Construction\n"
+            "https://example.com/apn2,APN Edmonton Infrastructure,Some description,Some unspsc,2026-06-01,2026-05-20,,National,Construction\n"
+        )
+        
+        mock_csv_resp = MagicMock()
+        mock_csv_resp.status_code = 200
+        mock_csv_resp.iter_lines.return_value = [line.encode('utf-8') for line in csv_data.splitlines()]
+        
+        mock_get.side_effect = [mock_api_resp, mock_csv_resp]
+        
+        # Execute extractor
+        tenders = fetch_canadabuys_csvs(pulse_only=True)
+        
+        # Assertions:
+        # Valid Grant Project should match keywords and be included.
+        # Both apn1 (APN_EDMONTON...) and apn2 (APN Edmonton...) must be filtered out.
+        self.assertEqual(len(tenders), 1)
+        self.assertEqual(tenders[0].title, "Valid Grant Project")
 
 
 if __name__ == '__main__':
