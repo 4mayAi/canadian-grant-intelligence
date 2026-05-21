@@ -45,8 +45,8 @@ graph TD
         IS[ISED Website]
     end
 
-    subgraph mayAi Cloud Context (Antigravity 2.0)
-        ACA[Azure Container App Job]
+    subgraph mayAi Orchestration & Cloud Context
+        GHA[GitHub Actions Cron Runner]
         AB[Azure Blob Storage]
         LLM[Gemini API]
         SMTP[SMTP Mail Server]
@@ -58,16 +58,16 @@ graph TD
         USR[Subscribers Inbox]
     end
 
-    CB -->|CKAN CSVs| ACA
-    PM -->|Playwright Scraper| ACA
-    IS -->|Playwright Scraper| ACA
+    CB -->|CKAN CSVs| GHA
+    PM -->|Playwright Scraper| GHA
+    IS -->|Playwright Scraper| GHA
 
-    ACA -->|Batch Prompting| LLM
-    LLM -->|JSON Insights| ACA
+    GHA -->|Batch Prompting| LLM
+    LLM -->|JSON Insights| GHA
 
-    ACA -->|Upload tenders.json, kpis.json, etc.| AB
-    ACA -->|Notify failures| DIS
-    ACA -->|Dispatch daily newsletter| SMTP
+    GHA -->|Upload tenders.json, kpis.json, etc.| AB
+    GHA -->|Notify failures| DIS
+    GHA -->|Dispatch daily newsletter| SMTP
 
     AB -->|Fetch historical & latest reports| GH
     SMTP -->|Formatted HTML Digest| USR
@@ -77,10 +77,10 @@ graph TD
 
 ## 4. Solution Strategy
 
-The platform transitions from a legacy version 1.0 (GitHub Actions cron-based execution) to version 2.0 (Azure Container Apps Jobs containerized execution) to overcome GitHub API throttling, runtime timeouts, and runner limitations. 
+The platform orchestrates the high-fidelity intelligence pipeline via scheduled GitHub Actions cron runners executing 3x daily (10:00 AM, 2:00 PM, and 6:00 PM EDT). The Azure Container Apps Job is kept on standby as an manual override option to ensure operational resilience and zero infrastructure loss.
 
 Key strategies include:
-- **Playwright Containerization**: Packing Python 3.11-slim and Chromium into a single Docker image to ensure predictable page loading.
+- **Playwright Integration**: Running headless Chromium directly inside the GitHub Actions virtual runner using built-in caching for fast startup times.
 - **Incremental Scraping**: Maintaining state via `processed_urls.json` in Azure to scrape and synthesize only new announcements.
 - **Date-Scoped Historical Partitioning**: Backing up each day's run to `reports/tenders_YYYY-MM-DD.json` and indexing dates in `manifest.json`.
 
@@ -119,14 +119,14 @@ scripts/src/
 
 ```mermaid
 sequenceDiagram
-    participant Job as Azure Container App Job
+    participant Job as GitHub Actions Runner
     participant Azure as Azure Blob Storage
     participant Ext as Extractors (Playwright)
     participant LLM as Gemini API
     participant Valid as validate_outputs.py
     participant Mail as MailSender (SMTP)
 
-    Note over Job: Daily Schedule Trigger
+    Note over Job: Scheduled Cron Trigger (3x daily)
     Job->>Azure: Download processed_urls.json & manifest.json
     Job->>Ext: Scrape CanadaBuys, PMO feed, and ISED website
     Ext-->>Job: Return raw HTML, CSV, and news items
@@ -152,8 +152,8 @@ sequenceDiagram
 
 ## 7. Deployment View
 
-- **CI/CD Pipeline**: GitHub Actions build triggers on commit pushes to `main` branch. It compiles the Docker image, pushes it to your Azure Container Registry (ACR), and calls `az containerapp job update` to deploy the image.
-- **Container Job Environment**: The Azure Container App Job executes on a cron schedule, referencing stored Container Secrets for sensitive API keys and connections.
+- **Pipeline Execution**: The daily pipeline is scheduled via GitHub Actions crons. It runs directly inside Ubuntu-latest runner environments, leveraging Playwright caching to ensure rapid and deterministic browser execution.
+- **Standby Container Job**: The Azure Container App Job configuration, Dockerfile, and container image are preserved in a dormant status. The trigger type is configured to `Manual` to prevent redundant billing while keeping the containerized path immediately ready for re-activation.
 - **Frontend Hosting**: Static GitHub Pages site resolves requests using raw JSON paths from the public Azure Blob container URL.
 
 ---

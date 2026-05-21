@@ -1,14 +1,14 @@
 name: Deploy Container to Azure Container Apps Job
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'scripts/**'
-      - 'Dockerfile'
-      - '.github/workflows/deploy_container.yml'
-      - 'requirements.txt'
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - 'scripts/**'
+  #     - 'Dockerfile'
+  #     - '.github/workflows/deploy_container.yml'
+  #     - 'requirements.txt'
   workflow_dispatch:
 
 permissions:
