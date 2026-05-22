@@ -148,6 +148,14 @@ sequenceDiagram
     end
 ```
 
+### 6.2 PMO News & Insights Data Flow
+
+The "PMO News & Insights" dashboard tab is generated through a 4-phase pipeline:
+1. **Extraction**: `main.py` orchestrates `rss.py` and `playwright_scraper.py` to ingest new announcements from government domains, bypassing items already stored in `processed_urls.json`.
+2. **AI Synthesis**: Batches of unstructured news texts are transmitted to the `gemini_client.py` where the LLM extracts actionable hooks. A macroeconomic summary is then synthesized into a daily LinkedIn post.
+3. **Cloud Storage**: The insights and the markdown-formatted LinkedIn post are packaged into a JSON wrapper and pushed to Azure Blob Storage as `pmo_insights.json`, operating entirely without a relational database.
+4. **Client-Side Rendering**: When the frontend tab is activated, vanilla JavaScript in `index.html` asynchronously fetches `pmo_insights.json` from Azure. The payload is mapped directly to the DOM, parsing the Markdown via `marked.js` and expanding individual insights into `<details>` accordion cards.
+
 ---
 
 ## 7. Deployment View
