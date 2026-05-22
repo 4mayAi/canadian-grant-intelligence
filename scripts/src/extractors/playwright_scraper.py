@@ -18,6 +18,10 @@ async def _scrape_single_url(browser: Browser, url: str, source_name: str, semap
             page = await browser.new_page()
             await page.goto(url, wait_until='networkidle', timeout=30000)
             
+            # The advanced search pages are SPAs. We must wait for the JS framework to inject the results.
+            if "advanced-news-search" in url:
+                await page.wait_for_timeout(5000)
+            
             items = await page.evaluate('''() => {
                 const links = Array.from(document.querySelectorAll('a'));
                 const results = [];
@@ -121,7 +125,9 @@ def fetch_html_news(lookback_limit: Optional[datetime] = None, max_items: int = 
         "contact us",
         "terms and conditions",
         "privacy statement",
-        "corporate information"
+        "corporate information",
+        "subscribe to news emails",
+        "search archived articles"
     ]
     
     for entry in scraped_items:
