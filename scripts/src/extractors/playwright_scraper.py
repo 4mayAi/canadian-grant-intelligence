@@ -16,6 +16,7 @@ async def _scrape_single_url(browser: Browser, url: str, source_name: str, semap
         logging.info(f"Scraping JS-rendered news from {url} using Playwright...")
         try:
             page = await browser.new_page()
+            page.on("console", lambda msg: logging.info(f"PLAYWRIGHT CONSOLE: {msg.text}"))
             await page.goto(url, wait_until='networkidle', timeout=30000)
             
             # The advanced search pages are SPAs. We must wait for the JS framework to inject the results.
@@ -25,10 +26,15 @@ async def _scrape_single_url(browser: Browser, url: str, source_name: str, semap
             items = await page.evaluate('''() => {
                 const links = Array.from(document.querySelectorAll('a'));
                 const results = [];
+                
+                // DEBUG: Log links to console
+                console.log("Found " + links.length + " links total on page.");
+                const debug_links = links.map(a => a.href).filter(h => h && h.includes('canada.ca')).slice(0, 50);
+                
                 links.forEach(a => {
                     const href = a.href || '';
                     const title = a.innerText.trim();
-                    if (title.length > 20 && (href.includes('/news') || href.includes('news-releases') || href.includes('/news-nouvelles/') || href.includes('article'))) {
+                    if (title.length > 20 && (href.includes('/news') || href.includes('news-releases') || href.includes('/news-nouvelles/') || href.includes('article') || href.includes('release'))) {
                         if (!results.some(r => r.link === href)) {
                             let dateText = '';
                             const parent = a.closest('div, li, tr, article');
