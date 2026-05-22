@@ -11,8 +11,8 @@ class Config:
     }
 
     HTML_SOURCES: Dict[str, str] = {
-        "ISED_News": "https://ised-isde.canada.ca/site/ised/en/news",
-        "Global_Affairs": "https://www.international.gc.ca/news-nouvelles/news-nouvelles.aspx?lang=eng",
+        "ISED_News": "https://www.canada.ca/en/news/advanced-news-search/news-results.html?typ=newsreleases&dprtmnt=departmentofindustry",
+        "Global_Affairs": "https://www.canada.ca/en/news/advanced-news-search/news-results.html?typ=newsreleases&dprtmnt=globalaffairscanada",
         "Finance_Canada": "https://www.canada.ca/en/department-finance/news.html"
     }
 
