@@ -19,7 +19,7 @@ on:
       lookback_days:
         description: 'Number of days to look back for PMO news'
         required: false
-        default: '2'
+        default: '7'
         type: string
 
 permissions:
@@ -64,7 +64,7 @@ jobs:
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           ALERT_EMAIL_ADDRESS: ${{ secrets.ALERT_EMAIL_ADDRESS }}
-          SCRAPE_LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '2' }}
+          SCRAPE_LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '7' }}
         run: python scripts/fetch_canadian_grants.py
 
       - name: Validate Pipeline Output

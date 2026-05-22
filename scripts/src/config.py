@@ -78,7 +78,7 @@ class Config:
     KPI_FILE: str = os.path.join(OUTPUT_DIR, "kpis.json")
 
     RUN_TYPE: str = os.getenv("RUN_TYPE", "DEEP_DIVE").lower()
-    SCRAPE_LOOKBACK_DAYS: int = int(os.getenv("SCRAPE_LOOKBACK_DAYS", "2"))
+    SCRAPE_LOOKBACK_DAYS: int = int(os.getenv("SCRAPE_LOOKBACK_DAYS", "7"))
 
     @classmethod
     def is_pulse_mode(cls) -> bool:
