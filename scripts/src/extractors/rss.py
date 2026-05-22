@@ -35,6 +35,10 @@ def fetch_rss_feeds(lookback_limit: Optional[datetime] = None, max_items: int = 
             if is_seeding and len(feed_results) >= max_items:
                 break
                 
+            # Filter PMO feed to only include News Releases (exclude readouts, advisories, etc.)
+            if "pm.gc.ca" in entry.link and "/news-releases/" not in entry.link:
+                continue
+                
             feed_results.append({
                 "source": name,
                 "title": entry.title,
