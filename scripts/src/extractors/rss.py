@@ -20,7 +20,7 @@ def fetch_rss_feeds(lookback_limit: Optional[datetime] = None, max_items: int = 
         
         feed_results = []
         for entry in feed.entries:
-            published = getattr(entry, 'published_parsed', None)
+            published = getattr(entry, 'published_parsed', None) or getattr(entry, 'updated_parsed', None)
             pub_date = None
             
             if published:

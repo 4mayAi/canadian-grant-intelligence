@@ -7,14 +7,13 @@ class Config:
     
     # --- Sources ---
     FEEDS: Dict[str, str] = {
-        "PMO_News": "https://www.pm.gc.ca/en/news.rss"
+        "PMO_News": "https://www.pm.gc.ca/en/news.rss",
+        "ISED_News": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=departmentofindustry&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+        "Finance_Canada": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=departmentfinance&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+        "Global_Affairs": "https://news.google.com/rss/search?q=site:canada.ca+AND+\"Global+Affairs+Canada\"+AND+\"News+release\"&hl=en-CA&gl=CA&ceid=CA:en"
     }
 
-    HTML_SOURCES: Dict[str, str] = {
-        "ISED_News": "https://www.canada.ca/en/innovation-science-economic-development/news.html",
-        "Global_Affairs": "https://www.canada.ca/en/global-affairs/news.html",
-        "Finance_Canada": "https://www.canada.ca/en/department-finance/news.html"
-    }
+    HTML_SOURCES: Dict[str, str] = {}
 
     # --- HTTP Settings ---
     HEADERS: Dict[str, str] = {

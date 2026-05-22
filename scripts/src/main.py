@@ -25,9 +25,8 @@ def setup_logging():
 def fetch_and_process_news(lookback_limit, max_items_per_feed, processed_urls, test_mode=False):
     """Fetches PMO news, filters by lookback, and analyzes with LLM using batching."""
     raw_rss = fetch_rss_feeds(lookback_limit, max_items_per_feed)
-    raw_html = fetch_html_news(lookback_limit, max_items_per_feed)
     
-    all_raw_news = raw_rss + raw_html
+    all_raw_news = raw_rss
     
     unprocessed_news = []
     for item in all_raw_news:
