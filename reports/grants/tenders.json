@@ -1,14 +1,25 @@
 [
     {
-        "type": "Open",
-        "title": "APN_EDMONTON BASE INFRASTRUCTURE IMPROVEMENT PROGRAM - CONSTRUCTION MANAGEMENT",
+        "type": "New",
+        "title": "RFP_Real Estate_ Environmental Consulting Services_2026",
         "description": "",
-        "link": "https://www.merx.com/public/solicitations/3903908610/abstract?language=EN",
-        "closing_date": "2026-06-08T16:00:00",
-        "publication_date": "2026-04-07",
+        "link": "https://www.merx.com/public/solicitations/3970876419/abstract?language=EN",
+        "closing_date": "2026-07-07T14:00:00",
+        "publication_date": "2026-05-21",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "CNST"
+        "category": "SRV"
+    },
+    {
+        "type": "Open",
+        "title": "Hardware Maintenance and Support services for Dell VxRail Infrastructure",
+        "description": "",
+        "link": "https://www.merx.com/public/solicitations/3969380912/abstract?language=EN",
+        "closing_date": "2026-06-03T13:00:00",
+        "publication_date": "2026-05-20",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "GD"
     },
     {
         "type": "Open",
@@ -20,17 +31,6 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "GDSRV"
-    },
-    {
-        "type": "Open",
-        "title": "Cloud Cost Management Solution",
-        "description": "",
-        "link": "https://www.merx.com/public/solicitations/3958737513/abstract?language=EN",
-        "closing_date": "2026-06-08T11:00:00",
-        "publication_date": "2026-05-11",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "SRVGD"
     },
     {
         "type": "Open",
@@ -342,33 +342,11 @@
     },
     {
         "type": "Open",
-        "title": "RFP U6309-255561 B - Magnetic Field Tester",
-        "description": "*Transducers",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110002160?anId=ANONYMOUS",
-        "closing_date": "2026-05-21T14:00:00",
-        "publication_date": "2026-01-12",
-        "province": "NCR (Ottawa/Gatineau)",
-        "province_abbrev": "NCR",
-        "category": "GD"
-    },
-    {
-        "type": "Open",
         "title": "W7701-247874 Development of hyperspectral imaging platforms",
         "description": "*Product research and development service",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012463?anId=ANONYMOUS",
         "closing_date": "2026-06-09T14:00:00",
         "publication_date": "2026-05-07",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "SRV"
-    },
-    {
-        "type": "Open",
-        "title": "W7701-268120 AI-enhanced cybersecurity for military systems and platforms",
-        "description": "*Application or technology research and development service",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012576?anId=ANONYMOUS",
-        "closing_date": "2026-06-17T14:00:00",
-        "publication_date": "2026-05-08",
         "province": "National",
         "province_abbrev": "NAT",
         "category": "SRV"
@@ -383,17 +361,6 @@
         "province": "NCR (Ottawa/Gatineau)",
         "province_abbrev": "NCR",
         "category": "SRV"
-    },
-    {
-        "type": "Open",
-        "title": "RFP - FBI AAFC Lethbridge Research and Development Centre",
-        "description": "*Infrastructure maintenance and repair services",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012743?anId=ANONYMOUS",
-        "closing_date": "2026-06-30T14:00:00",
-        "publication_date": "2026-05-11",
-        "province": "Alberta",
-        "province_abbrev": "AB",
-        "category": "CNST"
     },
     {
         "type": "Open",
@@ -452,17 +419,6 @@
     },
     {
         "type": "Open",
-        "title": "W0501-26R056- RFP- Powered Glass Lifting Device, Gagetown NB",
-        "description": "*Lifting equipment and accessories",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012982?anId=ANONYMOUS",
-        "closing_date": "2026-05-29T14:00:00",
-        "publication_date": "2026-05-12",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "GD"
-    },
-    {
-        "type": "Open",
         "title": "Copy of RFP F2599-250003B–CCGS Limnos–Installation of Supplied HVAC and Refrigeration Equipment",
         "description": "*Marine craft systems and subassemblies",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110013105?anId=ANONYMOUS",
@@ -474,55 +430,11 @@
     },
     {
         "type": "Open",
-        "title": "RFP F7049-240291 – VLE CCGS Sir William Alexander DryDocking",
-        "description": "*Commercial marine craft",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110009701?anId=ANONYMOUS",
-        "closing_date": "2026-06-11T14:00:00",
-        "publication_date": "2026-04-08",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "GD"
-    },
-    {
-        "type": "Open",
-        "title": "W6856-25V318-2 - Liquid Insulated Pad-Mounted Transformer, medium voltage for DND- RFP",
-        "description": "*Lamp Ballasts and Lamp Transformers",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011882?anId=ANONYMOUS",
-        "closing_date": "2026-05-21T14:00:00",
-        "publication_date": "2026-04-30",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "GD"
-    },
-    {
-        "type": "Open",
         "title": "RFP MF-HF Transmitters",
         "description": "*Communications Devices and Accessories",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110004487?anId=ANONYMOUS",
         "closing_date": "2026-06-05T02:00:00",
         "publication_date": "2026-02-11",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "GD"
-    },
-    {
-        "type": "Open",
-        "title": "cloud based Learning Management System (LMS) solution",
-        "description": "*Cloud-based software as a service",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110010408?anId=ANONYMOUS",
-        "closing_date": "2026-06-10T14:00:00",
-        "publication_date": "2026-04-16",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "SRV"
-    },
-    {
-        "type": "Open",
-        "title": "EF236-261778 - Purchase workspaces furniture under the SA for RCMP - RFP",
-        "description": "*Filing cabinets or accessories*Desks*Conferencing tables*Modular furniture connectors*Worksurfaces",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011371?anId=ANONYMOUS",
-        "closing_date": "2026-06-04T14:00:00",
-        "publication_date": "2026-05-06",
         "province": "National",
         "province_abbrev": "NAT",
         "category": "GD"
@@ -606,6 +518,17 @@
     },
     {
         "type": "Open",
+        "title": "W7701-268120 AI-enhanced cybersecurity for military systems and platforms",
+        "description": "*Application or technology research and development service",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012576?anId=ANONYMOUS",
+        "closing_date": "2026-06-17T14:00:00",
+        "publication_date": "2026-05-08",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRV"
+    },
+    {
+        "type": "Open",
         "title": "RFP EN891-261700 Acquisition Cards",
         "description": "*Financial and Insurance Services*Banking and investment*Funds transfer and clearance and exchange services*Remittance processing services",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012060?anId=ANONYMOUS",
@@ -628,24 +551,90 @@
     },
     {
         "type": "Open",
-        "title": "Hardware Maintenance and Support services for Dell VxRail Infrastructure",
-        "description": "",
-        "link": "https://www.merx.com/public/solicitations/3969380912/abstract?language=EN",
-        "closing_date": "2026-06-03T13:00:00",
-        "publication_date": "2026-05-20",
+        "title": "EF236-261778 - Purchase workspaces furniture under the SA for RCMP - RFP",
+        "description": "*Filing cabinets or accessories*Desks*Conferencing tables*Modular furniture connectors*Worksurfaces",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011371?anId=ANONYMOUS",
+        "closing_date": "2026-06-04T14:00:00",
+        "publication_date": "2026-05-06",
         "province": "National",
         "province_abbrev": "NAT",
         "category": "GD"
     },
     {
         "type": "Open",
-        "title": "RFP_Real Estate_ Environmental Consulting Services_2026",
-        "description": "",
-        "link": "https://www.merx.com/public/solicitations/3970876419/abstract?language=EN",
-        "closing_date": "2026-07-07T14:00:00",
-        "publication_date": "2026-05-21",
+        "title": "RFP U6309-255561 B - Magnetic Field Tester",
+        "description": "*Transducers",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110002160?anId=ANONYMOUS",
+        "closing_date": "2026-06-04T14:00:00",
+        "publication_date": "2026-01-12",
+        "province": "NCR (Ottawa/Gatineau)",
+        "province_abbrev": "NCR",
+        "category": "GD"
+    },
+    {
+        "type": "Open",
+        "title": "W6856-25V318-2 - Liquid Insulated Pad-Mounted Transformer, medium voltage for DND- RFP",
+        "description": "*Lamp Ballasts and Lamp Transformers",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011882?anId=ANONYMOUS",
+        "closing_date": "2026-05-27T14:00:00",
+        "publication_date": "2026-04-30",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "GD"
+    },
+    {
+        "type": "Open",
+        "title": "cloud based Learning Management System (LMS) solution",
+        "description": "*Cloud-based software as a service",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110010408?anId=ANONYMOUS",
+        "closing_date": "2026-06-10T14:00:00",
+        "publication_date": "2026-04-16",
         "province": "National",
         "province_abbrev": "NAT",
         "category": "SRV"
+    },
+    {
+        "type": "Open",
+        "title": "RFP F7049-240291 – VLE CCGS Sir William Alexander DryDocking",
+        "description": "*Commercial marine craft",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110009701?anId=ANONYMOUS",
+        "closing_date": "2026-06-11T14:00:00",
+        "publication_date": "2026-04-08",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "GD"
+    },
+    {
+        "type": "Open",
+        "title": "Cloud Cost Management Solution",
+        "description": "",
+        "link": "https://www.merx.com/public/solicitations/3958737513/abstract?language=EN",
+        "closing_date": "2026-06-08T11:00:00",
+        "publication_date": "2026-05-11",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "GDSRV"
+    },
+    {
+        "type": "Open",
+        "title": "RFP - FBI AAFC Lethbridge Research and Development Centre",
+        "description": "*Infrastructure maintenance and repair services",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012743?anId=ANONYMOUS",
+        "closing_date": "2026-06-30T14:00:00",
+        "publication_date": "2026-05-11",
+        "province": "Alberta",
+        "province_abbrev": "AB",
+        "category": "CNST"
+    },
+    {
+        "type": "Open",
+        "title": "W0501-26R056- RFP- Powered Glass Lifting Device, Gagetown NB",
+        "description": "*Lifting equipment and accessories",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012982?anId=ANONYMOUS",
+        "closing_date": "2026-05-29T14:00:00",
+        "publication_date": "2026-05-12",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "GD"
     }
 ]
