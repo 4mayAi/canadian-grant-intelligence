@@ -342,17 +342,6 @@
     },
     {
         "type": "Open",
-        "title": "Unified Search and Registration Platform  RFP",
-        "description": "",
-        "link": "https://www.merx.com/public/solicitations/3905009671/abstract?language=EN",
-        "closing_date": "2026-05-20T16:00:00",
-        "publication_date": "2026-04-08",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "SRV"
-    },
-    {
-        "type": "Open",
         "title": "RFP U6309-255561 B - Magnetic Field Tester",
         "description": "*Transducers",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110002160?anId=ANONYMOUS",
@@ -647,5 +636,16 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "RFP_Real Estate_ Environmental Consulting Services_2026",
+        "description": "",
+        "link": "https://www.merx.com/public/solicitations/3970876419/abstract?language=EN",
+        "closing_date": "2026-07-07T14:00:00",
+        "publication_date": "2026-05-21",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRV"
     }
 ]
