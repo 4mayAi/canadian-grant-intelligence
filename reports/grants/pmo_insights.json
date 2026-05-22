@@ -1,7 +1,40 @@
 {
-    "generated_at": "2026-05-22T15:17:34.774201Z",
-    "linkedin_post": "# Navigating Canada’s Evolving Funding Landscape: Strategy Over Speed\n\n🚀 Canada’s innovation landscape is shifting, and yesterday’s archives are the blueprint for tomorrow’s growth. While many focus solely on current solicitations, the most successful firms are now reverse-engineering ISED’s historical policy pivots to anticipate where the next wave of capital will land.\n\nDeep-diving into archived ISED documentation reveals a clear pattern: federal funding priorities are increasingly clustering around long-term economic resilience. Tech firms and industrial manufacturers should be reviewing these historical archives now to identify recurring investment themes, as they serve as the strongest indicator of upcoming departmental focal points.\n\nSimultaneously, staying ahead of real-time policy updates is no longer optional—it is a competitive necessity. By actively monitoring ISED news streams, consultants and government relations teams can secure an informational advantage, positioning themselves to respond to new program launches before the broader market reacts. If your business isn't triangulating historical data with real-time news, you are likely leaving potential procurement contracts on the table.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n#CanadianBusiness #ISED #GovernmentProcurement #BusinessIntelligence #FundingStrategy",
+    "generated_at": "2026-05-22T16:00:07.216899Z",
+    "linkedin_post": "# Canada's AI Pact with Spain, Craft Beverage Support, and Geopolitical Currents: Your Procurement Brief\n\n🇨🇦🇪🇸 **Canada-Spain AI Partnership Ignites Cross-Atlantic Opportunities.** Following a significant memorandum of understanding between Canada and Spain, AI firms should explore international collaboration and potential technology transfer avenues. The federal government is also bolstering its support for Saskatchewan's vibrant craft beverage industry, signaling opportunities for suppliers of packaging, ingredients, and B2B services catering to this growing sector.\n\nMeanwhile, high-level diplomatic engagements, such as Minister Anand's upcoming meeting with China's Foreign Minister, warrant close attention for businesses navigating complex global supply chains. Understanding these geopolitical shifts is crucial for risk mitigation and identifying new market access strategies.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/",
     "insights": [
+        {
+            "source": "ISED_News",
+            "title": "Minister Solomon, His Majesty King Felipe VI of Spain and Spanish Deputy Prime Minister Cuerpo advance Canada–Spain artificial intelligence cooperation through new memorandum of understanding",
+            "link": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/minister-solomon-his-majesty-king-felipe-vi-of-spain-and-spanish-deputy-prime-minister-cuerpo-advance-canadaspain-artificial-intelligence-cooperati.html",
+            "date": "2026-05-20T17:38:18Z",
+            "insight": {
+                "linkedin_hook": "🇨🇦🤝🇪🇸 Is your AI firm ready to scale across the Atlantic? Canada just inked a new pact with Spain.",
+                "strategic_value": "- **Cross-Border Market Access:** The MOU signals priority funding for Canadian-Spanish AI collaborations, opening doors for joint R&D grants.\n- **Regulatory Alignment:** Expect harmonized AI governance frameworks, lowering compliance barriers for firms operating in both markets.\n- **Investment Flows:** Spain is a key gateway to the EU market; Canadian firms can leverage this partnership to position themselves for European public procurement opportunities.",
+                "co_bidding_opportunity": "Firms specializing in Responsible AI and Enterprise LLMs should partner with Spanish system integrators to fulfill procurement requirements that mandate local European presence."
+            }
+        },
+        {
+            "source": "ISED_News",
+            "title": "Minister Valdez and Secretary of State Belanger highlight measures to support Saskatchewan brewers, distillers and winemakers",
+            "link": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/minister-valdez-and-secretary-of-state-belanger-highlight-measures-to-support-saskatchewan-brewers-distillers-and-winemakers.html",
+            "date": "2026-05-20T16:00:01Z",
+            "insight": {
+                "linkedin_hook": "🍺 Beyond the tap: What the latest federal support for Saskatchewan’s craft sector means for your B2B services.",
+                "strategic_value": "- **Operational Resilience Focus:** The government is shifting from 'growth' to 'economic protection,' meaning grants will prioritize automation and efficiency software.\n- **Localized Economic Tailwinds:** Increased support for Saskatchewan’s agriculture-adjacent manufacturing signals regional growth potential.\n- **Digital Transformation Needs:** Traditional industries in the Prairies are facing pressure to modernize; service providers offering supply chain management or e-commerce solutions have a clear wedge into this market.",
+                "co_bidding_opportunity": "Consortiums comprising regional Saskatchewan supply chain consultants and national digital transformation firms are needed to support agricultural manufacturing modernization."
+            }
+        },
+        {
+            "source": "Global_Affairs",
+            "title": "Minister Anand to meet with Director of the Office of the Central Commission for Foreign Affairs and Minister of Foreign Affairs of the People’s Republic of China, Wang Yi - canada.ca",
+            "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPamU2WThxTDVfS2laYlBoWjVfVXdLMncxUW5WWFdPZTJYSlk0TnFGVE1jY3hWMFJkemhJY2pmSHBQYkJFVnJjRVJHajlLaEN4YlJCVjR3VUFSakk3WmxoZ09EdUJfb2JVWFpBa0JkTUsyZ2lEaUREa3FkVldmWVIyNFJrMEtOVWpDUnA2RVFEaEU2b192VnRzSnpweUU3TkJtUlFETXN5UFpJNlI0QmNrMlh3M01DU2VuR0R5QVNzT3RsVC1KYUYwdlhJNzNuY0hpMWhlUnlPYWkzZTAzQW5vMFNpR0g4SnNjWE1YaVJFOGphcFJlMXQ4OF9waEZhdEo5bWtLUWlrMmplc0JSUW9vS0gtR3NkUFphR0c0b2RvWF95ZmVfUmJBT1J6bmx4UQ?oc=5",
+            "date": "2026-05-22T15:09:36Z",
+            "insight": {
+                "linkedin_hook": " geopolitical chess: What high-level Canada-China meetings mean for your supply chain strategy. 🌍",
+                "strategic_value": "No insight available",
+                "co_bidding_opportunity": "No insight available"
+            }
+        },
         {
             "source": "ISED_News",
             "title": "Search archived articles",
