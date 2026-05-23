@@ -23,22 +23,79 @@ def setup_logging():
     logging.getLogger("azure.core.pipeline.policies.http_logging_policy").setLevel(logging.WARNING)
 
 def fetch_and_process_news(lookback_limit, max_items_per_feed, processed_urls, test_mode=False):
-    """Fetches PMO news, filters by lookback, and analyzes with LLM using batching."""
-    raw_rss = fetch_rss_feeds(lookback_limit, max_items_per_feed)
+    """Fetches PMO news, filters by lookback, and analyzes with LLM using batching with a self-healing cache."""
+    failed_feeds = []
+    raw_rss = fetch_rss_feeds(lookback_limit, max_items_per_feed, failed_feeds)
     
-    all_raw_news = raw_rss
+    # Load existing cached insights
+    existing_insights_list = []
+    try:
+        existing_pmo = azure_client.download_json("pmo_insights.json")
+        if existing_pmo and "insights" in existing_pmo:
+            existing_insights_list = existing_pmo["insights"]
+    except Exception as e:
+        logging.error(f"Failed to load existing pmo_insights.json from Azure: {e}")
+        
+    existing_insights_map = {item["link"]: item for item in existing_insights_list if "link" in item}
     
-    unprocessed_news = []
+    # Handle feed failures: Retain existing insights for failed feeds
+    retained_items = []
+    if failed_feeds:
+        logging.warning(f"Failed feeds detected: {failed_feeds}. Retaining their cached insights.")
+        for link, item in existing_insights_map.items():
+            if item.get("source") in failed_feeds:
+                dt_val = item.get("date")
+                parsed_date = None
+                if isinstance(dt_val, str):
+                    try:
+                        date_str = dt_val.rstrip("Z")
+                        if "." in date_str:
+                            parsed_date = datetime.fromisoformat(date_str)
+                        else:
+                            parsed_date = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
+                    except Exception as parse_err:
+                        logging.warning(f"Error parsing date string {dt_val}: {parse_err}")
+                
+                if not parsed_date:
+                    parsed_date = datetime.utcnow()
+                    
+                retained_items.append({
+                    "source": item.get("source"),
+                    "title": item.get("title"),
+                    "link": link,
+                    "date": parsed_date,
+                    "text_to_search": (item.get("title", "") + " " + item.get("insight", {}).get("summary", "")).lower()
+                })
+                logging.info(f"Retained cached item from failed feed {item.get('source')}: {item.get('title')}")
+                
+    # Combine active items from successful feeds with retained items from failed feeds
+    all_raw_news = raw_rss + retained_items
+    
+    # Deduplicate in case of unexpected overlaps
+    seen_links = set()
+    deduped_raw_news = []
     for item in all_raw_news:
-        if item['link'] not in processed_urls:
+        if item['link'] not in seen_links:
+            deduped_raw_news.append(item)
+            seen_links.add(item['link'])
+            
+    unprocessed_news = []
+    final_insights = []
+    
+    for item in deduped_raw_news:
+        link = item['link']
+        if link in existing_insights_map:
+            # Reuse cached insight directly (no LLM call)
+            final_insights.append(existing_insights_map[link])
+            processed_urls.add(link)
+        else:
+            # New active item, needs LLM processing
             unprocessed_news.append(item)
             
     if test_mode:
         unprocessed_news = unprocessed_news[:2]
         
-    insights = []
     BATCH_SIZE = 5
-    
     for i in range(0, len(unprocessed_news), BATCH_SIZE):
         batch = unprocessed_news[i:i + BATCH_SIZE]
         logging.info(f"Analyzing batch of {len(batch)} news items with LLM...")
@@ -66,10 +123,24 @@ def fetch_and_process_news(lookback_limit, max_items_per_feed, processed_urls, t
                 "date": date_str,
                 "insight": insight_model.to_dict()
             }
-            insights.append(report_item_dict)
+            final_insights.append(report_item_dict)
             processed_urls.add(item['link'])
             
-    return insights
+    # Sort final insights descending by date
+    def get_parse_date(item):
+        d = item.get("date")
+        if isinstance(d, datetime):
+            return d
+        if isinstance(d, str):
+            try:
+                return datetime.fromisoformat(d.rstrip("Z"))
+            except:
+                pass
+        return datetime.min
+        
+    final_insights.sort(key=get_parse_date, reverse=True)
+    return final_insights
+
 
 def generate_kpis(tenders: list, pmo_insights: list) -> dict:
     now = datetime.now()
@@ -186,26 +257,9 @@ def run_pipeline():
         max_items = 5 if test_mode else 15
         pmo_insights = fetch_and_process_news(lookback_limit, max_items, processed_urls, test_mode=test_mode)
         
-        # Consolidate daily PMO insights by merging with existing insights from today
-        if not seed_strategy:
-            try:
-                existing_pmo = azure_client.download_json("pmo_insights.json")
-                if existing_pmo:
-                    existing_gen_date = existing_pmo.get("generated_at", "")[:10]
-                    today_utc_date = datetime.utcnow().strftime("%Y-%m-%d")
-                    if existing_gen_date == today_utc_date:
-                        existing_insights = existing_pmo.get("insights", [])
-                        seen_links = {item["link"] for item in pmo_insights}
-                        merged_insights = list(pmo_insights)
-                        for item in existing_insights:
-                            if item.get("link") not in seen_links:
-                                merged_insights.append(item)
-                                seen_links.add(item["link"])
-                        pmo_insights = merged_insights
-                        logging.info(f"Consolidated PMO insights: Merged {len(existing_insights)} existing insights from today. Total: {len(pmo_insights)}")
-            except Exception as e:
-                logging.error(f"Failed to consolidate existing PMO insights: {e}")
-        
+        # Daily consolidation is handled inside fetch_and_process_news via the self-healing cache
+        pass
+
         # 3. Transform Tenders to dicts
         tenders_dict_list = [t.to_dict() for t in tenders]
         if test_mode:
