@@ -648,38 +648,7 @@
             const content = document.getElementById('reportContent');
             let html = '';
 
-            const isToday = date === new Date().toISOString().split('T')[0];
-            const cardTitle = isToday ? "Today's LinkedIn Post" : `LinkedIn Strategic Hook (${formatDate(date)})`;
-
             updateNewsKPIs(data.insights ? data.insights.length : 0);
-
-            if (data.linkedin_post) {
-                const socialCardUrl = currentDate === 'latest'
-                    ? `https://canadiangrants.blob.core.windows.net/data/latest_social_card.png`
-                    : `https://canadiangrants.blob.core.windows.net/data/social_card_${date}.png`;
-                
-                html += `
-                    <div class="linkedin-card report-section">
-                        <div class="linkedin-card-header">
-                            <h2>📋 ${cardTitle}</h2>
-                            <button class="copy-btn" data-raw="${escapeHtml(data.linkedin_post)}" onclick="copyPost(this)">Copy Post</button>
-                        </div>
-                        <div class="linkedin-grid">
-                            <div>
-                                <div class="linkedin-body" id="linkedinPost">${marked.parse(data.linkedin_post)}</div>
-                            </div>
-                            <div class="social-card-preview">
-
-                                <img src="${socialCardUrl}" 
-                                     class="linkedin-social-image"
-                                     alt="Social Media Engagement Card"
-                                     onerror="this.closest('.social-card-preview').style.display='none'"
-                                     onclick="window.open(this.src, '_blank')">
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }
 
             let insightsHtml = '';
             if (data.insights && data.insights.length > 0) {
@@ -696,7 +665,6 @@
                         <details class="report-section">
                             <summary class="report-summary">
                                 <h3>${escapeHtml(insight.title)}</h3>
-                                ${insight.linkedin_hook ? `<div class="hook-subtitle">${escapeHtml(insight.linkedin_hook)}</div>` : ''}
                                 <div class="report-meta">
                                     ${insight.source ? `<span>📡 ${escapeHtml(insight.source)}</span>` : ''}
                                     ${insight.date ? `<span>📅 ${escapeHtml(insight.date)}</span>` : ''}
