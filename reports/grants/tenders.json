@@ -254,17 +254,6 @@
     },
     {
         "type": "Open",
-        "title": "EH900-250938 - Metal Cabinets and Shelving RFP",
-        "description": "*Office furniture",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011365?anId=ANONYMOUS",
-        "closing_date": "2026-05-22T14:00:00",
-        "publication_date": "2026-04-27",
-        "province": "NCR (Ottawa/Gatineau)",
-        "province_abbrev": "NCR",
-        "category": "GD"
-    },
-    {
-        "type": "Open",
         "title": "RFI - E60HN-26HSCN High Security Containers",
         "description": "*Industrial cabinets or drawers or shelving",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011940?anId=ANONYMOUS",
@@ -468,17 +457,6 @@
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110010486?anId=ANONYMOUS",
         "closing_date": "2026-06-30T14:00:00",
         "publication_date": "2026-04-17",
-        "province": "Quebec",
-        "province_abbrev": "QC",
-        "category": "GD"
-    },
-    {
-        "type": "Open",
-        "title": "E60HL-260007-A RFP Arctic Sealift Drummed Fuel",
-        "description": "*Naphtha*Aviation fuel*Diesel fuel*Gasoline or Petrol*Engine oil",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012302?anId=ANONYMOUS",
-        "closing_date": "2026-05-22T14:00:00",
-        "publication_date": "2026-05-06",
         "province": "Quebec",
         "province_abbrev": "QC",
         "category": "GD"
