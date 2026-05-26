@@ -1,4 +1,4 @@
-name: Azure Blob Diagnostic
+name: Gemini Quota Diagnostic
 
 on:
   workflow_dispatch:
@@ -7,32 +7,12 @@ jobs:
   diagnostic:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-
-      - name: Install dependencies
-        run: pip install azure-storage-blob
-
-      - name: List Blobs
+      - name: Test Gemini Connectivity
         env:
-          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          python -c '
-          import os
-          from azure.storage.blob import BlobServiceClient
-          connection_string = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
-          if not connection_string:
-              print("Connection string is missing!")
-              exit(1)
-          client = BlobServiceClient.from_connection_string(connection_string)
-          container_client = client.get_container_client("data")
-          print("Blobs in container \"data\":")
-          for blob in container_client.list_blobs():
-              print(f"- {blob.name} ({blob.size} bytes)")
-          '
+          curl -X POST "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash-lite:generateContent?key=$GEMINI_API_KEY" \
+          -H 'Content-Type: application/json' \
+          -d '{"contents": [{"parts":[{"text": "ping"}]}]}' \
+          --verbose
 
