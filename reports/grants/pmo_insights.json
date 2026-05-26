@@ -1,7 +1,18 @@
 {
-    "generated_at": "2026-05-25T21:56:54.803078Z",
-    "linkedin_post": "LinkedIn post generation failed.",
+    "generated_at": "2026-05-26T18:34:33.580448Z",
+    "linkedin_post": "# Canada's Fiscal Edge: Funding, Investment & Global Partnerships Drive Procurement Wins\n\n🇨🇦 Ottawa's global stage presence signals significant opportunities for Canadian businesses.\n\nParliamentary Secretary Turnbull's focus on fiscal discipline at the OECD Forum suggests a government prioritizing efficiency, potentially impacting future service contracts and advisory roles. Simultaneously, Prime Minister Carney's NYC visit positions Canada as a prime investment destination, a signal for B2B service providers ready to support expanding enterprises. Secretary of State Sarai's diplomatic efforts in the UK and Nigeria are forging international pathways, opening doors for Canadian exporters and those involved in global development projects.\n\nKey procurement highlights include a substantial $76.2 million federal investment in Tenaris's steel modernization. This is a clear signal to suppliers in the oil and gas sector, particularly those offering advanced manufacturing, automation, and materials science solutions, to align with Canada's industrial strategy. Furthermore, Canada's diplomatic engagement with China signals a critical juncture for companies operating in or looking to enter the Indo-Pacific market, presenting opportunities in supply chain resilience and strategic trade partnerships.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/",
     "insights": [
+        {
+            "source": "Finance_Canada",
+            "title": "Parliamentary Secretary Turnbull to highlight Canada’s fiscal discipline at OECD Forum on Restoring Public Finances in Paris",
+            "link": "https://www.canada.ca/en/department-finance/news/2026/05/parliamentary-secretary-turnbull-to-highlight-canadas-fiscal-discipline-at-oecd-forum-on-restoring-public-finances-in-paris.html",
+            "date": "2026-05-26T14:12:27Z",
+            "insight": {
+                "linkedin_hook": "🇨🇦 Canada takes centre stage at the OECD! What does our fiscal discipline mean for global public finance restoration? 🤔",
+                "strategic_value": "*   **Global Fiscal Leadership:** Canada is positioning itself as a leader in fiscal responsibility on the international stage, signaling a commitment to sound financial management. This can influence future international funding and partnership opportunities.\n*   **Policy Influence:** Participation in the OECD forum allows Canada to shape global discussions and best practices in public finance, potentially impacting future government procurement policies and standards.\n*   **Economic Stability Signal:** Highlighting fiscal discipline reassures international partners and investors of Canada's economic stability, potentially attracting foreign investment and favorable trade agreements.",
+                "co_bidding_opportunity": "No insight available"
+            }
+        },
         {
             "source": "PMO_News",
             "title": "Prime Minister Carney to position Canada as an investment hub with visit to New York City",
@@ -88,39 +99,6 @@
                 "linkedin_hook": "Minister Anand meets her counterpart in Latvia! 🤝 Strengthening diplomatic and defence ties in a crucial region. What's next for Canada-Latvia collaboration? 🇱🇻🇨🇦",
                 "strategic_value": "*   **Strengthening Alliances:** This meeting reinforces Canada's commitment to NATO and bilateral defence cooperation with Latvia, a key player in the Baltic region's security architecture.\n*   **Defence and Security Collaboration:** Discussions likely cover areas of mutual defence interest, potentially leading to requirements for joint training, equipment sharing, intelligence collaboration, or cybersecurity initiatives.\n*   **Regional Stability:** Canada's engagement in Latvia reflects a broader strategy to contribute to regional stability and security in Eastern Europe, indicating potential for ongoing support and partnership in defence and related sectors.",
                 "co_bidding_opportunity": "Opportunities may emerge for consortia providing defence solutions, cybersecurity services, or contributing to joint multinational security programs that involve Latvia and other NATO allies."
-            }
-        },
-        {
-            "source": "Finance_Canada",
-            "title": "Minister Champagne successfully advances Canada’s interests at G7 meeting in Paris",
-            "link": "https://www.canada.ca/en/department-finance/news/2026/05/minister-champagne-successfully-advances-canadas-interests-at-g7-meeting-in-paris.html",
-            "date": "2026-05-19T17:58:06Z",
-            "insight": {
-                "linkedin_hook": "🌍 Minister Champagne champions Canadian resilience at G7! Learn how international collaboration is shaping our economic future. 🇨🇦",
-                "strategic_value": "*   **Global Economic Diplomacy:** This announcement highlights Canada's active role in international forums like the G7, emphasizing strategic partnerships to build a resilient global economy. For Canadian businesses, this signals potential opportunities in sectors aligned with G7 priorities (e.g., green technology, supply chain resilience, digital transformation).\n*   **Economic Strength & Stability:** The focus on a 'stronger and more resilient economy' domestically and abroad suggests a federal strategy geared towards long-term economic stability. This could translate into procurement opportunities for solutions that enhance economic infrastructure, cybersecurity, and data analytics.\n*   **International Trade & Investment:** Advancing Canada's interests at the G7 implies a proactive approach to trade and investment. Businesses that can support export promotion, foreign direct investment attraction, or international market access will find strategic alignment.",
-                "co_bidding_opportunity": "N/A"
-            }
-        },
-        {
-            "source": "ISED_News",
-            "title": "Government of Canada advances wireless connectivity with additional spectrum to support 5G innovation and streamlined tower siting",
-            "link": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/government-of-canada-advances-wireless-connectivity-with-additional-spectrum-to-support-5g-innovation-and-streamlined-tower-siting.html",
-            "date": "2026-05-19T17:02:07Z",
-            "insight": {
-                "linkedin_hook": "5G is accelerating in Canada! 🚀 The government is releasing more spectrum and streamlining tower siting. Is your business ready to leverage this enhanced wireless infrastructure for innovation?",
-                "strategic_value": "*   **Digital Infrastructure Advancement:** This initiative underscores Canada's commitment to expanding 5G capabilities, crucial for future economic competitiveness and innovation across all sectors.\n*   **Innovation Ecosystem Support:** By providing more spectrum and simplifying deployment, the government is fostering an environment where new wireless technologies and applications can flourish.\n*   **Connectivity for All:** Streamlined siting and broader spectrum access contribute to better and more affordable connectivity for Canadians, bridging digital divides.",
-                "co_bidding_opportunity": "Opportunities exist for tower construction and maintenance firms, network infrastructure providers, cybersecurity specialists for 5G, and technology integrators for 5G applications."
-            }
-        },
-        {
-            "source": "Finance_Canada",
-            "title": "Government of Canada plans to issue US-dollar global bond",
-            "link": "https://www.canada.ca/en/department-finance/news/2026/05/government-of-canada-plans-to-issue-us-dollar-global-bond.html",
-            "date": "2026-05-19T13:03:43Z",
-            "insight": {
-                "linkedin_hook": "💰 Canada is hitting the global bond market! 🇺🇸 Discover the implications of this strategic move for foreign reserves and economic stability. #CanadaFinance #GlobalBonds",
-                "strategic_value": "*   **Fiscal Management & Confidence:** Issuing a US-dollar global bond is a significant fiscal action that signals the government's confidence in Canada's economic standing and its ability to access international capital markets. This can indirectly boost investor confidence and support economic growth.\n*   **Foreign Reserve Management:** The commitment to maintain foreign reserves at or above three per cent of nominal GDP is a key strategic objective. This implies ongoing needs for services and solutions related to treasury management, financial risk assessment, and foreign exchange operations.\n*   **Economic Stability & Interest Rate Environment:** A global bond issuance impacts Canada's debt management strategy and the broader interest rate environment. Businesses involved in financial services, economic forecasting, and debt servicing may find opportunities related to this strategy.",
-                "co_bidding_opportunity": "N/A"
             }
         }
     ]
