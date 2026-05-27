@@ -15,6 +15,8 @@ Title: Google Cloud Scheduler Setup Configuration
 - Programmatically extracted the active token from the local GitHub CLI context to avoid manual token generation.
 - Corrected a PowerShell space-splitting argument bug by using strict double-quoting in our deployment scripts.
 - Successfully executed the deployment script to enable the Google Cloud Scheduler API and register all three daily trigger jobs under project `project-f0d36d83-0e2f-4d56-aad` in region `us-west1`.
+- Commented out the native GitHub Actions `schedule` cron triggers in [daily_grants_scraper.yml](file:///c:/dev/canadian-grant-intelligence/.github/workflows/daily_grants_scraper.yml) to prevent redundant/duplicate runs when the GHA cron engine is delayed.
+
 ## Summary
 - Enabled the Google Cloud Scheduler API and successfully configured three daily trigger jobs in project `project-f0d36d83-0e2f-4d56-aad` (region `us-west1`).
 - Solved a PowerShell argument space-splitting issue by using strict quoting.

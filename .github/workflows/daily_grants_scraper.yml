@@ -1,10 +1,10 @@
 name: Canadian Grants Intelligence Pipeline
  
 on:
-  schedule:
-    - cron: '0 14 * * *' # 10:00 AM EDT — catches morning releases
-    - cron: '0 18 * * *' # 2:00 PM EDT — catches midday releases
-    - cron: '0 22 * * *' # 6:00 PM EDT — catches end-of-day releases
+#   schedule:
+#     - cron: '0 14 * * *' # 10:00 AM EDT — catches morning releases
+#     - cron: '0 18 * * *' # 2:00 PM EDT — catches midday releases
+#     - cron: '0 22 * * *' # 6:00 PM EDT — catches end-of-day releases
   workflow_dispatch:
     inputs:
       run_type:
