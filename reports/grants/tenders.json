@@ -210,17 +210,6 @@
     },
     {
         "type": "Open",
-        "title": "T8009-250015 - Zero Emissions Propulsion Systems",
-        "description": "*Application or technology research and development service",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110004599?anId=ANONYMOUS",
-        "closing_date": "2026-05-25T14:00:00",
-        "publication_date": "2026-02-06",
-        "province": "British Columbia",
-        "province_abbrev": "BC",
-        "category": "SRV"
-    },
-    {
-        "type": "Open",
         "title": "Request for Information (RFI) Syndicated Research Studies",
         "description": "*Marketing and distribution*Situation and stakeholder analysis and communications planning services*Polling and survey and public opinion monitoring and analysis*Focus group and public feedback meeting facilitation and analysis",
         "link": "https://discovery.ariba.com/rfx/18028713?extsite=MTgwMjg3MTNfQU4wMTQ4NDA1MDk5Mg==",
@@ -338,17 +327,6 @@
         "publication_date": "2026-05-07",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
-    },
-    {
-        "type": "Open",
-        "title": "ACAN - Cold Climate Aviation Technologies Ground Icing Research and Development",
-        "description": "*Product research and development service",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012595?anId=ANONYMOUS",
-        "closing_date": "2026-05-25T14:00:00",
-        "publication_date": "2026-05-08",
-        "province": "NCR (Ottawa/Gatineau)",
-        "province_abbrev": "NCR",
         "category": "SRV"
     },
     {
@@ -625,5 +603,16 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "SRV"
+    },
+    {
+        "type": "Open",
+        "title": "RFP - Oily Water Separator procurement",
+        "description": "*Water treatment and supply equipment*Water purification equipment*Ultrafiltration equipment*Surface water pollution rehabilitation services",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014241?anId=ANONYMOUS",
+        "closing_date": "2026-07-17T14:00:00",
+        "publication_date": "2026-05-25",
+        "province": "Quebec",
+        "province_abbrev": "QC",
+        "category": "GD"
     }
 ]
