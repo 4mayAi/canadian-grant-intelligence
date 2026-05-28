@@ -298,28 +298,6 @@
     },
     {
         "type": "Open",
-        "title": "W0107-265587 - SOL B- TSPS CAERP Intermediate Technicians",
-        "description": "*Military services and national defense",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110010834?anId=ANONYMOUS",
-        "closing_date": "2026-05-26T14:00:00",
-        "publication_date": "2026-04-21",
-        "province": "Ontario",
-        "province_abbrev": "ON",
-        "category": "SRV"
-    },
-    {
-        "type": "Open",
-        "title": "EE517-261552 Cathodic protection replacement at the wharf of Banc-Sablon",
-        "description": "*Infrastructure maintenance and repair services",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012269?anId=ANONYMOUS",
-        "closing_date": "2026-05-26T14:00:00",
-        "publication_date": "2026-05-06",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "CNST"
-    },
-    {
-        "type": "Open",
         "title": "W7701-247874 Development of hyperspectral imaging platforms",
         "description": "*Product research and development service",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012463?anId=ANONYMOUS",
@@ -405,17 +383,6 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "GD"
-    },
-    {
-        "type": "Open",
-        "title": "EB218-261110 - SA Environmental Compliance - Atlantic",
-        "description": "*Petroleum processing machinery*Hazardous material decontamination*Environmental Services*Environmental impact assessment*Environmental monitoring*Environmental auditing*Business intelligence consulting services*Building construction management*Facilities management*Geological surveys*Audit services",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110010147?anId=ANONYMOUS",
-        "closing_date": "2026-05-26T14:00:00",
-        "publication_date": "2026-04-14",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "SRV"
     },
     {
         "type": "Open",
@@ -613,6 +580,50 @@
         "publication_date": "2026-05-25",
         "province": "Quebec",
         "province_abbrev": "QC",
+        "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "Padlocks",
+        "description": "*Defense and Law Enforcement and Security and Safety Equipment and Supplies",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014432?anId=ANONYMOUS",
+        "closing_date": "2026-06-19T14:00:00",
+        "publication_date": "2026-05-27",
+        "province": "NCR (Ottawa/Gatineau)",
+        "province_abbrev": "NCR",
+        "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "Request for Proposal (RFP) for Single Seater ATV",
+        "description": "*Motorcycles",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014434?anId=ANONYMOUS",
+        "closing_date": "2026-06-24T14:00:00",
+        "publication_date": "2026-05-27",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "F3731-250070- Regional individual SO for Inspection, Repair and Maintenance Services of Lifting Equipment - RFP",
+        "description": "*Lifting equipment and accessories*Winches*Winch crane*Crane maintenance and repair service*Equipment inspection service",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014460?anId=ANONYMOUS",
+        "closing_date": "2026-06-18T14:00:00",
+        "publication_date": "2026-05-27",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRV"
+    },
+    {
+        "type": "New",
+        "title": "F3710-255059-2 - Water Purification System - RFP",
+        "description": "*Laboratory water purification equipment and supplies*Water purification equipment",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014465?anId=ANONYMOUS",
+        "closing_date": "2026-06-15T14:00:00",
+        "publication_date": "2026-05-27",
+        "province": "National",
+        "province_abbrev": "NAT",
         "category": "GD"
     }
 ]
