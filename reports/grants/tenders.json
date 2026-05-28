@@ -625,5 +625,16 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "W7707-257379 - Handheld Active Thermal Infrared Spectroradiometer Design and Development",
+        "description": "*Application or technology research and development service",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014095?anId=ANONYMOUS",
+        "closing_date": "2026-07-10T14:00:00",
+        "publication_date": "2026-05-28",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRV"
     }
 ]
