@@ -627,7 +627,7 @@
         "category": "GD"
     },
     {
-        "type": "New",
+        "type": "Open",
         "title": "W7707-257379 - Handheld Active Thermal Infrared Spectroradiometer Design and Development",
         "description": "*Application or technology research and development service",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014095?anId=ANONYMOUS",
@@ -635,6 +635,17 @@
         "publication_date": "2026-05-28",
         "province": "National",
         "province_abbrev": "NAT",
+        "category": "SRV"
+    },
+    {
+        "type": "New",
+        "title": "W7707-267438 SUBMARINE MANEUVERING DYNAMICS SOFTWARE MAINTENANCE AND UPGRADE",
+        "description": "*Engineering and Research and Technology Based Services*Computer services*Software or hardware engineering*Computer programmers*Information retrieval systems*Online database information retrieval service*Software maintenance and support",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014565?anId=ANONYMOUS",
+        "closing_date": "2026-06-23T14:00:00",
+        "publication_date": "2026-05-28",
+        "province": "Nova Scotia",
+        "province_abbrev": "NS",
         "category": "SRV"
     }
 ]
