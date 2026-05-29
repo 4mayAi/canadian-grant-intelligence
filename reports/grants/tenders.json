@@ -625,5 +625,49 @@
         "province": "Nova Scotia",
         "province_abbrev": "NS",
         "category": "SRV"
+    },
+    {
+        "type": "New",
+        "title": "W7714-258714 Vest Training System",
+        "description": "*Defense and law enforcement and security and safety training equipment",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011953?anId=ANONYMOUS",
+        "closing_date": "2026-06-15T14:00:00",
+        "publication_date": "2026-05-27",
+        "province": "Ontario",
+        "province_abbrev": "ON",
+        "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "W6844-25EMM1 - Housekeeping services at Montreal Garrison for the National Defense",
+        "description": "*General building and office cleaning and maintenance services",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014654?anId=ANONYMOUS",
+        "closing_date": "2026-06-23T14:00:00",
+        "publication_date": "2026-05-29",
+        "province": "Quebec",
+        "province_abbrev": "QC",
+        "category": "SRV"
+    },
+    {
+        "type": "New",
+        "title": "EZ899-261706 - Transportation Engineering and Prime Consultant Services SOA",
+        "description": "*Environmental sciences advisory services*Professional engineering services*Civil engineering*Structural engineering*Highway engineering*Geotechnical or geoseismic engineering*Landscape architecture and design service*Hydrology assessment service*Electrical engineering services*Archaeological services*Marine biology services",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014656?anId=ANONYMOUS",
+        "closing_date": "2026-07-08T14:00:00",
+        "publication_date": "2026-05-29",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRV"
+    },
+    {
+        "type": "New",
+        "title": "RFP EP774-260411-B Precast Concrete Planters and Bollards",
+        "description": "*Precast concrete element*Concrete and cement and plaster",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014658?anId=ANONYMOUS",
+        "closing_date": "2026-06-24T14:00:00",
+        "publication_date": "2026-05-29",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "GD"
     }
 ]
