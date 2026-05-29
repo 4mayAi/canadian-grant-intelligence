@@ -320,17 +320,6 @@
     },
     {
         "type": "Open",
-        "title": "W7707-267415 System Integration Support for System Test Bed Related Research and Development",
-        "description": "*Software or hardware engineering*Computer programmers*System and system component administration services*Application or technology research and development service*Information Technology Service Delivery",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011946?anId=ANONYMOUS",
-        "closing_date": "2026-05-27T12:30:00",
-        "publication_date": "2026-05-01",
-        "province": "Nova Scotia",
-        "province_abbrev": "NS",
-        "category": "SRV"
-    },
-    {
-        "type": "Open",
         "title": "21120-251361 Jeans Male RFP",
         "description": "*Clothing",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110007365?anId=ANONYMOUS",
@@ -496,17 +485,6 @@
     },
     {
         "type": "Open",
-        "title": "W6856-25V318-2 - Liquid Insulated Pad-Mounted Transformer, medium voltage for DND- RFP",
-        "description": "*Lamp Ballasts and Lamp Transformers",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011882?anId=ANONYMOUS",
-        "closing_date": "2026-05-27T14:00:00",
-        "publication_date": "2026-04-30",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "GD"
-    },
-    {
-        "type": "Open",
         "title": "cloud based Learning Management System (LMS) solution",
         "description": "*Cloud-based software as a service",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110010408?anId=ANONYMOUS",
@@ -638,7 +616,7 @@
         "category": "SRV"
     },
     {
-        "type": "New",
+        "type": "Open",
         "title": "W7707-267438 SUBMARINE MANEUVERING DYNAMICS SOFTWARE MAINTENANCE AND UPGRADE",
         "description": "*Engineering and Research and Technology Based Services*Computer services*Software or hardware engineering*Computer programmers*Information retrieval systems*Online database information retrieval service*Software maintenance and support",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014565?anId=ANONYMOUS",
