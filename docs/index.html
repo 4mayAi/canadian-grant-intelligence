@@ -683,28 +683,29 @@
 
             let insightsHtml = '';
             if (data.insights && data.insights.length > 0) {
-                data.insights.forEach(insight => {
+                data.insights.forEach(item => {
                     let bodyHtml = '';
-                    if (insight.strategic_value) {
-                        bodyHtml += `<h4>Strategic Value for Canadian Businesses</h4><div class="md-content">${marked.parse(insight.strategic_value)}</div>`;
+                    const innerInsight = item.insight || {};
+                    if (innerInsight.strategic_value) {
+                        bodyHtml += `<h4>Strategic Value for Canadian Businesses</h4><div class="md-content">${marked.parse(innerInsight.strategic_value)}</div>`;
                     }
-                    if (insight.co_bidding_opportunity) {
-                        bodyHtml += `<h4>Co-Bidding Opportunity</h4><div class="md-content">${marked.parse(insight.co_bidding_opportunity)}</div>`;
+                    if (innerInsight.co_bidding_opportunity) {
+                        bodyHtml += `<h4>Co-Bidding Opportunity</h4><div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
                     }
 
                     insightsHtml += `
                         <details class="report-section">
                             <summary class="report-summary">
-                                <h3>${escapeHtml(insight.title)}</h3>
-                                ${insight.linkedin_hook ? `<div class="hook-subtitle">${escapeHtml(insight.linkedin_hook)}</div>` : ''}
+                                <h3>${escapeHtml(item.title)}</h3>
+                                ${innerInsight.linkedin_hook ? `<div class="hook-subtitle">${escapeHtml(innerInsight.linkedin_hook)}</div>` : ''}
                                 <div class="report-meta">
-                                    ${insight.source ? `<span>📡 ${escapeHtml(insight.source)}</span>` : ''}
-                                    ${insight.date ? `<span>📅 ${escapeHtml(insight.date)}</span>` : ''}
+                                    ${item.source ? `<span>📡 ${escapeHtml(item.source)}</span>` : ''}
+                                    ${item.date ? `<span>📅 ${escapeHtml(item.date)}</span>` : ''}
                                 </div>
                             </summary>
                             <div class="insight-content-wrapper">
                                 <div class="insight-content">${bodyHtml || '<p style="color: var(--text-muted)">No insight available.</p>'}</div>
-                                ${insight.link ? `<a class="opp-link" href="${escapeHtml(insight.link)}" target="_blank" rel="noopener">View Original ↗</a>` : ''}
+                                ${item.link ? `<a class="opp-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener">View Original ↗</a>` : ''}
                             </div>
                         </details>
                     `;
