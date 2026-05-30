@@ -141,9 +141,9 @@ class MailSender:
         today_str = datetime.now().strftime("%b %d, %Y")
         
         if subject_title:
-            subject = f"🇨🇦 GovCon Briefing — {today_str} — {subject_title}"
+            subject = f"{today_str} — 🇨🇦 Grant Intelligence — {subject_title}"
         else:
-            subject = f"🇨🇦 GovCon Briefing — {today_str}"
+            subject = f"{today_str} — 🇨🇦 Grant Intelligence"
 
         success = True
         try:
