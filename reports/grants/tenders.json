@@ -199,17 +199,6 @@
     },
     {
         "type": "Open",
-        "title": "RFP_Interior and Exterior Signage_2025",
-        "description": "",
-        "link": "https://www.merx.com/public/solicitations/3918583961/abstract?language=EN",
-        "closing_date": "2026-05-28T14:00:00",
-        "publication_date": "2026-04-20",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "GDSRV"
-    },
-    {
-        "type": "Open",
         "title": "Request for Information (RFI) Syndicated Research Studies",
         "description": "*Marketing and distribution*Situation and stakeholder analysis and communications planning services*Polling and survey and public opinion monitoring and analysis*Focus group and public feedback meeting facilitation and analysis",
         "link": "https://discovery.ariba.com/rfx/18028713?extsite=MTgwMjg3MTNfQU4wMTQ4NDA1MDk5Mg==",
@@ -306,17 +295,6 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "SRV"
-    },
-    {
-        "type": "Open",
-        "title": "E60HL-26K201-A RFP Bulk Coloured Diesel Fuel",
-        "description": "*Diesel fuel",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012599?anId=ANONYMOUS",
-        "closing_date": "2026-05-28T14:00:00",
-        "publication_date": "2026-05-08",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "GD"
     },
     {
         "type": "Open",
@@ -627,7 +605,7 @@
         "category": "SRV"
     },
     {
-        "type": "New",
+        "type": "Open",
         "title": "W7714-258714 Vest Training System",
         "description": "*Defense and law enforcement and security and safety training equipment",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011953?anId=ANONYMOUS",
@@ -638,7 +616,7 @@
         "category": "GD"
     },
     {
-        "type": "New",
+        "type": "Open",
         "title": "W6844-25EMM1 - Housekeeping services at Montreal Garrison for the National Defense",
         "description": "*General building and office cleaning and maintenance services",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014654?anId=ANONYMOUS",
@@ -649,7 +627,7 @@
         "category": "SRV"
     },
     {
-        "type": "New",
+        "type": "Open",
         "title": "EZ899-261706 - Transportation Engineering and Prime Consultant Services SOA",
         "description": "*Environmental sciences advisory services*Professional engineering services*Civil engineering*Structural engineering*Highway engineering*Geotechnical or geoseismic engineering*Landscape architecture and design service*Hydrology assessment service*Electrical engineering services*Archaeological services*Marine biology services",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014656?anId=ANONYMOUS",
@@ -660,7 +638,7 @@
         "category": "SRV"
     },
     {
-        "type": "New",
+        "type": "Open",
         "title": "RFP EP774-260411-B Precast Concrete Planters and Bollards",
         "description": "*Precast concrete element*Concrete and cement and plaster",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014658?anId=ANONYMOUS",
