@@ -126,10 +126,24 @@ class MailSender:
         html_body = self._convert_markdown_to_html(md_content)
         plain_body = md_content
 
+        # Extract title from markdown content (find first line starting with #)
+        subject_title = ""
+        for line in md_content.split("\n"):
+            line_str = line.strip()
+            if line_str.startswith("# "):
+                subject_title = line_str[2:].strip()
+                # Clean up any potential markdown formatting in header
+                subject_title = subject_title.replace("**", "").replace("*", "").replace("`", "").strip()
+                break
+
         # Get current date for subject line
         from datetime import datetime
         today_str = datetime.now().strftime("%b %d, %Y")
-        subject = f"🇨🇦 Grant Intelligence — {today_str}"
+        
+        if subject_title:
+            subject = f"🇨🇦 GovCon Briefing — {today_str} — {subject_title}"
+        else:
+            subject = f"🇨🇦 GovCon Briefing — {today_str}"
 
         success = True
         try:
