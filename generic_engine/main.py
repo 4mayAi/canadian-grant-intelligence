@@ -80,8 +80,8 @@ def fetch_and_process_news(
     # Translate config schema objects to raw dicts for scraper engines
     sources_dict = [src.model_dump() for src in config.sources]
 
-    # Ingest RSS feeds
-    max_items = 5 if test_mode else 15
+    # Ingest RSS feeds (max items slots per cluster)
+    max_items = 3 if test_mode else 5
     raw_rss = fetch_rss_feeds(sources_dict, lookback_limit, max_items, failed_feeds)
 
     # Ingest Playwright HTML pages if any are configured

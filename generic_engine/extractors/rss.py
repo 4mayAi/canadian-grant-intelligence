@@ -66,8 +66,8 @@ def fetch_rss_feeds(
                     if pub_date < lookback_limit:
                         continue
                 
-                # Limit count per feed if in strategy seeding mode
-                if is_seeding and len(feed_results) >= max_items:
+                # Limit count per feed source to prevent a single source from dominating
+                if len(feed_results) >= max_items:
                     break
                     
                 # Standard PMO feed filter logic preserved as fallback
