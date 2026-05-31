@@ -1,6 +1,6 @@
 {
   "topic_id": "innovation-clusters",
-  "display_name": "Global Innovation Clusters Intelligence",
+  "display_name": "Canadian Innovation Clusters Intelligence",
   "dashboard_url": "https://4mayAi.github.io/canadian-grant-intelligence/clusters/",
   "sources": [
     { "name": "DIGITAL_News", "url": "https://digitalsupercluster.ca/category/news/feed/", "type": "rss" },

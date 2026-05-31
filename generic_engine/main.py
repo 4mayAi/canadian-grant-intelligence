@@ -261,7 +261,8 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
 
     try:
         # Define Lookback
-        lookback_limit = datetime.utcnow() - timedelta(days=7)
+        lookback_days = int(os.getenv("SCRAPE_LOOKBACK_DAYS", "14"))
+        lookback_limit = datetime.utcnow() - timedelta(days=lookback_days)
         
         # Load processed URL history registry
         processed_urls_raw = azure_client.download_json(config.storage.processed_urls_file) or {}

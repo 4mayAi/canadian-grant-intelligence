@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 15 * * *' # Run daily at 15:00 UTC (11:00 AM EDT)
   workflow_dispatch:     # Allow manual runs
+    inputs:
+      lookback_days:
+        description: 'Number of days to look back for news'
+        required: false
+        default: '14'
+        type: string
 
 permissions:
   contents: write
@@ -45,6 +51,7 @@ jobs:
           SMTP_RECIPIENT_CLUSTERS: ${{ secrets.SMTP_RECIPIENT_CLUSTERS }}
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+          SCRAPE_LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '14' }}
         # Runs the generic engine with the innovation clusters config
         run: |
           python generic_engine/main.py --config configs/innovation_clusters.json
