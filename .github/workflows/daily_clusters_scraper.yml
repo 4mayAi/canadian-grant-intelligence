@@ -8,7 +8,7 @@ on:
       lookback_days:
         description: 'Number of days to look back for news'
         required: false
-        default: '14'
+        default: '30'
         type: string
 
 permissions:
@@ -51,7 +51,7 @@ jobs:
           SMTP_RECIPIENT_CLUSTERS: ${{ secrets.SMTP_RECIPIENT_CLUSTERS }}
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
-          SCRAPE_LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '14' }}
+          SCRAPE_LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '30' }}
         # Runs the generic engine with the innovation clusters config
         run: |
           python generic_engine/main.py --config configs/innovation_clusters.json

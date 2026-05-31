@@ -261,7 +261,7 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
 
     try:
         # Define Lookback
-        lookback_days = int(os.getenv("SCRAPE_LOOKBACK_DAYS", "14"))
+        lookback_days = int(os.getenv("SCRAPE_LOOKBACK_DAYS", "30"))
         lookback_limit = datetime.utcnow() - timedelta(days=lookback_days)
         
         # Load processed URL history registry
