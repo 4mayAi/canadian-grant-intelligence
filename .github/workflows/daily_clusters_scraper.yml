@@ -1,8 +1,8 @@
 name: Global Innovation Clusters Pipeline
 
 on:
-  schedule:
-    - cron: '0 15 * * *' # Run daily at 15:00 UTC (11:00 AM EDT)
+#   schedule:
+#     - cron: '0 15 * * *' # Run daily at 15:00 UTC (11:00 AM EDT)
   workflow_dispatch:     # Allow manual runs
     inputs:
       lookback_days:
