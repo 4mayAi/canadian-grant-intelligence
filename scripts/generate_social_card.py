@@ -3,7 +3,7 @@ import sys
 import asyncio
 from playwright.async_api import async_playwright
 
-async def generate_card(hook_text, category_text, output_path):
+async def generate_card(hook_text, category_text, output_path, url_text=None):
     """Renders the HTML template with dynamic text and captures a high-res screenshot."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     template_path = os.path.join(script_dir, "templates", "social_card.html")
@@ -23,10 +23,14 @@ async def generate_card(hook_text, category_text, output_path):
         # We escape backticks to prevent injection issues in the evaluate string
         safe_hook = hook_text.replace("`", "\\`").replace("${", "\\${")
         safe_category = category_text.replace("`", "\\`").replace("${", "\\${")
+        safe_url = url_text.replace("`", "\\`").replace("${", "\\${") if url_text else ""
         
         await page.evaluate(f"""
             document.getElementById('hook-text').innerText = `{safe_hook}`;
             document.getElementById('category-text').innerText = `{safe_category}`;
+            if (`{safe_url}`) {{
+                document.getElementById('url-text').innerText = `{safe_url}`;
+            }}
         """)
         
         # Wait for fonts and styles to settle
@@ -40,14 +44,15 @@ async def generate_card(hook_text, category_text, output_path):
 if __name__ == "__main__":
     # Check for required arguments
     if len(sys.argv) < 3:
-        print("Usage: python generate_social_card.py <hook_text> <category_text> [output_path]")
+        print("Usage: python generate_social_card.py <hook_text> <category_text> [output_path] [url_text]")
         sys.exit(1)
         
     hook = sys.argv[1]
     category = sys.argv[2]
     output = sys.argv[3] if len(sys.argv) > 3 else "reports/linkedin/social_card.png"
+    url = sys.argv[4] if len(sys.argv) > 4 else None
     
     # Ensure output directory exists
     os.makedirs(os.path.dirname(output), exist_ok=True)
     
-    asyncio.run(generate_card(hook, category, output))
+    asyncio.run(generate_card(hook, category, output, url))

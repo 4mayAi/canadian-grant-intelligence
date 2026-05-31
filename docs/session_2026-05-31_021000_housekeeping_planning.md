@@ -15,14 +15,17 @@ Title: Landing Page Housekeeping & Social Card Integration Planning
 - Refined GeminiClient.get_hero_hook to enforce a single-sentence Bloomberg-style hero hook (<20 words) with no markdown headers, lists, or bold formatting.
 - Updated docs/clusters/index.html to dynamically compute all three KPIs in the browser, rename tabs/card titles, and implement side-by-side executive digest layout.
 - Integrated playwright social card generation into main.py and verified it runs successfully locally and uploads to Azure.
+- Added dynamic URL support to scripts/templates/social_card.html and scripts/generate_social_card.py, and updated generic_engine/main.py to clean and pass config.dashboard_url to the card generator, ensuring the URL printed on the card matches the clusters subdomain clusters path (4mayAi.github.io/canadian-grant-intelligence/clusters/).
 
 Summary:
 - Refactored hero hook generation, KPI calculation, and digest wording on the Innovation Clusters dashboard.
 - Integrated automated Playwright-based social card image generation and side-by-side grid preview.
+- Fixed social card URL branding on the card from the default grant scraper URL to the clusters path.
 - Pushed final changes to the main branch.
 
 Issues:
 - Directory junction resolution during local dry-run resolved by passing absolute paths to python.exe.
+- Corrected python f-string bracket escaping syntax error in generate_social_card.py by doubling JS brackets.
 
 Next Steps:
-- Monitor the daily GHA scraper run to confirm that the live page displays the visual card and cleaned KPIs correctly on subsequent updates.
+- Trigger the GHA run to update the live social card image on Azure Blob storage and push the latest committed outputs.

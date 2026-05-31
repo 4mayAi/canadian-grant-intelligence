@@ -341,10 +341,12 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         if os.path.exists(script_path):
             logging.info("Generating social card image via Playwright...")
             import subprocess
+            clean_url = (config.dashboard_url or "").replace("https://", "").replace("http://", "")
             try:
                 subprocess.run([
                     sys.executable, script_path,
-                    kpis.get("hero_hook", ""), kpis.get("top_category", "Mixed Sectors"), social_card_local_path
+                    kpis.get("hero_hook", ""), kpis.get("top_category", "Mixed Sectors"), social_card_local_path,
+                    clean_url
                 ], check=True)
                 logging.info(f"Successfully generated social card locally at {social_card_local_path}")
             except Exception as e:
