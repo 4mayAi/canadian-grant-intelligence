@@ -197,15 +197,40 @@ def fetch_and_process_news(
 def generate_dashboard_kpis(insights: List[dict], gemini_client: GeminiClient) -> dict:
     """Consolidates metrics for the run insights."""
     total_active = len(insights)
-    new_today = sum(1 for ins in insights if (datetime.utcnow() - datetime.fromisoformat(ins['date'].rstrip("Z"))).days <= 1)
     
+    new_today = 0
+    for ins in insights:
+        try:
+            dt_str = ins.get('date', '').rstrip("Z")
+            if "." in dt_str:
+                dt = datetime.fromisoformat(dt_str)
+            else:
+                dt = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%S")
+            if (datetime.utcnow() - dt).days <= 1:
+                new_today += 1
+        except Exception:
+            pass
+            
+    # Calculate top contributing source/category
+    source_counts = {}
+    for ins in insights:
+        src = ins.get("source", "")
+        # Clean display name for known sources
+        display_src = src.replace('_News', '').replace('Cluster_News', ' Supercluster').replace('ScaleAI', 'Scale AI').replace('NGen', 'NGen').replace('ProteinIndustries', 'Protein Industries Canada').replace('DIGITAL', 'DIGITAL')
+        if display_src:
+            source_counts[display_src] = source_counts.get(display_src, 0) + 1
+            
+    top_category = "Mixed Sectors"
+    if source_counts:
+        top_category = max(source_counts, key=source_counts.get)
+
     hero_hook = gemini_client.get_hero_hook(insights)
     
     return KPIDashboard(
         total_active=total_active,
         new_today=new_today,
         closing_this_week=0,  # No tenders closing date in generic RSS
-        top_category="Mixed Sectors",
+        top_category=top_category,
         hero_hook=hero_hook,
         generated_at=datetime.utcnow().isoformat() + "Z"
     ).to_dict()
@@ -309,6 +334,24 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
             
         logging.info(f"Local files generated successfully inside: {output_dir}")
 
+        # 6. Generate social card image using Playwright
+        social_card_local_path = os.path.join(output_dir, "social_card.png")
+        script_path = os.path.join(engine_root, "scripts", "generate_social_card.py")
+        
+        if os.path.exists(script_path):
+            logging.info("Generating social card image via Playwright...")
+            import subprocess
+            try:
+                subprocess.run([
+                    sys.executable, script_path,
+                    kpis.get("hero_hook", ""), kpis.get("top_category", "Mixed Sectors"), social_card_local_path
+                ], check=True)
+                logging.info(f"Successfully generated social card locally at {social_card_local_path}")
+            except Exception as e:
+                logging.error(f"Failed to generate social card: {e}")
+        else:
+            logging.warning(f"Social card generator script not found at {script_path}. Skipping card generation.")
+
         # 7. Validate Outputs before uploading to storage
         validate_dynamic_outputs(output_dir, config)
         logging.info("Dynamic output verification passed successfully.")
@@ -317,6 +360,12 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         if not dry_run:
             azure_client.upload_json(config.storage.insights_file, pmo_wrapper)
             azure_client.upload_json(config.storage.kpis_file, kpis)
+            
+            # Upload social card binary image
+            if os.path.exists(social_card_local_path):
+                azure_client.upload_file(social_card_local_path, "latest_social_card.png", "image/png")
+                date_str = datetime.utcnow().strftime("%Y-%m-%d")
+                azure_client.upload_file(social_card_local_path, f"social_card_{date_str}.png", "image/png")
             
             # Historical backup archive
             date_str = datetime.utcnow().strftime("%Y-%m-%d")

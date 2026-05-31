@@ -200,12 +200,14 @@ class GeminiClient:
             
         news_context = "\n".join([f"- {n.get('title', '')}" for n in (pmo_insights_list or [])[:5]])
         
-        prompt = f"""{self.system_instruction}
-        
-        Generate a single, powerful, one-sentence "Hero Hook" (MAX 20 words) that summarizes the most important theme in today's updates.
+        prompt = f"""You are an executive copywriter. Generate a single, short, one-sentence headline hook (MAXIMUM 20 words) based on the context below.
 
-        Use a professional but catchy tone (Bloomberg style). Include one relevant emoji.
-        Do not include quotes or prefixes.
+        CRITICAL Rules:
+        - Output ONLY the one-sentence hook.
+        - DO NOT output any markdown headers (###), bold text (**), lists, or bullet points.
+        - DO NOT output any introduction, quotes, prefixes, or conversational filler.
+        - Ensure it is a single, clean sentence with one relevant emoji.
+        - Maintain a professional, executive Bloomberg-style tone.
 
         Context:
         {news_context}

@@ -132,7 +132,7 @@
 
         <div class="tabs">
             <button class="tab-btn active" id="btn-signals" onclick="switchTab('signals')">Active Innovation Signals</button>
-            <button class="tab-btn" id="btn-digest" onclick="switchTab('digest')">LinkedIn Editorial Digest</button>
+            <button class="tab-btn" id="btn-digest" onclick="switchTab('digest')">Executive Digest</button>
         </div>
 
         <!-- Dynamic Content Views -->
@@ -220,12 +220,12 @@
 
         function copyPost(btn) {
             const raw = btn.dataset.raw;
-            const text = raw ? decodeHtml(raw) : document.getElementById('linkedinPost').textContent;
+            const text = raw ? decodeHtml(raw) : document.getElementById('digestPost').textContent;
             navigator.clipboard.writeText(text).then(() => {
                 btn.textContent = 'Copied!';
                 btn.classList.add('copied');
                 setTimeout(() => {
-                    btn.textContent = 'Copy Post';
+                    btn.textContent = 'Copy Digest';
                     btn.classList.remove('copied');
                 }, 2000);
             });
@@ -244,11 +244,6 @@
         async function loadKPIs() {
             try {
                 const kpis = await fetchJSON(KPIS_AZURE, KPIS_LOCAL);
-                
-                // Update metrics
-                document.getElementById('kpi-total').innerText = kpis.total_active || 0;
-                document.getElementById('kpi-new-today').innerText = kpis.new_today || 0;
-                document.getElementById('kpi-lead').innerText = kpis.top_category || 'Mixed Sectors';
 
                 // Render Hero Hook
                 if (kpis.hero_hook) {
@@ -278,10 +273,56 @@
                 const data = await fetchJSON(INSIGHTS_AZURE, INSIGHTS_LOCAL);
                 cachedData = data;
 
-                // 1. Render active signals
+                const insights = data.insights || [];
+
+                // 1. Calculate and update KPI metrics dynamically
+                document.getElementById('kpi-total').innerText = insights.length;
+                
+                const activeSources = new Set();
+                insights.forEach(item => {
+                    if (item.source) {
+                        const cleanSrc = item.source.replace('_News', '').replace('Cluster_News', '');
+                        activeSources.add(cleanSrc);
+                    }
+                });
+                document.getElementById('kpi-new-today').innerText = `${activeSources.size} / 5 Active`;
+                
+                const cardLabels = document.querySelectorAll('.kpi-card .kpi-label');
+                if (cardLabels.length > 1) {
+                    cardLabels[1].innerText = 'Active Clusters';
+                }
+
+                const sourceCounts = {};
+                insights.forEach(item => {
+                    if (item.source) {
+                        const cleanSrc = item.source.replace('_News', '').replace('Cluster_News', ' Supercluster').replace('ScaleAI', 'Scale AI').replace('NGen', 'NGen').replace('ProteinIndustries', 'Protein Industries Canada').replace('DIGITAL', 'DIGITAL');
+                        sourceCounts[cleanSrc] = (sourceCounts[cleanSrc] || 0) + 1;
+                    }
+                });
+                
+                let topContributor = 'Mixed Sectors';
+                let maxCount = 0;
+                for (const [src, count] of Object.entries(sourceCounts)) {
+                    if (count > maxCount) {
+                        maxCount = count;
+                        topContributor = src;
+                    }
+                }
+                
+                if (maxCount > 0) {
+                    const displayContributor = topContributor.length > 25 ? topContributor.substring(0, 22) + '...' : topContributor;
+                    document.getElementById('kpi-lead').innerText = `${displayContributor} (${maxCount})`;
+                } else {
+                    document.getElementById('kpi-lead').innerText = 'N/A';
+                }
+                if (cardLabels.length > 2) {
+                    cardLabels[2].innerText = 'Top Contributor';
+                }
+
+                // 2. Render active signals
                 let signalsHtml = '';
-                if (data.insights && data.insights.length > 0) {
-                    data.insights.forEach(item => {
+                if (insights.length > 0) {
+                    insights.forEach(item => {
                         let innerHtml = '';
                         const innerInsight = item.insight || {};
                         
@@ -294,7 +335,6 @@
                                           <div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
                         }
 
-                        // Clean source name display
                         const displaySource = (item.source || '').replace('_News', '').replace('Cluster_News', ' Supercluster');
 
                         signalsHtml += `
@@ -320,30 +360,44 @@
                     signalsHtml = `
                         <div class="empty-state">
                             <h3>No Actionable Opportunities Found</h3>
-                            <p>Daily scans yielded no strategic project calls or funding announcements in the past 7 days.</p>
+                            <p>Daily scans yielded no strategic project calls or funding announcements in the past 30 days.</p>
                         </div>
                     `;
                 }
                 signalsContent.innerHTML = signalsHtml;
 
-                // 2. Render editorial digest
+                // 3. Render executive digest side-by-side with social card
                 let digestHtml = '';
                 if (data.linkedin_post) {
+                    const socialCardUrl = `${AZURE_CONTAINER_URL}/latest_social_card.png`;
+                    const socialCardLocalFallback = `../data/${TOPIC_ID}/social_card.png`;
+
                     digestHtml = `
-                        <div class="linkedin-card report-section" style="max-width: 800px; margin: 0 auto;">
+                        <div class="linkedin-card report-section">
                             <div class="linkedin-card-header">
-                                <h2>📋 LinkedIn Post Draft</h2>
-                                <button class="copy-btn" data-raw="${escapeHtml(data.linkedin_post)}" onclick="copyPost(this)">Copy Post</button>
+                                <h2>📋 Executive Digest</h2>
+                                <button class="copy-btn" data-raw="${escapeHtml(data.linkedin_post)}" onclick="copyPost(this)">Copy Digest</button>
                             </div>
-                            <div class="linkedin-body" style="font-size: 14.5px; line-height: 1.6; color: var(--text-primary); margin-top: 15px;">
-                                ${marked.parse(data.linkedin_post)}
+                            <div class="linkedin-grid">
+                                <div>
+                                    <div class="linkedin-body" id="digestPost" style="font-size: 14.5px; line-height: 1.6; color: var(--text-primary);">
+                                        ${marked.parse(data.linkedin_post)}
+                                    </div>
+                                </div>
+                                <div class="social-card-preview">
+                                    <img src="${socialCardUrl}" 
+                                         class="linkedin-social-image"
+                                         alt="Executive Highlights Visual Card"
+                                         onerror="if(this.src !== '${socialCardLocalFallback}') { this.src = '${socialCardLocalFallback}'; } else { this.closest('.social-card-preview').style.display='none'; }"
+                                         onclick="window.open(this.src, '_blank')">
+                                </div>
                             </div>
                         </div>
                     `;
                 } else {
                     digestHtml = `
                         <div class="empty-state">
-                            <h3>Editorial Digest Offline</h3>
+                            <h3>Executive Digest Offline</h3>
                             <p>No editor summaries were generated for this run.</p>
                         </div>
                     `;
@@ -361,7 +415,7 @@
                 `;
                 digestContent.innerHTML = `
                     <div class="empty-state">
-                        <h3>Editorial Digest Offline</h3>
+                        <h3>Executive Digest Offline</h3>
                         <p>No backup summaries available.</p>
                     </div>
                 `;
@@ -369,10 +423,9 @@
         }
 
         async function init() {
-            await Promise.all([
-                loadKPIs(),
-                loadInsights()
-            ]);
+            // Run sequentially to prevent race conditions during DOM injection
+            await loadKPIs();
+            await loadInsights();
         }
 
         init();
