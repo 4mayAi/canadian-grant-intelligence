@@ -13,16 +13,21 @@ Title: Credential Audit, CI/CD Scheduling & Dynamic Dashboard Implementation
 - Realigned output backup directories: Modified `generic_engine/main.py` to save files under `docs/data/innovation-clusters/` to fit within GitHub Pages serving scope.
 - Created the premium, responsive single-page dashboard: `docs/clusters/index.html` with dual-path data fetching (Azure Blob and GitHub Pages relative fallback) and HTML entity escaping.
 - Validated all changes locally using a clean dry-run, confirming successful local backup generation and schema check passes.
+- Pushed local fallback folders to remote to resolve initial Page 404.
+- Triggered workflow run `26698591636` via `gh` CLI.
+- Renamed the setup to **Canadian Innovation Clusters Intelligence** in configuration and HTML pages to avoid misleading "Global" naming.
+- Implemented dynamic lookback configuration, defaulting to `14` days to catch slow-moving feeds (e.g. Ocean Supercluster).
+- Implemented equal news slots (capping entries to 5 per feed source) to prevent chatty feeds (e.g. Protein Industries via Google News) from dominating.
+- Triggered updated workflow run `26698938118` with 14-day lookback, and verified Pages build succeeded.
 
 Summary:
-- Handled environmental setup analysis and documented key secret values (`GEMINI_API_KEY`, `AZURE_STORAGE_CONNECTION_STRING`, `DISCORD_WEBHOOK_CLUSTERS`, `SMTP_RECIPIENT_CLUSTERS`, `EMAIL_ADDRESS`, `EMAIL_APP_PASSWORD`).
-- Created the automated workflow file `.github/workflows/daily_clusters_scraper.yml` to run the engine daily at 15:00 UTC, incorporating Playwright system dependencies and a rebase-retry loop for concurrent push protection.
-- Created the dynamic dashboard frontend `docs/clusters/index.html` using shared brand styling, secure XSS escaping, and a CORS-resilient dual fetch path.
-- Verified file execution and local data generation inside `docs/data/innovation-clusters/`.
+- Completed setup and successfully deployed the **Canadian Innovation Clusters Intelligence** pipeline.
+- Implemented a 5-slot maximum per feed source to balance content representation.
+- Pushed changes, executed remote GHA builds, and verified that Pages is fully serving the dynamic fallback data.
 
 Issues:
-- None. System executable dependencies and CORS limitations were resolved during the planning and QA phases.
+- Misleading "Global" naming resolved.
+- Chatty source domination mitigated via slot capping.
 
 Next Steps:
-- Push the changes to the GitHub repository to trigger workflow availability.
-- Input the required secrets in the GitHub repository settings.
+- None. The dashboard is fully functional, complete, and live.
