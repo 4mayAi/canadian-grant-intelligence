@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mayAi | Global Innovation Clusters Intelligence</title>
+    <meta name="description" content="mayAi: Delivering executive B2B intelligence on Canada's Global Innovation Clusters, funding releases, and consortia opportunities.">
+    <meta property="og:title" content="mayAi | Global Innovation Clusters Intelligence">
+    <meta property="og:description" content="Delivering executive B2B intelligence on Canada's Global Innovation Clusters, funding releases, and consortia opportunities.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://4mayAi.github.io/canadian-grant-intelligence/clusters/">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* Extra custom styling to enhance the layout specifically for Clusters */
+        .report-section {
+            background: rgba(30, 41, 59, 0.4);
+            border: 1px solid rgba(255, 215, 0, 0.15);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin-bottom: 16px;
+            transition: all 0.25s ease;
+        }
+        .report-section:hover {
+            border-color: rgba(255, 215, 0, 0.4);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+        .report-summary {
+            cursor: pointer;
+            outline: none;
+            user-select: none;
+        }
+        .report-summary h3 {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.4;
+            color: var(--text-primary);
+            margin: 0 0 8px 0;
+        }
+        .hook-subtitle {
+            font-size: 13.5px;
+            color: #ffd700;
+            font-weight: 500;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .report-meta {
+            display: flex;
+            gap: 16px;
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+        }
+        .insight-content-wrapper {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .insight-content h4 {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #ffd700;
+            margin: 16px 0 8px 0;
+        }
+        .insight-content h4:first-of-type {
+            margin-top: 0;
+        }
+        .md-content {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+        .md-content ul {
+            margin: 6px 0;
+            padding-left: 20px;
+        }
+        .md-content li {
+            margin-bottom: 4px;
+        }
+        .badge-cluster {
+            background: rgba(255, 215, 0, 0.1);
+            color: #ffd700;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-row">
+                <div class="logo-container">
+                    <div class="golden-egg"></div>
+                    <div class="egg-glow"></div>
+                </div>
+                <h1 style="font-family: 'Outfit', sans-serif; letter-spacing: -1px; margin-left: 15px;">may<span style="color: #ffd700;">Ai</span></h1>
+            </div>
+            <p>Global Innovation Clusters Intelligence | Delivering Golden Opportunities Daily</p>
+            
+            <div id="hero-hook-container" class="hero-hook-container" style="display: none;">
+                <div class="hero-hook-glow"></div>
+                <p id="hero-hook-text">Synthesizing cluster opportunities...</p>
+            </div>
+
+            <div class="header-controls">
+                <div class="status-badge" id="update-status">
+                    <span class="status-dot"></span>
+                    Updated: <span id="last-update-time">Loading...</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="kpi-container" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-total">0</span>
+                <span class="kpi-label">Active Cluster Signals</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-new-today">0</span>
+                <span class="kpi-label">New Signals Today</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-lead">N/A</span>
+                <span class="kpi-label">Primary Sector</span>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <button class="tab-btn active" id="btn-signals" onclick="switchTab('signals')">Active Innovation Signals</button>
+            <button class="tab-btn" id="btn-digest" onclick="switchTab('digest')">LinkedIn Editorial Digest</button>
+        </div>
+
+        <!-- Dynamic Content Views -->
+        <div id="signalsView">
+            <div id="signalsContent">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading cluster intelligence...</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="digestView" style="display: none;">
+            <div id="digestContent">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading editor digest...</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Powered by mayAi &middot; Built with GitHub Actions</p>
+            <p style="margin-top: 4px">Data sourced from DIGITAL, Scale AI, Ocean Supercluster, NGen &amp; Protein Industries Canada portals</p>
+        </footer>
+    </div>
+
+    <script>
+        const TOPIC_ID = 'innovation-clusters';
+        const AZURE_CONTAINER_URL = 'https://canadiangrants.blob.core.windows.net/clusters-data';
+        
+        // Dynamic dual-path urls for maximum durability (CORS and Network offline isolation)
+        const INSIGHTS_AZURE = `${AZURE_CONTAINER_URL}/cluster_insights.json`;
+        const KPIS_AZURE = `${AZURE_CONTAINER_URL}/kpis.json`;
+        
+        const INSIGHTS_LOCAL = `../data/${TOPIC_ID}/cluster_insights.json`;
+        const KPIS_LOCAL = `../data/${TOPIC_ID}/kpis.json`;
+
+        let cachedData = null;
+
+        async function fetchJSON(azureUrl, localUrl) {
+            try {
+                // 1. Attempt Azure download first
+                const res = await fetch(azureUrl);
+                if (!res.ok) throw new Error(`Azure HTTP Error: status ${res.status}`);
+                return await res.json();
+            } catch (e) {
+                console.warn(`Azure CDN unreachable or CORS blocked. Pivoting to GitHub local backup. Error:`, e);
+                
+                // 2. Fallback to local Pages backup
+                const res = await fetch(localUrl);
+                if (!res.ok) throw new Error(`Fallback HTTP Error: status ${res.status}`);
+                return await res.json();
+            }
+        }
+
+        function switchTab(tab) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            if (tab === 'signals') {
+                document.getElementById('btn-signals').classList.add('active');
+                document.getElementById('signalsView').style.display = 'block';
+                document.getElementById('digestView').style.display = 'none';
+            } else {
+                document.getElementById('btn-digest').classList.add('active');
+                document.getElementById('signalsView').style.display = 'none';
+                document.getElementById('digestView').style.display = 'block';
+            }
+        }
+
+        function decodeHtml(html) {
+            if (!html) return '';
+            const txt = document.createElement("textarea");
+            txt.innerHTML = html;
+            return txt.value;
+        }
+
+        // DOM Sanitizer to defend against XSS
+        function escapeHtml(text) {
+            if (!text) return '';
+            const decoded = decodeHtml(text);
+            const d = document.createElement('div');
+            d.textContent = decoded;
+            return d.innerHTML;
+        }
+
+        function copyPost(btn) {
+            const raw = btn.dataset.raw;
+            const text = raw ? decodeHtml(raw) : document.getElementById('linkedinPost').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                btn.textContent = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = 'Copy Post';
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+
+        function formatDate(dateStr) {
+            try {
+                if (!dateStr) return 'N/A';
+                const d = new Date(dateStr);
+                return d.toLocaleDateString('en-CA', { month: 'short', day: 'numeric', year: 'numeric' });
+            } catch {
+                return dateStr;
+            }
+        }
+
+        async function loadKPIs() {
+            try {
+                const kpis = await fetchJSON(KPIS_AZURE, KPIS_LOCAL);
+                
+                // Update metrics
+                document.getElementById('kpi-total').innerText = kpis.total_active || 0;
+                document.getElementById('kpi-new-today').innerText = kpis.new_today || 0;
+                document.getElementById('kpi-lead').innerText = kpis.top_category || 'Mixed Sectors';
+
+                // Render Hero Hook
+                if (kpis.hero_hook) {
+                    const hookContainer = document.getElementById('hero-hook-container');
+                    const hookText = document.getElementById('hero-hook-text');
+                    hookText.innerText = kpis.hero_hook;
+                    hookContainer.style.display = 'block';
+                }
+
+                // Render timestamp
+                const timeEl = document.getElementById('last-update-time');
+                if (timeEl && kpis.generated_at) {
+                    const d = new Date(kpis.generated_at);
+                    const dateStr = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
+                    const timeStr = d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false, timeZoneName: 'short', timeZone: 'UTC' });
+                    timeEl.innerText = `${dateStr} at ${timeStr}`;
+                }
+            } catch (e) {
+                console.error("Failed to load KPIs:", e);
+            }
+        }
+
+        async function loadInsights() {
+            const signalsContent = document.getElementById('signalsContent');
+            const digestContent = document.getElementById('digestContent');
+            try {
+                const data = await fetchJSON(INSIGHTS_AZURE, INSIGHTS_LOCAL);
+                cachedData = data;
+
+                // 1. Render active signals
+                let signalsHtml = '';
+                if (data.insights && data.insights.length > 0) {
+                    data.insights.forEach(item => {
+                        let innerHtml = '';
+                        const innerInsight = item.insight || {};
+                        
+                        if (innerInsight.strategic_value) {
+                            innerHtml += `<h4>Strategic Value for Canadian Businesses</h4>
+                                          <div class="md-content">${marked.parse(innerInsight.strategic_value)}</div>`;
+                        }
+                        if (innerInsight.co_bidding_opportunity) {
+                            innerHtml += `<h4>Consortium &amp; Co-Bidding Opportunities</h4>
+                                          <div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
+                        }
+
+                        // Clean source name display
+                        const displaySource = (item.source || '').replace('_News', '').replace('Cluster_News', ' Supercluster');
+
+                        signalsHtml += `
+                            <details class="report-section">
+                                <summary class="report-summary">
+                                    <h3>${escapeHtml(item.title)}</h3>
+                                    ${innerInsight.linkedin_hook ? `<div class="hook-subtitle">${escapeHtml(innerInsight.linkedin_hook)}</div>` : ''}
+                                    <div class="report-meta">
+                                        <span class="badge-cluster">📡 ${escapeHtml(displaySource)}</span>
+                                        <span>📅 ${formatDate(item.date)}</span>
+                                    </div>
+                                </summary>
+                                <div class="insight-content-wrapper">
+                                    <div class="insight-content">
+                                        ${innerHtml || '<p style="color: var(--text-muted)">No insight available.</p>'}
+                                    </div>
+                                    ${item.link ? `<a class="opp-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener" style="margin-top: 15px; display: inline-block;">View Original Announcement ↗</a>` : ''}
+                                </div>
+                            </details>
+                        `;
+                    });
+                } else {
+                    signalsHtml = `
+                        <div class="empty-state">
+                            <h3>No Actionable Opportunities Found</h3>
+                            <p>Daily scans yielded no strategic project calls or funding announcements in the past 7 days.</p>
+                        </div>
+                    `;
+                }
+                signalsContent.innerHTML = signalsHtml;
+
+                // 2. Render editorial digest
+                let digestHtml = '';
+                if (data.linkedin_post) {
+                    digestHtml = `
+                        <div class="linkedin-card report-section" style="max-width: 800px; margin: 0 auto;">
+                            <div class="linkedin-card-header">
+                                <h2>📋 LinkedIn Post Draft</h2>
+                                <button class="copy-btn" data-raw="${escapeHtml(data.linkedin_post)}" onclick="copyPost(this)">Copy Post</button>
+                            </div>
+                            <div class="linkedin-body" style="font-size: 14.5px; line-height: 1.6; color: var(--text-primary); margin-top: 15px;">
+                                ${marked.parse(data.linkedin_post)}
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    digestHtml = `
+                        <div class="empty-state">
+                            <h3>Editorial Digest Offline</h3>
+                            <p>No editor summaries were generated for this run.</p>
+                        </div>
+                    `;
+                }
+                digestContent.innerHTML = digestHtml;
+
+            } catch (e) {
+                console.error("Failed to load insights:", e);
+                signalsContent.innerHTML = `
+                    <div class="empty-state">
+                        <h3>Intelligence Offline</h3>
+                        <p>Unable to fetch latest insights from Azure storage or local backup caches.</p>
+                        <p style="font-size: 11px; color: var(--text-muted); margin-top: 10px;">Error: ${e.message}</p>
+                    </div>
+                `;
+                digestContent.innerHTML = `
+                    <div class="empty-state">
+                        <h3>Editorial Digest Offline</h3>
+                        <p>No backup summaries available.</p>
+                    </div>
+                `;
+            }
+        }
+
+        async function init() {
+            await Promise.all([
+                loadKPIs(),
+                loadInsights()
+            ]);
+        }
+
+        init();
+    </script>
+</body>
+</html>

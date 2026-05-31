@@ -1,0 +1,35 @@
+{
+  "topic_id": "innovation-clusters",
+  "display_name": "Global Innovation Clusters Intelligence",
+  "dashboard_url": "https://4mayAi.github.io/canadian-grant-intelligence/clusters/",
+  "sources": [
+    { "name": "DIGITAL_News", "url": "https://digitalsupercluster.ca/category/news/feed/", "type": "rss" },
+    { "name": "ScaleAI_News", "url": "https://www.scaleai.ca/feed/", "type": "rss" },
+    { "name": "OceanCluster_News", "url": "https://oceansupercluster.ca/feed/", "type": "rss" },
+    { "name": "NGen_News", "url": "https://www.ngen.ca/blog/rss.xml", "type": "rss" },
+    { "name": "ProteinIndustries_News", "url": "https://news.google.com/rss/search?q=%22Protein+Industries+Canada%22&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss" }
+  ],
+  "keywords": [
+    "funding", "grant", "consortium", "co-investment", "matching funds", 
+    "expression of interest", "call for proposals", "project award", "SME"
+  ],
+  "high_value_keywords": [
+    "consortium", "co-investment", "proposal", "award"
+  ],
+  "localization_mappings": {},
+  "llm_settings": {
+    "model_primary": "gemini-2.5-flash-lite",
+    "model_fallback": "gemini-3.1-flash-lite",
+    "system_instruction": "You are a senior analyst specializing in Canada's Global Innovation Clusters. Synthesize news releases into strategic B2B hooks focusing on consortium opportunities, target technologies, eligibility criteria, and matching co-investment rates."
+  },
+  "storage": {
+    "azure_container": "clusters-data",
+    "processed_urls_file": "processed_urls.json",
+    "insights_file": "cluster_insights.json",
+    "kpis_file": "kpis.json"
+  },
+  "distribution": {
+    "discord_webhook": "${DISCORD_WEBHOOK_CLUSTERS}",
+    "smtp_recipient": "${SMTP_RECIPIENT_CLUSTERS}"
+  }
+}
