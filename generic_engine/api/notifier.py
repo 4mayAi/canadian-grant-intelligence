@@ -10,11 +10,17 @@ from typing import Optional
 class Notifier:
     def __init__(self, discord_url: Optional[str] = None, alert_email: Optional[str] = None):
         self.discord_url = discord_url or os.getenv("DISCORD_WEBHOOK_URL")
-        self.alert_email = alert_email or os.getenv("ALERT_EMAIL_ADDRESS")
+        if self.discord_url and (self.discord_url.startswith("${") or self.discord_url.strip() == ""):
+            self.discord_url = None
+
         self.smtp_user = os.getenv("EMAIL_ADDRESS")
         self.smtp_pass = os.getenv("EMAIL_APP_PASSWORD")
         self.smtp_server = os.getenv("EMAIL_SMTP_SERVER", "smtp.gmail.com")
         self.smtp_port = int(os.getenv("EMAIL_SMTP_PORT", "465"))
+
+        if alert_email and (alert_email.startswith("${") or alert_email.strip() == ""):
+            alert_email = None
+        self.alert_email = alert_email or os.getenv("ALERT_EMAIL_ADDRESS") or self.smtp_user
 
     def send_discord_alert(self, message: str, topic_name: str = "Generic Engine") -> bool:
         """Sends an alert to the Discord webhook if configured."""
