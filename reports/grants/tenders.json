@@ -636,5 +636,16 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "M7594-263275-RFP for Boots, Congress, Men's and Women's",
+        "description": "*Boots",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014770?anId=ANONYMOUS",
+        "closing_date": "2026-06-22T14:00:00",
+        "publication_date": "2026-06-01",
+        "province": "NCR (Ottawa/Gatineau)",
+        "province_abbrev": "NCR",
+        "category": "GD"
     }
 ]
