@@ -1,11 +1,13 @@
 import re
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from pydantic import BaseModel, Field, field_validator
 
 class SourceConfig(BaseModel):
     name: str
     url: str
     type: str = Field(pattern="^(rss|ckan|html|html_playwright)$")
+    fallback_url: Optional[str] = None
+    fallback_type: Optional[str] = None
 
     @field_validator("url")
     @classmethod

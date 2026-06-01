@@ -7,7 +7,13 @@
     { "name": "ScaleAI_News", "url": "https://www.scaleai.ca/feed/", "type": "rss" },
     { "name": "OceanCluster_News", "url": "https://oceansupercluster.ca/feed/", "type": "rss" },
     { "name": "NGen_News", "url": "https://www.ngen.ca/blog/rss.xml", "type": "rss" },
-    { "name": "ProteinIndustries_News", "url": "https://news.google.com/rss/search?q=%22Protein+Industries+Canada%22&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss" }
+    {
+      "name": "ProteinIndustries_News",
+      "url": "https://www.proteinindustriescanada.ca/news-releases",
+      "type": "html_playwright",
+      "fallback_url": "https://news.google.com/rss/search?q=%22Protein+Industries+Canada%22&hl=en-CA&gl=CA&ceid=CA:en",
+      "fallback_type": "rss"
+    }
   ],
   "keywords": [
     "funding", "grant", "consortium", "co-investment", "matching funds", 

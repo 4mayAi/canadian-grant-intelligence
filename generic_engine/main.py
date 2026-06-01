@@ -85,7 +85,30 @@ def fetch_and_process_news(
     raw_rss = fetch_rss_feeds(sources_dict, lookback_limit, max_items, failed_feeds)
 
     # Ingest Playwright HTML pages if any are configured
-    raw_html = fetch_html_news(sources_dict, lookback_limit, max_items)
+    raw_html = fetch_html_news(sources_dict, lookback_limit, max_items, failed_feeds)
+
+    # Check if any failed Playwright feeds have a fallback RSS configured
+    playwright_fallbacks = []
+    for src in sources_dict:
+        if src.get("name") in failed_feeds and src.get("type") == "html_playwright":
+            if src.get("fallback_url") and src.get("fallback_type") == "rss":
+                fallback_src = {
+                    "name": src["name"],
+                    "url": src["fallback_url"],
+                    "type": "rss"
+                }
+                playwright_fallbacks.append(fallback_src)
+
+    if playwright_fallbacks:
+        logging.info(f"Attempting RSS fallback for failed Playwright sources: {[f['name'] for f in playwright_fallbacks]}")
+        # Remove from failed_feeds list so if they succeed, they aren't marked as failed.
+        # If they fail again, fetch_rss_feeds will add them back to failed_feeds!
+        for f in playwright_fallbacks:
+            if f["name"] in failed_feeds:
+                failed_feeds.remove(f["name"])
+        
+        fallback_rss_items = fetch_rss_feeds(playwright_fallbacks, lookback_limit, max_items, failed_feeds)
+        raw_html.extend(fallback_rss_items)
 
     # Load existing cached insights from Azure Blob
     existing_insights_list = []

@@ -2,7 +2,7 @@ import asyncio
 import logging
 from datetime import datetime
 from dateutil import parser as date_parser
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Set
 
 from playwright.async_api import async_playwright, Browser
 
@@ -16,6 +16,7 @@ async def _scrape_single_url(
     results = []
     async with semaphore:
         logging.info(f"Scraping JS-rendered news from {url} using Playwright...")
+        page = None
         try:
             page = await browser.new_page()
             # Set a standard viewport and user agent to bypass basic bot detections
@@ -32,7 +33,7 @@ async def _scrape_single_url(
                 
                 links.forEach(a => {
                     const href = a.href || '';
-                    const title = a.innerText.trim();
+                    let title = a.innerText.trim();
                     
                     // Simple heuristic filter to identify article links and filter out navigation links
                     const isNewsLink = href.includes('/news') || 
@@ -41,22 +42,41 @@ async def _scrape_single_url(
                                        href.includes('article') || 
                                        href.includes('release') ||
                                        href.includes('/blog/') ||
-                                       href.includes('/update');
+                                       href.includes('/update') ||
+                                       href.includes('pic-updates');
                                        
-                    if (title.length > 15 && isNewsLink) {
-                        if (!results.some(r => r.link === href)) {
-                            let dateText = '';
-                            const parent = a.closest('div, li, tr, article, section');
-                            if (parent) {
-                                const timeElem = parent.querySelector('time');
-                                if (timeElem) {
-                                    dateText = timeElem.getAttribute('datetime') || timeElem.innerText;
-                                } else {
-                                    const dateElem = parent.querySelector('.date, .pubdate, .published, .card-time, time, [class*="date"]');
-                                    if (dateElem) dateText = dateElem.innerText;
+                    if (isNewsLink) {
+                        // Check if it's a container link with structured title inside
+                        const cardNameElem = a.querySelector('.card__name, .card__title, .card-title, h1, h2, h3, h4, h5, h6, [class*="title"], [class*="name"]');
+                        if (cardNameElem) {
+                            title = cardNameElem.innerText.trim();
+                        }
+                        
+                        if (title.length > 15) {
+                            if (!results.some(r => r.link === href)) {
+                                let dateText = '';
+                                
+                                // Try finding date within the link container first
+                                const dateElem = a.querySelector('.card__postDate, .date, .pubdate, .published, .card-time, time, [class*="date"]');
+                                if (dateElem) {
+                                    dateText = dateElem.innerText.trim();
                                 }
+                                
+                                // Sibling or parent search if not inside link
+                                if (!dateText) {
+                                    const parent = a.closest('div, li, tr, article, section');
+                                    if (parent) {
+                                        const timeElem = parent.querySelector('time');
+                                        if (timeElem) {
+                                            dateText = timeElem.getAttribute('datetime') || timeElem.innerText;
+                                        } else {
+                                            const parentDateElem = parent.querySelector('.card__postDate, .date, .pubdate, .published, .card-time, time, [class*="date"]');
+                                            if (parentDateElem) dateText = parentDateElem.innerText;
+                                        }
+                                    }
+                                }
+                                results.push({title: title, link: href, dateText: dateText});
                             }
-                            results.push({title: title, link: href, dateText: dateText});
                         }
                     }
                 });
@@ -64,6 +84,10 @@ async def _scrape_single_url(
             }''')
             
             for item in items:
+                # Filter out self-references to index page
+                if item['link'].rstrip('/') == url.rstrip('/'):
+                    continue
+                    
                 pub_date = None
                 if item.get('dateText'):
                     try:
@@ -85,14 +109,20 @@ async def _scrape_single_url(
                     "text_to_search": item['title'].lower()
                 })
             
-            await page.close()
             logging.info(f"Playwright successfully scraped {len(results)} items for {source_name}.")
         except Exception as e:
             logging.error(f"Playwright scraping failed for {source_name} at {url}: {e}")
+            raise e
+        finally:
+            if page:
+                await page.close()
             
     return results
 
-async def _scrape_all_concurrently(sources: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+async def _scrape_all_concurrently(
+    sources: List[Dict[str, Any]], 
+    failed_names: Set[str]
+) -> List[Dict[str, Any]]:
     """Manages the playwright instance and gathers all HTML scraping tasks."""
     scraped_items = []
     semaphore = asyncio.Semaphore(2)  # Throttle to max 2 concurrent pages to save CPU
@@ -110,22 +140,30 @@ async def _scrape_all_concurrently(sources: List[Dict[str, Any]]) -> List[Dict[s
                 
             results = await asyncio.gather(*tasks, return_exceptions=True)
             
-            for res in results:
+            for src, res in zip(html_sources, results):
                 if isinstance(res, Exception):
-                    logging.error(f"A Playwright task failed: {res}")
+                    logging.error(f"A Playwright task failed for {src['name']}: {res}")
+                    failed_names.add(src["name"])
                 else:
-                    scraped_items.extend(res)
+                    if not res:
+                        logging.warning(f"Playwright scraped 0 items for {src['name']}. Marking as failed.")
+                        failed_names.add(src["name"])
+                    else:
+                        scraped_items.extend(res)
                     
             await browser.close()
     except Exception as e:
         logging.error(f"Failed to execute Playwright extraction loop: {e}")
+        for src in html_sources:
+            failed_names.add(src["name"])
         
     return scraped_items
 
 def fetch_html_news(
     sources: List[Dict[str, Any]],
     lookback_limit: Optional[datetime] = None, 
-    max_items: int = 15
+    max_items: int = 15,
+    failed_feeds: Optional[List[str]] = None
 ) -> List[Dict[str, Any]]:
     """
     Synchronous wrapper to fetch raw JS-rendered news items.
@@ -134,8 +172,11 @@ def fetch_html_news(
     is_seeding = (lookback_limit is None)
     
     # Run the concurrent scrape
-    scraped_items = asyncio.run(_scrape_all_concurrently(sources))
-    
+    failed_names = set()
+    scraped_items = asyncio.run(_scrape_all_concurrently(sources, failed_names))
+    if failed_feeds is not None:
+        failed_feeds.extend(failed_names)
+        
     counts_per_source = {}
     junk_patterns = [
         "top of page", "skip to", "archived news", "all department",
