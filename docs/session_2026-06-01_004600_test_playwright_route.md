@@ -15,16 +15,21 @@ Title: Testing Playwright Scraper Route and Success Emails for Protein Industrie
 - Extended the `Notifier` class in [notifier.py](file:///c:/dev/canadian-grant-intelligence/generic_engine/api/notifier.py) to parse, compile, and send HTML newsletter digests with Slate-and-Gold style layouts, embedding the dynamic social card inline.
 - Added environment placeholder cleanups and a fallback in the `Notifier` constructor to redirect digest distribution to the operator's `EMAIL_ADDRESS` if specific clusters recipient secrets (`SMTP_RECIPIENT_CLUSTERS`) are not set in the active repository.
 - Modified [main.py](file:///c:/dev/canadian-grant-intelligence/generic_engine/main.py) to compile the Innovation Clusters daily digest markdown block on success, and dispatch it via `notifier.send_digest` along with the path to the generated local social card.
+- Implemented **dynamic markdown link injection** in [main.py](file:///c:/dev/canadian-grant-intelligence/generic_engine/main.py):
+  - Formulated a regex replacement dictionary that turns text mentions of the clusters (e.g., `"Protein Industries Canada"`, `"Scale AI"`, `"DIGITAL"`) into markdown links pointing to their official landing pages (protected by lookup lookarounds to prevent double-wrapping).
+  - Appended a structured "Featured News & Sources" reference link section containing the top 5 direct scraped article URLs.
 - Resolved git rebase conflicts in `docs/data/innovation-clusters` caused by the concurrent report commits pushed by the previous GHA runners.
-- Manually triggered the workflow run `26732536666` in GitHub Actions via the GitHub CLI and monitored its execution.
+- Manually triggered the workflow run `26732839562` in GitHub Actions via the GitHub CLI and monitored its execution.
 
 Summary:
 - Switched the Protein Industries news feed to a direct Playwright-based scraper.
 - Built a Slate-and-Gold styled SMTP HTML newsletter digest distribution system for successful Innovation Clusters runs.
+- Implemented dynamic markdown links for cluster mentions and direct news article references.
 - Resolved git pull conflicts and pushed all updates to `main`.
-- Verified that the GHA run completed successfully:
+- Verified that the GHA run `26732839562` completed successfully:
   - Playwright Chromium scraped 13 items from `proteinindustriescanada.ca/news-releases`.
   - SMTP successfully transmitted the HTML news digest with the attached social card.
+  - Mentions and article references resolved as clickable hyperlinks on both the dashboard and the email.
 
 Issues:
 - None.
