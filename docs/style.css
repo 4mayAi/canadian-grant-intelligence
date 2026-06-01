@@ -31,6 +31,17 @@ body {
     overflow-x: hidden;
 }
 
+/* Base Hyperlinks Styling */
+a {
+    color: var(--accent-1);
+    text-decoration: none;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+a:hover, a:focus {
+    color: var(--accent-2);
+    text-decoration: underline;
+}
+
 /* Animated background mesh */
 body::before {
     content: '';

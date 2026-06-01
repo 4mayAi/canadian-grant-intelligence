@@ -91,48 +91,119 @@ class Notifier:
         lines = md_content.split("\n")
         html_lines = []
         in_p = False
+        in_ul = False
 
         for line in lines:
-            line = line.strip()
-            if not line:
+            line_str = line.strip()
+            if not line_str:
                 if in_p:
                     html_lines.append("</p>")
                     in_p = False
+                if in_ul:
+                    html_lines.append("</ul>")
+                    in_ul = False
+                continue
+
+            # Horizontal Rule
+            if line_str == "---":
+                if in_p:
+                    html_lines.append("</p>")
+                    in_p = False
+                if in_ul:
+                    html_lines.append("</ul>")
+                    in_ul = False
+                html_lines.append("<hr style='border: 0; border-top: 1px solid #1a1f26; margin: 20px 0;'/>")
                 continue
 
             # Headers
-            if line.startswith("## "):
+            if line_str.startswith("# "):
                 if in_p:
                     html_lines.append("</p>")
                     in_p = False
-                header_text = line[3:]
-                html_lines.append(f"<h2 style='color: #ffd700; font-family: sans-serif; border-bottom: 1px solid #333; padding-bottom: 5px; margin-top: 20px;'>{header_text}</h2>")
+                if in_ul:
+                    html_lines.append("</ul>")
+                    in_ul = False
+                header_text = line_str[2:]
+                html_lines.append(f"<h1 style='color: #ffd700; font-family: sans-serif; border-bottom: 1px solid #1a1f26; padding-bottom: 5px; margin-top: 20px;'>{header_text}</h1>")
                 continue
-            elif line.startswith("# "):
+            elif line_str.startswith("## "):
                 if in_p:
                     html_lines.append("</p>")
                     in_p = False
-                header_text = line[2:]
-                html_lines.append(f"<h1 style='color: #ffd700; font-family: sans-serif; border-bottom: 1px solid #333; padding-bottom: 5px; margin-top: 20px;'>{header_text}</h1>")
+                if in_ul:
+                    html_lines.append("</ul>")
+                    in_ul = False
+                header_text = line_str[3:]
+                html_lines.append(f"<h2 style='color: #ffd700; font-family: sans-serif; border-bottom: 1px solid #1a1f26; padding-bottom: 5px; margin-top: 20px;'>{header_text}</h2>")
                 continue
+            elif line_str.startswith("### "):
+                if in_p:
+                    html_lines.append("</p>")
+                    in_p = False
+                if in_ul:
+                    html_lines.append("</ul>")
+                    in_ul = False
+                header_text = line_str[4:]
+                html_lines.append(f"<h3 style='color: #ffd700; font-family: sans-serif; margin-top: 20px; margin-bottom: 10px; font-size: 16px;'>{header_text}</h3>")
+                continue
+            elif line_str.startswith("#### "):
+                if in_p:
+                    html_lines.append("</p>")
+                    in_p = False
+                if in_ul:
+                    html_lines.append("</ul>")
+                    in_ul = False
+                header_text = line_str[5:]
+                html_lines.append(f"<h4 style='color: #ffd700; font-family: sans-serif; margin-top: 15px; margin-bottom: 8px; font-size: 14px;'>{header_text}</h4>")
+                continue
+
+            # Bullets: starting with - or *
+            if line_str.startswith("- ") or line_str.startswith("* "):
+                if in_p:
+                    html_lines.append("</p>")
+                    in_p = False
+                if not in_ul:
+                    html_lines.append("<ul style='font-family: sans-serif; color: #e0e0e0; line-height: 1.6; font-size: 14px; margin-left: 20px; padding-left: 0;'>")
+                    in_ul = True
+                bullet_content = line_str[2:]
+                
+                # Apply inline styles
+                import re
+                # Inline links: [text](url)
+                link_pattern = r'\[([^\]]+)\]\(([^)]+)\)'
+                bullet_content = re.sub(link_pattern, r'<a href="\2" style="color: #ffd700; text-decoration: none; font-weight: bold;">\1</a>', bullet_content)
+
+                # Bold: **text**
+                bold_pattern = r'\*\*([^*]+)\*\*'
+                bullet_content = re.sub(bold_pattern, r'<strong>\1</strong>', bullet_content)
+                
+                html_lines.append(f"<li style='margin-bottom: 6px;'>{bullet_content}</li>")
+                continue
+
+            # If not a bullet, check if we need to close ul
+            if in_ul:
+                html_lines.append("</ul>")
+                in_ul = False
 
             import re
             # Inline links: [text](url)
             link_pattern = r'\[([^\]]+)\]\(([^)]+)\)'
-            line = re.sub(link_pattern, r'<a href="\2" style="color: #ffd700; text-decoration: none; font-weight: bold;">\1</a>', line)
+            line_str = re.sub(link_pattern, r'<a href="\2" style="color: #ffd700; text-decoration: none; font-weight: bold;">\1</a>', line_str)
 
             # Bold: **text**
             bold_pattern = r'\*\*([^*]+)\*\*'
-            line = re.sub(bold_pattern, r'<strong>\1</strong>', line)
+            line_str = re.sub(bold_pattern, r'<strong>\1</strong>', line_str)
 
             if not in_p:
                 html_lines.append("<p style='font-family: sans-serif; color: #e0e0e0; line-height: 1.6; font-size: 14px;'>")
                 in_p = True
             
-            html_lines.append(line + "<br/>")
+            html_lines.append(line_str + "<br/>")
 
         if in_p:
             html_lines.append("</p>")
+        if in_ul:
+            html_lines.append("</ul>")
 
         body_html = "\n".join(html_lines)
         return f"""
