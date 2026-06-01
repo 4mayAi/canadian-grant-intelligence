@@ -336,6 +336,28 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         linkedin_post = gemini_client.generate_linkedin_post(summaries_str)
         suggested_post = linkedin_post.get("article_content", "No post text compiled.") if linkedin_post else ""
 
+        # Post-process: Automatically hyperlink cluster names in the body (using lookarounds to prevent double-wrapping)
+        cluster_links = {
+            "Protein Industries Canada": "[Protein Industries Canada](https://www.proteinindustriescanada.ca/)",
+            "Protein Industries": "[Protein Industries](https://www.proteinindustriescanada.ca/)",
+            "Scale AI": "[Scale AI](https://www.scaleai.ca/)",
+            "ScaleAI": "[ScaleAI](https://www.scaleai.ca/)",
+            "Ocean Supercluster": "[Ocean Supercluster](https://oceansupercluster.ca/)",
+            "NGen": "[NGen](https://www.ngen.ca/)",
+            "DIGITAL": "[Digital Supercluster](https://digitalsupercluster.ca/)",
+            "Digital Supercluster": "[Digital Supercluster](https://digitalsupercluster.ca/)"
+        }
+        for name, link in cluster_links.items():
+            pattern = re.compile(rf'(?<!\[){re.escape(name)}(?!\])')
+            suggested_post = pattern.sub(link, suggested_post)
+
+        # Append source references for clean tracking
+        if insights:
+            suggested_post += "\n\n### Featured News & Sources\n"
+            for item in insights[:5]:
+                src_name = item.get("source", "").replace("_News", "").replace("Cluster", "").replace("ScaleAI", "Scale AI")
+                suggested_post += f"- [{item['title']}]({item['link']}) ({src_name})\n"
+
         pmo_wrapper = {
             "generated_at": datetime.utcnow().isoformat() + "Z",
             "linkedin_post": suggested_post,
