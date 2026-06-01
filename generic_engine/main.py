@@ -405,6 +405,24 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
                 azure_client.upload_json(config.storage.processed_urls_file, processed_urls_registry)
                 logging.info(f"Updated URL state registry (Total URLs: {len(processed_urls_registry)}) uploaded to Azure.")
 
+        # 9. SMTP Email Distribution
+        if not dry_run:
+            try:
+                email_subject = f"{datetime.now().strftime('%b %d, %Y')} — 🇨🇦 Innovation Clusters — {kpis.get('hero_hook', '')}"
+                
+                # Assemble the markdown content for the email
+                digest_md = f"# {kpis.get('hero_hook', 'Canadian Innovation Clusters Daily Digest')}\n\n"
+                digest_md += f"**Top Contributor**: {kpis.get('top_category', 'Mixed Sectors')}\n\n"
+                digest_md += f"### Strategic B2B Digest\n\n"
+                digest_md += f"{suggested_post}\n\n"
+                digest_md += f"---\n\n"
+                digest_md += f"**View Full Interactive Dashboard**: {config.dashboard_url}\n"
+                
+                logging.info("Sending success digest email via SMTP...")
+                notifier.send_digest(email_subject, digest_md, social_card_local_path)
+            except Exception as mail_err:
+                logging.error(f"Failed to distribute daily clusters email digest: {mail_err}")
+
         logging.info(f"Pipeline job completed successfully. Items processed: {len(insights)}.")
         logging.info(f"Telemetry metrics: {json.dumps(gemini_client.get_stats())}")
 
