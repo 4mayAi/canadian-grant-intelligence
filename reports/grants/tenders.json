@@ -658,5 +658,27 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "SRV"
+    },
+    {
+        "type": "New",
+        "title": "23429-260696-B RFP - Automatic Lifting Barrier System",
+        "description": "*Barriers",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014768?anId=ANONYMOUS",
+        "closing_date": "2026-06-12T14:00:00",
+        "publication_date": "2026-06-01",
+        "province": "Northwest Territories",
+        "province_abbrev": "NT",
+        "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "W3162-25F033 - High security safes - RFP",
+        "description": "*Safes",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014915?anId=ANONYMOUS",
+        "closing_date": "2026-06-30T14:00:00",
+        "publication_date": "2026-06-02",
+        "province": "Quebec",
+        "province_abbrev": "QC",
+        "category": "GD"
     }
 ]
