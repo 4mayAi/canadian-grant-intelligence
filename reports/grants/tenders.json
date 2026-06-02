@@ -638,7 +638,7 @@
         "category": "GD"
     },
     {
-        "type": "New",
+        "type": "Open",
         "title": "M7594-263275-RFP for Boots, Congress, Men's and Women's",
         "description": "*Boots",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014770?anId=ANONYMOUS",
@@ -647,5 +647,16 @@
         "province": "NCR (Ottawa/Gatineau)",
         "province_abbrev": "NCR",
         "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "RFP 2026-020 - Findur/Endur consulting services",
+        "description": "",
+        "link": "https://www.merx.com/public/solicitations/3983868910/abstract?language=EN",
+        "closing_date": "2026-07-03T23:59:00",
+        "publication_date": "2026-06-01",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRV"
     }
 ]
