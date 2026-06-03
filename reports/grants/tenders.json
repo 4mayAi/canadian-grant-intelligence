@@ -680,5 +680,16 @@
         "province": "British Columbia",
         "province_abbrev": "BC",
         "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "EF937-261357-3 – PSIB, Purchase workspaces furniture under the SA for CBSA -RFP",
+        "description": "*Filing cabinets or accessories",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015030?anId=ANONYMOUS",
+        "closing_date": "2026-06-18T14:00:00",
+        "publication_date": "2026-06-03",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "GD"
     }
 ]
