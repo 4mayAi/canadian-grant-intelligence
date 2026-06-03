@@ -20,9 +20,12 @@ Summary:
 - Generated the social card PNG and moved it to the artifacts directory.
 - Created the walkthrough artifact detailing implementation architecture and verification traces.
 - Dispatched and verified live execution of the GitHub Actions workflow ("Global Mining Hubs Intelligence Pipeline" ID 26919643669). Confirmed successful extraction, Gemini analysis compilation, automatic git backup push, and live Pages hosting.
+- Identified a date parsing bug in the Playwright HTML scraper where missing date markup in card containers caused fallback to today's date, letting stale 2025 news bypass the 30-day lookback limit.
+- Migrated primary source configurations in `configs/mining_hubs.json` to native `rss` type using Google News search queries.
+- Committed, pushed, and re-executed the remote GHA workflow. Confirmed that all stale 2025/2021 news was successfully filtered out, reducing the signals to 20 current and properly-dated May/June 2026 articles.
 
 Issues:
 - None.
 
 Next Steps:
-- Commit and push modified files and untracked artifacts to the GitHub remote repository.
+- Push the finalized session log.
