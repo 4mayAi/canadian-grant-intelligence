@@ -22,7 +22,7 @@ async def _scrape_single_url(
             # Set a standard viewport and user agent to bypass basic bot detections
             await page.set_viewport_size({"width": 1280, "height": 800})
             
-            await page.goto(url, wait_until='networkidle', timeout=30000)
+            await page.goto(url, wait_until='domcontentloaded', timeout=30000)
             
             # Allow some extra time for dynamic SPA hydration
             await page.wait_for_timeout(3000)
@@ -43,6 +43,7 @@ async def _scrape_single_url(
                                        href.includes('release') ||
                                        href.includes('/blog/') ||
                                        href.includes('/update') ||
+                                       href.includes('/resources/') ||
                                        href.includes('pic-updates');
                                        
                     if (isNewsLink) {
@@ -52,7 +53,19 @@ async def _scrape_single_url(
                             title = cardNameElem.innerText.trim();
                         }
                         
-                        if (title.length > 15) {
+                        // Robust improvement: if title is too short or generic (like 'Learn more'), check the parent container for a header
+                        const lowerTitle = title.toLowerCase();
+                        if (title.length <= 15 || lowerTitle === 'learn more' || lowerTitle === 'read more' || lowerTitle === 'full story' || lowerTitle === 'more') {
+                            const parent = a.closest('div, li, tr, article, section');
+                            if (parent) {
+                                const titleElem = parent.querySelector('h1, h2, h3, h4, h5, h6, .title, .card-title, .card__title, .news-title, .entry-title, .card__name, [class*="title"], [class*="name"]');
+                                if (titleElem && titleElem !== a) {
+                                    title = titleElem.innerText.trim();
+                                }
+                            }
+                        }
+                        
+                        if (title.length > 15 && title.toLowerCase() !== 'learn more' && title.toLowerCase() !== 'read more') {
                             if (!results.some(r => r.link === href)) {
                                 let dateText = '';
                                 

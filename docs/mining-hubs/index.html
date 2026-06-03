@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mayAi | Canadian Innovation Clusters Intelligence</title>
-    <meta name="description" content="mayAi: Delivering executive B2B intelligence on Canadian Innovation Clusters, funding releases, and consortia opportunities.">
-    <meta property="og:title" content="mayAi | Canadian Innovation Clusters Intelligence">
-    <meta property="og:description" content="Delivering executive B2B intelligence on Canadian Innovation Clusters, funding releases, and consortia opportunities.">
+    <title>mayAi | Global Mining Hubs Intelligence</title>
+    <meta name="description" content="mayAi: Delivering executive B2B intelligence on global mining hubs competitiveness, positioning, and sustainability.">
+    <meta property="og:title" content="mayAi | Global Mining Hubs Intelligence">
+    <meta property="og:description" content="Delivering executive B2B intelligence on global mining hubs competitiveness, positioning, and sustainability.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://4mayAi.github.io/canadian-grant-intelligence/clusters/">
+    <meta property="og:url" content="https://4mayAi.github.io/canadian-grant-intelligence/mining-hubs/">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" href="../style.css">
     <style>
-        /* Extra custom styling to enhance the layout specifically for Clusters */
+        /* Extra custom styling to enhance the layout specifically for Mining Hubs */
         .report-section {
             background: rgba(30, 41, 59, 0.4);
             border: 1px solid rgba(255, 215, 0, 0.15);
@@ -79,7 +79,7 @@
         .md-content li {
             margin-bottom: 4px;
         }
-        .badge-cluster {
+        .badge-hub {
             background: rgba(255, 215, 0, 0.1);
             color: #ffd700;
             border: 1px solid rgba(255, 215, 0, 0.3);
@@ -87,6 +87,27 @@
             padding: 2px 6px;
             font-size: 11px;
             font-weight: 600;
+        }
+        .navigation-links {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .nav-tab-link {
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-secondary);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
+            padding: 6px 12px;
+            font-size: 13px;
+            transition: all 0.2s ease;
+        }
+        .nav-tab-link:hover {
+            background: rgba(255, 215, 0, 0.1);
+            color: #ffd700;
+            border-color: rgba(255, 215, 0, 0.3);
         }
     </style>
 </head>
@@ -100,18 +121,11 @@
                 </div>
                 <h1 style="font-family: 'Outfit', sans-serif; letter-spacing: -1px; margin-left: 15px;">may<span style="color: #ffd700;">Ai</span></h1>
             </div>
-            <p>Canadian Innovation Clusters Intelligence | Delivering Golden Opportunities Daily</p>
-
-            <!-- Cross Navigation Links -->
-            <div class="navigation-links" style="display: flex; gap: 10px; margin-top: 15px; margin-bottom: 5px; flex-wrap: wrap; justify-content: center;">
-                <a href="../" class="nav-tab-link" style="text-decoration: none; background: rgba(255, 255, 255, 0.05); color: var(--text-secondary); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 6px 12px; font-size: 13px; transition: all 0.2s ease;">🇨🇦 Grant Intelligence</a>
-                <a href="#" class="nav-tab-link" style="text-decoration: none; background: rgba(255,215,0,0.15); color: #ffd700; border-color: rgba(255,215,0,0.4); border-radius: 6px; padding: 6px 12px; font-size: 13px; transition: all 0.2s ease;">🇨🇦 Innovation Clusters</a>
-                <a href="../mining-hubs/" class="nav-tab-link" style="text-decoration: none; background: rgba(255, 255, 255, 0.05); color: var(--text-secondary); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 6px 12px; font-size: 13px; transition: all 0.2s ease;">🌎 Global Mining Hubs</a>
-            </div>
+            <p>Global Mining Hubs Intelligence | Delivering Golden Opportunities Daily</p>
             
             <div id="hero-hook-container" class="hero-hook-container" style="display: none;">
                 <div class="hero-hook-glow"></div>
-                <p id="hero-hook-text">Synthesizing cluster opportunities...</p>
+                <p id="hero-hook-text">Synthesizing mining intelligence...</p>
             </div>
 
             <div class="header-controls">
@@ -122,23 +136,30 @@
             </div>
         </header>
 
+        <!-- Cross Navigation Links -->
+        <div class="navigation-links">
+            <a href="../" class="nav-tab-link">🇨🇦 Grant Intelligence</a>
+            <a href="../clusters/" class="nav-tab-link">🇨🇦 Innovation Clusters</a>
+            <a href="#" class="nav-tab-link" style="background: rgba(255,215,0,0.15); color: #ffd700; border-color: rgba(255,215,0,0.4);">🌎 Global Mining Hubs</a>
+        </div>
+
         <div class="kpi-container" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
             <div class="kpi-card">
                 <span class="kpi-value" id="kpi-total">0</span>
-                <span class="kpi-label">Active Cluster Signals</span>
+                <span class="kpi-label">Active Hub Signals</span>
             </div>
             <div class="kpi-card">
                 <span class="kpi-value" id="kpi-new-today">0</span>
-                <span class="kpi-label">New Signals Today</span>
+                <span class="kpi-label">Active Sources</span>
             </div>
             <div class="kpi-card">
                 <span class="kpi-value" id="kpi-lead">N/A</span>
-                <span class="kpi-label">Primary Sector</span>
+                <span class="kpi-label">Top Contributor</span>
             </div>
         </div>
 
         <div class="tabs">
-            <button class="tab-btn active" id="btn-signals" onclick="switchTab('signals')">Active Innovation Signals</button>
+            <button class="tab-btn active" id="btn-signals" onclick="switchTab('signals')">Active Mining Signals</button>
             <button class="tab-btn" id="btn-digest" onclick="switchTab('digest')">Executive Digest</button>
         </div>
 
@@ -147,7 +168,7 @@
             <div id="signalsContent">
                 <div class="loading">
                     <div class="spinner"></div>
-                    <p>Loading cluster intelligence...</p>
+                    <p>Loading mining intelligence...</p>
                 </div>
             </div>
         </div>
@@ -163,20 +184,20 @@
 
         <footer>
             <p>Powered by mayAi &middot; Built with GitHub Actions</p>
-            <p style="margin-top: 4px">Data sourced from DIGITAL, Scale AI, Ocean Supercluster, NGen &amp; Protein Industries Canada portals</p>
+            <p style="margin-top: 4px">Data sourced from MAC (Canada), MCA (Australia), Zijin Mining &amp; CMA (China), SUISSENEGOCE (Switzerland), London Metal Exchange (UK), ICMM &amp; IEA portals</p>
         </footer>
     </div>
 
     <script>
-        const TOPIC_ID = 'innovation-clusters';
-        const AZURE_CONTAINER_URL = 'https://canadiangrants.blob.core.windows.net/clusters-data';
+        const TOPIC_ID = 'mining-hubs';
+        const AZURE_CONTAINER_URL = 'https://canadiangrants.blob.core.windows.net/mining-hubs-data';
         
         // Dynamic dual-path urls for maximum durability (CORS and Network offline isolation)
-        const INSIGHTS_AZURE = `${AZURE_CONTAINER_URL}/cluster_insights.json`;
-        const KPIS_AZURE = `${AZURE_CONTAINER_URL}/kpis.json`;
+        const INSIGHTS_AZURE = `${AZURE_CONTAINER_URL}/mining_insights.json`;
+        const KPIS_AZURE = `${AZURE_CONTAINER_URL}/mining_kpis.json`;
         
-        const INSIGHTS_LOCAL = `../data/${TOPIC_ID}/cluster_insights.json`;
-        const KPIS_LOCAL = `../data/${TOPIC_ID}/kpis.json`;
+        const INSIGHTS_LOCAL = `../data/${TOPIC_ID}/mining_insights.json`;
+        const KPIS_LOCAL = `../data/${TOPIC_ID}/mining_kpis.json`;
 
         let cachedData = null;
 
@@ -288,21 +309,16 @@
                 const activeSources = new Set();
                 insights.forEach(item => {
                     if (item.source) {
-                        const cleanSrc = item.source.replace('_News', '').replace('Cluster_News', '');
+                        const cleanSrc = item.source.replace('_News', '').replace('_Mining', '').replace('_Global_ESG', '').replace('_Critical_Minerals', '');
                         activeSources.add(cleanSrc);
                     }
                 });
-                document.getElementById('kpi-new-today').innerText = `${activeSources.size} / 5 Active`;
-                
-                const cardLabels = document.querySelectorAll('.kpi-card .kpi-label');
-                if (cardLabels.length > 1) {
-                    cardLabels[1].innerText = 'Active Clusters';
-                }
+                document.getElementById('kpi-new-today').innerText = `${activeSources.size} / 7 Active`;
 
                 const sourceCounts = {};
                 insights.forEach(item => {
                     if (item.source) {
-                        const cleanSrc = item.source.replace('_News', '').replace('Cluster_News', ' Supercluster').replace('ScaleAI', 'Scale AI').replace('NGen', 'NGen').replace('ProteinIndustries', 'Protein Industries Canada').replace('DIGITAL', 'DIGITAL');
+                        const cleanSrc = item.source.replace('_News', '').replace('_', ' ').replace('Global ESG', 'ESG').replace('Critical Minerals', 'Minerals');
                         sourceCounts[cleanSrc] = (sourceCounts[cleanSrc] || 0) + 1;
                     }
                 });
@@ -322,9 +338,6 @@
                 } else {
                     document.getElementById('kpi-lead').innerText = 'N/A';
                 }
-                if (cardLabels.length > 2) {
-                    cardLabels[2].innerText = 'Top Contributor';
-                }
 
                 // 2. Render active signals
                 let signalsHtml = '';
@@ -334,15 +347,15 @@
                         const innerInsight = item.insight || {};
                         
                         if (innerInsight.strategic_value) {
-                            innerHtml += `<h4>Strategic Value for Canadian Businesses</h4>
+                            innerHtml += `<h4>Competitiveness &amp; Position Impact</h4>
                                           <div class="md-content">${marked.parse(innerInsight.strategic_value)}</div>`;
                         }
                         if (innerInsight.co_bidding_opportunity) {
-                            innerHtml += `<h4>Consortium &amp; Co-Bidding Opportunities</h4>
+                            innerHtml += `<h4>Sustainability &amp; ESG Alignment</h4>
                                           <div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
                         }
 
-                        const displaySource = (item.source || '').replace('_News', '').replace('Cluster_News', ' Supercluster');
+                        const displaySource = (item.source || '').replace('_News', '').replace('_', ' ');
 
                         signalsHtml += `
                             <details class="report-section">
@@ -350,7 +363,7 @@
                                     <h3>${escapeHtml(item.title)}</h3>
                                     ${innerInsight.linkedin_hook ? `<div class="hook-subtitle">${escapeHtml(innerInsight.linkedin_hook)}</div>` : ''}
                                     <div class="report-meta">
-                                        <span class="badge-cluster">📡 ${escapeHtml(displaySource)}</span>
+                                        <span class="badge-hub">📡 ${escapeHtml(displaySource)}</span>
                                         <span>📅 ${formatDate(item.date)}</span>
                                     </div>
                                 </summary>
@@ -358,7 +371,7 @@
                                     <div class="insight-content">
                                         ${innerHtml || '<p style="color: var(--text-muted)">No insight available.</p>'}
                                     </div>
-                                    ${item.link ? `<a class="opp-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener" style="margin-top: 15px; display: inline-block;">View Original Announcement ↗</a>` : ''}
+                                    ${item.link ? `<a class="opp-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener" style="margin-top: 15px; display: inline-block;">View Original Report ↗</a>` : ''}
                                 </div>
                             </details>
                         `;
@@ -367,7 +380,7 @@
                     signalsHtml = `
                         <div class="empty-state">
                             <h3>No Actionable Opportunities Found</h3>
-                            <p>Daily scans yielded no strategic project calls or funding announcements in the past 30 days.</p>
+                            <p>Daily scans yielded no global supply chain or competitiveness positioning updates in the past 30 days.</p>
                         </div>
                     `;
                 }

@@ -1,0 +1,85 @@
+{
+  "topic_id": "mining-hubs",
+  "display_name": "Global Mining Hubs Intelligence",
+  "dashboard_url": "https://4mayAi.github.io/canadian-grant-intelligence/mining-hubs/",
+  "sources": [
+    {
+      "name": "Canada_Mining_News",
+      "url": "https://mining.ca/resources/press-releases/",
+      "type": "html_playwright",
+      "fallback_url": "https://news.google.com/rss/search?q=%22Mining+Association+of+Canada%22+OR+site:mining.ca/resources/press-releases/&hl=en-CA&gl=CA&ceid=CA:en",
+      "fallback_type": "rss"
+    },
+    {
+      "name": "Australia_Mining_News",
+      "url": "https://minerals.org.au/news/",
+      "type": "html_playwright",
+      "fallback_url": "https://news.google.com/rss/search?q=%22Minerals+Council+of+Australia%22+OR+site:minerals.org.au/resources/&hl=en-AU&gl=AU&ceid=AU:en",
+      "fallback_type": "rss"
+    },
+    {
+      "name": "China_Mining_News",
+      "url": "https://news.google.com/rss/search?q=%22Zijin+Mining%22+OR+%22China+Mining+Association%22&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss"
+    },
+    {
+      "name": "Switzerland_Mining_News",
+      "url": "https://suissenegoce.ch/news-events",
+      "type": "html_playwright",
+      "fallback_url": "https://news.google.com/rss/search?q=%22SUISSENEGOCE%22+OR+%22Swiss+Commodity+Trading%22+OR+site:suissenegoce.ch/news-events&hl=en-US&gl=US&ceid=US:en",
+      "fallback_type": "rss"
+    },
+    {
+      "name": "UK_Mining_News",
+      "url": "https://www.lme.com/en/news",
+      "type": "html_playwright",
+      "fallback_url": "https://news.google.com/rss/search?q=%22London+Metal+Exchange%22+OR+site:lme.com/news/&hl=en-GB&gl=GB&ceid=GB:en",
+      "fallback_type": "rss"
+    },
+    {
+      "name": "ICMM_Global_ESG",
+      "url": "https://www.icmm.com/en-gb/news-and-analysis/news",
+      "type": "html_playwright",
+      "fallback_url": "https://news.google.com/rss/search?q=%22ICMM%22+OR+%22International+Council+on+Mining+and+Metals%22&hl=en-US&gl=US&ceid=US:en",
+      "fallback_type": "rss"
+    },
+    {
+      "name": "IEA_Critical_Minerals",
+      "url": "https://www.iea.org/topics/critical-minerals",
+      "type": "html_playwright",
+      "fallback_url": "https://news.google.com/rss/search?q=%22IEA%22+%22critical+minerals%22&hl=en-US&gl=US&ceid=US:en",
+      "fallback_type": "rss"
+    }
+  ],
+  "keywords": [
+    "critical minerals", "sustainability", "competitiveness", "tailings", "ESG",
+    "decarbonization", "supply chain", "refining", "processing", "positioning",
+    "greenhouse gas", "net zero", "climate action", "resource extraction"
+  ],
+  "high_value_keywords": [
+    "sustainability", "competitiveness", "critical minerals", "ESG", "net zero"
+  ],
+  "localization_mappings": {
+    "Mining Association of Canada": "[Mining Association of Canada](https://mining.ca/)",
+    "Minerals Council of Australia": "[Minerals Council of Australia](https://minerals.org.au/)",
+    "SUISSENEGOCE": "[SUISSENEGOCE](https://suissenegoce.ch/)",
+    "London Metal Exchange": "[London Metal Exchange](https://www.lme.com/)",
+    "ICMM": "[ICMM](https://www.icmm.com/)",
+    "IEA": "[IEA](https://www.iea.org/)"
+  },
+  "llm_settings": {
+    "model_primary": "gemini-3.1-flash-lite",
+    "model_fallback": "gemini-2.5-flash-lite",
+    "system_instruction": "You are a senior analyst specializing in the global mining industry. Synthesize news releases and articles into strategic B2B hooks focusing on positioning, competitiveness, and sustainability (ESG) across the 5 global mining hubs (Canada, Australia, China, Switzerland, UK)."
+  },
+  "storage": {
+    "azure_container": "mining-hubs-data",
+    "processed_urls_file": "processed_urls.json",
+    "insights_file": "mining_insights.json",
+    "kpis_file": "mining_kpis.json"
+  },
+  "distribution": {
+    "discord_webhook": "${DISCORD_WEBHOOK_MINING}",
+    "smtp_recipient": "${SMTP_RECIPIENT_MINING}"
+  }
+}

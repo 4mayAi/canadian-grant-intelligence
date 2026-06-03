@@ -169,6 +169,9 @@ def fetch_and_process_news(
             # Re-use cached analysis (no LLM call)
             final_insights.append(existing_insights_map[link])
             processed_urls.add(link)
+        elif link in processed_urls:
+            # Already processed (either discarded or old). Skip!
+            logging.info(f"Skipping already processed URL: {link}")
         else:
             unprocessed_items.append(item)
 
@@ -189,6 +192,13 @@ def fetch_and_process_news(
         insight_models = gemini_client.get_gemini_insights_batch(contents)
         
         for item, insight_model in zip(batch, insight_models):
+            processed_urls.add(item['link'])
+            
+            # Relevancy Filtering: If Gemini returned "No insight available", discard the item
+            if insight_model.strategic_value == "No insight available":
+                logging.info(f"Discarding irrelevant/low-value news item: {item['title']}")
+                continue
+
             dt = item.get('date')
             date_str = dt.isoformat() + "Z" if isinstance(dt, datetime) else str(dt)
 
@@ -200,7 +210,6 @@ def fetch_and_process_news(
                 "insight": insight_model.to_dict()
             }
             final_insights.append(report_item_dict)
-            processed_urls.add(item['link'])
 
     # Sort final insights descending by date
     def parse_date_safely(item):
@@ -238,8 +247,9 @@ def generate_dashboard_kpis(insights: List[dict], gemini_client: GeminiClient) -
     source_counts = {}
     for ins in insights:
         src = ins.get("source", "")
-        # Clean display name for known sources
-        display_src = src.replace('_News', '').replace('Cluster_News', ' Supercluster').replace('ScaleAI', 'Scale AI').replace('NGen', 'NGen').replace('ProteinIndustries', 'Protein Industries Canada').replace('DIGITAL', 'DIGITAL')
+        # Clean display name: replace underscores with spaces, strip _News, and apply known overrides
+        display_src = src.replace('_News', '').replace('_', ' ')
+        display_src = display_src.replace('Cluster', ' Supercluster').replace('ScaleAI', 'Scale AI').replace('NGen', 'NGen').replace('ProteinIndustries', 'Protein Industries Canada').replace('DIGITAL', 'DIGITAL')
         if display_src:
             source_counts[display_src] = source_counts.get(display_src, 0) + 1
             
@@ -336,18 +346,9 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         linkedin_post = gemini_client.generate_linkedin_post(summaries_str)
         suggested_post = linkedin_post.get("article_content", "No post text compiled.") if linkedin_post else ""
 
-        # Post-process: Automatically hyperlink cluster names in the body (using lookarounds to prevent double-wrapping)
-        cluster_links = {
-            "Protein Industries Canada": "[Protein Industries Canada](https://www.proteinindustriescanada.ca/)",
-            "Protein Industries": "[Protein Industries](https://www.proteinindustriescanada.ca/)",
-            "Scale AI": "[Scale AI](https://www.scaleai.ca/)",
-            "ScaleAI": "[ScaleAI](https://www.scaleai.ca/)",
-            "Ocean Supercluster": "[Ocean Supercluster](https://oceansupercluster.ca/)",
-            "NGen": "[NGen](https://www.ngen.ca/)",
-            "DIGITAL": "[Digital Supercluster](https://digitalsupercluster.ca/)",
-            "Digital Supercluster": "[Digital Supercluster](https://digitalsupercluster.ca/)"
-        }
-        for name, link in cluster_links.items():
+        # Post-process: Automatically hyperlink names in the body (using lookarounds to prevent double-wrapping)
+        hyperlinks = config.localization_mappings
+        for name, link in hyperlinks.items():
             pattern = re.compile(rf'(?<!\[){re.escape(name)}(?!\])')
             suggested_post = pattern.sub(link, suggested_post)
 
@@ -355,7 +356,7 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         if insights:
             suggested_post += "\n\n### Featured News & Sources\n"
             for item in insights[:5]:
-                src_name = item.get("source", "").replace("_News", "").replace("Cluster", "").replace("ScaleAI", "Scale AI")
+                src_name = item.get("source", "").replace("_News", "").replace("_", " ").replace("Cluster", "Supercluster").replace("ScaleAI", "Scale AI")
                 suggested_post += f"- [{item['title']}]({item['link']}) ({src_name})\n"
 
         pmo_wrapper = {
@@ -430,10 +431,10 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         # 9. SMTP Email Distribution
         if not dry_run:
             try:
-                email_subject = f"{datetime.now().strftime('%b %d, %Y')} — 🇨🇦 Innovation Clusters — {kpis.get('hero_hook', '')}"
+                email_subject = f"{datetime.now().strftime('%b %d, %Y')} — {config.display_name} — {kpis.get('hero_hook', '')}"
                 
                 # Assemble the markdown content for the email
-                digest_md = f"# {kpis.get('hero_hook', 'Canadian Innovation Clusters Daily Digest')}\n\n"
+                digest_md = f"# {kpis.get('hero_hook', f'{config.display_name} Daily Digest')}\n\n"
                 digest_md += f"**Top Contributor**: {kpis.get('top_category', 'Mixed Sectors')}\n\n"
                 digest_md += f"### Strategic B2B Digest\n\n"
                 digest_md += f"{suggested_post}\n\n"

@@ -22,7 +22,16 @@
   "high_value_keywords": [
     "consortium", "co-investment", "proposal", "award"
   ],
-  "localization_mappings": {},
+  "localization_mappings": {
+    "Protein Industries Canada": "[Protein Industries Canada](https://www.proteinindustriescanada.ca/)",
+    "Protein Industries": "[Protein Industries](https://www.proteinindustriescanada.ca/)",
+    "Scale AI": "[Scale AI](https://www.scaleai.ca/)",
+    "ScaleAI": "[ScaleAI](https://www.scaleai.ca/)",
+    "Ocean Supercluster": "[Ocean Supercluster](https://oceansupercluster.ca/)",
+    "NGen": "[NGen](https://www.ngen.ca/)",
+    "DIGITAL": "[Digital Supercluster](https://digitalsupercluster.ca/)",
+    "Digital Supercluster": "[Digital Supercluster](https://digitalsupercluster.ca/)"
+  },
   "llm_settings": {
     "model_primary": "gemini-2.5-flash-lite",
     "model_fallback": "gemini-3.1-flash-lite",

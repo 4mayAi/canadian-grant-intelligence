@@ -86,7 +86,7 @@ class Notifier:
         self.send_discord_alert(formatted_message, topic_name=topic_name)
         self.send_email_alert(subject, f"Pipeline Error Report:\n\nTopic: {topic_name}\nTask: {task_name}\nError: {error_msg}")
 
-    def _convert_markdown_to_html(self, md_content: str) -> str:
+    def _convert_markdown_to_html(self, md_content: str, topic_name: str = "Canadian Innovation Clusters Intelligence") -> str:
         """Converts basic markdown from digest to HTML."""
         lines = md_content.split("\n")
         html_lines = []
@@ -211,13 +211,13 @@ class Notifier:
         <body style="background-color: #05070a; color: #e0e0e0; padding: 20px; font-family: sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #1a1f26; border-radius: 12px;">
             <div style="text-align: center; padding-bottom: 20px; border-bottom: 1px solid #1a1f26;">
                 <h1 style="color: #ffd700; margin: 0; font-family: sans-serif; font-size: 28px;">may<span style="color: #ffffff;">Ai</span></h1>
-                <p style="color: #a0a0a0; font-size: 12px; margin: 5px 0 0 0;">Canadian Innovation Clusters Intelligence</p>
+                <p style="color: #a0a0a0; font-size: 12px; margin: 5px 0 0 0;">{topic_name}</p>
             </div>
             <div style="padding: 10px 0;">
                 {body_html}
             </div>
             <div style="text-align: center; padding-top: 20px; border-top: 1px solid #1a1f26; font-size: 11px; color: #707070; margin-top: 30px;">
-                <p>You are receiving this because you subscribed to mayAi Canadian Innovation Clusters digest.</p>
+                <p>You are receiving this because you subscribed to the mayAi {topic_name} digest.</p>
                 <p>Powered by mayAi &middot; Azure Cloud Operations</p>
             </div>
         </body>
@@ -228,7 +228,9 @@ class Notifier:
         self, 
         subject: str, 
         markdown_content: str, 
-        social_card_path: Optional[str] = None
+        social_card_path: Optional[str] = None,
+        from_name: str = "Canadian Innovation Clusters",
+        topic_name: str = "Canadian Innovation Clusters Intelligence"
     ) -> bool:
         """Sends a beautiful HTML newsletter digest to the configured recipient."""
         if not self.alert_email or not self.smtp_user or not self.smtp_pass:
@@ -242,7 +244,7 @@ class Notifier:
                 return False
 
             # Convert markdown to HTML
-            html_body = self._convert_markdown_to_html(markdown_content)
+            html_body = self._convert_markdown_to_html(markdown_content, topic_name)
             
             # Connect to SMTP
             if self.smtp_port == 465:
@@ -256,7 +258,7 @@ class Notifier:
                 for recipient in recipients:
                     msg = MIMEMultipart('alternative')
                     msg['Subject'] = subject
-                    msg['From'] = f"Canadian Innovation Clusters <{self.smtp_user}>"
+                    msg['From'] = f"{from_name} <{self.smtp_user}>"
                     msg['To'] = recipient
 
                     # Attach parts
