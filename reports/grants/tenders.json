@@ -320,17 +320,6 @@
     },
     {
         "type": "Open",
-        "title": "RFP W7714-258730_ Exercise Support TAC",
-        "description": "*Application or technology research and development service",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012938?anId=ANONYMOUS",
-        "closing_date": "2026-06-01T14:00:00",
-        "publication_date": "2026-05-12",
-        "province": "NCR (Ottawa/Gatineau)",
-        "province_abbrev": "NCR",
-        "category": "SRV"
-    },
-    {
-        "type": "Open",
         "title": "Copy of RFP F2599-250003B–CCGS Limnos–Installation of Supplied HVAC and Refrigeration Equipment",
         "description": "*Marine craft systems and subassemblies",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110013105?anId=ANONYMOUS",
@@ -660,7 +649,7 @@
         "category": "SRV"
     },
     {
-        "type": "New",
+        "type": "Open",
         "title": "23429-260696-B RFP - Automatic Lifting Barrier System",
         "description": "*Barriers",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014768?anId=ANONYMOUS",
@@ -671,7 +660,7 @@
         "category": "GD"
     },
     {
-        "type": "New",
+        "type": "Open",
         "title": "W3162-25F033 - High security safes - RFP",
         "description": "*Safes",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014915?anId=ANONYMOUS",
@@ -679,6 +668,17 @@
         "publication_date": "2026-06-02",
         "province": "Quebec",
         "province_abbrev": "QC",
+        "category": "GD"
+    },
+    {
+        "type": "Open",
+        "title": "RFP - Multiple Victoria Class Submarine Spares - Superchargers and Other Engine Related Engine Components",
+        "description": "*Exhaust and emission controls*Diesel engines",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014643?anId=ANONYMOUS",
+        "closing_date": "2026-07-08T14:00:00",
+        "publication_date": "2026-05-29",
+        "province": "British Columbia",
+        "province_abbrev": "BC",
         "category": "GD"
     }
 ]

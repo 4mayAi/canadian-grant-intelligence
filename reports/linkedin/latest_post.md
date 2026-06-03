@@ -1,15 +1,13 @@
 ![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)
 
-# Canada's Funding & Procurement Pulse: Infrastructure Boom, Digital Expansion, and G7 Tech Focus
+# Canada's Funding Landscape: Infrastructure Surge & Defence Procurement
 
-**🇨🇦 Infrastructure & Digital Divides Targeted: Today's Canadian Funding & Procurement Briefing**
+**🇨🇦 Navigating the Currents of Canadian Government Funding and Procurement?**
 
-Ottawa has unveiled a significant $10 billion partnership with Québec aimed at revitalizing infrastructure, spanning housing, healthcare, and transit over the next decade. This initiative presents substantial opportunities for construction, engineering, and service providers focused on sustainable urban development.
+Today, we're seeing significant moves in infrastructure and defence. A substantial $10 billion partnership between Canada and Quebec is set to fuel a decade of critical projects in housing, healthcare, and transit.
 
-In parallel, the federal government is committed to bridging the digital divide, announcing expanded high-speed internet access for British Columbia. Technology firms specializing in telecommunications infrastructure and deployment should monitor this space for project rollouts.
+For businesses aligned with urban development and public services, this represents a long-term pipeline of opportunities. Additionally, new federal funding is actively expanding high-speed internet access across British Columbia, offering a key chance for tech and telecommunications firms to engage.
 
-On the international front, Canada is championing advancements in AI and quantum technologies at the G7 Digital Ministers’ Meeting. Businesses innovating in these high-growth sectors should stay attuned to potential future government research and development funding.
-
-Procurement news includes an RFP for an Automatic Lifting Barrier System closing June 12th, relevant for security and automation specialists. Additionally, a High Security Safes RFP closes June 30th, presenting opportunities for manufacturers and suppliers in the secure storage sector.
+On the defence front, tenders for Victoria Class Submarine spares, including superchargers and engine components, are now open with a closing date of July 8, 2026. Defence contractors and specialized engineering firms should monitor these critical supply chain needs.
 
 Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
