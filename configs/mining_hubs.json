@@ -5,17 +5,13 @@
   "sources": [
     {
       "name": "Canada_Mining_News",
-      "url": "https://mining.ca/resources/press-releases/",
-      "type": "html_playwright",
-      "fallback_url": "https://news.google.com/rss/search?q=%22Mining+Association+of+Canada%22+OR+site:mining.ca/resources/press-releases/&hl=en-CA&gl=CA&ceid=CA:en",
-      "fallback_type": "rss"
+      "url": "https://news.google.com/rss/search?q=%22Mining+Association+of+Canada%22+OR+site:mining.ca/resources/press-releases/&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss"
     },
     {
       "name": "Australia_Mining_News",
-      "url": "https://minerals.org.au/news/",
-      "type": "html_playwright",
-      "fallback_url": "https://news.google.com/rss/search?q=%22Minerals+Council+of+Australia%22+OR+site:minerals.org.au/resources/&hl=en-AU&gl=AU&ceid=AU:en",
-      "fallback_type": "rss"
+      "url": "https://news.google.com/rss/search?q=%22Minerals+Council+of+Australia%22+OR+site:minerals.org.au/news/&hl=en-AU&gl=AU&ceid=AU:en",
+      "type": "rss"
     },
     {
       "name": "China_Mining_News",
@@ -24,31 +20,23 @@
     },
     {
       "name": "Switzerland_Mining_News",
-      "url": "https://suissenegoce.ch/news-events",
-      "type": "html_playwright",
-      "fallback_url": "https://news.google.com/rss/search?q=%22SUISSENEGOCE%22+OR+%22Swiss+Commodity+Trading%22+OR+site:suissenegoce.ch/news-events&hl=en-US&gl=US&ceid=US:en",
-      "fallback_type": "rss"
+      "url": "https://news.google.com/rss/search?q=%22SUISSENEGOCE%22+OR+%22Swiss+Commodity+Trading%22+OR+site:suissenegoce.ch/news-events&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss"
     },
     {
       "name": "UK_Mining_News",
-      "url": "https://www.lme.com/en/news",
-      "type": "html_playwright",
-      "fallback_url": "https://news.google.com/rss/search?q=%22London+Metal+Exchange%22+OR+site:lme.com/news/&hl=en-GB&gl=GB&ceid=GB:en",
-      "fallback_type": "rss"
+      "url": "https://news.google.com/rss/search?q=%22London+Metal+Exchange%22+OR+site:lme.com/news/&hl=en-GB&gl=GB&ceid=GB:en",
+      "type": "rss"
     },
     {
       "name": "ICMM_Global_ESG",
-      "url": "https://www.icmm.com/en-gb/news-and-analysis/news",
-      "type": "html_playwright",
-      "fallback_url": "https://news.google.com/rss/search?q=%22ICMM%22+OR+%22International+Council+on+Mining+and+Metals%22&hl=en-US&gl=US&ceid=US:en",
-      "fallback_type": "rss"
+      "url": "https://news.google.com/rss/search?q=%22ICMM%22+OR+%22International+Council+on+Mining+and+Metals%22&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss"
     },
     {
       "name": "IEA_Critical_Minerals",
-      "url": "https://www.iea.org/topics/critical-minerals",
-      "type": "html_playwright",
-      "fallback_url": "https://news.google.com/rss/search?q=%22IEA%22+%22critical+minerals%22&hl=en-US&gl=US&ceid=US:en",
-      "fallback_type": "rss"
+      "url": "https://news.google.com/rss/search?q=%22IEA%22+%22critical+minerals%22&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss"
     }
   ],
   "keywords": [
