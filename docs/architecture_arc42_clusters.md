@@ -199,13 +199,27 @@ To avoid external dependencies and keep the engine lightweight, a custom line-by
 - **Inline Bold (`**text**`)** is replaced with `<strong>` tags.
 - **Hyperlinks (`[text](url)`)** are wrapped in anchor tags with text-decoration disabled and colored gold to ensure high visibility.
 
-### 8.2 Brand Link Injections
+### 8.2 Brand Link Injections & Regex Constraints
 During the post-synthesis phase, a regex mapper runs lookarounds to detect text mentions of clusters and hyper-links them to their official domains:
 - **Protein Industries Canada** -> `https://www.proteinindustriescanada.ca/`
 - **Canada's Ocean Supercluster** -> `https://oceansupercluster.ca/`
 - **Scale AI** -> `https://www.scaleai.ca/`
 - **DIGITAL** -> `https://digitalsupercluster.ca/`
 - **NGen** -> `https://www.ngen.ca/`
+
+#### Technical Constraints:
+* **Lookup Safeguards (Lookarounds)**: The regex engine applies negative lookarounds `(?<!\[){re.escape(name)}(?!\])` to match only plain text mentions, preventing double-hyperlinking of terms that are already part of markdown links.
+* **Ordering Dependency**: The replacement dictionary is ordered strictly from longest name to shortest name (e.g., `"Protein Industries Canada"` before `"Protein Industries"`). This sequence avoids partial-match corruption, where matching the shorter prefix first would break the longer entity's layout (turning it into `"[Protein Industries](...) Canada"`).
+
+### 8.3 Granular DOM Selectors and Card Ingestion
+For dynamic portal scraping (such as Protein Industries Canada), third-party sites frequently wrap entire article tiles inside unified parent links (`a.card__mainLink`). 
+- **DOM Selector Scheme**: Instead of extracting broad card text (which pulls layout metadata, extra dates, and sub-headings), the Playwright extractor targets child nodes: `.card__name` for headlines and `.card__postDate` for timestamps.
+- **Extraction Rationale**: Drilling down prevents the extraction of multi-line junk blocks and ensures that Gemini is supplied with clean, high-fidelity article titles and publication dates.
+
+### 8.4 Active Window Ingestion Caching
+The system avoids infinite cache bloat without needing automated database pruning routines:
+- **Lookback-Based Filtering**: Standard ingestions filter out and discard entries older than the `SCRAPE_LOOKBACK_DAYS` (default: 30 days) lookback window.
+- **Active Union Write-Back**: The output file `cluster_insights.json` represents a clean union of active scraper feed items and fail-safe retained items. When old news releases drop off the portals or the 30-day feed window, they are naturally omitted during write-back, keeping the file small and optimizing frontend performance.
 
 ---
 
@@ -214,3 +228,6 @@ During the post-synthesis phase, a regex mapper runs lookarounds to detect text 
 - **Config-Driven Generalization**: Storing pipeline parameters (keywords, source lists, container settings) in JSON files allows adding new portals or pipelines without changing core orchestrator code.
 - **HTML Ingestion Fallback**: Using a secondary RSS search feed guarantees that transient issues with third-party web portals do not break the ingestion pipeline, preserving operational resilience.
 - **Decoupled Static Dashboard**: Hosting the dashboard on GitHub Pages and data in Azure avoids database upkeep fees, keeps load times rapid, and eliminates database connection vulnerabilities.
+- **SMTP Recipient Fallback Policy**: To ensure operational alerts are never lost, if `SMTP_RECIPIENT_CLUSTERS` is left empty or contains configuration placeholders in the environment, the engine automatically routes the success digests to the sender's login `EMAIL_ADDRESS` (the operator's inbox).
+- **Low-RPM, High-TPM Optimization Strategy**: To safeguard Gemini API request quotas, new news items are batch-processed in groups of 5 (`BATCH_SIZE = 5`). This design aggregates texts into single API calls, taking advantage of Gemini's high token-per-minute (TPM) limit while staying well below the low requests-per-minute (RPM) threshold.
+- **Telemetry Observability**: The orchestrator automatically logs total API transaction sizes and token stats (`gemini_client.get_stats()`) at the end of each execution, providing complete visibility into usage costs and pipeline efficiency.
