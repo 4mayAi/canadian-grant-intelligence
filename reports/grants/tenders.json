@@ -682,7 +682,7 @@
         "category": "GD"
     },
     {
-        "type": "New",
+        "type": "Open",
         "title": "EF937-261357-3 – PSIB, Purchase workspaces furniture under the SA for CBSA -RFP",
         "description": "*Filing cabinets or accessories",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015030?anId=ANONYMOUS",
@@ -691,5 +691,38 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "EE517-261391 - Engineering Consultant RBLM phases 2-3 RFP",
+        "description": "*Railway engineering",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015052?anId=ANONYMOUS",
+        "closing_date": "2026-06-30T14:00:00",
+        "publication_date": "2026-06-03",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRV"
+    },
+    {
+        "type": "New",
+        "title": "E60HL-260015-A RFP Arctic Naval Distillate Fuel",
+        "description": "*Marine fuel",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015054?anId=ANONYMOUS",
+        "closing_date": "2026-06-15T14:00:00",
+        "publication_date": "2026-06-03",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "NOTICE - Security Guard Services",
+        "description": "*Security guard services",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015053?anId=ANONYMOUS",
+        "closing_date": "2026-07-09T14:00:00",
+        "publication_date": "2026-06-03",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRV"
     }
 ]
