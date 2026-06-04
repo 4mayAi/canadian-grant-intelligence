@@ -218,9 +218,9 @@ class TestPipelineAndDashboard(unittest.TestCase):
         # Mock CSV contents containing one normal grant and two APN notices
         csv_data = (
             "noticeURL-URLavis-eng,title-titre-eng,gsinDescription-nibsDescription-eng,unspscDescription-eng,tenderClosingDate-appelOffresDateCloture,publicationDate-datePublication,amendmentDate-dateModification,regionsOfDelivery-regionsLivraison-eng,procurementCategory-categorieApprovisionnement\n"
-            "https://example.com/valid,Valid Grant Project,Some funding description,Some unspsc,2026-06-01,2026-05-20,,National,Services\n"
-            "https://example.com/apn1,APN_EDMONTON BASE INFRASTRUCTURE,Some description,Some unspsc,2026-06-01,2026-05-20,,National,Construction\n"
-            "https://example.com/apn2,APN Edmonton Infrastructure,Some description,Some unspsc,2026-06-01,2026-05-20,,National,Construction\n"
+            "https://example.com/valid,Valid Grant Project,Some funding description,Some unspsc,2026-12-01,2026-05-20,,National,Services\n"
+            "https://example.com/apn1,APN_EDMONTON BASE INFRASTRUCTURE,Some description,Some unspsc,2026-12-01,2026-05-20,,National,Construction\n"
+            "https://example.com/apn2,APN Edmonton Infrastructure,Some description,Some unspsc,2026-12-01,2026-05-20,,National,Construction\n"
         )
         
         mock_csv_resp = MagicMock()

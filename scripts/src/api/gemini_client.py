@@ -253,12 +253,13 @@ class GeminiClient:
             return hook.replace('"', '').replace('Hero Hook:', '').strip()
         return "mayAi | Delivering Golden Opportunities Daily"
 
-    def generate_linkedin_post(self, news_summaries: str, tender_context: str) -> Optional[Dict[str, str]]:
+    def generate_linkedin_post(self, news_summaries: str, tender_context: str, current_date: str = "") -> Optional[Dict[str, str]]:
+        date_str = f"Today's Date: {current_date}\n\n" if current_date else ""
         prompt = f"""You are a professional LinkedIn content strategist for a Canadian business intelligence brand called mayAi.
 
         Write a single LinkedIn post (MAX 250 words) that summarizes today's Canadian government funding and procurement highlights. 
 
-        Rules:
+        {date_str}Rules:
         - Open with a bold, attention-grabbing hook line (use an emoji at the start)
         - Bridge political/policy context with actionable procurement opportunities
         - Highlight the 2-3 most impactful items from BOTH the news AND the active tenders below
@@ -267,6 +268,7 @@ class GeminiClient:
         - Close with exactly 5 relevant hashtags on their own line
         - Do NOT use bullet points for the main body — use short paragraphs
         - Tone: Authoritative but accessible. Think Bloomberg meets LinkedIn thought leadership.
+        - Factual Rigor: Only reference names, figures, and timeframes explicitly mentioned in the context below. Do not guess or assume the name of the Prime Minister (do not use Trudeau or Carney unless they appear in the source text below). Do not guess dates or extension durations unless supported by the source text.
         
         You MUST respond with a raw JSON object and nothing else.
         Format:

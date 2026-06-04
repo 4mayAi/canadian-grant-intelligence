@@ -317,9 +317,18 @@ def run_pipeline():
         # 4.5. Generate LinkedIn Post, Social Card, and Wrap Insights
         # Context uses only the newly scraped tenders to keep the daily LinkedIn post fresh
         tender_context = "\n".join([f"- {t.get('title')} (Closing: {t.get('closing_date', 'N/A')})" for t in tenders_dict_list[:5]])
-        news_summaries = "\n".join([f"- {n.get('title')}: {n.get('insight', {}).get('linkedin_hook', '')}" for n in pmo_insights[:5]])
         
-        linkedin_json = gemini_client.generate_linkedin_post(news_summaries, tender_context)
+        # Build enriched news summaries including titles, hooks, and detailed strategic insights
+        news_summaries_list = []
+        for n in pmo_insights[:5]:
+            title = n.get('title')
+            hook = n.get('insight', {}).get('linkedin_hook', '')
+            strat = n.get('insight', {}).get('strategic_value', '')
+            news_summaries_list.append(f"- **{title}**\n  *Hook:* {hook}\n  *Key Insights:* {strat}")
+        news_summaries = "\n\n".join(news_summaries_list)
+        
+        today_str = datetime.utcnow().strftime("%B %d, %Y")
+        linkedin_json = gemini_client.generate_linkedin_post(news_summaries, tender_context, today_str)
         hero_hook = kpis_dict.get('hero_hook', 'mayAi | Delivering Golden Opportunities Daily')
         top_category = kpis_dict.get('top_category', 'Mixed Sectors')
 
