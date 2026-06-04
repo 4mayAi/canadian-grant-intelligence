@@ -20,7 +20,7 @@
     },
     {
       "name": "Switzerland_Mining_News",
-      "url": "https://news.google.com/rss/search?q=%22SUISSENEGOCE%22+OR+%22Swiss+Commodity+Trading%22+OR+site:suissenegoce.ch/news-events&hl=en-US&gl=US&ceid=US:en",
+      "url": "https://news.google.com/rss/search?q=%22SUISSENEGOCE%22+OR+%22Swiss+Commodity+Trading%22+OR+%22Glencore%22+OR+%22Trafigura%22&hl=en-US&gl=US&ceid=US:en",
       "type": "rss"
     },
     {
