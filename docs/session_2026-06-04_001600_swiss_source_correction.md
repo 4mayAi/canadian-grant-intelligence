@@ -9,12 +9,15 @@ Title: Swiss Source Discrepancy Correction and Commit
 - Committed the updated `configs/mining_hubs.json` file which incorporates Glencore and Trafigura to pull active Swiss market signals.
 - Triggered a remote GitHub Actions workflow run to populate the Swiss hub on the live dashboard.
 
+- Verified Pages dashboard updates.
+- Analyzed codebase logic for syndication and duplication management.
+
 Summary:
 - Discovered that `suissenegoce.ch` curates external articles, explaining why the RSS site query returned only 2025 local files and resulted in 0 active Swiss signals.
 - Verified the updated query results return active June 2026 commodity news.
-- Ready to commit, push, and run.
+- Reviewed deduplication logic: Currently handled via URL-level filtering (local set deduplication and persistent `processed_urls.json` cache).
+- Formulated upgrades for semantic duplication (fuzzy title overlap filtering and LLM clustering).
 
 Next Steps:
-- Commit and push `configs/mining_hubs.json`.
-- Run the GitHub Actions workflow.
-- Verify Pages dashboard updates.
+- Maintain config and monitor live runs.
+
