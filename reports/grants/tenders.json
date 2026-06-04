@@ -715,7 +715,7 @@
         "category": "SRV"
     },
     {
-        "type": "New",
+        "type": "Open",
         "title": "RFP 2026-021 - Consulting services",
         "description": "",
         "link": "https://www.merx.com/public/solicitations/3986405252/abstract?language=EN",
@@ -731,6 +731,17 @@
         "description": "*Agricultural machinery for harvesting",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015062?anId=ANONYMOUS",
         "closing_date": "2026-07-10T14:00:00",
+        "publication_date": "2026-06-03",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "RFI W6369-27A033 - Role 2 Basis Highly Mobile Infrastructure",
+        "description": "*Prefabricated buildings and structures",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015047?anId=ANONYMOUS",
+        "closing_date": "2026-07-03T14:00:00",
         "publication_date": "2026-06-03",
         "province": "National",
         "province_abbrev": "NAT",

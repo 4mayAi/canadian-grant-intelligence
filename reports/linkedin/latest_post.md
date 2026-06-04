@@ -1,13 +1,11 @@
 ![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)
 
-# Canadian Government Funding & Procurement Pulse: Tariffs, Infrastructure, and Logistics Opportunities
+# Canada's Funding & Procurement Pulse: Infrastructure Boom & Trade Tariffs Shape Opportunities (June 4, 2026)
 
-🇨🇦 Navigating Canada's Economic Landscape: Today's Government Funding & Procurement Insights.
+🇨🇦 Canadian businesses, tune into today's key government developments! The extension of steel and aluminum tariffs signals ongoing support for domestic manufacturing, impacting supply chains and investment climates. Companies reliant on these materials should monitor costs and potential trade shifts.
 
-Prime Minister Trudeau's government is extending steel and aluminum tariff measures, a move designed to bolster domestic manufacturing and supply chains through 2026. Businesses in the manufacturing and materials sector should monitor these policy shifts closely as they impact import costs and domestic production incentives.
+In a significant move for economic development, the government is consulting on extending the Canadian Journalism Labour Tax Credit. Media sector stakeholders and service providers should engage to influence its future and explore new partnership opportunities.
 
-In parallel, a significant new partnership between Canada and Quebec is set to inject $10 billion into local infrastructure projects. Companies specializing in construction, housing, healthcare facilities, and public transit development should be preparing for a decade of substantial opportunities.
-
-Furthermore, the government is actively signaling support for national transportation and logistics firms. Companies within this sector should stay attuned to potential programs and partnerships that could streamline operations and expand capacity.
+Furthermore, a new federal-provincial partnership with Quebec is set to inject $10 billion into local infrastructure over the next decade. This massive investment in housing, healthcare, transit, and education presents a decade of opportunity for construction, engineering, and technology firms. As a concrete tender, the RFI W6369-27A033 for Role 2 Basis Highly Mobile Infrastructure closes on July 3rd, 2026, a key opportunity for defense and logistics suppliers.
 
 Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
