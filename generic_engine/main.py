@@ -175,6 +175,38 @@ def fetch_and_process_news(
         else:
             unprocessed_items.append(item)
 
+    # 3. LLM-Assisted Event Clustering Deduplication
+    if len(unprocessed_items) > 1:
+        logging.info(f"Running LLM clustering to deduplicate {len(unprocessed_items)} new unprocessed articles...")
+        unprocessed_metadata = [{"id": idx, "title": item["title"], "source": item["source"]} for idx, item in enumerate(unprocessed_items)]
+        try:
+            selected_ids = gemini_client.filter_duplicate_articles(unprocessed_metadata)
+            
+            # Safety Gate: If returned selected_ids is empty but input was not, fall back to retaining all items
+            if not selected_ids:
+                logging.warning("LLM clustering returned empty list of selected IDs. Falling back to retaining all articles.")
+                selected_ids = list(range(len(unprocessed_items)))
+            else:
+                # Safety Gate: Defensively filter out invalid/out-of-bounds indices
+                selected_ids = [idx for idx in selected_ids if isinstance(idx, int) and 0 <= idx < len(unprocessed_items)]
+                
+            # Filter unprocessed items to selected ones
+            selected_unprocessed = [unprocessed_items[idx] for idx in selected_ids]
+            
+            # Record skipped duplicate URLs as processed in registry to avoid re-evaluating on future runs
+            selected_links = {item["link"] for item in selected_unprocessed}
+            skipped_count = 0
+            for item in unprocessed_items:
+                if item["link"] not in selected_links:
+                    processed_urls.add(item["link"])
+                    skipped_count += 1
+            
+            logging.info(f"LLM clustering finished. Selected {len(selected_unprocessed)} unique articles, skipped {skipped_count} duplicates.")
+            unprocessed_items = selected_unprocessed
+            
+        except Exception as e:
+            logging.error(f"Error during LLM event clustering deduplication: {e}. Retaining all articles as fallback.")
+
     if test_mode:
         unprocessed_items = unprocessed_items[:2]
 

@@ -260,3 +260,54 @@ class GeminiClient:
             except json.JSONDecodeError:
                 logging.error(f"Failed to parse LinkedIn post JSON: {text}")
         return None
+
+    def filter_duplicate_articles(self, articles: List[Dict[str, Any]]) -> List[int]:
+        """
+        Clusters articles by their underlying news event and returns a list of selected indices.
+        Each item in articles dict must contain 'id', 'title', and 'source'.
+        """
+        if not articles:
+            return []
+        if len(articles) == 1:
+            return [articles[0]['id']]
+            
+        articles_str = ""
+        for item in articles:
+            articles_str += f"- ID {item['id']}: [{item['source']}] {item['title']}\n"
+            
+        prompt = f"""
+        You are a senior news editor and data analyst. Analyze the following list of news articles.
+        
+        Tasks:
+        1. Group the articles by the underlying real-world news event they describe.
+        2. For each event group, select exactly ONE article that is the most authoritative and has the highest B2B strategic value.
+        
+        Rules:
+        - If two or more articles describe the same event (even with different wording), select only one and discard the rest.
+        - If an article describes a unique event, retain it.
+        - Return a raw JSON array containing only the selected 'ID' integers.
+        
+        Articles:
+        {articles_str}
+        """
+        
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {
+                "responseMimeType": "application/json",
+                "temperature": 0.0  # Enforce determinism
+            }
+        }
+        
+        data = self._retry_request(payload)
+        if data and 'candidates' in data and data['candidates']:
+            text = data['candidates'][0]['content']['parts'][0]['text']
+            try:
+                selected_ids = json.loads(text)
+                if isinstance(selected_ids, list):
+                    # Filter out non-integers and validate bounds in client just in case
+                    return [int(x) for x in selected_ids if str(x).isdigit()]
+            except Exception as e:
+                logging.error(f"Failed to parse selected deduplicated IDs: {e}. Output text: {text}")
+        return []
+
