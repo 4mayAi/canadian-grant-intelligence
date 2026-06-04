@@ -1,11 +1,15 @@
 ![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)
 
-# Canada's Funding & Procurement Pulse: Infrastructure Boom & Trade Tariffs Shape Opportunities (June 4, 2026)
+# Canada's AI Ambitions & Procurement Pulse: June 4, 2026 Insights
 
-🇨🇦 Canadian businesses, tune into today's key government developments! The extension of steel and aluminum tariffs signals ongoing support for domestic manufacturing, impacting supply chains and investment climates. Companies reliant on these materials should monitor costs and potential trade shifts.
+**🇨🇦 Prime Minister Carney Launches 'AI for All': Your Next Big Opportunity?**
 
-In a significant move for economic development, the government is consulting on extending the Canadian Journalism Labour Tax Credit. Media sector stakeholders and service providers should engage to influence its future and explore new partnership opportunities.
+Today marks a pivotal moment for Canadian innovation as Prime Minister Carney unveils "AI for All," a national strategy poised to drive $200 billion in economic growth and create 250,000 AI jobs over five years. Businesses offering AI solutions, compliance services, or talent development platforms should pay close attention as the government aims to boost AI adoption significantly.
 
-Furthermore, a new federal-provincial partnership with Quebec is set to inject $10 billion into local infrastructure over the next decade. This massive investment in housing, healthcare, transit, and education presents a decade of opportunity for construction, engineering, and technology firms. As a concrete tender, the RFI W6369-27A033 for Role 2 Basis Highly Mobile Infrastructure closes on July 3rd, 2026, a key opportunity for defense and logistics suppliers.
+The Canadian government is also extending steel and aluminum tariff measures to support domestic industries, impacting supply chains and raw material costs. Companies in manufacturing and those relying on imported metals need to monitor these ongoing protections for strategic planning.
+
+In procurement news, a $90 million loan facility was provided to C.A.T. North America Inc., underscoring continued federal support for critical national transportation and logistics. Businesses in this sector seeking growth capital or demonstrating Canadian job creation may find similar government financial instruments relevant.
+
+Finally, consultations are underway to extend the Canadian Journalism Labour Tax Credit. Organizations supporting or operating within the media sector should engage to influence policy and explore new service opportunities.
 
 Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
