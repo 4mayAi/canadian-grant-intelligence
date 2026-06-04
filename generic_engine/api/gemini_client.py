@@ -281,10 +281,12 @@ class GeminiClient:
         Tasks:
         1. Group the articles by the underlying real-world news event they describe.
         2. For each event group, select exactly ONE article that is the most authoritative and has the highest B2B strategic value.
+        3. Identify and FILTER OUT any articles that describe legacy, archival, or historical documents, reports, or guides (for example, guidelines, codes of conduct, or blueprints originally published years/decades ago, e.g. the 2006 ICMM Good Practice Guidance/Blueprint on Biodiversity) that are being re-syndicated, re-indexed, or re-promoted with a current date. We only want fresh, current B2B news events from the past 30 days. Do not select or return IDs for these historical/archival items.
         
         Rules:
         - If two or more articles describe the same event (even with different wording), select only one and discard the rest.
-        - If an article describes a unique event, retain it.
+        - If an article describes a unique current event, retain it.
+        - Do not select or return IDs for any legacy, historical, or archival articles, guides, or reports.
         - Return a raw JSON array containing only the selected 'ID' integers.
         
         Articles:

@@ -12,6 +12,12 @@ from schema import PipelineConfig
 from models import GeminiInsight, ReportItem, NewsWrapper, KPIDashboard
 from extractors.rss import fetch_rss_feeds
 from extractors.playwright_scraper import fetch_html_news
+from extractors.report_scraper import (
+    resolve_google_news_url,
+    is_high_value_report,
+    scrape_html_report,
+    scrape_pdf_report
+)
 from api.gemini_client import GeminiClient
 from api.azure_client import AzureClient
 from api.notifier import Notifier
@@ -152,6 +158,17 @@ def fetch_and_process_news(
     # Combine feeds
     combined_items = raw_rss + raw_html + retained_items
     
+    # Resolve Google News redirect URLs offline to original destination URLs
+    logging.info("Resolving Google News redirect URLs for ingested news items...")
+    for item in combined_items:
+        original_link = item['link']
+        try:
+            resolved_link = resolve_google_news_url(original_link)
+            if resolved_link != original_link:
+                item['link'] = resolved_link
+        except Exception as err:
+            logging.error(f"Failed to resolve URL {original_link}: {err}")
+            
     # Deduplicate URL keys
     seen_links = set()
     deduped_items = []
@@ -209,6 +226,24 @@ def fetch_and_process_news(
 
     if test_mode:
         unprocessed_items = unprocessed_items[:2]
+
+    # Enrich high-value reports with full-text content prior to analysis
+    for item in unprocessed_items:
+        if is_high_value_report(item['link'], item['title']):
+            logging.info(f"Detected high-value report: '{item['title']}'. Running text extraction...")
+            try:
+                if ".pdf" in item['link'].lower():
+                    extracted_text = scrape_pdf_report(item['link'])
+                else:
+                    extracted_text = scrape_html_report(item['link'])
+                
+                if extracted_text and len(extracted_text.strip()) > 200:
+                    item['text_to_search'] = extracted_text
+                    logging.info(f"Enriched '{item['title'][:40]}...' with {len(extracted_text)} characters of full text. Preview: {extracted_text[:100]}...")
+                else:
+                    logging.warning(f"Extracted content was empty or too thin. Falling back to default metadata.")
+            except Exception as exc:
+                logging.error(f"Error scraping high-value report: {exc}. Falling back to default metadata.")
 
     # Batch process new items to protect RPM ceilings
     BATCH_SIZE = 5
