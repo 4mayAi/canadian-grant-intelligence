@@ -1,17 +1,13 @@
 ![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)
 
-# Carney's $200B AI Strategy & Supply Chain Funding: Key Takeaways for Canadian Businesses
+# Carney's $200B AI Strategy & Federal Cash Spikes: June 2026 Procurement Playbook
 
-🚀 Prime Minister Carney has officially launched 'AI for All'—Canada's bold national artificial intelligence strategy designed to drive $200 billion in economic growth.
+🚀 **Prime Minister Carney has officially launched 'AI for All,' a massive national strategy aiming to drive $200B in economic growth.** This landmark policy signals immediate, high-value procurement opportunities for domestic B2B tech firms; AI developers should position themselves now to supply secure, ethical AI platforms to federal agencies looking to scale their adoption from 12% to 60%.
 
-This massive policy shift signals a major wave of federal procurement and funding designed to accelerate domestic AI adoption from 12% to 60%.
+Simultaneously, the rollout of the enhanced Canada Groceries and Essentials Benefit begins today. IT consulting and cybersecurity vendors should target the Canada Revenue Agency (CRA) immediately, as this massive surge in transactional volume demands urgent database upgrades, cloud-native payment platforms, and robust fraud prevention systems.
 
-With a goal to create 250,000 AI-related jobs over five years, Canadian tech firms offering ethical AI solutions, training, and secure infrastructure must position their procurement bids now to capitalize on this sovereign tech push.
-
-Simultaneously, Ottawa is reinforcing supply chain resilience, highlighted by a $90 million loan facility to C.A.T. North America Inc. Enterprise logistics and transport providers should closely track these Large Enterprise Tariff Loan Facility allocations to secure capital for fleet and infrastructure upgrades.
-
-Lastly, the extension of domestic steel and aluminum tariff measures continues to protect local manufacturing. Canadian builders and industrial suppliers must immediately audit their supply chains to leverage domestic sourcing incentives and offset rising import costs.
+Lastly, Ottawa's $90M loan facility to C.A.T. North America Inc. underscores a strong federal commitment to critical infrastructure. Enterprise logistics and supply chain software providers must leverage this momentum to pitch operational resilience and efficiency solutions to major domestic transport firms.
 
 Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
 
-#CanadaBusiness #AIPolicy #GovCon #SupplyChain #mayAi
+#GovCon #AIforAll #CanadianTech #Procurement #BusinessIntelligence
