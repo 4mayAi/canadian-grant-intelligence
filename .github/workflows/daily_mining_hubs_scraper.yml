@@ -1,8 +1,8 @@
 name: Global Mining Hubs Intelligence Pipeline
 
 on:
-  schedule:
-    - cron: '0 16 * * *' # Run daily at 16:00 UTC (12:00 PM EDT)
+#   schedule:
+#     - cron: '0 16 * * *' # Run daily at 16:00 UTC (12:00 PM EDT)
   workflow_dispatch:     # Allow manual runs
     inputs:
       lookback_days:
