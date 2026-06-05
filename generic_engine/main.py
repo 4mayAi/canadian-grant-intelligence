@@ -14,7 +14,6 @@ from extractors.rss import fetch_rss_feeds
 from extractors.playwright_scraper import fetch_html_news
 from extractors.report_scraper import (
     resolve_google_news_url,
-    is_high_value_report,
     scrape_html_report,
     scrape_pdf_report
 )
@@ -227,23 +226,22 @@ def fetch_and_process_news(
     if test_mode:
         unprocessed_items = unprocessed_items[:2]
 
-    # Enrich high-value reports with full-text content prior to analysis
+    # Enrich news items with full-text content prior to analysis
     for item in unprocessed_items:
-        if is_high_value_report(item['link'], item['title']):
-            logging.info(f"Detected high-value report: '{item['title']}'. Running text extraction...")
-            try:
-                if ".pdf" in item['link'].lower():
-                    extracted_text = scrape_pdf_report(item['link'])
-                else:
-                    extracted_text = scrape_html_report(item['link'])
-                
-                if extracted_text and len(extracted_text.strip()) > 200:
-                    item['text_to_search'] = extracted_text
-                    logging.info(f"Enriched '{item['title'][:40]}...' with {len(extracted_text)} characters of full text. Preview: {extracted_text[:100]}...")
-                else:
-                    logging.warning(f"Extracted content was empty or too thin. Falling back to default metadata.")
-            except Exception as exc:
-                logging.error(f"Error scraping high-value report: {exc}. Falling back to default metadata.")
+        logging.info(f"Running text extraction for: '{item['title']}'...")
+        try:
+            if ".pdf" in item['link'].lower():
+                extracted_text = scrape_pdf_report(item['link'])
+            else:
+                extracted_text = scrape_html_report(item['link'])
+            
+            if extracted_text and len(extracted_text.strip()) > 200:
+                item['text_to_search'] = extracted_text
+                logging.info(f"Enriched '{item['title'][:40]}...' with {len(extracted_text)} characters of full text. Preview: {extracted_text[:100]}...")
+            else:
+                logging.warning(f"Extracted content was empty or too thin. Falling back to default metadata.")
+        except Exception as exc:
+            logging.error(f"Error scraping news item: {exc}. Falling back to default metadata.")
 
     # Batch process new items to protect RPM ceilings
     BATCH_SIZE = 5
