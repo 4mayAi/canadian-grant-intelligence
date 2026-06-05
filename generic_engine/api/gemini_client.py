@@ -143,7 +143,7 @@ class GeminiClient:
         Each JSON object in the array must have exactly these three keys. For "strategic_value" and "co_bidding_opportunity", use markdown formatting inside the string:
         "linkedin_hook": "A 'Stop-the-scroll' high-impact opening line (include an emoji).",
         "strategic_value": "Consultative analysis of why this matters (use 3-5 markdown bullet points).",
-        "co_bidding_opportunity": "Identify gaps requiring a consortium."
+        "co_bidding_opportunity": "Based ONLY on facts stated in the source text, identify consortium or partnership opportunities. Do NOT invent technologies, programs, or partner types not mentioned in the input."
         
         Input Batch: {items_str}
         """
@@ -220,22 +220,24 @@ class GeminiClient:
             return hook.replace('"', '').replace('Hero Hook:', '').strip()
         return "mayAi | Delivering Golden Opportunities Daily"
 
-    def generate_linkedin_post(self, news_summaries: str) -> Optional[Dict[str, str]]:
+    def generate_linkedin_post(self, news_summaries: str, current_date: str = "") -> Optional[Dict[str, str]]:
         """Generates LinkedIn summary post in JSON format."""
+        date_str = f"Today's Date: {current_date}\n\n" if current_date else ""
         prompt = f"""You are a professional LinkedIn content strategist for a business intelligence brand called mayAi.
         {self.system_instruction}
         
         Write a single LinkedIn post (MAX 250 words) that summarizes today's updates. 
 
-        Rules:
+        {date_str}Rules:
         - Open with a bold, attention-grabbing hook line (use an emoji at the start)
         - Bridge political/policy context with actionable business opportunities
         - Highlight the 2-3 most impactful items from the news below
         - For each highlight, include ONE actionable sentence about who should pay attention and why
-        - End with a call-to-action redirecting readers to the dashboard
+        - End with a call-to-action: "Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/clusters/"
         - Close with exactly 5 relevant hashtags on their own line
         - Do NOT use bullet points for the main body — use short paragraphs
         - Tone: Authoritative but accessible (Bloomberg style).
+        - Factual Rigor: Only reference names, figures, and timeframes explicitly mentioned in the context below. Do not guess or assume the name of the Prime Minister. Do not guess dates or dollar amounts unless supported by the source text. Do not fabricate hashtags for organizations not mentioned.
         
         You MUST respond with a raw JSON object and nothing else.
         Format:

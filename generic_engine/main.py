@@ -409,8 +409,17 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         kpis = generate_dashboard_kpis(insights, gemini_client)
 
         # 5. Compile LinkedIn summary post
-        summaries_str = "\n".join([f"- {item['title']}: {item['insight'].get('linkedin_hook', '')}" for item in insights[:5]])
-        linkedin_post = gemini_client.generate_linkedin_post(summaries_str)
+        # Build enriched context: title + hook + full strategic_value for top 5 items
+        news_summaries_list = []
+        for item in insights[:5]:
+            title = item.get('title', '')
+            hook = item.get('insight', {}).get('linkedin_hook', '')
+            strat = item.get('insight', {}).get('strategic_value', '')
+            news_summaries_list.append(f"- **{title}**\n  *Hook:* {hook}\n  *Key Insights:* {strat}")
+        summaries_str = "\n\n".join(news_summaries_list)
+
+        today_str = datetime.utcnow().strftime("%B %d, %Y")
+        linkedin_post = gemini_client.generate_linkedin_post(summaries_str, current_date=today_str)
         suggested_post = linkedin_post.get("article_content", "No post text compiled.") if linkedin_post else ""
 
         # Post-process: Automatically hyperlink names in the body (using lookarounds to prevent double-wrapping)
