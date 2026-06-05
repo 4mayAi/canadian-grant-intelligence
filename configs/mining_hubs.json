@@ -56,8 +56,13 @@
     "IEA": "[IEA](https://www.iea.org/)"
   },
   "llm_settings": {
-    "model_primary": "gemini-3.1-flash-lite",
-    "model_fallback": "gemini-2.5-flash-lite",
+    "model_primary": "gemini-3.5-flash",
+    "model_fallbacks": [
+      "gemini-3-flash",
+      "gemini-2.5-flash",
+      "gemini-3.1-flash-lite",
+      "gemini-2.5-flash-lite"
+    ],
     "system_instruction": "You are a senior analyst specializing in the global mining industry. Synthesize news releases and articles into strategic B2B hooks focusing on positioning, competitiveness, and sustainability (ESG) across the 5 global mining hubs (Canada, Australia, China, Switzerland, UK)."
   },
   "storage": {

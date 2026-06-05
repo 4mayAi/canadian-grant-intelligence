@@ -19,7 +19,7 @@ class SourceConfig(BaseModel):
 
 class LLMSettings(BaseModel):
     model_primary: str
-    model_fallback: str
+    model_fallbacks: List[str]
     system_instruction: str
 
 class StorageConfig(BaseModel):

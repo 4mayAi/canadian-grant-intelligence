@@ -17,7 +17,7 @@ class TestGenericEngine(unittest.TestCase):
     def setUp(self):
         self.gemini_client = GeminiClient(
             primary_model="gemini-1.5-pro",
-            fallback_model="gemini-1.5-flash",
+            fallback_models=["gemini-1.5-flash"],
             system_instruction="system instruction"
         )
 
@@ -103,7 +103,7 @@ class TestGenericEngine(unittest.TestCase):
         mock_config.storage.kpis_file = "kpis.json"
         mock_config.storage.processed_urls_file = "processed.json"
         mock_config.llm_settings.model_primary = "gemini-1.5-pro"
-        mock_config.llm_settings.model_fallback = "gemini-1.5-flash"
+        mock_config.llm_settings.model_fallbacks = ["gemini-1.5-flash"]
         mock_config.llm_settings.system_instruction = "System prompt"
         mock_config.distribution.discord_webhook = None
         mock_config.distribution.smtp_recipient = None
@@ -154,6 +154,93 @@ class TestGenericEngine(unittest.TestCase):
             
             self.assertIn("current_date", called_kwargs)
             self.assertEqual(called_kwargs["current_date"], datetime.utcnow().strftime("%B %d, %Y"))
+
+    @patch('time.sleep')
+    @patch('requests.post')
+    def test_cascading_retries_and_zero_delay_pivoting(self, mock_post, mock_sleep):
+        # Set up responses:
+        # First call: primary_model "gemini-1.5-pro" gets 429 RPM rate limit.
+        # Second call: fallback_model "gemini-1.5-flash" gets 200 Success.
+        mock_resp_rate_limit = MagicMock()
+        mock_resp_rate_limit.status_code = 429
+        mock_resp_rate_limit.text = '{"error": {"message": "Resource has been exhausted (e.g. queries per minute)."}}'
+        
+        mock_resp_success = MagicMock()
+        mock_resp_success.status_code = 200
+        mock_resp_success.json.return_value = {
+            "candidates": [{
+                "content": {
+                    "parts": [{"text": '{"result": "success"}'}]
+                }
+            }]
+        }
+        
+        mock_post.side_effect = [mock_resp_rate_limit, mock_resp_success]
+        
+        client = GeminiClient(
+            primary_model="model-1",
+            fallback_models=["model-2"],
+            system_instruction="system instruction"
+        )
+        client.api_key = "mock-key"
+        
+        payload = {"contents": [{"parts": [{"text": "hello"}]}]}
+        res = client._retry_request(payload)
+        
+        self.assertIsNotNone(res)
+        self.assertEqual(mock_post.call_count, 2)
+        args_first = mock_post.call_args_list[0][0][0]
+        args_second = mock_post.call_args_list[1][0][0]
+        self.assertIn("model-1", args_first)
+        self.assertIn("model-2", args_second)
+        
+        self.assertEqual(client.stats["requests_rate_limited"], 1)
+        self.assertEqual(client.stats["model_fallbacks"], 1)
+        self.assertEqual(client.stats["requests_success"], 1)
+        self.assertEqual(len(client.blacklisted_models), 0)
+
+    @patch('time.sleep')
+    @patch('requests.post')
+    def test_daily_quota_exhaustion_blacklisting(self, mock_post, mock_sleep):
+        # First call: model-1 returns 429 daily quota exhausted.
+        # Second call: model-2 returns 200 success.
+        # Third call: model-1 is bypassed, only model-2 is tried.
+        mock_resp_daily_limit = MagicMock()
+        mock_resp_daily_limit.status_code = 429
+        mock_resp_daily_limit.text = '{"error": {"message": "GenerateContent request limit exceeded"}}'
+        
+        mock_resp_success = MagicMock()
+        mock_resp_success.status_code = 200
+        mock_resp_success.json.return_value = {
+            "candidates": [{
+                "content": {
+                    "parts": [{"text": '{"result": "success"}'}]
+                }
+            }]
+        }
+        
+        mock_post.side_effect = [mock_resp_daily_limit, mock_resp_success, mock_resp_success]
+        
+        client = GeminiClient(
+            primary_model="model-1",
+            fallback_models=["model-2"],
+            system_instruction="system instruction"
+        )
+        client.api_key = "mock-key"
+        
+        payload = {"contents": [{"parts": [{"text": "hello"}]}]}
+        res1 = client._retry_request(payload)
+        
+        self.assertIsNotNone(res1)
+        self.assertEqual(mock_post.call_count, 2)
+        self.assertIn("model-1", mock_post.call_args_list[0][0][0])
+        self.assertIn("model-2", mock_post.call_args_list[1][0][0])
+        self.assertIn("model-1", client.blacklisted_models)
+        
+        res2 = client._retry_request(payload)
+        self.assertIsNotNone(res2)
+        self.assertEqual(mock_post.call_count, 3)
+        self.assertIn("model-2", mock_post.call_args_list[2][0][0])
 
 if __name__ == "__main__":
     unittest.main()

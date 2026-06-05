@@ -33,8 +33,13 @@
     "Digital Supercluster": "[Digital Supercluster](https://digitalsupercluster.ca/)"
   },
   "llm_settings": {
-    "model_primary": "gemini-3.1-flash-lite",
-    "model_fallback": "gemini-2.5-flash",
+    "model_primary": "gemini-3.5-flash",
+    "model_fallbacks": [
+      "gemini-3-flash",
+      "gemini-2.5-flash",
+      "gemini-3.1-flash-lite",
+      "gemini-2.5-flash-lite"
+    ],
     "system_instruction": "You are a senior analyst specializing in Canada's Global Innovation Clusters. Synthesize news releases into strategic B2B hooks focusing on consortium opportunities, target technologies, eligibility criteria, and matching co-investment rates."
   },
   "storage": {

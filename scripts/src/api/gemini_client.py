@@ -11,10 +11,13 @@ class GeminiClient:
     def __init__(self):
         self.api_key = os.getenv("GEMINI_API_KEY")
         self.fallback_models = [
-            "gemini-2.5-flash-lite",
+            "gemini-3.5-flash",
+            "gemini-3-flash",
+            "gemini-2.5-flash",
             "gemini-3.1-flash-lite",
-            "gemini-1.5-flash"
+            "gemini-2.5-flash-lite"
         ]
+        self.blacklisted_models = set()
         # Quality telemetry
         self.stats = {
             "requests_total": 0,
@@ -28,12 +31,25 @@ class GeminiClient:
     def get_stats(self) -> dict:
         """Return a copy of the quality telemetry counters."""
         return dict(self.stats)
+
+    def _is_daily_limit(self, response_text: str) -> bool:
+        try:
+            err_lower = response_text.lower()
+            if "queries per day" in err_lower or "per day" in err_lower or "daily" in err_lower:
+                return True
+            if "quota exceeded" in err_lower or "limit exceeded" in err_lower:
+                if "minute" not in err_lower:
+                    return True
+            if "exhausted" in err_lower and "minute" not in err_lower:
+                return True
+        except Exception:
+            pass
+        return False
         
-    def _get_url(self, model_index: int = 0) -> str:
-        model_name = self.fallback_models[model_index % len(self.fallback_models)]
+    def _get_url(self, model_name: str) -> str:
         return f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={self.api_key}"
         
-    def _retry_request(self, payload: Dict[str, Any], max_retries: int = 3) -> Optional[Dict[str, Any]]:
+    def _retry_request(self, payload: Dict[str, Any], max_retries: int = 5) -> Optional[Dict[str, Any]]:
         if not self.api_key:
             logging.error("GEMINI_API_KEY not found.")
             return None
@@ -41,21 +57,43 @@ class GeminiClient:
         # Algorithmic Pacing: Guarantee < 15 RPM by waiting 4.1s before any request
         time.sleep(4.1)
         self.stats["requests_total"] += 1
-        
-        for attempt in range(max_retries):
-            url = self._get_url(attempt) # Fallback to next model on retry
+
+        active_models = [m for m in self.fallback_models if m not in self.blacklisted_models]
+        if not active_models:
+            logging.error("All models in the cascade are blacklisted due to quota exhaustion.")
+            return None
+
+        attempt = 0
+        max_attempts = max(max_retries, len(active_models))
+        model_idx = 0
+
+        while attempt < max_attempts and model_idx < len(active_models):
+            model_name = active_models[model_idx]
+            url = self._get_url(model_name)
             try:
                 response = requests.post(url, json=payload, timeout=30)
                 
                 if response.status_code in (429, 503):
                     # Exponential backoff for rate limits + model waterfall pivot
                     self.stats["requests_rate_limited"] += 1
-                    if attempt > 0:
+                    
+                    is_daily = response.status_code == 429 and self._is_daily_limit(response.text)
+                    if is_daily:
+                        logging.warning(f"Gemini model {model_name} exhausted its daily limit. Blacklisting it for the remainder of this run.")
+                        self.blacklisted_models.add(model_name)
+                    
+                    if is_daily or (model_idx < len(active_models) - 1):
+                        logging.warning(f"Gemini Rate limited ({response.status_code}) on {model_name}. Zero-delay pivoting to next model...")
                         self.stats["model_fallbacks"] += 1
-                    wait_time = (2 ** attempt) * 15  # 15s, 30s, 60s
-                    logging.warning(f"Gemini Rate limited ({response.status_code}). Pivoting model and waiting {wait_time}s before retry {attempt + 1}/{max_retries}...")
-                    time.sleep(wait_time)
-                    continue
+                        model_idx += 1
+                        attempt += 1
+                        continue
+                    else:
+                        wait_time = (2 ** attempt) * 15  # 15s, 30s, 60s
+                        logging.warning(f"Gemini Rate limited ({response.status_code}) on last available model {model_name}. Waiting {wait_time}s before retry...")
+                        time.sleep(wait_time)
+                        attempt += 1
+                        continue
                     
                 if response.status_code != 200:
                     logging.error(f"Gemini API error (Status {response.status_code}): {response.text}")
@@ -67,12 +105,18 @@ class GeminiClient:
                 return response.json()
                 
             except requests.exceptions.RequestException as e:
-                logging.error(f"Gemini API request failed: {e}")
+                logging.error(f"Gemini API request failed for model {model_name}: {e}")
                 if hasattr(e, 'response') and e.response is not None:
                     logging.error(f"Gemini API error response body: {e.response.text}")
-                if attempt == max_retries - 1:
+                
+                if model_idx < len(active_models) - 1:
+                    logging.warning(f"Request exception on {model_name}. Pivoting to next model...")
+                    self.stats["model_fallbacks"] += 1
+                    model_idx += 1
+                    attempt += 1
+                    continue
+                else:
                     return None
-                time.sleep(5)
                 
         return None
 

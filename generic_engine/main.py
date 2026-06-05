@@ -374,7 +374,7 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
     azure_client = AzureClient(container_name=config.storage.azure_container)
     gemini_client = GeminiClient(
         primary_model=config.llm_settings.model_primary,
-        fallback_model=config.llm_settings.model_fallback,
+        fallback_models=config.llm_settings.model_fallbacks,
         system_instruction=config.llm_settings.system_instruction
     )
     notifier = Notifier(
