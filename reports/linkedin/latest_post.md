@@ -1,13 +1,17 @@
 ![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)
 
-# Canada's AI Ambition & Infrastructure Focus: Key Government Funding & Procurement Moves on June 4, 2026
+# Carney's $200B AI Strategy & Supply Chain Funding: Key Takeaways for Canadian Businesses
 
-**🇨🇦 AI for All & Infrastructure Funding: Your Competitive Edge in Canada's Evolving Market! 🚀**
+🚀 Prime Minister Carney has officially launched 'AI for All'—Canada's bold national artificial intelligence strategy designed to drive $200 billion in economic growth.
 
-Prime Minister Carney's launch of "AI for All" marks a pivotal moment, injecting $200 billion into economic growth and aiming to significantly boost AI adoption. Businesses offering AI solutions, responsible deployment services, or talent development platforms should prepare for increased government demand and private sector opportunities driven by this national strategy. This initiative underscores a commitment to advancing Canadian technological sovereignty.
+This massive policy shift signals a major wave of federal procurement and funding designed to accelerate domestic AI adoption from 12% to 60%.
 
-Simultaneously, the government is extending steel and aluminum tariff measures, signalling a continued focus on domestic manufacturing and supply chain resilience. Companies within these sectors, or those relying on these materials, need to strategize around potential cost fluctuations and domestic sourcing incentives.
+With a goal to create 250,000 AI-related jobs over five years, Canadian tech firms offering ethical AI solutions, training, and secure infrastructure must position their procurement bids now to capitalize on this sovereign tech push.
 
-The government also highlighted its support for national transportation and logistics through a $90 million loan facility to C.A.T. North America Inc. This demonstrates ongoing federal backing for critical infrastructure and supply chain strength, presenting potential partnership or service opportunities for logistics-focused enterprises.
+Simultaneously, Ottawa is reinforcing supply chain resilience, highlighted by a $90 million loan facility to C.A.T. North America Inc. Enterprise logistics and transport providers should closely track these Large Enterprise Tariff Loan Facility allocations to secure capital for fleet and infrastructure upgrades.
 
-Stay ahead of these critical policy shifts and funding announcements. Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
+Lastly, the extension of domestic steel and aluminum tariff measures continues to protect local manufacturing. Canadian builders and industrial suppliers must immediately audit their supply chains to leverage domestic sourcing incentives and offset rising import costs.
+
+Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
+
+#CanadaBusiness #AIPolicy #GovCon #SupplyChain #mayAi
