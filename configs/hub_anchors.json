@@ -1,70 +1,70 @@
 {
   "Canada": [
     {
-      "id": 1,
+      "id": 10,
       "fact": "In 2024, the mining industry directly contributed CAD $111 billion (approx. USD $81.5 billion) to Canada's Gross Domestic Product (GDP), representing 3.6% of the national economy.",
       "source": "MAC Facts & Figures 2026",
       "pages": "Page 1",
       "url": "https://mining.ca/wp-content/uploads/2026/05/Facts-Figures-2026.pdf"
     },
     {
-      "id": 2,
+      "id": 11,
       "fact": "The mining and mineral processing sector directly employs 438,000 workers and supports an additional 272,000 indirect jobs.",
       "source": "MAC Facts & Figures 2026",
       "pages": "Page 1",
       "url": "https://mining.ca/wp-content/uploads/2026/05/Facts-Figures-2026.pdf"
     },
     {
-      "id": 3,
+      "id": 12,
       "fact": "The mining industry is one of the largest private-sector employers of Indigenous Peoples in Canada, employing 22,600 Indigenous workers (7.5% of total workforce).",
       "source": "MAC Facts & Figures 2026",
       "pages": "Page 2",
       "url": "https://mining.ca/wp-content/uploads/2026/05/Facts-Figures-2026.pdf"
     },
     {
-      "id": 4,
+      "id": 13,
       "fact": "Mining exports reached a record CAD $152 billion (approx. USD $111.6 billion) in 2024, representing 21% of all Canadian merchandise exports (51% to US).",
       "source": "MAC Facts & Figures 2026",
       "pages": "Page 3",
       "url": "https://mining.ca/wp-content/uploads/2026/05/Facts-Figures-2026.pdf"
     },
     {
-      "id": 5,
+      "id": 14,
       "fact": "Canadian production of transition minerals has declined since 2015: copper down 23%, nickel down 44%, and iron ore down 6%.",
       "source": "MAC Facts & Figures 2026",
       "pages": "Page 3",
       "url": "https://mining.ca/wp-content/uploads/2026/05/Facts-Figures-2026.pdf"
     },
     {
-      "id": 6,
+      "id": 15,
       "fact": "The inflation-adjusted GDP of the Canadian mining sector in 2024 remained at levels virtually identical to those of 2007, showing stagnant growth.",
       "source": "MAC Facts & Figures 2026",
       "pages": "Page 1",
       "url": "https://mining.ca/wp-content/uploads/2026/05/Facts-Figures-2026.pdf"
     },
     {
-      "id": 7,
+      "id": 16,
       "fact": "Ontario remains Canada's largest producer with a total mineral production value of CAD $13.5 billion (approx. USD $9.9 billion), followed by Quebec at CAD $12.8 billion (approx. USD $9.4 billion) and British Columbia at CAD $11.2 billion (approx. USD $8.2 billion).",
       "source": "MAC Facts & Figures 2026",
       "pages": "Page 4",
       "url": "https://mining.ca/wp-content/uploads/2026/05/Facts-Figures-2026.pdf"
     },
     {
-      "id": 8,
+      "id": 17,
       "fact": "Regulatory delays under the federal Impact Assessment Act (IAA) mean it takes an average of 12 to 15 years to bring a new critical mineral mine from discovery to production in Canada.",
       "source": "MAC Facts & Figures 2026",
       "pages": "Page 5",
       "url": "https://mining.ca/wp-content/uploads/2026/05/Facts-Figures-2026.pdf"
     },
     {
-      "id": 9,
+      "id": 18,
       "fact": "Ontario's Ring of Fire region suffers from a severe grid and all-weather road infrastructure deficit, blocking access to multi-billion dollar nickel, copper, and chromite deposits.",
       "source": "MAC Facts & Figures 2026",
       "pages": "Page 5",
       "url": "https://mining.ca/wp-content/uploads/2026/05/Facts-Figures-2026.pdf"
     },
     {
-      "id": 10,
+      "id": 19,
       "fact": "Remote off-grid mines face an average carbon tax liability of CAD $4.2 million (approx. USD $3.15 million) annually if they cannot transition from diesel generation to renewable microgrids.",
       "source": "MAC Facts & Figures 2026",
       "pages": "Page 6",
@@ -73,63 +73,63 @@
   ],
   "Australia": [
     {
-      "id": 11,
+      "id": 1,
       "fact": "In the 2023-24 financial year, the minerals sector contributed a record AUD $59.4 billion (approx. USD $39.2 billion) in company taxes and royalties to Australian governments.",
       "source": "MCA Annual Report 2025",
       "pages": "Page 2",
       "url": "https://www.minerals.org.au/reports"
     },
     {
-      "id": 12,
+      "id": 2,
       "fact": "Over the past decade, the Australian minerals sector has contributed a cumulative total of AUD $394.6 billion (approx. USD $260.4 billion) in company taxes and royalties.",
       "source": "MCA Annual Report 2025",
       "pages": "Page 2",
       "url": "https://www.minerals.org.au/reports"
     },
     {
-      "id": 13,
+      "id": 3,
       "fact": "Over the last decade, Australia's resources sector generated a total of AUD $2.9 trillion (approx. USD $1.91 trillion) in export revenues.",
       "source": "MCA Annual Report 2025",
       "pages": "Page 3",
       "url": "https://www.minerals.org.au/reports"
     },
     {
-      "id": 14,
+      "id": 4,
       "fact": "The industry directly employed 303,300 workers in 2023-24 (87% permanent full-time), while the broader METS sector supports an additional 1.1 million jobs.",
       "source": "MCA Annual Report 2025",
       "pages": "Page 3",
       "url": "https://www.minerals.org.au/reports"
     },
     {
-      "id": 15,
+      "id": 5,
       "fact": "The minerals sector contributed AUD $569.1 million (approx. USD $375.6 million) in direct spending in Victoria and supported a growing mineral resources boom in the Northern Territory.",
       "source": "MCA Annual Report 2025",
       "pages": "Page 4",
       "url": "https://www.minerals.org.au/reports"
     },
     {
-      "id": 16,
+      "id": 6,
       "fact": "The national rollout of the Towards Sustainable Mining (TSM) Australia framework provides site-level metrics on safety, tailings, and water stewardship.",
       "source": "MCA Annual Report 2025",
       "pages": "Page 5",
       "url": "https://www.minerals.org.au/reports"
     },
     {
-      "id": 17,
+      "id": 7,
       "fact": "Proposed multi-employer bargaining and labor hire rule changes could cost the Australian mining sector AUD $1.2 billion (approx. USD $792 million) annually in lost productivity.",
       "source": "MCA Annual Report 2025",
       "pages": "Page 6",
       "url": "https://www.minerals.org.au/reports"
     },
     {
-      "id": 18,
+      "id": 8,
       "fact": "The Australian Government allocated AUD $105.9 million (approx. USD $69.9 million) to expedite environmental assessments under the EPBC Act using AI technologies.",
       "source": "MCA Annual Report 2025",
       "pages": "Page 6",
       "url": "https://www.minerals.org.au/reports"
     },
     {
-      "id": 19,
+      "id": 9,
       "fact": "The Critical Minerals Facility was expanded to AUD $4 billion (approx. USD $2.64 billion) to support downstream processing plants like nickel sulphate and lithium hydroxide refineries.",
       "source": "MCA Annual Report 2025",
       "pages": "Page 7",
@@ -189,21 +189,21 @@
   ],
   "Switzerland": [
     {
-      "id": 27,
+      "id": 32,
       "fact": "Switzerland acts as a major global commodities trading hub, hosting over 500 trading firms that manage significant global metal and mineral transactions.",
       "source": "SUISSENEGOCE Report 2025",
       "pages": "Page 1",
       "url": "https://suissenegoce.ch/"
     },
     {
-      "id": 28,
+      "id": 33,
       "fact": "Swiss legislation mandates that commodity firms disclose all payments to governments exceeding CHF 100,000 (approx. USD $110,000) annually to enhance transparency.",
       "source": "SUISSENEGOCE Report 2025",
       "pages": "Page 2",
       "url": "https://suissenegoce.ch/"
     },
     {
-      "id": 30,
+      "id": 34,
       "fact": "Swiss commodity firms must comply with new supply chain due diligence regulations covering child labor, conflict minerals, and ESG risks across their supply networks.",
       "source": "SUISSENEGOCE Report 2025",
       "pages": "Page 3",
@@ -212,35 +212,35 @@
   ],
   "Global": [
     {
-      "id": 31,
+      "id": 27,
       "fact": "ICMM's 25 member companies represent one-third of the global mining industry and are committed to the Nature Position Statement and its 5-Point Plan.",
       "source": "ICMM Annual Review 2024",
       "pages": "Page 1",
       "url": "https://www.icmm.com/en-gb/news-and-analysis"
     },
     {
-      "id": 32,
+      "id": 28,
       "fact": "ICMM members commit to 'Target Zero' fatalities; member operations recorded 31 occupational fatalities globally in 2023, down from 33 in 2022.",
       "source": "ICMM Annual Review 2024",
       "pages": "Page 2",
       "url": "https://www.icmm.com/en-gb/news-and-analysis"
     },
     {
-      "id": 33,
+      "id": 29,
       "fact": "85% of ICMM members' high-consequence tailings facilities achieved full compliance with the Global Industry Standard on Tailings Management (GISTM).",
       "source": "ICMM Annual Review 2024",
       "pages": "Page 2",
       "url": "https://www.icmm.com/en-gb/news-and-analysis"
     },
     {
-      "id": 34,
+      "id": 30,
       "fact": "ICMM is piloting Taskforce on Nature-related Financial Disclosures (TNFD) reporting frameworks across 12 member sites to standardize environmental accounting.",
       "source": "ICMM Annual Review 2024",
       "pages": "Page 3",
       "url": "https://www.icmm.com/en-gb/news-and-analysis"
     },
     {
-      "id": 35,
+      "id": 31,
       "fact": "ICMM members have committed to double the use of recycled secondary metals in their processing plants by 2035 to reduce resource intensity.",
       "source": "ICMM Annual Review 2024",
       "pages": "Page 4",
