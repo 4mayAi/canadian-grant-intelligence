@@ -516,7 +516,17 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
                 digest_md += f"**View Full Interactive Dashboard**: {config.dashboard_url}\n"
                 
                 logging.info("Sending success digest email via SMTP...")
-                notifier.send_digest(email_subject, digest_md, social_card_local_path)
+                topic_name = config.display_name
+                from_name = config.display_name
+                if from_name.endswith(" Intelligence"):
+                    from_name = from_name[:-13]
+                notifier.send_digest(
+                    subject=email_subject,
+                    markdown_content=digest_md,
+                    social_card_path=social_card_local_path,
+                    from_name=from_name,
+                    topic_name=topic_name
+                )
             except Exception as mail_err:
                 logging.error(f"Failed to distribute daily clusters email digest: {mail_err}")
 
