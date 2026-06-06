@@ -1,0 +1,91 @@
+name: Global Mining Hubs Anchors Updater
+
+on:
+  workflow_dispatch:
+    inputs:
+      hub:
+        description: 'Target Hub (Canada | Australia | China | Switzerland | Global)'
+        required: false
+        default: ''
+        type: string
+      url:
+        description: 'Manual PDF URL to ingest'
+        required: false
+        default: ''
+        type: string
+      source_name:
+        description: 'Manual Source Report Name'
+        required: false
+        default: ''
+        type: string
+      force:
+        description: 'Force updates even if URL already processed (true/false)'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  update-anchors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Anchors Update Engine
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+        run: |
+          ARGS=""
+          HUB="${{ github.event.inputs.hub }}"
+          URL="${{ github.event.inputs.url }}"
+          SOURCE_NAME="${{ github.event.inputs.source_name }}"
+          FORCE="${{ github.event.inputs.force }}"
+          
+          if [ ! -z "$HUB" ]; then
+            ARGS="$ARGS --hub $HUB"
+          fi
+          if [ ! -z "$URL" ]; then
+            ARGS="$ARGS --url $URL"
+          fi
+          if [ ! -z "$SOURCE_NAME" ]; then
+            ARGS="$ARGS --source-name \"$SOURCE_NAME\""
+          fi
+          if [ "$FORCE" = "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+          
+          # Run the update script
+          eval "python scripts/update_anchors.py $ARGS"
+
+      - name: Commit and Push Local Seed Updates
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add configs/hub_anchors.json
+          git commit -m "Automated Hub Anchors DB update: $(date +'%Y-%m-%d')" || exit 0
+          
+          # Retry loop for push concurrency
+          for i in {1..3}; do
+            git pull --rebase origin main
+            if git push; then
+              echo "Push successful!"
+              break
+            else
+              echo "Push failed, retrying in 5 seconds..."
+              sleep 5
+            fi
+          done
