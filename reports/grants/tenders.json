@@ -691,5 +691,27 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "GD"
+    },
+    {
+        "type": "Open",
+        "title": "RFP - F7013-260023-A - IPMS Spare parts",
+        "description": "*Electronic Components and Supplies",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015210?anId=ANONYMOUS",
+        "closing_date": "2026-07-02T14:00:00",
+        "publication_date": "2026-06-05",
+        "province": "Nova Scotia",
+        "province_abbrev": "NS",
+        "category": "GD"
+    },
+    {
+        "type": "Open",
+        "title": "RFP - Enterprise Architecture Software as a Service (SaaS) Solution",
+        "description": "*Cloud-based software as a service",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012467?anId=ANONYMOUS",
+        "closing_date": "2026-06-12T14:00:00",
+        "publication_date": "2026-05-07",
+        "province": "Ontario",
+        "province_abbrev": "ON",
+        "category": "SRV"
     }
 ]
