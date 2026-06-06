@@ -88,6 +88,33 @@
             font-size: 11px;
             font-weight: 600;
         }
+        .badge-mets {
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 11px;
+            font-weight: 600;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        .mets-ops {
+            background: rgba(239, 68, 68, 0.1) !important;
+            color: #f87171 !important;
+            border-color: rgba(239, 68, 68, 0.3) !important;
+        }
+        .mets-esg {
+            background: rgba(34, 197, 94, 0.1) !important;
+            color: #4ade80 !important;
+            border-color: rgba(34, 197, 94, 0.3) !important;
+        }
+        .mets-digital {
+            background: rgba(59, 130, 246, 0.1) !important;
+            color: #60a5fa !important;
+            border-color: rgba(59, 130, 246, 0.3) !important;
+        }
+        .mets-pmo {
+            background: rgba(245, 158, 11, 0.1) !important;
+            color: #fbbf24 !important;
+            border-color: rgba(245, 158, 11, 0.3) !important;
+        }
         .navigation-links {
             display: flex;
             gap: 10px;
@@ -356,6 +383,7 @@
                         }
 
                         const displaySource = (item.source || '').replace('_News', '').replace('_', ' ');
+                        const metsClass = innerInsight.mets_category ? innerInsight.mets_category.toLowerCase().trim() : '';
 
                         signalsHtml += `
                             <details class="report-section">
@@ -364,6 +392,7 @@
                                     ${innerInsight.linkedin_hook ? `<div class="hook-subtitle">${escapeHtml(innerInsight.linkedin_hook)}</div>` : ''}
                                     <div class="report-meta">
                                         <span class="badge-hub">📡 ${escapeHtml(displaySource)}</span>
+                                        ${innerInsight.mets_category ? `<span class="badge-mets ${escapeHtml(metsClass)}">🛠️ ${escapeHtml(innerInsight.mets_category)}</span>` : ''}
                                         <span>📅 ${formatDate(item.date)}</span>
                                     </div>
                                 </summary>
@@ -371,7 +400,28 @@
                                     <div class="insight-content">
                                         ${innerHtml || '<p style="color: var(--text-muted)">No insight available.</p>'}
                                     </div>
-                                    ${item.link ? `<a class="opp-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener" style="margin-top: 15px; display: inline-block;">View Original Report ↗</a>` : ''}
+                                    
+                                    ${innerInsight.mets_rationalization ? `
+                                    <details class="anchor-alignment-details" style="margin-top: 15px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 12px;">
+                                        <summary style="font-size: 13px; color: #ffd700; cursor: pointer; font-weight: 600; user-select: none;">
+                                            ⚓ Strategic Anchor Alignment (Slow-Moving Policy Connection)
+                                        </summary>
+                                        <div style="font-size: 13.5px; line-height: 1.6; color: var(--text-secondary); margin-top: 8px; font-family: 'Inter', sans-serif;">
+                                            ${escapeHtml(innerInsight.mets_rationalization)}
+                                        </div>
+                                    </details>
+                                    ` : ''}
+                                    
+                                    <div class="ref-footer" style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 12px; font-size: 12px; flex-wrap: wrap; gap: 10px;">
+                                        ${innerInsight.anchor_reference ? `
+                                        <span style="color: var(--text-muted);">
+                                            📖 Reference: <strong>${escapeHtml(innerInsight.anchor_reference.source_name)}</strong>, ${escapeHtml(innerInsight.anchor_reference.page_range)}
+                                            <a href="${escapeHtml(innerInsight.anchor_reference.url)}" target="_blank" rel="noopener" style="color: #ffd700; text-decoration: underline; margin-left: 5px;">View Report PDF ↗</a>
+                                        </span>
+                                        ` : '<span style="color: var(--text-muted);">📖 Reference: General Industry News Feed</span>'}
+                                        
+                                        ${item.link ? `<a class="opp-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener" style="font-weight: 600; color: #ffd700;">View Original Release ↗</a>` : ''}
+                                    </div>
                                 </div>
                             </details>
                         `;

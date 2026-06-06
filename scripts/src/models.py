@@ -8,6 +8,10 @@ class GeminiInsight:
     linkedin_hook: str = ""
     strategic_value: str = "No insight available"
     co_bidding_opportunity: str = ""
+    mets_category: str = ""
+    mets_rationalization: str = ""
+    grounded_fact_ids: List[int] = field(default_factory=list)
+    anchor_reference: Optional[Dict[str, Any]] = None
     
     def to_dict(self):
         from dataclasses import asdict

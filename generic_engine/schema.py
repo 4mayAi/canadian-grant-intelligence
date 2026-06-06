@@ -27,6 +27,7 @@ class StorageConfig(BaseModel):
     processed_urls_file: str
     insights_file: str
     kpis_file: str
+    anchors_file: Optional[str] = "hub_anchors.json"
 
 class DistributionConfig(BaseModel):
     discord_webhook: str

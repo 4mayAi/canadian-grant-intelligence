@@ -71,6 +71,19 @@ def load_and_validate_config(config_path: Optional[str] = None, config_url: Opti
     logging.info(f"Successfully loaded and validated configuration for topic: {validated_config.topic_id}")
     return validated_config
 
+def get_hub_from_source(source_name: str) -> str:
+    source_lower = source_name.lower()
+    if "canada" in source_lower:
+        return "Canada"
+    elif "australia" in source_lower:
+        return "Australia"
+    elif "china" in source_lower:
+        return "China"
+    elif "switzerland" in source_lower:
+        return "Switzerland"
+    else:
+        return "Global"
+
 def fetch_and_process_news(
     config: PipelineConfig,
     azure_client: AzureClient,
@@ -81,6 +94,36 @@ def fetch_and_process_news(
 ) -> List[dict]:
     """Fetches feed data (RSS + Playwright) concurrently, compares cache, and analyzes new items."""
     failed_feeds = []
+    
+    # Load Hub Anchors Database (with Azure loading, fallback seed, and auto-upload)
+    hub_anchors = {}
+    local_seed_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'configs', 'hub_anchors.json'))
+    
+    try:
+        logging.info(f"Downloading hub anchors database from Azure: {config.storage.anchors_file}...")
+        azure_anchors = azure_client.download_json(config.storage.anchors_file)
+        if azure_anchors:
+            hub_anchors = azure_anchors
+            logging.info("Successfully loaded hub anchors from Azure Storage.")
+        else:
+            logging.warning("Hub anchors file not found in Azure. Seeding from local configs...")
+    except Exception as e:
+        logging.error(f"Error downloading hub anchors from Azure: {e}. Falling back to local seed...")
+        
+    if not hub_anchors:
+        try:
+            with open(local_seed_path, 'r', encoding='utf-8') as sf:
+                hub_anchors = json.load(sf)
+            logging.info(f"Loaded hub anchors from local seed file: {local_seed_path}")
+            
+            try:
+                logging.info(f"Uploading seed hub anchors to Azure: {config.storage.anchors_file}...")
+                azure_client.upload_json(config.storage.anchors_file, hub_anchors)
+                logging.info("Successfully seeded hub anchors in Azure Storage.")
+            except Exception as ue:
+                logging.error(f"Failed to seed hub anchors in Azure: {ue}")
+        except Exception as se:
+            logging.error(f"Failed to load local seed hub anchors: {se}")
     
     # Translate config schema objects to raw dicts for scraper engines
     sources_dict = [src.model_dump() for src in config.sources]
@@ -243,38 +286,73 @@ def fetch_and_process_news(
         except Exception as exc:
             logging.error(f"Error scraping news item: {exc}. Falling back to default metadata.")
 
-    # Batch process new items to protect RPM ceilings
-    BATCH_SIZE = 5
-    for i in range(0, len(unprocessed_items), BATCH_SIZE):
-        batch = unprocessed_items[i:i + BATCH_SIZE]
-        logging.info(f"Analyzing batch of {len(batch)} new news items with Gemini...")
-        
-        contents = [
-            f"Title: {item['title']}\nSource: {item['source']}\nDate: {item.get('date', 'Unknown')}\nContext: {item['text_to_search']}"
-            for item in batch
-        ]
-        
-        insight_models = gemini_client.get_gemini_insights_batch(contents)
-        
-        for item, insight_model in zip(batch, insight_models):
-            processed_urls.add(item['link'])
+    # Group unprocessed items by hub to prevent context contamination
+    items_by_hub = {}
+    for item in unprocessed_items:
+        hub = get_hub_from_source(item['source'])
+        if hub not in items_by_hub:
+            items_by_hub[hub] = []
+        items_by_hub[hub].append(item)
+
+    # Batch process new items by hub
+    for hub, hub_items in items_by_hub.items():
+        hub_facts = hub_anchors.get(hub, [])
+        anchor_context = ""
+        if hub_facts:
+            anchor_lines = []
+            for fact_obj in hub_facts:
+                anchor_lines.append(f"[Fact ID: {fact_obj['id']}] {fact_obj['fact']}")
+            anchor_context = "\n".join(anchor_lines)
+
+        BATCH_SIZE = 5
+        for i in range(0, len(hub_items), BATCH_SIZE):
+            batch = hub_items[i:i + BATCH_SIZE]
+            logging.info(f"Analyzing batch of {len(batch)} news items for hub '{hub}' with Gemini...")
             
-            # Relevancy Filtering: If Gemini returned "No insight available", discard the item
-            if insight_model.strategic_value == "No insight available":
-                logging.info(f"Discarding irrelevant/low-value news item: {item['title']}")
-                continue
+            contents = [
+                f"Title: {item['title']}\nSource: {item['source']}\nDate: {item.get('date', 'Unknown')}\nContext: {item['text_to_search']}"
+                for item in batch
+            ]
+            
+            insight_models = gemini_client.get_gemini_insights_batch(contents, anchor_context=anchor_context)
+            
+            for item, insight_model in zip(batch, insight_models):
+                processed_urls.add(item['link'])
+                
+                # Relevancy Filtering: If Gemini returned "No insight available", discard the item
+                if insight_model.strategic_value == "No insight available":
+                    logging.info(f"Discarding irrelevant/low-value news item: {item['title']}")
+                    continue
 
-            dt = item.get('date')
-            date_str = dt.isoformat() + "Z" if isinstance(dt, datetime) else str(dt)
+                # Dynamically resolve references from grounded_fact_ids to prevent LLM hallucinations
+                anchor_reference = None
+                if insight_model.grounded_fact_ids:
+                    resolved_facts = []
+                    for fid in insight_model.grounded_fact_ids:
+                        matching_fact = next((f for f in hub_facts if f["id"] == fid), None)
+                        if matching_fact:
+                            resolved_facts.append({
+                                "source_name": matching_fact["source"],
+                                "page_range": matching_fact["pages"],
+                                "url": matching_fact["url"]
+                            })
+                    if resolved_facts:
+                        # Standardize reference on the primary utilized fact
+                        anchor_reference = resolved_facts[0]
+                
+                insight_model.anchor_reference = anchor_reference
 
-            report_item_dict = {
-                "source": item['source'],
-                "title": item['title'],
-                "link": item['link'],
-                "date": date_str,
-                "insight": insight_model.to_dict()
-            }
-            final_insights.append(report_item_dict)
+                dt = item.get('date')
+                date_str = dt.isoformat() + "Z" if isinstance(dt, datetime) else str(dt)
+
+                report_item_dict = {
+                    "source": item['source'],
+                    "title": item['title'],
+                    "link": item['link'],
+                    "date": date_str,
+                    "insight": insight_model.to_dict()
+                }
+                final_insights.append(report_item_dict)
 
     # Sort final insights descending by date
     def parse_date_safely(item):

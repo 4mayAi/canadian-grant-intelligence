@@ -184,11 +184,15 @@ class GeminiClient:
                 logging.error(f"Failed to parse strategic priorities: {e}")
         return []
 
-    def get_gemini_insights_batch(self, contents: List[str], strategic_context: Optional[List[str]] = None) -> List[GeminiInsight]:
+    def get_gemini_insights_batch(self, contents: List[str], strategic_context: Optional[List[str]] = None, anchor_context: Optional[str] = None) -> List[GeminiInsight]:
         """Analyzes a batch of news/tender items and extracts strategic insights."""
         context_str = ""
         if strategic_context:
             context_str = f"\nCURRENT STRATEGIC PRIORITIES:\n- " + "\n- ".join(strategic_context)
+            
+        anchor_str = ""
+        if anchor_context:
+            anchor_str = f"\nSTRATEGIC ANCHOR FACT DATABASE (Use these to ground B2B hooks):\n{anchor_context}\n"
             
         items_str = ""
         for idx, content in enumerate(contents):
@@ -199,16 +203,25 @@ class GeminiClient:
         prompt = f"""
         {self.system_instruction}
         
-        Analyze the following batch of {len(contents)} items.{context_str}
+        Analyze the following batch of {len(contents)} items.{context_str}{anchor_str}
         
         You MUST respond with a raw JSON array containing exactly {len(contents)} objects. Ensure the array order strictly matches the order of the input items.
         
         CRITICAL: If the content is just a routine schedule, placeholder, or lacks strategic business value, you MUST set the strategic_value field EXACTLY to \"No insight available\". Do not write anything else in that field.
         
-        Each JSON object in the array must have exactly these three keys. For "strategic_value" and "co_bidding_opportunity", use markdown formatting inside the string:
+        Each JSON object in the array must have exactly these six keys. For "strategic_value" and "co_bidding_opportunity", use markdown formatting inside the string:
         "linkedin_hook": "A 'Stop-the-scroll' high-impact opening line (include an emoji).",
         "strategic_value": "Consultative analysis of why this matters (use 3-5 markdown bullet points).",
-        "co_bidding_opportunity": "Based ONLY on facts stated in the source text, identify consortium or partnership opportunities. Do NOT invent technologies, programs, or partner types not mentioned in the input."
+        "co_bidding_opportunity": "Based ONLY on facts stated in the source text, identify consortium or partnership opportunities. Do NOT invent technologies, programs, or partner types not mentioned in the input.",
+        "mets_category": "Classify this opportunity into exactly one of these 4 MECE categories: 'METS-Ops' | 'METS-ESG' | 'METS-Digital' | 'METS-PMO'. Choose based on the primary B2B supply contract type (e.g. EV trucks = Ops; autonomous software = Digital; environmental monitoring = ESG).",
+        "mets_rationalization": "Explain how this connects the daily signal to the hub's long-term regulatory or financial anchor.",
+        "grounded_fact_ids": "A list of integer Fact IDs utilized from the STRATEGIC ANCHOR FACT DATABASE. Match the B2B hook strictly against the provided [Fact ID: X] tags. If no facts from the database were used, output []."
+        
+        Refined MECE METS Classifications:
+        * 'METS-Ops': Physical machinery, fleet electrification, physical processing plants, drilling equipment, and logistics.
+        * 'METS-ESG': Tailings safety (GISTM), water stewardship, carbon capture, land reclamation, environmental audits, and community relations.
+        * 'METS-Digital': AI-driven permitting, 5G remote operations, geological modeling software, Data Centers (edge compute, green data storage hubs), and Space Tech (satellite remote sensing/InSAR, telemetry, Starlink site connectivity).
+        * 'METS-PMO': Pre-feasibility engineering, legal permitting advisory, and Joint Venture/offtake transaction support.
         
         Input Batch: {items_str}
         """
@@ -233,24 +246,34 @@ class GeminiClient:
                 parsed_array = json.loads(clean_json_text(text))
                 if isinstance(parsed_array, list):
                     for parsed in parsed_array:
+                        # Extract and type check grounded_fact_ids
+                        fact_ids = parsed.get("grounded_fact_ids", [])
+                        if not isinstance(fact_ids, list):
+                            fact_ids = []
+                        fact_ids = [int(fid) for fid in fact_ids if str(fid).isdigit()]
+                        
                         insights.append(GeminiInsight(
                             linkedin_hook=parsed.get("linkedin_hook", ""),
                             strategic_value=parsed.get("strategic_value", "No insight available"),
-                            co_bidding_opportunity=parsed.get("co_bidding_opportunity", "")
+                            co_bidding_opportunity=parsed.get("co_bidding_opportunity", ""),
+                            mets_category=parsed.get("mets_category", "METS-PMO"),
+                            mets_rationalization=parsed.get("mets_rationalization", ""),
+                            grounded_fact_ids=fact_ids
                         ))
                     
                     while len(insights) < len(contents):
                         insights.append(GeminiInsight(strategic_value="Gemini API Error: Batch output length mismatch."))
                         self.stats["insights_api_error"] += 1
-
+ 
                     for ins in insights:
                         if ins.strategic_value == "No insight available":
                             self.stats["insights_no_value"] += 1
                         
                     return insights[:len(contents)]
                 
-            except json.JSONDecodeError:
-                logging.error(f"Failed to parse batch LLM JSON: {text}")
+            except Exception as e:
+                logging.error(f"Failed to parse batch LLM JSON: {e}")
+                logging.error(f"Raw text was: {text}")
                 
         feedback = data.get('promptFeedback', {}).get('blockReason', 'Unknown reason') if data else "Unknown"
         for _ in contents:
