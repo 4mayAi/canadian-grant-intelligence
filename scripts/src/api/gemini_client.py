@@ -7,12 +7,34 @@ import requests
 
 from src.models import GeminiInsight
 
+def clean_json_text(text: str) -> str:
+    """Replaces unescaped literal newlines and tabs inside JSON string values with escaped counterparts."""
+    if not text:
+        return ""
+    in_quote = False
+    escaped = False
+    cleaned = []
+    for char in text:
+        if char == '"' and not escaped:
+            in_quote = not in_quote
+        if char == '\\' and not escaped:
+            escaped = True
+        else:
+            escaped = False
+            
+        if in_quote and char in ('\n', '\r'):
+            cleaned.append('\\n')
+        elif in_quote and char == '\t':
+            cleaned.append('\\t')
+        else:
+            cleaned.append(char)
+    return "".join(cleaned)
+
 class GeminiClient:
     def __init__(self):
         self.api_key = os.getenv("GEMINI_API_KEY")
         self.fallback_models = [
             "gemini-3.5-flash",
-            "gemini-3-flash",
             "gemini-2.5-flash",
             "gemini-3.1-flash-lite",
             "gemini-2.5-flash-lite"
@@ -145,7 +167,7 @@ class GeminiClient:
         if data and 'candidates' in data and data['candidates']:
             try:
                 text = data['candidates'][0]['content']['parts'][0]['text']
-                return json.loads(text)
+                return json.loads(clean_json_text(text))
             except Exception as e:
                 logging.error(f"Failed to parse strategic priorities: {e}")
         return []
@@ -192,7 +214,7 @@ class GeminiClient:
         if 'candidates' in data and data['candidates']:
             text = data['candidates'][0]['content']['parts'][0]['text']
             try:
-                parsed_array = json.loads(text)
+                parsed_array = json.loads(clean_json_text(text))
                 if isinstance(parsed_array, list):
                     for parsed in parsed_array:
                         insights.append(GeminiInsight(
@@ -256,7 +278,7 @@ class GeminiClient:
         if 'candidates' in data and data['candidates']:
             text = data['candidates'][0]['content']['parts'][0]['text']
             try:
-                parsed = json.loads(text)
+                parsed = json.loads(clean_json_text(text))
                 return GeminiInsight(
                     linkedin_hook=parsed.get("linkedin_hook", ""),
                     strategic_value=parsed.get("strategic_value", "No insight available"),
@@ -334,7 +356,7 @@ class GeminiClient:
         if data and 'candidates' in data and data['candidates']:
             text = data['candidates'][0]['content']['parts'][0]['text']
             try:
-                return json.loads(text)
+                return json.loads(clean_json_text(text))
             except json.JSONDecodeError:
                 logging.error(f"Failed to parse LinkedIn post JSON: {text}")
         return None

@@ -242,5 +242,15 @@ class TestGenericEngine(unittest.TestCase):
         self.assertEqual(mock_post.call_count, 3)
         self.assertIn("model-2", mock_post.call_args_list[2][0][0])
 
+    def test_clean_json_text_literal_newlines_and_tabs(self):
+        from api.gemini_client import clean_json_text
+        raw_json_with_newlines = '{\n  "key": "line1\nline2",\n  "tab": "val1\tval2"\n}'
+        cleaned = clean_json_text(raw_json_with_newlines)
+        self.assertIn("line1\\nline2", cleaned)
+        self.assertIn("val1\\tval2", cleaned)
+        parsed = json.loads(cleaned)
+        self.assertEqual(parsed["key"], "line1\nline2")
+        self.assertEqual(parsed["tab"], "val1\tval2")
+
 if __name__ == "__main__":
     unittest.main()
