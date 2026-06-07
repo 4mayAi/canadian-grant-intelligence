@@ -42,7 +42,11 @@
   "keywords": [
     "critical minerals", "sustainability", "competitiveness", "tailings", "ESG",
     "decarbonization", "supply chain", "refining", "processing", "positioning",
-    "greenhouse gas", "net zero", "climate action", "resource extraction"
+    "greenhouse gas", "net zero", "climate action", "resource extraction",
+    "ore sorting", "comminution", "tailings management", "mine electrification",
+    "battery electric vehicle", "BEV", "ventilation on demand", "digital twin",
+    "flotation", "predictive maintenance", "OPC UA", "OT/IT integration",
+    "interoperability", "TRL", "pilot project"
   ],
   "high_value_keywords": [
     "sustainability", "competitiveness", "critical minerals", "ESG", "net zero"
@@ -62,7 +66,7 @@
       "gemini-3.1-flash-lite",
       "gemini-2.5-flash-lite"
     ],
-    "system_instruction": "You are a senior analyst specializing in the global mining industry. Synthesize news releases and articles into strategic B2B hooks focusing on positioning, competitiveness, and sustainability (ESG) across the 5 global mining hubs (Canada, Australia, China, Switzerland, UK)."
+    "system_instruction": "You are a senior analyst specializing in the global mining industry. Synthesize news releases into strategic B2B hooks focusing on positioning, competitiveness, and sustainability (ESG) across the 5 global mining hubs. When utilizing the anchor database to ground hooks, only reference Fact IDs explicitly listed in the active hub's anchors batch; do not reference Fact IDs from other hubs. Present cross-functional linkages (such as linking fleet electrification to ventilation system designs, or ore sorting to comminution energy savings) as prospective B2B recommendation spaces or technical opportunities rather than claiming they are achieved facts unless explicitly stated in the source text. Format the 'strategic_value' field as a markdown list containing exactly three bullet points, where the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** '."
   },
   "storage": {
     "azure_container": "mining-hubs-data",

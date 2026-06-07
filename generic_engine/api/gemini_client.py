@@ -211,7 +211,7 @@ class GeminiClient:
         
         Each JSON object in the array must have exactly these six keys. For "strategic_value" and "co_bidding_opportunity", use markdown formatting inside the string:
         "linkedin_hook": "A 'Stop-the-scroll' high-impact opening line (include an emoji).",
-        "strategic_value": "Consultative analysis of why this matters (use 3-5 markdown bullet points).",
+        "strategic_value": "Consultative analysis of why this matters. It MUST be a markdown list containing EXACTLY three bullet points. The third bullet point MUST start with the exact prefix '* **Consulting Pivot:** ' and propose an actionable B2B engagement angle.",
         "co_bidding_opportunity": "Based ONLY on facts stated in the source text, identify consortium or partnership opportunities. Do NOT invent technologies, programs, or partner types not mentioned in the input.",
         "mets_category": "Classify this opportunity into exactly one of these 4 MECE categories: 'METS-Ops' | 'METS-ESG' | 'METS-Digital' | 'METS-PMO'. Choose based on the primary B2B supply contract type (e.g. EV trucks = Ops; autonomous software = Digital; environmental monitoring = ESG).",
         "mets_rationalization": "Explain how this connects the daily signal to the hub's long-term regulatory or financial anchor.",

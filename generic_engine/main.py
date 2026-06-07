@@ -125,8 +125,49 @@ def fetch_and_process_news(
         except Exception as se:
             logging.error(f"Failed to load local seed hub anchors: {se}")
     
-    # Translate config schema objects to raw dicts for scraper engines
-    sources_dict = [src.model_dump() for src in config.sources]
+    # Translate config schema objects to raw dicts for scraper engines and construct dynamic search query parameters using keywords
+    from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
+    sources_dict = []
+    for src in config.sources:
+        src_dict = src.model_dump()
+        url = src_dict.get("url", "")
+        if src_dict.get("type") == "rss" and "news.google.com" in url and config.keywords:
+            try:
+                parsed = urlparse(url)
+                query_params = parse_qs(parsed.query)
+                if 'q' in query_params:
+                    original_q = query_params['q'][0]
+                    formatted_kws = [f'"{kw}"' if " " in kw else kw for kw in config.keywords]
+                    keywords_or = " OR ".join(formatted_kws)
+                    new_q = f"({original_q}) AND ({keywords_or})"
+                    query_params['q'] = [new_q]
+                    new_query = urlencode(query_params, doseq=True)
+                    new_url = urlunparse(parsed._replace(query=new_query))
+                    logging.info(f"Dynamically refactored query for source '{src_dict['name']}': {new_url}")
+                    src_dict["url"] = new_url
+            except Exception as e:
+                logging.error(f"Failed to dynamically construct search query for source '{src_dict['name']}': {e}")
+        
+        fallback_url = src_dict.get("fallback_url", "")
+        if fallback_url and src_dict.get("fallback_type") == "rss" and "news.google.com" in fallback_url and config.keywords:
+            try:
+                parsed = urlparse(fallback_url)
+                query_params = parse_qs(parsed.query)
+                if 'q' in query_params:
+                    original_q = query_params['q'][0]
+                    formatted_kws = [f'"{kw}"' if " " in kw else kw for kw in config.keywords]
+                    keywords_or = " OR ".join(formatted_kws)
+                    new_q = f"({original_q}) AND ({keywords_or})"
+                    query_params['q'] = [new_q]
+                    new_query = urlencode(query_params, doseq=True)
+                    new_fallback_url = urlunparse(parsed._replace(query=new_query))
+                    logging.info(f"Dynamically refactored fallback query for source '{src_dict['name']}': {new_fallback_url}")
+                    src_dict["fallback_url"] = new_fallback_url
+            except Exception as e:
+                logging.error(f"Failed to dynamically construct search query for fallback source '{src_dict['name']}': {e}")
+        
+        sources_dict.append(src_dict)
+
 
     # Ingest RSS feeds (max items slots per cluster)
     max_items = 3 if test_mode else 5
