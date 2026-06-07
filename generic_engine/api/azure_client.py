@@ -13,6 +13,14 @@ class AzureClient:
         if self.connection_string:
             try:
                 self.blob_service_client = BlobServiceClient.from_connection_string(self.connection_string)
+                # Ensure the container exists
+                try:
+                    container_client = self.blob_service_client.get_container_client(self.container_name)
+                    if not container_client.exists():
+                        container_client.create_container(public_access="blob")
+                        logging.info(f"Created Azure Container: {self.container_name} with public blob access")
+                except Exception as container_err:
+                    logging.warning(f"Could not verify or create container {self.container_name}: {container_err}")
                 logging.info(f"Initialized Azure Blob Client for container: {container_name}")
             except Exception as e:
                 logging.error(f"Failed to initialize BlobServiceClient: {e}")
