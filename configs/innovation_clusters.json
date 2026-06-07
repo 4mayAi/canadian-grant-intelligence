@@ -45,7 +45,8 @@
     "azure_container": "clusters-data",
     "processed_urls_file": "processed_urls.json",
     "insights_file": "cluster_insights.json",
-    "kpis_file": "kpis.json"
+    "kpis_file": "kpis.json",
+    "manifest_file": "manifest.json"
   },
   "distribution": {
     "discord_webhook": "${DISCORD_WEBHOOK_CLUSTERS}",

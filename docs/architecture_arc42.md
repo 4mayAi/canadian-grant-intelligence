@@ -7,17 +7,18 @@ This document describes the software architecture of the Canadian Grant Intellig
 ## 1. Introduction and Goals
 
 ### 1.1 Requirements Overview
-The Canadian Grant Intelligence platform (mayAi) is a high-fidelity monitoring and synthesis pipeline. It continuously scrapes federal and provincial procurement portals, grant databases, and political communication channels to deliver daily intelligence digests to business analysts, co-bidders, and decision-makers.
+The Canadian Grant Intelligence platform (mayAi) is a high-fidelity monitoring and synthesis pipeline. It continuously scrapes federal and provincial procurement portals, grant databases, political communication channels, and international mining reports to deliver daily intelligence digests to business analysts, co-bidders, and decision-makers.
 
 Key features:
 - Scrapes CanadaBuys CSV databases, ISED feed, Finance Canada, PMO announcements, and Global Affairs Canada feeds.
+- Scrapes global mining industry reports and press releases across 5 major hubs: Canada, Australia, China, Switzerland, and the UK.
 - Synthesizes complex regulatory updates into strategic hooks using LLMs.
 - Publishes daily reports to public dashboards and automatically distributes formatted HTML newsletters to email subscribers.
 
 ### 1.2 Quality Goals
 1. **Robustness & Reliability**: Zero silent errors. All execution failures must trigger immediate alerting via Discord Webhooks and SMTP.
 2. **Data Consistency**: Automated output validation using schema checks and freshness controls prevents corrupt or empty reports from corrupting the production dashboard.
-3. **Auditable Archives**: Complete execution history, enabling historical date browsing through date-scoped reports in Azure Blob Storage.
+3. **Auditable Archives**: Complete execution history, enabling historical date browsing through date-scoped reports in Azure Blob Storage using a date manifest architecture.
 4. **Environment Isolation**: Standardized execution via Docker containers, eliminating host dependency differences and Playwright startup snags.
 
 ### 1.3 Stakeholders & Personas
@@ -45,10 +46,11 @@ graph TD
         IS[ISED RSS/Atom]
         FC[Finance Canada RSS/Atom]
         GA[Global Affairs Google News RSS]
+        MH[Mining Hub Feeds (MAC, MCA, CMA, SUISSENEGOCE, LME, ICMM, IEA)]
     end
 
     subgraph mayAi Orchestration & Cloud Context
-        GHA[GitHub Actions Cron Runner]
+        GHA[GitHub Actions Runner]
         AB[Azure Blob Storage]
         LLM[Gemini API]
         SMTP[SMTP Mail Server]
@@ -65,11 +67,12 @@ graph TD
     IS -->|RSS Feed Parser| GHA
     FC -->|RSS Feed Parser| GHA
     GA -->|RSS Feed Parser| GHA
+    MH -->|Playwright / Google News RSS| GHA
 
     GHA -->|Batch Prompting| LLM
     LLM -->|JSON Insights| GHA
 
-    GHA -->|Upload tenders.json, kpis.json, etc.| AB
+    GHA -->|Upload reports, manifest, etc.| AB
     GHA -->|Notify failures| DIS
     GHA -->|Dispatch daily newsletter| SMTP
 
@@ -94,25 +97,28 @@ Key strategies include:
 
 ## 5. Building Block View
 
-### 5.1 Scraper Pipeline Components (scripts/src/)
+### 5.1 Scraper Pipeline Components (generic_engine/)
+
+The scraping and synthesis engine is built as a generic, configuration-driven multi-topic processor:
 
 ```
-scripts/src/
+generic_engine/
 ├── main.py                    # Orchestrates extraction, analysis, validation, and upload
-├── config.py                  # Environment parsing and global configurations
+├── schema.py                  # Pydantic schemas validating configs (PipelineConfig)
+├── models.py                  # Dataclass schemas for Tenders, Insights, and KPIs
 ├── extractors/
 │   ├── ckan.py                # Interacts with CanadaBuys CKAN API for CSV files
-│   ├── rss.py                 # Fetches and parses RSS feeds (PMO, ISED, Finance, Global Affairs)
-│   └── playwright_scraper.py  # Standby scraper for dynamic pages (currently inactive)
-├── models.py                  # Dataclass schemas for Tenders, Insights, and KPIs
+│   ├── rss.py                 # Fetches and parses RSS feeds with dynamic keyword parameters
+│   └── playwright_scraper.py  # Headless browser crawler for JS-rendered news feeds
 └── api/
-    ├── azure_client.py        # Wrapper for Azure Blob Storage operations
+    ├── azure_client.py        # Wrapper for Azure Blob Storage with auto-bootstrap checks
     ├── gemini_client.py       # Batch querying wrapper for Gemini LLM
     ├── notifier.py            # Failure notification handler (Discord + Email)
     └── mail_sender.py         # Subscriptions digest and HTML newsletter compiler
 ```
 
-- **main.py**: The orchestrator. Coordinates the scraping, calls LLM synthesis, triggers the output validator, uploads results to Azure, and coordinates the subscriber email broadcast.
+- **main.py**: The orchestrator. Coordinates feed scraping, deduplication, LLM synthesis, triggers the output validator, compiles date manifests, and uploads reports to Azure Blob storage.
+- **schema.py**: Enforces strict configuration schemas (supporting parameters like `manifest_file`, source overrides, and metadata) to allow running different pipelines (Innovation Clusters, Mining Hubs) under the same orchestrator.
 - **validate_outputs.py**: Validates schemas and age freshness prior to cloud uploading.
 - **notifier.py**: Handles error alerts, pushing embedded Markdown reports to Discord webhooks and plain-text SMTP warnings to administrators.
 - **mail_sender.py**: Downloads the active subscriber index (`subscribers.json`) and runs individual SMTP runs containing the daily HTML digest and social card attachment.
@@ -194,3 +200,5 @@ The system enforces strict data verification. If any check fails inside `validat
 - **Model Waterfall (Fallback Strategy)**: The LLM client implements a tiered routing pattern. If a primary endpoint (`gemini-2.5-flash-lite`) is saturated or exhausts its daily RPD quota, the client traps the exception and dynamically pivots the payload to an equivalent secondary endpoint (`gemini-3.1-flash-lite`), which maintains a completely isolated quota bucket.
 - **Self-Healing News Cache**: Using the live `pmo_insights.json` file as the cache, allowing missing or corrupted items to automatically heal and old ones to prune natively, bypassing the restrictive `processed_urls.json` filter.
 - **Feed Failure Resilience**: Tracking individual RSS feed statuses during parsing. If a feed source fails, the system automatically retains all existing insights in `pmo_insights.json` belonging to that source, preventing data loss due to temporary network or server outages.
+- **Self-Healing Storage Bootstrapping**: Azure storage containers (such as `mining-hubs-data`) are verified and dynamically created with public blob access on first pipeline upload. This removes manual container creation tasks and guarantees zero-downtime deployment in new clouds.
+- **Shared Multi-Topic Ingestion Architecture**: Standardizing on a generic Pydantic config-driven architecture (`generic_engine/`) rather than individual hardcoded pipelines increases code reuse, ensures consistent telemetry metrics, and eases onboarding of new topic categories.
