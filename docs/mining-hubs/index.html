@@ -155,10 +155,16 @@
                 <p id="hero-hook-text">Synthesizing mining intelligence...</p>
             </div>
 
-            <div class="header-controls">
-                <div class="status-badge" id="update-status">
+            <div class="header-controls" style="display: flex; align-items: center; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                <div class="status-badge" id="update-status" style="margin: 0;">
                     <span class="status-dot"></span>
                     Updated: <span id="last-update-time">Loading...</span>
+                </div>
+                <div class="date-selector" style="display: flex; align-items: center; gap: 8px;">
+                    <span class="toggle-label" style="font-size: 13px; font-weight: 500; color: var(--text-secondary);">Archive:</span>
+                    <select id="date-select" class="filter-select" onchange="selectHistoricalDate(this.value)" style="padding: 6px 36px 6px 12px; margin: 0; height: 32px; font-size: 12px; background-position: right 10px center; border-radius: 6px;">
+                        <option value="latest">Latest Run</option>
+                    </select>
                 </div>
             </div>
         </header>
@@ -218,29 +224,43 @@
     <script>
         const TOPIC_ID = 'mining-hubs';
         const AZURE_CONTAINER_URL = 'https://canadiangrants.blob.core.windows.net/mining-hubs-data';
-        
-        // Dynamic dual-path urls for maximum durability (CORS and Network offline isolation)
-        const INSIGHTS_AZURE = `${AZURE_CONTAINER_URL}/mining_insights.json`;
-        const KPIS_AZURE = `${AZURE_CONTAINER_URL}/mining_kpis.json`;
-        
-        const INSIGHTS_LOCAL = `../data/${TOPIC_ID}/mining_insights.json`;
-        const KPIS_LOCAL = `../data/${TOPIC_ID}/mining_kpis.json`;
+        const MANIFEST_AZURE = `${AZURE_CONTAINER_URL}/manifest.json`;
+        const MANIFEST_LOCAL = `../data/${TOPIC_ID}/manifest.json`;
 
+        let currentDate = 'latest';
         let cachedData = null;
 
-        async function fetchJSON(azureUrl, localUrl) {
+        function getUrl(type, source = 'azure') {
+            if (source === 'azure') {
+                return currentDate === 'latest'
+                    ? (type === 'kpis' ? `${AZURE_CONTAINER_URL}/mining_kpis.json` : `${AZURE_CONTAINER_URL}/mining_insights.json`)
+                    : (type === 'kpis' ? `${AZURE_CONTAINER_URL}/reports/${TOPIC_ID}_kpis_${currentDate}.json` : `${AZURE_CONTAINER_URL}/reports/${TOPIC_ID}_insights_${currentDate}.json`);
+            } else {
+                return currentDate === 'latest'
+                    ? (type === 'kpis' ? `../data/${TOPIC_ID}/mining_kpis.json` : `../data/${TOPIC_ID}/mining_insights.json`)
+                    : (type === 'kpis' ? `../data/${TOPIC_ID}/reports/${TOPIC_ID}_kpis_${currentDate}.json` : `../data/${TOPIC_ID}/reports/${TOPIC_ID}_insights_${currentDate}.json`);
+            }
+        }
+
+        async function fetchJSON(type) {
+            const azureUrl = getUrl(type, 'azure');
+            const localUrl = getUrl(type, 'local');
             try {
                 // 1. Attempt Azure download first
                 const res = await fetch(azureUrl);
                 if (!res.ok) throw new Error(`Azure HTTP Error: status ${res.status}`);
                 return await res.json();
             } catch (e) {
-                console.warn(`Azure CDN unreachable or CORS blocked. Pivoting to GitHub local backup. Error:`, e);
-                
-                // 2. Fallback to local Pages backup
-                const res = await fetch(localUrl);
-                if (!res.ok) throw new Error(`Fallback HTTP Error: status ${res.status}`);
-                return await res.json();
+                if (currentDate === 'latest') {
+                    console.warn(`Azure CDN unreachable or CORS blocked. Pivoting to GitHub local backup. Error:`, e);
+                    // 2. Fallback to local Pages backup
+                    const res = await fetch(localUrl);
+                    if (!res.ok) throw new Error(`Fallback HTTP Error: status ${res.status}`);
+                    return await res.json();
+                } else {
+                    // For historical runs, no local backup is committed.
+                    throw new Error(`Failed to load historical data from Azure: ${e.message}`);
+                }
             }
         }
 
@@ -298,7 +318,7 @@
 
         async function loadKPIs() {
             try {
-                const kpis = await fetchJSON(KPIS_AZURE, KPIS_LOCAL);
+                const kpis = await fetchJSON('kpis');
 
                 // Render Hero Hook
                 if (kpis.hero_hook) {
@@ -325,7 +345,7 @@
             const signalsContent = document.getElementById('signalsContent');
             const digestContent = document.getElementById('digestContent');
             try {
-                const data = await fetchJSON(INSIGHTS_AZURE, INSIGHTS_LOCAL);
+                const data = await fetchJSON('insights');
                 cachedData = data;
 
                 const insights = data.insights || [];
@@ -439,7 +459,9 @@
                 // 3. Render executive digest side-by-side with social card
                 let digestHtml = '';
                 if (data.linkedin_post) {
-                    const socialCardUrl = `${AZURE_CONTAINER_URL}/latest_social_card.png`;
+                    const socialCardUrl = currentDate === 'latest'
+                        ? `${AZURE_CONTAINER_URL}/latest_social_card.png`
+                        : `${AZURE_CONTAINER_URL}/social_card_${currentDate}.png`;
                     const socialCardLocalFallback = `../data/${TOPIC_ID}/social_card.png`;
 
                     digestHtml = `
@@ -492,8 +514,52 @@
             }
         }
 
+        async function loadManifest() {
+            try {
+                // Eagerly try to load the manifest from Azure container, fallback to local backup path
+                let dates = [];
+                try {
+                    const res = await fetch(MANIFEST_AZURE);
+                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                    dates = await res.json();
+                } catch (e) {
+                    console.warn("Failed to load manifest from Azure, trying local fallback:", e);
+                    const res = await fetch(MANIFEST_LOCAL);
+                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                    dates = await res.json();
+                }
+
+                if (Array.isArray(dates) && dates.length > 0) {
+                    const select = document.getElementById('date-select');
+                    let html = '<option value="latest">Latest Run</option>';
+                    dates.forEach(date => {
+                        const d = new Date(date + 'T12:00:00');
+                        const dateFormatted = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+                        html += `<option value="${date}">${dateFormatted}</option>`;
+                    });
+                    select.innerHTML = html;
+                }
+            } catch (e) {
+                console.error('Failed to load date manifest:', e);
+            }
+        }
+
+        async function selectHistoricalDate(date) {
+            currentDate = date;
+
+            // Show loading spinners in views
+            document.getElementById('signalsContent').innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading historical intelligence...</p></div>';
+            document.getElementById('digestContent').innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading historical digest...</p></div>';
+
+            await Promise.all([
+                loadKPIs(),
+                loadInsights()
+            ]);
+        }
+
         async function init() {
             // Run sequentially to prevent race conditions during DOM injection
+            await loadManifest();
             await loadKPIs();
             await loadInsights();
         }

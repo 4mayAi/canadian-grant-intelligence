@@ -571,6 +571,25 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         with open(kpis_local_path, "w", encoding="utf-8") as f:
             json.dump(kpis, f, indent=2, ensure_ascii=False)
             
+        date_str = datetime.utcnow().strftime("%Y-%m-%d")
+        local_manifest = []
+        if config.storage.manifest_file:
+            manifest_local_path = os.path.join(output_dir, config.storage.manifest_file)
+            if os.path.exists(manifest_local_path):
+                try:
+                    with open(manifest_local_path, "r", encoding="utf-8") as f:
+                        local_manifest = json.load(f)
+                except Exception as e:
+                    logging.warning(f"Failed to load local manifest: {e}")
+            if not isinstance(local_manifest, list):
+                local_manifest = []
+            if date_str not in local_manifest:
+                local_manifest.append(date_str)
+            local_manifest.sort(reverse=True)
+            with open(manifest_local_path, "w", encoding="utf-8") as f:
+                json.dump(local_manifest, f, indent=2, ensure_ascii=False)
+            logging.info(f"Local manifest updated at {manifest_local_path}: {local_manifest}")
+
         logging.info(f"Local files generated successfully inside: {output_dir}")
 
         # 6. Generate social card image using Playwright
@@ -605,13 +624,24 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
             # Upload social card binary image
             if os.path.exists(social_card_local_path):
                 azure_client.upload_file(social_card_local_path, "latest_social_card.png", "image/png")
-                date_str = datetime.utcnow().strftime("%Y-%m-%d")
                 azure_client.upload_file(social_card_local_path, f"social_card_{date_str}.png", "image/png")
             
             # Historical backup archive
-            date_str = datetime.utcnow().strftime("%Y-%m-%d")
             azure_client.upload_json(f"reports/{config.topic_id}_insights_{date_str}.json", pmo_wrapper)
             azure_client.upload_json(f"reports/{config.topic_id}_kpis_{date_str}.json", kpis)
+
+            # Compile and upload remote manifest
+            if config.storage.manifest_file:
+                remote_manifest = azure_client.download_json(config.storage.manifest_file)
+                if remote_manifest is None or not isinstance(remote_manifest, list):
+                    logging.info("Remote manifest not found or invalid. Initializing from local manifest.")
+                    remote_manifest = local_manifest
+                else:
+                    if date_str not in remote_manifest:
+                        remote_manifest.append(date_str)
+                    remote_manifest.sort(reverse=True)
+                azure_client.upload_json(config.storage.manifest_file, remote_manifest)
+                logging.info(f"Uploaded updated manifest to Azure: {remote_manifest}")
 
             # Sync processed URLs list
             if len(processed_urls) > initial_url_count:
