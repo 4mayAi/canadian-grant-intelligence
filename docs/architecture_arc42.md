@@ -160,15 +160,14 @@ sequenceDiagram
     end
 ```
 
-### 6.2 PMO News & Insights Data Flow
+### 6.2 News & Insights Data Flow (Multi-Topic)
 
-The "PMO News & Insights" dashboard tab is generated through a 4-phase pipeline:
-1. **Extraction**: `main.py` orchestrates `rss.py` to ingest new announcements from government domains (PMO, ISED, Finance Canada, Global Affairs Canada) via standard RSS/Atom feeds.
-2. **Caching & Deduplication**: The active `pmo_insights.json` acts as the cache. Links in the active feeds are matched against this cache; if found, their insights are reused directly to bypass Gemini. If not, they are added to the processing queue.
-3. **AI Synthesis**: Batches of new/un-cached news texts are transmitted to the `gemini_client.py` where the LLM extracts actionable hooks. A macroeconomic summary is then synthesized into a daily post.
-4. **Cloud Storage**: The insights and the post are packaged into a JSON wrapper and pushed to Azure Blob Storage as `pmo_insights.json`, operating entirely without a relational database.
-5. **Client-Side Rendering**: When the frontend tab is activated, vanilla JavaScript in `index.html` asynchronously fetches `pmo_insights.json$
-6. **Client-Side Rendering**: When the frontend tab is activated, vanilla JavaScript in `index.html` asynchronously fetches `pmo_insights.json` from Azure. The payload is mapped directly to the DOM, parsing the Markdown via `marked.js` and expanding individual insights into `<details>` accordion cards.
+All news and insights dashboard sections (e.g., PMO News, Innovation Clusters, and Global Mining Hubs) are processed dynamically via the config-driven runtime:
+1. **Extraction**: `main.py` orchestrates `rss.py` (and standby Playwright scrapers) to ingest new announcements from configured domains (e.g., government feeds for Grants/Clusters, global peak bodies like MAC/MCA/ICMM for Mining Hubs).
+2. **Caching & Deduplication**: The active insights file (e.g., `pmo_insights.json` or `mining_insights.json`) acts as the cache. Links in the active feeds are matched against this cache; if found, their insights are reused directly to bypass Gemini. If not, they are passed to the Gemini Client for duplicate clustering and analysis.
+3. **AI Synthesis**: Uncached items are packaged and sent to `gemini_client.py` where the LLM resolves strategic value B2B hooks and ESG metrics, grounding the output against the slow-moving anchor database.
+4. **Cloud Storage & Manifesting**: The generated insights and executive post are stored in Azure Blob Storage. The run date is compiled into the `manifest.json` file.
+5. **Client-Side Historical Rendering**: When the user changes the "Archive" dropdown in the static dashboard UI, vanilla JavaScript dynamically fetches the manifest, resolves the date-scoped JSON paths from Azure, and updates the layout dynamically.
 
 ---
 
