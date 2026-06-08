@@ -691,5 +691,16 @@
         "province": "Ontario",
         "province_abbrev": "ON",
         "category": "SRV"
+    },
+    {
+        "type": "New",
+        "title": "Request for Information - Public Opinion Research",
+        "description": "*Polling and survey and public opinion monitoring and analysis*Focus group and public feedback meeting facilitation and analysis",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015214?anId=ANONYMOUS",
+        "closing_date": "2026-07-05T23:59:00",
+        "publication_date": "2026-06-08",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRV"
     }
 ]
