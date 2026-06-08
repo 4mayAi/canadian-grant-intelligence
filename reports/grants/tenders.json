@@ -702,5 +702,16 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "SRV"
+    },
+    {
+        "type": "New",
+        "title": "W8472-225864 Dive Tender Replacement Project RFI",
+        "description": "*Marine construction services",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015325?anId=ANONYMOUS",
+        "closing_date": "2026-08-11T14:00:00",
+        "publication_date": "2026-06-08",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "GD"
     }
 ]
