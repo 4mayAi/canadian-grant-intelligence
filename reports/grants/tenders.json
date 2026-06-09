@@ -713,5 +713,16 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "GD"
+    },
+    {
+        "type": "New",
+        "title": "ED001-270019 - Elevator Upgrade and Lift Replacement – Charlottetown Prince Edward Island",
+        "description": "*Building and Facility Construction and Maintenance Services*Elevator maintenance services*Infrastructure maintenance and repair services*Commercial and office building construction services*Commercial and office building renovation and repair service*Specialized trade construction and maintenance services",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015317?anId=ANONYMOUS",
+        "closing_date": "2026-07-09T14:00:00",
+        "publication_date": "2026-06-08",
+        "province": "Prince Edward Island",
+        "province_abbrev": "PE",
+        "category": "CNST"
     }
 ]
