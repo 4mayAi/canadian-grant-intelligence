@@ -559,7 +559,7 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         summaries_str = "\n\n".join(news_summaries_list)
 
         today_str = datetime.utcnow().strftime("%B %d, %Y")
-        linkedin_post = gemini_client.generate_linkedin_post(summaries_str, current_date=today_str)
+        linkedin_post = gemini_client.generate_linkedin_post(summaries_str, current_date=today_str, dashboard_url=config.dashboard_url)
         suggested_post = linkedin_post.get("article_content", "No post text compiled.") if linkedin_post else ""
 
         # Post-process: Automatically hyperlink names in the body (using lookarounds to prevent double-wrapping)

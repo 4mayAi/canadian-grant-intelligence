@@ -308,9 +308,10 @@ class GeminiClient:
             return hook.replace('"', '').replace('Hero Hook:', '').strip()
         return "mayAi | Delivering Golden Opportunities Daily"
 
-    def generate_linkedin_post(self, news_summaries: str, current_date: str = "") -> Optional[Dict[str, str]]:
+    def generate_linkedin_post(self, news_summaries: str, current_date: str = "", dashboard_url: str = "") -> Optional[Dict[str, str]]:
         """Generates LinkedIn summary post in JSON format."""
         date_str = f"Today's Date: {current_date}\n\n" if current_date else ""
+        url_cta = dashboard_url if dashboard_url else "https://4mayAi.github.io/canadian-grant-intelligence/clusters/"
         prompt = f"""You are a professional LinkedIn content strategist for a business intelligence brand called mayAi.
         {self.system_instruction}
         
@@ -321,7 +322,7 @@ class GeminiClient:
         - Bridge political/policy context with actionable business opportunities
         - Highlight the 2-3 most impactful items from the news below
         - For each highlight, include ONE actionable sentence about who should pay attention and why
-        - End with a call-to-action: "Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/clusters/"
+        - End with a call-to-action: "Full dashboard with filters and strategic analysis 👉 {url_cta}"
         - Close with exactly 5 relevant hashtags on their own line
         - Do NOT use bullet points for the main body — use short paragraphs
         - Tone: Authoritative but accessible (Bloomberg style).
