@@ -8,14 +8,17 @@ Activities:
 - Prepared changes for `generic_engine/schema.py` and `generic_engine/main.py`.
 
 Summary:
-- Kickstarted the execution phase of the feed restoration plan.
+- Modified `generic_engine/schema.py` to add `skip_query_refactoring: Optional[bool] = False`.
+- Updated `generic_engine/main.py` with refactoring guards and mapped `"nrcan"` and `"geneva"` to Canada/Switzerland.
+- Updated `configs/mining_hubs.json` with Canada NRCan feed, China Policy feed, Swiss French Geneva feed, and translation instructions.
+- Documented system context diagram changes and design decisions in `docs/architecture_arc42_mining_hubs.md`.
+- Successfully executed local dry-run pipeline tests.
+- Committed and pushed changes to remote main branch.
+- Triggered manual GitHub Actions pipeline run `27255014358` and verified successful completion.
+- Pulled updated production JSON insights (including restored Canada/China and French-translated Swiss insights).
 
 Issues:
 - None.
 
 Next Steps:
-- Apply schema updates to `generic_engine/schema.py`.
-- Apply query refactoring bypass and source hub mapping fixes in `generic_engine/main.py`.
-- Apply configuration updates in `configs/mining_hubs.json`.
-- Apply architecture document updates in `docs/architecture_arc42_mining_hubs.md`.
-- Run a dry-run local validation test.
+- None. All tasks completed successfully.
