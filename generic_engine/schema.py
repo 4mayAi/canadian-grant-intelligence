@@ -8,6 +8,7 @@ class SourceConfig(BaseModel):
     type: str = Field(pattern="^(rss|ckan|html|html_playwright)$")
     fallback_url: Optional[str] = None
     fallback_type: Optional[str] = None
+    skip_query_refactoring: Optional[bool] = False
 
     @field_validator("url")
     @classmethod

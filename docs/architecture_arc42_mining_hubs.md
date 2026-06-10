@@ -43,9 +43,10 @@ Key features:
 graph TD
     subgraph External Ingestion Sources
         MAC[MAC Press Releases / PDFs]
+        NRCan[Natural Resources Canada]
         MCA[MCA News Feed / PDFs]
-        CMA[CMA & China Mineral Resources]
-        SUIS[SUISSENEGOCE CURATED NEWS]
+        CMA[China Export Policy Feeds]
+        SUIS[SUISSENEGOCE / Geneva Trading Feeds]
         LME[London Metal Exchange News]
         ICMM[ICMM ESG / GISTM PDFs]
         IEA[IEA Critical Minerals]
@@ -67,6 +68,7 @@ graph TD
 
     GCS -->|POST HTTP API Trigger| GHA
     MAC -->|Playwright / RSS Fallback| GHA
+    NRCan -->|RSS Ingestion| GHA
     MCA -->|Playwright / RSS Fallback| GHA
     CMA -->|RSS Ingestion| GHA
     SUIS -->|RSS Ingestion| GHA
@@ -217,3 +219,5 @@ By instructing the model to return *only* the matching integer IDs (`"grounded_f
 - **Offline Redirection Decoder**: Uses an offline Google News redirect URL decoder to resolve links prior to processing, maintaining clean caching keys and avoiding HTTP redirection delays for dashboard users.
 - **No-Relational-Database JSON Storage**: Storing datasets as structured, static JSON files in Azure Blob allows the frontend to operate without a server-side backend, reducing hosting costs.
 - **Exclusion of Gemstone & Luxury Hubs**: Gemstone trading and extraction hubs (e.g., Antwerp, Botswana, or South American gemstone mines) are excluded from the pipeline due to supply chain divergence (luxury consumer goods vs. industrial green-tech), data feed fragmentation (predominantly artisanal and un-structured ASM mining), and lack of alignment with B2B industrial grant and consortium frameworks.
+- **Per-source query-refactoring bypass**: Introduced `skip_query_refactoring` to allow specific RSS searches to bypass the generic B2B keyword `AND` appending logic. This allows thin or policy-specific sources (like NRCan and China Export Controls) to ingest highly targeted feeds without being filtered to zero by the 30-day lookback logic.
+- **Multi-language ingestion support**: Added French-language RSS ingestion for Geneva commodity trading (e.g. Glencore/Trafigura) with a translation instruction in the LLM system prompt. This expands geographical and business intelligence without polluting English-only search results.

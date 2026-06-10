@@ -7,7 +7,14 @@
     {
       "name": "Canada_Mining_News",
       "url": "https://news.google.com/rss/search?q=%22Mining+Association+of+Canada%22+OR+site:mining.ca/resources/press-releases/&hl=en-CA&gl=CA&ceid=CA:en",
-      "type": "rss"
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Canada_NRCan_News",
+      "url": "https://news.google.com/rss/search?q=%22Natural+Resources+Canada%22+mining+OR+%22NRCan%22+%22critical+minerals%22&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "skip_query_refactoring": true
     },
     {
       "name": "Australia_Mining_News",
@@ -16,13 +23,20 @@
     },
     {
       "name": "China_Mining_News",
-      "url": "https://news.google.com/rss/search?q=%22Zijin+Mining%22+OR+%22China+Mining+Association%22&hl=en-US&gl=US&ceid=US:en",
-      "type": "rss"
+      "url": "https://news.google.com/rss/search?q=%22China%22+%28%22export+controls%22+OR+%22export+ban%22%29+%28%22minerals%22+OR+%22rare+earth%22+OR+%22gallium%22+OR+%22germanium%22+OR+%22antimony%22%29&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "skip_query_refactoring": true
     },
     {
       "name": "Switzerland_Mining_News",
       "url": "https://news.google.com/rss/search?q=%22SUISSENEGOCE%22+OR+%22Swiss+Commodity+Trading%22+OR+%22Glencore%22+OR+%22Trafigura%22&hl=en-US&gl=US&ceid=US:en",
       "type": "rss"
+    },
+    {
+      "name": "Switzerland_Geneva_News",
+      "url": "https://news.google.com/rss/search?q=Glencore+OR+Trafigura+%22mati%C3%A8res+premi%C3%A8res%22&hl=fr&gl=CH&ceid=CH:fr",
+      "type": "rss",
+      "skip_query_refactoring": true
     },
     {
       "name": "UK_Mining_News",
@@ -41,16 +55,42 @@
     }
   ],
   "keywords": [
-    "critical minerals", "sustainability", "competitiveness", "tailings", "ESG",
-    "decarbonization", "supply chain", "refining", "processing", "positioning",
-    "greenhouse gas", "net zero", "climate action", "resource extraction",
-    "ore sorting", "comminution", "tailings management", "mine electrification",
-    "battery electric vehicle", "BEV", "ventilation on demand", "digital twin",
-    "flotation", "predictive maintenance", "OPC UA", "OT/IT integration",
-    "interoperability", "TRL", "pilot project"
+    "critical minerals",
+    "sustainability",
+    "competitiveness",
+    "tailings",
+    "ESG",
+    "decarbonization",
+    "supply chain",
+    "refining",
+    "processing",
+    "positioning",
+    "greenhouse gas",
+    "net zero",
+    "climate action",
+    "resource extraction",
+    "ore sorting",
+    "comminution",
+    "tailings management",
+    "mine electrification",
+    "battery electric vehicle",
+    "BEV",
+    "ventilation on demand",
+    "digital twin",
+    "flotation",
+    "predictive maintenance",
+    "OPC UA",
+    "OT/IT integration",
+    "interoperability",
+    "TRL",
+    "pilot project"
   ],
   "high_value_keywords": [
-    "sustainability", "competitiveness", "critical minerals", "ESG", "net zero"
+    "sustainability",
+    "competitiveness",
+    "critical minerals",
+    "ESG",
+    "net zero"
   ],
   "localization_mappings": {
     "Mining Association of Canada": "[Mining Association of Canada](https://mining.ca/)",
@@ -58,7 +98,9 @@
     "SUISSENEGOCE": "[SUISSENEGOCE](https://suissenegoce.ch/)",
     "London Metal Exchange": "[London Metal Exchange](https://www.lme.com/)",
     "ICMM": "[ICMM](https://www.icmm.com/)",
-    "IEA": "[IEA](https://www.iea.org/)"
+    "IEA": "[IEA](https://www.iea.org/)",
+    "Natural Resources Canada": "[Natural Resources Canada](https://www.nrcan.gc.ca/)",
+    "STSA": "[STSA](https://stsa.ch/)"
   },
   "llm_settings": {
     "model_primary": "gemini-3.5-flash",
@@ -67,7 +109,7 @@
       "gemini-3.1-flash-lite",
       "gemini-2.5-flash-lite"
     ],
-    "system_instruction": "You are a senior analyst specializing in the global mining industry. Synthesize news releases into strategic B2B hooks focusing on positioning, competitiveness, and sustainability (ESG) across the 5 global mining hubs. When utilizing the anchor database to ground hooks, only reference Fact IDs explicitly listed in the active hub's anchors batch; do not reference Fact IDs from other hubs. Present cross-functional linkages (such as linking fleet electrification to ventilation system designs, or ore sorting to comminution energy savings) as prospective B2B recommendation spaces or technical opportunities rather than claiming they are achieved facts unless explicitly stated in the source text. Format the 'strategic_value' field as a markdown list containing exactly three bullet points, where the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** '."
+    "system_instruction": "You are a senior analyst specializing in the global mining industry. Synthesize news releases into strategic B2B hooks focusing on positioning, competitiveness, and sustainability (ESG) across the 5 global mining hubs. When utilizing the anchor database to ground hooks, only reference Fact IDs explicitly listed in the active hub's anchors batch; do not reference Fact IDs from other hubs. Present cross-functional linkages (such as linking fleet electrification to ventilation system designs, or ore sorting to comminution energy savings) as prospective B2B recommendation spaces or technical opportunities rather than claiming they are achieved facts unless explicitly stated in the source text. Note that some source articles (such as Swiss trading feeds) may be in French; you must translate them to English before synthesizing and writing the insights. Format the 'strategic_value' field as a markdown list containing exactly three bullet points, where the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** '."
   },
   "storage": {
     "azure_container": "mining-hubs-data",

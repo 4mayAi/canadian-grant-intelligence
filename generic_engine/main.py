@@ -89,13 +89,13 @@ def clean_source_display_name(source_name: str) -> str:
 
 def get_hub_from_source(source_name: str) -> str:
     source_lower = source_name.lower()
-    if "canada" in source_lower:
+    if "canada" in source_lower or "nrcan" in source_lower:
         return "Canada"
     elif "australia" in source_lower:
         return "Australia"
     elif "china" in source_lower:
         return "China"
-    elif "switzerland" in source_lower:
+    elif "switzerland" in source_lower or "geneva" in source_lower:
         return "Switzerland"
     elif "uk" in source_lower or "lme" in source_lower:
         return "UK"
@@ -150,7 +150,7 @@ def fetch_and_process_news(
     for src in config.sources:
         src_dict = src.model_dump()
         url = src_dict.get("url", "")
-        if src_dict.get("type") == "rss" and "news.google.com" in url and config.keywords:
+        if src_dict.get("type") == "rss" and "news.google.com" in url and config.keywords and not src_dict.get("skip_query_refactoring"):
             try:
                 parsed = urlparse(url)
                 query_params = parse_qs(parsed.query)
@@ -168,7 +168,7 @@ def fetch_and_process_news(
                 logging.error(f"Failed to dynamically construct search query for source '{src_dict['name']}': {e}")
         
         fallback_url = src_dict.get("fallback_url", "")
-        if fallback_url and src_dict.get("fallback_type") == "rss" and "news.google.com" in fallback_url and config.keywords:
+        if fallback_url and src_dict.get("fallback_type") == "rss" and "news.google.com" in fallback_url and config.keywords and not src_dict.get("skip_query_refactoring"):
             try:
                 parsed = urlparse(fallback_url)
                 query_params = parse_qs(parsed.query)
