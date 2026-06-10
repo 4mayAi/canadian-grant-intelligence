@@ -1,13 +1,15 @@
 ![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)
 
-# Canada’s Strategic Pivot: Aviation Liquidity and the New Compliance Landscape
+# Capital Flight & Compliance: How Canada’s Latest $150M Liquidity Injection and Sanctions Redefine Federal Procurement
 
-🚀 $150M in federal liquidity is landing in Canada's airline sector—but this isn't just a bailout, it's a strategic pivot point for aviation suppliers and consultants. As the government provides support to weather fuel volatility, firms specializing in financial auditing, reporting, and fuel-efficiency technology should target mid-to-tier-1 carriers whose procurement pipelines are suddenly unblocked by this fiscal safety net.
+✈️ **Canada’s new $150M aviation liquidity injection is a major catalyst for B2B tech and compliance suppliers.**
 
-Simultaneously, the trade landscape is shifting as Minister Sidhu advances priorities at the OECD. This high-level commitment to supply chain resilience and ESG benchmarks signals that future federal RFPs will increasingly demand international standard compliance. If your firm provides ESG reporting software or supply chain management solutions, now is the time to align your value proposition with these emerging 'friend-shoring' trade standards.
+The CEEFC's new $150M liquidity program designed to combat fuel volatility means supported airlines are actively seeking immediate operational efficiency. B2B software vendors specializing in AI route-optimization and fuel management should target Canadian carriers now to capitalize on this federally backed demand.
 
-Finally, the imposition of a fifth round of sanctions in the West Bank serves as a critical reminder for all federal contractors. Increased scrutiny means that robust 'Know Your Vendor' and 'Know Your Customer' audit trails are no longer optional. Any business pursuing government contracts must integrate heightened geopolitical risk assessments into their compliance registers immediately to avoid disqualification during the procurement vetting process. As we monitor these policy shifts, remember that opportunity often hides in the details of government compliance mandates.
+Concurrently, Canada's fifth round of West Bank sanctions enforces stricter KYV and KYC compliance across the board. IT and compliance software providers must position their vetting platforms to federal contractors who now face heightened geopolitical risk audits and require secure, automated audit trails.
+
+On the procurement front, the federal government has issued RFP W6898-260813-RFP for snow removal at the Woodstock Armory in New Brunswick, closing July 7, 2026. Regional facility management firms should mobilize bids immediately to secure this stable federal contract before the summer deadline.
 
 Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
 
-#CanadianBusiness #GovernmentProcurement #TradePolicy #SupplyChain #MayAi
+#GovCon #AviationTech #SupplyChain #GovProcurement #CanadianBusiness
