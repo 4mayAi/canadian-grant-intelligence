@@ -2,6 +2,7 @@
   "topic_id": "mining-hubs",
   "display_name": "Global Mining Hubs Intelligence",
   "dashboard_url": "https://4mayAi.github.io/canadian-grant-intelligence/mining-hubs/",
+  "max_items_per_source": 5,
   "sources": [
     {
       "name": "Canada_Mining_News",

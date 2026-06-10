@@ -38,6 +38,7 @@ class PipelineConfig(BaseModel):
     topic_id: str
     display_name: str
     dashboard_url: str
+    max_items_per_source: int = 5
     sources: List[SourceConfig]
     keywords: List[str]
     high_value_keywords: List[str]

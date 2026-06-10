@@ -71,6 +71,22 @@ def load_and_validate_config(config_path: Optional[str] = None, config_url: Opti
     logging.info(f"Successfully loaded and validated configuration for topic: {validated_config.topic_id}")
     return validated_config
 
+def clean_source_display_name(source_name: str) -> str:
+    """Standardizes feed source names for presentation in KPIs and LinkedIn posts."""
+    # 1. Strip news suffix and replace underscores
+    display_src = source_name.replace('_News', '').replace('_', ' ')
+    
+    # 2. Apply display overrides
+    display_src = display_src.replace('ScaleAI', 'Scale AI')
+    display_src = display_src.replace('ProteinIndustries', 'Protein Industries Canada')
+    
+    # 3. Clean up Cluster suffix (ensure space before Supercluster)
+    if 'Cluster' in display_src and 'Supercluster' not in display_src:
+        display_src = display_src.replace('Cluster', ' Supercluster')
+    
+    # Clean up any accidental double spaces
+    return display_src.replace('  ', ' ').strip()
+
 def get_hub_from_source(source_name: str) -> str:
     source_lower = source_name.lower()
     if "canada" in source_lower:
@@ -81,8 +97,11 @@ def get_hub_from_source(source_name: str) -> str:
         return "China"
     elif "switzerland" in source_lower:
         return "Switzerland"
+    elif "uk" in source_lower or "lme" in source_lower:
+        return "UK"
     else:
         return "Global"
+
 
 def fetch_and_process_news(
     config: PipelineConfig,
@@ -170,7 +189,7 @@ def fetch_and_process_news(
 
 
     # Ingest RSS feeds (max items slots per cluster)
-    max_items = 3 if test_mode else 5
+    max_items = 3 if test_mode else config.max_items_per_source
     raw_rss = fetch_rss_feeds(sources_dict, lookback_limit, max_items, failed_feeds)
 
     # Ingest Playwright HTML pages if any are configured
@@ -432,14 +451,18 @@ def generate_dashboard_kpis(insights: List[dict], gemini_client: GeminiClient) -
     for ins in insights:
         src = ins.get("source", "")
         # Clean display name: replace underscores with spaces, strip _News, and apply known overrides
-        display_src = src.replace('_News', '').replace('_', ' ')
-        display_src = display_src.replace('Cluster', ' Supercluster').replace('ScaleAI', 'Scale AI').replace('NGen', 'NGen').replace('ProteinIndustries', 'Protein Industries Canada').replace('DIGITAL', 'DIGITAL')
+        display_src = clean_source_display_name(src)
         if display_src:
             source_counts[display_src] = source_counts.get(display_src, 0) + 1
             
     top_category = "Mixed Sectors"
     if source_counts:
-        top_category = max(source_counts, key=source_counts.get)
+        max_count = max(source_counts.values())
+        top_sources = [src for src, count in source_counts.items() if count == max_count]
+        if len(top_sources) == 1:
+            top_category = top_sources[0]
+        else:
+            top_category = "Mixed Sectors"  # Explicit tie = no single winner
 
     hero_hook = gemini_client.get_hero_hook(insights)
     
@@ -549,7 +572,7 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         if insights:
             suggested_post += "\n\n### Featured News & Sources\n"
             for item in insights[:5]:
-                src_name = item.get("source", "").replace("_News", "").replace("_", " ").replace("Cluster", "Supercluster").replace("ScaleAI", "Scale AI")
+                src_name = clean_source_display_name(item.get("source", ""))
                 suggested_post += f"- [{item['title']}]({item['link']}) ({src_name})\n"
 
         pmo_wrapper = {
