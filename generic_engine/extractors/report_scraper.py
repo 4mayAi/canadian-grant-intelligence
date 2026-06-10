@@ -84,6 +84,8 @@ def scrape_html_report(url: str) -> str:
                 )
                 page = context.new_page()
                 page.goto(url, wait_until="domcontentloaded", timeout=30000)
+                # Wait for dynamic JS content to render
+                page.wait_for_timeout(3000)
                 
                 # Retrieve raw HTML code to search for PDF/download links
                 html_content = page.content()
@@ -107,7 +109,7 @@ def scrape_html_report(url: str) -> str:
             cleaned_text = clean_extracted_text(body_text)
             
             # Check for a download link if text is thin (i.e. landing page template)
-            if len(cleaned_text) < 3000:
+            if len(cleaned_text) < 800:
                 # Find download links matching "/download/" or ending in ".pdf"
                 matches = re.findall(r'href=["\']([^"\']*(?:/download/[^"\']+|[^"\']+\.pdf))["\']', html_content)
                 if matches:

@@ -54,7 +54,6 @@ jobs:
           SCRAPE_LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '30' }}
         # Runs the generic engine with the mining hubs config
         run: |
-          python scripts/reset_lme_processed.py
           python generic_engine/main.py --config configs/mining_hubs.json
 
       - name: Commit and Push Local Report Backups
