@@ -320,17 +320,6 @@
     },
     {
         "type": "Open",
-        "title": "M7594-264644 RFP for Felt Hat",
-        "description": "*Hats",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110013703?anId=ANONYMOUS",
-        "closing_date": "2026-06-08T14:00:00",
-        "publication_date": "2026-05-19",
-        "province": "NCR (Ottawa/Gatineau)",
-        "province_abbrev": "NCR",
-        "category": "GD"
-    },
-    {
-        "type": "Open",
         "title": "W7701-268120 AI-enhanced cybersecurity for military systems and platforms",
         "description": "*Application or technology research and development service",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012576?anId=ANONYMOUS",
@@ -383,17 +372,6 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "GD"
-    },
-    {
-        "type": "Open",
-        "title": "Cloud Cost Management Solution",
-        "description": "",
-        "link": "https://www.merx.com/public/solicitations/3958737513/abstract?language=EN",
-        "closing_date": "2026-06-08T11:00:00",
-        "publication_date": "2026-05-11",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "GDSRV"
     },
     {
         "type": "Open",
@@ -724,5 +702,16 @@
         "province": "Prince Edward Island",
         "province_abbrev": "PE",
         "category": "CNST"
+    },
+    {
+        "type": "New",
+        "title": "Market Research Services",
+        "description": "",
+        "link": "https://www.merx.com/public/solicitations/3992135470/abstract?language=EN",
+        "closing_date": "2026-07-20T13:00:00",
+        "publication_date": "2026-06-09",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRV"
     }
 ]
