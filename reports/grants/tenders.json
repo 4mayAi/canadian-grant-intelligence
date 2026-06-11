@@ -232,33 +232,11 @@
     },
     {
         "type": "Open",
-        "title": "RFP for Infrastructure for Advanced Water Supply System (AWSS)",
-        "description": "",
-        "link": "https://www.merx.com/public/solicitations/3934028914/abstract?language=EN",
-        "closing_date": "2026-06-09T14:00:00",
-        "publication_date": "2026-04-29",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "CNST"
-    },
-    {
-        "type": "Open",
         "title": "RFP EN891-261769 Cash Order Services",
         "description": "*Remittance processing services",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011840?anId=ANONYMOUS",
         "closing_date": "2026-06-15T14:00:00",
         "publication_date": "2026-05-04",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "SRV"
-    },
-    {
-        "type": "Open",
-        "title": "W7701-247874 Development of hyperspectral imaging platforms",
-        "description": "*Product research and development service",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012463?anId=ANONYMOUS",
-        "closing_date": "2026-06-09T14:00:00",
-        "publication_date": "2026-05-07",
         "province": "National",
         "province_abbrev": "NAT",
         "category": "SRV"
@@ -295,17 +273,6 @@
         "province": "Quebec",
         "province_abbrev": "QC",
         "category": "GD"
-    },
-    {
-        "type": "Open",
-        "title": "EQ754-261860 London Research and Development Center Main Power Switchboard Replacement Project",
-        "description": "*Electrical system services*Electric power system construction service*Standby or emergency power installation service*Switchgear and related devices installation service*Electronic controls installation service*Electrical inspection service",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110013382?anId=ANONYMOUS",
-        "closing_date": "2026-06-09T14:00:00",
-        "publication_date": "2026-05-15",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "CNST"
     },
     {
         "type": "Open",
@@ -724,5 +691,27 @@
         "province": "New Brunswick",
         "province_abbrev": "NB",
         "category": "SRV"
+    },
+    {
+        "type": "New",
+        "title": "Splunk Cloud Subscription renewal and related services",
+        "description": "",
+        "link": "https://www.merx.com/public/solicitations/3993264351/abstract?language=EN",
+        "closing_date": "2026-07-05T11:00:00",
+        "publication_date": "2026-06-10",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRVGD"
+    },
+    {
+        "type": "Open",
+        "title": "RE-TENDER EQ754-260717 Beavercreek CCTV System Upgrades",
+        "description": "*Detention facility construction and repair services",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110010370?anId=ANONYMOUS",
+        "closing_date": "2026-06-24T14:00:00",
+        "publication_date": "2026-04-16",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "CNST"
     }
 ]
