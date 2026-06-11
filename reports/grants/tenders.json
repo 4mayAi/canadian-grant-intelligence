@@ -713,5 +713,16 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "CNST"
+    },
+    {
+        "type": "New",
+        "title": "RFP G9292-268320-B ESDC Canada Learning Bond Automatic Enrolment",
+        "description": "*Banking and investment*Banking institutions",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015770?anId=ANONYMOUS",
+        "closing_date": "2026-07-08T14:00:00",
+        "publication_date": "2026-06-11",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "SRV"
     }
 ]
