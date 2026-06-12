@@ -1,17 +1,13 @@
 ![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)
 
-# Carney's $3B Food Security Strategy and Strict Supply Chain Rules Unlock New B2B Playbooks
+# Carney's France Deal & New Supply Chain Mandates: What Canadian Tech and Defence Firms Need to Know
 
-🌾 **A $3 billion shift is coming to Canada's supply chains, and smart B2B vendors are already positioning themselves.**
+🚨 **Canadian defence and advanced tech exporters just gained direct access to France's public procurement markets!**
 
-Today’s policy announcements from Ottawa signal a massive influx of capital into agricultural infrastructure and stricter supply chain compliance, opening high-value avenues for Canadian enterprises.
+The newly signed Canada-France General Security of Information Agreement, backed by Prime Minister Mark Carney, dismantles barriers for Canadian defence, space, and cybersecurity firms. By streamlining the exchange of classified data, this bilateral shift enables mid-tier advanced manufacturing and quantum tech companies to secure highly sensitive joint-nation projects and embed deeper into European aerospace supply chains. Aerospace and cybersecurity contractors must urgently audit their security clearances to bid on these newly opened French public contracts.
 
-Prime Minister Carney’s new $3 Billion National Food Security Strategy includes a $1 Billion food infrastructure fund and $750 Million for AgTech. Industrial builders, cold-chain IoT providers, and automated environmental control vendors should immediately target this decadal funding window to capture modernizing agri-food clients.
-
-Newly tabled federal legislation targeting forced labour is also transforming compliance. Traceability software firms and supply chain audit consultants must act now to help federal suppliers build the required compliance moats before auditing becomes mandatory.
-
-On the procurement front, the Department of National Defence has issued RFP W6898-270814-RFP for Gas Detection Services at CFB Gagetown in Oromocto, New Brunswick, closing July 8, 2026. Specialized environmental safety contractors in Atlantic Canada should mobilize their proposals immediately to secure this federal contract.
+At home, Canada has tabled strict new legislation to strengthen the prohibition of goods produced with forced labour. This policy shift turns supply chain traceability into a critical regulatory moat for all government vendors. Enterprise software providers and audit firms should actively pitch compliance tracking solutions to help federal suppliers protect their procurement eligibility.
 
 Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
 
-#GovCon #AgTech #SupplyChain #CanadianBusiness #Procurement
+#GovCon #CanadianBusiness #Procurement #DefenceTech #SupplyChain
