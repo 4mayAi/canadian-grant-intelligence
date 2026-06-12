@@ -320,17 +320,6 @@
     },
     {
         "type": "Open",
-        "title": "cloud based Learning Management System (LMS) solution",
-        "description": "*Cloud-based software as a service",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110010408?anId=ANONYMOUS",
-        "closing_date": "2026-06-10T14:00:00",
-        "publication_date": "2026-04-16",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "SRV"
-    },
-    {
-        "type": "Open",
         "title": "RFP F7049-240291 – VLE CCGS Sir William Alexander DryDocking",
         "description": "*Commercial marine craft",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110009701?anId=ANONYMOUS",
@@ -715,7 +704,7 @@
         "category": "CNST"
     },
     {
-        "type": "New",
+        "type": "Open",
         "title": "RFP G9292-268320-B ESDC Canada Learning Bond Automatic Enrolment",
         "description": "*Banking and investment*Banking institutions",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015770?anId=ANONYMOUS",
@@ -724,5 +713,27 @@
         "province": "National",
         "province_abbrev": "NAT",
         "category": "SRV"
+    },
+    {
+        "type": "New",
+        "title": "RFP for New DCC Kingston Site Office",
+        "description": "",
+        "link": "https://www.merx.com/public/solicitations/3931666955/abstract?language=EN",
+        "closing_date": "2026-07-22T14:00:00",
+        "publication_date": "2026-06-11",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "CNST"
+    },
+    {
+        "type": "Open",
+        "title": "RFP National Combat Rations Program Long Term Solutions",
+        "description": "*Packaged combination meals",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015772?anId=ANONYMOUS",
+        "closing_date": "2026-07-22T14:00:00",
+        "publication_date": "2026-06-11",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "GD"
     }
 ]
