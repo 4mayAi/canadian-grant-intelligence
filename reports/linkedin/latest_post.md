@@ -1,12 +1,12 @@
 ![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)
 
-# Carney's France Accord and Supply Chain Crackdowns: What They Mean for Canadian GovCon
+# Carney's France Accord and Strict New Forced Labour Rules Reshape Canadian Procurement
 
-🚨 **Canadian tech and defence exporters: Prime Minister Mark Carney has just unlocked unprecedented direct access to France’s public procurement markets.**
+🚨 **Canadian Tech & Defence Exporters: PM Mark Carney just unlocked unprecedented access to France's public procurement markets!**
 
-Under the newly signed Canada-France General Security of Information Agreement (GSOIA), barriers are dismantling to ease the transfer of classified data. This allows Canadian firms to bid directly on French public contracts and participate in sensitive, joint-nation R&D across cybersecurity, AI, and aerospace. Advanced manufacturing, space, and quantum technology providers should immediately audit their bilateral security clearances to capture these high-value European supply chain integrations.
+Under the newly signed Canada-France General Security of Information Agreement, strategic barriers are dismantled, allowing Canadian defence, aerospace, and cybersecurity firms to bid directly on French public contracts. Advanced manufacturing and defence contractors should immediately audit their bilateral security clearances to capture these high-value European supply chain integrations.
 
-Concurrently, Canada has tabled legislation to strengthen the prohibition on goods produced with forced labour. This shift turns supply chain traceability from a compliance checklist into a major competitive moat for public procurement. Importers, logistics providers, and federal suppliers must urgently invest in certified audit services and traceability tech to secure their standing in upcoming government tenders.
+Concurrently, Ottawa has tabled new legislation strengthening prohibitions on goods produced with forced labour. Supply chain managers, logistics firms, and enterprise compliance software providers must audit their operations now, as certified ethical traceability becomes a critical competitive moat for winning future government contracts.
 
 Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
 

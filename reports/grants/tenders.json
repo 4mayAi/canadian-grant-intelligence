@@ -155,17 +155,6 @@
     },
     {
         "type": "Open",
-        "title": "RFP - Indications and Warnings Tool",
-        "description": "*Cloud-based software as a service",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110007487?anId=ANONYMOUS",
-        "closing_date": "2026-06-12T14:00:00",
-        "publication_date": "2026-03-11",
-        "province": "NCR (Ottawa/Gatineau)",
-        "province_abbrev": "NCR",
-        "category": "SRV"
-    },
-    {
-        "type": "Open",
         "title": "Invitation to Qualify to Artificial Intelligence Source List",
         "description": "*Analytical or scientific software",
         "link": "https://discovery.ariba.com/rfx/21202797?extsite=MjEyMDI3OTdfQU4wMTQ4NDA1MDk5Mg==",
@@ -485,17 +474,6 @@
     },
     {
         "type": "Open",
-        "title": "23429-260696-B RFP - Automatic Lifting Barrier System",
-        "description": "*Barriers",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014768?anId=ANONYMOUS",
-        "closing_date": "2026-06-12T14:00:00",
-        "publication_date": "2026-06-01",
-        "province": "Northwest Territories",
-        "province_abbrev": "NT",
-        "category": "GD"
-    },
-    {
-        "type": "Open",
         "title": "W3162-25F033 - High security safes - RFP",
         "description": "*Safes",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014915?anId=ANONYMOUS",
@@ -603,17 +581,6 @@
         "province": "Nova Scotia",
         "province_abbrev": "NS",
         "category": "GD"
-    },
-    {
-        "type": "Open",
-        "title": "RFP - Enterprise Architecture Software as a Service (SaaS) Solution",
-        "description": "*Cloud-based software as a service",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012467?anId=ANONYMOUS",
-        "closing_date": "2026-06-12T14:00:00",
-        "publication_date": "2026-05-07",
-        "province": "Ontario",
-        "province_abbrev": "ON",
-        "category": "SRV"
     },
     {
         "type": "Open",
