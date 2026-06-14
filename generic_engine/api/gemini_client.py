@@ -283,6 +283,8 @@ class GeminiClient:
 
     def get_hero_hook(self, pmo_insights_list: List[dict]) -> str:
         """Generates a high-impact dashboard hook."""
+        if not pmo_insights_list:
+            return "mayAi | Delivering Golden Opportunities Daily"
         if not self.api_key:
             return "mayAi | Delivering Golden Opportunities Daily"
             

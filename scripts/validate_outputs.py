@@ -80,7 +80,7 @@ def validate_outputs_func(output_dir="reports/grants"):
         }
 
         for idx, t in enumerate(tenders_data):
-            required_tender_keys = ["type", "title", "description", "link", "closing_date", "publication_date", "province", "province_abbrev", "category"]
+            required_tender_keys = ["type", "title", "description", "link", "closing_date", "publication_date", "province", "province_abbrev", "category", "category_label"]
             for key in required_tender_keys:
                 if key not in t:
                     errors.append(f"Tender {idx} missing key: {key}")

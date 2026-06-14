@@ -32,7 +32,10 @@ def fetch_and_process_news(lookback_limit, max_items_per_feed, processed_urls, t
     try:
         existing_pmo = azure_client.download_json("pmo_insights.json")
         if existing_pmo and "insights" in existing_pmo:
-            existing_insights_list = existing_pmo["insights"]
+            for item in existing_pmo["insights"]:
+                ins_val = item.get("insight", {})
+                if ins_val.get("strategic_value") != "No insight available":
+                    existing_insights_list.append(item)
     except Exception as e:
         logging.error(f"Failed to load existing pmo_insights.json from Azure: {e}")
         
@@ -88,6 +91,9 @@ def fetch_and_process_news(lookback_limit, max_items_per_feed, processed_urls, t
             # Reuse cached insight directly (no LLM call)
             final_insights.append(existing_insights_map[link])
             processed_urls.add(link)
+        elif link in processed_urls:
+            # Already processed (either discarded or old). Skip!
+            logging.info(f"Skipping already processed URL: {link}")
         else:
             # New active item, needs LLM processing
             unprocessed_news.append(item)
@@ -108,6 +114,12 @@ def fetch_and_process_news(lookback_limit, max_items_per_feed, processed_urls, t
         insight_models = gemini_client.get_gemini_insights_batch(contents)
         
         for item, insight_model in zip(batch, insight_models):
+            processed_urls.add(item['link'])
+            
+            if insight_model.strategic_value == "No insight available":
+                logging.info(f"Discarding irrelevant/low-value news item: {item['title']}")
+                continue
+                
             dt = item.get('date')
             if isinstance(dt, datetime):
                 date_str = dt.isoformat() + "Z"
@@ -124,7 +136,6 @@ def fetch_and_process_news(lookback_limit, max_items_per_feed, processed_urls, t
                 "insight": insight_model.to_dict()
             }
             final_insights.append(report_item_dict)
-            processed_urls.add(item['link'])
             
     # Sort final insights descending by date
     def get_parse_date(item):
@@ -388,16 +399,54 @@ def run_pipeline():
 
         # 6. Azure Cloud Storage Upload
         if not test_mode:
-            azure_client.upload_json("tenders.json", final_tenders)
-            azure_client.upload_json("pmo_insights.json", pmo_wrapper)
-            azure_client.upload_json("kpis.json", kpis_dict)
+            # Temporary file names for atomic deployment staging
+            tenders_temp = "tenders_temp.json"
+            pmo_temp = "pmo_insights_temp.json"
+            kpis_temp = "kpis_temp.json"
+            
+            # Stage temporary files on Azure
+            tenders_ok = azure_client.upload_json(tenders_temp, final_tenders)
+            pmo_ok = azure_client.upload_json(pmo_temp, pmo_wrapper)
+            kpis_ok = azure_client.upload_json(kpis_temp, kpis_dict)
+            
+            if tenders_ok and pmo_ok and kpis_ok:
+                # Perform fast server-side copies to final files
+                azure_client.copy_blob(tenders_temp, "tenders.json")
+                azure_client.copy_blob(pmo_temp, "pmo_insights.json")
+                azure_client.copy_blob(kpis_temp, "kpis.json")
+                
+                # Cleanup temp files
+                azure_client.delete_blob(tenders_temp)
+                azure_client.delete_blob(pmo_temp)
+                azure_client.delete_blob(kpis_temp)
+            else:
+                logging.error("Failed to upload temporary staged files. Aborting main swap.")
             
             date_str = datetime.utcnow().strftime("%Y-%m-%d")
             
-            # Historical date-stamped backups
-            azure_client.upload_json(f"reports/tenders_{date_str}.json", final_tenders)
-            azure_client.upload_json(f"reports/pmo_insights_{date_str}.json", pmo_wrapper)
-            azure_client.upload_json(f"reports/kpis_{date_str}.json", kpis_dict)
+            # Historical date-stamped backups - staged and swapped atomically
+            hist_tenders_file = f"reports/tenders_{date_str}.json"
+            hist_pmo_file = f"reports/pmo_insights_{date_str}.json"
+            hist_kpis_file = f"reports/kpis_{date_str}.json"
+            
+            hist_tenders_temp = f"reports/tenders_{date_str}_temp.json"
+            hist_pmo_temp = f"reports/pmo_insights_{date_str}_temp.json"
+            hist_kpis_temp = f"reports/kpis_{date_str}_temp.json"
+            
+            hist_tenders_ok = azure_client.upload_json(hist_tenders_temp, final_tenders)
+            hist_pmo_ok = azure_client.upload_json(hist_pmo_temp, pmo_wrapper)
+            hist_kpis_ok = azure_client.upload_json(hist_kpis_temp, kpis_dict)
+            
+            if hist_tenders_ok and hist_pmo_ok and hist_kpis_ok:
+                azure_client.copy_blob(hist_tenders_temp, hist_tenders_file)
+                azure_client.copy_blob(hist_pmo_temp, hist_pmo_file)
+                azure_client.copy_blob(hist_kpis_temp, hist_kpis_file)
+                
+                azure_client.delete_blob(hist_tenders_temp)
+                azure_client.delete_blob(hist_pmo_temp)
+                azure_client.delete_blob(hist_kpis_temp)
+            else:
+                logging.error("Failed to upload historical temporary staged files. Aborting historical swap.")
             
             # Manifest updates for date dropdown
             try:

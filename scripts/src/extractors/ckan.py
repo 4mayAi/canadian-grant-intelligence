@@ -9,20 +9,61 @@ import requests
 from src.config import Config
 from src.models import Tender
 
+def get_category_label(code: str) -> str:
+    if not code: return "Uncategorized"
+    clean_code = code.replace('*', '').lower().strip()
+    # Normalize internal spaces
+    clean_code = " ".join(clean_code.split())
+    category_map = {
+        'cnst srv gd': 'Construction, Services & Goods',
+        'gd': 'Goods',
+        'srv': 'Services',
+        'cnst': 'Construction',
+        'cnst srv': 'Construction & Services',
+        'cnst gd': 'Construction & Goods',
+        'srv gd': 'Services & Goods',
+        'gd srv': 'Services & Goods',
+        'srvtgd': 'Services (Goods-Related)',
+        'der': 'Defence & Security',
+        'it': 'Information Technology',
+        'rc srv': 'Research & Consulting Services',
+        'r&d': 'Research & Development',
+        'health': 'Health & Medical',
+        'env': 'Environmental Services',
+        'trans': 'Transportation & Logistics'
+    }
+    return category_map.get(clean_code, code.replace('*', '').strip())
+
 def normalize_province(raw_value: str) -> str:
     if not raw_value: return "National"
+    
+    # Check for multiple provinces markers
+    star_count = raw_value.count('*')
+    if star_count >= 2 or len(raw_value) > 50:
+        return "Multiple Provinces"
+        
     text = raw_value.replace('\n', ' ').replace('\r', '').strip().replace('*', '').strip()
     text_lower = text.lower()
     
+    # Find matching valid province case-insensitively
+    matched_prov = None
     for valid in Config.VALID_PROVINCES:
-        if text_lower == valid.lower(): return valid
-    
-    if text_lower in ("canada", "federal", "canada-wide"): return "National"
-    if "national capital" in text_lower or text_lower == "ncr": return "NCR (Ottawa/Gatineau)"
-    
-    for city, prov in Config.LOCATION_TO_PROVINCE.items():
-        if city in text_lower: return prov
+        if text_lower == valid.lower():
+            matched_prov = valid
+            break
+            
+    if matched_prov:
+        return matched_prov
         
+    if text_lower in ("canada", "federal", "canada-wide"):
+        return "National"
+    if "national capital" in text_lower or text_lower == "ncr":
+        return "NCR (Ottawa/Gatineau)"
+        
+    for city, prov in Config.LOCATION_TO_PROVINCE.items():
+        if city in text_lower:
+            return prov
+            
     return "National"
 
 def fetch_canadabuys_csvs(pulse_only: bool = False, dynamic_keywords: Optional[List[str]] = None, seen_links: Optional[Set[str]] = None) -> List[Tender]:
@@ -75,9 +116,9 @@ def fetch_canadabuys_csvs(pulse_only: bool = False, dynamic_keywords: Optional[L
                 if not link or link in seen_links:
                     continue
                 
-                title = row.get("title-titre-eng", "")
-                gsin_desc = row.get("gsinDescription-nibsDescription-eng", "")
-                unspsc_desc = row.get("unspscDescription-eng", "")
+                title = row.get("title-titre-eng", "").replace('*', '').replace('  ', ' ').strip()
+                gsin_desc = row.get("gsinDescription-nibsDescription-eng", "").replace('*', '').replace('  ', ' ').strip()
+                unspsc_desc = row.get("unspscDescription-eng", "").replace('*', '').replace('  ', ' ').strip()
                 desc = f"{gsin_desc} {unspsc_desc}".strip()
 
                 text_to_search = (title + " " + desc).lower().replace('_', ' ')
@@ -117,7 +158,8 @@ def fetch_canadabuys_csvs(pulse_only: bool = False, dynamic_keywords: Optional[L
                         publication_date=pub_date or amend_date,
                         province=province,
                         province_abbrev=province_abbrev,
-                        category=category
+                        category=category,
+                        category_label=get_category_label(category)
                     ))
                     seen_links.add(link)
                     match_count += 1

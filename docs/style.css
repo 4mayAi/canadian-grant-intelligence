@@ -953,3 +953,211 @@ footer a { color: var(--accent-2); text-decoration: none; }
         font-size: 16px;
     }
 }
+
+/* Tender Card Refactored Styles (replacing inline styles) */
+.tender-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+.tender-card-title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.4;
+    flex: 1;
+}
+.tender-card-badge-container {
+    margin-left: 12px;
+    flex-shrink: 0;
+}
+.tender-meta-col {
+    flex: 1;
+}
+.tender-meta-col.text-center {
+    text-align: center;
+}
+.tender-meta-label {
+    color: var(--text-muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.tender-meta-val {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+.tender-card-actions {
+    margin-top: 16px;
+    text-align: right;
+}
+
+/* Dynamic Keyword Search Box */
+.search-input {
+    flex: 1;
+    min-width: 150px;
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-family: inherit;
+    font-size: 14px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.search-input:focus {
+    outline: none;
+    border-color: var(--accent-1);
+    box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.15);
+}
+
+/* =============================================
+   Refactored styles to eliminate inline rules
+   ============================================= */
+
+/* Navigation Links */
+.navigation-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-tab-link {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-secondary);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+
+.nav-tab-link:hover {
+    background: rgba(255, 215, 0, 0.1);
+    color: #ffd700;
+    border-color: rgba(255, 215, 0, 0.3);
+}
+
+.nav-tab-link.active {
+    background: rgba(255, 215, 0, 0.15) !important;
+    color: #ffd700 !important;
+    border-color: rgba(255, 215, 0, 0.4) !important;
+}
+
+/* Logo and Header text overrides */
+.logo-row h1 {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -1px;
+    margin-left: 15px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: none !important;
+    -webkit-background-clip: initial !important;
+    -webkit-text-fill-color: initial !important;
+    background-clip: initial !important;
+    color: var(--text-primary) !important;
+}
+
+.logo-row h1 span {
+    color: #ffd700;
+}
+
+/* Header Controls Layouts */
+.header-controls-row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.header-controls-row-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.header-controls-row-align .status-badge {
+    margin: 0;
+}
+
+.date-selector {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filter-select-sm {
+    padding: 6px 36px 6px 12px !important;
+    margin: 0 !important;
+    height: 32px !important;
+    font-size: 12px !important;
+    background-position: right 10px center !important;
+    border-radius: 6px !important;
+}
+
+.search-input-sm {
+    height: 32px !important;
+    padding: 6px 12px !important;
+    font-size: 12px !important;
+    border-radius: 6px !important;
+    width: 200px;
+    margin: 0 !important;
+}
+
+/* KPI Custom Overrides */
+#kpi-provincial-split {
+    font-size: 1.2em;
+    white-space: nowrap;
+}
+
+/* Tender Summary Bar */
+#tenderSummaryBar {
+    padding: 10px 16px;
+    background: rgba(255, 215, 0, 0.05);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    display: none;
+}
+
+/* Footer layout rules */
+footer p {
+    margin-top: 4px;
+}
+
+/* Deadline Badges */
+.badge-deadline-closed {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+    border: 1px solid #ef4444;
+}
+
+.badge-deadline-critical {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+    border: 1px solid #ef4444;
+}
+
+.badge-deadline-warning {
+    background: rgba(234, 179, 8, 0.1);
+    color: #eab308;
+    border: 1px solid #eab308;
+}
+
+.badge-deadline-safe {
+    background: rgba(34, 197, 94, 0.1);
+    color: #22c55e;
+    border: 1px solid #22c55e;
+}
+

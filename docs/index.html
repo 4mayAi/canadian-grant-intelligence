@@ -21,15 +21,15 @@
                     <div class="golden-egg"></div>
                     <div class="egg-glow"></div>
                 </div>
-                <h1 style="font-family: 'Outfit', sans-serif; letter-spacing: -1px; margin-left: 15px;">may<span style="color: #ffd700;">Ai</span></h1>
+                <h1>may<span>Ai</span></h1>
             </div>
             <p>Canadian Grant Intelligence | Delivering Golden Opportunities Daily</p>
 
             <!-- Cross Navigation Links -->
-            <div class="navigation-links" style="display: flex; gap: 10px; margin-top: 15px; margin-bottom: 5px; flex-wrap: wrap; justify-content: center;">
-                <a href="#" class="nav-tab-link" style="text-decoration: none; background: rgba(255,215,0,0.15); color: #ffd700; border-color: rgba(255,215,0,0.4); border-radius: 6px; padding: 6px 12px; font-size: 13px; transition: all 0.2s ease;">🇨🇦 Grant Intelligence</a>
-                <a href="clusters/" class="nav-tab-link" style="text-decoration: none; background: rgba(255, 255, 255, 0.05); color: var(--text-secondary); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 6px 12px; font-size: 13px; transition: all 0.2s ease;">🇨🇦 Innovation Clusters</a>
-                <a href="mining-hubs/" class="nav-tab-link" style="text-decoration: none; background: rgba(255, 255, 255, 0.05); color: var(--text-secondary); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 6px 12px; font-size: 13px; transition: all 0.2s ease;">🌎 Global Mining Hubs</a>
+            <div class="navigation-links">
+                <a href="#" class="nav-tab-link active">🇨🇦 Grant Intelligence</a>
+                <a href="clusters/" class="nav-tab-link">🇨🇦 Innovation Clusters</a>
+                <a href="mining-hubs/" class="nav-tab-link">🌎 Global Mining Hubs</a>
             </div>
             
             <div id="hero-hook-container" class="hero-hook-container" style="display: none;">
@@ -42,7 +42,7 @@
                     <span class="status-dot"></span>
                     Updated: <span id="last-update-time">Loading...</span>
                 </div>
-                <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap; justify-content: center; margin-top: 4px;">
+                <div class="header-controls-row">
                     <div class="mode-toggle">
                         <label class="switch" title="Executive Mode: Prioritizes immediate opportunities by filtering for New tenders and those closing within 14 days. Applies 'Executive Priority' highlights.">
                             <input type="checkbox" id="executive-mode" onchange="toggleExecutiveMode()">
@@ -50,9 +50,9 @@
                         </label>
                         <span class="toggle-label">Executive Mode</span>
                     </div>
-                    <div class="date-selector" style="display: flex; align-items: center; gap: 8px;">
+                    <div class="date-selector">
                         <span class="toggle-label">Archive:</span>
-                        <select id="date-select" class="filter-select" onchange="selectHistoricalDate(this.value)" style="padding: 6px 36px 6px 12px; margin: 0; height: 32px; font-size: 12px; background-position: right 10px center; border-radius: 6px;">
+                        <select id="date-select" class="filter-select" onchange="selectHistoricalDate(this.value)">
                             <option value="latest">Latest Run</option>
                         </select>
                     </div>
@@ -78,7 +78,7 @@
                 <span class="kpi-label">Top Category</span>
             </div>
             <div class="kpi-card">
-                <span class="kpi-value" id="kpi-provincial-split" style="font-size: 1.2em; white-space: nowrap;">N/A</span>
+                <span class="kpi-value" id="kpi-provincial-split">N/A</span>
                 <span class="kpi-label">Provincial Split</span>
             </div>
         </div>
@@ -111,8 +111,9 @@
                     <option value="newest">Sort: Newest First</option>
                     <option value="closing">Sort: Closing Soonest</option>
                 </select>
+                <input type="text" id="searchQuery" class="search-input" placeholder="Search tenders..." oninput="renderTenders()">
             </div>
-            <div id="tenderSummaryBar" style="padding: 10px 16px; background: rgba(255,215,0,0.05); border: 1px solid rgba(255,215,0,0.15); border-radius: 8px; margin-bottom: 16px; font-size: 13px; color: var(--text-secondary); display: none;"></div>
+            <div id="tenderSummaryBar"></div>
             <div id="tendersContent">
                 <div class="loading"><div class="spinner"></div><p>Loading active tenders...</p></div>
             </div>
@@ -132,7 +133,7 @@
 
         <footer>
             <p>Powered by mayAi &middot; Built with GitHub Actions</p>
-            <p style="margin-top: 4px">Data sourced from CanadaBuys, PMO, ISED &amp; federal procurement feeds</p>
+            <p>Data sourced from CanadaBuys, PMO, ISED &amp; federal procurement feeds</p>
         </footer>
     </div>
 
@@ -331,7 +332,7 @@
                     }
                     // Dynamically map province abbreviation on client for perfect integrity
                     t.province_abbrev = PROV_MAP[t.province] || "NAT";
-                    t.category_label = getCategoryLabel(t.category);
+                    t.category_label = t.category_label || getCategoryLabel(t.category);
                 });
                 
                 // Populate filters — provinces are now guaranteed clean
@@ -360,6 +361,7 @@
             const cat = document.getElementById('categoryFilter').value;
             const expiry = document.getElementById('expiryFilter').value;
             const sort = document.getElementById('sortFilter').value;
+            const searchQuery = document.getElementById('searchQuery') ? document.getElementById('searchQuery').value.toLowerCase().trim() : '';
             
             const now = new Date();
             
@@ -385,6 +387,11 @@
                     if (expiry === '<30' && (daysLeft < 0 || daysLeft > 30)) return false;
                     if (expiry === '>30' && daysLeft <= 30) return false;
                     if (expiry === 'Closed' && daysLeft >= 0) return false;
+                }
+                
+                if (searchQuery) {
+                    const text = `${t.title} ${t.description} ${t.province} ${t.category_label}`.toLowerCase();
+                    if (!text.includes(searchQuery)) return false;
                 }
                 
                 return true;
@@ -437,16 +444,16 @@
                     const daysLeft = Math.floor(diffTime / (1000 * 60 * 60 * 24));
 
                     if (daysLeft < 0) {
-                        deadlineBadge = `<span class="badge" style="background:rgba(239,68,68,0.1); color:#ef4444; border:1px solid #ef4444;">Closed</span>`;
+                        deadlineBadge = `<span class="badge badge-deadline-closed">Closed</span>`;
                         urgencyClass = 'urgency-closed';
                     } else if (daysLeft <= 7) {
-                        deadlineBadge = `<span class="badge" style="background:rgba(239,68,68,0.1); color:#ef4444; border:1px solid #ef4444;">Closing in ${daysLeft} days</span>`;
+                        deadlineBadge = `<span class="badge badge-deadline-critical">Closing in ${daysLeft} days</span>`;
                         urgencyClass = 'urgency-critical';
                     } else if (daysLeft <= 30) {
-                        deadlineBadge = `<span class="badge" style="background:rgba(234,179,8,0.1); color:#eab308; border:1px solid #eab308;">${daysLeft} days left</span>`;
+                        deadlineBadge = `<span class="badge badge-deadline-warning">${daysLeft} days left</span>`;
                         urgencyClass = 'urgency-warning';
                     } else {
-                        deadlineBadge = `<span class="badge" style="background:rgba(34,197,94,0.1); color:#22c55e; border:1px solid #22c55e;">${daysLeft} days left</span>`;
+                        deadlineBadge = `<span class="badge badge-deadline-safe">${daysLeft} days left</span>`;
                         urgencyClass = 'urgency-safe';
                     }
                 }
@@ -455,29 +462,29 @@
 
                 return `
                 <div class="tender-card ${t.type === 'Open' ? 'is-open' : ''} ${urgencyClass} ${isHighlight ? 'executive-highlight' : ''}">
-                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:12px;">
-                        <h3 style="font-size:17px; font-weight:700; line-height: 1.4; flex: 1;">
+                    <div class="tender-card-header">
+                        <h3 class="tender-card-title">
                             <span class="badge ${t.type === 'New' ? 'badge-new' : 'badge-open'}">${t.type}</span>
                             ${escapeHtml(t.title)}
                         </h3>
-                        <div style="margin-left: 12px; flex-shrink: 0;">${deadlineBadge || ''}</div>
+                        <div class="tender-card-badge-container">${deadlineBadge || ''}</div>
                     </div>
-                    <div class="tender-description" style="font-size:14px; color:var(--text-secondary); line-height:1.6; margin-bottom: 16px;">${marked.parse(t.description || '')}</div>
-                    <div class="tender-meta" style="display: flex; gap: 16px; align-items: center; background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px;">
-                        <div style="flex: 1;">
-                            <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Location</div>
-                            <div style="color: var(--text-primary); font-weight: 500;">📍 ${escapeHtml(t.province)}</div>
+                    <div class="tender-description">${marked.parse(t.description || '')}</div>
+                    <div class="tender-meta">
+                        <div class="tender-meta-col">
+                            <div class="tender-meta-label">Location</div>
+                            <div class="tender-meta-val">📍 ${escapeHtml(t.province)}</div>
                         </div>
-                        <div style="flex: 1;">
-                            <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Category</div>
-                            <div style="color: var(--text-primary); font-weight: 500;">🏷️ ${escapeHtml(t.category_label)}</div>
+                        <div class="tender-meta-col">
+                            <div class="tender-meta-label">Category</div>
+                            <div class="tender-meta-val">🏷️ ${escapeHtml(t.category_label)}</div>
                         </div>
-                        <div style="flex: 1; text-align: center;">
-                            <div style="color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">Published</div>
-                            <div style="color: var(--text-primary); font-weight: 500;">📅 ${t.publication_date ? formatDate(t.publication_date) : 'N/A'}</div>
+                        <div class="tender-meta-col text-center">
+                            <div class="tender-meta-label">Published</div>
+                            <div class="tender-meta-val">📅 ${t.publication_date ? formatDate(t.publication_date) : 'N/A'}</div>
                         </div>
                     </div>
-                    <div style="margin-top: 16px; text-align: right;">
+                    <div class="tender-card-actions">
                         <a href="${escapeHtml(t.link)}" target="_blank" class="opp-link">View Tender Docs ↗</a>
                     </div>
                 </div>

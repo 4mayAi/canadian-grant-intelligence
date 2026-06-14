@@ -27,7 +27,8 @@ class TestPipelineAndDashboard(unittest.TestCase):
                 "publication_date": "2026-05-20T00:00:00Z",
                 "province": "National",
                 "province_abbrev": "NAT",
-                "category": "services"
+                "category": "services",
+                "category_label": "Services"
             }
         ]
         self.mock_kpis = {

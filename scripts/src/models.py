@@ -28,6 +28,7 @@ class Tender:
     province: str
     province_abbrev: str
     category: str
+    category_label: str = "Uncategorized"
     
     def to_dict(self):
         from dataclasses import asdict

@@ -88,3 +88,58 @@ class AzureClient:
         except Exception as e:
             logging.error(f"Failed to upload file {file_path} to Azure: {e}")
             return False
+
+    def copy_blob(self, source_blob_name: str, target_blob_name: str) -> bool:
+        """Copies a blob from source_blob_name to target_blob_name within the same container."""
+        if not self.blob_service_client:
+            logging.warning("Azure client not active. Skipping Azure copy.")
+            return False
+            
+        try:
+            source_client = self.blob_service_client.get_blob_client(container=self.container_name, blob=source_blob_name)
+            target_client = self.blob_service_client.get_blob_client(container=self.container_name, blob=target_blob_name)
+            
+            # Start copy operation
+            copy_props = target_client.start_copy_from_url(source_client.url)
+            
+            # Poll for copy completion
+            import time
+            props = target_client.get_blob_properties()
+            while props.copy.status == "pending":
+                time.sleep(0.1)
+                props = target_client.get_blob_properties()
+                
+            if props.copy.status == "success":
+                logging.info(f"Successfully copied {source_blob_name} to {target_blob_name} in Azure storage.")
+                return True
+            else:
+                raise Exception(f"Copy status returned: {props.copy.status}")
+                
+        except Exception as e:
+            logging.warning(f"Fast Azure server-side copy failed, attempting download-and-upload fallback. Error: {e}")
+            try:
+                data = self.download_json(source_blob_name)
+                if data is not None:
+                    return self.upload_json(target_blob_name, data)
+            except Exception as fallback_err:
+                logging.error(f"Fallback download-and-upload copy failed: {fallback_err}")
+            return False
+
+    def delete_blob(self, blob_name: str) -> bool:
+        """Deletes a blob from the container."""
+        if not self.blob_service_client:
+            logging.warning("Azure client not active. Skipping Azure delete.")
+            return False
+            
+        try:
+            blob_client = self.blob_service_client.get_blob_client(container=self.container_name, blob=blob_name)
+            if blob_client.exists():
+                blob_client.delete_blob()
+                logging.info(f"Successfully deleted blob {blob_name} from container {self.container_name}.")
+            else:
+                logging.info(f"Blob {blob_name} does not exist. Skipping delete.")
+            return True
+        except Exception as e:
+            logging.error(f"Failed to delete blob {blob_name} from Azure: {e}")
+            return False
+

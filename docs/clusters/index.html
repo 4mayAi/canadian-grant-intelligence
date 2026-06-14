@@ -98,15 +98,15 @@
                     <div class="golden-egg"></div>
                     <div class="egg-glow"></div>
                 </div>
-                <h1 style="font-family: 'Outfit', sans-serif; letter-spacing: -1px; margin-left: 15px;">may<span style="color: #ffd700;">Ai</span></h1>
+                <h1>may<span>Ai</span></h1>
             </div>
             <p>Canadian Innovation Clusters Intelligence | Delivering Golden Opportunities Daily</p>
 
             <!-- Cross Navigation Links -->
-            <div class="navigation-links" style="display: flex; gap: 10px; margin-top: 15px; margin-bottom: 5px; flex-wrap: wrap; justify-content: center;">
-                <a href="../" class="nav-tab-link" style="text-decoration: none; background: rgba(255, 255, 255, 0.05); color: var(--text-secondary); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 6px 12px; font-size: 13px; transition: all 0.2s ease;">🇨🇦 Grant Intelligence</a>
-                <a href="#" class="nav-tab-link" style="text-decoration: none; background: rgba(255,215,0,0.15); color: #ffd700; border-color: rgba(255,215,0,0.4); border-radius: 6px; padding: 6px 12px; font-size: 13px; transition: all 0.2s ease;">🇨🇦 Innovation Clusters</a>
-                <a href="../mining-hubs/" class="nav-tab-link" style="text-decoration: none; background: rgba(255, 255, 255, 0.05); color: var(--text-secondary); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 6px 12px; font-size: 13px; transition: all 0.2s ease;">🌎 Global Mining Hubs</a>
+            <div class="navigation-links">
+                <a href="../" class="nav-tab-link">🇨🇦 Grant Intelligence</a>
+                <a href="#" class="nav-tab-link active">🇨🇦 Innovation Clusters</a>
+                <a href="../mining-hubs/" class="nav-tab-link">🌎 Global Mining Hubs</a>
             </div>
             
             <div id="hero-hook-container" class="hero-hook-container" style="display: none;">
@@ -114,21 +114,24 @@
                 <p id="hero-hook-text">Synthesizing cluster opportunities...</p>
             </div>
 
-            <div class="header-controls" style="display: flex; align-items: center; justify-content: center; gap: 15px; flex-wrap: wrap;">
-                <div class="status-badge" id="update-status" style="margin: 0;">
+            <div class="header-controls header-controls-row-align">
+                <div class="status-badge" id="update-status">
                     <span class="status-dot"></span>
                     Updated: <span id="last-update-time">Loading...</span>
                 </div>
-                <div class="date-selector" style="display: flex; align-items: center; gap: 8px;">
-                    <span class="toggle-label" style="font-size: 13px; font-weight: 500; color: var(--text-secondary);">Archive:</span>
-                    <select id="date-select" class="filter-select" onchange="selectHistoricalDate(this.value)" style="padding: 6px 36px 6px 12px; margin: 0; height: 32px; font-size: 12px; background-position: right 10px center; border-radius: 6px;">
+                <div class="date-selector">
+                    <span class="toggle-label">Archive:</span>
+                    <select id="date-select" class="filter-select filter-select-sm" onchange="selectHistoricalDate(this.value)">
                         <option value="latest">Latest Run</option>
                     </select>
+                </div>
+                <div class="date-selector">
+                    <input type="text" id="searchQuery" class="search-input search-input-sm" placeholder="Search signals..." oninput="handleSearch(this.value)">
                 </div>
             </div>
         </header>
 
-        <div class="kpi-container" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+        <div class="kpi-container">
             <div class="kpi-card">
                 <span class="kpi-value" id="kpi-total">0</span>
                 <span class="kpi-label">Active Cluster Signals</span>
@@ -169,7 +172,7 @@
 
         <footer>
             <p>Powered by mayAi &middot; Built with GitHub Actions</p>
-            <p style="margin-top: 4px">Data sourced from DIGITAL, Scale AI, Ocean Supercluster, NGen &amp; Protein Industries Canada portals</p>
+            <p>Data sourced from DIGITAL, Scale AI, Ocean Supercluster, NGen &amp; Protein Industries Canada portals</p>
         </footer>
     </div>
 
@@ -347,51 +350,7 @@
                 }
 
                 // 2. Render active signals
-                let signalsHtml = '';
-                if (insights.length > 0) {
-                    insights.forEach(item => {
-                        let innerHtml = '';
-                        const innerInsight = item.insight || {};
-                        
-                        if (innerInsight.strategic_value) {
-                            innerHtml += `<h4>Strategic Value for Canadian Businesses</h4>
-                                          <div class="md-content">${marked.parse(innerInsight.strategic_value)}</div>`;
-                        }
-                        if (innerInsight.co_bidding_opportunity) {
-                            innerHtml += `<h4>Consortium &amp; Co-Bidding Opportunities</h4>
-                                          <div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
-                        }
-
-                        const displaySource = (item.source || '').replace('_News', '').replace('Cluster_News', ' Supercluster');
-
-                        signalsHtml += `
-                            <details class="report-section">
-                                <summary class="report-summary">
-                                    <h3>${escapeHtml(item.title)}</h3>
-                                    ${innerInsight.linkedin_hook ? `<div class="hook-subtitle">${escapeHtml(innerInsight.linkedin_hook)}</div>` : ''}
-                                    <div class="report-meta">
-                                        <span class="badge-cluster">📡 ${escapeHtml(displaySource)}</span>
-                                        <span>📅 ${formatDate(item.date)}</span>
-                                    </div>
-                                </summary>
-                                <div class="insight-content-wrapper">
-                                    <div class="insight-content">
-                                        ${innerHtml || '<p style="color: var(--text-muted)">No insight available.</p>'}
-                                    </div>
-                                    ${item.link ? `<a class="opp-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener" style="margin-top: 15px; display: inline-block;">View Original Announcement ↗</a>` : ''}
-                                </div>
-                            </details>
-                        `;
-                    });
-                } else {
-                    signalsHtml = `
-                        <div class="empty-state">
-                            <h3>No Actionable Opportunities Found</h3>
-                            <p>Daily scans yielded no strategic project calls or funding announcements in the past 30 days.</p>
-                        </div>
-                    `;
-                }
-                signalsContent.innerHTML = signalsHtml;
+                renderSignals(insights);
 
                 // 3. Render executive digest side-by-side with social card
                 let digestHtml = '';
@@ -481,8 +440,74 @@
             }
         }
 
+        function renderSignals(insights) {
+            const signalsContent = document.getElementById('signalsContent');
+            let signalsHtml = '';
+            if (insights.length > 0) {
+                insights.forEach(item => {
+                    let innerHtml = '';
+                    const innerInsight = item.insight || {};
+                    
+                    if (innerInsight.strategic_value) {
+                        innerHtml += `<h4>Strategic Value for Canadian Businesses</h4>
+                                      <div class="md-content">${marked.parse(innerInsight.strategic_value)}</div>`;
+                    }
+                    if (innerInsight.co_bidding_opportunity) {
+                        innerHtml += `<h4>Consortium &amp; Co-Bidding Opportunities</h4>
+                                      <div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
+                    }
+
+                    const displaySource = (item.source || '').replace('_News', '').replace('Cluster_News', ' Supercluster');
+
+                    signalsHtml += `
+                        <details class="report-section">
+                            <summary class="report-summary">
+                                <h3>${escapeHtml(item.title)}</h3>
+                                ${innerInsight.linkedin_hook ? `<div class="hook-subtitle">${escapeHtml(innerInsight.linkedin_hook)}</div>` : ''}
+                                <div class="report-meta">
+                                    <span class="badge-cluster">📡 ${escapeHtml(displaySource)}</span>
+                                    <span>📅 ${formatDate(item.date)}</span>
+                                </div>
+                            </summary>
+                            <div class="insight-content-wrapper">
+                                <div class="insight-content">
+                                    ${innerHtml || '<p style="color: var(--text-muted)">No insight available.</p>'}
+                                </div>
+                                ${item.link ? `<a class="opp-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener" style="margin-top: 15px; display: inline-block;">View Original Announcement ↗</a>` : ''}
+                            </div>
+                        </details>
+                    `;
+                });
+            } else {
+                signalsHtml = `
+                    <div class="empty-state">
+                        <h3>No Actionable Opportunities Found</h3>
+                        <p>No project calls or funding announcements match your search query or were found in this run.</p>
+                    </div>
+                `;
+            }
+            signalsContent.innerHTML = signalsHtml;
+        }
+
+        function handleSearch(query) {
+            if (!cachedData || !cachedData.insights) return;
+            const cleanQuery = query.toLowerCase().trim();
+            if (!cleanQuery) {
+                renderSignals(cachedData.insights);
+                return;
+            }
+            const filtered = cachedData.insights.filter(item => {
+                const innerInsight = item.insight || {};
+                const text = `${item.title} ${innerInsight.linkedin_hook || ''} ${innerInsight.strategic_value || ''} ${innerInsight.co_bidding_opportunity || ''} ${item.source || ''}`.toLowerCase();
+                return text.includes(cleanQuery);
+            });
+            renderSignals(filtered);
+        }
+
         async function selectHistoricalDate(date) {
             currentDate = date;
+            const searchInput = document.getElementById('searchQuery');
+            if (searchInput) searchInput.value = '';
 
             // Show loading spinners in views
             document.getElementById('signalsContent').innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading historical intelligence...</p></div>';

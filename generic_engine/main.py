@@ -223,7 +223,11 @@ def fetch_and_process_news(
     try:
         existing_insights = azure_client.download_json(config.storage.insights_file)
         if existing_insights and "insights" in existing_insights:
-            existing_insights_list = existing_insights["insights"]
+            # Prune cached items that have "No insight available" in strategic_value
+            for item in existing_insights["insights"]:
+                ins_val = item.get("insight", {})
+                if ins_val.get("strategic_value") != "No insight available":
+                    existing_insights_list.append(item)
     except Exception as e:
         logging.error(f"Failed to load existing cache file {config.storage.insights_file} from storage: {e}")
 
@@ -641,17 +645,46 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
 
         # 8. Upload to cloud storage
         if not dry_run:
-            azure_client.upload_json(config.storage.insights_file, pmo_wrapper)
-            azure_client.upload_json(config.storage.kpis_file, kpis)
+            # Temporary file names for atomic deployment staging
+            insights_temp = f"{os.path.splitext(config.storage.insights_file)[0]}_temp.json"
+            kpis_temp = f"{os.path.splitext(config.storage.kpis_file)[0]}_temp.json"
+            
+            # Stage temporary files on Azure
+            insights_ok = azure_client.upload_json(insights_temp, pmo_wrapper)
+            kpis_ok = azure_client.upload_json(kpis_temp, kpis)
+            
+            if insights_ok and kpis_ok:
+                # Perform fast server-side copies to final files
+                azure_client.copy_blob(insights_temp, config.storage.insights_file)
+                azure_client.copy_blob(kpis_temp, config.storage.kpis_file)
+                
+                # Cleanup temp files
+                azure_client.delete_blob(insights_temp)
+                azure_client.delete_blob(kpis_temp)
+            else:
+                logging.error("Failed to upload temporary staged files. Aborting main swap.")
             
             # Upload social card binary image
             if os.path.exists(social_card_local_path):
                 azure_client.upload_file(social_card_local_path, "latest_social_card.png", "image/png")
                 azure_client.upload_file(social_card_local_path, f"social_card_{date_str}.png", "image/png")
             
-            # Historical backup archive
-            azure_client.upload_json(f"reports/{config.topic_id}_insights_{date_str}.json", pmo_wrapper)
-            azure_client.upload_json(f"reports/{config.topic_id}_kpis_{date_str}.json", kpis)
+            # Historical backup archive - staged and swapped atomically
+            hist_insights_file = f"reports/{config.topic_id}_insights_{date_str}.json"
+            hist_kpis_file = f"reports/{config.topic_id}_kpis_{date_str}.json"
+            hist_insights_temp = f"reports/{config.topic_id}_insights_{date_str}_temp.json"
+            hist_kpis_temp = f"reports/{config.topic_id}_kpis_{date_str}_temp.json"
+            
+            hist_insights_ok = azure_client.upload_json(hist_insights_temp, pmo_wrapper)
+            hist_kpis_ok = azure_client.upload_json(hist_kpis_temp, kpis)
+            
+            if hist_insights_ok and hist_kpis_ok:
+                azure_client.copy_blob(hist_insights_temp, hist_insights_file)
+                azure_client.copy_blob(hist_kpis_temp, hist_kpis_file)
+                azure_client.delete_blob(hist_insights_temp)
+                azure_client.delete_blob(hist_kpis_temp)
+            else:
+                logging.error("Failed to upload historical temporary staged files. Aborting historical swap.")
 
             # Compile and upload remote manifest
             if config.storage.manifest_file:
