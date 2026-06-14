@@ -6,8 +6,8 @@ Activities and Tasks:
 - Resurfaced the conversation about the LinkedIn newsletter setup and reviewed the launch package artifact (`linkedin_newsletter_package.md`).
 - Examined previous session logs to trace the logo design history and the custom pixel-perfect recoloring script (`recolor_yellowcake.py`).
 - Prepared a summary of the finalized newsletter title, taglines, assets, description, and inaugural template.
-- Generated a fifth logo asset starting with the white background logo (`mining_newsletter_logo_white.png`) and refined the asset across three prompt iterations using the `generate_image` tool to place grey gravel and processed (black) U3O8 particles on the same tabletop plane as the crystal structure.
-- Sparsened the distribution to prevent crowding and added a subtle sprinkle of tiny, fine U3O8 dust/grit particles around the base of the crystal structure.
+- Generated a fifth logo asset starting with the white background logo (`mining_newsletter_logo_white.png`) and refined the asset across multiple prompt iterations using the `generate_image` tool to place grey gravel and processed (black) U3O8 particles on the same tabletop plane as the crystal structure.
+- Sparsened the distribution to prevent crowding, added a subtle sprinkle of tiny, fine U3O8 dust/grit particles around the base of the crystal structure, and corrected the bottom typography to read exactly "mayAi" in a gold, geometric sans-serif font.
 - Copied the final image asset to `docs/mining_newsletter_logo_white_gravel_processed.png` in the local workspace.
 - Updated the launch package (`linkedin_newsletter_package.md`) to include the new image in the carousel.
 
