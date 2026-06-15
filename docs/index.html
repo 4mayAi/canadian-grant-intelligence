@@ -227,7 +227,17 @@
 
         async function loadKPIs() {
             try {
-                const res = await fetch(getUrl('kpis'));
+                let res = null;
+                if (currentDate === 'latest') {
+                    try {
+                        res = await fetch('data/kpis.json');
+                    } catch {
+                        res = null;
+                    }
+                }
+                if (!res || !res.ok) {
+                    res = await fetch(getUrl('kpis'));
+                }
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 const data = await res.json();
                 
@@ -498,8 +508,17 @@
         async function loadPmoInsights() {
             const content = document.getElementById('reportContent');
             try {
-                // Fetch from Azure based on currentDate
-                const res = await fetch(getUrl('pmo'));
+                let res = null;
+                if (currentDate === 'latest') {
+                    try {
+                        res = await fetch('data/pmo_insights.json');
+                    } catch {
+                        res = null;
+                    }
+                }
+                if (!res || !res.ok) {
+                    res = await fetch(getUrl('pmo'));
+                }
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 
                 const data = await res.json();
