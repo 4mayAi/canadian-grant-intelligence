@@ -8,7 +8,8 @@
         "publication_date": "2026-05-21",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -19,7 +20,8 @@
         "publication_date": "2023-06-19",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -30,7 +32,8 @@
         "publication_date": "2023-07-27",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -41,7 +44,8 @@
         "publication_date": "2025-02-13",
         "province": "NCR (Ottawa/Gatineau)",
         "province_abbrev": "NCR",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -52,7 +56,8 @@
         "publication_date": "2024-09-25",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -63,7 +68,8 @@
         "publication_date": "2023-11-23",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -74,7 +80,8 @@
         "publication_date": "2024-09-20",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -85,7 +92,8 @@
         "publication_date": "2023-10-13",
         "province": "NCR (Ottawa/Gatineau)",
         "province_abbrev": "NCR",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -96,7 +104,8 @@
         "publication_date": "2025-11-27",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "CNST"
+        "category": "CNST",
+        "category_label": "Construction"
     },
     {
         "type": "Open",
@@ -107,7 +116,8 @@
         "publication_date": "2025-11-26",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "CNST"
+        "category": "CNST",
+        "category_label": "Construction"
     },
     {
         "type": "Open",
@@ -118,7 +128,8 @@
         "publication_date": "2026-03-17",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -129,7 +140,8 @@
         "publication_date": "2026-01-20",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -140,7 +152,8 @@
         "publication_date": "2025-12-12",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -151,7 +164,8 @@
         "publication_date": "2026-04-13",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -162,7 +176,8 @@
         "publication_date": "2024-10-08",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -173,7 +188,8 @@
         "publication_date": "2023-11-16",
         "province": "NCR (Ottawa/Gatineau)",
         "province_abbrev": "NCR",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -184,7 +200,8 @@
         "publication_date": "2026-02-02",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "CNST"
+        "category": "CNST",
+        "category_label": "Construction"
     },
     {
         "type": "Open",
@@ -195,7 +212,8 @@
         "publication_date": "2026-02-02",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "CNST"
+        "category": "CNST",
+        "category_label": "Construction"
     },
     {
         "type": "Open",
@@ -206,7 +224,8 @@
         "publication_date": "2024-06-19",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -217,7 +236,8 @@
         "publication_date": "2026-03-31",
         "province": "NCR (Ottawa/Gatineau)",
         "province_abbrev": "NCR",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -228,7 +248,8 @@
         "publication_date": "2026-05-04",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -239,7 +260,8 @@
         "publication_date": "2026-05-13",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -250,7 +272,8 @@
         "publication_date": "2026-05-15",
         "province": "NCR (Ottawa/Gatineau)",
         "province_abbrev": "NCR",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -261,7 +284,8 @@
         "publication_date": "2026-04-17",
         "province": "Quebec",
         "province_abbrev": "QC",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -272,7 +296,8 @@
         "publication_date": "2026-05-19",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -283,7 +308,8 @@
         "publication_date": "2026-05-08",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -294,7 +320,8 @@
         "publication_date": "2026-05-20",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -305,7 +332,8 @@
         "publication_date": "2026-05-20",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -316,7 +344,8 @@
         "publication_date": "2026-05-11",
         "province": "Alberta",
         "province_abbrev": "AB",
-        "category": "CNST"
+        "category": "CNST",
+        "category_label": "Construction"
     },
     {
         "type": "Open",
@@ -327,7 +356,8 @@
         "publication_date": "2026-05-25",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -338,7 +368,8 @@
         "publication_date": "2026-05-25",
         "province": "Quebec",
         "province_abbrev": "QC",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -349,7 +380,8 @@
         "publication_date": "2026-05-27",
         "province": "NCR (Ottawa/Gatineau)",
         "province_abbrev": "NCR",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -360,7 +392,8 @@
         "publication_date": "2026-05-27",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -371,7 +404,8 @@
         "publication_date": "2026-05-27",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -382,7 +416,8 @@
         "publication_date": "2026-05-27",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -393,7 +428,8 @@
         "publication_date": "2026-05-28",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -404,7 +440,8 @@
         "publication_date": "2026-05-28",
         "province": "Nova Scotia",
         "province_abbrev": "NS",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -415,7 +452,8 @@
         "publication_date": "2026-05-27",
         "province": "Ontario",
         "province_abbrev": "ON",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -426,7 +464,8 @@
         "publication_date": "2026-05-29",
         "province": "Quebec",
         "province_abbrev": "QC",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -437,7 +476,8 @@
         "publication_date": "2026-05-29",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -448,7 +488,8 @@
         "publication_date": "2026-05-29",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -459,7 +500,8 @@
         "publication_date": "2026-06-01",
         "province": "NCR (Ottawa/Gatineau)",
         "province_abbrev": "NCR",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -470,7 +512,8 @@
         "publication_date": "2026-06-01",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -481,7 +524,8 @@
         "publication_date": "2026-06-02",
         "province": "Quebec",
         "province_abbrev": "QC",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -492,7 +536,8 @@
         "publication_date": "2026-05-29",
         "province": "British Columbia",
         "province_abbrev": "BC",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -503,7 +548,8 @@
         "publication_date": "2026-06-03",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -514,7 +560,8 @@
         "publication_date": "2026-06-03",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -525,7 +572,8 @@
         "publication_date": "2026-06-03",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -536,7 +584,8 @@
         "publication_date": "2026-06-03",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -547,7 +596,8 @@
         "publication_date": "2026-06-03",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -558,7 +608,8 @@
         "publication_date": "2026-06-03",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -569,7 +620,8 @@
         "publication_date": "2026-06-03",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -580,7 +632,8 @@
         "publication_date": "2026-06-05",
         "province": "Nova Scotia",
         "province_abbrev": "NS",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -591,7 +644,8 @@
         "publication_date": "2026-06-08",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -602,7 +656,8 @@
         "publication_date": "2026-06-08",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -613,7 +668,8 @@
         "publication_date": "2026-06-08",
         "province": "Prince Edward Island",
         "province_abbrev": "PE",
-        "category": "CNST"
+        "category": "CNST",
+        "category_label": "Construction"
     },
     {
         "type": "Open",
@@ -624,7 +680,8 @@
         "publication_date": "2026-06-09",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -635,7 +692,8 @@
         "publication_date": "2026-06-10",
         "province": "New Brunswick",
         "province_abbrev": "NB",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -646,7 +704,8 @@
         "publication_date": "2026-06-10",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRVGD"
+        "category": "SRVGD",
+        "category_label": "SRVGD"
     },
     {
         "type": "Open",
@@ -657,7 +716,8 @@
         "publication_date": "2026-04-16",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "CNST"
+        "category": "CNST",
+        "category_label": "Construction"
     },
     {
         "type": "Open",
@@ -668,7 +728,8 @@
         "publication_date": "2026-06-11",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     },
     {
         "type": "Open",
@@ -679,7 +740,8 @@
         "publication_date": "2026-06-11",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "CNST"
+        "category": "CNST",
+        "category_label": "Construction"
     },
     {
         "type": "Open",
@@ -690,7 +752,8 @@
         "publication_date": "2026-06-11",
         "province": "National",
         "province_abbrev": "NAT",
-        "category": "GD"
+        "category": "GD",
+        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -701,6 +764,7 @@
         "publication_date": "2026-06-12",
         "province": "New Brunswick",
         "province_abbrev": "NB",
-        "category": "SRV"
+        "category": "SRV",
+        "category_label": "Services"
     }
 ]
