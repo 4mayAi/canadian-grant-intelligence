@@ -9,7 +9,7 @@ import asyncio
 from src.config import Config
 from src.api.azure_client import azure_client
 from src.api.gemini_client import gemini_client
-from src.extractors.ckan import fetch_canadabuys_csvs
+from src.extractors.ckan import fetch_canadabuys_csvs, get_category_label
 from src.extractors.rss import fetch_rss_feeds
 from src.extractors.playwright_scraper import fetch_html_news
 from src.models import Tender, GeminiInsight, KPI
@@ -290,6 +290,8 @@ def run_pipeline():
         now_date = datetime.utcnow().date()
         cutoff_date = now_date - timedelta(days=1)
         for t in existing_tenders:
+            if 'category_label' not in t:
+                t['category_label'] = get_category_label(t.get('category', ''))
             closing_date_str = t.get('closing_date')
             if closing_date_str:
                 try:
