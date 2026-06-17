@@ -241,18 +241,6 @@
     },
     {
         "type": "Open",
-        "title": "RFP EN891-261769 Cash Order Services",
-        "description": "*Remittance processing services",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011840?anId=ANONYMOUS",
-        "closing_date": "2026-06-15T14:00:00",
-        "publication_date": "2026-05-04",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "SRV",
-        "category_label": "Services"
-    },
-    {
-        "type": "Open",
         "title": "Copy of RFP F2599-250003B–CCGS Limnos–Installation of Supplied HVAC and Refrigeration Equipment",
         "description": "*Marine craft systems and subassemblies",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110013105?anId=ANONYMOUS",
@@ -409,18 +397,6 @@
     },
     {
         "type": "Open",
-        "title": "F3710-255059-2 - Water Purification System - RFP",
-        "description": "*Laboratory water purification equipment and supplies*Water purification equipment",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014465?anId=ANONYMOUS",
-        "closing_date": "2026-06-15T14:00:00",
-        "publication_date": "2026-05-27",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "GD",
-        "category_label": "Goods"
-    },
-    {
-        "type": "Open",
         "title": "W7707-257379 - Handheld Active Thermal Infrared Spectroradiometer Design and Development",
         "description": "*Application or technology research and development service",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014095?anId=ANONYMOUS",
@@ -442,18 +418,6 @@
         "province_abbrev": "NS",
         "category": "SRV",
         "category_label": "Services"
-    },
-    {
-        "type": "Open",
-        "title": "W7714-258714 Vest Training System",
-        "description": "*Defense and law enforcement and security and safety training equipment",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011953?anId=ANONYMOUS",
-        "closing_date": "2026-06-15T14:00:00",
-        "publication_date": "2026-05-27",
-        "province": "Ontario",
-        "province_abbrev": "ON",
-        "category": "GD",
-        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -562,18 +526,6 @@
         "province_abbrev": "NAT",
         "category": "SRV",
         "category_label": "Services"
-    },
-    {
-        "type": "Open",
-        "title": "E60HL-260015-A RFP Arctic Naval Distillate Fuel",
-        "description": "*Marine fuel",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015054?anId=ANONYMOUS",
-        "closing_date": "2026-06-15T14:00:00",
-        "publication_date": "2026-06-03",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "GD",
-        "category_label": "Goods"
     },
     {
         "type": "Open",
@@ -766,5 +718,17 @@
         "province_abbrev": "NB",
         "category": "SRV",
         "category_label": "Services"
+    },
+    {
+        "type": "Open",
+        "title": "W6898-260781 Hydraulic Swing Beam Metal Shear",
+        "description": "Metal cutting machinery and accessoriesMetal cutting machinesSpecialized or miscellaneous metal cutting machines",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110011203?anId=ANONYMOUS",
+        "closing_date": "2026-06-26T14:00:00",
+        "publication_date": "2026-04-24",
+        "province": "New Brunswick",
+        "province_abbrev": "NB",
+        "category": "GD",
+        "category_label": "Goods"
     }
 ]
