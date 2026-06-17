@@ -1,0 +1,98 @@
+{
+  "topic_id": "payments",
+  "display_name": "Global Payments & Settlement Intelligence",
+  "dashboard_url": "https://4mayAi.github.io/canadian-grant-intelligence/payments/",
+  "max_items_per_source": 5,
+  "sources": [
+    {
+      "name": "Canada_Payments_News",
+      "url": "https://news.google.com/rss/search?q=%22ISO+20022%22+OR+%22SWIFT%22+OR+%22cross-border+payments%22+site:ca&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Australia_Payments_News",
+      "url": "https://news.google.com/rss/search?q=%22NPP%22+OR+%22cross-border+payments%22+OR+%22ISO+20022%22+site:au&hl=en-AU&gl=AU&ceid=AU:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "China_Payments_News",
+      "url": "https://news.google.com/rss/search?q=%22CIPS%22+OR+%22cross-border+payments%22+OR+%22digital+yuan%22+OR+%22e-CNY%22+site:cn+OR+site:hk&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Switzerland_Payments_News",
+      "url": "https://news.google.com/rss/search?q=Glencore+OR+Trafigura+%22trade+finance%22+OR+%22letters+of+credit%22+OR+%22commodity+settlement%22+site:ch&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "UK_Payments_News",
+      "url": "https://news.google.com/rss/search?q=%22CHIPS%22+OR+%22SWIFT%22+OR+%22cross-border+payments%22+site:uk&hl=en-GB&gl=GB&ceid=GB:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Global_Payments_News",
+      "url": "https://news.google.com/rss/search?q=%22mBridge%22+OR+%22wholesale+CBDC%22+OR+%22correspondent+banking%22+OR+%22de-risking%22+OR+%22swap+lines%22&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    }
+  ],
+  "keywords": [
+    "ISO 20022",
+    "mBridge",
+    "CIPS",
+    "SWIFT",
+    "cross-border payments",
+    "correspondent banking",
+    "de-risking",
+    "trade finance",
+    "letters of credit",
+    "supply chain finance",
+    "swap lines",
+    "clearing",
+    "settlement",
+    "digital yuan",
+    "CBDC"
+  ],
+  "high_value_keywords": [
+    "ISO 20022",
+    "mBridge",
+    "CIPS",
+    "swap lines",
+    "correspondent banking",
+    "de-risking",
+    "trade finance"
+  ],
+  "localization_mappings": {
+    "SWIFT": "[SWIFT](https://www.swift.com/)",
+    "BIS": "[Bank for International Settlements](https://www.bis.org/)",
+    "mBridge": "[Project mBridge](https://www.bis.org/about/bisih/topics/cbdc/mcbdc.htm)",
+    "Federal Reserve": "[Federal Reserve](https://www.federalreserve.gov/)",
+    "CIPS": "[CIPS](https://www.cips.com.cn/en/)"
+  },
+  "llm_settings": {
+    "model_primary": "gemini-3.5-flash",
+    "model_fallbacks": [
+      "gemini-2.5-flash",
+      "gemini-3.1-flash-lite",
+      "gemini-2.5-flash-lite"
+    ],
+    "system_instruction": "You are a senior financial analyst and transaction banking specialist. Synthesize cross-border payment news releases into strategic B2B hooks focusing on settlement infrastructure, correspondent banking networks, ISO 20022 messaging, wholesale settlement platforms (mBridge, CBDCs), and trade finance compliance. Present insights as prospective B2B recommendation spaces or technical opportunities rather than claiming they are achieved facts unless explicitly stated in the source text. Format the 'strategic_value' field as a markdown list containing exactly three bullet points, where the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** '."
+  },
+  "storage": {
+    "azure_container": "payments-data",
+    "processed_urls_file": "processed_urls.json",
+    "insights_file": "payments_insights.json",
+    "kpis_file": "payments_kpis.json",
+    "anchors_file": "payments_anchors.json",
+    "manifest_file": "manifest.json"
+  },
+  "distribution": {
+    "discord_webhook": "${DISCORD_WEBHOOK_PAYMENTS}",
+    "smtp_recipient": "${SMTP_RECIPIENT_PAYMENTS}"
+  }
+}

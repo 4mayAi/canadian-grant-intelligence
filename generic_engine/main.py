@@ -116,7 +116,7 @@ def fetch_and_process_news(
     
     # Load Hub Anchors Database (with Azure loading, fallback seed, and auto-upload)
     hub_anchors = {}
-    local_seed_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'configs', 'hub_anchors.json'))
+    local_seed_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'configs', config.storage.anchors_file))
     
     try:
         logging.info(f"Downloading hub anchors database from Azure: {config.storage.anchors_file}...")

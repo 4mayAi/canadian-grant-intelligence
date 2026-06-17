@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mayAi | Global Mining Hubs Intelligence</title>
-    <meta name="description" content="mayAi: Delivering executive B2B intelligence on global mining hubs competitiveness, positioning, and sustainability.">
-    <meta property="og:title" content="mayAi | Global Mining Hubs Intelligence">
-    <meta property="og:description" content="Delivering executive B2B intelligence on global mining hubs competitiveness, positioning, and sustainability.">
+    <title>mayAi | Global Payments & Settlement Intelligence</title>
+    <meta name="description" content="mayAi: Delivering executive B2B intelligence on cross-border payments, ISO 20022 migration, sovereign payment rails, and trade settlement.">
+    <meta property="og:title" content="mayAi | Global Payments & Settlement Intelligence">
+    <meta property="og:description" content="Delivering executive B2B intelligence on cross-border payments, ISO 20022 migration, sovereign payment rails, and trade settlement.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://4mayAi.github.io/canadian-grant-intelligence/mining-hubs/">
+    <meta property="og:url" content="https://4mayAi.github.io/canadian-grant-intelligence/payments/">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" href="../style.css">
     <style>
-        /* Extra custom styling to enhance the layout specifically for Mining Hubs */
+        /* Extra custom styling to enhance the layout specifically for Payments */
         .report-section {
             background: rgba(30, 41, 59, 0.4);
             border: 1px solid rgba(255, 215, 0, 0.15);
@@ -88,32 +88,42 @@
             font-size: 11px;
             font-weight: 600;
         }
-        .badge-mets {
+        .badge-pmt {
             border-radius: 4px;
             padding: 2px 6px;
             font-size: 11px;
             font-weight: 600;
             border: 1px solid rgba(255, 255, 255, 0.15);
         }
-        .mets-ops {
-            background: rgba(239, 68, 68, 0.1) !important;
-            color: #f87171 !important;
-            border-color: rgba(239, 68, 68, 0.3) !important;
-        }
-        .mets-esg {
-            background: rgba(34, 197, 94, 0.1) !important;
-            color: #4ade80 !important;
-            border-color: rgba(34, 197, 94, 0.3) !important;
-        }
-        .mets-digital {
+        .pmt-standards {
             background: rgba(59, 130, 246, 0.1) !important;
             color: #60a5fa !important;
             border-color: rgba(59, 130, 246, 0.3) !important;
         }
-        .mets-pmo {
+        .pmt-sovereign {
             background: rgba(245, 158, 11, 0.1) !important;
             color: #fbbf24 !important;
             border-color: rgba(245, 158, 11, 0.3) !important;
+        }
+        .pmt-correspondent {
+            background: rgba(239, 68, 68, 0.1) !important;
+            color: #f87171 !important;
+            border-color: rgba(239, 68, 68, 0.3) !important;
+        }
+        .pmt-trade {
+            background: rgba(34, 197, 94, 0.1) !important;
+            color: #4ade80 !important;
+            border-color: rgba(34, 197, 94, 0.3) !important;
+        }
+        .pmt-liquidity {
+            background: rgba(168, 85, 247, 0.1) !important;
+            color: #c084fc !important;
+            border-color: rgba(168, 85, 247, 0.3) !important;
+        }
+        .pmt-general {
+            background: rgba(255, 255, 255, 0.05) !important;
+            color: var(--text-secondary) !important;
+            border-color: rgba(255, 255, 255, 0.15) !important;
         }
         .navigation-links {
             display: flex;
@@ -148,11 +158,11 @@
                 </div>
                 <h1>may<span>Ai</span></h1>
             </div>
-            <p>Global Mining Hubs Intelligence | Delivering Golden Opportunities Daily</p>
+            <p>Global Payments &amp; Settlement Intelligence | Delivering Golden Opportunities Daily</p>
             
             <div id="hero-hook-container" class="hero-hook-container" style="display: none;">
                 <div class="hero-hook-glow"></div>
-                <p id="hero-hook-text">Synthesizing mining intelligence...</p>
+                <p id="hero-hook-text">Synthesizing payment intelligence...</p>
             </div>
 
             <div class="header-controls header-controls-row-align">
@@ -176,14 +186,14 @@
         <div class="navigation-links">
             <a href="../" class="nav-tab-link">🇨🇦 Grant Intelligence</a>
             <a href="../clusters/" class="nav-tab-link">🇨🇦 Innovation Clusters</a>
-            <a href="#" class="nav-tab-link active">🌎 Global Mining Hubs</a>
-            <a href="../payments/" class="nav-tab-link">💳 Global Payments</a>
+            <a href="../mining-hubs/" class="nav-tab-link">🌎 Global Mining Hubs</a>
+            <a href="#" class="nav-tab-link active">💳 Global Payments</a>
         </div>
 
         <div class="kpi-container">
             <div class="kpi-card">
                 <span class="kpi-value" id="kpi-total">0</span>
-                <span class="kpi-label">Active Hub Signals</span>
+                <span class="kpi-label">Active Signals</span>
             </div>
             <div class="kpi-card">
                 <span class="kpi-value" id="kpi-new-today">0</span>
@@ -196,7 +206,7 @@
         </div>
 
         <div class="tabs">
-            <button class="tab-btn active" id="btn-signals" onclick="switchTab('signals')">Active Mining Signals</button>
+            <button class="tab-btn active" id="btn-signals" onclick="switchTab('signals')">Active Payments Signals</button>
             <button class="tab-btn" id="btn-digest" onclick="switchTab('digest')">Executive Digest</button>
         </div>
 
@@ -205,7 +215,7 @@
             <div id="signalsContent">
                 <div class="loading">
                     <div class="spinner"></div>
-                    <p>Loading mining intelligence...</p>
+                    <p>Loading payments intelligence...</p>
                 </div>
             </div>
         </div>
@@ -221,13 +231,13 @@
 
         <footer>
             <p>Powered by mayAi &middot; Built with GitHub Actions</p>
-            <p>Data sourced from MAC (Canada), MCA (Australia), Zijin Mining &amp; CMA (China), SUISSENEGOCE (Switzerland), London Metal Exchange (UK), ICMM &amp; IEA portals</p>
+            <p>Data sourced from SWIFT, BIS, mBridge, Central Bank swap releases, and global transaction rails</p>
         </footer>
     </div>
 
     <script>
-        const TOPIC_ID = 'mining-hubs';
-        const AZURE_CONTAINER_URL = 'https://canadiangrants.blob.core.windows.net/mining-hubs-data';
+        const TOPIC_ID = 'payments';
+        const AZURE_CONTAINER_URL = 'https://canadiangrants.blob.core.windows.net/payments-data';
         const MANIFEST_AZURE = `${AZURE_CONTAINER_URL}/manifest.json`;
         const MANIFEST_LOCAL = `../data/${TOPIC_ID}/manifest.json`;
 
@@ -237,11 +247,11 @@
         function getUrl(type, source = 'azure') {
             if (source === 'azure') {
                 return currentDate === 'latest'
-                    ? (type === 'kpis' ? `${AZURE_CONTAINER_URL}/mining_kpis.json` : `${AZURE_CONTAINER_URL}/mining_insights.json`)
+                    ? (type === 'kpis' ? `${AZURE_CONTAINER_URL}/payments_kpis.json` : `${AZURE_CONTAINER_URL}/payments_insights.json`)
                     : (type === 'kpis' ? `${AZURE_CONTAINER_URL}/reports/${TOPIC_ID}_kpis_${currentDate}.json` : `${AZURE_CONTAINER_URL}/reports/${TOPIC_ID}_insights_${currentDate}.json`);
             } else {
                 return currentDate === 'latest'
-                    ? (type === 'kpis' ? `../data/${TOPIC_ID}/mining_kpis.json` : `../data/${TOPIC_ID}/mining_insights.json`)
+                    ? (type === 'kpis' ? `../data/${TOPIC_ID}/payments_kpis.json` : `../data/${TOPIC_ID}/payments_insights.json`)
                     : (type === 'kpis' ? `../data/${TOPIC_ID}/reports/${TOPIC_ID}_kpis_${currentDate}.json` : `../data/${TOPIC_ID}/reports/${TOPIC_ID}_insights_${currentDate}.json`);
             }
         }
@@ -249,155 +259,105 @@
         async function fetchJSON(type) {
             const azureUrl = getUrl(type, 'azure');
             const localUrl = getUrl(type, 'local');
+
             try {
-                // 1. Attempt Azure download first
                 const res = await fetch(azureUrl);
-                if (!res.ok) throw new Error(`Azure HTTP Error: status ${res.status}`);
+                if (!res.ok) throw new Error(`Azure fetch failed: ${res.status}`);
                 return await res.json();
-            } catch (e) {
-                if (currentDate === 'latest') {
-                    console.warn(`Azure CDN unreachable or CORS blocked. Pivoting to GitHub local backup. Error:`, e);
-                    // 2. Fallback to local Pages backup
-                    const res = await fetch(localUrl);
-                    if (!res.ok) throw new Error(`Fallback HTTP Error: status ${res.status}`);
-                    return await res.json();
-                } else {
-                    // For historical runs, no local backup is committed.
-                    throw new Error(`Failed to load historical data from Azure: ${e.message}`);
-                }
+            } catch (err) {
+                console.warn(`Azure download failed for ${type}, retrying local storage backup:`, err);
+                const res = await fetch(localUrl);
+                if (!res.ok) throw new Error(`Local backup fetch failed: ${res.status}`);
+                return await res.json();
+            }
+        }
+
+        function escapeHtml(unsafe) {
+            if (!unsafe) return "";
+            return unsafe
+                 .replace(/&/g, "&amp;")
+                 .replace(/</g, "&lt;")
+                 .replace(/>/g, "&gt;")
+                 .replace(/"/g, "&quot;")
+                 .replace(/'/g, "&#039;");
+        }
+
+        function formatDate(isoStr) {
+            if (!isoStr) return 'Unknown Date';
+            try {
+                const cleanStr = isoStr.rstrip ? isoStr.rstrip("Z") : isoStr.replace("Z", "");
+                const d = new Date(cleanStr);
+                if (isNaN(d.getTime())) return isoStr.split('T')[0];
+                return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+            } catch(e) {
+                return isoStr.split('T')[0];
             }
         }
 
         function switchTab(tab) {
-            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            const signalsBtn = document.getElementById('btn-signals');
+            const digestBtn = document.getElementById('btn-digest');
+            const signalsView = document.getElementById('signalsView');
+            const digestView = document.getElementById('digestView');
+
             if (tab === 'signals') {
-                document.getElementById('btn-signals').classList.add('active');
-                document.getElementById('signalsView').style.display = 'block';
-                document.getElementById('digestView').style.display = 'none';
+                signalsBtn.classList.add('active');
+                digestBtn.classList.remove('active');
+                signalsView.style.display = 'block';
+                digestView.style.display = 'none';
             } else {
-                document.getElementById('btn-digest').classList.add('active');
-                document.getElementById('signalsView').style.display = 'none';
-                document.getElementById('digestView').style.display = 'block';
-            }
-        }
-
-        function decodeHtml(html) {
-            if (!html) return '';
-            const txt = document.createElement("textarea");
-            txt.innerHTML = html;
-            return txt.value;
-        }
-
-        // DOM Sanitizer to defend against XSS
-        function escapeHtml(text) {
-            if (!text) return '';
-            const decoded = decodeHtml(text);
-            const d = document.createElement('div');
-            d.textContent = decoded;
-            return d.innerHTML;
-        }
-
-        function copyPost(btn) {
-            const raw = btn.dataset.raw;
-            const text = raw ? decodeHtml(raw) : document.getElementById('digestPost').textContent;
-            navigator.clipboard.writeText(text).then(() => {
-                btn.textContent = 'Copied!';
-                btn.classList.add('copied');
-                setTimeout(() => {
-                    btn.textContent = 'Copy Digest';
-                    btn.classList.remove('copied');
-                }, 2000);
-            });
-        }
-
-        function formatDate(dateStr) {
-            try {
-                if (!dateStr) return 'N/A';
-                const d = new Date(dateStr);
-                return d.toLocaleDateString('en-CA', { month: 'short', day: 'numeric', year: 'numeric' });
-            } catch {
-                return dateStr;
+                signalsBtn.classList.remove('active');
+                digestBtn.classList.add('active');
+                signalsView.style.display = 'none';
+                digestView.style.display = 'block';
             }
         }
 
         async function loadKPIs() {
             try {
                 const kpis = await fetchJSON('kpis');
+                document.getElementById('kpi-total').innerText = kpis.total_active || 0;
+                document.getElementById('kpi-new-today').innerText = kpis.new_today || 0;
+                document.getElementById('kpi-lead').innerText = kpis.top_category || 'Mixed';
 
-                // Render Hero Hook
+                // Display dynamic hero hook under header
+                const hookContainer = document.getElementById('hero-hook-container');
+                const hookText = document.getElementById('hero-hook-text');
                 if (kpis.hero_hook) {
-                    const hookContainer = document.getElementById('hero-hook-container');
-                    const hookText = document.getElementById('hero-hook-text');
                     hookText.innerText = kpis.hero_hook;
                     hookContainer.style.display = 'block';
+                } else {
+                    hookContainer.style.display = 'none';
                 }
 
-                // Render timestamp
-                const timeEl = document.getElementById('last-update-time');
-                if (timeEl && kpis.generated_at) {
-                    const d = new Date(kpis.generated_at);
-                    const dateStr = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
-                    const timeStr = d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false, timeZoneName: 'short', timeZone: 'UTC' });
-                    timeEl.innerText = `${dateStr} at ${timeStr}`;
-                }
+                // Render Update Time
+                const dateText = formatDate(kpis.generated_at);
+                document.getElementById('last-update-time').innerText = dateText;
+
             } catch (e) {
                 console.error("Failed to load KPIs:", e);
+                document.getElementById('kpi-total').innerText = 'N/A';
+                document.getElementById('kpi-new-today').innerText = 'N/A';
+                document.getElementById('kpi-lead').innerText = 'N/A';
             }
         }
 
         async function loadInsights() {
             const signalsContent = document.getElementById('signalsContent');
             const digestContent = document.getElementById('digestContent');
+
             try {
                 const data = await fetchJSON('insights');
                 cachedData = data;
 
-                const insights = data.insights || [];
+                // 1. Render Signals list
+                renderSignals(data.insights || []);
 
-                // 1. Calculate and update KPI metrics dynamically
-                document.getElementById('kpi-total').innerText = insights.length;
-                
-                const activeSources = new Set();
-                insights.forEach(item => {
-                    if (item.source) {
-                        const cleanSrc = item.source.replace('_News', '').replace('_Mining', '').replace('_Global_ESG', '').replace('_Critical_Minerals', '');
-                        activeSources.add(cleanSrc);
-                    }
-                });
-                document.getElementById('kpi-new-today').innerText = `${activeSources.size} / 7 Active`;
-
-                const sourceCounts = {};
-                insights.forEach(item => {
-                    if (item.source) {
-                        const cleanSrc = item.source.replace('_News', '').replace('_', ' ').replace('Global ESG', 'ESG').replace('Critical Minerals', 'Minerals');
-                        sourceCounts[cleanSrc] = (sourceCounts[cleanSrc] || 0) + 1;
-                    }
-                });
-                
-                let topContributor = 'Mixed Sectors';
-                let maxCount = 0;
-                for (const [src, count] of Object.entries(sourceCounts)) {
-                    if (count > maxCount) {
-                        maxCount = count;
-                        topContributor = src;
-                    }
-                }
-                
-                if (maxCount > 0) {
-                    const displayContributor = topContributor.length > 25 ? topContributor.substring(0, 22) + '...' : topContributor;
-                    document.getElementById('kpi-lead').innerText = `${displayContributor} (${maxCount})`;
-                } else {
-                    document.getElementById('kpi-lead').innerText = 'N/A';
-                }
-
-                // 2. Render active signals
-                renderSignals(insights);
-
-                // 3. Render executive digest side-by-side with social card
+                // 2. Render Executive Digest Tab
                 let digestHtml = '';
                 if (data.linkedin_post) {
                     const socialCardUrl = currentDate === 'latest'
-                        ? `${AZURE_CONTAINER_URL}/latest_social_card.png`
+                        ? `${AZURE_CONTAINER_URL}/social_card.png`
                         : `${AZURE_CONTAINER_URL}/social_card_${currentDate}.png`;
                     const socialCardLocalFallback = `../data/${TOPIC_ID}/social_card.png`;
 
@@ -453,7 +413,6 @@
 
         async function loadManifest() {
             try {
-                // Eagerly try to load the manifest from Azure container, fallback to local backup path
                 let dates = [];
                 try {
                     const res = await fetch(MANIFEST_AZURE);
@@ -490,16 +449,36 @@
                     const innerInsight = item.insight || {};
                     
                     if (innerInsight.strategic_value) {
-                        innerHtml += `<h4>Competitiveness &amp; Position Impact</h4>
+                        innerHtml += `<h4>Strategic Opportunity &amp; Hook</h4>
                                       <div class="md-content">${marked.parse(innerInsight.strategic_value)}</div>`;
                     }
                     if (innerInsight.co_bidding_opportunity) {
-                        innerHtml += `<h4>Sustainability &amp; ESG Alignment</h4>
+                        innerHtml += `<h4>Co-Bidding &amp; Compliance Details</h4>
                                       <div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
                     }
 
                     const displaySource = (item.source || '').replace('_News', '').replace('_', ' ');
-                    const metsClass = innerInsight.mets_category ? innerInsight.mets_category.toLowerCase().trim() : '';
+                    
+                    // MECE normalisation
+                    const cleanCategory = (innerInsight.mets_category || '').toLowerCase().trim();
+                    let badgeClass = 'pmt-general';
+                    let badgeLabel = innerInsight.mets_category || 'General';
+                    if (cleanCategory.includes('standards') || cleanCategory.includes('iso')) {
+                        badgeClass = 'pmt-standards';
+                        badgeLabel = 'Standards';
+                    } else if (cleanCategory.includes('sovereign') || cleanCategory.includes('mbridge') || cleanCategory.includes('rail') || cleanCategory.includes('cbdc')) {
+                        badgeClass = 'pmt-sovereign';
+                        badgeLabel = 'Sovereign Rails';
+                    } else if (cleanCategory.includes('correspondent') || cleanCategory.includes('de-risking') || cleanCategory.includes('network')) {
+                        badgeClass = 'pmt-correspondent';
+                        badgeLabel = 'Correspondent Networks';
+                    } else if (cleanCategory.includes('trade') || cleanCategory.includes('credit') || cleanCategory.includes('letter') || cleanCategory.includes('scf')) {
+                        badgeClass = 'pmt-trade';
+                        badgeLabel = 'Trade Finance';
+                    } else if (cleanCategory.includes('liquidity') || cleanCategory.includes('swap') || cleanCategory.includes('valve')) {
+                        badgeClass = 'pmt-liquidity';
+                        badgeLabel = 'Liquidity Valves';
+                    }
 
                     signalsHtml += `
                         <details class="report-section">
@@ -508,7 +487,7 @@
                                 ${innerInsight.linkedin_hook ? `<div class="hook-subtitle">${escapeHtml(innerInsight.linkedin_hook)}</div>` : ''}
                                 <div class="report-meta">
                                     <span class="badge-hub">📡 ${escapeHtml(displaySource)}</span>
-                                    ${innerInsight.mets_category ? `<span class="badge-mets ${escapeHtml(metsClass)}">🛠️ ${escapeHtml(innerInsight.mets_category)}</span>` : ''}
+                                    <span class="badge-pmt ${escapeHtml(badgeClass)}">💳 ${escapeHtml(badgeLabel)}</span>
                                     <span>📅 ${formatDate(item.date)}</span>
                                 </div>
                             </summary>
@@ -546,7 +525,7 @@
                 signalsHtml = `
                     <div class="empty-state">
                         <h3>No Actionable Opportunities Found</h3>
-                        <p>No project calls or supply chain updates match your search query.</p>
+                        <p>No project calls or payment infrastructure updates match your search query.</p>
                     </div>
                 `;
             }
@@ -583,8 +562,24 @@
             ]);
         }
 
+        function copyPost(btn) {
+            const text = btn.getAttribute('data-raw');
+            if (!text) return;
+            navigator.clipboard.writeText(text).then(() => {
+                const originalText = btn.innerText;
+                btn.innerText = 'Copied!';
+                btn.classList.add('success');
+                setTimeout(() => {
+                    btn.innerText = originalText;
+                    btn.classList.remove('success');
+                }, 2000);
+            }).catch(err => {
+                console.error('Copy failed:', err);
+                alert('Failed to copy. Please manually select and copy the text.');
+            });
+        }
+
         async function init() {
-            // Run sequentially to prevent race conditions during DOM injection
             await loadManifest();
             await loadKPIs();
             await loadInsights();

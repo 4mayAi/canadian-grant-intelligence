@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-06-17T05:54:12.082438Z",
+  "linkedin_post": "\n\n### Featured News & Sources\n- [Canada’s Nuvei to buy Payoneer for US$2.75 billion in cross-border payments push - BNN Bloomberg](https://www.bnnbloomberg.ca/business/company-news/2026/06/15/canadas-nuvei-to-buy-payoneer-for-us275-billion-in-cross-border-payments-push/) (Canada Payments)\n- [Swift solutions in Magog | Quebec AM | On Demand | CBC Listen - CBC](https://www.cbc.ca/listen/live-radio/1-87-quebec-am/clip/16221003-swift-solutions-magog) (Canada Payments)\n",
+  "insights": [
+    {
+      "source": "Canada_Payments_News",
+      "title": "Canada’s Nuvei to buy Payoneer for US$2.75 billion in cross-border payments push - BNN Bloomberg",
+      "link": "https://www.bnnbloomberg.ca/business/company-news/2026/06/15/canadas-nuvei-to-buy-payoneer-for-us275-billion-in-cross-border-payments-push/",
+      "date": "2026-06-15T13:26:11Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "Canada_Payments_News",
+      "title": "Swift solutions in Magog | Quebec AM | On Demand | CBC Listen - CBC",
+      "link": "https://www.cbc.ca/listen/live-radio/1-87-quebec-am/clip/16221003-swift-solutions-magog",
+      "date": "2026-06-12T08:00:00Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    }
+  ]
+}

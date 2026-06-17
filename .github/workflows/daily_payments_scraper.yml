@@ -1,0 +1,75 @@
+name: Global Payments Intelligence Pipeline
+
+on:
+#   schedule:
+#     - cron: '0 17 * * *' # Run daily at 17:00 UTC (1:00 PM EDT)
+  workflow_dispatch:     # Allow manual runs
+    inputs:
+      lookback_days:
+        description: 'Number of days to look back for news'
+        required: false
+        default: '30'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for cleaner rebases
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Cache Playwright Binaries
+        uses: actions/cache@v3
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('**/requirements.txt') }}
+
+      - name: Install Playwright Browser & OS Dependencies
+        run: playwright install --with-deps chromium
+
+      - name: Run Generic Engine
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+          DISCORD_WEBHOOK_PAYMENTS: ${{ secrets.DISCORD_WEBHOOK_PAYMENTS || secrets.DISCORD_WEBHOOK_CLUSTERS }}
+          SMTP_RECIPIENT_PAYMENTS: ${{ secrets.SMTP_RECIPIENT_PAYMENTS || secrets.SMTP_RECIPIENT_CLUSTERS }}
+          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+          SCRAPE_LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '30' }}
+        run: |
+          python generic_engine/main.py --config configs/global_payments.json
+
+      - name: Commit and Push Local Report Backups
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add docs/data/
+          git commit -m "Automated Payments Report backup: $(date +'%Y-%m-%d')" || exit 0
+          
+          # Retry loop for push concurrency
+          for i in {1..3}; do
+            git pull --rebase origin main
+            if git push; then
+              echo "Push successful!"
+              break
+            else
+              echo "Push failed, retrying in 5 seconds..."
+              sleep 5
+            fi
+          done
