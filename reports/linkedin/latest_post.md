@@ -1,14 +1,15 @@
 ![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)
 
-# Carney's G7, Data Privacy, and Joly's $75M: Decoding Canada's New B2B Funding Landscape
+# Canada's Procurement Pulse: G7 Echoes, Digital Trust, and Supply Chain Shifts
 
-🚀 Canadian businesses, brace for impact! Today's government shifts reveal a strategic landscape ripe with new procurement and funding opportunities. 
+🚀 Canada's federal procurement landscape is buzzing with major shifts this June 17, 2026! From global summits to landmark legislation, here's what your business needs to know to align with Ottawa's evolving priorities.
 
-Prime Minister Carney's G7 engagements underscore a renewed focus on national security and economic resilience. Expect significant federal grants and RFPs in defence technology, critical minerals supply chain solutions, and robust digital safety platforms. Companies in green mining tech, cyber intelligence, and content moderation should watch closely for targeted federal funding and contracts. 
+PM Mark Carney's leadership at the 2026 G7 Leaders’ Summit has cemented new directions in defence and critical minerals. Firms specializing in green mining tech, mineral tracing, or maritime surveillance should note the impending high-value federal grants and RFPs. This signals a clear focus on securing supply chains and bolstering national security.
 
-Canada's new legislation protecting children's data and strengthening digital trust is a game-changer. Tech vendors specializing in privacy-by-design, identity verification, and zero-trust architectures should prepare for surging public sector demand. Software developers and cybersecurity firms with expertise in IAM and data governance will find significant opportunities as agencies modernize compliance. 
+Simultaneously, the Government of Canada has tabled significant legislation to protect children’s data and build trust in the digital economy. Vendors offering robust Identity and Access Management (IAM) and compliance software will find a surge in public sector demand as agencies modernize to meet privacy-by-design mandates.
 
-Furthermore, Minister Joly's $75 million investment uniting Canadian Blood Services and the Canadian Armed Forces signals a critical need for advanced cold-chain logistics, medical supply chain optimization, and digital health integration solutions. Logistics firms, health tech innovators, and emergency readiness specialists should explore pathways to support these vital national security and public health initiatives. 
+Supply chain integrity is also paramount with new legislation tabled to strengthen prohibitions on goods produced with forced labour. Businesses providing supply chain traceability technology and audit services are poised for competitive advantage in upcoming tenders. Further, a $75 million investment from Minister Joly into the Canadian Blood Services and Canadian Armed Forces partnership signals opportunities for cold-chain optimization and digital health integration firms focused on operational readiness.
 
 Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
-#CanadianProcurement #GovernmentFunding #BusinessIntelligence #mayAi #DigitalEconomy
+
+#CanadianProcurement #GovTech #SupplyChain #CriticalMinerals #DigitalTrust
