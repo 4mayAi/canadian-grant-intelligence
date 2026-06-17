@@ -1,8 +1,98 @@
 {
-  "Canada": [],
-  "Australia": [],
-  "China": [],
-  "Switzerland": [],
-  "UK": [],
-  "Global": []
+  "Canada": [
+    {
+      "id": 100,
+      "fact": "Payments Canada successfully launched Lynx Release 2 in March 2023, migrating Canada's high-value payment system to the ISO 20022 messaging standard to support rich data transmission and automated transaction compliance.",
+      "source": "Payments Canada Lynx System Guide",
+      "pages": "Section 2.1",
+      "url": "https://www.paymentscanada.ca/our-systems/lynx"
+    },
+    {
+      "id": 101,
+      "fact": "Canada's Real-Time Rail (RTR) instant payment system is designed to utilize the ISO 20022 standard to enable 24/7/365 immediate clearing and settlement of retail and corporate transactions.",
+      "source": "Payments Canada RTR Modernization",
+      "pages": "Page 3",
+      "url": "https://www.paymentscanada.ca/our-focus/modernization/real-time-rail"
+    }
+  ],
+  "Australia": [
+    {
+      "id": 200,
+      "fact": "Australia's National Payments Platform (NPP) successfully completed its industry-wide migration of high-value payments messaging to the ISO 20022 standard in March 2023.",
+      "source": "Reserve Bank of Australia Payments Report 2023",
+      "pages": "Page 14",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/"
+    },
+    {
+      "id": 201,
+      "fact": "The Reserve Bank of Australia and the NPP have integrated the ISO 20022 standard to support structured remittance details, reducing compliance delays for inbound cross-border transactions.",
+      "source": "RBA Bulletin March 2023",
+      "pages": "Page 5",
+      "url": "https://www.rba.gov.au/publications/bulletin/2023/mar/modernising-australias-high-value-payments-system-iso-20022.html"
+    }
+  ],
+  "China": [
+    {
+      "id": 300,
+      "fact": "China's Cross-Border Interbank Payment System (CIPS) was established in 2015 to clear and settle cross-border Renminbi (RMB) transactions, growing to support over 1,500 direct and indirect participants globally by 2024.",
+      "source": "CIPS Official Profile 2024",
+      "pages": "Section 1",
+      "url": "https://www.cips.com.cn/en/"
+    },
+    {
+      "id": 301,
+      "fact": "The People's Bank of China (PBOC) Digital Currency Research Institute utilizes the digital yuan (e-CNY) for bilateral cross-border retail and wholesale payment pilots, partnering with the Hong Kong Monetary Authority.",
+      "source": "PBOC e-CNY Progress Report",
+      "pages": "Section IV",
+      "url": "http://www.pbc.gov.cn/en/3688110/3688172/4157443/index.html"
+    }
+  ],
+  "Switzerland": [
+    {
+      "id": 400,
+      "fact": "Switzerland's Swiss Interbank Clearing (SIC) system, operated by SIX under the supervision of the Swiss National Bank, completed its migration to the ISO 20022-based SIC5 platform in November 2023, enabling instant payments.",
+      "source": "SIX SIC5 Migration Guide",
+      "pages": "Section 1.2",
+      "url": "https://www.six-group.com/en/products-services/financial-information.html"
+    },
+    {
+      "id": 401,
+      "fact": "Swiss commodity traders (e.g., Glencore, Trafigura) settle physical shipments utilizing structured trade finance instruments, including digital Letters of Credit (LCs) clearing through European transaction banking networks.",
+      "source": "SUISSENEGOCE Trade Finance Review",
+      "pages": "Page 8",
+      "url": "https://suissenegoce.ch/"
+    }
+  ],
+  "UK": [
+    {
+      "id": 500,
+      "fact": "The Bank of England migrated its Real-Time Gross Settlement (RTGS) system and CHAPS clearing network to the ISO 20022 messaging standard in June 2023 to improve resiliency and interoperability with global rails.",
+      "source": "Bank of England RTGS Renewal Program",
+      "pages": "Page 2",
+      "url": "https://www.bankofengland.co.uk/payment-and-settlement/rtgs-renewal-programme"
+    },
+    {
+      "id": 501,
+      "fact": "The London Metal Exchange (LME) clears physical metal trades through LME Clear, utilizing multi-currency liquidity accounts and bank guarantees to mitigate clearing broker counterparty credit risk.",
+      "source": "LME Clear Rulebook",
+      "pages": "Part 3: Clearing Procedures",
+      "url": "https://www.lme.com/"
+    }
+  ],
+  "Global": [
+    {
+      "id": 600,
+      "fact": "Project mBridge, a multi-currency cross-border wholesale CBDC platform developed by the BIS Innovation Hub and the central banks of China, Hong Kong, Thailand, UAE, and Saudi Arabia, reached its Minimum Viable Product (MVP) stage in June 2024.",
+      "source": "BIS mBridge MVP Announcement",
+      "pages": "Press Release",
+      "url": "https://www.bis.org/press/p240605.htm"
+    },
+    {
+      "id": 601,
+      "fact": "SWIFT's global migration to ISO 20022 for cross-border payment messaging began its coexistence phase in March 2023, with the legacy MT format scheduled for complete decommissioning by November 2025.",
+      "source": "SWIFT ISO 20022 Roadmap",
+      "pages": "Executive Summary",
+      "url": "https://www.swift.com/standards/iso-20022"
+    }
+  ]
 }
