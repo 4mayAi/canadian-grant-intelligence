@@ -6,7 +6,7 @@
   "sources": [
     {
       "name": "Canada_Payments_News",
-      "url": "https://news.google.com/rss/search?q=%22ISO+20022%22+OR+%22SWIFT%22+OR+%22cross-border+payments%22+site:ca&hl=en-CA&gl=CA&ceid=CA:en",
+      "url": "https://news.google.com/rss/search?q=%22ISO+20022%22+OR+%22SWIFT+payment%22+OR+%22SWIFT+network%22+OR+%22SWIFT+system%22+OR+%22cross-border+payments%22+site:ca&hl=en-CA&gl=CA&ceid=CA:en",
       "type": "rss",
       "skip_query_refactoring": true
     },
@@ -30,7 +30,7 @@
     },
     {
       "name": "UK_Payments_News",
-      "url": "https://news.google.com/rss/search?q=%22CHIPS%22+OR+%22SWIFT%22+OR+%22cross-border+payments%22+site:uk&hl=en-GB&gl=GB&ceid=GB:en",
+      "url": "https://news.google.com/rss/search?q=%22CHIPS+clearing%22+OR+%22CHIPS+payment%22+OR+%22CHIPS+system%22+OR+%22SWIFT+payment%22+OR+%22SWIFT+network%22+OR+%22SWIFT+system%22+OR+%22cross-border+payments%22+site:uk&hl=en-GB&gl=GB&ceid=GB:en",
       "type": "rss",
       "skip_query_refactoring": true
     },
