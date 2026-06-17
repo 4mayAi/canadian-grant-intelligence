@@ -143,7 +143,7 @@ def reindex_all_facts(hub_anchors: Dict[str, List[Dict[str, Any]]]) -> Dict[str,
 def main():
     parser = argparse.ArgumentParser(description="Automated Hub Anchors Update Engine")
     parser.add_argument("--config", type=str, default="configs/mining_hubs.json", help="Path to config file")
-    parser.add_argument("--hub", type=str, choices=["Canada", "Australia", "China", "Switzerland", "Global"], help="Target hub name")
+    parser.add_argument("--hub", type=str, help="Target hub name")
     parser.add_argument("--url", type=str, help="PDF Report URL to manually ingest")
     parser.add_argument("--source-name", type=str, help="Manual Report Source Name (e.g. MAC Facts & Figures 2026)")
     parser.add_argument("--force", action="store_true", help="Force curation on existing report URLs even if no new URL is detected")
@@ -181,7 +181,7 @@ def main():
                 hub_anchors = json.load(lf)
             logging.info(f"Successfully loaded current anchors database from local config: {local_anchors_path}")
         else:
-            hub_anchors = {"Canada": [], "Australia": [], "China": [], "Switzerland": [], "Global": []}
+            hub_anchors = {}
             logging.info("Created empty hub anchors database.")
 
     # 4. Handle manual or automatic ingestion

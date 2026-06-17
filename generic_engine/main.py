@@ -351,9 +351,10 @@ def fetch_and_process_news(
             logging.error(f"Error scraping news item: {exc}. Falling back to default metadata.")
 
     # Group unprocessed items by hub to prevent context contamination
+    source_hubs = {src.name: (src.hub if src.hub else get_hub_from_source(src.name)) for src in config.sources}
     items_by_hub = {}
     for item in unprocessed_items:
-        hub = get_hub_from_source(item['source'])
+        hub = source_hubs.get(item['source']) or get_hub_from_source(item['source'])
         if hub not in items_by_hub:
             items_by_hub[hub] = []
         items_by_hub[hub].append(item)
@@ -663,6 +664,7 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
                 azure_client.delete_blob(kpis_temp)
             else:
                 logging.error("Failed to upload temporary staged files. Aborting main swap.")
+                raise RuntimeError("Failed to upload primary dashboard data to Azure Storage.")
             
             # Upload social card binary image
             if os.path.exists(social_card_local_path):
@@ -685,6 +687,7 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
                 azure_client.delete_blob(hist_kpis_temp)
             else:
                 logging.error("Failed to upload historical temporary staged files. Aborting historical swap.")
+                raise RuntimeError("Failed to upload historical backup data to Azure Storage.")
 
             # Compile and upload remote manifest
             if config.storage.manifest_file:
@@ -696,7 +699,9 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
                     if date_str not in remote_manifest:
                         remote_manifest.append(date_str)
                     remote_manifest.sort(reverse=True)
-                azure_client.upload_json(config.storage.manifest_file, remote_manifest)
+                manifest_ok = azure_client.upload_json(config.storage.manifest_file, remote_manifest)
+                if not manifest_ok:
+                    raise RuntimeError("Failed to upload date manifest to Azure Storage.")
                 logging.info(f"Uploaded updated manifest to Azure: {remote_manifest}")
 
             # Sync processed URLs list
@@ -704,7 +709,9 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
                 for url in processed_urls:
                     if url not in processed_urls_registry:
                         processed_urls_registry[url] = datetime.utcnow().isoformat() + "Z"
-                azure_client.upload_json(config.storage.processed_urls_file, processed_urls_registry)
+                urls_ok = azure_client.upload_json(config.storage.processed_urls_file, processed_urls_registry)
+                if not urls_ok:
+                    raise RuntimeError("Failed to upload processed URL state registry to Azure Storage.")
                 logging.info(f"Updated URL state registry (Total URLs: {len(processed_urls_registry)}) uploaded to Azure.")
 
         # 9. SMTP Email Distribution
@@ -734,6 +741,7 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
                 )
             except Exception as mail_err:
                 logging.error(f"Failed to distribute daily clusters email digest: {mail_err}")
+                raise mail_err
 
         logging.info(f"Pipeline job completed successfully. Items processed: {len(insights)}.")
         logging.info(f"Telemetry metrics: {json.dumps(gemini_client.get_stats())}")

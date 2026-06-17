@@ -1,0 +1,96 @@
+{
+  "DIGITAL": [
+    {
+      "id": 100,
+      "fact": "DIGITAL's Housing Growth Innovation (HGI) program leverages digital twin systems and prefab modular construction to target up to a 60% reduction in residential building timelines and a 20% savings in assembly costs.",
+      "source": "DIGITAL HGI Program Overview 2026",
+      "pages": "Page 3",
+      "url": "https://digitalsupercluster.ca/category/news/"
+    },
+    {
+      "id": 101,
+      "fact": "DIGITAL's health-tech projects prioritize federated learning architectures and secure cloud data spaces, aligning with Canada's Sovereign AI Compute Strategy and the Connected Care for Canadians Act (Bill S-5) to maintain patient privacy at genomic scale.",
+      "source": "DIGITAL Sovereign AI Strategy 2025",
+      "pages": "Page 11",
+      "url": "https://digitalsupercluster.ca/category/news/"
+    },
+    {
+      "id": 102,
+      "fact": "DIGITAL hosts Digital Demo Days and technical webinars periodically throughout the fiscal year, serving as the primary ecosystem platforms for projects to present outcomes and find next-phase consortium partners.",
+      "source": "DIGITAL Event Calendar 2026",
+      "pages": "Events Section",
+      "url": "https://digitalsupercluster.ca/category/news/"
+    }
+  ],
+  "ScaleAI": [
+    {
+      "id": 200,
+      "fact": "Scale AI provides up to 50% co-investment matching for collaborative artificial intelligence integration projects in supply chains, requiring a minimum total project spend of CAD $1 million (approx. USD $730,000) and at least one Canadian SME partner.",
+      "source": "Scale AI Program Guidelines 2026",
+      "pages": "Page 8",
+      "url": "https://www.scaleai.ca/guidelines"
+    },
+    {
+      "id": 201,
+      "fact": "Scale AI is the primary organizer and host of ALL IN, Canada's largest artificial intelligence conference held annually in Montreal, which serves as the national matchmaking hub for AI developers, researchers, and corporate buyers to form funding consortia.",
+      "source": "Scale AI Events Profile",
+      "pages": "Overview",
+      "url": "https://www.scaleai.ca/events"
+    }
+  ],
+  "NGen": [
+    {
+      "id": 300,
+      "fact": "NGen (Next Generation Manufacturing Canada) requires manufacturing consortia projects to have a minimum of 3 independent partners, including at least one Canadian SME and one academic or research institute, to qualify for matching co-investment.",
+      "source": "NGen Project Application Guide 2025",
+      "pages": "Page 4",
+      "url": "https://www.ngen.ca/project-guide"
+    },
+    {
+      "id": 301,
+      "fact": "NGen hosts the annual NGen Advanced Manufacturing Summit and regular B2B collaboration workshops, serving as matchmaking forums for advanced manufacturing providers and SMEs.",
+      "source": "NGen Events Calendar 2026",
+      "pages": "Summits & Missions",
+      "url": "https://www.ngen.ca/events"
+    }
+  ],
+  "Ocean": [
+    {
+      "id": 400,
+      "fact": "Canada's Ocean Supercluster (OSC) manages a portfolio of over CAD $600 million (approx. USD $440 million) in ocean projects, focusing on Blue Foods, marine domain awareness, ocean decarbonization, and Indigenous economic development.",
+      "source": "OSC Strategic Plan 2023-2028",
+      "pages": "Page 7",
+      "url": "https://oceansupercluster.ca/strategic-plan"
+    },
+    {
+      "id": 401,
+      "fact": "The OSC's 'Two-Eyed Seeing' initiative and the Indigenous Coastal Innovation Challenge fund Indigenous-led ocean innovations, requiring community participation, joint planning, and co-design elements.",
+      "source": "OSC Indigenous Engagement Policy 2024",
+      "pages": "Page 2",
+      "url": "https://oceansupercluster.ca/indigenous-engagement"
+    },
+    {
+      "id": 402,
+      "fact": "The OSC hosts the bi-annual Ambition 2035 Summit and participates in national events such as Ocean Week to connect marine technology developers, scientific groups, and capital partners.",
+      "source": "OSC Ambition 2035 Overview",
+      "pages": "Events page",
+      "url": "https://oceansupercluster.ca/events"
+    }
+  ],
+  "ProteinIndustries": [
+    {
+      "id": 500,
+      "fact": "Protein Industries Canada (PIC) drives the 'Strengthening the Canadian Supply Chain' program, aiming to bolster domestic processing capacity for agricultural inputs (like faba and pea proteins) and reduce reliance on imported plant protein ingredients.",
+      "source": "PIC Supply Chain Program Guide 2025",
+      "pages": "Page 2",
+      "url": "https://www.proteinindustriescanada.ca/supply-chain"
+    },
+    {
+      "id": 501,
+      "fact": "Protein Industries Canada hosts the Plant Forward on the Prairies Conference and special pulse research conventions, serving as the main B2B networking hubs for plant-based food tech, ingredient processors, and growers.",
+      "source": "PIC Event Calendar 2026",
+      "pages": "Events",
+      "url": "https://www.proteinindustriescanada.ca/events"
+    }
+  ]
+}

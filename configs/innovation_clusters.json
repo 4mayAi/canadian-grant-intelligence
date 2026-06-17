@@ -3,14 +3,15 @@
   "display_name": "Canadian Innovation Clusters Intelligence",
   "dashboard_url": "https://4mayAi.github.io/canadian-grant-intelligence/clusters/",
   "sources": [
-    { "name": "DIGITAL_News", "url": "https://digitalsupercluster.ca/category/news/feed/", "type": "rss" },
-    { "name": "ScaleAI_News", "url": "https://www.scaleai.ca/feed/", "type": "rss" },
-    { "name": "OceanCluster_News", "url": "https://oceansupercluster.ca/feed/", "type": "rss" },
-    { "name": "NGen_News", "url": "https://www.ngen.ca/blog/rss.xml", "type": "rss" },
+    { "name": "DIGITAL_News", "url": "https://digitalsupercluster.ca/category/news/feed/", "type": "rss", "hub": "DIGITAL" },
+    { "name": "ScaleAI_News", "url": "https://www.scaleai.ca/feed/", "type": "rss", "hub": "ScaleAI" },
+    { "name": "OceanCluster_News", "url": "https://oceansupercluster.ca/feed/", "type": "rss", "hub": "Ocean" },
+    { "name": "NGen_News", "url": "https://www.ngen.ca/blog/rss.xml", "type": "rss", "hub": "NGen" },
     {
       "name": "ProteinIndustries_News",
       "url": "https://www.proteinindustriescanada.ca/news-releases",
       "type": "html_playwright",
+      "hub": "ProteinIndustries",
       "fallback_url": "https://news.google.com/rss/search?q=%22Protein+Industries+Canada%22&hl=en-CA&gl=CA&ceid=CA:en",
       "fallback_type": "rss"
     }
@@ -39,13 +40,14 @@
       "gemini-3.1-flash-lite",
       "gemini-2.5-flash-lite"
     ],
-    "system_instruction": "You are a senior analyst specializing in Canada's Global Innovation Clusters. Synthesize news releases into strategic B2B hooks focusing on consortium opportunities, target technologies, eligibility criteria, and matching co-investment rates."
+    "system_instruction": "You are a senior analyst specializing in Canada's Global Innovation Clusters. Synthesize news releases into strategic B2B hooks focusing on consortium opportunities, target technologies, eligibility criteria, major upcoming events/conferences, and matching co-investment rates. When utilizing the anchor database to ground hooks, only reference Fact IDs explicitly listed in the active hub's anchors batch; do not reference Fact IDs from other hubs."
   },
   "storage": {
     "azure_container": "clusters-data",
     "processed_urls_file": "processed_urls.json",
     "insights_file": "cluster_insights.json",
     "kpis_file": "kpis.json",
+    "anchors_file": "cluster_anchors.json",
     "manifest_file": "manifest.json"
   },
   "distribution": {

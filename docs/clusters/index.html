@@ -474,6 +474,12 @@
                                 <div class="insight-content">
                                     ${innerHtml || '<p style="color: var(--text-muted)">No insight available.</p>'}
                                 </div>
+                                ${innerInsight.anchor_reference ? `
+                                    <div style="margin-top: 15px; padding: 12px; background: rgba(255, 215, 0, 0.05); border-left: 3px solid #ffd700; border-radius: 4px; font-size: 0.9em;">
+                                        📖 Reference: <strong>${escapeHtml(innerInsight.anchor_reference.source_name)}</strong>, ${escapeHtml(innerInsight.anchor_reference.page_range)}
+                                        <a href="${escapeHtml(innerInsight.anchor_reference.url)}" target="_blank" rel="noopener" style="color: #ffd700; text-decoration: underline; margin-left: 5px;">View Report PDF ↗</a>
+                                    </div>
+                                ` : ''}
                                 ${item.link ? `<a class="opp-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener" style="margin-top: 15px; display: inline-block;">View Original Announcement ↗</a>` : ''}
                             </div>
                         </details>
