@@ -277,18 +277,6 @@
     },
     {
         "type": "Open",
-        "title": "W7701-268120 AI-enhanced cybersecurity for military systems and platforms",
-        "description": "*Application or technology research and development service",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012576?anId=ANONYMOUS",
-        "closing_date": "2026-06-17T14:00:00",
-        "publication_date": "2026-05-08",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "SRV",
-        "category_label": "Services"
-    },
-    {
-        "type": "Open",
         "title": "RFP EN891-261700 Acquisition Cards",
         "description": "*Financial and Insurance Services*Banking and investment*Funds transfer and clearance and exchange services*Remittance processing services",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012060?anId=ANONYMOUS",
@@ -716,6 +704,30 @@
         "publication_date": "2026-04-24",
         "province": "New Brunswick",
         "province_abbrev": "NB",
+        "category": "GD",
+        "category_label": "Goods"
+    },
+    {
+        "type": "Open",
+        "title": "E60HL-260015-B RFP Arctic Naval Distillate Fuel",
+        "description": "Marine fuel",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110016480?anId=ANONYMOUS",
+        "closing_date": "2026-06-29T14:00:00",
+        "publication_date": "2026-06-18",
+        "province": "National",
+        "province_abbrev": "NAT",
+        "category": "GD",
+        "category_label": "Goods"
+    },
+    {
+        "type": "Open",
+        "title": "5A027-254001 Sysmex CN-3000 Coagulation analyzer",
+        "description": "Medical Equipment and Accessories and Supplies",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110016483?anId=ANONYMOUS",
+        "closing_date": "2026-07-08T14:00:00",
+        "publication_date": "2026-06-18",
+        "province": "Manitoba",
+        "province_abbrev": "MB",
         "category": "GD",
         "category_label": "Goods"
     }

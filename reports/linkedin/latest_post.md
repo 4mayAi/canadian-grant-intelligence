@@ -1,15 +1,15 @@
 ![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)
 
-# Canada's Procurement Pulse: Billions for BC, G7 Priorities, and Digital Trust Legislation
+# Carney's G7 Commitments and BC's $5B Infrastructure Push Redefine Canadian B2G Procurement
 
-🚨 **Canada is unlocking billions in new opportunities today!** From landmark infrastructure investments to critical digital safety legislation, businesses need to strategically align with Ottawa's evolving priorities. 
+🇨🇦 Major policy shifts and critical federal contracts are reshaping Canada's procurement landscape today.
 
-British Columbia just secured over $5 billion in federal funding for a 10-year housing and infrastructure partnership. This massive, sustained investment creates a robust pipeline for construction, engineering, healthcare IT, and smart technology firms looking to expand their footprint in BC. Be ready to build.
+Prime Minister Mark Carney’s new G7 commitments to secure critical mineral supply chains and defence intelligence signal a massive wave of federal funding. Mining technology providers and cyber security firms must align their business strategies now to capture upcoming high-value security and tracing RFPs.
 
-Prime Minister Carney's G7 commitments, coupled with new legislation protecting children's data, signal a heightened federal focus on digital trust. B2B tech vendors specializing in identity and access management, privacy-by-design solutions, and AI-driven compliance should prepare for significant procurement demand across public sectors as agencies modernize systems.
+Additionally, the newly announced 10-year, $5 billion partnership in British Columbia is set to accelerate homebuilding and local infrastructure. Civil construction firms and healthcare IT vendors should immediately target this long-term pipeline, particularly in coastal regions like Terrace and Prince Rupert.
 
-Furthermore, new legislation strengthening the prohibition on goods produced with forced labour marks a critical shift for all federal suppliers. Firms with advanced supply chain traceability technology and audit services will gain a significant competitive edge in securing government tenders by demonstrating ethical sourcing.
+On the active bidding front, critical opportunities are closing soon, including the Arctic Naval Distillate Fuel RFP (E60HL-260015-B) ending June 29, 2026, and the Sysmex CN-3000 Coagulation analyzer tender (5A027-254001) closing July 8, 2026. Defence fuel suppliers and medical laboratory equipment manufacturers must act fast to submit compliant bids before these tight summer deadlines.
 
 Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
 
-#CanadianFunding #GovernmentContracts #ProcurementCanada #mayAiIntelligence #DigitalTrust
+#GovCon #CanadianBusiness #Procurement #GoC #B2G
