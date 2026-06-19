@@ -184,7 +184,7 @@ class GeminiClient:
                 logging.error(f"Failed to parse strategic priorities: {e}")
         return []
 
-    def get_gemini_insights_batch(self, contents: List[str], strategic_context: Optional[List[str]] = None, anchor_context: Optional[str] = None) -> List[GeminiInsight]:
+    def get_gemini_insights_batch(self, contents: List[str], strategic_context: Optional[List[str]] = None, anchor_context: Optional[str] = None, current_date: Optional[str] = None) -> List[GeminiInsight]:
         """Analyzes a batch of news/tender items and extracts strategic insights."""
         context_str = ""
         if strategic_context:
@@ -194,6 +194,8 @@ class GeminiClient:
         if anchor_context:
             anchor_str = f"\nSTRATEGIC ANCHOR FACT DATABASE (Use these to ground B2B hooks):\n{anchor_context}\n"
             
+        date_str = f"\nToday's Date: {current_date}\n" if current_date else ""
+
         items_str = ""
         for idx, content in enumerate(contents):
             # Clean HTML and clamp input text length to save context window
@@ -202,7 +204,7 @@ class GeminiClient:
 
         prompt = f"""
         {self.system_instruction}
-        
+        {date_str}
         Analyze the following batch of {len(contents)} items.{context_str}{anchor_str}
         
         You MUST respond with a raw JSON array containing exactly {len(contents)} objects. Ensure the array order strictly matches the order of the input items.

@@ -23,8 +23,26 @@
       "skip_query_refactoring": true
     },
     {
+      "name": "China_Chinese_Payments_News",
+      "url": "https://news.google.com/rss/search?q=%22CIPS%22+OR+%22%E8%B7%A8%E5%A2%83%E6%94%AF%E4%BB%98%22+OR+%22%E6%95%B0%E5%AD%97%E4%BA%BA%E6%B0%91%E5%B8%81%22+OR+%22e-CNY%22&hl=zh-CN&gl=CN&ceid=CN:zh-CN",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
       "name": "Switzerland_Payments_News",
       "url": "https://news.google.com/rss/search?q=Glencore+OR+Trafigura+%22trade+finance%22+OR+%22letters+of+credit%22+OR+%22commodity+settlement%22+site:ch&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Switzerland_French_Payments_News",
+      "url": "https://news.google.com/rss/search?q=Glencore+OR+Trafigura+%22financement+du+commerce%22+OR+%22lettres+de+cr%C3%A9dit%22+OR+%22r%C3%A8glement+des+transactions%22&hl=fr&gl=CH&ceid=CH:fr",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Switzerland_German_Payments_News",
+      "url": "https://news.google.com/rss/search?q=Glencore+OR+Trafigura+%22Handelsfinanzierung%22+OR+%22Akkreditiv%22+OR+%22Zahlungsabwicklung%22&hl=de&gl=CH&ceid=CH:de",
       "type": "rss",
       "skip_query_refactoring": true
     },
@@ -81,7 +99,7 @@
       "gemini-3.1-flash-lite",
       "gemini-2.5-flash-lite"
     ],
-    "system_instruction": "You are a senior financial analyst and transaction banking specialist. Synthesize cross-border payment news releases into strategic B2B hooks focusing on settlement infrastructure, correspondent banking networks, ISO 20022 messaging, wholesale settlement platforms (mBridge, CBDCs), and trade finance compliance. Present insights as prospective B2B recommendation spaces or technical opportunities rather than claiming they are achieved facts unless explicitly stated in the source text. Format the 'strategic_value' field as a markdown list containing exactly three bullet points, where the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** '."
+    "system_instruction": "You are a senior financial analyst and transaction banking specialist. Synthesize cross-border payment news releases into strategic B2B hooks focusing on settlement infrastructure, correspondent banking networks, ISO 20022 messaging, wholesale settlement platforms (mBridge, CBDCs), and trade finance compliance. Present insights as prospective B2B recommendation spaces or technical opportunities rather than claiming they are achieved facts unless explicitly stated in the source text. Note that some source articles (such as Swiss or Chinese feeds) may be in French, German, or Chinese; you must translate them to English before synthesizing and writing the insights. Format the 'strategic_value' field as a markdown list containing exactly three bullet points, where the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** '."
   },
   "storage": {
     "azure_container": "payments-data",

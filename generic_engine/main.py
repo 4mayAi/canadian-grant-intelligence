@@ -379,7 +379,12 @@ def fetch_and_process_news(
                 for item in batch
             ]
             
-            insight_models = gemini_client.get_gemini_insights_batch(contents, anchor_context=anchor_context)
+            today_str = datetime.utcnow().strftime("%B %d, %Y")
+            insight_models = gemini_client.get_gemini_insights_batch(
+                contents,
+                anchor_context=anchor_context,
+                current_date=today_str
+            )
             
             for item, insight_model in zip(batch, insight_models):
                 processed_urls.add(item['link'])

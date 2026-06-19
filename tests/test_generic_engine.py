@@ -50,6 +50,31 @@ class TestGenericEngine(unittest.TestCase):
         self.assertIn("Do NOT invent technologies, programs, or partner types not mentioned in the input", prompt_text)
 
     @patch('api.gemini_client.GeminiClient._retry_request')
+    def test_batch_insight_prompt_contains_current_date(self, mock_retry):
+        mock_retry.return_value = {
+            "candidates": [{
+                "content": {
+                    "parts": [{
+                        "text": json.dumps([
+                            {
+                                "linkedin_hook": "Hook 1",
+                                "strategic_value": "Value 1",
+                                "co_bidding_opportunity": "Co-bid 1"
+                            }
+                        ])
+                    }]
+                }
+            }]
+        }
+        self.gemini_client.get_gemini_insights_batch(["Test article body text"], current_date="June 18, 2026")
+        
+        mock_retry.assert_called_once()
+        payload = mock_retry.call_args[0][0]
+        prompt_text = payload["contents"][0]["parts"][0]["text"]
+        
+        self.assertIn("Today's Date: June 18, 2026", prompt_text)
+
+    @patch('api.gemini_client.GeminiClient._retry_request')
     def test_generate_linkedin_post_accepts_date_and_factual_rigor(self, mock_retry):
         # Mock successful JSON response
         mock_retry.return_value = {
