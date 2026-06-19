@@ -12,6 +12,7 @@ from schema import PipelineConfig
 from models import GeminiInsight, ReportItem, NewsWrapper, KPIDashboard
 from extractors.rss import fetch_rss_feeds
 from extractors.playwright_scraper import fetch_html_news
+from extractors.ckan import fetch_canadabuys_tenders
 from extractors.report_scraper import (
     resolve_google_news_url,
     scrape_html_report,
@@ -195,6 +196,26 @@ def fetch_and_process_news(
     # Ingest Playwright HTML pages if any are configured
     raw_html = fetch_html_news(sources_dict, lookback_limit, max_items, failed_feeds)
 
+    # Ingest CKAN API databases if any are configured
+    raw_ckan = []
+    ckan_sources = [s for s in sources_dict if s.get("type") == "ckan"]
+    if ckan_sources:
+        logging.info(f"Querying {len(ckan_sources)} CKAN database sources...")
+        for src in ckan_sources:
+            try:
+                items = fetch_canadabuys_tenders(
+                    ckan_api_url=src["url"],
+                    keywords=config.keywords,
+                    max_items=max_items,
+                    lookback_days=7,
+                    source_name=src["name"]
+                )
+                raw_ckan.extend(items)
+            except Exception as ckan_err:
+                logging.error(f"Failed to fetch CKAN tenders for source '{src['name']}': {ckan_err}")
+                if failed_feeds is not None:
+                    failed_feeds.append(src["name"])
+
     # Check if any failed Playwright feeds have a fallback RSS configured
     playwright_fallbacks = []
     for src in sources_dict:
@@ -223,11 +244,25 @@ def fetch_and_process_news(
     try:
         existing_insights = azure_client.download_json(config.storage.insights_file)
         if existing_insights and "insights" in existing_insights:
-            # Prune cached items that have "No insight available" in strategic_value
+            # Prune cached items that have "No insight available" in strategic_value or are closed >30 days
             for item in existing_insights["insights"]:
                 ins_val = item.get("insight", {})
-                if ins_val.get("strategic_value") != "No insight available":
-                    existing_insights_list.append(item)
+                if ins_val.get("strategic_value") == "No insight available":
+                    continue
+                
+                # Prune tenders closed more than 30 days ago
+                close_date_str = item.get("closing_date")
+                if close_date_str:
+                    try:
+                        # parse date part (first 10 chars)
+                        close_dt = datetime.strptime(close_date_str[:10], "%Y-%m-%d")
+                        if datetime.utcnow() - close_dt > timedelta(days=30):
+                            logging.info(f"Pruning expired cached tender: {item.get('title')} (closed on {close_date_str})")
+                            continue
+                    except Exception as date_err:
+                        logging.warning(f"Error checking closing_date for pruning: {date_err}")
+                
+                existing_insights_list.append(item)
     except Exception as e:
         logging.error(f"Failed to load existing cache file {config.storage.insights_file} from storage: {e}")
 
@@ -262,7 +297,7 @@ def fetch_and_process_news(
                 })
 
     # Combine feeds
-    combined_items = raw_rss + raw_html + retained_items
+    combined_items = raw_rss + raw_html + raw_ckan + retained_items
     
     # Resolve Google News redirect URLs offline to original destination URLs
     logging.info("Resolving Google News redirect URLs for ingested news items...")
@@ -290,7 +325,12 @@ def fetch_and_process_news(
         link = item['link']
         if link in existing_insights_map:
             # Re-use cached analysis (no LLM call)
-            final_insights.append(existing_insights_map[link])
+            cached_item = existing_insights_map[link]
+            # Copy/update tender metadata fields from the crawled item if present
+            for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type"]:
+                if field in item:
+                    cached_item[field] = item[field]
+            final_insights.append(cached_item)
             processed_urls.add(link)
         elif link in processed_urls:
             # Already processed (either discarded or old). Skip!
@@ -422,6 +462,10 @@ def fetch_and_process_news(
                     "date": date_str,
                     "insight": insight_model.to_dict()
                 }
+                # Copy tender metadata fields from raw item if present
+                for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type"]:
+                    if field in item:
+                        report_item_dict[field] = item[field]
                 final_insights.append(report_item_dict)
 
     # Sort final insights descending by date
@@ -456,6 +500,20 @@ def generate_dashboard_kpis(insights: List[dict], gemini_client: GeminiClient) -
         except Exception:
             pass
             
+    # Calculate tenders closing in the next 7 days
+    closing_this_week = 0
+    now = datetime.utcnow()
+    one_week_later = now + timedelta(days=7)
+    for ins in insights:
+        close_date_str = ins.get("closing_date")
+        if close_date_str:
+            try:
+                close_dt = datetime.strptime(close_date_str[:10], "%Y-%m-%d")
+                if now <= close_dt <= one_week_later:
+                    closing_this_week += 1
+            except:
+                pass
+
     # Calculate top contributing source/category
     source_counts = {}
     for ins in insights:
@@ -479,7 +537,7 @@ def generate_dashboard_kpis(insights: List[dict], gemini_client: GeminiClient) -
     return KPIDashboard(
         total_active=total_active,
         new_today=new_today,
-        closing_this_week=0,  # No tenders closing date in generic RSS
+        closing_this_week=closing_this_week,
         top_category=top_category,
         hero_hook=hero_hook,
         generated_at=datetime.utcnow().isoformat() + "Z"

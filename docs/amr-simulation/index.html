@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mayAi | AMR & Biotech Simulation Intelligence</title>
+    <meta name="description" content="mayAi: Delivering executive B2B intelligence on Antimicrobial Resistance (AMR), computational biology, pathogen modeling, and biotech simulation bids.">
+    <meta property="og:title" content="mayAi | AMR & Biotech Simulation Intelligence">
+    <meta property="og:description" content="Delivering executive B2B intelligence on Antimicrobial Resistance (AMR), computational biology, pathogen modeling, and biotech simulation bids.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* CSS DNA Helix Animation replacing the egg */
+        .logo-container {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(96, 165, 250, 0.1);
+            border: 1px solid rgba(96, 165, 250, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            box-shadow: 0 0 15px rgba(96, 165, 250, 0.2);
+        }
+        .dna-helix {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+        }
+        .dna-helix .dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            animation: dna-pulse 1.6s infinite ease-in-out;
+        }
+        .dna-helix .d1 { animation-delay: 0s; background: #60a5fa; }
+        .dna-helix .d2 { animation-delay: 0.2s; background: #34d399; }
+        .dna-helix .d3 { animation-delay: 0.4s; background: #a78bfa; }
+        .dna-helix .d4 { animation-delay: 0.6s; background: #f43f5e; }
+        .dna-helix .d5 { animation-delay: 0.8s; background: #fbbf24; }
+        @keyframes dna-pulse {
+            0%, 100% {
+                transform: scale(0.6) translateY(0);
+                opacity: 0.4;
+            }
+            50% {
+                transform: scale(1.3) translateY(-8px);
+                opacity: 1;
+            }
+        }
+
+        /* Styling for Tenders Grid & Details */
+        .report-section {
+            background: rgba(30, 41, 59, 0.4);
+            border: 1px solid rgba(96, 165, 250, 0.15);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin-bottom: 16px;
+            transition: all 0.25s ease;
+        }
+        .report-section:hover {
+            border-color: rgba(96, 165, 250, 0.4);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+        .report-summary {
+            cursor: pointer;
+            outline: none;
+            user-select: none;
+        }
+        .report-summary h3 {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.4;
+            color: var(--text-primary);
+            margin: 0 0 8px 0;
+        }
+        .hook-subtitle {
+            font-size: 13.5px;
+            color: #60a5fa;
+            font-weight: 500;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .report-meta {
+            display: flex;
+            gap: 16px;
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .insight-content-wrapper {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .insight-content h4 {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #60a5fa;
+            margin: 16px 0 8px 0;
+        }
+        .insight-content h4:first-of-type {
+            margin-top: 0;
+        }
+        .md-content {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+        .md-content ul {
+            margin: 6px 0;
+            padding-left: 20px;
+        }
+        .md-content li {
+            margin-bottom: 4px;
+        }
+        
+        /* Badges styling */
+        .badge-source {
+            background: rgba(96, 165, 250, 0.1);
+            color: #60a5fa;
+            border: 1px solid rgba(96, 165, 250, 0.3);
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .badge-meta {
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 11px;
+            font-weight: 600;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-secondary);
+        }
+        .badge-closing {
+            font-weight: 600;
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 11px;
+        }
+        .closing-urgent {
+            background: rgba(244, 63, 94, 0.15);
+            color: #f43f5e;
+            border: 1px solid rgba(244, 63, 94, 0.3);
+        }
+        .closing-warning {
+            background: rgba(251, 191, 36, 0.15);
+            color: #fbbf24;
+            border: 1px solid rgba(251, 191, 36, 0.3);
+        }
+        .closing-safe {
+            background: rgba(52, 211, 153, 0.15);
+            color: #34d399;
+            border: 1px solid rgba(52, 211, 153, 0.3);
+        }
+        .closing-expired {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-muted);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-row">
+                <div class="logo-container">
+                    <div class="dna-helix">
+                        <div class="dot d1"></div>
+                        <div class="dot d2"></div>
+                        <div class="dot d3"></div>
+                        <div class="dot d4"></div>
+                        <div class="dot d5"></div>
+                    </div>
+                </div>
+                <h1>may<span>Ai</span></h1>
+            </div>
+            <p>AMR &amp; Biotech Simulation Intelligence | Delivering Golden Opportunities Daily</p>
+            
+            <div id="hero-hook-container" class="hero-hook-container" style="display: none;">
+                <div class="hero-hook-glow"></div>
+                <p id="hero-hook-text">Synthesizing biotech simulation opportunities...</p>
+            </div>
+
+            <div class="header-controls header-controls-row-align">
+                <div class="status-badge" id="update-status">
+                    <span class="status-dot"></span>
+                    Updated: <span id="last-update-time">Loading...</span>
+                </div>
+                <div class="date-selector">
+                    <span class="toggle-label">Archive:</span>
+                    <select id="date-select" class="filter-select filter-select-sm" onchange="selectHistoricalDate(this.value)">
+                        <option value="latest">Latest Run</option>
+                    </select>
+                </div>
+                <div class="date-selector">
+                    <input type="text" id="searchQuery" class="search-input search-input-sm" placeholder="Search insights..." oninput="handleSearch(this.value)">
+                </div>
+            </div>
+        </header>
+
+        <!-- Cross Navigation Links -->
+        <div class="navigation-links">
+            <a href="../" class="nav-tab-link">🇨🇦 Grant Intelligence</a>
+            <a href="../clusters/" class="nav-tab-link">🇨🇦 Innovation Clusters</a>
+            <a href="../mining-hubs/" class="nav-tab-link">🌎 Global Mining Hubs</a>
+            <a href="../payments/" class="nav-tab-link">💳 Global Payments</a>
+            <a href="#" class="nav-tab-link active">🧬 AMR &amp; Biotech Simulation</a>
+        </div>
+
+        <div class="kpi-container">
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-total">0</span>
+                <span class="kpi-label">Active Strains</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-new-today">0</span>
+                <span class="kpi-label">New Mutations</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-closing-week">0</span>
+                <span class="kpi-label">Closing Bids</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-lead">N/A</span>
+                <span class="kpi-label">Top Category</span>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <button class="tab-btn active" id="btn-tenders" onclick="switchTab('tenders')">Simulation Tracker</button>
+            <button class="tab-btn" id="btn-digest" onclick="switchTab('digest')">Biotech Insights</button>
+        </div>
+
+        <!-- Dynamic Content Views -->
+        <div id="tendersView">
+            <div class="filters" style="margin-bottom: 20px;">
+                <select id="provinceFilter" class="filter-select" onchange="filterAndRender()">
+                    <option value="All">All Provinces</option>
+                </select>
+                <select id="categoryFilter" class="filter-select" onchange="filterAndRender()">
+                    <option value="All">All Categories</option>
+                </select>
+                <select id="statusFilter" class="filter-select" onchange="filterAndRender()">
+                    <option value="All">All Statuses</option>
+                    <option value="Active">Active Bids</option>
+                    <option value="Closing">Closing Soon (&lt; 7 Days)</option>
+                    <option value="Closed">Closed</option>
+                </select>
+            </div>
+            
+            <div id="tendersContent">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading simulation tracker...</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="digestView" style="display: none;">
+            <div id="digestContent">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading editor digest...</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Powered by mayAi &middot; Built with GitHub Actions</p>
+            <p>Data sourced from CanadaBuys, CIHR, NRC, PHAC, and public health procurement portals</p>
+        </footer>
+    </div>
+
+    <script>
+        const TOPIC_ID = 'amr-simulation';
+        const AZURE_CONTAINER_URL = 'https://canadiangrants.blob.core.windows.net/amr-simulation-data';
+        const MANIFEST_AZURE = `${AZURE_CONTAINER_URL}/manifest.json`;
+        const MANIFEST_LOCAL = `../data/${TOPIC_ID}/manifest.json`;
+
+        let currentDate = 'latest';
+        let cachedData = null;
+
+        function getUrl(type, source = 'azure') {
+            if (source === 'azure') {
+                return currentDate === 'latest'
+                    ? (type === 'kpis' ? `${AZURE_CONTAINER_URL}/amr_kpis.json` : `${AZURE_CONTAINER_URL}/amr_insights.json`)
+                    : (type === 'kpis' ? `${AZURE_CONTAINER_URL}/reports/${TOPIC_ID}_kpis_${currentDate}.json` : `${AZURE_CONTAINER_URL}/reports/${TOPIC_ID}_insights_${currentDate}.json`);
+            } else {
+                return currentDate === 'latest'
+                    ? (type === 'kpis' ? `../data/${TOPIC_ID}/amr_kpis.json` : `../data/${TOPIC_ID}/amr_insights.json`)
+                    : (type === 'kpis' ? `../data/${TOPIC_ID}/reports/${TOPIC_ID}_kpis_${currentDate}.json` : `../data/${TOPIC_ID}/reports/${TOPIC_ID}_insights_${currentDate}.json`);
+            }
+        }
+
+        async function fetchJSON(type) {
+            const azureUrl = getUrl(type, 'azure');
+            const localUrl = getUrl(type, 'local');
+
+            try {
+                const res = await fetch(azureUrl);
+                if (!res.ok) throw new Error(`Azure fetch failed: ${res.status}`);
+                return await res.json();
+            } catch (err) {
+                console.warn(`Azure download failed for ${type}, retrying local storage backup:`, err);
+                const res = await fetch(localUrl);
+                if (!res.ok) throw new Error(`Local backup fetch failed: ${res.status}`);
+                return await res.json();
+            }
+        }
+
+        function escapeHtml(unsafe) {
+            if (!unsafe) return "";
+            return unsafe
+                 .replace(/&/g, "&amp;")
+                 .replace(/</g, "&lt;")
+                 .replace(/>/g, "&gt;")
+                 .replace(/"/g, "&quot;")
+                 .replace(/'/g, "&#039;");
+        }
+
+        function formatDate(isoStr) {
+            if (!isoStr) return 'Unknown Date';
+            try {
+                const cleanStr = isoStr.replace("Z", "");
+                const d = new Date(cleanStr);
+                if (isNaN(d.getTime())) return isoStr.split('T')[0];
+                return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+            } catch(e) {
+                return isoStr.split('T')[0];
+            }
+        }
+
+        function getClosingBadge(closingDateStr) {
+            if (!closingDateStr) return { class: 'badge-meta', text: 'No Close Date' };
+            try {
+                const closeDt = new Date(closingDateStr.replace("Z", ""));
+                const now = new Date();
+                const diffTime = closeDt - now;
+                const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+                
+                if (diffDays < 0) {
+                    return { class: 'badge-closing closing-expired', text: `Closed (${formatDate(closingDateStr)})` };
+                } else if (diffDays <= 7) {
+                    return { class: 'badge-closing closing-urgent', text: `Closing in ${diffDays} day${diffDays !== 1 ? 's' : ''}` };
+                } else if (diffDays <= 30) {
+                    return { class: 'badge-closing closing-warning', text: `Closing in ${diffDays} days` };
+                } else {
+                    return { class: 'badge-closing closing-safe', text: `Closing in ${diffDays} days` };
+                }
+            } catch (e) {
+                return { class: 'badge-meta', text: `Closes: ${formatDate(closingDateStr)}` };
+            }
+        }
+
+        function isClosed(closingDateStr) {
+            if (!closingDateStr) return false;
+            try {
+                const closeDt = new Date(closingDateStr.replace("Z", ""));
+                const now = new Date();
+                return (closeDt - now) < 0;
+            } catch (e) {
+                return false;
+            }
+        }
+
+        function getDaysClosed(closingDateStr) {
+            if (!closingDateStr) return 0;
+            try {
+                const closeDt = new Date(closingDateStr.replace("Z", ""));
+                const now = new Date();
+                const diffTime = now - closeDt;
+                return Math.floor(diffTime / (1000 * 60 * 60 * 24));
+            } catch (e) {
+                return 0;
+            }
+        }
+
+        function switchTab(tab) {
+            const tendersBtn = document.getElementById('btn-tenders');
+            const digestBtn = document.getElementById('btn-digest');
+            const tendersView = document.getElementById('tendersView');
+            const digestView = document.getElementById('digestView');
+
+            if (tab === 'tenders') {
+                tendersBtn.classList.add('active');
+                digestBtn.classList.remove('active');
+                tendersView.style.display = 'block';
+                digestView.style.display = 'none';
+            } else {
+                tendersBtn.classList.remove('active');
+                digestBtn.classList.add('active');
+                tendersView.style.display = 'none';
+                digestView.style.display = 'block';
+            }
+        }
+
+        async function loadKPIs() {
+            try {
+                const kpis = await fetchJSON('kpis');
+                // Theme labels matched for AMR
+                document.getElementById('kpi-total').innerText = kpis.total_active || 0;
+                document.getElementById('kpi-new-today').innerText = kpis.new_today || 0;
+                document.getElementById('kpi-closing-week').innerText = kpis.closing_this_week || 0;
+                document.getElementById('kpi-lead').innerText = kpis.top_category || 'Mixed';
+
+                // Display dynamic hero hook under header
+                const hookContainer = document.getElementById('hero-hook-container');
+                const hookText = document.getElementById('hero-hook-text');
+                if (kpis.hero_hook) {
+                    hookText.innerText = kpis.hero_hook;
+                    hookContainer.style.display = 'block';
+                } else {
+                    hookContainer.style.display = 'none';
+                }
+
+                // Render Update Time
+                const dateText = formatDate(kpis.generated_at);
+                document.getElementById('last-update-time').innerText = dateText;
+
+            } catch (e) {
+                console.error("Failed to load KPIs:", e);
+                document.getElementById('kpi-total').innerText = 'N/A';
+                document.getElementById('kpi-new-today').innerText = 'N/A';
+                document.getElementById('kpi-closing-week').innerText = 'N/A';
+                document.getElementById('kpi-lead').innerText = 'N/A';
+            }
+        }
+
+        function populateFilters(insights) {
+            const provinces = new Set();
+            const categories = new Set();
+
+            insights.forEach(item => {
+                if (item.province) provinces.add(item.province);
+                if (item.category_label) categories.add(item.category_label);
+            });
+
+            const provFilter = document.getElementById('provinceFilter');
+            let provHtml = '<option value="All">All Provinces</option>';
+            Array.from(provinces).sort().forEach(p => {
+                provHtml += `<option value="${p}">${p}</option>`;
+            });
+            provFilter.innerHTML = provHtml;
+
+            const catFilter = document.getElementById('categoryFilter');
+            let catHtml = '<option value="All">All Categories</option>';
+            Array.from(categories).sort().forEach(c => {
+                catHtml += `<option value="${c}">${c}</option>`;
+            });
+            catFilter.innerHTML = catHtml;
+        }
+
+        async function loadInsights() {
+            const tendersContent = document.getElementById('tendersContent');
+            const digestContent = document.getElementById('digestContent');
+
+            try {
+                const data = await fetchJSON('insights');
+                cachedData = data;
+
+                // Populate province and category dropdown filters dynamically
+                populateFilters(data.insights || []);
+
+                // 1. Render tracker list
+                filterAndRender();
+
+                // 2. Render Executive Digest Tab
+                let digestHtml = '';
+                if (data.linkedin_post) {
+                    const socialCardUrl = currentDate === 'latest'
+                        ? `${AZURE_CONTAINER_URL}/social_card.png`
+                        : `${AZURE_CONTAINER_URL}/social_card_${currentDate}.png`;
+                    const socialCardLocalFallback = `../data/${TOPIC_ID}/social_card.png`;
+
+                    digestHtml = `
+                        <div class="linkedin-card report-section">
+                            <div class="linkedin-card-header">
+                                <h2>📋 Biotech Insights &amp; LinkedIn Copy</h2>
+                                <button class="copy-btn" data-raw="${escapeHtml(data.linkedin_post)}" onclick="copyPost(this)">Copy Digest</button>
+                            </div>
+                            <div class="linkedin-grid">
+                                <div>
+                                    <div class="linkedin-body" id="digestPost" style="font-size: 14.5px; line-height: 1.6; color: var(--text-primary);">
+                                        ${marked.parse(data.linkedin_post)}
+                                    </div>
+                                </div>
+                                <div class="social-card-preview">
+                                    <img src="${socialCardUrl}" 
+                                         class="linkedin-social-image"
+                                         alt="Biotech Intelligence Visual Card"
+                                         onerror="if(this.src !== '${socialCardLocalFallback}') { this.src = '${socialCardLocalFallback}'; } else { this.closest('.social-card-preview').style.display='none'; }"
+                                         onclick="window.open(this.src, '_blank')">
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    digestHtml = `
+                        <div class="empty-state">
+                            <h3>Biotech Insights Offline</h3>
+                            <p>No editor summaries were generated for this run.</p>
+                        </div>
+                    `;
+                }
+                digestContent.innerHTML = digestHtml;
+
+            } catch (e) {
+                console.error("Failed to load insights:", e);
+                tendersContent.innerHTML = `
+                    <div class="empty-state">
+                        <h3>Tracker Offline</h3>
+                        <p>Unable to fetch latest insights from Azure storage or local backup caches.</p>
+                        <p style="font-size: 11px; color: var(--text-muted); margin-top: 10px;">Error: ${e.message}</p>
+                    </div>
+                `;
+                digestContent.innerHTML = `
+                    <div class="empty-state">
+                        <h3>Biotech Insights Offline</h3>
+                        <p>No backup summaries available.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function filterAndRender() {
+            if (!cachedData || !cachedData.insights) return;
+
+            const provFilter = document.getElementById('provinceFilter').value;
+            const catFilter = document.getElementById('categoryFilter').value;
+            const statusFilter = document.getElementById('statusFilter').value;
+            const searchQuery = document.getElementById('searchQuery').value.toLowerCase().trim();
+
+            const filtered = cachedData.insights.filter(item => {
+                // 1. Province filter
+                if (provFilter !== 'All' && item.province !== provFilter) return false;
+
+                // 2. Category filter
+                if (catFilter !== 'All' && item.category_label !== catFilter) return false;
+
+                // 3. Status filter
+                if (statusFilter === 'Active') {
+                    if (isClosed(item.closing_date)) return false;
+                } else if (statusFilter === 'Closing') {
+                    if (isClosed(item.closing_date)) return false;
+                    const closeDt = new Date(item.closing_date.replace("Z", ""));
+                    const now = new Date();
+                    const diffDays = Math.ceil((closeDt - now) / (1000 * 60 * 60 * 24));
+                    if (diffDays > 7) return false;
+                } else if (statusFilter === 'Closed') {
+                    if (!isClosed(item.closing_date)) return false;
+                }
+
+                // 4. Client-side Auto-Expiry: Hide any bids closed > 30 days
+                if (isClosed(item.closing_date) && getDaysClosed(item.closing_date) > 30) {
+                    return false;
+                }
+
+                // 5. Search query
+                if (searchQuery) {
+                    const text = `${item.title} ${item.description || ''} ${item.province || ''} ${item.category_label || ''} ${item.insight?.linkedin_hook || ''} ${item.insight?.strategic_value || ''}`.toLowerCase();
+                    if (!text.includes(searchQuery)) return false;
+                }
+
+                return true;
+            });
+
+            renderTendersGrid(filtered);
+        }
+
+        function renderTendersGrid(insights) {
+            const tendersContent = document.getElementById('tendersContent');
+            let html = '';
+
+            if (insights.length > 0) {
+                insights.forEach(item => {
+                    let innerHtml = '';
+                    const innerInsight = item.insight || {};
+
+                    if (innerInsight.strategic_value) {
+                        innerHtml += `<h4>Strategic Opportunity &amp; B2B Hook</h4>
+                                      <div class="md-content">${marked.parse(innerInsight.strategic_value)}</div>`;
+                    }
+                    if (innerInsight.co_bidding_opportunity) {
+                        innerHtml += `<h4>Research &amp; Co-Bidding Alignments</h4>
+                                      <div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
+                    }
+
+                    const displaySource = (item.source || '').replace('_News', '').replace('_', ' ');
+                    const closingInfo = getClosingBadge(item.closing_date);
+
+                    html += `
+                        <details class="report-section">
+                            <summary class="report-summary">
+                                <h3>${escapeHtml(item.title)}</h3>
+                                ${innerInsight.linkedin_hook ? `<div class="hook-subtitle">${escapeHtml(innerInsight.linkedin_hook)}</div>` : ''}
+                                <div class="report-meta">
+                                    <span class="badge-source">📡 ${escapeHtml(displaySource)}</span>
+                                    ${item.province ? `<span class="badge-meta">📍 ${escapeHtml(item.province)}</span>` : ''}
+                                    ${item.category_label ? `<span class="badge-meta">🏷️ ${escapeHtml(item.category_label)}</span>` : ''}
+                                    <span class="${closingInfo.class}">⏳ ${closingInfo.text}</span>
+                                    <span>📅 Released: ${formatDate(item.date)}</span>
+                                </div>
+                            </summary>
+                            <div class="insight-content-wrapper">
+                                ${item.description ? `
+                                <div class="tender-desc" style="font-size: 13.5px; line-height: 1.6; color: var(--text-secondary); margin-bottom: 15px; border-left: 2px solid rgba(96, 165, 250, 0.4); padding-left: 10px;">
+                                    <strong>Description:</strong> ${escapeHtml(item.description)}
+                                </div>
+                                ` : ''}
+                                
+                                <div class="insight-content">
+                                    ${innerHtml || '<p style="color: var(--text-muted)">No strategic B2B analysis required.</p>'}
+                                </div>
+                                
+                                <div class="ref-footer" style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 12px; font-size: 12px; flex-wrap: wrap; gap: 10px;">
+                                    ${innerInsight.anchor_reference ? `
+                                    <span style="color: var(--text-muted);">
+                                        📖 Grounding Source: <strong>${escapeHtml(innerInsight.anchor_reference.source_name)}</strong> (pp. ${escapeHtml(innerInsight.anchor_reference.page_range)})
+                                        <a href="${escapeHtml(innerInsight.anchor_reference.url)}" target="_blank" rel="noopener" style="color: #60a5fa; text-decoration: underline; margin-left: 5px;">View Report PDF ↗</a>
+                                    </span>
+                                    ` : '<span style="color: var(--text-muted);">📖 Source: Public Health Feeds</span>'}
+                                    
+                                    ${item.link ? `<a class="opp-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener" style="font-weight: 600; color: #60a5fa;">View Original Opportunity ↗</a>` : ''}
+                                </div>
+                            </div>
+                        </details>
+                    `;
+                });
+            } else {
+                html = `
+                    <div class="empty-state">
+                        <h3>No Active Bids or Grants Found</h3>
+                        <p>Try clearing filters or search keywords. Closed opportunities (>30 days) are pruned automatically.</p>
+                    </div>
+                `;
+            }
+            tendersContent.innerHTML = html;
+        }
+
+        function handleSearch(query) {
+            filterAndRender();
+        }
+
+        async function selectHistoricalDate(date) {
+            currentDate = date;
+            const searchInput = document.getElementById('searchQuery');
+            if (searchInput) searchInput.value = '';
+
+            // Reset filters
+            document.getElementById('statusFilter').value = 'All';
+
+            // Show loading spinners in views
+            document.getElementById('tendersContent').innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading historical simulation data...</p></div>';
+            document.getElementById('digestContent').innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading historical digest...</p></div>';
+
+            await Promise.all([
+                loadKPIs(),
+                loadInsights()
+            ]);
+        }
+
+        function copyPost(btn) {
+            const text = btn.getAttribute('data-raw');
+            if (!text) return;
+            navigator.clipboard.writeText(text).then(() => {
+                const originalText = btn.innerText;
+                btn.innerText = 'Copied!';
+                btn.classList.add('success');
+                setTimeout(() => {
+                    btn.innerText = originalText;
+                    btn.classList.remove('success');
+                }, 2000);
+            }).catch(err => {
+                console.error('Copy failed:', err);
+                alert('Failed to copy. Please manually select and copy the text.');
+            });
+        }
+
+        async function loadManifest() {
+            try {
+                let dates = [];
+                try {
+                    const res = await fetch(MANIFEST_AZURE);
+                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                    dates = await res.json();
+                } catch (e) {
+                    console.warn("Failed to load manifest from Azure, trying local fallback:", e);
+                    const res = await fetch(MANIFEST_LOCAL);
+                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                    dates = await res.json();
+                }
+
+                if (Array.isArray(dates) && dates.length > 0) {
+                    const select = document.getElementById('date-select');
+                    let html = '<option value="latest">Latest Run</option>';
+                    dates.forEach(date => {
+                        const d = new Date(date + 'T12:00:00');
+                        const dateFormatted = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+                        html += `<option value="${date}">${dateFormatted}</option>`;
+                    });
+                    select.innerHTML = html;
+                }
+            } catch (e) {
+                console.error('Failed to load date manifest:', e);
+            }
+        }
+
+        async function init() {
+            await loadManifest();
+            await loadKPIs();
+            await loadInsights();
+        }
+
+        init();
+    </script>
+</body>
+</html>
