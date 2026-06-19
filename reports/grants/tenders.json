@@ -730,5 +730,17 @@
         "province_abbrev": "MB",
         "category": "GD",
         "category_label": "Goods"
+    },
+    {
+        "type": "New",
+        "title": "ET025-261185 - Invitation to Tender - Air Handling Unit Replacement - Winnipeg, MB",
+        "description": "Specialized trade construction and maintenance servicesDistribution and conditioning system equipment maintenance and repair services",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110016563?anId=ANONYMOUS",
+        "closing_date": "2026-07-24T14:00:00",
+        "publication_date": "2026-06-19",
+        "province": "Manitoba",
+        "province_abbrev": "MB",
+        "category": "CNST",
+        "category_label": "Construction"
     }
 ]
