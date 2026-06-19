@@ -558,10 +558,24 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         # 4. Consolidate Dashboard KPIs
         kpis = generate_dashboard_kpis(insights, gemini_client)
 
+        # Select top 5 featured items for digest, capping at 2 items per hub to ensure regional balance
+        source_hubs = {src.name: (src.hub if src.hub else get_hub_from_source(src.name)) for src in config.sources}
+        featured_insights = []
+        hub_counts = {}
+        for item in insights:
+            src = item.get("source", "")
+            hub = source_hubs.get(src) or get_hub_from_source(src)
+            count = hub_counts.get(hub, 0)
+            if count < 2:
+                featured_insights.append(item)
+                hub_counts[hub] = count + 1
+            if len(featured_insights) == 5:
+                break
+
         # 5. Compile LinkedIn summary post
         # Build enriched context: title + hook + full strategic_value for top 5 items
         news_summaries_list = []
-        for item in insights[:5]:
+        for item in featured_insights:
             title = item.get('title', '')
             hook = item.get('insight', {}).get('linkedin_hook', '')
             strat = item.get('insight', {}).get('strategic_value', '')
@@ -579,9 +593,9 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
             suggested_post = pattern.sub(link, suggested_post)
 
         # Append source references for clean tracking
-        if insights:
+        if featured_insights:
             suggested_post += "\n\n### Featured News & Sources\n"
-            for item in insights[:5]:
+            for item in featured_insights:
                 src_name = clean_source_display_name(item.get("source", ""))
                 suggested_post += f"- [{item['title']}]({item['link']}) ({src_name})\n"
 
