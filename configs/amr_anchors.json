@@ -1,0 +1,25 @@
+{
+  "Canada": [
+    {
+      "id": 1000,
+      "fact": "CIHR's 'One Health' Antimicrobial Resistance research networks specifically fund virtual modeling and bacterial simulation projects to combat superbugs.",
+      "source": "CIHR One Health AMR Strategy 2025",
+      "pages": "Page 4",
+      "url": "https://cihr-irsc.gc.ca/e/53000.html"
+    },
+    {
+      "id": 1001,
+      "fact": "The National Research Council (NRC) Ideation Fund provides collaborative research grants up to CAD $250,000 for breakthrough health technologies and simulation platforms.",
+      "source": "NRC Collaborative Science & Technology Program",
+      "pages": "Page 2",
+      "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+    },
+    {
+      "id": 1002,
+      "fact": "The Public Health Agency of Canada (PHAC) allocates dedicated funding for infectious disease simulation modeling under the Infectious Disease Laboratory Network.",
+      "source": "PHAC Laboratory Biosafety Guidelines",
+      "pages": "Page 15",
+      "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
+    }
+  ]
+}

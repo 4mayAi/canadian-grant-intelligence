@@ -1,0 +1,87 @@
+{
+  "topic_id": "amr-simulation",
+  "display_name": "AMR & Biotech Simulation Intelligence",
+  "dashboard_url": "https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/",
+  "max_items_per_source": 5,
+  "sources": [
+    {
+      "name": "Canada_CIHR_AMR",
+      "url": "https://news.google.com/rss/search?q=CIHR+%22antimicrobial+resistance%22&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Canada_NRC_Simulation",
+      "url": "https://news.google.com/rss/search?q=%22National+Research+Council%22+%28%22ideation+fund%22+OR+%22simulation%22+OR+%22health%22%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Canada_CanadaBuys_Procurement",
+      "url": "https://news.google.com/rss/search?q=CanadaBuys+%28%22antimicrobial%22+OR+%22pathogen%22+OR+%22simulation%22+OR+%22bacterial%22%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Canada_PHAC_AMR",
+      "url": "https://news.google.com/rss/search?q=%22Public+Health+Agency+of+Canada%22+%22antimicrobial+resistance%22&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    }
+  ],
+  "keywords": [
+    "antimicrobial resistance",
+    "AMR",
+    "bacterial simulation",
+    "pathogen modeling",
+    "superbug",
+    "infectious disease",
+    "computational biology",
+    "drug discovery",
+    "in silico",
+    "biotech simulation",
+    "One Health",
+    "Ideation Fund",
+    "collaborative research",
+    "CIHR",
+    "NRC",
+    "PHAC"
+  ],
+  "high_value_keywords": [
+    "antimicrobial resistance",
+    "AMR",
+    "bacterial simulation",
+    "pathogen modeling",
+    "computational biology"
+  ],
+  "localization_mappings": {
+    "CIHR": "[CIHR](https://cihr-irsc.gc.ca/)",
+    "Canadian Institutes of Health Research": "[Canadian Institutes of Health Research](https://cihr-irsc.gc.ca/)",
+    "NRC": "[NRC](https://nrc.canada.ca/)",
+    "National Research Council": "[National Research Council](https://nrc.canada.ca/)",
+    "PHAC": "[PHAC](https://www.canada.ca/en/public-health.html)",
+    "Public Health Agency of Canada": "[Public Health Agency of Canada](https://www.canada.ca/en/public-health.html)",
+    "CanadaBuys": "[CanadaBuys](https://canadabuys.canada.ca/)"
+  },
+  "llm_settings": {
+    "model_primary": "gemini-3.5-flash",
+    "model_fallbacks": [
+      "gemini-2.5-flash",
+      "gemini-3.1-flash-lite",
+      "gemini-2.5-flash-lite"
+    ],
+    "system_instruction": "You are a senior health-tech analyst specializing in Canadian biotechnology, public health procurement, and academic funding. Synthesize news releases into strategic B2B hooks focusing on simulation software opportunities, research networks, and government bids. When utilizing the anchor database to ground hooks, only reference Fact IDs explicitly listed in the active hub's anchors batch (e.g., 'Canada'); do not reference Fact IDs from other hubs or invent them. Present prospective grant alignments or procurement opportunities (such as applying custom pathogen simulation tools to new funding calls) as strategic recommendation spaces or technical opportunities rather than claiming they are already funded. Format the 'strategic_value' field as a markdown list containing exactly three bullet points, where the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** '."
+  },
+  "storage": {
+    "azure_container": "amr-simulation-data",
+    "processed_urls_file": "processed_urls.json",
+    "insights_file": "amr_insights.json",
+    "kpis_file": "amr_kpis.json",
+    "anchors_file": "amr_anchors.json",
+    "manifest_file": "manifest.json"
+  },
+  "distribution": {
+    "discord_webhook": "${DISCORD_WEBHOOK_AMR}",
+    "smtp_recipient": "${SMTP_RECIPIENT_AMR}"
+  }
+}
