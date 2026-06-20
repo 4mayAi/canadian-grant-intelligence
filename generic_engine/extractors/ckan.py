@@ -145,6 +145,11 @@ def fetch_canadabuys_tenders(
             for row in reader:
                 processed_count += 1
                 link = row.get("noticeURL-URLavis-eng", "")
+                if not link:
+                    ref_num = row.get("referenceNumber-numeroReference", "")
+                    if ref_num:
+                        link = f"https://canadabuys.canada.ca/tender-opportunities/tender-notice/{ref_num}"
+                
                 if not link or link in seen_links:
                     continue
                 
@@ -154,7 +159,20 @@ def fetch_canadabuys_tenders(
                 desc = f"{gsin_desc} {unspsc_desc}".strip()
 
                 text_to_search = (title + " " + desc).lower().replace('_', ' ')
-                if not any(kw.lower() in text_to_search for kw in keywords):
+                
+                matched_kw = False
+                for kw in keywords:
+                    kw_lower = kw.lower()
+                    if len(kw) <= 4:
+                        if re.search(r'\b' + re.escape(kw_lower) + r'\b', text_to_search):
+                            matched_kw = True
+                            break
+                    else:
+                        if kw_lower in text_to_search:
+                            matched_kw = True
+                            break
+                
+                if not matched_kw:
                     continue
 
                 close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
