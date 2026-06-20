@@ -1,12 +1,15 @@
 ![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)
 
-# Canadian Funding Unlocked: Spring Update, G7 Pacts & BC's $5B Boost
+# Policy Pulse: New Federal Funding and Trade Shifts Shaping Canadian Procurement
 
-🇨🇦 **Today, Canada's funding landscape just got a massive clarity boost, opening immediate doors for B2B contractors.** The passage of the Spring Economic Update 2026 legislation has officially cleared funding bottlenecks, signaling an imminent wave of new federal RFPs. Tech and green solution providers should immediately review their offerings to align with new priorities for IT modernization, supply chain resilience, and digital service delivery, as competitive bids are on the horizon.
+🚀 Canada is making its boldest play yet in the Indo-Pacific—is your business ready for the ripple effects of the Japan trade mission? Minister Sidhu’s mission signals a definitive shift toward global diversification, creating a clear opening for clean-tech and digital service exporters to align with new international procurement frameworks. Firms already active in the region should use this diplomatic momentum to secure long-term partnerships with Japanese counterparts.
 
-Globally, PM Mark Carney’s G7 summit outcomes have solidified Canada's strategic direction. Commitments in defence and critical minerals mean significant opportunities are emerging. Mining tech firms and defence contractors must prepare for substantial federal grants and procurement in green mining tech, mineral tracing, and advanced cyber threat intelligence solutions, driven by these international agreements.
+🇨🇦 The passage of the Spring Economic Update 2026 is officially the green light for federal B2B contractors, clearing the path for a surge in RFPs. With this legislation comes a renewed emphasis on cybersecurity and digital modernization, requiring bid managers to sharpen their focus on socioeconomic compliance, particularly regarding Indigenous procurement mandates and green criteria, to stay competitive.
 
-Finally, the new Canada-British Columbia partnership is a game-changer for regional development. With over $5 billion federally allocated over 10 years for housing and infrastructure, this represents a robust, long-term pipeline. Civil engineering, smart-city technology, and healthcare infrastructure vendors should strategically position themselves for sustained opportunities in BC, particularly in key regions like Terrace and Prince Rupert.
+🏠 Meanwhile, the $5 billion federal-provincial partnership for British Columbia and new national housing legislation have created a massive pipeline for infrastructure and municipal tech. Whether you provide automated permitting software, civil engineering services, or modular construction solutions, the focus on 'housing-enabling infrastructure' means public sector demand for these capabilities will remain elevated for the next decade.
+
+Finally, new safeguard tariffs on canned vegetable imports are forcing a pivot toward domestic sourcing. Food suppliers and AgTech vendors should prioritize local supply chain messaging in upcoming government catering and procurement bids to capitalize on this protectionist policy shift.
 
 Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
-#CanadianProcurement #GovtContracts #BusinessIntelligence #FundingAlert #CanadaGrants
+
+#CanadianBusiness #GovernmentProcurement #MayAi #EconomicPolicy #B2BStrategy
