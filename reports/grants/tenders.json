@@ -361,18 +361,6 @@
     },
     {
         "type": "Open",
-        "title": "F3731-250070- Regional individual SO for Inspection, Repair and Maintenance Services of Lifting Equipment - RFP",
-        "description": "*Lifting equipment and accessories*Winches*Winch crane*Crane maintenance and repair service*Equipment inspection service",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014460?anId=ANONYMOUS",
-        "closing_date": "2026-06-18T14:00:00",
-        "publication_date": "2026-05-27",
-        "province": "National",
-        "province_abbrev": "NAT",
-        "category": "SRV",
-        "category_label": "Services"
-    },
-    {
-        "type": "Open",
         "title": "W7707-257379 - Handheld Active Thermal Infrared Spectroradiometer Design and Development",
         "description": "*Application or technology research and development service",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014095?anId=ANONYMOUS",
@@ -476,18 +464,6 @@
         "publication_date": "2026-05-29",
         "province": "British Columbia",
         "province_abbrev": "BC",
-        "category": "GD",
-        "category_label": "Goods"
-    },
-    {
-        "type": "Open",
-        "title": "EF937-261357-3 – PSIB, Purchase workspaces furniture under the SA for CBSA -RFP",
-        "description": "*Filing cabinets or accessories",
-        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015030?anId=ANONYMOUS",
-        "closing_date": "2026-06-18T14:00:00",
-        "publication_date": "2026-06-03",
-        "province": "National",
-        "province_abbrev": "NAT",
         "category": "GD",
         "category_label": "Goods"
     },
@@ -732,7 +708,7 @@
         "category_label": "Goods"
     },
     {
-        "type": "New",
+        "type": "Open",
         "title": "ET025-261185 - Invitation to Tender - Air Handling Unit Replacement - Winnipeg, MB",
         "description": "Specialized trade construction and maintenance servicesDistribution and conditioning system equipment maintenance and repair services",
         "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110016563?anId=ANONYMOUS",
@@ -742,5 +718,17 @@
         "province_abbrev": "MB",
         "category": "CNST",
         "category_label": "Construction"
+    },
+    {
+        "type": "Open",
+        "title": "RFP B - Design and Manufacture Power Distribution",
+        "description": "Electrical engineering services",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110016571?anId=ANONYMOUS",
+        "closing_date": "2026-07-07T14:00:00",
+        "publication_date": "2026-06-19",
+        "province": "Northwest Territories",
+        "province_abbrev": "NT",
+        "category": "GD",
+        "category_label": "Goods"
     }
 ]
