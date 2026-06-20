@@ -90,6 +90,30 @@ def scrape_html_report(url: str) -> str:
                 # Retrieve raw HTML code to search for PDF/download links
                 html_content = page.content()
                 
+                # Pre-format CanadaBuys partnering links as markdown prior to text extraction
+                try:
+                    page.evaluate("""() => {
+                        const anchors = document.querySelectorAll('a');
+                        const previewAnchors = Array.from(anchors).filter(a => {
+                            const href = a.getAttribute('href');
+                            return href && href.includes('/node/preview/');
+                        });
+                        previewAnchors.forEach(a => {
+                            const text = a.innerText ? a.innerText.trim() : '';
+                            const href = a.getAttribute('href');
+                            if (text && href) {
+                                const absHref = href.startsWith('http') ? href : 'https://canadabuys.canada.ca' + href;
+                                const span = document.createElement('span');
+                                span.innerText = ` [${text}](${absHref}) `;
+                                if (a.parentNode) {
+                                    a.parentNode.replaceChild(span, a);
+                                }
+                            }
+                        });
+                    }""")
+                except Exception as eval_err:
+                    logging.warning(f"Failed to pre-format partnering links: {eval_err}")
+                
                 # Try to locate the main content using semantic selectors to avoid header/footer noise
                 body_text = ""
                 for selector in ["article", "main", "[role='main']", ".content", ".post-content", ".entry-content"]:

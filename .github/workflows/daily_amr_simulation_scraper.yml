@@ -43,6 +43,12 @@ jobs:
       - name: Install Playwright Browser & OS Dependencies
         run: playwright install --with-deps chromium
 
+      - name: Reprocess InnoVet Tender (Clear Cache)
+        env:
+          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+        run: |
+          python scratch/reprocess_innovet_tender.py
+
       - name: Run Generic Engine
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
