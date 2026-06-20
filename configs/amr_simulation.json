@@ -27,6 +27,24 @@
       "url": "https://news.google.com/rss/search?q=%28%22Public+Health+Agency%22+OR+PHAC%29+health&hl=en-CA&gl=CA&ceid=CA:en",
       "type": "rss",
       "skip_query_refactoring": true
+    },
+    {
+      "name": "bioRxiv_Microbiology",
+      "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=microbiology",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Canada_PHAC_Public_Health_Updates",
+      "url": "https://www.canada.ca/content/dam/phac-aspc/rss/new-eng.xml",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Canada_PHAC_CCDR",
+      "url": "https://www.canada.ca/content/dam/phac-aspc/rss/ccdr-rmtc-eng.xml",
+      "type": "rss",
+      "skip_query_refactoring": true
     }
   ],
   "keywords": [

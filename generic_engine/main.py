@@ -44,6 +44,21 @@ def interpolate_env_vars(data: Any) -> Any:
             return os.getenv(env_var, data)
     return data
 
+def matches_keywords(text: str, keywords: List[str]) -> bool:
+    """Performs case-insensitive word-boundary matching for short acronyms and substring matching for longer terms."""
+    if not text:
+        return False
+    text_lower = text.lower().replace('_', ' ')
+    for kw in keywords:
+        kw_lower = kw.lower()
+        if len(kw) <= 4:
+            if re.search(r'\b' + re.escape(kw_lower) + r'\b', text_lower):
+                return True
+        else:
+            if kw_lower in text_lower:
+                return True
+    return False
+
 def load_and_validate_config(config_path: Optional[str] = None, config_url: Optional[str] = None) -> PipelineConfig:
     """Loads JSON config (local or remote), interpolates env variables, and validates via Pydantic V2."""
     config_data = {}
@@ -354,7 +369,13 @@ def fetch_and_process_news(
             # Already processed (either discarded or old). Skip!
             logging.info(f"Skipping already processed URL: {link}")
         else:
-            unprocessed_items.append(item)
+            # Relevancy pre-filter: discard news/tenders that don't match any keywords early
+            text_to_search = (item.get("title", "") + " " + item.get("text_to_search", "")).lower()
+            if matches_keywords(text_to_search, config.keywords):
+                unprocessed_items.append(item)
+            else:
+                logging.info(f"Discarding newly scraped item due to keyword mismatch (pre-filter): {item.get('title')}")
+                processed_urls.add(link)
 
     # 3. LLM-Assisted Event Clustering Deduplication
     if len(unprocessed_items) > 1:
@@ -521,19 +542,7 @@ def fetch_and_process_news(
             
             text_to_search = (title_val + " " + desc_val + " " + strat_val).lower().replace('_', ' ')
             
-            matched_kw = False
-            for kw in config.keywords:
-                kw_lower = kw.lower()
-                if len(kw) <= 4:
-                    if re.search(r'\b' + re.escape(kw_lower) + r'\b', text_to_search):
-                        matched_kw = True
-                        break
-                else:
-                    if kw_lower in text_to_search:
-                        matched_kw = True
-                        break
-            
-            if not matched_kw:
+            if not matches_keywords(text_to_search, config.keywords):
                 logging.info(f"Pruning cached item due to keyword mismatch (false positive check): {title_val}")
                 continue
                 

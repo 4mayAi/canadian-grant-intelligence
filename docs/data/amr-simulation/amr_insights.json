@@ -1,93 +1,35 @@
 {
-  "generated_at": "2026-06-20T05:47:13.160207Z",
-  "linkedin_post": "🔬 Is your antimicrobial research ready for the next level of federal evaluation? As the WHO formalizes the 2026–2036 Global Action Plan on AMR, the demand for rigorous, evidence-based performance metrics has moved from optional to essential.\n\nThe InnoVet-AMR 2.0 program is signaling a shift toward higher accountability, making it a critical focus for biotech firms that can leverage digital simulation to justify long-term health outcomes in bacterial research. Firms specializing in performance reporting should prioritize these evaluation contracts to establish early dominance in federal procurement.\n\nSimultaneously, the WHO’s updated 'One Health' framework creates a massive opening for predictive analytics. Because this global mandate emphasizes surveillance and cross-sectoral integration, Canadian developers of pathogen simulation tools are uniquely positioned to assist academic networks in mapping complex resistance patterns. Research institutions and health agencies should pay close attention here to ensure their technical workflows align with emerging international standards.\n\nStrategic Value:\n* Integrating digital simulation into evaluation frameworks allows for superior predictability of long-term health outcomes in complex bacterial research.\n* The emphasis on 'One Health' innovation creates clear technical opportunities for Canadian firms to deploy predictive analytics within national surveillance networks.\n* **Consulting Pivot:** Position your firm to integrate virtual modeling software into InnoVet-AMR reporting and national GAP-AMR initiatives, specifically targeting [CIHR](https://cihr-irsc.gc.ca/)-funded 'One Health' research networks.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#AMR #Biotech #PublicHealth #Innovation #CanadianScience\n\n### Featured News & Sources\n- [Evaluation Services for the InnoVet-AMR 2.0 program](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-621-79539261) (Canada CanadaBuys Procurement)\n- [The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)](https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)) (Canada CIHR AMR)\n",
+  "generated_at": "2026-06-20T06:57:41.271267Z",
+  "linkedin_post": "\n\n### Featured News & Sources\n- [Have Insiders Sold NRC Health Shares Recently? - simplywall.st](https://simplywall.st/stocks/us/healthcare/nasdaq-nrc/nrc-health/news/have-insiders-sold-nrc-health-shares-recently) (Canada NRC Simulation)\n- [The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)](https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdmhpZ0hTNDhRcW9EbVZjUGk4VEQtT05zZGM1ZG4yWjI4cW54cC00czJ3aGFOYmRxYktKM3dORW94cFFmalV1V1QtQlh5dE40WjdjUDU1VWZfb1o4VVJYeWVfX2ZrOFpkVHJwR0h5VFpsR1JhX3dxYXp4Rlc1UTRNdU8xbVdwVEYzbE1ERTlHaHlSbW5zOUJLNjQ3OUlrd2s0T0ZZSmI3SGY1bGNtLXB4TTRWMnV5bEFpV1p6eFphblhkbHpOVndPeGlPbTdZQ3F3N1lROW1CVQ?oc=5) (Canada CIHR AMR)\n",
   "insights": [
     {
-      "source": "Canada_CanadaBuys_Procurement",
-      "title": "Evaluation Services for the InnoVet-AMR 2.0 program",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-621-79539261",
-      "date": "2026-06-02T00:00:00Z",
+      "source": "Canada_NRC_Simulation",
+      "title": "Have Insiders Sold NRC Health Shares Recently? - simplywall.st",
+      "link": "https://simplywall.st/stocks/us/healthcare/nasdaq-nrc/nrc-health/news/have-insiders-sold-nrc-health-shares-recently",
+      "date": "2026-06-14T15:01:35Z",
       "insight": {
-        "linkedin_hook": "Is your antimicrobial research ready for the next level of federal evaluation? 🔬",
-        "strategic_value": "* Antimicrobial resistance (AMR) programs increasingly prioritize rigorous performance metrics to justify public health funding.\n* Integrating digital simulation into evaluation frameworks allows for better predictability of long-term health outcomes in bacterial research.\n* **Consulting Pivot:** Position your firm to integrate virtual modeling software into future InnoVet-AMR reporting, aligning with CIHR's 'One Health' mandates for simulation-based bacterial analysis.",
-        "co_bidding_opportunity": "The tender invites partnership listings; firms specializing in project evaluation software or health-tech data analysis should contact the listed entities (e.g., [Innovative Solution Research Consult](https://canadabuys.canada.ca/en/node/preview/1465602)) to offer simulation-based monitoring tools as a value-add.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "The InnoVet-AMR program represents a critical evaluation pillar for public health; aligning simulation capabilities with these evaluation cycles directly supports the research network objectives defined in Fact ID 1000 and 1002.",
-        "grounded_fact_ids": [
-          1000,
-          1002
-        ],
-        "anchor_reference": {
-          "source_name": "CIHR One Health AMR Strategy 2025",
-          "page_range": "Page 4",
-          "url": "https://cihr-irsc.gc.ca/e/53000.html"
-        }
-      },
-      "closing_date": "2026-06-22T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "Project monitoring and evaluation",
-      "type": "Open",
-      "partner_list": [
-        {
-          "name": "CABINET EXPERTISE COMMUNAUTAIRE",
-          "link": "https://canadabuys.canada.ca/en/node/preview/1467461"
-        },
-        {
-          "name": "Nafsta Ltd",
-          "link": "https://canadabuys.canada.ca/en/node/preview/1466811"
-        },
-        {
-          "name": "ADVOCACY ONG Bénin",
-          "link": "https://canadabuys.canada.ca/en/node/preview/1466278"
-        },
-        {
-          "name": "Aid Reach medical mission",
-          "link": "https://canadabuys.canada.ca/en/node/preview/1466059"
-        },
-        {
-          "name": "Association Maison de Vie BAMBAT",
-          "link": "https://canadabuys.canada.ca/en/node/preview/1466058"
-        },
-        {
-          "name": "Innovative Solution Research Consult",
-          "link": "https://canadabuys.canada.ca/en/node/preview/1465602"
-        },
-        {
-          "name": "Groupement Agropastoral pour le Développement de Yongoro ONG NATIONAL",
-          "link": "https://canadabuys.canada.ca/en/node/preview/1465501"
-        },
-        {
-          "name": "Dutch Committee for Afghanistan - Livestock Programs",
-          "link": "https://canadabuys.canada.ca/en/node/preview/1465152"
-        },
-        {
-          "name": "RIDING-UP SARL",
-          "link": "https://canadabuys.canada.ca/en/node/preview/1465118"
-        }
-      ]
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
     },
     {
       "source": "Canada_CIHR_AMR",
       "title": "The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)",
-      "link": "https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)",
-      "date": "2026-05-25T07:00:00Z",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdmhpZ0hTNDhRcW9EbVZjUGk4VEQtT05zZGM1ZG4yWjI4cW54cC00czJ3aGFOYmRxYktKM3dORW94cFFmalV1V1QtQlh5dE40WjdjUDU1VWZfb1o4VVJYeWVfX2ZrOFpkVHJwR0h5VFpsR1JhX3dxYXp4Rlc1UTRNdU8xbVdwVEYzbE1ERTlHaHlSbW5zOUJLNjQ3OUlrd2s0T0ZZSmI3SGY1bGNtLXB4TTRWMnV5bEFpV1p6eFphblhkbHpOVndPeGlPbTdZQ3F3N1lROW1CVQ?oc=5",
+      "date": "2026-05-25T08:00:00Z",
       "insight": {
-        "linkedin_hook": "The WHO's updated Global Action Plan on AMR (2026-2036) is a monumental call to action! 🌍 This \"One Health\" framework demands advanced tools for surveillance and prevention.",
-        "strategic_value": "- This global framework reinforces the critical need for advanced simulation and modeling tools to address Antimicrobial Resistance across human, animal, and environmental health sectors.\n- The emphasis on \"strengthened surveillance\" and \"innovation\" under the 'One Health' approach directly supports opportunities for Canadian biotech firms in predictive analytics and pathogen simulation.\n- * **Consulting Pivot:** Engage Canadian health agencies and academic institutions to align custom pathogen simulation and virtual modeling solutions with national action plans derived from the GAP-AMR, targeting CIHR's 'One Health' networks.",
-        "co_bidding_opportunity": "The plan emphasizes \"continued collaboration among governments, international organizations, civil society, academia and the private sector.\" This suggests opportunities for consortia involving academic research institutions, biotech firms specializing in simulation, and public health bodies.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "The updated GAP-AMR establishes a long-term global and national regulatory framework for AMR. This directly creates demand for digital tools, like simulation software, to fulfill the \"One Health\" and \"strengthened surveillance\" mandates, aligning with CIHR's explicit funding for virtual modeling (Fact ID 1000).",
-        "grounded_fact_ids": [
-          1000
-        ],
-        "anchor_reference": {
-          "source_name": "CIHR One Health AMR Strategy 2025",
-          "page_range": "Page 4",
-          "url": "https://cihr-irsc.gc.ca/e/53000.html"
-        }
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
       }
     }
   ]
