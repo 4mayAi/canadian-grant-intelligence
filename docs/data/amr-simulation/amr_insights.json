@@ -1,35 +1,47 @@
 {
-  "generated_at": "2026-06-20T00:42:15.413233Z",
-  "linkedin_post": "\n\n### Featured News & Sources\n- [Have Insiders Sold NRC Health Shares Recently? - simplywall.st](https://simplywall.st/stocks/us/healthcare/nasdaq-nrc/nrc-health/news/have-insiders-sold-nrc-health-shares-recently) (Canada NRC Simulation)\n- [The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)](https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)) (Canada CIHR AMR)\n",
+  "generated_at": "2026-06-20T00:46:22.221239Z",
+  "linkedin_post": "🌍 **Canadian Biotech on Alert: Global AMR Push Meets National Health Preparedness.**\n\nToday, the World Health Assembly's updated Global Action Plan on Antimicrobial Resistance (2026-2036) emerges as a monumental call to action, establishing a 'One Health' framework demanding advanced surveillance and prevention tools. Canadian biotech firms specializing in predictive analytics and pathogen simulation should pay attention; this global imperative directly supports opportunities in advanced modeling solutions within Canada, aligning with [CIHR](https://cihr-irsc.gc.ca/)'s 'One Health' networks.\n\nConcurrently, Canada’s Chief Public Health Officer has delivered updates on hantavirus and Ebola, underscoring critical national public health preparedness. This highlights [PHAC](https://www.canada.ca/en/public-health.html)’s continuous requirement for robust infectious disease modeling. Companies offering advanced epidemiological and pathogen simulation capabilities have a clear opportunity to engage [PHAC](https://www.canada.ca/en/public-health.html) to enhance preparedness and optimize response strategies, particularly within their Infectious Disease Laboratory Network. These strategic intersections present significant technical opportunities for mayAi clients to align custom pathogen simulation tools with national action plans and enhance government bids.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#mayAi #HealthTech #BioTechCanada #AMR #PublicHealth\n\n### Featured News & Sources\n- [The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)](https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)) (Canada CIHR AMR)\n- [Canada’s chief public health officer delivers updates on hantavirus, Ebola - Radio-Canada](https://ici.radio-canada.ca/rci/en/news/2256043/canadas-chief-public-health-officer-delivers-updates-on-hantavirus-ebola) (Canada PHAC AMR)\n",
   "insights": [
-    {
-      "source": "Canada_NRC_Simulation",
-      "title": "Have Insiders Sold NRC Health Shares Recently? - simplywall.st",
-      "link": "https://simplywall.st/stocks/us/healthcare/nasdaq-nrc/nrc-health/news/have-insiders-sold-nrc-health-shares-recently",
-      "date": "2026-06-14T15:01:35Z",
-      "insight": {
-        "linkedin_hook": "",
-        "strategic_value": "Gemini API Error: Request failed.",
-        "co_bidding_opportunity": "",
-        "mets_category": "",
-        "mets_rationalization": "",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
     {
       "source": "Canada_CIHR_AMR",
       "title": "The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)",
       "link": "https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)",
-      "date": "2026-05-25T08:00:00Z",
+      "date": "2026-05-25T07:00:00Z",
       "insight": {
-        "linkedin_hook": "",
-        "strategic_value": "Gemini API Error: Request failed.",
-        "co_bidding_opportunity": "",
-        "mets_category": "",
-        "mets_rationalization": "",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
+        "linkedin_hook": "The WHO's updated Global Action Plan on AMR (2026-2036) is a monumental call to action! 🌍 This \"One Health\" framework demands advanced tools for surveillance and prevention.",
+        "strategic_value": "- This global framework reinforces the critical need for advanced simulation and modeling tools to address Antimicrobial Resistance across human, animal, and environmental health sectors.\n- The emphasis on \"strengthened surveillance\" and \"innovation\" under the 'One Health' approach directly supports opportunities for Canadian biotech firms in predictive analytics and pathogen simulation.\n- * **Consulting Pivot:** Engage Canadian health agencies and academic institutions to align custom pathogen simulation and virtual modeling solutions with national action plans derived from the GAP-AMR, targeting CIHR's 'One Health' networks.",
+        "co_bidding_opportunity": "The plan emphasizes \"continued collaboration among governments, international organizations, civil society, academia and the private sector.\" This suggests opportunities for consortia involving academic research institutions, biotech firms specializing in simulation, and public health bodies.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "The updated GAP-AMR establishes a long-term global and national regulatory framework for AMR. This directly creates demand for digital tools, like simulation software, to fulfill the \"One Health\" and \"strengthened surveillance\" mandates, aligning with CIHR's explicit funding for virtual modeling (Fact ID 1000).",
+        "grounded_fact_ids": [
+          1000
+        ],
+        "anchor_reference": {
+          "source_name": "CIHR One Health AMR Strategy 2025",
+          "page_range": "Page 4",
+          "url": "https://cihr-irsc.gc.ca/e/53000.html"
+        }
+      }
+    },
+    {
+      "source": "Canada_PHAC_AMR",
+      "title": "Canada’s chief public health officer delivers updates on hantavirus, Ebola - Radio-Canada",
+      "link": "https://ici.radio-canada.ca/rci/en/news/2256043/canadas-chief-public-health-officer-delivers-updates-on-hantavirus-ebola",
+      "date": "2026-05-22T07:00:00Z",
+      "insight": {
+        "linkedin_hook": "Canada's CPHO is updating on hantavirus and Ebola, highlighting critical public health preparedness! 🚨 This underscores PHAC's ongoing need for robust infectious disease modeling.",
+        "strategic_value": "- PHAC's active monitoring and response to infectious diseases like hantavirus and Ebola demonstrate a continuous requirement for advanced epidemiological and pathogen simulation capabilities.\n- The emphasis on \"increased health screening\" and \"prepared sites\" indicates an underlying need for predictive modeling to inform resource allocation and response strategies.\n- * **Consulting Pivot:** Propose advanced infectious disease simulation models to PHAC, specifically targeting their Infectious Disease Laboratory Network, to enhance preparedness, optimize screening protocols, and refine outbreak response scenarios.",
+        "co_bidding_opportunity": "The context mentions actions by PHAC, Global Affairs Canada, and the Canada Border Services Agency. While not explicitly stated as a co-bidding opportunity, the coordination across agencies for screening and travel guidance suggests a potential for collaborative projects to enhance shared situational awareness through simulation tools.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This signal reflects PHAC's ongoing mandate for infectious disease control and preparedness. It directly aligns with the PHAC's dedicated funding for infectious disease simulation modeling (Fact ID 1002), indicating a consistent demand for digital tools to manage and predict outbreaks.",
+        "grounded_fact_ids": [
+          1002
+        ],
+        "anchor_reference": {
+          "source_name": "PHAC Laboratory Biosafety Guidelines",
+          "page_range": "Page 15",
+          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
+        }
       }
     }
   ]
