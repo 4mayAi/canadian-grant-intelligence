@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-20T05:39:30.808787Z",
-  "linkedin_post": "🚀 Is your biotech firm ready to integrate with the next decade of antimicrobial innovation? The World Health Organization has officially adopted the Global Action Plan on Antimicrobial Resistance (2026–2036), setting a \"One Health\" mandate that demands sophisticated, data-driven surveillance tools. Biotech firms specializing in predictive analytics and pathogen simulation must pivot now to meet this global standard.\n\nSimultaneously, the call for evaluation services for the InnoVet-AMR 2.0 program signals a clear priority shift. Firms that can offer robust monitoring and evaluation services alongside computational modeling will be best positioned to capture upcoming procurement opportunities. Infrastructure leaders in the health-tech space should audit their current capabilities against [CIHR](https://cihr-irsc.gc.ca/) standards to ensure they meet these evolving institutional requirements.\n\nWe see a clear runway for firms to bridge the gap between policy mandates and technical execution. By aligning your virtual modeling solutions with national procurement objectives, you secure a seat at the table for the next wave of government-backed infectious disease research. \n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n### Featured News & Sources\n- [Evaluation Services for the InnoVet-AMR 2.0 program](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-621-79539261) (Canada CanadaBuys Procurement)\n- [The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)](https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)) (Canada CIHR AMR)\n",
+  "generated_at": "2026-06-20T05:47:13.160207Z",
+  "linkedin_post": "🔬 Is your antimicrobial research ready for the next level of federal evaluation? As the WHO formalizes the 2026–2036 Global Action Plan on AMR, the demand for rigorous, evidence-based performance metrics has moved from optional to essential.\n\nThe InnoVet-AMR 2.0 program is signaling a shift toward higher accountability, making it a critical focus for biotech firms that can leverage digital simulation to justify long-term health outcomes in bacterial research. Firms specializing in performance reporting should prioritize these evaluation contracts to establish early dominance in federal procurement.\n\nSimultaneously, the WHO’s updated 'One Health' framework creates a massive opening for predictive analytics. Because this global mandate emphasizes surveillance and cross-sectoral integration, Canadian developers of pathogen simulation tools are uniquely positioned to assist academic networks in mapping complex resistance patterns. Research institutions and health agencies should pay close attention here to ensure their technical workflows align with emerging international standards.\n\nStrategic Value:\n* Integrating digital simulation into evaluation frameworks allows for superior predictability of long-term health outcomes in complex bacterial research.\n* The emphasis on 'One Health' innovation creates clear technical opportunities for Canadian firms to deploy predictive analytics within national surveillance networks.\n* **Consulting Pivot:** Position your firm to integrate virtual modeling software into InnoVet-AMR reporting and national GAP-AMR initiatives, specifically targeting [CIHR](https://cihr-irsc.gc.ca/)-funded 'One Health' research networks.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#AMR #Biotech #PublicHealth #Innovation #CanadianScience\n\n### Featured News & Sources\n- [Evaluation Services for the InnoVet-AMR 2.0 program](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-621-79539261) (Canada CanadaBuys Procurement)\n- [The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)](https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)) (Canada CIHR AMR)\n",
   "insights": [
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -8,11 +8,11 @@
       "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-621-79539261",
       "date": "2026-06-02T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Is your biotech firm ready to evaluate the next wave of antimicrobial innovation? 🔬",
-        "strategic_value": "* Monitoring and evaluation of AMR programs are critical precursors to securing future research funding for virtual modeling.\n* Aligning evaluation methodologies with CIHR standards ensures compliance with broader 'One Health' institutional objectives.\n* **Consulting Pivot:** Position your firm to support IDRC and PHAC by offering data-driven, virtual simulation auditing services that align with Fact ID 1000 and 1002, bridging the gap between programmatic evaluation and computational infectious disease modeling.",
-        "co_bidding_opportunity": "The tender invites businesses to partner for the IDRC InnoVet-AMR 2.0 evaluation services, currently listing several international and national NGOs and consulting firms.",
-        "mets_category": "METS-PMO",
-        "mets_rationalization": "Evaluation services for 'InnoVet-AMR 2.0' (Antimicrobial Resistance) directly intersect with public health procurement mandates, allowing vendors to establish credibility for future CIHR-funded simulation modeling bids.",
+        "linkedin_hook": "Is your antimicrobial research ready for the next level of federal evaluation? 🔬",
+        "strategic_value": "* Antimicrobial resistance (AMR) programs increasingly prioritize rigorous performance metrics to justify public health funding.\n* Integrating digital simulation into evaluation frameworks allows for better predictability of long-term health outcomes in bacterial research.\n* **Consulting Pivot:** Position your firm to integrate virtual modeling software into future InnoVet-AMR reporting, aligning with CIHR's 'One Health' mandates for simulation-based bacterial analysis.",
+        "co_bidding_opportunity": "The tender invites partnership listings; firms specializing in project evaluation software or health-tech data analysis should contact the listed entities (e.g., [Innovative Solution Research Consult](https://canadabuys.canada.ca/en/node/preview/1465602)) to offer simulation-based monitoring tools as a value-add.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "The InnoVet-AMR program represents a critical evaluation pillar for public health; aligning simulation capabilities with these evaluation cycles directly supports the research network objectives defined in Fact ID 1000 and 1002.",
         "grounded_fact_ids": [
           1000,
           1002
@@ -29,7 +29,45 @@
       "category": "SRV",
       "category_label": "Services",
       "description": "Project monitoring and evaluation",
-      "type": "Open"
+      "type": "Open",
+      "partner_list": [
+        {
+          "name": "CABINET EXPERTISE COMMUNAUTAIRE",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1467461"
+        },
+        {
+          "name": "Nafsta Ltd",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1466811"
+        },
+        {
+          "name": "ADVOCACY ONG Bénin",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1466278"
+        },
+        {
+          "name": "Aid Reach medical mission",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1466059"
+        },
+        {
+          "name": "Association Maison de Vie BAMBAT",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1466058"
+        },
+        {
+          "name": "Innovative Solution Research Consult",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1465602"
+        },
+        {
+          "name": "Groupement Agropastoral pour le Développement de Yongoro ONG NATIONAL",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1465501"
+        },
+        {
+          "name": "Dutch Committee for Afghanistan - Livestock Programs",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1465152"
+        },
+        {
+          "name": "RIDING-UP SARL",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1465118"
+        }
+      ]
     },
     {
       "source": "Canada_CIHR_AMR",
