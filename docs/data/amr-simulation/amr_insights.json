@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-06-19T23:29:38.762676Z",
+  "linkedin_post": "\n\n### Featured News & Sources\n- [Alpha Metallurgical Resources (AMR) Stock Could Be 4.5% Undervalued After Terminal Storm Damage - simplywall.st](https://simplywall.st/stocks/us/materials/nyse-amr/alpha-metallurgical-resources/news/alpha-metallurgical-resources-amr-stock-could-be-45-underval) (Canada CIHR AMR)\n- [The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)](https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)) (Canada CIHR AMR)\n",
+  "insights": [
+    {
+      "source": "Canada_CIHR_AMR",
+      "title": "Alpha Metallurgical Resources (AMR) Stock Could Be 4.5% Undervalued After Terminal Storm Damage - simplywall.st",
+      "link": "https://simplywall.st/stocks/us/materials/nyse-amr/alpha-metallurgical-resources/news/alpha-metallurgical-resources-amr-stock-could-be-45-underval",
+      "date": "2026-06-19T17:31:07Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "Canada_CIHR_AMR",
+      "title": "The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)",
+      "link": "https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)",
+      "date": "2026-05-25T08:00:00Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    }
+  ]
+}
