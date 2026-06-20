@@ -1,15 +1,12 @@
 ![Social Card](https://canadiangrants.blob.core.windows.net/data/latest_social_card.png)
 
-# Capitalizing on Canada’s Strategic Pivot: G7 Alliances, the $5B BC Infrastructure Surge, and Active Power RFPs
+# Canadian Funding Unlocked: Spring Update, G7 Pacts & BC's $5B Boost
 
-🇨🇦 **Prime Minister Mark Carney’s G7 commitments and billions in new infrastructure funding are reshaping Canada's procurement landscape today.**
+🇨🇦 **Today, Canada's funding landscape just got a massive clarity boost, opening immediate doors for B2B contractors.** The passage of the Spring Economic Update 2026 legislation has officially cleared funding bottlenecks, signaling an imminent wave of new federal RFPs. Tech and green solution providers should immediately review their offerings to align with new priorities for IT modernization, supply chain resilience, and digital service delivery, as competitive bids are on the horizon.
 
-At the 2026 G7 Leaders’ Summit, PM Carney secured pivotal defence and critical mineral alliances, signaling immediate federal investments in cyber intelligence, secure communications, and green mining tech. Cyber defense and specialized technology firms must align their sales strategies to these national security priorities immediately to capture incoming, high-security RFPs.
+Globally, PM Mark Carney’s G7 summit outcomes have solidified Canada's strategic direction. Commitments in defence and critical minerals mean significant opportunities are emerging. Mining tech firms and defence contractors must prepare for substantial federal grants and procurement in green mining tech, mineral tracing, and advanced cyber threat intelligence solutions, driven by these international agreements.
 
-Simultaneously, Canada and British Columbia have forged a historic $5 billion, 10-year partnership to accelerate housing and health infrastructure. Civil engineering, utility providers, and smart-city vendors should actively engage BC decision-makers to secure early footing in this massive long-term project pipeline.
-
-On the tactical front, these federal investments connect directly to active tenders, such as RFP B for the Design and Manufacture of Power Distribution, closing July 7, 2026. Specialized electrical manufacturers and grid infrastructure providers must act now to submit compliant proposals before the 14:00 deadline.
+Finally, the new Canada-British Columbia partnership is a game-changer for regional development. With over $5 billion federally allocated over 10 years for housing and infrastructure, this represents a robust, long-term pipeline. Civil engineering, smart-city technology, and healthcare infrastructure vendors should strategically position themselves for sustained opportunities in BC, particularly in key regions like Terrace and Prince Rupert.
 
 Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/
-
-#GovCon #CanadianBusiness #Procurement #Infrastructure #DefenceTech
+#CanadianProcurement #GovtContracts #BusinessIntelligence #FundingAlert #CanadaGrants
