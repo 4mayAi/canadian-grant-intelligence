@@ -1,35 +1,92 @@
 {
-  "generated_at": "2026-06-20T06:57:41.271267Z",
-  "linkedin_post": "\n\n### Featured News & Sources\n- [Have Insiders Sold NRC Health Shares Recently? - simplywall.st](https://simplywall.st/stocks/us/healthcare/nasdaq-nrc/nrc-health/news/have-insiders-sold-nrc-health-shares-recently) (Canada NRC Simulation)\n- [The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)](https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdmhpZ0hTNDhRcW9EbVZjUGk4VEQtT05zZGM1ZG4yWjI4cW54cC00czJ3aGFOYmRxYktKM3dORW94cFFmalV1V1QtQlh5dE40WjdjUDU1VWZfb1o4VVJYeWVfX2ZrOFpkVHJwR0h5VFpsR1JhX3dxYXp4Rlc1UTRNdU8xbVdwVEYzbE1ERTlHaHlSbW5zOUJLNjQ3OUlrd2s0T0ZZSmI3SGY1bGNtLXB4TTRWMnV5bEFpV1p6eFphblhkbHpOVndPeGlPbTdZQ3F3N1lROW1CVQ?oc=5) (Canada CIHR AMR)\n",
+  "generated_at": "2026-06-20T07:01:13.447698Z",
+  "linkedin_post": "🌍 **Antimicrobial resistance is driving a massive wave of global health procurement, and Canadian biotech innovators must act now.**\n\nThe World Health Assembly has adopted its updated Global Action Plan on AMR (2026–2036), prioritizing \"One Health\" surveillance and advanced predictive modeling. Canadian software developers and academic researchers must pay attention to this 10-year framework to align custom pathogen simulation tools with upcoming [CIHR](https://cihr-irsc.gc.ca/)-funded research networks.\n\nAt the same time, the IDRC has released a Request for Proposals for evaluation services under the InnoVet-AMR 2.0 program. Health-tech consultants and data intelligence firms should target this opportunity immediately to embed advanced biological simulation frameworks into international veterinary intervention assessments.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#Biotech #AntimicrobialResistance #OneHealth #HealthTech #PublicProcurement\n\n### Featured News & Sources\n- [Evaluation Services for the InnoVet-AMR 2.0 program](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-621-79539261) (Canada CanadaBuys Procurement)\n- [The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)](https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)) (Canada CIHR AMR)\n",
   "insights": [
     {
-      "source": "Canada_NRC_Simulation",
-      "title": "Have Insiders Sold NRC Health Shares Recently? - simplywall.st",
-      "link": "https://simplywall.st/stocks/us/healthcare/nasdaq-nrc/nrc-health/news/have-insiders-sold-nrc-health-shares-recently",
-      "date": "2026-06-14T15:01:35Z",
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "Evaluation Services for the InnoVet-AMR 2.0 program",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-621-79539261",
+      "date": "2026-06-02T00:00:00Z",
       "insight": {
-        "linkedin_hook": "",
-        "strategic_value": "Gemini API Error: Request failed.",
-        "co_bidding_opportunity": "",
-        "mets_category": "",
-        "mets_rationalization": "",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
+        "linkedin_hook": "🔬 Shaping the future of global AMR research: The IDRC has opened a Request for Proposals for evaluation services for the InnoVet-AMR 2.0 program.",
+        "strategic_value": "* **Strategic Alignment:** This evaluation contract allows firms to assess and shape public health interventions targeting antimicrobial resistance, positioning them at the center of international One Health policy.\n* **Technical Integration:** Combining evaluation expertise with advanced data analytics could address gaps in tracking resistance mutations and transmission vectors across species.\n* **Consulting Pivot:** Propose an integrated monitoring and simulation framework to IDRC, demonstrating how One Health AMR simulation tools—akin to those supported by CIHR's 'One Health' Antimicrobial Resistance research networks—can validate the long-term biological impact of veterinary interventions.",
+        "co_bidding_opportunity": "Partnership opportunities exist with businesses registered as interested parties in this tender, including [CABINET EXPERTISE COMMUNAUTAIRE](https://canadabuys.canada.ca/en/node/preview/1467461), [Nafsta Ltd](https://canadabuys.canada.ca/en/node/preview/1466811), [ADVOCACY ONG Bénin](https://canadabuys.canada.ca/en/node/preview/1466278), [Aid Reach medical mission](https://canadabuys.canada.ca/en/node/preview/1466059), [Association Maison de Vie BAMBAT](https://canadabuys.canada.ca/en/node/preview/1466058), [Innovative Solution Research Consult](https://canadabuys.canada.ca/en/node/preview/1465602), [Groupement Agropastoral pour le Développement de Yongoro ONG NATIONAL](https://canadabuys.canada.ca/en/node/preview/1465501), [Dutch Committee for Afghanistan - Livestock Programs](https://canadabuys.canada.ca/en/node/preview/1465152), and [RIDING-UP SARL](https://canadabuys.canada.ca/en/node/preview/1465118).",
+        "mets_category": "METS-PMO",
+        "mets_rationalization": "Evaluation and monitoring services for national/international health programs like InnoVet-AMR fall under strategic PMO services, which guide the allocation of resources and align with federal One Health priorities.",
+        "grounded_fact_ids": [
+          1000
+        ],
+        "anchor_reference": {
+          "source_name": "CIHR One Health AMR Strategy 2025",
+          "page_range": "Page 4",
+          "url": "https://cihr-irsc.gc.ca/e/53000.html"
+        }
+      },
+      "closing_date": "2026-06-22T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "Project monitoring and evaluation",
+      "type": "Open",
+      "partner_list": [
+        {
+          "name": "CABINET EXPERTISE COMMUNAUTAIRE",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1467461"
+        },
+        {
+          "name": "Nafsta Ltd",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1466811"
+        },
+        {
+          "name": "ADVOCACY ONG Bénin",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1466278"
+        },
+        {
+          "name": "Aid Reach medical mission",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1466059"
+        },
+        {
+          "name": "Association Maison de Vie BAMBAT",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1466058"
+        },
+        {
+          "name": "Innovative Solution Research Consult",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1465602"
+        },
+        {
+          "name": "Groupement Agropastoral pour le Développement de Yongoro ONG NATIONAL",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1465501"
+        },
+        {
+          "name": "Dutch Committee for Afghanistan - Livestock Programs",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1465152"
+        },
+        {
+          "name": "RIDING-UP SARL",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1465118"
+        }
+      ]
     },
     {
       "source": "Canada_CIHR_AMR",
       "title": "The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdmhpZ0hTNDhRcW9EbVZjUGk4VEQtT05zZGM1ZG4yWjI4cW54cC00czJ3aGFOYmRxYktKM3dORW94cFFmalV1V1QtQlh5dE40WjdjUDU1VWZfb1o4VVJYeWVfX2ZrOFpkVHJwR0h5VFpsR1JhX3dxYXp4Rlc1UTRNdU8xbVdwVEYzbE1ERTlHaHlSbW5zOUJLNjQ3OUlrd2s0T0ZZSmI3SGY1bGNtLXB4TTRWMnV5bEFpV1p6eFphblhkbHpOVndPeGlPbTdZQ3F3N1lROW1CVQ?oc=5",
-      "date": "2026-05-25T08:00:00Z",
+      "link": "https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)",
+      "date": "2026-05-25T07:00:00Z",
       "insight": {
-        "linkedin_hook": "",
-        "strategic_value": "Gemini API Error: Request failed.",
-        "co_bidding_opportunity": "",
-        "mets_category": "",
-        "mets_rationalization": "",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
+        "linkedin_hook": "The WHO's updated Global Action Plan on AMR (2026-2036) is a monumental call to action! 🌍 This \"One Health\" framework demands advanced tools for surveillance and prevention.",
+        "strategic_value": "- This global framework reinforces the critical need for advanced simulation and modeling tools to address Antimicrobial Resistance across human, animal, and environmental health sectors.\n- The emphasis on \"strengthened surveillance\" and \"innovation\" under the 'One Health' approach directly supports opportunities for Canadian biotech firms in predictive analytics and pathogen simulation.\n- * **Consulting Pivot:** Engage Canadian health agencies and academic institutions to align custom pathogen simulation and virtual modeling solutions with national action plans derived from the GAP-AMR, targeting CIHR's 'One Health' networks.",
+        "co_bidding_opportunity": "The plan emphasizes \"continued collaboration among governments, international organizations, civil society, academia and the private sector.\" This suggests opportunities for consortia involving academic research institutions, biotech firms specializing in simulation, and public health bodies.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "The updated GAP-AMR establishes a long-term global and national regulatory framework for AMR. This directly creates demand for digital tools, like simulation software, to fulfill the \"One Health\" and \"strengthened surveillance\" mandates, aligning with CIHR's explicit funding for virtual modeling (Fact ID 1000).",
+        "grounded_fact_ids": [
+          1000
+        ],
+        "anchor_reference": {
+          "source_name": "CIHR One Health AMR Strategy 2025",
+          "page_range": "Page 4",
+          "url": "https://cihr-irsc.gc.ca/e/53000.html"
+        }
       }
     }
   ]
