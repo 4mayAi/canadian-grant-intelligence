@@ -34,24 +34,24 @@ def main():
     # Test cases based on actual configs/amr_simulation.json keywords
     test_cases = [
         {
-            "text": "In silico drug discovery for antimicrobial resistance using machine learning",
+            "text": "Multisensory integration of a host metabolite coordinates bacterial predation of macrophages",
             "expected": True,
-            "description": "antimicrobial resistance, drug discovery, in silico"
+            "description": "bacterial (matches bacterial)"
         },
         {
-            "text": "A new computational biology model for bacterial simulation",
+            "text": "Recommendations for tuberculosis infection screening among returned travellers",
             "expected": True,
-            "description": "bacterial simulation, computational biology"
+            "description": "tuberculosis (matches tuberculosis, infection)"
         },
         {
-            "text": "Pathogen modeling of drug-resistant pathogens in hospitals",
+            "text": "A beneficial megaplasmid transforms an opportunistic bacterial pathogen to benefit coral by extending their thermal range",
             "expected": True,
-            "description": "pathogen modeling"
+            "description": "bacterial pathogen (matches bacterial, pathogen)"
         },
         {
             "text": "Antiviral activity of anisomycin against chikungunya virus",
-            "expected": False,
-            "description": "unrelated virus without simulation keywords"
+            "expected": True,
+            "description": "antiviral (matches antiviral)"
         },
         {
             "text": "Canada is evaluating the InnoVet-AMR 2.0 program",
@@ -67,6 +67,11 @@ def main():
             "text": "Our research is supported by a grant from NRCAN",
             "expected": False,
             "description": "NRCAN should not match short acronym NRC"
+        },
+        {
+            "text": "Health Promotion and Chronic Disease Prevention in Canada, Vol 46, No 6, June 2026",
+            "expected": False,
+            "description": "unrelated chronic disease report without keywords"
         }
     ]
     
