@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-20T18:37:11.193806Z",
-  "linkedin_post": "🗓️ June 20, 2026: Policy shifts and procurement calls are setting the stage for significant opportunities across Canada's health-tech and security sectors. The World Health Organization's updated Global Action Plan on Antimicrobial Resistance (2026–2036) is a monumental \"One Health\" framework demanding advanced simulation and modeling tools. Canadian biotech firms specializing in predictive analytics and pathogen simulation should recognize this as a critical opportunity to align custom solutions with national action plans, targeting [CIHR](https://cihr-irsc.gc.ca/)'s 'One Health' networks.\n\nConcurrently, the Canada Border Services Agency (CBSA) has issued a Notice of Proposed Procurement for access control hardware for the Toronto IHC Project, signaling ongoing government investment in critical physical security infrastructure. Pre-qualified security integrators on the E60HN-200ACS Supply Arrangement list should take immediate notice, as this highlights continuous demand for specialized technical expertise in integrating solutions with existing security systems, and offers a strategic opening for advisory services mapping solutions to government infrastructure needs.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#HealthTechCanada #GovProcurement #AMR #OneHealth #SecurityIntegrators\n\n### Featured News & Sources\n- [NOTICE OF PROPOSED PROCUREMENT - Supply Access Control Hardware for Toronto IHC Project](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-198-86690256) (Canada CanadaBuys Procurement)\n- [The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)](https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)) (Canada CIHR AMR)\n",
+  "generated_at": "2026-06-20T19:14:59.046469Z",
+  "linkedin_post": "🚨 **Canada's June 20, 2026, landscape is buzzing with critical updates impacting health-tech and security integration.** The World Health Organization (WHO) has adopted its updated Global Action Plan on Antimicrobial Resistance (2026-2036), a robust 'One Health' framework emphasizing advanced surveillance and prevention. Canadian biotech firms specializing in predictive analytics and pathogen simulation should pay close attention, as this global mandate creates significant opportunities to align custom tools with national action plans and target [CIHR](https://cihr-irsc.gc.ca/)'s 'One Health' networks for funding.\n\nDomestically, the Canada Border Services Agency (CBSA) has issued a Notice of Proposed Procurement for access control hardware for the Toronto IHC Project, signaling continued government investment in vital physical security infrastructure. Pre-qualified security integrators on the E60HN-200ACS Supply Arrangement list should review this NPP immediately, recognizing the ongoing need for specialized integration expertise within critical government detention programs.\n\nThese developments underscore evolving demands in public health and national security, presenting clear avenues for Canadian innovation. Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#HealthTech #CanadianBiotech #AMR #GovernmentProcurement #BusinessIntelligence\n\n### Featured News & Sources\n- [NOTICE OF PROPOSED PROCUREMENT - Supply Access Control Hardware for Toronto IHC Project](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-198-86690256) (Canada CanadaBuys Procurement)\n- [The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)](https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)) (Canada CIHR AMR)\n",
   "insights": [
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -50,28 +50,6 @@
           "url": "https://cihr-irsc.gc.ca/e/53000.html"
         }
       }
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
-      "title": "Industry Sustainment Business Case Analysis (SBCA) Workshop",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-8405-78194265",
-      "date": "2023-09-13T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "💡 Defence sustainment leaders! Canada's SBCA Workshop is key to influencing military equipment support procurements. Are you leveraging early engagement to shape future contracts?",
-        "strategic_value": "- This workshop emphasizes early industry engagement in defence procurement, offering a critical channel for firms to align their sustainment solutions with government requirements.\n- The focus on \"flexible, scalable, and principles-based sustainment solutions\" highlights a demand for sophisticated analytical frameworks and potentially predictive modeling capabilities in defence materiel sustainment.\n- * **Consulting Pivot:** Propose services to defence contractors for integrating advanced analytics and simulation tools into their SBCA proposals, showcasing optimized sustainment outcomes and value for money for military equipment.",
-        "co_bidding_opportunity": "The notice invites industry representatives to participate in a workshop for general understanding and early engagement. It encourages industry to craft sustainment solutions but does not specify immediate co-bidding opportunities for contracts.",
-        "mets_category": "METS-PMO",
-        "mets_rationalization": "This workshop is crucial for understanding the analytical processes (SBCA) that guide strategic decision-making in defence procurement. It's about shaping future sustainment solutions and the associated procurement of services, aligning with advisory and project management aspects of government contracts.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-12-31T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "Water quality assessment servicesWater testing servicesFire protection system and equipment maintenance or repair servicePortable generator maintenance and or repair serviceSpecialized trade construction and maintenance servicesBoiler and furnace construction and maintenance servicesBoiler maintenance serviceHeating system maintenance and repair serviceHydronics heating system maintenance and repair serviceBoiler pressure controller maintenance or repair or operationAircraft painting serviceShip...",
-      "type": "Open"
     }
   ]
 }
