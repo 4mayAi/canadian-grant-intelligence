@@ -41,6 +41,20 @@ def main():
                 print(f"Removed URL from processed_urls: {url}")
                 removed_any = True
                 
+        # Dynamically remove any bioRxiv or PHAC/CCDR URLs to force re-ingestion
+        dynamic_removals = []
+        for url in list(processed_urls.keys()):
+            url_lower = url.lower()
+            if "biorxiv" in url_lower:
+                dynamic_removals.append(url)
+            elif "canada.ca" in url_lower and "canadabuys" not in url_lower:
+                dynamic_removals.append(url)
+                
+        for url in dynamic_removals:
+            del processed_urls[url]
+            print(f"Dynamically removed URL from processed_urls: {url}")
+            removed_any = True
+                
         if removed_any:
             azure_client.upload_json(processed_urls_file, processed_urls)
             print("Uploaded updated processed_urls.json to Azure.")
@@ -56,10 +70,12 @@ def main():
         print(f"Current insights: {len(insights_data['insights'])}")
         original_len = len(insights_data['insights'])
         
-        # Filter out the InnoVet tender
+        # Filter out the InnoVet tender and any bioRxiv / PHAC/CCDR items
         insights_data['insights'] = [
             item for item in insights_data['insights']
-            if "cb-621-79539261" not in item.get("link", "")
+            if "cb-621-79539261" not in item.get("link", "") and
+               "biorxiv" not in item.get("link", "").lower() and
+               not ("canada.ca" in item.get("link", "").lower() and "canadabuys" not in item.get("link", "").lower())
         ]
         
         new_len = len(insights_data['insights'])
@@ -67,9 +83,9 @@ def main():
         
         if new_len < original_len:
             azure_client.upload_json(insights_file, insights_data)
-            print("Uploaded updated amr_insights.json to Azure (tender removed to force re-evaluation).")
+            print("Uploaded updated amr_insights.json to Azure (target items removed to force re-evaluation).")
         else:
-            print("Tender was not found in cached insights on Azure.")
+            print("No target items found in cached insights on Azure.")
             
     # Also delete the local cache files to make sure they are re-downloaded
     local_insights = os.path.join(base_dir, "docs", "data", "amr-simulation", "amr_insights.json")
