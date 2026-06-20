@@ -273,6 +273,7 @@
                     <p>Loading editor digest...</p>
                 </div>
             </div>
+            <div id="newsContent"></div>
         </div>
 
         <footer>
@@ -540,14 +541,17 @@
             const statusFilter = document.getElementById('statusFilter').value;
             const searchQuery = document.getElementById('searchQuery').value.toLowerCase().trim();
 
-            const filtered = cachedData.insights.filter(item => {
-                // 1. Province filter
+            // 1. Tenders are items with a closing date
+            const filteredTenders = cachedData.insights.filter(item => {
+                if (!item.closing_date) return false;
+
+                // Province filter
                 if (provFilter !== 'All' && item.province !== provFilter) return false;
 
-                // 2. Category filter
+                // Category filter
                 if (catFilter !== 'All' && item.category_label !== catFilter) return false;
 
-                // 3. Status filter
+                // Status filter
                 if (statusFilter === 'Active') {
                     if (isClosed(item.closing_date)) return false;
                 } else if (statusFilter === 'Closing') {
@@ -560,12 +564,12 @@
                     if (!isClosed(item.closing_date)) return false;
                 }
 
-                // 4. Client-side Auto-Expiry: Hide any bids closed > 30 days
+                // Client-side Auto-Expiry: Hide any bids closed > 30 days
                 if (isClosed(item.closing_date) && getDaysClosed(item.closing_date) > 30) {
                     return false;
                 }
 
-                // 5. Search query
+                // Search query
                 if (searchQuery) {
                     const text = `${item.title} ${item.description || ''} ${item.province || ''} ${item.category_label || ''} ${item.insight?.linkedin_hook || ''} ${item.insight?.strategic_value || ''}`.toLowerCase();
                     if (!text.includes(searchQuery)) return false;
@@ -574,7 +578,21 @@
                 return true;
             });
 
-            renderTendersGrid(filtered);
+            // 2. News/insights are items without a closing date
+            const filteredNews = cachedData.insights.filter(item => {
+                if (item.closing_date) return false;
+
+                // Search query
+                if (searchQuery) {
+                    const text = `${item.title} ${item.insight?.linkedin_hook || ''} ${item.insight?.strategic_value || ''}`.toLowerCase();
+                    if (!text.includes(searchQuery)) return false;
+                }
+
+                return true;
+            });
+
+            renderTendersGrid(filteredTenders);
+            renderNewsGrid(filteredNews);
         }
 
         function renderTendersGrid(insights) {
@@ -645,6 +663,63 @@
                 `;
             }
             tendersContent.innerHTML = html;
+        }
+
+        function renderNewsGrid(newsItems) {
+            const newsContent = document.getElementById('newsContent');
+            if (!newsContent) return;
+            
+            let html = '';
+            if (newsItems.length > 0) {
+                html += `<h2 style="font-size: 20px; font-weight: 700; color: var(--text-primary); margin: 24px 0 16px 0; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 24px;">📰 Latest Biotech Insights &amp; Market Signals</h2>`;
+                newsItems.forEach(item => {
+                    let innerHtml = '';
+                    const innerInsight = item.insight || {};
+
+                    if (innerInsight.strategic_value) {
+                        innerHtml += `<h4>Strategic Opportunity &amp; B2B Hook</h4>
+                                      <div class="md-content">${marked.parse(innerInsight.strategic_value)}</div>`;
+                    }
+                    if (innerInsight.co_bidding_opportunity) {
+                        innerHtml += `<h4>Research &amp; Co-Bidding Alignments</h4>
+                                      <div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
+                    }
+
+                    const displaySource = (item.source || '').replace('_News', '').replace('_', ' ');
+
+                    html += `
+                        <details class="report-section">
+                            <summary class="report-summary">
+                                <h3>${escapeHtml(item.title)}</h3>
+                                ${innerInsight.linkedin_hook ? `<div class="hook-subtitle">${escapeHtml(innerInsight.linkedin_hook)}</div>` : ''}
+                                <div class="report-meta">
+                                    <span class="badge-source">📡 ${escapeHtml(displaySource)}</span>
+                                    <span>📅 Released: ${formatDate(item.date)}</span>
+                                </div>
+                            </summary>
+                            <div class="insight-content-wrapper">
+                                <div class="insight-content">
+                                    ${innerHtml || '<p style="color: var(--text-muted)">No strategic B2B analysis required.</p>'}
+                                </div>
+                                
+                                <div class="ref-footer" style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 12px; font-size: 12px; flex-wrap: wrap; gap: 10px;">
+                                    ${innerInsight.anchor_reference ? `
+                                    <span style="color: var(--text-muted);">
+                                        📖 Grounding Source: <strong>${escapeHtml(innerInsight.anchor_reference.source_name)}</strong> (pp. ${escapeHtml(innerInsight.anchor_reference.page_range)})
+                                        <a href="${escapeHtml(innerInsight.anchor_reference.url)}" target="_blank" rel="noopener" style="color: #60a5fa; text-decoration: underline; margin-left: 5px;">View Report PDF ↗</a>
+                                    </span>
+                                    ` : '<span style="color: var(--text-muted);">📖 Source: Public Health Feeds</span>'}
+                                    
+                                    ${item.link ? `<a class="opp-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener" style="font-weight: 600; color: #60a5fa;">View Original Article ↗</a>` : ''}
+                                </div>
+                            </div>
+                        </details>
+                    `;
+                });
+            } else {
+                html = '';
+            }
+            newsContent.innerHTML = html;
         }
 
         function handleSearch(query) {
