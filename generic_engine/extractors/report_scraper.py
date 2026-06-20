@@ -1,4 +1,5 @@
 import os
+from typing import Optional
 import io
 import re
 import logging
@@ -71,7 +72,7 @@ def clean_extracted_text(text: str) -> str:
         cleaned_lines.pop()
     return "\n".join(cleaned_lines)
 
-def scrape_html_report(url: str) -> str:
+def scrape_html_report(url: str, item: Optional[dict] = None) -> str:
     """Uses Playwright to scrape body text from an HTML report page, with smart PDF auto-download."""
     logging.info(f"Scraping HTML report page: {url}")
     try:
@@ -80,12 +81,34 @@ def scrape_html_report(url: str) -> str:
             try:
                 # Create a context with a browser-like user agent
                 context = browser.new_context(
-                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, Gecko) Chrome/120.0.0.0 Safari/537.36"
                 )
                 page = context.new_page()
                 page.goto(url, wait_until="domcontentloaded", timeout=30000)
                 # Wait for dynamic JS content to render
                 page.wait_for_timeout(3000)
+                
+                # Retrieve partnering links and store them in item if provided
+                if item is not None:
+                    try:
+                        partners = page.evaluate("""() => {
+                            const anchors = document.querySelectorAll('a');
+                            const previewAnchors = Array.from(anchors).filter(a => {
+                                const href = a.getAttribute('href');
+                                return href && href.includes('/node/preview/');
+                            });
+                            return previewAnchors.map(a => {
+                                const text = a.innerText ? a.innerText.trim() : '';
+                                const href = a.getAttribute('href');
+                                const absHref = href.startsWith('http') ? href : 'https://canadabuys.canada.ca' + href;
+                                return { name: text, link: absHref };
+                            }).filter(p => p.name && p.link);
+                        }""")
+                        if partners:
+                            item["partner_list"] = partners
+                            logging.info(f"Extracted {len(partners)} partnering companies for item.")
+                    except Exception as pe:
+                        logging.warning(f"Failed to extract partner list: {pe}")
                 
                 # Retrieve raw HTML code to search for PDF/download links
                 html_content = page.content()

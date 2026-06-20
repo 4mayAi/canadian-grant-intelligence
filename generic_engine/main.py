@@ -345,7 +345,7 @@ def fetch_and_process_news(
             # Re-use cached analysis (no LLM call)
             cached_item = existing_insights_map[link]
             # Copy/update tender metadata fields from the crawled item if present
-            for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type"]:
+            for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type", "partner_list"]:
                 if field in item:
                     cached_item[field] = item[field]
             final_insights.append(cached_item)
@@ -398,7 +398,7 @@ def fetch_and_process_news(
             if ".pdf" in item['link'].lower():
                 extracted_text = scrape_pdf_report(item['link'])
             else:
-                extracted_text = scrape_html_report(item['link'])
+                extracted_text = scrape_html_report(item['link'], item)
             
             if extracted_text and len(extracted_text.strip()) > 200:
                 item['text_to_search'] = extracted_text
@@ -494,7 +494,7 @@ def fetch_and_process_news(
                     "insight": insight_model.to_dict()
                 }
                 # Copy tender metadata fields from raw item if present
-                for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type"]:
+                for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type", "partner_list"]:
                     if field in item:
                         report_item_dict[field] = item[field]
                 final_insights.append(report_item_dict)

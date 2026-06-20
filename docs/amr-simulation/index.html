@@ -608,7 +608,19 @@
                         innerHtml += `<h4>Strategic Opportunity &amp; B2B Hook</h4>
                                       <div class="md-content">${marked.parse(innerInsight.strategic_value)}</div>`;
                     }
-                    if (innerInsight.co_bidding_opportunity) {
+                    if (item.partner_list && item.partner_list.length > 0) {
+                        let partnerHtml = '<ul style="margin: 6px 0; padding-left: 20px;">';
+                        item.partner_list.forEach(p => {
+                            partnerHtml += `<li style="margin-bottom: 4px;"><a href="${escapeHtml(p.link)}" target="_blank" rel="noopener" style="color: #60a5fa; text-decoration: underline;">${escapeHtml(p.name)}</a></li>`;
+                        });
+                        partnerHtml += '</ul>';
+                        
+                        innerHtml += `<h4>Research &amp; Co-Bidding Alignments</h4>
+                                      <div class="md-content">
+                                          <p style="margin-bottom: 8px;">The following organizations are registered as interested in partnering for this tender opportunity:</p>
+                                          ${partnerHtml}
+                                      </div>`;
+                    } else if (innerInsight.co_bidding_opportunity) {
                         innerHtml += `<h4>Research &amp; Co-Bidding Alignments</h4>
                                       <div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
                     }
