@@ -486,7 +486,6 @@ def fetch_and_process_news(
                         report_item_dict[field] = item[field]
                 final_insights.append(report_item_dict)
 
-    # Sort final insights descending by date
     def parse_date_safely(item):
         d = item.get("date")
         if isinstance(d, datetime):
@@ -497,6 +496,55 @@ def fetch_and_process_news(
             except:
                 pass
         return datetime.min
+
+    # Carry forward cached insights that were not scraped in the current run but are still valid and match keywords
+    for link, item in existing_insights_map.items():
+        if link not in seen_links:
+            title_val = item.get("title", "")
+            desc_val = item.get("description", "")
+            strat_val = ""
+            if isinstance(item.get("insight"), dict):
+                strat_val = item["insight"].get("strategic_value", "")
+            
+            text_to_search = (title_val + " " + desc_val + " " + strat_val).lower().replace('_', ' ')
+            
+            matched_kw = False
+            for kw in config.keywords:
+                kw_lower = kw.lower()
+                if len(kw) <= 4:
+                    if re.search(r'\b' + re.escape(kw_lower) + r'\b', text_to_search):
+                        matched_kw = True
+                        break
+                else:
+                    if kw_lower in text_to_search:
+                        matched_kw = True
+                        break
+            
+            if not matched_kw:
+                logging.info(f"Pruning cached item due to keyword mismatch (false positive check): {title_val}")
+                continue
+                
+            is_active_tender = False
+            close_date_str = item.get("closing_date")
+            if close_date_str:
+                try:
+                    close_dt = datetime.strptime(close_date_str[:10], "%Y-%m-%d")
+                    if close_dt > datetime.utcnow():
+                        is_active_tender = True
+                except:
+                    pass
+            
+            is_recent = False
+            try:
+                dt = parse_date_safely(item)
+                if datetime.utcnow() - dt <= timedelta(days=30):
+                    is_recent = True
+            except:
+                pass
+                
+            if is_active_tender or is_recent:
+                final_insights.append(item)
+                seen_links.add(link)
 
     final_insights.sort(key=parse_date_safely, reverse=True)
     return final_insights
