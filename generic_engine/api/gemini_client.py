@@ -209,7 +209,7 @@ class GeminiClient:
         
         You MUST respond with a raw JSON array containing exactly {len(contents)} objects. Ensure the array order strictly matches the order of the input items.
         
-        CRITICAL: If the content is just a routine schedule, placeholder, or lacks strategic business value, you MUST set the strategic_value field EXACTLY to \"No insight available\". Do not write anything else in that field.
+        CRITICAL: If the content is just a routine schedule, placeholder, or completely lacks relevance to the topic, you MUST set the strategic_value field EXACTLY to "No insight available". Do not write anything else in that field. Note that scientific preprints and public health updates relevant to the topic (microbiology, pathogens, outbreaks, AMR) DO have strategic value as research/simulation signals and should NOT be marked as "No insight available".
         
         Each JSON object in the array must have exactly these six keys. For "strategic_value" and "co_bidding_opportunity", use markdown formatting inside the string:
         "linkedin_hook": "A 'Stop-the-scroll' high-impact opening line (include an emoji).",
