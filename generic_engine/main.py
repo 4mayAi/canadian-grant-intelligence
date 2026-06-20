@@ -189,6 +189,50 @@ def fetch_and_process_news(
         sources_dict.append(src_dict)
 
 
+    # Load existing cached insights from Azure Blob early to determine if we need a deep dive
+    existing_insights_list = []
+    try:
+        logging.info(f"Downloading cache file {config.storage.insights_file} from Azure early...")
+        existing_insights = azure_client.download_json(config.storage.insights_file)
+        if existing_insights and "insights" in existing_insights:
+            for item in existing_insights["insights"]:
+                ins_val = item.get("insight", {})
+                if ins_val.get("strategic_value") == "No insight available":
+                    continue
+                
+                # Prune tenders closed more than 30 days ago
+                close_date_str = item.get("closing_date")
+                if close_date_str:
+                    try:
+                        close_dt = datetime.strptime(close_date_str[:10], "%Y-%m-%d")
+                        if datetime.utcnow() - close_dt > timedelta(days=30):
+                            logging.info(f"Pruning expired cached tender: {item.get('title')} (closed on {close_date_str})")
+                            continue
+                    except Exception as date_err:
+                        logging.warning(f"Error checking closing_date for pruning: {date_err}")
+                
+                existing_insights_list.append(item)
+    except Exception as e:
+        logging.error(f"Failed to load existing cache file {config.storage.insights_file} from storage: {e}")
+
+    existing_insights_map = {item["link"]: item for item in existing_insights_list if "link" in item}
+
+    # Determine pulse_only mode by checking if we have active tenders in the cache
+    has_active_tenders_in_cache = False
+    for item in existing_insights_list:
+        close_date_str = item.get("closing_date")
+        if close_date_str:
+            try:
+                close_dt = datetime.strptime(close_date_str[:10], "%Y-%m-%d")
+                if close_dt > datetime.utcnow():
+                    has_active_tenders_in_cache = True
+                    break
+            except:
+                pass
+
+    pulse_only = has_active_tenders_in_cache
+    logging.info(f"Cache check: has_active_tenders_in_cache={has_active_tenders_in_cache}. Set pulse_only={pulse_only}")
+
     # Ingest RSS feeds (max items slots per cluster)
     max_items = 3 if test_mode else config.max_items_per_source
     raw_rss = fetch_rss_feeds(sources_dict, lookback_limit, max_items, failed_feeds)
@@ -208,7 +252,8 @@ def fetch_and_process_news(
                     keywords=config.keywords,
                     max_items=max_items,
                     lookback_days=7,
-                    source_name=src["name"]
+                    source_name=src["name"],
+                    pulse_only=pulse_only
                 )
                 raw_ckan.extend(items)
             except Exception as ckan_err:
@@ -239,34 +284,7 @@ def fetch_and_process_news(
         fallback_rss_items = fetch_rss_feeds(playwright_fallbacks, lookback_limit, max_items, failed_feeds)
         raw_html.extend(fallback_rss_items)
 
-    # Load existing cached insights from Azure Blob
-    existing_insights_list = []
-    try:
-        existing_insights = azure_client.download_json(config.storage.insights_file)
-        if existing_insights and "insights" in existing_insights:
-            # Prune cached items that have "No insight available" in strategic_value or are closed >30 days
-            for item in existing_insights["insights"]:
-                ins_val = item.get("insight", {})
-                if ins_val.get("strategic_value") == "No insight available":
-                    continue
-                
-                # Prune tenders closed more than 30 days ago
-                close_date_str = item.get("closing_date")
-                if close_date_str:
-                    try:
-                        # parse date part (first 10 chars)
-                        close_dt = datetime.strptime(close_date_str[:10], "%Y-%m-%d")
-                        if datetime.utcnow() - close_dt > timedelta(days=30):
-                            logging.info(f"Pruning expired cached tender: {item.get('title')} (closed on {close_date_str})")
-                            continue
-                    except Exception as date_err:
-                        logging.warning(f"Error checking closing_date for pruning: {date_err}")
-                
-                existing_insights_list.append(item)
-    except Exception as e:
-        logging.error(f"Failed to load existing cache file {config.storage.insights_file} from storage: {e}")
-
-    existing_insights_map = {item["link"]: item for item in existing_insights_list if "link" in item}
+    # existing_insights_list and existing_insights_map were already loaded early.
 
     # Resiliency Fallback: If a feed failed, retain its cached items so data is not lost
     retained_items = []

@@ -93,7 +93,8 @@ def fetch_canadabuys_tenders(
     keywords: List[str],
     max_items: int = 15,
     lookback_days: int = 7,
-    source_name: str = "Canada_CanadaBuys_Procurement"
+    source_name: str = "Canada_CanadaBuys_Procurement",
+    pulse_only: bool = True
 ) -> List[Dict[str, Any]]:
     """
     Direct CKAN CSV crawler for CanadaBuys.
@@ -102,7 +103,7 @@ def fetch_canadabuys_tenders(
     - Processes rows, filtering by keywords and publication/closing dates.
     - Returns a list of standardized dicts containing both feed fields and tender metadata.
     """
-    logging.info(f"Querying CanadaBuys CKAN API: {ckan_api_url}...")
+    logging.info(f"Querying CanadaBuys CKAN API: {ckan_api_url} (pulse_only={pulse_only})...")
     try:
         data = requests.get(ckan_api_url, headers=HEADERS, timeout=30).json()
     except Exception as e:
@@ -114,108 +115,107 @@ def fetch_canadabuys_tenders(
         return []
 
     resources = data.get("result", {}).get("resources", [])
-    csv_url = None
+    urls_to_process = []
     
-    # We prioritize "new tender notices" for delta updates, fallback to "open tender notices"
+    # We prioritize "new tender notices" for delta updates, and add "open tender notices" for deep seed/crawl
     for res in resources:
         name = res.get("name", "").lower()
         if "new tender notices" in name:
-            csv_url = res.get("url")
-            break
-            
-    if not csv_url:
-        # Fallback to Open tenders if New is not found
-        for res in resources:
-            name = res.get("name", "").lower()
-            if "open tender notices" in name:
-                csv_url = res.get("url")
-                break
+            urls_to_process.append(("New", res.get("url")))
+        elif "open tender notices" in name and not pulse_only:
+            urls_to_process.append(("Open", res.get("url")))
 
-    if not csv_url:
-        logging.error("No valid CSV resource found in CanadaBuys CKAN metadata.")
+    if not urls_to_process:
+        logging.error("No valid CSV resources found in CanadaBuys CKAN metadata.")
         return []
 
-    logging.info(f"Downloading tenders CSV from: {csv_url}...")
     tenders = []
-    try:
-        resp = requests.get(csv_url, headers=HEADERS, stream=True, timeout=120)
-        resp.raise_for_status()
-        
-        reader = csv.DictReader(codecs.iterdecode(resp.iter_lines(), 'utf-8-sig'))
-        processed_count = 0
-        match_count = 0
-        
-        for row in reader:
-            processed_count += 1
-            link = row.get("noticeURL-URLavis-eng", "")
-            if not link:
-                continue
+    seen_links = set()
+    
+    for t_type, csv_url in urls_to_process:
+        logging.info(f"Downloading {t_type} tenders CSV from: {csv_url}...")
+        try:
+            resp = requests.get(csv_url, headers=HEADERS, stream=True, timeout=120)
+            resp.raise_for_status()
             
-            title = row.get("title-titre-eng", "").replace('*', '').replace('  ', ' ').strip()
-            gsin_desc = row.get("gsinDescription-nibsDescription-eng", "").replace('*', '').replace('  ', ' ').strip()
-            unspsc_desc = row.get("unspscDescription-eng", "").replace('*', '').replace('  ', ' ').strip()
-            desc = f"{gsin_desc} {unspsc_desc}".strip()
-
-            text_to_search = (title + " " + desc).lower().replace('_', ' ')
-            if not any(kw.lower() in text_to_search for kw in keywords):
-                continue
-
-            close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
-            pub_date = row.get("publicationDate-datePublication", "")
-            amend_date = row.get("amendmentDate-dateModification", "")
-            raw_province = row.get("regionsOfDelivery-regionsLivraison-eng", "")
-            category = row.get("procurementCategory-categorieApprovisionnement", "Uncategorized").replace('*', '').strip()
+            reader = csv.DictReader(codecs.iterdecode(resp.iter_lines(), 'utf-8-sig'))
+            processed_count = 0
+            match_count = 0
             
-            # Date validation (skip expired)
-            is_valid_date = True
-            if close_date:
-                try:
-                    dt = datetime.strptime(close_date[:10], "%Y-%m-%d")
-                    if dt < datetime.now() - timedelta(days=1):
-                        is_valid_date = False
-                except ValueError:
-                    pass
-            
-            # Exclude APNs / pre-solicitation notices
-            if title and link and is_valid_date:
-                if re.search(r'\bapn\b|\badvance procurement notice\b|\bpre-solicitation\b', text_to_search):
+            for row in reader:
+                processed_count += 1
+                link = row.get("noticeURL-URLavis-eng", "")
+                if not link or link in seen_links:
                     continue
                 
-                province = normalize_province(raw_province)
-                province_abbrev = PROVINCE_ABBREV.get(province, "NAT")
-                
-                # Format dates to ISO
-                formatted_pub = pub_date or amend_date
-                if formatted_pub and len(formatted_pub) >= 10:
-                    formatted_pub = formatted_pub[:10] + "T00:00:00Z"
-                
-                formatted_close = close_date
-                if formatted_close and len(formatted_close) >= 10:
-                    formatted_close = formatted_close[:10] + "T00:00:00Z"
+                title = row.get("title-titre-eng", "").replace('*', '').replace('  ', ' ').strip()
+                gsin_desc = row.get("gsinDescription-nibsDescription-eng", "").replace('*', '').replace('  ', ' ').strip()
+                unspsc_desc = row.get("unspscDescription-eng", "").replace('*', '').replace('  ', ' ').strip()
+                desc = f"{gsin_desc} {unspsc_desc}".strip()
 
-                tenders.append({
-                    "source": source_name,
-                    "title": title[:200],
-                    "link": link,
-                    "date": formatted_pub or datetime.utcnow().isoformat() + "Z",
-                    "text_to_search": text_to_search,
-                    
-                    # Tender Metadata fields
-                    "closing_date": formatted_close,
-                    "province": province,
-                    "province_abbrev": province_abbrev,
-                    "category": category,
-                    "category_label": get_category_label(category),
-                    "description": desc[:500] + "..." if len(desc) > 500 else desc,
-                    "type": "New"  # Treat parsed daily deltas as 'New' initially
-                })
-                match_count += 1
+                text_to_search = (title + " " + desc).lower().replace('_', ' ')
+                if not any(kw.lower() in text_to_search for kw in keywords):
+                    continue
+
+                close_date = row.get("tenderClosingDate-appelOffresDateCloture", "")
+                pub_date = row.get("publicationDate-datePublication", "")
+                amend_date = row.get("amendmentDate-dateModification", "")
+                raw_province = row.get("regionsOfDelivery-regionsLivraison-eng", "")
+                category = row.get("procurementCategory-categorieApprovisionnement", "Uncategorized").replace('*', '').strip()
                 
-                if len(tenders) >= max_items:
-                    break
-        
-        logging.info(f"Processed {processed_count} CSV rows. Found {match_count} new keyword-matching tenders.")
-    except Exception as e:
-        logging.error(f"Error parsing CanadaBuys tenders CSV: {e}")
+                # Date validation (skip expired)
+                is_valid_date = True
+                if close_date:
+                    try:
+                        dt = datetime.strptime(close_date[:10], "%Y-%m-%d")
+                        if dt < datetime.now() - timedelta(days=1):
+                            is_valid_date = False
+                    except ValueError:
+                        pass
+                
+                # Exclude APNs / pre-solicitation notices
+                if title and link and is_valid_date:
+                    if re.search(r'\bapn\b|\badvance procurement notice\b|\bpre-solicitation\b', text_to_search):
+                        continue
+                    
+                    province = normalize_province(raw_province)
+                    province_abbrev = PROVINCE_ABBREV.get(province, "NAT")
+                    
+                    # Format dates to ISO
+                    formatted_pub = pub_date or amend_date
+                    if formatted_pub and len(formatted_pub) >= 10:
+                        formatted_pub = formatted_pub[:10] + "T00:00:00Z"
+                    
+                    formatted_close = close_date
+                    if formatted_close and len(formatted_close) >= 10:
+                        formatted_close = formatted_close[:10] + "T00:00:00Z"
+
+                    tenders.append({
+                        "source": source_name,
+                        "title": title[:200],
+                        "link": link,
+                        "date": formatted_pub or datetime.utcnow().isoformat() + "Z",
+                        "text_to_search": text_to_search,
+                        
+                        # Tender Metadata fields
+                        "closing_date": formatted_close,
+                        "province": province,
+                        "province_abbrev": province_abbrev,
+                        "category": category,
+                        "category_label": get_category_label(category),
+                        "description": desc[:500] + "..." if len(desc) > 500 else desc,
+                        "type": t_type
+                    })
+                    seen_links.add(link)
+                    match_count += 1
+                    
+                    if len(tenders) >= max_items:
+                        break
+            
+            logging.info(f"Processed {processed_count} {t_type} CSV rows. Found {match_count} keyword-matching tenders.")
+            if len(tenders) >= max_items:
+                break
+        except Exception as e:
+            logging.error(f"Error parsing {t_type} tenders CSV: {e}")
 
     return tenders
