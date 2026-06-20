@@ -6,7 +6,7 @@
   "sources": [
     {
       "name": "Canada_CIHR_AMR",
-      "url": "https://news.google.com/rss/search?q=%22antimicrobial+resistance%22+OR+AMR+OR+superbug&hl=en-CA&gl=CA&ceid=CA:en",
+      "url": "https://news.google.com/rss/search?q=%22antimicrobial+resistance%22+OR+superbug+OR+%28AMR+AND+%28pathogen+OR+bacteria+OR+resistance+OR+microbe+OR+simulation+OR+health%29%29&hl=en-CA&gl=CA&ceid=CA:en",
       "type": "rss",
       "skip_query_refactoring": true
     },
