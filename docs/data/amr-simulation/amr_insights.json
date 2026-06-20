@@ -1,7 +1,36 @@
 {
-  "generated_at": "2026-06-20T03:22:37.897612Z",
-  "linkedin_post": "**🌍 The WHO's updated Global Action Plan on AMR (2026-2036) is a monumental call to action!** This \"One Health\" framework demands advanced tools for surveillance and prevention, setting a critical agenda for the next decade. This global framework reinforces the critical need for advanced simulation and modeling tools to address Antimicrobial Resistance across human, animal, and environmental health sectors. Its emphasis on 'strengthened surveillance' and 'innovation' under the 'One Health' approach directly supports significant opportunities for Canadian biotech firms. Companies specializing in predictive analytics and pathogen simulation should pay close attention. Aligning custom pathogen simulation and virtual modeling solutions with national action plans derived from the GAP-AMR, specifically targeting [CIHR](https://cihr-irsc.gc.ca/)'s 'One Health' networks, represents a strategic growth area for engaging Canadian health agencies and academic institutions. Full dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n#AMR #HealthTech #CanadianBiotech #OneHealth #mayAi\n\n### Featured News & Sources\n- [The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)](https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)) (Canada CIHR AMR)\n",
+  "generated_at": "2026-06-20T03:29:53.572759Z",
+  "linkedin_post": "🚨 The landscape for Canadian biotechnology is shifting rapidly as the WHO adopts its updated 2026-2036 Global Action Plan on Antimicrobial Resistance. This 'One Health' framework signals a monumental increase in demand for advanced surveillance, predictive analytics, and pathogen modeling tools across human, animal, and environmental sectors.\n\nSimultaneously, the IDRC has released an RFP for evaluation services concerning the InnoVet-AMR 2.0 program. This 5-month contract is a critical entry point for firms looking to gain intelligence on program effectiveness and data methodologies. Data scientists and biotech consultants should pay close attention here, as this knowledge directly informs future bids for simulation software deployments within [CIHR](https://cihr-irsc.gc.ca/)’s specialized 'One Health' research networks (Fact ID 1000).\n\nIntegrating these policy shifts with procurement data (Fact ID 1002) is no longer optional for growth-stage firms. By positioning simulation tools as essential components for the surveillance mandates outlined in the new WHO framework, Canadian providers can bridge the gap between academic research and commercial implementation.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#Biotech #PublicHealth #AMR #CanadaProcurement #HealthTech\n\n### Featured News & Sources\n- [Evaluation Services for the InnoVet-AMR 2.0 program](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-621-79539261) (Canada CanadaBuys Procurement)\n- [The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)](https://www.who.int/news/item/25-05-2026-the-world-health-assembly-adopts-updated-global-action-plan-on-antimicrobial-resistance-(2026-2036)) (Canada CIHR AMR)\n",
   "insights": [
+    {
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "Evaluation Services for the InnoVet-AMR 2.0 program",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-621-79539261",
+      "date": "2026-06-02T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🔍 New RFP from IDRC for InnoVet-AMR 2.0 evaluation services! This 5-month contract offers a key opportunity to shape the future of Antimicrobial Resistance initiatives. #AMR #PublicHealth #CanadaProcurement",
+        "strategic_value": "- This RFP for evaluation services for the InnoVet-AMR 2.0 program presents a strategic entry point into understanding Canada's efforts against Antimicrobial Resistance (AMR), directly aligning with CIHR's 'One Health' AMR research networks that fund virtual modeling and bacterial simulation projects (Fact ID 1000).\n- Participating in the evaluation provides an invaluable opportunity to gain insights into program effectiveness, data collection methodologies, and future needs, positioning a firm for subsequent bids involving simulation software or advanced data analytics for infectious disease modeling (Fact ID 1002).\n- **Consulting Pivot:** Propose a specialized consulting service to analyze InnoVet-AMR 2.0's evaluation outcomes, identifying gaps where custom pathogen simulation tools or advanced virtual modeling could enhance future AMR interventions and program impact measurement.",
+        "co_bidding_opportunity": "Yes, the solicitation explicitly encourages partnering, stating: \"Are you interested in partnering with other businesses for this opportunity? Add your company to the list of businesses who are interested in partnering.\" Currently listed interested parties include: CABINET EXPERTISE COMMUNAUTAIRE, Nafsta Ltd, ADVOCACY ONG Bénin Aid, Reach medical mission, Association Maison de Vie, BAMBAT Innovative Solution Research Consult, Groupement Agropastoral pour le Développement de Yongoro, ONG NATIONAL, Dutch Committee for Afghanistan - Livestock Programs, and RIDING-UP SARL.",
+        "mets_category": "METS-PMO",
+        "mets_rationalization": "Securing evaluation services for InnoVet-AMR 2.0 provides a strategic foothold within public health initiatives combating antimicrobial resistance. This directly supports the long-term national health security agenda and creates pathways to integrate advanced virtual modeling and simulation expertise (as funded by CIHR's 'One Health' networks - Fact ID 1000, and PHAC's infectious disease modeling - Fact ID 1002) into future phases or related programs based on evaluation findings.",
+        "grounded_fact_ids": [
+          1000,
+          1002
+        ],
+        "anchor_reference": {
+          "source_name": "CIHR One Health AMR Strategy 2025",
+          "page_range": "Page 4",
+          "url": "https://cihr-irsc.gc.ca/e/53000.html"
+        }
+      },
+      "closing_date": "2026-06-22T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "Project monitoring and evaluation",
+      "type": "Open"
+    },
     {
       "source": "Canada_CIHR_AMR",
       "title": "The World Health Assembly adopts updated Global Action Plan on Antimicrobial Resistance (2026–2036) - World Health Organization (WHO)",
