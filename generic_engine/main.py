@@ -452,6 +452,19 @@ def fetch_and_process_news(
                     logging.info(f"Discarding irrelevant/low-value news item: {item['title']}")
                     continue
 
+                # Post-process co-bidding alignments to restore markdown links
+                co_bid = insight_model.co_bidding_opportunity
+                if co_bid and item.get("text_to_search"):
+                    try:
+                        md_links = re.findall(r'\[([^\]]+)\]\((https?://canadabuys\.canada\.ca/en/node/preview/[^\)]+)\)', item["text_to_search"])
+                        for name, url in md_links:
+                            # Safely replace company name with its markdown link (case-insensitive, preventing double-wrapping)
+                            pattern = re.compile(rf'(?<!\[){re.escape(name)}(?!\])', re.IGNORECASE)
+                            co_bid = pattern.sub(f'[{name}]({url})', co_bid)
+                        insight_model.co_bidding_opportunity = co_bid
+                    except Exception as link_err:
+                        logging.warning(f"Failed to post-process co-bidding links: {link_err}")
+
                 # Dynamically resolve references from grounded_fact_ids to prevent LLM hallucinations
                 anchor_reference = None
                 if insight_model.grounded_fact_ids:
