@@ -75,7 +75,10 @@
     "antibiotics",
     "infection",
     "infections",
-    "surveillance",
+    "pathogen surveillance",
+    "genomic surveillance",
+    "epidemiological surveillance",
+    "health surveillance",
     "outbreak"
   ],
   "high_value_keywords": [

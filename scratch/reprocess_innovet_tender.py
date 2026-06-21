@@ -32,7 +32,8 @@ def main():
         print(f"Current processed URLs: {len(processed_urls)}")
         urls_to_remove = [
             "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-621-79539261",
-            "https://canadabuys.canada.ca/tender-opportunities/tender-notice/SSC-26-00033879:T"
+            "https://canadabuys.canada.ca/tender-opportunities/tender-notice/SSC-26-00033879:T",
+            "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-198-86690256"
         ]
         removed_any = False
         for url in urls_to_remove:
@@ -70,10 +71,11 @@ def main():
         print(f"Current insights: {len(insights_data['insights'])}")
         original_len = len(insights_data['insights'])
         
-        # Filter out the InnoVet tender and any bioRxiv / PHAC/CCDR items
+        # Filter out the InnoVet tender, Toronto access control tender, and any bioRxiv / PHAC/CCDR items
         insights_data['insights'] = [
             item for item in insights_data['insights']
             if "cb-621-79539261" not in item.get("link", "") and
+               "cb-198-86690256" not in item.get("link", "") and
                "biorxiv" not in item.get("link", "").lower() and
                not ("canada.ca" in item.get("link", "").lower() and "canadabuys" not in item.get("link", "").lower())
         ]
