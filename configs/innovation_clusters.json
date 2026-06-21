@@ -4,9 +4,13 @@
   "dashboard_url": "https://4mayAi.github.io/canadian-grant-intelligence/clusters/",
   "sources": [
     { "name": "DIGITAL_News", "url": "https://digitalsupercluster.ca/category/news/feed/", "type": "rss", "hub": "DIGITAL" },
+    { "name": "DIGITAL_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Digital+Technology+Supercluster%22+OR+%22DIGITAL+Supercluster%22+OR+%22DNAstack%22+OR+%22Sovereign+AI%22+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "DIGITAL", "skip_query_refactoring": true },
     { "name": "ScaleAI_News", "url": "https://www.scaleai.ca/feed/", "type": "rss", "hub": "ScaleAI" },
+    { "name": "ScaleAI_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Scale+AI%22+OR+%22ALL+IN%22+AI+Montreal+OR+%22supply+chain%22+AI+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "ScaleAI", "skip_query_refactoring": true },
     { "name": "OceanCluster_News", "url": "https://oceansupercluster.ca/feed/", "type": "rss", "hub": "Ocean" },
+    { "name": "Ocean_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Ocean+Supercluster%22+OR+%22Ocean+Week+Canada%22+OR+%22Our+Ocean+Conference%22+OR+%22Kwale-Tanga%22&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "Ocean", "skip_query_refactoring": true },
     { "name": "NGen_News", "url": "https://www.ngen.ca/blog/rss.xml", "type": "rss", "hub": "NGen" },
+    { "name": "NGen_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Next+Generation+Manufacturing+Canada%22+OR+%22NGen%22+manufacturing+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "NGen", "skip_query_refactoring": true },
     {
       "name": "ProteinIndustries_News",
       "url": "https://www.proteinindustriescanada.ca/news-releases",
@@ -18,7 +22,8 @@
   ],
   "keywords": [
     "funding", "grant", "consortium", "co-investment", "matching funds", 
-    "expression of interest", "call for proposals", "project award", "SME"
+    "expression of interest", "call for proposals", "project award", "SME",
+    "pledge", "commitment", "summit", "conference", "partnership", "event"
   ],
   "high_value_keywords": [
     "consortium", "co-investment", "proposal", "award"
@@ -40,7 +45,7 @@
       "gemini-3.1-flash-lite",
       "gemini-2.5-flash-lite"
     ],
-    "system_instruction": "You are a senior analyst specializing in Canada's Global Innovation Clusters. Synthesize news releases into strategic B2B hooks focusing on consortium opportunities, target technologies, eligibility criteria, major upcoming events/conferences, and matching co-investment rates. When utilizing the anchor database to ground hooks, only reference Fact IDs explicitly listed in the active hub's anchors batch; do not reference Fact IDs from other hubs."
+    "system_instruction": "You are a senior analyst specializing in Canada's Global Innovation Clusters. Synthesize news releases into strategic B2B hooks. The strategic_value field MUST consist of exactly three markdown bullet points: the first two explaining the financial/policy context and technological target (specifying the required technology, software stack, or hardware standard), and the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** ' and propose an actionable B2B engagement strategy. The co_bidding_opportunity field MUST identify the exact partner roles (e.g. AI SME, academic research lab, logistics contractor) required to form a valid project consortium under the cluster guidelines. When utilizing the anchor database to ground hooks, only reference Fact IDs explicitly listed in the active hub's anchors batch; do not reference Fact IDs from other hubs."
   },
   "storage": {
     "azure_container": "clusters-data",

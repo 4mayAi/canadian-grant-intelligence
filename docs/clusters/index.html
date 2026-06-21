@@ -155,6 +155,16 @@
 
         <!-- Dynamic Content Views -->
         <div id="signalsView">
+            <!-- Collapsible Ecosystem Events container -->
+            <div id="eventsSection" style="display: none; margin-bottom: 25px; background: rgba(255, 215, 0, 0.02); border: 1px solid rgba(255, 215, 0, 0.1); border-radius: 8px; padding: 15px;">
+                <h2 style="color: #ffd700; font-size: 1.2em; margin-top: 0; margin-bottom: 12px; border-bottom: 1px solid rgba(255, 215, 0, 0.15); padding-bottom: 6px; display: flex; align-items: center; gap: 8px;">
+                    📅 Aligned Ecosystem Events & Milestones
+                </h2>
+                <div id="eventsGrid" style="display: grid; gap: 15px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">
+                    <!-- Dynamic event cards -->
+                </div>
+            </div>
+
             <div id="signalsContent">
                 <div class="loading">
                     <div class="spinner"></div>
@@ -186,6 +196,7 @@
 
         let currentDate = 'latest';
         let cachedData = null;
+        let anchorsData = null;
 
         function getUrl(type, source = 'azure') {
             if (source === 'azure') {
@@ -527,11 +538,78 @@
             ]);
         }
 
+        async function loadAnchors() {
+            try {
+                const anchorsUrlAzure = `${AZURE_CONTAINER_URL}/cluster_anchors.json`;
+                let res;
+                try {
+                    res = await fetch(anchorsUrlAzure);
+                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                } catch {
+                    res = await fetch('../../configs/cluster_anchors.json');
+                }
+                anchorsData = await res.json();
+                renderEvents();
+            } catch (e) {
+                console.warn("Failed to load anchors database:", e);
+            }
+        }
+
+        function renderEvents() {
+            const eventsSection = document.getElementById('eventsSection');
+            const eventsGrid = document.getElementById('eventsGrid');
+            if (!anchorsData || !eventsGrid) return;
+            
+            let eventsHtml = '';
+            let eventCount = 0;
+            
+            for (const [hub, facts] of Object.entries(anchorsData)) {
+                if (!Array.isArray(facts)) continue;
+                const hubEvents = facts.filter(f => f.type === 'event');
+                
+                hubEvents.forEach(evt => {
+                    eventCount++;
+                    let displayHub = hub;
+                    if (hub === 'ProteinIndustries') displayHub = 'Protein Industries Canada';
+                    if (hub === 'ScaleAI') displayHub = 'Scale AI';
+                    if (hub === 'Ocean') displayHub = 'Ocean Supercluster';
+                    if (hub === 'DIGITAL') displayHub = 'DIGITAL';
+                    
+                    eventsHtml += `
+                        <div style="background: rgba(13, 17, 23, 0.7); border: 1px solid rgba(255, 215, 0, 0.15); border-radius: 6px; padding: 12px; font-size: 0.9em; display: flex; flex-direction: column; justify-content: space-between;">
+                            <div>
+                                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                                    <span style="font-size: 0.8em; font-weight: bold; text-transform: uppercase; color: #ffd700; background: rgba(255, 215, 0, 0.1); padding: 2px 6px; border-radius: 4px;">
+                                        ${escapeHtml(displayHub)}
+                                    </span>
+                                </div>
+                                <p style="margin: 0 0 10px 0; color: var(--text-primary); line-height: 1.4;">
+                                    ${escapeHtml(evt.fact)}
+                                </p>
+                            </div>
+                            <div style="font-size: 0.85em; color: var(--text-muted); border-top: 1px solid rgba(255, 255, 255, 0.05); padding-top: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                <span>📖 ${escapeHtml(evt.source)}</span>
+                                ${evt.url ? `<a href="${escapeHtml(evt.url)}" target="_blank" rel="noopener" style="color: #ffd700; text-decoration: underline;">Details ↗</a>` : ''}
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+            
+            if (eventCount > 0) {
+                eventsGrid.innerHTML = eventsHtml;
+                eventsSection.style.display = 'block';
+            } else {
+                eventsSection.style.display = 'none';
+            }
+        }
+
         async function init() {
             // Run sequentially to prevent race conditions during DOM injection
             await loadManifest();
             await loadKPIs();
             await loadInsights();
+            await loadAnchors();
         }
 
         init();

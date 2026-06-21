@@ -16,6 +16,7 @@
     },
     {
       "id": 102,
+      "type": "event",
       "fact": "DIGITAL hosts Digital Demo Days and technical webinars periodically throughout the fiscal year, serving as the primary ecosystem platforms for projects to present outcomes and find next-phase consortium partners.",
       "source": "DIGITAL Event Calendar 2026",
       "pages": "Events Section",
@@ -32,6 +33,7 @@
     },
     {
       "id": 201,
+      "type": "event",
       "fact": "Scale AI is the primary organizer and host of ALL IN, Canada's largest artificial intelligence conference held annually in Montreal, which serves as the national matchmaking hub for AI developers, researchers, and corporate buyers to form funding consortia.",
       "source": "Scale AI Events Profile",
       "pages": "Overview",
@@ -48,6 +50,7 @@
     },
     {
       "id": 301,
+      "type": "event",
       "fact": "NGen hosts the annual NGen Advanced Manufacturing Summit and regular B2B collaboration workshops, serving as matchmaking forums for advanced manufacturing providers and SMEs.",
       "source": "NGen Events Calendar 2026",
       "pages": "Summits & Missions",
@@ -71,10 +74,19 @@
     },
     {
       "id": 402,
+      "type": "event",
       "fact": "The OSC hosts the bi-annual Ambition 2035 Summit and participates in national events such as Ocean Week to connect marine technology developers, scientific groups, and capital partners.",
       "source": "OSC Ambition 2035 Overview",
       "pages": "Events page",
       "url": "https://oceansupercluster.ca/events"
+    },
+    {
+      "id": 403,
+      "type": "event",
+      "fact": "Canada is the official host country for the 12th Our Ocean Conference (OOC12) in Spring 2027 in Halifax, Nova Scotia, focusing on international commitments for sustainable ocean development, ocean technology showcases, and blue economy partnerships.",
+      "source": "Government of Canada Announcement 2026",
+      "pages": "Press Release",
+      "url": "https://www.canada.ca/en/environment-climate-change/news/2026/04/canada-to-host-the-our-ocean-conference-2027.html"
     }
   ],
   "ProteinIndustries": [
@@ -87,6 +99,7 @@
     },
     {
       "id": 501,
+      "type": "event",
       "fact": "Protein Industries Canada hosts the Plant Forward on the Prairies Conference and special pulse research conventions, serving as the main B2B networking hubs for plant-based food tech, ingredient processors, and growers.",
       "source": "PIC Event Calendar 2026",
       "pages": "Events",
