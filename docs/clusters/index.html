@@ -210,12 +210,29 @@
             }
         }
 
+        async function fetchWithTimeout(resource, options = {}) {
+            const { timeout = 3000 } = options;
+            const controller = new AbortController();
+            const id = setTimeout(() => controller.abort(), timeout);
+            try {
+                const response = await fetch(resource, {
+                    ...options,
+                    signal: controller.signal
+                });
+                clearTimeout(id);
+                return response;
+            } catch (error) {
+                clearTimeout(id);
+                throw error;
+            }
+        }
+
         async function fetchJSON(type) {
             const azureUrl = getUrl(type, 'azure');
             const localUrl = getUrl(type, 'local');
             try {
-                // 1. Attempt Azure download first
-                const res = await fetch(azureUrl);
+                // 1. Attempt Azure download first with a 3-second timeout
+                const res = await fetchWithTimeout(azureUrl, { timeout: 3000 });
                 if (!res.ok) throw new Error(`Azure HTTP Error: status ${res.status}`);
                 return await res.json();
             } catch (e) {
@@ -428,7 +445,7 @@
                 // Eagerly try to load the manifest from Azure container, fallback to local backup path
                 let dates = [];
                 try {
-                    const res = await fetch(MANIFEST_AZURE);
+                    const res = await fetchWithTimeout(MANIFEST_AZURE, { timeout: 3000 });
                     if (!res.ok) throw new Error(`HTTP ${res.status}`);
                     dates = await res.json();
                 } catch (e) {
@@ -543,7 +560,7 @@
                 const anchorsUrlAzure = `${AZURE_CONTAINER_URL}/cluster_anchors.json`;
                 let res;
                 try {
-                    res = await fetch(anchorsUrlAzure);
+                    res = await fetchWithTimeout(anchorsUrlAzure, { timeout: 3000 });
                     if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 } catch {
                     res = await fetch('../../configs/cluster_anchors.json');
