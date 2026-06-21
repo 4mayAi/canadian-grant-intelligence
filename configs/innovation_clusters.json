@@ -5,12 +5,40 @@
   "sources": [
     { "name": "DIGITAL_News", "url": "https://digitalsupercluster.ca/category/news/feed/", "type": "rss", "hub": "DIGITAL" },
     { "name": "DIGITAL_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Digital+Technology+Supercluster%22+OR+%22DIGITAL+Supercluster%22+OR+%22DNAstack%22+OR+%22Sovereign+AI%22+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "DIGITAL", "skip_query_refactoring": true },
+    {
+      "name": "DIGITAL_Federal_News",
+      "url": "https://news.google.com/rss/search?q=site:ised-isde.canada.ca+%28%22digital+health%22+OR+genomics+OR+AI+OR+%22artificial+intelligence%22+OR+quantum+OR+semiconductor+OR+%22sovereign+AI%22%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "DIGITAL",
+      "skip_query_refactoring": true
+    },
     { "name": "ScaleAI_News", "url": "https://www.scaleai.ca/feed/", "type": "rss", "hub": "ScaleAI" },
     { "name": "ScaleAI_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Scale+AI%22+OR+%22ALL+IN%22+AI+Montreal+OR+%22supply+chain%22+AI+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "ScaleAI", "skip_query_refactoring": true },
+    {
+      "name": "ScaleAI_Federal_News",
+      "url": "https://news.google.com/rss/search?q=site:canada.ca/en/transport-canada/news+%28%22supply+chain%22+OR+logistics+OR+%22trade+corridor%22+OR+transport+OR+corridor+OR+routing%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "ScaleAI",
+      "skip_query_refactoring": true
+    },
     { "name": "OceanCluster_News", "url": "https://oceansupercluster.ca/feed/", "type": "rss", "hub": "Ocean" },
     { "name": "Ocean_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Ocean+Supercluster%22+OR+%22Ocean+Week+Canada%22+OR+%22Our+Ocean+Conference%22+OR+%22Kwale-Tanga%22&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "Ocean", "skip_query_refactoring": true },
+    {
+      "name": "Ocean_Federal_News",
+      "url": "https://news.google.com/rss/search?q=%28site:canada.ca/en/fisheries-oceans/news+OR+site:canada.ca/en/natural-resources-canada/news%29+%28%22Our+Ocean%22+OR+ocean+OR+marine+OR+blue+OR+maritime+OR+offshore+OR+wind+OR+tidal+OR+renewable+OR+aquaculture%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "Ocean",
+      "skip_query_refactoring": true
+    },
     { "name": "NGen_News", "url": "https://www.ngen.ca/blog/rss.xml", "type": "rss", "hub": "NGen" },
     { "name": "NGen_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Next+Generation+Manufacturing+Canada%22+OR+%22NGen%22+manufacturing+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "NGen", "skip_query_refactoring": true },
+    {
+      "name": "NGen_Federal_News",
+      "url": "https://news.google.com/rss/search?q=%28site:canada.ca/en/national-research-council/news+OR+site:canada.ca/en/department-national-defence/news+OR+site:canada.ca/en/natural-resources-canada/news%29+%28%22advanced+manufacturing%22+OR+aerospace+OR+manufacturing+OR+space+OR+satellite+OR+drone+OR+defense+OR+defence+OR+%22national+security%22+OR+%22critical+minerals%22+OR+hydrogen+OR+nuclear+OR+energy+OR+clean+OR+tech%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "NGen",
+      "skip_query_refactoring": true
+    },
     {
       "name": "ProteinIndustries_News",
       "url": "https://www.proteinindustriescanada.ca/news-releases",
@@ -18,6 +46,13 @@
       "hub": "ProteinIndustries",
       "fallback_url": "https://news.google.com/rss/search?q=%22Protein+Industries+Canada%22&hl=en-CA&gl=CA&ceid=CA:en",
       "fallback_type": "rss"
+    },
+    {
+      "name": "ProteinIndustries_Federal_News",
+      "url": "https://news.google.com/rss/search?q=site:canada.ca/en/agriculture-agri-food/news+%28%22plant+protein%22+OR+%22agri-food%22+OR+%22food+processing%22+OR+crops+OR+protein+OR+agriculture+OR+farming+OR+sustainable%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "ProteinIndustries",
+      "skip_query_refactoring": true
     }
   ],
   "keywords": [

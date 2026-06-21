@@ -12,7 +12,7 @@
     },
     {
       "name": "Canada_NRCan_News",
-      "url": "https://news.google.com/rss/search?q=%22Natural+Resources+Canada%22+mining+OR+%22NRCan%22+%22critical+minerals%22&hl=en-CA&gl=CA&ceid=CA:en",
+      "url": "https://news.google.com/rss/search?q=site:canada.ca/en/natural-resources-canada/news+%28mining+OR+%22critical+minerals%22+OR+exploration+OR+refining+OR+metals+OR+ESG+OR+sustainability+OR+clean%29&hl=en-CA&gl=CA&ceid=CA:en",
       "type": "rss",
       "skip_query_refactoring": true
     },
