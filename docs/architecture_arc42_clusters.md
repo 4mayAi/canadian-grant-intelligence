@@ -18,10 +18,12 @@ The system automatically parses first-party news portals, identifies strategic B
 
 Key features:
 - **Resilient Web Scraping**: Ingests unstructured portal pages using headless Playwright with automated fallbacks to Google News RSS feeds if the portal changes or blocks requests.
+- **Federal Ecosystem Ingestion**: Integrates targeted federal department RSS feeds filtered specifically by `/news` subpaths (ISED, Transport Canada, DFO, NRCan, NRC, DND, AAFC) to capture high-value announcements (such as DFO conferences, Transport Canada logistics, and NRCan clean energy/critical minerals releases) without administrative noise.
 - **AI-Powered Synthesis**: Batches unstructured news into Gemini to extract LinkedIn hooks, strategic co-investment values, and co-bidding/consortium opportunities.
 - **Link Injections & Citations**: Automatically hyper-links cluster text mentions and appends a "Featured News & Sources" reference list to the digests.
 - **SMTP Distribution**: Compiles markdown digests into brand-aligned Slate-and-Gold HTML newsletters and mails them via SMTP.
 - **Static Dashboard Hosting**: Renders results asynchronously on a public GitHub Pages dashboard using files hosted in Azure Blob Storage.
+- **Ecosystem Events & Milestones Deck**: Fetches and renders collapsible, dynamically styled event cards (e.g. summits, webinar series, and the Our Ocean Conference) from a structured anchor database (`cluster_anchors.json`) directly above daily signals.
 
 ### 1.2 Quality Goals
 1. **Scraping Durability**: Fail-safe ingestion. The system handles DOM changes on third-party sites gracefully by falling back to search feed RSS parsers.
@@ -55,6 +57,7 @@ graph TD
         NG[NGen RSS Feed]
         PI[Protein Industries Portal]
         PI_FB[Google News RSS Fallback]
+        FED[Federal News: ISED/TC/DFO/NRCan/NRC/DND/AAFC]
     end
 
     subgraph Generic Engine Orchestrator
@@ -68,6 +71,7 @@ graph TD
         AZ[Azure Blob: clusters-data]
         SMTP[SMTP Mail Server]
         DISC[Discord Webhook]
+        ANCH[Anchors: cluster_anchors.json]
     end
 
     subgraph Clients & Consumers
@@ -79,6 +83,7 @@ graph TD
     SA -->|RSS Ingest| GHA
     OS -->|RSS Ingest| GHA
     NG -->|RSS Ingest| GHA
+    FED -->|Targeted RSS Ingest| GHA
     
     PI -->|Playwright Scraper| GHA
     PI_FB -.->|RSS Fallback| GHA
@@ -93,6 +98,7 @@ graph TD
     GHA -->|Dispatch digests| SMTP
     
     AZ -->|Fetch dynamic data| GH
+    ANCH -->|Fetch event anchors| GH
     SMTP -->|Styled HTML digest| SUB
 ```
 
@@ -231,3 +237,5 @@ The system avoids infinite cache bloat without needing automated database prunin
 - **SMTP Recipient Fallback Policy**: To ensure operational alerts are never lost, if `SMTP_RECIPIENT_CLUSTERS` is left empty or contains configuration placeholders in the environment, the engine automatically routes the success digests to the sender's login `EMAIL_ADDRESS` (the operator's inbox).
 - **Low-RPM, High-TPM Optimization Strategy**: To safeguard Gemini API request quotas, new news items are batch-processed in groups of 5 (`BATCH_SIZE = 5`). This design aggregates texts into single API calls, taking advantage of Gemini's high token-per-minute (TPM) limit while staying well below the low requests-per-minute (RPM) threshold.
 - **Telemetry Observability**: The orchestrator automatically logs total API transaction sizes and token stats (`gemini_client.get_stats()`) at the end of each execution, providing complete visibility into usage costs and pipeline efficiency.
+- **Collapsible Events & Milestones Deck**: Implemented a dynamic, collapsible card deck directly above the daily signals list. It fetches conformed summits, webinars, and global conference facts from a static anchors database (`cluster_anchors.json`) based on their type, and handles empty states by hiding the component if no active events exist for a hub, ensuring clean visual presentation.
+- **Bypass Refactoring for Federal Feeds**: Configured targeted RSS feeds (e.g. `site:ised-isde.canada.ca`, `site:canada.ca/en/transport-canada/news`, etc.) to bypass the engine's query refactoring logic using `skip_query_refactoring: true`. This prevents the engine from appending broad B2B search terms that would otherwise restrict the high-fidelity feed outputs to zero, while the `/news` subpath natively filters out administrative noise.
