@@ -754,5 +754,27 @@
     "province_abbrev": "ON",
     "category": "GD",
     "category_label": "Goods"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "W7714-258715-2 Artificial intelligence-enabled software development applied to information technologies",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110016158?anId=ANONYMOUS",
+    "date": "2026-06-16T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🚀 DND is officially putting AI-enabled software development at the forefront of their IT infrastructure.",
+      "strategic_value": "- The Department of National Defence is prioritizing the integration of AI-enabled development cycles to modernize legacy IT environments and enhance mission-critical data processing.\n- This tender targets software engineering frameworks, specifically requiring automated pipeline integration, AI-assisted code generation models, and scalable cloud-based deployment architectures.\n- * **Consulting Pivot:** Propose an actionable engagement strategy by positioning your firm as a specialized 'AI-DevSecOps' implementation partner to help the DND bridge the gap between experimental AI research and secure, production-grade IT delivery.",
+      "co_bidding_opportunity": "Partnerships required for software engineering firms, AI model integration specialists, and IT infrastructure security contractors to meet the complex requirements of DND-standard secure software environments.",
+      "mets_category": "METS-Digital",
+      "mets_rationalization": "This project represents a shift toward software-defined defense capabilities, aligning with federal mandates to digitize government operations through AI integration, directly impacting long-term sovereign tech procurement strategies.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-28T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Software or hardware engineering",
+    "type": "New"
   }
 ]
