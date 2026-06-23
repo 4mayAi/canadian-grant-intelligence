@@ -87,6 +87,7 @@ graph TD
 The platform orchestrates the high-fidelity intelligence pipeline via scheduled GitHub Actions cron runners executing 3x daily (10:00 AM, 2:00 PM, and 6:00 PM EDT). The Azure Container Apps Job is kept on standby as a manual override option to ensure operational resilience and zero infrastructure loss.
 
 Key strategies include:
+- **Agentic Decoupling via Skills Registry**: Decoupling the orchestrator runtime (Generic Engine) from the domain logic (configured as "Skills" consisting of JSON configuration files, prompt templates, and anchors seed datasets). This makes the platform self-describing, enabling autonomous agents to register and run pipelines without modifying the runtime code.
 - **Fast RSS/Atom Extraction**: Utilizing lightweight Python RSS feed parsers to read news feeds concurrently, minimizing the pipeline's execution footprint.
 - **Playwright Integration**: Running headless Chromium inside the runner environment solely for generating dynamic social card images, utilizing caching for fast startup times.
 - **Incremental Scraping**: Maintaining state via `processed_urls.json` in Azure to scrape and synthesize only new tenders.
@@ -122,6 +123,13 @@ generic_engine/
 - **validate_outputs.py**: Validates schemas and age freshness prior to cloud uploading.
 - **notifier.py**: Handles error alerts, pushing embedded Markdown reports to Discord webhooks and plain-text SMTP warnings to administrators.
 - **mail_sender.py**: Downloads the active subscriber index (`subscribers.json`) and runs individual SMTP runs containing the daily HTML digest and social card attachment.
+
+### 5.2 Skills Registry Infrastructure
+
+The Skills Registry layer structures pipeline governance:
+- **Skill Isolation**: Topic domains are configured as self-contained "Skills" located in `configs/` containing dynamic parameters, target containers, active keywords, and prompt instructions.
+- **Anchor Lifecycle Decoupling**: Static reference databases (e.g. `grants_anchors.json`, `hub_anchors.json`) are decoupled from code. The orchestrator tracks and alerts when an anchor fact has exceeded its `review_by` metadata date.
+- **Verification Harness**: Standardized diagnostics run via `scripts/validate_skill.py` to ensure new configurations satisfy strict schema parameters prior to deployment.
 
 ---
 
@@ -202,3 +210,6 @@ The system enforces strict data verification. If any check fails inside `validat
 - **Self-Healing Storage Bootstrapping**: Azure storage containers (such as `mining-hubs-data`) are verified and dynamically created with public blob access on first pipeline upload. This removes manual container creation tasks and guarantees zero-downtime deployment in new clouds.
 - **Shared Multi-Topic Ingestion Architecture**: Standardizing on a generic Pydantic config-driven architecture (`generic_engine/`) rather than individual hardcoded pipelines increases code reuse, ensures consistent telemetry metrics, and eases onboarding of new topic categories.
 - **Exclusion of Gemstone & Luxury Hubs**: Specific gemstone trading and extraction hubs (e.g., Antwerp, Botswana, or South American gemstone mines) are excluded due to supply chain divergence (luxury consumer goods vs. industrial green-tech), data feed fragmentation (predominantly artisanal and un-structured ASM mining), and lack of alignment with B2B industrial grant and consortium frameworks.
+- **Structured Prompt Decomposition**: Factoring out persona, classification, grounding, translation, and output formatting rules from the monolithic `system_instruction` into structured configuration fields. This enables granular testing, prompt engineering isolation, and prevents LLM drift across runs.
+- **Skill Versioning**: Incorporating explicit `skill_version` and `schema_version` fields in KPIs and telemetry outputs to audit pipeline compliance and monitor configuration schema migrations over time.
+- **Container-Aware URL Pruning**: Standardizing URL registry pruning into a container-aware task that reads storage targets dynamically from the active Skill's config path, ensuring all pipelines benefit from bounded growth.

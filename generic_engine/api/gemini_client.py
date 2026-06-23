@@ -47,13 +47,38 @@ def clean_json_text(text: str) -> str:
     return "".join(cleaned)
 
 class GeminiClient:
-    def __init__(self, primary_model: str, fallback_models: List[str], system_instruction: str):
+    def __init__(self, primary_model: str, fallback_models: List[str], system_instruction: str,
+                 persona: Optional[str] = None,
+                 classification_rules: Optional[str] = None,
+                 grounding_rules: Optional[str] = None,
+                 translation_rules: Optional[str] = None,
+                 output_format: Optional[str] = None,
+                 topic_id: Optional[str] = None):
         self.api_key = os.getenv("GEMINI_API_KEY")
         self.primary_model = primary_model
         self.fallback_models = fallback_models
-        self.system_instruction = system_instruction
+        
+        # Assemble structured instruction if any component is provided
+        components = []
+        if persona:
+            components.append(f"PERSONA/ROLE:\n{persona}")
+        if classification_rules:
+            components.append(f"CLASSIFICATION & FILTERING RULES:\n{classification_rules}")
+        if grounding_rules:
+            components.append(f"GROUNDING & TRUTH RULES:\n{grounding_rules}")
+        if translation_rules:
+            components.append(f"TRANSLATION/LOCALIZATION RULES:\n{translation_rules}")
+        if output_format:
+            components.append(f"OUTPUT FORMATTING & SCHEMAS:\n{output_format}")
+            
+        if components:
+            self.system_instruction = "\n\n".join(components)
+        else:
+            self.system_instruction = system_instruction
+
         self.blacklisted_models = set()
         self.stats = {
+            "topic_id": topic_id,
             "requests_total": 0,
             "requests_success": 0,
             "requests_rate_limited": 0,
@@ -283,16 +308,20 @@ class GeminiClient:
             self.stats["insights_api_error"] += 1
         return insights
 
-    def get_hero_hook(self, pmo_insights_list: List[dict]) -> str:
+    def get_hero_hook(self, pmo_insights_list: List[dict], tenders_dict_list: Optional[List[dict]] = None) -> str:
         """Generates a high-impact dashboard hook."""
-        if not pmo_insights_list:
+        if not pmo_insights_list and not tenders_dict_list:
             return "mayAi | Delivering Golden Opportunities Daily"
         if not self.api_key:
             return "mayAi | Delivering Golden Opportunities Daily"
             
         news_context = "\n".join([f"- {n.get('title', '')}" for n in (pmo_insights_list or [])[:5]])
-        
-        prompt = f"""You are an executive copywriter. Generate a single, short, one-sentence headline hook (MAXIMUM 20 words) based on the context below.
+        tender_context = ""
+        if tenders_dict_list:
+            tender_context = "\n".join([f"- {t.get('title', '')} ({t.get('category_label', 'Uncategorized')})" for t in tenders_dict_list[:5]])
+            
+        prompt = f"""You are a high-level executive intelligence advisor.
+        Generate a single, powerful, one-sentence "Hero Hook" (MAX 20 words) that summarizes the most important theme in today's Canadian government updates.
 
         CRITICAL Rules:
         - Output ONLY the one-sentence hook.
@@ -302,8 +331,11 @@ class GeminiClient:
         - Maintain a professional, executive Bloomberg-style tone.
 
         Context:
-        {news_context}
         """
+        if tender_context:
+            prompt += f"\nTenders:\n{tender_context}\n"
+        prompt += f"\nNews:\n{news_context}\n"
+
         payload = {"contents": [{"parts": [{"text": prompt}]}]}
         data = self._retry_request(payload)
         
@@ -312,19 +344,26 @@ class GeminiClient:
             return hook.replace('"', '').replace('Hero Hook:', '').strip()
         return "mayAi | Delivering Golden Opportunities Daily"
 
-    def generate_linkedin_post(self, news_summaries: str, current_date: str = "", dashboard_url: str = "") -> Optional[Dict[str, str]]:
+    def generate_linkedin_post(
+        self, 
+        news_summaries: str, 
+        current_date: str = "", 
+        dashboard_url: str = "",
+        tender_context: Optional[str] = None
+    ) -> Optional[Dict[str, str]]:
         """Generates LinkedIn summary post in JSON format."""
         date_str = f"Today's Date: {current_date}\n\n" if current_date else ""
         url_cta = dashboard_url if dashboard_url else "https://4mayAi.github.io/canadian-grant-intelligence/clusters/"
+        tender_str = f"\nToday's procurement & active tenders:\n{tender_context}\n" if tender_context else ""
         prompt = f"""You are a professional LinkedIn content strategist for a business intelligence brand called mayAi.
         {self.system_instruction}
         
         Write a single LinkedIn post (MAX 250 words) that summarizes today's updates. 
-
+ 
         {date_str}Rules:
         - Open with a bold, attention-grabbing hook line (use an emoji at the start)
         - Bridge political/policy context with actionable business opportunities
-        - Highlight the 2-3 most impactful items from the news below
+        - Highlight the 2-3 most impactful items from the news (and active tenders, if provided) below
         - For each highlight, include ONE actionable sentence about who should pay attention and why
         - End with a call-to-action: "Full dashboard with filters and strategic analysis 👉 {url_cta}"
         - Close with exactly 5 relevant hashtags on their own line
@@ -338,9 +377,10 @@ class GeminiClient:
             "suggested_title": "A high-impact suggested LinkedIn Article Title (Bloomberg style)",
             "article_content": "The full article body adhering to the rules above"
         }}
-
+ 
         Today's highlights:
         {news_summaries}
+        {tender_str}
         """
         payload = {
             "contents": [{"parts": [{"text": prompt}]}],

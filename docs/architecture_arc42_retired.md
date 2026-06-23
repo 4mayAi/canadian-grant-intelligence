@@ -1,4 +1,7 @@
-# Architecture Design Document: Canadian Grant Intelligence (mayAi)
+# [RETIRED] Architecture Design Document: Canadian Grant Intelligence (mayAi)
+> [!WARNING]
+> This document is **RETIRED** and represents the pre-generic-engine architecture. It has been fully superseded by the config-driven generic engine architecture documented in [architecture_arc42.md](file:///C:/dev/canadian-grant-intelligence/docs/architecture_arc42.md).
+
 ## System Architecture using the arc42 Framework
 
 This document provides a comprehensive overview of the architecture of the **Canadian Grant Intelligence (mayAi)** platform using the **arc42 framework**. The platform aggregates, sanitizes, and synthesizes Canadian federal grant opportunities, procurement RFPs, and government policy signals into high-fidelity actionable intelligence for B2B executives and bid managers.

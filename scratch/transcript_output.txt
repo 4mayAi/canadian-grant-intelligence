@@ -1,0 +1,362 @@
+[00:02] There was a lot that tripped at I/O. I
+[00:04] want to focus a little bit on the agent stack,
+[00:07] because we actually talked a lot about different aspects
+[00:10] of agents that we've been trying to roll out for folks,
+[00:12] and I would say that there's four layers to it now.
+[00:16] We have improved models.
+[00:18] We've got Gemini 3.5 Flash that was announced.
+[00:21] It's the new default. We have orchestration.
+[00:24] So 80k 2.0 and the agent CLI.
+[00:27] How you build and how you ship your agent story
+[00:30] has gotten a little bit more simplified.
+[00:33] You don't have to necessarily go hunting down
+[00:35] for what are the skills and best practices you need to use.
+[00:37] Just use CLI.
+[00:40] We've got the managed agents story,
+[00:43] the managed agents API, we've got skill registry,
+[00:46] anti-gravity.
+[00:49] There's so many pieces in here.
+[00:50] And then we have the platform, which includes the agent
+[00:53] platform that we announced at next,
+[00:56] as well as things like Model Garden which
+[00:58] have just continued to get better and better over time.
+[01:01] So I think about this in terms of four rungs
+[01:06] to get your production.
+[01:07] Agents in place.
+[01:08] So if you picture a ladder, we have
+[01:11] a rail running up to the side.
+[01:12] And that rail is really a tool it's
+[01:15] the agent to agent protocol.
+[01:17] So everything that you see here interrupts,
+[01:20] even though we've given you more and more
+[01:23] optionality in terms of where you can start building agents.
+[01:27] All of these solutions can interrupt together
+[01:30] using a two way.
+[01:32] So our first rung here is Agent Studio.
+[01:35] It's low code.
+[01:37] It's for people who want a UI.
+[01:38] It's for people who want to start off with something very
+[01:40] visual and then convert it to code to work with a.d.k rung 2
+[01:45] is the managed agents API.
+[01:48] This is one call.
+[01:49] It's fully hosted.
+[01:50] The way to think about the managed agents API versus SDK is
+[01:55] that managed agents APIs for people that are looking
+[01:58] for a configuration duration first approach to agents,
+[02:02] whereas ADCC is more engineering first.
+[02:04] It's kind of when you have more experience with agents, when
+[02:07] you really want full control over as much as possible.
+[02:11] 8-k is a fantastic solution, and managed agents API is really
+[02:15] great for folks who are perhaps just getting started and maybe
+[02:19] just want to be able to configure and have the platform
+[02:21] figure out the rest for you rung 3 here is anti-gravity.
+[02:26] We talked a lot about anti-gravity
+[02:28] at I/O. Anti-gravity 2.0 the builder experience.
+[02:32] You can use it with platform.
+[02:34] You can see that many tools are now
+[02:37] kind of converging on this idea of helping you manage
+[02:40] and orchestrate multiple agents, whether that
+[02:44] is for coding or accomplishing other tasks,
+[02:47] whether it's design or marketing that your business might have.
+[02:51] And anti-gravity is great for that.
+[02:53] And rung four is 82.0.
+[02:55] So it's the full code level control.
+[02:58] And the point here is really that you
+[03:00] don't have to just pick one of these and get locked in.
+[03:04] You start where your team is today and you climb.
+[03:07] So we've got that same protocol.
+[03:09] Behind the scenes, same platform the whole way up.
+[03:12] Everything else is sort of a rung or a rail in this ladder.
+[03:16] When it comes to building agents on the platform.
+[03:21] SDK 2.0 is something we've recently been talking about.
+[03:24] It's now GA and really previously orchestration
+[03:29] was more imperative, and the big change that we've made here
+[03:33] is making SDK more graph based.
+[03:36] So what this kind of gives you is the ability
+[03:39] to describe an agent workflow as a graph of steps.
+[03:43] Why that matters is that sometimes you
+[03:46] want something that is deterministic,
+[03:48] and sometimes you want something that maybe is a little bit
+[03:50] more creative, or where you don't necessarily
+[03:52] need to have as much of that determinism.
+[03:54] And we really just give you a slider
+[03:56] now where you can choose which one of those best
+[03:59] fits your needs for long horizon tasks that
+[04:03] run for minutes or hours.
+[04:05] That's also something that ADK better supports now,
+[04:08] and this is the same engine that sits
+[04:10] under those higher rungs on the ladder that I was talking about.
+[04:14] So if ADK is our runtime, the agent CLI,
+[04:18] which we announced at Cloud Next is
+[04:20] how you live in it day to day.
+[04:22] So you can scaffold a new agent.
+[04:25] You can run it locally.
+[04:26] Actually just want to play for you
+[04:29] a quick demo that we can see there while I talk through it.
+[04:33] So you can scaffold a new agent.
+[04:34] You can run it locally.
+[04:36] It can help you write evals deploy
+[04:39] and that deploy target is agent platform.
+[04:42] So it also becomes an autoscaling service
+[04:44] with no infrastructure to manage.
+[04:46] I found this really powerful, especially
+[04:48] for being able to use something that understands the end
+[04:51] to end workflow, instead of me having
+[04:53] to memorize a ton of disparate commands with different tools.
+[04:57] So agency is something I highly heavily recommend folks
+[05:00] check out managed agents.
+[05:03] I mentioned it on that ladder.
+[05:05] This is one of the lowest friction entry
+[05:07] points to that whole ladder.
+[05:09] And so with a single API call, you're
+[05:12] able to spin up an agent that can reason and call
+[05:14] tools and execute code.
+[05:16] And the keyword here is managed.
+[05:18] You're not provisioning sandboxes or babysitting
+[05:21] environments on your own.
+[05:22] And it also is persistent.
+[05:24] So each interaction can keep its files and its state.
+[05:27] So you can resume in a follow up call.
+[05:30] Really really cool stuff.
+[05:31] You mentioned skills registry earlier.
+[05:33] I think a lot of people know what skills are.
+[05:36] But just in case need to recap, skills
+[05:39] are really how you teach an agent
+[05:40] something new without having to retrain it.
+[05:44] They're markdown files.
+[05:45] They have instructions.
+[05:46] They have tools.
+[05:47] Businesses have been wondering, OK, well,
+[05:48] how do we think about these things.
+[05:50] And the skill registry is really a private repository
+[05:54] for those skills there is scoped to your organization.
+[05:57] The interesting part is not necessarily the fact
+[06:00] that you have this registry, but it's
+[06:01] got dynamic discovery as well.
+[06:04] So an agent doesn't ship with skills baked in.
+[06:09] It's going to look at what's in the registry
+[06:11] and load only what the current task needs at runtime.
+[06:14] So you get two wins at once.
+[06:16] Here you have a shared governance library
+[06:19] where you write a skill once and every agent in the org
+[06:22] can use it.
+[06:23] And then you've got leaner agents.
+[06:25] They can pull skills on demand instead of carrying everything.
+[06:27] And this is something that I think
+[06:29] is really powerful at Google as we've been seeing teams roll out
+[06:33] skills.
+[06:34] A big question was, how do we share these.
+[06:35] How do we make sure that everyone in the org
+[06:37] even knows what skills are available.
+[06:39] How do we make sure our agents know what skills are available.
+[06:42] So the skills registry is a powerful primitive
+[06:44] for really unlocking a lot of that value
+[06:46] without you having to do it yourself.
+[06:49] Anti-gravity a lot of airtime at Google I/O.
+[06:53] It's our agent first development platform.
+[06:56] You'll see us not just talking about this for coding, but also
+[06:58] just broadly like as a good place to be able
+[07:01] to manage your tasks.
+[07:05] We've got a desktop app, which is now your mission
+[07:08] control, a single place to steer,
+[07:10] orchestrate whole cohorts of your agents
+[07:13] that run in parallel, whether that's
+[07:15] with dynamic subagents schedule tasks, any of that background
+[07:20] automation that you want.
+[07:21] And we also now give you a few different surfaces.
+[07:24] So we've got the 2.0 desktop app.
+[07:27] We've got a CLI for terminal people and an SDK.
+[07:31] So you can host the same agent harness
+[07:34] on your own infrastructure.
+[07:37] And for Cloud customers it also plugs
+[07:39] directly into agent platform.
+[07:41] So agent activity can run inside your security boundary
+[07:44] and inherit your data protections.
+[07:46] I think that this is really, really cool,
+[07:49] folks heard about our new model launch Gemini 3.5 Flash.
+[07:52] This is our new default model for tasks
+[07:56] that try to balance cost and effectiveness
+[08:00] and it's tuned for I would say it's tuned for agentic.
+[08:03] Again, long horizon work.
+[08:05] We've talked a lot about long running agents.
+[08:07] This is tuned for long horizon work as well.
+[08:10] And it's roughly it's many times faster than our previous models,
+[08:15] and it actually beats Gemini 3.1 Pro
+[08:18] on a number of benchmarks that matter for agents.
+[08:22] It was co-designed with our new TPUs in mind.
+[08:25] So the model and the hardware were built together
+[08:28] and so recommend folks try it out always.
+[08:31] We're looking for feedback.
+[08:32] And so if there are cases where this is great
+[08:34] or cases where you feel it needs a little bit of work,
+[08:36] let us know.
+[08:37] We would love to continue improving.
+[08:40] And we also had Gemini spark.
+[08:42] So this is something that fits a little bit
+[08:44] between those consumer and developer worlds.
+[08:46] Worlds spark is the user facing face of a lot of this.
+[08:51] It is a 24/7 personal agent many folks have been playing around
+[08:56] what is their personal agent setup look like on the side.
+[09:01] And I would say a lot of it has been with duct tape and hope.
+[09:05] Sometimes, we will give agents access to a lot of things
+[09:09] and not really know is that safe is it OK,
+[09:12] am I going to wake up to a large bill
+[09:14] because the agent went and did something I wasn't expecting.
+[09:17] One of the cool things about Spark
+[09:18] is that it runs in dedicated VMs in a Managed Runtime,
+[09:23] and that lets it keep working in the background
+[09:25] even while your phone is locked.
+[09:28] It learns a lot of your context as you're
+[09:31] working with it, who you work with,
+[09:33] what your writing style is.
+[09:35] It's able to execute multi-step work across Google Workspace
+[09:39] and its connectors, so you start to get a slightly more secure
+[09:44] story and an organized story around how
+[09:46] you are allowing other sources of data, other providers,
+[09:51] to come into the picture, which I think is really important.
+[09:55] And so every task that you use with Spark
+[09:57] runs in a fresh, isolated, ephemeral VM, so data shouldn't
+[10:02] necessarily be overlapping.
+[10:04] It's new.
+[10:05] I think it's exciting.
+[10:06] I hope folks check it out.
+[10:07] And we've also had other announcements.
+[10:10] We mentioned agent payment protocol as well.
+[10:14] This is really useful as a guardrail layer
+[10:17] for transactions.
+[10:18] And the flow here is simple.
+[10:19] You set a mandate what the agent is
+[10:22] allowed to spend on what and with what
+[10:25] limits the agent can plan.
+[10:27] It can operate strictly inside that envelope.
+[10:29] And I think this is another one of those problems where people
+[10:31] have been wondering, well, if I want my agent
+[10:34] to be able to complete, end to end tasks for me,
+[10:37] sometimes those may indeed involve commerce.
+[10:40] So I think that AP2 is going to be interesting for some folks
+[10:43] as well.
+[10:44] But everything that I've described,
+[10:47] I would say fits on one platform.
+[10:50] A lot of these services actually do the work underneath.
+[10:54] And so whether we are talking about platforms,
+[10:59] agent runtime or distributed execution.
+[11:02] Our agent, executor, agent, sandbox, or any of these pieces.
+[11:06] I think that these can help you build out a production agent
+[11:10] system that gives you confidence that you can run them
+[11:14] without having to worry about things like traceability abuse.
+[11:19] I love agent identity because it helps me
+[11:23] reason about, what are the agents that
+[11:26] are going off and doing things at any particular time
+[11:29] so that if I need to debug that, it's a little bit easier.
+[11:31] And then I love governance because I'm
+[11:33] able to limit the blast radius of what my agents can do.
+[11:38] And that gives me the confidence to deploy these agents
+[11:41] to production.
+[11:42] So a lot of cool stuff that has shipped.
+[11:44] I'm going to give a shout out to Model Garden.
+[11:47] There are so many agents now available on modern garden
+[11:50] for people to go and start using as a template,
+[11:53] as a starting point.
+[11:55] And many of these have now been influenced
+[11:57] by what we've been learning from the real world.
+[12:01] Building agents, talking to customers,
+[12:02] understanding what common problems people have
+[12:05] been running into, and what I also wanted to very quickly talk
+[12:11] about because it might not necessarily be about agents,
+[12:16] but I kind of love the Gemini app Omni announcements.
+[12:20] What do you think.
+[12:21] Were you excited to see omni?
+[12:23] I thought this was one of the coolest new releases
+[12:26] that we had last year.
+[12:28] Folks watched Google.
+[12:29] I/O Nano banana was a big deal.
+[12:32] It kind of brought Gemini's intelligence to images,
+[12:36] whether that was editing, restoring photos, designing
+[12:39] from sketches.
+[12:41] And Omni is really that same leap.
+[12:43] But for viewing.
+[12:44] And the one line pitch here for folks
+[12:46] is that Omni can create anything from any input that can
+[12:51] be text, images, audio, video.
+[12:54] It can take all these ingredients
+[12:57] and then it can create a high quality video out of them.
+[13:00] And it's crucially grounded in Gemini's real world reasoning.
+[13:05] So what it knows about the world, not just the data
+[13:08] that you're giving it, but what it knows about the world.
+[13:10] And that kind of unlocks a lot of use cases.
+[13:13] Now, the first model shipping here is Gemini Omni Flash.
+[13:19] And so the idea here is that it's a creation model, not just
+[13:22] a generation model.
+[13:23] It can reason about what it makes.
+[13:25] And it's really a natural building block
+[13:28] on top of some of our previous work around Nano banana.
+[13:31] So similar DNA Gemini natively multimodal from the ground up,
+[13:36] just on a harder medium.
+[13:39] So the mechanic that kind of makes Omni different is this.
+[13:42] Most video tools will take a prompt.
+[13:45] Omni is able to take lots of different references,
+[13:48] of any type.
+[13:49] And I was just mentioning some of those.
+[13:51] So you can hand it an image of a character.
+[13:54] You can hand it a sketch of a scene, a voice
+[13:56] clip, an existing video and a line of text or a spec,
+[14:01] and it can fuse all of this into a coherent clip.
+[14:05] So voice references for audio are also supported.
+[14:08] Other types of audio input are going
+[14:10] to be supported at a later point.
+[14:11] But the thing I want to stress is it's not just a collage
+[14:15] that this is creating.
+[14:16] This can reason about how those different inputs
+[14:19] you give it relate, so that the output can really hold together
+[14:23] as a full scene.
+[14:25] And so there were some fun demos that we
+[14:29] started to share around Omni in case folks missed these out.
+[14:34] This example is a plain hand-held shot
+[14:37] of somebody in a room, and the prompt
+[14:39] asks for the mirror to ripple like liquid
+[14:42] and the person's arm to turn reflective.
+[14:45] Omni was able to do that while keeping everything
+[14:47] else consistent the person, the lighting, the physics
+[14:51] of the room, all of it.
+[14:52] And when I first saw this, I was like,
+[14:54] this actually looks really, really cool.
+[14:57] You could imagine this being a clip from a sci-fi show
+[15:00] or something.
+[15:01] It's really, really neat.
+[15:02] And I wanted to show you this as well.
+[15:05] We've been sharing a few examples
+[15:07] of what makes Omni special.
+[15:10] And it's grounded.
+[15:11] So it can understand physics.
+[15:14] It has an intuitive feel for gravity momentum dynamics.
+[15:18] So motion looks pretty believable in this.
+[15:22] And so I've been very interested in Omni for things like avatars,
+[15:27] like being able to create maybe a digital version of myself
+[15:30] or put myself in other videos.
+[15:33] I love that you can play around with this idea,
+[15:36] and every video that Omni produces
+[15:38] also carries a watermark.
+[15:41] We've talked a lot about SynthID and the importance
+[15:43] of being able to ID these AI generated videos.
+[15:46] I thought that was very cool as well.
+[15:48] But Omni is awesome.
+[15:51] Omni Flash is rolling out on the consumer side right now.
+[15:55] You will see it appear in other places in Google.
+[15:57] The Gemini app flow.
+[15:59] YouTube Shorts.
+[16:00] And eventually you can also see this rolling out
+[16:04] to the agent platform as an API.
+[16:06] But what I want to show you is my own example of using Omni
+[16:13] last night, because yesterday was the last day of I/O
+[16:16] I just had to play around with it.
+[16:20] Hey, everyone.
+[16:28] And I'm going to play that one more time.
+[16:32] But what I loved it was able to take photos of me,
+[16:37] disparate photos of me.
+[16:38] It was able to take photos I had taken of myself
+[16:41] around the Google I/O logo.
+[16:43] I took a separate photo of the band that
+[16:45] was at I/O. I pulled all of these together
+[16:47] and it was able to create a coherent scene that looks
+[16:50] like it was a video I took live at I/O I love Omni,
+[16:54] I think it's awesome.

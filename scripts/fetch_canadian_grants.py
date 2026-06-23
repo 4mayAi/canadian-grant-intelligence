@@ -1,18 +1,27 @@
 #!/usr/bin/env python3
 """
 Wrapper script for the Canadian Grant Intelligence pipeline.
-This script replaces the legacy 1,125-line monolith to maintain compatibility
-with existing GitHub Actions workflows while delegating execution to the
-refactored modular ELT pipeline in `src/main.py`.
+This script delegates execution to the config-driven generic engine.
 """
 
 import sys
+import os
 import logging
-from src.main import run_pipeline
+
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, PROJECT_ROOT)
+sys.path.insert(0, os.path.join(PROJECT_ROOT, "generic_engine"))
+
+from generic_engine.main import run_engine_pipeline
 
 if __name__ == "__main__":
     try:
-        run_pipeline()
+        config_path = os.path.join(PROJECT_ROOT, "configs", "canadian_grants.json")
+        run_type = os.getenv("RUN_TYPE", "deep_dive").lower()
+        if run_type not in ["deep_dive", "pulse", "seed_strategy"]:
+            run_type = "deep_dive"
+            
+        run_engine_pipeline(config_path=config_path, run_type=run_type)
     except Exception as e:
         logging.error(f"Execution failed: {e}")
         sys.exit(1)

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-06-23T18:47:09.317936Z",
+  "linkedin_post": "\n\n### Featured News & Sources\n- [Prime Minister Carney announces the nomination of the Honourable Glenn D. Joyal to the Supreme Court of Canada](https://www.pm.gc.ca/en/news/news-releases/2026/06/22/prime-minister-carney-announces-nomination-honourable-glenn-d-joyal) (PMO)\n- [Canada and British Columbia forge new partnership to accelerate homebuilding, lower costs, and build new local infrastructure](https://www.pm.gc.ca/en/news/news-releases/2026/06/18/canada-and-british-columbia-forge-new-partnership-accelerate) (PMO)\n",
+  "insights": [
+    {
+      "source": "PMO_News",
+      "title": "Prime Minister Carney announces the nomination of the Honourable Glenn D. Joyal to the Supreme Court of Canada",
+      "link": "https://www.pm.gc.ca/en/news/news-releases/2026/06/22/prime-minister-carney-announces-nomination-honourable-glenn-d-joyal",
+      "date": "2026-06-22T14:22:37Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "PMO_News",
+      "title": "Canada and British Columbia forge new partnership to accelerate homebuilding, lower costs, and build new local infrastructure",
+      "link": "https://www.pm.gc.ca/en/news/news-releases/2026/06/18/canada-and-british-columbia-forge-new-partnership-accelerate",
+      "date": "2026-06-18T20:00:00Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    }
+  ]
+}

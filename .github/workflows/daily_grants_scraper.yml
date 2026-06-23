@@ -1,5 +1,5 @@
 name: Canadian Grants Intelligence Pipeline
- 
+
 on:
 #   schedule:
 #     - cron: '0 14 * * *' # 10:00 AM EDT — catches morning releases
@@ -26,103 +26,11 @@ permissions:
   contents: write
 
 jobs:
-  scrape:
-    runs-on: ubuntu-latest
-    env:
-      RUN_TYPE: ${{ github.event.inputs.run_type || 'DEEP_DIVE' }}
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Set Today's Date
-        run: echo "TODAY=$(date +'%b %d, %Y')" >> $GITHUB_ENV
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-          cache: 'pip' # Caching pip dependencies
-
-      - name: Install Dependencies
-        run: |
-          pip install -r requirements.txt
-      - name: Cache Playwright Binaries
-        uses: actions/cache@v3
-        id: playwright-cache
-        with:
-          path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-${{ hashFiles('**/requirements.txt') }}
-
-      - name: Install Playwright Browser
-        run: playwright install chromium
-
-      - name: Run Scraper
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
-          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
-          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          ALERT_EMAIL_ADDRESS: ${{ secrets.ALERT_EMAIL_ADDRESS }}
-          SCRAPE_LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '7' }}
-        run: python scripts/fetch_canadian_grants.py
-
-      - name: Validate Pipeline Output
-        if: success()
-        run: python scripts/validate_outputs.py
-
-      - name: Commit and Push Report
-        # Push git reports on all runs to trigger Pages deployment
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          git add reports/
-          git commit -m "Automated Intelligence Report: $(date +'%Y-%m-%d')" || exit 0
-          git pull --rebase origin main
-          git push
-
-      # Legacy GHA Email step is commented out to prevent duplicates.
-      # The v2.0 Python scraper pipeline handles multi-recipient mailing internally via mail_sender.py.
-      # - name: Send Email Digest
-      #   # Send email on end-of-day schedule or on manual trigger
-      #   if: (github.event.schedule == '0 22 * * *' || github.event_name == 'workflow_dispatch') && success()
-      #   uses: dawidd6/action-send-mail@v3
-      #   with:
-      #     server_address: smtp.gmail.com
-      #     server_port: 465
-      #     secure: true
-      #     username: ${{ secrets.EMAIL_ADDRESS }}
-      #     password: ${{ secrets.EMAIL_APP_PASSWORD }}
-      #     subject: "🇨🇦 Grant Intelligence — ${{ env.TODAY }}"
-      #     to: ${{ secrets.EMAIL_ADDRESS }}
-      #     from: Canadian Grant Intelligence <${{ secrets.EMAIL_ADDRESS }}>
-      #     body: |
-      #       Your daily Canadian Grant Intelligence deep-dive is ready.
-      #       
-      #       View the full dashboard: https://4mayAi.github.io/canadian-grant-intelligence/
-      #       
-      #       ---
-      #       LinkedIn Post (copy-paste ready):
-      #     html_body: file://${{ github.workspace }}/reports/linkedin/latest_post.md
-      #     convert_markdown: true
-      #     attachments: reports/linkedin/social_card.png
-
-  prune:
-    runs-on: ubuntu-latest
-    if: github.event.schedule == '0 22 * * 0'
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-
-      - name: Install Dependencies
-        run: pip install -r requirements.txt
-
-      - name: Prune Processed URLs (90-day TTL)
-        env:
-          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
-        run: python scripts/validators/prune_processed_urls.py
+  run:
+    uses: ./.github/workflows/run_pipeline.yml
+    with:
+      config_path: configs/canadian_grants.json
+      lookback_days: ${{ github.event.inputs.lookback_days || '7' }}
+      run_type: ${{ github.event.inputs.run_type || 'DEEP_DIVE' }}
+      run_prune: ${{ github.event.schedule != '' && contains(github.event.schedule, '0 22 * * 0') }}
+    secrets: inherit

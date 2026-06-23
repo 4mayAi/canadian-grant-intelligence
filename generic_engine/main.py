@@ -12,7 +12,7 @@ from schema import PipelineConfig
 from models import GeminiInsight, ReportItem, NewsWrapper, KPIDashboard
 from extractors.rss import fetch_rss_feeds
 from extractors.playwright_scraper import fetch_html_news
-from extractors.ckan import fetch_canadabuys_tenders
+from extractors.ckan import fetch_canadabuys_tenders, get_category_label
 from extractors.report_scraper import (
     resolve_google_news_url,
     scrape_html_report,
@@ -125,7 +125,8 @@ def fetch_and_process_news(
     gemini_client: GeminiClient,
     lookback_limit: Optional[datetime],
     processed_urls: Set[str],
-    test_mode: bool = False
+    test_mode: bool = False,
+    pulse_only_override: Optional[bool] = None
 ) -> List[dict]:
     """Fetches feed data (RSS + Playwright) concurrently, compares cache, and analyzes new items."""
     failed_feeds = []
@@ -159,7 +160,24 @@ def fetch_and_process_news(
                 logging.error(f"Failed to seed hub anchors in Azure: {ue}")
         except Exception as se:
             logging.error(f"Failed to load local seed hub anchors: {se}")
-    
+
+    # Validate anchor lifecycle metadata
+    if hub_anchors:
+        try:
+            today_str = datetime.utcnow().strftime("%Y-%m-%d")
+            for hub_name, facts in hub_anchors.items():
+                if isinstance(facts, list):
+                    for fact in facts:
+                        if isinstance(fact, dict):
+                            review_by = fact.get("review_by")
+                            fact_id = fact.get("id") or fact.get("fact_id")
+                            if review_by and review_by < today_str:
+                                logging.warning(
+                                    f"STALE ANCHOR: Fact ID {fact_id} in hub '{hub_name}' has expired review date '{review_by}' (today: '{today_str}')."
+                                )
+        except Exception as ve:
+            logging.error(f"Error validating anchor lifecycle metadata: {ve}")
+
     # Translate config schema objects to raw dicts for scraper engines and construct dynamic search query parameters using keywords
     from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
     sources_dict = []
@@ -232,21 +250,24 @@ def fetch_and_process_news(
 
     existing_insights_map = {item["link"]: item for item in existing_insights_list if "link" in item}
 
-    # Determine pulse_only mode by checking if we have active tenders in the cache
-    has_active_tenders_in_cache = False
-    for item in existing_insights_list:
-        close_date_str = item.get("closing_date")
-        if close_date_str:
-            try:
-                close_dt = datetime.strptime(close_date_str[:10], "%Y-%m-%d")
-                if close_dt > datetime.utcnow():
-                    has_active_tenders_in_cache = True
-                    break
-            except:
-                pass
-
-    pulse_only = has_active_tenders_in_cache
-    logging.info(f"Cache check: has_active_tenders_in_cache={has_active_tenders_in_cache}. Set pulse_only={pulse_only}")
+    if pulse_only_override is not None:
+        pulse_only = pulse_only_override
+        logging.info(f"Override: Set pulse_only={pulse_only} via parameter")
+    else:
+        # Determine pulse_only mode by checking if we have active tenders in the cache
+        has_active_tenders_in_cache = False
+        for item in existing_insights_list:
+            close_date_str = item.get("closing_date")
+            if close_date_str:
+                try:
+                    close_dt = datetime.strptime(close_date_str[:10], "%Y-%m-%d")
+                    if close_dt > datetime.utcnow():
+                        has_active_tenders_in_cache = True
+                        break
+                except:
+                    pass
+        pulse_only = has_active_tenders_in_cache
+        logging.info(f"Cache check: has_active_tenders_in_cache={has_active_tenders_in_cache}. Set pulse_only={pulse_only}")
 
     # Ingest RSS feeds (max items slots per cluster)
     max_items = 3 if test_mode else config.max_items_per_source
@@ -571,57 +592,98 @@ def fetch_and_process_news(
     final_insights.sort(key=parse_date_safely, reverse=True)
     return final_insights
 
-def generate_dashboard_kpis(insights: List[dict], gemini_client: GeminiClient) -> dict:
+def generate_dashboard_kpis(insights: List[dict], gemini_client: GeminiClient, tenders: Optional[List[dict]] = None) -> dict:
     """Consolidates metrics for the run insights."""
-    total_active = len(insights)
-    
-    new_today = 0
-    for ins in insights:
-        try:
-            dt_str = ins.get('date', '').rstrip("Z")
-            if "." in dt_str:
-                dt = datetime.fromisoformat(dt_str)
+    if tenders is not None:
+        total_active = len(tenders)
+        
+        new_today = sum(1 for t in tenders if t.get('type') == 'New')
+        
+        closing_this_week = 0
+        now_dt = datetime.utcnow()
+        one_week_later = now_dt + timedelta(days=7)
+        for t in tenders:
+            close_date_str = t.get("closing_date")
+            if close_date_str:
+                try:
+                    close_dt = datetime.strptime(close_date_str[:10], "%Y-%m-%d")
+                    if now_dt <= close_dt <= one_week_later:
+                        closing_this_week += 1
+                except:
+                    pass
+                    
+        # Calculate top category from tenders
+        categories = {}
+        for t in tenders:
+            cat = t.get('category', 'Uncategorized').replace('*', '').strip()
+            categories[cat] = categories.get(cat, 0) + 1
+            
+        top_category = "Mixed Sectors"
+        if categories:
+            sorted_cats = sorted(categories.items(), key=lambda x: x[1], reverse=True)
+            lead = sorted_cats[0]
+            percentage = round((lead[1] / max(1, total_active)) * 100)
+            is_tie = len(sorted_cats) > 1 and sorted_cats[0][1] == sorted_cats[1][1]
+            is_diversified = len(sorted_cats) > 1 and percentage < 50
+            if is_tie:
+                top_category = "Mixed Sectors"
+            elif is_diversified:
+                top_category = "Diversified"
             else:
-                dt = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%S")
-            if (datetime.utcnow() - dt).days <= 1:
-                new_today += 1
-        except Exception:
-            pass
-            
-    # Calculate tenders closing in the next 7 days
-    closing_this_week = 0
-    now = datetime.utcnow()
-    one_week_later = now + timedelta(days=7)
-    for ins in insights:
-        close_date_str = ins.get("closing_date")
-        if close_date_str:
+                name = lead[0][:15] + "..." if len(lead[0]) > 18 else lead[0]
+                top_category = f"{name} ({percentage}%)"
+                
+        hero_hook = gemini_client.get_hero_hook(insights, tenders)
+    else:
+        total_active = len(insights)
+        
+        new_today = 0
+        for ins in insights:
             try:
-                close_dt = datetime.strptime(close_date_str[:10], "%Y-%m-%d")
-                if now <= close_dt <= one_week_later:
-                    closing_this_week += 1
-            except:
+                dt_str = ins.get('date', '').rstrip("Z")
+                if "." in dt_str:
+                    dt = datetime.fromisoformat(dt_str)
+                else:
+                    dt = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%S")
+                if (datetime.utcnow() - dt).days <= 1:
+                    new_today += 1
+            except Exception:
                 pass
-
-    # Calculate top contributing source/category
-    source_counts = {}
-    for ins in insights:
-        src = ins.get("source", "")
-        # Clean display name: replace underscores with spaces, strip _News, and apply known overrides
-        display_src = clean_source_display_name(src)
-        if display_src:
-            source_counts[display_src] = source_counts.get(display_src, 0) + 1
-            
-    top_category = "Mixed Sectors"
-    if source_counts:
-        max_count = max(source_counts.values())
-        top_sources = [src for src, count in source_counts.items() if count == max_count]
-        if len(top_sources) == 1:
-            top_category = top_sources[0]
-        else:
-            top_category = "Mixed Sectors"  # Explicit tie = no single winner
-
-    hero_hook = gemini_client.get_hero_hook(insights)
+                
+        # Calculate tenders closing in the next 7 days
+        closing_this_week = 0
+        now = datetime.utcnow()
+        one_week_later = now + timedelta(days=7)
+        for ins in insights:
+            close_date_str = ins.get("closing_date")
+            if close_date_str:
+                try:
+                    close_dt = datetime.strptime(close_date_str[:10], "%Y-%m-%d")
+                    if now <= close_dt <= one_week_later:
+                        closing_this_week += 1
+                except:
+                    pass
     
+        # Calculate top contributing source/category
+        source_counts = {}
+        for ins in insights:
+            src = ins.get("source", "")
+            # Clean display name: replace underscores with spaces, strip _News, and apply known overrides
+            display_src = clean_source_display_name(src)
+            if display_src:
+                source_counts[display_src] = source_counts.get(display_src, 0) + 1
+                
+        top_category = "Mixed Sectors"
+        if source_counts:
+            max_count = max(source_counts.values())
+            top_sources = [src for src, count in source_counts.items() if count == max_count]
+            if len(top_sources) == 1:
+                top_category = top_sources[0]
+            else:
+                top_category = "Mixed Sectors"  # Explicit tie = no single winner
+    
+        hero_hook = gemini_client.get_hero_hook(insights)
+        
     return KPIDashboard(
         total_active=total_active,
         new_today=new_today,
@@ -638,14 +700,22 @@ def validate_dynamic_outputs(output_dir: str, config: PipelineConfig):
     insights_file = os.path.join(output_dir, config.storage.insights_file)
     kpis_file = os.path.join(output_dir, config.storage.kpis_file)
 
-    for path in (insights_file, kpis_file):
+    files_to_check = [insights_file, kpis_file]
+    if config.storage.tenders_file:
+        files_to_check.append(os.path.join(output_dir, config.storage.tenders_file))
+
+    for path in files_to_check:
         if not os.path.exists(path):
             raise FileNotFoundError(f"Validation failure: missing file {path}")
         with open(path, "r", encoding="utf-8") as f:
             try:
                 data = json.load(f)
-                if not data:
-                    raise ValueError(f"Validation failure: empty data in {path}")
+                if config.storage.tenders_file and path == os.path.join(output_dir, config.storage.tenders_file):
+                    if not isinstance(data, list):
+                        raise ValueError(f"Validation failure: tenders data in {path} must be a list")
+                else:
+                    if not data:
+                        raise ValueError(f"Validation failure: empty data in {path}")
             except json.JSONDecodeError:
                 raise ValueError(f"Validation failure: malformed JSON in {path}")
 
@@ -661,19 +731,26 @@ def validate_dynamic_outputs(output_dir: str, config: PipelineConfig):
         if "insights" not in insights_wrapper or not isinstance(insights_wrapper["insights"], list):
             raise ValueError("Insights wrapper violation: missing insights list array")
 
-def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[str] = None, dry_run: bool = False):
+def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[str] = None, dry_run: bool = False, run_type: str = "deep_dive"):
     setup_logging()
     logging.info("Initializing Config-driven Pipeline Execution...")
     
     # 1. Load config
     config = load_and_validate_config(config_path, config_url)
+    logging.info(f"Running Skill '{config.topic_id}' v{config.skill_version} (Schema v{config.schema_version})")
     
     # 2. Instantiate Clients
     azure_client = AzureClient(container_name=config.storage.azure_container)
     gemini_client = GeminiClient(
         primary_model=config.llm_settings.model_primary,
         fallback_models=config.llm_settings.model_fallbacks,
-        system_instruction=config.llm_settings.system_instruction
+        system_instruction=config.llm_settings.system_instruction,
+        persona=config.llm_settings.persona,
+        classification_rules=config.llm_settings.classification_rules,
+        grounding_rules=config.llm_settings.grounding_rules,
+        translation_rules=config.llm_settings.translation_rules,
+        output_format=config.llm_settings.output_format,
+        topic_id=config.topic_id
     )
     notifier = Notifier(
         discord_url=config.distribution.discord_webhook,
@@ -691,6 +768,31 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         processed_urls = set(processed_urls_registry.keys())
         initial_url_count = len(processed_urls)
         
+        seed_strategy = (run_type == "seed_strategy")
+        pulse_only = (run_type == "pulse")
+        
+        if seed_strategy:
+            # Clear all historical tender URLs from processed_urls for the seeding run
+            news_domains = ['pm.gc.ca', 'ised-isde.canada.ca', 'international.gc.ca', 'canada.ca', 'finance.gc.ca']
+            tender_urls = [url for url in processed_urls if not any(d in url.lower() for d in news_domains)]
+            logging.info(f"Seeding mode: Clearing {len(tender_urls)} historical tender URLs from processed_urls to trigger re-evaluation.")
+            for url in tender_urls:
+                processed_urls.discard(url)
+                if url in processed_urls_registry:
+                    del processed_urls_registry[url]
+
+        # Load subscribers if subscribers_file is set
+        subscribers = []
+        if config.storage.subscribers_file:
+            try:
+                logging.info(f"Downloading subscribers list from Azure: {config.storage.subscribers_file}...")
+                raw_subs = azure_client.download_json(config.storage.subscribers_file)
+                if isinstance(raw_subs, list):
+                    subscribers = [s.strip() for s in raw_subs if isinstance(s, str) and "@" in s]
+                    logging.info(f"Loaded {len(subscribers)} subscribers for distribution.")
+            except Exception as e:
+                logging.warning(f"Failed to load subscribers from Azure: {e}")
+
         # 3. Extract and Process News/Tenders
         insights = fetch_and_process_news(
             config=config,
@@ -698,11 +800,62 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
             gemini_client=gemini_client,
             lookback_limit=lookback_limit,
             processed_urls=processed_urls,
-            test_mode=dry_run
+            test_mode=dry_run,
+            pulse_only_override=pulse_only
         )
 
+        # 3.5 Merge with existing active tenders from Azure if tenders_file is set
+        final_tenders = None
+        if config.storage.tenders_file:
+            # Gather tenders from current run's insights
+            tenders_in_run = []
+            for item in insights:
+                if "closing_date" in item or item.get("source") == "CanadaBuys":
+                    tenders_in_run.append(item)
+            
+            existing_tenders = []
+            if not seed_strategy:
+                try:
+                    existing_tenders = azure_client.download_json(config.storage.tenders_file) or []
+                    logging.info(f"Loaded {len(existing_tenders)} existing tenders from Azure.")
+                except Exception as e:
+                    logging.error(f"Failed to load existing tenders from Azure: {e}")
+                    
+            # Filter and normalize existing tenders
+            active_tenders = []
+            now_date = datetime.utcnow().date()
+            cutoff_date = now_date - timedelta(days=1)
+            for t in existing_tenders:
+                if 'category_label' not in t:
+                    t['category_label'] = get_category_label(t.get('category', ''))
+                closing_date_str = t.get('closing_date')
+                if closing_date_str:
+                    try:
+                        dt = datetime.strptime(closing_date_str[:10], "%Y-%m-%d").date()
+                        if dt < cutoff_date:
+                            logging.info(f"Pruning expired tender: {t.get('title')} (Closed: {closing_date_str})")
+                            continue
+                    except Exception as e:
+                        logging.warning(f"Error parsing closing_date '{closing_date_str}': {e}")
+                
+                # Downgrade historical 'New' tenders to 'Open'
+                if t.get('type') == 'New':
+                    t['type'] = 'Open'
+                active_tenders.append(t)
+                
+            # Merge new tenders (prioritize fresh data by overwriting matching links)
+            merged_tenders = {}
+            for t in active_tenders:
+                merged_tenders[t['link']] = t
+            for t in tenders_in_run:
+                merged_tenders[t['link']] = t
+                
+            final_tenders = list(merged_tenders.values())
+            logging.info(f"Merged state: {len(existing_tenders)} existing -> {len(active_tenders)} active -> {len(final_tenders)} total merged tenders.")
+
         # 4. Consolidate Dashboard KPIs
-        kpis = generate_dashboard_kpis(insights, gemini_client)
+        kpis = generate_dashboard_kpis(insights, gemini_client, tenders=final_tenders)
+        kpis["skill_version"] = config.skill_version
 
         # Select top 5 featured items for digest, capping at 2 items per hub to ensure regional balance
         source_hubs = {src.name: (src.hub if src.hub else get_hub_from_source(src.name)) for src in config.sources}
@@ -728,8 +881,21 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
             news_summaries_list.append(f"- **{title}**\n  *Hook:* {hook}\n  *Key Insights:* {strat}")
         summaries_str = "\n\n".join(news_summaries_list)
 
+        tender_context = None
+        if config.storage.tenders_file and final_tenders:
+            tender_lines = []
+            for t in final_tenders[:5]:
+                close_info = f" (Closes: {t['closing_date'][:10]})" if t.get('closing_date') else ""
+                tender_lines.append(f"- **{t['title']}** - Region: {t.get('province', 'National')}{close_info}")
+            tender_context = "\n".join(tender_lines)
+
         today_str = datetime.utcnow().strftime("%B %d, %Y")
-        linkedin_post = gemini_client.generate_linkedin_post(summaries_str, current_date=today_str, dashboard_url=config.dashboard_url)
+        linkedin_post = gemini_client.generate_linkedin_post(
+            summaries_str, 
+            current_date=today_str, 
+            dashboard_url=config.dashboard_url,
+            tender_context=tender_context
+        )
         suggested_post = linkedin_post.get("article_content", "No post text compiled.") if linkedin_post else ""
 
         # Post-process: Automatically hyperlink names in the body (using lookarounds to prevent double-wrapping)
@@ -763,6 +929,11 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
             json.dump(pmo_wrapper, f, indent=2, ensure_ascii=False)
         with open(kpis_local_path, "w", encoding="utf-8") as f:
             json.dump(kpis, f, indent=2, ensure_ascii=False)
+            
+        if config.storage.tenders_file and final_tenders is not None:
+            tenders_local_path = os.path.join(output_dir, config.storage.tenders_file)
+            with open(tenders_local_path, "w", encoding="utf-8") as f:
+                json.dump(final_tenders, f, indent=2, ensure_ascii=False)
             
         date_str = datetime.utcnow().strftime("%Y-%m-%d")
         local_manifest = []
@@ -819,14 +990,23 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
             insights_ok = azure_client.upload_json(insights_temp, pmo_wrapper)
             kpis_ok = azure_client.upload_json(kpis_temp, kpis)
             
-            if insights_ok and kpis_ok:
+            tenders_ok = True
+            if config.storage.tenders_file and final_tenders is not None:
+                tenders_temp = f"{os.path.splitext(config.storage.tenders_file)[0]}_temp.json"
+                tenders_ok = azure_client.upload_json(tenders_temp, final_tenders)
+            
+            if insights_ok and kpis_ok and tenders_ok:
                 # Perform fast server-side copies to final files
                 azure_client.copy_blob(insights_temp, config.storage.insights_file)
                 azure_client.copy_blob(kpis_temp, config.storage.kpis_file)
+                if config.storage.tenders_file and final_tenders is not None:
+                    azure_client.copy_blob(tenders_temp, config.storage.tenders_file)
                 
                 # Cleanup temp files
                 azure_client.delete_blob(insights_temp)
                 azure_client.delete_blob(kpis_temp)
+                if config.storage.tenders_file and final_tenders is not None:
+                    azure_client.delete_blob(tenders_temp)
             else:
                 logging.error("Failed to upload temporary staged files. Aborting main swap.")
                 raise RuntimeError("Failed to upload primary dashboard data to Azure Storage.")
@@ -837,19 +1017,41 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
                 azure_client.upload_file(social_card_local_path, f"social_card_{date_str}.png", "image/png")
             
             # Historical backup archive - staged and swapped atomically
-            hist_insights_file = f"reports/{config.topic_id}_insights_{date_str}.json"
-            hist_kpis_file = f"reports/{config.topic_id}_kpis_{date_str}.json"
-            hist_insights_temp = f"reports/{config.topic_id}_insights_{date_str}_temp.json"
-            hist_kpis_temp = f"reports/{config.topic_id}_kpis_{date_str}_temp.json"
+            if getattr(config.storage, "prefix_historical_files", True):
+                prefix = f"{config.topic_id}_"
+                insights_base = "insights"
+                kpis_base = "kpis"
+                tenders_base = "tenders"
+            else:
+                prefix = ""
+                insights_base = os.path.splitext(config.storage.insights_file)[0]
+                kpis_base = os.path.splitext(config.storage.kpis_file)[0]
+                tenders_base = os.path.splitext(config.storage.tenders_file)[0] if config.storage.tenders_file else "tenders"
+
+            hist_insights_file = f"reports/{prefix}{insights_base}_{date_str}.json"
+            hist_kpis_file = f"reports/{prefix}{kpis_base}_{date_str}.json"
+            hist_insights_temp = f"reports/{prefix}{insights_base}_{date_str}_temp.json"
+            hist_kpis_temp = f"reports/{prefix}{kpis_base}_{date_str}_temp.json"
             
             hist_insights_ok = azure_client.upload_json(hist_insights_temp, pmo_wrapper)
             hist_kpis_ok = azure_client.upload_json(hist_kpis_temp, kpis)
             
-            if hist_insights_ok and hist_kpis_ok:
+            hist_tenders_ok = True
+            if config.storage.tenders_file and final_tenders is not None:
+                hist_tenders_file = f"reports/{prefix}{tenders_base}_{date_str}.json"
+                hist_tenders_temp = f"reports/{prefix}{tenders_base}_{date_str}_temp.json"
+                hist_tenders_ok = azure_client.upload_json(hist_tenders_temp, final_tenders)
+                
+            if hist_insights_ok and hist_kpis_ok and hist_tenders_ok:
                 azure_client.copy_blob(hist_insights_temp, hist_insights_file)
                 azure_client.copy_blob(hist_kpis_temp, hist_kpis_file)
+                if config.storage.tenders_file and final_tenders is not None:
+                    azure_client.copy_blob(hist_tenders_temp, hist_tenders_file)
+                    
                 azure_client.delete_blob(hist_insights_temp)
                 azure_client.delete_blob(hist_kpis_temp)
+                if config.storage.tenders_file and final_tenders is not None:
+                    azure_client.delete_blob(hist_tenders_temp)
             else:
                 logging.error("Failed to upload historical temporary staged files. Aborting historical swap.")
                 raise RuntimeError("Failed to upload historical backup data to Azure Storage.")
@@ -902,7 +1104,8 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
                     markdown_content=digest_md,
                     social_card_path=social_card_local_path,
                     from_name=from_name,
-                    topic_name=topic_name
+                    topic_name=topic_name,
+                    recipients=subscribers
                 )
             except Exception as mail_err:
                 logging.error(f"Failed to distribute daily clusters email digest: {mail_err}")
@@ -922,6 +1125,7 @@ if __name__ == "__main__":
     parser.add_argument("--config", type=str, help="Absolute or relative path to local config JSON")
     parser.add_argument("--config-url", type=str, help="URL to download configuration JSON remotely")
     parser.add_argument("--dry-run", action="store_true", help="Run checks locally without committing files or alerts")
+    parser.add_argument("--run-type", choices=["deep_dive", "pulse", "seed_strategy"], default="deep_dive", help="Pipeline run type mode")
     
     # Read environment variables as fallbacks
     args = parser.parse_args()
@@ -932,4 +1136,4 @@ if __name__ == "__main__":
         # Fallback default configuration for local testing
         cfg_path = "configs/innovation_clusters.json"
 
-    run_engine_pipeline(config_path=cfg_path, config_url=cfg_url, dry_run=args.dry_run)
+    run_engine_pipeline(config_path=cfg_path, config_url=cfg_url, dry_run=args.dry_run, run_type=args.run_type)

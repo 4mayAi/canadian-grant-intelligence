@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
 import requests
-from typing import Optional
+from typing import Optional, List
 
 class Notifier:
     def __init__(self, discord_url: Optional[str] = None, alert_email: Optional[str] = None):
@@ -169,6 +169,10 @@ class Notifier:
                 
                 # Apply inline styles
                 import re
+                # Inline images: ![alt](url)
+                img_pattern = r'!\[([^\]]*)\]\(([^)]*)\)'
+                bullet_content = re.sub(img_pattern, r'<img src="\2" alt="\1" style="max-width: 100%; border-radius: 8px; margin: 10px 0; border: 1px solid #ffd700;" />', bullet_content)
+
                 # Inline links: [text](url)
                 link_pattern = r'\[([^\]]+)\]\(([^)]+)\)'
                 bullet_content = re.sub(link_pattern, r'<a href="\2" style="color: #ffd700; text-decoration: none; font-weight: bold;">\1</a>', bullet_content)
@@ -186,6 +190,10 @@ class Notifier:
                 in_ul = False
 
             import re
+            # Inline images: ![alt](url)
+            img_pattern = r'!\[([^\]]*)\]\(([^)]*)\)'
+            line_str = re.sub(img_pattern, r'<img src="\2" alt="\1" style="max-width: 100%; border-radius: 8px; margin: 10px 0; border: 1px solid #ffd700;" />', line_str)
+
             # Inline links: [text](url)
             link_pattern = r'\[([^\]]+)\]\(([^)]+)\)'
             line_str = re.sub(link_pattern, r'<a href="\2" style="color: #ffd700; text-decoration: none; font-weight: bold;">\1</a>', line_str)
@@ -230,19 +238,27 @@ class Notifier:
         markdown_content: str, 
         social_card_path: Optional[str] = None,
         from_name: str = "Canadian Innovation Clusters",
-        topic_name: str = "Canadian Innovation Clusters Intelligence"
+        topic_name: str = "Canadian Innovation Clusters Intelligence",
+        recipients: Optional[List[str]] = None
     ) -> bool:
-        """Sends a beautiful HTML newsletter digest to the configured recipient."""
-        if not self.alert_email or not self.smtp_user or not self.smtp_pass:
-            logging.debug("Email recipient or credentials not configured. Skipping digest mail.")
+        """Sends a beautiful HTML newsletter digest to the configured recipients."""
+        if not self.smtp_user or not self.smtp_pass:
+            logging.debug("Email credentials not configured. Skipping digest mail.")
             return False
 
-        try:
-            # Parse recipients (support comma separated list)
-            recipients = [r.strip() for r in self.alert_email.split(",") if r.strip()]
-            if not recipients:
-                return False
+        # Determine target recipients list
+        target_recipients = []
+        if recipients:
+            target_recipients = [r.strip() for r in recipients if r and "@" in r]
+        
+        if not target_recipients and self.alert_email:
+            target_recipients = [r.strip() for r in self.alert_email.split(",") if r.strip() and "@" in r]
 
+        if not target_recipients:
+            # Fall back to operator email
+            target_recipients = [self.smtp_user]
+
+        try:
             # Convert markdown to HTML
             html_body = self._convert_markdown_to_html(markdown_content, topic_name)
             
@@ -255,7 +271,7 @@ class Notifier:
 
             with server:
                 server.login(self.smtp_user, self.smtp_pass)
-                for recipient in recipients:
+                for recipient in target_recipients:
                     msg = MIMEMultipart('alternative')
                     msg['Subject'] = subject
                     msg['From'] = f"{from_name} <{self.smtp_user}>"

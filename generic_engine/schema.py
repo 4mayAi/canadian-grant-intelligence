@@ -22,7 +22,12 @@ class SourceConfig(BaseModel):
 class LLMSettings(BaseModel):
     model_primary: str
     model_fallbacks: List[str]
-    system_instruction: str
+    system_instruction: Optional[str] = ""
+    persona: Optional[str] = None
+    classification_rules: Optional[str] = None
+    grounding_rules: Optional[str] = None
+    translation_rules: Optional[str] = None
+    output_format: Optional[str] = None
 
 class StorageConfig(BaseModel):
     azure_container: str
@@ -31,6 +36,9 @@ class StorageConfig(BaseModel):
     kpis_file: str
     anchors_file: Optional[str] = "hub_anchors.json"
     manifest_file: Optional[str] = "manifest.json"
+    tenders_file: Optional[str] = None
+    subscribers_file: Optional[str] = "subscribers.json"
+    prefix_historical_files: Optional[bool] = True
 
 class DistributionConfig(BaseModel):
     discord_webhook: str
@@ -44,7 +52,9 @@ class PipelineConfig(BaseModel):
     sources: List[SourceConfig]
     keywords: List[str]
     high_value_keywords: List[str]
-    localization_mappings: Dict[str, str]
+    localization_mappings: Optional[Dict[str, str]] = {}
     llm_settings: LLMSettings
     storage: StorageConfig
     distribution: DistributionConfig
+    skill_version: str = "1.0.0"
+    schema_version: str = "2.0"
