@@ -1125,7 +1125,7 @@ if __name__ == "__main__":
     parser.add_argument("--config", type=str, help="Absolute or relative path to local config JSON")
     parser.add_argument("--config-url", type=str, help="URL to download configuration JSON remotely")
     parser.add_argument("--dry-run", action="store_true", help="Run checks locally without committing files or alerts")
-    parser.add_argument("--run-type", choices=["deep_dive", "pulse", "seed_strategy"], default="deep_dive", help="Pipeline run type mode")
+    parser.add_argument("--run-type", type=lambda s: s.lower(), choices=["deep_dive", "pulse", "seed_strategy"], default="deep_dive", help="Pipeline run type mode")
     
     # Read environment variables as fallbacks
     args = parser.parse_args()
