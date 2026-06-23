@@ -730,5 +730,29 @@
         "province_abbrev": "NB",
         "category": "SRV",
         "category_label": "Services"
+    },
+    {
+        "type": "Open",
+        "title": "W0113-26CS53 – Portable and Mobile Anti-Ram Vehicle Barriers RFSO Stream 1, Class 5",
+        "description": "Security and control equipment",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110016688?anId=ANONYMOUS",
+        "closing_date": "2026-07-08T14:00:00",
+        "publication_date": "2026-06-22",
+        "province": "Ontario",
+        "province_abbrev": "ON",
+        "category": "GD",
+        "category_label": "Goods"
+    },
+    {
+        "type": "Open",
+        "title": "W0113-26CS53 – Portable and Mobile Anti-Ram Vehicle Barriers RFSO Stream 2, Class 7",
+        "description": "Security and control equipment",
+        "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110016690?anId=ANONYMOUS",
+        "closing_date": "2026-07-08T14:00:00",
+        "publication_date": "2026-06-22",
+        "province": "Ontario",
+        "province_abbrev": "ON",
+        "category": "GD",
+        "category_label": "Goods"
     }
 ]
