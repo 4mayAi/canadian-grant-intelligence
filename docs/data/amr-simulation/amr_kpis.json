@@ -1,8 +1,9 @@
 {
-  "total_active": 4,
-  "new_today": 0,
+  "total_active": 5,
+  "new_today": 2,
   "closing_this_week": 0,
-  "top_category": "Mixed Sectors",
-  "hero_hook": "XDR Shigella underscores the global AMR threat, catalyzing WHO's updated action plan and evaluation programs. 🛡️",
-  "generated_at": "2026-06-22T20:39:21.086960Z"
+  "top_category": "Canada PHAC AMR",
+  "hero_hook": "Public health authorities remain divided on Ebola travel restrictions amid intensifying global focus on long-term antimicrobial resistance strategies. 🌐",
+  "generated_at": "2026-06-23T19:55:10.665501Z",
+  "skill_version": "1.0.0"
 }
