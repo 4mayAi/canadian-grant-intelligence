@@ -537,7 +537,7 @@ def fetch_and_process_news(
                     "insight": insight_model.to_dict()
                 }
                 # Copy tender metadata fields from raw item if present
-                for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type", "partner_list"]:
+                for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type", "partner_list", "organization", "solicitation_number", "notice_type", "procurement_method", "selection_criteria", "trade_agreements"]:
                     if field in item:
                         report_item_dict[field] = item[field]
                 final_insights.append(report_item_dict)

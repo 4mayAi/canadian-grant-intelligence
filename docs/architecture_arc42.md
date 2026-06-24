@@ -10,8 +10,11 @@ This document describes the software architecture of the Canadian Grant Intellig
 The Canadian Grant Intelligence platform (mayAi) is a high-fidelity monitoring and synthesis pipeline. It continuously scrapes federal and provincial procurement portals, grant databases, political communication channels, and international mining reports to deliver daily intelligence digests to business analysts, co-bidders, and decision-makers.
 
 Key features:
-- Scrapes CanadaBuys CSV databases, ISED feed, Finance Canada, PMO announcements, and Global Affairs Canada feeds.
-- Scrapes global mining industry reports and press releases across 5 major hubs: Canada, Australia, China, Switzerland, and the UK.
+- **Canadian Grants**: Scrapes CanadaBuys CSV databases, ISED feed, Finance Canada, PMO announcements, and Global Affairs Canada feeds.
+- **AMR & Biotech Simulation**: Scrapes CanadaBuys, CIHR, NRC, PHAC, bioRxiv Microbiology, and PHAC CCDR feeds.
+- **Innovation Clusters**: Scrapes DIGITAL, Scale AI, Ocean Cluster, NGen, and Protein Industries news, ecosystem, and federal news feeds.
+- **Global Payments**: Scrapes ISO 20022/SWIFT, NPP, CIPS, e-CNY, and commodity trade settlement (Glencore, Trafigura) feeds across CA, AU, CN, HK, CH, UK, and Global.
+- **Mining Hubs**: Scrapes global mining industry reports and press releases across 5 major hubs (Canada, Australia, China, Switzerland, and the UK) using peak body feeds (MAC, MCA, CMA, SUISSENEGOCE, LME, ICMM, IEA).
 - Synthesizes complex regulatory updates into strategic hooks using LLMs.
 - Publishes daily reports to public dashboards and automatically distributes formatted HTML newsletters to email subscribers.
 
@@ -40,44 +43,42 @@ Key features:
 
 ```mermaid
 graph TD
-    subgraph External Sources
-        CB[CanadaBuys Portal]
-        PM[Prime Minister's Office RSS]
-        IS[ISED RSS/Atom]
-        FC[Finance Canada RSS/Atom]
-        GA[Global Affairs Google News RSS]
-        MH[Mining Hub Feeds (MAC, MCA, CMA, SUISSENEGOCE, LME, ICMM, IEA)]
+    subgraph External Ingestion Sources
+        GR[Canadian Grants Feeds: CanadaBuys, PMO, ISED, Finance Canada, Global Affairs]
+        AMR[AMR Feeds: CanadaBuys, CIHR, NRC, PHAC, bioRxiv, CCDR]
+        IC[Innovation Clusters Feeds: DIGITAL, Scale AI, Ocean, NGen, Protein Industries]
+        GP[Global Payments Feeds: SWIFT, NPP, CIPS, e-CNY, Glencore, Trafigura]
+        MH[Mining Hub Feeds: MAC, MCA, CMA, SUISSENEGOCE, LME, ICMM, IEA]
     end
 
     subgraph mayAi Orchestration & Cloud Context
         GHA[GitHub Actions Runner]
         AB[Azure Blob Storage]
-        LLM[Gemini API]
+        LLM[Gemini API Cascade]
         SMTP[SMTP Mail Server]
     end
 
     subgraph Presentation & Client Channels
-        GH[GitHub Pages Dashboard]
-        DIS[Discord Channel]
-        USR[Subscribers Inbox]
+        GH[GitHub Pages Dashboards: /grants, /amr-simulation, /clusters, /payments, /mining-hubs]
+        DIS[Discord Channels]
+        USR[Subscribers Inboxes]
     end
 
-    CB -->|CKAN CSVs| GHA
-    PM -->|RSS Feed Parser| GHA
-    IS -->|RSS Feed Parser| GHA
-    FC -->|RSS Feed Parser| GHA
-    GA -->|RSS Feed Parser| GHA
-    MH -->|Playwright / Google News RSS| GHA
+    GR -->|Ingestion| GHA
+    AMR -->|Ingestion| GHA
+    IC -->|Ingestion| GHA
+    GP -->|Ingestion| GHA
+    MH -->|Ingestion| GHA
 
     GHA -->|Batch Prompting| LLM
     LLM -->|JSON Insights| GHA
 
     GHA -->|Upload reports, manifest, etc.| AB
     GHA -->|Notify failures| DIS
-    GHA -->|Dispatch daily newsletter| SMTP
+    GHA -->|Dispatch daily newsletters| SMTP
 
     AB -->|Fetch historical & latest reports| GH
-    SMTP -->|Formatted HTML Digest| USR
+    SMTP -->|Formatted HTML Digests| USR
 ```
 
 ---
