@@ -162,3 +162,64 @@ sequenceDiagram
     Runner->>Azure: Upload final reports to cloud storage
     Runner->>Runner: Push local backup commits to repository
 ```
+
+---
+
+## 7. Deployment View
+
+- **GitHub Actions Runner**: Executed daily on Ubuntu runners via `daily_amr_scraper.yml` calling `run_pipeline.yml`.
+- **Azure Integration**: Reads and writes to the `amr-simulation-data` storage container.
+- **Dashboard Deployment**: Dynamic Javascript in [docs/amr-simulation/index.html](file:///c:/dev/canadian-grant-intelligence/docs/amr-simulation/index.html) pulls directly from Azure. The dashboard links to [style.css](file:///c:/dev/canadian-grant-intelligence/docs/style.css).
+
+---
+
+## 8. Concepts
+
+### 8.1 Markdown-to-HTML Parsing
+To avoid external dependencies and keep the engine lightweight, a custom line-by-line parser compiles markdown text into newsletter-friendly HTML:
+- **Lists (`-` or `*`)** are caught, grouped, and wrapped inside native `<ul>` and `<li>` tags with matching inline margins and padding.
+- **Headers (`#` to `####`)** are mapped to `<h1-h4>` tags styled in brand gold (`#ffd700`).
+- **Inline Bold (`**text**`)** is replaced with `<strong>` tags.
+- **Hyperlinks (`[text](url)`)** are wrapped in anchor tags with text-decoration disabled and colored gold to ensure high visibility.
+
+### 8.2 Brand Link Injections & Regex Constraints
+During the post-synthesis phase, a regex mapper runs lookarounds to detect text mentions of agencies and portals, hyper-linking them to their official domains:
+- **CIHR** -> `https://cihr-irsc.gc.ca/`
+- **NRC** -> `https://nrc.canada.ca/`
+- **PHAC** -> `https://www.canada.ca/en/public-health.html`
+- **CanadaBuys** -> `https://canadabuys.canada.ca/`
+
+#### Technical Constraints:
+* **Lookup Safeguards (Lookarounds)**: The regex engine applies negative lookarounds `(?<!\[){re.escape(name)}(?!\])` to match only plain text mentions, preventing double-hyperlinking of terms that are already part of markdown links.
+* **Ordering Dependency**: The replacement dictionary is ordered strictly from longest name to shortest name. This sequence avoids partial-match corruption.
+
+### 8.3 State-Preserving Cache Merging (Tenders Lifecycle)
+Unlike simple news signals, procurement opportunities have a distinct lifecycle:
+- **Active Union**: The system downloads existing items from `amr_insights.json`, retains unexpired tenders, and merges them with fresh extraction records.
+- **State Transition**: Closed or expired tenders are filtered out during the daily execution, keeping the active simulation tracker accurate and clean.
+
+### 8.4 Precision Keyword Mapping
+To avoid false-positive matches (e.g. matching `nrcan` as `nrc`), the engine enforces word boundaries `\b` for keywords that are 4 characters or shorter. This ensures that only exact matches to `AMR`, `NRC`, `CIHR`, or `PHAC` are processed.
+
+### 8.5 Stateless CKAN Database Ingestion
+The system connects directly to the CanadaBuys CKAN API to ingest federal tender data. It streams the CSV package data, parses individual rows, and isolates relevant health-tech and bio-simulation rows using keyword filters.
+
+---
+
+## 9. Design Decisions
+
+- **Config-Driven Generalization**: Storing pipeline parameters (keywords, source lists, container settings) in JSON files allows adding new portals or pipelines without changing core orchestrator code.
+- **Zero-Relational-Database JSON Storage**: Storing datasets as structured, static JSON files in Azure Blob allows the frontend to operate without a server-side backend, reducing hosting costs.
+- **Low-RPM, High-TPM Optimization Strategy**: To safeguard Gemini API request quotas, new news items are batch-processed in groups of 5. This design aggregates texts into single API calls, taking advantage of Gemini's high token-per-minute (TPM) limit while staying well below the low requests-per-minute (RPM) threshold.
+- **Telemetry Observability**: The orchestrator automatically logs total API transaction sizes and token stats (`gemini_client.get_stats()`) at the end of each execution, providing complete visibility into usage costs and pipeline efficiency.
+- **Collapsible Events & Milestones Deck**: Implemented a dynamic, collapsible card deck directly above the daily signals list. It fetches conformed summits, webinars, and global conference facts from a static anchors database (`amr_anchors.json`) based on their type, and handles empty states by hiding the component if no active events exist for a hub, ensuring clean visual presentation.
+- **Bypass Refactoring for AMR/Biotech Feeds**: Google News searches and scientific RSS feeds bypass query refactoring (`skip_query_refactoring: true`) because search queries are already highly targeted and refactoring would yield zero results.
+
+---
+
+## 10. Skills Registry Governance
+
+The AMR & Biotech Simulation Intelligence pipeline is fully decoupled under the central Skills Registry pattern:
+- **Skill Boundary**: The Skill boundary encompasses the configuration layer (`amr_simulation.json`, `amr_anchors.json`) defining the scraper sources, keyword pre-filters, and LLM system instruction components (persona, classification, grounding, translation, formatting). The Harness boundary governs validation, telemetry metrics collection, cloud synchronization, and dynamic email dispatch.
+- **Per-Skill Subscribers**: Audience records reside in `subscribers.json` inside the `amr-simulation-data` storage container, ensuring email distribution is strictly isolated per topic.
+

@@ -222,3 +222,11 @@ By instructing the model to return *only* the matching integer IDs (`"grounded_f
 - **Per-source query-refactoring bypass**: Introduced `skip_query_refactoring` to allow specific RSS searches to bypass the generic B2B keyword `AND` appending logic. This allows thin or policy-specific sources (like NRCan and China Export Controls) to ingest highly targeted feeds without being filtered to zero by the 30-day lookback logic.
 - **Multi-language ingestion support**: Added French-language RSS ingestion for Geneva commodity trading (e.g. Glencore/Trafigura) with a translation instruction in the LLM system prompt. This expands geographical and business intelligence without polluting English-only search results.
 - **Targeted NRCan Subpath Feed**: Replaced generic name-based search queries for Natural Resources Canada (NRCan) with an explicit subpath query (`site:canada.ca/en/natural-resources-canada/news`). This guarantees 100% reliable capture of critical minerals and green energy funding announcements while filtering out general administration or unrelated ministerial schedules.
+
+---
+
+## 10. Skills Registry Governance
+
+The Global Mining Hubs pipeline is fully decoupled under the central Skills Registry pattern:
+- **Skill Boundary**: The Skill boundary encompasses the configuration layer (`mining_hubs.json`, `hub_anchors.json`) defining the scraper sources, keyword pre-filters, and LLM system instruction components (persona, classification, grounding, translation, formatting). The Harness boundary governs validation, telemetry metrics collection, cloud synchronization, and dynamic email dispatch.
+- **Per-Skill Subscribers**: Audience records reside in `subscribers.json` inside the `mining-hubs-data` storage container, ensuring email distribution is strictly isolated per topic.

@@ -151,3 +151,62 @@ sequenceDiagram
     Runner->>Azure: Upload final reports to cloud storage
     Runner->>Runner: Push local backup commits to repository
 ```
+
+---
+
+## 7. Deployment View
+
+- **GitHub Actions Runner**: Executed daily on Ubuntu runners via `daily_payments_scraper.yml` calling `run_pipeline.yml`.
+- **Azure Integration**: Reads and writes to the `payments-data` storage container.
+- **Dashboard Deployment**: Dynamic Javascript in [docs/payments/index.html](file:///c:/dev/canadian-grant-intelligence/docs/payments/index.html) pulls directly from Azure. The dashboard links to [style.css](file:///c:/dev/canadian-grant-intelligence/docs/style.css).
+
+---
+
+## 8. Concepts
+
+### 8.1 Markdown-to-HTML Parsing
+To avoid external dependencies and keep the engine lightweight, a custom line-by-line parser compiles markdown text into newsletter-friendly HTML:
+- **Lists (`-` or `*`)** are caught, grouped, and wrapped inside native `<ul>` and `<li>` tags with matching inline margins and padding.
+- **Headers (`#` to `####`)** are mapped to `<h1-h4>` tags styled in brand gold (`#ffd700`).
+- **Inline Bold (`**text**`)** is replaced with `<strong>` tags.
+- **Hyperlinks (`[text](url)`)** are wrapped in anchor tags with text-decoration disabled and colored gold to ensure high visibility.
+
+### 8.2 Brand Link Injections & Regex Constraints
+During the post-synthesis phase, a regex mapper runs lookarounds to detect text mentions of payment networks and central banks, hyper-linking them to their official domains:
+- **SWIFT** -> `https://www.swift.com/`
+- **BIS** -> `https://www.bis.org/`
+- **mBridge** -> `https://www.bis.org/about/bisih/topics/cbdc/mcbdc.htm`
+- **Federal Reserve** -> `https://www.federalreserve.gov/`
+- **CIPS** -> `https://www.cips.com.cn/en/`
+
+#### Technical Constraints:
+* **Lookup Safeguards (Lookarounds)**: The regex engine applies negative lookarounds `(?<!\[){re.escape(name)}(?!\])` to match only plain text mentions, preventing double-hyperlinking of terms that are already part of markdown links.
+* **Ordering Dependency**: The replacement dictionary is ordered strictly from longest name to shortest name. This sequence avoids partial-match corruption, where matching the shorter prefix first would break the longer entity's layout.
+
+### 8.3 Ingestion Cache Management
+The system avoids infinite cache bloat without needing automated database pruning routines:
+- **Lookback-Based Filtering**: Standard ingestions filter out and discard entries older than the `SCRAPE_LOOKBACK_DAYS` (default: 30 days) lookback window.
+- **Active Union Write-Back**: The output file `payments_insights.json` represents a clean union of active scraper feed items and fail-safe retained items. When old news releases drop off the portals or the 30-day feed window, they are naturally omitted during write-back, keeping the file small and optimizing frontend performance.
+
+### 8.4 Multi-Language Ingestion & Translation
+To expand global reach, the payments pipeline scrapes French, German, and Chinese financial feeds. The engine system prompt includes strict translation instructions to ensure that these articles are translated to English before synthesis, ensuring a unified English digest format for subscribers.
+
+---
+
+## 9. Design Decisions
+
+- **Config-Driven Generalization**: Storing pipeline parameters (keywords, source lists, container settings) in JSON files allows adding new portals or pipelines without changing core orchestrator code.
+- **Zero-Relational-Database JSON Storage**: Storing datasets as structured, static JSON files in Azure Blob allows the frontend to operate without a server-side backend, reducing hosting costs.
+- **Low-RPM, High-TPM Optimization Strategy**: To safeguard Gemini API request quotas, new news items are batch-processed in groups of 5. This design aggregates texts into single API calls, taking advantage of Gemini's high token-per-minute (TPM) limit while staying well below the low requests-per-minute (RPM) threshold.
+- **Telemetry Observability**: The orchestrator automatically logs total API transaction sizes and token stats (`gemini_client.get_stats()`) at the end of each execution, providing complete visibility into usage costs and pipeline efficiency.
+- **Collapsible Events & Milestones Deck**: Implemented a dynamic, collapsible card deck directly above the daily signals list. It fetches conformed summits, webinars, and global conference facts from a static anchors database (`payments_anchors.json`) based on their type, and handles empty states by hiding the component if no active events exist for a hub, ensuring clean visual presentation.
+- **Bypass Refactoring for Payments Feeds**: Configured targeted RSS feeds to bypass the engine's query refactoring logic using `skip_query_refactoring: true`. This prevents the engine from appending broad B2B search terms that would otherwise restrict the high-fidelity feed outputs to zero, since the search queries are already highly specific.
+
+---
+
+## 10. Skills Registry Governance
+
+The Global Payments & Settlement Intelligence pipeline is fully decoupled under the central Skills Registry pattern:
+- **Skill Boundary**: The Skill boundary encompasses the configuration layer (`global_payments.json`, `payments_anchors.json`) defining the scraper sources, keyword pre-filters, and LLM system instruction components (persona, classification, grounding, translation, formatting). The Harness boundary governs validation, telemetry metrics collection, cloud synchronization, and dynamic email dispatch.
+- **Per-Skill Subscribers**: Audience records reside in `subscribers.json` inside the `payments-data` storage container, ensuring email distribution is strictly isolated per topic.
+

@@ -239,3 +239,11 @@ The system avoids infinite cache bloat without needing automated database prunin
 - **Telemetry Observability**: The orchestrator automatically logs total API transaction sizes and token stats (`gemini_client.get_stats()`) at the end of each execution, providing complete visibility into usage costs and pipeline efficiency.
 - **Collapsible Events & Milestones Deck**: Implemented a dynamic, collapsible card deck directly above the daily signals list. It fetches conformed summits, webinars, and global conference facts from a static anchors database (`cluster_anchors.json`) based on their type, and handles empty states by hiding the component if no active events exist for a hub, ensuring clean visual presentation.
 - **Bypass Refactoring for Federal Feeds**: Configured targeted RSS feeds (e.g. `site:ised-isde.canada.ca`, `site:canada.ca/en/transport-canada/news`, etc.) to bypass the engine's query refactoring logic using `skip_query_refactoring: true`. This prevents the engine from appending broad B2B search terms that would otherwise restrict the high-fidelity feed outputs to zero, while the `/news` subpath natively filters out administrative noise.
+
+---
+
+## 10. Skills Registry Governance
+
+The Innovation Clusters pipeline is fully decoupled under the central Skills Registry pattern:
+- **Skill Boundary**: The Skill boundary encompasses the configuration layer (`innovation_clusters.json`, `cluster_anchors.json`) defining the scraper sources, keyword pre-filters, and LLM system instruction components (persona, classification, grounding, translation, formatting). The Harness boundary governs validation, telemetry metrics collection, cloud synchronization, and dynamic email dispatch.
+- **Per-Skill Subscribers**: Audience records reside in `subscribers.json` inside the `clusters-data` storage container, ensuring email distribution is strictly isolated per topic.
