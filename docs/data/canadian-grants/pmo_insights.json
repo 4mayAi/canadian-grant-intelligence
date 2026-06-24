@@ -1,7 +1,79 @@
 {
-  "generated_at": "2026-06-24T14:07:58.716219Z",
-  "linkedin_post": "🌐 Canada is stepping up its commitment to regional security with a $35.3 million investment in the Americas, signaling prime opportunities for tech integration in surveillance and data analytics. Businesses focused on maritime domain awareness and secure communications should take note.\n\n🚀 The federal government is injecting $100 million into the VITAL health data platform, marking a significant push for national health record interoperability. Health-tech firms specializing in FHIR standards and secure API management are well-positioned to capitalize on this initiative.\n\n⚡ A historic $1 billion+ Indigenous loan guarantee for the Darlington New Nuclear Project highlights Canada's commitment to clean energy and ESG compliance. This development signals long-term support for Small Modular Reactors (SMRs) and creates avenues for EPC firms with strong Indigenous relations strategies.\n\nFurthermore, Farm Credit Canada is seeking a Knowledge Editor, presenting a 3-year opportunity for firms adept at content management systems and information architecture. This role underscores the growing importance of structured knowledge dissemination.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n### Featured News & Sources\n- [Minister Anand concludes participation in the General Assembly of the Organization of American States, announces $35.3 million to support security and stability in the Americas - canada.ca](https://www.canada.ca/en/global-affairs/news/2026/06/minister-anand-concludes-participation-in-the-general-assembly-of-the-organization-of-american-states-announces-353-million-to-support-security-and.html) (Global Affairs)\n- [Government of Canada invests $100 million in VITAL health data platform](https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/government-of-canada-invests-100-million-in-vital-health-data-platform.html) (ISED)\n- [Government announces largest Indigenous loan guarantee in Canadian history to support Darlington New Nuclear Project](https://www.canada.ca/en/department-finance/news/2026/06/government-announces-largest-indigenous-loan-guarantee-in-canadian-history-to-support-darlington-new-nuclear-project.html) (Finance Canada)\n- [Knowledge Editor](https://www.merx.com/public/solicitations/4007251759/abstract?language=EN) (CanadaBuys)\n",
+  "generated_at": "2026-06-24T18:01:55.827959Z",
+  "linkedin_post": "🚀 Canada’s federal procurement landscape is shifting rapidly, marked by a major $100 million investment into the VITAL health data platform. This move signals a definitive pivot toward national interoperability standards, creating immediate opportunities for vendors specialized in FHIR integration and secure API management to support this unified data infrastructure.\n\nSimultaneously, the Department of National Defence is accelerating its digital modernization, specifically seeking technical expertise for the National Resource Directory. If your team specializes in Level 2 software development or high-performance UX, now is the time to align your capabilities with DND’s accessibility requirements for federal resource management.\n\nInternationally, the $35.3 million commitment to security and stability in the Americas under the Regional Maritime Security Initiative (RMSI) is set to drive demand for advanced maritime surveillance and data analytics. Firms with expertise in satellite-based domain awareness should monitor this space closely as the project scales across OAS member states.\n\nFinally, for those focused on infrastructure and defense, the ongoing tenders for Explosive Ordinance Disposal training (W6399-23DB10C) and the IDEaS Program (CFP 6) remain high-priority avenues for innovation-led contractors. Ensure your firm is positioned for these long-term engagements by vetting your supply chain against federal security compliance standards.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n#CanadianProcurement #GovCon #HealthTech #DefenceIndustry #DataInteroperability\n\n### Featured News & Sources\n- [Notice of Proposed Procurement (NPP) - Application Services for One (1) Programmer / Software Developer and One (1) Web Graphics Designer](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-259-32423401) (CanadaBuys)\n- [Psychiatry Services Multi Site - Prairie Region](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-779-80539188) (CanadaBuys)\n- [Minister Anand concludes participation in the General Assembly of the Organization of American States, announces $35.3 million to support security and stability in the Americas - canada.ca](https://www.canada.ca/en/global-affairs/news/2026/06/minister-anand-concludes-participation-in-the-general-assembly-of-the-organization-of-american-states-announces-353-million-to-support-security-and.html) (Global Affairs)\n- [Government of Canada invests $100 million in VITAL health data platform](https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/government-of-canada-invests-100-million-in-vital-health-data-platform.html) (ISED)\n",
   "insights": [
+    {
+      "source": "CanadaBuys",
+      "title": "Notice of Proposed Procurement (NPP) - Application Services for One (1) Programmer / Software Developer and One (1) Web Graphics Designer",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-259-32423401",
+      "date": "2026-06-24T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🚀 Modernizing DND’s digital front door: Can your team elevate the National Resource Directory?",
+        "strategic_value": "* The Department of National Defence (DND) is prioritizing the modernization of its National Resource Directory to improve operational accessibility and user experience.\n* The requirement specifies Level 2 expertise in software development and web graphics, targeting a refined, high-performance interface for federal resource management.\n* **Consulting Pivot:** Position your firm as a specialized UX/Dev integration partner capable of bridging the gap between legacy DND data structures and modern front-end frameworks to ensure the NRD meets current accessibility and responsiveness standards.",
+        "co_bidding_opportunity": "The procurement allows for partnerships, specifically seeking firms with TBIPS certification (EN578-170432) to form a team capable of delivering both A.6 Programmer/Software Developer and A.15 Web Graphics Designer capabilities.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This involves the digital transformation of internal federal information systems, aligning with the government's mandate to modernize IT infrastructure for improved service delivery.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-10T00:00:00Z",
+      "province": "NCR (Ottawa/Gatineau)",
+      "province_abbrev": "NCR",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "NOTICE OF PROPOSED PROCUREMENT (NPP) - TBIPS EN578-170432 - A.6 Programmer/Software Develop (Level 2) & A.15 Web Graphics Designer (Level 2).The Department of National Defence has a requirement for one (1) Programmer/Software Developer (Level 2) and one (1) Web Graphics Designer (Level 2) for the purpose of leading both the technical modernization and the user experience redesign of the National Resource Directory (NRD), as detailed in the NPP.",
+      "type": "New",
+      "partner_list": [
+        {
+          "name": "Infotech CA Inc.",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1470632"
+        }
+      ]
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "Psychiatry Services Multi Site - Prairie Region",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-779-80539188",
+      "date": "2026-06-24T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🏥 Delivering critical mental health infrastructure to Canada's Prairie institutions.",
+        "strategic_value": "* The Correctional Service of Canada (CSC) is expanding psychiatric coverage across the Drumheller, Bowden, Pe Sakastew, and Grande Cache institutions through 2029.\n* The operational requirement demands licensed psychiatric professionals to integrate into inter-disciplinary health teams within federal correctional facilities.\n* **Consulting Pivot:** If you represent a healthcare staffing agency or clinical consultancy, focus your engagement on highlighting the scalability of your network to provide consistent, multi-site psychiatric coverage while maintaining stringent federal security clearance compliance.",
+        "co_bidding_opportunity": "None explicitly mentioned; however, the scope requires collaboration with broader inter-disciplinary teams (Nurses, Psychologists, Social Workers) which may allow for subcontracting of non-psychiatric clinical administrative support.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This pertains to the physical and human resource operations required to maintain federal health safety standards within secured government facilities.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-15T00:00:00Z",
+      "province": "Multiple Provinces",
+      "province_abbrev": "MULT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "Psychiatrist Services – Multi Sites in PrairieThis requirement is for: The Correctional Service of Canada, Drumheller Institution, Bowden Institution, Pe Sakastew Centre, and Grande Cache Institution the Prairie Region.Trade agreement:\t This procurement is not subject to any trade agreement.Policy on Reciprocal Procurement: This solicitation is open only to Canadian suppliers.Competitive Procurement Strategy: compliant bid with the highest technical scoreSet-aside under the Procurement Strategy ...",
+      "type": "New"
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "ERP Technical Analyst - Level 3",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-951-14538070",
+      "date": "2026-06-24T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "⚙️ Scaling ISED's digital backbone: High-level ERP expertise wanted for IFMS operations.",
+        "strategic_value": "* ISED is reinforcing its Integrated Financial & Material System (IFMS) through a 24-month technical consultancy engagement.\n* The technical target requires deep expertise in SAP BASIS administration, ABAP, Web Dynpro, Fiori, and Workflow development to maintain mission-critical financial systems.\n* **Consulting Pivot:** Pivot your proposal to showcase 'Operational Continuity'; emphasize your team's capability to provide hands-on BASIS administration that minimizes downtime during ISED’s current fiscal management transition.",
+        "co_bidding_opportunity": "The solicitation allows for partnerships; prime bidders should look for SAP-specialized SMEs with proven experience in ISED or similar federal financial system environments to bolster their technical submission.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This ensures the stability of federal financial management systems, which are foundational digital assets for government transparency and procurement oversight.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-13T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "The Financial Management Support Directorate is seeking an ERP Technical Analyst – Level 3 resource to provide BASIS administration assistance to the current teams with the ABAP, Web Dynpro (ABAP variant), Fiori & Workflow development as part its operations within IFMS (Integrated Financial & Material System). The resource will work directly with the technical and functional operational teams providing expertise in the IFMS operations support area.",
+      "type": "New"
+    },
     {
       "source": "Global_Affairs",
       "title": "Minister Anand concludes participation in the General Assembly of the Organization of American States, announces $35.3 million to support security and stability in the Americas - canada.ca",
@@ -67,7 +139,13 @@
       "category": "SRV",
       "category_label": "Services",
       "description": "REQUEST FOR PROPOSALS &ndash; &nbsp;&nbsp;KNOWLEDGE EDITORABOUT FCCFCC is proud to be 100% invested in Canadian agriculture and food. Our employees are committed to the long-standing success of those who produce and process Canadian food. FCC provides flexible financing and capital solutions, while creating value through data, knowledge, relationships and expertise. FCC offers a complement of financial and non-financial products and services designed to support the complex and evolving needs of ...",
-      "type": "New"
+      "type": "New",
+      "organization": "Farm Credit Canada (FCC)",
+      "solicitation_number": "PS26-CU-001",
+      "notice_type": "",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
     },
     {
       "source": "ISED_News",
