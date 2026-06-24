@@ -102,6 +102,9 @@
                 <select id="categoryFilter" class="filter-select" onchange="renderTenders()">
                     <option value="All">All Categories</option>
                 </select>
+                <select id="organizationFilter" class="filter-select" onchange="renderTenders()">
+                    <option value="All">All Organizations</option>
+                </select>
                 <select id="expiryFilter" class="filter-select" onchange="renderTenders()">
                     <option value="All">All Deadlines</option>
                     <option value="<7">Closing < 7 Days</option>
@@ -192,6 +195,7 @@
             document.getElementById('timeFilter').value = 'All';
             document.getElementById('provinceFilter').value = 'All';
             document.getElementById('categoryFilter').value = 'All';
+            if (document.getElementById('organizationFilter')) document.getElementById('organizationFilter').value = 'All';
             document.getElementById('expiryFilter').value = 'All';
             document.getElementById('sortFilter').value = 'newest';
             
@@ -349,21 +353,30 @@
                 
                 // Populate filters — provinces are now guaranteed clean
                 const provinces = [...new Set(allTenders.map(t => t.province))].filter(Boolean).sort();
-                
                 const categories = [...new Set(allTenders.map(t => t.category_label))].filter(Boolean).sort();
+                const organizations = [...new Set(allTenders.map(t => t.organization || "Unknown"))].filter(Boolean).sort();
                 
                 const provSelect = document.getElementById('provinceFilter');
-                provSelect.innerHTML = '<option value="All">All Provinces</option>';
-                provinces.forEach(p => provSelect.innerHTML += `<option value="${p}">${p}</option>`);
+                if (provSelect) {
+                    provSelect.innerHTML = '<option value="All">All Provinces</option>';
+                    provinces.forEach(p => provSelect.innerHTML += `<option value="${p}">${p}</option>`);
+                }
                 
                 const catSelect = document.getElementById('categoryFilter');
-                catSelect.innerHTML = '<option value="All">All Categories</option>';
-                categories.forEach(c => catSelect.innerHTML += `<option value="${c}">${c}</option>`);
+                if (catSelect) {
+                    catSelect.innerHTML = '<option value="All">All Categories</option>';
+                    categories.forEach(c => catSelect.innerHTML += `<option value="${c}">${c}</option>`);
+                }
+
+                const orgSelect = document.getElementById('organizationFilter');
+                if (orgSelect) {
+                    orgSelect.innerHTML = '<option value="All">All Organizations</option>';
+                    organizations.forEach(o => orgSelect.innerHTML += `<option value="${escapeHtml(o)}">${escapeHtml(o)}</option>`);
+                }
                 
                 renderTenders();
             } catch (e) {
                 console.error('Failed to load tenders:', e);
-                document.getElementById('tendersContent').innerHTML = `<div class="empty-state"><h3>Failed to load tenders</h3><p>${e.message}</p></div>`;
             }
         }
 
@@ -371,6 +384,7 @@
             const time = document.getElementById('timeFilter').value;
             const prov = document.getElementById('provinceFilter').value;
             const cat = document.getElementById('categoryFilter').value;
+            const org = document.getElementById('organizationFilter') ? document.getElementById('organizationFilter').value : 'All';
             const expiry = document.getElementById('expiryFilter').value;
             const sort = document.getElementById('sortFilter').value;
             const searchQuery = document.getElementById('searchQuery') ? document.getElementById('searchQuery').value.toLowerCase().trim() : '';
@@ -389,6 +403,7 @@
 
                 if (prov !== 'All' && t.province !== prov) return false;
                 if (cat !== 'All' && t.category_label !== cat) return false;
+                if (org !== 'All' && (t.organization || "Unknown") !== org) return false;
                 if (time === '24h' && t.type !== 'New') return false;
                 
                 if (expiry !== 'All') {
@@ -481,7 +496,22 @@
                         </h3>
                         <div class="tender-card-badge-container">${deadlineBadge || ''}</div>
                     </div>
+                    <div style="margin-top: 6px; margin-bottom: 8px; font-size: 13px; color: var(--text-muted);">
+                        🏢 <strong>Org:</strong> ${escapeHtml(t.organization || 'Unknown')}
+                    </div>
                     <div class="tender-description">${marked.parse(t.description || '')}</div>
+                    
+                    <details class="tender-details" style="margin-top: 12px; font-size: 12px; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 8px; margin-bottom: 8px;">
+                        <summary style="cursor: pointer; color: var(--gold); font-weight: 500; font-size: 11px; outline: none; margin-bottom: 4px;">View Opportunity Details</summary>
+                        <div style="margin-top: 6px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; background: rgba(255,255,255,0.02); padding: 8px; border-radius: 4px;">
+                            ${t.solicitation_number ? `<div><span style="color: var(--text-muted);">Solicitation #:</span> ${escapeHtml(t.solicitation_number)}</div>` : ''}
+                            ${t.notice_type ? `<div><span style="color: var(--text-muted);">Notice Type:</span> ${escapeHtml(t.notice_type)}</div>` : ''}
+                            ${t.procurement_method ? `<div><span style="color: var(--text-muted);">Procurement Method:</span> ${escapeHtml(t.procurement_method)}</div>` : ''}
+                            ${t.selection_criteria ? `<div><span style="color: var(--text-muted);">Selection Criteria:</span> ${escapeHtml(t.selection_criteria)}</div>` : ''}
+                            ${t.trade_agreements ? `<div style="grid-column: 1 / -1;"><span style="color: var(--text-muted);">Trade Agreements:</span> ${escapeHtml(t.trade_agreements)}</div>` : ''}
+                        </div>
+                    </details>
+
                     <div class="tender-meta">
                         <div class="tender-meta-col">
                             <div class="tender-meta-label">Location</div>

@@ -157,18 +157,26 @@ def fetch_canadabuys_tenders(
                 gsin_desc = row.get("gsinDescription-nibsDescription-eng", "").replace('*', '').replace('  ', ' ').strip()
                 unspsc_desc = row.get("unspscDescription-eng", "").replace('*', '').replace('  ', ' ').strip()
                 desc = f"{gsin_desc} {unspsc_desc}".strip()
+                
+                organization = row.get("contractingEntityName-nomEntitContractante-eng", "").replace('*', '').strip()
+                solicitation_number = row.get("solicitationNumber-numeroSollicitation", "").replace('*', '').strip()
+                notice_type = row.get("noticeType-avisType-eng", "").replace('*', '').strip()
+                procurement_method = row.get("procurementMethod-methodeApprovisionnement-eng", "").replace('*', '').strip()
+                selection_criteria = row.get("selectionCriteria-criteresSelection-eng", "").replace('*', '').strip()
+                trade_agreements = row.get("tradeAgreements-accordsCommerciaux-eng", "").replace('*', '').strip()
+                tender_description = row.get("tenderDescription-descriptionAppelOffres-eng", "").replace('*', '').strip()
 
-                text_to_search = (title + " " + desc).lower().replace('_', ' ')
+                search_base = (title + " " + desc + " " + tender_description).lower().replace('_', ' ')
                 
                 matched_kw = False
                 for kw in keywords:
                     kw_lower = kw.lower()
                     if len(kw) <= 4:
-                        if re.search(r'\b' + re.escape(kw_lower) + r'\b', text_to_search):
+                        if re.search(r'\b' + re.escape(kw_lower) + r'\b', search_base):
                             matched_kw = True
                             break
                     else:
-                        if kw_lower in text_to_search:
+                        if kw_lower in search_base:
                             matched_kw = True
                             break
                 
@@ -193,7 +201,7 @@ def fetch_canadabuys_tenders(
                 
                 # Exclude APNs / pre-solicitation notices
                 if title and link and is_valid_date:
-                    if re.search(r'\bapn\b|\badvance procurement notice\b|\bpre-solicitation\b', text_to_search):
+                    if re.search(r'\bapn\b|\badvance procurement notice\b|\bpre-solicitation\b', search_base):
                         continue
                     
                     province = normalize_province(raw_province)
@@ -208,6 +216,26 @@ def fetch_canadabuys_tenders(
                     if formatted_close and len(formatted_close) >= 10:
                         formatted_close = formatted_close[:10] + "T00:00:00Z"
 
+                    structured_parts = []
+                    if organization:
+                        structured_parts.append(f"Organization: {organization}")
+                    if solicitation_number:
+                        structured_parts.append(f"Solicitation Number: {solicitation_number}")
+                    if notice_type:
+                        structured_parts.append(f"Notice Type: {notice_type}")
+                    if procurement_method:
+                        structured_parts.append(f"Procurement Method: {procurement_method}")
+                    if selection_criteria:
+                        structured_parts.append(f"Selection Criteria: {selection_criteria}")
+                    if trade_agreements:
+                        structured_parts.append(f"Trade Agreements: {trade_agreements}")
+                    
+                    real_desc = tender_description or desc
+                    if real_desc:
+                        structured_parts.append(f"Description: {real_desc}")
+                    
+                    text_to_search = "\n".join(structured_parts)
+
                     tenders.append({
                         "source": source_name,
                         "title": title[:200],
@@ -221,8 +249,16 @@ def fetch_canadabuys_tenders(
                         "province_abbrev": province_abbrev,
                         "category": category,
                         "category_label": get_category_label(category),
-                        "description": desc[:500] + "..." if len(desc) > 500 else desc,
-                        "type": t_type
+                        "description": real_desc[:500] + "..." if len(real_desc) > 500 else real_desc,
+                        "type": t_type,
+                        
+                        # Organization and structured details
+                        "organization": organization or "Unknown",
+                        "solicitation_number": solicitation_number,
+                        "notice_type": notice_type,
+                        "procurement_method": procurement_method,
+                        "selection_criteria": selection_criteria,
+                        "trade_agreements": trade_agreements
                     })
                     seen_links.add(link)
                     match_count += 1

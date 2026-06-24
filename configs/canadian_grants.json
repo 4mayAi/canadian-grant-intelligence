@@ -30,16 +30,47 @@
     }
   ],
   "keywords": [
-    "grant", "stimulus", "incentive", "funding", "RFP", "tender", 
-    "economic support", "investment", "artificial intelligence", "cloud",
-    "digital transformation", "cybersecurity", "clean tech", "renewable",
-    "indigenous", "sme", "small business", "innovation", "research",
-    "infrastructure", "defense", "defence", "security", "quantum"
+    "grant",
+    "stimulus",
+    "incentive",
+    "funding",
+    "RFP",
+    "tender",
+    "economic support",
+    "investment",
+    "artificial intelligence",
+    "cloud",
+    "digital transformation",
+    "cybersecurity",
+    "clean tech",
+    "renewable",
+    "indigenous",
+    "sme",
+    "small business",
+    "innovation",
+    "research",
+    "infrastructure",
+    "defense",
+    "defence",
+    "security",
+    "quantum"
   ],
   "high_value_keywords": [
-    "rfp", "investment", "infrastructure", "innovation", "technology",
-    "construction", "consulting", "defence", "security", "health",
-    "environmental", "energy", "digital", "cloud", "services"
+    "rfp",
+    "investment",
+    "infrastructure",
+    "innovation",
+    "technology",
+    "construction",
+    "consulting",
+    "defence",
+    "security",
+    "health",
+    "environmental",
+    "energy",
+    "digital",
+    "cloud",
+    "services"
   ],
   "llm_settings": {
     "model_primary": "gemini-3.5-flash",
@@ -48,7 +79,7 @@
       "gemini-3.1-flash-lite",
       "gemini-2.5-flash-lite"
     ],
-    "system_instruction": "You are a senior analyst specializing in Canadian federal grants and procurement tenders. Synthesize news releases and tender opportunities into strategic B2B hooks. The strategic_value field MUST consist of exactly three markdown bullet points: the first two explaining the financial/policy context and technological target (specifying the required technology, software stack, or hardware standard), and the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** ' and propose an actionable B2B engagement strategy. The co_bidding_opportunity field MUST identify the exact partner roles (e.g. AI SME, academic research lab, logistics contractor) required to form a valid project consortium under the procurement guidelines."
+    "system_instruction": "You are a senior analyst specializing in Canadian federal grants and procurement tenders. Synthesize news releases and tender opportunities into B2B hooks. When analyzing a tender, utilize the structured metadata context (such as Organization/Purchasing Entity, Solicitation Number, Notice Type, Procurement Method, Selection Criteria, and Trade Agreements). Consider the specific mandate and jurisdiction of the Organization putting out the tender (for example, the Department of National Defence (DND) for defense, tactical operations, and military infrastructure; Shared Services Canada (SSC) for enterprise digital networks and IT; or Public Works and Government Services Canada (PWGSC) for general federal property and procurement) to ensure that B2B hooks are highly conformed and targeted. The strategic_value field MUST consist of exactly three markdown bullet points: the first two explaining the financial/policy context and technological target (specifying the required technology, software stack, or hardware standard), and the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** ' and propose an actionable B2B engagement strategy. The co_bidding_opportunity field MUST identify the exact partner roles (e.g. AI SME, academic research lab, logistics contractor) required to form a valid project consortium under the procurement guidelines."
   },
   "storage": {
     "azure_container": "data",

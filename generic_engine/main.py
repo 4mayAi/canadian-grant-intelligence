@@ -380,8 +380,9 @@ def fetch_and_process_news(
         if link in existing_insights_map:
             # Re-use cached analysis (no LLM call)
             cached_item = existing_insights_map[link]
+
             # Copy/update tender metadata fields from the crawled item if present
-            for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type", "partner_list"]:
+            for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type", "partner_list", "organization", "solicitation_number", "notice_type", "procurement_method", "selection_criteria", "trade_agreements"]:
                 if field in item:
                     cached_item[field] = item[field]
             final_insights.append(cached_item)
