@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-24T18:01:55.827959Z",
-  "linkedin_post": "🚀 Canada’s federal procurement landscape is shifting rapidly, marked by a major $100 million investment into the VITAL health data platform. This move signals a definitive pivot toward national interoperability standards, creating immediate opportunities for vendors specialized in FHIR integration and secure API management to support this unified data infrastructure.\n\nSimultaneously, the Department of National Defence is accelerating its digital modernization, specifically seeking technical expertise for the National Resource Directory. If your team specializes in Level 2 software development or high-performance UX, now is the time to align your capabilities with DND’s accessibility requirements for federal resource management.\n\nInternationally, the $35.3 million commitment to security and stability in the Americas under the Regional Maritime Security Initiative (RMSI) is set to drive demand for advanced maritime surveillance and data analytics. Firms with expertise in satellite-based domain awareness should monitor this space closely as the project scales across OAS member states.\n\nFinally, for those focused on infrastructure and defense, the ongoing tenders for Explosive Ordinance Disposal training (W6399-23DB10C) and the IDEaS Program (CFP 6) remain high-priority avenues for innovation-led contractors. Ensure your firm is positioned for these long-term engagements by vetting your supply chain against federal security compliance standards.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n#CanadianProcurement #GovCon #HealthTech #DefenceIndustry #DataInteroperability\n\n### Featured News & Sources\n- [Notice of Proposed Procurement (NPP) - Application Services for One (1) Programmer / Software Developer and One (1) Web Graphics Designer](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-259-32423401) (CanadaBuys)\n- [Psychiatry Services Multi Site - Prairie Region](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-779-80539188) (CanadaBuys)\n- [Minister Anand concludes participation in the General Assembly of the Organization of American States, announces $35.3 million to support security and stability in the Americas - canada.ca](https://www.canada.ca/en/global-affairs/news/2026/06/minister-anand-concludes-participation-in-the-general-assembly-of-the-organization-of-american-states-announces-353-million-to-support-security-and.html) (Global Affairs)\n- [Government of Canada invests $100 million in VITAL health data platform](https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/government-of-canada-invests-100-million-in-vital-health-data-platform.html) (ISED)\n",
+  "generated_at": "2026-06-24T18:25:32.305812Z",
+  "linkedin_post": "🚀 Canada’s federal landscape is shifting as the government commits $100M to the VITAL health platform and $35.3M toward regional security. These capital injections signal a major pivot toward national data interoperability and enhanced maritime surveillance capabilities.\n\nTechnological advancement is at the forefront of this cycle. The $100M VITAL investment prioritizes FHIR-standard health data integration, while the $35.3M OAS security initiative targets maritime surveillance and secure communications hardware. Firms specializing in data-tier architecture and secure logistics should align their roadmaps with these federal priorities immediately.\n\nActive tenders require rapid response. The DND is seeking dev and design talent to overhaul the National Resource Directory, while the Correctional Service of Canada is sourcing multi-site psychiatric services across the Prairies through 2029. Additionally, we are tracking urgent requirements for ERP expertise and electrical engineering support within the NCR.\n\nStrategic positioning is essential. Whether you are scaling healthcare staffing for federal institutions or integrating surveillance modules for the Regional Maritime Security Initiative, your ability to meet federal clearance and technical standards is your primary competitive advantage. Identify your niche within these multi-million dollar streams today.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n#GovernmentProcurement #HealthTech #CyberSecurity #CanadaBusiness #PublicSector\n\n### Featured News & Sources\n- [Notice of Proposed Procurement (NPP) - Application Services for One (1) Programmer / Software Developer and One (1) Web Graphics Designer](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-259-32423401) (CanadaBuys)\n- [Psychiatry Services Multi Site - Prairie Region](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-779-80539188) (CanadaBuys)\n- [Minister Anand concludes participation in the General Assembly of the Organization of American States, announces $35.3 million to support security and stability in the Americas - canada.ca](https://www.canada.ca/en/global-affairs/news/2026/06/minister-anand-concludes-participation-in-the-general-assembly-of-the-organization-of-american-states-announces-353-million-to-support-security-and.html) (Global Affairs)\n- [Government of Canada invests $100 million in VITAL health data platform](https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/government-of-canada-invests-100-million-in-vital-health-data-platform.html) (ISED)\n",
   "insights": [
     {
       "source": "CanadaBuys",
@@ -28,7 +28,13 @@
           "name": "Infotech CA Inc.",
           "link": "https://canadabuys.canada.ca/en/node/preview/1470632"
         }
-      ]
+      ],
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "W2282-26-AA003",
+      "notice_type": "RFP against Supply Arrangement",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)"
     },
     {
       "source": "CanadaBuys",
@@ -50,7 +56,13 @@
       "category": "SRV",
       "category_label": "Services",
       "description": "Psychiatrist Services – Multi Sites in PrairieThis requirement is for: The Correctional Service of Canada, Drumheller Institution, Bowden Institution, Pe Sakastew Centre, and Grande Cache Institution the Prairie Region.Trade agreement:\t This procurement is not subject to any trade agreement.Policy on Reciprocal Procurement: This solicitation is open only to Canadian suppliers.Competitive Procurement Strategy: compliant bid with the highest technical scoreSet-aside under the Procurement Strategy ...",
-      "type": "New"
+      "type": "New",
+      "organization": "Correctional Service of Canada (CSC)",
+      "solicitation_number": "21120-27-5408871",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Highest Technical Merit within a Stipulated Maximum Budget",
+      "trade_agreements": "None"
     },
     {
       "source": "CanadaBuys",
@@ -72,7 +84,69 @@
       "category": "SRV",
       "category_label": "Services",
       "description": "The Financial Management Support Directorate is seeking an ERP Technical Analyst – Level 3 resource to provide BASIS administration assistance to the current teams with the ABAP, Web Dynpro (ABAP variant), Fiori & Workflow development as part its operations within IFMS (Integrated Financial & Material System). The resource will work directly with the technical and functional operational teams providing expertise in the IFMS operations support area.",
-      "type": "New"
+      "type": "New",
+      "organization": "Department of Industry (ISED)",
+      "solicitation_number": "ISED216414",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "",
+      "trade_agreements": "Please refer to Tender Description or Tender Documents"
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "TDK Camera and Shielded Audio Intercom System",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-575-23038847",
+      "date": "2026-06-24T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "DND is enhancing its secure communications and surveillance capabilities! 🛡️ New tender seeks TDK cameras, controllers, and shielded audio intercom systems for crucial operational upgrades.",
+        "strategic_value": "* The Department of National Defence (DND) is procuring specialized secure audio-visual hardware, indicating an ongoing investment in tactical communication and surveillance infrastructure for Canadian operations. This aligns with broader federal initiatives to enhance defense capabilities.\n* The tender specifically targets TDK Camera Controllers (SI-300CC-HD-4), HD Video Cameras (VC-06-PT-AC), a Shielded Audio Intercom System (AIS-02 MMR), and associated fiber-optic/video cabling, with an 'OR EQUIVALENT' clause, signifying specific technical standards required for critical environments.\n* **Consulting Pivot:** Companies holding the E60HN-16ELEC Supply Arrangement should aggressively bid, leveraging the 'OR EQUIVALENT' clause to propose innovative, cost-effective solutions. Non-SA holders should explore partnerships with pre-qualified bidders, focusing on supplying 'OR EQUIVALENT' components, or proactively seek SA qualification for future opportunities by demonstrating expertise in secure tactical AV systems.",
+        "co_bidding_opportunity": "Pre-qualified Supply Arrangement holders under E60HN-16ELEC with PSPC may seek partners to fulfill the 'OR EQUIVALENT' clause or share delivery responsibilities for the specified TDK camera and intercom components.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This procurement directly supports DND's operational mandate by upgrading critical physical infrastructure for surveillance and secure communications, which are fundamental to military and defense operations.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-09T00:00:00Z",
+      "province": "Quebec",
+      "province_abbrev": "QC",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "As a requirement of the Supply Arrangement (SA) this notice is published on CanadaBuys for a period of 15 calendar days. Only pre-qualified Suppliers have been invited to bid. Suppliers that do not already hold a Supply Arrangement in series E60HN-16ELEC with PSPC cannot submit a bid.The Department of National Defence requires the supply and delivery of the following items under solicitation W8486-270919/A:Quantity 1 Shielded Audio Intercom SystemP/N: AIS-02MMR: AIS-02:1RCY9AndQuantity 1 Fiber-o...",
+      "type": "New",
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "W8486-270919/A",
+      "notice_type": "RFP against Supply Arrangement",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "NPP – S6040867 - THS SA – One (1) Engineer, electrical. Temporary Help Services against the Supply Arrangement for the National Capital Region (NCR).",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-938-4109518",
+      "date": "2026-06-24T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "DND is urgently seeking a Secret-cleared Electrical Engineer for an 11-month contract in the NCR! 🇨🇦 If you're a pre-qualified THS SA holder, this is a prime opportunity.",
+        "strategic_value": "* The Department of National Defence (DND) requires an Electrical Engineer for an 11-month temporary help service, highlighting a critical, immediate need for specialized expertise to support ongoing or new projects within the National Capital Region.\n* The position demands a 'Secret' security clearance and qualification under specific streams (Stream 3—Electrical and electronics services, category 3.2 Engineer, electrical) of SA EN578-172870, emphasizing the highly sensitive nature and technical specificity of the role.\n* **Consulting Pivot:** For invited Supply Arrangement holders, the strategy should focus on quickly identifying and proposing highly qualified, Secret-cleared electrical engineers. For other staffing firms or independent consultants not on the SA, the opportunity lies in partnering with an invited SA holder or actively pursuing qualification for the relevant THS SA stream, specializing in cleared technical personnel for DND.",
+        "co_bidding_opportunity": "Invited Supply Arrangement holders under EN578-172870 may partner with staffing agencies or independent consultants specializing in Secret-cleared Electrical Engineers to fulfill the temporary help services requirement.",
+        "mets_category": "METS-PMO",
+        "mets_rationalization": "DND's continuous need for specialized engineering talent, fulfilled through temporary help services, underscores its reliance on external expertise to manage complex projects and augment internal capabilities, fitting into the project management and advisory services category.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-10T00:00:00Z",
+      "province": "NCR (Ottawa/Gatineau)",
+      "province_abbrev": "NCR",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "Temporary Help Services RequirementThis requirement is for: Department of National Defense (DND)This requirement is open only to those supply arrangement holders under EN578-172870 who qualified under the following streams and categories: Stream 3—Electrical and electronics services categories – 3.2 Engineer, electricalThe following SA Holders have been invited to submit a proposal: 3056058 Canada inc. Altis Recruitment & Technology Inc. CSI Consulting Inc. GSI International Consulting Inc. HubS...",
+      "type": "New",
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "S6040867",
+      "notice_type": "RFP against Supply Arrangement",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
     },
     {
       "source": "Global_Affairs",
@@ -118,34 +192,6 @@
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
-    },
-    {
-      "source": "CanadaBuys",
-      "title": "Knowledge Editor",
-      "link": "https://www.merx.com/public/solicitations/4007251759/abstract?language=EN",
-      "date": "2026-06-23T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "FCC seeks a Knowledge Editor to shape critical information! ✍️📚 Don't miss this 3-year opportunity with two 1-year options to contribute to Farm Credit Canada's knowledge management strategy.",
-        "strategic_value": "* **Financial/Policy Context:** Farm Credit Canada (FCC) is procuring a 'Knowledge Editor' role, suggesting an emphasis on structured information management and dissemination for policy development, operational guidance, or client-facing resources. The 3-year contract with two 1-year options indicates a sustained need for content expertise.\n* **Technological Target:** While not explicitly technology-specific, the role implies the need for skills in content management systems, knowledge bases, and potentially AI-assisted content creation or organization tools. Familiarity with digital publishing standards and information architecture is likely required.\n* **Consulting Pivot:** Position your firm as a provider of specialized content lifecycle management services. Highlight expertise in developing and maintaining knowledge repositories that align with organizational goals and regulatory requirements, demonstrating capabilities in information architecture and editorial standards.",
-        "co_bidding_opportunity": "Opportunity for technical writers specializing in financial services documentation and information architects with experience in knowledge management systems.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This tender supports FCC's internal operational efficiency and external stakeholder communication by ensuring accurate and accessible knowledge resources, which indirectly supports regulatory compliance and financial advisory services.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-08-03T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "REQUEST FOR PROPOSALS &ndash; &nbsp;&nbsp;KNOWLEDGE EDITORABOUT FCCFCC is proud to be 100% invested in Canadian agriculture and food. Our employees are committed to the long-standing success of those who produce and process Canadian food. FCC provides flexible financing and capital solutions, while creating value through data, knowledge, relationships and expertise. FCC offers a complement of financial and non-financial products and services designed to support the complex and evolving needs of ...",
-      "type": "New",
-      "organization": "Farm Credit Canada (FCC)",
-      "solicitation_number": "PS26-CU-001",
-      "notice_type": "",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
     },
     {
       "source": "ISED_News",
