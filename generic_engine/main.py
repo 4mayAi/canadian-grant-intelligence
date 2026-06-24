@@ -286,7 +286,7 @@ def fetch_and_process_news(
                 items = fetch_canadabuys_tenders(
                     ckan_api_url=src["url"],
                     keywords=config.keywords,
-                    max_items=max_items,
+                    max_items=150,
                     lookback_days=7,
                     source_name=src["name"],
                     pulse_only=pulse_only
