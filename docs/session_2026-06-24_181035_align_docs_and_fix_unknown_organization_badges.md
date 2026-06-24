@@ -11,11 +11,14 @@ Title: Alignment of arc42 documentation and backfilling of organization badges
 - Created a python scratch script `backfill_orgs.py` to fetch active CSV datasets from the CanadaBuys CKAN API and retroactively backfill the missing fields on existing cached files.
 - Executed `backfill_orgs.py` successfully, backfilling 63 out of 64 local tenders and updating `pmo_insights.json`.
 - Explained the conceptual separation between news insights (like Minister Anand's maritime security announcement) and active tenders on the dashboard (temporal ingestion gap / lead time).
+- Identified that `PUBLISHED: N/A` was displayed for new tenders because the generic engine stores the publication date in the `date` field, whereas `docs/index.html` looked only for `publication_date`.
+- Modified `docs/index.html` to fallback to `t.date` when `t.publication_date` is missing and refactored the `formatDate` helper to correctly parse ISO date-time strings without crashing.
 
 ## Summary
 - Aligned global architecture document.
 - Patched metadata copy logic for newly synthesized insights in `generic_engine/main.py`.
 - Backfilled local `tenders.json` and `pmo_insights.json` to resolve the "Unknown" organization badges.
+- Patched `docs/index.html` to resolve `PUBLISHED: N/A` date display issues for newly generated tenders.
 
 ## Next Steps
-- Commit and push changes to git.
+- Push final code fixes to git and verify dashboard updates.
