@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-23T22:01:56.693368Z",
-  "linkedin_post": "🇨🇦 Canada's Spring Economic Update 2026 is officially legislated—and it is a massive green light for federal B2B contractors. With departmental budgets now formalized, the market is bracing for an imminent wave of new RFPs across IT modernization and critical infrastructure.\n\nThe federal government’s $35.3M commitment to regional security in the Americas creates immediate demand for maritime surveillance and secure data integration hardware. Firms specializing in satellite-based maritime domain awareness should move now to align with prime contractors operating in the Regional Maritime Security Initiative.\n\nSimultaneously, the $100M investment in the VITAL health data platform signals a mandatory shift toward national interoperability. Tech firms with expertise in FHIR standards and secure API management should pivot their service offerings to meet these upcoming federal data integration requirements.\n\nFinally, the historic $1B+ Indigenous loan guarantee for the Darlington New Nuclear Project highlights a broader push for base-load power expansion. EPC firms with robust Indigenous relations strategies will find a significant competitive advantage as procurement scoring increasingly emphasizes socioeconomic and green mandates.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n#CanadianProcurement #FederalGrants #HealthTech #NuclearEnergy #MayAi\n\n### Featured News & Sources\n- [Minister Anand concludes participation in the General Assembly of the Organization of American States, announces $35.3 million to support security and stability in the Americas - canada.ca](https://www.canada.ca/en/global-affairs/news/2026/06/minister-anand-concludes-participation-in-the-general-assembly-of-the-organization-of-american-states-announces-353-million-to-support-security-and.html) (Global Affairs)\n- [Government of Canada invests $100 million in VITAL health data platform](https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/government-of-canada-invests-100-million-in-vital-health-data-platform.html) (ISED)\n- [Government announces largest Indigenous loan guarantee in Canadian history to support Darlington New Nuclear Project](https://www.canada.ca/en/department-finance/news/2026/06/government-announces-largest-indigenous-loan-guarantee-in-canadian-history-to-support-darlington-new-nuclear-project.html) (Finance Canada)\n- [Legislation passes to implement measures from the Spring Economic Update 2026](https://www.canada.ca/en/department-finance/news/2026/06/legislation-passes-to-implement-measures-from-the-spring-economic-update-2026.html) (Finance Canada)\n",
+  "generated_at": "2026-06-24T14:07:58.716219Z",
+  "linkedin_post": "🌐 Canada is stepping up its commitment to regional security with a $35.3 million investment in the Americas, signaling prime opportunities for tech integration in surveillance and data analytics. Businesses focused on maritime domain awareness and secure communications should take note.\n\n🚀 The federal government is injecting $100 million into the VITAL health data platform, marking a significant push for national health record interoperability. Health-tech firms specializing in FHIR standards and secure API management are well-positioned to capitalize on this initiative.\n\n⚡ A historic $1 billion+ Indigenous loan guarantee for the Darlington New Nuclear Project highlights Canada's commitment to clean energy and ESG compliance. This development signals long-term support for Small Modular Reactors (SMRs) and creates avenues for EPC firms with strong Indigenous relations strategies.\n\nFurthermore, Farm Credit Canada is seeking a Knowledge Editor, presenting a 3-year opportunity for firms adept at content management systems and information architecture. This role underscores the growing importance of structured knowledge dissemination.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n### Featured News & Sources\n- [Minister Anand concludes participation in the General Assembly of the Organization of American States, announces $35.3 million to support security and stability in the Americas - canada.ca](https://www.canada.ca/en/global-affairs/news/2026/06/minister-anand-concludes-participation-in-the-general-assembly-of-the-organization-of-american-states-announces-353-million-to-support-security-and.html) (Global Affairs)\n- [Government of Canada invests $100 million in VITAL health data platform](https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/government-of-canada-invests-100-million-in-vital-health-data-platform.html) (ISED)\n- [Government announces largest Indigenous loan guarantee in Canadian history to support Darlington New Nuclear Project](https://www.canada.ca/en/department-finance/news/2026/06/government-announces-largest-indigenous-loan-guarantee-in-canadian-history-to-support-darlington-new-nuclear-project.html) (Finance Canada)\n- [Knowledge Editor](https://www.merx.com/public/solicitations/4007251759/abstract?language=EN) (CanadaBuys)\n",
   "insights": [
     {
       "source": "Global_Affairs",
@@ -46,6 +46,28 @@
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "Knowledge Editor",
+      "link": "https://www.merx.com/public/solicitations/4007251759/abstract?language=EN",
+      "date": "2026-06-23T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "FCC seeks a Knowledge Editor to shape critical information! ✍️📚 Don't miss this 3-year opportunity with two 1-year options to contribute to Farm Credit Canada's knowledge management strategy.",
+        "strategic_value": "* **Financial/Policy Context:** Farm Credit Canada (FCC) is procuring a 'Knowledge Editor' role, suggesting an emphasis on structured information management and dissemination for policy development, operational guidance, or client-facing resources. The 3-year contract with two 1-year options indicates a sustained need for content expertise.\n* **Technological Target:** While not explicitly technology-specific, the role implies the need for skills in content management systems, knowledge bases, and potentially AI-assisted content creation or organization tools. Familiarity with digital publishing standards and information architecture is likely required.\n* **Consulting Pivot:** Position your firm as a provider of specialized content lifecycle management services. Highlight expertise in developing and maintaining knowledge repositories that align with organizational goals and regulatory requirements, demonstrating capabilities in information architecture and editorial standards.",
+        "co_bidding_opportunity": "Opportunity for technical writers specializing in financial services documentation and information architects with experience in knowledge management systems.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This tender supports FCC's internal operational efficiency and external stakeholder communication by ensuring accurate and accessible knowledge resources, which indirectly supports regulatory compliance and financial advisory services.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-08-03T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "REQUEST FOR PROPOSALS &ndash; &nbsp;&nbsp;KNOWLEDGE EDITORABOUT FCCFCC is proud to be 100% invested in Canadian agriculture and food. Our employees are committed to the long-standing success of those who produce and process Canadian food. FCC provides flexible financing and capital solutions, while creating value through data, knowledge, relationships and expertise. FCC offers a complement of financial and non-financial products and services designed to support the complex and evolving needs of ...",
+      "type": "New"
     },
     {
       "source": "ISED_News",
@@ -151,6 +173,28 @@
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "Enterprise Data Observability and Governance SaaS Solution",
+      "link": "https://www.merx.com/public/solicitations/4003535985/abstract?language=EN",
+      "date": "2026-06-19T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Farm Credit Canada is investing in robust data governance! 🌾🔒 Secure your firm's future in enterprise data observability and governance with FCC's 3+3 year SaaS solution RFP.",
+        "strategic_value": "* **Financial/Policy Context:** Farm Credit Canada (FCC) is seeking to enhance its enterprise data management capabilities, indicating a strategic focus on data integrity and compliance. This 3-year contract with a 3-year option signifies a significant, long-term investment in data governance infrastructure.\n* **Technological Target:** The requirement is for a cloud-based Software-as-a-Service (SaaS) solution focused on enterprise data observability and governance. This implies a need for advanced data cataloging, lineage tracking, quality monitoring, and access control technologies, likely leveraging modern data stack components.\n* **Consulting Pivot:** Engage FCC's procurement team early to understand their specific data challenges and regulatory compliance needs. Offer tailored demos of SaaS platforms that excel in cloud-native environments and can integrate with existing FCC data ecosystems.",
+        "co_bidding_opportunity": "Seeking AI-driven data cataloging specialists and cloud security firms with experience in financial services data governance frameworks.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This procurement directly supports Farm Credit Canada's regulatory obligations and financial risk management by ensuring the integrity, security, and usability of enterprise data through a modern SaaS solution.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-30T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "Farm Credit Canada (FCC) is seeking proposals for a cloud-based Software-as-a-Service (SaaS) solution to support enterprise data observability, metadata management, data lineage, and data governance capabilities. The selected solution will enable improved visibility, quality, and governance of data assets across the organization, while supporting scalable, secure access for both technical and business users.The successful Proponent will be responsible for providing, implementing, and supporting ...",
+      "type": "Open"
     },
     {
       "source": "PMO_News",

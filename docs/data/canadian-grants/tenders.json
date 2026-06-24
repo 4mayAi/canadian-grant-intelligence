@@ -409,18 +409,6 @@
   },
   {
     "type": "Open",
-    "title": "M7594-263275-RFP for Boots, Congress, Men's and Women's",
-    "description": "*Boots",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014770?anId=ANONYMOUS",
-    "closing_date": "2026-06-22T14:00:00",
-    "publication_date": "2026-06-01",
-    "province": "NCR (Ottawa/Gatineau)",
-    "province_abbrev": "NCR",
-    "category": "GD",
-    "category_label": "Goods"
-  },
-  {
-    "type": "Open",
     "title": "RFP 2026-020 - Findur/Endur consulting services",
     "description": "",
     "link": "https://www.merx.com/public/solicitations/3983868910/abstract?language=EN",
@@ -776,5 +764,49 @@
     "category_label": "Services",
     "description": "Software or hardware engineering",
     "type": "New"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Knowledge Editor",
+    "link": "https://www.merx.com/public/solicitations/4007251759/abstract?language=EN",
+    "date": "2026-06-23T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "FCC seeks a Knowledge Editor to shape critical information! ✍️📚 Don't miss this 3-year opportunity with two 1-year options to contribute to Farm Credit Canada's knowledge management strategy.",
+      "strategic_value": "* **Financial/Policy Context:** Farm Credit Canada (FCC) is procuring a 'Knowledge Editor' role, suggesting an emphasis on structured information management and dissemination for policy development, operational guidance, or client-facing resources. The 3-year contract with two 1-year options indicates a sustained need for content expertise.\n* **Technological Target:** While not explicitly technology-specific, the role implies the need for skills in content management systems, knowledge bases, and potentially AI-assisted content creation or organization tools. Familiarity with digital publishing standards and information architecture is likely required.\n* **Consulting Pivot:** Position your firm as a provider of specialized content lifecycle management services. Highlight expertise in developing and maintaining knowledge repositories that align with organizational goals and regulatory requirements, demonstrating capabilities in information architecture and editorial standards.",
+      "co_bidding_opportunity": "Opportunity for technical writers specializing in financial services documentation and information architects with experience in knowledge management systems.",
+      "mets_category": "METS-Digital",
+      "mets_rationalization": "This tender supports FCC's internal operational efficiency and external stakeholder communication by ensuring accurate and accessible knowledge resources, which indirectly supports regulatory compliance and financial advisory services.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-08-03T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "REQUEST FOR PROPOSALS &ndash; &nbsp;&nbsp;KNOWLEDGE EDITORABOUT FCCFCC is proud to be 100% invested in Canadian agriculture and food. Our employees are committed to the long-standing success of those who produce and process Canadian food. FCC provides flexible financing and capital solutions, while creating value through data, knowledge, relationships and expertise. FCC offers a complement of financial and non-financial products and services designed to support the complex and evolving needs of ...",
+    "type": "New"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Enterprise Data Observability and Governance SaaS Solution",
+    "link": "https://www.merx.com/public/solicitations/4003535985/abstract?language=EN",
+    "date": "2026-06-19T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Farm Credit Canada is investing in robust data governance! 🌾🔒 Secure your firm's future in enterprise data observability and governance with FCC's 3+3 year SaaS solution RFP.",
+      "strategic_value": "* **Financial/Policy Context:** Farm Credit Canada (FCC) is seeking to enhance its enterprise data management capabilities, indicating a strategic focus on data integrity and compliance. This 3-year contract with a 3-year option signifies a significant, long-term investment in data governance infrastructure.\n* **Technological Target:** The requirement is for a cloud-based Software-as-a-Service (SaaS) solution focused on enterprise data observability and governance. This implies a need for advanced data cataloging, lineage tracking, quality monitoring, and access control technologies, likely leveraging modern data stack components.\n* **Consulting Pivot:** Engage FCC's procurement team early to understand their specific data challenges and regulatory compliance needs. Offer tailored demos of SaaS platforms that excel in cloud-native environments and can integrate with existing FCC data ecosystems.",
+      "co_bidding_opportunity": "Seeking AI-driven data cataloging specialists and cloud security firms with experience in financial services data governance frameworks.",
+      "mets_category": "METS-Digital",
+      "mets_rationalization": "This procurement directly supports Farm Credit Canada's regulatory obligations and financial risk management by ensuring the integrity, security, and usability of enterprise data through a modern SaaS solution.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-30T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Farm Credit Canada (FCC) is seeking proposals for a cloud-based Software-as-a-Service (SaaS) solution to support enterprise data observability, metadata management, data lineage, and data governance capabilities. The selected solution will enable improved visibility, quality, and governance of data assets across the organization, while supporting scalable, secure access for both technical and business users.The successful Proponent will be responsible for providing, implementing, and supporting ...",
+    "type": "Open"
   }
 ]
