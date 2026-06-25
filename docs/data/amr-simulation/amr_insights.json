@@ -1,7 +1,45 @@
 {
-  "generated_at": "2026-06-24T19:33:08.866087Z",
-  "linkedin_post": "🚨 Maintaining bio-security at our borders isn't just about personnel—it's about the data architecture backing our public health protocols. As we look at THS 13.5 program administration, firms should leverage these administrative shifts to integrate infectious disease modeling into [PHAC](https://www.canada.ca/en/public-health.html) workflows, optimizing screening resource allocation through predictive risk profiles.\n\nMeanwhile, the discovery of novel trypanosomatid species in Ecuador highlights a critical need for One Health vigilance. Biotech analysts and research organizations should utilize predictive AI-based pathogen reservoir modeling to simulate cross-species transmission risks, securing a strategic edge in international health partnerships.\n\nIn the infrastructure sector, the optimization of sulfate-rich bioreactors for waste management offers a unique digital twin opportunity. By deploying simulation software to predict methane gas production variances, firms can align municipal waste-to-energy projects with federal green transition mandates.\n\nFinally, as the [NRC](https://nrc.canada.ca/) invests in high-accuracy metrology, laboratories must recognize that hardware precision is the bedrock of computational biology. Firms should position themselves to integrate simulation-ready APIs with these new digital calibration tools to ensure that R&D infrastructure remains ready for high-fidelity modeling.\n\nStrategic Value:\n* Understanding the intersection of administrative policy and predictive modeling enables proactive resource management and risk mitigation.\n* Utilizing computational digital twins transforms static infrastructure into dynamic assets for municipal and federal partners.\n* **Consulting Pivot:** Position your firm to support [NRC](https://nrc.canada.ca/)-linked labs and [PHAC](https://www.canada.ca/en/public-health.html) by integrating digital calibration and pathogen simulation software into existing workflows to future-proof research outputs.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#BioTech #PublicHealth #CanadaInnovation #DigitalTwin #ComputationalBiology\n\n### Featured News & Sources\n- [THS - 13.5 Program Administration - Senior](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-317-8772245) (Canada CanadaBuys Procurement)\n- [Uncovering parasite diversity in Ecuadorian wildlife: new trypanosomatid species and novel reservoir hosts for Leishmania amazonensis](https://www.biorxiv.org/content/10.64898/2026.06.22.733918v1?rss=1) (bioRxiv Microbiology)\n- [Minimizing methane emissions during the degradation of sewage sludge in a sulfate-rich bioreactor](https://www.biorxiv.org/content/10.64898/2026.06.23.733557v1?rss=1) (bioRxiv Microbiology)\n- [High-accuracy, high-stability digital multimeters](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-861-6117240) (Canada CanadaBuys Procurement)\n",
+  "generated_at": "2026-06-25T19:52:18.260890Z",
+  "linkedin_post": "🚨 Fungal AMR is on the rise! New genomic insights into Nakaseomyces glabratus reveal resistance mechanisms and potential nosocomial transmission. Hospitals, are your surveillance systems ready to integrate these precise molecular targets into diagnostic workflows?\n\nHantavirus outbreak concludes: The CDC's response highlights critical gaps in global pathogen tracking. Canadian public health leaders should evaluate how virtual pathogen modeling can move us from reactive containment to predictive readiness for rare zoonotic spillovers.\n\nMaintaining bio-security at our borders requires more than personnel—it demands sophisticated data architecture. By integrating infectious disease modeling into [PHAC](https://www.canada.ca/en/public-health.html) administrative workflows, we can optimize resource allocation based on real-time risk profiles instead of static scheduling.\n\nMeanwhile, quantitative modeling of SARS-CoV-2 is revealing phase-specific bottlenecks and new antiviral targets. Biopharma executives must recognize that in silico simulation is no longer optional; it is the fastest route to validating novel compounds and de-risking drug discovery pipelines.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n* **Consulting Pivot:** Develop and implement custom virtual pathogen modeling tools to simulate fungal antimicrobial resistance (fAMR) pathways and nosocomial transmission dynamics of N. glabratus, enabling accelerated antifungal drug discovery and robust public health planning for Canadian hospitals.\n* **Consulting Pivot:** Propose a custom in silico simulation platform to [PHAC](https://www.canada.ca/en/public-health.html), leveraging their infectious disease modeling funding [Fact ID: 1002] to develop predictive models for rare zoonotic spillover events and human-to-human transmission vectors, specifically for emerging hantavirus strains.\n* **Consulting Pivot:** Offer specialized computational biology services to adapt and apply this quantitative modeling framework for other viral pathogens, developing in silico simulation platforms to evaluate novel antiviral compounds and optimize drug discovery pipelines for Canadian biopharma.\n\n#BiotechCanada #PublicHealth #AMR #ComputationalBiology #Innovation\n\n### Featured News & Sources\n- [Antifungal resistance mechanisms and nosocomial transmission of Nakaseomyces glabratus: genomic investigation and observational study in Melbourne, Australia](https://www.biorxiv.org/content/10.64898/2026.06.22.733717v1?rss=1) (bioRxiv Microbiology)\n- [US public health agency concludes hantavirus response as outbreak eases - Al Jazeera](https://www.aljazeera.com/news/2026/6/24/us-public-health-agency-concludes-hantavirus-response-as-outbreak-eases) (Canada PHAC AMR)\n- [THS - 13.5 Program Administration - Senior](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-317-8772245) (Canada CanadaBuys Procurement)\n- [Quantitative modeling of SARS-CoV-2 replication reveals phase-specific bottlenecks and antiviral targets](https://www.biorxiv.org/content/10.64898/2026.06.23.733955v1?rss=1) (bioRxiv Microbiology)\n",
   "insights": [
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Antifungal resistance mechanisms and nosocomial transmission of Nakaseomyces glabratus: genomic investigation and observational study in Melbourne, Australia",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.22.733717v1?rss=1",
+      "date": "2026-06-25T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🚨 Fungal AMR is on the rise! New genomic insights into Nakaseomyces glabratus reveal resistance mechanisms and potential nosocomial transmission. Hospitals, are your surveillance systems ready?",
+        "strategic_value": "- *Nakaseomyces glabratus* (formerly *Candida glabrata*) is a WHO high-priority fungal pathogen, and this study provides critical genomic insights into its fluconazole resistance and nosocomial spread, directly impacting patient safety in healthcare settings.\n- The identification of specific PDR1 mutations, ERG11 duplications, and mitochondrial genomic deletions offers precise targets for developing new antifungal strategies and improving diagnostic capabilities.\n- * **Consulting Pivot:** Develop and implement custom virtual pathogen modeling tools to simulate fungal antimicrobial resistance (fAMR) pathways and nosocomial transmission dynamics of *N. glabratus*, enabling accelerated antifungal drug discovery and robust public health planning for Canadian hospitals.",
+        "co_bidding_opportunity": "No opportunity mentioned.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This research provides critical insights into antimicrobial resistance (AMR) in fungi, which is a growing threat globally and aligns with Canada's national strategy to combat AMR [Fact ID: 1] by informing better surveillance and treatment strategies, leveraging digital simulation tools.",
+        "grounded_fact_ids": [
+          1
+        ],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "Canada_PHAC_AMR",
+      "title": "US public health agency concludes hantavirus response as outbreak eases - Al Jazeera",
+      "link": "https://www.aljazeera.com/news/2026/6/24/us-public-health-agency-concludes-hantavirus-response-as-outbreak-eases",
+      "date": "2026-06-24T20:47:40Z",
+      "insight": {
+        "linkedin_hook": "Hantavirus outbreak concludes: The CDC's swift response to the Andes virus highlights critical needs in global pathogen tracking. 🚢🔬 How can predictive simulation elevate our readiness for the next viral threat?",
+        "strategic_value": "- This outbreak, involving the rare Andes hantavirus strain with human-to-human transmission, underscores the urgent need for advanced virtual pathogen modeling to predict and contain novel viral threats.\n- Computational biology tools could have simulated the Andes virus's transmission pathways, identifying high-risk contact scenarios and informing public health interventions before an outbreak escalates.\n- * **Consulting Pivot:** Propose a custom in silico simulation platform to PHAC, leveraging their infectious disease modeling funding [Fact ID: 1002] to develop predictive models for rare zoonotic spillover events and human-to-human transmission vectors, specifically for emerging hantavirus strains.",
+        "co_bidding_opportunity": "The successful international response, involving the US CDC, ASPR, foreign governments, monitoring services, and the healthcare system, signals a precedent for future collaborative pathogen surveillance and response consortia. Canadian firms specializing in pathogen simulation could align with PHAC to participate in or support such international networks.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "The conclusion of the hantavirus outbreak response emphasizes the critical need for advanced infectious disease simulation and predictive modeling, directly aligning with PHAC's dedicated funding for infectious disease simulation modeling under the Infectious Disease Laboratory Network [Fact ID: 1002].",
+        "grounded_fact_ids": [
+          1002
+        ],
+        "anchor_reference": {
+          "source_name": "PHAC Laboratory Biosafety Guidelines",
+          "page_range": "Page 15",
+          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
+        }
+      }
+    },
     {
       "source": "Canada_CanadaBuys_Procurement",
       "title": "THS - 13.5 Program Administration - Senior",
@@ -28,86 +66,60 @@
       "category": "SRV",
       "category_label": "Services",
       "description": "Nature of Requirements: The following is a summary of the statement of work for this requirement. Program Administration and Health Assessment Support for the Public Health Agency of Canada at the Ottawa International Airport Objectives of the RequirementPHAC requires a Contractor at the Ottawa International Airport.  To support operational requirements and fluctuating traveller volumes, PHAC requires supplemental administrative resources to assist with documentation, information management, tra...",
-      "type": "New",
+      "type": "Open",
       "organization": "Department of Health (HC)",
       "solicitation_number": "1000272929",
       "notice_type": "RFP against Supply Arrangement",
       "procurement_method": "Competitive - Selective tendering",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Colombia Free Trade Agreement"
+      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Panama Free Trade Agreement"
     },
     {
       "source": "bioRxiv_Microbiology",
-      "title": "Uncovering parasite diversity in Ecuadorian wildlife: new trypanosomatid species and novel reservoir hosts for Leishmania amazonensis",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.06.22.733918v1?rss=1",
-      "date": "2026-06-23T00:00:00Z",
+      "title": "Quantitative modeling of SARS-CoV-2 replication reveals phase-specific bottlenecks and antiviral targets",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.23.733955v1?rss=1",
+      "date": "2026-06-24T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Mapping the next pathogen spillover: Are we ready for the silent reservoirs? 🧬",
-        "strategic_value": "- Advanced ecological surveillance models can simulate the host-switching dynamics of kinetoplastids in rapidly changing tropical landscapes.\n- Integrating computational biology into One Health frameworks allows for the rapid identification of potential spillover events before they manifest as public health crises.\n* **Consulting Pivot:** Propose the deployment of predictive AI-based pathogen reservoir modeling software for Canadian international health research partnerships to simulate cross-species transmission risks in biodiverse ecosystems.",
-        "co_bidding_opportunity": "Collaborative research and data-sharing opportunities exist for One Health surveillance programs focusing on vector-borne disease emergence.",
+        "linkedin_hook": "💡 Unlocking SARS-CoV-2's secrets: Quantitative modeling is revealing phase-specific bottlenecks and promising antiviral targets! A game-changer for drug discovery.",
+        "strategic_value": "- This study establishes a powerful predictive framework using mechanistic mathematical modeling to dissect intracellular SARS-CoV-2 replication, offering deep insights into viral kinetics that are difficult to measure experimentally.\n- By identifying viral RNA replication and non-structural protein maturation as dominant determinants, and successfully predicting drug interaction effects for antivirals like remdesivir and nirmatrelvir, the model significantly accelerates the identification and validation of new antiviral targets.\n- * **Consulting Pivot:** Offer specialized computational biology services to adapt and apply this quantitative modeling framework for other viral pathogens, developing *in silico* simulation platforms to evaluate novel antiviral compounds and optimize drug discovery pipelines for Canadian biopharma.",
+        "co_bidding_opportunity": "No opportunity mentioned.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Connects to Canada's role in global infectious disease monitoring and digital surveillance infrastructure.",
+        "mets_rationalization": "Quantitative modeling of viral replication supports Canada's public health preparedness and biodefense strategies against infectious diseases by accelerating drug and vaccine development, fostering a more resilient health-tech ecosystem.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
     },
     {
       "source": "bioRxiv_Microbiology",
-      "title": "Minimizing methane emissions during the degradation of sewage sludge in a sulfate-rich bioreactor",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.06.23.733557v1?rss=1",
-      "date": "2026-06-23T00:00:00Z",
+      "title": "Assessing Corynebacterium glutamicum as a surrogate of Mycobacterium tuberculosis for DNA gyrase inhibitor design.",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.24.734172v1?rss=1",
+      "date": "2026-06-24T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Optimization in the anaerobic digestion space: Turning waste into sustainable energy assets. ♻️",
-        "strategic_value": "- Computational simulation of sulfate-rich bioreactors allows for precise tuning of metabolic pathways to minimize methane output and maximize bio-conversion efficiency.\n- Strategic alignment with green transition goals requires rigorous digital validation of anaerobic processes before scaling infrastructure.\n* **Consulting Pivot:** Suggest a partnership with municipal waste-to-energy projects to implement digital twin software that predicts methane gas production variances during sewage sludge treatment.",
-        "co_bidding_opportunity": "Partnerships between waste management firms and computational process engineering firms to secure sustainable infrastructure grants.",
-        "mets_category": "METS-ESG",
-        "mets_rationalization": "Aligns with Canadian climate targets for methane reduction and sustainable utility management.",
-        "grounded_fact_ids": [],
+        "linkedin_hook": "🔬 Breakthrough in TB drug discovery! A new study validates Corynebacterium glutamicum as a safe surrogate for Mycobacterium tuberculosis, promising faster, safer inhibitor design. #TBDrugs #Biotech",
+        "strategic_value": "- The validation of *Corynebacterium glutamicum* as a biosafe, non-pathogenic surrogate for *Mycobacterium tuberculosis* revolutionizes DNA gyrase inhibitor design, significantly de-risking and accelerating early-stage drug discovery for tuberculosis.\n- This innovative approach enables rapid whole-cell screening and detailed structural/functional comparisons under safe conditions, providing clear morphological signatures for different inhibitor classes, which is crucial for understanding drug mechanisms.\n- * **Consulting Pivot:** Design and deploy computational biology platforms for virtual screening and *in silico* simulation of DNA gyrase inhibitor interactions within *C. glutamicum* and *M. tuberculosis* models, accelerating the discovery and optimization of novel anti-tuberculous compounds for Canadian pharmaceutical firms.",
+        "co_bidding_opportunity": "No opportunity mentioned.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This research directly supports global efforts to combat tuberculosis, aligning with Canadian public health goals and biotech initiatives to develop new antimicrobials, leveraging advanced digital tools for drug discovery, which is critical for health security [Fact ID: 1].",
+        "grounded_fact_ids": [
+          1
+        ],
         "anchor_reference": null
       }
     },
     {
       "source": "bioRxiv_Microbiology",
-      "title": "Complementary Single-Cell Microflow HILIC and Ion Pair LC-MS Reveal Bystander Metabolic Effects in a Macrophage Model of Tuberculosis",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.06.22.733771v1?rss=1",
-      "date": "2026-06-23T00:00:00Z",
+      "title": "Three Plasmid Strategies, One Intermediate Convergence State: Lineage-Specific Resistance, Virulence Architecture in Dominant Indian Carbapenem-Resistant Klebsiella pneumoniae Clones",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.23.734134v1?rss=1",
+      "date": "2026-06-24T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Beyond the infection: Understanding metabolic crosstalk in TB host cells. 🫁",
-        "strategic_value": "- High-resolution metabolic modeling can visualize the micro-environmental shifts occurring within infected macrophages during Mycobacterium tuberculosis infection.\n- These computational insights enable more targeted drug discovery by identifying non-canonical metabolic pathways that the pathogen exploits.\n* **Consulting Pivot:** Recommend an engagement with academic research networks to utilize high-throughput metabolite simulation software for optimizing new TB therapeutic candidates.",
-        "co_bidding_opportunity": "Co-bidding opportunities between bio-tech simulation providers and public health infectious disease research consortia.",
+        "linkedin_hook": "⚠️ Carbapenem-resistant Klebsiella pneumoniae: A new study uncovers how these superbugs are evolving! Genomic surveillance is vital to track resistance and virulence convergence. #AMR #PublicHealth",
+        "strategic_value": "- This study provides critical insights into the complex plasmid-mediated mechanisms driving carbapenem resistance and hypervirulence in *Klebsiella pneumoniae*, a WHO critical priority pathogen, informing urgent public health responses.\n- The identification of lineage-specific plasmid configurations and evolutionary trajectories highlights the necessity for sophisticated genomic surveillance to understand and predict the spread of high-risk multidrug-resistant clones.\n- * **Consulting Pivot:** Develop and implement advanced computational genomics and virtual pathogen modeling tools to simulate CRKp plasmid dynamics and predict AMR spread, offering bespoke genomic surveillance solutions to Canadian public health agencies and hospital networks.",
+        "co_bidding_opportunity": "No opportunity mentioned.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Supports the digital health strategy for advancing domestic pharmaceutical R&D capabilities.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "A novel reverse lipase toxin substrate of the Staphylococcus aureus type VII secretion system",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.06.22.733114v1?rss=1",
-      "date": "2026-06-23T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Deconstructing virulence: Can we outsmart S. aureus secretion systems? 🦠",
-        "strategic_value": "- In silico modeling of bacterial secretion systems allows for the discovery of specific inhibitors that could disable pathogen virulence without relying on traditional antibiotics.\n- Structural biology coupled with simulation tools reduces the time-to-market for novel anti-virulence drugs.\n* **Consulting Pivot:** Propose a partnership with AMR research initiatives to apply proprietary molecular docking simulations that target Type VII secretion system mechanics in S. aureus.",
-        "co_bidding_opportunity": "Opportunities for joint venture R&D with institutions funded for anti-microbial resistance (AMR) mitigation.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Relevant to Canada's national response to the growing global threat of antimicrobial resistance.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Orally available designed miniproteins inhibit enterotoxigenic Bacteroides fragilis pathology by blocking toxin receptor binding",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.06.22.733822v1?rss=1",
-      "date": "2026-06-23T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Blocking the pathology at the gate: Engineering the next generation of oral therapeutics. 💊",
-        "strategic_value": "- Rational design and simulation of miniproteins allow for the precise blockade of toxin-receptor interactions, providing a robust defense against enteric pathogens.\n- Computational biology effectively predicts the stability and binding kinetics of orally available therapeutics in complex gut environments.\n* **Consulting Pivot:** Offer simulation-as-a-service to biotechnology firms focusing on enteric disease to validate miniprotein candidates against Bacteroides fragilis toxins.",
-        "co_bidding_opportunity": "Potential for public-private partnerships between software-focused biotech firms and pharmaceutical developers.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Enhances domestic capability in biopharmaceutical innovation through high-end computational simulation.",
-        "grounded_fact_ids": [],
+        "mets_rationalization": "This research directly addresses the escalating threat of antimicrobial resistance (AMR) in carbapenem-resistant pathogens, a critical public health and economic concern in Canada [Fact ID: 1]. Enhanced genomic surveillance leveraging digital tools is essential for informing Canada's national AMR strategy.",
+        "grounded_fact_ids": [
+          1
+        ],
         "anchor_reference": null
       }
     },
@@ -198,7 +210,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
+      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -266,7 +278,7 @@
       "notice_type": "Advance Contract Award Notice",
       "procurement_method": "Advance contract award notice",
       "selection_criteria": "",
-      "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Please refer to Tender Description or Tender DocumentsCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
+      "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Please refer to Tender Description or Tender DocumentsCanada-UK Trade Continuity Agreement (Canada-UK TCA)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -368,7 +380,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade Agreement"
+      "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade Agreement"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -440,40 +452,6 @@
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
-      "title": "Advanced and Secured KVM Solution",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-376-13783323",
-      "date": "2026-06-08T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Secure data recovery: The silent guardian of mission-critical flight safety. ✈️",
-        "strategic_value": "* Managing sensitive data across isolated laboratory networks requires robust cyber-security and infrastructure architecture, essential for protecting proprietary biological research data.\n* High-risk investigations demand high-availability infrastructure that parallels the requirements for national biosafety lab data security.\n* **Consulting Pivot:** Market your digital infrastructure expertise as a 'secure-by-design' service for specialized labs, ensuring that the transition to isolated simulation networks for pathogens meets stringent national security standards.",
-        "co_bidding_opportunity": "None; this notice is currently expired.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Focuses on the deployment of secure, isolated network management (KVM) hardware for critical investigative and research infrastructure.",
-        "grounded_fact_ids": [
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        }
-      },
-      "closing_date": "2026-06-24T00:00:00Z",
-      "province": "Ontario",
-      "province_abbrev": "ON",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "The National Research Council of Canada (NRC) has a requirement for the supply and delivery of a secure and encrypted Keyboard, Video, Monitor (KVM) solution for use within the Flight Recorder Playback Centre (FRPC).The system will support a range of specialized computers and data recovery equipment used for flight data recorder (FDR) and cockpit voice recorder (CVR) download, playback, and analysis activities. These capabilities support operational services provided by the FRPC, including fligh...",
-      "type": "Open",
-      "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "26-58038",
-      "notice_type": "Advance Contract Award Notice",
-      "procurement_method": "Advance contract award notice",
-      "selection_criteria": "Not applicable",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)"
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
       "title": "NPP 26-58005 High Performance RF and Microwave Test and Measurement Equipment, Amendment #1",
       "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-510-81498608",
       "date": "2026-06-08T00:00:00Z",
@@ -508,6 +486,40 @@
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
+      "title": "Advanced and Secured KVM Solution",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-376-13783323",
+      "date": "2026-06-08T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Secure data recovery: The silent guardian of mission-critical flight safety. ✈️",
+        "strategic_value": "* Managing sensitive data across isolated laboratory networks requires robust cyber-security and infrastructure architecture, essential for protecting proprietary biological research data.\n* High-risk investigations demand high-availability infrastructure that parallels the requirements for national biosafety lab data security.\n* **Consulting Pivot:** Market your digital infrastructure expertise as a 'secure-by-design' service for specialized labs, ensuring that the transition to isolated simulation networks for pathogens meets stringent national security standards.",
+        "co_bidding_opportunity": "None; this notice is currently expired.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Focuses on the deployment of secure, isolated network management (KVM) hardware for critical investigative and research infrastructure.",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        }
+      },
+      "closing_date": "2026-06-24T00:00:00Z",
+      "province": "Ontario",
+      "province_abbrev": "ON",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "The National Research Council of Canada (NRC) has a requirement for the supply and delivery of a secure and encrypted Keyboard, Video, Monitor (KVM) solution for use within the Flight Recorder Playback Centre (FRPC).The system will support a range of specialized computers and data recovery equipment used for flight data recorder (FDR) and cockpit voice recorder (CVR) download, playback, and analysis activities. These capabilities support operational services provided by the FRPC, including fligh...",
+      "type": "Open",
+      "organization": "National Research Council of Canada (NRC)",
+      "solicitation_number": "26-58038",
+      "notice_type": "Advance Contract Award Notice",
+      "procurement_method": "Advance contract award notice",
+      "selection_criteria": "Not applicable",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)"
+    },
+    {
+      "source": "Canada_CanadaBuys_Procurement",
       "title": "Laboratory-Scale Gas Atomizer",
       "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-921-51743946",
       "date": "2026-06-04T00:00:00Z",
@@ -538,7 +550,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade Agreement"
+      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade Agreement"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -714,41 +726,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
-      "title": "26-58018 Laboratory Wind Wall System, Amendment #3, Question and Answer 4",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-742-6929020",
-      "date": "2026-05-29T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Mastering the physics of urban wind flow for the next generation of drone autonomy. 🚁",
-        "strategic_value": "* Complex flow testing is essential for the safety and regulatory compliance of autonomous systems.\n* Aerodynamic modeling serves as the backbone for drone stability in volatile, real-world conditions.\n* **Consulting Pivot:** Suggest using the wind wall performance data to train predictive simulation models, which could be pitched under NRC Ideation Fund programs focusing on aerospace AI.",
-        "co_bidding_opportunity": "Partner with firms focusing on drone aerodynamics and data-driven wind tunnel telemetry.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Combines aerospace R&D with complex wind-flow modeling software, typical of NRC's digital-first research initiatives.",
-        "grounded_fact_ids": [
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        }
-      },
-      "closing_date": "2026-07-30T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "Question and Answer #4 and Amendment #3 RFP 26-58018 Laboratory Wind Wall for Unmanned Aircraft Complex Flow TestingThis amendment is issued to modify the solicitation, please see tender documents for details.ALL OTHER TERMS AND CONDITIONS REMAIN THE SAME ___________________________________________________________________________________________________________________________________________Amendment #2 RFP 26-58018 Laboratory Wind Wall for Unmanned Aircraft Complex Flow TestingThis amendment i...",
-      "type": "Open",
-      "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "26-58018",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Please refer to Tender Description or Tender Documents"
+      "trade_agreements": "Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -783,6 +761,40 @@
       "notice_type": "",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "",
+      "trade_agreements": "Please refer to Tender Description or Tender Documents"
+    },
+    {
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "26-58018 Laboratory Wind Wall System, Amendment #3, Question and Answer 4",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-742-6929020",
+      "date": "2026-05-29T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Mastering the physics of urban wind flow for the next generation of drone autonomy. 🚁",
+        "strategic_value": "* Complex flow testing is essential for the safety and regulatory compliance of autonomous systems.\n* Aerodynamic modeling serves as the backbone for drone stability in volatile, real-world conditions.\n* **Consulting Pivot:** Suggest using the wind wall performance data to train predictive simulation models, which could be pitched under NRC Ideation Fund programs focusing on aerospace AI.",
+        "co_bidding_opportunity": "Partner with firms focusing on drone aerodynamics and data-driven wind tunnel telemetry.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Combines aerospace R&D with complex wind-flow modeling software, typical of NRC's digital-first research initiatives.",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        }
+      },
+      "closing_date": "2026-07-30T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "Question and Answer #5 and Amendment #4 RFP 26-58018 Laboratory Wind Wall for Unmanned Aircraft Complex Flow TestingThis amendment is issued to modify the solicitation, please see tender documents for details.ALL OTHER TERMS AND CONDITIONS REMAIN THE SAME ___________________________________________________________________________________________________________________________________________Question and Answer #4 and Amendment #3 RFP 26-58018 Laboratory Wind Wall for Unmanned Aircraft Complex F...",
+      "type": "Open",
+      "organization": "National Research Council of Canada (NRC)",
+      "solicitation_number": "26-58018",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
       "trade_agreements": "Please refer to Tender Description or Tender Documents"
     },
     {
@@ -865,7 +877,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade Agreement"
+      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -905,7 +917,7 @@
       "notice_type": "",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "",
-      "trade_agreements": "Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)"
+      "trade_agreements": "Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)"
     }
   ]
 }
