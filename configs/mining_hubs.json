@@ -6,13 +6,19 @@
   "sources": [
     {
       "name": "Canada_Mining_News",
-      "url": "https://news.google.com/rss/search?q=%22Mining+Association+of+Canada%22+OR+site:mining.ca/resources/press-releases/&hl=en-CA&gl=CA&ceid=CA:en",
+      "url": "https://mining.ca/feed/",
       "type": "rss",
       "skip_query_refactoring": true
     },
     {
       "name": "Canada_NRCan_News",
-      "url": "https://news.google.com/rss/search?q=site:canada.ca/en/natural-resources-canada/news+%28mining+OR+%22critical+minerals%22+OR+exploration+OR+refining+OR+metals+OR+ESG+OR+sustainability+OR+clean%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=naturalresourcescanada&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Canada_ISED_Mining",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=departmentofindustry&sort=publishedDate&orderBy=desc&pick=15&format=atom",
       "type": "rss",
       "skip_query_refactoring": true
     },
@@ -20,6 +26,12 @@
       "name": "Australia_Mining_News",
       "url": "https://news.google.com/rss/search?q=%22Minerals+Council+of+Australia%22+OR+site:minerals.org.au/news/&hl=en-AU&gl=AU&ceid=AU:en",
       "type": "rss"
+    },
+    {
+      "name": "Australia_WA_Mining",
+      "url": "https://emits.dmp.wa.gov.au/emits/advert/rss.xml",
+      "type": "rss",
+      "skip_query_refactoring": true
     },
     {
       "name": "China_Mining_News",
@@ -39,9 +51,10 @@
       "skip_query_refactoring": true
     },
     {
-      "name": "UK_Mining_News",
-      "url": "https://news.google.com/rss/search?q=%22London+Metal+Exchange%22+OR+site:lme.com/news/&hl=en-GB&gl=GB&ceid=GB:en",
-      "type": "rss"
+      "name": "UK_Gov_Mining",
+      "url": "https://www.gov.uk/search/news-and-communications.atom?keywords=%22critical+minerals%22",
+      "type": "rss",
+      "skip_query_refactoring": true
     },
     {
       "name": "ICMM_Global_ESG",
@@ -55,6 +68,7 @@
     }
   ],
   "keywords": [
+    "critical mineral",
     "critical minerals",
     "sustainability",
     "competitiveness",
@@ -75,11 +89,25 @@
     "mine electrification",
     "battery electric vehicle",
     "BEV",
+    "BEVs",
     "ventilation on demand",
     "digital twin",
     "flotation",
     "predictive maintenance",
     "OPC UA",
+    "lithium",
+    "cobalt",
+    "nickel",
+    "copper",
+    "rare earth",
+    "rare earths",
+    "antimony",
+    "export controls",
+    "permitting",
+    "sanctions",
+    "mining",
+    "minerals",
+    "exploration",
     "OT/IT integration",
     "interoperability",
     "TRL",
