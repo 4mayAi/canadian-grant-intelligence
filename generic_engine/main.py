@@ -827,8 +827,7 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
             now_date = datetime.utcnow().date()
             cutoff_date = now_date - timedelta(days=1)
             for t in existing_tenders:
-                if 'category_label' not in t:
-                    t['category_label'] = get_category_label(t.get('category', ''))
+                t['category_label'] = get_category_label(t.get('category_label') or t.get('category', ''))
                 closing_date_str = t.get('closing_date')
                 if closing_date_str:
                     try:

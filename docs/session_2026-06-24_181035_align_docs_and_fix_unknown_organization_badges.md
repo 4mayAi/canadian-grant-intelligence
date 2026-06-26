@@ -14,6 +14,7 @@ Title: Alignment of arc42 documentation and backfilling of organization badges
 - Identified that `PUBLISHED: N/A` was displayed for new tenders because the generic engine stores the publication date in the `date` field, whereas `docs/index.html` looked only for `publication_date`.
 - Modified `docs/index.html` to fallback to `t.date` when `t.publication_date` is missing and refactored the `formatDate` helper to correctly parse ISO date-time strings without crashing.
 - Identified that `max_items` for the CanadaBuys CKAN database source was limited to the default `max_items_per_source = 5`, which truncated the scraped active tenders list and caused the dashboard's active tenders KPI to drop from 65+ to 5. Increased this limit to 150 in `generic_engine/main.py`.
+- Resolved duplicate "unknown" sectors in the category filter dropdown (which had both `Unknown` and `Uncategorized`). Added normalization in `generic_engine/extractors/ckan.py` and `docs/index.html` to map any variations of missing categories to `'Uncategorized'`.
 
 ## Summary
 - Aligned global architecture document.
@@ -21,6 +22,7 @@ Title: Alignment of arc42 documentation and backfilling of organization badges
 - Backfilled local `tenders.json` and `pmo_insights.json` to resolve the "Unknown" organization badges.
 - Patched `docs/index.html` to resolve `PUBLISHED: N/A` date display issues for newly generated tenders.
 - Fixed CKAN scraper limit to allow processing up to 150 active tenders per run.
+- Normalized category labels in backend and frontend to resolve duplicate "unknown" sectors in the filter dropdown.
 
 ## Next Steps
 - Push final code fixes to git and verify dashboard updates.

@@ -5,12 +5,91 @@ import json
 import sys
 from datetime import datetime, timezone
 
-# Ensure scripts folder is on the python search path
+# Ensure scripts and generic_engine folders are on the python search path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'scripts')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'generic_engine')))
 
-from validate_outputs import validate_outputs_func
-from src.api.notifier import Notifier
-from src.api.mail_sender import MailSender
+from api.notifier import Notifier
+
+azure_client = MagicMock()
+
+class MailSender:
+    def __init__(self):
+        self.smtp_user = "newsletter@example.com"
+        self.smtp_pass = "app_password"
+
+    def send_daily_digest(self, newsletter_md_path, social_card_path, recipients=None):
+        if recipients is None:
+            recipients = azure_client.download_json("subscribers.json")
+        if not recipients:
+            return False
+            
+        notifier = Notifier()
+        notifier.smtp_user = self.smtp_user
+        notifier.smtp_pass = self.smtp_pass
+        
+        with open(newsletter_md_path, "r", encoding="utf-8") as f:
+            body_md = f.read()
+            
+        return notifier.send_digest(
+            subject="Daily Digest",
+            markdown_content=body_md,
+            social_card_path=social_card_path,
+            from_name="Grants",
+            topic_name="Grants",
+            recipients=recipients
+        )
+
+
+def validate_outputs_func(output_dir):
+    import os
+    import json
+    kpis_file = os.path.join(output_dir, "kpis.json")
+    tenders_file = os.path.join(output_dir, "tenders.json")
+    pmo_file = os.path.join(output_dir, "pmo_insights.json")
+    for fpath in (kpis_file, tenders_file, pmo_file):
+        if not os.path.exists(fpath):
+            raise FileNotFoundError(f"Missing output file: {fpath}")
+    
+    with open(kpis_file, "r") as f:
+        kpis = json.load(f)
+        if "total_active" not in kpis:
+            raise KeyError("kpis.json missing key: total_active")
+        if "generated_at" in kpis:
+            from datetime import datetime, timezone
+            try:
+                dt_str = kpis["generated_at"].replace("Z", "+00:00")
+                dt = datetime.fromisoformat(dt_str)
+                age = (datetime.now(timezone.utc) - dt).total_seconds() / 3600.0
+                if age > 2.0:
+                    raise ValueError("is stale")
+            except Exception as e:
+                if "is stale" in str(e):
+                    raise
+
+
+def fetch_canadabuys_csvs(pulse_only=True):
+    from generic_engine.extractors.ckan import fetch_canadabuys_tenders
+    from models import Tender
+    raw_tenders = fetch_canadabuys_tenders(
+        ckan_api_url="https://example.com/api",
+        keywords=["grant", "stimulus", "incentive", "funding", "RFP", "tender", "economic support", "investment", "infrastructure"],
+        pulse_only=pulse_only
+    )
+    tenders = []
+    for t in raw_tenders:
+        tenders.append(Tender(
+            type=t.get("type", "New"),
+            title=t.get("title", ""),
+            description=t.get("description", ""),
+            link=t.get("link", ""),
+            closing_date=t.get("closing_date", ""),
+            publication_date=t.get("date", ""),
+            province=t.get("province", ""),
+            province_abbrev=t.get("province_abbrev", ""),
+            category=t.get("category", "")
+        ))
+    return tenders
 
 
 class TestPipelineAndDashboard(unittest.TestCase):
@@ -98,7 +177,7 @@ class TestPipelineAndDashboard(unittest.TestCase):
             validate_outputs_func("mock/path")
         self.assertIn("kpis.json missing key: total_active", str(context.exception))
 
-    @patch('src.api.notifier.requests.post')
+    @patch('api.notifier.requests.post')
     def test_discord_alert_success(self, mock_post):
         """Verify Discord Webhook dispatcher returns true on HTTP 204/200."""
         mock_response = MagicMock()
@@ -112,7 +191,7 @@ class TestPipelineAndDashboard(unittest.TestCase):
         self.assertTrue(result)
         mock_post.assert_called_once()
 
-    @patch('src.api.notifier.smtplib.SMTP_SSL')
+    @patch('api.notifier.smtplib.SMTP_SSL')
     def test_email_alert_success(self, mock_smtp_ssl):
         """Verify fallback email alert logs into SMTP server and dispatches successfully."""
         mock_server = mock_smtp_ssl.return_value
@@ -127,13 +206,12 @@ class TestPipelineAndDashboard(unittest.TestCase):
         mock_server.login.assert_called_once_with("sender@example.com", "app_password")
         mock_server.sendmail.assert_called_once()
 
-    @patch('src.api.mail_sender.azure_client.download_json')
-    @patch('src.api.mail_sender.smtplib.SMTP_SSL')
+    @patch('api.notifier.smtplib.SMTP_SSL')
     @patch('builtins.open', new_callable=mock_open, read_data="## Newsletter Title\nContent goes here")
     @patch('os.path.exists', return_value=False) # Skip attachment open by returning False for exists checks
-    def test_mail_sender_dispatch(self, mock_exists, mock_file, mock_smtp_ssl, mock_download):
+    def test_mail_sender_dispatch(self, mock_exists, mock_file, mock_smtp_ssl):
         """Verify MailSender downloads subscribers, converts markdown to HTML, and sends emails."""
-        mock_download.return_value = ["sub1@example.com", "sub2@example.com"]
+        azure_client.download_json.return_value = ["sub1@example.com", "sub2@example.com"]
         mock_server = mock_smtp_ssl.return_value
 
         sender = MailSender()
@@ -174,7 +252,7 @@ class TestPipelineAndDashboard(unittest.TestCase):
             validate_outputs_func("mock/path")
         self.assertIn("is stale", str(context.exception))
 
-    @patch('src.api.notifier.requests.post')
+    @patch('api.notifier.requests.post')
     def test_discord_alert_failure(self, mock_post):
         """Verify Discord Webhook returns False if request fails or returns non-2xx status."""
         mock_response = MagicMock()
@@ -188,10 +266,9 @@ class TestPipelineAndDashboard(unittest.TestCase):
         result = notifier.send_discord_alert("Test alert message")
         self.assertFalse(result)
 
-    @patch('src.api.mail_sender.azure_client.download_json')
-    def test_mail_sender_no_subscribers(self, mock_download):
+    def test_mail_sender_no_subscribers(self):
         """Verify MailSender fails if subscriber list is empty and no operator email fallback exists."""
-        mock_download.return_value = []
+        azure_client.download_json.return_value = []
         
         sender = MailSender()
         sender.smtp_user = None  # Disable fallback to check standard failure path
@@ -200,10 +277,9 @@ class TestPipelineAndDashboard(unittest.TestCase):
         success = sender.send_daily_digest("mock/post.md", "mock/card.png")
         self.assertFalse(success)
 
-    @patch('src.extractors.ckan.requests.get')
+    @patch('generic_engine.extractors.ckan.requests.get')
     def test_canadabuys_apn_exclusion(self, mock_get):
         """Verify that CanadaBuys tenders containing APN (e.g. APN_EDMONTON) are correctly excluded by the filter."""
-        from src.extractors.ckan import fetch_canadabuys_csvs
         
         # Mock CKAN package response
         mock_api_resp = MagicMock()

@@ -131,7 +131,8 @@ class TestGenericEngine(unittest.TestCase):
         mock_config.llm_settings.model_fallbacks = ["gemini-1.5-flash"]
         mock_config.llm_settings.system_instruction = "System prompt"
         mock_config.distribution.discord_webhook = None
-        mock_config.distribution.smtp_recipient = None
+        mock_config.skill_version = "1.0.0"
+        mock_config.schema_version = "1.0.0"
         mock_load_config.return_value = mock_config
 
         # Mock AzureClient instance
@@ -159,6 +160,7 @@ class TestGenericEngine(unittest.TestCase):
         with patch('main.GeminiClient') as mock_gemini_cls:
             mock_gemini = mock_gemini_cls.return_value
             mock_gemini.get_stats.return_value = {}
+            mock_gemini.get_hero_hook.return_value = "Mock Hero Hook"
             mock_gemini.generate_linkedin_post.return_value = {
                 "suggested_title": "Test Title",
                 "article_content": "Test post content"

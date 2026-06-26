@@ -3,10 +3,11 @@ from unittest.mock import patch, MagicMock
 import os
 import sys
 
-# Ensure scripts folder is on the python search path
+# Ensure scripts and generic_engine folders are on the python search path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'scripts')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'generic_engine')))
 
-from src.api.gemini_client import GeminiClient
+from api.gemini_client import GeminiClient
 
 class TestScriptsClient(unittest.TestCase):
 
@@ -29,18 +30,20 @@ class TestScriptsClient(unittest.TestCase):
         
         mock_post.side_effect = [mock_resp_rate_limit, mock_resp_success]
         
-        client = GeminiClient()
+        client = GeminiClient(
+            primary_model="gemini-1.5-pro",
+            fallback_models=["model-1", "model-2"],
+            system_instruction="system instruction"
+        )
         client.api_key = "mock-key"
-        # Override models to make testing simple
-        client.fallback_models = ["model-1", "model-2"]
         
         payload = {"contents": [{"parts": [{"text": "hello"}]}]}
         res = client._retry_request(payload)
         
         self.assertIsNotNone(res)
         self.assertEqual(mock_post.call_count, 2)
-        self.assertIn("model-1", mock_post.call_args_list[0][0][0])
-        self.assertIn("model-2", mock_post.call_args_list[1][0][0])
+        self.assertIn("gemini-1.5-pro", mock_post.call_args_list[0][0][0])
+        self.assertIn("model-1", mock_post.call_args_list[1][0][0])
         
         self.assertEqual(client.stats["requests_rate_limited"], 1)
         self.assertEqual(client.stats["model_fallbacks"], 1)
@@ -66,26 +69,29 @@ class TestScriptsClient(unittest.TestCase):
         
         mock_post.side_effect = [mock_resp_daily_limit, mock_resp_success, mock_resp_success]
         
-        client = GeminiClient()
+        client = GeminiClient(
+            primary_model="gemini-1.5-pro",
+            fallback_models=["model-1", "model-2"],
+            system_instruction="system instruction"
+        )
         client.api_key = "mock-key"
-        client.fallback_models = ["model-1", "model-2"]
         
         payload = {"contents": [{"parts": [{"text": "hello"}]}]}
         res1 = client._retry_request(payload)
         
         self.assertIsNotNone(res1)
         self.assertEqual(mock_post.call_count, 2)
-        self.assertIn("model-1", mock_post.call_args_list[0][0][0])
-        self.assertIn("model-2", mock_post.call_args_list[1][0][0])
-        self.assertIn("model-1", client.blacklisted_models)
+        self.assertIn("gemini-1.5-pro", mock_post.call_args_list[0][0][0])
+        self.assertIn("model-1", mock_post.call_args_list[1][0][0])
+        self.assertIn("gemini-1.5-pro", client.blacklisted_models)
         
         res2 = client._retry_request(payload)
         self.assertIsNotNone(res2)
         self.assertEqual(mock_post.call_count, 3)
-        self.assertIn("model-2", mock_post.call_args_list[2][0][0])
+        self.assertIn("model-1", mock_post.call_args_list[2][0][0])
 
     def test_clean_json_text_literal_newlines_and_tabs(self):
-        from src.api.gemini_client import clean_json_text
+        from api.gemini_client import clean_json_text
         import json
         raw_json_with_newlines = '{\n  "key": "line1\nline2",\n  "tab": "val1\tval2"\n}'
         cleaned = clean_json_text(raw_json_with_newlines)

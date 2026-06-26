@@ -45,15 +45,22 @@ def get_category_label(code: str) -> str:
     if not code: return "Uncategorized"
     clean_code = code.replace('*', '').lower().strip()
     clean_code = " ".join(clean_code.split())
+    if clean_code in ["unknown", "uncategorized", "uncategorised"]:
+        return "Uncategorized"
     category_map = {
         'cnst srv gd': 'Construction, Services & Goods',
+        'cnstsrvgd': 'Construction, Services & Goods',
         'gd': 'Goods',
         'srv': 'Services',
         'cnst': 'Construction',
         'cnst srv': 'Construction & Services',
+        'cnstsrv': 'Construction & Services',
         'cnst gd': 'Construction & Goods',
+        'cnstgd': 'Construction & Goods',
         'srv gd': 'Services & Goods',
         'gd srv': 'Services & Goods',
+        'srvgd': 'Services & Goods',
+        'gdsrv': 'Services & Goods',
         'srvtgd': 'Services (Goods-Related)',
         'der': 'Defence & Security',
         'it': 'Information Technology',

@@ -86,8 +86,8 @@
         </div>
 
         <div class="tabs">
-            <button class="tab-btn active" id="btn-tenders" onclick="switchTab('tenders')">CanadaBuys Tenders</button>
-            <button class="tab-btn" id="btn-news" onclick="switchTab('news')">PMO News & Insights</button>
+            <button class="tab-btn active" id="btn-tenders" onclick="switchTab('tenders', event)">CanadaBuys Tenders</button>
+            <button class="tab-btn" id="btn-news" onclick="switchTab('news', event)">PMO News & Insights</button>
         </div>
 
         <div id="tendersView">
@@ -210,9 +210,12 @@
             ]);
         }
 
-        function switchTab(tab) {
+        function switchTab(tab, event) {
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-            event.target.classList.add('active');
+            const clickedBtn = (event && event.currentTarget) || (event && event.target) || document.getElementById(tab === 'tenders' ? 'btn-tenders' : 'btn-news');
+            if (clickedBtn) {
+                clickedBtn.classList.add('active');
+            }
             
             if (tab === 'tenders') {
                 document.getElementById('tendersView').style.display = 'block';
@@ -348,7 +351,7 @@
                     }
                     // Dynamically map province abbreviation on client for perfect integrity
                     t.province_abbrev = PROV_MAP[t.province] || "NAT";
-                    t.category_label = t.category_label || getCategoryLabel(t.category);
+                    t.category_label = getCategoryLabel(t.category_label || t.category);
                 });
                 
                 // Populate filters — provinces are now guaranteed clean
@@ -588,15 +591,23 @@
         function getCategoryLabel(code) {
             if (!code) return 'Uncategorized';
             const cleanCode = code.replace(/\*/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
+            if (cleanCode === 'unknown' || cleanCode === 'uncategorized' || cleanCode === 'uncategorised') {
+                return 'Uncategorized';
+            }
             const map = {
                 'cnst srv gd': 'Construction, Services & Goods',
+                'cnstsrvgd': 'Construction, Services & Goods',
                 'gd': 'Goods',
                 'srv': 'Services',
                 'cnst': 'Construction',
                 'cnst srv': 'Construction & Services',
+                'cnstsrv': 'Construction & Services',
                 'cnst gd': 'Construction & Goods',
+                'cnstgd': 'Construction & Goods',
                 'srv gd': 'Services & Goods',
                 'gd srv': 'Services & Goods',
+                'srvgd': 'Services & Goods',
+                'gdsrv': 'Services & Goods',
                 'srvtgd': 'Services (Goods-Related)',
                 'der': 'Defence & Security',
                 'it': 'Information Technology',
