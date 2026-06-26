@@ -1,6 +1,6 @@
 Date: 2026-06-26
 Time: 05:12 AM UTC
-Title: Fix PMO News tab cross-browser bug and refactor test suites
+Title: Fix PMO News tab cross-browser bug, refactor test suites, and update strategic keywords
 
 - Resumed work on the Canadian Grant Intelligence dashboard.
 - Investigated the absence of PMO news releases in the dashboard. Identified the cause:
@@ -11,10 +11,12 @@ Title: Fix PMO News tab cross-browser bug and refactor test suites
 - Refactored `tests/test_dashboard.py` and `tests/test_scripts_client.py` to fix all deprecated package imports (replacing the old `src` structure with the correct `generic_engine` and local module references).
 - Simplified mocking in `tests/test_dashboard.py` by using a module-level global `MagicMock` for the `azure_client` dependency, removing complex patch paths.
 - Fixed `GeminiClient` instantiation and mock assertions in `tests/test_scripts_client.py` to match the refactored config-driven generic engine layout.
+- Performed research on missing rallying keywords used by global leaders in news releases. Proposed and implemented the addition of 12 strategic B2B keywords (`resilience`, `prosperity`, `sovereignty`, `competitiveness`, `transition`, `partnership`, `collaboration`, `supply chain`, `net-zero`, `decarbonization`, `reconciliation`, `modernization`) in `configs/canadian_grants.json` to prevent discarding high-value PMO and ministerial announcements.
 - Verified that all unit tests and standalone validation test scripts pass successfully.
 
 Summary:
 - Resolved the PMO News tab cross-browser navigation issue.
+- Expanded the pre-filter keyword list with 12 strategic/rallying terms to improve PMO/ministerial news capture.
 - Refactored the entire unit test suite to be green and aligned with the new Generic Engine layout.
 
 Issues:
