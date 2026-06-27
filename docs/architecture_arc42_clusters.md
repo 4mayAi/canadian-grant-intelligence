@@ -7,7 +7,7 @@ This document describes the software architecture of the Global Innovation Clust
 ## 1. Introduction and Goals
 
 ### 1.1 Requirements Overview
-The Global Innovation Clusters Pipeline is a specialized intelligence system. It monitors and synthesizes news releases, funding opportunities, and project calls from Canada’s five Global Innovation Clusters:
+The Global Innovation Clusters Pipeline (Skill `innovation-clusters`, displayed as `Canadian Innovation Clusters Intelligence`) is a specialized intelligence system. It monitors and synthesizes news releases, funding opportunities, and project calls from Canada’s five Global Innovation Clusters:
 1. **DIGITAL** (Digital Technology Supercluster)
 2. **Scale AI** (Artificial Intelligence Supercluster)
 3. **NGen** (Next Generation Manufacturing Canada)
@@ -125,8 +125,10 @@ generic_engine/
 ├── schema.py                   # Pydantic V2 config models (PipelineConfig, SourceConfig)
 ├── models.py                   # Dataclasses (GeminiInsight, ReportItem, NewsWrapper, KPIDashboard)
 ├── extractors/
-│   ├── rss.py                  # Fetches and parses standard RSS/Atom feeds
-│   └── playwright_scraper.py   # Extracts clean titles/dates from dynamic HTML pages
+│   ├── ckan.py                 # Direct CanadaBuys CKAN API database crawler
+│   ├── rss.py                  # Parses RSS/Atom news feeds
+│   ├── playwright_scraper.py   # Extracts clean titles/dates from dynamic HTML pages
+│   └── report_scraper.py       # Standby PDF report crawler
 └── api/
     ├── azure_client.py         # Handles raw JSON and file uploads to Azure Blob Storage
     ├── gemini_client.py        # Connects to Gemini API for B2B insights synthesis
@@ -190,7 +192,9 @@ sequenceDiagram
 
 ## 7. Deployment View
 
-- **GitHub Actions Runner**: Executed daily on Ubuntu runners. Browser binaries are optimized using standard Playwright caching strategies in the action configuration.
+- **GCP Cloud Scheduler Trigger**: Configured in Google Cloud Scheduler as HTTP POST jobs dispatching directly to the GitHub repository API to run the workflow:
+  - `daily-clusters-scraper-trigger` executing daily at `15:00 UTC` (11:00 AM EDT).
+- **GitHub Actions Runner**: Executed on Ubuntu runners. Browser binaries are optimized using standard Playwright caching strategies in the action configuration.
 - **Azure Integration**: Reads and writes to the `clusters-data` storage container.
 - **Dashboard Deployment**: Dynamic Javascript in [docs/clusters/index.html](file:///c:/dev/canadian-grant-intelligence/docs/clusters/index.html) pulls directly from Azure. The dashboard links to [style.css](file:///c:/dev/canadian-grant-intelligence/docs/style.css) which has been optimized for gold link readability.
 

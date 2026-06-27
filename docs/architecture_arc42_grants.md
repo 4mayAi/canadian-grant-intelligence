@@ -7,7 +7,7 @@ This document describes the software architecture of the Canadian Grants Intelli
 ## 1. Introduction and Goals
 
 ### 1.1 Requirements Overview
-The Canadian Grants Intelligence Pipeline is a scheduled B2B monitoring system that tracks and synthesizes federal grants, funding allocations, and procurement tenders. It monitors:
+The Canadian Grants Intelligence Pipeline (Skill `canadian-grants`, displayed as `Canadian Grant Intelligence`) is a scheduled B2B monitoring system that tracks and synthesizes federal grants, funding allocations, and procurement tenders. It monitors:
 1. **Prime Minister's Office (PMO)** announcements.
 2. **Innovation, Science and Economic Development Canada (ISED)** updates.
 3. **Finance Canada** releases.
@@ -100,11 +100,19 @@ The pipeline is registered as a Skill in the Generic Engine. Key strategies incl
 generic_engine/
 ├── main.py                     # Main orchestrator (fetches feeds, groups by hub, calls Gemini)
 ├── models.py                   # Dataclass schemas for Insights and KPIs
-└── schema.py                   # Pydantic V2 configuration validator
+├── schema.py                   # Pydantic V2 configuration validator
+├── extractors/
+│   ├── ckan.py                 # Direct CanadaBuys CKAN API database crawler
+│   ├── rss.py                  # Parses RSS/Atom news feeds
+│   └── report_scraper.py       # Standby PDF report crawler
+└── api/
+    ├── azure_client.py         # Azure Blob Storage client
+    ├── gemini_client.py        # Gemini API interface
+    └── notifier.py             # Email digest SMTP transmitter & failure notifier
 
 configs/
 ├── canadian_grants.json        # Ingestion sources, search terms, and model parameters
-└── grants_anchors.json         # Local seed database for slow-moving payment anchors
+└── grants_anchors.json         # Local seed database for slow-moving anchors (currently empty)
 
 docs/
 ├── index.html                  # Frontend presentation dashboard
@@ -163,7 +171,11 @@ sequenceDiagram
 
 ## 7. Deployment View
 
-- **GitHub Actions Runner**: Executed daily on Ubuntu runners via `daily_grants_scraper.yml` calling `run_pipeline.yml`.
+- **GCP Cloud Scheduler Triggers**: Configured in Google Cloud Scheduler as HTTP POST jobs dispatching directly to the GitHub repository API to run the workflows. The native GHA cron schedule sections are kept commented out as a local fallback.
+  - `daily-grants-scraper-morning-trigger` running daily at `10:00 AM New York time` (14:00 UTC).
+  - `daily-grants-scraper-midday-trigger` running daily at `2:00 PM New York time` (18:00 UTC).
+  - `daily-grants-scraper-eod-trigger` running daily at `6:00 PM New York time` (22:00 UTC).
+- **GitHub Actions Runner**: Executed on Ubuntu runners via `daily_grants_scraper.yml` calling `run_pipeline.yml`.
 - **Azure Integration**: Reads and writes to the root `data` storage container.
 - **Dashboard Deployment**: Dynamic Javascript in [docs/index.html](file:///c:/dev/canadian-grant-intelligence/docs/index.html) pulls directly from Azure. The dashboard links to [style.css](file:///c:/dev/canadian-grant-intelligence/docs/style.css).
 
@@ -203,8 +215,9 @@ Formulates B2B LinkedIn posts containing summaries of the latest news and format
 - **Zero-Relational-Database JSON Storage**: Storing datasets as structured, static JSON files in Azure Blob allows the frontend to operate without a server-side backend, reducing hosting costs.
 - **Low-RPM, High-TPM Optimization Strategy**: To safeguard Gemini API request quotas, new news items are batch-processed in groups of 5. This design aggregates texts into single API calls, taking advantage of Gemini's high token-per-minute (TPM) limit while staying well below the requests-per-minute (RPM) threshold.
 - **Telemetry Observability**: The orchestrator automatically logs total API transaction sizes and token stats (`gemini_client.get_stats()`) at the end of each execution, providing complete visibility into usage costs and pipeline efficiency.
-- **Collapsible Events & Milestones Deck**: Implemented a dynamic, collapsible card deck directly above the daily signals list. It fetches conformed summits, webinars, and global conference facts from a static anchors database (`grants_anchors.json`) based on their type, and handles empty states by hiding the component if no active events exist for a hub, ensuring clean visual presentation.
 - **Prefix-Less backups**: Configured with `prefix_historical_files: false` so that the daily backups are stored matching historical path conventions, preventing dashboard load failures on the legacy dashboard.
+- **Event Deck Exclusion**: Unlike the Clusters dashboard, the Grants dashboard does not render a collapsible Events & Milestones deck, as the Grants anchors database `grants_anchors.json` does not contain event scheduling records.
+
 
 ---
 

@@ -98,8 +98,14 @@ generic_engine/
 ├── main.py                     # Main orchestrator (fetches feeds, groups by hub, calls Gemini, merges cache)
 ├── models.py                   # Dataclass schemas for Insights and KPIs
 ├── schema.py                   # Pydantic V2 configuration validator
-└── extractors/
-    └── ckan.py                 # Direct CanadaBuys CKAN API database crawler
+├── extractors/
+│   ├── ckan.py                 # Direct CanadaBuys CKAN API database crawler
+│   ├── rss.py                  # Parses RSS/Atom news feeds
+│   └── report_scraper.py       # Standby PDF report crawler
+└── api/
+    ├── azure_client.py         # Azure Blob Storage client
+    ├── gemini_client.py        # Gemini API interface
+    └── notifier.py             # Email digest SMTP transmitter & failure notifier
 
 configs/
 ├── amr_simulation.json         # Ingestion sources, search terms, and model parameters
@@ -167,7 +173,9 @@ sequenceDiagram
 
 ## 7. Deployment View
 
-- **GitHub Actions Runner**: Executed daily on Ubuntu runners via `daily_amr_scraper.yml` calling `run_pipeline.yml`.
+- **GCP Cloud Scheduler Trigger**: Configured in Google Cloud Scheduler as HTTP POST jobs dispatching directly to the GitHub repository API:
+  - `daily-amr-simulation-scraper-trigger` executing daily at `15:00 UTC` (11:00 AM EDT).
+- **GitHub Actions Runner**: Executed daily on Ubuntu runners via `daily_amr_simulation_scraper.yml` calling `run_pipeline.yml`.
 - **Azure Integration**: Reads and writes to the `amr-simulation-data` storage container.
 - **Dashboard Deployment**: Dynamic Javascript in [docs/amr-simulation/index.html](file:///c:/dev/canadian-grant-intelligence/docs/amr-simulation/index.html) pulls directly from Azure. The dashboard links to [style.css](file:///c:/dev/canadian-grant-intelligence/docs/style.css).
 
@@ -211,8 +219,7 @@ The system connects directly to the CanadaBuys CKAN API to ingest federal tender
 - **Config-Driven Generalization**: Storing pipeline parameters (keywords, source lists, container settings) in JSON files allows adding new portals or pipelines without changing core orchestrator code.
 - **Zero-Relational-Database JSON Storage**: Storing datasets as structured, static JSON files in Azure Blob allows the frontend to operate without a server-side backend, reducing hosting costs.
 - **Low-RPM, High-TPM Optimization Strategy**: To safeguard Gemini API request quotas, new news items are batch-processed in groups of 5. This design aggregates texts into single API calls, taking advantage of Gemini's high token-per-minute (TPM) limit while staying well below the low requests-per-minute (RPM) threshold.
-- **Telemetry Observability**: The orchestrator automatically logs total API transaction sizes and token stats (`gemini_client.get_stats()`) at the end of each execution, providing complete visibility into usage costs and pipeline efficiency.
-- **Collapsible Events & Milestones Deck**: Implemented a dynamic, collapsible card deck directly above the daily signals list. It fetches conformed summits, webinars, and global conference facts from a static anchors database (`amr_anchors.json`) based on their type, and handles empty states by hiding the component if no active events exist for a hub, ensuring clean visual presentation.
+- **Event Deck Exclusion**: Unlike the Clusters dashboard, the AMR dashboard does not render a collapsible Events & Milestones deck, as the AMR anchors database `amr_anchors.json` does not contain event scheduling records.
 - **Bypass Refactoring for AMR/Biotech Feeds**: Google News searches and scientific RSS feeds bypass query refactoring (`skip_query_refactoring: true`) because search queries are already highly targeted and refactoring would yield zero results.
 
 ---

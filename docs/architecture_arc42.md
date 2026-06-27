@@ -85,7 +85,7 @@ graph TD
 
 ## 4. Solution Strategy
 
-The platform orchestrates the high-fidelity intelligence pipeline via scheduled GitHub Actions cron runners executing 3x daily (10:00 AM, 2:00 PM, and 6:00 PM EDT). The Azure Container Apps Job is kept on standby as a manual override option to ensure operational resilience and zero infrastructure loss.
+The platform orchestrates the high-fidelity intelligence pipeline via dispatches triggered by external Google Cloud Scheduler HTTP POST jobs running daily or 3x daily directly to the GitHub repository API, which triggers GitHub Actions runners. Native GitHub Actions cron schedule sections are kept commented out in all workflows as a local fallback. The Azure Container Apps Job is kept on standby as a manual override option to ensure operational resilience and zero infrastructure loss.
 
 Key strategies include:
 - **Agentic Decoupling via Skills Registry**: Decoupling the orchestrator runtime (Generic Engine) from the domain logic (configured as "Skills" consisting of JSON configuration files, prompt templates, and anchors seed datasets). This makes the platform self-describing, enabling autonomous agents to register and run pipelines without modifying the runtime code.
@@ -111,19 +111,18 @@ generic_engine/
 ├── extractors/
 │   ├── ckan.py                # Interacts with CanadaBuys CKAN API for CSV files
 │   ├── rss.py                 # Fetches and parses RSS feeds with dynamic keyword parameters
-│   └── playwright_scraper.py  # Headless browser crawler for JS-rendered news feeds
+│   ├── playwright_scraper.py  # Headless browser crawler for JS-rendered news feeds
+│   └── report_scraper.py      # Parses PDFs and documents for slow-moving anchors
 └── api/
     ├── azure_client.py        # Wrapper for Azure Blob Storage with auto-bootstrap checks
     ├── gemini_client.py       # Batch querying wrapper for Gemini LLM
-    ├── notifier.py            # Failure notification handler (Discord + Email)
-    └── mail_sender.py         # Subscriptions digest and HTML newsletter compiler
+    └── notifier.py            # Failure notification and HTML digest SMTP mailer (Discord + Email)
 ```
 
 - **main.py**: The orchestrator. Coordinates feed scraping, deduplication, LLM synthesis, triggers the output validator, compiles date manifests, and uploads reports to Azure Blob storage.
 - **schema.py**: Enforces strict configuration schemas (supporting parameters like `manifest_file`, source overrides, and metadata) to allow running different pipelines (Innovation Clusters, Mining Hubs) under the same orchestrator.
-- **validate_outputs.py**: Validates schemas and age freshness prior to cloud uploading.
-- **notifier.py**: Handles error alerts, pushing embedded Markdown reports to Discord webhooks and plain-text SMTP warnings to administrators.
-- **mail_sender.py**: Downloads the active subscriber index (`subscribers.json`) and runs individual SMTP runs containing the daily HTML digest and social card attachment.
+- **notifier.py**: Handles error alerts (Discord/Email) and compiles/dispatches the daily HTML digest newsletters to subscribers.
+- **validate_outputs.py**: Validates schemas and age freshness prior to cloud uploading. (Now deprecated in favor of the engine's internal validator).
 
 ### 5.2 Skills Registry Infrastructure
 
@@ -205,7 +204,7 @@ The system enforces strict data verification. If any check fails inside `validat
 - **Individual SMTP Dispatching**: Sending individual emails rather than CC-ing subscribers prevents recipient email leakage and aligns with privacy regulations.
 - **Algorithmic Pacing (Throttling)**: The extraction orchestrator enforces strict geometric pacing to guarantee execution requests mathematically never exceed the primary model's Requests Per Minute (RPM) ceiling (e.g., 15 RPM).
 - **Batch Processing Pipelines**: To aggressively protect low RPM limits while maximizing high Tokens Per Minute (TPM) limits, input text is grouped and transmitted in unified batch arrays. The model enforces structured JSON output schemas to return parallel arrays of insights.
-- **Model Waterfall (Fallback Strategy)**: The LLM client implements a tiered routing pattern. If a primary endpoint (`gemini-2.5-flash-lite`) is saturated or exhausts its daily RPD quota, the client traps the exception and dynamically pivots the payload to an equivalent secondary endpoint (`gemini-3.1-flash-lite`), which maintains a completely isolated quota bucket.
+- **Model Waterfall (Fallback Strategy)**: The LLM client implements a tiered routing pattern. If the primary model (`gemini-3.5-flash`) is rate-limited or exhausts its daily quota, the client traps the exception and dynamically pivots the payload through fallback models (`gemini-2.5-flash` $\rightarrow$ `gemini-3.1-flash-lite` $\rightarrow$ `gemini-2.5-flash-lite`), which utilize separate quota pools.
 - **Self-Healing News Cache**: Using the live `pmo_insights.json` file as the cache, allowing missing or corrupted items to automatically heal and old ones to prune natively, bypassing the restrictive `processed_urls.json` filter.
 - **Feed Failure Resilience**: Tracking individual RSS feed statuses during parsing. If a feed source fails, the system automatically retains all existing insights in `pmo_insights.json` belonging to that source, preventing data loss due to temporary network or server outages.
 - **Self-Healing Storage Bootstrapping**: Azure storage containers (such as `mining-hubs-data`) are verified and dynamically created with public blob access on first pipeline upload. This removes manual container creation tasks and guarantees zero-downtime deployment in new clouds.
