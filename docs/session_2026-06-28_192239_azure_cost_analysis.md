@@ -9,13 +9,16 @@ Session Content:
 - Reviewed the billing data: total spend was CAD 16.19 over 6 months, driven mostly by Key Vault `myagentkeyvault` in `myrealresourcegroup` (CAD 12.42, 76.7% of total), with spikes on May 31 (CAD 4.03) and June 17 (CAD 8.34).
 - Secondary cost is the storage account `credspreadstrategy` in `css` (CAD 3.99).
 - Copied the browser session recording `recording.webm` and created the report `azure_cost_analysis.md` in the artifact folder.
+- Initiated second phase of investigation: invoked browser subagent to examine the `myagentkeyvault` resource in detail (metrics, activity log, access policies).
 
 Summary:
 - Analyzed Azure billing data and found the primary cost driver is Key Vault `myagentkeyvault` spikes.
 - Created cost analysis report artifact and embedded the browser recording.
+- Started detailed investigation of the `myagentkeyvault` transaction patterns and configurations.
 
 Issues:
 - None.
 
 Next Steps:
-- Report the results to the user.
+- Retrieve findings from the Key Vault detailed investigation subagent.
+- Provide definitive explanation of what application/setting is driving the Key Vault costs.
