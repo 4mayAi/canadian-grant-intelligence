@@ -15,6 +15,7 @@ Title: Fibre Optics Integration Research
 - Implemented the configuration updates (keywords and anchors) in the respective JSON config files.
 - Executed local dry-run pipeline tests to verify end-to-end run pathways.
 - Staged, committed, and pushed all updates to the origin main branch on GitHub to enable live runs.
+- Triggered and monitored the three live pipelines on GitHub Actions using the `gh` CLI (`Canadian Grants`, `Innovation Clusters`, and `Mining Hubs`).
 
 ### Summary
 - Analyzed the architecture of CGI 2.0 (mayAi).
@@ -23,6 +24,8 @@ Title: Fibre Optics Integration Research
 - Successfully verified the pipeline's extraction and classification logic for space-grade and marine edge technology.
 - Created and QA'd the implementation plan artifact for next-gen integration, resolving layout and ingestion decisions.
 - Successfully deployed configuration and database updates to main, validating skill schemas locally.
+- Initiated the live production runs on GitHub Actions to generate and distribute subscriber digests.
+
 
 ### Issues
 - Resolved a Windows terminal encoding issue (UnicodeEncodeError) in `scratch/demo_fiber_integration.py` by forcing `sys.stdout` to use UTF-8.
