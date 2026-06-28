@@ -1,1 +1,33 @@
-{}
+{
+  "Canada": [
+    {
+      "id": 1,
+      "fact": "Under the Telecommunications Act, physical transmission facility owners must be majority Canadian-owned, but foreign companies are classified as resellers rather than carriers if they lease dark fiber via long-term Indefeasible Rights of Use (IRUs) and attach their own optical equipment.",
+      "source": "CRTC Telecommunications Act & Regulatory Framework",
+      "pages": "General",
+      "url": "https://crtc.gc.ca/"
+    },
+    {
+      "id": 2,
+      "fact": "Provincial power utilities (e.g., BC Hydro, Hydro-Québec, SaskPower) operate as government-owned Crown corporations holding primary utility right-of-way assets, making dark fiber leasing and grid construction subject to strict public RFP procurement laws.",
+      "source": "Provincial Crown Corporations Procurement Guidelines",
+      "pages": "General",
+      "url": "https://www.canada.ca/"
+    },
+    {
+      "id": 3,
+      "fact": "Canadian data privacy laws (PIPEDA, BC FIPPA, Quebec Law 25) mandate that public sector and government AI workloads must guarantee data sovereignty, requiring purely domestic terrestrial routing across the Canadian Shield and Rockies.",
+      "source": "Federal & Provincial Data Sovereignty Legislation",
+      "pages": "General",
+      "url": "https://www.priv.gc.ca/"
+    },
+    {
+      "id": 4,
+      "fact": "Recipient companies of federal Universal Broadband Fund (UBF) connectivity subsidies are subject to mandatory 'open access' rules, requiring them to lease dark fiber and wholesale capacity to competitors at regulated, fair-market rates.",
+      "source": "ISED Universal Broadband Fund Program Guidelines",
+      "pages": "General",
+      "url": "https://ised-isde.canada.ca/"
+    }
+  ]
+}
+
