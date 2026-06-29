@@ -1,18 +1,63 @@
 {
-  "generated_at": "2026-06-28T19:10:43.852164Z",
-  "linkedin_post": "🚀 Are our clinical empirical therapy guidelines and surveillance models dangerously outdated for the post-antibiotic era? From shifting NSTI bacterial profiles to the dynamic pulse of AMR migration in the Great Lakes, current static monitoring is losing the race against emerging pathogens.\n\nNew data from North India highlights that standard treatments risk failure by ignoring site-specific polymicrobial dominance, while recent findings in transboundary water channels demand a shift from legacy seasonal averaging to pulse-stratified surveillance. These trends underscore a critical business opportunity for Canadian firms to integrate digital twin simulation software to stress-test regional treatment protocols and model AMR dispersion.\n\nBeyond public health, high-stakes infrastructure procurement is accelerating. The [National Research Council](https://nrc.canada.ca/)’s current search for advanced hexapod simulation hardware (ACAN 26-58020) highlights a growing demand for integrated, high-precision motion control architectures. Similarly, the conclusion of the recent Hantavirus outbreak reminds us that the ability to simulate transmission pathways is now a core requirement for pandemic preparedness.\n\nstrategic_value:\n* Localized, metagenomic-driven modeling allows hospitals to stress-test empirical treatment protocols against regional pathogen variants.\n* Pulse-stratified in silico simulations provide regulators with a more accurate, risk-based framework for One Health water quality monitoring.\n* **Consulting Pivot:** Develop custom simulation software proposals that align with [NRC](https://nrc.canada.ca/) Aerodynamics Laboratory requirements (Fact ID: 1001) or [PHAC](https://www.canada.ca/en/public-health.html) infectious disease modeling funding (Fact ID: 1002) to bridge the gap between hardware procurement and predictive capability.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#Biotech #PublicHealth #Simulation #AMR #Canada\n\n### Featured News & Sources\n- [Gram-negative-dominated polymicrobial microbiome of necrotizing soft tissue infections from North India: an integrated culture and 16S rRNA metagenomics prospective cohort study](https://www.biorxiv.org/content/10.64898/2026.06.25.734553v1?rss=1) (bioRxiv Microbiology)\n- [Pulse-driven and persistent antimicrobial resistance markers in a transboundary Great Lakes connecting channel: pulse-week-stratified water-quality thresholds for One Health surveillance](https://www.biorxiv.org/content/10.64898/2026.06.26.734869v1?rss=1) (bioRxiv Microbiology)\n- [ACAN 26-58020 Laboratory Motion Platform System (Hexapod)](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-500-23638241) (Canada CanadaBuys Procurement)\n- [US public health agency concludes hantavirus response as outbreak eases - Al Jazeera](https://www.aljazeera.com/news/2026/6/24/us-public-health-agency-concludes-hantavirus-response-as-outbreak-eases) (Canada PHAC AMR)\n",
+  "generated_at": "2026-06-29T19:49:49.233110Z",
+  "linkedin_post": "🦠 **AMR takes a new turn, simulation powers aerospace, and predictive modeling is critical for global health security!** Today’s health-tech landscape demands agile responses and advanced computational tools. New bioRxiv research reveals NDM-7 carbapenemase spreading via Outer Membrane Vesicles (OMVs) in *Klebsiella pneumoniae*, a game-changer for antibiotic resistance. Pharmaceutical firms and public health agencies should note how virtual pathogen modeling can develop strategies to disarm this evolving resistance mechanism and predict treatment failures. \n\nMeanwhile, the [National Research Council](https://nrc.canada.ca/) of Canada ([NRC](https://nrc.canada.ca/)-AERO) is seeking a high-precision hexapod for simulating complex ship motions, signaling significant investment in advanced physical simulation infrastructure. Software providers specializing in highly integrated and customizable simulation solutions should immediately review this ACAN 26-58020 tender, aligning with federal funding initiatives for breakthrough simulation platforms [Fact ID: 1001]. \n\nGlobally, the conclusion of a Hantavirus outbreak underscores the urgent need for advanced predictive modeling against novel viral threats. Public health agencies and infectious disease researchers must invest in advanced in silico simulation platforms to model rare zoonotic spillover events and inform rapid intervention strategies, aligning with funding for infectious disease modeling [Fact ID: 1002].\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n#CanadianHealthTech #ComputationalBiology #AMR #PublicHealth #mayAi\n\n### Featured News & Sources\n- [Effect of CSFV on Differential Genes of Histone Lactylation at H3K18 in the PI3K-AKT Signaling Pathway](https://www.biorxiv.org/content/10.64898/2026.06.26.734696v1?rss=1) (bioRxiv Microbiology)\n- [Functional export of NDM-7 to outer membrane vesicles in Klebsiella pneumoniae compromises imipenem and cefiderocol activity](https://www.biorxiv.org/content/10.64898/2026.06.26.734736v1?rss=1) (bioRxiv Microbiology)\n- [ACAN 26-58020 Laboratory Motion Platform System (Hexapod)](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-500-23638241) (Canada CanadaBuys Procurement)\n- [US public health agency concludes hantavirus response as outbreak eases - Al Jazeera](https://www.aljazeera.com/news/2026/6/24/us-public-health-agency-concludes-hantavirus-response-as-outbreak-eases) (Canada PHAC AMR)\n",
   "insights": [
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Effect of CSFV on Differential Genes of Histone Lactylation at H3K18 in the PI3K-AKT Signaling Pathway",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.26.734696v1?rss=1",
+      "date": "2026-06-29T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "New bioRxiv research on Classical Swine Fever Virus (CSFV) unveils critical insights into viral replication and immune evasion pathways! 🧬 This molecular-level understanding opens doors for advanced in silico modeling.",
+        "strategic_value": "- The identification of specific differential genes and protein expression (e.g., THBS4) in the PI3K-AKT pathway provides high-resolution targets for virtual pathogen modeling. This can simulate CSFV's impact on host cellular processes, accelerating the discovery of novel antiviral drug targets or vaccine candidates.\n- In silico simulation tools can map the complex interactions between CSFV, histone lactylation, and the PI3K-AKT pathway, offering a predictive platform to test the efficacy of potential therapeutic interventions or understand resistance mechanisms without extensive wet-lab experimentation.\n- * **Consulting Pivot:** Propose a project to develop a custom computational biology model for CSFV pathogenesis, leveraging omics data (CUT&Tag, RT-qPCR) to predict viral replication dynamics and immune evasion strategies for veterinary biopharmaceutical clients.",
+        "co_bidding_opportunity": "The paper focuses on academic research without mentioning specific industry partners or procurement bodies, thus no explicit co-bidding opportunities are stated.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This research provides fundamental molecular insights into viral pathogenesis, aligning with the Canadian biotechnology sector's need for advanced digital tools to accelerate drug discovery and vaccine development, crucial for public health and economic resilience.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Functional export of NDM-7 to outer membrane vesicles in Klebsiella pneumoniae compromises imipenem and cefiderocol activity",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.26.734736v1?rss=1",
+      "date": "2026-06-29T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "AMR just got tougher! 🤯 New bioRxiv research reveals NDM-7 carbapenemase is exported via Outer Membrane Vesicles (OMVs) in *K. pneumoniae*, protecting against vital antibiotics. This changes the game for drug discovery and resistance modeling!",
+        "strategic_value": "- The efficient OMV-mediated export of NDM-7 enzyme represents a novel mechanism of antibiotic resistance dissemination. Virtual pathogen modeling can simulate OMV production, cargo packaging (NDM-7), and their extracellular activity, enabling the design of OMV-targeting therapeutics or strategies to disarm this resistance mechanism.\n- Computational biology tools can be applied to model the complex pharmacodynamics of antibiotics (imipenem, cefiderocol) in the presence of NDM-7-laden OMVs, predicting treatment failures and guiding the development of new drug combinations or modified antibiotic structures.\n- * **Consulting Pivot:** Offer to develop in silico models for simulating OMV-mediated antibiotic resistance transmission and its impact on drug efficacy for pharmaceutical companies or public health agencies, contributing to Canadian AMR surveillance and drug development initiatives.",
+        "co_bidding_opportunity": "The paper is academic and focuses on basic research, hence no explicit co-bidding opportunities are mentioned.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Understanding OMV-mediated AMR is critical for Canadian public health given the rising threat of drug-resistant infections. Digital simulation tools can accelerate the development of counter-strategies, aligning with national AMR action plans and public health procurement needs.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Competition against the intestinal microbiota selects for pathoadaptive traits in ESBL E. coli",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.25.730905v1?rss=1",
+      "date": "2026-06-29T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Fascinating new bioRxiv study! 🔬 The gut microbiota is a powerful selective force, driving ESBL *E. coli* to evolve pathoadaptive traits like enhanced adhesion. A game-changer for understanding antibiotic-resistant pathogen colonization!",
+        "strategic_value": "- This research provides critical parameters for virtual pathogen modeling of ESBL *E. coli* colonization dynamics within complex gut microbiotas. Simulation tools can model competitive interactions, adhesion kinetics, and biofilm formation, predicting pathogen persistence and dissemination risks.\n- Computational biology can simulate the evolutionary pressures exerted by the microbiota on ESBL *E. coli*, identifying key genetic drivers for pathoadaptation. This can inform the design of targeted interventions to disrupt colonization or prevent extraintestinal infections.\n- * **Consulting Pivot:** Propose the development of an in silico platform for simulating ESBL *E. coli* gut colonization and pathoadaptation in various host-microbiota scenarios, enabling Canadian public health agencies or biotech firms to evaluate prophylactic strategies or novel therapeutics.",
+        "co_bidding_opportunity": "The paper mentions funding from H2020 European Research Council, Swiss National Science Foundation, NCCR AntiResist, Human Frontier Science Program, and NCCR Microbiomes. These are research grants, but do not explicitly suggest co-bidding for a specific contract or partnership in Canada.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Understanding the ecological drivers of AMR in gut pathobionts is crucial for Canadian public health, especially given the prevalence of ESBL *E. coli*. Digital simulation tools can support public health planning and the development of strategies to mitigate AMR spread, aligning with national health priorities.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
     {
       "source": "bioRxiv_Microbiology",
       "title": "Gram-negative-dominated polymicrobial microbiome of necrotizing soft tissue infections from North India: an integrated culture and 16S rRNA metagenomics prospective cohort study",
       "link": "https://www.biorxiv.org/content/10.64898/2026.06.25.734553v1?rss=1",
       "date": "2026-06-27T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Are our clinical empirical therapy guidelines dangerously outdated for the post-antibiotic era? 🦠",
-        "strategic_value": "* Clinical divergence in necrotizing soft tissue infections (NSTIs) between Western and tropical cohorts underscores the need for localized, metagenomic-driven diagnostic modeling.\n* Standardized empirical treatments currently risk failure by ignoring site-specific polymicrobial dominance patterns, such as the Acinetobacter-heavy profiles identified in recent studies.\n* **Consulting Pivot:** Propose the integration of digital twin simulation software to model local pathogen resistance profiles against standard antimicrobial therapies, allowing Canadian hospitals to stress-test their empirical treatment protocols against emerging regional variants.",
-        "co_bidding_opportunity": "Potential for joint research projects between Canadian diagnostic labs and international clinical centers to cross-validate 16S rRNA metagenomic data with culture-based outcomes.",
+        "linkedin_hook": "New bioRxiv research challenges the NSTI paradigm! 🌍 North Indian NSTIs show a distinct Gram-negative, polymicrobial dominance, radically different from Western observations. This demands a re-think of empirical antimicrobial strategies globally!",
+        "strategic_value": "- The identified distinct polymicrobial profile of NSTIs in a high-antimicrobial-pressure setting offers a critical dataset for virtual pathogen modeling. In silico simulations can predict the ecological interactions between dominant Gram-negative bacteria (e.g., *A. baumannii*, *E. coli*, *K. pneumoniae*) and their collective resistance mechanisms.\n- Computational biology tools can be applied to model the impact of different empirical antimicrobial regimens on these polymicrobial communities, optimizing treatment strategies and minimizing the selection for further resistance, especially relevant for Canadian public health planning for travelers or diverse populations.\n- * **Consulting Pivot:** Develop a specialized simulation platform to model polymicrobial NSTI dynamics and antimicrobial efficacy, offering it to Canadian public health agencies and hospitals to refine empirical antibiotic guidelines, particularly for emerging global resistance patterns.",
+        "co_bidding_opportunity": "The paper describes a prospective cohort study from a North Indian tertiary center and does not mention any specific organizations or funding calls that would imply co-bidding opportunities in Canada.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Connects advanced genomic diagnostics with predictive modeling to modernize public health infection surveillance and therapeutic strategy.",
+        "mets_rationalization": "Understanding global microbial epidemiology, especially for severe infections like NSTIs, is crucial for Canadian public health preparedness and policy-making, including antibiotic stewardship programs. Digital tools can bridge this knowledge gap and enhance national health security.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
@@ -23,56 +68,11 @@
       "link": "https://www.biorxiv.org/content/10.64898/2026.06.26.734869v1?rss=1",
       "date": "2026-06-27T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Is your water quality monitoring strategy ready for the pulse of transboundary pathogen migration? 💧",
-        "strategic_value": "* High-frequency 'pulse' events in transboundary channels create hidden windows of AMR (Antimicrobial Resistance) transmission that static monitoring misses.\n* Regulatory compliance for One Health initiatives now demands time-stratified water quality thresholds rather than legacy seasonal averaging.\n* **Consulting Pivot:** Recommend deploying automated in silico simulation tools to model the dispersion of AMR markers during peak water-pulse events, assisting environmental and health regulators in identifying optimal sampling times.",
-        "co_bidding_opportunity": "Partnerships between water treatment authorities and bioinformatics firms for the implementation of sensor-integrated predictive monitoring systems.",
-        "mets_category": "METS-ESG",
-        "mets_rationalization": "Addresses environmental monitoring and pathogen containment in vital transboundary infrastructure, aligning with long-term One Health surveillance mandates.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Inhibition of RNA splicing is a novel therapeutic strategy for disruption of nuclear replicating viruses",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.06.26.734849v1?rss=1",
-      "date": "2026-06-27T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Unlocking the spliceosome: The next frontier in antiviral drug design? 🧬",
-        "strategic_value": "* Host-spliceosome dependence represents a broad-spectrum antiviral vulnerability that remains largely untapped in traditional drug discovery.\n* Computational modeling of viral RNA processing complexity offers a high-throughput pathway to categorize virus families susceptible to targeted spliceosome inhibition.\n* **Consulting Pivot:** Facilitate partnerships between computational biology software providers and biotech R&D teams to model viral RNA splicing dependencies, accelerating the pipeline for broad-spectrum antiviral lead discovery.",
-        "co_bidding_opportunity": "Joint ventures for drug discovery focused on spliceosome inhibitors, targeting NIAID-aligned research programs.",
+        "linkedin_hook": "Eye-opening bioRxiv research on AMR in the Great Lakes! 🌊 Discover how pulse-driven *blaKPC* and persistent *mecA* markers behave differently in transboundary waters, and how routine water quality monitoring can flag AMR risk. Essential for One Health surveillance!",
+        "strategic_value": "- This research provides critical data on ARG dynamics in a transboundary freshwater system, ideal for developing sophisticated virtual pathogen and environmental resistome modeling tools. These tools can simulate ARG propagation, source attribution (wastewater vs. non-wastewater), and seasonal variations.\n- Computational biology and AI/ML approaches (like the random forest classifier mentioned) can be deployed to build predictive models for ARG hotspots and pulse events, informing One Health surveillance strategies and early warning systems for Canadian public health and environmental agencies.\n- * **Consulting Pivot:** Offer to develop and implement AI-driven predictive modeling and simulation software for environmental AMR surveillance in Canadian freshwater systems, aligning with federal environmental protection and public health mandates to monitor transboundary water quality.",
+        "co_bidding_opportunity": "The study was conducted in a transboundary Great Lakes channel. While the authors are from various institutions, there is no explicit mention of specific grants or procurement opportunities that would facilitate immediate co-bidding in Canada.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Positions computational biology as a key enabler for pharmaceutical R&D, critical for Canada's biomanufacturing and health innovation strategy.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "GpsB acts as an adapter for MacP-mediated activation of class A penicillin-binding protein aPBP2a in Streptococcus pneumoniae, independently of MacP phosphorylation",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.06.26.734906v1?rss=1",
-      "date": "2026-06-27T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Deciphering the bacterial 'adapter' proteins to combat drug-resistant pathogens. 🧫",
-        "strategic_value": "* Understanding protein-protein interactions like the GpsB-MacP-aPBP2a axis is essential for overcoming recalcitrant Gram-positive resistance mechanisms.\n* Structure-function analysis combined with AI-driven protein folding predictions (e.g., AlphaFold3) is accelerating the identification of new druggable pockets in cell-wall synthesis.\n* **Consulting Pivot:** Advise academic-industry consortiums on integrating advanced simulation platforms to visualize and modulate tripartite protein activation models, creating a high-fidelity pathway for developing novel narrow-spectrum antibiotics.",
-        "co_bidding_opportunity": "Collaboration between structural biology units and antimicrobial drug development startups to leverage Tn-seq and protein interaction datasets.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Leverages cutting-edge protein modeling technology to address AMR, a major strategic focus for Canadian public health and life sciences investment.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Isolation of bioconcrete-producing bacteria for urea-free marine applications",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.06.26.734652v1?rss=1",
-      "date": "2026-06-27T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Can we engineer the future of self-healing marine infrastructure using microbes? 🏗️",
-        "strategic_value": "* Marine-based Microbially-Induced Carbonate Precipitation (MICP) offers a sustainable alternative to traditional concrete, provided it functions without the negative environmental impact of urea.\n* Isolating native marine bacteria (Sulflitobacter, Marinobacter) creates a bio-based materials opportunity that reduces infrastructure maintenance costs in saltwater environments.\n* **Consulting Pivot:** Propose the development of simulation models to predict the durability and self-healing capacity of MICP-based concrete in varying marine pH and chemical conditions, optimizing the material for commercial marine applications.",
-        "co_bidding_opportunity": "Joint research initiatives between marine engineering firms and environmental biotech labs to pilot self-healing bioconcrete in marine environments.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "Aligns bio-manufacturing of materials with infrastructure longevity, reducing the physical maintenance burden on critical marine assets.",
+        "mets_rationalization": "Monitoring antimicrobial resistance in critical transboundary water bodies like the Great Lakes is a significant environmental and public health concern for Canada. Advanced digital surveillance and predictive modeling tools are essential to protect shared water resources and public health, aligning with governmental mandates.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
@@ -274,7 +274,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
+      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -342,7 +342,7 @@
       "notice_type": "Advance Contract Award Notice",
       "procurement_method": "Advance contract award notice",
       "selection_criteria": "",
-      "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Please refer to Tender Description or Tender Documents"
+      "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Please refer to Tender Description or Tender Documents"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -444,7 +444,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade Agreement"
+      "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade Agreement"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -512,7 +512,7 @@
       "notice_type": "",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "",
-      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)"
+      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -831,7 +831,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)"
+      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -911,7 +911,7 @@
       "notice_type": "",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "",
-      "trade_agreements": "Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)North American Free Trade Agreement (NAFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)"
+      "trade_agreements": "Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)North American Free Trade Agreement (NAFTA)Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)"
     }
   ]
 }
