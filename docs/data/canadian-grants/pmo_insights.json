@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-30T14:03:09.393831Z",
-  "linkedin_post": "🚀 Prime Minister Mark Carney’s upcoming NATO and Saudi Arabia missions signal a massive shift in Canadian defence and trade, matching a targeted climb to 5% defence GDP spending by 2035.\n\nThis geopolitical push, backed by the new Defence Investment Agency and Defence, Security and Resilience Bank (DSRB), bridges collective security with enterprise technology. Dual-use AI and cleantech SMEs must align their capital strategies immediately to secure long-term, low-cost financing from the DSRB.\n\nSimultaneously, the newly signed Canada-Germany semiconductor declaration secures critical supply chains for advanced computing hardware. Microelectronics scale-ups and AI chip innovators should engage bilateral research channels now to leverage upcoming joint industrial development funds.\n\nMeanwhile, Ottawa’s procurement engine is acceleration-focused, with high-level digital roles including ERP Technical Analysts and Application Developers closing between July 10 and 13. Digital transformation firms and IT consultancies need to submit bids immediately to capture these active federal service contracts.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n#Procurement #Defence #AI #Semiconductors #GovCon\n\n### Featured News & Sources\n- [Prime Minister Carney to attend the NATO Summit in Türkiye and visit Saudi Arabia to deepen trade, technology, and defence partnerships](https://www.pm.gc.ca/en/news/news-releases/2026/06/30/prime-minister-carney-attend-nato-summit-turkiye-and-visit-saudi) (PMO)\n- [Canada and Germany strengthen industrial partnership to build resilient semiconductor supply chains](https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/canada-and-germany-strengthen-industrial-partnership-to-build-resilient-semiconductor-supply-chains.html) (ISED)\n- [One (1) Class 5 Chassis Cab Service Body and Crane](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-342-9956034) (CanadaBuys)\n- [DETECTOR, GAS](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-623-29009966) (CanadaBuys)\n",
+  "generated_at": "2026-06-30T18:03:19.961705Z",
+  "linkedin_post": "🚀 Canada's strategic landscape is rapidly transforming, opening significant B2B opportunities in defence, AI, and critical supply chains. Prime Minister Mark Carney’s upcoming participation in the NATO Summit and visit to Saudi Arabia underscores Canada's commitment to boosting defence spending to 2% of GDP and potentially 5% by 2035, powered by new initiatives like the Defence Investment Agency and the Defence, Security and Resilience Bank. Businesses specializing in dual-use AI, cleantech, and critical infrastructure should prepare for new long-term financing and investment streams. Concurrently, Canada and Germany have forged a landmark partnership to secure resilient semiconductor supply chains and accelerate advanced computing innovation, critical for national security and AI advancement. Innovators in secure microelectronics and advanced computing hardware should explore bilateral development funding and research collaboration channels. On the procurement front, the Department of National Defence is actively seeking passenger immersion suits for CFB Halifax and Esquimalt, reinforcing \"Buy Canadian\" for vital operational readiness. Canadian manufacturers and certified safety equipment suppliers should review DND’s 'Equivalent or Substitute Product' guidelines to meet these essential needs.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n#mayAiIntelligence #CanadianGrants #DefenceTech #AIStrategy #SupplyChainResilience\n\n### Featured News & Sources\n- [Prime Minister Carney to attend the NATO Summit in Türkiye and visit Saudi Arabia to deepen trade, technology, and defence partnerships](https://www.pm.gc.ca/en/news/news-releases/2026/06/30/prime-minister-carney-attend-nato-summit-turkiye-and-visit-saudi) (PMO)\n- [Canada and Germany strengthen industrial partnership to build resilient semiconductor supply chains](https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/canada-and-germany-strengthen-industrial-partnership-to-build-resilient-semiconductor-supply-chains.html) (ISED)\n- [Demolition of a glass-and-steel structure at La Fonderie, Fortificationsde-Québec National Historic Site](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-126-60288900) (CanadaBuys)\n- [IMMERSION SUIT, PASSENGER](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-704-71255353) (CanadaBuys)\n",
   "insights": [
     {
       "source": "PMO_News",
@@ -31,6 +31,90 @@
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "Demolition of a glass-and-steel structure at La Fonderie, Fortificationsde-Québec National Historic Site",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-126-60288900",
+      "date": "2026-06-30T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🚨 Attention demolition contractors! Parks Canada is seeking specialized expertise for a significant project at the Fortifications-de-Québec National Historic Site. Is your team ready to preserve history while innovating?",
+        "strategic_value": "* This federal procurement, estimated at $100,001 - $500,000, aligns with the \"Buy Canadian Policy\" for infrastructure maintenance at national historic sites. It emphasizes the government's commitment to preserving cultural heritage while supporting domestic industry.\n* The project requires the dismantling and disposal of a glass, wood, and steel structure, demanding expertise in sensitive demolition within a historically significant context. No advanced software or hardware is explicitly required, focusing on conventional, careful demolition and waste management.\n* **Consulting Pivot:** Offer specialized project management and compliance advisory services for demolition projects within sensitive heritage sites, focusing on environmental impact mitigation and adherence to Parks Canada's historic preservation guidelines.",
+        "co_bidding_opportunity": "The solicitation is for a single contractor; no explicit consortium or partnership roles are identified in the tender description.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This procurement for physical demolition services directly supports Parks Canada's operational mandate for maintaining and preserving national historic sites, fitting within general federal property and infrastructure management.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-16T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "CNST",
+      "category_label": "Construction",
+      "description": "5P468-26-0075/A\t Demolition of a glass-and-steel structure at La Fonderie, Fortifications-de-Québec National Historic Site BIDS RECEIVED BY FAX AND EMAIL WILL BE ACCEPTED AS OFFICIAL. PARKS CANADA IS NOT CURRENTLY ACCEPTING BIDS VIA SAP ARIBA, YOU MUST SUBMIT YOUR BID VIA FAX OR EMAIL AS INDICATED IN THE SOLICITATION DOCUMENT.BIDS RECEIVED IN-PERSON OR BY COURIER WILL NOT BE ACCEPTED. The only acceptable email address for responses to the bid solicitation is soumissionsami-bidsrpc@pc.gc.ca. Bids...",
+      "type": "New",
+      "organization": "Parks Canada Agency (PC)",
+      "solicitation_number": "5P468-26-0075/A",
+      "notice_type": "Invitation to Qualify",
+      "procurement_method": "Competitive - Traditional",
+      "selection_criteria": "Variations or combinations of the above methods",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "IMMERSION SUIT, PASSENGER",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-704-71255353",
+      "date": "2026-06-30T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🌊 DND is stocking up! Critical immersion suits needed for CFB Halifax & Esquimalt. Canadian suppliers, ready to equip our forces for maritime safety?",
+        "strategic_value": "* The Department of National Defence requires a significant volume of passenger immersion suits for naval bases, aligning with DND's mandate for personnel safety and operational readiness. The \"preference for Canadian goods and/or services\" reinforces the \"Buy Canadian Policy\" in defense procurement.\n* The tender specifies exact part numbers (CFC6BRHYL-1/2/3) from WHITES COLD WATER SPECIALISTS LTD, but also explicitly allows bids for \"Equivalent or Substitute Product,\" indicating a demand for reliable, certified safety equipment that meets specific performance standards.\n* **Consulting Pivot:** Propose services to DND for evaluating and certifying \"Equivalent or Substitute Products\" for specialized safety equipment, ensuring compliance with military standards and facilitating domestic supply chain diversification.",
+        "co_bidding_opportunity": "Given the explicit mention of \"Partner with another business\" and the need to deliver to multiple CFB locations, opportunities exist for sub-distributors, logistics providers specializing in defense supply chains, or manufacturers of equivalent products seeking a Canadian partner for bidding.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This procurement directly supports the Department of National Defence's core operational mandate to equip military personnel, ensuring safety and readiness for defense and tactical maritime operations across Canadian bases.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-16T00:00:00Z",
+      "province": "Multiple Provinces",
+      "province_abbrev": "MULT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "NOTICE OF PROPOSED PROCUREMENTThe Department of National Defence has a requirement for the items detailed below.  The delivery is requested at CFB Halifax, Nova Scotia and CFB Esquimalt, British Columbia.Line Item 1, IMMERSION SUIT, PASSENGER, PACKAGE SZ 1Part Number: CFC6BRHYL-1GSIN: 4220NCAGE: L0T87Manufacturer: WHITES COLD WATER SPECIALISTS LTDQuantity: 158, Unit of Issue: KT, to be delivered to CFB Halifax, Nova Scotia.Line Item 2, IMMERSION SUIT, PASSENGER, PACKAGE SZ 1Part Number: CFC6BRHY...",
+      "type": "New",
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "W8482-275406/A",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Traditional",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Please refer to Tender Description or Tender Documents"
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "MDB - Halifax Heating & Municipal Services Upgrade",
+      "link": "https://www.merx.com/public/solicitations/4010634956/abstract?language=EN",
+      "date": "2026-06-29T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "⚓ Modernizing military bases: Defence Construction Canada is upgrading municipal and heating systems at CFB Halifax.",
+        "strategic_value": "* DCC's modernization of municipal heating infrastructure at CFB Halifax aligns with federal greening government mandates to transition military bases away from fossil-fuel-heavy district energy systems.\n* This project targets civil works, mechanical retrofits, and municipal utility upgrades, requiring specialized HVAC, piping, and automated building management system (BMS) technologies to interface with existing base utilities.\n* **Consulting Pivot:** Position your B2B offerings as integrated municipal services and district energy experts capable of delivering DCC-compliant, energy-efficient mechanical and utility civil works under strict DND operational constraints.",
+        "co_bidding_opportunity": "Forming a Joint Venture with one of the 23 registered Plan Holders listed on the CanadaBuys page for DCC project IE002504_66271CN.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This project falls under METS-Ops as it involves heavy physical civil works, mechanical utility upgrades, and municipal infrastructure construction on an active military base.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-08-10T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "CNST",
+      "category_label": "Construction",
+      "description": "Defence Construction Canada, Halifax Heating &amp; Municipal Services Upgrade (HHMSU), CFB Halifax, Halifax, Nova Scotia, IE002504DEFENCE CONSTRUCTION CANADA (DCC) is requesting Proposals from Design-Build Teams to design and construct the Halifax Heating and Municipal Services Upgrade (HHMSU) at CFB Halifax following a modified design-build approach. Additional details are provided in the Request for Proposals (RFP) documents.The Rough Order Magnitude (ROM) Construction Cost Estimate for this P...",
+      "type": "New",
+      "organization": "Defence Construction Canada / Construction de Défense Canada",
+      "solicitation_number": "IE002504_66271CN",
+      "notice_type": "",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "",
+      "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
     },
     {
       "source": "CanadaBuys",
@@ -258,6 +342,40 @@
     },
     {
       "source": "CanadaBuys",
+      "title": "Floating Dock Replacement - Charlottetown",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-563-51417133",
+      "date": "2026-06-29T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "⚓ Remote marine infrastructure: Canada is replacing the floating docks at Charlottetown harbour in Labrador.",
+        "strategic_value": "* Marine transport infrastructure in remote northern regions like Charlottetown, Labrador, requires high-durability, salt-water-resistant timber and mooring systems to withstand extreme Atlantic weather and ice.\n* Technical specifications dictate the supply and construction of four new floating docks, mooring/anchor systems, and treated timber decking to replace aged concrete and timber infrastructure.\n* **Consulting Pivot:** Propose a turn-key marine logistics and civil construction bid emphasizing immediate mobilization capabilities to remote Labrador, leveraging regional transport links (ferries) before the November 30, 2026 completion deadline.",
+        "co_bidding_opportunity": "Partnering with [Trans-World Distributing Ltd.](https://canadabuys.canada.ca/en/node/preview/1472657), who is officially registered on CanadaBuys as interested in partnering for this tender opportunity.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This opportunity falls under METS-Ops as it involves marine construction, physical dock and anchor replacement, and timber fabrication.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-14T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "CNST",
+      "category_label": "Construction",
+      "description": "1.0\tTITLEFloating Dock Replacement - Charlottetown, Labrador2.0 DESCRIPTION2.1 Scope of WorkThe purpose of this project is to replace existing floating dock infrastructure at the Charlottetown harbour facility in Charlottetown, Labrador.The Work includes, but is not limited to, the following:1.\tProvide all labour, materials, equipment, supervision, and incidentals required to complete the Work.2.\tRemove and dispose of four (4) existing floating docks, including associated mooring systems and two...",
+      "type": "Open",
+      "partner_list": [
+        {
+          "name": "Trans-World Distributing Ltd.",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1472657"
+        }
+      ],
+      "organization": "Department of Fisheries and Oceans (DFO)",
+      "solicitation_number": "30008150",
+      "notice_type": "Invitation to Qualify",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
+    },
+    {
+      "source": "CanadaBuys",
       "title": "Waste Removal Services",
       "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-881-1959138",
       "date": "2026-06-29T00:00:00Z",
@@ -339,68 +457,6 @@
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
       "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade Agreement"
-    },
-    {
-      "source": "CanadaBuys",
-      "title": "MDB - Halifax Heating & Municipal Services Upgrade",
-      "link": "https://www.merx.com/public/solicitations/4010634956/abstract?language=EN",
-      "date": "2026-06-29T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "⚓ Modernizing military bases: Defence Construction Canada is upgrading municipal and heating systems at CFB Halifax.",
-        "strategic_value": "* DCC's modernization of municipal heating infrastructure at CFB Halifax aligns with federal greening government mandates to transition military bases away from fossil-fuel-heavy district energy systems.\n* This project targets civil works, mechanical retrofits, and municipal utility upgrades, requiring specialized HVAC, piping, and automated building management system (BMS) technologies to interface with existing base utilities.\n* **Consulting Pivot:** Position your B2B offerings as integrated municipal services and district energy experts capable of delivering DCC-compliant, energy-efficient mechanical and utility civil works under strict DND operational constraints.",
-        "co_bidding_opportunity": "Forming a Joint Venture with one of the 23 registered Plan Holders listed on the CanadaBuys page for DCC project IE002504_66271CN.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "This project falls under METS-Ops as it involves heavy physical civil works, mechanical utility upgrades, and municipal infrastructure construction on an active military base.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-08-10T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "CNST",
-      "category_label": "Construction",
-      "description": "Defence Construction Canada, Halifax Heating &amp; Municipal Services Upgrade (HHMSU), CFB Halifax, Halifax, Nova Scotia, IE002504DEFENCE CONSTRUCTION CANADA (DCC) is requesting Proposals from Design-Build Teams to design and construct the Halifax Heating and Municipal Services Upgrade (HHMSU) at CFB Halifax following a modified design-build approach. Additional details are provided in the Request for Proposals (RFP) documents.The Rough Order Magnitude (ROM) Construction Cost Estimate for this P...",
-      "type": "New",
-      "organization": "Defence Construction Canada / Construction de Défense Canada",
-      "solicitation_number": "IE002504_66271CN",
-      "notice_type": "",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
-    },
-    {
-      "source": "CanadaBuys",
-      "title": "Floating Dock Replacement - Charlottetown",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-563-51417133",
-      "date": "2026-06-29T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "⚓ Remote marine infrastructure: Canada is replacing the floating docks at Charlottetown harbour in Labrador.",
-        "strategic_value": "* Marine transport infrastructure in remote northern regions like Charlottetown, Labrador, requires high-durability, salt-water-resistant timber and mooring systems to withstand extreme Atlantic weather and ice.\n* Technical specifications dictate the supply and construction of four new floating docks, mooring/anchor systems, and treated timber decking to replace aged concrete and timber infrastructure.\n* **Consulting Pivot:** Propose a turn-key marine logistics and civil construction bid emphasizing immediate mobilization capabilities to remote Labrador, leveraging regional transport links (ferries) before the November 30, 2026 completion deadline.",
-        "co_bidding_opportunity": "Partnering with [Trans-World Distributing Ltd.](https://canadabuys.canada.ca/en/node/preview/1472657), who is officially registered on CanadaBuys as interested in partnering for this tender opportunity.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "This opportunity falls under METS-Ops as it involves marine construction, physical dock and anchor replacement, and timber fabrication.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-07-14T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "CNST",
-      "category_label": "Construction",
-      "description": "1.0\tTITLEFloating Dock Replacement - Charlottetown, Labrador2.0 DESCRIPTION2.1 Scope of WorkThe purpose of this project is to replace existing floating dock infrastructure at the Charlottetown harbour facility in Charlottetown, Labrador.The Work includes, but is not limited to, the following:1.\tProvide all labour, materials, equipment, supervision, and incidentals required to complete the Work.2.\tRemove and dispose of four (4) existing floating docks, including associated mooring systems and two...",
-      "type": "Open",
-      "partner_list": [
-        {
-          "name": "Trans-World Distributing Ltd.",
-          "link": "https://canadabuys.canada.ca/en/node/preview/1472657"
-        }
-      ],
-      "organization": "Department of Fisheries and Oceans (DFO)",
-      "solicitation_number": "30008150",
-      "notice_type": "Invitation to Qualify",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
     },
     {
       "source": "CanadaBuys",
