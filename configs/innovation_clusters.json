@@ -22,7 +22,7 @@
       "skip_query_refactoring": true
     },
     { "name": "OceanCluster_News", "url": "https://oceansupercluster.ca/feed/", "type": "rss", "hub": "Ocean" },
-    { "name": "Ocean_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Ocean+Supercluster%22+OR+%22Ocean+Week+Canada%22+OR+%22Our+Ocean+Conference%22+OR+%22Kwale-Tanga%22&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "Ocean", "skip_query_refactoring": true },
+    { "name": "Ocean_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%28%22Our+Ocean+Conference%22+AND+%28Canada+OR+Canadian+OR+Halifax+OR+DFO+OR+Supercluster%29%29+OR+%22Ocean+Supercluster%22+OR+%22Ocean+Week+Canada%22&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "Ocean", "skip_query_refactoring": true },
     {
       "name": "Ocean_Federal_News",
       "url": "https://news.google.com/rss/search?q=%28site:canada.ca/en/fisheries-oceans/news+OR+site:canada.ca/en/natural-resources-canada/news%29+%28%22Our+Ocean%22+OR+ocean+OR+marine+OR+blue+OR+maritime+OR+offshore+OR+wind+OR+tidal+OR+renewable+OR+aquaculture%29&hl=en-CA&gl=CA&ceid=CA:en",
