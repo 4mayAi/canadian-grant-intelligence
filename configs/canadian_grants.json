@@ -6,32 +6,38 @@
     {
       "name": "PMO_News",
       "url": "https://www.pm.gc.ca/en/news.rss",
-      "type": "rss"
+      "type": "rss",
+      "hub": "Canada"
     },
     {
       "name": "ISED_News",
       "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=departmentofindustry&sort=publishedDate&orderBy=desc&pick=15&format=atom",
-      "type": "rss"
+      "type": "rss",
+      "hub": "Canada"
     },
     {
       "name": "Finance_Canada",
       "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=departmentfinance&sort=publishedDate&orderBy=desc&pick=15&format=atom",
-      "type": "rss"
+      "type": "rss",
+      "hub": "Canada"
     },
     {
       "name": "Global_Affairs",
       "url": "https://news.google.com/rss/search?q=site:canada.ca+AND+%22Global+Affairs+Canada%22+AND+%22News+release%22&hl=en-CA&gl=CA&ceid=CA:en",
-      "type": "rss"
+      "type": "rss",
+      "hub": "Canada"
     },
     {
       "name": "CanadaBuys",
       "url": "https://open.canada.ca/data/api/action/package_show?id=6abd20d4-7a1c-4b38-baa2-9525d0bb2fd2",
-      "type": "ckan"
+      "type": "ckan",
+      "hub": "Canada"
     },
     {
       "name": "Prime Minister YouTube",
       "url": "https://www.youtube.com/@MarkJCarney",
-      "type": "youtube_channel"
+      "type": "youtube_channel",
+      "hub": "Canada"
     }
   ],
   "keywords": [

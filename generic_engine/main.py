@@ -866,15 +866,18 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         kpis = generate_dashboard_kpis(insights, gemini_client, tenders=final_tenders)
         kpis["skill_version"] = config.skill_version
 
-        # Select top 5 featured items for digest, capping at 2 items per hub to ensure regional balance
+        # Select top 5 featured items for digest, capping at 2 items per hub to ensure regional balance (or 5 if single-hub)
         source_hubs = {src.name: (src.hub if src.hub else get_hub_from_source(src.name)) for src in config.sources}
         featured_insights = []
         hub_counts = {}
+        unique_hubs = {h for h in source_hubs.values() if h}
+        max_per_hub = 2 if len(unique_hubs) > 1 else 5
+        
         for item in insights:
             src = item.get("source", "")
             hub = source_hubs.get(src) or get_hub_from_source(src)
             count = hub_counts.get(hub, 0)
-            if count < 2:
+            if count < max_per_hub:
                 featured_insights.append(item)
                 hub_counts[hub] = count + 1
             if len(featured_insights) == 5:
