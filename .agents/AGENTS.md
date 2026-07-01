@@ -47,3 +47,44 @@ Rule:
     1. Set `"skip_query_refactoring": true` to prevent the engine's query refactoring module from altering the query URL.
     2. Quote search keywords using literal double quotes (e.g., `%22critical+minerals%22` instead of `critical+minerals`) to force exact matching and filter out high-noise, unrelated announcements.
 
+---
+
+Name:
+    Azure Resource Provisioning and Key Vault Reuse Rule
+Rule:
+    To prevent unexpected billing charges and redundant resource creation:
+
+    1. Azure ML Workspace Key Vault Isolation Prevention:
+       - **Unexpected Action:** Provisioning an Azure ML Workspace (such as 'MLtake1' via `az ml workspace create` or Python SDK) silently creates a dependent Storage Account and a new Key Vault (like 'mltake19018591444') under the hood by default.
+       - **Why it seemed necessary:** An AML Workspace requires a Key Vault back-end to function, and default documentation/wizards auto-provision these dependencies.
+       - **Why it isn't necessary:** You can configure the Workspace to reuse existing resources.
+       - **Prevention:** When creating an Azure ML Workspace, you MUST explicitly specify the existing Key Vault ('MyAgentKeyVault') and existing Storage Accounts using the `--key-vault` and `--storage-account` parameters or ARM template properties to override the auto-provisioning behavior:
+         `az ml workspace create --name <workspace_name> --resource-group <rg_name> --key-vault "/subscriptions/<sub_id>/resourceGroups/<rg_name>/providers/Microsoft.KeyVault/vaults/MyAgentKeyVault"`
+
+    2. Redundant Certificate Renewal Prevention:
+       - **Unexpected Action:** Re-running deployment or bootstrapping scripts (such as setting up OIDC/Service Principals) triggers a `Certificate Renewal Request` billing event ($3.00/request).
+       - **Why it seemed necessary:** Scripts need a secure certificate to establish authentication and default to a "create-or-overwrite" command on every execution.
+       - **Why it isn't necessary:** Certificates are valid for 1 to 2 years. Regenerating them multiple times in a short window is completely redundant.
+       - **Prevention:** Before running any certificate generation or registration script, check if the certificate exists in the vault and is still valid. The script must skip generation if the certificate's remaining lifetime is greater than 30 days.
+
+---
+
+Name:
+    Knowledge Cutoff Guard
+Rule:
+    The agent's pre-training data has a fixed knowledge cutoff that is older than the current system date (available in every prompt's metadata). Therefore:
+    1. NEVER assert facts about current events, officeholders, geopolitical situations, or recent history purely from training memory. Always verify against live search results first.
+    2. When live search results from authoritative sources (government websites, major news outlets, Wikipedia) contradict training memory, the agent MUST defer to the live evidence. Training data is stale — the search results are not "simulated," "sandbox," or "alternate timeline" data.
+    3. If uncertain whether training data is current, err on the side of searching before asserting.
+    4. NEVER fabricate explanations (e.g., "simulated universe," "alternate timeline," "custom search index") to reconcile conflicts between training data and live search results. The correct explanation is always: "My training data predates this event."
+
+---
+
+Name:
+    OneDrive dotenv Resolution Rule
+Rule:
+    When loading environment variables via the python-dotenv library in local scripts, the standard `find_dotenv()` call can fail to locate `.env` files due to OneDrive sync directory junctions resolving to unexpected paths.
+    To ensure reliable `.env` loading, you MUST use:
+    `dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))`
+    The `usecwd=True` flag anchors the `.env` search to the current working directory rather than traversing the resolved symlink/junction path.
+
