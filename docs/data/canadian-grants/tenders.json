@@ -1379,34 +1379,6 @@
   },
   {
     "source": "CanadaBuys",
-    "title": "Spares, cables and RTU",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-538-45065202",
-    "date": "2026-06-17T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🚀 Essential DND network hardware upgrade: Is your supply chain ready for tactical RTU and MACSEC requirements? 🔌",
-      "strategic_value": "* This procurement addresses critical lifecycle sustainment for secure DND communications, emphasizing the need for specialized GNSS and high-speed encryption modules (100G IXR/MACSEC).\n* The focus is on technical compatibility with the 7705 Service Aggregation Router (SAR) ecosystem, requiring precision-engineered connectivity hardware.\n* **Consulting Pivot:** Engage the prime contractors holding the original OEM maintenance frameworks to position your firm as an authorized tier-two provider for high-reliability components and hardware integration support.",
-      "co_bidding_opportunity": "OEM-authorized supply chain distributors or specialized telecommunications hardware integrators with existing CAGE code registrations.",
-      "mets_category": "METS-Digital",
-      "mets_rationalization": "This aligns with the digital backbone requirement for federal secure communications, falling under the critical infrastructure connectivity and cybersecurity maintenance mandate.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-06-29T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "NOTICE OF PROPOSED PROCUREMENTNote: Bidders are to transmit their bids electronically using the method indicated on the cover page of the Advance Contract Notice Award as opposed to delivery usually available.To provide spare parts for an existing platform, originally developed by the OEM and awarded through a competitive process under Contract No. W8474-126058.The Department of National Defence has a requirement for the items detailed below.  The delivery is requested to Department of National ...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W6369-260487/A",
-    "notice_type": "Advance Contract Award Notice",
-    "procurement_method": "Advance contract award notice",
-    "selection_criteria": "Not applicable",
-    "trade_agreements": "Please refer to Tender Description or Tender Documents"
-  },
-  {
-    "source": "CanadaBuys",
     "title": "Lowbed Trailers",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-166-20089111",
     "date": "2026-06-17T00:00:00Z",
@@ -2063,34 +2035,6 @@
   },
   {
     "source": "CanadaBuys",
-    "title": "One (1) Engineering Graduate, Level 3 (Senior)",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-627-20421533",
-    "date": "2026-06-13T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "✈️ Is your engineering firm ready to support Canada's CH149 Cormorant SAR fleet? DND is seeking a Senior Airworthiness Analyst to maintain critical mission readiness.",
-      "strategic_value": "* The Department of National Defence (DND) is prioritizing the airworthiness and operational life-cycle management of the CH149 SAR fleet under the TSPS framework.\n* This role requires deep technical proficiency in aeronautical maintenance standards, systems integration, and compliance with DND's specialized military aviation safety protocols.\n* **Consulting Pivot:** Reach out to the listed pre-qualified firms (e.g., ADGA, Calian, Deloitte) as an independent boutique technical consultant to offer specialized airworthiness audit support or niche sub-contracting expertise to fill their capacity gaps.",
-      "co_bidding_opportunity": "The solicitation is limited to pre-qualified suppliers under the TSPS Supply Arrangement (E60ZT-18TSPS). Potential partners must be listed among the 13 identified pre-qualified companies to act as a primary lead, or offer specialized niche engineering talent to those primes.",
-      "mets_category": "METS-Ops",
-      "mets_rationalization": "This involves direct technical engineering and maintenance services for federal operational assets, aligning with the core maintenance mandate of the DND.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-06-29T00:00:00Z",
-    "province": "NCR (Ottawa/Gatineau)",
-    "province_abbrev": "NCR",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "NOTICE OF PROPOSED PROCUREMENTThis requirement is only open to the below list of pre-qualified suppliers under the Task and Solutions Professional Services (TSPS) Supply Arrangement.TASK BASED E60ZT-18TSPS, PROFESSIONAL SERVICES REQUIREMENTFILE NUMBER: W8485-TSPS2026-08TIER 1 (< $3.75M)This requirement is for the Department of National Defence (DND). This requirement is for the: - Stream 5: Technical, engineering and maintenance servicesfor the services of: - One (1) 5.3 Engineering Graduate, Le...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W8485-TSPS2026-08",
-    "notice_type": "RFP against Supply Arrangement",
-    "procurement_method": "Competitive - Selective tendering",
-    "selection_criteria": "Lowest Cost-per-Point",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade Agreement"
-  },
-  {
-    "source": "CanadaBuys",
     "title": "PAB Tank 1 Upgrade and Recoating",
     "link": "https://www.merx.com/public/solicitations/3996682653/abstract?language=EN",
     "date": "2026-06-12T00:00:00Z",
@@ -2144,152 +2088,6 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "Winch,Drum,Power Operated",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-88-103367",
-    "date": "2026-06-12T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Heavy lift capabilities needed: CFB Halifax and Esquimalt call for power-operated winch hardware. 🏗️",
-      "strategic_value": "* The Department of National Defence is scaling its naval and dockside operations by procuring specialized power-operated drum winches from Palfinger Marine UK Limited (or equivalent).\n* This procurement highlights a standard in maritime and port-side lifting equipment, necessitating DDP (Delivered Duty Paid) compliance for equipment arriving at key coastal military ports.\n* **Consulting Pivot:** Leverage this tender to offer 'niche naval installation services,' where you provide the mechanical engineering support needed to integrate these winches into existing port infrastructure, positioning your firm for future maintenance contracts.",
-      "co_bidding_opportunity": "Maritime engineering firms, port logistics specialists, and heavy-machinery installation contractors.",
-      "mets_category": "METS-Ops",
-      "mets_rationalization": "Direct procurement of lifting and power-operated machinery for DND port facilities constitutes a physical operational supply contract.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-06-29T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "NOTICE OF PROPOSED PROCUREMENTThe Department of National Defence has a requirement for the items detailed below.  The delivery is requested at CFB Halifax, Nova Scotia and CFB Esquimalt, British Columbia.Line Item 1, WINCH,DRUM,POWER OPERATEDPart Number: S710233GSIN: 3950NCAGE: K7335Manufacturer: Palfinger Marine UK LimitedQuantity: 2, Unit of Issue: EA, to be delivered to CFB Halifax, Nova Scotia.Line Item 2, WINCH,DRUM,POWER OPERATEDPart Number: S710233GSIN: 3950NCAGE: K7335Manufacturer: Palfi...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W8482-265036/A",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Please refer to Tender Description or Tender Documents"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "Notice of Proposed Procurement - Reach & Tiering Stand Up Rider Electric Motor Driven Forklift Truck",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-494-94704849",
-    "date": "2026-06-12T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Warehouse efficiency meets Buy Canadian: DND is scaling up its material handling fleet. 🏗️",
-      "strategic_value": "* The procurement of electric material handling equipment aligns with federal mandates to modernize logistics infrastructure while adhering to the Buy Canadian Policy.\n* This requires integration with existing fleet management standards and compliance with the E60HS-21FRKL/A Supply Arrangement framework.\n* **Consulting Pivot:** Engage potential bidders on the RFSA list to offer fleet telematics or electrification integration services that optimize energy efficiency and maintenance tracking for these new assets.",
-      "co_bidding_opportunity": "Suppliers must hold a valid Supply Arrangement (SA) under the Request for Supply Arrangement (RFSA) E60HS-21FRKL/A to participate.",
-      "mets_category": "METS-Ops",
-      "mets_rationalization": "Direct procurement of physical material handling machinery, supporting long-term operational modernization for the Department of Foreign Affairs.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-06-29T00:00:00Z",
-    "province": "NCR (Ottawa/Gatineau)",
-    "province_abbrev": "NCR",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "The Department of Foreign Affairs, Trade and Development (DFATD) has a requirement for one (1) new Reach & Tiering Stand Up Rider Electric Motor Driven Forklift Truck to be delivered at Ottawa in Ontario, Canada.This bid solicitation process is open only to suppliers holding a Supply Arrangement (SA) under the Request (RFSA) E60HS-21FRKL/A.  If you wish to become a pre-qualified supplier under this RFSA, refer to: https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ws4158988049-do...",
-    "type": "Open",
-    "organization": "Department of Foreign Affairs, Trade and Development (GAC)",
-    "solicitation_number": "26-313259",
-    "notice_type": "Not Applicable",
-    "procurement_method": "Competitive - Selective tendering",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "Vodia Diagnostic Tools (Interface Adapter,Tactical and Cable Assembly,Special Purpose,Electrical)",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-927-53792824",
-    "date": "2026-06-12T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Navigating technical readiness for the Royal Canadian Navy? 🚢",
-      "strategic_value": "* This procurement addresses essential diagnostic maintenance for Halifax-class Multi-Role Boats, emphasizing DND's commitment to fleet operational availability.\n* The tender targets specialized interface adapters and tactical cable assemblies, requiring strict adherence to federal electrical standards and compatibility with naval tactical systems.\n* **Consulting Pivot:** Position your firm as a specialized procurement partner capable of navigating the Buy Canadian Policy requirements; offer audit services to ensure technical submittals meet NCAGE compliance for naval hardware.",
-      "co_bidding_opportunity": "Electrical hardware manufacturers specializing in maritime-grade tactical cables; specialized defense logistics contractors familiar with CFB Halifax/Esquimalt supply chain protocols.",
-      "mets_category": "METS-Ops",
-      "mets_rationalization": "This involves the physical maintenance and operational readiness of naval assets, aligning with federal defense infrastructure priorities.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-06-29T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "NOTICE OF PROPOSED PROCUREMENTThe Department of National Defence has a requirement for the items detailed below. The delivery is requested at CFB Halifax and CFB Esquimalt. This procurement of Vodia Diagnostic Tools (Interface Adapter,Tactical and Cable Assembly,Special Purpose,Electrical) will support the following Halifax-class system, as detailed in the Annex Statement of Requirements (SOR):Multi Role Boat (MRB) (HFX Class Ships)All instructions, clauses and conditions are identified in the s...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W8482-264846/A",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Please refer to Tender Description or Tender Documents"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "ACAN 26-58022 Automated Wafer Defect Inspection System and ICP Plasma Processing Module",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-726-60321147",
-    "date": "2026-06-12T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🔬 Deep tech at scale: The NRC is investing in next-gen wafer inspection to lead the photonic semiconductor race.",
-      "strategic_value": "* The NRC is scaling its Canadian Photonics Fabrication Centre (CPFC) by procuring advanced surface defect inspection and plasma etching capabilities.\n* The technical focus is on compound semiconductor fabrication (GaAs, InP, GaN) requiring sub-micron inspection sensitivity and seamless integration with existing SPTS Omega fxP platforms.\n* **Consulting Pivot:** Offer specialized installation and software integration support to photonics facilities looking to standardize their manufacturing metrics across multiple wafer material platforms.",
-      "co_bidding_opportunity": "Current notice is an ACAN; opportunities exist for specialized semiconductor equipment providers to submit statements of capabilities if they can match the specific compatibility requirements for existing NRC infrastructure.",
-      "mets_category": "METS-Digital",
-      "mets_rationalization": "Advances the domestic capability in semiconductors and photonics, acting as a strategic anchor for Canadian sovereign technology production.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-06-29T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "ACAN 26-58022 Automated Wafer Defect Inspection System and ICP Plasma Processing Module1.\tAdvance Contract Award Notice (ACAN)An ACAN is a public notice indicating to the supplier community that a department or agency intends to award a contract for goods, services or construction to a pre-identified supplier, thereby allowing other suppliers to signal their interest in bidding, by submitting a statement of capabilities. If no supplier submits a statement of capabilities that meets the requireme...",
-    "type": "Open",
-    "organization": "National Research Council of Canada (NRC)",
-    "solicitation_number": "26-58022",
-    "notice_type": "Advance Contract Award Notice",
-    "procurement_method": "Advance contract award notice",
-    "selection_criteria": "Not applicable",
-    "trade_agreements": "Please refer to Tender Description or Tender Documents"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "LIGHT, INDICATOR",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-394-99153291",
-    "date": "2026-06-12T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "💡 Powering CFB Halifax & Esquimalt: DND standardizes its lighting infrastructure.",
-      "strategic_value": "* This procurement follows the Defense Standardization Manual 4120 3-M, signaling a maintenance cycle renewal for critical DND facility assets.\n* The focus is on standardized indicator hardware (GSIN 6210) consistent with long-term federal procurement mandates for operational readiness.\n* **Consulting Pivot:** Review your current inventory against NCAGE 81349 specifications; if you are an established military component supplier, bundle these standard parts with installation or auditing services to transition from a commodity vendor to a facility lifecycle partner.",
-      "co_bidding_opportunity": "None specified in the solicitation; bidders must provide equivalent NCAGE/Part numbers.",
-      "mets_category": "METS-Ops",
-      "mets_rationalization": "Relates to facility operations and maintenance within federal defense assets.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-06-29T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "NOTICE OF PROPOSED PROCUREMENT\t\t\t\t\t\t\t\t\t\t\t\t\t\tThe Department of National Defence has a requirement for the items detailed below. The delivery is requested at CFB Halifax and CFB Esquimalt.\t\t\t\t\t\t\t\t\t\t\t\t\t\tLine Item:\t001\tLIGHT,INDICATOR\t\t\t\t\tPart Number:\tLH94-3\tNCAGE:\t81349\tMILITARY SPECIFICATIONSPROMULGATED BY MILITARYDEPARTMENTS/AGENCIESUNDER AUTHORITY OF DEFENSESTANDARDIZATION MANUAL 4120 3-M\t\t\tGSIN:\t6210\tQuantity:\t24\tUoI:\tEA\tto be delivered to:\tCFB Halifax\t\t\t\t\t\t\tLine Item:\t002\tLIGHT,INDICATOR\t\t\t\t\tP...",
-    "type": "Open",
-    "partner_list": [
-      {
-        "name": "Ms Tech World",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1466192"
-      }
-    ],
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W8482-265062/A",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -2436,34 +2234,6 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
     "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Please refer to Tender Description or Tender DocumentsWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "Keysight N9030B-513 Signal Analyzer and Software",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-732-22985169",
-    "date": "2026-06-10T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "📡 Precision signal analysis is non-negotiable for modern defense communications. Does your lab meet DND specs?",
-      "strategic_value": "* The DND is upgrading its signal analysis suite with Keysight N9030B-513 hardware and advanced vector signal analysis software for high-fidelity spectrum monitoring.\n* This investment targets high-resolution signal decomposition and power measurement capabilities, essential for managing complex electromagnetic warfare threats.\n* **Consulting Pivot:** Provide high-level technical training or calibration service packages for defense contractors operating within the DND procurement framework to optimize the ROI of these specialized signal analysis tools.",
-      "co_bidding_opportunity": "Limited to pre-qualified suppliers holding a Supply Arrangement in series E60HN-16ELEC with PSPC.",
-      "mets_category": "METS-Digital",
-      "mets_rationalization": "High-fidelity signal processing is a foundational digital layer for both R&D and active defense operational awareness.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-06-29T00:00:00Z",
-    "province": "Quebec",
-    "province_abbrev": "QC",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "As a requirement of the Supply Arrangement (SA) this notice is published on CanadaBuys for a period of 15 calendar days. Only pre-qualified Suppliers have been invited to bid. Suppliers that do not already hold a Supply Arrangement in series E60HN-16ELEC with PSPC cannot submit a bid.The Department of National Defence requires the supply and delivery of the following items under solicitation W8486-270908/A:Quantity 1 Keysight Signal AnalyzerP/N: N9030B-513, EA3,LNP,MPB,P13,B85,N9030RT1BMMR: N903...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W8486-270908/A",
-    "notice_type": "RFP against Supply Arrangement",
-    "procurement_method": "Competitive - Selective tendering",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -2855,40 +2625,6 @@
   },
   {
     "source": "CanadaBuys",
-    "title": "Technology Architect – Level 3",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-909-58869337",
-    "date": "2026-06-08T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "💻 Legacy modernization is a high-wire act: Are your enterprise architectures ready for modern security and integration?",
-      "strategic_value": "* The CADSD division is tasked with the complex integration of COTS desktop software within outdated Windows environments (Windows 7/10), reflecting a significant technical debt challenge.\n* The stack demands deep expertise in mainframe-middleware interoperability, requiring legacy system architecture stabilization while preparing for future cloud migration.\n* **Consulting Pivot:** Market a 'Legacy-to-Cloud Interoperability' roadmap to bridge existing middleware limitations with modern zero-trust security postures required for desktop integration.",
-      "co_bidding_opportunity": "Systems integration specialists, Windows-ecosystem migration experts, and IT infrastructure architects.",
-      "mets_category": "METS-Digital",
-      "mets_rationalization": "IT infrastructure maintenance and digital transformation of federal legacy systems.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-06-29T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "The Manager of Mainframe, Middleware & Desktop Integration and Operations of CADSD has a requirement for a Level 3 - Technology Architect. The services are centered on the engineering, design, integration, maintenance and support of desktop COTS products & software for Windows 7 desktops and Windows 10.",
-    "type": "Open",
-    "partner_list": [
-      {
-        "name": "Mehtab",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1463439"
-      }
-    ],
-    "organization": "Department of Industry (ISED)",
-    "solicitation_number": "ISED213838",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Selective tendering",
-    "selection_criteria": "",
-    "trade_agreements": "Please refer to Tender Description or Tender Documents"
-  },
-  {
-    "source": "CanadaBuys",
     "title": "Renaissance - Roof Repairs",
     "link": "https://www.merx.com/public/solicitations/3983965575/abstract?language=EN",
     "date": "2026-06-05T00:00:00Z",
@@ -3206,40 +2942,6 @@
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "",
     "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "Air Launched Effects (ALE) Services and Equipment Procurement",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-209-25201535",
-    "date": "2026-05-29T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🚀 Deploying maturity: NRC’s Drone and Flight Autonomy Lab needs proven Air Launched Effects (ALE) technology now! 🚁",
-      "strategic_value": "* The National Research Council is aggressively accelerating defense R&D by integrating mature, TRL 9-certified ALE systems into fixed-wing and helicopter platforms.\n* Success depends on acquiring battle-tested, high-reliability autonomous systems that require zero developmental lead time, ensuring immediate operational research readiness.\n* **Consulting Pivot:** Pivot your offer toward systems integration services that help domestic drone startups bridge the gap into military-grade deployment for the DFAL's research programs.",
-      "co_bidding_opportunity": "Defense-aerospace systems integrators, TRL 9-rated drone manufacturers, and established military hardware suppliers capable of rapid integration.",
-      "mets_category": "METS-Digital",
-      "mets_rationalization": "Fits the Digital category through the advancement of autonomous aerospace systems and flight control software, critical for the modernization of Canadian military R&D capabilities.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-06-29T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "RFP – Air Launched Effects (ALE) Services and Equipment Procurement26-58004Doyle, ShawnTelephone: 343-990-7806 Shawn.Doyle@nrc-cnrc.gc.caThere are security requirements associated with this solicitation.CCFTA, CPFTA, CCOFTA, CPAFTA, CHFTA, CKFTA, CFTA, CUFTA, CETA, Camada-UK TCA, WTO-AGP, CPTPP will apply to this solicitation.The Comprehensive Land Claim agreements will not apply.RequirementUnder the DIH initiative, the NRC has established a new defense-oriented R&D lab: the Drone and Flight Aut...",
-    "type": "Open",
-    "partner_list": [
-      {
-        "name": "Zuk Aerial Intelligence",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1460099"
-      }
-    ],
-    "organization": "National Research Council of Canada (NRC)",
-    "solicitation_number": "26-58004",
-    "notice_type": "",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "",
-    "trade_agreements": "Please refer to Tender Description or Tender Documents"
   },
   {
     "source": "CanadaBuys",
@@ -5515,7 +5217,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)"
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)"
   },
   {
     "source": "CanadaBuys",
@@ -5543,7 +5245,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
+    "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -5571,7 +5273,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Please refer to Tender Description or Tender Documents"
+    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Please refer to Tender Description or Tender Documents"
   },
   {
     "source": "CanadaBuys",
@@ -5599,7 +5301,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Please refer to Tender Description or Tender DocumentsCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)North American Free Trade Agreement (NAFTA)"
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Please refer to Tender Description or Tender DocumentsCanada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)"
   },
   {
     "source": "CanadaBuys",
@@ -5655,7 +5357,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)"
+    "trade_agreements": "Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -5739,7 +5441,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)"
+    "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)"
   },
   {
     "source": "CanadaBuys",
@@ -5768,6 +5470,180 @@
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Spares, cables and RTU",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-538-45065202",
+    "date": "2026-06-17T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🚀 Essential DND network hardware upgrade: Is your supply chain ready for tactical RTU and MACSEC requirements? 🔌",
+      "strategic_value": "* This procurement addresses critical lifecycle sustainment for secure DND communications, emphasizing the need for specialized GNSS and high-speed encryption modules (100G IXR/MACSEC).\n* The focus is on technical compatibility with the 7705 Service Aggregation Router (SAR) ecosystem, requiring precision-engineered connectivity hardware.\n* **Consulting Pivot:** Engage the prime contractors holding the original OEM maintenance frameworks to position your firm as an authorized tier-two provider for high-reliability components and hardware integration support.",
+      "co_bidding_opportunity": "OEM-authorized supply chain distributors or specialized telecommunications hardware integrators with existing CAGE code registrations.",
+      "mets_category": "METS-Digital",
+      "mets_rationalization": "This aligns with the digital backbone requirement for federal secure communications, falling under the critical infrastructure connectivity and cybersecurity maintenance mandate.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-06-29T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "NOTICE OF PROPOSED PROCUREMENTNote: Bidders are to transmit their bids electronically using the method indicated on the cover page of the Advance Contract Notice Award as opposed to delivery usually available.To provide spare parts for an existing platform, originally developed by the OEM and awarded through a competitive process under Contract No. W8474-126058.The Department of National Defence has a requirement for the items detailed below.  The delivery is requested to Department of National ...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W6369-260487/A",
+    "notice_type": "Advance Contract Award Notice",
+    "procurement_method": "Advance contract award notice",
+    "selection_criteria": "Not applicable",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "One (1) Engineering Graduate, Level 3 (Senior)",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-627-20421533",
+    "date": "2026-06-13T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "✈️ Is your engineering firm ready to support Canada's CH149 Cormorant SAR fleet? DND is seeking a Senior Airworthiness Analyst to maintain critical mission readiness.",
+      "strategic_value": "* The Department of National Defence (DND) is prioritizing the airworthiness and operational life-cycle management of the CH149 SAR fleet under the TSPS framework.\n* This role requires deep technical proficiency in aeronautical maintenance standards, systems integration, and compliance with DND's specialized military aviation safety protocols.\n* **Consulting Pivot:** Reach out to the listed pre-qualified firms (e.g., ADGA, Calian, Deloitte) as an independent boutique technical consultant to offer specialized airworthiness audit support or niche sub-contracting expertise to fill their capacity gaps.",
+      "co_bidding_opportunity": "The solicitation is limited to pre-qualified suppliers under the TSPS Supply Arrangement (E60ZT-18TSPS). Potential partners must be listed among the 13 identified pre-qualified companies to act as a primary lead, or offer specialized niche engineering talent to those primes.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "This involves direct technical engineering and maintenance services for federal operational assets, aligning with the core maintenance mandate of the DND.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-06-29T00:00:00Z",
+    "province": "NCR (Ottawa/Gatineau)",
+    "province_abbrev": "NCR",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "NOTICE OF PROPOSED PROCUREMENTThis requirement is only open to the below list of pre-qualified suppliers under the Task and Solutions Professional Services (TSPS) Supply Arrangement.TASK BASED E60ZT-18TSPS, PROFESSIONAL SERVICES REQUIREMENTFILE NUMBER: W8485-TSPS2026-08TIER 1 (< $3.75M)This requirement is for the Department of National Defence (DND). This requirement is for the: - Stream 5: Technical, engineering and maintenance servicesfor the services of: - One (1) 5.3 Engineering Graduate, Le...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8485-TSPS2026-08",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Lowest Cost-per-Point",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade Agreement"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Notice of Proposed Procurement - Reach & Tiering Stand Up Rider Electric Motor Driven Forklift Truck",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-494-94704849",
+    "date": "2026-06-12T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Warehouse efficiency meets Buy Canadian: DND is scaling up its material handling fleet. 🏗️",
+      "strategic_value": "* The procurement of electric material handling equipment aligns with federal mandates to modernize logistics infrastructure while adhering to the Buy Canadian Policy.\n* This requires integration with existing fleet management standards and compliance with the E60HS-21FRKL/A Supply Arrangement framework.\n* **Consulting Pivot:** Engage potential bidders on the RFSA list to offer fleet telematics or electrification integration services that optimize energy efficiency and maintenance tracking for these new assets.",
+      "co_bidding_opportunity": "Suppliers must hold a valid Supply Arrangement (SA) under the Request for Supply Arrangement (RFSA) E60HS-21FRKL/A to participate.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "Direct procurement of physical material handling machinery, supporting long-term operational modernization for the Department of Foreign Affairs.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-06-29T00:00:00Z",
+    "province": "NCR (Ottawa/Gatineau)",
+    "province_abbrev": "NCR",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "The Department of Foreign Affairs, Trade and Development (DFATD) has a requirement for one (1) new Reach & Tiering Stand Up Rider Electric Motor Driven Forklift Truck to be delivered at Ottawa in Ontario, Canada.This bid solicitation process is open only to suppliers holding a Supply Arrangement (SA) under the Request (RFSA) E60HS-21FRKL/A.  If you wish to become a pre-qualified supplier under this RFSA, refer to: https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ws4158988049-do...",
+    "type": "Open",
+    "organization": "Department of Foreign Affairs, Trade and Development (GAC)",
+    "solicitation_number": "26-313259",
+    "notice_type": "Not Applicable",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Vodia Diagnostic Tools (Interface Adapter,Tactical and Cable Assembly,Special Purpose,Electrical)",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-927-53792824",
+    "date": "2026-06-12T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Navigating technical readiness for the Royal Canadian Navy? 🚢",
+      "strategic_value": "* This procurement addresses essential diagnostic maintenance for Halifax-class Multi-Role Boats, emphasizing DND's commitment to fleet operational availability.\n* The tender targets specialized interface adapters and tactical cable assemblies, requiring strict adherence to federal electrical standards and compatibility with naval tactical systems.\n* **Consulting Pivot:** Position your firm as a specialized procurement partner capable of navigating the Buy Canadian Policy requirements; offer audit services to ensure technical submittals meet NCAGE compliance for naval hardware.",
+      "co_bidding_opportunity": "Electrical hardware manufacturers specializing in maritime-grade tactical cables; specialized defense logistics contractors familiar with CFB Halifax/Esquimalt supply chain protocols.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "This involves the physical maintenance and operational readiness of naval assets, aligning with federal defense infrastructure priorities.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-06-29T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "NOTICE OF PROPOSED PROCUREMENTThe Department of National Defence has a requirement for the items detailed below. The delivery is requested at CFB Halifax and CFB Esquimalt. This procurement of Vodia Diagnostic Tools (Interface Adapter,Tactical and Cable Assembly,Special Purpose,Electrical) will support the following Halifax-class system, as detailed in the Annex Statement of Requirements (SOR):Multi Role Boat (MRB) (HFX Class Ships)All instructions, clauses and conditions are identified in the s...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8482-264846/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "LIGHT, INDICATOR",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-394-99153291",
+    "date": "2026-06-12T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "💡 Powering CFB Halifax & Esquimalt: DND standardizes its lighting infrastructure.",
+      "strategic_value": "* This procurement follows the Defense Standardization Manual 4120 3-M, signaling a maintenance cycle renewal for critical DND facility assets.\n* The focus is on standardized indicator hardware (GSIN 6210) consistent with long-term federal procurement mandates for operational readiness.\n* **Consulting Pivot:** Review your current inventory against NCAGE 81349 specifications; if you are an established military component supplier, bundle these standard parts with installation or auditing services to transition from a commodity vendor to a facility lifecycle partner.",
+      "co_bidding_opportunity": "None specified in the solicitation; bidders must provide equivalent NCAGE/Part numbers.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "Relates to facility operations and maintenance within federal defense assets.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-06-29T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "NOTICE OF PROPOSED PROCUREMENT\t\t\t\t\t\t\t\t\t\t\t\t\t\tThe Department of National Defence has a requirement for the items detailed below. The delivery is requested at CFB Halifax and CFB Esquimalt.\t\t\t\t\t\t\t\t\t\t\t\t\t\tLine Item:\t001\tLIGHT,INDICATOR\t\t\t\t\tPart Number:\tLH94-3\tNCAGE:\t81349\tMILITARY SPECIFICATIONSPROMULGATED BY MILITARYDEPARTMENTS/AGENCIESUNDER AUTHORITY OF DEFENSESTANDARDIZATION MANUAL 4120 3-M\t\t\tGSIN:\t6210\tQuantity:\t24\tUoI:\tEA\tto be delivered to:\tCFB Halifax\t\t\t\t\t\t\tLine Item:\t002\tLIGHT,INDICATOR\t\t\t\t\tP...",
+    "type": "Open",
+    "partner_list": [
+      {
+        "name": "Ms Tech World",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1466192"
+      }
+    ],
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8482-265062/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Winch,Drum,Power Operated",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-88-103367",
+    "date": "2026-06-12T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Heavy lift capabilities needed: CFB Halifax and Esquimalt call for power-operated winch hardware. 🏗️",
+      "strategic_value": "* The Department of National Defence is scaling its naval and dockside operations by procuring specialized power-operated drum winches from Palfinger Marine UK Limited (or equivalent).\n* This procurement highlights a standard in maritime and port-side lifting equipment, necessitating DDP (Delivered Duty Paid) compliance for equipment arriving at key coastal military ports.\n* **Consulting Pivot:** Leverage this tender to offer 'niche naval installation services,' where you provide the mechanical engineering support needed to integrate these winches into existing port infrastructure, positioning your firm for future maintenance contracts.",
+      "co_bidding_opportunity": "Maritime engineering firms, port logistics specialists, and heavy-machinery installation contractors.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "Direct procurement of lifting and power-operated machinery for DND port facilities constitutes a physical operational supply contract.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-06-29T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "NOTICE OF PROPOSED PROCUREMENTThe Department of National Defence has a requirement for the items detailed below.  The delivery is requested at CFB Halifax, Nova Scotia and CFB Esquimalt, British Columbia.Line Item 1, WINCH,DRUM,POWER OPERATEDPart Number: S710233GSIN: 3950NCAGE: K7335Manufacturer: Palfinger Marine UK LimitedQuantity: 2, Unit of Issue: EA, to be delivered to CFB Halifax, Nova Scotia.Line Item 2, WINCH,DRUM,POWER OPERATEDPart Number: S710233GSIN: 3950NCAGE: K7335Manufacturer: Palfi...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8482-265036/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents"
   },
   {
     "source": "CanadaBuys",
@@ -5852,6 +5728,34 @@
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Please refer to Tender Description or Tender Documents"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Keysight N9030B-513 Signal Analyzer and Software",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-732-22985169",
+    "date": "2026-06-10T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "📡 Precision signal analysis is non-negotiable for modern defense communications. Does your lab meet DND specs?",
+      "strategic_value": "* The DND is upgrading its signal analysis suite with Keysight N9030B-513 hardware and advanced vector signal analysis software for high-fidelity spectrum monitoring.\n* This investment targets high-resolution signal decomposition and power measurement capabilities, essential for managing complex electromagnetic warfare threats.\n* **Consulting Pivot:** Provide high-level technical training or calibration service packages for defense contractors operating within the DND procurement framework to optimize the ROI of these specialized signal analysis tools.",
+      "co_bidding_opportunity": "Limited to pre-qualified suppliers holding a Supply Arrangement in series E60HN-16ELEC with PSPC.",
+      "mets_category": "METS-Digital",
+      "mets_rationalization": "High-fidelity signal processing is a foundational digital layer for both R&D and active defense operational awareness.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-06-29T00:00:00Z",
+    "province": "Quebec",
+    "province_abbrev": "QC",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "As a requirement of the Supply Arrangement (SA) this notice is published on CanadaBuys for a period of 15 calendar days. Only pre-qualified Suppliers have been invited to bid. Suppliers that do not already hold a Supply Arrangement in series E60HN-16ELEC with PSPC cannot submit a bid.The Department of National Defence requires the supply and delivery of the following items under solicitation W8486-270908/A:Quantity 1 Keysight Signal AnalyzerP/N: N9030B-513, EA3,LNP,MPB,P13,B85,N9030RT1BMMR: N903...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8486-270908/A",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -5964,6 +5868,40 @@
     "procurement_method": "Advance contract award notice",
     "selection_criteria": "Not applicable",
     "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementNorth American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Technology Architect – Level 3",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-909-58869337",
+    "date": "2026-06-08T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "💻 Legacy modernization is a high-wire act: Are your enterprise architectures ready for modern security and integration?",
+      "strategic_value": "* The CADSD division is tasked with the complex integration of COTS desktop software within outdated Windows environments (Windows 7/10), reflecting a significant technical debt challenge.\n* The stack demands deep expertise in mainframe-middleware interoperability, requiring legacy system architecture stabilization while preparing for future cloud migration.\n* **Consulting Pivot:** Market a 'Legacy-to-Cloud Interoperability' roadmap to bridge existing middleware limitations with modern zero-trust security postures required for desktop integration.",
+      "co_bidding_opportunity": "Systems integration specialists, Windows-ecosystem migration experts, and IT infrastructure architects.",
+      "mets_category": "METS-Digital",
+      "mets_rationalization": "IT infrastructure maintenance and digital transformation of federal legacy systems.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-06-29T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "The Manager of Mainframe, Middleware & Desktop Integration and Operations of CADSD has a requirement for a Level 3 - Technology Architect. The services are centered on the engineering, design, integration, maintenance and support of desktop COTS products & software for Windows 7 desktops and Windows 10.",
+    "type": "Open",
+    "partner_list": [
+      {
+        "name": "Mehtab",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1463439"
+      }
+    ],
+    "organization": "Department of Industry (ISED)",
+    "solicitation_number": "ISED213838",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents"
   },
   {
     "source": "CanadaBuys",
@@ -6082,33 +6020,5 @@
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Please refer to Tender Description or Tender DocumentsCanada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)North American Free Trade Agreement (NAFTA)Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "Urgent Civil Work",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-778-49757583",
-    "date": "2026-06-01T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Urgent infrastructure response: Are your teams ready to mobilize? 🛠️",
-      "strategic_value": "* This Standing Offer initiative addresses critical infrastructure resilience for Correctional Service Canada, emphasizing the need for 24/7 rapid-response capacity.\n* The technological target involves civil excavation, water/sewage containment, and high-performance asphalt reinstatement, requiring adherence to stringent municipal and environmental safety codes.\n* **Consulting Pivot:** Pivot to 'Emergency Infrastructure Resilience'; offer a turnkey service agreement that includes pre-approved sub-contractor networks to guarantee 3-hour response times to your clients.",
-      "co_bidding_opportunity": "Heavy civil construction contractors; environmental remediation specialists (wastewater/sewage focus); local traffic control management firms.",
-      "mets_category": "METS-Ops",
-      "mets_rationalization": "This represents immediate operational demand for critical infrastructure support, essential for maintaining secure institutional facilities.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-06-26T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "CNST",
-    "category_label": "Construction",
-    "description": "The Correctional Service Canada has a requirement to respond to urgent civil work limited to: (1) water line breaks, (2) sewage line breaks, and (3) asphalt reinstatement, where rapid action is needed to protect people and assets, minimize service downtime, comply with codes and standards and restore surfaces to equal or better than pre-work condition.Objectives: To establish Standing Offers ensuring CSC has rapid access to qualified Offerors capable of mobilizing immediately for urgent civil wo...",
-    "type": "Open",
-    "organization": "Correctional Service of Canada (CSC)",
-    "solicitation_number": "214xx-27-5370229",
-    "notice_type": "Request for Standing Offer",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Not applicable",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
   }
 ]
