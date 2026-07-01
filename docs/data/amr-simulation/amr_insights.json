@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-06-30T19:48:19.058302Z",
-  "linkedin_post": "**🔬 Unpacking today's critical health-tech insights and procurement opportunities in Canada!**\n\nCanada's innovation landscape is buzzing with developments from advanced research to critical infrastructure upgrades. A new bioRxiv preprint reveals highly conserved RNA structures used by Enteroviruses to inhibit host antiviral defenses. This opens significant avenues for drug discovery, where pharma R&D teams and biotech innovators should explore virtual pathogen modeling to rapidly identify new antiviral compounds against these evasive structures, accelerating our response capabilities.\n\nConcurrently, the [National Research Council](https://nrc.canada.ca/) of Canada ([NRC](https://nrc.canada.ca/) Aerospace) has issued a tender (ACAN 26-58020) for a high-precision hexapod system to simulate complex ship motions. This represents a prime opportunity for advanced simulation hardware and integrated software providers to engage, addressing [NRC](https://nrc.canada.ca/)'s need for platforms compatible with existing motion control and data acquisition frameworks.\n\nFurthermore, the recent conclusion of the US hantavirus outbreak response by the CDC underscores the global urgency in pathogen tracking. Public health agencies and infectious disease consortia must prioritize advanced virtual pathogen modeling. Leveraging computational biology tools can pre-emptively simulate and contain novel viral threats, such as rare hantavirus strains, enhancing national preparedness and response strategies.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#mayAi #HealthTech #CanadianInnovation #SimulationSoftware #PublicHealth\n\n### Featured News & Sources\n- [Enterovirus RNase L inhibiting RNAs are highly conserved with limited phylogenetic distribution](https://www.biorxiv.org/content/10.64898/2026.06.29.735259v1?rss=1) (bioRxiv Microbiology)\n- [Transition of a Yeast Endosymbiont from a Free-living to Host-reliant Lifestyle Through Gene Loss and Horizontal Gene Transfer](https://www.biorxiv.org/content/10.64898/2026.06.29.735303v1?rss=1) (bioRxiv Microbiology)\n- [ACAN 26-58020 Laboratory Motion Platform System (Hexapod)](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-500-23638241) (Canada CanadaBuys Procurement)\n- [US public health agency concludes hantavirus response as outbreak eases - Al Jazeera](https://www.aljazeera.com/news/2026/6/24/us-public-health-agency-concludes-hantavirus-response-as-outbreak-eases) (Canada PHAC AMR)\n",
+  "generated_at": "2026-07-01T19:44:51.839510Z",
+  "linkedin_post": "🔬 **Canada's biotech and public health sectors are abuzz with opportunities as new research illuminates viral defenses and procurement calls drive advanced simulation.** mayAi is tracking critical insights for strategic investment and innovation.\n\nRecent bioRxiv preprints highlight breakthroughs in understanding viral cross-protection through interferon-stimulated genes and the surprising sensitivity of the hand microbiome to topical agents. These findings open significant avenues for computational biology firms and drug discovery platforms, where virtual pathogen modeling and in silico simulations can accelerate the identification of antiviral targets and optimize dermatological product development. Companies specializing in computational biology should pay attention to how custom simulation tools can model complex biological processes like viral replication and microbiome perturbation, leading to novel drug candidates and public health strategies.\n\nConcurrently, the [National Research Council](https://nrc.canada.ca/) of Canada ([NRC](https://nrc.canada.ca/) Aerospace) is seeking a high-precision hexapod system (ACAN 26-58020) for advanced physical simulation of complex ship motions, directly enhancing UAS safety. This represents a substantial opportunity for providers of sophisticated hardware and integrated simulation software, especially those who can meet stringent compatibility requirements with existing [NRC](https://nrc.canada.ca/) infrastructure. Firms offering advanced motion simulation platforms and custom software integration should explore this procurement to align with Canada's investment in aerospace research (Fact ID: 1001).\n\nFinally, the conclusion of the US Hantavirus outbreak underscores the urgent global need for predictive modeling in public health. This event highlights how virtual pathogen modeling could have simulated transmission pathways and informed interventions for rare zoonotic spillover events. Canadian public health agencies, leveraging infectious disease modeling funding (Fact ID: 1002), could significantly benefit from in silico platforms designed to develop predictive models for emerging viral threats, making this a critical area for health-tech innovators.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#mayAi #HealthTech #CanadianBiotech #PublicHealth #SimulationSoftware\n\n### Featured News & Sources\n- [A distinct signature of interferon-stimulated genes linked to cross-protection against secondary viral infections in primary bronchial epithelial cells](https://www.biorxiv.org/content/10.64898/2026.06.30.735481v1?rss=1) (bioRxiv Microbiology)\n- [The hand microbiome is sensitive to topical antibiotics and has varying sensitivity to liquid soaps](https://www.biorxiv.org/content/10.64898/2026.06.30.735469v1?rss=1) (bioRxiv Microbiology)\n- [ACAN 26-58020 Laboratory Motion Platform System (Hexapod)](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-500-23638241) (Canada CanadaBuys Procurement)\n- [US public health agency concludes hantavirus response as outbreak eases - Al Jazeera](https://www.aljazeera.com/news/2026/6/24/us-public-health-agency-concludes-hantavirus-response-as-outbreak-eases) (Canada PHAC AMR)\n",
   "insights": [
     {
       "source": "bioRxiv_Microbiology",
-      "title": "Enterovirus RNase L inhibiting RNAs are highly conserved with limited phylogenetic distribution",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.06.29.735259v1?rss=1",
+      "title": "A distinct signature of interferon-stimulated genes linked to cross-protection against secondary viral infections in primary bronchial epithelial cells",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.30.735481v1?rss=1",
+      "date": "2026-07-01T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🧬 New insights into viral cross-protection! A recent bioRxiv preprint reveals a distinct signature of interferon-stimulated genes (ISGs) that confer protection against secondary respiratory viral infections. This could revolutionize therapeutic strategies!",
+        "strategic_value": "- Simulating the complex dynamics of viral infection, interferon signaling, and ISG expression can accelerate the identification of key molecular targets for novel antiviral drug discovery and vaccine development.\n- Virtual pathogen modeling tools can be applied to investigate age-dependent differences in infection susceptibility and viral spread within bronchial epithelial cells, optimizing pre-clinical research.\n* **Consulting Pivot:** Propose the development of a custom virtual pathogen modeling platform to simulate interferon-driven innate immune responses and test novel therapeutic candidates against a broad spectrum of respiratory viruses.",
+        "co_bidding_opportunity": "None explicitly mentioned in the source text.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Advanced computational biology and simulation tools directly align with Canada's long-term commitment to public health preparedness and the acceleration of drug and vaccine development against major global health challenges like respiratory viruses. This supports academic funding and biotech innovation.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "The hand microbiome is sensitive to topical antibiotics and has varying sensitivity to liquid soaps",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.30.735469v1?rss=1",
       "date": "2026-06-30T00:00:00Z",
       "insight": {
-        "linkedin_hook": "New insights into Enterovirus evasion tactics! 🦠 This bioRxiv preprint reveals highly conserved RNA structures inhibiting host antiviral defenses, opening doors for novel drug targets. How can computational biology accelerate our response?",
-        "strategic_value": "- Utilize virtual pathogen modeling to simulate the structural dynamics and interactions of Enterovirus ciRNAs with host RNase L.\n- Apply in silico approaches to map the phylogenetic distribution and evolutionary constraints of these inhibitory RNAs, identifying vulnerabilities for drug intervention.\n- * **Consulting Pivot:** Propose a partnership to develop and deploy advanced computational biology platforms for high-throughput virtual screening of novel antiviral compounds targeting Enterovirus ciRNA-RNase L interactions, enhancing drug discovery pipelines.",
-        "co_bidding_opportunity": "Based on the declared funders, potential collaboration opportunities could exist with academic or research institutions receiving grants from the National Institute of Allergy and Infectious Diseases (NIAID) or the Jane Coffin Childs Memorial Fund for Medical Research.",
+        "linkedin_hook": "🚨 The hand microbiome is more sensitive than we thought! A new bioRxiv preprint highlights how topical antibiotics and even liquid soaps can significantly alter our skin's microbial balance. Critical for public health and product development!",
+        "strategic_value": "- Virtual microbiome perturbation simulations can be developed to assess the impact of different topical agents (antibiotics, soaps) on the skin's microbial community, including key genera like Staphylococcus, to understand their role in conditions like hand eczema.\n- Computational biology tools can model the varying sensitivity of different microbial species to hygiene products, guiding the formulation of less disruptive or more targeted dermatological solutions.\n* **Consulting Pivot:** Offer an in silico platform for simulating the effects of hygiene products on the skin microbiome, enabling pharmaceutical and cosmetic companies to optimize product formulations for improved skin health outcomes and reduced antimicrobial resistance.",
+        "co_bidding_opportunity": "None explicitly mentioned in the source text.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Understanding viral evasion at a molecular level is crucial for Canada's public health planning and drug/vaccine development efforts. Computational models accelerate this by reducing lab time and cost, aligning with long-term goals for pandemic preparedness and biosecurity, directly impacting public health procurement strategies for new therapies.",
+        "mets_rationalization": "Understanding and modeling the human microbiome, particularly in the context of antimicrobial resistance and skin health, is crucial for Canadian public health guidelines and the development of new health products, impacting regulatory standards and market opportunities for biotech.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
     },
     {
       "source": "bioRxiv_Microbiology",
-      "title": "Transition of a Yeast Endosymbiont from a Free-living to Host-reliant Lifestyle Through Gene Loss and Horizontal Gene Transfer",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.06.29.735303v1?rss=1",
-      "date": "2026-06-29T00:00:00Z",
+      "title": "Epistasis between SARS-CoV-2 M and N Proteins Balances Particle Assembly and Immune Evasion",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.29.735107v1?rss=1",
+      "date": "2026-06-30T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Fascinating evolutionary insights! 🧬 A recent bioRxiv preprint sheds light on how a yeast endosymbiont transitioned to host-reliance through gene loss and horizontal gene transfer. What can this teach us about pathogen evolution?",
-        "strategic_value": "- Develop computational models to simulate the mechanisms of gene loss and horizontal gene transfer in microbial populations, critical for understanding pathogen evolution.\n- Apply in silico evolutionary simulations to predict adaptive pathways of human pathogens under various selective pressures, such as antibiotic exposure.\n- * **Consulting Pivot:** Offer expertise in computational evolutionary biology to model complex microbial adaptation, aiding academic and biotech clients in anticipating and countering the emergence of novel pathogen traits or drug resistance.",
-        "co_bidding_opportunity": "No insight available",
+        "linkedin_hook": "🦠 SARS-CoV-2 is a master of disguise! A new bioRxiv preprint reveals the intricate dance between M and N proteins, balancing viral assembly and immune evasion. This has HUGE implications for future therapeutic strategies.",
+        "strategic_value": "- Develop virtual pathogen modeling tools to simulate the complex interplay between SARS-CoV-2 M and N proteins, enabling researchers to predict viral particle assembly efficiency and immune evasion mechanisms in silico.\n- Utilize computational biology to map evolutionary trajectories of SARS-CoV-2 variants, identifying mutations in structural proteins that optimize infection and inform next-generation vaccine and antiviral drug design.\n* **Consulting Pivot:** Propose a computational biology service focused on dynamic simulation of viral protein interactions and evolutionary pathways to accelerate the discovery of novel targets for SARS-CoV-2 therapeutics and enhance vaccine efficacy.",
+        "co_bidding_opportunity": "None explicitly mentioned in the source text.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Understanding microbial evolution, including gene loss and horizontal gene transfer, is foundational for predicting emerging infectious disease threats and developing durable antimicrobial strategies in Canada. Computational biology tools support this by enabling rapid hypothesis testing and scenario planning, aligning with federal research priorities in biosecurity and public health preparedness.",
+        "mets_rationalization": "Continuous monitoring and advanced simulation of SARS-CoV-2 evolution remain critical for Canadian public health planning, informing vaccine procurement, and bolstering national biosecurity, supporting significant government bids for innovative health technologies.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
     },
     {
       "source": "bioRxiv_Microbiology",
-      "title": "The Two-Component System CrdRS Mediates Sub-inhibitory Antibiotic-Induced Biofilm Formation in Helicobacter pylori via Bidirectional Regulation of Transporters PlpA and GlnP",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.06.29.735229v1?rss=1",
-      "date": "2026-06-29T00:00:00Z",
+      "title": "Statistical learning of bacterial growth in combinatorially constructed environments",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.30.735472v1?rss=1",
+      "date": "2026-06-30T00:00:00Z",
       "insight": {
-        "linkedin_hook": "AMR challenge decoded! 🦠 New bioRxiv research reveals how Helicobacter pylori forms biofilms in response to sub-inhibitory antibiotics, identifying a key signaling hub. Huge implications for combating antibiotic resistance!",
-        "strategic_value": "- Develop in silico models to simulate the CrdRS two-component system's signaling pathways and its bidirectional regulation of transporters (PlpA, GlnP) in H. pylori biofilm formation under antibiotic stress.\n- Utilize computational biology and virtual pathogen modeling to identify and validate novel therapeutic targets within the CrdRS pathway for disrupting H. pylori biofilms and combating antimicrobial resistance.\n- * **Consulting Pivot:** Propose a research collaboration to design and execute virtual drug screens targeting the CrdRS system, accelerating the discovery of compounds that inhibit H. pylori biofilm formation and improve antibiotic efficacy.",
-        "co_bidding_opportunity": "No insight available",
+        "linkedin_hook": "🧪 Decoding bacterial growth: a new bioRxiv preprint unveils how statistical learning can predict bacterial growth in complex environments! This is a game-changer for optimizing culture media and industrial bioprocesses.",
+        "strategic_value": "- Apply statistical learning and AI models to predict bacterial growth in combinatorially constructed environments, reducing the need for extensive wet-lab experimentation and accelerating discovery.\n- Develop in silico simulation platforms that leverage insights into global epistasis among resources to rationally optimize culture media for various bacterial species, enhancing yields and efficiencies in industrial microbiology.\n* **Consulting Pivot:** Offer bespoke computational biology solutions for bacterial growth modeling and media optimization, enabling biotech firms to accelerate R&D for probiotics, industrial enzymes, or diagnostic assay development.",
+        "co_bidding_opportunity": "None explicitly mentioned in the source text.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Tackling antimicrobial resistance, especially in prevalent pathogens like H. pylori, is a critical public health priority for Canada. Advanced computational modeling of biofilm formation and resistance mechanisms provides a powerful tool for accelerating the discovery of new therapies and informing national AMR strategies, aligning with regulatory objectives to combat antibiotic tolerance.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Soil-derived Bacillus pumilus strains demonstrate antagonistic activity against Magnaporthe oryzae and multiple plant growth-promoting traits",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.06.28.735134v1?rss=1",
-      "date": "2026-06-29T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Beyond crops! 🌿 This bioRxiv preprint on Bacillus pumilus as a plant biocontrol agent offers unexpected insights: its isolates also inhibit *human bacterial pathogens*. A new frontier for antimicrobial discovery?",
-        "strategic_value": "- Utilize genomics and computational biology to identify and characterize novel antimicrobial metabolites from B. pumilus strains specifically effective against human bacterial pathogens.\n- Simulate the mechanisms of antagonistic activity (e.g., cell membrane disruption, enzymatic inhibition) to optimize compound efficacy and specificity against human pathogens.\n- * **Consulting Pivot:** Offer expertise in computational metabolomics and in silico drug discovery to accelerate the identification, characterization, and lead optimization of B. pumilus-derived antimicrobial compounds for potential pharmaceutical applications in human health.",
-        "co_bidding_opportunity": "No insight available",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "While the main focus is plant health, the discovery of compounds with activity against human bacterial pathogens has direct relevance to Canada's public health goals for antimicrobial discovery. Leveraging advanced digital tools to characterize these natural products can accelerate their development into therapeutic candidates, contributing to national biosecurity and healthcare innovation.",
+        "mets_rationalization": "Optimizing bacterial growth conditions has direct applications in Canadian biotechnology, from biomanufacturing and vaccine production to environmental remediation, aligning with academic funding calls for innovative computational approaches in microbial ecology and industrial processes.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
@@ -259,7 +259,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
+      "trade_agreements": "Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -429,7 +429,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade Agreement"
+      "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade Agreement"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -463,7 +463,7 @@
       "notice_type": "",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "",
-      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)"
+      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -599,7 +599,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade Agreement"
+      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade Agreement"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -776,7 +776,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
+      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -798,7 +798,7 @@
           "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
         }
       },
-      "closing_date": "2026-07-02T00:00:00Z",
+      "closing_date": "2026-07-09T00:00:00Z",
       "province": "National",
       "province_abbrev": "NAT",
       "category": "GD",
@@ -816,7 +816,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade Agreement"
+      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade Agreement"
     }
   ]
 }
