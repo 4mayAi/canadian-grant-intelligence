@@ -5445,6 +5445,34 @@
   },
   {
     "source": "CanadaBuys",
+    "title": "Phase 2 EZ899-270168 Penticton Airport Omni-Directional Approach Lighting System (ODALS) 16 Replacement",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/WS5735638074-Doc5752062446",
+    "date": "2026-06-30T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "✈️ Enhancing aviation safety at Penticton Airport: The federal government is calling for an airfield lighting upgrade!",
+      "strategic_value": "* This competitive Selective Tendering process under the CFTA targets critical aviation safety infrastructure at Penticton Airport, focusing on the replacement of aging visual approach systems to meet modern Transport Canada airfield standards.\n* The project demands a complete upgrade of the Omni-Directional Approach Lighting System (ODALS) flash-heads, power converters, isolation transformers, and high-voltage airfield cabling.\n* **Consulting Pivot:** Propose an integrated airfield electrical modernization audit to Transport Canada, positioning your firm to manage the disposal of legacy high-voltage systems and plan next-generation LED retrofits for secondary runways.",
+      "co_bidding_opportunity": "Based on the solicitation details, opportunities exist for partnerships between airfield electrical contractors (UNSPSC 72151500), specialized airport runway construction services (UNSPSC 72141101), and environmental disposal specialists to manage redundant cables and soil disposal.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "This procurement involves physical airport runway infrastructure and airfield electrical systems, directly fitting the METS-Ops classification for physical operations and regional transport logistics.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-21T00:00:00Z",
+    "province": "British Columbia",
+    "province_abbrev": "BC",
+    "category": "CNST",
+    "category_label": "Construction",
+    "description": "Work under this Contract includes, but is not limited to, the provision of all labour, materials, services, and equipment necessary for the replacement of the existing ODAL assemblies and replacement of related ODAL existing airfield lighting cable, and the cleaning pullbox systems from the existing regulator at FEC/IPU building to the flash-heads at airport field located at Penticton airport (3000 Airport Road, Penticton, BC V2A 8X1).Work includes, but is not limited to:1.Replacing existing ODA...",
+    "type": "New",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5735638074",
+    "notice_type": "Invitation to Qualify",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
+  },
+  {
+    "source": "CanadaBuys",
     "title": "a Pole-Setting Truck",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-711-15670076",
     "date": "2026-06-23T00:00:00Z",
@@ -5470,6 +5498,68 @@
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Stage 2 – Electrical Service upgrade for an operations compound - Thousand Islands National Park",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-399-37741090",
+    "date": "2026-06-19T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "⚡ Decarbonizing federal operations: Thousand Islands National Park is advancing its fleet electrification with a major electrical service upgrade!",
+      "strategic_value": "* Parks Canada is executing Stage Two of a selective solicitation to address critical power capacity constraints at its Thousand Islands compound, directly supporting federal greening directives and greenhouse gas reduction mandates.\n* The technological requirement focuses on upgrading high-capacity electrical transmission and distribution equipment to support a new network of fleet Electric Vehicle (EV) charging stations and building electrification.\n* **Consulting Pivot:** Engage the pre-qualified primary contractors (such as Kelvin Electric Inc.) to offer secondary design-build integration services for smart-grid power management software and EV fleet optimization analytics.",
+      "co_bidding_opportunity": "Qualified prime contractors are encouraged to partner with sub-contractors listed under the 'Partner with another business' section of the tender (such as Kelvin Electric Inc.) who possess regional electrical distribution expertise.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "Upgrading physical electrical distribution assets to support electric vehicle fleet charging stations aligns with METS-Ops physical fleet electrification and utility upgrade focus.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-09T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "CNST",
+    "category_label": "Construction",
+    "description": "5P468-26-0027/A \tStage 2 – Electrical Service upgrade for an operations compound - Thousand Islands National ParkREQUIREMENTThe electrical supply at the Thousand Islands National Park Compound has reached full capacity. This site supports all core operations, including Administration, Resource Conservation, Maintenance, and Wardens’ buildings. Upgrades are essential to ensure business continuity and advance electrification goals, including installing EV charging stations. Enhanced capacity will ...",
+    "type": "Open",
+    "partner_list": [
+      {
+        "name": "Kelvin Electric Inc.,",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1469464"
+      }
+    ],
+    "organization": "Parks Canada Agency (PC)",
+    "solicitation_number": "5P468-26-0027/A-001",
+    "notice_type": "Invitation to Qualify",
+    "procurement_method": "Competitive - Traditional",
+    "selection_criteria": "Variations or combinations of the above methods",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Canadian Nuclear RegLabs",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-928-36934529",
+    "date": "2026-06-19T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "⚛️ Shaping the future of nuclear regulation: The Canadian Nuclear Safety Commission is launching the Canadian Nuclear RegLabs!",
+      "strategic_value": "* Under various free trade agreements (including CFTA, WTO GPA, CETA), the CNSC is establishing a domestic version of the Nuclear Energy Agency’s International RegLab to facilitate sandbox testing of emerging nuclear policies.\n* The scope of work mandates the facilitation and third-party coordination of four high-profile regulatory workshops over a 26-month period, targeting policy gaps in small modular reactors (SMRs) and advanced fuel lifecycles.\n* **Consulting Pivot:** Position your regulatory advisory team as a strategic facilitator, bidding with a combination of nuclear engineering expertise and agile policy governance frameworks to secure this high-prestige regulatory advisory contract.",
+      "co_bidding_opportunity": "Organizations can partner with event management specialists (UNSPSC 80141607) and regulatory policy consultants to co-bid on this CNSC third-party facilitation contract.",
+      "mets_category": "METS-PMO",
+      "mets_rationalization": "This advisory and coordination contract focuses on establishing regulatory sandboxes and industry workshops, aligning directly with the METS-PMO category for permitting, compliance, and governance services.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-20T00:00:00Z",
+    "province": "NCR (Ottawa/Gatineau)",
+    "province_abbrev": "NCR",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "NATURE OF REQUIREMENTSCanada requests proposals from Offerors to meet its requirements. For the convenience of Offerors, a brief description is set out below with detailed requirements in subsequent sections of this solicitation of offers. If interested and able to meet these requirements, Canada appreciates and welcomes an offer.The Canadian Nuclear Safety Commission (CNSC) requires the services of a contractor to: •\testablish a Canadian version of the Nuclear Energy Agency’s International RegL...",
+    "type": "Open",
+    "organization": "Canadian Nuclear Safety Commission (CNSC)",
+    "solicitation_number": "5000094286/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)"
   },
   {
     "source": "CanadaBuys",
