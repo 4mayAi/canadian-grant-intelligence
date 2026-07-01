@@ -159,10 +159,11 @@
 
         function getUrl(type) {
             const base = 'https://canadiangrants.blob.core.windows.net/data';
+            const buster = `?t=${new Date().getTime()}`;
             const urls = {
-                tenders: currentDate === 'latest' ? TENDERS_URL : `${base}/reports/tenders_${currentDate}.json`,
-                pmo:     currentDate === 'latest' ? PMO_INSIGHTS_URL : `${base}/reports/pmo_insights_${currentDate}.json`,
-                kpis:    currentDate === 'latest' ? KPIS_URL : `${base}/reports/kpis_${currentDate}.json`
+                tenders: currentDate === 'latest' ? `${TENDERS_URL}${buster}` : `${base}/reports/tenders_${currentDate}.json`,
+                pmo:     currentDate === 'latest' ? `${PMO_INSIGHTS_URL}${buster}` : `${base}/reports/pmo_insights_${currentDate}.json`,
+                kpis:    currentDate === 'latest' ? `${KPIS_URL}${buster}` : `${base}/reports/kpis_${currentDate}.json`
             };
             if (!urls[type]) throw new Error(`getUrl: unknown data type "${type}"`);
             return urls[type];
@@ -170,7 +171,7 @@
 
         async function loadManifest() {
             try {
-                const res = await fetch(MANIFEST_URL);
+                const res = await fetch(`${MANIFEST_URL}?t=${new Date().getTime()}`);
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 const dates = await res.json();
                 if (Array.isArray(dates) && dates.length > 0) {

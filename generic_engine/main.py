@@ -397,7 +397,7 @@ def fetch_and_process_news(
         else:
             # Relevancy pre-filter: discard news/tenders that don't match any keywords early
             text_to_search = (item.get("title", "") + " " + item.get("text_to_search", "")).lower()
-            if matches_keywords(text_to_search, config.keywords):
+            if "youtube.com/watch" in link or "youtu.be/" in link or matches_keywords(text_to_search, config.keywords):
                 unprocessed_items.append(item)
             else:
                 logging.info(f"Discarding newly scraped item due to keyword mismatch (pre-filter): {item.get('title')}")
