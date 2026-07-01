@@ -12,6 +12,7 @@ from schema import PipelineConfig
 from models import GeminiInsight, ReportItem, NewsWrapper, KPIDashboard
 from extractors.rss import fetch_rss_feeds
 from extractors.playwright_scraper import fetch_html_news
+from extractors.youtube import fetch_youtube_videos
 from extractors.ckan import fetch_canadabuys_tenders, get_category_label
 from extractors.report_scraper import (
     resolve_google_news_url,
@@ -276,6 +277,9 @@ def fetch_and_process_news(
     # Ingest Playwright HTML pages if any are configured
     raw_html = fetch_html_news(sources_dict, lookback_limit, max_items, failed_feeds)
 
+    # Ingest YouTube channel videos if any are configured
+    raw_youtube = fetch_youtube_videos(sources_dict, lookback_limit, max_items, failed_feeds)
+
     # Ingest CKAN API databases if any are configured
     raw_ckan = []
     ckan_sources = [s for s in sources_dict if s.get("type") == "ckan"]
@@ -351,7 +355,7 @@ def fetch_and_process_news(
                 })
 
     # Combine feeds
-    combined_items = raw_rss + raw_html + raw_ckan + retained_items
+    combined_items = raw_rss + raw_html + raw_ckan + raw_youtube + retained_items
     
     # Resolve Google News redirect URLs offline to original destination URLs
     logging.info("Resolving Google News redirect URLs for ingested news items...")
@@ -438,7 +442,9 @@ def fetch_and_process_news(
     for item in unprocessed_items:
         logging.info(f"Running text extraction for: '{item['title']}'...")
         try:
-            if ".pdf" in item['link'].lower():
+            if "youtube.com/watch" in item['link'] or "youtu.be/" in item['link']:
+                extracted_text = gemini_client.analyze_video(item['link'])
+            elif ".pdf" in item['link'].lower():
                 extracted_text = scrape_pdf_report(item['link'])
             else:
                 extracted_text = scrape_html_report(item['link'], item)
@@ -527,7 +533,10 @@ def fetch_and_process_news(
                 insight_model.anchor_reference = anchor_reference
 
                 dt = item.get('date')
-                date_str = dt.isoformat() + "Z" if isinstance(dt, datetime) else str(dt)
+                if isinstance(dt, datetime):
+                    date_str = dt.replace(microsecond=0).isoformat() + "Z"
+                else:
+                    date_str = str(dt)
 
                 report_item_dict = {
                     "source": item['source'],

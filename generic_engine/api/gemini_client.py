@@ -107,7 +107,7 @@ class GeminiClient:
     def _get_url(self, model_name: str) -> str:
         return f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={self.api_key}"
         
-    def _retry_request(self, payload: Dict[str, Any], max_retries: int = 5) -> Optional[Dict[str, Any]]:
+    def _retry_request(self, payload: Dict[str, Any], max_retries: int = 5, timeout: int = 30) -> Optional[Dict[str, Any]]:
         if not self.api_key:
             logging.error("GEMINI_API_KEY not found.")
             return None
@@ -130,7 +130,7 @@ class GeminiClient:
             model_name = active_models[model_idx]
             url = self._get_url(model_name)
             try:
-                response = requests.post(url, json=payload, timeout=30)
+                response = requests.post(url, json=payload, timeout=timeout)
                 
                 if response.status_code in (429, 503):
                     self.stats["requests_rate_limited"] += 1
@@ -447,4 +447,54 @@ class GeminiClient:
             except Exception as e:
                 logging.error(f"Failed to parse selected deduplicated IDs: {e}. Output text: {text}")
         return []
+
+    def analyze_video(self, video_url: str) -> str:
+        """
+        Sends the YouTube URL to the Gemini API via the REST API's native fileData capability
+        for multimodal analysis. Returns a text summary of the video content.
+        """
+        logging.info(f"Analyzing video content directly from YouTube URL: {video_url}")
+        
+        prompt = """
+        You are a senior policy and business intelligence analyst.
+        Analyze this video carefully. Extract and summarize the key policy announcements, 
+        government initiatives, funding, grants, and B2B strategic implications discussed in the video.
+        
+        Provide a detailed summary (at least 3-4 paragraphs) covering:
+        1. Core policy changes or initiatives mentioned.
+        2. Financial, technology, or clean energy funding details.
+        3. Strategic B2B / co-bidding opportunities for businesses.
+        """
+        
+        payload = {
+            "contents": [
+                {
+                    "parts": [
+                        {
+                            "fileData": {
+                                "fileUri": video_url,
+                                "mimeType": "video/mp4"
+                            }
+                        },
+                        {
+                            "text": prompt
+                        }
+                    ]
+                }
+            ]
+        }
+        
+        # Call the API with a longer timeout (120s) as video analysis requires more processing time
+        data = self._retry_request(payload, timeout=120)
+        if data and 'candidates' in data and data['candidates']:
+            try:
+                text = data['candidates'][0]['content']['parts'][0]['text']
+                if text:
+                    return text.strip()
+            except Exception as e:
+                logging.error(f"Failed to extract video analysis text from response: {e}")
+                
+        logging.warning("Video analysis returned empty result. Returning default fallback text.")
+        return "No video analysis content available."
+
 

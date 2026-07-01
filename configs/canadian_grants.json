@@ -27,6 +27,11 @@
       "name": "CanadaBuys",
       "url": "https://open.canada.ca/data/api/action/package_show?id=6abd20d4-7a1c-4b38-baa2-9525d0bb2fd2",
       "type": "ckan"
+    },
+    {
+      "name": "Prime Minister YouTube",
+      "url": "https://www.youtube.com/@MarkJCarney",
+      "type": "youtube_channel"
     }
   ],
   "keywords": [

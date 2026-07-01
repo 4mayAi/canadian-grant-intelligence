@@ -13,6 +13,7 @@ The Canadian Grants Intelligence Pipeline (Skill `canadian-grants`, displayed as
 3. **Finance Canada** releases.
 4. **Global Affairs Canada** press releases.
 5. **CanadaBuys (Canada's federal procurement portal)** active tenders.
+6. **YouTube Channel Announcements** (e.g. Forward Guidance and Prime Minister briefings).
 
 Key features:
 - **Modular Skill Decoupling**: Configured entirely via `configs/canadian_grants.json` and `configs/grants_anchors.json`.
@@ -54,6 +55,7 @@ graph TD
         FC[Finance Canada Feed]
         GA[Global Affairs RSS Feed]
         CB[CanadaBuys CKAN API]
+        YT[YouTube Channel Scraper]
     end
 
     subgraph Skills Registry Runtime
@@ -73,6 +75,7 @@ graph TD
     FC -->|Ingest| Job
     GA -->|Ingest| Job
     CB -->|CKAN CSV Ingest| Job
+    YT -->|Multimodal Ingest| Job
 
     Cfg -->|Configure| Job
     Job -->|Prompt| LLM
@@ -104,6 +107,7 @@ generic_engine/
 ├── extractors/
 │   ├── ckan.py                 # Direct CanadaBuys CKAN API database crawler
 │   ├── rss.py                  # Parses RSS/Atom news feeds
+│   ├── youtube.py              # Scrapes YouTube channel videos tab
 │   └── report_scraper.py       # Standby PDF report crawler
 └── api/
     ├── azure_client.py         # Azure Blob Storage client
@@ -145,12 +149,16 @@ sequenceDiagram
         Runner->>Runner: Map location metadata to provinces (e.g. Ontario, National)
     end
     
-    Runner->>RSS: Ingest news from PMO, ISED, Finance Canada, Global Affairs
-    RSS-->>Runner: Return articles
+    Runner->>RSS: Ingest news from PMO, ISED, Finance Canada, Global Affairs & YouTube channel
+    RSS-->>Runner: Return articles & video items
     
     Runner->>Runner: Filter processed URLs & deduplicate against processed_urls.json
     
     opt Process New Items
+        loop For Each New Video
+            Runner->>LLM: Multimodal analyze video URL (fileData)
+            LLM-->>Runner: Return policy summary text
+        end
         Runner->>LLM: Batch query Gemini (Signals + Anchors context)
         LLM-->>Runner: Return JSON insight (B2B hooks, strategic value, co-bidding)
     end

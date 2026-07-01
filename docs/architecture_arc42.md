@@ -10,7 +10,7 @@ This document describes the software architecture of the Canadian Grant Intellig
 The Canadian Grant Intelligence platform (mayAi) is a high-fidelity monitoring and synthesis pipeline. It continuously scrapes federal and provincial procurement portals, grant databases, political communication channels, and international mining reports to deliver daily intelligence digests to business analysts, co-bidders, and decision-makers.
 
 Key features:
-- **Canadian Grants**: Scrapes CanadaBuys CSV databases, ISED feed, Finance Canada, PMO announcements, and Global Affairs Canada feeds.
+- **Canadian Grants**: Scrapes CanadaBuys CSV databases, ISED feed, Finance Canada, PMO announcements, Global Affairs Canada feeds, and YouTube channel video updates.
 - **AMR & Biotech Simulation**: Scrapes CanadaBuys, CIHR, NRC, PHAC, bioRxiv Microbiology, and PHAC CCDR feeds.
 - **Innovation Clusters**: Scrapes DIGITAL, Scale AI, Ocean Cluster, NGen, and Protein Industries news, ecosystem, and federal news feeds.
 - **Global Payments**: Scrapes ISO 20022/SWIFT, NPP, CIPS, e-CNY, and commodity trade settlement (Glencore, Trafigura) feeds across CA, AU, CN, HK, CH, UK, and Global.
@@ -44,7 +44,7 @@ Key features:
 ```mermaid
 graph TD
     subgraph External Ingestion Sources
-        GR[Canadian Grants Feeds: CanadaBuys, PMO, ISED, Finance Canada, Global Affairs]
+        GR[Canadian Grants Feeds: CanadaBuys, PMO, ISED, Finance Canada, Global Affairs, YouTube]
         AMR[AMR Feeds: CanadaBuys, CIHR, NRC, PHAC, bioRxiv, CCDR]
         IC[Innovation Clusters Feeds: DIGITAL, Scale AI, Ocean, NGen, Protein Industries]
         GP[Global Payments Feeds: SWIFT, NPP, CIPS, e-CNY, Glencore, Trafigura]
@@ -111,6 +111,7 @@ generic_engine/
 ├── extractors/
 │   ├── ckan.py                # Interacts with CanadaBuys CKAN API for CSV files
 │   ├── rss.py                 # Fetches and parses RSS feeds with dynamic keyword parameters
+│   ├── youtube.py             # Scrapes YouTube channel videos tab
 │   ├── playwright_scraper.py  # Headless browser crawler for JS-rendered news feeds
 │   └── report_scraper.py      # Parses PDFs and documents for slow-moving anchors
 └── api/
@@ -148,9 +149,13 @@ sequenceDiagram
 
     Note over Job: Scheduled Cron Trigger (3x daily)
     Job->>Azure: Download processed_urls.json, manifest.json & pmo_insights.json
-    Job->>Ext: Scrape CanadaBuys CSVs and News RSS Feeds
-    Ext-->>Job: Return raw CSV rows and active RSS entries
-    Job->>Job: Filter processed tenders and check news cache hits
+    Job->>Ext: Scrape CanadaBuys CSVs, RSS Feeds and YouTube Channels
+    Ext-->>Job: Return CSV rows, RSS entries and video links
+    Job->>Job: Filter processed items and check cache hits
+    opt Multimodal Ingestion
+        Job->>LLM: Multimodal analyze video URLs (fileData)
+        LLM-->>Job: Return policy summary texts
+    end
     Job->>LLM: Batch query prompts for new items (un-cached)
     LLM-->>Job: Return JSON co-bidding & summary insights
     Job->>Job: Assemble tenders.json, pmo_insights.json, and kpis.json
