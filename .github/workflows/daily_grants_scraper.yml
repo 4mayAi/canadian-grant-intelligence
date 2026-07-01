@@ -33,4 +33,5 @@ jobs:
       lookback_days: ${{ github.event.inputs.lookback_days || '7' }}
       run_type: ${{ github.event.inputs.run_type || 'DEEP_DIVE' }}
       run_prune: ${{ github.event.schedule != '' && contains(github.event.schedule, '0 22 * * 0') }}
+      pre_run_script: scratch/cleanup_youtube.py
     secrets: inherit
