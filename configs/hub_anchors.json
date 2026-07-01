@@ -246,49 +246,5 @@
       "pages": "Page 4",
       "url": "https://www.icmm.com/en-gb/news-and-analysis"
     }
-  ],
-  "UK": [
-    {
-      "id": 35,
-      "fact": "Under the UK government's 'Vision 2035: Critical Minerals Strategy' launched in November 2025, the UK set a target that no single country should provide more than 60% of the UK's annual demand for any critical mineral by 2035 to ensure supply chain resilience.",
-      "source": "UK Vision 2035: Critical Minerals Strategy",
-      "pages": "Strategic Goal 1",
-      "url": "https://www.gov.uk/government/publications/uk-critical-minerals-strategy"
-    },
-    {
-      "id": 36,
-      "fact": "The UK's Vision 2035 strategy sets an ambition for at least 20% of the UK's critical mineral demand to be met through domestic recycling and recovery of secondary materials by 2035.",
-      "source": "UK Vision 2035: Critical Minerals Strategy",
-      "pages": "Circular Economy section",
-      "url": "https://www.gov.uk/government/publications/uk-critical-minerals-strategy"
-    },
-    {
-      "id": 37,
-      "fact": "The UK government introduced a 'growth minerals' list—including copper, lithium, cobalt, graphite, and rare earth elements—allowing for public finance and policy support to be extended to these critical materials.",
-      "source": "UK Vision 2035: Critical Minerals Strategy",
-      "pages": "Growth Minerals Framework",
-      "url": "https://www.gov.uk/government/publications/uk-critical-minerals-strategy"
-    },
-    {
-      "id": 38,
-      "fact": "The London Metal Exchange (LME) remains the world centre for industrial metals trading, handling over 100 million tonnes of material annually and acting as the global price-discovery benchmark.",
-      "source": "LME Annual Report 2025",
-      "pages": "Overview",
-      "url": "https://www.lme.com/en/About"
-    },
-    {
-      "id": 39,
-      "fact": "The UK government has committed up to £50 million of public finance to support targeted critical minerals initiatives, targeting UK extraction hubs in Cornwall, Teesside, Scotland, and Wales.",
-      "source": "UK Vision 2035: Critical Minerals Strategy",
-      "pages": "Funding commitments",
-      "url": "https://www.gov.uk/government/publications/uk-critical-minerals-strategy"
-    },
-    {
-      "id": 40,
-      "fact": "The UK's Critical Minerals Intelligence Centre (CMIC), operated by the British Geological Survey (BGS), provides real-time geological and supply risk assessment to support government supply chain security decisions.",
-      "source": "BGS CMIC Report 2026",
-      "pages": "Supply Chain Risk Assessment",
-      "url": "https://www.bgs.ac.uk/cmic"
-    }
   ]
 }
