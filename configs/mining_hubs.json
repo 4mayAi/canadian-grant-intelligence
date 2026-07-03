@@ -23,6 +23,18 @@
       "skip_query_refactoring": true
     },
     {
+      "name": "Canada_PCO_News",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=privycouncil&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Canada_ECCC_News",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=environmentclimatechange&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
       "name": "Australia_Mining_News",
       "url": "https://news.google.com/rss/search?q=%22Minerals+Council+of+Australia%22+OR+site:minerals.org.au/news/&hl=en-AU&gl=AU&ceid=AU:en",
       "type": "rss"
