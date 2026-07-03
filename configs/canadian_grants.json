@@ -23,9 +23,10 @@
     },
     {
       "name": "Global_Affairs",
-      "url": "https://news.google.com/rss/search?q=site:canada.ca+AND+%22Global+Affairs+Canada%22+AND+%22News+release%22&hl=en-CA&gl=CA&ceid=CA:en",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=departmentofforeignaffairstradeanddevelopment&sort=publishedDate&orderBy=desc&pick=15&format=atom",
       "type": "rss",
-      "hub": "Canada"
+      "hub": "Canada",
+      "skip_query_refactoring": true
     },
     {
       "name": "CanadaBuys",
