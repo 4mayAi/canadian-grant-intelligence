@@ -75,8 +75,10 @@
     },
     {
       "name": "IEA_Critical_Minerals",
-      "url": "https://news.google.com/rss/search?q=%22IEA%22+%22critical+minerals%22&hl=en-US&gl=US&ceid=US:en",
-      "type": "rss"
+      "url": "https://www.iea.org/news",
+      "type": "html_playwright",
+      "fallback_url": "https://news.google.com/rss/search?q=%22IEA%22+%22critical+minerals%22&hl=en-US&gl=US&ceid=US:en",
+      "fallback_type": "rss"
     }
   ],
   "keywords": [
