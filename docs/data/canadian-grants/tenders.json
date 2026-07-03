@@ -5687,7 +5687,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)North American Free Trade Agreement (NAFTA)Canada-Peru Free Trade Agreement (CPFTA)"
+    "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)North American Free Trade Agreement (NAFTA)Canada-Peru Free Trade Agreement (CPFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -5715,7 +5715,7 @@
     "notice_type": "",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Colombia Free Trade Agreement"
+    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -5743,7 +5743,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade Agreement"
+    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -5771,7 +5771,119 @@
     "notice_type": "",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)"
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementCanadian Free Trade Agreement (CFTA)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "GNWT Facility Generator Replacement",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-202-72548401",
+    "date": "2026-07-03T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "⚡ Arctic infrastructure alert: The GNWT is replacing critical generator systems in Paulatuk, NT—are you positioned for remote cold-weather energy contracts?",
+      "strategic_value": "* **Financial/Policy Context:** The GNWT Department of Infrastructure's competitive open bidding process for remote facility power systems represents a critical cold-climate asset maintenance initiative.\n* **Technological Target:** Procurement of heavy-duty diesel generator systems (UNSPSC 26111601) engineered to operate under Arctic conditions with high thermal efficiency and integrated fuel-conservation telemetry.\n* **Consulting Pivot:** Propose a hybrid microgrid feasibility study to the GNWT, demonstrating how integrating secondary battery storage and heat-recovery systems with the new diesel assets can lower operating costs and carbon output in Paulatuk.",
+      "co_bidding_opportunity": "A bidding consortium should be formed between diesel generator manufacturers (UNSPSC 26111601) and specialized Northern logistical/installation contractors capable of transporting heavy equipment to remote fly-in or ice-road communities like Paulatuk, NT.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "This tender targets physical machinery replacement (diesel generators) and related mechanical installation works in a remote territorial facility, aligning directly with heavy operational and utility logistics.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-29T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "CNST",
+    "category_label": "Construction",
+    "description": "Procurement Shared Services (PSS) is requesting tenders on behalf of the Department of Infrastructure (INF) for the replacement of a generator in a GNWT facility located in Paulatuk, NT.View documents, including addenda as and when applicable: https://contracts.fin.gov.nt.ca/",
+    "type": "New",
+    "organization": "Government of the Northwest Territories (GNWT)",
+    "solicitation_number": "EV9191",
+    "notice_type": "",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "MOTOR, HYDRAULIC",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-446-9922600",
+    "date": "2026-07-03T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🚢 Attention Canadian marine defence contractors: DND is procuring hydraulic motors for CFB Halifax and Esquimalt under CFTA rules!",
+      "strategic_value": "* **Financial/Policy Context:** The Department of National Defence (DND) is sourcing specialized hydraulic components for naval installations under Canadian Free Trade Agreement (CFTA) rules, prioritizing Canadian-sourced equipment where viable.\n* **Technological Target:** Precision Bosch Rexroth AG hydraulic motors (Part A6VM107HD1/60W0308-PPB020B) or exact technical equivalents designed for marine environments and continuous heavy load cycles.\n* **Consulting Pivot:** Target Canadian marine parts distributors to formulate substitute/equivalent product bids that satisfy the strict Bosch Rexroth spec and meet the \"preference for Canadian goods\" clause.",
+      "co_bidding_opportunity": "Canadian industrial distributors can partner with certified marine engineering testing facilities to supply, test, and deliver the specified hydraulic motors to CFB Halifax and CFB Esquimalt, providing DND with a fully certified turnkey solution.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "The contract is for the supply of heavy hydraulic machinery (pumps/motors) destined for active DND naval bases, falling squarely under physical fleet operations and mechanical supply chain maintenance.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-20T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "NOTICE OF PROPOSED PROCUREMENT\t\t\t\t\t\t\t\t\t\t\t\t\t\tThe Department of National Defence has a requirement for the items detailed below. The delivery is requested at CFB Halifax and CFB Esquimalt.\t\t\t\t\t\t\t\t\t\t\t\t\t\tLine Item:\t001\tMOTOR,HYDRAULIC\t\t\t\t\tPart Number:\tA6VM107HD1/60W0308-PPB020B\tNCAGE:\tD8782\tBosch Rexroth AG\t\t\tGSIN:\t4320\tQuantity:\t4\tUoI:\tEA\tto be delivered to:\tCFB Halifax\t\t\t\t\t\t\tLine Item:\t002\tMOTOR,HYDRAULIC\t\t\t\t\tPart Number:\tA6VM107HD1/60W0308-PPB020B\tNCAGE:\tD8782\tBosch Rexroth AG\t\t\tGSIN:\t4320\tQuanti...",
+    "type": "New",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8482-264900/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Electro-Optical (EO) Spare Parts",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-852-92053835",
+    "date": "2026-07-03T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🎯 Precision defence tech: DND is sourcing specialized electro-optical spare parts and transducers for military artillery systems.",
+      "strategic_value": "* **Financial/Policy Context:** This DND procurement action leverages international trade agreements (WTO GPA, CETA, CPTPP) to secure high-precision, tactical electro-optical spare parts for combat-ready artillery systems.\n* **Technological Target:** Specialized optical sub-assemblies, including transducers (UNSPSC 41112100), manual test kits, calibrators (UNSPSC 41116100), and fixed network equipment, built to withstand high-impact military shock profiles.\n* **Consulting Pivot:** Engage military optoelectronics manufacturers to structure rapid-delivery bids for these niche sub-assemblies by pre-testing compliance with DND's artillery environment requirements.",
+      "co_bidding_opportunity": "A bidding consortium could bring together tactical optoelectronic manufacturers, specialized transducer suppliers, and military-grade testing laboratories to deliver a complete suite of certified spare parts and manual test kits under DND's specifications.",
+      "mets_category": "METS-Digital",
+      "mets_rationalization": "The tender covers advanced electro-optical sub-assemblies, sensors, transducers, and digital calibration equipment used for targeting and instrumentation in defense operations.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-08-03T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "The Department of National Defence DND has a requirement to procure sub-assemblies and piece parts that are used in the support and repair of Artillery related Electro-Optical equipment.",
+    "type": "New",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8486-260751/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "EZ899-270311- Phase 1 - Small Culvert Capital Works (2026)",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110017602?anId=ANONYMOUS",
+    "date": "2026-07-03T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🛣️ Heavy civil players: PSPC has launched Phase 1 of the Alaska Highway small culvert capital works spanning BC to the Yukon.",
+      "strategic_value": "* **Financial/Policy Context:** Public Services and Procurement Canada (PSPC) is deploying capital for northern infrastructure resilience along the vital Alaska Highway corridor (Km 177 to 726).\n* **Technological Target:** Civil execution including pipe culvert installation, corrugated steel plate (CSP) decommissioning via specialty grout placement, riprap end protection, and hydraulic seeding.\n* **Consulting Pivot:** Propose a geotechnical and environmental compliance management service to help prime civil contractors manage regulatory water-use permits and soil stability monitoring along the remote BC-Yukon border.",
+      "co_bidding_opportunity": "Heavy civil contractors bidding on this Alaska Highway project should partner with regional hydraulic seeding specialists, excavation sub-contractors, and local grouting services based in northern BC or the Yukon to cover the extensive geography from Fort St. John to Watson Lake.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "This public tender involves physical highway construction, heavy excavation, structural pipe installation, and land reclamation works along a major terrestrial corridor.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-21T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "CNST",
+    "category_label": "Construction",
+    "description": "The project includes installation of pipe culverts, excavation/ditching, and riprap end protection, placement of grout in decommissioned existing corrugated steel plate (CSP) culverts, and hydraulic seeding of disturbed areas. The sites are located from Km 177.002 to 726.265 of the Alaska Highway between Fort St. John, BC and Watson Lake, YT.The Contractor must reach Substantial Completion of the project by March 15, 2027, and Final Completion of project by March 31, 2027.",
+    "type": "New",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5769876419",
+    "notice_type": "Invitation to Qualify",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
