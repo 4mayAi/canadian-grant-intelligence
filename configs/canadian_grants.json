@@ -29,6 +29,13 @@
       "skip_query_refactoring": true
     },
     {
+      "name": "ECCC_News",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=environmentclimatechange&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+      "type": "rss",
+      "hub": "Canada",
+      "skip_query_refactoring": true
+    },
+    {
       "name": "CanadaBuys",
       "url": "https://open.canada.ca/data/api/action/package_show?id=6abd20d4-7a1c-4b38-baa2-9525d0bb2fd2",
       "type": "ckan",
@@ -89,7 +96,15 @@
     "optical transport",
     "telecom infrastructure",
     "orbital edge computing",
-    "satellite backhaul"
+    "satellite backhaul",
+    "environmental",
+    "conservation",
+    "remediation",
+    "ecological",
+    "climate",
+    "impact assessment",
+    "EIA",
+    "EIAs"
   ],
   "high_value_keywords": [
     "rfp",
