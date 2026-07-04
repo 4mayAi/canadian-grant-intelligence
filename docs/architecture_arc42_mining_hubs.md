@@ -124,6 +124,24 @@ configs/
 └── hub_anchors.json            # Local seed config database for the slow-moving anchors
 ```
 
+### 5.2 Configured Ingestion Sources and LLM Model
+The pipeline is configured via `configs/mining_hubs.json` with the following parameters:
+- **Primary LLM Model:** `gemini-3.5-flash`
+- **Ingestion Sources:**
+  - `Canada_Mining_News` (Canada Mining News Feed)
+  - `Canada_NRCan_News` (Natural Resources Canada News Feed)
+  - `Canada_ISED_Mining` (ISED Mining Strategy News Feed)
+  - `Canada_PCO_News` (Privy Council Office News Feed)
+  - `Canada_ECCC_News` (Environment and Climate Change Canada Google News RSS Feed)
+  - `Australia_Mining_News` (Minerals Council of Australia RSS Feed)
+  - `Australia_WA_Mining` (Western Australia Department of Mines RSS Feed)
+  - `China_Mining_News` (China English-language Mining News Feed)
+  - `Switzerland_Mining_News` (Swiss Commodities Trading News Feed)
+  - `Switzerland_Geneva_News` (Swiss Geneva News Feed)
+  - `UK_Gov_Mining` (UK Department for Business & Trade RSS Feed)
+  - `ICMM_Global_ESG` (International Council on Mining and Metals ESG Feed)
+  - `IEA_Critical_Minerals` (International Energy Agency Playwright HTML scraper)
+
 ---
 
 ## 6. Runtime View

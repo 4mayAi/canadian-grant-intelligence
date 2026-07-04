@@ -123,6 +123,19 @@ docs/
 └── architecture_arc42_grants.md # This architecture document
 ```
 
+### 5.2 Configured Ingestion Sources and LLM Model
+The pipeline is configured via `configs/canadian_grants.json` with the following parameters:
+- **Primary LLM Model:** `gemini-3.5-flash`
+- **Ingestion Sources:**
+  - `PMO_News` (Prime Minister's Office RSS Feed)
+  - `ISED_News` (Innovation, Science and Economic Development Canada Atom Feed)
+  - `Finance_Canada` (Finance Canada Atom Feed)
+  - `Global_Affairs` (Global Affairs RSS Feed)
+  - `ECCC_News` (Environment and Climate Change Canada Google News RSS Feed)
+  - `PCO_News` (Privy Council Office Atom Feed)
+  - `CanadaBuys` (CKAN Procurement database crawler)
+  - `Prime Minister YouTube` (YouTube Briefing Channel scraper)
+
 ---
 
 ## 6. Runtime View

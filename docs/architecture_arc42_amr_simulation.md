@@ -117,6 +117,18 @@ docs/
 └── architecture_arc42_amr_simulation.md # This architecture document
 ```
 
+### 5.2 Configured Ingestion Sources and LLM Model
+The pipeline is configured via `configs/amr_simulation.json` with the following parameters:
+- **Primary LLM Model:** `gemini-3.5-flash`
+- **Ingestion Sources:**
+  - `Canada_CIHR_AMR` (CIHR Antimicrobial Resistance Research Feed)
+  - `Canada_NRC_Simulation` (NRC Simulation and Modeling Feed)
+  - `Canada_CanadaBuys_Procurement` (CKAN database crawler matching AMR keywords)
+  - `Canada_PHAC_AMR` (PHAC Antimicrobial Resistance Feed)
+  - `bioRxiv_Microbiology` (bioRxiv Microbiology Subject Feed)
+  - `Canada_PHAC_Public_Health_Updates` (PHAC Public Health Updates Feed)
+  - `Canada_PHAC_CCDR` (PHAC CCDR Research Reports Feed)
+
 ---
 
 ## 6. Runtime View

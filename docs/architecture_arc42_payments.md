@@ -126,6 +126,20 @@ docs/
 └── architecture_arc42_payments.md # This architecture document
 ```
 
+### 5.2 Configured Ingestion Sources and LLM Model
+The pipeline is configured via `configs/global_payments.json` with the following parameters:
+- **Primary LLM Model:** `gemini-3.5-flash`
+- **Ingestion Sources:**
+  - `Canada_Payments_News` (Canada Payments News Feed)
+  - `Australia_Payments_News` (Australia Payments News Feed)
+  - `China_Payments_News` (China Payments News Feed)
+  - `China_Chinese_Payments_News` (China Chinese-language Payments News Feed)
+  - `Switzerland_Payments_News` (Swiss Payments News Feed)
+  - `Switzerland_French_Payments_News` (Swiss French-language Payments News Feed)
+  - `Switzerland_German_Payments_News` (Swiss German-language Payments News Feed)
+  - `UK_Payments_News` (UK Payments News Feed)
+  - `Global_Payments_News` (Global Payments News Feed)
+
 ---
 
 ## 6. Runtime View

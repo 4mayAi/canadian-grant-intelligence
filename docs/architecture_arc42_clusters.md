@@ -140,6 +140,25 @@ generic_engine/
 - **playwright_scraper.py**: Directs Playwright to launch a headless browser, navigate to the target portal, look up elements like card anchors (`a.card__mainLink`), and extract nested header and date texts.
 - **notifier.py**: Comprises SMTP mailing logic and holds the custom Markdown-to-HTML parser that converts text digests into styled Slate-and-Gold newsletters.
 
+### 5.2 Configured Ingestion Sources and LLM Model
+The pipeline is configured via `configs/innovation_clusters.json` with the following parameters:
+- **Primary LLM Model:** `gemini-3.5-flash`
+- **Ingestion Sources:**
+  - `DIGITAL_News` (DIGITAL Supercluster News Feed)
+  - `DIGITAL_Ecosystem_News` (DIGITAL Ecosystem Feed)
+  - `DIGITAL_Federal_News` (DIGITAL Federal News Feed)
+  - `ScaleAI_News` (ScaleAI Supercluster News Feed)
+  - `ScaleAI_Ecosystem_News` (ScaleAI Ecosystem Feed)
+  - `ScaleAI_Federal_News` (ScaleAI Federal News Feed)
+  - `OceanCluster_News` (Ocean Supercluster News Feed)
+  - `Ocean_Ecosystem_News` (Ocean Ecosystem Feed)
+  - `Ocean_Federal_News` (Ocean Federal News Feed)
+  - `NGen_News` (NGen Manufacturing News Feed)
+  - `NGen_Ecosystem_News` (NGen Ecosystem Feed)
+  - `NGen_Federal_News` (NGen Federal News Feed)
+  - `ProteinIndustries_News` (Protein Industries Playwright crawler)
+  - `ProteinIndustries_Federal_News` (Protein Industries Federal News Feed)
+
 ---
 
 ## 6. Runtime View
