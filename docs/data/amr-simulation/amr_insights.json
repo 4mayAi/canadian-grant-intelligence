@@ -1,48 +1,18 @@
 {
-  "generated_at": "2026-07-03T19:08:26.381550Z",
-  "linkedin_post": "🚀 **Canadian innovation is accelerating, fueled by breakthroughs in pathogen research and strategic investments in simulation technology.** New bioRxiv insights into *Clostridioides difficile*'s essential enzymes and SIV/HIV's stemness pathways reveal critical targets for next-gen antimicrobial and antiviral strategies. Pharmaceutical and biotech firms must leverage virtual pathogen modeling to fast-track novel drug discovery and optimize 'shock-and-kill' approaches. \n\nMeanwhile, the [National Research Council](https://nrc.canada.ca/) of Canada's pursuit of a high-precision hexapod for complex ship motion simulation signals significant investment in advanced physical infrastructure for aerospace and maritime research. This procurement offers prime opportunities for providers of highly integrated, customizable software solutions. The recent conclusion of the Andes hantavirus outbreak also underscores the urgent need for advanced predictive simulation to elevate our global public health readiness for emerging threats. Aerospace technology firms and public health agencies should explore integrated simulation platforms for both cutting-edge research and proactive threat response.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n#ComputationalBiology\n#HealthTech\n#PublicHealth\n#CanadianInnovation\n#SimulationSoftware\n\n### Featured News & Sources\n- [Carboxypeptidase activity drives L,D-transpeptidase essentiality during vegetative growth and sporulation in Clostridioides difficile](https://www.biorxiv.org/content/10.64898/2026.06.30.735746v1?rss=1) (bioRxiv Microbiology)\n- [Inhibition of Stemness Pathways during Acute SIV Limits Infection of Central Memory CD4+ T Cells and Alters Viral Reservoir Activity in Macaques](https://www.biorxiv.org/content/10.64898/2026.07.02.734630v1?rss=1) (bioRxiv Microbiology)\n- [ACAN 26-58020 Laboratory Motion Platform System (Hexapod)](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-500-23638241) (Canada CanadaBuys Procurement)\n- [US public health agency concludes hantavirus response as outbreak eases - Al Jazeera](https://www.aljazeera.com/news/2026/6/24/us-public-health-agency-concludes-hantavirus-response-as-outbreak-eases) (Canada PHAC AMR)\n",
+  "generated_at": "2026-07-04T19:01:53.632735Z",
+  "linkedin_post": "🚀 **From gut microbiomes to aerospace simulation, advanced computational modeling is rewriting the rules of Canadian public health and defense procurement.**\n\nA groundbreaking bioRxiv preprint reveals that predatory bacteria (BALOs) are crucial for human gut homeostasis. Biotech firms and therapeutics developers must pay attention immediately to leverage in silico simulation tools to model predator-prey dynamics, which will accelerate microbiome drug discovery and target validation.\n\nConcurrently, the [National Research Council](https://nrc.canada.ca/) of Canada's ACAN for a Hexapod motion platform signals a high-precision opportunity. Hardware and software simulation developers should target this procurement to integrate custom motion control architecture with aerospace workflows (Fact ID: 1001).\n\nFinally, as the CDC concludes its response to the Andes hantavirus outbreak, the need for predictive modeling remains clear. Public health agencies must leverage computational biology tools to simulate zoonotic spillover and human-to-human transmission vectors to enhance future outbreak readiness (Fact ID: 1002).\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#Biotechnology #Aerospace #PublicHealth #Simulation #ComputationalBiology\n\n### Featured News & Sources\n- [Predatory bacteria as members of human microbiomes and their impact on gut diversity and homeostasis](https://www.biorxiv.org/content/10.64898/2026.07.03.736386v1?rss=1) (bioRxiv Microbiology)\n- [ACAN 26-58020 Laboratory Motion Platform System (Hexapod)](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-500-23638241) (Canada CanadaBuys Procurement)\n- [US public health agency concludes hantavirus response as outbreak eases - Al Jazeera](https://www.aljazeera.com/news/2026/6/24/us-public-health-agency-concludes-hantavirus-response-as-outbreak-eases) (Canada PHAC AMR)\n",
   "insights": [
     {
       "source": "bioRxiv_Microbiology",
-      "title": "Carboxypeptidase activity drives L,D-transpeptidase essentiality during vegetative growth and sporulation in Clostridioides difficile",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.06.30.735746v1?rss=1",
+      "title": "Predatory bacteria as members of human microbiomes and their impact on gut diversity and homeostasis",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.03.736386v1?rss=1",
       "date": "2026-07-03T00:00:00Z",
       "insight": {
-        "linkedin_hook": "🔬 New bioRxiv insight! Understanding *C. difficile*'s essential enzymes like L,D-transpeptidase offers a critical pathway for next-gen antimicrobial strategies. #PathogenModeling #DrugDiscovery",
-        "strategic_value": "- This research provides a fundamental understanding of *C. difficile* survival mechanisms, highlighting specific enzyme targets (L,D-transpeptidase) crucial for its vegetative growth and sporulation. This biological process is ripe for in silico simulation to model antimicrobial efficacy.\n- Computational biology and virtual pathogen modeling tools can simulate the impact of inhibiting these essential enzymes, accelerating the identification of novel antimicrobial compounds or therapies against C. diff, a significant public health concern.\n- * **Consulting Pivot:** Propose a project to develop a custom virtual pathogen model for *Clostridioides difficile*, focusing on the specific enzymatic pathways identified, to support antimicrobial drug discovery pipelines for pharmaceutical clients.",
-        "co_bidding_opportunity": "No specific consortium or partnership opportunities are mentioned in the source text.",
+        "linkedin_hook": "🔬 Groundbreaking bioRxiv preprint just dropped! Predatory bacteria, long dismissed, are now confirmed as key players in human gut health. This discovery redefines our understanding of microbiome homeostasis and opens new avenues for chronic disease therapies.",
+        "strategic_value": "- **Microbiome Redefinition:** This study fundamentally shifts understanding of *Bdellovibrio and like organisms (BALOs)*, establishing them as consistent, functionally relevant members of the human microbiome with a role in maintaining gut diversity and potentially combating dysbiosis in diseases like IBD and diabetes.\n- **Virtual Therapeutic Design:** The identification of BALOs as therapeutic candidates for chronic gut disease creates a significant opportunity for applying virtual pathogen modeling and computational biology tools to simulate BALO-prey interactions, optimize strain selection, and predict efficacy in complex gut environments, accelerating drug discovery and target validation.\n- **Consulting Pivot:** Propose a partnership to develop in silico models for simulating BALO predatory dynamics within diverse human gut microbiome contexts, aiding in the preclinical development and optimization of novel BALO-based biotherapeutics for chronic inflammatory conditions.",
+        "co_bidding_opportunity": "",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "This signal aligns with the long-term need for advanced computational tools in Canadian biotech and public health to combat antimicrobial resistance and develop new treatments, leveraging digital platforms for research and development.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Inhibition of Stemness Pathways during Acute SIV Limits Infection of Central Memory CD4+ T Cells and Alters Viral Reservoir Activity in Macaques",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.02.734630v1?rss=1",
-      "date": "2026-07-03T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🚨 Breakthrough in SIV/HIV research! Targeting stemness pathways could be key to reducing viral reservoirs. How can #InSilico modeling accelerate 'shock-and-kill' strategies? #HIVCure #ComputationalBiology",
-        "strategic_value": "- This research highlights a novel therapeutic approach for SIV/HIV by modulating T cell stemness pathways, offering new targets for drug and vaccine design. Virtual modeling can simulate these complex cellular interactions and viral dynamics to predict treatment outcomes.\n- Computational biology tools can be applied to simulate viral reservoir establishment and persistence, as well as the effects of interventions like 'shock-and-kill' approaches, optimizing drug combinations and timing for greater efficacy.\n- * **Consulting Pivot:** Offer to develop advanced in silico models for simulating SIV/HIV latency, reservoir dynamics, and the impact of stemness pathway inhibitors, aligning with drug development efforts in infectious diseases.",
-        "co_bidding_opportunity": "The paper lists several authors associated with Emory University and mentions NIH funding. Potential for collaborative research exists with academic institutions focusing on infectious disease or immunology, especially those receiving NIH grants, but no specific consortium or partnership is explicitly stated.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Advanced computational biology tools are crucial for accelerating vaccine and drug discovery for major infectious diseases, aligning with Canadian health-tech's focus on innovation and global health contributions through digital simulation platforms.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Mammarenavirus-Induced Remodeling of the Cellular Lipid Landscape Reveals Sphingolipid Metabolism as a Novel Target for Antiviral Intervention",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.02.736094v1?rss=1",
-      "date": "2026-07-03T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "💡 Urgent call for antivirals! New bioRxiv study shows targeting sphingolipid metabolism could halt deadly Mammarenaviruses. How can #ComputationalBiology accelerate host-directed antiviral design? #ViralHemorrhagicFever #DrugDiscovery",
-        "strategic_value": "- This research identifies a critical host-pathogen interaction, where Mammarenaviruses reprogram cellular lipid metabolism for replication, revealing sphingolipid pathways (e.g., nSMase2) as promising targets for novel host-directed antiviral therapies.\n- In silico simulation and computational biology tools can model these complex metabolic pathways and their interactions with viral replication, facilitating the rational design and screening of compounds that modulate sphingolipid metabolism to inhibit viral production.\n- * **Consulting Pivot:** Propose developing a virtual screening platform for drug candidates targeting host sphingolipid metabolism, specifically nSMase2, to accelerate the discovery of broad-spectrum antivirals against emerging viral threats.",
-        "co_bidding_opportunity": "The funding information points to Spanish and EU research entities (Ministerio de Ciencia, Innovación y Universidades, Comunidad de Madrid, FEDER EU). Co-bidding opportunities might exist within EU or Spanish-funded calls related to emerging infectious diseases, but no specific Canadian partners are mentioned.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Addressing public health threats like viral hemorrhagic fevers aligns with global health security, where Canadian biotechnology can contribute through digital innovation, specifically in drug discovery and pathogen simulation, leveraging advanced computational tools.",
+        "mets_rationalization": "The application of virtual pathogen modeling and computational biology to understand BALO-microbiome interactions directly aligns with Canadian efforts to leverage digital health technologies for accelerating drug discovery and developing innovative therapeutic strategies for chronic diseases, reducing healthcare burden.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
@@ -244,7 +214,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
+      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -414,7 +384,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade Agreement"
+      "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade Agreement"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -482,7 +452,7 @@
       "notice_type": "",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "",
-      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)"
+      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -584,7 +554,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade Agreement"
+      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -656,46 +626,6 @@
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
-      "title": "Gas Compression Recovery System",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-436-6672806",
-      "date": "2026-05-29T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Is your pipeline research ready for the hydrogen transition? 🚀",
-        "strategic_value": "* Pipeline integrity is becoming a critical bottleneck in the Canadian energy transition.\n* Integrating advanced simulation software can predict material stress under complex cyclic pressure conditions.\n* **Consulting Pivot:** Position your firm as a simulation partner for NRC-funded test facilities, providing 'digital twin' capabilities that simulate pipe failure scenarios before physical testing begins.",
-        "co_bidding_opportunity": "Collaborate with existing bidders like [EYOS Sourcing Ltd.](https://canadabuys.canada.ca/en/node/preview/1466404) to provide digital modeling or data acquisition software for the GCRS pipe testing facility.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "Physical infrastructure project requiring sensor integration and data processing capabilities consistent with NRC facility upgrades.",
-        "grounded_fact_ids": [
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        }
-      },
-      "closing_date": "2026-07-07T00:00:00Z",
-      "province": "Multiple Provinces",
-      "province_abbrev": "MULT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "The National Research Council of Canada (NRC) is conducting research on the performance and durability of pipeline materials exposed to blends of natural gas and hydrogen. To support this work, NRC is establishing a full-scale pipe testing facility capable of controlled cyclic pressure testing under various gas compositions and operating conditions.NRC requires the supply, installation, integration, and commissioning of a Gas Compression and Recovery System (GCRS) to support cyclic pressure test...",
-      "type": "Open",
-      "partner_list": [
-        {
-          "name": "EYOS Sourcing Ltd.",
-          "link": "https://canadabuys.canada.ca/en/node/preview/1466404"
-        }
-      ],
-      "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "25-58266",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade Agreement"
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
       "title": "In Service Support for the Medium‑Long Range Aircraft Platform for Environmental Research (MAPLE)",
       "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-461-59595377",
       "date": "2026-05-29T00:00:00Z",
@@ -728,6 +658,46 @@
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "",
       "trade_agreements": "Please refer to Tender Description or Tender Documents"
+    },
+    {
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "Gas Compression Recovery System",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-436-6672806",
+      "date": "2026-05-29T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Is your pipeline research ready for the hydrogen transition? 🚀",
+        "strategic_value": "* Pipeline integrity is becoming a critical bottleneck in the Canadian energy transition.\n* Integrating advanced simulation software can predict material stress under complex cyclic pressure conditions.\n* **Consulting Pivot:** Position your firm as a simulation partner for NRC-funded test facilities, providing 'digital twin' capabilities that simulate pipe failure scenarios before physical testing begins.",
+        "co_bidding_opportunity": "Collaborate with existing bidders like [EYOS Sourcing Ltd.](https://canadabuys.canada.ca/en/node/preview/1466404) to provide digital modeling or data acquisition software for the GCRS pipe testing facility.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "Physical infrastructure project requiring sensor integration and data processing capabilities consistent with NRC facility upgrades.",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        }
+      },
+      "closing_date": "2026-07-21T00:00:00Z",
+      "province": "Multiple Provinces",
+      "province_abbrev": "MULT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "The National Research Council of Canada (NRC) is conducting research on the performance and durability of pipeline materials exposed to blends of natural gas and hydrogen. To support this work, NRC is establishing a full-scale pipe testing facility capable of controlled cyclic pressure testing under various gas compositions and operating conditions.NRC requires the supply, installation, integration, and commissioning of a Gas Compression and Recovery System (GCRS) to support cyclic pressure test...",
+      "type": "Open",
+      "partner_list": [
+        {
+          "name": "EYOS Sourcing Ltd.",
+          "link": "https://canadabuys.canada.ca/en/node/preview/1466404"
+        }
+      ],
+      "organization": "National Research Council of Canada (NRC)",
+      "solicitation_number": "25-58266",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
