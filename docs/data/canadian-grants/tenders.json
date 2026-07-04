@@ -5767,6 +5767,34 @@
   },
   {
     "source": "CanadaBuys",
+    "title": "Ophthalmology Services and Oversight for Ophthalmic Technicians",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-665-21353096",
+    "date": "2026-06-04T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "👁️ Elevating northern clinical care: The Government of the Northwest Territories is seeking specialized ophthalmology services and technician oversight to bridge critical geographic gaps.",
+      "strategic_value": "* **Financial & Policy Context:** Healthcare delivery in Canada's North relies heavily on outsourced specialist contracts due to remote geography, making consistent clinical oversight a multi-year fiscal priority for territorial health authorities.\n* **Technological Target:** Service delivery must incorporate secure clinical communication systems, remote diagnostics, and digital ophthalmology imaging protocols that integrate with the NTHSSA's existing electronic health record systems.\n* **Consulting Pivot:** * **Consulting Pivot:** Pitch a structured, hybrid delivery model that pairs fly-in surgical rotations with continuous remote diagnostic telemetry to maximize patient throughput and slash the territory's operational travel overhead.",
+      "co_bidding_opportunity": "Proponents can form partnerships between specialized ophthalmology clinic operators and regional northern logistics providers or local medical service partners to manage clinical space and patient flow.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "This involves the physical mobilization of clinical personnel and specialized diagnostic operations to remote northern communities to deliver essential health services.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-06T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "The Government of the Northwest Territories (GNWT) Procurement Shared Services (PSS), on behalf of the Northwest Territories Health and Social Services Authority (NTHSSA) is requesting Proposals from interested Proponents for the provision of services as outlined in this Request for Proposals (RFP).View documents, including addenda as and when applicable: https://contracts.fin.gov.nt.ca/",
+    "type": "Open",
+    "organization": "Government of the Northwest Territories (GNWT)",
+    "solicitation_number": "EV9133",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents"
+  },
+  {
+    "source": "CanadaBuys",
     "title": "a Pole-Setting Truck",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-711-15670076",
     "date": "2026-06-23T00:00:00Z",
@@ -6746,33 +6774,5 @@
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
     "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade Agreement"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "Ophthalmology Services and Oversight for Ophthalmic Technicians",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-665-21353096",
-    "date": "2026-06-04T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "👁️ Elevating northern clinical care: The Government of the Northwest Territories is seeking specialized ophthalmology services and technician oversight to bridge critical geographic gaps.",
-      "strategic_value": "* **Financial & Policy Context:** Healthcare delivery in Canada's North relies heavily on outsourced specialist contracts due to remote geography, making consistent clinical oversight a multi-year fiscal priority for territorial health authorities.\n* **Technological Target:** Service delivery must incorporate secure clinical communication systems, remote diagnostics, and digital ophthalmology imaging protocols that integrate with the NTHSSA's existing electronic health record systems.\n* **Consulting Pivot:** * **Consulting Pivot:** Pitch a structured, hybrid delivery model that pairs fly-in surgical rotations with continuous remote diagnostic telemetry to maximize patient throughput and slash the territory's operational travel overhead.",
-      "co_bidding_opportunity": "Proponents can form partnerships between specialized ophthalmology clinic operators and regional northern logistics providers or local medical service partners to manage clinical space and patient flow.",
-      "mets_category": "METS-Ops",
-      "mets_rationalization": "This involves the physical mobilization of clinical personnel and specialized diagnostic operations to remote northern communities to deliver essential health services.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-07-06T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "The Government of the Northwest Territories (GNWT) Procurement Shared Services (PSS), on behalf of the Northwest Territories Health and Social Services Authority (NTHSSA) is requesting Proposals from interested Proponents for the provision of services as outlined in this Request for Proposals (RFP).View documents, including addenda as and when applicable: https://contracts.fin.gov.nt.ca/",
-    "type": "Open",
-    "organization": "Government of the Northwest Territories (GNWT)",
-    "solicitation_number": "EV9133",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "",
-    "trade_agreements": "Please refer to Tender Description or Tender Documents"
   }
 ]
