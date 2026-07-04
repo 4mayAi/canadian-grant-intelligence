@@ -30,7 +30,7 @@
     },
     {
       "name": "Canada_ECCC_News",
-      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=environmentclimatechange&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+      "url": "https://news.google.com/rss/search?q=site:canada.ca/en/environment-climate-change/news&hl=en-CA&gl=CA&ceid=CA:en",
       "type": "rss",
       "skip_query_refactoring": true
     },

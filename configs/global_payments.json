@@ -36,13 +36,13 @@
     },
     {
       "name": "Switzerland_French_Payments_News",
-      "url": "https://news.google.com/rss/search?q=Glencore+OR+Trafigura+%22financement+du+commerce%22+OR+%22lettres+de+cr%C3%A9dit%22+OR+%22r%C3%A8glement+des+transactions%22&hl=fr&gl=CH&ceid=CH:fr",
+      "url": "https://news.google.com/rss/search?q=%22financement+du+commerce%22+OR+%22lettre+de+cr%C3%A9dit%22+OR+%22r%C3%A8glement+des+transactions%22+OR+%22financement+des+exportations%22+site:ch&hl=fr&gl=CH&ceid=CH:fr",
       "type": "rss",
       "skip_query_refactoring": true
     },
     {
       "name": "Switzerland_German_Payments_News",
-      "url": "https://news.google.com/rss/search?q=Glencore+OR+Trafigura+%22Handelsfinanzierung%22+OR+%22Akkreditiv%22+OR+%22Zahlungsabwicklung%22&hl=de&gl=CH&ceid=CH:de",
+      "url": "https://news.google.com/rss/search?q=%22Handelsfinanzierung%22+OR+%22Akkreditiv%22+OR+%22Zahlungsabwicklung%22+OR+%22Exportfinanzierung%22+site:ch&hl=de&gl=CH&ceid=CH:de",
       "type": "rss",
       "skip_query_refactoring": true
     },
