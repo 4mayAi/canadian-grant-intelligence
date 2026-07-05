@@ -17,10 +17,15 @@ Session Content:
   - **MTS Systems**: Custom multi-axial simulation tables and hexapods.
   - **SANLAB Simulation**: High-capacity maritime and defense 6-DOF bases.
 - Documented the critical barrier to entry: Section 3.A (System Compatibility) effectively locks out all alternative suppliers because they cannot natively execute Symetrie's proprietary control software without translation layers.
+- Analyzed avenues for Canadian entities to access or collaborate on this contract:
+  - **Direct Collaboration with Symetrie**: French-based Symetrie requires local Canadian support for import/customs, physical installation, commissioning, calibration, and local warranty servicing at the Ottawa NRC-AERO facility.
+  - **Collaborative R&D with NRC-AERO**: The hexapod is being acquired to evaluate Unmanned Aircraft Systems (UAS) deck-landing dynamics. Canadian drone and defense companies (e.g. InDro Robotics) can test their UAS platforms at the facility through the Drone Innovation Hub or the Integrated Aerial Mobility Program.
+  - **Grant Funding Links**: Canadian SMEs can apply for actual government grants (e.g., NRC IRAP, IDEaS, NSERC Alliance) to fund their collaborative research and testing using this newly acquired NRC hexapod.
 
 Summary:
 - Completed the supplier landscape and entry barrier analysis for the NRC-AERO Hexapod procurement.
 - Confirmed Symetrie as the only viable contract recipient.
+- Outlined local partner opportunities and R&D pathways for Canadian firms.
 
 Issues:
 - None.
