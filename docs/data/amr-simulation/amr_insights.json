@@ -1,22 +1,7 @@
 {
-  "generated_at": "2026-07-04T19:01:53.632735Z",
-  "linkedin_post": "🚀 **From gut microbiomes to aerospace simulation, advanced computational modeling is rewriting the rules of Canadian public health and defense procurement.**\n\nA groundbreaking bioRxiv preprint reveals that predatory bacteria (BALOs) are crucial for human gut homeostasis. Biotech firms and therapeutics developers must pay attention immediately to leverage in silico simulation tools to model predator-prey dynamics, which will accelerate microbiome drug discovery and target validation.\n\nConcurrently, the [National Research Council](https://nrc.canada.ca/) of Canada's ACAN for a Hexapod motion platform signals a high-precision opportunity. Hardware and software simulation developers should target this procurement to integrate custom motion control architecture with aerospace workflows (Fact ID: 1001).\n\nFinally, as the CDC concludes its response to the Andes hantavirus outbreak, the need for predictive modeling remains clear. Public health agencies must leverage computational biology tools to simulate zoonotic spillover and human-to-human transmission vectors to enhance future outbreak readiness (Fact ID: 1002).\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#Biotechnology #Aerospace #PublicHealth #Simulation #ComputationalBiology\n\n### Featured News & Sources\n- [Predatory bacteria as members of human microbiomes and their impact on gut diversity and homeostasis](https://www.biorxiv.org/content/10.64898/2026.07.03.736386v1?rss=1) (bioRxiv Microbiology)\n- [ACAN 26-58020 Laboratory Motion Platform System (Hexapod)](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-500-23638241) (Canada CanadaBuys Procurement)\n- [US public health agency concludes hantavirus response as outbreak eases - Al Jazeera](https://www.aljazeera.com/news/2026/6/24/us-public-health-agency-concludes-hantavirus-response-as-outbreak-eases) (Canada PHAC AMR)\n",
+  "generated_at": "2026-07-05T19:07:23.671903Z",
+  "linkedin_post": "🚨 **Simulation is accelerating Canada's readiness, from aerospace safety to global pathogen response!** This week highlights critical opportunities for strategic investment in advanced computational tools across vital sectors.\n\nOur [National Research Council](https://nrc.canada.ca/) ([NRC](https://nrc.canada.ca/) Aerospace) is actively seeking a high-precision hexapod for simulating complex ship motions, crucial for enhancing UAS safety. Hardware and software innovators should note the [NRC](https://nrc.canada.ca/)'s emphasis on seamless integration with existing motion control and data acquisition frameworks, presenting a clear path to contribute to cutting-edge aerospace and maritime research with customized simulation platforms aligned with funding for breakthrough simulation technologies.\n\nSimultaneously, the conclusion of the US public health agency's response to the Andes hantavirus outbreak underscores the urgent global need for advanced virtual pathogen modeling. This event, involving human-to-human transmission, shows how computational biology tools could have predicted transmission pathways. Public health agencies like [PHAC](https://www.canada.ca/en/public-health.html) and computational biology firms can leverage this insight to develop proactive in silico simulation platforms, enhancing our ability to predict and contain future zoonotic threats by leveraging [PHAC](https://www.canada.ca/en/public-health.html)'s infectious disease modeling funding.\n\nFrom national research infrastructure to global health security, advanced simulation and computational biology are proving indispensable. Identifying these strategic alignments now is key to future-proofing our capabilities.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#HealthTech #CanadianBiotech #PublicHealth #SimulationSoftware #GrantOpportunities\n\n### Featured News & Sources\n- [ACAN 26-58020 Laboratory Motion Platform System (Hexapod)](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-500-23638241) (Canada CanadaBuys Procurement)\n- [US public health agency concludes hantavirus response as outbreak eases - Al Jazeera](https://www.aljazeera.com/news/2026/6/24/us-public-health-agency-concludes-hantavirus-response-as-outbreak-eases) (Canada PHAC AMR)\n",
   "insights": [
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Predatory bacteria as members of human microbiomes and their impact on gut diversity and homeostasis",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.03.736386v1?rss=1",
-      "date": "2026-07-03T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🔬 Groundbreaking bioRxiv preprint just dropped! Predatory bacteria, long dismissed, are now confirmed as key players in human gut health. This discovery redefines our understanding of microbiome homeostasis and opens new avenues for chronic disease therapies.",
-        "strategic_value": "- **Microbiome Redefinition:** This study fundamentally shifts understanding of *Bdellovibrio and like organisms (BALOs)*, establishing them as consistent, functionally relevant members of the human microbiome with a role in maintaining gut diversity and potentially combating dysbiosis in diseases like IBD and diabetes.\n- **Virtual Therapeutic Design:** The identification of BALOs as therapeutic candidates for chronic gut disease creates a significant opportunity for applying virtual pathogen modeling and computational biology tools to simulate BALO-prey interactions, optimize strain selection, and predict efficacy in complex gut environments, accelerating drug discovery and target validation.\n- **Consulting Pivot:** Propose a partnership to develop in silico models for simulating BALO predatory dynamics within diverse human gut microbiome contexts, aiding in the preclinical development and optimization of novel BALO-based biotherapeutics for chronic inflammatory conditions.",
-        "co_bidding_opportunity": "",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "The application of virtual pathogen modeling and computational biology to understand BALO-microbiome interactions directly aligns with Canadian efforts to leverage digital health technologies for accelerating drug discovery and developing innovative therapeutic strategies for chronic diseases, reducing healthcare burden.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
     {
       "source": "Canada_CanadaBuys_Procurement",
       "title": "ACAN 26-58020 Laboratory Motion Platform System (Hexapod)",
@@ -384,7 +369,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade Agreement"
+      "trade_agreements": "North American Free Trade Agreement (NAFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade Agreement"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -452,7 +437,7 @@
       "notice_type": "",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "",
-      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)"
+      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -554,7 +539,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)"
+      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -697,7 +682,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
+      "trade_agreements": "Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
