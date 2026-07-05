@@ -21,14 +21,18 @@ Session Content:
   - **Direct Collaboration with Symetrie**: French-based Symetrie requires local Canadian support for import/customs, physical installation, commissioning, calibration, and local warranty servicing at the Ottawa NRC-AERO facility.
   - **Collaborative R&D with NRC-AERO**: The hexapod is being acquired to evaluate Unmanned Aircraft Systems (UAS) deck-landing dynamics. Canadian drone and defense companies (e.g. InDro Robotics) can test their UAS platforms at the facility through the Drone Innovation Hub or the Integrated Aerial Mobility Program.
   - **Grant Funding Links**: Canadian SMEs can apply for actual government grants (e.g., NRC IRAP, IDEaS, NSERC Alliance) to fund their collaborative research and testing using this newly acquired NRC hexapod.
+- Discussed dashboard engine insights logic:
+  - Noted that recommending competitive bidding or generic consortia for sole-source ACAN tenders is inaccurate and low-value.
+  - Formulated a prompt modification strategy for `configs/canadian_grants.json` and `configs/innovation_clusters.json` to instruct the LLM to detect ACANs/sole-source tenders and automatically pivot insights to downstream collaboration or local OEM subcontracting.
 
 Summary:
 - Completed the supplier landscape and entry barrier analysis for the NRC-AERO Hexapod procurement.
 - Confirmed Symetrie as the only viable contract recipient.
 - Outlined local partner opportunities and R&D pathways for Canadian firms.
+- Proposed prompt refinement for the insights engine to handle ACANs dynamically.
 
 Issues:
 - None.
 
 Next Steps:
-- Report the findings back to the user.
+- Report findings to the user and request confirmation to update config files.
