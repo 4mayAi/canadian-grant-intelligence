@@ -31,7 +31,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade Agreement"
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -255,7 +255,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade Agreement"
+    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -427,34 +427,6 @@
   },
   {
     "source": "CanadaBuys",
-    "title": "Whale Watching Services",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-131-57719781",
-    "date": "2026-06-23T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🐋 Turning a training exercise into a community engagement: DND looking for Victoria-based marine charters.",
-      "strategic_value": "* This requirement represents a tactical use of local services for DND community relations during regional operations in British Columbia.\n* The procurement utilizes traditional competitive bidding for short-term service delivery, emphasizing lowest-price selection criteria for standard marine excursion assets.\n* **Consulting Pivot:** Market your agency as a local government-contracting liaison that helps niche maritime tourism operators navigate the SAP Ariba registration and federal bidding cycle to win 'as-and-when' government contracts.",
-      "co_bidding_opportunity": "Maritime tour operators, regional marine logistics providers.",
-      "mets_category": "METS-Ops",
-      "mets_rationalization": "This connects to the 'social license' and community relations aspect of regional DND site operations.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-07-03T00:00:00Z",
-    "province": "British Columbia",
-    "province_abbrev": "BC",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "This NPP is issued to cover a requirement for the Department of National Defence. This requirement is for whale watching services on August 31st 2026 in Victoria, British Columbia.There is no security associated with the requirement.Inquiries regarding this requirement must be submitted to the Contracting Authority named above.",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W0103-19090909",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
-  },
-  {
-    "source": "CanadaBuys",
     "title": "One (1) Subject Matter Expert",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-60-42182957",
     "date": "2026-06-23T00:00:00Z",
@@ -563,7 +535,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)"
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -619,7 +591,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)"
+    "trade_agreements": "North American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)"
   },
   {
     "source": "CanadaBuys",
@@ -955,7 +927,7 @@
     "notice_type": "",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)"
+    "trade_agreements": "Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)"
   },
   {
     "source": "CanadaBuys",
@@ -1039,7 +1011,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canada-Panama Free Trade Agreement"
+    "trade_agreements": "Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)North American Free Trade Agreement (NAFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -1067,7 +1039,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)"
+    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)"
   },
   {
     "source": "CanadaBuys",
@@ -1183,34 +1155,6 @@
   },
   {
     "source": "CanadaBuys",
-    "title": "Titanium-Sapphire Pumped Optical Parametric Amplifier",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-77-58329129",
-    "date": "2026-06-18T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🔬 Pushing the boundaries of quantum optics: NRC procures high-precision laser systems.",
-      "strategic_value": "* This acquisition reflects Canada’s strategic investment in quantum research and photonics, specifically for integration with existing Ti:sapphire laser infrastructure.\n* The technological target is a specialized Optical Parametric Oscillator (OPO) system designed for tunable femtosecond output.\n* **Consulting Pivot:** Since this is an Advance Contract Award Notice (ACAN) for specific hardware, position your firm as an integration specialist for quantum labs; offer 'custom software interface development' or 'optical bench calibration' to complement the new hardware installation.",
-      "co_bidding_opportunity": "Specialized laboratory integrators or photonics engineering firms capable of aligning new OPO systems with existing Coherent Chameleon hardware.",
-      "mets_category": "METS-Digital",
-      "mets_rationalization": "Relates to advanced laboratory and scientific digital-optical instrumentation.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-07-03T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "The Department of the National Research Council Canada has a requirement for the supply of one (1) Optical Parametric Oscillator System.  The system must provide tunable femtosecond output for quantum and nonlinear optics experiments. The OPO will be pumped by an existing Coherent Chameleon femtosecond Ti:sapphire laser, and used in conjunction with an existing OPO. Accordingly, the new OPO must be compatible with both.",
-    "type": "Open",
-    "organization": "National Research Council of Canada (NRC)",
-    "solicitation_number": "26-58068",
-    "notice_type": "Advance Contract Award Notice",
-    "procurement_method": "Advance contract award notice",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)"
-  },
-  {
-    "source": "CanadaBuys",
     "title": "Advanced Research Grade Live-Cell Imaging and Analysis System",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-905-83119512",
     "date": "2026-06-18T00:00:00Z",
@@ -1263,7 +1207,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Colombia Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)"
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
   },
   {
     "source": "CanadaBuys",
@@ -1291,7 +1235,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)"
+    "trade_agreements": "Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)"
   },
   {
     "source": "CanadaBuys",
@@ -1348,62 +1292,6 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "Organizational design and classification consultant for LAC",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-7-61131210",
-    "date": "2026-06-17T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Designing for the future of federal leadership. 🏛️",
-      "strategic_value": "* Library and Archives Canada (LAC) is prioritizing deep structural changes to their EX and non-EX workforce hierarchy to ensure policy compliance with the Treasury Board Secretariat.\n* The requirement focuses on organizational design, classification evaluation, and impact analysis over an extensive 24-month horizon.\n* **Consulting Pivot:** If you are an SME in organizational psychology or government HR consulting, target the listed SA holders for sub-consulting opportunities specifically in 'impact analysis' and 'restructuring change management'.",
-      "co_bidding_opportunity": "Must be a Supply Arrangement (SA) Holder under E60ZT-18TSPS Tier 1.",
-      "mets_category": "METS-PMO",
-      "mets_rationalization": "Links organizational administrative reform to the broader regulatory mandate of federal institutions.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-07-03T00:00:00Z",
-    "province": "NCR (Ottawa/Gatineau)",
-    "province_abbrev": "NCR",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)for TASK Based Professional Services (TSPS) RequirementPlease note that the TSPS NPP MUST be published simultaneously with the issuance of the invitation to suppliers.     This requirement is for: Library and Archives CanadaThis requirement is open only to those Supply Arrangement Holders under E60ZT-18TSPS who qualified under Tier 1 , under the region / metropolitan area, level of expertise and for the following category: 1.2 Organizational design and classif...",
-    "type": "Open",
-    "organization": "Library and Archives of Canada (LAC)",
-    "solicitation_number": "5Z011-27-0016",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Selective tendering",
-    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "Feasibility Study for the Installation of a Ground-coupled Heat Exchanger at the Dairy Complex of the Sherbrooke Research and Development Centre",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-592-64953135",
-    "date": "2026-06-17T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Is your agricultural complex ready for the net-zero heat exchange transition? 🐄",
-      "strategic_value": "* Agriculture and Agri-Food Canada (AAFC) is evaluating ground-coupled heat exchanger technology to reduce energy consumption at the Sherbrooke Research Dairy Complex.\n* This signals a move toward climate-resilient infrastructure using geothermal/ground-source thermal dynamics for livestock environmental control.\n* **Consulting Pivot:** If your firm provides geothermal engineering or building performance modeling, use this as a 'Portfolio Case Study' to approach agricultural industrial operators looking to reduce cooling/heating operational costs.",
-      "co_bidding_opportunity": "Consultants in agricultural, mechanical, or electrical engineering fields.",
-      "mets_category": "METS-ESG",
-      "mets_rationalization": "Represents the intersection of carbon-neutral infrastructure development and specialized environmental agricultural operations.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-07-03T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "AAFC requires the services of a Consultant in agricultural/mechanical/electrical engineering to carry out a feasibility study for the installation of ground-coupled heat exchangers to preheat and cool the supply air for the dairy complex, which houses approximately 120 cows in Section 100 of the barn in Building 76 at the Sherbrooke Research and Development Centre.Optional Site-Visit : June 25, 2026 at 1:00pm (EDT)Closing date : July 3rd, 2026 at 2:00pm (EDT)",
-    "type": "Open",
-    "organization": "Department of Agriculture and Agri-Food (AAFC)",
-    "solicitation_number": "ESC-2627-031",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "None"
   },
   {
     "source": "CanadaBuys",
@@ -1627,7 +1515,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)"
+    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)"
   },
   {
     "source": "CanadaBuys",
@@ -1684,34 +1572,6 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "ANTI-EXPOSURE COVERALLS & IMMERSION SUITS",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-885-98313244",
-    "date": "2026-06-12T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🛡️ Keeping those on the front lines of defense safe: New DND requirement for high-spec immersion gear.",
-      "strategic_value": "* This procurement reinforces the 'Buy Canadian' policy, prioritizing domestic textile manufacturing and supply chain resilience for military-grade safety equipment.\n* The technological target requires specialized materials meeting Halifax-class naval safety standards, likely involving high-thermal-retention synthetic fabrics and pressure-rated seals.\n* **Consulting Pivot:** Reach out to Canadian tactical textile manufacturers as a procurement advisor to help them align their QMS (Quality Management Systems) with DND’s specific NCAGE documentation requirements.",
-      "co_bidding_opportunity": "Consortium opportunities exist for specialized safety apparel manufacturers to partner with logistics contractors for regional distribution to CFB Halifax and CFB Esquimalt.",
-      "mets_category": "METS-Ops",
-      "mets_rationalization": "Relates to operational readiness and physical safety infrastructure for the Canadian Armed Forces, directly tied to federal procurement policy.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-07-03T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "NOTICE OF PROPOSED PROCUREMENT\t\t\t\t\t\tThe Department of National Defence has a requirement for the items detailed below. The delivery is requested at CFB Halifax and CFB Esquimalt. This procurement of  ANTI-EXPOSURE COVERALLS & IMMERSION SUITS will support the following Halifax-class system:LIFE SAVING EQUIPMENT (HFX CLASS)All instructions, clauses and conditions are identified in the solicitation of offers by number, date and title.Offerors who submit an offer agree to be bound by the instruction...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W8482-264960/A",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -1773,7 +1633,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade Agreement"
+    "trade_agreements": "North American Free Trade Agreement (NAFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -1829,7 +1689,7 @@
     "notice_type": "",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
-    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Please refer to Tender Description or Tender DocumentsCanada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)"
+    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Please refer to Tender Description or Tender DocumentsCanada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
   },
   {
     "source": "CanadaBuys",
@@ -1975,7 +1835,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)"
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -2009,7 +1869,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
+    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -2038,34 +1898,6 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "High Voltage Protective flooring / ESD / Anti-fatigue",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-42-56729164",
-    "date": "2026-06-08T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "⚡ Protecting critical infrastructure: DND seeks specialized ESD flooring for R&M Engineer training. Is your facility spec-ready?",
-      "strategic_value": "* The DND is prioritizing facility hardening at the Royal Canadian Electronic and Mechanic Engineer School to ensure operational longevity of sensitive electronic assets.\n* The tender requires specialized High Voltage Protective flooring and Anti-fatigue systems, emphasizing a focus on occupational safety and equipment protection standards.\n* **Consulting Pivot:** Approach the prime contractors bidding on this facility upgrade to offer supplementary ESD certification services or long-term maintenance monitoring to maximize their site installation value.",
-      "co_bidding_opportunity": "The opportunity lists a 'Partner with another business' tool on CanadaBuys for firms interested in forming informal teaming arrangements, though bidding remains competitive.",
-      "mets_category": "METS-Ops",
-      "mets_rationalization": "This project involves physical infrastructure hardening essential for the operational maintenance of defense assets, aligning with METS-Ops physical processing and facility requirements.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-07-03T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "SRVTGD",
-    "category_label": "Services (Goods-Related)",
-    "description": "Notice of Proposed Procurement (NPP)High Voltage Protective Flooring system (Ontario)This requirement is for the Department of National Defence.This requirement is open to vendors in Canada.Description of the requirement: The Department of National Defence has a requirement for the purchase, installation and delivery of High Voltage Protective Flooring System in Borden, Ontario for the Royal Canadian Electronic and Mechanic Engineer School.Proposed period of contract: Goods must be delivered and...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W2037-26-0216-B",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "None"
   },
   {
     "source": "CanadaBuys",
@@ -2183,7 +2015,7 @@
     "notice_type": "",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)North American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)North American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
   },
   {
     "source": "CanadaBuys",
@@ -2266,34 +2098,6 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
     "trade_agreements": "Please refer to Tender Description or Tender Documents"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "RFP 2026-020 - Findur/Endur consulting services",
-    "link": "https://www.merx.com/public/solicitations/3983868910/abstract?language=EN",
-    "date": "2026-06-01T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🏦 FinTech alert: The Bank of Canada is upgrading its Findur/Endur teams—is your consultancy in the mix?",
-      "strategic_value": "* The Bank of Canada is investing in its internal treasury management systems (TMS) by integrating specialized external talent into its delivery squads.\n* The target technology stack is OpenLink Findur/Endur, the industry standard for complex treasury, risk management, and trading operations.\n* **Consulting Pivot:** Leverage your firm's expertise in ESG-linked treasury systems—as indicated by the requirement for an ESG Questionnaire—to offer 'ESG-integrated' risk modeling consulting alongside standard Findur/Endur implementation.",
-      "co_bidding_opportunity": "The solicitation is for 'multiple service providers,' indicating a clear opportunity for specialized IT staffing agencies to partner with senior treasury/financial risk consultancy boutiques.",
-      "mets_category": "METS-Digital",
-      "mets_rationalization": "Financial software integration and data-driven risk management platforms fall under the METS-Digital category.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-07-03T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "The Bank is seeking multiple service providers to provide qualified Findur/Endur consultants to complement the Bank&rsquo;s team.&nbsp; These consultants will become integrated members of the Bank&rsquo;s Findur delivery teams and operate under the direction of the Bank&rsquo;s management. In this capacity, the service providers must demonstrate strong in-house expertise in areas including, but not limited to, providing comprehensive development services for Findur, Endur, and ION Products found...",
-    "type": "Open",
-    "organization": "Bank of Canada",
-    "solicitation_number": "RFP 2026-020",
-    "notice_type": "",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -2391,35 +2195,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "",
-    "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "Water Soldier Herbicide Treatment, Trent-Severn Waterway National Historic Site",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-439-92476032",
-    "date": "2026-05-29T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🌿 Battling invasive species: Parks Canada deploys strategic herbicide treatment for the Trent-Severn Waterway. 💧",
-      "strategic_value": "* Parks Canada is implementing a multi-year herbicide strategy (Reward®/diquat) to manage invasive Water Soldier populations across 55km of the Trent-Severn Waterway.\n* The project demands high-precision environmental application and rigorous compliance with water stewardship regulations, given the historical and sensitive nature of the site.\n* **Consulting Pivot:** Leverage this engagement to provide long-term ecological monitoring services using remote sensing or GIS-based mapping to track herbicide efficacy and waterway recovery post-treatment.",
-      "co_bidding_opportunity": "Required roles include environmental remediation contractors, specialized aquatic vegetation management experts, and licensed herbicide application personnel.",
-      "mets_category": "METS-ESG",
-      "mets_rationalization": "The project is a direct application of environmental stewardship and aquatic ecosystem protection, key components of the federal ESG framework.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-07-03T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "5P300-26-0021/A \t Water Soldier Herbicide Treatment, Trent-Severn Waterway National Historic SiteBIDS RECEIVED BY FAX AND EMAIL WILL BE ACCEPTED AS OFFICIAL. PARKS CANADA IS NOT CURRENTLY ACCEPTING BIDS VIA SAP ARIBA; YOU MUST SUBMIT YOUR BID VIA FAX OR EMAIL AS INDICATED IN THE SOLICITATION DOCUMENT.BIDS RECEIVED IN-PERSON OR BY COURIER WILL NOT BE ACCEPTED. The only acceptable email address for responses to the bid solicitation is soumissionsest-bidseast@pc.gc.ca. Bids submitted by email direc...",
-    "type": "Open",
-    "organization": "Parks Canada Agency (PC)",
-    "solicitation_number": "5P300-26-0021A",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Traditional",
-    "selection_criteria": "Variations or combinations of the above methods",
-    "trade_agreements": "None"
+    "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -2550,7 +2326,7 @@
     "closing_date": "2076-12-31T00:00:00Z",
     "province": "National",
     "province_abbrev": "NAT",
-    "category": "SRVGD",
+    "category": "GDSRV",
     "category_label": "Services & Goods",
     "description": "Request for Supply Arrangement (RFSA) for Electrical Services accross Canada.&nbsp;The Requirement to be performed is outlined in the ARIBA Sourcing Event:&nbsp;https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110002888?anId=ANONYMOUS&nbsp;Bidding and Documents are available on http://www.merx.com.  Fees may apply; See https://www.merx.com/public/pricing for more information.",
     "type": "Open",
@@ -2765,7 +2541,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
-    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade Agreement"
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)"
   },
   {
     "source": "CanadaBuys",
@@ -2967,7 +2743,7 @@
     "notice_type": "Request for Supply Arrangement",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Variations or combinations of the above methods",
-    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade Agreement"
+    "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -3135,7 +2911,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)"
+    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -3191,7 +2967,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
   },
   {
     "source": "CanadaBuys",
@@ -3471,7 +3247,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
+    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -3723,7 +3499,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Variations or combinations of the above methods",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
+    "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -3835,7 +3611,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade Agreement"
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -4031,7 +3807,7 @@
     "notice_type": "Request for Standing Offer",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Please refer to Tender Description or Tender DocumentsCanada-Honduras Free Trade Agreement"
+    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Please refer to Tender Description or Tender DocumentsCanada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -4059,7 +3835,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Korea Free Trade Agreement (CKFTA)"
+    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Korea Free Trade Agreement (CKFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -4171,7 +3947,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade Agreement"
+    "trade_agreements": "North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -4255,7 +4031,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
+    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -4597,7 +4373,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)"
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
   },
   {
     "source": "CanadaBuys",
@@ -4625,7 +4401,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -4653,7 +4429,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Please refer to Tender Description or Tender Documents"
+    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Please refer to Tender Description or Tender Documents"
   },
   {
     "source": "CanadaBuys",
@@ -4681,7 +4457,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Please refer to Tender Description or Tender DocumentsCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canada-Panama Free Trade Agreement"
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Please refer to Tender Description or Tender DocumentsCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)North American Free Trade Agreement (NAFTA)Canada-Panama Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -4911,7 +4687,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)"
+    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -4967,7 +4743,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Cost-per-Point",
-    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
+    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
   },
   {
     "source": "CanadaBuys",
@@ -4995,7 +4771,7 @@
     "notice_type": "Request for Supply Arrangement",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Variations or combinations of the above methods",
-    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)"
+    "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -5023,7 +4799,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade Agreement"
+    "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -5303,7 +5079,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)"
+    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -5477,7 +5253,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Please refer to Tender Description or Tender DocumentsCanada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade Agreement"
+    "trade_agreements": "North American Free Trade Agreement (NAFTA)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Please refer to Tender Description or Tender DocumentsCanada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -5505,7 +5281,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)North American Free Trade Agreement (NAFTA)Canada-Peru Free Trade Agreement (CPFTA)"
+    "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)North American Free Trade Agreement (NAFTA)Canada-Peru Free Trade Agreement (CPFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -5533,7 +5309,7 @@
     "notice_type": "",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Colombia Free Trade Agreement"
+    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -5561,7 +5337,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade Agreement"
+    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade Agreement"
   },
   {
     "source": "CanadaBuys",
@@ -5589,7 +5365,7 @@
     "notice_type": "",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)"
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -5673,7 +5449,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)"
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -5729,7 +5505,7 @@
     "category": "GDSRV",
     "category_label": "Services & Goods",
     "description": "The purpose of this Request for Information (RFI) is to explore the current market landscape for technology solutions supporting indirect lending program administration and platform modernization. The organization aims to identify solution approaches, delivery models, and vendor capabilities that support key functions such as workflow management, case processing, integration, and reporting, in order to inform future procurement activities.Bidding and Documents are available on http://www.merx.co...",
-    "type": "New",
+    "type": "Open",
     "organization": "Business Development Bank of Canada",
     "solicitation_number": "PRCP0003712",
     "notice_type": "",
@@ -5792,6 +5568,34 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
     "trade_agreements": "Please refer to Tender Description or Tender Documents"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Whale Watching Services",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-131-57719781",
+    "date": "2026-06-23T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🐋 Turning a training exercise into a community engagement: DND looking for Victoria-based marine charters.",
+      "strategic_value": "* This requirement represents a tactical use of local services for DND community relations during regional operations in British Columbia.\n* The procurement utilizes traditional competitive bidding for short-term service delivery, emphasizing lowest-price selection criteria for standard marine excursion assets.\n* **Consulting Pivot:** Market your agency as a local government-contracting liaison that helps niche maritime tourism operators navigate the SAP Ariba registration and federal bidding cycle to win 'as-and-when' government contracts.",
+      "co_bidding_opportunity": "Maritime tour operators, regional marine logistics providers.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "This connects to the 'social license' and community relations aspect of regional DND site operations.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-03T00:00:00Z",
+    "province": "British Columbia",
+    "province_abbrev": "BC",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "This NPP is issued to cover a requirement for the Department of National Defence. This requirement is for whale watching services on August 31st 2026 in Victoria, British Columbia.There is no security associated with the requirement.Inquiries regarding this requirement must be submitted to the Contracting Authority named above.",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W0103-19090909",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -5876,6 +5680,118 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
     "trade_agreements": "North American Free Trade Agreement (NAFTA)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Aftercare Psychological Services – Greater Ontario and Nunavut District in the Ontario Region",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-836-6325905",
+    "date": "2026-06-18T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🧠 Scalable mental health delivery within federal corrections is getting a major digital upgrade across Ontario and Nunavut.",
+      "strategic_value": "* **Policy & Financial Context:** This Correctional Service of Canada (CSC) multi-year procurement highlights a highly restricted, domestic-only sourcing environment under the Buy Canadian Policy, where the federal government prioritizes secure, regionalized care delivery.\n* **Technological Target:** Deliverables demand the integration of PHIPA-approved video conferencing devices and secure tele-health workflows to bridge the massive geographic gap between Ontario-based practitioners and remote Nunavut-based offenders.\n* **Consulting Pivot:** Partner with local psychological clinics to provide the secure IT architecture, PHIPA-compliant video-conferencing deployment, and interdisciplinary data coordination frameworks required to successfully meet CSC's strict security and audit standards.",
+      "co_bidding_opportunity": "A joint consortium consisting of a licensed clinical psychologist acting as the lead contractor, partnering with allied healthcare professionals—including nursing, social work, and occupational therapy specialists—to deliver the required interdisciplinary care and assessment deliverables.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "This project represents a critical regional operations and clinical delivery contract for the federal government, requiring strict physical and security logistics to manage offender care across extensive geographic territories under domestic-only procurement rules.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-08T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Aftercare Psychological Services – Greater Ontario and Nunavut District in the Ontario RegionThis requirement is for: The Correctional Service of Canada, Greater Ontario and Nunavut District in the Ontario Region.Trade agreement:\t This procurement is not subject to any trade agreement.Policy on Reciprocal Procurement: This solicitation is open only to Canadian suppliers.Competitive Procurement Strategy: Lowest priced compliant bid.Set-aside under the Procurement Strategy for Indigenous Business:...",
+    "type": "Open",
+    "organization": "Correctional Service of Canada (CSC)",
+    "solicitation_number": "21120-26-5298087",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "None"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Titanium-Sapphire Pumped Optical Parametric Amplifier",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-77-58329129",
+    "date": "2026-06-18T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🔬 Pushing the boundaries of quantum optics: NRC procures high-precision laser systems.",
+      "strategic_value": "* This acquisition reflects Canada’s strategic investment in quantum research and photonics, specifically for integration with existing Ti:sapphire laser infrastructure.\n* The technological target is a specialized Optical Parametric Oscillator (OPO) system designed for tunable femtosecond output.\n* **Consulting Pivot:** Since this is an Advance Contract Award Notice (ACAN) for specific hardware, position your firm as an integration specialist for quantum labs; offer 'custom software interface development' or 'optical bench calibration' to complement the new hardware installation.",
+      "co_bidding_opportunity": "Specialized laboratory integrators or photonics engineering firms capable of aligning new OPO systems with existing Coherent Chameleon hardware.",
+      "mets_category": "METS-Digital",
+      "mets_rationalization": "Relates to advanced laboratory and scientific digital-optical instrumentation.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-03T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "The Department of the National Research Council Canada has a requirement for the supply of one (1) Optical Parametric Oscillator System.  The system must provide tunable femtosecond output for quantum and nonlinear optics experiments. The OPO will be pumped by an existing Coherent Chameleon femtosecond Ti:sapphire laser, and used in conjunction with an existing OPO. Accordingly, the new OPO must be compatible with both.",
+    "type": "Open",
+    "organization": "National Research Council of Canada (NRC)",
+    "solicitation_number": "26-58068",
+    "notice_type": "Advance Contract Award Notice",
+    "procurement_method": "Advance contract award notice",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Organizational design and classification consultant for LAC",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-7-61131210",
+    "date": "2026-06-17T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Designing for the future of federal leadership. 🏛️",
+      "strategic_value": "* Library and Archives Canada (LAC) is prioritizing deep structural changes to their EX and non-EX workforce hierarchy to ensure policy compliance with the Treasury Board Secretariat.\n* The requirement focuses on organizational design, classification evaluation, and impact analysis over an extensive 24-month horizon.\n* **Consulting Pivot:** If you are an SME in organizational psychology or government HR consulting, target the listed SA holders for sub-consulting opportunities specifically in 'impact analysis' and 'restructuring change management'.",
+      "co_bidding_opportunity": "Must be a Supply Arrangement (SA) Holder under E60ZT-18TSPS Tier 1.",
+      "mets_category": "METS-PMO",
+      "mets_rationalization": "Links organizational administrative reform to the broader regulatory mandate of federal institutions.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-03T00:00:00Z",
+    "province": "NCR (Ottawa/Gatineau)",
+    "province_abbrev": "NCR",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)for TASK Based Professional Services (TSPS) RequirementPlease note that the TSPS NPP MUST be published simultaneously with the issuance of the invitation to suppliers.     This requirement is for: Library and Archives CanadaThis requirement is open only to those Supply Arrangement Holders under E60ZT-18TSPS who qualified under Tier 1 , under the region / metropolitan area, level of expertise and for the following category: 1.2 Organizational design and classif...",
+    "type": "Open",
+    "organization": "Library and Archives of Canada (LAC)",
+    "solicitation_number": "5Z011-27-0016",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Feasibility Study for the Installation of a Ground-coupled Heat Exchanger at the Dairy Complex of the Sherbrooke Research and Development Centre",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-592-64953135",
+    "date": "2026-06-17T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Is your agricultural complex ready for the net-zero heat exchange transition? 🐄",
+      "strategic_value": "* Agriculture and Agri-Food Canada (AAFC) is evaluating ground-coupled heat exchanger technology to reduce energy consumption at the Sherbrooke Research Dairy Complex.\n* This signals a move toward climate-resilient infrastructure using geothermal/ground-source thermal dynamics for livestock environmental control.\n* **Consulting Pivot:** If your firm provides geothermal engineering or building performance modeling, use this as a 'Portfolio Case Study' to approach agricultural industrial operators looking to reduce cooling/heating operational costs.",
+      "co_bidding_opportunity": "Consultants in agricultural, mechanical, or electrical engineering fields.",
+      "mets_category": "METS-ESG",
+      "mets_rationalization": "Represents the intersection of carbon-neutral infrastructure development and specialized environmental agricultural operations.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-03T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "AAFC requires the services of a Consultant in agricultural/mechanical/electrical engineering to carry out a feasibility study for the installation of ground-coupled heat exchangers to preheat and cool the supply air for the dairy complex, which houses approximately 120 cows in Section 100 of the barn in Building 76 at the Sherbrooke Research and Development Centre.Optional Site-Visit : June 25, 2026 at 1:00pm (EDT)Closing date : July 3rd, 2026 at 2:00pm (EDT)",
+    "type": "Open",
+    "organization": "Department of Agriculture and Agri-Food (AAFC)",
+    "solicitation_number": "ESC-2627-031",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "None"
   },
   {
     "source": "CanadaBuys",
@@ -6252,6 +6168,34 @@
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Lowest Cost-per-Point",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade Agreement"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "ANTI-EXPOSURE COVERALLS & IMMERSION SUITS",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-885-98313244",
+    "date": "2026-06-12T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🛡️ Keeping those on the front lines of defense safe: New DND requirement for high-spec immersion gear.",
+      "strategic_value": "* This procurement reinforces the 'Buy Canadian' policy, prioritizing domestic textile manufacturing and supply chain resilience for military-grade safety equipment.\n* The technological target requires specialized materials meeting Halifax-class naval safety standards, likely involving high-thermal-retention synthetic fabrics and pressure-rated seals.\n* **Consulting Pivot:** Reach out to Canadian tactical textile manufacturers as a procurement advisor to help them align their QMS (Quality Management Systems) with DND’s specific NCAGE documentation requirements.",
+      "co_bidding_opportunity": "Consortium opportunities exist for specialized safety apparel manufacturers to partner with logistics contractors for regional distribution to CFB Halifax and CFB Esquimalt.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "Relates to operational readiness and physical safety infrastructure for the Canadian Armed Forces, directly tied to federal procurement policy.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-03T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "NOTICE OF PROPOSED PROCUREMENT\t\t\t\t\t\tThe Department of National Defence has a requirement for the items detailed below. The delivery is requested at CFB Halifax and CFB Esquimalt. This procurement of  ANTI-EXPOSURE COVERALLS & IMMERSION SUITS will support the following Halifax-class system:LIFE SAVING EQUIPMENT (HFX CLASS)All instructions, clauses and conditions are identified in the solicitation of offers by number, date and title.Offerors who submit an offer agree to be bound by the instruction...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8482-264960/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)"
   },
   {
     "source": "CanadaBuys",
@@ -6684,6 +6628,34 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "High Voltage Protective flooring / ESD / Anti-fatigue",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-42-56729164",
+    "date": "2026-06-08T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "⚡ Protecting critical infrastructure: DND seeks specialized ESD flooring for R&M Engineer training. Is your facility spec-ready?",
+      "strategic_value": "* The DND is prioritizing facility hardening at the Royal Canadian Electronic and Mechanic Engineer School to ensure operational longevity of sensitive electronic assets.\n* The tender requires specialized High Voltage Protective flooring and Anti-fatigue systems, emphasizing a focus on occupational safety and equipment protection standards.\n* **Consulting Pivot:** Approach the prime contractors bidding on this facility upgrade to offer supplementary ESD certification services or long-term maintenance monitoring to maximize their site installation value.",
+      "co_bidding_opportunity": "The opportunity lists a 'Partner with another business' tool on CanadaBuys for firms interested in forming informal teaming arrangements, though bidding remains competitive.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "This project involves physical infrastructure hardening essential for the operational maintenance of defense assets, aligning with METS-Ops physical processing and facility requirements.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-07-03T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "SRVTGD",
+    "category_label": "Services (Goods-Related)",
+    "description": "Notice of Proposed Procurement (NPP)High Voltage Protective Flooring system (Ontario)This requirement is for the Department of National Defence.This requirement is open to vendors in Canada.Description of the requirement: The Department of National Defence has a requirement for the purchase, installation and delivery of High Voltage Protective Flooring System in Borden, Ontario for the Royal Canadian Electronic and Mechanic Engineer School.Proposed period of contract: Goods must be delivered and...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W2037-26-0216-B",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "None"
   },
   {
     "source": "CanadaBuys",
