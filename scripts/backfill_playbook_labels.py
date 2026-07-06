@@ -1,4 +1,4 @@
-"""One-time backfill script to retroactively label existing tenders with recommended_playbook.
+r"""One-time backfill script to retroactively label existing tenders with recommended_playbook.
 
 Loads both pmo_insights.json and tenders.json from Azure blob storage,
 applies the deterministic playbook classifier to each tender item,
@@ -20,7 +20,7 @@ import dotenv
 dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
 
 from generic_engine.extractors.ckan import determine_recommended_playbook
-from generic_engine.azure_blob import AzureBlobClient
+from generic_engine.api.azure_client import AzureClient
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
@@ -28,7 +28,7 @@ AZURE_CONTAINER = "data"
 FILES_TO_BACKFILL = ["pmo_insights.json", "tenders.json"]
 
 
-def backfill_file(azure_client: AzureBlobClient, filename: str) -> int:
+def backfill_file(azure_client: AzureClient, filename: str) -> int:
     """Apply playbook labels to all tender items in the given blob file.
     
     Returns the count of items labeled.
@@ -70,11 +70,29 @@ def main():
         logging.error("AZURE_STORAGE_CONNECTION_STRING not set. Aborting.")
         sys.exit(1)
 
-    azure_client = AzureBlobClient(connection_string, AZURE_CONTAINER)
+    azure_client = AzureClient(container_name=AZURE_CONTAINER)
+
+    # Clean up temp blobs if they exist on Azure
+    for filename in FILES_TO_BACKFILL:
+        temp_name = f"{os.path.splitext(filename)[0]}_backfill_temp.json"
+        try:
+            azure_client.blob_service_client.get_blob_client(container=AZURE_CONTAINER, blob=temp_name).delete_blob()
+            logging.info(f"Cleaned up stale temp blob: {temp_name}")
+        except Exception:
+            pass
 
     total = 0
     for filename in FILES_TO_BACKFILL:
         total += backfill_file(azure_client, filename)
+
+    # Clean up temp blobs after run
+    for filename in FILES_TO_BACKFILL:
+        temp_name = f"{os.path.splitext(filename)[0]}_backfill_temp.json"
+        try:
+            azure_client.blob_service_client.get_blob_client(container=AZURE_CONTAINER, blob=temp_name).delete_blob()
+            logging.info(f"Cleaned up temp blob: {temp_name}")
+        except Exception:
+            pass
 
     logging.info(f"Backfill complete. Total items labeled: {total}")
 
