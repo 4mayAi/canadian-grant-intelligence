@@ -16,8 +16,11 @@ import sys
 # Ensure workspace root is on the path for generic_engine imports
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-import dotenv
-dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
+try:
+    import dotenv
+    dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
+except ImportError:
+    pass
 
 from generic_engine.extractors.ckan import determine_recommended_playbook
 from generic_engine.api.azure_client import AzureClient
