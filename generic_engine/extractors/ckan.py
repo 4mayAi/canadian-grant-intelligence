@@ -95,6 +95,37 @@ def normalize_province(raw_value: str) -> str:
             return prov
     return "National"
 
+def determine_recommended_playbook(notice_type: str, procurement_method: str, description: str) -> str:
+    """Deterministic classification of tender notice types into strategic playbooks.
+
+    Returns a playbook label string. The label 'Unclassified' is a data-only value
+    that is intentionally excluded from LLM prompt injection (see main.py contents assembly).
+    """
+    nt_lower = (notice_type or "").lower()
+    pm_lower = (procurement_method or "").lower()
+    desc_lower = (description or "").lower()
+
+    if "advance contract award notice" in nt_lower or "acan" in nt_lower \
+       or "advance contract award notice" in pm_lower:
+        return "Downstream Pivot (Sole-Source / ACAN)"
+
+    if "supply arrangement" in nt_lower or "selective tendering" in pm_lower:
+        return "Selective Partnering (Supply Arrangement)"
+
+    if "invitation to qualify" in nt_lower:
+        return "Prime-Tracking (Pre-Qualification)"
+
+    if "standing offer" in nt_lower:
+        return "Procurement Gateway Entry (RFSO / RFSA)"
+
+    if "request for information" in nt_lower or "expression of interest" in desc_lower:
+        return "Specification Shaping (RFI / EOI)"
+
+    if "request for proposal" in nt_lower or "competitive" in pm_lower:
+        return "Standard Competitive Bidding (RFP)"
+
+    return "Unclassified"
+
 def fetch_canadabuys_tenders(
     ckan_api_url: str,
     keywords: List[str],
@@ -265,7 +296,8 @@ def fetch_canadabuys_tenders(
                         "notice_type": notice_type,
                         "procurement_method": procurement_method,
                         "selection_criteria": selection_criteria,
-                        "trade_agreements": trade_agreements
+                        "trade_agreements": trade_agreements,
+                        "recommended_playbook": determine_recommended_playbook(notice_type, procurement_method, real_desc)
                     })
                     seen_links.add(link)
                     match_count += 1

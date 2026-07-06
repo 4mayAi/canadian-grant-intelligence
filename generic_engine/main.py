@@ -386,7 +386,7 @@ def fetch_and_process_news(
             cached_item = existing_insights_map[link]
 
             # Copy/update tender metadata fields from the crawled item if present
-            for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type", "partner_list", "organization", "solicitation_number", "notice_type", "procurement_method", "selection_criteria", "trade_agreements"]:
+            for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type", "partner_list", "organization", "solicitation_number", "notice_type", "procurement_method", "selection_criteria", "trade_agreements", "recommended_playbook"]:
                 if field in item:
                     cached_item[field] = item[field]
             final_insights.append(cached_item)
@@ -481,10 +481,21 @@ def fetch_and_process_news(
             batch = hub_items[i:i + BATCH_SIZE]
             logging.info(f"Analyzing batch of {len(batch)} news items for hub '{hub}' with Gemini...")
             
-            contents = [
-                f"Title: {item['title']}\nSource: {item['source']}\nDate: {item.get('date', 'Unknown')}\nContext: {item['text_to_search']}"
-                for item in batch
-            ]
+            contents = []
+            for item in batch:
+                base = (
+                    f"Title: {item['title']}\n"
+                    f"Source: {item['source']}\n"
+                    f"Date: {item.get('date', 'Unknown')}\n"
+                    f"Context: {item['text_to_search']}"
+                )
+                # Inject playbook label for CKAN tenders only.
+                # "Unclassified" is intentionally excluded — it is a data-only label
+                # for the dashboard and must never reach the LLM.
+                playbook = item.get("recommended_playbook")
+                if playbook and playbook != "Unclassified":
+                    base += f"\nRecommended Playbook: {playbook}"
+                contents.append(base)
             
             today_str = datetime.utcnow().strftime("%B %d, %Y")
             insight_models = gemini_client.get_gemini_insights_batch(
@@ -546,7 +557,7 @@ def fetch_and_process_news(
                     "insight": insight_model.to_dict()
                 }
                 # Copy tender metadata fields from raw item if present
-                for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type", "partner_list", "organization", "solicitation_number", "notice_type", "procurement_method", "selection_criteria", "trade_agreements"]:
+                for field in ["closing_date", "province", "province_abbrev", "category", "category_label", "description", "type", "partner_list", "organization", "solicitation_number", "notice_type", "procurement_method", "selection_criteria", "trade_agreements", "recommended_playbook"]:
                     if field in item:
                         report_item_dict[field] = item[field]
                 final_insights.append(report_item_dict)
