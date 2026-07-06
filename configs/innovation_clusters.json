@@ -3,7 +3,7 @@
   "display_name": "Canadian Innovation Clusters Intelligence",
   "dashboard_url": "https://4mayAi.github.io/canadian-grant-intelligence/clusters/",
   "sources": [
-    { "name": "DIGITAL_News", "url": "https://digitalsupercluster.ca/category/news/feed/", "type": "rss", "hub": "DIGITAL" },
+    { "name": "DIGITAL_News", "url": "https://digitalsupercluster.ca/category/news/feed/", "type": "rss", "hub": "DIGITAL", "skip_keyword_filter": true },
     { "name": "DIGITAL_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Digital+Technology+Supercluster%22+OR+%22DIGITAL+Supercluster%22+OR+%22DNAstack%22+OR+%22Sovereign+AI%22+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "DIGITAL", "skip_query_refactoring": true },
     {
       "name": "DIGITAL_Federal_News",
@@ -12,7 +12,7 @@
       "hub": "DIGITAL",
       "skip_query_refactoring": true
     },
-    { "name": "ScaleAI_News", "url": "https://www.scaleai.ca/feed/", "type": "rss", "hub": "ScaleAI" },
+    { "name": "ScaleAI_News", "url": "https://www.scaleai.ca/feed/", "type": "rss", "hub": "ScaleAI", "skip_keyword_filter": true },
     { "name": "ScaleAI_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Scale+AI%22+OR+%22ALL+IN%22+AI+Montreal+OR+%22supply+chain%22+AI+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "ScaleAI", "skip_query_refactoring": true },
     {
       "name": "ScaleAI_Federal_News",
@@ -21,7 +21,7 @@
       "hub": "ScaleAI",
       "skip_query_refactoring": true
     },
-    { "name": "OceanCluster_News", "url": "https://oceansupercluster.ca/feed/", "type": "rss", "hub": "Ocean" },
+    { "name": "OceanCluster_News", "url": "https://oceansupercluster.ca/feed/", "type": "rss", "hub": "Ocean", "skip_keyword_filter": true },
     { "name": "Ocean_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%28%22Our+Ocean+Conference%22+AND+%28Canada+OR+Canadian+OR+Halifax+OR+DFO+OR+Supercluster%29%29+OR+%22Ocean+Supercluster%22+OR+%22Ocean+Week+Canada%22&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "Ocean", "skip_query_refactoring": true },
     {
       "name": "Ocean_Federal_News",
@@ -30,7 +30,7 @@
       "hub": "Ocean",
       "skip_query_refactoring": true
     },
-    { "name": "NGen_News", "url": "https://www.ngen.ca/blog/rss.xml", "type": "rss", "hub": "NGen" },
+    { "name": "NGen_News", "url": "https://www.ngen.ca/blog/rss.xml", "type": "rss", "hub": "NGen", "skip_keyword_filter": true },
     { "name": "NGen_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Next+Generation+Manufacturing+Canada%22+OR+%22NGen%22+manufacturing+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "NGen", "skip_query_refactoring": true },
     {
       "name": "NGen_Federal_News",
@@ -45,7 +45,8 @@
       "type": "html_playwright",
       "hub": "ProteinIndustries",
       "fallback_url": "https://news.google.com/rss/search?q=%22Protein+Industries+Canada%22&hl=en-CA&gl=CA&ceid=CA:en",
-      "fallback_type": "rss"
+      "fallback_type": "rss",
+      "skip_keyword_filter": true
     },
     {
       "name": "ProteinIndustries_Federal_News",

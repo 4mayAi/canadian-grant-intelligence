@@ -7,6 +7,10 @@ import re
 from datetime import datetime, timedelta
 from typing import List, Dict, Any, Set, Optional
 import requests
+import dotenv
+
+# Load environment variables for local runs/tests
+dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
 
 from schema import PipelineConfig
 from models import GeminiInsight, ReportItem, NewsWrapper, KPIDashboard
@@ -396,8 +400,17 @@ def fetch_and_process_news(
             logging.info(f"Skipping already processed URL: {link}")
         else:
             # Relevancy pre-filter: discard news/tenders that don't match any keywords early
+            skip_kw = False
+            if "source" in item:
+                source_name = item["source"]
+                if source_name.endswith("_fallback"):
+                    source_name = source_name[:-9]
+                src_config = next((s for s in config.sources if s.name == source_name), None)
+                if src_config and getattr(src_config, "skip_keyword_filter", False):
+                    skip_kw = True
+
             text_to_search = (item.get("title", "") + " " + item.get("text_to_search", "")).lower()
-            if "youtube.com/watch" in link or "youtu.be/" in link or matches_keywords(text_to_search, config.keywords):
+            if skip_kw or "youtube.com/watch" in link or "youtu.be/" in link or matches_keywords(text_to_search, config.keywords):
                 unprocessed_items.append(item)
             else:
                 logging.info(f"Discarding newly scraped item due to keyword mismatch (pre-filter): {item.get('title')}")

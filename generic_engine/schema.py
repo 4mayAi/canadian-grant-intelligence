@@ -9,6 +9,7 @@ class SourceConfig(BaseModel):
     fallback_url: Optional[str] = None
     fallback_type: Optional[str] = None
     skip_query_refactoring: Optional[bool] = False
+    skip_keyword_filter: Optional[bool] = False
     hub: Optional[str] = None
 
     @field_validator("url")
