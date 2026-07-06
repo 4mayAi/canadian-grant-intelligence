@@ -22,4 +22,5 @@ jobs:
       lookback_days: ${{ github.event.inputs.lookback_days || '30' }}
       run_type: 'deep_dive'
       run_prune: ${{ github.event.schedule != '' && contains(github.event.schedule, '0 15 * * 0') }}
+      pre_run_script: scratch/clear_cache.py
     secrets: inherit
