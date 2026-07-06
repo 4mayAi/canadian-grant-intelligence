@@ -6,7 +6,7 @@ import dotenv
 # Load environment variables for local runs/tests
 dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
 
-PROJECT_ROOT = r"c:\dev\canadian-grant-intelligence"
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, PROJECT_ROOT)
 sys.path.insert(0, os.path.join(PROJECT_ROOT, "generic_engine"))
 
