@@ -1,7 +1,88 @@
 {
-  "generated_at": "2026-07-05T19:07:23.671903Z",
-  "linkedin_post": "🚨 **Simulation is accelerating Canada's readiness, from aerospace safety to global pathogen response!** This week highlights critical opportunities for strategic investment in advanced computational tools across vital sectors.\n\nOur [National Research Council](https://nrc.canada.ca/) ([NRC](https://nrc.canada.ca/) Aerospace) is actively seeking a high-precision hexapod for simulating complex ship motions, crucial for enhancing UAS safety. Hardware and software innovators should note the [NRC](https://nrc.canada.ca/)'s emphasis on seamless integration with existing motion control and data acquisition frameworks, presenting a clear path to contribute to cutting-edge aerospace and maritime research with customized simulation platforms aligned with funding for breakthrough simulation technologies.\n\nSimultaneously, the conclusion of the US public health agency's response to the Andes hantavirus outbreak underscores the urgent global need for advanced virtual pathogen modeling. This event, involving human-to-human transmission, shows how computational biology tools could have predicted transmission pathways. Public health agencies like [PHAC](https://www.canada.ca/en/public-health.html) and computational biology firms can leverage this insight to develop proactive in silico simulation platforms, enhancing our ability to predict and contain future zoonotic threats by leveraging [PHAC](https://www.canada.ca/en/public-health.html)'s infectious disease modeling funding.\n\nFrom national research infrastructure to global health security, advanced simulation and computational biology are proving indispensable. Identifying these strategic alignments now is key to future-proofing our capabilities.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#HealthTech #CanadianBiotech #PublicHealth #SimulationSoftware #GrantOpportunities\n\n### Featured News & Sources\n- [ACAN 26-58020 Laboratory Motion Platform System (Hexapod)](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-500-23638241) (Canada CanadaBuys Procurement)\n- [US public health agency concludes hantavirus response as outbreak eases - Al Jazeera](https://www.aljazeera.com/news/2026/6/24/us-public-health-agency-concludes-hantavirus-response-as-outbreak-eases) (Canada PHAC AMR)\n",
+  "generated_at": "2026-07-06T19:47:49.586684Z",
+  "linkedin_post": "📈 Canadian health-tech leaders, today's landscape on July 6, 2026, reveals critical opportunities to revolutionize public health, accelerate drug discovery, and optimize healthcare operations through advanced simulation technologies. The convergence of new scientific breakthroughs and market demands underscores a potent future for computational biology and operational modeling. \n\nNew research unveils Sphingosine 1-phosphate lyase (SPL) in lung epithelial cells as a key factor against influenza, opening fresh avenues for host-directed antiviral therapies. Biotech firms and pharmaceutical R&D should leverage virtual pathogen modeling to simulate SPL's role and accelerate the identification of novel therapeutic compounds. \n\nConcurrently, groundbreaking bioRxiv research dissects the molecular shifts in mycobacterial biofilm formation, crucial for understanding persistence and drug resistance. Pharmaceutical companies focused on AMR and TB research should explore in silico simulations to model biofilm lifecycles, predicting the efficacy of targeted anti-biofilm compounds. \n\nBeyond infectious diseases, [NRC](https://nrc.canada.ca/) Health's record-setting momentum highlights a surging demand for operational improvement in healthcare. Digital health platforms and operational consulting firms should consider integrating patient-flow simulation software to test virtual operational changes, minimizing patient friction and clinical burnout.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n#HealthTechCanada\n#Bioinformatics\n#AMR\n#PublicHealth\n#SimulationSoftware\n\n### Featured News & Sources\n- [Sphingosine 1-phosphate lyase expressed in pulmonary epithelial cells potentiates host innate defenses and alleviates influenza pathogenicity in mice](https://www.biorxiv.org/content/10.64898/2026.07.02.736172v1?rss=1) (bioRxiv Microbiology)\n- [From planktonic to sedentary lifestyle: Molecular dissection of the establishment and maintenance of mycobacterial biofilm](https://www.biorxiv.org/content/10.64898/2026.07.04.736460v1?rss=1) (bioRxiv Microbiology)\n- [Citizens reiterates NRC Health stock rating on sales momentum - Investing.com](https://www.investing.com/news/analyst-ratings/citizens-reiterates-nrc-health-stock-rating-on-sales-momentum-93CH-4764537) (Canada NRC Simulation)\n- [ACAN 26-58020 Laboratory Motion Platform System (Hexapod)](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-500-23638241) (Canada CanadaBuys Procurement)\n",
   "insights": [
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Sphingosine 1-phosphate lyase expressed in pulmonary epithelial cells potentiates host innate defenses and alleviates influenza pathogenicity in mice",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.02.736172v1?rss=1",
+      "date": "2026-07-05T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Influenza remains a global health burden! 😷 New research highlights Sphingosine 1-phosphate lyase (SPL) in lung epithelial cells as a key host factor in mitigating influenza pathogenicity, offering fresh avenues for host-directed antiviral therapies. #InfluenzaResearch #HostPathogen #AntiviralTherapeutics",
+        "strategic_value": "- This preprint uncovers critical host-pathogen interaction mechanisms for influenza, identifying SPL and associated gene signatures as potential targets. This knowledge is invaluable for developing novel host-directed antiviral strategies beyond conventional vaccine or direct antiviral approaches.\n- The study's use of a mouse model, single-cell RNA sequencing, and gene signature profiling provides rich data for in silico simulation platforms. Virtual pathogen modeling can simulate SPL's role in AT1/AT2 programming and innate defense pathways, accelerating the identification and validation of therapeutic compounds.\n- * **Consulting Pivot:** Propose a partnership to develop a computational model of influenza-host interaction focusing on SPL pathways, leveraging single-cell RNA-seq data to simulate drug candidates that modulate SPL activity or related innate immune responses, aiming for early-stage drug discovery projects with biotech firms.",
+        "co_bidding_opportunity": "The research received funding from NIH/NIAID and NIH/NHLBI. While not directly a co-bidding opportunity from the text, companies specializing in computational biology, AI-driven drug discovery, or bioinformatics could seek to collaborate with the funded research institutions (or those with similar research mandates) on subsequent phases, focusing on applying simulation tools to the identified gene signatures.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "The opportunity lies in applying computational biology tools, virtual pathogen modeling, and in silico simulation to understand complex biological processes and accelerate drug discovery. This aligns with digital transformation in biotech and health-tech.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "From planktonic to sedentary lifestyle: Molecular dissection of the establishment and maintenance of mycobacterial biofilm",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.04.736460v1?rss=1",
+      "date": "2026-07-04T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Unlocking the secrets of mycobacterial biofilms! 🦠 New bioRxiv research reveals the intricate molecular shifts during biofilm formation, from gene expression to metabolic changes. A goldmine for understanding persistence and developing new anti-biofilm strategies! #Mycobacteria #BiofilmResearch #AntimicrobialResistance",
+        "strategic_value": "- This research provides a deep molecular understanding of mycobacterial biofilm establishment and maturation, a critical factor in chronic infections and drug resistance. The detailed transcriptomic and proteomic data offer a rich dataset for developing targeted anti-biofilm therapies.\n- The identification of phasic gene expression, oxidative stress responses, and metabolic shifts (ATP to NADH) offers key parameters for virtual pathogen modeling. In silico simulations can model the biofilm lifecycle, predict the efficacy of compounds targeting specific metabolic pathways or stress responses, and accelerate drug repurposing or novel compound discovery.\n- * **Consulting Pivot:** Offer advanced computational modeling services to simulate mycobacterial biofilm development, integrating transcriptomic and proteomic data to predict vulnerabilities. This would be valuable for pharmaceutical companies or research groups developing drugs against persistent mycobacterial infections, including those involved in TB research.",
+        "co_bidding_opportunity": "The study was funded by the Council of Scientific and Industrial Research and the Science and Engineering Research Board. Companies specializing in computational biology or drug discovery platforms could pursue collaborative research agreements or sub-contracting roles with institutions funded by these bodies, particularly those focused on infectious diseases and AMR.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "The core opportunity involves leveraging computational biology and in silico simulation tools to model complex microbial processes, directly contributing to drug discovery and understanding antimicrobial resistance, which is a digital solution for a biological problem.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Bacillus adaptation to Pseudomonas secondary metabolites enhances its root competitiveness",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.04.736374v1?rss=1",
+      "date": "2026-07-04T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Fascinating interbacterial warfare! 🌳 New research shows how Bacillus adapts to Pseudomonas metabolites, boosting its root competitiveness and improving biocontrol. A game-changer for sustainable agriculture and plant microbiome engineering! #Microbiome #Biocontrol #AgriculturalInnovation",
+        "strategic_value": "- This research sheds light on the complex long-term evolutionary consequences of interbacterial interactions in the rhizosphere, which is crucial for optimizing the performance of plant growth-promoting rhizobacteria (PGPR) and developing more effective biocontrol agents.\n- The multi-omics data (metabolomics, transcriptomics) provides a rich foundation for computational biology. In silico simulations can model bacterial adaptation, metabolite interactions, and competitive dynamics in the root microbiome, enabling predictive design of microbial consortia for enhanced crop yield and protection.\n- * **Consulting Pivot:** Propose simulation software solutions for agricultural biotech companies to model microbial interactions in the rhizosphere. This could help design optimized microbial inoculants for crop enhancement, predict their competitive fitness in various soil conditions, and accelerate the development of next-generation biocontrol products.",
+        "co_bidding_opportunity": "The study was supported by FRIA fellowship, F.R.S.-FNRS (National Fund for Scientific Research in Belgium), and FNRS/FWO projects. Companies offering computational biology or AI platforms for microbiome analysis could explore partnerships or sub-contracting with these research institutions or their collaborators, focusing on agricultural applications and microbial ecology.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This involves applying multi-omics and computational modeling to understand and manipulate complex microbial ecosystems for agricultural benefits. It's a digital solution to enhance biological processes, fitting 'METS-Digital'.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Performance of pathogen identification and resistance gene expression tests using ASTar(R) remnant bacterial suspension in Gram-negative contrived positive blood cultures",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.01.735973v1?rss=1",
+      "date": "2026-07-04T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Revolutionizing AMR diagnostics! ⚡ New research demonstrates a rapid, integrated workflow using ASTar® remnant samples for simultaneous pathogen ID and resistance detection (MALDI-TOF MS + LFA). Faster results, significant cost savings – a game-changer for clinical labs! #AMR #Diagnostics #ClinicalMicrobiology",
+        "strategic_value": "- This study presents a significant advancement in rapid antimicrobial resistance (AMR) diagnostics, offering an integrated workflow that can reduce turnaround times for pathogen identification and resistance profiling, directly improving patient outcomes and antimicrobial stewardship programs.\n- The proposed method offers substantial workflow efficiencies and potential cost savings compared to current fragmented approaches. This is highly attractive for public health laboratories and hospitals seeking to optimize their diagnostic processes and resource allocation.\n- * **Consulting Pivot:** Engage with public health agencies (e.g., PHAC in Canada) and hospital networks to assess the adoption of rapid ASTar-based integrated diagnostics. Offer implementation consulting, workflow optimization, and cost-benefit analysis services to support the rollout of these advanced diagnostic platforms for AMR surveillance and clinical management.",
+        "co_bidding_opportunity": "The research utilizes ASTar® 16 System and ASTar BC G- Kit from Q-linea AB, Sweden, and NG Test CTX-M Multi, NG Test CARBA-5, NG Test Acineto-5 RUO (Lateral Flow Assays). This suggests opportunities for Q-linea AB's partners or distributors, or potentially for companies providing complementary lab automation, data integration, or IT solutions to implement this integrated workflow in clinical settings. Sub-contracting roles could involve systems integrators, logistics partners for diagnostic kits, or training providers for lab personnel.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This involves improving diagnostic workflows and data analysis for pathogen identification and resistance detection, which is inherently a digital solution. The integration of different diagnostic platforms and the aim for workflow efficiency and cost savings are digital transformation aspects, despite involving physical test kits.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "Canada_NRC_Simulation",
+      "title": "Citizens reiterates NRC Health stock rating on sales momentum - Investing.com",
+      "link": "https://www.investing.com/news/analyst-ratings/citizens-reiterates-nrc-health-stock-rating-on-sales-momentum-93CH-4764537",
+      "date": "2026-06-29T09:35:29Z",
+      "insight": {
+        "linkedin_hook": "📈 Massive competitive wins and a historic Q1 deal are driving NRC Health near its 52-week high—here is how digital patient-flow simulation is the next frontier for healthcare operational scaling. 🇨🇦",
+        "strategic_value": "* **Differentiated Patient Experience Platforms:** NRC Health's record-setting bookings momentum and partnership with the Healthcare Experience Foundation (HXF) underscore a surging demand for operational improvement and patient-journey tools in healthcare.\n* **In Silico Clinical Flow Modeling:** Integrating computational simulation and clinical flow modeling into experience management platforms allows providers to test operational changes virtually before physical rollout, minimizing patient friction and clinical burnout.\n* **Consulting Pivot:** Propose a joint technical integration to NRC Health and HXF, positioning virtual patient-flow and clinical simulation software as high-margin add-ons to their new collaborative operational improvement consulting programs.",
+        "co_bidding_opportunity": "Based on the announced strategic partnership between NRC Health and the Healthcare Experience Foundation (HXF), specialist health-tech SMEs and simulation software developers can pursue subcontracting opportunities to supply advanced digital simulation modules that integrate directly into their joint operational improvement programs.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This connects the commercial momentum and digital expansion of healthcare experience platforms to the broader digital health ecosystem, utilizing advanced modeling and simulation to optimize clinical operations and delivery.",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        }
+      }
+    },
     {
       "source": "Canada_CanadaBuys_Procurement",
       "title": "ACAN 26-58020 Laboratory Motion Platform System (Hexapod)",
@@ -34,7 +115,8 @@
       "notice_type": "Advance Contract Award Notice",
       "procurement_method": "Advance contract award notice",
       "selection_criteria": "",
-      "trade_agreements": "Please refer to Tender Description or Tender Documents"
+      "trade_agreements": "Please refer to Tender Description or Tender Documents",
+      "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)"
     },
     {
       "source": "Canada_PHAC_AMR",
@@ -123,7 +205,8 @@
       "notice_type": "RFP against Supply Arrangement",
       "procurement_method": "Competitive - Selective tendering",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)"
+      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
     },
     {
       "source": "Canada_NRC_Simulation",
@@ -199,7 +282,8 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)"
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -233,7 +317,8 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)"
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -369,7 +454,8 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "North American Free Trade Agreement (NAFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade Agreement"
+      "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade Agreement",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -403,7 +489,8 @@
       "notice_type": "",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)"
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -437,7 +524,8 @@
       "notice_type": "",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "",
-      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)"
+      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -539,7 +627,8 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)"
+      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -573,7 +662,8 @@
       "notice_type": "",
       "procurement_method": "Competitive - Selective tendering",
       "selection_criteria": "",
-      "trade_agreements": "Please refer to Tender Description or Tender Documents"
+      "trade_agreements": "Please refer to Tender Description or Tender Documents",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -607,7 +697,8 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Please refer to Tender Description or Tender Documents"
+      "trade_agreements": "Please refer to Tender Description or Tender Documents",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -642,7 +733,8 @@
       "notice_type": "",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "",
-      "trade_agreements": "Please refer to Tender Description or Tender Documents"
+      "trade_agreements": "Please refer to Tender Description or Tender Documents",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -682,7 +774,8 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
+      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -722,7 +815,8 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade Agreement"
+      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     }
   ]
 }
