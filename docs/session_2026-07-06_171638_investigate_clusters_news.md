@@ -16,6 +16,7 @@ Title: Investigation of Innovation Clusters News Ingestion Freshness
 * Analyzed the impact on data completeness (losing federal policy alerts and ecosystem partner press releases).
 * Implemented the Option 1 schema and logic changes locally (updated [schema.py](file:///c:/dev/canadian-grant-intelligence/generic_engine/schema.py), [main.py](file:///c:/dev/canadian-grant-intelligence/generic_engine/main.py), and [innovation_clusters.json](file:///c:/dev/canadian-grant-intelligence/configs/innovation_clusters.json)).
 * Executed [simulate_run.py](file:///c:/dev/canadian-grant-intelligence/scratch/simulate_run.py) to verify the new filter bypass results.
+* Fixed a missing GHA dependency issue by making the `dotenv` import optional and safe in [main.py](file:///c:/dev/canadian-grant-intelligence/generic_engine/main.py), and adding `python-dotenv` to [requirements.txt](file:///c:/dev/canadian-grant-intelligence/requirements.txt).
 
 ## Summary of Work Completed
 - Documented why keyword pre-filtering was implemented (cost, rate-limiting, noise suppression).
