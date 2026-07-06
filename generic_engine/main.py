@@ -7,10 +7,13 @@ import re
 from datetime import datetime, timedelta
 from typing import List, Dict, Any, Set, Optional
 import requests
-import dotenv
 
 # Load environment variables for local runs/tests
-dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
+try:
+    import dotenv
+    dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
+except ImportError:
+    pass
 
 from schema import PipelineConfig
 from models import GeminiInsight, ReportItem, NewsWrapper, KPIDashboard
