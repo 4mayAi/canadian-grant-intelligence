@@ -21,6 +21,5 @@ jobs:
       config_path: configs/innovation_clusters.json
       lookback_days: ${{ github.event.inputs.lookback_days || '30' }}
       run_type: 'deep_dive'
-      pre_run_script: 'scratch/clear_cache.py'
       run_prune: ${{ github.event.schedule != '' && contains(github.event.schedule, '0 15 * * 0') }}
     secrets: inherit
