@@ -338,18 +338,18 @@
                 // 1. Calculate and update KPI metrics dynamically
                 document.getElementById('kpi-total').innerText = insights.length;
                 
-                const activeSources = new Set();
+                const activeHubs = new Set();
                 insights.forEach(item => {
                     if (item.source) {
-                        const cleanSrc = item.source.replace('_News', '').replace('Cluster_News', '');
-                        activeSources.add(cleanSrc);
+                        const hubPrefix = item.source.split('_')[0];
+                        activeHubs.add(hubPrefix);
                     }
                 });
-                document.getElementById('kpi-new-today').innerText = `${activeSources.size} / 5 Active`;
+                document.getElementById('kpi-new-today').innerText = `${activeHubs.size} / 8 Active`;
                 
                 const cardLabels = document.querySelectorAll('.kpi-card .kpi-label');
                 if (cardLabels.length > 1) {
-                    cardLabels[1].innerText = 'Active Clusters';
+                    cardLabels[1].innerText = 'Active Hubs';
                 }
 
                 const sourceCounts = {};
