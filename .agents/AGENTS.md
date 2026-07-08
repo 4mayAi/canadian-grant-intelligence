@@ -88,3 +88,21 @@ Rule:
     `dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))`
     The `usecwd=True` flag anchors the `.env` search to the current working directory rather than traversing the resolved symlink/junction path.
 
+---
+
+Name:
+    Platform-Independent Path Resolution in Utility and Scratch Scripts
+Rule:
+    When writing one-off utility scripts, migration scripts, or scratch files that import from workspace packages (such as `generic_engine`), do NOT hardcode absolute local system paths (e.g., `c:\dev\...`). These scripts are often executed remotely in GitHub Actions workflows (which run on Linux/Ubuntu runners) and will fail with `ModuleNotFoundError`.
+    Always resolve the project root dynamically relative to the script file using platform-independent Python paths:
+    `PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))`
+
+---
+
+Name:
+    Pipeline Filter Changes Cache Side-Effect Resolution
+Rule:
+    When updating news/tender ingestion filters (such as keywords, bypass flags, or source scopes), keep in mind that past items that were previously crawled but discarded by the old filter will NOT be processed because their URLs are already stored in the production `processed_urls.json` cache in Azure Storage.
+    To backfill historically discarded items, you must run a custom script (e.g., as a GitHub Actions `pre_run_script`) to clear those specific URLs from the Azure Storage cache registry, allowing the pipeline to ingest them as new items.
+
+
