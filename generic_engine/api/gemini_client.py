@@ -321,7 +321,7 @@ class GeminiClient:
             tender_context = "\n".join([f"- {t.get('title', '')} ({t.get('category_label', 'Uncategorized')})" for t in tenders_dict_list[:5]])
             
         prompt = f"""You are a high-level executive intelligence advisor.
-        Generate a single, powerful, one-sentence "Hero Hook" (MAX 20 words) that summarizes the most important theme in today's Canadian government updates.
+        Generate a single, powerful, punchy "Hero Hook" (STRICT MAX 85 characters including spaces) that summarizes the most important theme in today's Canadian government updates.
 
         CRITICAL Rules:
         - Output ONLY the one-sentence hook.
