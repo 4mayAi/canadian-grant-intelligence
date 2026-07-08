@@ -50,6 +50,7 @@ class PipelineConfig(BaseModel):
     display_name: str
     dashboard_url: str
     max_items_per_source: int = 5
+    max_items_per_source_on_dashboard: int = 4
     sources: List[SourceConfig]
     keywords: List[str]
     high_value_keywords: List[str]

@@ -950,6 +950,24 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
                 src_name = clean_source_display_name(item.get("source", ""))
                 suggested_post += f"- [{item['title']}]({item['link']}) ({src_name})\n"
 
+        # Enforce per-source cap to prevent single-source flooding on the dashboard
+        max_per_src = getattr(config, 'max_items_per_source_on_dashboard', 4)
+        if not isinstance(max_per_src, int):
+            max_per_src = 4
+        source_counts = {}
+        capped_insights = []
+        for item in insights:
+            src = item.get("source", "")
+            count = source_counts.get(src, 0)
+            if count < max_per_src:
+                capped_insights.append(item)
+                source_counts[src] = count + 1
+            else:
+                logging.info(f"Per-source cap ({max_per_src}) reached for '{src}'. Dropping: {item.get('title', '?')[:60]}")
+        if len(capped_insights) < len(insights):
+            logging.info(f"Per-source cap reduced insights from {len(insights)} to {len(capped_insights)}.")
+        insights = capped_insights
+
         pmo_wrapper = {
             "generated_at": datetime.utcnow().isoformat() + "Z",
             "linkedin_post": suggested_post,

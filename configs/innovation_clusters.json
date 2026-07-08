@@ -2,6 +2,7 @@
   "topic_id": "innovation-clusters",
   "display_name": "Canadian Innovation Clusters Intelligence",
   "dashboard_url": "https://4mayAi.github.io/canadian-grant-intelligence/clusters/",
+  "max_items_per_source": 5,
   "sources": [
     { "name": "DIGITAL_News", "url": "https://digitalsupercluster.ca/category/news/feed/", "type": "rss", "hub": "DIGITAL", "skip_keyword_filter": true },
     { "name": "DIGITAL_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Digital+Technology+Supercluster%22+OR+%22DIGITAL+Supercluster%22+OR+%22DNAstack%22+OR+%22Sovereign+AI%22+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "DIGITAL", "skip_query_refactoring": true },
@@ -13,7 +14,7 @@
       "skip_query_refactoring": true
     },
     { "name": "ScaleAI_News", "url": "https://www.scaleai.ca/feed/", "type": "rss", "hub": "ScaleAI", "skip_keyword_filter": true },
-    { "name": "ScaleAI_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Scale+AI%22+OR+%22ALL+IN%22+AI+Montreal+OR+%22supply+chain%22+AI+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "ScaleAI", "skip_query_refactoring": true },
+    { "name": "ScaleAI_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Scale+AI%22+OR+%22ALL+IN%22+AI+Montreal+OR+%22ALL+IN+Talks%22+OR+%22ALL+IN+2026%22+OR+%22supply+chain%22+AI+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "ScaleAI", "skip_query_refactoring": true },
     {
       "name": "ScaleAI_Federal_News",
       "url": "https://news.google.com/rss/search?q=site:canada.ca/en/transport-canada/news+%28%22supply+chain%22+OR+logistics+OR+%22trade+corridor%22+OR+transport+OR+corridor+OR+routing%29&hl=en-CA&gl=CA&ceid=CA:en",
@@ -22,7 +23,7 @@
       "skip_query_refactoring": true
     },
     { "name": "OceanCluster_News", "url": "https://oceansupercluster.ca/feed/", "type": "rss", "hub": "Ocean", "skip_keyword_filter": true },
-    { "name": "Ocean_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%28%22Our+Ocean+Conference%22+AND+%28Canada+OR+Canadian+OR+Halifax+OR+DFO+OR+Supercluster%29%29+OR+%22Ocean+Supercluster%22+OR+%22Ocean+Week+Canada%22&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "Ocean", "skip_query_refactoring": true },
+    { "name": "Ocean_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Ocean+Supercluster%22+OR+%22blue+economy%22+Canada+OR+%22marine+technology%22+Canada+OR+%22ocean+innovation%22+Canada+OR+%22Canada+ocean%22+partnership&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "Ocean", "skip_query_refactoring": true },
     {
       "name": "Ocean_Federal_News",
       "url": "https://news.google.com/rss/search?q=%28site:canada.ca/en/fisheries-oceans/news+OR+site:canada.ca/en/natural-resources-canada/news%29+%28%22Our+Ocean%22+OR+ocean+OR+marine+OR+blue+OR+maritime+OR+offshore+OR+wind+OR+tidal+OR+renewable+OR+aquaculture%29&hl=en-CA&gl=CA&ceid=CA:en",
@@ -30,6 +31,7 @@
       "hub": "Ocean",
       "skip_query_refactoring": true
     },
+    { "name": "Ocean_BlueEconomy", "url": "https://news.google.com/rss/search?q=Canada+%28%22fisheries+technology%22+OR+%22ropeless+gear%22+OR+%22ghost+gear%22+OR+%22marine+protected+area%22+OR+%22aquaculture+innovation%22+OR+%22whalesafe%22%29&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "Ocean", "skip_query_refactoring": true },
     { "name": "NGen_News", "url": "https://www.ngen.ca/blog/rss.xml", "type": "rss", "hub": "NGen", "skip_keyword_filter": true },
     { "name": "NGen_Ecosystem_News", "url": "https://news.google.com/rss/search?q=%22Next+Generation+Manufacturing+Canada%22+OR+%22NGen%22+manufacturing+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "NGen", "skip_query_refactoring": true },
     {
@@ -54,16 +56,45 @@
       "type": "rss",
       "hub": "ProteinIndustries",
       "skip_query_refactoring": true
-    }
+    },
+    { "name": "ProteinIndustries_FoodSecurity", "url": "https://news.google.com/rss/search?q=%22National+Food+Security+Strategy%22+OR+%22Food+Innovation+Fund%22+OR+%22food+infrastructure%22+Canada&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "ProteinIndustries", "skip_query_refactoring": true },
+    { "name": "ProteinIndustries_AgriFood_Federal", "url": "https://news.google.com/rss/search?q=site:canada.ca/en/agriculture-agri-food/news&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "ProteinIndustries", "skip_query_refactoring": true },
+    {
+      "name": "ProteinIndustries_CanadaBuys",
+      "url": "https://open.canada.ca/data/api/action/package_show?id=6abd20d4-7a1c-4b38-baa2-9525d0bb2fd2",
+      "type": "ckan",
+      "hub": "ProteinIndustries"
+    },
+    { "name": "CanTech_BetaKit", "url": "https://news.google.com/rss/search?q=site:betakit.com+%28AI+OR+quantum+OR+%22clean+tech%22+OR+defence+OR+manufacturing+OR+%22food+tech%22%29&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "CanadianTech", "skip_query_refactoring": true },
+    { "name": "CanTech_AI_Ecosystem", "url": "https://news.google.com/rss/search?q=%28%22Cohere%22+OR+%22Mila%22+OR+%22Vector+Institute%22+OR+%22CIFAR%22+OR+%22Sanctuary+AI%22+OR+%22Cerebras%22+OR+%22Hammond+Power%22%29+Canada+AI&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "CanadianTech", "skip_query_refactoring": true },
+    { "name": "CanTech_Federal_AI", "url": "https://news.google.com/rss/search?q=site:canada.ca+%28%22AI+for+All%22+OR+CanCode+OR+%22artificial+intelligence%22+OR+quantum+OR+%22digital+economy%22+OR+%22data+sovereignty%22%29&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "CanadianTech", "skip_query_refactoring": true },
+    { "name": "SpaceDef_CSA", "url": "https://news.google.com/rss/search?q=%22Canadian+Space+Agency%22+OR+%22MDA+Space%22+OR+Canadarm+OR+RADARSAT+OR+%22Telesat+Lightspeed%22&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "SpaceDefence", "skip_query_refactoring": true },
+    { "name": "SpaceDef_Defence", "url": "https://news.google.com/rss/search?q=site:canada.ca/en/department-national-defence/news+%28procurement+OR+contract+OR+radar+OR+drone+OR+%22NORAD+modernization%22+OR+SAFE+OR+NATO%29&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "SpaceDefence", "skip_query_refactoring": true },
+    { "name": "SpaceDef_Industry", "url": "https://news.google.com/rss/search?q=%28%22Marconi+Technologies%22+OR+%22CAE%22+OR+%22L3Harris%22+OR+%22General+Dynamics%22+OR+%22Irving+Shipbuilding%22%29+Canada+%28defence+OR+defense+OR+contract%29&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "SpaceDefence", "skip_query_refactoring": true },
+    { "name": "Energy_Transport", "url": "https://news.google.com/rss/search?q=site:canada.ca/en/transport-canada/news+%28port+OR+terminal+OR+infrastructure+OR+corridor+OR+%22Roberts+Bank%22+OR+Contrecoeur+OR+%22Prince+Rupert%22%29&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "EnergyEnvironment", "skip_query_refactoring": true },
+    { "name": "Energy_CleanTech", "url": "https://news.google.com/rss/search?q=%28site:canada.ca/en/natural-resources-canada/news+OR+site:canada.ca/en/environment-climate-change/news%29+%28hydrogen+OR+nuclear+OR+SMR+OR+%22critical+minerals%22+OR+%22clean+energy%22+OR+battery+OR+%22carbon+capture%22%29&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "EnergyEnvironment", "skip_query_refactoring": true },
+    { "name": "Energy_Conservation", "url": "https://news.google.com/rss/search?q=Canada+%28%22Force+of+Nature%22+OR+%22nature-based+solutions%22+OR+%22marine+protected%22+OR+%2230+by+30%22+OR+%22conservation+technology%22%29&hl=en-CA&gl=CA&ceid=CA:en", "type": "rss", "hub": "EnergyEnvironment", "skip_query_refactoring": true }
   ],
   "keywords": [
-    "funding", "grant", "consortium", "co-investment", "matching funds", 
+    "funding", "grant", "consortium", "co-investment", "matching funds",
     "expression of interest", "call for proposals", "project award", "SME", "SMEs",
     "pledge", "commitment", "summit", "conference", "partnership", "event",
-    "subsea datacenter", "submarine fiber cable", "quantum optical network", "orbital compute"
+    "subsea datacenter", "submarine fiber cable", "quantum optical network", "orbital compute",
+    "contract", "contracts", "deal", "deals", "procurement", "agreement",
+    "MOU", "MOUs", "order", "orders", "bid", "bids", "RFP", "RFPs",
+    "export", "exports", "commercialization",
+    "infrastructure", "port", "ports", "terminal", "terminals", "expansion",
+    "satellite", "radar", "drone", "drones", "quantum", "hydrogen",
+    "nuclear", "SMR", "SMRs", "battery", "pipeline",
+    "accelerator", "incubator", "startup", "venture", "IPO", "IPOs",
+    "workforce", "training", "talent", "sovereignty", "sovereign",
+    "food security", "food processing", "agri-food", "crop", "crops",
+    "fermentation", "protein", "canola", "aquaculture"
   ],
   "high_value_keywords": [
-    "consortium", "co-investment", "proposal", "award"
+    "consortium", "co-investment", "proposal", "award",
+    "contract", "contracts", "procurement", "export", "exports",
+    "MOU", "MOUs", "satellite", "radar", "infrastructure", "food security"
   ],
   "localization_mappings": {
     "Protein Industries Canada": "[Protein Industries Canada](https://www.proteinindustriescanada.ca/)",
@@ -73,7 +104,15 @@
     "Ocean Supercluster": "[Ocean Supercluster](https://oceansupercluster.ca/)",
     "NGen": "[NGen](https://www.ngen.ca/)",
     "DIGITAL": "[Digital Supercluster](https://digitalsupercluster.ca/)",
-    "Digital Supercluster": "[Digital Supercluster](https://digitalsupercluster.ca/)"
+    "Digital Supercluster": "[Digital Supercluster](https://digitalsupercluster.ca/)",
+    "MDA Space": "[MDA Space](https://mda.space/)",
+    "Cohere": "[Cohere](https://cohere.com/)",
+    "Mila": "[Mila](https://mila.quebec/en)",
+    "Vector Institute": "[Vector Institute](https://vectorinstitute.ai/)",
+    "Canadian Space Agency": "[Canadian Space Agency](https://www.asc-csa.gc.ca/)",
+    "BetaKit": "[BetaKit](https://betakit.com/)",
+    "CAE": "[CAE](https://www.cae.com/)",
+    "Farm Credit Canada": "[Farm Credit Canada](https://www.fcc-fac.ca/)"
   },
   "llm_settings": {
     "model_primary": "gemini-3.5-flash",
@@ -90,7 +129,8 @@
     "insights_file": "cluster_insights.json",
     "kpis_file": "kpis.json",
     "anchors_file": "cluster_anchors.json",
-    "manifest_file": "manifest.json"
+    "manifest_file": "manifest.json",
+    "tenders_file": "cluster_tenders.json"
   },
   "distribution": {
     "discord_webhook": "${DISCORD_WEBHOOK_CLUSTERS}",
