@@ -367,7 +367,7 @@ class GeminiClient:
         - For each highlight, include ONE actionable sentence about who should pay attention and why
         - End with a call-to-action: "Full dashboard with filters and strategic analysis 👉 {url_cta}"
         - Close with exactly 5 relevant hashtags on their own line
-        - Do NOT use bullet points for the main body — use short paragraphs
+        - Do NOT use bullet points for the main body. Use separate, short paragraphs for each highlight (i.e., one short paragraph per key event, separated by a blank line) to keep the text clean and readable.
         - Tone: Authoritative but accessible (Bloomberg style).
         - Factual Rigor: Only reference names, figures, and timeframes explicitly mentioned in the context below. Do not guess or assume the name of the Prime Minister. Do not guess dates or dollar amounts unless supported by the source text. Do not fabricate hashtags for organizations not mentioned.
         
