@@ -17,8 +17,13 @@ class AzureClient:
                 try:
                     container_client = self.blob_service_client.get_container_client(self.container_name)
                     if not container_client.exists():
-                        container_client.create_container(public_access="blob")
-                        logging.info(f"Created Azure Container: {self.container_name} with public blob access")
+                        try:
+                            container_client.create_container(public_access="blob")
+                            logging.info(f"Created Azure Container: {self.container_name} with public blob access")
+                        except Exception as pub_err:
+                            logging.warning(f"Failed to create public container: {pub_err}. Retrying private container creation...")
+                            container_client.create_container()
+                            logging.info(f"Created private Azure Container: {self.container_name}")
                 except Exception as container_err:
                     logging.warning(f"Could not verify or create container {self.container_name}: {container_err}")
                 logging.info(f"Initialized Azure Blob Client for container: {container_name}")
