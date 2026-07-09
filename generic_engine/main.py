@@ -757,13 +757,13 @@ def validate_dynamic_outputs(output_dir: str, config: PipelineConfig):
                 raise ValueError(f"Validation failure: malformed JSON in {path}")
 
     # Specific schema checks
-    with open(kpis_file, "r") as f:
+    with open(kpis_file, "r", encoding="utf-8") as f:
         kpis = json.load(f)
         for key in ("total_active", "new_today", "hero_hook", "generated_at"):
             if key not in kpis:
                 raise ValueError(f"KPI schema violation: missing key {key}")
 
-    with open(insights_file, "r") as f:
+    with open(insights_file, "r", encoding="utf-8") as f:
         insights_wrapper = json.load(f)
         if "insights" not in insights_wrapper or not isinstance(insights_wrapper["insights"], list):
             raise ValueError("Insights wrapper violation: missing insights list array")
