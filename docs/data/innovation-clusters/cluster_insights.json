@@ -1,7 +1,103 @@
 {
-  "generated_at": "2026-07-08T19:48:05.775541Z",
-  "linkedin_post": "🚀 The landscape of Canadian innovation is shifting rapidly. With fresh federal capital flowing into agri-food and youth digital literacy, alongside corporate restructurings, the opportunity for B2B pivot is substantial for firms ready to act as regional integrators.\n\n[Protein Industries Canada](https://www.proteinindustriescanada.ca/) is spearheading a massive $25 billion push in the agri-food sector. SMEs focused on value-added agriculture should pay attention, as the demand for process optimization and localized supply chain integration is set to explode.\n\nOpenText is navigating a leaner operational phase. Mid-market firms should watch this space; the fragmentation of enterprise legacy stacks creates a perfect opening for agile consultancies to provide migration-as-a-service and specialized middleware support.\n\nGovernment investment in CanCode (Phase 5) is also set to influence the workforce. Educational tech providers and vocational training firms should note this as a signal to bridge the gap between classroom theory and real-world industrial application.\n\nMeanwhile, in the Blue Economy, the ECO Canada and YemBlue partnership highlights a critical need for standardized data monitoring. Companies providing sensor integration or compliance auditing services are well-positioned to serve as the connective tissue for these international initiatives.\n\nFinally, the government's push for beef export competitiveness demands automated traceability. Processors need firms capable of secondary telemetry processing to meet rigorous international trade standards efficiently.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n\n#BusinessIntelligence #AgriFood #InnovationClusters #CanadaTech #MarketStrategy\n\n### Featured News & Sources\n- [Government of Canada invests $30 million to launch fifth phase of CanCode program to offer new training opportunities for youth and teachers - canada.ca](https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/government-of-canada-invests-30-million-to-launch-fifth-phase-of-cancode-program-to-offer-new-training-opportunities-for-youth-and-teachers.html) (CanTech Federal AI)\n- [OpenText lays off two percent of its workforce - BetaKit](https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/) (CanTech BetaKit)\n- [ECO Canada and YemBlue Initiative Announce Strategic Partnership to Advance Sustainable Blue Economy Professional Standards in Yemen - Yahoo! Finance Canada](https://ca.finance.yahoo.com/news/eco-canada-yemblue-initiative-announce-155200535.html) (Ocean Ecosystem)\n- [British Columbia organizations coming together to boost skills and talent training in Canadian food and ingredient ecosystem](https://www.proteinindustriescanada.ca/news-releases/bcfb-ubc-cfl) (Protein Industries Canada)\n- [Minister of Agriculture and Agri-Food announcing investment to boost beef exports - canada.ca](https://www.canada.ca/en/agriculture-agri-food/news/2026/07/minister-of-agriculture-and-agri-food-announcing-investment-to-boost-beef-exports.html) (Protein Industries Canada Federal)\n",
+  "generated_at": "2026-07-09T15:06:44.691508Z",
+  "linkedin_post": "🚀 Canada's innovation ecosystem is igniting global partnerships and scaling strategic investments today! We're seeing aggressive moves that are reshaping the landscape for AI compute, advanced manufacturing, and space observation. \n\nA monumental collaboration sees Canada's [Cohere](https://cohere.com/) join Saudi Arabia's Humain, dedicating 50MW of compute for next-generation foundation models and sovereign AI. Businesses requiring substantial AI compute for advanced foundation models and secure data sovereignty should note this collaboration, as it paves the way for new regional compliance and integration services.\n\nMeanwhile, [MDA Space](https://mda.space/) is making a colossal $920 million move, acquiring a 70% stake in French satellite firm CLS. Companies in maritime surveillance, resource management, and global data analytics should explore how [MDA Space](https://mda.space/)'s expanded Earth observation data capabilities can enhance their strategic insights.\n\nDomestically, FedDev Ontario is backing Huys Industries with $660,000 to integrate AI into their ESD welding systems. Manufacturing SMEs looking to integrate AI for process optimization and quality control should observe Huys Industries' project, which demonstrates a clear path for federal support and specialized service opportunities.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n#mayAi #CanadaInnovation #AIStrategy #SpaceTech #BusinessIntelligence\n\n### Featured News & Sources\n- [Government of Canada supports Etobicoke manufacturing business in adopting AI - canada.ca](https://www.canada.ca/en/economic-development-southern-ontario/news/2026/07/government-of-canada-supports-etobicoke-manufacturing-business-in-adopting-ai.html) (CanTech Federal AI)\n- [Saudi Arabia's Humain, Canada's Cohere to work together on AI compute, sovereign AI models - Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/saudi-arabias-humain-canadas-cohere-131646877.html) (DIGITAL Ecosystem)\n- [MDA Space offers to buy a majority interest in French satellite firm - CTV News](https://www.ctvnews.ca/business/article/mda-space-offers-to-buy-a-majority-interest-in-french-satellite-firm/) (SpaceDef CSA)\n- [Cerebras targets Europe with multibillion-dollar AI expansion, challenging Nvidia - Yahoo! Finance Canada](https://ca.finance.yahoo.com/news/cerebras-targets-europe-multibillion-dollar-094538665.html) (CanTech AI Ecosystem)\n- [Minister McGuinty attends the NATO Leaders Summit in Türkiye, advancing key defence partnerships - canada.ca](https://www.canada.ca/en/department-national-defence/news/2026/07/minister-mcguinty-attends-the-nato-leaders-summit-in-turkiye-advancing-key-defence-partnerships.html) (SpaceDef Defence)\n",
   "insights": [
+    {
+      "source": "CanTech_Federal_AI",
+      "title": "Government of Canada supports Etobicoke manufacturing business in adopting AI - canada.ca",
+      "link": "https://www.canada.ca/en/economic-development-southern-ontario/news/2026/07/government-of-canada-supports-etobicoke-manufacturing-business-in-adopting-ai.html",
+      "date": "2026-07-09T14:48:10Z",
+      "insight": {
+        "linkedin_hook": "🇨🇦 Manufacturing's AI future is here! FedDev Ontario is backing Huys Industries with $660K to integrate AI into their ESD welding systems. This isn't just about efficiency; it's a strategic move for Canadian SMEs to dominate high-value component repair. #AI #Manufacturing #CanadaInnovation",
+        "strategic_value": "*   The Government of Canada, through FedDev Ontario's Regional Artificial Intelligence Initiative, is investing $660,000 in Huys Industries to advance AI adoption in manufacturing, specifically aligning with Canada’s Artificial Intelligence Strategy: AI for All, which prioritizes SME integration for national economic growth.\n*   The project targets the integration of AI into existing electric spark deposition (ESD) welding systems for coating and repairing metallic components, requiring specialized AI software for process optimization, quality control, and predictive maintenance within an industrial manufacturing context.\n*   **Consulting Pivot:** Offer specialized services such as custom analytics adapter development for integrating AI-driven ESD system data with broader manufacturing execution systems (MES), secondary telemetry processing for welding performance optimization and anomaly detection, or regional compliance auditing for safety and quality standards (e.g., CWB, ISO) related to AI-enhanced industrial processes.",
+        "co_bidding_opportunity": "AI software development specialists (particularly for industrial automation and process control), academic or research labs for AI model validation and performance testing in manufacturing, and industrial systems integrators experienced in deploying advanced robotics/automation solutions.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This investment in AI for advanced manufacturing directly supports the modernization of Canadian industrial operations, aligning with clusters focused on smart manufacturing and digital transformation to enhance productivity and global competitiveness for SMEs.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "DIGITAL_Ecosystem_News",
+      "title": "Saudi Arabia's Humain, Canada's Cohere to work together on AI compute, sovereign AI models - Yahoo Finance",
+      "link": "https://finance.yahoo.com/technology/ai/articles/saudi-arabias-humain-canadas-cohere-131646877.html",
+      "date": "2026-07-09T13:16:46Z",
+      "insight": {
+        "linkedin_hook": "🇨🇦🇸🇦 AI Power-Up Alert! Canada's Cohere and Saudi's Humain are joining forces on massive AI compute and sovereign AI models! This collaboration, backed by 50MW of dedicated compute, signals a huge leap for next-gen foundation models and enterprise AI solutions globally. #AI #SovereignAI #TechPartnerships",
+        "strategic_value": "* The partnership between Canada's Cohere and Saudi Arabia's Humain, involving significant AI compute capacity and sovereign AI model development, aligns with Canada's broader strategy to strengthen technological ties and expand investment with Gulf countries, driven by surging global demand for computing power and national AI strategies.\n* The technological target is substantial \"AI compute capacity\" (initially 50MW, scalable) for \"next-generation foundation models\" and \"sovereign AI models.\" This requires cutting-edge \"large-scale accelerated infrastructure purpose-built for areas such as model research and development,\" implicitly demanding advanced GPU clusters and high-speed networking, integrated into secure cloud data spaces consistent with Canada's Sovereign AI Compute Strategy (ref. Fact 101).\n* **Consulting Pivot:** Offer specialized downstream services such as regional compliance auditing for AI deployments (particularly for sovereign models and data privacy), custom analytics adapters for integrating Cohere's foundation models into enterprise systems, or secondary telemetry processing and optimization for clients leveraging Humain's compute infrastructure.",
+        "co_bidding_opportunity": "AI infrastructure providers (for compute capacity expansion beyond initial 50MW), enterprise AI solution developers (for industry-specific applications), data scientists/linguists (specializing in Arabic-language and domain-adapted foundation models), and systems integrators (for enterprise deployment).",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This collaboration directly addresses the build-out of 'AI compute' and the development of 'sovereign AI models,' directly aligning with Canada's Sovereign AI Compute Strategy which DIGITAL supports through initiatives like secure cloud data spaces (Fact 101).",
+        "grounded_fact_ids": [
+          101
+        ],
+        "anchor_reference": {
+          "source_name": "DIGITAL Sovereign AI Strategy 2025",
+          "page_range": "Page 11",
+          "url": "https://digitalsupercluster.ca/category/news/"
+        }
+      }
+    },
+    {
+      "source": "SpaceDef_CSA",
+      "title": "MDA Space offers to buy a majority interest in French satellite firm - CTV News",
+      "link": "https://www.ctvnews.ca/business/article/mda-space-offers-to-buy-a-majority-interest-in-french-satellite-firm/",
+      "date": "2026-07-09T11:54:05Z",
+      "insight": {
+        "linkedin_hook": "🚀 MDA Space is making a colossal move, acquiring a majority stake in French satellite firm CLS for $920M! This is a game-changer for global Earth and space observation data services.",
+        "strategic_value": "* MDA Space's significant $920 million acquisition of a 70% interest in France-based Collecte Localisation Satellites (CLS) marks a major strategic expansion into global government and commercial Earth and space observation data, products, and services, backed by a substantial $712 million bought-deal offering.\n* The technological target is the comprehensive enhancement and integration of Earth and space observation data capabilities, demanding advanced satellite data processing platforms, sophisticated analytics for diverse sensor data streams (e.g., radar, optical, telemetry), and robust service delivery infrastructure.\n* **Consulting Pivot:** Offer specialized downstream services to MDA Space/CLS for integrating their expanded data portfolio, such as developing custom analytics adapters for specific industry verticals (e.g., maritime surveillance, resource management), creating localized data layers to meet regional client requirements, or providing secondary telemetry processing for enhanced operational insights from new satellite assets.",
+        "co_bidding_opportunity": "MDA Space is the acquiring entity. Potential consortium or partnership opportunities could arise for: \n* Data Analytics Providers: To develop advanced processing and interpretation services for the expanded Earth and space observation data.\n* Software Development Firms: For integrating diverse data streams and creating custom user interfaces or APIs for government and commercial customers.\n* Cloud Infrastructure Providers: To host and manage large volumes of satellite data and associated services.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This acquisition significantly strengthens MDA's digital capabilities in satellite data services, aligning with the strategic expansion of Canada's space sector into advanced data analytics and global digital services.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "CanTech_AI_Ecosystem",
+      "title": "Cerebras targets Europe with multibillion-dollar AI expansion, challenging Nvidia - Yahoo! Finance Canada",
+      "link": "https://ca.finance.yahoo.com/news/cerebras-targets-europe-multibillion-dollar-094538665.html",
+      "date": "2026-07-09T09:45:38Z",
+      "insight": {
+        "linkedin_hook": "🌍 BILLIONS into European AI! Cerebras is building a 200MW network of AI data centers, directly challenging Nvidia and addressing the surge in demand for localized, low-latency inference. A massive opportunity for regional tech partners in Europe's growing digital sovereignty push! #AI #DataCenters #Europe",
+        "strategic_value": "*   Cerebras' multibillion-dollar investment in European AI data centers is driven by surging demand for local, low-latency AI infrastructure and a strategic move to reduce reliance on US-concentrated compute capacity, aligning with European digital sovereignty initiatives.\n*   The core technological target is high-performance AI inference infrastructure, specifically data centers capable of delivering 200 MW combined power capacity by end of 2027, optimized for AI agents and OpenAI workloads, requiring specialized AI chips and hardware.\n*   **Consulting Pivot:** Propose services for regional data center deployment, such as localized data residency auditing and compliance frameworks (e.g., GDPR, national security implications for AI data), custom telemetry processing for energy consumption optimization (given power capacity is a key constraint), or subcontract integration for securing local high-speed fiber connectivity providers and green energy solutions.",
+        "co_bidding_opportunity": "Data center construction and engineering firms, energy grid integration specialists (for 200 MW capacity), high-speed network infrastructure providers (fiber optics), and AI-specialized data center operations & maintenance (O&M) contractors.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This global AI infrastructure build-out highlights the increasing demand for advanced computing hardware and AI inference capacity, a trend directly relevant to Canada's own AI Clusters focused on developing and deploying next-generation digital infrastructure. Canadian firms specializing in secure, high-performance computing, data center optimization, or AI-specific hardware could target similar domestic or international projects.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "SpaceDef_Defence",
+      "title": "Minister McGuinty attends the NATO Leaders Summit in Türkiye, advancing key defence partnerships - canada.ca",
+      "link": "https://www.canada.ca/en/department-national-defence/news/2026/07/minister-mcguinty-attends-the-nato-leaders-summit-in-turkiye-advancing-key-defence-partnerships.html",
+      "date": "2026-07-08T22:07:02Z",
+      "insight": {
+        "linkedin_hook": "🤝 Canada strengthens NATO ties! Minister McGuinty's engagements at the NATO Leaders Summit in Türkiye forge key defense partnerships and boost maritime security across critical Northern Atlantic and Arctic regions.",
+        "strategic_value": "* Canada's Minister of National Defence actively participated in the NATO Leaders Summit, signing a Statement of Intent with Türkiye and an Arrangement technique with France to bolster bilateral defence cooperation, capability development, and S&T collaboration, signalling enhanced investment in collective defence and military readiness.\n* The technological target involves upgrading command-and-control systems, enhancing situational awareness capabilities, and modernizing maritime assets for improved deterrence and response. This requires advanced sensor fusion, secure information sharing protocols, and interoperable communication technologies across NATO allies.\n* **Consulting Pivot:** Provide specialized downstream services to support NATO's enhanced maritime security and command-and-control initiatives, such as developing custom analytics adapters for multi-source maritime domain awareness, delivering secondary telemetry processing for naval operational efficiency, or offering regional compliance auditing for secure information sharing among allied forces.",
+        "co_bidding_opportunity": "The agreements indicate broad collaboration, creating opportunities for:\n* Defence Technology SMEs: Specializing in command-and-control systems, secure communications, and situational awareness technologies.\n* R&D Partners: Academic research labs and defence innovation firms for science and technology collaboration and capability development (France agreement).\n* Systems Integrators: For integrating multinational defence systems and enhancing interoperability.\n* Logistics Contractors: For operational support related to military-to-military dialogue and deployments (Türkiye agreement).\n* Maritime Surveillance Technology Providers: For strengthening maritime domain awareness and information sharing within the newly expanded Maritime Security Partnership.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Canada's reinforced commitment to NATO and specific defence partnerships (Türkiye, France, Maritime Security) drives demand for advanced digital defence technologies, especially in command-and-control, situational awareness, and secure information sharing for collective security.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "SpaceDef_CSA",
+      "title": "MDA Space (TSX:MDA) Secures Two Satellite Contracts Spanning Canada And Japan - Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mda-space-tsx-mda-secures-211413469.html",
+      "date": "2026-07-08T21:14:13Z",
+      "insight": {
+        "linkedin_hook": "🛰️ Double win for MDA Space! Securing two major satellite contracts with Canada and Japan solidifies its position in global Earth observation and defense communications. Huge implications for national space capabilities!",
+        "strategic_value": "* MDA Space has secured two pivotal contracts: a US$688 million deal with the Canadian Space Agency for a RADARSAT Constellation Mission replenishment satellite (part of a C$1.012B program) and a contract to supply digital payloads and antennas for Japan's next-generation defense communications satellite.\n* The technological target for the Canadian contract is advanced radar satellite technology, leveraging the CHORUS design for continuous Earth observation data. The Japanese contract focuses on high-performance digital payloads and antennas for secure communications, requiring expertise in secure data transmission and satellite system engineering.\n* **Consulting Pivot:** Propose downstream services focused on the extensive data and operational needs generated by these new satellite programs, such as developing custom analytics adapters for environmental monitoring or defense intelligence, providing secondary telemetry processing for satellite health and performance optimization, or offering regional compliance auditing for data security and usage protocols for government end-users.",
+        "co_bidding_opportunity": "MDA Space is a prime contractor for the Canadian Space Agency and a key supplier to Mitsubishi Electric Corporation for the Japanese project. Consortium opportunities include:\n* Specialized Component Suppliers: For niche satellite parts, sensors, or communication modules not produced by MDA.\n* AI/Data Analytics SMEs: For processing and interpreting the vast amounts of Earth observation data from the RADARSAT Constellation Mission.\n* Ground Station Operators: For data reception, processing, and distribution.\n* Systems Integrators: To support the integration of MDA's digital payloads and antennas into the broader Japanese defense communications satellite system, working with Mitsubishi Electric Corporation.\n* Academic Research Labs: For advanced algorithm development related to radar imaging or secure communications protocols.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "These contracts underscore Canada's commitment to long-term digital space infrastructure (RADARSAT) and expand MDA's global footprint in advanced digital satellite technology, reinforcing strategic goals in data continuity and secure communications.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
     {
       "source": "CanTech_Federal_AI",
       "title": "Government of Canada invests $30 million to launch fifth phase of CanCode program to offer new training opportunities for youth and teachers - canada.ca",
@@ -45,6 +141,28 @@
         "mets_rationalization": "This reflects the OSC's broader mission (Fact ID 400) of marine domain awareness and professional ecosystem building, applicable to international technology transfer.",
         "grounded_fact_ids": [
           400
+        ],
+        "anchor_reference": {
+          "source_name": "OSC Strategic Plan 2023-2028",
+          "page_range": "Page 7",
+          "url": "https://oceansupercluster.ca/strategic-plan"
+        }
+      }
+    },
+    {
+      "source": "Ocean_Ecosystem_News",
+      "title": "ECO Canada and YemBlue Initiative Announce Strategic Partnership to Advance Sustainable Blue Economy Professional Standards in Yemen - Yahoo Finance",
+      "link": "https://finance.yahoo.com/economy/policy/articles/eco-canada-yemblue-initiative-announce-155200610.html",
+      "date": "2026-07-08T15:52:00Z",
+      "insight": {
+        "linkedin_hook": "🇨🇦 Canadian Blue Economy expertise sets sail! ECO Canada's new partnership with YemBlue isn't just about professional standards; it's building data-driven, community-led marine monitoring systems globally. This opens doors for Canadian firms specializing in *localized data layers* and *custom analytics adapters* for emerging markets! #OceanTech #SustainableDevelopment",
+        "strategic_value": "- Canada's Ocean Supercluster (OSC) actively supports Indigenous-led ocean innovations that prioritize community participation and co-design (Fact 401). ECO Canada's strategic partnership to build professional capacity and community-led marine monitoring in Yemen demonstrates a global demand for this Canadian-pioneered, community-centric model in sustainable blue economy development.\n- The initiative targets strengthening 'community-led marine monitoring' and leverages YemBlue's 'community monitoring systems (including the DSS-YB Platform).' This signifies a critical need for integrated *data acquisition, processing, and visualization software stacks*, likely requiring robust cloud infrastructure, API integration standards for diverse telemetry, and secure data governance frameworks compliant with regional specificities.\n- **Consulting Pivot:** Propose expertise in developing custom analytics adapters for localized data layers, specifically tailoring Canadian-developed environmental monitoring or resource management software to integrate with YemBlue's DSS-YB Platform or similar systems, ensuring regional compliance and scalable secondary telemetry processing for evidence-based decision-making.",
+        "co_bidding_opportunity": "The partnership focuses on building professional capacity and community-led marine monitoring systems. This creates opportunities for: **Data Systems Integrator** (specializing in deploying and optimizing environmental data platforms like DSS-YB), **Specialist SME in localized data layer development** (to adapt monitoring systems to specific regional environmental and socio-economic contexts), and **Custom Analytics Developer** (to build tools for evidence-based decision-making from marine telemetry).",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This initiative by ECO Canada aligns with the Ocean Supercluster's long-term regulatory and financial anchor by demonstrating the global exportability of Canadian expertise in marine data management, community engagement, and capacity building. It directly connects to OSC's focus on 'marine domain awareness' and 'Indigenous economic development' (Fact 400), and especially to fostering 'Indigenous-led ocean innovations, requiring community participation' (Fact 401) by showcasing how similar community-led, data-driven approaches are gaining international traction, potentially opening new markets for Canadian marine technology and service providers.",
+        "grounded_fact_ids": [
+          400,
+          401
         ],
         "anchor_reference": {
           "source_name": "OSC Strategic Plan 2023-2028",
@@ -260,28 +378,6 @@
           "source_name": "DIGITAL HGI Program Overview 2026",
           "page_range": "Page 3",
           "url": "https://digitalsupercluster.ca/category/news/"
-        }
-      }
-    },
-    {
-      "source": "Ocean_Ecosystem_News",
-      "title": "Our Ocean Conference Mobilizes 320 New Commitments Worth USD 6.4 Billion - SDG Knowledge Hub",
-      "link": "https://sdg.iisd.org/news/our-ocean-conference-mobilizes-320-new-commitments-worth-usd-64-billion/",
-      "date": "2026-06-24T21:04:23Z",
-      "insight": {
-        "linkedin_hook": "🌊 $6.4 Billion in new global ocean commitments just dropped—is your firm positioned to capture the next wave of blue economy capital?",
-        "strategic_value": "* The global influx of USD $6.4 billion signals a massive shift in liquidity for ocean-based projects, providing a direct market tailwind for the OSC’s current $600M portfolio of ocean decarbonization and marine awareness initiatives.\n* Technological requirements for these international commitments center on real-time marine sensing, edge-compute telemetry, and carbon-tracking software stacks necessary to verify and report on environmental impact metrics.\n* **Consulting Pivot:** Propose a strategy for Canadian mid-market marine tech firms to map their existing OSC-supported proprietary hardware against the emerging global compliance and sustainability standards announced at the Our Ocean Conference to secure joint-bid status for upcoming international capital deployments.",
-        "co_bidding_opportunity": "Partnerships required include: Marine technology developers, AI-driven marine domain awareness SMEs, scientific research groups, and Indigenous community-led economic development partners as mandated by OSC's Two-Eyed Seeing framework.",
-        "mets_category": "METS-ESG",
-        "mets_rationalization": "The influx of global capital directly aligns with the OSC's focus on Blue Foods and ocean decarbonization (Fact 400), creating a massive opportunity to leverage Canada’s 'Two-Eyed Seeing' initiative (Fact 401) to attract international project funding.",
-        "grounded_fact_ids": [
-          400,
-          401
-        ],
-        "anchor_reference": {
-          "source_name": "OSC Strategic Plan 2023-2028",
-          "page_range": "Page 7",
-          "url": "https://oceansupercluster.ca/strategic-plan"
         }
       }
     },
