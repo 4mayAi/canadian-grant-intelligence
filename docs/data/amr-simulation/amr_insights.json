@@ -1,7 +1,42 @@
 {
-  "generated_at": "2026-07-09T19:27:52.823433Z",
-  "linkedin_post": "🧫 Could virtual modeling have predicted the Cyclospora surge? As cross-border food supply chains remain vulnerable, Canadian public health agencies need more than reactive monitoring. Digital surveillance platforms can now integrate with infectious disease networks to simulate pathogen entry points, a clear signal for developers of in silico supply chain modeling tools.\n\n🔋 Accelerating the battery transition: The [NRC](https://nrc.canada.ca/) is seeking specialized slurry mixing tech to drive Canadian energy innovation. Manufacturers should look beyond hardware, as the [NRC](https://nrc.canada.ca/) Ideation Fund increasingly prioritizes high-performance material prototyping and industrial scaling software that integrates directly into the national clean energy supply chain.\n\n🦠 Can we map the 'dark matter' of host-pathogen interfaces with AI? Recent research identifying EAF1 as a T. gondii modulator provides a precise target for in silico simulations of infection cycles. Research labs should leverage these discoveries by applying spatial-phenotype simulation frameworks to existing NSERC or [CIHR](https://cihr-irsc.gc.ca/)-funded drug discovery workflows to accelerate target validation.\n\n🔍 Unlocking the code of viral cellular subversion: Mapping the HSV-2 pUL16 interactome identifies critical regulatory nodes for replication. There is a prime opportunity to advise on the adoption of high-throughput molecular interaction simulation tools to secure CFI infrastructure grants that support translational viral research.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#Biotech #Canada #PublicHealth #Simulation #HealthTech\n\n### Featured News & Sources\n- [Diarrhea-causing parasite infecting more than 1,200 in Michigan has not spread to Canada: PHAC - CTV News](https://www.ctvnews.ca/health/article/diarrhea-causing-parasite-infecting-more-than-1200-in-michigan-has-not-spread-to-canada-phac/) (Canada PHAC AMR)\n- [Large Slurry Mixer](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-737-25025461) (Canada CanadaBuys Procurement)\n- [A pooled image-based CRISPR screen identifies EAF1 as a T. gondii modulator of ESCRT subversion.](https://www.biorxiv.org/content/10.64898/2026.07.08.737057v1?rss=1) (bioRxiv Microbiology)\n- [Identification of Viral and Cellular Proteins in Proximity to the HSV-2 pUL16 Tegument Protein in Infected Cells](https://www.biorxiv.org/content/10.64898/2026.07.07.737067v1?rss=1) (bioRxiv Microbiology)\n",
+  "generated_at": "2026-07-10T19:20:36.038373Z",
+  "linkedin_post": "🏥 Bridging the gap between institutional healthcare and cutting-edge medical simulation is no longer a luxury—it is a procurement imperative. As Correctional Service Canada continues to manage specialized primary care, firms should leverage federal ideation grants to transition from standard service delivery to an efficiency-driven, technology-backed model.\n\n* Improving health outcomes in complex institutional settings requires data-driven decision support for inter-disciplinary teams.\n* Leveraging federal ideation grants can transform standard primary care delivery into a more efficient, technology-backed patient care model.\n* **Consulting Pivot:** Pivot the focus toward proposing the inclusion of clinical decision support software or simulation-based training tools as an 'innovative health technology' component within future Correctional Service Canada bids to boost the technical score.\n\n🧫 Could virtual modeling have predicted the recent Cyclospora surge? As cross-border food supply chains remain vulnerable, public health agencies need more than reactive monitoring; they require predictive in silico simulation.\n\n* Digital surveillance infrastructure can integrate with infectious disease laboratory networks to predict pathogen entry points into Canadian food systems.\n* Proactive simulation tools allow for the testing of supply chain contamination scenarios before they manifest as public health crises.\n* **Consulting Pivot:** Position your firm to support [PHAC](https://www.canada.ca/en/public-health.html)’s infectious disease modeling mandates by proposing a digital twin framework for tracing microbial propagation through imported produce pathways.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#HealthTech #CanadaBiotech #PublicHealth #Procurement #DigitalTwin\n\n### Featured News & Sources\n- [Primary Care Physician services – Grande Cache Institution](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-139-97304605) (Canada CanadaBuys Procurement)\n- [Diarrhea-causing parasite infecting more than 1,200 in Michigan has not spread to Canada: PHAC - CTV News](https://www.ctvnews.ca/health/article/diarrhea-causing-parasite-infecting-more-than-1200-in-michigan-has-not-spread-to-canada-phac/) (Canada PHAC AMR)\n",
   "insights": [
+    {
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "Primary Care Physician services – Grande Cache Institution",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-139-97304605",
+      "date": "2026-07-10T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Bridging the gap between institutional healthcare and cutting-edge medical simulation. 🏥",
+        "strategic_value": "* Improving health outcomes in complex institutional settings requires data-driven decision support for inter-disciplinary teams.\n* Leveraging federal ideation grants can transform standard primary care delivery into a more efficient, technology-backed patient care model.\n* **Consulting Pivot:** Pivot the focus toward proposing the inclusion of clinical decision support software or simulation-based training tools as an 'innovative health technology' component within future Correctional Service Canada bids to boost the technical score.",
+        "co_bidding_opportunity": "Potential for specialist SME collaboration with healthcare service providers to integrate NRC-supported ideation/simulation technologies into correctional health workflows.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This provides a pathway to utilize NRC Ideation Fund-backed technologies (Fact 1001) to enhance the technical capability and delivery of medical services required by the Correctional Service of Canada.",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        }
+      },
+      "closing_date": "2026-07-30T00:00:00Z",
+      "province": "Alberta",
+      "province_abbrev": "AB",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "Primary Care Physician Services for the Grande Cache InstitutionThis requirement is for: The Correctional Service of Canada, Prairie Region.Trade agreement:\t This procurement is not subject to any trade agreement.Policy on Reciprocal Procurement: This solicitation is open only to Canadian suppliers.Competitive Procurement Strategy: compliant bid with the highest technical score.Set-aside under the Procurement Strategy for Indigenous Business: This procurement is not subject to any set-asides for...",
+      "type": "New",
+      "organization": "Correctional Service of Canada (CSC)",
+      "solicitation_number": "21120-27-5375280",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Highest Technical Merit within a Stipulated Maximum Budget",
+      "trade_agreements": "None",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
     {
       "source": "Canada_PHAC_AMR",
       "title": "Diarrhea-causing parasite infecting more than 1,200 in Michigan has not spread to Canada: PHAC - CTV News",
@@ -13,6 +48,27 @@
         "co_bidding_opportunity": "Collaborate with regional diagnostic labs and food security researchers to seek funding under the PHAC Infectious Disease Laboratory Network initiatives to upgrade existing pathogen tracking systems.",
         "mets_category": "METS-Digital",
         "mets_rationalization": "The signal highlights the need for advanced public health modeling and microbial risk assessment, aligning with PHAC's requirement for simulation tools to handle infectious disease outbreaks.",
+        "grounded_fact_ids": [
+          1002
+        ],
+        "anchor_reference": {
+          "source_name": "PHAC Laboratory Biosafety Guidelines",
+          "page_range": "Page 15",
+          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
+        }
+      }
+    },
+    {
+      "source": "Canada_PHAC_AMR",
+      "title": "Diarrhea-causing parasite infecting more than 1,200 in Michigan has not spread to Canada: PHAC - CityNews Toronto",
+      "link": "https://toronto.citynews.ca/2026/07/09/diarrhea-parasite-cyclospora-canada-health/",
+      "date": "2026-07-09T16:18:00Z",
+      "insight": {
+        "linkedin_hook": "Beyond the outbreak: How in silico modeling is changing our approach to pathogen surveillance. 🦠",
+        "strategic_value": "* While current cyclospora outbreaks are localized, computational epidemiology tools can model the environmental pathways of foodborne parasites to bolster supply chain resilience.\n* Integrating simulation data into public health response frameworks allows for faster identification of transmission vectors before they reach Canadian borders.\n* **Consulting Pivot:** Propose the integration of digital twin simulation services to PHAC's Infectious Disease Laboratory Network to optimize predictive modeling for imported foodborne pathogens.",
+        "co_bidding_opportunity": "Partnership opportunities exist with the Infectious Disease Laboratory Network to develop or deploy advanced pathogen simulation platforms, leveraging PHAC-dedicated funding for infectious disease modeling.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Uses digital simulation and pathogen modeling to address the public health concerns regarding infectious disease tracking mentioned by PHAC, aligning with federal mandates for disease preparedness.",
         "grounded_fact_ids": [
           1002
         ],
@@ -49,29 +105,14 @@
       "category": "GD",
       "category_label": "Goods",
       "description": "The National Research Council (NRC) Clean Energy Innova??on Research Center (CEI) requires a large slurry mixer for thepreparation of viscous battery slurries for a prototyping line. This large slurry mixer will allow the CEI team to save timeand optimize the preparation methods, making the prototyping line more functional and versatile.All deliverables estimated to be received on or before 11 months after contract award.Solicitation of Offer Submission Eligibility.This solicitation of offers is...",
-      "type": "New",
+      "type": "Open",
       "organization": "National Research Council of Canada (NRC)",
       "solicitation_number": "26-58093",
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementCanada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)",
+      "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementCanada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)",
       "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "A pooled image-based CRISPR screen identifies EAF1 as a T. gondii modulator of ESCRT subversion.",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.08.737057v1?rss=1",
-      "date": "2026-07-09T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Can we map the 'dark matter' of host-pathogen interfaces with AI? 🦠",
-        "strategic_value": "* **Mechanistic Insight:** The discovery of EAF1 as an ESCRT-modulating effector provides a precise node for in silico simulations of T. gondii infection cycles.\n* **Technical Opportunity:** Leveraging 'spaCR' frameworks, research labs can create digital twins of cellular membrane budding to predict drug efficacy before moving to wet-lab validation.\n* **Consulting Pivot:** Propose the integration of spatial-phenotype simulation software into upcoming NSERC or CIHR-funded drug discovery workflows to accelerate target validation for intracellular protozoan diseases.",
-        "co_bidding_opportunity": "Partnership with institutions utilizing 'spaCR' frameworks to bid on government-backed infectious disease research grants focused on host-pathogen interface mapping.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Uses computational biology and AI-driven screening (Digital) to identify drug targets, aligning with national health research priorities for infectious disease control.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
     },
     {
       "source": "Canada_NRC_Simulation",
@@ -92,51 +133,6 @@
           "page_range": "Page 15",
           "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
         }
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Identification of Viral and Cellular Proteins in Proximity to the HSV-2 pUL16 Tegument Protein in Infected Cells",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.07.737067v1?rss=1",
-      "date": "2026-07-08T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Unlocking the code of viral cellular subversion: A new look at HSV-2 🔍",
-        "strategic_value": "* **Systems Biology:** Mapping the pUL16-pUL21 interactome identifies distinct dephosphorylation regulatory nodes essential for HSV-2 replication and transmission.\n* **Simulation Potential:** Computational protein proximity mapping can be used to model and disrupt these viral-host docking mechanisms, aiding the development of broad-spectrum anti-herpetic compounds.\n* **Consulting Pivot:** Advise on the adoption of high-throughput molecular interaction simulation tools to secure CIHR and CFI infrastructure grants that support translational viral research.",
-        "co_bidding_opportunity": "Collaborative bids with academic consortiums receiving CIHR or CFI funding to develop predictive models of viral tegument protein interactions for antiviral drug design.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Aligns with Canadian federal funding priorities (CIHR, CFI) for high-impact genomic and molecular research, focusing on viral replication pathways.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Conserved herpesvirus protein kinase (CHPK)-mediated phosphorylation of viral proteins associated with nucleocytoplasmic trafficking during natural infection",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.07.737029v1?rss=1",
-      "date": "2026-07-08T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "From protein kinases to viral transmission: Decoding the skin-borne spread of disease 🐔",
-        "strategic_value": "* **Transmission Modeling:** Understanding CHPK-mediated phosphorylation in skin epithelium allows for predictive modeling of pathogen transmission dynamics in poultry populations.\n* **Strategic Advantage:** In silico analysis of NLS/NES motifs provides a scalable platform for testing how viral mutations impact host specificity and environmental resilience.\n* **Consulting Pivot:** Recommend integrating phosphoproteomics data into existing veterinary biosurveillance software to improve predictive modeling of horizontal transmission pathways.",
-        "co_bidding_opportunity": "Consortiums involving agricultural technology and veterinary research institutes aiming for public health contracts related to livestock disease management and biosecurity.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Uses biological modeling and simulation of transmission vectors, connecting to broader goals of agricultural health and food security within the Canadian landscape.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "A family of RRM-1 RNA binding proteins enables cold adaptation and environmental resilience in Bacteroides",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.07.737135v1?rss=1",
-      "date": "2026-07-08T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "How do gut microbes 'hack' cold stress? New insights into Bacteroides resilience 🌡️",
-        "strategic_value": "* **Environmental Resilience:** Identifying RRM-1 RNA-binding proteins as non-canonical chaperones reveals a novel mechanism for bacterial persistence during host-to-host transmission.\n* **Computational Application:** Developing simulation models for RBP-mediated gene reprogramming could inform strategies to mitigate environmental stress factors in probiotic or microbiome-targeted therapies.\n* **Consulting Pivot:** Propose the development of predictive 'stress response' simulation modules for R&D firms focusing on microbial engineering and gut health diagnostics.",
-        "co_bidding_opportunity": "Strategic partnerships with biotechnology firms conducting microbiome research, particularly those targeting environmental resilience and bacterial transmission dynamics.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Utilizes molecular simulation to understand bacterial survival, essential for both healthcare diagnostics and the broader Canadian biotechnology research sector.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
       }
     },
     {
@@ -194,37 +190,8 @@
       "notice_type": "RFP against Supply Arrangement",
       "procurement_method": "Competitive - Selective tendering",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)",
+      "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)",
       "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
-      "title": "Renibacteirum salmoninarum probiotic challenge, validation and molecular analysis",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-276-85524893",
-      "date": "2026-07-06T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "",
-        "strategic_value": "Insight generation failed or blocked: Unknown reason",
-        "co_bidding_opportunity": "",
-        "mets_category": "",
-        "mets_rationalization": "",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-07-21T00:00:00Z",
-      "province": "Multiple Provinces",
-      "province_abbrev": "MULT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "1.\tADVANCED CONTRACT AWARD NOTICE (ACAN)An ACAN is a public notice indicating to the supplier community that a department or agency intends to award a contract for goods, services or construction to a pre-identified supplier, thereby allowing other suppliers to signal their interest in bidding, by submitting a statement of capabilities. If no supplier submits a statement of capabilities that meets the requirements set out in the ACAN, on or before the closing date stated in the ACAN, the contrac...",
-      "type": "Open",
-      "organization": "Department of Fisheries and Oceans (DFO)",
-      "solicitation_number": "30008100",
-      "notice_type": "Advance Contract Award Notice",
-      "procurement_method": "Advance contract award notice",
-      "selection_criteria": "Not applicable",
-      "trade_agreements": "Please refer to Tender Description or Tender Documents",
-      "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)"
     },
     {
       "source": "Canada_NRC_Simulation",
