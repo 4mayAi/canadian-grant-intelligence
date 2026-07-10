@@ -1,7 +1,144 @@
 {
-  "generated_at": "2026-07-10T14:02:31.189698Z",
-  "linkedin_post": "🚀 **Canada's July 10th Spotlight: Federal Investments Ignite AI, Critical Minerals, and Global Trade!**\n\nToday's federal updates reveal a clear mandate to strengthen Canada's economic resilience and technological leadership, bridging policy with tangible opportunities for innovators and service providers.\n\nMinister Joly's announcement commits $6.7 million to Canadian mining innovations, targeting AI-powered precision extraction and ecological restoration for critical minerals. Companies in AI, robotics, and environmental sensing should note this growing federal support for sustainable resource development.\n\nPrime Minister Carney's landmark visit to Saudi Arabia solidifies over $1 billion in new deals spanning AI, critical minerals, clean energy, and defence. Canadian firms seeking global expansion, particularly in high-tech sectors, should explore partnerships facilitated by these strategic alliances under Saudi Vision 2030.\n\nThe Department of National Defence is actively procuring Electrical Load Banks for its Over The Horizon Radar Initiative, bolstering Arctic surveillance. Power systems and specialized equipment providers should engage DND to support critical national security infrastructure.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n#CanadianBusiness\n#GovernmentContracts\n#AIOpportunities\n#CriticalMinerals\n#DefenceTech\n\n### Featured News & Sources\n- [Minister Joly announces federal investments backing Canadian mining innovations to strengthen critical minerals supply chains and improve mine restoration](https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/minister-joly-announces-federal-investments-backing-canadian-mining-innovations-to-strengthen-critical-minerals-supply-chains-and-improve-mine-rest.html) (ISED)\n- [Prime Minister Carney deepens partnership with Saudi Arabia across trade, education, technology, and critical minerals](https://www.pm.gc.ca/en/news/news-releases/2026/07/09/prime-minister-carney-deepens-partnership-saudi-arabia-across-trade) (PMO)\n- [Pallet Racking System](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-917-83361285) (CanadaBuys)\n- [Resistor,Variable,Nonwire Wound,Precision](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-139-27352734) (CanadaBuys)\n- [Electrical Load Banks](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-754-58069090) (CanadaBuys)\n",
+  "generated_at": "2026-07-10T18:02:21.704529Z",
+  "linkedin_post": "🚀 Federal digital and mechanical procurement is accelerating, with new mandates across Defense, Healthcare, and Parliamentary infrastructure. \n\nThe Department of National Defence is driving a major HR modernization, transitioning the Canadian Armed Forces to the ServiceNow HRSD platform. Firms with expertise in HCM cloud migration and secure API integration should look to partner with established ServiceNow Supply Arrangement holders to provide specialized implementation services.\n\nIn the public health sector, Correctional Service Canada has issued a tender for primary care services at the Grande Cache Institution. Vendors capable of integrating institutional electronic health records (EHR) with regional health authorities are essential for maintaining the high-security operational standards required by federal justice mandates.\n\nMeanwhile, the House of Commons has launched a 3-year mandate for digital and offset printing, strictly enforcing 'Buy Canadian' policy. Mid-sized print shops should focus on emphasizing their domestic supply chain stability and local fulfillment capabilities to meet the technical merit criteria required for this contract.\n\nFinally, procurement remains active in the National Capital Region for specialized technical talent, including ERP analysts and electrical engineers via Temporary Help Services (THS). These roles are critical for supporting ongoing digital transformation projects across federal departments.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n#CanadianProcurement #FederalGrants #GovCon #B2BStrategy #MayAi\n\n### Featured News & Sources\n- [Improving mobile connectivity to keep people safe in Quebec](https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/improving-mobile-connectivity-to-keep-people-safe-in-quebec.html) (ISED)\n- [Primary Care Physician services – Grande Cache Institution](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-139-97304605) (CanadaBuys)\n- [(HR) Integrated Services Platfom](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-204-80174664) (CanadaBuys)\n- [Coupling,Shaft,Flexible; Pump Unit,Rotary; Pump,Rotary](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-22-69441666) (CanadaBuys)\n- [Digital and Offset Printing of Greeting Cards including Bindery and Mailing services](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-955-59217148) (CanadaBuys)\n",
   "insights": [
+    {
+      "source": "ISED_News",
+      "title": "Improving mobile connectivity to keep people safe in Quebec",
+      "link": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/improving-mobile-connectivity-to-keep-people-safe-in-quebec.html",
+      "date": "2026-07-10T16:00:04Z",
+      "insight": {
+        "linkedin_hook": "Bridging the digital divide in rural Quebec—one connection at a time. 🌐",
+        "strategic_value": "* Federal investment in remote Indigenous mobile connectivity relies heavily on the Universal Broadband Fund, which mandates 'open access' for wholesale capacity under public subsidy terms.\n* The technological target involves robust 4G/5G radio access network (RAN) hardware and terrestrial backhaul solutions capable of withstanding remote northern environmental conditions.\n* **Consulting Pivot:** Position your firm as an open-access wholesale network integrator that can help local ISPs or infrastructure owners leverage the UBF’s 'open access' requirements to lower operational costs for secondary connectivity providers.",
+        "co_bidding_opportunity": "Telecom civil engineering firms, specialized remote site maintenance providers, and Indigenous-owned technical deployment partners.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Connects regional mobile infrastructure deployments to the federal UBF and the requirement for open-access network wholesale models.",
+        "grounded_fact_ids": [
+          4
+        ],
+        "anchor_reference": {
+          "source_name": "ISED Universal Broadband Fund Program Guidelines",
+          "page_range": "General",
+          "url": "https://ised-isde.canada.ca/"
+        }
+      }
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "Primary Care Physician services – Grande Cache Institution",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-139-97304605",
+      "date": "2026-07-10T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Delivering critical healthcare to the frontlines of the federal justice system. 🏥",
+        "strategic_value": "* Correctional Service Canada (CSC) medical procurement is restricted to domestic suppliers, prioritizing institutional stability and integrated inter-disciplinary care delivery.\n* The operational requirement centers on a multi-modal health service delivery stack, including electronic health records (EHR) and interoperability with regional health authority standards.\n* **Consulting Pivot:** Offer specialized clinical staffing software or administrative integration tools that bridge the gap between institutional HR and patient-centered health outcomes for high-security environments.",
+        "co_bidding_opportunity": "Health services staffing agencies, clinical software integration specialists, and supply chain managers for institutional pharmacy/medical supply logistics.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "The tender addresses operational health service continuity for federal correctional facilities, which is a core component of institutional human capital management.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-30T00:00:00Z",
+      "province": "Alberta",
+      "province_abbrev": "AB",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "Primary Care Physician Services for the Grande Cache InstitutionThis requirement is for: The Correctional Service of Canada, Prairie Region.Trade agreement:\t This procurement is not subject to any trade agreement.Policy on Reciprocal Procurement: This solicitation is open only to Canadian suppliers.Competitive Procurement Strategy: compliant bid with the highest technical score.Set-aside under the Procurement Strategy for Indigenous Business: This procurement is not subject to any set-asides for...",
+      "type": "New",
+      "organization": "Correctional Service of Canada (CSC)",
+      "solicitation_number": "21120-27-5375280",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Highest Technical Merit within a Stipulated Maximum Budget",
+      "trade_agreements": "None",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "(HR) Integrated Services Platfom",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-204-80174664",
+      "date": "2026-07-10T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Modernizing the Canadian Armed Forces' digital HR backbone. 🏛️",
+        "strategic_value": "* The DND requires a transition to the ServiceNow HRSD platform to standardize civilian and military HR service delivery across the National Capital Region.\n* Technology focus: ServiceNow enterprise patterns, human capital management (HCM) cloud migration, and secure API integration within the government's digital infrastructure.\n* **Consulting Pivot:** Partner with existing ServiceNow Supply Arrangement (SA) holders to provide specialized implementation services and change management expertise for large-scale federal HR transformations.",
+        "co_bidding_opportunity": "ServiceNow certified implementation partners, federal cybersecurity consultants for cloud data migration, and HCM business process outsourcing (BPO) experts.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Focuses on the digitalization of government operational management (HR) using standard enterprise SaaS stacks (ServiceNow).",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-27T00:00:00Z",
+      "province": "Multiple Provinces",
+      "province_abbrev": "MULT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "DND has a requirement for a Software as a Service solution in the form of ServiceNow Human Resources Service Delivery (HRSD) accelerators and patterns and accompanying professional services to support the definition, acceleration, and validation of an end-to-end Integrated Services Platform, leveraging ServiceNow as the enterprise experience layer for civilian and Canadian Armed Forces (CAF) HR service delivery. All Work will be delivered in Ottawa, Ontario.",
+      "type": "New",
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "W6369-27-DN02",
+      "notice_type": "RFP against Supply Arrangement",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "Please refer to Tender Description or Tender Documents",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "Coupling,Shaft,Flexible; Pump Unit,Rotary; Pump,Rotary",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-22-69441666",
+      "date": "2026-07-10T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Securing the Halifax-class fleet: Precision logistics for naval operations. ⚓",
+        "strategic_value": "* This procurement focuses on specific mechanical components for the Halifax-class ships, emphasizing supply chain resilience and OEM-compatible rotary pump standards.\n* Technology focus: Hydraulic control systems, propulsion shafting components, and maritime-grade rotary pump hardware meeting DND technical specifications.\n* **Consulting Pivot:** Engage as a specialized procurement consultant to help niche maritime component manufacturers navigate DND specification shaping and technical compliance for legacy naval ship maintenance programs.",
+        "co_bidding_opportunity": "Specialized marine hardware manufacturers, maritime logistical fleet maintenance contractors, and precision engineering firms qualified for defense supply chains.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "Relates directly to DND naval maintenance and supply chain procurement for mission-critical maritime assets.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-27T00:00:00Z",
+      "province": "Multiple Provinces",
+      "province_abbrev": "MULT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "NOTICE OF PROPOSED PROCUREMENT\t\t\t\t\t\tThe Department of National Defence has a requirement for the following items: Coupling,Shaft,Flexible; Pump Unit,Rotary; Pump,Rotary. The delivery is requested at CFB Halifax and CFB Esquimalt. This procurement will support the following Halifax-class systems, as detailed in the Annex Statement of Requirements (SOR):Controllable Pitch Propellers and Propeller Shafting (Port and STBD) (HFX Class Ships)Pump Unit Rotary (C.R.P.P. Hydraulic Oil Control, PORT & STB...",
+      "type": "New",
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "W8482-264716/A",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Please refer to Tender Description or Tender Documents",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "Digital and Offset Printing of Greeting Cards including Bindery and Mailing services",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-955-59217148",
+      "date": "2026-07-10T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🖨️ Is your print supply chain 'Buy Canadian' compliant? The House of Commons just opened a 3-year mandate for large-scale digital/offset production.",
+        "strategic_value": "* The House of Commons is prioritizing the 'Buy Canadian' policy, signaling a move toward localized, domestic supply chain stability for parliamentary communications.\n* This 36-month requirement demands high-capacity digital/offset printing infrastructure combined with integrated bindery and mail-house logistics, necessitating a robust, high-volume production environment.\n* **Consulting Pivot:** Position your firm as a procurement compliance partner to help mid-sized print shops navigate the 'Highest Combined Rating of Technical Merit and Price' criteria, specifically by optimizing their RFP response to highlight domestic sourcing and local fulfillment capacity.",
+        "co_bidding_opportunity": "Consortium opportunities exist for specialized Print-on-Demand (POD) providers to partner with national mailing and logistics contractors to meet the mandatory bindery and distribution service levels.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This contract represents a standard physical service delivery requirement (Printing/Mail) within the government's 'Buy Canadian' policy framework, which acts as a foundational barrier for operational procurement.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-22T00:00:00Z",
+      "province": "NCR (Ottawa/Gatineau)",
+      "province_abbrev": "NCR",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "House of Commons Notice of Proposed ProcurementRequest for Proposal reference number: 2024044Description:This requirement is for: House of Commons (HoC)The provision of Digital and Offset Printing of Greeting Cards including Bindery and Mailing services as further described in Appendix D (Statement of Requirements).This HoC tender notice and its solicitation documents are available on MERX at the following link: https://www.merx.com/solicitations/open-bids/Digital-and-Offset-Printing-of-Greeting...",
+      "type": "New",
+      "organization": "House of Commons",
+      "solicitation_number": "2024044",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "None",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
     {
       "source": "ISED_News",
       "title": "Minister Joly announces federal investments backing Canadian mining innovations to strengthen critical minerals supply chains and improve mine restoration",
@@ -31,122 +168,6 @@
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
-    },
-    {
-      "source": "CanadaBuys",
-      "title": "Pallet Racking System",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-917-83361285",
-      "date": "2026-07-09T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🏗️ Major logistics upgrade at CFB Esquimalt! DND is procuring a new Pallet Racking System for their expanded warehouse. Opportunity for material handling and storage solution providers to optimize military operations on the West Coast.",
-        "strategic_value": "*   This procurement highlights DND's strategic investment in enhancing logistics and material handling infrastructure at key military bases like CFB Esquimalt, crucial for operational readiness and supply chain efficiency.\n*   The requirement is for a high-capacity, durable, and modular Pallet Racking System to optimize vertical and floor space within a new fabric storage shelter, supporting a mix of medium and heavy-duty storage applications.\n*   **Consulting Pivot:** Bid directly as a prime contractor, leveraging expertise in industrial racking systems and warehouse design, emphasizing cost-effectiveness, modularity, and rapid installation to meet DND's logistical needs at CFB Esquimalt.",
-        "co_bidding_opportunity": "Manufacturers of pallet racking systems, logistics solution providers, and installation contractors specializing in large-scale warehouse fit-outs.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "This aligns with DND's fundamental operational requirement for efficient physical infrastructure and material handling systems to support military logistics and asset storage at its bases.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-07-24T00:00:00Z",
-      "province": "Multiple Provinces",
-      "province_abbrev": "MULT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "Pallet Racking System for Fabric Storage ShelterThe Department of National Defence (DND) is expanding its material handling and storage capacity at CFB Esquimalt.  A new fabric shelter has been built at CFB Esquimalt’s Colwood Main Warehouse site. The shelter measures 120’ long by 60’ wide and is installed on a 140’ by 80’ concrete slab.  A High-capacity Pallet Racking System must be installed in the fabric storage shelter for it to commence operations.  This pallet racking will need to safely o...",
-      "type": "Open",
-      "organization": "Department of National Defence (DND)",
-      "solicitation_number": "W0103-260015",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "CanadaBuys",
-      "title": "Resistor,Variable,Nonwire Wound,Precision",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-139-27352734",
-      "date": "2026-07-09T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "⚡ Are your precision components defense-ready? DND is seeking mission-critical non-wire wound resistors for naval operations at CFB Halifax and Esquimalt.",
-        "strategic_value": "* This procurement signals ongoing naval maintenance and readiness requirements within the Department of National Defence (DND) supply chain.\n* The tender requires specific hardware standards for electrical precision components, specifically non-wire wound resistors compatible with NCAGE K1474 specifications.\n* **Consulting Pivot:** Engage with DND procurement officers to certify your component's compliance with Canadian-made standards, leveraging the 'Buy Canadian' policy preference to position your catalog for future naval electronics sustainment contracts.",
-        "co_bidding_opportunity": "Electronic component distributors, precision manufacturing SMEs capable of meeting NCAGE technical equivalency standards, and defense logistics contractors for CFB delivery.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "The procurement of electrical hardware components is critical to the operational readiness of naval fleet infrastructure, falling under standard DND sustainment operations.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-07-24T00:00:00Z",
-      "province": "Multiple Provinces",
-      "province_abbrev": "MULT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "NOTICE OF PROPOSED PROCUREMENT\t\t\t\t\t\t\t\t\t\t\t\t\t\tThe Department of National Defence has a requirement for the items detailed below. The delivery is requested at CFB Halifax and CFB Esquimalt.\t\t\t\t\t\t\t\t\t\t\t\t\t\tLine Item: 001\tRESISTOR,VARIABLE,NONWIRE WOUND,PRECISION\t\t\t\t\tPart Number: HRP11/1S/340/5K\tNCAGE: K1474\tPENNY & GILES AEROSPACE LIMITED\t\t\tGSIN: 5905\tQuantity: 40\tUoI: EA\tto be delivered to: CFB Halifax\t\t\t\t\t\t\tLine Item: 002\tRESISTOR,VARIABLE,NONWIRE WOUND,PRECISION\t\t\t\t\tPart Number: HRP11/1S/340/5K\tNCA...",
-      "type": "Open",
-      "organization": "Department of National Defence (DND)",
-      "solicitation_number": "W8482-275294/A",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "CanadaBuys",
-      "title": "Electrical Load Banks",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-754-58069090",
-      "date": "2026-07-09T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🚨 DND is boosting Arctic defense capabilities! They're seeking Electrical Load Banks for their Over The Horizon Radar (OTHR) Initiative. A critical opportunity for power systems providers to support Canada's strategic northern operations!",
-        "strategic_value": "*   This procurement represents DND's continued investment in modernizing its Arctic surveillance and defense infrastructure, with a specific focus on the Over The Horizon Radar (OTHR) Initiative, aligning with national security priorities in the North.\n*   The requirement targets robust Electrical Load Banks essential for field trials and test bed operations of the OTHR system, demanding high-reliability power conditioning and testing equipment suitable for demanding Arctic environments.\n*   **Consulting Pivot:** Engage directly with DND, highlighting expertise in specialized electrical equipment for defense applications and demonstrating a strong commitment to the Inuit Benefits Plan, potentially through local partnerships or training.",
-        "co_bidding_opportunity": "Partnership with an Inuit firm to fulfill the Inuit Benefits Plan criteria, or with an electrical engineering firm specializing in high-capacity load testing and power management solutions for radar systems.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "This aligns with DND's ongoing operational need for specialized physical equipment (electrical load banks) to support critical defense infrastructure and R&D, particularly for strategic assets like the OTHR in the Arctic.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-07-24T00:00:00Z",
-      "province": "Ontario",
-      "province_abbrev": "ON",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "NOTICE OF PROPOSED PROCUREMENTElectrical Load BanksDescription of the Requirement:The Department of National Defence (DND), more specifically Defence Research and Development Canada (DRDC) is seeking to procure Electrical Load Banks as part of Over The Horizon Radar (OTHR) Initiative for field trials at an Arctic site as well as for the OTHR test bed at the DRDC Ottawa Shirley’s Bay test site.All the deliverables must be ready for shipping no later than ninety (90) days after Contract award.Appl...",
-      "type": "Open",
-      "organization": "Department of National Defence (DND)",
-      "solicitation_number": "W6369-27-X002",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Please refer to Tender Description or Tender Documents",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "CanadaBuys",
-      "title": "Credit Risk Scoring Solution for SME Lending Adjudication",
-      "link": "https://www.merx.com/public/solicitations/4021491766/abstract?language=EN",
-      "date": "2026-07-09T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🚨 BDC is seeking an Advanced Credit Risk Scoring Solution for SME lending! This is a prime opportunity for AI/ML and data analytics providers to shape the future of Canadian small business finance. #BDC #SMEFinance #AI #CreditRisk",
-        "strategic_value": "*   BDC's procurement of an advanced credit risk scoring solution signals a strategic investment in modernizing SME lending adjudication, aiming to enhance efficiency, reduce risk, and optimize capital allocation for Canadian small businesses. This aligns with federal economic growth objectives by facilitating access to financing.\n*   The BDC is targeting an \"Advanced Credit Risk Scoring Solution,\" implying a need for cutting-edge AI/ML models, robust data integration capabilities for diverse financial datasets, predictive analytics, and potentially explainable AI (XAI) features to support transparent decision-making. The required software stack would involve scalable cloud-native platforms, secure API integrations, and advanced statistical computing environments.\n*   **Consulting Pivot:** For AI/ML development firms and financial technology providers, focus on demonstrating proven expertise in developing and integrating sophisticated credit risk models, emphasizing explainability, scalability, and compliance with financial regulations to meet BDC's modernization goals.",
-        "co_bidding_opportunity": "Potential partners include: AI/ML specialist firms for model development, data analytics and visualization companies, financial software integrators experienced with lending platforms, and data governance/compliance consultants.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This project directly involves advanced digital solutions (AI/ML, data analytics software) to enhance financial processes, aligning with the METS-Digital classification. While not tied to the specific strategic anchor facts provided, it reflects a broader trend of public sector digital transformation.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-08-03T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "SRVGD",
-      "category_label": "Services & Goods",
-      "description": "The purpose of this call for tenders is to solicit submissions for an Advanced Credit Risk Scoring Solution for Small and Medium-Sized Enterprise (SME) Lending Adjudication, as further detailed in section&nbsp;2 of the CFT document. This procurement process is governed by the terms and conditions of the Business Development Bank of Canada (hereinafter referred to as BDC) contained in the CFT document and is subject to applicable laws and public procurement liberalization agreement(s), where appl...",
-      "type": "New",
-      "organization": "Business Development Bank of Canada",
-      "solicitation_number": "PRCP0003558",
-      "notice_type": "",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "",
-      "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "ISED_News",
@@ -257,27 +278,6 @@
         "mets_rationalization": "The signal details a major trade treaty ratification (CPTPP Accession Protocol) that directly alters the regulatory and legal landscape for Canadian companies bidding on foreign government procurement contracts.",
         "grounded_fact_ids": [],
         "anchor_reference": null
-      }
-    },
-    {
-      "source": "ISED_News",
-      "title": "Minister Joly announces significant federal investment in ADF Group Inc.’s project to strengthen Canada’s domestic steel production",
-      "link": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/minister-joly-announces-significant-federal-investment-in-adf-group-incs-project-to-strengthen-canadas-domestic-steel-production.html",
-      "date": "2026-07-02T15:42:38Z",
-      "insight": {
-        "linkedin_hook": "🏗️ A $12.5M federal boost for steel manufacturing modernization is set to fuel Hydro-Québec's massive grid transformation!",
-        "strategic_value": "* The $12.5 million Strategic Response Fund investment secures domestic fabrication capacity for heavy structural steel and power pylons destined for Hydro-Québec.\n* Integrating advanced manufacturing upgrades allows Canadian fabricators to offset U.S. tariff pressures and lock in multi-year procurement pipelines with state-backed Crown utilities.\n* **Consulting Pivot:** Propose technical automation, robotics integration, and industrial IoT advisory services to help legacy steel fabricators scale production lines to meet strict provincial utility standards.",
-        "co_bidding_opportunity": "Industrial steel manufacturers, heavy equipment fabricators, and local utility suppliers aiming to satisfy Hydro-Québec utility infrastructure demand.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "Focuses on capital expenditure for heavy industrial machinery, plant modernization, and structural manufacturing capabilities required for utility-scale power projects.",
-        "grounded_fact_ids": [
-          2
-        ],
-        "anchor_reference": {
-          "source_name": "Provincial Crown Corporations Procurement Guidelines",
-          "page_range": "General",
-          "url": "https://www.canada.ca/"
-        }
       }
     },
     {
