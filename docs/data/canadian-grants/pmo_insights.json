@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-11T14:02:47.657736Z",
-  "linkedin_post": "🚀 **Ottawa's latest digital procurement shifts are opening massive avenues for Canadian B2B innovators.**\n\nGlobal Affairs Canada's support for regional development in Latin America is driving export demands for AI-ultrasound diagnostics and sustainable agro-forestry software. Canadian AI startups and medical hardware exporters should position themselves as implementation partners to capture GAC-funded international framework opportunities.\n\nThe Department of National Defence is transitioning its civilian and military HR systems to the ServiceNow HRSD platform in the National Capital Region. Enterprise SaaS consultants and ServiceNow Supply Arrangement holders should target this migration to deliver cloud migration and secure API integration.\n\nThe Universal Broadband Fund's open-access mandate is unlocking new regional connectivity projects across Quebec for robust 4G/5G RAN hardware. Wholesale network integrators and telecom contractors must engage now to help regional ISPs capitalize on these open-access subsidies.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n#GovTech #CanadianProcurement #B2BTech #ServiceNow #AI\n\n### Featured News & Sources\n- [Secretary of State Sarai concludes visit to Guatemala and announces support for regional development projects](https://www.canada.ca/en/global-affairs/news/2026/07/secretary-of-state-sarai-concludes-visit-to-guatemala-and-announces-support-for-regional-development-projects.html) (Global Affairs)\n- [Improving mobile connectivity to keep people safe in Quebec](https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/improving-mobile-connectivity-to-keep-people-safe-in-quebec.html) (ISED)\n- [Coupling,Shaft,Flexible; Pump Unit,Rotary; Pump,Rotary](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-22-69441666) (CanadaBuys)\n- [(HR) Integrated Services Platfom](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-204-80174664) (CanadaBuys)\n- [Digital and Offset Printing of Greeting Cards including Bindery and Mailing services](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-955-59217148) (CanadaBuys)\n",
+  "generated_at": "2026-07-11T18:01:29.308296Z",
+  "linkedin_post": "\n\n### Featured News & Sources\n- [Secretary of State Sarai concludes visit to Guatemala and announces support for regional development projects](https://www.canada.ca/en/global-affairs/news/2026/07/secretary-of-state-sarai-concludes-visit-to-guatemala-and-announces-support-for-regional-development-projects.html) (Global Affairs)\n- [Improving mobile connectivity to keep people safe in Quebec](https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/improving-mobile-connectivity-to-keep-people-safe-in-quebec.html) (ISED)\n- [Coupling,Shaft,Flexible; Pump Unit,Rotary; Pump,Rotary](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-22-69441666) (CanadaBuys)\n- [(HR) Integrated Services Platfom](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-204-80174664) (CanadaBuys)\n- [CFB Esquimalt Office Seating](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-850-75426705) (CanadaBuys)\n",
   "insights": [
     {
       "source": "Global_Affairs",
@@ -98,35 +98,6 @@
     },
     {
       "source": "CanadaBuys",
-      "title": "Digital and Offset Printing of Greeting Cards including Bindery and Mailing services",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-955-59217148",
-      "date": "2026-07-10T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🖨️ Is your print supply chain 'Buy Canadian' compliant? The House of Commons just opened a 3-year mandate for large-scale digital/offset production.",
-        "strategic_value": "* The House of Commons is prioritizing the 'Buy Canadian' policy, signaling a move toward localized, domestic supply chain stability for parliamentary communications.\n* This 36-month requirement demands high-capacity digital/offset printing infrastructure combined with integrated bindery and mail-house logistics, necessitating a robust, high-volume production environment.\n* **Consulting Pivot:** Position your firm as a procurement compliance partner to help mid-sized print shops navigate the 'Highest Combined Rating of Technical Merit and Price' criteria, specifically by optimizing their RFP response to highlight domestic sourcing and local fulfillment capacity.",
-        "co_bidding_opportunity": "Consortium opportunities exist for specialized Print-on-Demand (POD) providers to partner with national mailing and logistics contractors to meet the mandatory bindery and distribution service levels.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "This contract represents a standard physical service delivery requirement (Printing/Mail) within the government's 'Buy Canadian' policy framework, which acts as a foundational barrier for operational procurement.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-07-22T00:00:00Z",
-      "province": "NCR (Ottawa/Gatineau)",
-      "province_abbrev": "NCR",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "House of Commons Notice of Proposed ProcurementRequest for Proposal reference number: 2024044Description:This requirement is for: House of Commons (HoC)The provision of Digital and Offset Printing of Greeting Cards including Bindery and Mailing services as further described in Appendix D (Statement of Requirements).This HoC tender notice and its solicitation documents are available on MERX at the following link: https://www.merx.com/solicitations/open-bids/Digital-and-Offset-Printing-of-Greeting...",
-      "type": "Open",
-      "organization": "House of Commons",
-      "solicitation_number": "2024044",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "None",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "CanadaBuys",
       "title": "CFB Esquimalt Office Seating",
       "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-850-75426705",
       "date": "2026-07-10T00:00:00Z",
@@ -153,6 +124,35 @@
       "selection_criteria": "Lowest Price",
       "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
       "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "Digital and Offset Printing of Greeting Cards including Bindery and Mailing services",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-955-59217148",
+      "date": "2026-07-10T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🖨️ Is your print supply chain 'Buy Canadian' compliant? The House of Commons just opened a 3-year mandate for large-scale digital/offset production.",
+        "strategic_value": "* The House of Commons is prioritizing the 'Buy Canadian' policy, signaling a move toward localized, domestic supply chain stability for parliamentary communications.\n* This 36-month requirement demands high-capacity digital/offset printing infrastructure combined with integrated bindery and mail-house logistics, necessitating a robust, high-volume production environment.\n* **Consulting Pivot:** Position your firm as a procurement compliance partner to help mid-sized print shops navigate the 'Highest Combined Rating of Technical Merit and Price' criteria, specifically by optimizing their RFP response to highlight domestic sourcing and local fulfillment capacity.",
+        "co_bidding_opportunity": "Consortium opportunities exist for specialized Print-on-Demand (POD) providers to partner with national mailing and logistics contractors to meet the mandatory bindery and distribution service levels.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This contract represents a standard physical service delivery requirement (Printing/Mail) within the government's 'Buy Canadian' policy framework, which acts as a foundational barrier for operational procurement.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-22T00:00:00Z",
+      "province": "NCR (Ottawa/Gatineau)",
+      "province_abbrev": "NCR",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "House of Commons Notice of Proposed ProcurementRequest for Proposal reference number: 2024044Description:This requirement is for: House of Commons (HoC)The provision of Digital and Offset Printing of Greeting Cards including Bindery and Mailing services as further described in Appendix D (Statement of Requirements).This HoC tender notice and its solicitation documents are available on MERX at the following link: https://www.merx.com/solicitations/open-bids/Digital-and-Offset-Printing-of-Greeting...",
+      "type": "Open",
+      "organization": "House of Commons",
+      "solicitation_number": "2024044",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "None",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "ISED_News",
