@@ -1,13 +1,13 @@
-# AMR & Biotech Simulation Intelligence Pipeline — arc42 Architecture Documentation
+# Health-Tech & Biotech Simulation Intelligence Pipeline — arc42 Architecture Documentation
 
-This document describes the software architecture of the AMR & Biotech Simulation Intelligence Pipeline (mayAi).
+This document describes the software architecture of the Health-Tech & Biotech Simulation Intelligence Pipeline (mayAi).
 
 ---
 
 ## 1. Introduction and Goals
 
 ### 1.1 Requirements Overview
-The AMR & Biotech Simulation Intelligence Pipeline is a serverless, scheduled, config-driven monitoring and synthesis system. It tracks Antimicrobial Resistance (AMR) policies, bacterial and pathogen spread modeling, and biotech R&D procurement opportunities across Canada.
+The Health-Tech & Biotech Simulation Intelligence Pipeline is a serverless, scheduled, config-driven monitoring and synthesis system. It tracks Antimicrobial Resistance (AMR) policies, bacterial and pathogen spread modeling, and health-tech/biotech R&D procurement opportunities across Canada.
 
 Key features:
 - **Direct Database Integration (CKAN API)**: Crawls the live CanadaBuys dataset API to stream and parse tender rows directly, bypassing traditional RSS limitations.
@@ -238,7 +238,7 @@ The system connects directly to the CanadaBuys CKAN API to ingest federal tender
 
 ## 10. Skills Registry Governance
 
-The AMR & Biotech Simulation Intelligence pipeline is fully decoupled under the central Skills Registry pattern:
+The Health-Tech & Biotech Simulation Intelligence pipeline is fully decoupled under the central Skills Registry pattern:
 - **Skill Boundary**: The Skill boundary encompasses the configuration layer (`amr_simulation.json`, `amr_anchors.json`) defining the scraper sources, keyword pre-filters, and LLM system instruction components (persona, classification, grounding, translation, formatting). The Harness boundary governs validation, telemetry metrics collection, cloud synchronization, and dynamic email dispatch.
 - **Per-Skill Subscribers**: Audience records reside in `subscribers.json` inside the `amr-simulation-data` storage container, ensuring email distribution is strictly isolated per topic.
 

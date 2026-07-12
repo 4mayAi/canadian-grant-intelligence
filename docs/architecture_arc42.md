@@ -11,7 +11,7 @@ The Canadian Grant Intelligence platform (mayAi) is a high-fidelity monitoring a
 
 Key features:
 - **Canadian Grants**: Scrapes CanadaBuys CSV databases, ISED feed, Finance Canada, PMO announcements, Global Affairs Canada feeds, and YouTube channel video updates.
-- **AMR & Biotech Simulation**: Scrapes CanadaBuys, CIHR, NRC, PHAC, bioRxiv Microbiology, and PHAC CCDR feeds.
+- **Health-Tech & Biotech Simulation**: Scrapes CanadaBuys, CIHR, NRC, PHAC, bioRxiv Microbiology, and PHAC CCDR feeds.
 - **Innovation Clusters**: Scrapes DIGITAL, Scale AI, Ocean Cluster, NGen, and Protein Industries news, ecosystem, and federal news feeds.
 - **Global Payments**: Scrapes ISO 20022/SWIFT, NPP, CIPS, e-CNY, and commodity trade settlement (Glencore, Trafigura) feeds across CA, AU, CN, HK, CH, UK, and Global.
 - **Mining Hubs**: Scrapes global mining industry reports and press releases across 5 major hubs (Canada, Australia, China, Switzerland, and the UK) using peak body feeds (MAC, MCA, CMA, SUISSENEGOCE, LME, ICMM, IEA).
