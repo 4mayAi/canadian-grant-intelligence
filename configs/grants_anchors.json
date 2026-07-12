@@ -27,6 +27,27 @@
       "source": "ISED Universal Broadband Fund Program Guidelines",
       "pages": "General",
       "url": "https://ised-isde.canada.ca/"
+    },
+    {
+      "id": 5,
+      "fact": "The $5 Billion Trade Diversification Corridor Fund (TDCF) prioritizes investments in Canadian transportation infrastructure—including ports, railways, airports, and highways—to establish secure logistics pathways targeting non-U.S. international export markets.",
+      "source": "Transport Canada & Infrastructure Canada Policy Framework",
+      "pages": "General",
+      "url": "https://www.canada.ca/"
+    },
+    {
+      "id": 6,
+      "fact": "The 'One Canadian Economy' initiative mandates the systematic reduction of inter-provincial trade barriers, aligning provincial procurement rules and technical standards to improve national supply chain resilience.",
+      "source": "Internal Trade Secretariat / CFTA Guidelines",
+      "pages": "General",
+      "url": "https://www.cfta-alec.ca/"
+    },
+    {
+      "id": 7,
+      "fact": "The Canada-Saudi Arabia Coordination Council co-chaired by respective Foreign Ministers oversees bilateral commercial agreements and joint ventures in health technology, mining processing, energy transition, and defence sector exports.",
+      "source": "Canada-Saudi Arabia Joint Statement July 2026",
+      "pages": "General",
+      "url": "https://www.pm.gc.ca/"
     }
   ]
 }

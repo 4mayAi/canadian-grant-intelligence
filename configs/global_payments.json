@@ -75,7 +75,12 @@
     "settlement",
     "digital yuan",
     "CBDC",
-    "CBDCs"
+    "CBDCs",
+    "MOU",
+    "MOUs",
+    "Double Taxation Agreement",
+    "FIPA",
+    "FIPAs"
   ],
   "high_value_keywords": [
     "ISO 20022",
@@ -84,7 +89,11 @@
     "swap lines",
     "correspondent banking",
     "de-risking",
-    "trade finance"
+    "trade finance",
+    "diversification",
+    "mou",
+    "trade",
+    "fipa"
   ],
   "localization_mappings": {
     "SWIFT": "[SWIFT](https://www.swift.com/)",
@@ -92,6 +101,13 @@
     "mBridge": "[Project mBridge](https://www.bis.org/about/bisih/topics/cbdc/mcbdc.htm)",
     "Federal Reserve": "[Federal Reserve](https://www.federalreserve.gov/)",
     "CIPS": "[CIPS](https://www.cips.com.cn/en/)"
+  },
+  "classification_categories": {
+    "Standards": "ISO 20022 messaging, clearing standards, legal compliance frameworks.",
+    "Sovereign Rails": "Project mBridge, wholesale CBDCs, clearing house integrations, sovereign rail networks.",
+    "Correspondent Networks": "Cross-border payment clearing, de-risking, banking partnerships.",
+    "Trade Finance": "Letters of credit, supply chain finance, commodity trade settlement.",
+    "Liquidity Valves": "Swap lines, currency valves, liquidity injection pools."
   },
   "llm_settings": {
     "model_primary": "gemini-3.5-flash",

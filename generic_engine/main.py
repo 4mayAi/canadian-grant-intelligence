@@ -787,7 +787,8 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         grounding_rules=config.llm_settings.grounding_rules,
         translation_rules=config.llm_settings.translation_rules,
         output_format=config.llm_settings.output_format,
-        topic_id=config.topic_id
+        topic_id=config.topic_id,
+        classification_categories=config.classification_categories
     )
     notifier = Notifier(
         discord_url=config.distribution.discord_webhook,

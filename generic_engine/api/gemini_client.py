@@ -53,9 +53,11 @@ class GeminiClient:
                  grounding_rules: Optional[str] = None,
                  translation_rules: Optional[str] = None,
                  output_format: Optional[str] = None,
-                 topic_id: Optional[str] = None):
+                 topic_id: Optional[str] = None,
+                 classification_categories: Optional[Dict[str, str]] = None):
         self.api_key = os.getenv("GEMINI_API_KEY")
         self.primary_model = primary_model
+        self.classification_categories = classification_categories
         self.fallback_models = fallback_models
         
         # Assemble structured instruction if any component is provided
@@ -227,6 +229,20 @@ class GeminiClient:
             cleaned = clean_html(content)[:4000]
             items_str += f"\n--- ITEM {idx} ---\n{cleaned}\n"
 
+        if self.classification_categories:
+            categories_list = " | ".join([f"'{k}'" for k in self.classification_categories.keys()])
+            category_instruction = f"Classify this opportunity into exactly one of these categories: {categories_list}. Choose based on the primary B2B supply contract or project type."
+            
+            categories_details = "\n".join([f"* '{k}': {v}" for k, v in self.classification_categories.items()])
+            classification_details = f"Refined Classifications:\n{categories_details}"
+        else:
+            category_instruction = "Classify this opportunity into exactly one of these 4 MECE categories: 'METS-Ops' | 'METS-ESG' | 'METS-Digital' | 'METS-PMO'. Choose based on the primary B2B supply contract type (e.g. EV trucks = Ops; autonomous software = Digital; environmental monitoring = ESG)."
+            classification_details = """Refined MECE METS Classifications:
+        * 'METS-Ops': Physical machinery, fleet electrification, physical processing plants, drilling equipment, and logistics.
+        * 'METS-ESG': Tailings safety (GISTM), water stewardship, carbon capture, land reclamation, environmental audits, and community relations.
+        * 'METS-Digital': AI-driven permitting, 5G remote operations, geological modeling software, Data Centers (edge compute, green data storage hubs), and Space Tech (satellite remote sensing/InSAR, telemetry, Starlink site connectivity).
+        * 'METS-PMO': Pre-feasibility engineering, legal permitting advisory, and Joint Venture/offtake transaction support."""
+
         prompt = f"""
         {self.system_instruction}
         {date_str}
@@ -240,15 +256,11 @@ class GeminiClient:
         "linkedin_hook": "A 'Stop-the-scroll' high-impact opening line (include an emoji).",
         "strategic_value": "Consultative analysis of why this matters. It MUST be a markdown list containing EXACTLY three bullet points. The third bullet point MUST start with the exact prefix '* **Consulting Pivot:** ' and propose an actionable B2B engagement angle.",
         "co_bidding_opportunity": "Based ONLY on facts stated in the source text, identify consortium or partnership opportunities. Do NOT invent technologies, programs, or partner types not mentioned in the input. EXCEPTION: When the item's Recommended Playbook indicates a non-competitive procurement (e.g. Downstream Pivot, Selective Partnering, Prime-Tracking), you MAY propose standard industry subcontracting roles (e.g. systems integrator, logistics partner, specialist SME) relevant to the contracting entity's mandate, even if not explicitly named in the source.",
-        "mets_category": "Classify this opportunity into exactly one of these 4 MECE categories: 'METS-Ops' | 'METS-ESG' | 'METS-Digital' | 'METS-PMO'. Choose based on the primary B2B supply contract type (e.g. EV trucks = Ops; autonomous software = Digital; environmental monitoring = ESG).",
+        "mets_category": "{category_instruction}",
         "mets_rationalization": "Explain how this connects the daily signal to the hub's long-term regulatory or financial anchor.",
         "grounded_fact_ids": "A list of integer Fact IDs utilized from the STRATEGIC ANCHOR FACT DATABASE. Match the B2B hook strictly against the provided [Fact ID: X] tags. If no facts from the database were used, output []."
         
-        Refined MECE METS Classifications:
-        * 'METS-Ops': Physical machinery, fleet electrification, physical processing plants, drilling equipment, and logistics.
-        * 'METS-ESG': Tailings safety (GISTM), water stewardship, carbon capture, land reclamation, environmental audits, and community relations.
-        * 'METS-Digital': AI-driven permitting, 5G remote operations, geological modeling software, Data Centers (edge compute, green data storage hubs), and Space Tech (satellite remote sensing/InSAR, telemetry, Starlink site connectivity).
-        * 'METS-PMO': Pre-feasibility engineering, legal permitting advisory, and Joint Venture/offtake transaction support.
+        {classification_details}
         
         Input Batch: {items_str}
         """
@@ -279,11 +291,43 @@ class GeminiClient:
                             fact_ids = []
                         fact_ids = [int(fid) for fid in fact_ids if str(fid).isdigit()]
                         
+                        # Category normalization safeguard
+                        category = parsed.get("mets_category", "").strip()
+                        normalized_cat = category
+                        if self.classification_categories:
+                            found = False
+                            # 1. Exact case-insensitive match
+                            for k in self.classification_categories.keys():
+                                if k.lower() == category.lower():
+                                    normalized_cat = k
+                                    found = True
+                                    break
+                            # 2. Substring fallback match
+                            if not found:
+                                for k in self.classification_categories.keys():
+                                    if k.lower() in category.lower():
+                                        normalized_cat = k
+                                        found = True
+                                        break
+                            # 3. Exhaustive fallback default
+                            if not found:
+                                normalized_cat = list(self.classification_categories.keys())[0]
+                        else:
+                            # Default METS fallback
+                            found = False
+                            for k in ["METS-Ops", "METS-ESG", "METS-Digital", "METS-PMO"]:
+                                if k.lower() == category.lower():
+                                    normalized_cat = k
+                                    found = True
+                                    break
+                            if not found:
+                                normalized_cat = "METS-PMO"
+
                         insights.append(GeminiInsight(
                             linkedin_hook=parsed.get("linkedin_hook", ""),
                             strategic_value=parsed.get("strategic_value", "No insight available"),
                             co_bidding_opportunity=parsed.get("co_bidding_opportunity", ""),
-                            mets_category=parsed.get("mets_category", "METS-PMO"),
+                            mets_category=normalized_cat,
                             mets_rationalization=parsed.get("mets_rationalization", ""),
                             grounded_fact_ids=fact_ids
                         ))

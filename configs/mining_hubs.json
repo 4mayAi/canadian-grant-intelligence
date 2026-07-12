@@ -79,6 +79,12 @@
       "type": "html_playwright",
       "fallback_url": "https://news.google.com/rss/search?q=%22IEA%22+%22critical+minerals%22&hl=en-US&gl=US&ceid=US:en",
       "fallback_type": "rss"
+    },
+    {
+      "name": "Saudi_Mining_News",
+      "url": "https://news.google.com/rss/search?q=%22Saudi+Arabia%22+%28%22mining%22+OR+%22mineral%22+OR+%22Ma%27aden%22%29&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "skip_query_refactoring": true
     }
   ],
   "keywords": [
@@ -129,14 +135,30 @@
     "laser power beaming",
     "wireless power transmission",
     "HVDC grid",
-    "superconductor cable"
+    "superconductor cable",
+    "MOU",
+    "MOUs",
+    "diversification",
+    "Saudi Arabia",
+    "Ma'aden",
+    "exploration license",
+    "LNG",
+    "LNGs",
+    "CCS",
+    "CCSs",
+    "CCUS",
+    "CCUSs"
   ],
   "high_value_keywords": [
     "sustainability",
     "competitiveness",
     "critical minerals",
     "ESG",
-    "net zero"
+    "net zero",
+    "diversification",
+    "mou",
+    "trade",
+    "fipa"
   ],
   "localization_mappings": {
     "Mining Association of Canada": "[Mining Association of Canada](https://mining.ca/)",
@@ -147,6 +169,12 @@
     "IEA": "[IEA](https://www.iea.org/)",
     "Natural Resources Canada": "[Natural Resources Canada](https://www.nrcan.gc.ca/)",
     "STSA": "[STSA](https://stsa.ch/)"
+  },
+  "classification_categories": {
+    "METS-Ops": "Heavy machinery, fleet electrification, physical processing plants, drilling, logistics.",
+    "METS-ESG": "Tailings management (GISTM), water stewardship, carbon capture, land reclamation.",
+    "METS-Digital": "AI-driven permitting, 5G remote operations, geological modeling software, Data Centers (edge compute, green data storage), and Space Tech (satellite remote sensing/InSAR, telemetry, Starlink site connectivity).",
+    "METS-PMO": "Pre-feasibility engineering, legal permitting advisory, JV/offtake transaction support."
   },
   "llm_settings": {
     "model_primary": "gemini-3.5-flash",

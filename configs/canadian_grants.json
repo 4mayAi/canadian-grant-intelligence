@@ -111,7 +111,28 @@
     "climate",
     "impact assessment",
     "EIA",
-    "EIAs"
+    "EIAs",
+    "MOU",
+    "MOUs",
+    "diversification",
+    "friend-shoring",
+    "market access",
+    "Trade Diversification Corridor Fund",
+    "One Canadian Economy",
+    "TDCF",
+    "TDCFs",
+    "FIPA",
+    "FIPAs",
+    "LNG",
+    "LNGs",
+    "CCS",
+    "CCSs",
+    "CCUS",
+    "CCUSs",
+    "internal trade",
+    "interprovincial",
+    "provincial barrier",
+    "procurement standardization"
   ],
   "high_value_keywords": [
     "rfp",
@@ -128,8 +149,19 @@
     "energy",
     "digital",
     "cloud",
-    "services"
+    "services",
+    "diversification",
+    "mou",
+    "trade",
+    "tdcf",
+    "fipa"
   ],
+  "classification_categories": {
+    "Grants & Stimulus": "Direct federal/provincial funding, wage subsidies, and R&D grants.",
+    "Defence Procurement": "DND projects, military infrastructure, and tactical communications.",
+    "Infrastructure & Digital": "Trade corridors, port expansions, broadband, and enterprise networks.",
+    "Public Health & Advisory": "Health-tech deployments, workforce training, and actuarial consulting."
+  },
   "llm_settings": {
     "model_primary": "gemini-3.5-flash",
     "model_fallbacks": [

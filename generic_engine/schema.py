@@ -55,6 +55,7 @@ class PipelineConfig(BaseModel):
     keywords: List[str]
     high_value_keywords: List[str]
     localization_mappings: Optional[Dict[str, str]] = {}
+    classification_categories: Optional[Dict[str, str]] = None
     llm_settings: LLMSettings
     storage: StorageConfig
     distribution: DistributionConfig

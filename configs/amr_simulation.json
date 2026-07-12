@@ -79,14 +79,26 @@
     "genomic surveillance",
     "epidemiological surveillance",
     "health surveillance",
-    "outbreak"
+    "outbreak",
+    "MOU",
+    "MOUs",
+    "health-tech",
+    "surgical intelligence",
+    "patient monitoring",
+    "clinical software",
+    "workforce development",
+    "bilateral exchange"
   ],
   "high_value_keywords": [
     "antimicrobial resistance",
     "AMR",
     "bacterial simulation",
     "pathogen modeling",
-    "computational biology"
+    "computational biology",
+    "diversification",
+    "mou",
+    "trade",
+    "fipa"
   ],
   "localization_mappings": {
     "CIHR": "[CIHR](https://cihr-irsc.gc.ca/)",
@@ -96,6 +108,11 @@
     "PHAC": "[PHAC](https://www.canada.ca/en/public-health.html)",
     "Public Health Agency of Canada": "[Public Health Agency of Canada](https://www.canada.ca/en/public-health.html)",
     "CanadaBuys": "[CanadaBuys](https://canadabuys.canada.ca/)"
+  },
+  "classification_categories": {
+    "METS-Digital": "Pathogen modeling, in silico simulation, data analytics, and clinical software platforms.",
+    "METS-PMO": "Program management, evaluation, consulting, and workforce development strategy.",
+    "METS-Ops": "Laboratory operations, biosafety, equipment, and patient monitoring hardware."
   },
   "llm_settings": {
     "model_primary": "gemini-3.5-flash",

@@ -462,24 +462,9 @@
                     
                     // MECE normalisation
                     const cleanCategory = (innerInsight.mets_category || '').toLowerCase().trim();
-                    let badgeClass = 'pmt-general';
-                    let badgeLabel = innerInsight.mets_category || 'General';
-                    if (cleanCategory.includes('standards') || cleanCategory.includes('iso')) {
-                        badgeClass = 'pmt-standards';
-                        badgeLabel = 'Standards';
-                    } else if (cleanCategory.includes('sovereign') || cleanCategory.includes('mbridge') || cleanCategory.includes('rail') || cleanCategory.includes('cbdc')) {
-                        badgeClass = 'pmt-sovereign';
-                        badgeLabel = 'Sovereign Rails';
-                    } else if (cleanCategory.includes('correspondent') || cleanCategory.includes('de-risking') || cleanCategory.includes('network')) {
-                        badgeClass = 'pmt-correspondent';
-                        badgeLabel = 'Correspondent Networks';
-                    } else if (cleanCategory.includes('trade') || cleanCategory.includes('credit') || cleanCategory.includes('letter') || cleanCategory.includes('scf')) {
-                        badgeClass = 'pmt-trade';
-                        badgeLabel = 'Trade Finance';
-                    } else if (cleanCategory.includes('liquidity') || cleanCategory.includes('swap') || cleanCategory.includes('valve')) {
-                        badgeClass = 'pmt-liquidity';
-                        badgeLabel = 'Liquidity Valves';
-                    }
+                    const firstWord = cleanCategory.split(' ')[0];
+                    const badgeClass = ['standards', 'sovereign', 'correspondent', 'trade', 'liquidity'].includes(firstWord) ? 'pmt-' + firstWord : 'pmt-general';
+                    const badgeLabel = innerInsight.mets_category || 'General';
 
                     signalsHtml += `
                         <details class="report-section">
