@@ -605,8 +605,11 @@
                     const innerInsight = item.insight || {};
 
                     if (innerInsight.strategic_value) {
+                        const stratText = Array.isArray(innerInsight.strategic_value) 
+                            ? innerInsight.strategic_value.join('\n') 
+                            : innerInsight.strategic_value;
                         innerHtml += `<h4>Strategic Opportunity &amp; B2B Hook</h4>
-                                      <div class="md-content">${marked.parse(innerInsight.strategic_value)}</div>`;
+                                      <div class="md-content">${marked.parse(stratText)}</div>`;
                     }
                     if (item.partner_list && item.partner_list.length > 0) {
                         let partnerHtml = '<ul style="margin: 6px 0; padding-left: 20px;">';
@@ -621,8 +624,11 @@
                                           ${partnerHtml}
                                       </div>`;
                     } else if (innerInsight.co_bidding_opportunity) {
+                        const cobidText = Array.isArray(innerInsight.co_bidding_opportunity) 
+                            ? innerInsight.co_bidding_opportunity.join('\n') 
+                            : innerInsight.co_bidding_opportunity;
                         innerHtml += `<h4>Research &amp; Co-Bidding Alignments</h4>
-                                      <div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
+                                      <div class="md-content">${marked.parse(cobidText)}</div>`;
                     }
 
                     const displaySource = (item.source || '').replace('_News', '').replace('_', ' ');
@@ -689,12 +695,18 @@
                     const innerInsight = item.insight || {};
 
                     if (innerInsight.strategic_value) {
+                        const stratText = Array.isArray(innerInsight.strategic_value) 
+                            ? innerInsight.strategic_value.join('\n') 
+                            : innerInsight.strategic_value;
                         innerHtml += `<h4>Strategic Opportunity &amp; B2B Hook</h4>
-                                      <div class="md-content">${marked.parse(innerInsight.strategic_value)}</div>`;
+                                      <div class="md-content">${marked.parse(stratText)}</div>`;
                     }
                     if (innerInsight.co_bidding_opportunity) {
+                        const cobidText = Array.isArray(innerInsight.co_bidding_opportunity) 
+                            ? innerInsight.co_bidding_opportunity.join('\n') 
+                            : innerInsight.co_bidding_opportunity;
                         innerHtml += `<h4>Research &amp; Co-Bidding Alignments</h4>
-                                      <div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
+                                      <div class="md-content">${marked.parse(cobidText)}</div>`;
                     }
 
                     const displaySource = (item.source || '').replace('_News', '').replace('_', ' ');

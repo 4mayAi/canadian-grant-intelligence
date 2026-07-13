@@ -323,10 +323,22 @@ class GeminiClient:
                             if not found:
                                 normalized_cat = "METS-PMO"
 
+                        strat_val = parsed.get("strategic_value", "No insight available")
+                        if isinstance(strat_val, list):
+                            strat_val = "\n".join([f"* {item}" if not str(item).strip().startswith("*") and not str(item).strip().startswith("-") else str(item) for item in strat_val])
+                        elif not isinstance(strat_val, str):
+                            strat_val = str(strat_val)
+
+                        co_bid = parsed.get("co_bidding_opportunity", "")
+                        if isinstance(co_bid, list):
+                            co_bid = "\n".join([f"* {item}" if not str(item).strip().startswith("*") and not str(item).strip().startswith("-") else str(item) for item in co_bid])
+                        elif not isinstance(co_bid, str):
+                            co_bid = str(co_bid)
+
                         insights.append(GeminiInsight(
                             linkedin_hook=parsed.get("linkedin_hook", ""),
-                            strategic_value=parsed.get("strategic_value", "No insight available"),
-                            co_bidding_opportunity=parsed.get("co_bidding_opportunity", ""),
+                            strategic_value=strat_val,
+                            co_bidding_opportunity=co_bid,
                             mets_category=normalized_cat,
                             mets_rationalization=parsed.get("mets_rationalization", ""),
                             grounded_fact_ids=fact_ids

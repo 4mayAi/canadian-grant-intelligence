@@ -491,12 +491,18 @@
                     const innerInsight = item.insight || {};
                     
                     if (innerInsight.strategic_value) {
+                        const stratText = Array.isArray(innerInsight.strategic_value) 
+                            ? innerInsight.strategic_value.join('\n') 
+                            : innerInsight.strategic_value;
                         innerHtml += `<h4>Competitiveness &amp; Position Impact</h4>
-                                      <div class="md-content">${marked.parse(innerInsight.strategic_value)}</div>`;
+                                      <div class="md-content">${marked.parse(stratText)}</div>`;
                     }
                     if (innerInsight.co_bidding_opportunity) {
+                        const cobidText = Array.isArray(innerInsight.co_bidding_opportunity) 
+                            ? innerInsight.co_bidding_opportunity.join('\n') 
+                            : innerInsight.co_bidding_opportunity;
                         innerHtml += `<h4>Sustainability &amp; ESG Alignment</h4>
-                                      <div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
+                                      <div class="md-content">${marked.parse(cobidText)}</div>`;
                     }
 
                     const displaySource = (item.source || '').replace('_News', '').replace('_', ' ');

@@ -764,10 +764,16 @@
                     let bodyHtml = '';
                     const innerInsight = item.insight || {};
                     if (innerInsight.strategic_value) {
-                        bodyHtml += `<h4>Strategic Value for Canadian Businesses</h4><div class="md-content">${marked.parse(innerInsight.strategic_value)}</div>`;
+                        const stratText = Array.isArray(innerInsight.strategic_value) 
+                            ? innerInsight.strategic_value.join('\n') 
+                            : innerInsight.strategic_value;
+                        bodyHtml += `<h4>Strategic Value for Canadian Businesses</h4><div class="md-content">${marked.parse(stratText)}</div>`;
                     }
                     if (innerInsight.co_bidding_opportunity) {
-                        bodyHtml += `<h4>Co-Bidding Opportunity</h4><div class="md-content">${marked.parse(innerInsight.co_bidding_opportunity)}</div>`;
+                        const cobidText = Array.isArray(innerInsight.co_bidding_opportunity) 
+                            ? innerInsight.co_bidding_opportunity.join('\n') 
+                            : innerInsight.co_bidding_opportunity;
+                        bodyHtml += `<h4>Co-Bidding Opportunity</h4><div class="md-content">${marked.parse(cobidText)}</div>`;
                     }
 
                     insightsHtml += `
