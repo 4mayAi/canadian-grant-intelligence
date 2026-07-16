@@ -7161,7 +7161,7 @@
     "category": "SRVTGD",
     "category_label": "Services (Goods-Related)",
     "description": "The contractor shall provide an off-the-shelf solution for Digital Asset Management(DAM) and Media Collaboration that meets the operational requirements of the PABVideo Team (This is not a limited tendering for a custom software and storage solutionor development).The system must work in a hybrid-work environment. It must enable the management,organization, sharing, and collaboration of multimedia assets, including images, videos,audio files, Adobe Creative Cloud project files, caption files, de...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of Agriculture and Agri-Food (AAFC)",
     "solicitation_number": "CSC-2627-0003",
     "notice_type": "Request for Proposal",
@@ -7831,5 +7831,34 @@
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "EC373-270267 New Construction - FRDC B180 Replacement",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110018938?anId=ANONYMOUS",
+    "date": "2026-07-16T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🏗️ PSPC is seeking pre-qualified contractors for a significant new construction project at AAFC Fredericton! This two-phase ITQ is a prime chance for general contractors to position for federal infrastructure. #FederalProcurement #Construction",
+      "strategic_value": "*   Public Works and Government Services Canada (PSPC) is initiating a significant federal infrastructure project, reflecting ongoing government investment in departmental facilities and the necessity for robust, modern research infrastructure at Agriculture and Agri-Food Canada (AAFC).\n*   The technological target is general construction and site development for a new 1,326 m2 single-storey building, including specialized elements like mechanics and machining shops, cold room storage for bulk potato, offices, and subsequent abatement and demolition of the existing B180 structure.\n*   **Consulting Pivot:** Monitor the pre-qualified list from Phase One of this ITQ. Engage with the shortlisted prime contractors to offer specialized subcontracting services in areas such as abatement, demolition, site preparation, or the installation of specific building systems required for research and development facilities like cold storage or workshop infrastructure.",
+      "co_bidding_opportunity": "This is an Invitation to Qualify (ITQ) under the 'Prime-Tracking (Pre-Qualification)' playbook. Focus on becoming a sub-contractor to prime contractors who successfully qualify. Partner roles could include: general construction subcontractors, civil engineering firms for site development, demolition and abatement specialists, mechanical/electrical contractors for building systems (e.g., cold room infrastructure), and specialized shop equipment installers.",
+      "mets_category": "Infrastructure & Digital",
+      "mets_rationalization": "This procurement falls squarely within Public Works and Government Services Canada's (PSPC) mandate for general federal property and procurement, specifically managing the construction, maintenance, and demolition of federal buildings and infrastructure across the country.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-08-11T00:00:00Z",
+    "province": "New Brunswick",
+    "province_abbrev": "NB",
+    "category": "CNST",
+    "category_label": "Construction",
+    "description": "This is the first phase (Phase One) of a two-phase process: the first phase will evaluate the qualifications of all interested suppliers; the second phase (Phase Two) will invite the qualified suppliers to provide a financial bid on the project based on the specifications and drawings. The qualification list will expire within 60 days or upon award of a contract in Phase Two, whichever is earlier, and the prequalification list will not be used in any other solicitation.Work of this Contract comp...",
+    "type": "New",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5793581389",
+    "notice_type": "Invitation to Qualify",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade Agreement",
+    "recommended_playbook": "Prime-Tracking (Pre-Qualification)"
   }
 ]
