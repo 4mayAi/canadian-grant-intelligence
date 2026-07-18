@@ -1,7 +1,153 @@
 {
-  "generated_at": "2026-07-17T15:07:06.622655Z",
-  "linkedin_post": "🇨🇦 **Canadian innovation heats up! Billions are pouring into defence, space, and digital health this July, signaling massive opportunities for B2B engagement.**\n\nCanada's defence sector sees a nearly $2-billion procurement of armoured vehicles from a U.S. defence contractor, solidifying strategic partnerships. Canadian innovators and defence SMEs should position themselves for localized data layers and analytics adapters, aligning with new operational protocols.\n\nIn space, [MDA Space](https://mda.space/) closed an oversubscribed $819 million bought deal, accelerating its acquisition of Collecte Localisation Satellites (CLS). Geointelligence and space tech providers should explore specialized subcontracting, focusing on data integration and telemetry processing for expanded satellite networks.\n\nFinally, Quebec's new Uncrewed Systems Defence Innovation Secure Hub (UxS DISH) secured $29.6 million over two years. Advanced manufacturing and tech SMEs should leverage this hub for developing secure communication hardware and autonomous navigation software, pushing R&D to deployment.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n#CanadianTech #DefenceInnovation #SpaceTech #DigitalHealth #BusinessIntelligence\n\n### Featured News & Sources\n- [Brightshores to lead regional rollout of AI wound care technology](https://digitalsupercluster.ca/brightshores-to-lead-regional-rollout-of-ai-wound-care-technology/?utm_source=rss&utm_medium=rss&utm_campaign=brightshores-to-lead-regional-rollout-of-ai-wound-care-technology) (DIGITAL)\n- [Canada to buy nearly $2-billion in armoured vehicles from U.S. defence contractor - The Globe and Mail](https://www.theglobeandmail.com/politics/article-carney-general-dynamics-land-systems-defence-contract-armoured-combat/) (SpaceDef Industry)\n- [MEDTEQ+ and DIGITAL: A Partnership Driving Pan-Canadian Innovation](https://digitalsupercluster.ca/medteq-and-digital-a-partnership-driving-pan-canadian-innovation/?utm_source=rss&utm_medium=rss&utm_campaign=medteq-and-digital-a-partnership-driving-pan-canadian-innovation) (DIGITAL)\n- [MDA Space Closes Upsized $819 Million Bought Deal Offering of Common Shares - Pulse 2.0](https://pulse2.com/mda-space-closes-upsized-819-million-bought-deal-offering-of-common-shares/) (SpaceDef CSA)\n- [Minister McGuinty announces new drone production in Quebec - canada.ca](https://www.canada.ca/en/department-national-defence/news/2026/07/minister-mcguinty-announces-new-drone-production-in-quebec.html) (NGen Federal)\n",
+  "generated_at": "2026-07-18T15:06:02.793770Z",
+  "linkedin_post": "\n\n### Featured News & Sources\n- [CAE and Saab agree Gripen training and mission support framework for Canada, linking fighter offer to local industrial capability - Defence Industry Europe](https://defence-industry.eu/cae-and-saab-agree-gripen-training-and-mission-support-framework-for-canada-linking-fighter-offer-to-local-industrial-capability/) (SpaceDef Industry)\n- [Canadian Space Agency launches next health cycle research grant opportunity for deep-space missions - SpaceQ](https://spaceq.ca/canadian-space-agency-launches-next-health-cycle-research-grant-opportunity-for-deep-space-missions/) (SpaceDef CSA)\n- [Computer Aided Dispatch Replacement](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-250-52228085) (Protein Industries Canada CanadaBuys)\n- [RCAF SARTech GPS Watches](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-63-96632964) (Protein Industries Canada CanadaBuys)\n- [Brightshores to lead regional rollout of AI wound care technology](https://digitalsupercluster.ca/brightshores-to-lead-regional-rollout-of-ai-wound-care-technology/?utm_source=rss&utm_medium=rss&utm_campaign=brightshores-to-lead-regional-rollout-of-ai-wound-care-technology) (DIGITAL)\n",
   "insights": [
+    {
+      "source": "SpaceDef_Industry",
+      "title": "CAE and Saab agree Gripen training and mission support framework for Canada, linking fighter offer to local industrial capability - Defence Industry Europe",
+      "link": "https://defence-industry.eu/cae-and-saab-agree-gripen-training-and-mission-support-framework-for-canada-linking-fighter-offer-to-local-industrial-capability/",
+      "date": "2026-07-17T19:21:22Z",
+      "insight": {
+        "linkedin_hook": "✈️ A new era of Canadian fighter training: CAE and Saab unite to build a localized simulator and mission support ecosystem for the Gripen!",
+        "strategic_value": "* **Policy & Financial Context:** This MoU leverages Canada's Industrial and Technological Benefits (ITB) policy, aligning future multi-million dollar military procurement with local industrial capability, R&D spend, and domestic job creation.\n* **Technological Target:** The collaboration targets advanced pilot training simulators, synthetic environment software stacks, and next-generation mission system sustainment infrastructure utilizing NATO-interoperable HLA/DIS networking protocols.\n* **Consulting Pivot:** Position as a niche subcontractor offering localized simulator data layers, custom telemetry adapters for pilot cognitive load monitoring, and secondary analytics modules to integrate regional weather and flight dynamics into CAE's synthetic training environment.",
+        "co_bidding_opportunity": "Under a prime-tracking and downstream integration playbook, opportunities exist to collaborate with CAE (simulation prime) and Saab (platform prime) as an avionics software SME, local aerospace engineering contractor, or academic research lab specializing in human-machine interface (HMI) modeling.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Securing domestic aerospace training infrastructure through advanced simulation software directly feeds the digital engineering talent pool and capabilities needed for national defense and remote synthetic environment modeling.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "SpaceDef_CSA",
+      "title": "Canadian Space Agency launches next health cycle research grant opportunity for deep-space missions - SpaceQ",
+      "link": "https://spaceq.ca/canadian-space-agency-launches-next-health-cycle-research-grant-opportunity-for-deep-space-missions/",
+      "date": "2026-07-17T19:13:16Z",
+      "insight": {
+        "linkedin_hook": "🚀 Launching into deep-space health: The Canadian Space Agency just announced its next research grant cycle for astronaut physiological monitoring!",
+        "strategic_value": "* **Policy & Financial Context:** The Canadian Space Agency (CSA) has launched its latest deep-space health cycle research grant to advance space medicine and astronaut bio-telemetry, leveraging federal R&D funding to stimulate terrestrial spin-off technologies.\n* **Technological Target:** Proposals require robust, ultra-low-bandwidth biosensor software stacks, edge compute hardware architectures for radiation-hardened environments, and real-time physiological anomaly detection algorithms.\n* **Consulting Pivot:** Partner with prime research grant applicants by offering localized data layers, custom telemetry translation adapters, and secondary data processing pipelines that map space-grade biosensor metrics into standard HL7/FHIR formats for remote industrial and mining health clinics.",
+        "co_bidding_opportunity": "Under a downstream subcontracting playbook, target partnerships with academic research labs specializing in space medicine, biosensor hardware manufacturing SMEs, and space tech systems integrators.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Space-based health telemetry advances the development of ruggedized, remote medical edge computing platforms, which are highly critical for safety and health operations in remote, isolated mining and extraction environments across Canada.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "Computer Aided Dispatch Replacement",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-250-52228085",
+      "date": "2026-07-17T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Insight generation failed or blocked: Unknown reason",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-08-14T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "Government of Northwest Territories (GNWT), Procurement Shared Services (PSS) is requesting proposals, on behalf of the Department of Finance (FIN), to provide Computer Aided Dispatch Replacement.View documents, including addenda as and when applicable: https://contracts.fin.gov.nt.ca/",
+      "type": "Open",
+      "organization": "Government of the Northwest Territories (GNWT)",
+      "solicitation_number": "EV8524",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "",
+      "trade_agreements": "Please refer to Tender Description or Tender Documents",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "RCAF SARTech GPS Watches",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-63-96632964",
+      "date": "2026-07-17T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Insight generation failed or blocked: Unknown reason",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-08-04T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "NOTICE OF PROPOSED PROCUREMENTThe Department of National Defence (DND) has an immediate operational requirement for the procurement of two hundred and forty (240) commercial off-the-shelf (COTS) high-performance, ruggedized wearable GPS tracking devices, alongside two hundred and forty (240) secondary tactical replacement straps.Delivery is to 25 Canadian Forces Supply Depot. Detailed requirements are specified in Annex A.The Crown retains the right to negotiate with suppliers on any procurement...",
+      "type": "Open",
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "W8485-279541/A",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "Grounds Maintenance",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-24-78066475",
+      "date": "2026-07-17T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Insight generation failed or blocked: Unknown reason",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-08-17T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "Grounds Maintenance Services The Public Health Agency of Canada (PHAC) is seeking a contractor to provide comprehensive grounds maintenance services at the Canadian Science Centre for Human and Animal Health (CSCHAH) and the JC Wilt Infectious Diseases Research Centre (JCWIDRC) in Winnipeg.Services include lawn care, flower bed and planter maintenance, tree and shrub upkeep, sweeping of entrances, parking lots, and access areas, as well as task-based services such as emergency repairs, parking l...",
+      "type": "Open",
+      "organization": "Public Health Agency of Canada (PHAC)",
+      "solicitation_number": "1000266564",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "Wall Repairs, Port Morien, NS",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-714-42414289",
+      "date": "2026-07-17T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Insight generation failed or blocked: Unknown reason",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-08-04T00:00:00Z",
+      "province": "Nova Scotia",
+      "province_abbrev": "NS",
+      "category": "CNST",
+      "category_label": "Construction",
+      "description": "Concrete Wall Repairs, Port Morien, NSThe work under this contract consists of the supply of all labour, materials, and equipment required for the demolition and replacement of the existing reinforced concrete seawall at Port Morien Harbour, including temporary utility relocations, construction of a new seawall, and full reinstatement of affected services and site features.Before submitting a bid, bidders can visit the site and its surroundings, at their own expense, to review and verify the for...",
+      "type": "Open",
+      "organization": "Department of Fisheries and Oceans (DFO)",
+      "solicitation_number": "30008031A",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Traditional",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
     {
       "source": "DIGITAL_News",
       "title": "Brightshores to lead regional rollout of AI wound care technology",
@@ -208,21 +354,6 @@
       }
     },
     {
-      "source": "SpaceDef_CSA",
-      "title": "Ottawa awards $688M contract to strengthen satellite capacity - WestCentralOnline",
-      "link": "https://www.westcentralonline.com/articles/ottawa-awards-688m-contract-to-strengthen-satellite-capacity",
-      "date": "2026-07-12T12:01:32Z",
-      "insight": {
-        "linkedin_hook": "🛰️ $688 Million for RADARSAT Constellation replenishment: Canada is doubling down on sovereign Space Tech and Arctic surveillance!",
-        "strategic_value": "* Canada's $688M contract to MDA Space Ltd. for RADARSAT Constellation replenishment represents a major sovereign commitment to Earth Observation under a larger $1.012B, 15-year space strategy.\n* The technological target centers on next-generation Synthetic Aperture Radar (SAR) payloads, requiring robust telemetry processing software, high-performance geospatial data pipelines, and secure cloud storage infrastructure compliant with federal security standards.\n* **Consulting Pivot:** Propose downstream analytics partnerships to develop custom regional SAR data layers and secondary telemetry processing pipelines for Arctic resource exploration and localized ESG monitoring, bypassing prime manufacturing competition to sell specialized analytics adapters directly to the end-user federal departments.",
-        "co_bidding_opportunity": "Under a Prime-Tracking strategy for the MDA Space RADARSAT project, standard subcontracting consortium roles include GIS software developers (AI SMEs) to design SAR analysis pipelines, academic research labs specialized in Arctic remote sensing, and secure cloud-hosting systems integrators.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "The $688M satellite replenishment contract directly funds critical sovereign remote-sensing infrastructure, driving B2B demand for downstream space-tech telemetry, regional geospatial analytics, and Arctic environmental compliance layers.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
       "source": "CanTech_AI_Ecosystem",
       "title": "Saudi Arabia’s Humain, Canada’s Cohere join forces on AI infrastructure - arabnews.jp",
       "link": "https://www.arabnews.jp/en/business/article_173901/",
@@ -257,93 +388,6 @@
           "url": "https://digitalsupercluster.ca/category/news/"
         }
       }
-    },
-    {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "(HR) Integrated Services Platfom",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-204-80174664",
-      "date": "2026-07-10T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "DND is modernizing HR! 🚀 Canadian tech firms, a significant opportunity just dropped for ServiceNow HRSD implementation. Is your firm ready to integrate?",
-        "strategic_value": "- The Government of Canada is investing in digital transformation within its departments, specifically DND, through the 'Buy Canadian Policy' to enhance operational efficiency.\n- This initiative targets a Software as a Service (SaaS) solution, leveraging ServiceNow Human Resources Service Delivery (HRSD) accelerators and patterns for an enterprise experience layer.\n- * **Consulting Pivot:** Propose specialized ServiceNow configuration and customization services, data migration support, or developing custom integration adapters for DND's existing legacy HR systems, ensuring seamless data flow and compliance with Canadian regulatory frameworks.",
-        "co_bidding_opportunity": "ServiceNow implementation partner, HR system integration specialist, SaaS professional services provider",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "DND's digital transformation aims to optimize internal operations, creating opportunities for Canadian tech providers to support critical national infrastructure through advanced software solutions and integration services.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-07-27T00:00:00Z",
-      "province": "Multiple Provinces",
-      "province_abbrev": "MULT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "DND has a requirement for a Software as a Service solution in the form of ServiceNow Human Resources Service Delivery (HRSD) accelerators and patterns and accompanying professional services to support the definition, acceleration, and validation of an end-to-end Integrated Services Platform, leveraging ServiceNow as the enterprise experience layer for civilian and Canadian Armed Forces (CAF) HR service delivery. All Work will be delivered in Ottawa, Ontario.",
-      "type": "Open",
-      "organization": "Department of National Defence (DND)",
-      "solicitation_number": "W6369-27-DN02",
-      "notice_type": "RFP against Supply Arrangement",
-      "procurement_method": "Competitive - Selective tendering",
-      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Please refer to Tender Description or Tender Documents",
-      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-    },
-    {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "Development of the Martian Atmospheric Gas Evolution Experiment – Inter Cavity Optical Spectroscopy (MAGE ICOS)",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-330-67795670",
-      "date": "2026-07-10T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Calling all Space Tech innovators! 🚀 The Canadian Space Agency is advancing methane detection on Mars with MAGE ICOS. Are you ready to contribute to interplanetary research?",
-        "strategic_value": "- The Canadian Space Agency is actively funding advanced research and development for space exploration technologies, ensuring Canada's role in global scientific missions.\n- This project specifically targets the miniaturization and environmental testing of Inter Cavity Optical Spectroscopy (ICOS) instruments for methane detection under simulated Martian atmospheric conditions (100–130 Torr).\n- * **Consulting Pivot:** Offer specialized engineering services for miniaturized optical components, embedded systems development for harsh environments, or advanced data analysis and simulation services for ICOS performance characterization in ultra-low pressure, trace-gas detection scenarios.",
-        "co_bidding_opportunity": "Optical engineering specialist, embedded systems developer (space-grade hardware), atmospheric simulation expert, R&D lab for trace gas detection",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "CSA's long-term strategy for space exploration drives demand for cutting-edge Canadian innovation in sensor technology and data analytics, creating future B2B opportunities in adjacent terrestrial applications for advanced instrumentation and digital processing.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-07-27T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "The Canadian Space Agency (CSA) requires specialized research and development services to advance the Martian Atmospheric Gas Evolution Experiment – Inter Cavity Optical Spectroscopy (MAGE ICOS). The work will focus on maturing ICOS technology for in situ detection of methane on Mars, including:•\tdevelopment and optimization of low pressure ICOS instrumentation;•\tminiaturization of instrument mass and volume relative to commercial ICOS systems;•\tenvironmental testing under simulated Martian atmo...",
-      "type": "Open",
-      "organization": "Canadian Space Agency (CSA)",
-      "solicitation_number": "9F063-20250304 / Version 2",
-      "notice_type": "Advance Contract Award Notice",
-      "procurement_method": "Advance contract award notice",
-      "selection_criteria": "Not applicable",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)"
-    },
-    {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "Fourier-Transform Spectrometer for Atmospheric Data Continuity and Improvement (FTS-ADCI)",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-744-33227842",
-      "date": "2026-07-10T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Canada is reaching for the stars! 🛰️ The CSA needs advanced Fourier Transform Spectrometer (FTS) R&D for atmospheric monitoring. Is your expertise key to our next generation of space instruments?",
-        "strategic_value": "- The Canadian Space Agency is investing in the continuity and improvement of long-term atmospheric records, reinforcing Canada's commitment to climate change monitoring and space-based scientific research.\n- The focus is on developing and optimizing Fourier-Transform Infrared (FTIR) spectroscopy technology for space-based applications, enhancing detection limits and resolution for atmospheric species relevant to air quality and climate.\n- * **Consulting Pivot:** Provide specialized engineering for optical design and calibration of FTIR systems, develop algorithms for advanced atmospheric gas constituent characterization, or offer expertise in optimizing instrument mass, volume, and power consumption for demanding spaceflight environments.",
-        "co_bidding_opportunity": "Optical engineering specialist, atmospheric science research lab, signal processing algorithm developer, space instrument miniaturization expert",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "CSA's mandate to advance space science and Earth observation directly supports global environmental monitoring, fostering a niche market for high-precision sensor R&D and data interpretation services.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-07-27T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "The Canadian Space Agency (CSA) requires specialized research and development services to advance space-based Fourier Transform Spectrometer (FTS) through the FTS for Atmospheric Data Continuity and Improvement (FTS-ADCI). The Atmospheric Chemistry Experiment-FTS (ACE-FTS) successor – an FTS for FTS-ADCI would continue the critical long-term atmospheric records established by ACE-FTS onboard the SCISAT (Science Satellite) and improve detection limits for emerging atmospheric species, increase ve...",
-      "type": "Open",
-      "organization": "Canadian Space Agency (CSA)",
-      "solicitation_number": "9F063-20260086",
-      "notice_type": "Advance Contract Award Notice",
-      "procurement_method": "Advance contract award notice",
-      "selection_criteria": "Not applicable",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)"
     },
     {
       "source": "DIGITAL_News",
@@ -708,15 +752,15 @@
     },
     {
       "source": "ProteinIndustries_FoodSecurity",
-      "title": "Parliamentary Secretary Church highlights launch of National Food Security Strategy - Yahoo! Finance Canada",
-      "link": "https://ca.finance.yahoo.com/news/parliamentary-secretary-church-highlights-launch-193900194.html",
-      "date": "2026-06-30T19:39:00Z",
+      "title": "Federal funding boosts Okanagan food rescue project - Penticton Western News",
+      "link": "https://pentictonwesternnews.com/2026/06/30/federal-funding-boosts-okanagan-food-rescue-project/",
+      "date": "2026-06-30T23:23:40Z",
       "insight": {
-        "linkedin_hook": "Canada just launched a $3 BILLION National Food Security Strategy! 🇨🇦 This massive investment aims to boost domestic food production, processing, and year-round cultivation, creating significant opportunities across the agri-food sector. #FoodSecurity #AgriTech",
-        "strategic_value": "*   The Canadian government's $3 billion National Food Security Strategy, with dedicated funds like the Agri-food Project Finance Fund and Collaborative Food Innovation Fund, directly addresses the need to bolster domestic processing and reduce reliance on imported plant protein ingredients, aligning perfectly with Protein Industries Canada's 'Strengthening the Canadian Supply Chain' program (Fact ID: 500). \n*   This initiative targets significant investment in expanding processing capacity for agricultural inputs and diversifying local food production, requiring advanced food processing technologies (e.g., protein extraction/fractionation, extrusion systems, fermentation technologies) and integrated supply chain optimization software (e.g., ERP systems with food traceability modules, IoT-enabled process monitoring). \n*   **Consulting Pivot:** Target independent grocers and new food terminals/hubs with custom analytics adapters for inventory optimization and regional compliance auditing services for new processing facilities, ensuring seamless integration with existing federal and provincial regulatory frameworks. Subcontract integration for global prime contractors developing large-scale vertical farms or greenhouses is also a strong play.",
-        "co_bidding_opportunity": "Food infrastructure developers (for terminals/hubs), advanced processing equipment manufacturers, software integrators (for supply chain solutions), agritech solution providers (for greenhouses/vertical farms), regulatory compliance experts.",
+        "linkedin_hook": "🍎 Transforming food waste into supply chain resilience: The Okanagan's new $5.5M Food Rescue Transformation Centre is setting the standard for regional food infrastructure!",
+        "strategic_value": "* The federal investment of $100,000 via the Local Food Infrastructure Fund establishes a policy-driven precedent for boosting regional storage capacity under Canada's National Food Security Strategy.\n* The technological target focuses on Phase 2 warehouse preservation and processing, requiring industrial cold-storage HVAC units and automated temperature-tracking sensors using MQTT protocols and IoT telemetry to extend the shelf life of fresh produce up to four months.\n* **Consulting Pivot:** Provide downstream localized data layers and telemetry integration services for food bank networks to monitor real-time shelf-life extensions and refrigeration compliance, helping them integrate with regional agricultural supply chain dashboards without bidding on master facility construction.",
+        "co_bidding_opportunity": "Consortium formation involving the Central Okanagan Food Bank (COFB), local agricultural producers/growers, and cold-storage infrastructure contractors to execute Phase 1 and Phase 2 facility buildouts.",
         "mets_category": "METS-Ops",
-        "mets_rationalization": "This strategy directly supports Protein Industries Canada's mandate to strengthen the Canadian supply chain and reduce reliance on imports (Fact ID: 500) by funding infrastructure, processing facilities, and year-round production. It creates a market for operational technology and services that enable this expansion.",
+        "mets_rationalization": "This project funds the physical cold storage, refrigeration machinery, and agricultural crop harvesting equipment necessary to secure and extend the lifespan of local food supply chains, aligning with PIC's focus on domestic processing and supply infrastructure.",
         "grounded_fact_ids": [
           500
         ],
@@ -729,15 +773,15 @@
     },
     {
       "source": "ProteinIndustries_FoodSecurity",
-      "title": "Secretary of State Belanger highlights the launch of the National Food Security Strategy - Yahoo! Finance Canada",
-      "link": "https://ca.finance.yahoo.com/news/secretary-state-belanger-highlights-launch-193000281.html",
-      "date": "2026-06-30T19:30:00Z",
+      "title": "Parliamentary Secretary Church highlights launch of National Food Security Strategy - Yahoo! Finance Canada",
+      "link": "https://ca.finance.yahoo.com/news/parliamentary-secretary-church-highlights-launch-193900194.html",
+      "date": "2026-06-30T19:39:00Z",
       "insight": {
-        "linkedin_hook": "🚀 Canada just injected over $3 BILLION into its National Food Security Strategy! Are you ready to transform Canada's agri-food landscape and reduce reliance on imports?",
-        "strategic_value": "- The Canadian government is committing over $3 billion over 10 years to its National Food Security Strategy, with significant allocations for food infrastructure ($1B), agri-food project finance ($1B), food security ($150M), and a Collaborative Food Innovation Fund ($100M).\n- This strategy targets a drastic expansion of year-round Canadian fruit and vegetable production via greenhouses and vertical farms ($750M), alongside a strong push to boost domestic processing capabilities to maximize value retention from Canadian crops. This creates substantial demand for climate-controlled agricultural systems, advanced processing equipment, and waste-to-value technologies.\n- **Consulting Pivot:** Capitalize on the $100M Collaborative Food Innovation Fund by offering specialized engineering design and integration services for new or expanded food processing lines focused on byproduct valorization and efficiency. Target independent grocers and new food terminals by providing localized data layer solutions for optimizing inventory and supply chain logistics, ensuring compliance with new inter-provincial trade regulations for Canadian-made products.",
-        "co_bidding_opportunity": "Consortium opportunities exist with agricultural technology providers (for vertical farming/greenhouse solutions), construction and engineering firms (for food terminals, processing plants), and regulatory compliance specialists (to assist businesses in navigating modernized regulations and inter-provincial trade requirements).",
+        "linkedin_hook": "Canada just launched a $3 BILLION National Food Security Strategy! 🇨🇦 This massive investment aims to boost domestic food production, processing, and year-round cultivation, creating significant opportunities across the agri-food sector. #FoodSecurity #AgriTech",
+        "strategic_value": "*   The Canadian government's $3 billion National Food Security Strategy, with dedicated funds like the Agri-food Project Finance Fund and Collaborative Food Innovation Fund, directly addresses the need to bolster domestic processing and reduce reliance on imported plant protein ingredients, aligning perfectly with Protein Industries Canada's 'Strengthening the Canadian Supply Chain' program (Fact ID: 500). \n*   This initiative targets significant investment in expanding processing capacity for agricultural inputs and diversifying local food production, requiring advanced food processing technologies (e.g., protein extraction/fractionation, extrusion systems, fermentation technologies) and integrated supply chain optimization software (e.g., ERP systems with food traceability modules, IoT-enabled process monitoring). \n*   **Consulting Pivot:** Target independent grocers and new food terminals/hubs with custom analytics adapters for inventory optimization and regional compliance auditing services for new processing facilities, ensuring seamless integration with existing federal and provincial regulatory frameworks. Subcontract integration for global prime contractors developing large-scale vertical farms or greenhouses is also a strong play.",
+        "co_bidding_opportunity": "Food infrastructure developers (for terminals/hubs), advanced processing equipment manufacturers, software integrators (for supply chain solutions), agritech solution providers (for greenhouses/vertical farms), regulatory compliance experts.",
         "mets_category": "METS-Ops",
-        "mets_rationalization": "The National Food Security Strategy directly funds new physical food infrastructure, processing plant expansions, and climate-controlled agricultural facilities, aligning with Protein Industries Canada's (PIC) long-term regulatory anchor of strengthening the Canadian supply chain and bolstering domestic processing capacity for agricultural inputs.",
+        "mets_rationalization": "This strategy directly supports Protein Industries Canada's mandate to strengthen the Canadian supply chain and reduce reliance on imports (Fact ID: 500) by funding infrastructure, processing facilities, and year-round production. It creates a market for operational technology and services that enable this expansion.",
         "grounded_fact_ids": [
           500
         ],
@@ -987,27 +1031,6 @@
           "source_name": "Scale AI Program Guidelines 2026",
           "page_range": "Page 8",
           "url": "https://www.scaleai.ca/guidelines"
-        }
-      }
-    },
-    {
-      "source": "ProteinIndustries_News",
-      "title": "New partnership will put more nutritional food options in freezers across Canada",
-      "link": "https://www.proteinindustriescanada.ca/news-releases/evive-originalfoods",
-      "date": "2026-06-18T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🚀 From field to freezer: How Evive Inc. and Original Foods Ltd. are scaling Canadian plant-protein innovation through a new $9.6M initiative.",
-        "strategic_value": "* The project directly advances the 'Strengthening the Canadian Supply Chain' program by scaling domestic processing of high-value crops like peas, oats, and hemp.\n* It addresses the critical commercialization gap between lab-scale food tech and national retail distribution, proving viability for 2,000 grocery store entry by 2027.\n* **Consulting Pivot:** Engage with domestic pulse processors and co-manufacturing facilities to identify R&D gaps in 'clean-label' formulation that align with the next cycle of PIC funding.",
-        "co_bidding_opportunity": "Partnership opportunity between Evive Inc. and Original Foods Ltd. for commercializing plant-protein products. Protein Industries Canada (PIC) provides matching funds for companies focusing on Canadian-grown ingredients and domestic processing.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "This project centers on the expansion of domestic physical processing capacity for agricultural inputs, which aligns with the METS-Ops mandate of improving industrial production and supply chain infrastructure.",
-        "grounded_fact_ids": [
-          500
-        ],
-        "anchor_reference": {
-          "source_name": "PIC Supply Chain Program Guide 2025",
-          "page_range": "Page 2",
-          "url": "https://www.proteinindustriescanada.ca/supply-chain"
         }
       }
     }
