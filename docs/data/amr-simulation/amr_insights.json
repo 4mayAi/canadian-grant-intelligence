@@ -1,7 +1,88 @@
 {
-  "generated_at": "2026-07-18T18:54:35.122264Z",
-  "linkedin_post": "💡 Canadian Health-Tech: Simulation drives the future of precision medicine and resilient infrastructure.\n\nNew research highlights how viral genomic variability challenges advanced antiviral tools like CRISPR-Cas13b, particularly for pathogens such as HBV. This underscores the critical role of computational biology and in silico modeling to optimize crRNA design by predicting mismatches and accelerating the development of robust, variant-proof antiviral therapies. Drug discovery firms and vaccine developers should strategically apply virtual pathogen modeling to enhance therapeutic design and efficacy.\n\nFurthermore, groundbreaking insights into the ocular microbiome reveal distinct 'Community State Types' (CSTs) linked to trachoma severity, pointing to novel prevention and treatment pathways beyond traditional antibiotics. Advanced computational modeling offers a powerful approach to simulate these complex microbial interactions, predict the impact on Chlamydia trachomatis infection, and evaluate targeted therapeutic interventions. Public health agencies and biotech startups focusing on microbiome therapeutics should explore these simulation opportunities to inform new strategies.\n\nEven the operational integrity of high-security infectious disease research facilities, like the Canadian Science Centre for Human and Animal Health (CSCHAH), is evolving. Leveraging digital twins for site management offers a strategic path to bridge physical infrastructure maintenance with the high-tech demands of the Infectious Disease Laboratory Network, creating proactive operational models. Facility management solution providers and IoT integrators can secure significant government bids by integrating intelligent facility sensors with [PHAC](https://www.canada.ca/en/public-health.html)'s digital requirements.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#mayAi #HealthTech #ComputationalBiology #DigitalTwins #CanadianBiotech\n\n### Featured News & Sources\n- [Grounds Maintenance](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-24-78066475) (Canada CanadaBuys Procurement)\n- [Addressing viral genomic variability towards developing a Cas13b-based therapy](https://www.biorxiv.org/content/10.64898/2026.07.16.739033v1?rss=1) (bioRxiv Microbiology)\n- [Ocular community state types reveal distinct microbial compositions among microbiomes with implications for trachoma control](https://www.biorxiv.org/content/10.64898/2026.07.16.738988v1?rss=1) (bioRxiv Microbiology)\n- [CNC Tool Room Lathe](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-134-86293114) (Canada CanadaBuys Procurement)\n",
+  "generated_at": "2026-07-19T18:57:47.633782Z",
+  "linkedin_post": "🦠 **Canada's health security is at a critical juncture, demanding cutting-edge simulation to outpace emerging threats and drug resistance!**\n\nToday's [PHAC](https://www.canada.ca/en/public-health.html) travel ban on Congo visitors, driven by Ebola concerns, underscores the continuous governmental imperative for robust infectious disease preparedness. Public health agencies and infectious disease research labs must leverage virtual pathogen modeling to fortify Canada's defenses against cross-border threats like Ebola.\n\nSimultaneously, the revelation that bovine H5N1 influenza can efficiently infect lactating swine via the mammary gland highlights a significant, clinically inapparent zoonotic threat. Veterinary public health experts and agricultural biosecurity firms should invest in in silico epidemiology to model H5N1 transmission in livestock, safeguarding both animal and human populations.\n\nOn the therapeutics front, a novel C12 quaternary ammonium compound, EQ12, shows significant promise against MRSA and biofilm in infected wounds. Pharmaceutical R&D and biotech innovators battling antimicrobial resistance can accelerate discovery by applying computational biology to optimize novel compounds like EQ12.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#HealthTech #BioTechCanada #AMR #PublicHealth #SimulationSoftware\n\n### Featured News & Sources\n- [Foreigners who visited Congo in last 3 weeks cannot enter Canada: PHAC - CP24](https://www.cp24.com/news/canada/2026/07/19/foreigners-who-visited-drc-cannot-enter-canada-temporarily-phac/) (Canada PHAC AMR)\n- [A Structurally Defined C12-Alkyl Quaternary Ammonium Compound reduces bacterial burden and biofilm in an infected wound model](https://www.biorxiv.org/content/10.64898/2026.07.17.739236v1?rss=1) (bioRxiv Microbiology)\n- [Bovine-derived H5N1 influenza virus efficiently infects lactating swine via the mammary gland](https://www.biorxiv.org/content/10.64898/2026.07.18.739312v1?rss=1) (bioRxiv Microbiology)\n- [Grounds Maintenance](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-24-78066475) (Canada CanadaBuys Procurement)\n",
   "insights": [
+    {
+      "source": "Canada_PHAC_AMR",
+      "title": "Foreigners who visited Congo in last 3 weeks cannot enter Canada: PHAC - CP24",
+      "link": "https://www.cp24.com/news/canada/2026/07/19/foreigners-who-visited-drc-cannot-enter-canada-temporarily-phac/",
+      "date": "2026-07-19T15:06:23Z",
+      "insight": {
+        "linkedin_hook": "🇨🇦 Ebola Alert! PHAC's latest travel ban on Congo visitors underscores a critical need for advanced virtual pathogen modeling to fortify Canada's public health defenses. #EbolaSimulation #PublicHealthTech",
+        "strategic_value": "*   The Public Health Agency of Canada (PHAC) is proactively implementing border measures against Ebola, highlighting a continuous governmental imperative for robust infectious disease preparedness and response. Despite low domestic risk, the severity of Ebola and absence of an approved vaccine/treatment necessitate comprehensive risk assessment and intervention efficacy evaluation.\n*   This situation presents a clear technical opportunity for advanced virtual pathogen modeling and in silico simulation platforms. These tools can simulate Ebola viral replication dynamics, cross-border transmission scenarios, and the epidemiological impact of travel bans or quarantine protocols, thereby optimizing PHAC's public health planning and resource allocation strategies.\n*   **Consulting Pivot:** Propose a tailored workshop for PHAC's Infectious Disease Laboratory Network specialists to demonstrate how custom Ebola transmission and border policy simulation models can enhance their current risk assessment and preparedness strategies.",
+        "co_bidding_opportunity": "No specific consortium is mentioned in the source for this particular initiative. However, given the identified need for advanced simulation tools in public health response, opportunities exist for a consortium with specialized data science and computational biology firms. Such a partnership could develop and deploy next-generation virtual pathogen platforms tailored for PHAC's Infectious Disease Laboratory Network, leveraging expertise in epidemiological modeling and biostatistics.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This PHAC update directly reinforces the critical need for advanced 'METS-Digital' solutions, aligning with PHAC's dedicated funding for infectious disease simulation modeling under the Infectious Disease Laboratory Network (Fact ID: 1002). Virtual pathogen modeling can provide crucial insights for border control efficacy and public health preparedness.",
+        "grounded_fact_ids": [
+          1002
+        ],
+        "anchor_reference": {
+          "source_name": "PHAC Laboratory Biosafety Guidelines",
+          "page_range": "Page 15",
+          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
+        }
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "A Structurally Defined C12-Alkyl Quaternary Ammonium Compound reduces bacterial burden and biofilm in an infected wound model",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.17.739236v1?rss=1",
+      "date": "2026-07-18T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🚨 Breaking: A novel C12 quaternary ammonium compound, EQ12, shows significant promise in reducing MRSA burden and biofilm in infected wounds! This could be a game-changer for topical antimicrobial treatments. #AntimicrobialResistance #WoundCare",
+        "strategic_value": "- EQ12's proven efficacy against MRSA and biofilm, combined with wound compatibility, presents a strong signal for advanced topical antimicrobial solutions. The structurally defined nature addresses heterogeneity issues common with related compounds like benzalkonium chloride.\n- This research highlights a critical need for targeted antimicrobial development in an era of increasing antimicrobial resistance, particularly for persistent infections like those involving biofilms. The preclinical success in a murine model warrants accelerated translational research.\n- * **Consulting Pivot:** Propose a comprehensive in silico simulation project for Bio Protectant Technologies, Inc., utilizing virtual pathogen modeling and computational chemistry to optimize EQ12's mechanism of action, predict resistance pathways, and simulate wound healing kinetics with antimicrobial intervention to accelerate clinical development.",
+        "co_bidding_opportunity": "Bio Protectant Technologies, Inc. is identified as the supplier of EQ12 and holds intellectual property and financial interests with the authors. A strategic partnership or subcontracting opportunity exists to provide computational biology and in silico simulation services to BPT for the continued development and optimization of EQ12 as a topical anti-staphylococcal antimicrobial.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This aligns with the long-term regulatory anchor of combating antimicrobial resistance and developing novel therapeutic strategies, which is a key public health priority. Our digital simulation tools can accelerate drug discovery and development, reducing time and cost.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Bovine-derived H5N1 influenza virus efficiently infects lactating swine via the mammary gland",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.18.739312v1?rss=1",
+      "date": "2026-07-18T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "‼️ Urgent alert: Bovine H5N1 influenza can efficiently infect lactating swine via the mammary gland, leading to silent spread and potential vertical transmission! This presents a significant, clinically inapparent threat to commercial swine populations and underscores the need for expanded surveillance. #H5N1 #ZoonoticThreat",
+        "strategic_value": "- The demonstration of H5N1 transmission in lactating sows, leading to sustained viral shedding without overt clinical disease, signifies a critical blind spot in current surveillance protocols for zoonotic spillover.\n- The potential for vertical transmission to piglets, even with prior vaccination in sows, highlights challenges in existing vaccine efficacy and underscores the need for robust public health planning against widespread animal outbreaks.\n- * **Consulting Pivot:** Develop and deploy advanced virtual pathogen modeling and in silico epidemiology platforms to simulate H5N1 transmission dynamics in commercial swine herds, evaluate various surveillance strategies, and forecast potential cross-species spillover risks for public health preparedness and intervention planning.",
+        "co_bidding_opportunity": "No direct co-bidding opportunity is identified based solely on the provided text. However, the study was supported by the Swine Health Information Center, USDA National Institute of Food and Agriculture (NIFA), and NIH. These funders indicate potential future grant opportunities for research and surveillance solutions addressing zoonotic influenza threats in livestock.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This aligns with Canadian public health and animal health priorities for early detection, prevention, and response to zoonotic diseases like avian influenza. Digital tools for outbreak prediction and surveillance optimization are crucial for national biosecurity.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Enrichment of polyphenol metabolism within the ubiquitous SAR116 Puniceispirillales bacterioplankton",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.17.739263v1?rss=1",
+      "date": "2026-07-18T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🌊 Unveiling the ocean's hidden appetite! New research shows ubiquitous SAR116 bacterioplankton are metabolic powerhouses for polyphenol degradation, revealing a critical, underappreciated role in the marine carbon cycle. #OceanMicrobes #Biogeochemistry",
+        "strategic_value": "- This research fundamentally shifts our understanding of marine dissolved organic matter cycling by identifying SAR116 bacterioplankton as key players in polyphenol degradation.\n- The genetic and metabolic insights into these ubiquitous microbes suggest a 'division of labor' within marine communities, which has implications for complex ecosystem modeling and understanding nutrient cycling in vast ocean environments.\n- * **Consulting Pivot:** Offer computational biology services for metabolic reconstruction and simulation of complex marine microbial communities, enabling predictive modeling of carbon sequestration, nutrient cycling, and the impact of environmental changes on these critical ecosystem processes for Canadian marine research institutions.",
+        "co_bidding_opportunity": "No direct co-bidding opportunity or specific partners are identified based solely on the provided text. This is a fundamental research discovery, signaling potential for academic collaborations on marine microbiology and biogeochemistry projects.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This research supports the broader Canadian scientific agenda in marine biology and environmental science, particularly in understanding the impacts of climate change on ocean ecosystems. Computational biology tools are essential for complex ecological modeling efforts.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Powassan virus infects mouse testes with phagocytic cells playing a protective role",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.17.739246v1?rss=1",
+      "date": "2026-07-18T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "💡 Unexpected twist: Powassan virus, a serious tick-borne threat, infects mouse testes, with phagocytic cells playing a critical protective role! This reveals an underrecognized target for POWV disease and sheds new light on host defense mechanisms. #TickBorneDiseases #ViralPathogenesis",
+        "strategic_value": "- The discovery of Powassan virus (POWV) infection in the male reproductive tract and the significant role of phagocytic cells in limiting viral spread identify a novel aspect of POWV pathogenesis.\n- This research underscores the need for a comprehensive understanding of viral tropism and host immune responses, particularly for emerging or re-emerging tick-borne pathogens with increasing prevalence.\n- * **Consulting Pivot:** Propose an in silico simulation project to model POWV infection dynamics within the male reproductive tract, including host-pathogen interactions and the role of immune cell subsets, to identify potential therapeutic targets or inform vaccine design against this emerging viral threat.",
+        "co_bidding_opportunity": "No direct co-bidding opportunity is identified based solely on the provided text. The study was funded by NIAID, UTMB Health Institute, and NIH. This indicates potential for future grant applications or research collaborations aligned with these agencies' priorities in emerging infectious diseases and reproductive health impacts of viral infections.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This research is directly relevant to Canadian public health concerns regarding tick-borne diseases, which are increasing in prevalence. Digital modeling of pathogen behavior and host response contributes to national infectious disease surveillance and preparedness strategies.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
     {
       "source": "Canada_CanadaBuys_Procurement",
       "title": "Grounds Maintenance",
@@ -34,53 +115,8 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)",
+      "trade_agreements": "North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)",
       "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Addressing viral genomic variability towards developing a Cas13b-based therapy",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.16.739033v1?rss=1",
-      "date": "2026-07-17T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🧬 Viral genomic variability is a major hurdle for CRISPR-Cas13b therapies, but new research is showing how tailored crRNA design can overcome these challenges! This is a game-changer for antiviral development. #CRISPR #Antiviral #GenomicVariability",
-        "strategic_value": "- This preprint highlights the critical challenge of viral genomic diversity limiting the efficacy of advanced antiviral tools like CRISPR-Cas13b, particularly for highly variable pathogens like HBV, signaling a need for precision in therapeutic design.\n- The findings underscore the potential for computational biology and in silico modeling to predict and address mismatches between guide RNAs and viral targets, optimizing crRNA design for broader efficacy across genotypes.\n- * **Consulting Pivot:** Offer virtual pathogen modeling and computational biology services to simulate viral evolution and predict Cas13b efficacy across diverse viral genotypes, accelerating the development of robust, variant-proof antiviral therapies for high-priority pathogens.",
-        "co_bidding_opportunity": "This research, funded by mRNA Victoria (an Australian entity), indicates a strong academic interest in developing advanced RNA-based therapies. Opportunities exist for specialist SME subcontracting in computational biology and bioinformatics to support research consortia focused on precision antiviral design.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This aligns with Canada's long-term strategic focus on biotechnology innovation and public health preparedness, specifically in developing advanced therapeutics for infectious diseases. Computational modeling tools are essential for accelerating drug discovery, vaccine design, and mitigating viral escape, thereby addressing key public health challenges and securing funding for cutting-edge biotech solutions.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Ocular community state types reveal distinct microbial compositions among microbiomes with implications for trachoma control",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.16.738988v1?rss=1",
-      "date": "2026-07-17T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "👁️ New insights into the ocular microbiome! Researchers have identified distinct 'Community State Types' (CSTs) linked to trachoma severity, offering novel pathways for prevention and treatment beyond traditional antibiotics. #Microbiome #Trachoma #PublicHealth",
-        "strategic_value": "- The identification of distinct ocular Community State Types (CSTs) provides a crucial foundation for understanding trachoma pathogenesis and identifying microbial candidates for novel therapeutics, moving beyond antibiotic reliance.\n- This research opens opportunities for advanced computational modeling to simulate complex microbial interactions within the ocular microbiome, predict the impact of different CSTs on Chlamydia trachomatis infection, and evaluate potential probiotic or targeted antimicrobial interventions.\n- * **Consulting Pivot:** Propose the development of custom virtual microbiome simulation platforms to model ocular microbial ecosystems, predict the efficacy of novel microbial therapeutics (e.g., competitive exclusion, biofilm inhibition) against trachoma, and inform public health intervention strategies.",
-        "co_bidding_opportunity": "The study was funded by the National Institute of Allergy and Infectious Diseases (NIAID). While a US entity, the global health implications of trachoma control suggest potential for international collaborations. Opportunities exist for specialized subcontracts in advanced bioinformatics and computational modeling to support public health programs and academic research networks focused on infectious disease epidemiology and microbiome-based interventions.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This aligns with Canadian public health procurement priorities in global health, particularly in combating neglected tropical diseases and exploring innovative, non-antibiotic solutions for infectious diseases. Developing in silico tools for microbiome analysis and intervention design supports both academic funding for cutting-edge research and eventual procurement of advanced public health solutions.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Bravo! A Mosquito Antiviral Protein that Restricts Arboviruses through an RRM3-Dependent Nuclear Mechanism",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.16.739008v1?rss=1",
-      "date": "2026-07-17T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🦟 Bravo! Meet the mosquito protein 'CqBravo' – a powerful antiviral factor restricting arboviruses like La Crosse and Usutu virus! Understanding these natural defenses is key to next-gen vector control. #Arboviruses #MosquitoImmunity #VectorControl",
-        "strategic_value": "- This preprint identifies CqBravo as a critical mosquito antiviral protein, offering novel insights into insect immunity against arboviruses and presenting potential targets for innovative vector control strategies.\n- The detailed analysis of CqBravo's nuclear mechanism and the role of its RRM3 motif provides a rich dataset for computational biology to model protein-virus interactions and identify leverage points for disrupting viral replication in vectors.\n- * **Consulting Pivot:** Offer in silico simulation and computational biology services to model the molecular interactions of CqBravo with arboviruses and mosquito host proteins, accelerating the identification of drug targets or gene-editing strategies for enhanced vector-borne disease control.",
-        "co_bidding_opportunity": "Funded by the National Institute of Allergy and Infectious Diseases (NIAID) and National Institute on Aging (NIA), this research highlights ongoing investment in understanding vector-borne diseases. Partnership opportunities could involve collaborating with research institutions on computational modeling for vector-borne disease dynamics or contributing specialized expertise to public health agencies developing new vector control methods.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This aligns with Canadian public health and academic funding priorities addressing vector-borne diseases, which are increasingly relevant due to climate change. Utilizing advanced in silico simulation and computational biology tools to understand vector immunity and viral restriction mechanisms supports both preventative public health strategies and the development of new biotechnological solutions, securing funding for research and development.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
@@ -206,7 +242,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)",
       "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
@@ -311,27 +347,6 @@
           "source_name": "NRC Collaborative Science & Technology Program",
           "page_range": "Page 2",
           "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        }
-      }
-    },
-    {
-      "source": "Canada_PHAC_AMR",
-      "title": "US public health agency concludes hantavirus response as outbreak eases - Al Jazeera",
-      "link": "https://www.aljazeera.com/news/2026/6/24/us-public-health-agency-concludes-hantavirus-response-as-outbreak-eases",
-      "date": "2026-06-24T20:47:40Z",
-      "insight": {
-        "linkedin_hook": "Hantavirus outbreak concludes: The CDC's swift response to the Andes virus highlights critical needs in global pathogen tracking. 🚢🔬 How can predictive simulation elevate our readiness for the next viral threat?",
-        "strategic_value": "- This outbreak, involving the rare Andes hantavirus strain with human-to-human transmission, underscores the urgent need for advanced virtual pathogen modeling to predict and contain novel viral threats.\n- Computational biology tools could have simulated the Andes virus's transmission pathways, identifying high-risk contact scenarios and informing public health interventions before an outbreak escalates.\n- * **Consulting Pivot:** Propose a custom in silico simulation platform to PHAC, leveraging their infectious disease modeling funding [Fact ID: 1002] to develop predictive models for rare zoonotic spillover events and human-to-human transmission vectors, specifically for emerging hantavirus strains.",
-        "co_bidding_opportunity": "The successful international response, involving the US CDC, ASPR, foreign governments, monitoring services, and the healthcare system, signals a precedent for future collaborative pathogen surveillance and response consortia. Canadian firms specializing in pathogen simulation could align with PHAC to participate in or support such international networks.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "The conclusion of the hantavirus outbreak response emphasizes the critical need for advanced infectious disease simulation and predictive modeling, directly aligning with PHAC's dedicated funding for infectious disease simulation modeling under the Infectious Disease Laboratory Network [Fact ID: 1002].",
-        "grounded_fact_ids": [
-          1002
-        ],
-        "anchor_reference": {
-          "source_name": "PHAC Laboratory Biosafety Guidelines",
-          "page_range": "Page 15",
-          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
         }
       }
     },
