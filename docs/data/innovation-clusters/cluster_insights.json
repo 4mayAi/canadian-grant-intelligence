@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-07-19T15:04:12.950554Z",
-  "linkedin_post": "🚀 **Canada's industrial policies are unlocking high-value tech integration opportunities across defense, space exploration, and digital health.**\n\n[CAE](https://www.cae.com/) and Saab’s new partnership on Gripen training leverages Canada's Industrial and Technological Benefits (ITB) policy to build a localized simulation ecosystem. Regional simulation developers and telemetry firms should target this immediately to supply custom cognitive-load tracking and localized synthetic environment layers to the primes.\n\nThe [Canadian Space Agency](https://www.asc-csa.gc.ca/)'s new deep-space health research grant cycle, alongside active space tenders closing July 27, highlights a surge in federal bio-telemetry funding. Medical software developers and IoT startups should secure partnerships now to build edge-compute biosensor pipelines that translate deep-space telemetry into terrestrial healthcare systems.\n\nBrightshores Health System's regional rollout of [Digital Supercluster](https://digitalsupercluster.ca/)-co-funded AI wound care technology marks a major scale-up in integrated care networks. Healthcare IT consultants and systems integrators must focus on developing custom EMR API adapters and data normalization pipelines to support this regional compliance rollout.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n\n#DefenseIndustry #DigitalHealth #SpaceTech #IndustrialStrategy #B2BGrowth\n\n### Featured News & Sources\n- [CAE and Saab agree Gripen training and mission support framework for Canada, linking fighter offer to local industrial capability - Defence Industry Europe](https://defence-industry.eu/cae-and-saab-agree-gripen-training-and-mission-support-framework-for-canada-linking-fighter-offer-to-local-industrial-capability/) (SpaceDef Industry)\n- [Canadian Space Agency launches next health cycle research grant opportunity for deep-space missions - SpaceQ](https://spaceq.ca/canadian-space-agency-launches-next-health-cycle-research-grant-opportunity-for-deep-space-missions/) (SpaceDef CSA)\n- [Computer Aided Dispatch Replacement](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-250-52228085) (Protein Industries Canada CanadaBuys)\n- [RCAF SARTech GPS Watches](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-63-96632964) (Protein Industries Canada CanadaBuys)\n- [Brightshores to lead regional rollout of AI wound care technology](https://digitalsupercluster.ca/brightshores-to-lead-regional-rollout-of-ai-wound-care-technology/?utm_source=rss&utm_medium=rss&utm_campaign=brightshores-to-lead-regional-rollout-of-ai-wound-care-technology) (DIGITAL)\n",
+  "generated_at": "2026-07-20T15:06:14.456307Z",
+  "linkedin_post": "🇨🇦 **Canada’s innovation ecosystem is rapidly scaling across space, defense, and digital health, signaling massive B2B integration opportunities.**\n\nSwedish defense giant Saab and [CAE](https://www.cae.com/)'s new partnership to establish Canadian Gripen E pilot training demands high-fidelity flight simulators and secure software architectures. Subcontractors specializing in ARINC 661 compliance, MIL-STD-1553 protocols, or real-time telemetry processing should immediately pitch custom simulator integration services to secure downstream development contracts.\n\nBacked by federal cluster [Digital Supercluster](https://digitalsupercluster.ca/), Brightshores Health System is scaling its AI-driven clinical wound care platform across Ontario to ensure care continuity and standardized clinical data capture. Healthtech consultants and cloud architecture specialists should focus on delivering custom API adapters and localized EHR data normalization layers to align with the Connected Care for Canadians Act.\n\nAdditionally, as the [Canadian Space Agency](https://www.asc-csa.gc.ca/) pumps grassroots funding into satellite engineering, critical federal procurements—such as the Martian Atmospheric Gas Evolution project closing July 27, 2026—demand highly specialized hardware. Academic labs and custom sensor manufacturers should aggressively position themselves to supply secondary analytical instrumentation and testing software.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n\n#DefenseTech #HealthTech #SpaceQ #B2B #CanadaInnovation\n\n### Featured News & Sources\n- [Grassroots space projects get Canadian Space Agency funding to train Canada's next space generation - SpaceQ](https://spaceq.ca/grassroots-space-projects-get-canadian-space-agency-funding-to-train-canadas-next-space-generation/) (SpaceDef CSA)\n- [Does Saab's New Gripen Agreement With Canada's CAE Have Any Significance for Ukraine? - Defense Express](https://en.defence-ua.com/industries/does_saabs_new_gripen_agreement_with_canadas_cae_have_any_significance_for_ukraine-19189.html) (SpaceDef Industry)\n- [Computer Aided Dispatch Replacement](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-250-52228085) (Protein Industries Canada CanadaBuys)\n- [RCAF SARTech GPS Watches](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-63-96632964) (Protein Industries Canada CanadaBuys)\n- [Brightshores to lead regional rollout of AI wound care technology](https://digitalsupercluster.ca/brightshores-to-lead-regional-rollout-of-ai-wound-care-technology/?utm_source=rss&utm_medium=rss&utm_campaign=brightshores-to-lead-regional-rollout-of-ai-wound-care-technology) (DIGITAL)\n",
   "insights": [
+    {
+      "source": "SpaceDef_CSA",
+      "title": "Grassroots space projects get Canadian Space Agency funding to train Canada's next space generation - SpaceQ",
+      "link": "https://spaceq.ca/grassroots-space-projects-get-canadian-space-agency-funding-to-train-canadas-next-space-generation/",
+      "date": "2026-07-20T11:14:00Z",
+      "insight": {
+        "linkedin_hook": "🚀 Investing in Canada's future space leaders! The Canadian Space Agency is funding grassroots projects to train the next generation of space talent. This isn't just about rockets; it's about cultivating a deep pipeline of specialized skills for a booming sector. #CanadaSpace #NextGenTech",
+        "strategic_value": "* The Canadian Space Agency (CSA) is strategically investing in grassroots space projects to cultivate Canada's next generation of space professionals, signaling a long-term commitment to human capital development in the sector.\n* This initiative targets foundational skills and practical experience across various space technologies, encompassing everything from small satellite design and payload integration to ground station operations and space data analytics, requiring expertise in embedded systems, RF communication, and mission control software.\n* **Consulting Pivot:** Offer specialized educational software licenses, virtual simulation environments for CubeSat missions, or develop custom curriculum modules on space systems engineering and data processing for educational institutions participating in these funded projects, building future market relationships.",
+        "co_bidding_opportunity": "Academic institutions, STEM education providers, non-profit space advocacy groups, and small hardware/software developers catering to educational markets could form consortiums to deliver these grassroots projects.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This aligns with the long-term need for skilled professionals to develop and operate advanced digital space technologies and leverage satellite data, crucial for any space industry anchor.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "SpaceDef_Industry",
+      "title": "Does Saab's New Gripen Agreement With Canada's CAE Have Any Significance for Ukraine? - Defense Express",
+      "link": "https://en.defence-ua.com/industries/does_saabs_new_gripen_agreement_with_canadas_cae_have_any_significance_for_ukraine-19189.html",
+      "date": "2026-07-20T00:06:55Z",
+      "insight": {
+        "linkedin_hook": "✈️ Canada's aerospace sector just landed a major win! Saab and CAE's new MoU for Gripen pilot training and sovereign capability development is a game-changer. This isn't just about jets; it's about bolstering Canada's defense industrial base and opening doors to global opportunities, potentially even for Ukraine. #Aerospace #DefenseTech #CanadaInnovation",
+        "strategic_value": "* Swedish defense giant Saab and Canada's CAE have signed an MoU to establish comprehensive Gripen E pilot training and aircraft support capabilities in Canada, pending fighter selection, positioning Canada as a critical hub for advanced defense training with potential international reach.\n* This initiative specifically targets the development of mission-specific simulators, secure software, and management of sensitive information, demanding high-fidelity simulation environments, robust cybersecurity frameworks, and advanced real-time data processing capabilities compatible with military aviation standards (e.g., ARINC 661, MIL-STD-1553).\n* **Consulting Pivot:** Offer specialized cybersecurity consulting services for the new 'center of critical sovereign capability' to ensure compliance with national and international defense data security protocols, or provide niche software development expertise for integrating secondary telemetry processing units into CAE's mission-specific simulators.",
+        "co_bidding_opportunity": "CAE, as the potential operator of the training system, would require sub-contractors or partners specializing in software development (for high-security activities), cybersecurity specialists, systems integrators for simulation platforms, and potentially logistics contractors for equipment and infrastructure support.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This initiative directly enhances Canada's digital defense capabilities, providing advanced simulation and training technology that aligns with the need for cutting-edge digital infrastructure and data security in the aerospace and defense sector.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
     {
       "source": "SpaceDef_Industry",
       "title": "CAE and Saab agree Gripen training and mission support framework for Canada, linking fighter offer to local industrial capability - Defence Industry Europe",
@@ -131,7 +161,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)",
+      "trade_agreements": "Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)",
       "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
@@ -182,6 +212,21 @@
           "page_range": "Page 11",
           "url": "https://digitalsupercluster.ca/category/news/"
         }
+      }
+    },
+    {
+      "source": "CanTech_BetaKit",
+      "title": "Banff Venture Forum ends 25-year run as new capital summit emerges - BetaKit",
+      "link": "https://betakit.com/banff-venture-forum-ends-25-year-run-as-new-capital-summit-takes-it-place/",
+      "date": "2026-07-16T17:57:13Z",
+      "insight": {
+        "linkedin_hook": "🇨🇦 Big shifts in Canada's innovation ecosystem: The iconic Banff Venture Forum is sunsetting after 25 years to make way for the Banff Capital Summit, targeting the entire capital stack for energy, space, and defence. Here is how B2B providers can position themselves ⬇️",
+        "strategic_value": "* **Financial and Policy Context:** The transition of the Banff Venture Forum into the Banff Capital Summit (BCS) in October 2026 marks a systemic shift in Western Canada's funding landscape from pure venture capital to the broader capital stack (including private equity, credit, and bank financing) required to scale capital-intensive hardware and infrastructure.\n* **Technological Target:** With high-profile participation from the 3 Canadian Space Division and planetary health funds, dual-use technology developers in Alberta must align with rigorous defense standards (such as NATO STANAG data protocols, Controlled Goods Program compliance, and CCSDS telemetry standards) alongside clean energy transition frameworks.\n* **Consulting Pivot:** Propose a technical due diligence and secondary compliance auditing service for private equity and credit providers attending BCS, offering localized regulatory screening (such as Controlled Goods certification and local ESG data layers) to de-risk late-stage capital deployments in Alberta's emerging space, defence, and energy sectors.",
+        "co_bidding_opportunity": "Under a Prime-Tracking strategy for the summit's space and defence stream, a standard consortium would consist of a global aerospace prime contractor acting as the lead partner, a specialized regional SME providing localized telemetry processing and custom analytics adapters, and a compliance auditor specializing in Canadian Controlled Goods registration to secure sovereign data pipelines.",
+        "mets_category": "METS-PMO",
+        "mets_rationalization": "The transition of Alberta's preeminent innovation summit to focus on the full capital stack, debt, and credit solutions directly addresses the long-term project bankability of heavy-asset METS operations. Accessing late-stage private equity and credit is crucial for scaling energy transition assets and capital-intensive aerospace infrastructure.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
       }
     },
     {
@@ -349,21 +394,6 @@
         "co_bidding_opportunity": "Opportunities exist for partners with expertise in AI ethics and responsible AI development, data privacy and security for sovereign infrastructure, MLOps platform providers, and specialized industry domain experts to mentor and guide startups in specific vertical applications.",
         "mets_category": "METS-Digital",
         "mets_rationalization": "This collaboration directly supports Canada's long-term goal of fostering a vibrant, sovereign AI ecosystem, ensuring Canadian AI leadership and the domestic retention of economic benefits through strategic support for startups and access to critical digital infrastructure.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "SpaceDef_CSA",
-      "title": "MDA Space (TSX:MDA) Is Down 18.8% After Securing US$688 Million RADARSAT Replenishment Contract – Has The Bull Case Changed? - simplywall.st",
-      "link": "https://simplywall.st/stocks/ca/capital-goods/tsx-mda/mda-space-shares/news/mda-space-tsxmda-is-down-188-after-securing-us688-million-ra",
-      "date": "2026-07-13T00:56:16Z",
-      "insight": {
-        "linkedin_hook": "🚀 MDA Space just locked in a US$688M win, but the market is reacting to dilution. Here is how your firm can capture the downstream value.",
-        "strategic_value": "* The RADARSAT replenishment contract solidifies Canada's sovereign Earth observation strategy, requiring integration with the CHORUS synthetic aperture radar (SAR) platform.\n* This project creates an immense data output, mandating high-throughput storage, cloud-native telemetry processing, and automated spatial analytics to meet federal security and environmental monitoring KPIs.\n* **Consulting Pivot:** Position your firm to deliver secondary telemetry processing adapters and regional compliance auditing software, allowing primes to offload the heavy lifting of raw data standardization for sub-tier government contractors.",
-        "co_bidding_opportunity": "Consortium needs: AI/Machine Learning SMEs for satellite imagery classification, Cloud Infrastructure architects for data-lake management, and Geospatial Data Analysts for Arctic monitoring applications.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "The contract necessitates advanced remote sensing capabilities, which are core to the METS-Digital anchor for satellite-based resource tracking and security.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
@@ -745,6 +775,21 @@
       }
     },
     {
+      "source": "ProteinIndustries_FoodSecurity",
+      "title": "Belanger enthused by launch of National Food Security Strategy - SaskToday.ca",
+      "link": "https://www.sasktoday.ca/provincial-news/belanger-enthused-by-launch-of-national-food-security-strategy-12500112",
+      "date": "2026-07-02T07:00:00Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Insight generation failed or blocked: Unknown reason",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
       "source": "ProteinIndustries_News",
       "title": "Crush Dynamics and Atomic47 Labs to Build Real-Time AI Fermentation Monitoring System With Federal Backing - Cultivated X",
       "link": "https://cultivated-x.com/manufacturing-technology/crush-dynamics-atomic47-labs-build-real-time-ai-fermentation-monitoring-system-federal-backing/",
@@ -776,27 +821,6 @@
         "co_bidding_opportunity": "Consortium formation involving the Central Okanagan Food Bank (COFB), local agricultural producers/growers, and cold-storage infrastructure contractors to execute Phase 1 and Phase 2 facility buildouts.",
         "mets_category": "METS-Ops",
         "mets_rationalization": "This project funds the physical cold storage, refrigeration machinery, and agricultural crop harvesting equipment necessary to secure and extend the lifespan of local food supply chains, aligning with PIC's focus on domestic processing and supply infrastructure.",
-        "grounded_fact_ids": [
-          500
-        ],
-        "anchor_reference": {
-          "source_name": "PIC Supply Chain Program Guide 2025",
-          "page_range": "Page 2",
-          "url": "https://www.proteinindustriescanada.ca/supply-chain"
-        }
-      }
-    },
-    {
-      "source": "ProteinIndustries_FoodSecurity",
-      "title": "Parliamentary Secretary Church highlights launch of National Food Security Strategy - Yahoo! Finance Canada",
-      "link": "https://ca.finance.yahoo.com/news/parliamentary-secretary-church-highlights-launch-193900194.html",
-      "date": "2026-06-30T19:39:00Z",
-      "insight": {
-        "linkedin_hook": "Canada just launched a $3 BILLION National Food Security Strategy! 🇨🇦 This massive investment aims to boost domestic food production, processing, and year-round cultivation, creating significant opportunities across the agri-food sector. #FoodSecurity #AgriTech",
-        "strategic_value": "*   The Canadian government's $3 billion National Food Security Strategy, with dedicated funds like the Agri-food Project Finance Fund and Collaborative Food Innovation Fund, directly addresses the need to bolster domestic processing and reduce reliance on imported plant protein ingredients, aligning perfectly with Protein Industries Canada's 'Strengthening the Canadian Supply Chain' program (Fact ID: 500). \n*   This initiative targets significant investment in expanding processing capacity for agricultural inputs and diversifying local food production, requiring advanced food processing technologies (e.g., protein extraction/fractionation, extrusion systems, fermentation technologies) and integrated supply chain optimization software (e.g., ERP systems with food traceability modules, IoT-enabled process monitoring). \n*   **Consulting Pivot:** Target independent grocers and new food terminals/hubs with custom analytics adapters for inventory optimization and regional compliance auditing services for new processing facilities, ensuring seamless integration with existing federal and provincial regulatory frameworks. Subcontract integration for global prime contractors developing large-scale vertical farms or greenhouses is also a strong play.",
-        "co_bidding_opportunity": "Food infrastructure developers (for terminals/hubs), advanced processing equipment manufacturers, software integrators (for supply chain solutions), agritech solution providers (for greenhouses/vertical farms), regulatory compliance experts.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "This strategy directly supports Protein Industries Canada's mandate to strengthen the Canadian supply chain and reduce reliance on imports (Fact ID: 500) by funding infrastructure, processing facilities, and year-round production. It creates a market for operational technology and services that enable this expansion.",
         "grounded_fact_ids": [
           500
         ],
@@ -988,64 +1012,6 @@
           "source_name": "NGen Project Application Guide 2025",
           "page_range": "Page 4",
           "url": "https://www.ngen.ca/project-guide"
-        }
-      }
-    },
-    {
-      "source": "SpaceDef_Industry",
-      "title": "CAE to boost GlobalEye training provision on back of Saab partnership for Canada - FlightGlobal",
-      "link": "https://www.flightglobal.com/defence/2026/06/cae-to-boost-globaleye-training-provision-on-back-of-saab-partnership-for-canada/",
-      "date": "2026-06-22T14:19:20Z",
-      "insight": {
-        "linkedin_hook": "✈️ Training for the future: CAE’s partnership with Saab brings advanced mission training to the forefront of Canadian aerospace strategy.",
-        "strategic_value": "* The collaboration targets GlobalEye airborne surveillance training, signifying a move toward high-fidelity simulation for multi-domain mission readiness.\n* The required software stack involves high-performance synthetic environments that replicate radar, sensor, and electronic warfare data inputs.\n* **Consulting Pivot:** Develop secondary telemetry processing modules that ingest training simulation data to offer performance analytics for training facility managers and pilot certification programs.",
-        "co_bidding_opportunity": "Aviation simulation specialists, sensor data processing experts, and defense-sector training software developers.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Simulation and training platforms are the software layer for complex METS-Ops equipment, enabling remote operations and operator proficiency.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "ScaleAI_Ecosystem_News",
-      "title": "Scale AI's Mission to VivaTech 2026: Strengthening Multinational Partnerships With Trusted Allies - Newswire Canada",
-      "link": "https://www.newswire.ca/news-releases/scale-ai-s-mission-to-vivatech-2026-strengthening-multinational-partnerships-with-trusted-allies-841571071.html",
-      "date": "2026-06-19T18:15:00Z",
-      "insight": {
-        "linkedin_hook": "🚀 Scale AI just showcased 100+ Canadian AI champions in Paris—here is how enterprises can leverage this global momentum to co-fund advanced Agentic AI integrations back home.",
-        "strategic_value": "* Scale AI's high-profile mission to VivaTech 2026 aligns with Canada's sovereign AI strategy, promoting exportable B2B technologies backed by robust diplomatic and financial support for collaborative enterprise deployments.\n* The primary technological target requires the orchestration of Large Language Models (such as Cohere) with Agentic AI systems for complex document processing (such as Zetane) and knowledge transfer, secured by localized data-security software stacks (such as Qohash).\n* **Consulting Pivot:** Propose a 'Scale AI Consortium Advisory' service that helps major industrial operators partner with leading Canadian LLM and agentic AI developers to build qualifying supply chain automation projects, leveraging Scale AI's 50% co-investment matching to offset integration costs.",
-        "co_bidding_opportunity": "Under Scale AI's collaborative guidelines, organizations can form a project consortium by partnering with exact roles identified in the mission: Large Language Model (LLM) developers, industrial AI software providers, precision agriculture technology specialists, agentic AI developers for complex document processing, and AI data security vendors.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This signal details the global commercialization of Canadian software solutions, specifically LLMs, agentic AI, and industrial AI. These digital systems are highly relevant to Scale AI's core mandate of funding AI-driven digital transformations in supply chains through co-investment matching.",
-        "grounded_fact_ids": [
-          200
-        ],
-        "anchor_reference": {
-          "source_name": "Scale AI Program Guidelines 2026",
-          "page_range": "Page 8",
-          "url": "https://www.scaleai.ca/guidelines"
-        }
-      }
-    },
-    {
-      "source": "ScaleAI_News",
-      "title": "Scale AI’s Mission to Vivatech 2026: Strengthening Multinational Partnerships With Trusted Allies",
-      "link": "https://www.scaleai.ca/scale-ais-mission-to-vivatech-2026/",
-      "date": "2026-06-19T17:39:43Z",
-      "insight": {
-        "linkedin_hook": "🚀 Canadian AI is scaling globally! Over 100 firms just showcased agentic AI and industrial tech at VivaTech 2026. Is your startup ready to join the next consortium?",
-        "strategic_value": "* Scale AI provides up to 50% co-investment matching for projects involving collaborative AI integration in supply chains, with a minimum spend of CAD $1M.\n* The current focus is on agentic AI for industrial environments and precision digital solutions (e.g., OmniVisor AI) that align with international exportability standards.\n* **Consulting Pivot:** Position your firm to offer 'integration middleware' or 'localization adapters' for Canadian industrial AI providers looking to bridge their solutions into European and multinational enterprise environments, leveraging the matchmaking capacity of the SCALE AI ecosystem.",
-        "co_bidding_opportunity": "Consortia are required to include at least one Canadian SME partner. Opportunities exist for AI software developers (agentic AI, predictive analytics), academic research labs, and industrial engineering firms to partner with Scale AI-recognized champions like ZeroKey or Vooban to meet the $1M project threshold.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "The signal highlights the international deployment of Canadian industrial AI, which is a core focus for Scale AI funding and collaborative development.",
-        "grounded_fact_ids": [
-          200,
-          201
-        ],
-        "anchor_reference": {
-          "source_name": "Scale AI Program Guidelines 2026",
-          "page_range": "Page 8",
-          "url": "https://www.scaleai.ca/guidelines"
         }
       }
     }
