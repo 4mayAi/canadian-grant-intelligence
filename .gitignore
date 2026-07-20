@@ -21,8 +21,7 @@ scratch/
 scratch.py
 *.tmp
 
-# Local subscriber profiles (profiles live in Azure Blob Storage)
-subscriber_profiles.json
+# Local subscriber profiles (local temporary overrides)
 subscriber_profiles_local.json
 
 # System & OS Files

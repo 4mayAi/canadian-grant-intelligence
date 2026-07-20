@@ -1,0 +1,24 @@
+[
+  {
+    "subscriber_id": "mayai_market_intelligence",
+    "name": "Mayai Market Intelligence",
+    "email": "rutlimeadows@gmail.com",
+    "keywords": [
+      "database",
+      "spreadsheet",
+      "dashboard",
+      "analytics",
+      "market research",
+      "pipeline",
+      "software",
+      "consulting"
+    ],
+    "capabilities": "Development of relational database-spreadsheet hybrids (Airtable, SmartSuite, Baserow), custom SQL/NoSQL data integration pipelines, and federal procurement market research.",
+    "target_organizations": [
+      "Shared Services Canada",
+      "Canada Revenue Agency",
+      "National Research Council",
+      "Farm Credit Canada"
+    ]
+  }
+]

@@ -11,16 +11,27 @@ class ProfileMatcher:
         self.notifier = notifier
 
     def load_profiles(self, blob_name: str = "subscriber_profiles.json") -> List[Dict[str, Any]]:
-        """Loads subscriber profiles from Azure Blob Storage."""
-        if not self.azure_client:
-            logging.warning("Azure client unavailable. Cannot load subscriber profiles.")
-            return []
+        """Loads subscriber profiles from Azure Blob Storage with local fallback."""
+        if self.azure_client:
+            data = self.azure_client.download_json(blob_name)
+            if isinstance(data, list) and len(data) > 0:
+                logging.info(f"Loaded {len(data)} subscriber capability profiles from Azure ({blob_name}).")
+                return data
         
-        data = self.azure_client.download_json(blob_name)
-        if isinstance(data, list):
-            logging.info(f"Loaded {len(data)} subscriber capability profiles from Azure ({blob_name}).")
-            return data
-        logging.info("No subscriber capability profiles found in Azure Blob Storage.")
+        # Fallback to local configs folder if Azure blob is absent or empty
+        try:
+            engine_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+            local_path = os.path.join(engine_root, "configs", blob_name)
+            if os.path.exists(local_path):
+                with open(local_path, "r", encoding="utf-8") as f:
+                    local_data = json.load(f)
+                    if isinstance(local_data, list) and len(local_data) > 0:
+                        logging.info(f"Loaded {len(local_data)} subscriber profiles from local config fallback: {local_path}")
+                        return local_data
+        except Exception as e:
+            logging.warning(f"Failed to load local subscriber profiles fallback: {e}")
+
+        logging.info("No subscriber capability profiles found in Azure Blob Storage or local fallback.")
         return []
 
     def _tender_matches_keywords(self, tender: Dict[str, Any], keywords: List[str]) -> bool:
