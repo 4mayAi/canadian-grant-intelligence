@@ -417,7 +417,7 @@ class GeminiClient:
         Write a single LinkedIn post (MAX 250 words) that summarizes today's updates. 
  
         {date_str}Rules:
-        - Open with a bold, attention-grabbing hook line (use an emoji at the start)
+        - Open with a clear, engaging headline (MAX 12 words) with a relevant emoji at the start. Write in plain, active language that reads naturally on mobile screens, avoiding awkward punctuation or dense banking jargon.
         - Bridge political/policy context with actionable business opportunities
         - Highlight the 2-3 most impactful items from the news (and active tenders, if provided) below
         - For each highlight, include ONE actionable sentence about who should pay attention and why
