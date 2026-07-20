@@ -1,185 +1,18 @@
 {
-  "generated_at": "2026-07-20T20:57:53.490087Z",
-  "linkedin_post": "The federal procurement landscape is shifting as mid-summer tenders target critical defense readiness and vital civil infrastructure. Organizations should monitor these developments closely to align with ongoing government modernization mandates.\n\nFrontline technology is in the spotlight with a new RFP for specialized communications equipment targeting UAV systems. If your firm provides tactical communication hardware, focus on aligning with existing Supply Arrangement holders to provide specialized signal processing expertise rather than pursuing a standalone bid.\n\nStrategic infrastructure projects are also moving forward, notably the Stage 1 tender for the Esson Lake Dam replacement. Engineering and environmental firms should look to partner with general contractors by offering specialized simulations and regulatory compliance support to bolster their Stage 2 proposals.\n\nNational defense logistics remain a priority, underscored by new requirements for inert M6 blasting caps and DND-specific procurement roles in Nova Scotia. Suppliers must ensure strict adherence to Controlled Goods Program regulations to remain competitive in these sensitive operational categories.\n\nFinally, Elections Canada is securing high-volume signage for the upcoming cycle, emphasizing domestic manufacturing capacity. Manufacturers with strong regional logistics should engage early to capture fulfillment opportunities as the procurement lifecycle accelerates.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n#CanadaProcurement #GovernmentContracting #DefenceTech #Infrastructure #MayAi\n\n### Featured News & Sources\n- [Specialized Communication Equipment and Services](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-126-64565337) (CanadaBuys)\n- [TSPS – One (1) Procurement Specialist, Intermediate (Enfield Region - Nova Scotia).](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-259-21727977) (CanadaBuys)\n- [Stage 1 - Replacement of Esson Lake Dam, Ontario Waterways](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-286-18568046) (CanadaBuys)\n- [Practice Inert Electric M6 Blasting Cap](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-659-21972003) (CanadaBuys)\n- [Yellow Lawn Sign](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-209-86505128) (CanadaBuys)\n",
+  "generated_at": "2026-07-20T18:38:08.915783Z",
+  "linkedin_post": "✈️ Canada's aerospace and defence sectors are at a critical inflection point this week. As a federal delegation hits the Farnborough International Airshow, the focus is squarely on global investment and securing our position in advanced manufacturing, satellite tech, and dual-use propulsion systems. Executives should prioritize aligning R&D roadmaps with these export-driven international mandates to ensure their technology stack meets emerging NATO interoperability requirements.\n\nSimultaneously, the defence landscape is shifting following Prime Minister Carney’s announcement of a $2 billion investment in a new fleet of Armoured Combat Support Vehicles. With General Dynamics Land Systems-Canada leading the charge, this multi-year program aims to activate over 600 domestic suppliers. If your firm specializes in specialized armour, C4ISR components, or thermal imaging, now is the time to audit your positioning within the Tier 2 and Tier 3 supply chain for this generational hardware refresh.\n\nBeyond these strategic headlines, several procurement opportunities have emerged, including national heavy construction equipment rentals and specialized scientific instrumentation for Alberta-based research initiatives. Monitoring these granular solicitations is essential for maintaining consistent federal revenue streams during broader industrial scaling periods.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/\n\n#CanadianDefence #AerospaceCanada #DefenceProcurement #IndustrialStrategy #mayAi\n\n### Featured News & Sources\n- [Canada’s delegation at the Farnborough International Airshow to advance Canada’s aerospace industry, boost competitiveness and strengthen the economy](https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/canadas-delegation-at-the-farnborough-international-airshow-to-advance-canadas-aerospace-industry-boost-competitiveness-and-strengthen-the-economy.html) (ISED)\n- [Prime Minister Carney announces landmark partnership with General Dynamics Land Systems-Canada to build new fleet of armoured combat vehicles for the Canadian Armed Forces](https://www.pm.gc.ca/en/news/news-releases/2026/07/16/prime-minister-carney-announces-landmark-partnership-general-dynamics) (PMO)\n- [Canada and Republic of Korea sign memorandum of understanding to advance AI innovation and safety](https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/canada-and-republic-of-korea-sign-memorandum-of-understanding-to-advance-ai-innovation-and-safety.html) (ISED)\n- [Prime Minister Carney secures new defence partnerships at the 2026 NATO Summit](https://www.pm.gc.ca/en/news/news-releases/2026/07/08/prime-minister-carney-secures-new-defence-partnerships-2026-nato) (PMO)\n- [HEAVY CONTRUCTION EQUIPMENT RENTAL](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-604-41302770) (CanadaBuys)\n",
   "insights": [
-    {
-      "source": "CanadaBuys",
-      "title": "Specialized Communication Equipment and Services",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-126-64565337",
-      "date": "2026-07-20T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🚀 Is your tech ready for the frontline? New RFP alert for specialized communications equipment targeting UAV systems.",
-        "strategic_value": "* This RFP falls under Supply Arrangement #W6399-26-GE10, prioritizing existing pre-qualified vendors in the tactical communications and UAV space.\n* Procurement mandates focus on hardened, field-ready communication hardware that integrates with current Canadian federal digital security standards.\n* **Consulting Pivot:** Pivot to identifying existing Supply Arrangement holders who require specialized SMEs in UAV signal processing or field-testing support to fulfill the RFP requirements, rather than bidding as a standalone entity.",
-        "co_bidding_opportunity": "Consortium opportunities include: UAV hardware manufacturers, signals intelligence (SIGINT) integration specialists, or ruggedized communication field-service providers partnering with existing Supply Arrangement (SA) holders.",
-        "mets_category": "Defence Procurement",
-        "mets_rationalization": "The opportunity targets specialized communication and UAV hardware, aligning with DND's ongoing modernization of tactical and remote-operated communication assets.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-07-27T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "This requirement is a Request for Proposal (RFP) against Supply Arrangement # W6399-26-GE10. All Supply Arrangement holders will be e-mailed the RFP directly. If vendors outside of the Supply Arrangement are interested in submitting a proposal, they will have to qualify for the Supply Arrangement before they are given an opportunity to bid on this requirement. Please contact the Supply Arrangement Contracting Officer at PSPC to obtain the steps required to be considered for Supply Arrangement # ...",
-      "type": "New",
-      "organization": "Department of National Defence (DND)",
-      "solicitation_number": "W6399-27-TR05",
-      "notice_type": "RFP against Supply Arrangement",
-      "procurement_method": "Competitive - Selective tendering",
-      "selection_criteria": "",
-      "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)North American Free Trade Agreement (NAFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)",
-      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-    },
-    {
-      "source": "CanadaBuys",
-      "title": "TSPS – One (1) Procurement Specialist, Intermediate (Enfield Region - Nova Scotia).",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-259-21727977",
-      "date": "2026-07-20T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "💼 Strengthening Canada's defense supply chain: Procurement specialist role now open for Nova Scotia-based operations.",
-        "strategic_value": "* The Department of National Defence (DND) requires expertise in the Director of Quality Assurance (DQA) framework for large-scale Repair and Overhaul (R&O) projects.\n* The role demands deep knowledge of Material Management and inventory lifecycle software suites used to track military assets across the Canadian defense industrial base.\n* **Consulting Pivot:** Position your firm as a specialized staffing or management consulting partner that can provide the NQAA-compliant oversight personnel to larger prime contractors currently bidding on DND logistics and supply chain contracts.",
-        "co_bidding_opportunity": "Contractor-level partnership with prime defense R&O (Repair and Overhaul) service providers or logistics management firms serving DGMSSC requirements.",
-        "mets_category": "Defence Procurement",
-        "mets_rationalization": "Supports the DND material systems and supply chain mandate by providing specialized procurement oversight for critical defense infrastructure and assets.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-08-07T00:00:00Z",
-      "province": "Nova Scotia",
-      "province_abbrev": "NS",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "The Director of Quality Assurance (DQA) is the National Quality Assurance Authority (NQAA) for all National Defence procurement.  DQA is an integral part of the Director General Material Systems and Supply Chain (DGMSSC) and represents the NQAA for the delivery and implementation of Government Quality Assurance (GQA) and related support services to the Department of National Defence (DND) and other Government Departments. DQA requires one (1) Procurement Specialist, Intermediate, with experience...",
-      "type": "New",
-      "organization": "Department of National Defence (DND)",
-      "solicitation_number": "W6381-27-0008",
-      "notice_type": "RFP against Supply Arrangement",
-      "procurement_method": "Competitive - Selective tendering",
-      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade Agreement",
-      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-    },
-    {
-      "source": "CanadaBuys",
-      "title": "Stage 1 - Replacement of Esson Lake Dam, Ontario Waterways",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-286-18568046",
-      "date": "2026-07-20T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🏗️ Parks Canada infrastructure milestone: Two-stage tender launched for the Esson Lake Dam replacement.",
-        "strategic_value": "* This high-stakes infrastructure project requires rigorous Indigenous Participation Plans (IPP) and site-specific environmental compliance standards.\n* Technical requirements demand complex civil engineering capabilities for water-control infrastructure and adherence to federal public procurement laws for crown assets.\n* **Consulting Pivot:** Propose a partnership strategy to pre-qualified general contractors by providing specialized engineering simulations, regulatory compliance auditing, or Indigenous engagement facilitation to strengthen their Stage 2 bid proposal.",
-        "co_bidding_opportunity": "Consortiums involving specialized civil engineering firms, Indigenous community-led construction enterprises, and water-management technology consultants.",
-        "mets_category": "Infrastructure & Digital",
-        "mets_rationalization": "Represents a major capital infrastructure asset procurement for federal waterways, aligning with Crown corporation public works standards.",
-        "grounded_fact_ids": [
-          2
-        ],
-        "anchor_reference": {
-          "source_name": "Provincial Crown Corporations Procurement Guidelines",
-          "page_range": "General",
-          "url": "https://www.canada.ca/"
-        }
-      },
-      "closing_date": "2026-08-06T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "CNST",
-      "category_label": "Construction",
-      "description": "BIDS RECEIVED BY FAX AND EMAIL WILL BE ACCEPTED AS OFFICIAL. PARKS CANADA IS NOT CURRENTLY ACCEPTING BIDS VIA SAP ARIBA, YOU MUST SUBMIT YOUR BID VIA FAX OR EMAIL AS INDICATED IN THE SOLICITATION DOCUMENT.BIDS RECEIVED IN-PERSON OR BY COURIER WILL NOT BE ACCEPTED. The only acceptable email address for responses to the bid solicitation issoumissionsami-bidsrpc@pc.gc.ca. Bids submitted by email directly to the Contracting Authority or to any email address other than soumissionsami-bidsrpc@pc.gc.ca...",
-      "type": "New",
-      "organization": "Parks Canada Agency (PC)",
-      "solicitation_number": "5P468-26-0098/A",
-      "notice_type": "Invitation to Qualify",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Variations or combinations of the above methods",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Prime-Tracking (Pre-Qualification)"
-    },
-    {
-      "source": "CanadaBuys",
-      "title": "Practice Inert Electric M6 Blasting Cap",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-659-21972003",
-      "date": "2026-07-20T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🎯 Enhancing military readiness: New procurement call for inert training munitions.",
-        "strategic_value": "* This procurement focuses on standardizing training hardware for high-risk environments, specifically targeting 10,000 M6 training units.\n* The requirement necessitates adherence to Controlled Goods Program (CGP) regulations, ensuring all suppliers can handle and store military-spec simulation components.\n* **Consulting Pivot:** Focus on supply chain optimization consulting for this procurement—assist manufacturers in managing the logistical delivery schedule to CFAD facilities while maintaining strict inventory control compliance.",
-        "co_bidding_opportunity": "Manufacturing SMEs specialized in polymer or metal fabrication for inert munitions and specialized hazardous material logistics providers capable of delivering to CFAD depots.",
-        "mets_category": "Defence Procurement",
-        "mets_rationalization": "This project directly supports DND operational readiness and simulation training through the procurement of essential military-standard training hardware.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-09-03T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "NOTICE OF PROPOSED PROCUREMENTCanada has a requirement for the items detailed below:GSIN: N1375 – Demolition MaterialsUNSPSC: 46101600 –AmmunitionDescription: Practice Inert Electric M6 Blasting CapA requirement exists to resupply Canada with the Practice Inert Electric M6 Blasting Cap. The Practice Inert Electric M6 Blasting Cap replicates the size, shape, and handling characteristics of a real detonator, but it contains no explosive or initiating components. The Practice Inert Electric M6 Blas...",
-      "type": "New",
-      "organization": "Department of National Defence (DND)",
-      "solicitation_number": "W8703-270039/A",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
     {
       "source": "ISED_News",
       "title": "Canada’s delegation at the Farnborough International Airshow to advance Canada’s aerospace industry, boost competitiveness and strengthen the economy",
       "link": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/canadas-delegation-at-the-farnborough-international-airshow-to-advance-canadas-aerospace-industry-boost-competitiveness-and-strengthen-the-economy.html",
-      "date": "2026-07-19T13:15:30Z",
+      "date": "2026-07-19T14:15:30Z",
       "insight": {
-        "linkedin_hook": "🇨🇦 Aerospace & Defence Alert: Canada is leveraging the Farnborough Airshow to roll out the new Canadian Defence Industrial Strategy. Are you positioned for the upcoming wave of localized procurement? ✈️",
-        "strategic_value": "* The federal government's unveiling of the new Canadian Defence Industrial Strategy at Farnborough signals a strict policy shift prioritizing domestic manufacturing, sovereign supply chains, and stringent Industrial and Technological Benefits (ITB) obligations for defence programs.\n* Future capital procurements in the aerospace and space domains will heavily reward bidders utilizing Canadian-developed software stacks, advanced materials, and autonomous avionics systems.\n* **Consulting Pivot:** Propose an ITB compliance and value-proposition alignment framework to international defence primes, helping them identify and integrate Canadian aerospace SMEs into their supply chains to satisfy strict domestic content criteria on upcoming DND RFPs.",
-        "co_bidding_opportunity": "Consortium structures under the new Canadian Defence Industrial Strategy will require foreign original equipment manufacturers (OEMs) to partner with Canadian advanced manufacturing SMEs, domestic aerospace engineering firms, and local academic research institutions to satisfy federal Value Proposition requirements.",
+        "linkedin_hook": "✈️ Canada's aerospace, space, and defence industries take flight at Farnborough International Airshow! Ministers Joly, MacKinnon, McGuinty, and Fuhr are leading the charge to boost innovation and attract investment. #AerospaceCanada #FarnboroughAirshow",
+        "strategic_value": "- Canada's federal delegation, including key ministers, is leveraging the Farnborough International Airshow to strategically promote the aerospace, space, and defence sectors, aiming to attract global investment and strengthen international partnerships consistent with the new Canadian Defence Industrial Strategy.\n- The focus is on showcasing advanced manufacturing, avionics, propulsion systems, satellite technology, and defence systems integration, emphasizing dual-use technologies and cross-sector innovation for both civil and military applications.\n* **Consulting Pivot:** Advise Canadian aerospace and defence companies on developing targeted export strategies and forging international R&D partnerships by aligning their technological capabilities with global defence procurement needs and the Canadian government's push for economic sovereignty and allied interoperability.",
+        "co_bidding_opportunity": "While not a direct procurement, the event is designed to foster partnerships. Potential collaboration roles include advanced materials suppliers, avionics integrators, MRO (Maintenance, Repair, and Overhaul) service providers, AI/ML specialists for aerospace applications, cybersecurity firms for defence systems, and joint R&D collaborators seeking to enter new markets or develop next-generation technologies.",
         "mets_category": "Defence Procurement",
-        "mets_rationalization": "The announcement explicitly links the global delegation to the launch and deployment of the new Canadian Defence Industrial Strategy, positioning aerospace, space, and military industrial capacity at the forefront of upcoming DND and ISED procurement initiatives.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "Global_Affairs",
-      "title": "Minister Anand to travel to Pakistan and the Philippines to strengthen Indo-Pacific partnerships",
-      "link": "https://www.canada.ca/en/global-affairs/news/2026/07/minister-anand-to-travel-to-pakistan-and-the-philippines-to-strengthen-indo-pacific-partnerships.html",
-      "date": "2026-07-19T13:08:39Z",
-      "insight": {
-        "linkedin_hook": "🌐 Canada is rapidly expanding its Indo-Pacific security footprint—and the strategic focus is heavily shifting toward critical infrastructure cybersecurity and hybrid threat defense.",
-        "strategic_value": "* Global Affairs Canada (GAC) is accelerating its Indo-Pacific Strategy with Minister Anand's high-profile visits to Pakistan and the Philippines, signaling prioritized bilateral investments in security, energy, and defense.\n* The technological emphasis is on countering maritime, hybrid, and cyber threats, specifically targeting security protocols for critical infrastructure, anti-scam intelligence, and digital network resilience across ASEAN partner nations.\n* **Consulting Pivot:** Proactively engage the Trade Commissioner Service (TCS) and GAC's Indo-Pacific branch to pitch specialized Canadian threat intelligence, maritime surveillance software, and cyber-defense consulting capabilities aligned with the upcoming 50th anniversary bilateral funds.",
-        "co_bidding_opportunity": "Consortium partnerships should align with the security mandates outlined by GAC, combining Canadian cybersecurity software developers, maritime surveillance technology vendors, and hybrid threat intelligence firms to pitch joint capacity-building programs to ASEAN and Indo-Pacific security agencies.",
-        "mets_category": "Infrastructure & Digital",
-        "mets_rationalization": "This diplomatic mission directly advances Canada's Indo-Pacific Strategy, paving the way for multi-million dollar G2G and bilateral procurement initiatives in cyber defense, maritime safety, and digital critical infrastructure security.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "ECCC_News",
-      "title": "The federal government helps CHEO modernize its facilities with new, energy-efficient technologies - canada.ca",
-      "link": "https://www.canada.ca/en/environment-climate-change/news/2026/07/the-federal-government-helps-cheo-modernize-its-facilities-with-new-energy-efficient-technologies.html",
-      "date": "2026-07-17T13:02:28Z",
-      "insight": {
-        "linkedin_hook": "Is your facility energy strategy keeping pace with federal mandates? 🏥",
-        "strategic_value": "* The federal government is aggressively deploying capital through the Low Carbon Economy Fund to incentivize deep energy retrofits in public sector infrastructure, specifically targeting high-utility-load institutions like hospitals.\n* The technological focus involves integrated HVAC modernization, transitioning from fossil-fuel boilers to high-efficiency heat pumps, and implementing smart energy recovery systems to lower long-term OpEx.\n* **Consulting Pivot:** Propose an audit-to-implementation engagement strategy for other public institutions, positioning your firm as the bridge between federal grant eligibility (LCEF) and the technical integration of low-carbon building management systems.",
-        "co_bidding_opportunity": "Collaborate with mechanical engineering firms specializing in hospital HVAC infrastructure, energy management systems (EMS) vendors, and carbon-accounting consultants to build a turnkey application package for future LCEF grant cycles.",
-        "mets_category": "Grants & Stimulus",
-        "mets_rationalization": "This project illustrates the federal government's pivot toward funding decarbonization in public infrastructure, creating an ecosystem for energy-tech vendors.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "ECCC_News",
-      "title": "Minister Dabrusin joins provincial and territorial environment ministers to strengthen collaboration on environmental protection - canada.ca",
-      "link": "https://www.canada.ca/en/environment-climate-change/news/2026/07/minister-dabrusin-joins-provincial-and-territorial-environment-ministers-to-strengthen-collaboration-on-environmental-protection.html",
-      "date": "2026-07-16T20:12:09Z",
-      "insight": {
-        "linkedin_hook": "🇨🇦 Major policy signal! Minister Dabrusin just wrapped up crucial talks with provincial/territorial environment ministers, solidifying Canada's path to net-zero by 2050. Expect significant federal emphasis on clean power, electrification, and energy efficiency across all sectors. #CleanEconomy #NetZero #ClimateAction",
-        "strategic_value": "* The federal government is reinforcing its commitment to the 2050 net-zero target through enhanced intergovernmental collaboration, indicating forthcoming programs and funding streams to accelerate clean innovation and reduce emissions.\n* Strategic technological targets include clean and renewable power generation, mass electrification infrastructure, and a broad range of energy efficiency solutions for both residential and commercial applications.\n* **Consulting Pivot:** Proactive engagement with federal and provincial environment ministries to align product/service roadmaps with identified priorities in clean power, electrification, and energy efficiency, positioning as a go-to expert for future policy implementation and program design.",
-        "co_bidding_opportunity": "This is a policy announcement, not a direct tender. Therefore, no specific co-bidding opportunities are identified at this stage. Focus is on policy alignment and future program participation.",
-        "mets_category": "Grants & Stimulus",
-        "mets_rationalization": "This news release outlines a strategic alignment between federal, provincial, and territorial governments on environmental protection and clean economy initiatives. It signals future policy directions that will lead to grants, stimulus programs, and possibly infrastructure projects focused on clean technology, energy efficiency, and electrification.",
+        "mets_rationalization": "This initiative directly supports the long-term strategic goals of Canada's new Defence Industrial Strategy by promoting domestic defence, aerospace, and space capabilities on a global stage, thereby attracting investment and fostering partnerships that enhance national security and economic resilience.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
@@ -188,130 +21,13 @@
       "source": "PMO_News",
       "title": "Prime Minister Carney announces landmark partnership with General Dynamics Land Systems-Canada to build new fleet of armoured combat vehicles for the Canadian Armed Forces",
       "link": "https://www.pm.gc.ca/en/news/news-releases/2026/07/16/prime-minister-carney-announces-landmark-partnership-general-dynamics",
-      "date": "2026-07-16T15:30:00Z",
+      "date": "2026-07-16T16:30:00Z",
       "insight": {
-        "linkedin_hook": "🚨 Canada commits $2B to expand its armoured combat vehicle fleet, creating 6,000 jobs! This strategic partnership with GDLS-Canada signals massive opportunities for the defence supply chain. #DefenceIndustry #MadeInCanada",
-        "strategic_value": "*   This $2 billion investment over four years reflects Canada's commitment to reaching NATO's 2% defence spending target and building sovereign capabilities, anchoring long-term federal demand for military hardware and related services.\n*   The technological target is 190 additional Armoured Combat Support Vehicles (ACSVs), featuring advanced armour, mobility, and sophisticated subsystems like thermal imaging, requiring a robust supply chain for specialized components and materials.\n*   **Consulting Pivot:** Engage with General Dynamics Land Systems-Canada as a strategic partner to integrate into their extensive supply chain, offering specialized components, engineering services, or maintenance support for the ACSV program, leveraging your expertise in areas like advanced materials, electro-optics, or systems integration.",
-        "co_bidding_opportunity": "Given GDLS-Canada is the prime Strategic Partner, direct co-bidding is not applicable. Instead, focus on subcontracting. Required partner roles for GDLS-Canada's supply chain include: raw material suppliers (e.g., steel producers like InterPro), advanced component manufacturers (e.g., thermal imaging system designers like Thales Canada, specialized component builders like IMP Aerospace & Defence), engineering design firms, manufacturing support services, and logistics contractors.",
+        "linkedin_hook": "🚨 Major win for Canada's defence industry! Prime Minister Carney announces a $2 billion strategic partnership with GDLS-Canada for 190 new Armoured Combat Support Vehicles. #CanadianDefence #DefenceProcurement",
+        "strategic_value": "- This generational investment of nearly $2 billion over four years is focused on expanding Canada's Armoured Combat Support Vehicle (ACSV) fleet, demonstrating a clear commitment to national defence sovereignty and achieving NATO's 2% defence spending target.\n- The procurement targets robust, militarized hardware and advanced C4ISR components, specifically highlighting requirements for advanced armour, mobility systems, thermal imaging (e.g., Thales Canada), and specialized vehicle components (e.g., IMP Aerospace & Defence).\n* **Consulting Pivot:** Assist Canadian SMEs in navigating the GDLS-Canada supply chain and becoming a qualified Tier 2 or Tier 3 supplier for specialized components, advanced materials, or system integration services, aligning with the government's mandate to leverage '600 Canadian suppliers' and strengthen the domestic defence industrial base.",
+        "co_bidding_opportunity": "Given GDLS-Canada is the prime Strategic Partner, opportunities lie in subcontracting roles such as steel suppliers (e.g., InterPro), thermal imaging system designers (e.g., Thales Canada), specialized component manufacturers (e.g., IMP Aerospace & Defence), systems integrators for vehicle subsystems, logistics support providers for parts and maintenance, and MRO (Maintenance, Repair, and Overhaul) specialists.",
         "mets_category": "Defence Procurement",
-        "mets_rationalization": "This aligns directly with the Department of National Defence's (DND) core mandate of acquiring and maintaining military infrastructure and tactical operational capabilities, reflecting a generational investment in the Canadian Armed Forces' equipment and a shift towards domestic defence industrial capacity.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "Global_Affairs",
-      "title": "Minister Anand concludes trip to Brazil, announces investments and renewed commitments for cooperation",
-      "link": "https://www.canada.ca/en/global-affairs/news/2026/07/minister-anand-concludes-trip-to-brazil-announces-investments-and-renewed-commitments-for-cooperation.html",
-      "date": "2026-07-14T21:24:06Z",
-      "insight": {
-        "linkedin_hook": "🇨🇦 Brazil bound! Global Affairs Canada's Minister Anand just concluded a pivotal trip, announcing $125 million in sustainable infrastructure and aviation fuel investments. This is huge for Canadian firms eyeing Latin American growth! #TradeRelations #SustainableInvestment",
-        "strategic_value": "* This announcement highlights Canada's commitment to strengthening bilateral ties with Brazil, backed by significant FinDev Canada investments ($125 million) in sustainable infrastructure and clean energy, positioning these sectors for cross-border collaboration and market entry.\n* The core technological targets include projects expanding energy access, advancing sustainable aviation fuel production technologies, and strengthening integrated fire management systems, alongside enhancing customs information sharing and health sector scientific cooperation.\n* **Consulting Pivot:** Advise Canadian clean tech firms and infrastructure developers on navigating FinDev Canada's investment criteria and leveraging newly signed MOUs (fire management, health, customs) to identify and pursue opportunities within Brazil's growing sustainable economy sectors.",
-        "co_bidding_opportunity": "While direct procurement roles are not explicit, Canadian firms specializing in sustainable infrastructure development, renewable energy solutions (e.g., sustainable aviation fuel technology providers), fire management systems, customs data integration platforms, or health technology and research could explore collaboration with Brazilian counterparts or FinDev Canada-backed projects.",
-        "mets_category": "Infrastructure & Digital",
-        "mets_rationalization": "This item connects to Canada's long-term strategy of fostering international trade relations and investing in global sustainable infrastructure, aligning with broader economic development and clean energy transition goals.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "Prime Minister YouTube",
-      "title": "Voici les mesures que nous mettons en œuvre pour assurer la sécurité de la population canadienne.",
-      "link": "https://www.youtube.com/watch?v=GDOra0-miUg",
-      "date": "2026-07-13T16:00:46Z",
-      "insight": {
-        "linkedin_hook": "🛡️ New federal safety laws are shifting the digital landscape—is your platform ready for the 'Accountability' era?",
-        "strategic_value": "* The legislative overhaul mandates a shift in digital liability, compelling social media and tech platforms to adopt automated, high-precision content moderation and compliance stacks.\n* The technological target is centered on AI-driven behavioral analysis, real-time content filtering, and robust data-integrity auditing to meet the government's stringent new criminal liability standards.\n* **Consulting Pivot:** Pivot toward advising enterprise tech platforms on 'Compliance-as-a-Service' models, specifically focusing on the implementation of automated moderation software and internal policy mapping to mitigate the severe legal risks introduced by these 80+ Criminal Code amendments.",
-        "co_bidding_opportunity": "Partnership opportunities exist for cybersecurity firms specializing in deep-fake/content detection, legal tech providers offering automated compliance audits, and systems integrators capable of embedding monitoring protocols into legacy platform infrastructure.",
-        "mets_category": "Public Health & Advisory",
-        "mets_rationalization": "The announcement represents a major regulatory pivot that creates a mandatory demand for cybersecurity and policy-driven digital infrastructure to maintain compliance with federal law.",
-        "grounded_fact_ids": [
-          3
-        ],
-        "anchor_reference": {
-          "source_name": "Federal & Provincial Data Sovereignty Legislation",
-          "page_range": "General",
-          "url": "https://www.priv.gc.ca/"
-        }
-      }
-    },
-    {
-      "source": "ECCC_News",
-      "title": "$27 million investment for the Montréal Biosphère - canada.ca",
-      "link": "https://www.canada.ca/en/environment-climate-change/news/2026/07/27-million-investment-for-the-montreal-biosphere.html",
-      "date": "2026-07-13T13:27:28Z",
-      "insight": {
-        "linkedin_hook": "🚨 Major $27 million investment announced for Montréal's Biosphère! This multi-level government funding signals a significant push for environmental education and enhanced visitor experiences. Are you ready to innovate in public engagement?",
-        "strategic_value": "* This $27 million joint investment from federal, Québec, and municipal governments underscores a robust, coordinated commitment to advancing environmental education, scientific accessibility, and public engagement through the iconic Montréal Biosphère.\n* The stated goals of strengthening the educational mission, enriching programming, and enhancing the visitor experience, especially for youth, indicate a strong need for advanced interactive exhibits, immersive digital technologies (e.g., AR/VR, interactive data visualization), and multimedia content development platforms.\n* **Consulting Pivot:** Propose digital transformation and content creation services to the Biosphère and its project managers, focusing on developing cutting-edge educational programs and interactive installations that leverage environmental data and climate science for public engagement.",
-        "co_bidding_opportunity": "Consortium opportunities exist for: Exhibit Design & Fabrication firms, Interactive Technology & AV Systems Integrators, Educational Content Developers (specializing in environmental science), Digital Platform & Software Developers for visitor engagement, and Museum Operations & Experience Consultants.",
-        "mets_category": "Infrastructure & Digital",
-        "mets_rationalization": "This investment supports the modernization and enhancement of a public institution's digital and physical infrastructure for public engagement and education, directly aligning with the 'Infrastructure & Digital' category by focusing on visitor experience technologies and programmatic enhancements.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "Global_Affairs",
-      "title": "Secretary of State Sarai concludes visit to Guatemala and announces support for regional development projects",
-      "link": "https://www.canada.ca/en/global-affairs/news/2026/07/secretary-of-state-sarai-concludes-visit-to-guatemala-and-announces-support-for-regional-development-projects.html",
-      "date": "2026-07-10T20:18:05Z",
-      "insight": {
-        "linkedin_hook": "🚀 Global Affairs Canada is scaling AI-driven healthcare and agro-tech in Latin America. Is your firm ready to export Canadian innovation?",
-        "strategic_value": "* This project leverages the IDRC and IDB frameworks to scale digital infrastructure and AI solutions in emerging markets, aligning with GAC’s mandate for climate resilience and social equity.\n* The focus is on implementing AI-ultrasound diagnostic stacks and sustainable agro-forestry management software that require high-reliability, low-bandwidth data processing capabilities.\n* **Consulting Pivot:** Position your firm as an implementation partner for GAC-funded international development projects, specifically by providing specialized training or local-market adaptation for Canadian-built AI medical/agricultural hardware.",
-        "co_bidding_opportunity": "Consortium opportunities include AI software developers for diagnostic platforms, sustainable agriculture subject matter experts (SMEs), and international logistics firms specializing in regional supply chain distribution.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "The initiative highlights the global export potential of Canadian digital health and sustainable resource technologies, reinforcing the 'METS-Digital' focus on remote operations and AI-driven efficiency.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "ISED_News",
-      "title": "Improving mobile connectivity to keep people safe in Quebec",
-      "link": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/improving-mobile-connectivity-to-keep-people-safe-in-quebec.html",
-      "date": "2026-07-10T16:00:04Z",
-      "insight": {
-        "linkedin_hook": "Bridging the digital divide in rural Quebec—one connection at a time. 🌐",
-        "strategic_value": "* Federal investment in remote Indigenous mobile connectivity relies heavily on the Universal Broadband Fund, which mandates 'open access' for wholesale capacity under public subsidy terms.\n* The technological target involves robust 4G/5G radio access network (RAN) hardware and terrestrial backhaul solutions capable of withstanding remote northern environmental conditions.\n* **Consulting Pivot:** Position your firm as an open-access wholesale network integrator that can help local ISPs or infrastructure owners leverage the UBF’s 'open access' requirements to lower operational costs for secondary connectivity providers.",
-        "co_bidding_opportunity": "Telecom civil engineering firms, specialized remote site maintenance providers, and Indigenous-owned technical deployment partners.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Connects regional mobile infrastructure deployments to the federal UBF and the requirement for open-access network wholesale models.",
-        "grounded_fact_ids": [
-          4
-        ],
-        "anchor_reference": {
-          "source_name": "ISED Universal Broadband Fund Program Guidelines",
-          "page_range": "General",
-          "url": "https://ised-isde.canada.ca/"
-        }
-      }
-    },
-    {
-      "source": "ISED_News",
-      "title": "Minister Joly announces federal investments backing Canadian mining innovations to strengthen critical minerals supply chains and improve mine restoration",
-      "link": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/minister-joly-announces-federal-investments-backing-canadian-mining-innovations-to-strengthen-critical-minerals-supply-chains-and-improve-mine-rest.html",
-      "date": "2026-07-09T17:30:12Z",
-      "insight": {
-        "linkedin_hook": "💰 Federal Boost for Canadian Mining Innovation! $6.7M in grants announced for AI-powered precision mining and ecological restoration. Huge strides for critical minerals supply chains & sustainability! #MiningTech #CriticalMinerals #AI",
-        "strategic_value": "* **Financial/Policy Context:** The federal government is investing $6.7 million (part of $19.8M total projects) through Innovation, Science and Economic Development Canada to bolster Canadian innovation in critical minerals, addressing both supply chain security and environmental stewardship in mining. This signifies strong policy support for sustainable and technologically advanced resource development.\n* **Technological Target:** Development of \"Surgical Mining\" technology combining advanced subsurface imaging, AI, robotics, and conventional drilling for precise critical mineral extraction (Novamera Inc.). Also, an AI-powered platform integrating environmental DNA analysis, soil health data, remote sensing, and Indigenous ecological knowledge for ecological restoration and biodiversity monitoring at mine sites (Koonkie Canada Inc.).\n* **Consulting Pivot:** Engage with Novamera Inc. and Koonkie Canada Inc. to offer specialized services in robotics integration, AI development for environmental data, remote sensing analytics, or Indigenous ecological knowledge integration, or target other mining firms with similar needs for precision extraction and ESG compliance.",
-        "co_bidding_opportunity": "Robotics systems integrators, AI/ML developers for geospatial and environmental data, environmental DNA testing laboratories, remote sensing (satellite/drone) service providers, soil health specialists, Indigenous knowledge consultants, and geological surveying technology firms.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "These investments directly support Canada's economic security and clean technology ambitions by advancing responsible resource development and strengthening critical minerals supply chains. This aligns with the global demand for sustainably sourced critical minerals and the need for innovative digital solutions to achieve ESG targets in the mining sector.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "PMO_News",
-      "title": "Prime Minister Carney deepens partnership with Saudi Arabia across trade, education, technology, and critical minerals",
-      "link": "https://www.pm.gc.ca/en/news/news-releases/2026/07/09/prime-minister-carney-deepens-partnership-saudi-arabia-across-trade",
-      "date": "2026-07-09T04:12:30Z",
-      "insight": {
-        "linkedin_hook": "🚀 Canada doubles down on global trade with Saudi Arabia! PM Carney's historic visit unlocks over $1B in new deals across AI, critical minerals, clean energy, and defence. Huge opportunities for Canadian firms! #CanadaSaudiArabia #Vision2030",
-        "strategic_value": "* **Financial/Policy Context:** Canada is aggressively diversifying trade partnerships and deepening ties with major economies like Saudi Arabia, evidenced by PM Carney's historic visit and over $1 billion in new commercial agreements and MOUs under Saudi Vision 2030. This signals a strong governmental push for Canadian companies in the Middle East. \n* **Technological Target:** Significant focus on Artificial Intelligence (AI) development, deployment, and commercialization, including dedicated AI compute capacity (50 MW for Cohere/HUMAIN). Also targets secure communications, next-generation industrial technology (BlackBerry/Aramco Digital), critical minerals extraction, and clean energy solutions (LNG, renewables, hydrogen, carbon capture). \n* **Consulting Pivot:** Advise Canadian AI, clean energy, critical minerals, and defence technology firms on market entry strategies, partnership facilitation with Saudi entities, and navigating the Vision 2030 project landscape to secure downstream contracts or joint ventures with the newly formed alliances.",
-        "co_bidding_opportunity": "AI compute infrastructure providers, AI model development specialists, secure communications integrators, industrial IoT solution providers, critical minerals exploration and extraction technology firms, clean energy project developers (LNG, hydrogen, CCS, renewables), defence technology suppliers, and local Saudi market entry consultants/partners.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This aligns with Canada's long-term strategy to diversify trade, leverage Canadian technological expertise, and secure supply chains by establishing strong partnerships with ambitious global economies, thereby creating new market access and investment opportunities for Canadian businesses in high-growth sectors like AI and critical minerals.",
+        "mets_rationalization": "This announcement signifies a substantial long-term commitment to DND's military infrastructure and tactical operations, directly investing in the capabilities of the Canadian Armed Forces and strengthening the sovereign defence supply chain under the new Defence Industrial Strategy.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
@@ -320,49 +36,130 @@
       "source": "ISED_News",
       "title": "Canada and Republic of Korea sign memorandum of understanding to advance AI innovation and safety",
       "link": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/canada-and-republic-of-korea-sign-memorandum-of-understanding-to-advance-ai-innovation-and-safety.html",
-      "date": "2026-07-08T13:42:48Z",
+      "date": "2026-07-08T14:42:48Z",
       "insight": {
-        "linkedin_hook": "🤝 Canada and South Korea unite on AI Safety! This new MOU between the Canadian and Korean AI Safety Institutes is setting the global standard for responsible AI development and risk mitigation.",
-        "strategic_value": "- This MOU signals Canada's commitment to shaping international AI governance, safety standards, and risk mitigation strategies, particularly for \"frontier AI technologies\" and risks associated with synthetic content, driving future policy and regulatory frameworks.\n- The collaboration emphasizes the development of AI measurement science, evaluation methodologies, tools, and frameworks for robust testing of AI systems from development to deployment, indicating a future demand for specialized AI assurance and validation platforms.\n- * **Consulting Pivot:** Engage the Canadian AI Safety Institute and ISED to offer expertise in AI governance, data integrity, synthetic content detection, or secure AI deployment frameworks, aligning services with the emerging bilateral standards and influencing future domestic AI procurement guidelines.",
-        "co_bidding_opportunity": "AI safety experts, academic research labs specializing in AI ethics and assurance, and technology providers with solutions for AI validation, synthetic content detection, or risk management frameworks to partner with the Canadian AI Safety Institute or organizations influenced by these emerging standards.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This directly addresses the long-term regulatory anchor of Canadian data privacy laws by fostering international standards for safe and trustworthy AI, ensuring data sovereignty and ethical AI development within government and public sector workloads.",
-        "grounded_fact_ids": [
-          3
-        ],
-        "anchor_reference": {
-          "source_name": "Federal & Provincial Data Sovereignty Legislation",
-          "page_range": "General",
-          "url": "https://www.priv.gc.ca/"
-        }
-      }
-    },
-    {
-      "source": "PMO_News",
-      "title": "Prime Minister Carney secures new defence partnerships at the 2026 NATO Summit",
-      "link": "https://www.pm.gc.ca/en/news/news-releases/2026/07/08/prime-minister-carney-secures-new-defence-partnerships-2026-nato",
-      "date": "2026-07-08T11:05:42Z",
-      "insight": {
-        "linkedin_hook": "🇨🇦 Massive Defence Spending Alert! Canada is fast-tracking a \"generational transformation\" of its defence posture, with multi-billion dollar deals and strategic partnerships emerging from the 2026 NATO Summit!",
-        "strategic_value": "- Canada is committing significant capital (5% of GDP by 2035) to defence, signalling a long-term strategic shift towards enhanced Arctic sovereignty, modernizing naval and air capabilities, and strengthening cyber defenses within the NATO framework. This creates a robust financial pipeline for defence contractors.\n- Key technological targets include secure military satellite communications (Telesat Lightspeed for sovereign comms), advanced long-range missile systems (Joint Strike Missiles for RCAF), and a substantial fleet of Light Utility Vehicles, emphasizing domestic industrial capacity and advanced dual-use technologies via the NATO Innovation Sub-Fund.\n- * **Consulting Pivot:** Proactively engage major prime contractors (e.g., Telesat, Kongsberg, and the two pre-selected LUV Canadian suppliers) to position as a key subcontractor for ancillary systems, maintenance, integration services, or specialized components, particularly in areas like C4ISR, secure data links, and logistics.",
-        "co_bidding_opportunity": "For Telesat Lightspeed, an opportunity exists for systems integrators or ground station infrastructure providers. For Kongsberg Joint Strike Missiles, an MRO (Maintenance, Repair, Overhaul) specialist or integration services provider for fighter aircraft. For the Light Utility Vehicles, a supplier of specialized components (e.g., hardened computing, tactical communications, advanced navigation systems) to the two pre-selected Canadian defence industry suppliers.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This aligns with Canada's long-term strategic shift towards Arctic sovereignty and modernization of its defence capabilities, requiring advanced digital infrastructure for secure communications and data, crucial for national security and international alliances.",
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
     },
     {
       "source": "PMO_News",
-      "title": "Prime Minister Carney modernises Senate appointment process to respond to Canada’s emerging challenges",
-      "link": "https://www.pm.gc.ca/en/news/news-releases/2026/07/07/prime-minister-carney-modernises-senate-appointment-process-respond",
-      "date": "2026-07-07T13:00:00Z",
+      "title": "Prime Minister Carney secures new defence partnerships at the 2026 NATO Summit",
+      "link": "https://www.pm.gc.ca/en/news/news-releases/2026/07/08/prime-minister-carney-secures-new-defence-partnerships-2026-nato",
+      "date": "2026-07-08T12:05:42Z",
       "insight": {
-        "linkedin_hook": "Canada's Senate is getting a tech-first upgrade! 🇨🇦",
-        "strategic_value": "* The federal government is pivoting Senate recruitment to prioritize deep expertise in AI, quantum, and regulatory tech to better scrutinize emerging legislation.\n* The mandate shift creates a high-stakes legislative environment where federal policy and investment frameworks regarding advanced digital infrastructure will be debated with newfound technical rigor.\n* **Consulting Pivot:** Position your firm as a subject matter expert (SME) to offer briefing sessions for newly appointed Senators on the socio-economic impacts of emerging technologies, effectively embedding your technical perspective into the legislative feedback loop.",
-        "co_bidding_opportunity": "Not applicable; this is a public sector administrative appointment process. No B2B project consortiums are available.",
-        "mets_category": "METS-PMO",
-        "mets_rationalization": "The signal relates to the governance and policy oversight that dictates the future regulatory landscape for all METS-related technologies in Canada.",
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "HEAVY CONTRUCTION EQUIPMENT RENTAL",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-604-41302770",
+      "date": "2026-07-08T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-28T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "CNST",
+      "category_label": "Construction",
+      "description": "Loaders RentalSolicitation Number W0125-27TEM05 DescriptionThe Department of National Defence has the requirement for the supply, delivery and subsequent collection of rental Heavy Construction Equipment to their facility in Trenton, ON.Please see attached for detailed equipment specifications.  Requested delivery date 01 December 2026 and expected collection of equipment 29 March 2027This solicitation is a Request for Proposal against Supply Arrangement E6TOR-23RM03 Heavy Construction Equipment...",
+      "type": "New",
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "W0125-27TEM05",
+      "notice_type": "RFP against Supply Arrangement",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "None",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "Fluorescence Spectrometer with Advanced Excitation Emission Matrix Spectroscopy (EEMS) Analysis Capabilities",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-675-53692150",
+      "date": "2026-07-08T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-07-24T00:00:00Z",
+      "province": "Alberta",
+      "province_abbrev": "AB",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "The National Research Council Canada has a requirement to purchase a Fluorescence Spectrometer with Advanced Excitation Emission Matrix Spectroscopy (EEMS) Analysis Capabilities. This purchase will support a range of projects which require high-through-put, state-of-the-art tools for measuring the optical properties of water in detail. This instrument must accurately determine the absorbance, fluorescence, and other (scattering, excitation emission matrix, and other techniques for evaluating env...",
+      "type": "New",
+      "organization": "National Research Council of Canada (NRC)",
+      "solicitation_number": "26-58049",
+      "notice_type": "RFP against Supply Arrangement",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade Agreement",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "Siren, Hand Operated",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-698-96625121",
+      "date": "2026-07-08T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-08-17T00:00:00Z",
+      "province": "Multiple Provinces",
+      "province_abbrev": "MULT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "NOTICE OF PROPOSED PROCUREMENT The Department of National Defence has a requirement for the items detailed below. The delivery is requested at Canadian Forces Supply Depots (CFSD) in Montreal (Quebec) and at Canadian Forces Supply Depots (CFSD) in Edmonton (Alberta). Item 1, GSIN: 6350, NSN: 6350-20-009-4114, Siren, hand operated Part No.: LK-120, NSCM/CAGE: LK-120: SAHU8 OR EQUIVALENT UNSPSC: 46171604Unit of Issue: EA Delivery Location: Department of National Defence, 25 CFSD Montreal 6363 Notr...",
+      "type": "New",
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "W8486-260665/A",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
+      "source": "ISED_News",
+      "title": "Parliamentary Secretary Ménard highlights launch of new Small Business Procurement Program measures to modernize federal contracting and boost access for Canadian businesses",
+      "link": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/parliamentary-secretary-menard-highlights-launch-of-new-small-business-procurement-program-measures-to-modernize-federal-contracting-and-boost-acce.html",
+      "date": "2026-07-07T17:05:44Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
@@ -371,77 +168,71 @@
       "source": "Finance_Canada",
       "title": "Secretary of State Long highlights investment in Indigenous sport programs to empower First Nations, Inuit and Métis communities",
       "link": "https://www.canada.ca/en/department-finance/news/2026/07/secretary-of-state-long-highlights-investment-in-indigenous-sport-programs-to-empower-first-nations-inuit-and-metis-communities.html",
-      "date": "2026-07-06T16:16:27Z",
+      "date": "2026-07-06T17:16:27Z",
       "insight": {
-        "linkedin_hook": "🎯 Unlocking ESG value: How federal funding for Indigenous-led sports programs signals deeper corporate partnership opportunities in Western Canada.",
-        "strategic_value": "* The Department of Finance Canada's highlight of a $227,071 SSDIC investment in the Nistawoyou Association Friendship Centre signals strong federal commitment to supporting community-designed health programs in the critical Athabasca resource region.\n* This funding aligns directly with the Truth and Reconciliation Commission's Calls to Action and the National Inquiry into MMIWG Calls for Justice, raising the benchmark for social performance criteria that resource developers must meet to secure regulatory approvals.\n* **Consulting Pivot:** Position your ESG advisory firm to help resource developers in the Athabasca region co-design community-investment frameworks that integrate with SSDIC-funded Friendship Centres, aligning corporate CSR budgets with existing federal social infrastructure.",
-        "co_bidding_opportunity": "Based on the SSDIC Stream Three guidelines, partnership opportunities exist between regional Indigenous-led non-profits (such as friendship centres), community wellness consultants, and local cultural athletic coordinators to deliver integrated physical and cultural teachings.",
-        "mets_category": "METS-ESG",
-        "mets_rationalization": "Connects federal Indigenous social development funding in a major resource region to corporate ESG strategies, social license to operate, and TRC compliance frameworks.",
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
     },
     {
-      "source": "Global_Affairs",
-      "title": "Minister Sidhu announces Canada’s ratification of the United Kingdom’s CPTPP Accession Protocol",
-      "link": "https://www.canada.ca/en/global-affairs/news/2026/07/minister-sidhu-announces-canadas-ratification-of-the-united-kingdoms-cptpp-accession-protocol.html",
-      "date": "2026-07-03T19:36:24Z",
+      "source": "ISED_News",
+      "title": "Minister Joly announces significant federal investment in ADF Group Inc.’s project to strengthen Canada’s domestic steel production",
+      "link": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/minister-joly-announces-significant-federal-investment-in-adf-group-incs-project-to-strengthen-canadas-domestic-steel-production.html",
+      "date": "2026-07-02T16:42:38Z",
       "insight": {
-        "linkedin_hook": "🇬🇧 Huge news for Canadian exporters: Canada has officially ratified the UK's CPTPP accession, unlocking unprecedented access to British public procurement!",
-        "strategic_value": "* **Financial/Policy Context:** The ratification of the UK's accession to the CPTPP, set for September 1, 2026, grants Canadian businesses guaranteed domestic-equivalent access to lucrative public procurement opportunities across all levels of UK government.\n* **Technological Target:** Standardized integration of supply chains across the CPTPP markets, facilitating the export of specialized Canadian architectural, construction, and distribution services through unified procurement frameworks.\n* **Consulting Pivot:** Position your advisory firm to offer cross-border CPTPP procurement compliance mapping, guiding Canadian engineering and construction companies on how to bid for regional and local UK government tenders with national treatment status.",
-        "co_bidding_opportunity": "Based on the trade sectors identified in the agreement, Canadian architecture and construction firms should form consortia with UK-based local logistics and project delivery partners to bid on regional public works in the UK.",
-        "mets_category": "METS-PMO",
-        "mets_rationalization": "The signal details a major trade treaty ratification (CPTPP Accession Protocol) that directly alters the regulatory and legal landscape for Canadian companies bidding on foreign government procurement contracts.",
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
     },
     {
       "source": "Prime Minister YouTube",
-      "title": "Introducing the Canada Strong fund",
-      "link": "https://www.youtube.com/watch?v=oRYaelwZj9Y",
-      "date": "2026-07-02T14:00:42Z",
+      "title": "Happy Canada Day.",
+      "link": "https://www.youtube.com/watch?v=1VsXpeiqll4",
+      "date": "2026-07-02T04:18:24Z",
       "insight": {
-        "linkedin_hook": "🏗️ Sovereign capital is unlocked: The Canada Strong Fund is now the ultimate co-investment partner for nation-building.",
-        "strategic_value": "* The Canada Strong Fund marks a policy shift toward active sovereign participation in critical infrastructure, specifically targeting energy, critical minerals, and data networks.\n* The technological target involves large-scale, capital-intensive infrastructure requiring long-term project finance and secure, resilient domestic supply chain integrations.\n* **Consulting Pivot:** Formulate a 'State-Private Alliance' strategy where your firm acts as a consortium lead for infrastructure or mineral projects, explicitly leveraging the Fund's mandate for equity co-investment to de-risk high-capex bids.",
-        "co_bidding_opportunity": "Financial advisory firms, heavy civil infrastructure construction contractors, and technology firms specializing in secure data sovereignty networks.",
-        "mets_category": "METS-PMO",
-        "mets_rationalization": "The fund functions as a national procurement and project financing vehicle (PMO), facilitating joint ventures for large-scale infrastructure projects in alignment with the 'Canada Strong' mandate.",
-        "grounded_fact_ids": [
-          3
-        ],
-        "anchor_reference": {
-          "source_name": "Federal & Provincial Data Sovereignty Legislation",
-          "page_range": "General",
-          "url": "https://www.priv.gc.ca/"
-        }
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
       }
     },
     {
       "source": "Prime Minister YouTube",
       "title": "Forward Guidance: Canada’s Energy Future.",
       "link": "https://www.youtube.com/watch?v=bySyMcg-p_4",
-      "date": "2026-06-30T16:06:25Z",
+      "date": "2026-07-01T04:18:24Z",
       "insight": {
-        "linkedin_hook": "⚡ Canada is doubling its entire electricity grid capacity by 2050. Are you positioned to capture the massive influx of SMR and clean energy infrastructure capital?",
-        "strategic_value": "* **Financial & Policy Context:** The Canadian federal government is launching a dual-track National Electricity Strategy and Nuclear Energy Strategy to double energy infrastructure capacity by 2050, offering expedited regulatory pathways for clean-grid and SMR mega-projects.\n* **Technological Target:** Federal procurement and private investment will heavily target next-generation SMRs, utility-scale wind and solar integrations, heavy industrial carbon capture systems, and clean-tech supply chain logistics hardware.\n* **Consulting Pivot:** Propose a specialized regulatory and joint-venture advisory program that helps EPCs and energy developers co-structure equity-sharing partnerships with Indigenous communities, directly aligning with streamlined federal permitting criteria to secure fast-tracked approvals.",
-        "co_bidding_opportunity": "Consortium structures should involve private sector utility operators, engineering contractors, clean-tech logistics providers, and Indigenous community joint-venture partners to meet the core federal criteria for shared economic participation and expedited permitting.",
-        "mets_category": "METS-PMO",
-        "mets_rationalization": "This signal connects directly to PMO advisory functions, specifically joint-venture transaction support and regulatory permitting optimization, which are critical precursors to physical capital deployment in Canada's energy transition.",
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
     },
     {
-      "source": "Finance_Canada",
-      "title": "Government announces largest Indigenous loan guarantee in Canadian history to support Darlington New Nuclear Project",
-      "link": "https://www.canada.ca/en/department-finance/news/2026/06/government-announces-largest-indigenous-loan-guarantee-in-canadian-history-to-support-darlington-new-nuclear-project.html",
-      "date": "2026-06-23T12:00:39Z",
+      "source": "ECCC_News",
+      "title": "Joint Australia-Canada-United Kingdom Statement on Energy and Climate Cooperation - canada.ca",
+      "link": "https://www.canada.ca/en/environment-climate-change/news/2026/06/joint-australia-canada-united-kingdom-statement-on-energy-and-climate-cooperation.html",
+      "date": "2026-06-25T08:00:00Z",
       "insight": {
-        "linkedin_hook": "⚡ Historic energy milestone: What the $1B+ Indigenous loan guarantee means for your supply chain.",
-        "strategic_value": "* **De-risking Capital:** Government backing for Indigenous participation shifts the project profile from high-risk to 'essential infrastructure'.\n* **ESG Compliance:** EPC firms with strong Indigenous relations (IR) strategies gain a competitive edge in procurement scoring.\n* **Nuclear Renaissance:** This signals long-term federal support for Small Modular Reactors (SMRs) and major nuclear base-load power expansion.",
-        "co_bidding_opportunity": "Partnerships between large Tier-1 engineering firms and Indigenous-owned industrial service providers are essential to meet mandatory procurement set-asides and social benefit clauses.",
+        "linkedin_hook": "",
+        "strategic_value": "Gemini API Error: Request failed.",
+        "co_bidding_opportunity": "",
         "mets_category": "",
         "mets_rationalization": "",
         "grounded_fact_ids": [],

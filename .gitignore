@@ -1,0 +1,30 @@
+# Environment variables & secrets
+.env
+*.env
+*.pem
+*.key
+id_*
+
+# Local Virtual Environment
+.venv_new/
+venv/
+ENV/
+
+# Python Cache & Testing
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Scratch & Temporary Directories
+scratch/
+scratch.py
+*.tmp
+
+# Local subscriber profiles (profiles live in Azure Blob Storage)
+subscriber_profiles.json
+subscriber_profiles_local.json
+
+# System & OS Files
+.DS_Store
+Thumbs.db

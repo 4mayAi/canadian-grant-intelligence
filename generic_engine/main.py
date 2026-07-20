@@ -29,6 +29,7 @@ from extractors.report_scraper import (
 from api.gemini_client import GeminiClient
 from api.azure_client import AzureClient
 from api.notifier import Notifier
+from api.profile_matcher import ProfileMatcher
 
 def setup_logging():
     logging.basicConfig(
@@ -889,6 +890,21 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
                 
             final_tenders = list(merged_tenders.values())
             logging.info(f"Merged state: {len(existing_tenders)} existing -> {len(active_tenders)} active -> {len(final_tenders)} total merged tenders.")
+
+        # 3.8 Multi-Tenant Subscriber Profile Matching & Private Lead Generation
+        if getattr(config.storage, "subscriber_profiles_file", None):
+            try:
+                matcher = ProfileMatcher(azure_client=azure_client, gemini_client=gemini_client, notifier=notifier)
+                profiles = matcher.load_profiles(blob_name=config.storage.subscriber_profiles_file)
+                if profiles and final_tenders:
+                    # Target new tenders first, or active tenders if in pulse/dry_run/seeding
+                    tenders_to_eval = [t for t in final_tenders if t.get("type") == "New" or seed_strategy or dry_run]
+                    if not tenders_to_eval:
+                        tenders_to_eval = final_tenders[:25]
+                    logging.info(f"Running subscriber profile evaluation across {len(tenders_to_eval)} candidate tenders...")
+                    matcher.process_tenders(tenders=tenders_to_eval, profiles=profiles, dry_run=dry_run)
+            except Exception as match_err:
+                logging.warning(f"Subscriber profile matching encountered an error: {match_err}")
 
         # 4. Consolidate Dashboard KPIs
         kpis = generate_dashboard_kpis(insights, gemini_client, tenders=final_tenders)

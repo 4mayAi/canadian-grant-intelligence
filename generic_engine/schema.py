@@ -39,6 +39,7 @@ class StorageConfig(BaseModel):
     manifest_file: Optional[str] = "manifest.json"
     tenders_file: Optional[str] = None
     subscribers_file: Optional[str] = "subscribers.json"
+    subscriber_profiles_file: Optional[str] = "subscriber_profiles.json"
     prefix_historical_files: Optional[bool] = True
 
 class DistributionConfig(BaseModel):

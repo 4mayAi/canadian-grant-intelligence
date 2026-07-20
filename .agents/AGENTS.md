@@ -105,4 +105,12 @@ Rule:
     When updating news/tender ingestion filters (such as keywords, bypass flags, or source scopes), keep in mind that past items that were previously crawled but discarded by the old filter will NOT be processed because their URLs are already stored in the production `processed_urls.json` cache in Azure Storage.
     To backfill historically discarded items, you must run a custom script (e.g., as a GitHub Actions `pre_run_script`) to clear those specific URLs from the Azure Storage cache registry, allowing the pipeline to ingest them as new items.
 
+---
+
+Name:
+    Implementation Plan Versioning and Backlog Archiving Rule
+Rule:
+    Before overwriting or pivoting from an active implementation plan (specifically `implementation_plan.md` in the agent's brain directory) to a new objective within the same repository, the agent MUST first archive the current plan under `docs/plans/` using the naming convention `plan_YYYY-MM-DD_short_description.md` (UTC date). Additionally, the agent must register the postponed/archived plan and its tasks in the centralized backlog registry `docs/plans/backlog.md` to ensure future agents can track and retrieve the postponed work.
+
+
 

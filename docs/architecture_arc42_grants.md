@@ -26,7 +26,7 @@ Key features:
 ### 1.2 Quality Goals
 1. **Auditable Reference Traceability**: Every grants insight grounded in a slow-moving anchor must display a verified reference tracing back to the official strategy report or government release.
 2. **Metadata Integrity**: Preserves and carries forward tender-specific attributes (e.g. closing dates, delivery provinces, categories, and partnering options) from the source database.
-3. **Resilience**: The system falls back to generating notice URLs from the reference number if the `noticeURL-URLavis-eng` field is missing, ensuring tenders are not skipped.
+3. **Resilience**: The system falls back to generating notice URLs from the reference number if the `noticeURL-URLavis-eng` field is missing. It automatically heals broken Ariba-imported notices (containing `:T` or `SSC-` identifiers) by falling back to the public CanadaBuys search portal using the solicitation number, ensuring all listings open successfully.
 4. **Historical Backups Compatibility**: Maintains prefix-less backup structures (`reports/pmo_insights_{date}.json`) to preserve legacy dashboard loading compatibility.
 
 ### 1.3 Stakeholders & Personas

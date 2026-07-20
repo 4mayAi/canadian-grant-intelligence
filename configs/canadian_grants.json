@@ -179,6 +179,8 @@
     "kpis_file": "kpis.json",
     "anchors_file": "grants_anchors.json",
     "manifest_file": "manifest.json",
+    "subscribers_file": "subscribers.json",
+    "subscriber_profiles_file": "subscriber_profiles.json",
     "prefix_historical_files": false
   },
   "distribution": {

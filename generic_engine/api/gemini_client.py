@@ -553,4 +553,71 @@ class GeminiClient:
         logging.warning("Video analysis returned empty result. Returning default fallback text.")
         return "No video analysis content available."
 
+    def evaluate_subscriber_fit(self, tender_text: str, subscriber_profile: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+        """
+        Evaluates the alignment between a tender opportunity and a subscriber capability profile.
+        Returns a JSON object with fit_score (0-100), fit_reasoning, and a pre-drafted B2B cold pitch email.
+        """
+        sub_name = subscriber_profile.get("name", "Subscriber")
+        capabilities = subscriber_profile.get("capabilities", "B2B Professional Services")
+        keywords = ", ".join(subscriber_profile.get("keywords", []))
+        target_orgs = ", ".join(subscriber_profile.get("target_organizations", []))
+
+        prompt = f"""
+        You are an elite B2B procurement analyst and executive sales strategist.
+        Evaluate the compatibility between the following government tender opportunity and the subscriber's business profile.
+
+        --- SUBSCRIBER PROFILE ---
+        Business Name: {sub_name}
+        Core Capabilities & Offerings: {capabilities}
+        Target Keywords: {keywords}
+        Target Purchasing Entities: {target_orgs}
+
+        --- GOVERNMENT TENDER OPPORTUNITY ---
+        {tender_text[:4000]}
+
+        --- INSTRUCTIONS ---
+        1. Evaluate how closely the tender's requirements match the subscriber's capabilities and offerings. Assign an integer `fit_score` from 0 to 100:
+           - 0-40: Poor/Irrelevant fit (e.g. janitorial, physical construction, unrelated hardware).
+           - 41-79: Moderate fit (some overlapping skills or general IT/consulting).
+           - 80-100: High/Golden Lead match (direct fit for custom software, database, spreadsheet hybrid, analytics, or specified core capabilities).
+
+        2. If `fit_score` >= 80, draft a compelling, professional B2B cold introduction email (`custom_pitch`) that the subscriber can send directly to the procurement officer or potential prime contractor. Follow a structured 4-paragraph AIDA/PAS copywriting framework:
+           - Paragraph 1 (Attention): Directly reference the RFP solicitation number, title, and purchasing entity.
+           - Paragraph 2 (Interest/Solution): Highlight the subscriber's exact technical capability match (e.g., Airtable/SmartSuite relational setup, custom pipelines) fulfilling the tender's scope.
+           - Paragraph 3 (Value): State a clear value proposition, speed of deployment, or compliance advantage.
+           - Paragraph 4 (Action): Include a professional Call-to-Action requesting a brief 15-minute technical discovery call or consortium partnership meeting.
+
+        You MUST respond with a raw JSON object containing exactly these three fields:
+        {{
+          "fit_score": <integer 0-100>,
+          "fit_reasoning": "<1-2 sentence explanation of why this fit score was assigned>",
+          "custom_pitch": "<The 4-paragraph cold email draft if fit_score >= 80, else empty string ''>"
+        }}
+        """
+
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"responseMimeType": "application/json"}
+        }
+
+        data = self._retry_request(payload, timeout=45)
+        if data and 'candidates' in data and data['candidates']:
+            try:
+                text = data['candidates'][0]['content']['parts'][0]['text']
+                cleaned_json = text.strip()
+                if cleaned_json.startswith("```json"):
+                    cleaned_json = cleaned_json.split("```json")[1].split("```")[0].strip()
+                elif cleaned_json.startswith("```"):
+                    cleaned_json = cleaned_json.split("```")[1].split("```")[0].strip()
+
+                parsed = json.loads(cleaned_json)
+                if isinstance(parsed, dict) and "fit_score" in parsed:
+                    return parsed
+            except Exception as e:
+                logging.error(f"Failed to parse evaluate_subscriber_fit JSON response: {e}")
+
+        return None
+
+
 

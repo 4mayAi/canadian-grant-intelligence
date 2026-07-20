@@ -183,8 +183,16 @@ def fetch_canadabuys_tenders(
             for row in reader:
                 processed_count += 1
                 link = row.get("noticeURL-URLavis-eng", "")
+                solicitation_number = row.get("solicitationNumber-numeroSollicitation", "").replace('*', '').strip()
+                ref_num = row.get("referenceNumber-numeroReference", "").replace('*', '').strip()
+                
+                # Detect and heal broken Ariba-imported notices that lack a public details page
+                if (link and (":T" in link or "SSC-" in link)) or (ref_num and ":T" in ref_num):
+                    term = solicitation_number or ref_num
+                    if term:
+                        link = f"https://canadabuys.canada.ca/en/tender-opportunities?search_api_fulltext={term}"
+                
                 if not link:
-                    ref_num = row.get("referenceNumber-numeroReference", "")
                     if ref_num:
                         link = f"https://canadabuys.canada.ca/tender-opportunities/tender-notice/{ref_num}"
                 
