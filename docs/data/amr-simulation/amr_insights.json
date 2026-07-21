@@ -1,63 +1,112 @@
 {
-  "generated_at": "2026-07-20T19:30:34.406301Z",
-  "linkedin_post": "🚨 Ebola travel restrictions: [PHAC](https://www.canada.ca/en/public-health.html)’s latest entry ban on visitors from Congo highlights a critical need for advanced virtual pathogen modeling to strengthen Canada’s public health defenses.\n\nPublic health agencies are proactively deploying border measures to manage emerging infectious disease risks. While domestic risk remains low, the severity of Ebola necessitates rigorous, data-driven intervention evaluation for any national security strategy. Public health officials and procurement leads should prioritize high-fidelity simulation platforms to quantify the real-world impact of containment protocols.\n\nParallel to border security, hospital infrastructure is emerging as a persistent reservoir for multidrug-resistant bacteria. Clinical leaders and facility managers must look toward digital twin simulations to map plasmid flows within water systems and high-traffic wards to neutralize AMR threats before they reach patients.\n\nFinally, breakthroughs in microbial metabolic crosstalk—specifically involving the HpaBC enzyme—offer new frontiers for biotherapeutics. Biotechnology R&D teams should leverage in silico docking tools to accelerate the screening of these enzymatic pathways, turning complex biological symbioses into precision drug targets.\n\nstrategic_value:\n* Mapping pathogen reservoirs using digital twin technology allows for targeted interventions in high-risk hospital environments.\n* Utilizing computational docking accelerates the transition from bench-top enzyme discovery to high-throughput clinical drug screening.\n* **Consulting Pivot:** Propose a tailored workshop for [PHAC](https://www.canada.ca/en/public-health.html)'s Infectious Disease Laboratory Network to demonstrate how custom transmission and border policy simulation models enhance existing risk assessment workflows.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#Canada #PublicHealth #Biotech #AMR #InSilico\n\n### Featured News & Sources\n- [Development and behavior of Steinernema hermaphroditum nematodes are impacted by a bacterial flavin monooxygenase](https://www.biorxiv.org/content/10.64898/2026.07.20.739592v1?rss=1) (bioRxiv Microbiology)\n- [Interconnected reservoirs of multidrug-resistant bacteria and plasmids within the hospital built environment](https://www.biorxiv.org/content/10.64898/2026.07.20.739580v1?rss=1) (bioRxiv Microbiology)\n- [Foreigners who visited Congo in last 3 weeks cannot enter Canada: PHAC - CTV News](https://www.ctvnews.ca/canada/article/foreigners-who-visited-drc-cannot-enter-canada-temporarily-phac/) (Canada PHAC AMR)\n- [Foreigners who visited Congo in last 3 weeks cannot enter Canada: PHAC - CP24](https://www.cp24.com/news/canada/2026/07/19/foreigners-who-visited-drc-cannot-enter-canada-temporarily-phac/) (Canada PHAC AMR)\n",
+  "generated_at": "2026-07-21T19:09:23.415689Z",
+  "linkedin_post": "🚨 New federal procurement for hazardous waste disposal in Winnipeg and Vancouver signals ongoing infrastructure needs for facilities handling sensitive biohazardous materials. Microbiology labs and government agencies should monitor these waste streams as critical nodes for enhanced biosafety compliance.\n\n🌱 Researchers are decoding the 'Rhizosphere Code' in barley, discovering that location-specific factors drive 80% of microbiome variance. Agricultural biotech firms should leverage this data to build digital twins of soil ecosystems to predict microbial resilience and optimize nutrient uptake.\n\n🌌 The [NRC](https://nrc.canada.ca/) is advancing quantum metrology with a new RF Test and Measurement Suite. Software developers should note this as a primary opportunity to integrate high-fidelity RF data into computational biology models for next-generation diagnostic tools.\n\n🦌 Genomic data on novel bovine-like viruses in wildlife confirms a pressing need for human-wildlife interface surveillance. Public health planners must prioritize predictive modeling to map viral spillover risks and preempt potential cross-species transmission events.\n\nStrategic Value:\n- Advanced simulation tools can modernize hazardous waste protocols and streamline regulatory biosafety adherence for large-scale federal laboratory contracts.\n- Digital sandbox environments allow agricultural researchers to simulate microbial assembly across diverse climate zones to accelerate crop resilience discovery.\n- * **Consulting Pivot:** Pivot your service offerings toward high-performance computing and quantum-ready data analytics to support the [NRC](https://nrc.canada.ca/)’s mandate and the increasing computational demands of pathogen surveillance systems.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#CanadaProcurement #Biotech #QuantumTech #Microbiology #PublicHealth\n\n### Featured News & Sources\n- [Notice of Proposed Procurement (NPP) Hazardous Waste Disposal Services - Winnipeg & Vancouver](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-453-46733966) (Canada CanadaBuys Procurement)\n- [Environment and plant genetics shape barley rhizosphere microbiome structure across contrasting locations](https://www.biorxiv.org/content/10.64898/2026.07.20.739634v1?rss=1) (bioRxiv Microbiology)\n- [26-58075 Radio Frequency (RF) Test and Measurement Suite](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-910-8055145) (Canada CanadaBuys Procurement)\n- [Widespread occurrence of bovine-like and new viruses in wild deer across the United States](https://www.biorxiv.org/content/10.64898/2026.07.17.739239v1?rss=1) (bioRxiv Microbiology)\n",
   "insights": [
     {
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "Notice of Proposed Procurement (NPP) Hazardous Waste Disposal Services - Winnipeg & Vancouver",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-453-46733966",
+      "date": "2026-07-21T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🚨 New Canadian procurement for Hazardous Waste Disposal, including microbiology lab sites! While operational, this signals ongoing public health infrastructure needs for facilities handling biohazardous materials. #CanadaProcurement #PublicHealth",
+        "strategic_value": "- This procurement highlights the consistent operational needs of Canadian government agencies, including those with microbiology programs, for managing hazardous waste.\n- While primarily an 'METS-Ops' opportunity, the involvement of the Grain Research Laboratory's Microbiology Program suggests indirect public health and biosafety considerations, requiring stringent waste management protocols.\n- * **Consulting Pivot:** Engage with the listed Supply Arrangement holders (e.g., AEVITAS INC, CLEAN HARBORS CANADA) to explore integrating advanced waste stream simulation and biosafety compliance modeling tools to enhance their service offerings for future governmental microbiology or biohazard-related contracts, demonstrating enhanced risk management capabilities.",
+        "co_bidding_opportunity": "The procurement explicitly states 'WITHOUT SUB-CONTRACTING' for the primary hazardous waste disposal services. However, opportunities may exist for specialized METS-Digital firms to partner with the authorized Supply Arrangement holders (e.g., STERICYCLE ULC, GFL ENVIRONMENTAL INC) as specialist SMEs, to provide advanced biosafety or waste stream optimization simulation tools, enhancing their bids on future, broader health-related environmental contracts.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This procurement ensures the safe operation and waste management for facilities, including a Grain Research Laboratory Microbiology Program. While not directly a digital opportunity, the long-term regulatory anchor involves maintaining high public health and environmental safety standards, which could indirectly benefit from advanced operational planning and risk simulation for biohazardous waste streams.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      },
+      "closing_date": "2026-08-24T00:00:00Z",
+      "province": "Multiple Provinces",
+      "province_abbrev": "MULT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "Notice of Proposed Procurement (NPP)Hazardous Waste Disposal Services - Winnipeg & VancouverThis RFP is issued against Supply Arrangement EW479-162880 for GSIN E108CA - Hazardous Chemical Waste Disposal Services. All terms and conditions of the SA apply and must be incorporated into any resulting contract.The following Offerors authorized under the Supply Arrangement who identify as having the ability to provide service to both required regions will be invited directly (via e-mail):•\tAEVITAS INC...",
+      "type": "New",
+      "organization": "Canadian Grain Commission (CGC)",
+      "solicitation_number": "5K003-260469",
+      "notice_type": "RFP against Supply Arrangement",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "Variations or combinations of the above methods",
+      "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+    },
+    {
       "source": "bioRxiv_Microbiology",
-      "title": "Development and behavior of Steinernema hermaphroditum nematodes are impacted by a bacterial flavin monooxygenase",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.20.739592v1?rss=1",
+      "title": "Environment and plant genetics shape barley rhizosphere microbiome structure across contrasting locations",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.20.739634v1?rss=1",
+      "date": "2026-07-21T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🌱 Decoding the 'Rhizosphere Code': Can we simulate plant-microbiome interactions to future-proof crop resilience?",
+        "strategic_value": "* **Strategic Modeling:** The high dependency of rhizosphere composition on location-specific environmental factors (73-80% variance) suggests that in silico digital twin models of soil microbiomes could optimize site-specific agricultural inputs.\n* **Operational Efficiency:** By mapping how specific barley genotypes recruit distinct bacterial/fungal taxa, researchers can identify microbial biomarkers to enhance nutrient uptake and pathogen resistance.\n* **Consulting Pivot:** Engage agricultural research consortiums to propose a cloud-based 'Rhizosphere Simulation Sandbox' that predicts microbial assembly outcomes based on localized soil chemical datasets.",
+        "co_bidding_opportunity": "Potential for collaboration with USDA-funded agricultural research programs or domestic Canadian initiatives like AAFC (Agriculture and Agri-Food Canada) to integrate microbial simulation tools into precision farming research frameworks.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This connects to broader bioinformatics and ecological modeling capabilities relevant to Canada's agricultural biotechnology and food security research mandates.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null
+      }
+    },
+    {
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "26-58075 Radio Frequency (RF) Test and Measurement Suite",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-910-8055145",
       "date": "2026-07-20T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Can microbial 'metabolic crosstalk' hold the key to precision biotherapeutics? 🧪",
-        "strategic_value": "* Novel metabolic enzyme complexes (HpaBC) offer new targets for modulating host physiology.\n* In silico docking tools can accelerate the screening of enzymatic pathways in pathogen-host symbioses.\n* **Consulting Pivot:** Propose a partnership with biotechnology R&D labs to apply computational docking simulations to their enzyme-substrate pipeline to refine drug target discovery.",
-        "co_bidding_opportunity": "Collaborative research initiatives focused on host-pathogen interactions and synthetic biology, potentially involving academic networks supported by the funders listed in the source.",
+        "linkedin_hook": "Quantum leap! 🌌 The National Research Council (NRC) is procuring a cutting-edge RF Test and Measurement Suite for quantum metrology. This signals major opportunities for advanced simulation and data analytics in Canadian science! #QuantumTech #NRC #Simulation",
+        "strategic_value": "- NRC's investment in a high-performance RF Test and Measurement Suite signifies a foundational need for precise data acquisition essential for advancing quantum metrology and sensing platforms.\n- This hardware procurement creates downstream opportunities for virtual modeling and computational biology tools, as the generated high-fidelity RF data will require sophisticated simulation and analysis to translate into breakthrough health technologies.\n- * **Consulting Pivot:** Propose advanced quantum simulation software and data processing solutions designed to interpret and leverage the high-fidelity outputs from this new RF test suite, positioning our computational expertise to support NRC's quantum sensing and metrology research objectives, potentially aligning with future NRC Ideation Fund calls.",
+        "co_bidding_opportunity": "While the RFP seeks a single, compatible solution for the RF suite, METS-Digital firms could engage with potential prime bidders (suppliers of advanced RF test equipment) to offer integrated quantum simulation and data analytics platforms. This would function as a specialist SME subcontracting role, enhancing the prime's value proposition by providing comprehensive solutions beyond just hardware, thereby supporting NRC's mandate for breakthrough health technologies.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "This research provides a fundamental mechanism for host-pathogen interaction, directly aligning with long-term goals for developing advanced predictive models for infectious disease control.",
+        "mets_rationalization": "This NRC procurement for advanced RF test equipment directly supports 'measurement science and quantum metrology', which are critical for developing 'breakthrough health technologies'. This aligns with the NRC Ideation Fund (Fact ID 1001), which supports 'simulation platforms' and breakthrough technologies, indicating a foundational investment for future digital modeling and simulation applications.",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        }
+      },
+      "closing_date": "2026-08-14T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "RFP 26-58075 Radio frequency (RF) test and measurement suiteOBJECTIVENRC requires a radio frequency (RF) test and measurement suite consisting of: a signal generator that is capable of generating from 10 kHz to 50 GHz and has a frequency multiplier that connects to, and can be controlled by, the signal generator; a signal/spectrum analyzer capable of measuring up to 50 GHz; and a vector network analyzer capable of operating up to 44 GHz. NRC is seeking one compatible solution that includes the S...",
+      "type": "Open",
+      "organization": "National Research Council of Canada (NRC)",
+      "solicitation_number": "26-58075",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Please refer to Tender Description or Tender Documents",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Widespread occurrence of bovine-like and new viruses in wild deer across the United States",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.17.739239v1?rss=1",
+      "date": "2026-07-20T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🦌 Is our wildlife acting as a viral reservoir? New genomic data shows widespread spillover risk at the human-wildlife interface. 🧬",
+        "strategic_value": "* **Risk Mitigation:** Identifying bovine-like and novel viruses in wild deer populations necessitates advanced pathogen surveillance networks to prevent cross-species transmission.\n* **Simulation Necessity:** Leveraging metagenomic sequence data in viral replication models can help public health agencies simulate potential spillover pathways and establish early warning triggers.\n* **Consulting Pivot:** Propose the development of a 'Pathogen Spillover Dashboard' for provincial public health authorities, utilizing predictive modeling to correlate wildlife viral prevalence with local livestock movement patterns.",
+        "co_bidding_opportunity": "Public health agencies and environmental departments (such as PHAC or provincial wildlife management bodies) may seek specialist partners for metagenomic data processing and zoonotic risk assessment frameworks.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This aligns with public health mandates for One Health surveillance, specifically the monitoring of zoonotic spillover risks within the Canadian ecosystem.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
     },
     {
       "source": "bioRxiv_Microbiology",
-      "title": "Interconnected reservoirs of multidrug-resistant bacteria and plasmids within the hospital built environment",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.20.739580v1?rss=1",
+      "title": "Coronavirus papain-like protease antagonizes innate immunity by cleaving Importin α1 to disrupt nuclear transport",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.17.739146v1?rss=1",
       "date": "2026-07-20T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Is your hospital's 'built environment' a hidden reservoir for MDR-GNB? 🏥",
-        "strategic_value": "* Hospital infrastructure acts as a permanent incubator for antimicrobial resistance (AMR), requiring advanced environmental surveillance.\n* Comparative genomics can map the flow of resistance plasmids between environmental sinks and clinical wards.\n* **Consulting Pivot:** Advise healthcare procurement teams on integrating 'digital twin' simulations of facility water systems to identify and neutralize high-risk pathogen reservoirs.",
-        "co_bidding_opportunity": "Public health procurement bids centered on hospital infrastructure safety, environmental hygiene, and AMR mitigation programs.",
+        "linkedin_hook": "🦠 Cracking the viral evasion code: New discovery on how coronaviruses silence our immune system could redefine antiviral drug design.",
+        "strategic_value": "* **Drug Discovery:** The conserved proteolytic inactivation of Importin α1 by the PLpro-TM protease offers a universal target for developing broad-spectrum, cleavage-resistant antiviral therapeutic agents.\n* **Mechanism-Based Modeling:** Computational biology tools can simulate the docking interactions between PLpro-TM variants and host Importin α1, accelerating the screening of therapeutic candidates.\n* **Consulting Pivot:** Reach out to biotech firms and academic labs focusing on antiviral pipelines to offer structural biology and in silico screening services that specifically target the Importin α1 cleavage site.",
+        "co_bidding_opportunity": "Partnership opportunities exist within established infectious disease research networks and CIHR (Canadian Institutes of Health Research) priority areas related to pandemic preparedness and therapeutic discovery.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "This data directly supports public health mandates for monitoring AMR, a critical component of Canada's health security strategy.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Prevalent glutamyl-endopeptidases in the commensal skin microbiome have itch-relevant activity",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.17.739094v1?rss=1",
-      "date": "2026-07-20T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Unlocking the itch: How skin commensals are rewriting the rules of dermatology. 🔬",
-        "strategic_value": "* Commensal bacteria (S. epidermidis/capitis) act as active contributors to itch-signaling, expanding beyond traditional S. aureus models.\n* Predictive proteomics and structural architecture modeling are essential to identify which bacterial proteases cause barrier dysfunction.\n* **Consulting Pivot:** Engage pharmaceutical R&D firms to apply structural proteomics simulations to predict protease-PAR1 interactions, accelerating the development of new topical therapeutics.",
-        "co_bidding_opportunity": "Strategic partnerships with dermatology research networks to develop new therapeutic pathways for chronic inflammatory skin conditions.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Understanding commensal-mediated pathology is essential for precision medicine approaches in chronic immune and skin health management.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "The Aspergillus fumigatus C2-Domain Protein SppA is required for septal integrity and alters susceptibility to echinocandins and neutrophil killing during infection",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.17.739181v1?rss=1",
-      "date": "2026-07-20T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Adapting to the stress: Insights into the fungal 'septal pore' could be the next breakthrough in antifungal therapy. 🍄",
-        "strategic_value": "* Septal pore proteins (SppA) represent novel therapeutic vulnerabilities in opportunistic fungal pathogens.\n* Integrating transcription factor analysis (ZfpA) with antifungal susceptibility modeling can optimize drug delivery and efficacy.\n* **Consulting Pivot:** Collaborate with antifungal drug developers to model 'cell wall stress responses' using in silico simulations, reducing the need for costly animal trial cycles.",
-        "co_bidding_opportunity": "Research and development consortiums focused on invasive fungal disease, potentially leveraging academic-industry ties common in federal health funding.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Advancing fungal surveillance and therapeutic resilience directly supports public health resilience against emerging opportunistic infections.",
+        "mets_rationalization": "This connects to high-level infectious disease research objectives in Canada, specifically targeting pandemic preparedness and the development of next-generation antiviral platforms.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
@@ -137,7 +186,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)",
+      "trade_agreements": "Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)",
       "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
@@ -196,76 +245,6 @@
           "url": "https://cihr-irsc.gc.ca/e/53000.html"
         }
       }
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
-      "title": "Medical Surveillance Program for NRC - Clinical Trial Material Facility - CTMF",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-705-3221879",
-      "date": "2026-07-15T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Strengthening Canada’s biomanufacturing resilience: NRC’s new Clinical Trial Material Facility is operational. 🧪 How can we ensure safety while accelerating vaccine production?",
-        "strategic_value": "* The NRC-CTMF facility represents a core pillar for Canadian biomanufacturing and pandemic preparedness.\n* Establishing robust medical surveillance protocols is critical for maintaining compliance with GMP standards in vaccine production environments.\n* **Consulting Pivot:** Propose the integration of in silico simulation software to model workforce health risk pathways and pathogen transmission dynamics within the CTMF environment as a proactive, data-driven alternative to traditional manual surveillance models.",
-        "co_bidding_opportunity": "Collaborative bids could involve partnering with established occupational health providers to offer a hybrid surveillance model that incorporates data-driven risk monitoring, leveraging NRC Ideation Fund [Fact ID: 1001] for the adoption of predictive safety technologies in new federal biomanufacturing facilities.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "This project aligns with NRC operational capacity [Fact ID: 1001] for supporting biomanufacturing infrastructure and maintaining public health standards through the deployment of specialized health evaluation frameworks.",
-        "grounded_fact_ids": [
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        }
-      },
-      "closing_date": "2026-08-21T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "To perform timely and ongoing health evaluations, as required, for identified staff from the NRC-Clinical Trial Material Facility (NRC-CTMF) in accordance with the NRC-CTMF Medical Surveillance Program.  The NRC has established a new Good Manufacturing Practices (GMP)-compliant Clinical Trial Material Facility (CTMF) at its Royalmount Avenue site in Montréal. This facility will produce vaccines and other biologic materials for clinical trials on behalf of NRC partners and collaborators, supporti...",
-      "type": "Open",
-      "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "26-58074",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
-      "title": "Acoustic Mixing System",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-49-12597740",
-      "date": "2026-07-14T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🧬 Precision mixing is the unsung hero of breakthrough drug formulation. Are you optimized for the lab?",
-        "strategic_value": "* **Infrastructure Readiness:** The NRC's investment in advanced mixing systems signals a ramp-up in materials science and pharmaceutical formulation capabilities.\n* **Simulation Synergies:** Accurate physical mixing is the vital validation step for any in silico model predicting drug solubility or nanoparticle dispersion.\n* **Consulting Pivot:** Reach out to the NRC technical procurement leads to position your computational fluid dynamics (CFD) simulation software as the necessary validation layer for these high-viscosity experimental runs.",
-        "co_bidding_opportunity": "Partner with laboratory equipment suppliers to offer digital-twin software integrations that simulate the mixing dynamics of new therapeutic compounds, potentially aligning with future NRC Ideation Fund [Fact ID: 1001] research cycles.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "This hardware procurement supports the core R&D infrastructure required for biological and chemical innovation within the NRC, serving as a foundational asset for future computational biology projects.",
-        "grounded_fact_ids": [
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        }
-      },
-      "closing_date": "2026-07-29T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "Description:The National Research Council Canada (NRC) has a requirement for the supply and delivery of an Acoustic Mixing System for Clean Energy and Innovation, Mississauga Ontario. The Acoustic Mixing System is capable of mixing a combination of ingredients including liquids, pastes, and powders ranging from nano to large particle as well as highly viscous materials.All deliverables must be received within 10 weeks of contract issuance, and in accordance with best commercial standards.",
-      "type": "Open",
-      "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "25-58201 B",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "Canada_PHAC_AMR",
