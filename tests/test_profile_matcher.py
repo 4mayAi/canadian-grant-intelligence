@@ -86,7 +86,7 @@ class TestProfileMatcher(unittest.TestCase):
         self.assertEqual(len(results), 1)
         self.assertEqual(results[0]["fit_score"], 92)
         self.mock_notifier.send_digest.assert_called_once()
-        self.mock_azure.upload_json.assert_called_once()
+        self.assertEqual(self.mock_azure.upload_json.call_count, 2)
 
     def test_process_tenders_dry_run_suppresses_email_and_azure_audit(self):
         matching_tender = {
@@ -111,6 +111,34 @@ class TestProfileMatcher(unittest.TestCase):
         self.assertEqual(len(results), 1)
         self.mock_notifier.send_digest.assert_not_called()
         self.mock_azure.upload_json.assert_not_called()
+
+    def test_process_tenders_sent_alerts_deduplication(self):
+        """Verify that already-alerted tenders are skipped and do not trigger LLM calls or duplicate emails."""
+        matching_tender = {
+            "title": "Cloud based spreadsheet database hybrid",
+            "solicitation_number": "BPM026194",
+            "organization": "Shared Services Canada",
+            "link": "https://canadabuys.canada.ca/en/tender-opportunities?search_api_fulltext=BPM026194",
+            "description": "Database hybrid requirement"
+        }
+
+        # Mock sent_lead_alerts.json returning BPM026194 as already sent to mayai_test
+        self.mock_azure.download_json.return_value = {
+            "mayai_test": {
+                "BPM026194": "2026-07-21T00:00:00Z"
+            }
+        }
+
+        results = self.matcher.process_tenders(
+            tenders=[matching_tender],
+            profiles=[self.mock_profile],
+            dry_run=False
+        )
+
+        # Gemini fit evaluation and notifier should NOT be called at all
+        self.assertEqual(len(results), 0)
+        self.mock_gemini.evaluate_subscriber_fit.assert_not_called()
+        self.mock_notifier.send_digest.assert_not_called()
 
 if __name__ == "__main__":
     unittest.main()

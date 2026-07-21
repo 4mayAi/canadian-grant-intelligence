@@ -57,6 +57,27 @@ class ProfileMatcher:
                     return True
         return False
 
+    def load_sent_alerts_registry(self, blob_name: str = "sent_lead_alerts.json") -> Dict[str, Any]:
+        """Loads registry of previously sent lead alerts from Azure Blob Storage."""
+        if self.azure_client:
+            try:
+                data = self.azure_client.download_json(blob_name)
+                if isinstance(data, dict):
+                    logging.info(f"Loaded sent lead alerts registry from Azure ({blob_name}) with {len(data)} subscribers.")
+                    return data
+            except Exception as e:
+                logging.warning(f"Could not load sent lead alerts registry from Azure: {e}")
+        return {}
+
+    def save_sent_alerts_registry(self, registry: Dict[str, Any], blob_name: str = "sent_lead_alerts.json"):
+        """Saves updated sent lead alerts registry to Azure Blob Storage."""
+        if self.azure_client:
+            try:
+                self.azure_client.upload_json(blob_name, registry)
+                logging.info(f"Saved updated sent lead alerts registry to Azure ({blob_name}).")
+            except Exception as e:
+                logging.error(f"Failed to save sent lead alerts registry to Azure: {e}")
+
     def process_tenders(
         self, 
         tenders: List[Dict[str, Any]], 
@@ -66,25 +87,37 @@ class ProfileMatcher:
     ) -> List[Dict[str, Any]]:
         """
         Evaluates tenders against active subscriber profiles.
-        Uses local pre-filtering before LLM calls to preserve privacy and minimize API usage.
+        Uses local pre-filtering and sent alert registry deduplication before LLM calls to preserve privacy, avoid duplicate emails, and minimize API usage.
         """
         if not tenders or not profiles:
             return []
 
         audit_matches = []
         today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        sent_registry = self.load_sent_alerts_registry(blob_name="sent_lead_alerts.json")
+        registry_updated = False
 
         for profile in profiles:
             sub_id = profile.get("subscriber_id", "unknown")
             sub_name = profile.get("name", sub_id)
             sub_email = profile.get("email")
             keywords = profile.get("keywords", [])
+            sent_sub_alerts = sent_registry.get(sub_id, {})
 
             logging.info(f"Evaluating tenders for subscriber profile '{sub_name}' ({len(keywords)} keywords)...")
 
-            # Phase 1: Local Keyword Pre-Filter
-            candidate_tenders = [t for t in tenders if self._tender_matches_keywords(t, keywords)]
-            logging.info(f"Local pre-filter matched {len(candidate_tenders)} / {len(tenders)} tenders for '{sub_name}'.")
+            # Phase 1: Local Keyword Pre-Filter & Sent Registry Deduplication
+            matched_tenders = [t for t in tenders if self._tender_matches_keywords(t, keywords)]
+            candidate_tenders = []
+            for t in matched_tenders:
+                link = t.get("link", "")
+                sol_num = t.get("solicitation_number", t.get("referenceNumber-numeroReference", ""))
+                if link in sent_sub_alerts or (sol_num and sol_num != "N/A" and sol_num in sent_sub_alerts):
+                    logging.info(f"Skipping already-alerted tender '{t.get('title', '')[:40]}...' for subscriber '{sub_name}'.")
+                    continue
+                candidate_tenders.append(t)
+
+            logging.info(f"Local pre-filter matched {len(candidate_tenders)} new un-alerted tenders for '{sub_name}'.")
 
             # Phase 2: Isolated LLM Fit Evaluation & Pitch Generation
             for tender in candidate_tenders:
@@ -135,6 +168,16 @@ class ProfileMatcher:
                     }
                     audit_matches.append(match_record)
 
+                    # Update sent alerts registry for subscriber
+                    if sub_id not in sent_registry:
+                        sent_registry[sub_id] = {}
+                    now_iso = datetime.now(timezone.utc).isoformat()
+                    if link:
+                        sent_registry[sub_id][link] = now_iso
+                    if sol_num and sol_num != "N/A":
+                        sent_registry[sub_id][sol_num] = now_iso
+                    registry_updated = True
+
                     # Phase 3: Private Lead Alert Dispatch (Suppressed on dry_run)
                     if not dry_run and self.notifier and sub_email:
                         subject = f"🎯 Golden Lead Alert ({fit_score}% Match): {tender_title[:50]}"
@@ -163,7 +206,10 @@ class ProfileMatcher:
                     elif dry_run:
                         logging.info(f"[DRY RUN] Generated lead pitch for '{sub_name}' (Score: {fit_score}%). Email dispatch suppressed.")
 
-        # Phase 4: Write Date-Scoped Audit Log to Azure (Suppressed on dry_run)
+        # Phase 4: Write Registry & Date-Scoped Audit Log to Azure (Suppressed on dry_run)
+        if registry_updated and not dry_run:
+            self.save_sent_alerts_registry(sent_registry, blob_name="sent_lead_alerts.json")
+
         if audit_matches and not dry_run and self.azure_client:
             audit_blob = f"lead_audit_{today_str}.json"
             self.azure_client.upload_json(audit_blob, audit_matches)
