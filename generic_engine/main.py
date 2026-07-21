@@ -897,10 +897,10 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
                 matcher = ProfileMatcher(azure_client=azure_client, gemini_client=gemini_client, notifier=notifier)
                 profiles = matcher.load_profiles(blob_name=config.storage.subscriber_profiles_file)
                 if profiles and final_tenders:
-                    # Target new tenders first, or active tenders if in pulse/dry_run/seeding
-                    tenders_to_eval = [t for t in final_tenders if t.get("type") == "New" or seed_strategy or dry_run]
+                    # Target new tenders first, or all active tenders in deep_dive/seed_strategy/dry_run
+                    tenders_to_eval = [t for t in final_tenders if t.get("type") == "New" or seed_strategy or dry_run or run_type in ["deep_dive", "DEEP_DIVE"]]
                     if not tenders_to_eval:
-                        tenders_to_eval = final_tenders[:25]
+                        tenders_to_eval = final_tenders
                     logging.info(f"Running subscriber profile evaluation across {len(tenders_to_eval)} candidate tenders...")
                     matcher.process_tenders(tenders=tenders_to_eval, profiles=profiles, dry_run=dry_run)
             except Exception as match_err:
