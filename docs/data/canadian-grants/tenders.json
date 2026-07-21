@@ -7751,7 +7751,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "",
-    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)North American Free Trade Agreement (NAFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)",
+    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)North American Free Trade Agreement (NAFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   },
   {
@@ -7780,7 +7780,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade Agreement",
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade Agreement",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   },
   {
@@ -8363,5 +8363,63 @@
     "selection_criteria": "",
     "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Curran Cabin Addition and Deck Extension at Long Point National Wildlife Area",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-297-30518325",
+    "date": "2026-07-20T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "",
+      "strategic_value": "Insight generation failed or blocked: Unknown reason",
+      "co_bidding_opportunity": "",
+      "mets_category": "",
+      "mets_rationalization": "",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-08-05T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "CNST",
+    "category_label": "Construction",
+    "description": "Title:Curran Cabin Addition and Deck Extension at Long Point National Wildlife Area Location: Gravelly Bay, Long Point National Wildlife Area, Norfolk County, Ontario, CanadaLatitude / Longitude: 42.552471, -80.102022Two Phase Selection Process:This is the first phase (Phase One) of a two-phase competition. The first phase will evaluate the qualifications of all bidders. The second phase, (Phase Two), will invite the qualified bidders to provide a financial bid on the project based on the specif...",
+    "type": "New",
+    "organization": "Department of the Environment (ECCC )",
+    "solicitation_number": "5000095579",
+    "notice_type": "Invitation to Qualify",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Prime-Tracking (Pre-Qualification)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "26-58075 Radio Frequency (RF) Test and Measurement Suite",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-910-8055145",
+    "date": "2026-07-20T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "",
+      "strategic_value": "Insight generation failed or blocked: Unknown reason",
+      "co_bidding_opportunity": "",
+      "mets_category": "",
+      "mets_rationalization": "",
+      "grounded_fact_ids": [],
+      "anchor_reference": null
+    },
+    "closing_date": "2026-08-14T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "RFP 26-58075 Radio frequency (RF) test and measurement suiteOBJECTIVENRC requires a radio frequency (RF) test and measurement suite consisting of: a signal generator that is capable of generating from 10 kHz to 50 GHz and has a frequency multiplier that connects to, and can be controlled by, the signal generator; a signal/spectrum analyzer capable of measuring up to 50 GHz; and a vector network analyzer capable of operating up to 44 GHz. NRC is seeking one compatible solution that includes the S...",
+    "type": "New",
+    "organization": "National Research Council of Canada (NRC)",
+    "solicitation_number": "26-58075",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
   }
 ]
