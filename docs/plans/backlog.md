@@ -24,3 +24,4 @@ To activate a plan:
 | Plan Name | Date Completed | Status | Description | Reference Link |
 | :--- | :--- | :--- | :--- | :--- |
 | **CPCSC Level 1 Cybersecurity Baseline Controls** | 2026-07-16 | `Completed` | Implemented 13 baseline controls, created Incident Response Plan and Evidence Binder for sole proprietorship. | [plan_2026-07-16_cybersecurity_baseline_controls.md](file:///c:/dev/canadian-grant-intelligence/docs/plans/plan_2026-07-16_cybersecurity_baseline_controls.md) |
+| **Profile-Aware Multi-Tenant Lead Alert System** | 2026-07-20 | `Completed` | Built profile matcher, local keyword pre-filtering, CLI profile manager, and live Golden Lead email dispatch. | [plan_2026-07-20_profile_aware_lead_alert_system.md](file:///c:/dev/canadian-grant-intelligence/docs/plans/plan_2026-07-20_profile_aware_lead_alert_system.md) |

@@ -127,6 +127,18 @@ def get_hub_from_source(source_name: str) -> str:
     else:
         return "Global"
 
+def parse_date_safely(item: dict) -> datetime:
+    """Parses date string or datetime object from item dictionary safely."""
+    d = item.get("date")
+    if isinstance(d, datetime):
+        return d
+    if isinstance(d, str):
+        try:
+            return datetime.fromisoformat(d.rstrip("Z"))
+        except:
+            pass
+    return datetime.min
+
 
 def fetch_and_process_news(
     config: PipelineConfig,
@@ -579,17 +591,6 @@ def fetch_and_process_news(
                         report_item_dict[field] = item[field]
                 final_insights.append(report_item_dict)
 
-    def parse_date_safely(item):
-        d = item.get("date")
-        if isinstance(d, datetime):
-            return d
-        if isinstance(d, str):
-            try:
-                return datetime.fromisoformat(d.rstrip("Z"))
-            except:
-                pass
-        return datetime.min
-
     # Carry forward cached insights that were not scraped in the current run but are still valid and match keywords
     for link, item in existing_insights_map.items():
         if link not in seen_links:
@@ -910,22 +911,24 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         kpis = generate_dashboard_kpis(insights, gemini_client, tenders=final_tenders)
         kpis["skill_version"] = config.skill_version
 
-        # Select top 5 featured items for digest, capping at 2 items per hub to ensure regional balance (or 5 if single-hub)
-        source_hubs = {src.name: (src.hub if src.hub else get_hub_from_source(src.name)) for src in config.sources}
-        featured_insights = []
-        hub_counts = {}
-        unique_hubs = {h for h in source_hubs.values() if h}
-        max_per_hub = 2 if len(unique_hubs) > 1 else 5
-        
-        for item in insights:
-            src = item.get("source", "")
-            hub = source_hubs.get(src) or get_hub_from_source(src)
-            count = hub_counts.get(hub, 0)
-            if count < max_per_hub:
-                featured_insights.append(item)
-                hub_counts[hub] = count + 1
-            if len(featured_insights) == 5:
-                break
+        # Select top 5 featured items for digest, prioritizing news over tenders with fallback backfilling
+        TENDER_SOURCES = {"CanadaBuys"}
+        TARGET_FEATURED_COUNT = 5
+        MAX_FEATURED_TENDERS = 1
+
+        news_pool = [i for i in insights if i.get("source") not in TENDER_SOURCES and "closing_date" not in i]
+        tender_pool = [i for i in insights if i.get("source") in TENDER_SOURCES or "closing_date" in i]
+
+        # Primary allocation: up to 4 news + up to 1 tender
+        featured_insights = news_pool[:TARGET_FEATURED_COUNT - MAX_FEATURED_TENDERS] + tender_pool[:MAX_FEATURED_TENDERS]
+
+        # Fallback backfill: if under 5 items, fill from remaining pools (news first, then tenders)
+        if len(featured_insights) < TARGET_FEATURED_COUNT:
+            remaining_news = news_pool[TARGET_FEATURED_COUNT - MAX_FEATURED_TENDERS:]
+            remaining_tenders = tender_pool[MAX_FEATURED_TENDERS:]
+            remaining_combined = remaining_news + remaining_tenders
+            needed = TARGET_FEATURED_COUNT - len(featured_insights)
+            featured_insights.extend(remaining_combined[:needed])
 
         # 5. Compile LinkedIn summary post
         # Build enriched context: title + hook + full strategic_value for top 5 items
@@ -981,9 +984,16 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
                 source_counts[src] = count + 1
             else:
                 logging.info(f"Per-source cap ({max_per_src}) reached for '{src}'. Dropping: {item.get('title', '?')[:60]}")
-        if len(capped_insights) < len(insights):
-            logging.info(f"Per-source cap reduced insights from {len(insights)} to {len(capped_insights)}.")
         insights = capped_insights
+
+        # Interleave insights array for pmo_insights.json so news releases surface above tenders of the same date
+        def sort_key_news_first(item):
+            dt = parse_date_safely(item)
+            is_tender = item.get("source") in TENDER_SOURCES or "closing_date" in item
+            # Priority is 1 for news, 0 for tender so reverse=True puts news FIRST on date tie
+            return (dt, 1 if not is_tender else 0)
+
+        insights.sort(key=sort_key_news_first, reverse=True)
 
         pmo_wrapper = {
             "generated_at": datetime.utcnow().isoformat() + "Z",
