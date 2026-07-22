@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field, field_validator
 class SourceConfig(BaseModel):
     name: str
     url: str
-    type: str = Field(pattern="^(rss|ckan|html|html_playwright|youtube_channel)$")
+    type: str = Field(pattern="^(rss|ckan|html|html_playwright|youtube_channel|ised_newsletter|bdl_nowcast)$")
     fallback_url: Optional[str] = None
     fallback_type: Optional[str] = None
     skip_query_refactoring: Optional[bool] = False
