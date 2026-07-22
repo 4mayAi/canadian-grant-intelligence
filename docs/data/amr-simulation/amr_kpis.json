@@ -1,9 +1,10 @@
 {
-  "total_active": 18,
-  "new_today": 5,
+  "total_active": 14,
+  "new_today": 3,
   "closing_this_week": 0,
-  "top_category": "Canada CanadaBuys Procurement",
-  "hero_hook": "Ottawa scales infrastructure resilience and biosecurity tracking nationwide. 🇨🇦",
-  "generated_at": "2026-07-21T19:09:15.523171Z",
+  "top_category": "Canada PHAC AMR",
+  "hero_hook": "PHAC imposes strict travel bans and oversight amid heightened health surveillance. 🇨🇦",
+  "generated_at": "2026-07-22T19:02:27.129638Z",
+  "macro_indicators": null,
   "skill_version": "1.0.0"
 }
