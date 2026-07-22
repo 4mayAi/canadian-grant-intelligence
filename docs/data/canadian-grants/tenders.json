@@ -8182,7 +8182,7 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "NOTICE OF PROPOSED PROCUREMENTThe Department of National Defence has a requirement for the items detailed below.  The delivery is requested at CFB Halifax, Nova Scotia and CFB Esquimalt, British Columbia.Line Item 1, HEATER KITPart Number: C-D/DV/NAVY/SS/HTRGSIN: 4310NCAGE: 57328Manufacturer: BAUER COMPRESSORS INCQuantity: 30, Unit of Issue: KT, to be delivered to CFB Halifax, Nova Scotia.Line Item 2, HEATER KITPart Number: C-D/DV/NAVY/SS/HTRGSIN: 4310NCAGE: 57328Manufacturer: BAUER COMPRESSORS ...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of National Defence (DND)",
     "solicitation_number": "W8482-275358/A",
     "notice_type": "Request for Proposal",
@@ -8211,7 +8211,7 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "NOTICE OF PROPOSED PROCUREMENT\t\t\t\t\t\t\t\t\t\t\t\t\t\tThe Department of National Defence has a requirement for the items detailed below. The delivery is requested at CFB Halifax and CFB Esquimalt.\t\t\t\t\t\t\t\t\t\t\t\t\t\tLine Item:\t001\tHELMET, DEEP-SEA DIVER'S\t\t\t\t\tPart Number:\t500-701\tNCAGE:\t58366\tKIRBY MORGAN DIVE SYSTEMS INC\t\t\tGSIN:\t4220\tQuantity:\t20\tUoI:\tEA\tto be delivered to:\tCFB Halifax\t\t\t\t\t\t\tLine Item:\t002\tHELMET, DEEP-SEA DIVER'S\t\t\t\t\tPart Number:\t500-701\tNCAGE:\t58366\tKIRBY MORGAN DIVE SYSTEMS INC\t\t\tGSIN:\t4220...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of National Defence (DND)",
     "solicitation_number": "W8482-275411/A",
     "notice_type": "Request for Proposal",
@@ -8240,7 +8240,7 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "The Department of National Defence has a requirement for the items detailed below. The delivery isrequested at CFB Halifax, Nova Scotia and CFB Esquimalt, British Columbia.Line Item 1, HOSE SET, NONMETALLICPart Number: FB412M0165-0165GSIN: 4720NCAGE: 01276Manufacturer: Danfoss Power Solutions II, LLCQuantity: 5, Unit of Issue: EA, to be delivered to CFB Halifax, Nova Scotia.Line Item 2, HOSE SET, NONMETALLICPart Number: FB412M0165-0165GSIN: 4720NCAGE: 01276Manufacturer: Danfoss Power Solutions I...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of National Defence (DND)",
     "solicitation_number": "W8482-275362/A",
     "notice_type": "Request for Proposal",
@@ -8269,13 +8269,13 @@
     "category": "SRV",
     "category_label": "Services",
     "description": "Notice of Proposed Procurement (NPP)Hazardous Waste Disposal Services - Winnipeg & VancouverThis RFP is issued against Supply Arrangement EW479-162880 for GSIN E108CA - Hazardous Chemical Waste Disposal Services. All terms and conditions of the SA apply and must be incorporated into any resulting contract.The following Offerors authorized under the Supply Arrangement who identify as having the ability to provide service to both required regions will be invited directly (via e-mail):•\tAEVITAS INC...",
-    "type": "New",
+    "type": "Open",
     "organization": "Canadian Grain Commission (CGC)",
     "solicitation_number": "5K003-260469",
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Variations or combinations of the above methods",
-    "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)",
+    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   },
   {
@@ -8697,6 +8697,84 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
     "trade_agreements": "Please refer to Tender Description or Tender Documents",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "TBIPS - Implementation and Deployment of Cloud Analytics Solutions",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-934-39943528",
+    "date": "2026-07-22T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🚀 Scaling DND's cloud transformation: Is your firm ready to handle the Joint Defence Cloud Program's next phase?",
+      "strategic_value": "* The DND is shifting from legacy on-premises IT to cloud-native service delivery, necessitating specialized expertise in multi-cloud migration and security posture management.\n* The technical focus is on managing hybrid-cloud environments, ensuring secure data sovereignty, and providing operational support for enterprise-grade analytics platforms within the NCR.\n* **Consulting Pivot:** Propose a partnership with mid-tier cybersecurity or cloud-native devsecops firms to fill specific technical gaps in your proposal, emphasizing your team's capability to navigate complex DND security requirements.",
+      "co_bidding_opportunity": "Consortium opportunities exist for specialized cloud architects, cybersecurity SMEs focused on DND-compliant environments, and data engineering firms capable of providing the required day-to-day managed services.",
+      "mets_category": "Defence Procurement",
+      "mets_rationalization": "The notice directly supports the Joint Defence Cloud Program (DJDCP) mandate, aligning with federal initiatives to modernize defense infrastructure and data sovereignty as outlined in the strategic anchors.",
+      "grounded_fact_ids": [
+        3
+      ],
+      "anchor_reference": {
+        "source_name": "Federal & Provincial Data Sovereignty Legislation",
+        "page_range": "General",
+        "url": "https://www.priv.gc.ca/"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-11T00:00:00Z",
+    "province": "NCR (Ottawa/Gatineau)",
+    "province_abbrev": "NCR",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Directorate Joint Defence Cloud Program (DJDCP) will require informatics professionalservices in order to provide hands-on support in the preparation of Cloud environments andmanagement of the existing cloud platform, including all aspects supporting theadvancement of cloud adoption.DJDCP is advancing overall technical readiness for innovative, secure and responsible useof modern technologies within the Department of National Defence (DND)/ Canadian ArmedForces (CAF), precisely on Cloud computin...",
+    "type": "New",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W6369-24-P5PN",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Internet Links for all BDC sites and related services",
+    "link": "https://www.merx.com/public/solicitations/4034875555/abstract?language=EN",
+    "date": "2026-07-21T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🌐 Scaling enterprise connectivity: BDC’s national search for high-speed infrastructure highlights the future of Canadian digital backbone projects.",
+      "strategic_value": "* This tender represents a significant move to secure resilient, nationwide connectivity for the Business Development Bank of Canada, necessitating redundant and secure network architectures.\n* The requirement targets high-speed, scalable internet links and managed services capable of meeting the uptime demands of a nationwide financial institution across diverse urban and regional sites.\n* **Consulting Pivot:** If your firm provides managed wide-area network (WAN) services or SD-WAN orchestration, pivot by proposing an integrated solution that leverages existing dark fiber infrastructure to enhance network reliability and lower long-term opex.",
+      "co_bidding_opportunity": "Requires integration partners including national telecommunications infrastructure providers, dark fiber asset holders, and regional managed service providers capable of delivering last-mile connectivity.",
+      "mets_category": "Infrastructure & Digital",
+      "mets_rationalization": "The project involves the procurement of national telecommunications links, touching on the critical requirement for resilient terrestrial infrastructure and adherence to domestic connectivity standards.",
+      "grounded_fact_ids": [
+        1,
+        2,
+        4
+      ],
+      "anchor_reference": {
+        "source_name": "CRTC Telecommunications Act & Regulatory Framework",
+        "page_range": "General",
+        "url": "https://crtc.gc.ca/"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-09T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GDSRV",
+    "category_label": "Services & Goods",
+    "description": "The purpose of this call for tenders is to solicit submissions to meet the connectivity and high-speed Internet link requirements of BDC for all its sites across Canada, as well as for related servicesBidding and Documents are available on http://www.merx.com.  Fees may apply; See https://www.merx.com/public/pricing for more information.",
+    "type": "New",
+    "organization": "Business Development Bank of Canada",
+    "solicitation_number": "PRCP0003475",
+    "notice_type": "",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   }
 ]
