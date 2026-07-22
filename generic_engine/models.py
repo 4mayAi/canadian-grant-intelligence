@@ -12,6 +12,9 @@ class GeminiInsight:
     mets_rationalization: str = ""
     grounded_fact_ids: List[int] = field(default_factory=list)
     anchor_reference: Optional[Dict[str, Any]] = None
+    program_validation_status: Optional[str] = None
+    export_risk_advisory: Optional[str] = None
+    macro_sector_trend: Optional[str] = None
     
     def to_dict(self) -> dict:
         return asdict(self)
@@ -56,6 +59,7 @@ class KPIDashboard:
     top_category: str = "Mixed Sectors"
     hero_hook: str = "mayAi | Delivering Golden Opportunities Daily"
     generated_at: str = ""
+    macro_indicators: Optional[Dict[str, Any]] = None
     
     def to_dict(self) -> dict:
         return asdict(self)

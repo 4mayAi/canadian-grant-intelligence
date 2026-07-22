@@ -769,6 +769,12 @@
                             : innerInsight.strategic_value;
                         bodyHtml += `<h4>Strategic Value for Canadian Businesses</h4><div class="md-content">${marked.parse(stratText)}</div>`;
                     }
+                    if (innerInsight.program_validation_status) {
+                        bodyHtml += `<div class="badge badge-verified" style="background:#0d9488;color:#fff;padding:4px 8px;border-radius:4px;display:inline-block;margin-bottom:8px;font-size:0.85rem;">✓ Verified Govt Program: ${escapeHtml(innerInsight.program_validation_status)}</div>`;
+                    }
+                    if (innerInsight.export_risk_advisory) {
+                        bodyHtml += `<h4>EDC Financial & Export Risk Advisory</h4><div class="md-content">${marked.parse(innerInsight.export_risk_advisory)}</div>`;
+                    }
                     if (innerInsight.co_bidding_opportunity) {
                         const cobidText = Array.isArray(innerInsight.co_bidding_opportunity) 
                             ? innerInsight.co_bidding_opportunity.join('\n') 

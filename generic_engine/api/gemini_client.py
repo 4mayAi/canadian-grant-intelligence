@@ -341,7 +341,10 @@ class GeminiClient:
                             co_bidding_opportunity=co_bid,
                             mets_category=normalized_cat,
                             mets_rationalization=parsed.get("mets_rationalization", ""),
-                            grounded_fact_ids=fact_ids
+                            grounded_fact_ids=fact_ids,
+                            program_validation_status=parsed.get("program_validation_status"),
+                            export_risk_advisory=parsed.get("export_risk_advisory"),
+                            macro_sector_trend=parsed.get("macro_sector_trend")
                         ))
                     
                     while len(insights) < len(contents):

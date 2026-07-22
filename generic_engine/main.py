@@ -21,6 +21,8 @@ from extractors.rss import fetch_rss_feeds
 from extractors.playwright_scraper import fetch_html_news
 from extractors.youtube import fetch_youtube_videos
 from extractors.ckan import fetch_canadabuys_tenders, get_category_label
+from extractors.bdlnow import fetch_bdlnow_indicators
+from extractors.ised_newsletter import fetch_ised_business_insights
 from extractors.report_scraper import (
     resolve_google_news_url,
     scrape_html_report,
@@ -321,6 +323,26 @@ def fetch_and_process_news(
                 if failed_feeds is not None:
                     failed_feeds.append(src["name"])
 
+    # Ingest ISED Business Insights newsletters if configured
+    raw_ised = []
+    ised_sources = [s for s in sources_dict if s.get("type") == "ised_newsletter"]
+    if ised_sources:
+        logging.info(f"Querying {len(ised_sources)} ISED Business Insights sources...")
+        try:
+            raw_ised = fetch_ised_business_insights(max_issues=2)
+        except Exception as ised_err:
+            logging.error(f"Failed to fetch ISED Business Insights: {ised_err}")
+
+    # Ingest BDLNow indicators if configured
+    bdlnow_indicators = None
+    bdlnow_sources = [s for s in sources_dict if s.get("type") == "bdl_nowcast"]
+    if bdlnow_sources:
+        logging.info("Querying BDLNow Economic Indicator source...")
+        try:
+            bdlnow_indicators = fetch_bdlnow_indicators(timeout_ms=20000)
+        except Exception as bdl_err:
+            logging.error(f"Failed to fetch BDLNow indicators: {bdl_err}")
+
     # Check if any failed Playwright feeds have a fallback RSS configured
     playwright_fallbacks = []
     for src in sources_dict:
@@ -375,7 +397,7 @@ def fetch_and_process_news(
                 })
 
     # Combine feeds
-    combined_items = raw_rss + raw_html + raw_ckan + raw_youtube + retained_items
+    combined_items = raw_rss + raw_html + raw_ckan + raw_youtube + raw_ised + retained_items
     
     # Resolve Google News redirect URLs offline to original destination URLs
     logging.info("Resolving Google News redirect URLs for ingested news items...")

@@ -53,6 +53,18 @@
       "url": "https://www.youtube.com/@MarkJCarney",
       "type": "youtube_channel",
       "hub": "Canada"
+    },
+    {
+      "name": "ISED_GC_Business_Insights",
+      "url": "https://ised-isde.canada.ca/site/ised/en/newsletter-gc-business-insights",
+      "type": "ised_newsletter",
+      "hub": "Canada"
+    },
+    {
+      "name": "BDLNow_Economic_Indicator",
+      "url": "https://canadianchamber.shinyapps.io/Nowcast/",
+      "type": "bdl_nowcast",
+      "hub": "Canada"
     }
   ],
   "keywords": [
@@ -132,7 +144,12 @@
     "internal trade",
     "interprovincial",
     "provincial barrier",
-    "procurement standardization"
+    "procurement standardization",
+    "EDC",
+    "EDCs",
+    "BDLNow",
+    "nowcast",
+    "investment readiness"
   ],
   "high_value_keywords": [
     "rfp",
