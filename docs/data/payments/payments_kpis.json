@@ -1,9 +1,10 @@
 {
-  "total_active": 21,
-  "new_today": 1,
+  "total_active": 23,
+  "new_today": 4,
   "closing_this_week": 0,
-  "top_category": "Global Payments",
-  "hero_hook": "Ottawa prioritizes economic stability amid global banking and payment shifts. 🇨🇦",
-  "generated_at": "2026-07-21T17:03:14.481026Z",
+  "top_category": "Mixed Sectors",
+  "hero_hook": "Global financial corridors are rapidly shifting toward alternative payment rails. 🌐",
+  "generated_at": "2026-07-22T17:03:11.954128Z",
+  "macro_indicators": null,
   "skill_version": "1.0.0"
 }
