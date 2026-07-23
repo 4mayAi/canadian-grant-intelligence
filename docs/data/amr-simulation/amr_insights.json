@@ -1,7 +1,85 @@
 {
-  "generated_at": "2026-07-22T19:02:35.039002Z",
-  "linkedin_post": "[NRC](https://nrc.canada.ca/) Health’s record $152.1M in recurring contract value signals a massive shift toward modular digital architecture in the Canadian market. Biotech firms should take note; the appetite for technology-driven healthcare outcomes is at an all-time high, creating a prime environment for integrating diagnostic simulation into patient-engagement platforms.\n\n[PHAC](https://www.canada.ca/en/public-health.html) has tightened border security regarding travelers from Congo due to Ebola risks. While domestic risk remains low, the mandate for robust infectious disease preparedness creates a direct requirement for advanced transmission modeling. Firms specializing in digital screening should position their in silico simulation tools to help agencies quantify viral propagation and refine public health risk assessments.\n\nSimultaneously, new procurement notices for hazardous waste disposal in Winnipeg and Vancouver underscore the ongoing infrastructure needs of microbiology-focused government laboratories. Companies serving these facilities can differentiate themselves by integrating advanced biosafety compliance modeling into their operational service offerings.\n\nThese developments highlight a clear trend: the integration of computational biology and digital modeling is no longer optional—it is becoming the backbone of public health resilience. Strategic alignment with these government priorities is essential for any firm looking to scale their health-tech impact in 2026.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#CanadaBiotech #HealthTech #[PHAC](https://www.canada.ca/en/public-health.html) #DigitalHealth #Innovation\n\n### Featured News & Sources\n- [NRC Health (NRC) Q1 2026 earnings summary - Quartr](https://quartr.com/events/nrc-health-nrc-q1-2026_on5qxzVv) (Canada NRC Simulation)\n- [Salmonella outbreak over but ban on pistachios from Iran still in effect: PHAC - Castanet](https://www.castanet.net/news/Canada/625527/Salmonella-outbreak-over-but-ban-on-pistachios-from-Iran-still-in-effect-PHAC) (Canada PHAC AMR)\n- [Foreigners who visited Congo in last 3 weeks cannot enter Canada: PHAC - CTV News](https://www.ctvnews.ca/canada/article/foreigners-who-visited-drc-cannot-enter-canada-temporarily-phac/) (Canada PHAC AMR)\n- [Foreigners who visited Congo in last 3 weeks cannot enter Canada: PHAC - CP24](https://www.cp24.com/news/canada/2026/07/19/foreigners-who-visited-drc-cannot-enter-canada-temporarily-phac/) (Canada PHAC AMR)\n- [Notice of Proposed Procurement (NPP) Hazardous Waste Disposal Services - Winnipeg & Vancouver](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-453-46733966) (Canada CanadaBuys Procurement)\n",
+  "generated_at": "2026-07-23T19:04:48.896530Z",
+  "linkedin_post": "🧬 Unlocking viral dissemination secrets: How HCMV hijacks monocyte survival. Recent findings on the HSF1-mTORC1 axis highlight a novel target for antiviral therapies. Biotech firms should prioritize computational modeling of cytoplasmic protein interactions to rapidly screen inhibitors against these pro-survival pathways.\n\n🧠 Is IFNγ a double-edged sword in viral brain inflammation? New data suggests the dual role of IFNγ necessitates precise, patient-stratified dosing models. Developers should utilize in silico simulations of neuroinflammatory pathways to assist in navigating the trade-off between systemic viral clearance and neuro-pathological damage.\n\n🔬 Deforming the nucleus: A new target for flavivirus inhibition? The discovery of PKCα-mediated lamin phosphorylation provides a structural vulnerability in the West Nile virus cycle. Research consortia can leverage virtual simulation of nuclear lamina remodeling to expedite the identification of small-molecule inhibitors.\n\n🦠 The recent [PHAC](https://www.canada.ca/en/public-health.html) report on the pistachio-salmonella outbreak is a stark reminder: microbial outbreaks demand more than retrospective tracking. Infectious disease outbreaks require real-time, in silico modeling to predict transmission patterns. Firms should align with [PHAC](https://www.canada.ca/en/public-health.html)’s dedicated funding for simulation modeling [Fact ID: 1002] to build digital twin models for food-borne pathogen prevention.\n\n🚨 New Canadian procurement for hazardous waste disposal in Winnipeg and Vancouver signals ongoing infrastructure needs for facilities handling biohazardous materials. Strategic entities should engage with existing Supply Arrangement holders to integrate biosafety compliance modeling into their operational service offerings.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#BiotechCanada #PublicHealth #InSilico #HealthTech #Innovation\n\n### Featured News & Sources\n- [Non-Canonical Activation of HSF1 Stimulates mTORC1-Mediated Translation in HCMV-Infected Monocytes](https://www.biorxiv.org/content/10.64898/2026.07.21.739842v1?rss=1) (bioRxiv Microbiology)\n- [IFNγ at the crossroads of systemic protection and brain vulnerability to coronavirus infection](https://www.biorxiv.org/content/10.64898/2026.07.17.739144v1?rss=1) (bioRxiv Microbiology)\n- [West Nile virus capsid protein promotes viral replication and pathogenesis through PKCα-dependent lamin phosphorylation and nuclear deformation](https://www.biorxiv.org/content/10.64898/2026.07.17.739139v1?rss=1) (bioRxiv Microbiology)\n- [Health Matters: PHAC says pistachio salmonella outbreak officially over - Yahoo News Canada](https://ca.news.yahoo.com/health-matters-phac-says-pistachio-202706837.html) (Canada PHAC AMR)\n- [Notice of Proposed Procurement (NPP) Hazardous Waste Disposal Services - Winnipeg & Vancouver](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-453-46733966) (Canada CanadaBuys Procurement)\n",
   "insights": [
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Non-Canonical Activation of HSF1 Stimulates mTORC1-Mediated Translation in HCMV-Infected Monocytes",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.21.739842v1?rss=1",
+      "date": "2026-07-23T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Unlocking viral dissemination secrets: How HCMV hijacks monocyte survival 🧬",
+        "strategic_value": "* Cytoplasmic HSF1-mTORC1 axis provides a novel target for host-directed antiviral therapy discovery.\n* Computational modeling of cytoplasmic protein interactions can accelerate the screening of inhibitors against HCMV-induced pro-survival pathways.\n* **Consulting Pivot:** Propose a computational biology pilot to model HSF1-mTORC1 interface dynamics, targeting R&D grants focused on opportunistic infection management in immunocompromised populations.",
+        "co_bidding_opportunity": "Partner with academic centers utilizing SUnSET assays to develop high-throughput in silico drug-screening platforms for viral host-factor disruption.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Advances in understanding viral dissemination mechanics in monocytes provide critical inputs for predictive pathogen modeling in the Canadian health innovation ecosystem.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "IFNγ at the crossroads of systemic protection and brain vulnerability to coronavirus infection",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.17.739144v1?rss=1",
+      "date": "2026-07-23T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Is IFNγ a double-edged sword in viral brain inflammation? 🧠",
+        "strategic_value": "* The dual role of IFNγ reveals potential risks in systemic therapy, necessitating precise, patient-stratified dosing models.\n* In silico simulation of neuroinflammatory pathways can help navigate the trade-off between systemic viral clearance and neuro-pathological damage.\n* **Consulting Pivot:** Suggest an integrated bioinformatics project to map IFNγ-responsive gene expression profiles, aligning with federal precision medicine procurement initiatives.",
+        "co_bidding_opportunity": "Collaborate with neuro-immunology research networks to refine digital twin models that predict the neurological safety of cytokine-modulating therapies.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This research informs public health preparedness regarding cytokine-based therapeutics and long-term sequelae of viral infections in the Canadian population.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "West Nile virus capsid protein promotes viral replication and pathogenesis through PKCα-dependent lamin phosphorylation and nuclear deformation",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.17.739139v1?rss=1",
+      "date": "2026-07-23T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Deforming the nucleus: A new target for flavivirus inhibition? 🔬",
+        "strategic_value": "* PKCα-mediated lamin phosphorylation emerges as a structural vulnerability in the West Nile virus replication cycle.\n* Virtual simulation of nuclear lamina remodeling can expedite the identification of small-molecule inhibitors that prevent viral-induced deformation.\n* **Consulting Pivot:** Offer simulation-as-a-service to preclinical research consortia looking to validate PKCα-inhibitors as a therapeutic class against emerging orthoflaviviruses.",
+        "co_bidding_opportunity": "Join forces with academic virology labs to incorporate in silico structural modeling into current mouse-model pathogen pathogenesis studies.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Targeting West Nile virus replication mechanisms contributes to the surveillance and medical countermeasures development within Canadian infectious disease mandates.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "Canada_PHAC_AMR",
+      "title": "Health Matters: PHAC says pistachio salmonella outbreak officially over - Yahoo News Canada",
+      "link": "https://ca.news.yahoo.com/health-matters-phac-says-pistachio-202706837.html",
+      "date": "2026-07-22T20:27:06Z",
+      "insight": {
+        "linkedin_hook": "The recent PHAC report on the pistachio-salmonella outbreak is a stark reminder: microbial outbreaks demand more than retrospective tracking. 🦠",
+        "strategic_value": "* Infectious disease outbreaks require real-time, in silico modeling to predict transmission patterns before they peak.\n* PHAC’s dedicated funding for simulation modeling [Fact ID: 1002] remains the primary vehicle for transitioning from observation to predictive biosecurity.\n* **Consulting Pivot:** Position your firm to support PHAC’s Infectious Disease Laboratory Network by developing digital twin models that simulate cross-contamination pathways for future food-borne pathogen prevention.",
+        "co_bidding_opportunity": "Pursue R&D consortia under the PHAC Infectious Disease Laboratory Network [Fact ID: 1002] to deploy pathogen simulation tools for public health preparedness.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Public health surveillance is shifting from manual reporting to simulation-based predictive modeling, aligning with the PHAC mandate.",
+        "grounded_fact_ids": [
+          1002
+        ],
+        "anchor_reference": {
+          "source_name": "PHAC Laboratory Biosafety Guidelines",
+          "page_range": "Page 15",
+          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
     {
       "source": "Canada_NRC_Simulation",
       "title": "NRC Health (NRC) Q1 2026 earnings summary - Quartr",
@@ -21,6 +99,48 @@
           "page_range": "Page 2",
           "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
         },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "Canada_NRC_Simulation",
+      "title": "NRC Health (NRC) Investor presentation Summary - Quartr",
+      "link": "https://quartr.com/events/nrc-health-nrc-investor-presentation_on5quvf2",
+      "date": "2026-07-22T02:55:33Z",
+      "insight": {
+        "linkedin_hook": "Is your health system's AI strategy moving from reactive insights to true predictive modeling? 🏥",
+        "strategic_value": "* NRC Health’s market dominance in patient experience analytics provides a massive foundation for integrating clinical simulation data.\n* Leveraging the NRC Ideation Fund [Fact ID: 1001], firms can bridge the gap between patient feedback and clinical outcome modeling.\n* **Consulting Pivot:** Propose a collaboration to integrate 'in silico' pathogen transmission modeling into their existing AI predictive suite for hospital-acquired infection surveillance.",
+        "co_bidding_opportunity": "Explore partnerships with NRC-aligned technology providers to apply for NRC Ideation Fund [Fact ID: 1001] grants aimed at advancing healthcare simulation platforms.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "The NRC's investment in AI-driven predictive insights mirrors the potential for high-fidelity clinical simulation to optimize patient outcomes.",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Proteomic mapping of the dengue virus NS1 microenvironment in infected cells identifies novel host dependency factors including TM9SF3",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.22.740010v1?rss=1",
+      "date": "2026-07-22T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Beyond the viral genome: Mapping the Dengue virus 'microenvironment' 🛡️",
+        "strategic_value": "* APEX2-based proteomics effectively identifies host dependency factors (HDFs) like TM9SF3, providing new targets for host-directed antivirals.\n* Integration of proximity labeling data with computational network analysis can map the 'interactome' of viral replication, reducing experimental bottlenecks.\n* **Consulting Pivot:** Pitch an HDF discovery pipeline using machine-learning-based proteomic network analysis to assist biotech firms in de-risking lead candidates for DENV therapies.",
+        "co_bidding_opportunity": "Support clinical proteomics research networks to translate NS1-host interaction maps into robust diagnostic or antiviral target validation tools.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Identifying host dependency factors is foundational for developing modular antiviral platforms applicable to various circulating pathogens in Canada.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
         "program_validation_status": null,
         "export_risk_advisory": null,
         "macro_sector_trend": null
@@ -116,6 +236,27 @@
     },
     {
       "source": "Canada_PHAC_AMR",
+      "title": "Foreigners who visited Congo in last 3 weeks cannot enter Canada: PHAC - CP24",
+      "link": "https://www.cp24.com/news/canada/2026/07/19/foreigners-who-visited-drc-cannot-enter-canada-temporarily-phac/",
+      "date": "2026-07-19T15:06:23Z",
+      "insight": {
+        "linkedin_hook": "🇨🇦 Ebola Alert! PHAC's latest travel ban on Congo visitors underscores a critical need for advanced virtual pathogen modeling to fortify Canada's public health defenses. #EbolaSimulation #PublicHealthTech",
+        "strategic_value": "*   The Public Health Agency of Canada (PHAC) is proactively implementing border measures against Ebola, highlighting a continuous governmental imperative for robust infectious disease preparedness and response. Despite low domestic risk, the severity of Ebola and absence of an approved vaccine/treatment necessitate comprehensive risk assessment and intervention efficacy evaluation.\n*   This situation presents a clear technical opportunity for advanced virtual pathogen modeling and in silico simulation platforms. These tools can simulate Ebola viral replication dynamics, cross-border transmission scenarios, and the epidemiological impact of travel bans or quarantine protocols, thereby optimizing PHAC's public health planning and resource allocation strategies.\n*   **Consulting Pivot:** Propose a tailored workshop for PHAC's Infectious Disease Laboratory Network specialists to demonstrate how custom Ebola transmission and border policy simulation models can enhance their current risk assessment and preparedness strategies.",
+        "co_bidding_opportunity": "No specific consortium is mentioned in the source for this particular initiative. However, given the identified need for advanced simulation tools in public health response, opportunities exist for a consortium with specialized data science and computational biology firms. Such a partnership could develop and deploy next-generation virtual pathogen platforms tailored for PHAC's Infectious Disease Laboratory Network, leveraging expertise in epidemiological modeling and biostatistics.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This PHAC update directly reinforces the critical need for advanced 'METS-Digital' solutions, aligning with PHAC's dedicated funding for infectious disease simulation modeling under the Infectious Disease Laboratory Network (Fact ID: 1002). Virtual pathogen modeling can provide crucial insights for border control efficacy and public health preparedness.",
+        "grounded_fact_ids": [
+          1002
+        ],
+        "anchor_reference": {
+          "source_name": "PHAC Laboratory Biosafety Guidelines",
+          "page_range": "Page 15",
+          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
+        }
+      }
+    },
+    {
+      "source": "Canada_PHAC_AMR",
       "title": "Foreigners who visited Congo in last 3 weeks cannot enter Canada: PHAC - CTV News",
       "link": "https://www.ctvnews.ca/canada/article/foreigners-who-visited-drc-cannot-enter-canada-temporarily-phac/",
       "date": "2026-07-19T15:06:23Z",
@@ -133,27 +274,6 @@
           "source_name": "NRC Collaborative Science & Technology Program",
           "page_range": "Page 2",
           "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        }
-      }
-    },
-    {
-      "source": "Canada_PHAC_AMR",
-      "title": "Foreigners who visited Congo in last 3 weeks cannot enter Canada: PHAC - CP24",
-      "link": "https://www.cp24.com/news/canada/2026/07/19/foreigners-who-visited-drc-cannot-enter-canada-temporarily-phac/",
-      "date": "2026-07-19T15:06:23Z",
-      "insight": {
-        "linkedin_hook": "🇨🇦 Ebola Alert! PHAC's latest travel ban on Congo visitors underscores a critical need for advanced virtual pathogen modeling to fortify Canada's public health defenses. #EbolaSimulation #PublicHealthTech",
-        "strategic_value": "*   The Public Health Agency of Canada (PHAC) is proactively implementing border measures against Ebola, highlighting a continuous governmental imperative for robust infectious disease preparedness and response. Despite low domestic risk, the severity of Ebola and absence of an approved vaccine/treatment necessitate comprehensive risk assessment and intervention efficacy evaluation.\n*   This situation presents a clear technical opportunity for advanced virtual pathogen modeling and in silico simulation platforms. These tools can simulate Ebola viral replication dynamics, cross-border transmission scenarios, and the epidemiological impact of travel bans or quarantine protocols, thereby optimizing PHAC's public health planning and resource allocation strategies.\n*   **Consulting Pivot:** Propose a tailored workshop for PHAC's Infectious Disease Laboratory Network specialists to demonstrate how custom Ebola transmission and border policy simulation models can enhance their current risk assessment and preparedness strategies.",
-        "co_bidding_opportunity": "No specific consortium is mentioned in the source for this particular initiative. However, given the identified need for advanced simulation tools in public health response, opportunities exist for a consortium with specialized data science and computational biology firms. Such a partnership could develop and deploy next-generation virtual pathogen platforms tailored for PHAC's Infectious Disease Laboratory Network, leveraging expertise in epidemiological modeling and biostatistics.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This PHAC update directly reinforces the critical need for advanced 'METS-Digital' solutions, aligning with PHAC's dedicated funding for infectious disease simulation modeling under the Infectious Disease Laboratory Network (Fact ID: 1002). Virtual pathogen modeling can provide crucial insights for border control efficacy and public health preparedness.",
-        "grounded_fact_ids": [
-          1002
-        ],
-        "anchor_reference": {
-          "source_name": "PHAC Laboratory Biosafety Guidelines",
-          "page_range": "Page 15",
-          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
         }
       }
     },
@@ -189,7 +309,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Ukraine Free Trade Agreement (CUFTA)",
+      "trade_agreements": "Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)",
       "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
@@ -250,27 +370,6 @@
       }
     },
     {
-      "source": "Canada_PHAC_AMR",
-      "title": "Diarrhea-causing parasite that led to an outbreak in U.S. has not spread to Canada, PHAC says - The Globe and Mail",
-      "link": "https://www.theglobeandmail.com/canada/article-diarrhea-causing-parasite-cyclospora-not-spread-to-canada/",
-      "date": "2026-07-09T16:45:31Z",
-      "insight": {
-        "linkedin_hook": "🦠 Canada remains vigilant! While a U.S. parasite outbreak hasn't reached our borders, this PHAC update highlights the critical need for advanced pathogen monitoring and predictive modeling tools. Are your public health systems ready for the next cross-border threat?",
-        "strategic_value": "* This PHAC report, while reassuring for immediate Canadian safety, underscores the perpetual threat of cross-border pathogen transmission and the critical importance of robust epidemiological surveillance and rapid response capabilities.\n* The proactive monitoring mentioned presents a clear opportunity for virtual pathogen modeling and in silico simulation platforms. These tools can predict potential spread pathways for parasites like the one causing the U.S. outbreak, assess the impact of various public health interventions, and optimize resource allocation *before* an incursion, thereby enhancing national preparedness.\n* **Consulting Pivot:** Engage PHAC directly to demonstrate how advanced computational epidemiology and virtual pathogen diffusion models can augment their current surveillance infrastructure, providing predictive insights into potential outbreaks and informing strategic public health planning against emerging parasitic threats.",
-        "co_bidding_opportunity": "Given PHAC's mandate for infectious disease surveillance and prevention, opportunities exist for specialized computational biology firms to partner as subject matter experts (SMEs) with PHAC or provincial public health agencies. This could involve developing and deploying custom simulation platforms for outbreak prediction and response, potentially as a direct contractor or through larger IT/data analytics service providers supporting public health infrastructure.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This public health update directly aligns with the long-term strategic anchor of PHAC's dedicated funding for infectious disease simulation modeling (Fact ID: 1002). The continuous threat of cross-border pathogens, even when contained, necessitates ongoing investment in advanced digital tools to bolster Canada's public health preparedness and response capabilities, preventing future outbreaks.",
-        "grounded_fact_ids": [
-          1002
-        ],
-        "anchor_reference": {
-          "source_name": "PHAC Laboratory Biosafety Guidelines",
-          "page_range": "Page 15",
-          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
-        }
-      }
-    },
-    {
       "source": "Canada_NRC_Simulation",
       "title": "Venezuela on-the-record update #2: Families need safe water and sanitation to reduce health risks - nrc.no",
       "link": "https://www.nrc.no/news/2026/venezuela-on-the-record-update-2-families-need-safe-water-and-sanitation-to-reduce-health-risks",
@@ -302,27 +401,6 @@
         "co_bidding_opportunity": "Based on the announced strategic partnership between NRC Health and the Healthcare Experience Foundation (HXF), specialist health-tech SMEs and simulation software developers can pursue subcontracting opportunities to supply advanced digital simulation modules that integrate directly into their joint operational improvement programs.",
         "mets_category": "METS-Digital",
         "mets_rationalization": "This connects the commercial momentum and digital expansion of healthcare experience platforms to the broader digital health ecosystem, utilizing advanced modeling and simulation to optimize clinical operations and delivery.",
-        "grounded_fact_ids": [
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        }
-      }
-    },
-    {
-      "source": "Canada_NRC_Simulation",
-      "title": "ICAR–NRC on Mithun, Nagaland Organises Health Camp for Mithun in Arunachal Pradesh - Indian Council Of Agricultural Research",
-      "link": "https://icar.org.in/en/icar-nrc-mithun-nagaland-organises-health-camp-mithun-arunachal-pradesh",
-      "date": "2026-06-24T07:00:00Z",
-      "insight": {
-        "linkedin_hook": "Precision veterinary medicine is moving from field camps to digital twins—are you ready? 🐄",
-        "strategic_value": "* **Infrastructure Modernization:** Transitioning from manual field measurements to digitized animal health modeling is the next frontier in agricultural biotechnology.\n* **Simulation Potential:** Captured biometric and health data from livestock populations provide the ideal training sets for predictive pathogen transmission models.\n* **Consulting Pivot:** Propose the integration of NRC-supported simulation software to municipal or regional veterinary networks to transform raw health assessment data into proactive disease management dashboards.",
-        "co_bidding_opportunity": "Leverage NRC Ideation Fund pathways to propose a pilot program where digital simulation tools are used to analyze the disease screening data collected during regional veterinary health interventions.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This bridges the gap between field-level biological data collection and the high-level computational modeling supported by the NRC's mission to advance breakthrough health technologies.",
         "grounded_fact_ids": [
           1001
         ],
