@@ -1,7 +1,99 @@
 {
-  "generated_at": "2026-07-22T15:05:23.507628Z",
-  "linkedin_post": "Canada’s innovation landscape is shifting into high gear with significant capital flowing into defense, space, and food security. These investments represent critical entry points for specialized B2B firms looking to integrate into massive federal project pipelines.\n\n[CAE](https://www.cae.com/) and Leonardo are scaling integrated pilot training for the M-346 platform. If your firm manages complex simulation stacks or telemetry, focus on developing middleware to bridge legacy hardware with new Block 20 standards to secure niche integration roles.\n\nMDA and OHB are joining forces on lunar landing sensors for the Argonaut mission. Systems integrators should target secondary data-processing contracts that harmonize mission-control analytics with high-reliability hardware sensor outputs.\n\nCanada’s $3 billion Food Security Strategy has officially launched, targeting $750M for controlled-environment agriculture. Firms specializing in AI-driven resource management or predictive crop analytics should position themselves as efficiency partners for these new large-scale indoor facilities.\n\nFinally, NSERC and the National Research Foundation of Korea have announced a $3M bilateral quantum research initiative. Mid-market firms should pivot toward quantum-readiness auditing as industrial encryption standards begin their necessary migration toward post-quantum protocols.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n\n#CanadianTech #DefenseTech #AgriTech #QuantumComputing #InnovationClusters\n\n### Featured News & Sources\n- [CAE and Leonardo expand collaboration to advance M‑346 training and develop next‑generation integrated training capabilities - Yahoo! Finance Canada](https://ca.finance.yahoo.com/news/cae-leonardo-expand-collaboration-advance-100000879.html) (SpaceDef Industry)\n- [OHB Strengthens Argonaut Lunar Mission With Mda Space Landing Sensor Partnership - TradingView](https://www.tradingview.com/news/reuters.com,2026:newsml_FWN43N135:0-ohb-strengthens-argonaut-lunar-mission-with-mda-space-landing-sensor-partnership/) (SpaceDef CSA)\n- [Canada’s National Food Security Strategy has ‘tremendous potential’ - Vertical Farm Daily](https://www.verticalfarmdaily.com/article/9855192/canada-s-national-food-security-strategy-has-tremendous-potential/) (Protein Industries Canada FoodSecurity)\n- [NSERC to launch new international research call on quantum technologies with the National Research Foundation of Korea - nserc-crsng.canada.ca](https://nserc-crsng.canada.ca/en/news/nserc-launch-new-international-research-call-on-quantum-technologies-national-research) (CanTech Federal AI)\n- [Computer Aided Dispatch Replacement](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-250-52228085) (Protein Industries Canada CanadaBuys)\n",
+  "generated_at": "2026-07-23T15:09:17.018538Z",
+  "linkedin_post": "Canada’s innovation ecosystem is moving at breakneck speed. Today’s updates reveal massive shifts in defense simulation, maritime energy, and enterprise healthtech that demand immediate strategic attention from B2B service providers.\n\n[CAE](https://www.cae.com/) and Leonardo are redefining air combat training by integrating AI into the M-346 platform. If your firm specializes in simulation middleware or data security, the push toward Live Synthetic Integration (LSI) offers a prime opportunity to support these defense primes in managing complex LVC environments.\n\nEnergy infrastructure is also seeing a surge, with $5.9M allocated to the PEI-NB Interconnection. Engineering and environmental firms should look beyond the master contracts and focus on providing niche marine acoustic telemetry and regional regulatory compliance services to support this 2028-ready pipeline.\n\nIn the healthtech space, Jane App’s acquisition of Ginger Desk signals a shift toward human-in-the-loop administrative automation. Providers with expertise in PHIPA compliance and secure data layer integration can play a vital role in scaling these hybrid services across provincial boundaries.\n\nFinally, Agriculture Canada is aggressively deploying AI, LLMs, and RPA. Whether you are targeting the AAFC innovation roadmap or responding to open tenders like the Integrated Services Platform, the move toward automated digital infrastructure is clear. Focus your efforts on secondary telemetry processing or custom analytics adapters to solve specific bottlenecks for prime contractors.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n\n#CanadaTech #DefenseInnovation #HealthTech #AgriTech #B2BStrategy\n\n### Featured News & Sources\n- [CAE, Leonardo Boost M-346 Training for Future Air Combat - The Defense Post](https://thedefensepost.com/2026/07/23/italy-canada-m346-training/) (SpaceDef Industry)\n- [Canada invests in the Prince Edward Island–New Brunswick Interconnection Expansion Project - canada.ca](https://www.canada.ca/en/natural-resources-canada/news/2026/07/canada-invests-in-the-prince-edward-islandnew-brunswick-interconnection-expansion-project.html) (Energy CleanTech)\n- [Jane App acquires clinic software startup Ginger Desk - BetaKit](https://betakit.com/jane-app-acquires-clinic-software-startup-ginger-desk/) (CanTech BetaKit)\n- [CAE and Leonardo expand collaboration to advance M‑346 training and develop next‑generation integrated training capabilities - Yahoo! Finance Canada](https://ca.finance.yahoo.com/news/cae-leonardo-expand-collaboration-advance-100000879.html) (SpaceDef Industry)\n- [NPP- TBIPS RFP i3A Technical Expertise](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-536-29463078) (Protein Industries Canada CanadaBuys)\n",
   "insights": [
+    {
+      "source": "SpaceDef_Industry",
+      "title": "CAE, Leonardo Boost M-346 Training for Future Air Combat - The Defense Post",
+      "link": "https://thedefensepost.com/2026/07/23/italy-canada-m346-training/",
+      "date": "2026-07-23T13:32:22Z",
+      "insight": {
+        "linkedin_hook": "🚀 Canada's Air Force is accelerating into the future! CAE and Leonardo are revolutionizing M-346 pilot training, integrating AI and autonomous ops. Huge implications for defense tech and simulation providers! #DefenseTech #PilotTraining #AI",
+        "strategic_value": "- Canada's decision to employ the M-346 Master as its next-generation advanced jet trainer signals a multi-billion dollar commitment to modernizing its air force, replacing aging CF-18s with fifth-generation fighters (e.g., F-35, Saab Gripen), and a long-term investment in advanced pilot readiness and national security infrastructure.\n- The program targets the modernization of M-346 training courses, specifically requiring expertise in Live, Virtual, and Constructive (LVC) and Live Synthetic Integration syllabi, alongside the development of a technology roadmap for Block 20 digital variants and preparation for AI-enabled and increasingly autonomous operations. This demands advanced simulation software, data fusion platforms, and AI/ML integration capabilities compliant with defense standards.\n- **Consulting Pivot:** Propose services focused on developing specialized, modular data layers for LVC environments to enhance realism and data fidelity, offering custom analytics adapters to optimize pilot performance feedback from synthetic training, or providing regional compliance auditing for training data security and sovereign cloud standards relevant to Canadian defense regulations.",
+        "co_bidding_opportunity": "AI/ML specialist SME (for AI-enabled and autonomous operations training), advanced simulation software developer (for Live, Virtual and Constructive syllabus), data analytics firm (for performance feedback and technology roadmap development), cybersecurity consultant (for securing training data and platforms), systems integrator (for LVC environment deployment and custom analytics adapters).",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This initiative directly supports Canada's long-term strategic anchor of modernizing its defense capabilities and air force (replacing CF-18s with 5th-gen fighters), requiring a robust, AI-enabled pilot training pipeline. It ensures future aircrews are prepared for advanced, autonomous mission systems, aligning with national security and technological advancement objectives through digital simulation and AI integration.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "Energy_CleanTech",
+      "title": "Canada invests in the Prince Edward Island–New Brunswick Interconnection Expansion Project - canada.ca",
+      "link": "https://www.canada.ca/en/natural-resources-canada/news/2026/07/canada-invests-in-the-prince-edward-islandnew-brunswick-interconnection-expansion-project.html",
+      "date": "2026-07-23T12:56:15Z",
+      "insight": {
+        "linkedin_hook": "🔌 $5.9M is flowing into the Maritimes to kick off the PEI-New Brunswick Interconnection Expansion! This isn't just about cables—it's a massive pipeline for engineering, environmental, and compliance consultancies preparing for the 2028 build.",
+        "strategic_value": "* The federal government’s $5.9M investment into the PEI Energy Corporation accelerates the pre-construction phase of the PEI-NB Interconnection, which requires engineering studies, marine surveys, and preliminary design for two 200-megawatt, 138-kilovolt submarine cables and modernized substations.\n* Engineering and environmental consultancies must align with high-voltage alternating current (HVAC) marine transmission standards (such as IEC 60141 and IEC 60840) and deploy GIS-based marine routing software (like ESRI ArcGIS Marine) alongside bathymetric data modeling suites to clear the initial regulatory and marine survey hurdles.\n* **Consulting Pivot:** Propose downstream specialized services rather than competing for the master engineering contract; specifically, pitch localized marine environmental monitoring layers, secondary acoustic telemetry processing for the marine surveys, or regional Indigenous consultation compliance auditing tailored to PEI Energy Corporation's immediate regulatory reporting needs.",
+        "co_bidding_opportunity": "To target the pre-construction phase, standard industry subcontracting roles required include a Marine Survey Specialist (providing bathymetric and sub-bottom profiling), an Environmental Compliance SME (to manage regional impact assessments and stakeholder/Indigenous engagement), and a Grid Integration Engineering Consultant (to design the 138-kV substation upgrades in both provinces).",
+        "mets_category": "METS-PMO",
+        "mets_rationalization": "This funding directly targets the pre-feasibility, permitting, environmental assessment, and stakeholder engagement phases of a major interprovincial transmission project, aligning perfectly with the PMO category's focus on pre-construction advisory and regulatory coordination.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "NPP- TBIPS RFP i3A Technical Expertise",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-536-29463078",
+      "date": "2026-07-23T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🤖 Agriculture Canada is seeking AI/ML/LLM/RPA expertise for innovation! This massive digital transformation signals a push for advanced automation across the agri-food sector. Are you ready to accelerate Canada's agricultural future? #AICanada #AgriFoodTech #DigitalTransformation",
+        "strategic_value": "• The Government of Canada, through AAFC, is making a significant investment in AI, Machine Learning, Large Language Models, and Robotic Process Automation (RPA) to drive innovation and automation across the agricultural sector. This initiative aims to modernize operations and enhance digital capabilities, reflecting a broader policy push to strengthen Canadian industries and supply chains.\n• The core technological target involves the implementation and integration of advanced AI/ML/LLM/RPA software stacks, robust UI/UX design for AI applications, and adherence to cutting-edge DevOps practices (e.g., CI/CD pipelines, containerization standards like Docker/Kubernetes, cloud platforms like Azure/AWS) to support AAFC's innovation roadmap.\n• **Consulting Pivot:** For non-Supply Arrangement holders, the strategic pivot involves offering specialized downstream services to the primary SA contractor or directly to AAFC (if allowed as a niche expert). This could include developing localized data layers for specific agricultural regions, creating custom analytics adapters for processing diverse agri-food datasets, or providing secondary telemetry processing for sensor data collected in smart farming initiatives, thereby enhancing the value and utility of AAFC's AI investments.",
+        "co_bidding_opportunity": "This is a selective tendering process open only to pre-qualified TBIPS Supply Arrangement Holders. For firms not on the SA, the opportunity lies in partnering as a subcontractor with one of the 15 invited SA holders. Required partner roles could include specialized \"AI/ML developer,\" \"DevOps engineer,\" \"data scientist (agricultural applications),\" or \"AI UI/UX specialist.\"",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This procurement for AI and automation expertise at Agriculture and Agri-Food Canada will enhance digital infrastructure and data processing capabilities across the agricultural sector. This directly supports the long-term goal of 'Strengthening the Canadian Supply Chain' for agricultural inputs (Fact ID 500) by improving efficiency, innovation, and domestic processing capacity within Canada's agri-food industry.",
+        "grounded_fact_ids": [
+          500
+        ],
+        "anchor_reference": {
+          "source_name": "PIC Supply Chain Program Guide 2025",
+          "page_range": "Page 2",
+          "url": "https://www.proteinindustriescanada.ca/supply-chain"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-06T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)For TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS)UNSPSC: 8111000 Computer Services \t\tReference Number:\tCSC-2627-0272\tSolicitation Number:\tCSC-2627-0272Organization Name:\tAgriculture and Agri-Food CanadaSolicitation Date:\t2026-07-23\tClosing Date:  \t2026-08-06 (14:00PM ET) Anticipated Start Date:\tAs soon as possible\t\tEstimated Delivery Date:\t2029-10-31\tEstimate Level of Effort: \t “As Required”Contract Duration:\tThe contract period will be from date of con...",
+      "type": "New",
+      "organization": "Department of Agriculture and Agri-Food (AAFC)",
+      "solicitation_number": "CSC-2627-0272",
+      "notice_type": "RFP against Supply Arrangement",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)North American Free Trade Agreement (NAFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+    },
+    {
+      "source": "CanTech_BetaKit",
+      "title": "Jane App acquires clinic software startup Ginger Desk - BetaKit",
+      "link": "https://betakit.com/jane-app-acquires-clinic-software-startup-ginger-desk/",
+      "date": "2026-07-22T18:16:56Z",
+      "insight": {
+        "linkedin_hook": "🚀 Major healthtech M&A! Jane App just acquired Ginger Desk, signaling a critical shift towards integrated human-in-the-loop services within digital health platforms. What does this mean for the future of clinic operations and patient management?",
+        "strategic_value": "* The acquisition by healthtech unicorn Jane App of Ginger Desk, a platform integrating human virtual assistants into clinic administration, underscores a growing trend in Canada's expanding private healthcare sector, projected to increase private-sector expenditures by 5.2% in 2025, driven by provincial funding for new for-profit clinics.\n* The technological target focuses on optimizing and integrating human-in-the-loop administrative services with existing healthtech SaaS platforms (like Jane App's, which supports over 240,000 practitioners across 40 disciplines). This requires robust API integration capabilities, secure data exchange protocols (e.g., HL7, FHIR, or custom RESTful APIs), and workflow automation tools that can orchestrate tasks between human agents and the core software platform, ensuring compliance with privacy regulations (e.g., HIPAA, PHIPA).\n* **Consulting Pivot:** Leverage expertise in regional compliance auditing (e.g., PHIPA in Ontario) or secure data layer integration to assist Jane App in seamlessly onboarding and scaling Ginger Desk's human-powered services across diverse Canadian provinces, focusing on ensuring all data handling and patient interaction protocols meet specific regional healthcare privacy standards and operational requirements. This includes developing localized data layers for patient records and custom analytics adapters for new administrative workflows.",
+        "co_bidding_opportunity": "Given Jane App's expansion and the integration of human-powered administrative services, potential co-bidding or subcontracting opportunities could arise for: Systems Integrators (to merge Ginger Desk's operational workflows with Jane App's software), Specialized Training Providers (for scaling virtual assistant teams and ensuring proficiency with the integrated platform), and Regional Compliance Auditors (to ensure administrative services meet provincial healthcare regulations as Jane expands).",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This acquisition in the healthtech sector aligns with Canada's Global Innovation Clusters' mandate by fostering the growth of innovative digital platforms that support the expanding private healthcare sector. The increasing provincial funding for private clinics creates a long-term financial anchor for digital health solutions that streamline operations and enhance patient care, driving demand for integrated software and service offerings.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
     {
       "source": "SpaceDef_Industry",
       "title": "CAE and Leonardo expand collaboration to advance M‑346 training and develop next‑generation integrated training capabilities - Yahoo! Finance Canada",
@@ -19,6 +111,76 @@
         "export_risk_advisory": null,
         "macro_sector_trend": null
       }
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "26-58008 Fabrication of Heavy Impact Test Theater (HITT) Components",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-720-34368755",
+      "date": "2026-07-22T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "⚙️ Precision engineering for extreme environments: NRC-OCRE opens bid for Heavy Impact Test Theater (HITT) components. Are your fabrication standards ready for the ice?",
+        "strategic_value": "* The NRC is scaling specialized testing infrastructure to support climate-resilient maritime and arctic engineering projects, requiring high-tolerance manufacturing capabilities.\n* The tender specifies rigorous requirements for modular steel, LDPE, and shock-absorber integration, mandating adherence to precise load-transfer and dynamic testing specifications.\n* **Consulting Pivot:** Propose a specialized subcontracting role focused on 'Digital Twin Integration and Material Integrity Monitoring,' providing custom sensor data layers and post-impact performance analytics for the HITT facility rather than solely competing for raw steel fabrication.",
+        "co_bidding_opportunity": "Structural engineering firms with arctic testing experience, advanced CNC machining specialists, and industrial load-cell integration SME.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This project involves heavy industrial manufacturing and physical testing infrastructure, aligning with the NRC's mandate for national research capability scaling.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-17T00:00:00Z",
+      "province": "Newfoundland and Labrador",
+      "province_abbrev": "NL",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "Fabrication of Heavy Impact Test Theater ComponentsThe National Research Council of Canada’s Ocean, Coastal and River Engineering Research Centre (NRC-OCRE) has a requirement for the fabrication and delivery of mechanical components for the NRC-OCRE’s Heavy Impact Test Theater (HITT).  The requirement includes the manufacturing of a modular Hammer assembly, Anvil assembly, Free Sway System, and Surge Restraint System in accordance with NRC engineering drawings and specifications.BACKGROUNDNRC-OC...",
+      "type": "Open",
+      "organization": "National Research Council of Canada (NRC)",
+      "solicitation_number": "26-58008",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Variations or combinations of the above methods",
+      "trade_agreements": "Please refer to Tender Description or Tender Documents",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "United Nations Environment Programme Life Cycle Initiative Biogenic Carbon Project",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-177-86944561",
+      "date": "2026-07-22T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🌱 Quantifying the future of sustainable construction: NRC seeks expert support for the UNEP Biogenic Carbon Project. Is your LCA data ready for international harmonization?",
+        "strategic_value": "* The NRC is aligning Canadian wood-based construction and bio-product methodologies with global standards to ensure market competitiveness in the biogenic carbon economy.\n* Success in this contract requires deep technical proficiency in Life Cycle Assessment (LCA) software stacks and expertise in managing Life Cycle Inventory (LCI) databases under international compliance frameworks.\n* **Consulting Pivot:** Propose a 'Regional Compliance Auditing & Reporting' service, where you act as the specialized bridge to reconcile Canadian wood construction metrics with UNEP’s global reporting mandates, focusing on downstream data translation and administrative compliance.",
+        "co_bidding_opportunity": "Environmental life cycle assessment (LCA) consultancies, sustainable forestry research labs, and bio-product industry policy advisors.",
+        "mets_category": "METS-ESG",
+        "mets_rationalization": "This aligns with the broader Canadian agricultural and industrial goal of standardizing supply chain sustainability, directly overlapping with the strategic intent of the Protein Industries Canada initiatives in bio-based product advancement.",
+        "grounded_fact_ids": [
+          500
+        ],
+        "anchor_reference": {
+          "source_name": "PIC Supply Chain Program Guide 2025",
+          "page_range": "Page 2",
+          "url": "https://www.proteinindustriescanada.ca/supply-chain"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-07T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "The National Research Council Canada (NRC) has a requirement to support the United Nations Environment Programme (UNEP) Life Cycle Initiative’s Biogenic Carbon Project – Phase II. The objective of this work is to support the development of harmonized, credible, and scientifically robust methodologies for accounting for biogenic carbon in life cycle assessments (LCAs) of bio-based products. The work will involve supporting NRC’s participation in the project and facilitating coordination with UNEP...",
+      "type": "Open",
+      "organization": "National Research Council of Canada (NRC)",
+      "solicitation_number": "26-58076",
+      "notice_type": "Advance Contract Award Notice",
+      "procurement_method": "Advance contract award notice",
+      "selection_criteria": "Not applicable",
+      "trade_agreements": "Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)",
+      "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)"
     },
     {
       "source": "SpaceDef_CSA",
@@ -111,21 +273,6 @@
       }
     },
     {
-      "source": "SpaceDef_Industry",
-      "title": "CAE and Saab agree Gripen training and mission support framework for Canada, linking fighter offer to local industrial capability - Defence Industry Europe",
-      "link": "https://defence-industry.eu/cae-and-saab-agree-gripen-training-and-mission-support-framework-for-canada-linking-fighter-offer-to-local-industrial-capability/",
-      "date": "2026-07-17T19:21:22Z",
-      "insight": {
-        "linkedin_hook": "✈️ A new era of Canadian fighter training: CAE and Saab unite to build a localized simulator and mission support ecosystem for the Gripen!",
-        "strategic_value": "* **Policy & Financial Context:** This MoU leverages Canada's Industrial and Technological Benefits (ITB) policy, aligning future multi-million dollar military procurement with local industrial capability, R&D spend, and domestic job creation.\n* **Technological Target:** The collaboration targets advanced pilot training simulators, synthetic environment software stacks, and next-generation mission system sustainment infrastructure utilizing NATO-interoperable HLA/DIS networking protocols.\n* **Consulting Pivot:** Position as a niche subcontractor offering localized simulator data layers, custom telemetry adapters for pilot cognitive load monitoring, and secondary analytics modules to integrate regional weather and flight dynamics into CAE's synthetic training environment.",
-        "co_bidding_opportunity": "Under a prime-tracking and downstream integration playbook, opportunities exist to collaborate with CAE (simulation prime) and Saab (platform prime) as an avionics software SME, local aerospace engineering contractor, or academic research lab specializing in human-machine interface (HMI) modeling.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Securing domestic aerospace training infrastructure through advanced simulation software directly feeds the digital engineering talent pool and capabilities needed for national defense and remote synthetic environment modeling.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
       "source": "SpaceDef_CSA",
       "title": "Canadian Space Agency launches next health cycle research grant opportunity for deep-space missions - SpaceQ",
       "link": "https://spaceq.ca/canadian-space-agency-launches-next-health-cycle-research-grant-opportunity-for-deep-space-missions/",
@@ -167,93 +314,6 @@
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "",
       "trade_agreements": "Please refer to Tender Description or Tender Documents",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "RCAF SARTech GPS Watches",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-63-96632964",
-      "date": "2026-07-17T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "",
-        "strategic_value": "Insight generation failed or blocked: Unknown reason",
-        "co_bidding_opportunity": "",
-        "mets_category": "",
-        "mets_rationalization": "",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-08-04T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "NOTICE OF PROPOSED PROCUREMENTThe Department of National Defence (DND) has an immediate operational requirement for the procurement of two hundred and forty (240) commercial off-the-shelf (COTS) high-performance, ruggedized wearable GPS tracking devices, alongside two hundred and forty (240) secondary tactical replacement straps.Delivery is to 25 Canadian Forces Supply Depot. Detailed requirements are specified in Annex A.The Crown retains the right to negotiate with suppliers on any procurement...",
-      "type": "Open",
-      "organization": "Department of National Defence (DND)",
-      "solicitation_number": "W8485-279541/A",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "Grounds Maintenance",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-24-78066475",
-      "date": "2026-07-17T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "",
-        "strategic_value": "Insight generation failed or blocked: Unknown reason",
-        "co_bidding_opportunity": "",
-        "mets_category": "",
-        "mets_rationalization": "",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-08-17T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "Grounds Maintenance Services The Public Health Agency of Canada (PHAC) is seeking a contractor to provide comprehensive grounds maintenance services at the Canadian Science Centre for Human and Animal Health (CSCHAH) and the JC Wilt Infectious Diseases Research Centre (JCWIDRC) in Winnipeg.Services include lawn care, flower bed and planter maintenance, tree and shrub upkeep, sweeping of entrances, parking lots, and access areas, as well as task-based services such as emergency repairs, parking l...",
-      "type": "Open",
-      "organization": "Public Health Agency of Canada (PHAC)",
-      "solicitation_number": "1000266564",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Ukraine Free Trade Agreement (CUFTA)",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "Wall Repairs, Port Morien, NS",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-714-42414289",
-      "date": "2026-07-17T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "",
-        "strategic_value": "Insight generation failed or blocked: Unknown reason",
-        "co_bidding_opportunity": "",
-        "mets_category": "",
-        "mets_rationalization": "",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      },
-      "closing_date": "2026-08-04T00:00:00Z",
-      "province": "Nova Scotia",
-      "province_abbrev": "NS",
-      "category": "CNST",
-      "category_label": "Construction",
-      "description": "Concrete Wall Repairs, Port Morien, NSThe work under this contract consists of the supply of all labour, materials, and equipment required for the demolition and replacement of the existing reinforced concrete seawall at Port Morien Harbour, including temporary utility relocations, construction of a new seawall, and full reinstatement of affected services and site features.Before submitting a bid, bidders can visit the site and its surroundings, at their own expense, to review and verify the for...",
-      "type": "Open",
-      "organization": "Department of Fisheries and Oceans (DFO)",
-      "solicitation_number": "30008031A",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Traditional",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
       "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
@@ -1006,28 +1066,6 @@
         "mets_rationalization": "Focuses on the physical deployment and integration of advanced sensing hardware, critical for industrial safety and defense operations.",
         "grounded_fact_ids": [],
         "anchor_reference": null
-      }
-    },
-    {
-      "source": "NGen_Federal_News",
-      "title": "Canada–Australia Partnership on Arctic Over-the-Horizon Radar - canada.ca",
-      "link": "https://www.canada.ca/en/department-national-defence/news/2026/06/canadaaustralia-partnership-on-arctic-over-the-horizon-radar.html",
-      "date": "2026-06-22T19:31:56Z",
-      "insight": {
-        "linkedin_hook": "🚀 Arctic sovereignty goes high-tech: Canada and Australia unite on OTHR radar technology to secure Northern skies.",
-        "strategic_value": "* The Canada–Australia Over-the-Horizon Radar (A-OTHR) partnership transitions from planning to delivery, triggering significant federal investment in long-range ionospheric surveillance.\n* Technical implementation focuses on BAE Systems' proven OTHR hardware stack, requiring high-precision signal refraction capabilities to detect airborne threats beyond the Earth's curvature.\n* **Consulting Pivot:** Proactively map your firm's hardware integration or signal processing capabilities to the NGen framework; attend upcoming NGen B2B collaboration workshops to identify industrial partners and form a compliant consortium for the BAE Systems Australia supply chain mandate.",
-        "co_bidding_opportunity": "Consortium must include at least one Canadian SME and one academic or research institute to align with NGen’s project requirements for co-investment; BAE Systems Australia acts as the primary lead for the A-OTHR integration.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "The A-OTHR program represents a major digital surveillance infrastructure project that requires Canadian industrial participation in radar signal processing and system sustainment, aligning with NGen's mandate for advanced manufacturing collaboration.",
-        "grounded_fact_ids": [
-          300,
-          301
-        ],
-        "anchor_reference": {
-          "source_name": "NGen Project Application Guide 2025",
-          "page_range": "Page 4",
-          "url": "https://www.ngen.ca/project-guide"
-        }
       }
     }
   ]

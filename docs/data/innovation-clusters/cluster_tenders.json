@@ -141,7 +141,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)",
+    "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   },
   {
@@ -170,7 +170,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Ukraine Free Trade Agreement (CUFTA)",
+    "trade_agreements": "Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   },
   {
@@ -259,5 +259,113 @@
     "selection_criteria": "",
     "trade_agreements": "Please refer to Tender Description or Tender Documents",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "ProteinIndustries_CanadaBuys",
+    "title": "NPP- TBIPS RFP i3A Technical Expertise",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-536-29463078",
+    "date": "2026-07-23T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🤖 Agriculture Canada is seeking AI/ML/LLM/RPA expertise for innovation! This massive digital transformation signals a push for advanced automation across the agri-food sector. Are you ready to accelerate Canada's agricultural future? #AICanada #AgriFoodTech #DigitalTransformation",
+      "strategic_value": "• The Government of Canada, through AAFC, is making a significant investment in AI, Machine Learning, Large Language Models, and Robotic Process Automation (RPA) to drive innovation and automation across the agricultural sector. This initiative aims to modernize operations and enhance digital capabilities, reflecting a broader policy push to strengthen Canadian industries and supply chains.\n• The core technological target involves the implementation and integration of advanced AI/ML/LLM/RPA software stacks, robust UI/UX design for AI applications, and adherence to cutting-edge DevOps practices (e.g., CI/CD pipelines, containerization standards like Docker/Kubernetes, cloud platforms like Azure/AWS) to support AAFC's innovation roadmap.\n• **Consulting Pivot:** For non-Supply Arrangement holders, the strategic pivot involves offering specialized downstream services to the primary SA contractor or directly to AAFC (if allowed as a niche expert). This could include developing localized data layers for specific agricultural regions, creating custom analytics adapters for processing diverse agri-food datasets, or providing secondary telemetry processing for sensor data collected in smart farming initiatives, thereby enhancing the value and utility of AAFC's AI investments.",
+      "co_bidding_opportunity": "This is a selective tendering process open only to pre-qualified TBIPS Supply Arrangement Holders. For firms not on the SA, the opportunity lies in partnering as a subcontractor with one of the 15 invited SA holders. Required partner roles could include specialized \"AI/ML developer,\" \"DevOps engineer,\" \"data scientist (agricultural applications),\" or \"AI UI/UX specialist.\"",
+      "mets_category": "METS-Digital",
+      "mets_rationalization": "This procurement for AI and automation expertise at Agriculture and Agri-Food Canada will enhance digital infrastructure and data processing capabilities across the agricultural sector. This directly supports the long-term goal of 'Strengthening the Canadian Supply Chain' for agricultural inputs (Fact ID 500) by improving efficiency, innovation, and domestic processing capacity within Canada's agri-food industry.",
+      "grounded_fact_ids": [
+        500
+      ],
+      "anchor_reference": {
+        "source_name": "PIC Supply Chain Program Guide 2025",
+        "page_range": "Page 2",
+        "url": "https://www.proteinindustriescanada.ca/supply-chain"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-06T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)For TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS)UNSPSC: 8111000 Computer Services \t\tReference Number:\tCSC-2627-0272\tSolicitation Number:\tCSC-2627-0272Organization Name:\tAgriculture and Agri-Food CanadaSolicitation Date:\t2026-07-23\tClosing Date:  \t2026-08-06 (14:00PM ET) Anticipated Start Date:\tAs soon as possible\t\tEstimated Delivery Date:\t2029-10-31\tEstimate Level of Effort: \t “As Required”Contract Duration:\tThe contract period will be from date of con...",
+    "type": "New",
+    "organization": "Department of Agriculture and Agri-Food (AAFC)",
+    "solicitation_number": "CSC-2627-0272",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)North American Free Trade Agreement (NAFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "ProteinIndustries_CanadaBuys",
+    "title": "26-58008 Fabrication of Heavy Impact Test Theater (HITT) Components",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-720-34368755",
+    "date": "2026-07-22T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "⚙️ Precision engineering for extreme environments: NRC-OCRE opens bid for Heavy Impact Test Theater (HITT) components. Are your fabrication standards ready for the ice?",
+      "strategic_value": "* The NRC is scaling specialized testing infrastructure to support climate-resilient maritime and arctic engineering projects, requiring high-tolerance manufacturing capabilities.\n* The tender specifies rigorous requirements for modular steel, LDPE, and shock-absorber integration, mandating adherence to precise load-transfer and dynamic testing specifications.\n* **Consulting Pivot:** Propose a specialized subcontracting role focused on 'Digital Twin Integration and Material Integrity Monitoring,' providing custom sensor data layers and post-impact performance analytics for the HITT facility rather than solely competing for raw steel fabrication.",
+      "co_bidding_opportunity": "Structural engineering firms with arctic testing experience, advanced CNC machining specialists, and industrial load-cell integration SME.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "This project involves heavy industrial manufacturing and physical testing infrastructure, aligning with the NRC's mandate for national research capability scaling.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-17T00:00:00Z",
+    "province": "Newfoundland and Labrador",
+    "province_abbrev": "NL",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "Fabrication of Heavy Impact Test Theater ComponentsThe National Research Council of Canada’s Ocean, Coastal and River Engineering Research Centre (NRC-OCRE) has a requirement for the fabrication and delivery of mechanical components for the NRC-OCRE’s Heavy Impact Test Theater (HITT).  The requirement includes the manufacturing of a modular Hammer assembly, Anvil assembly, Free Sway System, and Surge Restraint System in accordance with NRC engineering drawings and specifications.BACKGROUNDNRC-OC...",
+    "type": "Open",
+    "organization": "National Research Council of Canada (NRC)",
+    "solicitation_number": "26-58008",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Variations or combinations of the above methods",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "ProteinIndustries_CanadaBuys",
+    "title": "United Nations Environment Programme Life Cycle Initiative Biogenic Carbon Project",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-177-86944561",
+    "date": "2026-07-22T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🌱 Quantifying the future of sustainable construction: NRC seeks expert support for the UNEP Biogenic Carbon Project. Is your LCA data ready for international harmonization?",
+      "strategic_value": "* The NRC is aligning Canadian wood-based construction and bio-product methodologies with global standards to ensure market competitiveness in the biogenic carbon economy.\n* Success in this contract requires deep technical proficiency in Life Cycle Assessment (LCA) software stacks and expertise in managing Life Cycle Inventory (LCI) databases under international compliance frameworks.\n* **Consulting Pivot:** Propose a 'Regional Compliance Auditing & Reporting' service, where you act as the specialized bridge to reconcile Canadian wood construction metrics with UNEP’s global reporting mandates, focusing on downstream data translation and administrative compliance.",
+      "co_bidding_opportunity": "Environmental life cycle assessment (LCA) consultancies, sustainable forestry research labs, and bio-product industry policy advisors.",
+      "mets_category": "METS-ESG",
+      "mets_rationalization": "This aligns with the broader Canadian agricultural and industrial goal of standardizing supply chain sustainability, directly overlapping with the strategic intent of the Protein Industries Canada initiatives in bio-based product advancement.",
+      "grounded_fact_ids": [
+        500
+      ],
+      "anchor_reference": {
+        "source_name": "PIC Supply Chain Program Guide 2025",
+        "page_range": "Page 2",
+        "url": "https://www.proteinindustriescanada.ca/supply-chain"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-07T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "The National Research Council Canada (NRC) has a requirement to support the United Nations Environment Programme (UNEP) Life Cycle Initiative’s Biogenic Carbon Project – Phase II. The objective of this work is to support the development of harmonized, credible, and scientifically robust methodologies for accounting for biogenic carbon in life cycle assessments (LCAs) of bio-based products. The work will involve supporting NRC’s participation in the project and facilitating coordination with UNEP...",
+    "type": "Open",
+    "organization": "National Research Council of Canada (NRC)",
+    "solicitation_number": "26-58076",
+    "notice_type": "Advance Contract Award Notice",
+    "procurement_method": "Advance contract award notice",
+    "selection_criteria": "Not applicable",
+    "trade_agreements": "Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)",
+    "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)"
   }
 ]
