@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-23T19:04:48.896530Z",
-  "linkedin_post": "🧬 Unlocking viral dissemination secrets: How HCMV hijacks monocyte survival. Recent findings on the HSF1-mTORC1 axis highlight a novel target for antiviral therapies. Biotech firms should prioritize computational modeling of cytoplasmic protein interactions to rapidly screen inhibitors against these pro-survival pathways.\n\n🧠 Is IFNγ a double-edged sword in viral brain inflammation? New data suggests the dual role of IFNγ necessitates precise, patient-stratified dosing models. Developers should utilize in silico simulations of neuroinflammatory pathways to assist in navigating the trade-off between systemic viral clearance and neuro-pathological damage.\n\n🔬 Deforming the nucleus: A new target for flavivirus inhibition? The discovery of PKCα-mediated lamin phosphorylation provides a structural vulnerability in the West Nile virus cycle. Research consortia can leverage virtual simulation of nuclear lamina remodeling to expedite the identification of small-molecule inhibitors.\n\n🦠 The recent [PHAC](https://www.canada.ca/en/public-health.html) report on the pistachio-salmonella outbreak is a stark reminder: microbial outbreaks demand more than retrospective tracking. Infectious disease outbreaks require real-time, in silico modeling to predict transmission patterns. Firms should align with [PHAC](https://www.canada.ca/en/public-health.html)’s dedicated funding for simulation modeling [Fact ID: 1002] to build digital twin models for food-borne pathogen prevention.\n\n🚨 New Canadian procurement for hazardous waste disposal in Winnipeg and Vancouver signals ongoing infrastructure needs for facilities handling biohazardous materials. Strategic entities should engage with existing Supply Arrangement holders to integrate biosafety compliance modeling into their operational service offerings.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#BiotechCanada #PublicHealth #InSilico #HealthTech #Innovation\n\n### Featured News & Sources\n- [Non-Canonical Activation of HSF1 Stimulates mTORC1-Mediated Translation in HCMV-Infected Monocytes](https://www.biorxiv.org/content/10.64898/2026.07.21.739842v1?rss=1) (bioRxiv Microbiology)\n- [IFNγ at the crossroads of systemic protection and brain vulnerability to coronavirus infection](https://www.biorxiv.org/content/10.64898/2026.07.17.739144v1?rss=1) (bioRxiv Microbiology)\n- [West Nile virus capsid protein promotes viral replication and pathogenesis through PKCα-dependent lamin phosphorylation and nuclear deformation](https://www.biorxiv.org/content/10.64898/2026.07.17.739139v1?rss=1) (bioRxiv Microbiology)\n- [Health Matters: PHAC says pistachio salmonella outbreak officially over - Yahoo News Canada](https://ca.news.yahoo.com/health-matters-phac-says-pistachio-202706837.html) (Canada PHAC AMR)\n- [Notice of Proposed Procurement (NPP) Hazardous Waste Disposal Services - Winnipeg & Vancouver](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-453-46733966) (Canada CanadaBuys Procurement)\n",
+  "generated_at": "2026-07-24T19:17:34.500221Z",
+  "linkedin_post": "New CRISPR research reveals that secretory pathway genes drive antifungal tolerance, opening a massive door for in silico drug discovery. Biotech firms should use this mechanistic data to develop high-throughput digital screens that target Candida species, directly addressing current resistance bottlenecks.\n\nMicrobiome research has shifted: IBD inflammation is driven by microbial function rather than composition alone. Healthcare technology developers should pivot toward simulation platforms that map patient-specific immune responses, creating a high-value sandbox for testing microbiome-targeted therapeutics.\n\nGlobal pathogen tracking just gained a precision tool with PhyloMLST. This provides a clear opportunity for diagnostics firms to integrate automated, phylogeny-informed clone assignment into national surveillance systems, significantly improving real-time outbreak response times.\n\nFollowing the recent [PHAC](https://www.canada.ca/en/public-health.html) report on the pistachio-salmonella outbreak, the case for proactive, digital-twin biosecurity is stronger than ever. Companies leveraging the [PHAC](https://www.canada.ca/en/public-health.html) simulation modeling funding [Fact ID: 1002] are best positioned to turn retrospective outbreak data into predictive prevention strategies.\n\nFinally, the [NRC](https://nrc.canada.ca/)’s Mercury Program is signaling a shift toward agile, as-and-when-needed digital infrastructure support. Organizations with deep expertise in high-performance computing should align their roadmaps with these government migration priorities.\n\nStrategic value:\n* **Computational Advantage:** Using in silico models to simulate cellular and microbial processes significantly accelerates drug discovery and public health response times.\n* **Digital Infrastructure:** Aligning with [NRC](https://nrc.canada.ca/)’s Mercury Program allows for deep integration into federal research environments that demand advanced simulation capabilities.\n* **Consulting Pivot:** Position your firm to support [PHAC](https://www.canada.ca/en/public-health.html)’s Infectious Disease Laboratory Network by developing digital twin models that simulate cross-contamination pathways for future food-borne pathogen prevention.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#Biotech #HealthTech #CanadaInnovation #PublicHealth #DataScience\n\n### Featured News & Sources\n- [Chromosome-scale CRISPR screening reveals secretory pathway genes as drivers of aneuploidy-mediated antifungal tolerance](https://www.biorxiv.org/content/10.64898/2026.07.23.740334v1?rss=1) (bioRxiv Microbiology)\n- [Microbial Immunomodulatory Function is Altered in Inflammatory Bowel Disease Independent of Microbial Composition](https://www.biorxiv.org/content/10.64898/2026.07.22.740186v1?rss=1) (bioRxiv Microbiology)\n- [Phylogeny informed international clone assignment with PhyloMLST](https://www.biorxiv.org/content/10.64898/2026.07.23.739083v1?rss=1) (bioRxiv Microbiology)\n- [Health Matters: PHAC says pistachio salmonella outbreak officially over - Yahoo News Canada](https://ca.news.yahoo.com/health-matters-phac-says-pistachio-202706837.html) (Canada PHAC AMR)\n- [Mercury Program Project Support](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-636-43216091) (Canada CanadaBuys Procurement)\n",
   "insights": [
     {
       "source": "bioRxiv_Microbiology",
-      "title": "Non-Canonical Activation of HSF1 Stimulates mTORC1-Mediated Translation in HCMV-Infected Monocytes",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.21.739842v1?rss=1",
-      "date": "2026-07-23T00:00:00Z",
+      "title": "Chromosome-scale CRISPR screening reveals secretory pathway genes as drivers of aneuploidy-mediated antifungal tolerance",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.23.740334v1?rss=1",
+      "date": "2026-07-24T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Unlocking viral dissemination secrets: How HCMV hijacks monocyte survival 🧬",
-        "strategic_value": "* Cytoplasmic HSF1-mTORC1 axis provides a novel target for host-directed antiviral therapy discovery.\n* Computational modeling of cytoplasmic protein interactions can accelerate the screening of inhibitors against HCMV-induced pro-survival pathways.\n* **Consulting Pivot:** Propose a computational biology pilot to model HSF1-mTORC1 interface dynamics, targeting R&D grants focused on opportunistic infection management in immunocompromised populations.",
-        "co_bidding_opportunity": "Partner with academic centers utilizing SUnSET assays to develop high-throughput in silico drug-screening platforms for viral host-factor disruption.",
+        "linkedin_hook": "🧬 Unlocking the 'black box' of antifungal resistance: New CRISPR insights could rewrite our approach to fungal pathogen management! 🍄",
+        "strategic_value": "* **Mechanistic Modeling:** The identification of SEC4 and YPT31 as drivers of antifungal tolerance enables the development of in silico models that predict drug resistance evolution in clinical fungal isolates.\n* **Precision Therapeutics:** These findings offer a blueprint for high-throughput digital screening of compounds that target the secretory pathway, potentially overcoming existing resistance in Candida species.\n* **Consulting Pivot:** Propose a computational partnership with labs funded by the Canadian Institutes of Health Research (CIHR) to deploy virtual screening software that models combinatorial gene effects, accelerating the R&D cycle for next-generation antifungals.",
+        "co_bidding_opportunity": "Collaborative R&D with CIHR or NSERC-funded academic labs leveraging multiplexed CRISPR-dCas12a data for predictive modeling contracts in pharmaceutical drug discovery.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Advances in understanding viral dissemination mechanics in monocytes provide critical inputs for predictive pathogen modeling in the Canadian health innovation ecosystem.",
+        "mets_rationalization": "This research provides the foundational biological datasets required to parameterize digital twin models of pathogen resilience, a key priority for Canadian biotech innovation and sovereign drug security.",
         "grounded_fact_ids": [],
         "anchor_reference": null,
         "program_validation_status": null,
@@ -22,15 +22,15 @@
     },
     {
       "source": "bioRxiv_Microbiology",
-      "title": "IFNγ at the crossroads of systemic protection and brain vulnerability to coronavirus infection",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.17.739144v1?rss=1",
-      "date": "2026-07-23T00:00:00Z",
+      "title": "Microbial Immunomodulatory Function is Altered in Inflammatory Bowel Disease Independent of Microbial Composition",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.22.740186v1?rss=1",
+      "date": "2026-07-24T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Is IFNγ a double-edged sword in viral brain inflammation? 🧠",
-        "strategic_value": "* The dual role of IFNγ reveals potential risks in systemic therapy, necessitating precise, patient-stratified dosing models.\n* In silico simulation of neuroinflammatory pathways can help navigate the trade-off between systemic viral clearance and neuro-pathological damage.\n* **Consulting Pivot:** Suggest an integrated bioinformatics project to map IFNγ-responsive gene expression profiles, aligning with federal precision medicine procurement initiatives.",
-        "co_bidding_opportunity": "Collaborate with neuro-immunology research networks to refine digital twin models that predict the neurological safety of cytokine-modulating therapies.",
+        "linkedin_hook": "📊 Are we measuring the right things in IBD? New research shows microbial function—not just composition—is driving inflammation. 🦠",
+        "strategic_value": "* **Functional Diagnostics:** The shift from composition-based metagenomics to functional profiling necessitates advanced digital simulation tools to map patient-specific NF-κB and STAT3 response landscapes.\n* **Therapeutic Development:** Computational biology platforms can now simulate the metabolic impact of pro-inflammatory bacterial isolates, providing a sandbox for developing microbiome-targeted IBD therapeutics.\n* **Consulting Pivot:** Suggest a technical audit of current gut health diagnostic protocols for healthcare systems, shifting focus toward integrative AI-driven models that evaluate functional microbial immunomodulation.",
+        "co_bidding_opportunity": "Strategic partnerships with academic research consortia focusing on IBD precision medicine to integrate automated functional reporter systems into clinical trial simulation pipelines.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "This research informs public health preparedness regarding cytokine-based therapeutics and long-term sequelae of viral infections in the Canadian population.",
+        "mets_rationalization": "This connects to the broader Canadian public health objective of precision medicine by digitizing the functional microbiome landscape, allowing for better health outcomes and resource allocation in chronic disease management.",
         "grounded_fact_ids": [],
         "anchor_reference": null,
         "program_validation_status": null,
@@ -39,22 +39,136 @@
       }
     },
     {
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "Mercury Program Project Support",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-636-43216091",
+      "date": "2026-07-24T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Is your technology roadmap aligned with the NRC’s next phase of digital transformation? 💻",
+        "strategic_value": "* The Mercury Program highlights a move toward flexible, 'as-and-when-needed' professional services for large-scale government migrations.\n* Strategic positioning requires blending technical migration expertise with deep institutional knowledge of NRC's research and health technology mandates.\n* **Consulting Pivot:** Offer specialized program management to the Mercury Program, specifically targeting the digital infrastructure needs of NRC research divisions that rely on high-performance computing.",
+        "co_bidding_opportunity": "Collaborate with established systems integrators bidding for NRC professional services to act as the health-tech specialized subcontractor.",
+        "mets_category": "METS-PMO",
+        "mets_rationalization": "Uses the NRC's professional services procurement as a vector to insert digital expertise into a broader institutional mandate.",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-12T00:00:00Z",
+      "province": "NCR (Ottawa/Gatineau)",
+      "province_abbrev": "NCR",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "The objective of this contract is to obtain qualified professional services that NRC currently requires on an “as and when needed” basis in response to demand to support migration project delivery as part of the Mercury Program.",
+      "type": "New",
+      "organization": "National Research Council of Canada (NRC)",
+      "solicitation_number": "26-58070",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "Please refer to Tender Description or Tender Documents",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+    },
+    {
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "26-58113 Universal Testing Machine with non-contact Extensometer for polymer research",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-733-25647240",
+      "date": "2026-07-24T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Advancing polymer science at the NRC: Indigenous partnerships leading the way. 🔬",
+        "strategic_value": "* Procurement set-asides under the PSIB (Procurement Strategy for Indigenous Business) prioritize local, high-quality instrumentation expertise.\n* Integrating advanced testing hardware with modern data-processing capabilities creates opportunities for long-term research partnerships.\n* **Consulting Pivot:** Pivot from equipment supply to providing indigenous-led technical advisory and analytical training to ensure the UTM equipment is utilized for advanced computational materials modeling.",
+        "co_bidding_opportunity": "Indigenous-owned technology firms can leverage PSIB status to lead this bid, potentially partnering with analytical software developers for the training component.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "Aligns hardware procurement with NRC's research goals, creating a pathway for technical partnership.",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-07T00:00:00Z",
+      "province": "NCR (Ottawa/Gatineau)",
+      "province_abbrev": "NCR",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)Title: Universal Testing Machine with non-contact Extensometer for polymer researchSolicitation Number: 26-58113Publication Date: 24 July 2026Closing Date and Time: 7 August 2026 at 2PM EDTTrade Agreements: This procurement is set aside from all the trade agreements under the provision each has that permits the procurement to be set aside for Indigenous business.Region of Opportunity: CanadaRegion of Delivery: Winnipeg, ManitobaGSIN: N6640 (UNSPSC 41100000) – ...",
+      "type": "New",
+      "organization": "National Research Council of Canada (NRC)",
+      "solicitation_number": "26-58113",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "Variations or combinations of the above methods",
+      "trade_agreements": "Please refer to Tender Description or Tender Documents",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+    },
+    {
       "source": "bioRxiv_Microbiology",
-      "title": "West Nile virus capsid protein promotes viral replication and pathogenesis through PKCα-dependent lamin phosphorylation and nuclear deformation",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.17.739139v1?rss=1",
+      "title": "Phylogeny informed international clone assignment with PhyloMLST",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.23.739083v1?rss=1",
       "date": "2026-07-23T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Deforming the nucleus: A new target for flavivirus inhibition? 🔬",
-        "strategic_value": "* PKCα-mediated lamin phosphorylation emerges as a structural vulnerability in the West Nile virus replication cycle.\n* Virtual simulation of nuclear lamina remodeling can expedite the identification of small-molecule inhibitors that prevent viral-induced deformation.\n* **Consulting Pivot:** Offer simulation-as-a-service to preclinical research consortia looking to validate PKCα-inhibitors as a therapeutic class against emerging orthoflaviviruses.",
-        "co_bidding_opportunity": "Join forces with academic virology labs to incorporate in silico structural modeling into current mouse-model pathogen pathogenesis studies.",
+        "linkedin_hook": "🌍 Tracking global superbugs just got an upgrade: Meet PhyloMLST, the new standard for phylogeny-informed clone assignment. 🔍",
+        "strategic_value": "* **Surveillance Automation:** The integration of phylogenetic trees with MLST data allows for automated, high-accuracy tracking of bacterial lineages, essential for real-time outbreak monitoring.\n* **Antimicrobial Stewardship:** Enhanced clone identification capabilities support more precise public health interventions by distinguishing successful epidemic lineages from sporadic infections.\n* **Consulting Pivot:** Advise public health surveillance agencies on integrating PhyloMLST into existing national pathogen monitoring software to improve diagnostic accuracy and response time during regional AMR outbreaks.",
+        "co_bidding_opportunity": "Contracting opportunities with public health agencies for the deployment of automated, phylogeny-linked surveillance software platforms used in nationwide AMR monitoring networks.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Targeting West Nile virus replication mechanisms contributes to the surveillance and medical countermeasures development within Canadian infectious disease mandates.",
+        "mets_rationalization": "This directly supports the digital infrastructure requirements of the Canadian health security mandate, enhancing the analytical capacity to track and contain antimicrobial resistance across national boundaries.",
         "grounded_fact_ids": [],
         "anchor_reference": null,
         "program_validation_status": null,
         "export_risk_advisory": null,
         "macro_sector_trend": null
       }
+    },
+    {
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "Purchase and delivery of an Atomic Force Microscope (AFM)",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-393-83500933",
+      "date": "2026-07-23T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Nanoscale precision is the next frontier for Canadian bio-innovation. 🧬",
+        "strategic_value": "* The Quantum and Nanotechnologies Research Centre (QN) requires high-resolution characterization to advance breakthrough health technologies.\n* Advanced microscopy isn't just about imaging; it's about generating high-fidelity datasets that power subsequent simulation modeling.\n* **Consulting Pivot:** Position your firm as the specialized partner for QN that translates high-resolution microscopy data into input parameters for computational biology models, directly aligning with NRC ideation funding objectives.",
+        "co_bidding_opportunity": "Engage with QN researchers to provide the data-processing software layer that complements the new Atomic Force Microscope (AFM) hardware.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Connects advanced instrumentation (AFM) to the broader NRC goal of breakthrough health technology development (Fact 1001).",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-18T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "The National Research Council Canada (NRC) requires the purchase of an Atomic Force Microscope (AFM) system to support nanoscale surface characterization and analysis at the Quantum and Nanotechnologies Research Centre (QN). The system will support NRC research activities and collaborative work with other NRC research centres, other government departments, and external clients.",
+      "type": "Open",
+      "organization": "National Research Council of Canada (NRC)",
+      "solicitation_number": "26-58086",
+      "notice_type": "",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Please refer to Tender Description or Tender Documents",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "Canada_PHAC_AMR",
@@ -67,6 +181,30 @@
         "co_bidding_opportunity": "Pursue R&D consortia under the PHAC Infectious Disease Laboratory Network [Fact ID: 1002] to deploy pathogen simulation tools for public health preparedness.",
         "mets_category": "METS-Digital",
         "mets_rationalization": "Public health surveillance is shifting from manual reporting to simulation-based predictive modeling, aligning with the PHAC mandate.",
+        "grounded_fact_ids": [
+          1002
+        ],
+        "anchor_reference": {
+          "source_name": "PHAC Laboratory Biosafety Guidelines",
+          "page_range": "Page 15",
+          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "Canada_PHAC_AMR",
+      "title": "Health Matters: PHAC says pistachio salmonella outbreak officially over - Global News",
+      "link": "https://globalnews.ca/video/11976406/health-matters-phac-says-pistachio-salmonella-outbreak-officially-over",
+      "date": "2026-07-22T20:24:33Z",
+      "insight": {
+        "linkedin_hook": "Outbreaks like the recent Salmonella incident remind us: surveillance is reactive, but simulation is predictive. 🦠",
+        "strategic_value": "* Public health agencies are increasingly moving toward proactive, digital-first containment strategies to manage infectious disease outbreaks.\n* There is a clear operational gap between reporting raw laboratory findings and the computational modeling required to predict transmission vectors in real-time.\n* **Consulting Pivot:** Propose a digital twin pilot to PHAC that leverages the 'Infectious Disease Laboratory Network' funding to integrate real-time pathogen surveillance with predictive in silico transmission models.",
+        "co_bidding_opportunity": "Partner with existing laboratory networks to integrate predictive software tools into PHAC's routine pathogen monitoring systems.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Connects the need for infectious disease surveillance (PHAC context) with the 'Infectious Disease Laboratory Network' funding anchor (Fact 1002).",
         "grounded_fact_ids": [
           1002
         ],
@@ -129,24 +267,6 @@
       }
     },
     {
-      "source": "bioRxiv_Microbiology",
-      "title": "Proteomic mapping of the dengue virus NS1 microenvironment in infected cells identifies novel host dependency factors including TM9SF3",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.22.740010v1?rss=1",
-      "date": "2026-07-22T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Beyond the viral genome: Mapping the Dengue virus 'microenvironment' 🛡️",
-        "strategic_value": "* APEX2-based proteomics effectively identifies host dependency factors (HDFs) like TM9SF3, providing new targets for host-directed antivirals.\n* Integration of proximity labeling data with computational network analysis can map the 'interactome' of viral replication, reducing experimental bottlenecks.\n* **Consulting Pivot:** Pitch an HDF discovery pipeline using machine-learning-based proteomic network analysis to assist biotech firms in de-risking lead candidates for DENV therapies.",
-        "co_bidding_opportunity": "Support clinical proteomics research networks to translate NS1-host interaction maps into robust diagnostic or antiviral target validation tools.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Identifying host dependency factors is foundational for developing modular antiviral platforms applicable to various circulating pathogens in Canada.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      }
-    },
-    {
       "source": "Canada_PHAC_AMR",
       "title": "Salmonella outbreak over but ban on pistachios from Iran still in effect: PHAC - Castanet",
       "link": "https://www.castanet.net/news/Canada/625527/Salmonella-outbreak-over-but-ban-on-pistachios-from-Iran-still-in-effect-PHAC",
@@ -200,41 +320,6 @@
       "recommended_playbook": "Selective Partnering (Supply Arrangement)"
     },
     {
-      "source": "Canada_CanadaBuys_Procurement",
-      "title": "26-58075 Radio Frequency (RF) Test and Measurement Suite",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-910-8055145",
-      "date": "2026-07-20T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Quantum leap! 🌌 The National Research Council (NRC) is procuring a cutting-edge RF Test and Measurement Suite for quantum metrology. This signals major opportunities for advanced simulation and data analytics in Canadian science! #QuantumTech #NRC #Simulation",
-        "strategic_value": "- NRC's investment in a high-performance RF Test and Measurement Suite signifies a foundational need for precise data acquisition essential for advancing quantum metrology and sensing platforms.\n- This hardware procurement creates downstream opportunities for virtual modeling and computational biology tools, as the generated high-fidelity RF data will require sophisticated simulation and analysis to translate into breakthrough health technologies.\n- * **Consulting Pivot:** Propose advanced quantum simulation software and data processing solutions designed to interpret and leverage the high-fidelity outputs from this new RF test suite, positioning our computational expertise to support NRC's quantum sensing and metrology research objectives, potentially aligning with future NRC Ideation Fund calls.",
-        "co_bidding_opportunity": "While the RFP seeks a single, compatible solution for the RF suite, METS-Digital firms could engage with potential prime bidders (suppliers of advanced RF test equipment) to offer integrated quantum simulation and data analytics platforms. This would function as a specialist SME subcontracting role, enhancing the prime's value proposition by providing comprehensive solutions beyond just hardware, thereby supporting NRC's mandate for breakthrough health technologies.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This NRC procurement for advanced RF test equipment directly supports 'measurement science and quantum metrology', which are critical for developing 'breakthrough health technologies'. This aligns with the NRC Ideation Fund (Fact ID 1001), which supports 'simulation platforms' and breakthrough technologies, indicating a foundational investment for future digital modeling and simulation applications.",
-        "grounded_fact_ids": [
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        }
-      },
-      "closing_date": "2026-08-14T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "RFP 26-58075 Radio frequency (RF) test and measurement suiteOBJECTIVENRC requires a radio frequency (RF) test and measurement suite consisting of: a signal generator that is capable of generating from 10 kHz to 50 GHz and has a frequency multiplier that connects to, and can be controlled by, the signal generator; a signal/spectrum analyzer capable of measuring up to 50 GHz; and a vector network analyzer capable of operating up to 44 GHz. NRC is seeking one compatible solution that includes the S...",
-      "type": "Open",
-      "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "26-58075",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Please refer to Tender Description or Tender Documents",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
       "source": "Canada_PHAC_AMR",
       "title": "Foreigners who visited Congo in last 3 weeks cannot enter Canada: PHAC - CP24",
       "link": "https://www.cp24.com/news/canada/2026/07/19/foreigners-who-visited-drc-cannot-enter-canada-temporarily-phac/",
@@ -254,98 +339,6 @@
           "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
         }
       }
-    },
-    {
-      "source": "Canada_PHAC_AMR",
-      "title": "Foreigners who visited Congo in last 3 weeks cannot enter Canada: PHAC - CTV News",
-      "link": "https://www.ctvnews.ca/canada/article/foreigners-who-visited-drc-cannot-enter-canada-temporarily-phac/",
-      "date": "2026-07-19T15:06:23Z",
-      "insight": {
-        "linkedin_hook": "🚨 Ebola border restrictions in Canada: Is your agency leveraging in silico modeling to stress-test your pandemic preparedness? 🌐",
-        "strategic_value": "* Heightened border security measures create an immediate requirement for advanced digital screening and transmission modeling to support PHAC's risk assessment workflows.\n* The current Ebola outbreak scenario provides a high-fidelity dataset for calibrating viral propagation simulation tools within public health planning models.\n* **Consulting Pivot:** Position your firm to support the Infectious Disease Laboratory Network by integrating rapid, in silico simulation platforms that help health authorities quantify the potential impact of travel-related viral importation.",
-        "co_bidding_opportunity": "Collaborate with PHAC-affiliated research bodies to apply for NRC Ideation Fund [Fact ID: 1001] support, specifically targeting the development of rapid simulation modules for PHAC's infectious disease modeling requirements [Fact ID: 1002].",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This signal involves public health border policy (PHAC) which triggers the mandate for robust simulation modeling tools to assess and mitigate viral importation risk, connecting directly to the NRC and PHAC funding anchors for digital infectious disease platforms.",
-        "grounded_fact_ids": [
-          1001,
-          1002
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        }
-      }
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
-      "title": "Grounds Maintenance",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-24-78066475",
-      "date": "2026-07-17T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Is your facility management strategy keeping pace with Canada's high-containment pathogen research needs? 🔬",
-        "strategic_value": "* Facility maintenance at the Canadian Science Centre for Human and Animal Health (CSCHAH) is a critical component of maintaining the operational integrity required for high-security infectious disease research.\n* Leveraging digital twins for site management can bridge the gap between physical infrastructure maintenance and the high-tech requirements of the Infectious Disease Laboratory Network.\n* **Consulting Pivot:** Position your firm to integrate IoT-enabled facility sensors with PHAC's broader digital operational requirements, creating a proactive maintenance model that supports secure laboratory environments.",
-        "co_bidding_opportunity": "Partner with established facilities management firms as a sub-contractor specializing in IoT-based monitoring or laboratory-grade environmental sensor deployment to provide value-added site management for PHAC.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "While this tender covers standard grounds maintenance, it is located at the CSCHAH, a mission-critical site for PHAC's laboratory network. Managing the digital footprint and operational efficiency of such facilities aligns with long-term infrastructure security.",
-        "grounded_fact_ids": [
-          1002
-        ],
-        "anchor_reference": {
-          "source_name": "PHAC Laboratory Biosafety Guidelines",
-          "page_range": "Page 15",
-          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
-        }
-      },
-      "closing_date": "2026-08-17T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "Grounds Maintenance Services The Public Health Agency of Canada (PHAC) is seeking a contractor to provide comprehensive grounds maintenance services at the Canadian Science Centre for Human and Animal Health (CSCHAH) and the JC Wilt Infectious Diseases Research Centre (JCWIDRC) in Winnipeg.Services include lawn care, flower bed and planter maintenance, tree and shrub upkeep, sweeping of entrances, parking lots, and access areas, as well as task-based services such as emergency repairs, parking l...",
-      "type": "Open",
-      "organization": "Public Health Agency of Canada (PHAC)",
-      "solicitation_number": "1000266564",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
-      "title": "CNC Tool Room Lathe",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-134-86293114",
-      "date": "2026-07-16T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Precision machining isn't just about hardware—it's about the backbone of Canadian R&D innovation. 🛠️",
-        "strategic_value": "* High-precision machining capabilities are foundational for developing the custom prototypes and specialized hardware required for advanced biotechnology research.\n* Integrating advanced CNC systems with NRC's existing computational biology initiatives can accelerate the physical iteration cycles for diagnostic or synthetic biology tools.\n* **Consulting Pivot:** Propose a partnership with the NRC to integrate digital-thread analytics with their new machine tools, allowing for the precise simulation and tracking of hardware-induced variables in experimental setups.",
-        "co_bidding_opportunity": "As the NRC prioritizes 'breakthrough health technologies', there is a strategic window to offer specialized software integrations or calibration services that align with the NRC Ideation Fund objectives for health-tech innovation.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This procurement of precision machinery supports the NRC's broader mandate to provide breakthrough health technologies, directly facilitating the physical realization of in-silico designs.",
-        "grounded_fact_ids": [
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        }
-      },
-      "closing_date": "2026-07-31T00:00:00Z",
-      "province": "Multiple Provinces",
-      "province_abbrev": "MULT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "The National Research Council Canada (NRC) requires a CNC tool room lathe with full manual machining capabilities to support quick setup, operational flexibility and precision machining, operations.All the deliverables must be received on or before December 31st 2026Solicitation of Offer Submission Eligibility.This solicitation of offers is subject to the Policy on Reciprocal Procurement. This means that only Canadian Suppliers and Suppliers of an Applicable Trading Partner, are eligible for thi...",
-      "type": "Open",
-      "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "26-58071",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "Canada_CIHR_AMR",
