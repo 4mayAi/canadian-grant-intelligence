@@ -247,25 +247,25 @@
 
         <div class="tabs">
             <button class="tab-btn active" id="btn-signals" onclick="switchTab('signals')">Trade &amp; Regulatory Signals</button>
-            <button class="tab-btn" id="btn-tenders" onclick="switchTab('tenders')">Logistics Procurement</button>
             <button class="tab-btn" id="btn-digest" onclick="switchTab('digest')">Executive Briefing Digest</button>
         </div>
 
         <!-- Dynamic Content Views -->
         <div id="signalsView">
+            <!-- Collapsible Logistics Procurement Tenders Section -->
+            <div id="tendersSection" style="display: none; margin-bottom: 25px; background: rgba(255, 215, 0, 0.02); border: 1px solid rgba(255, 215, 0, 0.15); border-radius: 12px; padding: 20px;">
+                <h2 style="color: #ffd700; font-size: 1.2em; margin-top: 0; margin-bottom: 14px; border-bottom: 1px solid rgba(255, 215, 0, 0.15); padding-bottom: 8px; display: flex; align-items: center; gap: 8px;">
+                    📑 Active Logistics &amp; Warehousing Tenders (CanadaBuys)
+                </h2>
+                <div id="tendersGrid">
+                    <!-- Dynamic tender cards -->
+                </div>
+            </div>
+
             <div id="signalsContent">
                 <div class="loading">
                     <div class="spinner"></div>
                     <p>Loading trade compliance intelligence...</p>
-                </div>
-            </div>
-        </div>
-
-        <div id="tendersView" style="display: none;">
-            <div id="tendersContent">
-                <div class="loading">
-                    <div class="spinner"></div>
-                    <p>Loading logistics procurement tenders...</p>
                 </div>
             </div>
         </div>
@@ -476,11 +476,14 @@
         }
 
         function renderTenders(tenders) {
-            const container = document.getElementById('tendersContent');
+            const container = document.getElementById('tendersGrid');
+            const section = document.getElementById('tendersSection');
             if (!tenders || tenders.length === 0) {
-                container.innerHTML = '<p class="info-text">No active logistics procurement tenders currently listed.</p>';
+                section.style.display = 'none';
                 return;
             }
+            
+            section.style.display = 'block';
             let html = '<div class="tenders-grid">';
             tenders.forEach(t => {
                 const closingStr = t.closing_date ? new Date(t.closing_date).toLocaleDateString() : 'Open';
@@ -525,10 +528,8 @@
 
         function switchTab(tab) {
             document.getElementById('btn-signals').classList.toggle('active', tab === 'signals');
-            document.getElementById('btn-tenders').classList.toggle('active', tab === 'tenders');
             document.getElementById('btn-digest').classList.toggle('active', tab === 'digest');
             document.getElementById('signalsView').style.display = tab === 'signals' ? 'block' : 'none';
-            document.getElementById('tendersView').style.display = tab === 'tenders' ? 'block' : 'none';
             document.getElementById('digestView').style.display = tab === 'digest' ? 'block' : 'none';
         }
 
