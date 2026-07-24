@@ -147,6 +147,43 @@
             color: #f43f5e;
             border: 1px solid rgba(244, 63, 94, 0.3);
         }
+
+        /* Split Executive Briefing Grid */
+        .linkedin-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 215, 0, 0.15);
+            padding-bottom: 12px;
+        }
+        .linkedin-card-header h2 {
+            margin: 0;
+            color: #ffd700;
+            font-size: 18px;
+        }
+        .linkedin-grid {
+            display: grid;
+            grid-template-columns: 1fr 340px;
+            gap: 25px;
+            align-items: start;
+        }
+        @media (max-width: 900px) {
+            .linkedin-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .social-card-preview img {
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        .social-card-preview img:hover {
+            transform: scale(1.02);
+        }
     </style>
 </head>
 <body>
@@ -411,14 +448,28 @@
                 container.innerHTML = '<p class="info-text">Executive briefing digest not available for this run.</p>';
                 return;
             }
+
+            const socialCardUrl = currentDate === 'latest'
+                ? `${AZURE_CONTAINER_URL}/social_card.png`
+                : `${AZURE_CONTAINER_URL}/social_card_${currentDate}.png`;
+            const socialCardLocalFallback = `../data/${TOPIC_ID}/social_card.png`;
+
             container.innerHTML = `
-                <div class="card" style="padding: 24px;">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-                        <h3 style="margin: 0; color: #ffd700; font-size: 18px;">Executive Briefing &amp; Trade Digest</h3>
+                <div class="report-section" style="padding: 24px;">
+                    <div class="linkedin-card-header">
+                        <h2>📋 Trade Compliance Executive Briefing</h2>
                         <button class="btn btn-sm" onclick="copyLinkedInPost()">📋 Copy Briefing</button>
                     </div>
-                    <div style="font-size: 14.5px; line-height: 1.6; color: var(--text-primary);">
-                        ${marked.parse(data.linkedin_post)}
+                    <div class="linkedin-grid">
+                        <div style="font-size: 14.5px; line-height: 1.6; color: var(--text-primary);">
+                            ${marked.parse(data.linkedin_post)}
+                        </div>
+                        <div class="social-card-preview">
+                            <img src="${socialCardUrl}" 
+                                 alt="Trade Compliance Visual Card"
+                                 onerror="if(this.src !== '${socialCardLocalFallback}') { this.src = '${socialCardLocalFallback}'; } else { this.closest('.social-card-preview').style.display='none'; }"
+                                 onclick="window.open(this.src, '_blank')">
+                        </div>
                     </div>
                 </div>
             `;
