@@ -15,6 +15,7 @@ Key features:
 - **Innovation Clusters**: Scrapes DIGITAL, Scale AI, Ocean Cluster, NGen, and Protein Industries news, ecosystem, and federal news feeds.
 - **Global Payments**: Scrapes ISO 20022/SWIFT, NPP, CIPS, e-CNY, and commodity trade settlement (Glencore, Trafigura) feeds across CA, AU, CN, HK, CH, UK, and Global.
 - **Mining Hubs**: Scrapes global mining industry reports and press releases across 5 major hubs (Canada, Australia, China, Switzerland, and the UK) using peak body feeds (MAC, MCA, CMA, SUISSENEGOCE, LME, ICMM, IEA).
+- **Trade & Supply Chain Compliance**: Scrapes 12 operational feeds across CBSA, Global Affairs Canada, Competition Bureau, Public Safety Canada, Canada Gazette, TCS, CITT, SCC, CTA, CGC, and CanadaBuys logistics tenders.
 - Synthesizes complex regulatory updates into strategic hooks using LLMs.
 - Publishes daily reports to public dashboards and automatically distributes formatted HTML newsletters to email subscribers.
 
@@ -49,6 +50,7 @@ graph TD
         IC[Innovation Clusters Feeds: DIGITAL, Scale AI, Ocean, NGen, Protein Industries]
         GP[Global Payments Feeds: SWIFT, NPP, CIPS, e-CNY, Glencore, Trafigura]
         MH[Mining Hub Feeds: MAC, MCA, CMA, SUISSENEGOCE, LME, ICMM, IEA]
+        TC[Trade Compliance Feeds: CBSA, GAC, Competition Bureau, Public Safety, Canada Gazette, CITT, SCC, CTA, CGC, CanadaBuys]
     end
 
     subgraph mayAi Orchestration & Cloud Context
@@ -59,7 +61,7 @@ graph TD
     end
 
     subgraph Presentation & Client Channels
-        GH[GitHub Pages Dashboards: /grants, /amr-simulation, /clusters, /payments, /mining-hubs]
+        GH[GitHub Pages Dashboards: /grants, /amr-simulation, /clusters, /payments, /mining-hubs, /trade-compliance]
         DIS[Discord Channels]
         USR[Subscribers Inboxes]
     end
@@ -69,6 +71,7 @@ graph TD
     IC -->|Ingestion| GHA
     GP -->|Ingestion| GHA
     MH -->|Ingestion| GHA
+    TC -->|Ingestion| GHA
 
     GHA -->|Batch Prompting| LLM
     LLM -->|JSON Insights| GHA
