@@ -29,6 +29,12 @@
       "skip_query_refactoring": true
     },
     {
+      "name": "Canada_HealthCanada_MedTech",
+      "url": "https://news.google.com/rss/search?q=site:canada.ca/en/health-canada/news+%28%22medical+device%22+OR+drug+OR+compliance+OR+laboratory%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
       "name": "bioRxiv_Microbiology",
       "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=microbiology",
       "type": "rss",

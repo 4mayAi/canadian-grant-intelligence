@@ -159,30 +159,23 @@ def fetch_and_process_news(
     local_seed_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'configs', config.storage.anchors_file))
     
     try:
-        logging.info(f"Downloading hub anchors database from Azure: {config.storage.anchors_file}...")
-        azure_anchors = azure_client.download_json(config.storage.anchors_file)
-        if azure_anchors:
-            hub_anchors = azure_anchors
-            logging.info("Successfully loaded hub anchors from Azure Storage.")
-        else:
-            logging.warning("Hub anchors file not found in Azure. Seeding from local configs...")
-    except Exception as e:
-        logging.error(f"Error downloading hub anchors from Azure: {e}. Falling back to local seed...")
-        
-    if not hub_anchors:
-        try:
+        if os.path.exists(local_seed_path):
             with open(local_seed_path, 'r', encoding='utf-8') as sf:
                 hub_anchors = json.load(sf)
             logging.info(f"Loaded hub anchors from local seed file: {local_seed_path}")
-            
             try:
-                logging.info(f"Uploading seed hub anchors to Azure: {config.storage.anchors_file}...")
                 azure_client.upload_json(config.storage.anchors_file, hub_anchors)
-                logging.info("Successfully seeded hub anchors in Azure Storage.")
+                logging.info(f"Updated hub anchors in Azure Storage: {config.storage.anchors_file}")
             except Exception as ue:
-                logging.error(f"Failed to seed hub anchors in Azure: {ue}")
-        except Exception as se:
-            logging.error(f"Failed to load local seed hub anchors: {se}")
+                logging.error(f"Failed to sync hub anchors to Azure: {ue}")
+        else:
+            logging.info(f"Downloading hub anchors database from Azure: {config.storage.anchors_file}...")
+            azure_anchors = azure_client.download_json(config.storage.anchors_file)
+            if azure_anchors:
+                hub_anchors = azure_anchors
+                logging.info("Successfully loaded hub anchors from Azure Storage.")
+    except Exception as e:
+        logging.error(f"Error loading hub anchors: {e}.")
 
     # Validate anchor lifecycle metadata
     if hub_anchors:
@@ -520,11 +513,16 @@ def fetch_and_process_news(
     # Batch process new items by hub
     for hub, hub_items in items_by_hub.items():
         hub_facts = hub_anchors.get(hub, [])
+        if isinstance(hub_facts, dict) and "facts" in hub_facts:
+            hub_facts = hub_facts["facts"]
         anchor_context = ""
-        if hub_facts:
+        if hub_facts and isinstance(hub_facts, list):
             anchor_lines = []
             for fact_obj in hub_facts:
-                anchor_lines.append(f"[Fact ID: {fact_obj['id']}] {fact_obj['fact']}")
+                if isinstance(fact_obj, dict):
+                    f_id = fact_obj.get('id') or fact_obj.get('fact_id', '')
+                    f_text = fact_obj.get('fact', '')
+                    anchor_lines.append(f"[Fact ID: {f_id}] {f_text}")
             anchor_context = "\n".join(anchor_lines)
 
         BATCH_SIZE = 5
@@ -581,12 +579,12 @@ def fetch_and_process_news(
                 if insight_model.grounded_fact_ids:
                     resolved_facts = []
                     for fid in insight_model.grounded_fact_ids:
-                        matching_fact = next((f for f in hub_facts if f["id"] == fid), None)
+                        matching_fact = next((f for f in hub_facts if isinstance(f, dict) and (f.get("id") == fid or f.get("fact_id") == fid)), None)
                         if matching_fact:
                             resolved_facts.append({
-                                "source_name": matching_fact["source"],
-                                "page_range": matching_fact["pages"],
-                                "url": matching_fact["url"]
+                                "source_name": matching_fact.get("source", "Government of Canada"),
+                                "page_range": matching_fact.get("pages", ""),
+                                "url": matching_fact.get("url", "")
                             })
                     if resolved_facts:
                         # Standardize reference on the primary utilized fact

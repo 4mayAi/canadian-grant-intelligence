@@ -1,0 +1,25 @@
+name: Canadian Trade & Supply Chain Compliance Pipeline
+
+on:
+#   schedule:
+#     - cron: '0 16 * * *' # Run daily at 16:00 UTC (12:00 PM EDT)
+  workflow_dispatch:     # Allow manual runs
+    inputs:
+      lookback_days:
+        description: 'Number of days to look back for news'
+        required: false
+        default: '30'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    uses: ./.github/workflows/run_pipeline.yml
+    with:
+      config_path: configs/trade_compliance.json
+      lookback_days: ${{ github.event.inputs.lookback_days || '30' }}
+      run_type: 'deep_dive'
+      run_prune: ${{ github.event.schedule != '' && contains(github.event.schedule, '0 16 * * 0') }}
+    secrets: inherit

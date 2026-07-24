@@ -1,0 +1,196 @@
+{
+  "topic_id": "trade-compliance",
+  "display_name": "Canadian Trade & Supply Chain Intelligence",
+  "dashboard_url": "https://4mayAi.github.io/canadian-grant-intelligence/trade-compliance/",
+  "max_items_per_source": 5,
+  "sources": [
+    {
+      "name": "CBSA_News",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=canadaborderservicesagency&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "GAC_News",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=departmentofforeignaffairstradeanddevelopment&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "CompetitionBureau_News",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=competitionbureau&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "PublicSafety_ForcedLabour_News",
+      "url": "https://news.google.com/rss/search?q=site:canada.ca/en/public-safety/news+%28%22forced+labour%22+OR+%22supply+chains%22+OR+%22Bill+C-35%22%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "CBSA_Customs_Notices",
+      "url": "https://news.google.com/rss/search?q=site:canada.ca/en/border-services-agency+%28%22customs+notice%22+OR+%22D-bulletin%22+OR+tariff+OR+valuation%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "CanadaGazette_Regulations",
+      "url": "https://news.google.com/rss/search?q=site:gazette.gc.ca+%28regulation+OR+tariff+OR+order+OR+CEPA%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "TCS_Market_Intelligence",
+      "url": "https://news.google.com/rss/search?q=site:tradecommissioner.gc.ca+%28export+OR+market+OR+trade+OR+sector%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "CITT_Decisions",
+      "url": "https://news.google.com/rss/search?q=site:citt-tcce.gc.ca+%28%22anti-dumping%22+OR+countervailing+OR+injury+OR+tribunal%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "SCC_Standards_News",
+      "url": "https://news.google.com/rss/search?q=site:scc.ca+%28accreditation+OR+%22conformity+assessment%22+OR+standard%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "CTA_Freight_News",
+      "url": "https://news.google.com/rss/search?q=site:otc-cta.gc.ca+%28%22Canadian+Transportation+Agency%22+OR+%22rail+freight%22+OR+grain+OR+intermodal%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "CGC_Grain_Export_News",
+      "url": "https://news.google.com/rss/search?q=site:grainscanada.gc.ca+%28%22Canadian+Grain+Commission%22+OR+%22grain+export%22+OR+elevator+OR+inspection%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "CanadaBuys_Logistics_Tenders",
+      "url": "https://open.canada.ca/data/api/action/package_show?id=6abd20d4-7a1c-4b38-baa2-9525d0bb2fd2",
+      "type": "ckan",
+      "hub": "TradeCompliance"
+    }
+  ],
+  "keywords": [
+    "customs",
+    "tariff",
+    "tariffs",
+    "surtax",
+    "surtaxes",
+    "CARM",
+    "CARMs",
+    "CITT",
+    "CITTs",
+    "CBSA",
+    "CBSAs",
+    "Canada Revenue Agency excise",
+    "Canada Revenue Agency import",
+    "Standards Council of Canada",
+    "Canadian Transportation Agency",
+    "Canadian Grain Commission",
+    "EIPA",
+    "EIPAs",
+    "FIPA",
+    "FIPAs",
+    "CUSMA",
+    "CUSMAs",
+    "forced labour",
+    "supply chain act",
+    "accreditation",
+    "conformity assessment",
+    "anti-dumping",
+    "countervailing",
+    "freight",
+    "logistics",
+    "warehousing",
+    "demurrage",
+    "port dwell",
+    "intermodal",
+    "rail corridor",
+    "trade remedy",
+    "bid challenge",
+    "Bill C-35",
+    "Bill C-59",
+    "greenwashing",
+    "Bill C-26",
+    "critical infrastructure",
+    "SEMA",
+    "autonomous sanctions",
+    "transshipment",
+    "evasion",
+    "sanctions",
+    "RFI",
+    "RFIs",
+    "RFP",
+    "RFPs",
+    "MOU",
+    "MOUs",
+    "SME",
+    "SMEs",
+    "TDG",
+    "TDGs"
+  ],
+  "high_value_keywords": [
+    "customs",
+    "tariff",
+    "tariffs",
+    "surtax",
+    "CARM",
+    "CARMs",
+    "forced labour",
+    "Bill C-35",
+    "Bill C-59",
+    "greenwashing",
+    "Bill C-26",
+    "demurrage",
+    "anti-dumping",
+    "SEMA",
+    "sanctions",
+    "transshipment"
+  ],
+  "classification_categories": {
+    "Border Compliance & Tariffs": "CBSA customs notices, CARM bonding, surtaxes, tariff classifications, and valuation rules.",
+    "Trade Policy & Sanctions": "Global Affairs Canada trade diversification, SEMA sanctions, forced labour import prohibitions (Bill C-35), and transshipment evasion.",
+    "Trade Remedies & Competition": "CITT anti-dumping injury findings, Competition Bureau greenwashing enforcement (Bill C-59), and market competition studies.",
+    "Logistics & Infrastructure": "Transport Canada freight regulations, CTA rail corridor decisions, port authority operations, and CanadaBuys logistics procurement."
+  },
+  "llm_settings": {
+    "model_primary": "gemini-3.5-flash",
+    "model_fallbacks": [
+      "gemini-2.5-flash",
+      "gemini-3.1-flash-lite",
+      "gemini-2.5-flash-lite"
+    ],
+    "system_instruction": "You are a Managing Director of International Trade, Geopolitical Risk & Supply Chain Strategy. Synthesize border enforcement notices, customs tariff updates, forced labour disclosures, trade tribunal decisions, and regulatory standards into publication-grade trade intelligence. Write in elegant, authoritative executive prose. Do NOT use artificial meta-labels or robotic header tags (such as 'SO WHAT?', 'WEAKENS', or 'BUILDS') in the text content. The strategic_value field MUST consist of exactly three markdown bullet points: Bullet 1 must quantify direct financial penalties (such as $250-$450/day per TEU demurrage costs, working capital tie-ups, or potential revenue fines) and explain competitive market consolidation; Bullet 2 must detail exact physical and logistical execution plays (such as PO Chain-of-Custody mandates, Letter of Credit drawdown conditions, neutral transit warehouse buffers, pre-vessel clearance filings, or CARM API bonding integration); and Bullet 3 MUST start with the exact prefix '* **Consulting Pivot:** ' and propose a concrete, productized B2B consulting pitch with specific fee structures or subcontract integration strategies. The co_bidding_opportunity field MUST identify exact partner consortium roles required to deliver the compliance package. When analyzing a CanadaBuys tender with a Recommended Playbook field, tailor the strategic_value and co_bidding_opportunity for that playbook: 'Downstream Pivot (Sole-Source / ACAN)': Pivot toward downstream subcontracting or data bridge integration with named primes; 'Selective Partnering (Supply Arrangement)': Frame strategy around partnering with pre-qualified Supply Arrangement holders; 'Standard Competitive Bidding (RFP)': Standard direct or subcontract bid strategy."
+  },
+  "storage": {
+    "azure_container": "trade-compliance-data",
+    "processed_urls_file": "processed_urls.json",
+    "insights_file": "trade_insights.json",
+    "kpis_file": "trade_kpis.json",
+    "anchors_file": "trade_anchors.json",
+    "manifest_file": "manifest.json",
+    "tenders_file": "trade_tenders.json"
+  },
+  "distribution": {
+    "discord_webhook": "${DISCORD_WEBHOOK_TRADE_COMPLIANCE}",
+    "smtp_recipient": "${SMTP_RECIPIENT_TRADE_COMPLIANCE}"
+  }
+}

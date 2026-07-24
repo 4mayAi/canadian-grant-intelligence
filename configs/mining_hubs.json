@@ -35,6 +35,12 @@
       "skip_query_refactoring": true
     },
     {
+      "name": "Canada_CNSC_Nuclear_News",
+      "url": "https://news.google.com/rss/search?q=site:cnsc-ccsn.gc.ca+%28nuclear+OR+uranium+OR+SMR+OR+export+OR+licence%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
       "name": "Australia_Mining_News",
       "url": "https://news.google.com/rss/search?q=%22Minerals+Council+of+Australia%22+OR+site:minerals.org.au/news/&hl=en-AU&gl=AU&ceid=AU:en",
       "type": "rss"
