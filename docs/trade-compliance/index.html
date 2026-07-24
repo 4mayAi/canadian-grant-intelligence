@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mayAi | Canadian Trade & Supply Chain Intelligence</title>
+    <title>mayAi | Canadian Trade & Supply Chain Compliance Intelligence</title>
     <meta name="description" content="mayAi: Delivering executive B2B intelligence on Canadian trade compliance, customs regulations, CARM bonding, and logistics risk.">
-    <meta property="og:title" content="mayAi | Canadian Trade & Supply Chain Intelligence">
+    <meta property="og:title" content="mayAi | Canadian Trade & Supply Chain Compliance Intelligence">
     <meta property="og:description" content="Delivering executive B2B intelligence on Canadian trade compliance, customs regulations, CARM bonding, and logistics risk.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://4mayAi.github.io/canadian-grant-intelligence/trade-compliance/">
@@ -74,13 +74,18 @@
     </style>
 </head>
 <body>
-    <div class="app-container">
-        <!-- Header -->
-        <header class="app-header">
-            <div class="header-brand">
-                <h1>mayAi <span>Intelligence</span></h1>
-                <p class="header-tagline">Canadian Trade, Border Enforcement & Supply Chain Compliance</p>
+    <div class="container">
+        <header>
+            <div class="logo-row">
+                <div class="logo-container">
+                    <div class="golden-egg"></div>
+                    <div class="egg-glow"></div>
+                </div>
+                <h1>may<span>Ai</span></h1>
             </div>
+            <p>Canadian Trade, Border Enforcement &amp; Supply Chain Compliance | Delivering Sovereign Trade Intelligence</p>
+
+            <!-- Cross Navigation Links -->
             <div class="navigation-links">
                 <a href="../" class="nav-tab-link">🇨🇦 Grant Intelligence</a>
                 <a href="../clusters/" class="nav-tab-link">🇨🇦 Innovation Clusters</a>
@@ -89,125 +94,202 @@
                 <a href="../amr-simulation/" class="nav-tab-link">🧬 Health-Tech &amp; Biotech</a>
                 <a href="#" class="nav-tab-link active">📦 Trade &amp; Supply Chain</a>
             </div>
+
+            <div id="hero-hook-container" class="hero-hook-container" style="display: none;">
+                <div class="hero-hook-glow"></div>
+                <p id="hero-hook-text">Synthesizing trade compliance intelligence...</p>
+            </div>
+
+            <div class="header-controls header-controls-row-align">
+                <div class="status-badge" id="update-status">
+                    <span class="status-dot"></span>
+                    Updated: <span id="last-update-time">Loading...</span>
+                </div>
+                <div class="date-selector">
+                    <span class="toggle-label">Archive:</span>
+                    <select id="date-select" class="filter-select filter-select-sm" onchange="selectHistoricalDate(this.value)">
+                        <option value="latest">Latest Run</option>
+                    </select>
+                </div>
+                <div class="date-selector">
+                    <input type="text" id="searchQuery" class="search-input search-input-sm" placeholder="Search tariffs, bills..." oninput="handleSearch(this.value)">
+                </div>
+            </div>
         </header>
 
-        <!-- Executive Summary Banner -->
-        <section class="digest-banner card">
-            <div class="digest-header">
-                <h2>⚡ Executive Briefing &amp; Trade Post</h2>
-                <span class="timestamp" id="digest-timestamp">Loading timestamp...</span>
-            </div>
-            <div class="digest-content" id="linkedin-post-body">
-                <p class="loading-text">Loading executive briefing...</p>
-            </div>
-            <div class="digest-actions">
-                <button class="btn btn-secondary" onclick="copyLinkedInPost()">📋 Copy Executive Briefing</button>
-            </div>
-        </section>
-
-        <!-- KPI Metric Bar -->
-        <section class="kpi-grid">
+        <div class="kpi-container">
             <div class="kpi-card">
-                <div class="kpi-label">Active Trade Alerts</div>
-                <div class="kpi-value" id="kpi-total-active">--</div>
+                <span class="kpi-value" id="kpi-total">0</span>
+                <span class="kpi-label">Active Trade Alerts</span>
             </div>
             <div class="kpi-card">
-                <div class="kpi-label">New Today</div>
-                <div class="kpi-value" id="kpi-new-today">--</div>
+                <span class="kpi-value" id="kpi-new-today">0</span>
+                <span class="kpi-label">New Signals Today</span>
             </div>
             <div class="kpi-card">
-                <div class="kpi-label">Closing Deadlines</div>
-                <div class="kpi-value" id="kpi-closing-soon">--</div>
+                <span class="kpi-value" id="kpi-lead">Border Compliance</span>
+                <span class="kpi-label">Primary Sector</span>
             </div>
-            <div class="kpi-card">
-                <div class="kpi-label">Primary Domain</div>
-                <div class="kpi-value" id="kpi-top-category">Border Compliance</div>
+        </div>
+
+        <div class="tabs">
+            <button class="tab-btn active" id="btn-signals" onclick="switchTab('signals')">Trade &amp; Regulatory Signals</button>
+            <button class="tab-btn" id="btn-tenders" onclick="switchTab('tenders')">Logistics Procurement</button>
+            <button class="tab-btn" id="btn-digest" onclick="switchTab('digest')">Executive Briefing Digest</button>
+        </div>
+
+        <!-- Dynamic Content Views -->
+        <div id="signalsView">
+            <div id="signalsContent">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading trade compliance intelligence...</p>
+                </div>
             </div>
-        </section>
+        </div>
 
-        <!-- Main Content Grid -->
-        <main class="main-layout">
-            <!-- Left Column: Insights & News -->
-            <section class="content-column">
-                <div class="section-header">
-                    <h2>📦 Trade &amp; Regulatory Intelligence</h2>
-                    <div class="filter-controls">
-                        <input type="text" id="search-input" placeholder="Filter trade alerts, tariffs, bills..." class="search-box">
-                    </div>
+        <div id="tendersView" style="display: none;">
+            <div id="tendersContent">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading logistics procurement tenders...</p>
                 </div>
-                <div id="insights-container">
-                    <p class="loading-text">Loading trade compliance insights...</p>
-                </div>
-            </section>
+            </div>
+        </div>
 
-            <!-- Right Column: CanadaBuys Logistics Tenders -->
-            <aside class="sidebar-column">
-                <div class="section-header">
-                    <h2>📑 Logistics Procurement Tenders</h2>
+        <div id="digestView" style="display: none;">
+            <div id="digestContent">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading executive briefing...</p>
                 </div>
-                <div id="tenders-container">
-                    <p class="loading-text">Loading active logistics tenders...</p>
-                </div>
-            </aside>
-        </main>
+            </div>
+        </div>
 
-        <footer class="app-footer">
-            <p>&copy; 2026 mayAi | Canadian Trade &amp; Supply Chain Intelligence. Powered by Google Antigravity &amp; Gemini 3.5 Flash.</p>
+        <footer>
+            <p>Powered by mayAi &middot; Built with GitHub Actions</p>
+            <p>Data sourced from CBSA, Global Affairs Canada, Competition Bureau, Public Safety Canada &amp; CanadaBuys</p>
         </footer>
     </div>
 
     <script>
-        let rawInsightsData = null;
+        const TOPIC_ID = 'trade-compliance';
+        const AZURE_CONTAINER_URL = 'https://canadiangrants.blob.core.windows.net/trade-compliance-data';
+        const MANIFEST_AZURE = `${AZURE_CONTAINER_URL}/manifest.json`;
+        const MANIFEST_LOCAL = `../data/${TOPIC_ID}/manifest.json`;
 
-        async function loadDashboardData() {
-            try {
-                // Fetch Insights
-                const insightsResp = await fetch('../data/trade-compliance/trade_insights.json');
-                if (insightsResp.ok) {
-                    rawInsightsData = await insightsResp.json();
-                    renderExecutiveBriefing(rawInsightsData);
-                    renderInsights(rawInsightsData.insights);
-                } else {
-                    document.getElementById('insights-container').innerHTML = '<p class="error-text">No active trade compliance insights available for today.</p>';
-                }
+        let currentDate = 'latest';
+        let cachedData = null;
+        let cachedTenders = null;
 
-                // Fetch KPIs
-                const kpisResp = await fetch('../data/trade-compliance/trade_kpis.json');
-                if (kpisResp.ok) {
-                    const kpis = await kpisResp.json();
-                    document.getElementById('kpi-total-active').innerText = kpis.total_active || 0;
-                    document.getElementById('kpi-new-today').innerText = kpis.new_today || 0;
-                    document.getElementById('kpi-closing-soon').innerText = kpis.closing_this_week || 0;
-                    document.getElementById('kpi-top-category').innerText = kpis.top_category || 'Border Compliance';
-                }
-
-                // Fetch Tenders
-                const tendersResp = await fetch('../data/trade-compliance/trade_tenders.json');
-                if (tendersResp.ok) {
-                    const tenders = await tendersResp.json();
-                    renderTenders(tenders);
-                } else {
-                    document.getElementById('tenders-container').innerHTML = '<p class="info-text">No active logistics procurement tenders currently listed.</p>';
-                }
-
-            } catch (err) {
-                console.error("Error loading dashboard data:", err);
+        function getUrl(type, source = 'azure') {
+            if (source === 'azure') {
+                return currentDate === 'latest'
+                    ? (type === 'kpis' ? `${AZURE_CONTAINER_URL}/trade_kpis.json` : (type === 'tenders' ? `${AZURE_CONTAINER_URL}/trade_tenders.json` : `${AZURE_CONTAINER_URL}/trade_insights.json`))
+                    : (type === 'kpis' ? `${AZURE_CONTAINER_URL}/reports/${TOPIC_ID}_kpis_${currentDate}.json` : (type === 'tenders' ? `${AZURE_CONTAINER_URL}/reports/${TOPIC_ID}_tenders_${currentDate}.json` : `${AZURE_CONTAINER_URL}/reports/${TOPIC_ID}_insights_${currentDate}.json`));
+            } else {
+                return currentDate === 'latest'
+                    ? (type === 'kpis' ? `../data/${TOPIC_ID}/trade_kpis.json` : (type === 'tenders' ? `../data/${TOPIC_ID}/trade_tenders.json` : `../data/${TOPIC_ID}/trade_insights.json`))
+                    : (type === 'kpis' ? `../data/${TOPIC_ID}/reports/${TOPIC_ID}_kpis_${currentDate}.json` : (type === 'tenders' ? `../data/${TOPIC_ID}/reports/${TOPIC_ID}_tenders_${currentDate}.json` : `../data/${TOPIC_ID}/reports/${TOPIC_ID}_insights_${currentDate}.json`));
             }
         }
 
-        function renderExecutiveBriefing(data) {
-            if (data.generated_at) {
-                document.getElementById('digest-timestamp').innerText = 'Updated: ' + new Date(data.generated_at).toLocaleString();
+        async function fetchWithTimeout(resource, options = {}) {
+            const { timeout = 3000 } = options;
+            const controller = new AbortController();
+            const id = setTimeout(() => controller.abort(), timeout);
+            try {
+                const response = await fetch(resource, { ...options, signal: controller.signal });
+                clearTimeout(id);
+                return response;
+            } catch (error) {
+                clearTimeout(id);
+                throw error;
             }
-            if (data.linkedin_post) {
-                document.getElementById('linkedin-post-body').innerHTML = marked.parse(data.linkedin_post);
+        }
+
+        async function fetchJSON(type) {
+            const azureUrl = getUrl(type, 'azure');
+            const localUrl = getUrl(type, 'local');
+            try {
+                const res = await fetchWithTimeout(azureUrl, { timeout: 3000 });
+                if (!res.ok) throw new Error(`Azure HTTP Error: status ${res.status}`);
+                return await res.json();
+            } catch (e) {
+                if (currentDate === 'latest') {
+                    console.warn(`Azure CDN unreachable or CORS blocked. Pivoting to GitHub local backup. Error:`, e);
+                    const res = await fetch(localUrl);
+                    if (!res.ok) throw new Error(`Fallback HTTP Error: status ${res.status}`);
+                    return await res.json();
+                } else {
+                    throw new Error(`Failed to load historical data from Azure: ${e.message}`);
+                }
+            }
+        }
+
+        async function loadManifest() {
+            try {
+                let manifest = null;
+                try {
+                    const res = await fetchWithTimeout(MANIFEST_AZURE, { timeout: 3000 });
+                    if (res.ok) manifest = await res.json();
+                } catch (e) {
+                    const res = await fetch(MANIFEST_LOCAL);
+                    if (res.ok) manifest = await res.json();
+                }
+                if (manifest && Array.isArray(manifest)) {
+                    const select = document.getElementById('date-select');
+                    select.innerHTML = '<option value="latest">Latest Run</option>';
+                    manifest.reverse().forEach(d => {
+                        const opt = document.createElement('option');
+                        opt.value = d;
+                        opt.textContent = d;
+                        select.appendChild(opt);
+                    });
+                }
+            } catch (err) {
+                console.warn('Could not load date manifest:', err);
+            }
+        }
+
+        async function loadData() {
+            try {
+                const [insightsData, kpisData, tendersData] = await Promise.allSettled([
+                    fetchJSON('insights'),
+                    fetchJSON('kpis'),
+                    fetchJSON('tenders')
+                ]);
+
+                if (insightsData.status === 'fulfilled') {
+                    cachedData = insightsData.value;
+                    renderInsights(cachedData.insights || []);
+                    renderDigest(cachedData);
+                    if (cachedData.generated_at) {
+                        document.getElementById('last-update-time').innerText = new Date(cachedData.generated_at).toLocaleString();
+                    }
+                }
+
+                if (kpisData.status === 'fulfilled') {
+                    const kpis = kpisData.value;
+                    document.getElementById('kpi-total').innerText = kpis.total_active || 0;
+                    document.getElementById('kpi-new-today').innerText = kpis.new_today || 0;
+                    document.getElementById('kpi-lead').innerText = kpis.top_category || 'Border Compliance';
+                }
+
+                if (tendersData.status === 'fulfilled') {
+                    cachedTenders = tendersData.value;
+                    renderTenders(cachedTenders || []);
+                }
+            } catch (err) {
+                console.error("Error loading dashboard data:", err);
+                document.getElementById('signalsContent').innerHTML = '<p class="error-text">Failed to load trade compliance intelligence.</p>';
             }
         }
 
         function renderInsights(items) {
-            const container = document.getElementById('insights-container');
+            const container = document.getElementById('signalsContent');
             if (!items || items.length === 0) {
-                container.innerHTML = '<p class="info-text">No matching trade compliance insights found.</p>';
+                container.innerHTML = '<div class="no-results"><p>No matching trade compliance signals available.</p></div>';
                 return;
             }
 
@@ -242,22 +324,41 @@
             container.innerHTML = html;
         }
 
+        function renderDigest(data) {
+            const container = document.getElementById('digestContent');
+            if (!data || !data.linkedin_post) {
+                container.innerHTML = '<p class="info-text">Executive briefing digest not available for this run.</p>';
+                return;
+            }
+            container.innerHTML = `
+                <div class="card" style="padding: 20px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                        <h3 style="margin: 0; color: #ffd700;">Executive Briefing &amp; Trade Post</h3>
+                        <button class="btn btn-sm" onclick="copyLinkedInPost()">📋 Copy Briefing</button>
+                    </div>
+                    <div style="font-size: 14px; line-height: 1.6; color: var(--text-secondary);">
+                        ${marked.parse(data.linkedin_post)}
+                    </div>
+                </div>
+            `;
+        }
+
         function renderTenders(tenders) {
-            const container = document.getElementById('tenders-container');
+            const container = document.getElementById('tendersContent');
             if (!tenders || tenders.length === 0) {
-                container.innerHTML = '<p class="info-text">No active tenders listed.</p>';
+                container.innerHTML = '<p class="info-text">No active logistics tenders currently listed.</p>';
                 return;
             }
             let html = '';
             tenders.forEach(t => {
                 html += `
-                    <div class="card tender-card" style="margin-bottom: 12px; padding: 14px;">
-                        <h4 style="font-size: 14px; margin-bottom: 6px;"><a href="${t.link}" target="_blank" style="color: var(--accent);">${t.title}</a></h4>
-                        <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 8px;">
+                    <div class="card" style="margin-bottom: 14px; padding: 16px;">
+                        <h3 style="font-size: 16px; margin-bottom: 8px;"><a href="${t.link}" target="_blank" style="color: var(--accent);">${t.title}</a></h3>
+                        <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 10px;">
                             <span>${t.organization || 'Federal Department'}</span> | <span>Closing: ${t.closing_date ? new Date(t.closing_date).toLocaleDateString() : 'Open'}</span>
                         </div>
-                        <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 8px;">${t.description ? t.description.substring(0, 160) + '...' : ''}</p>
-                        ${t.recommended_playbook ? `<span class="badge" style="background: rgba(255,215,0,0.15); color: #ffd700; font-size: 11px; padding: 3px 8px; border-radius: 4px;">Playbook: ${t.recommended_playbook}</span>` : ''}
+                        <p style="font-size: 13.5px; color: var(--text-secondary); margin-bottom: 10px;">${t.description ? t.description.substring(0, 200) + '...' : ''}</p>
+                        ${t.recommended_playbook ? `<span class="badge-cluster">Playbook: ${t.recommended_playbook}</span>` : ''}
                     </div>
                 `;
             });
@@ -265,25 +366,42 @@
         }
 
         function copyLinkedInPost() {
-            if (rawInsightsData && rawInsightsData.linkedin_post) {
-                navigator.clipboard.writeText(rawInsightsData.linkedin_post).then(() => {
+            if (cachedData && cachedData.linkedin_post) {
+                navigator.clipboard.writeText(cachedData.linkedin_post).then(() => {
                     alert('Executive Briefing copied to clipboard!');
                 });
             }
         }
 
-        document.getElementById('search-input').addEventListener('input', function(e) {
-            const term = e.target.value.toLowerCase();
-            if (!rawInsightsData || !rawInsightsData.insights) return;
-            const filtered = rawInsightsData.insights.filter(item => 
-                item.title.toLowerCase().includes(term) ||
-                (item.insight.strategic_value && item.insight.strategic_value.toLowerCase().includes(term)) ||
-                (item.insight.linkedin_hook && item.insight.linkedin_hook.toLowerCase().includes(term))
+        function switchTab(tab) {
+            document.getElementById('btn-signals').classList.toggle('active', tab === 'signals');
+            document.getElementById('btn-tenders').classList.toggle('active', tab === 'tenders');
+            document.getElementById('btn-digest').classList.toggle('active', tab === 'digest');
+            document.getElementById('signalsView').style.display = tab === 'signals' ? 'block' : 'none';
+            document.getElementById('tendersView').style.display = tab === 'tenders' ? 'block' : 'none';
+            document.getElementById('digestView').style.display = tab === 'digest' ? 'block' : 'none';
+        }
+
+        function selectHistoricalDate(val) {
+            currentDate = val;
+            loadData();
+        }
+
+        function handleSearch(term) {
+            if (!cachedData || !cachedData.insights) return;
+            const q = term.toLowerCase();
+            const filtered = cachedData.insights.filter(item =>
+                item.title.toLowerCase().includes(q) ||
+                (item.insight.strategic_value && item.insight.strategic_value.toLowerCase().includes(q)) ||
+                (item.insight.linkedin_hook && item.insight.linkedin_hook.toLowerCase().includes(q))
             );
             renderInsights(filtered);
-        });
+        }
 
-        window.addEventListener('DOMContentLoaded', loadDashboardData);
+        window.addEventListener('DOMContentLoaded', () => {
+            loadManifest();
+            loadData();
+        });
     </script>
 </body>
 </html>
