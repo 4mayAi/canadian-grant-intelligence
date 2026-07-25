@@ -13,28 +13,42 @@
 | **Scraper Automation** | 🟢 Live | `.github/workflows/daily_trade_compliance_scraper.yml` |
 | **Live Intelligence Feed** | 🟢 Active | `docs/data/trade-compliance/trade_insights.json` |
 | **Public Interactive Dashboard** | 🟢 Deployed | [Trade & Supply Chain Dashboard](https://4mayAi.github.io/canadian-grant-intelligence/trade-compliance/) |
-| **LinkedIn Brand Kit & Logo** | 🟢 Generated | Embedded below (`trade_compliance_logo.jpg`) |
+| **LinkedIn Brand Kit & Logo Options** | 🟢 3 Golden Egg Concepts | Embedded below (`trade_logo_concept_1.jpg`, `concept_2`, `concept_3`) |
 | **Inaugural Article Draft** | 🟢 Ready | Grounded in live July 2026 dataset |
 
 ---
 
-## 2. Brand Identity & Visual Assets
+## 2. Brand Identity & Visual Asset Options (Golden Egg Motif)
 
-![Canadian Trade & Supply Chain Compliance Intelligence Logo](trade_compliance_logo.jpg)
+The signature **mayAi** golden egg motif represents sovereign high-value opportunity extraction across all platform pipelines. Below are 3 generated brand logo options for the Canadian Trade & Supply Chain Compliance page:
+
+````carousel
+![Concept 1: Golden Egg Trade Container Shield](trade_logo_concept_1.jpg)
+*Concept 1: Golden Egg Cargo Container Shield & Maple Leaf Trade Motif*
+<!-- slide -->
+![Concept 2: Golden Egg Obsidian Shipping Ring](trade_logo_concept_2.jpg)
+*Concept 2: Golden Egg Obsidian Shipping Container Ring & High-Tech Supply Chain Badge*
+<!-- slide -->
+![Concept 3: Golden Egg Intermodal Routes Sheen](trade_logo_concept_3.jpg)
+*Concept 3: Golden Egg Intermodal Shipping Routes & Minimalist Dark Gold Sheen*
+````
+
+### Recommended Brand Option
+**Concept 1 (Golden Egg Cargo Container Shield)** is recommended as the primary LinkedIn Page / Newsletter Avatar, as it directly pairs the signature `mayAi` golden egg with maritime freight containers and a subtle maple leaf trade crest.
 
 ### Newsletter & Page Metadata
 
 - **Newsletter Title:** `Canadian Trade & Supply Chain Compliance Intelligence`
-- **Subtitle / Tagline:** `Sovereign Border Enforcement, CARM Bonding, Bill C-35 Forced Labour & Logistics Risk`
+- **Subtitle / Tagline:** `Sovereign Border Enforcement, CARM Bonding, Forced Labour & Logistics Risk`
 - **Publishing Frequency:** `Bi-weekly (Thursdays)` or `Weekly (Fridays)`
 - **Category:** `International Trade` / `Logistics & Supply Chain` / `Government Administration`
 
 ### Page / Newsletter "About" Description
 
 ```text
-Canadian Trade & Supply Chain Compliance Intelligence synthesizes border enforcement notices (CBSA), trade policy updates (Global Affairs Canada), competition guidelines (Competition Bureau), forced labour regulations (Bill C-35), and federal logistics procurements (CanadaBuys) into publication-grade executive intelligence.
+Canadian Trade & Supply Chain Compliance Intelligence synthesizes border enforcement notices (CBSA), trade policy updates (Global Affairs Canada), competition guidelines (Competition Bureau), forced labour provenance mandates, and federal logistics procurements (CanadaBuys) into publication-grade executive intelligence.
 
-We cover customs tariff classifications, CARM financial security bonding, Special Economic Measures Act (SEMA) sanctions, transshipment evasion screening, anti-greenwashing transportation liabilities (Bill C-59), and critical infrastructure cybersecurity (Bill C-26). Designed for Chief Supply Chain Officers, VPs of Logistics, International Trade Counsel, Licensed Customs Brokers, and B2B Consultants seeking high-value trade risk mitigation and consortia opportunities.
+We cover customs tariff classifications, CARM financial security bonding, Special Economic Measures Act (SEMA) sanctions, transshipment evasion screening, ESG anti-greenwashing transit liabilities, and critical infrastructure cybersecurity. Designed for Chief Supply Chain Officers, VPs of Logistics, International Trade Counsel, Licensed Customs Brokers, and B2B Consultants seeking high-value trade risk mitigation and consortia opportunities.
 
 Track active opportunities live: https://4mayAi.github.io/canadian-grant-intelligence/trade-compliance/
 ```
@@ -73,14 +87,14 @@ graph TD
 
 ## 4. Inaugural LinkedIn Newsletter Post Draft
 
-> **Edition Title:** *The $1M Demurrage Trap: Bill C-35 Reverse Onus, CARM Bonding & Bill C-59 Logistics Liabilities*  
+> **Edition Title:** *The $1M Demurrage Trap: Forced Labour Reverse Onus, CARM Bonding & ESG Transit Liabilities*  
 > **Target Date:** July 2026  
 
 ---
 
 ### 📦 Live Federal Trade & Supply Chain Signals
 
-#### 1. Bill C-35 Forced Labour Reverse Onus Enforcement
+#### 1. Forced Labour Reverse Onus Enforcement (Bill C-35 Framework)
 Global Affairs Canada's transition to a statutory "reverse onus" high-risk goods framework directly targets third-country transshipment hubs used to evade Canadian sanctions and forced labour prohibitions. With CBSA targeted holds extending West Coast container dwell times up to 30 days at Vancouver and Prince Rupert, unverified shipments face a direct $350/day per TEU demurrage penalty—equal to over $1,050,000 per 100-container vessel.
 - **Financial Bottom Line:** $750k–$1.35M direct demurrage penalty per shipment; tied-up working capital triggers downstream line-shutdown contract default.
 - **Logistics Playbook:** Update international POs to require mandatory Tier-3 origin certificates before Letter of Credit (LC) drawdown. Hold high-risk components in bonded neutral transit hubs (Vietnam, Taiwan, Mexico) to pre-clear CBSA documentation 14 days prior to sailing.
@@ -92,7 +106,7 @@ CBSA has operationalized CARM as the official system of record, enforcing mandat
 - **Logistics Playbook:** Bypass generic broker bonds and secure direct corporate surety bond coverage. Integrate ERP billing systems (SAP/Oracle) directly with the CBSA CARM portal to ensure real-time duty reconciliation.
 - \* **Consulting Pivot ($15,000 CARM Integration Pitch):** Pitch mid-sized manufacturers a **'CARM Financial Security & API Workflow Integration' ($15,000 flat fee)** that automates surety bonding setup, links ERP billing directly to CBSA, and eliminates manual customs reconciliation friction.
 
-#### 3. Competition Act Anti-Greenwashing Guidelines (Bill C-59)
+#### 3. Competition Act Anti-Greenwashing Guidelines (Bill C-59 Framework)
 The Competition Bureau's finalized enforcement guidelines empower private parties to challenge environmental marketing before the Competition Tribunal, exposing shippers and freight carriers to penalties of up to 3% of global revenue for unverified "carbon-neutral transit" marketing.
 - **Financial Bottom Line:** Severe exposure to private right-of-action lawsuits and penalties up to 3% of global turnover.
 - **Logistics Playbook:** Transportation procurement teams must require all logistics providers (rail, ocean, motor carrier) to provide telematics-based Scope 1 and Scope 3 fuel consumption data under ISO 14064 standards.
