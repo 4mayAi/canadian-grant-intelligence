@@ -7,7 +7,7 @@ This document describes the software architecture of the Canadian Trade & Supply
 ## 1. Introduction and Goals
 
 ### 1.1 Requirements Overview
-The Canadian Trade & Supply Chain Compliance Intelligence Pipeline is a serverless, scheduled, config-driven monitoring and synthesis system. It tracks border enforcement notices, customs tariff updates, forced labour import prohibitions (Bill C-35), trade tribunal decisions (CITT), competition rules (Bill C-59), critical infrastructure cybersecurity mandates (Bill C-26), Special Economic Measures Act (SEMA) sanctions, and logistics procurement across Canada.
+The Canadian Trade & Supply Chain Compliance Intelligence Pipeline is a serverless, scheduled, config-driven monitoring and synthesis system. It tracks border enforcement notices, customs tariff updates, forced labour provenance mandates, trade tribunal decisions (CITT), anti-greenwashing competition rules, critical infrastructure cybersecurity mandates, Special Economic Measures Act (SEMA) sanctions, and logistics procurement across Canada.
 
 Key features:
 - **Multi-Layered Ingestion (12 Sources)**: Scrapes official Atom/RSS feeds and Google News search proxies across 5 operational trade layers (Trade Policy, Customs/Border, Standards & Metrology, Modal Freight Regulators, and Trade Remedies).
@@ -24,7 +24,7 @@ Key features:
 4. **Azure Resource Protection**: Container `trade-compliance-data` operates inside the existing Azure Storage Account using existing Key Vault credentials (`MyAgentKeyVault`).
 
 ### 1.3 Stakeholders & Personas
-- **Chief Supply Chain Officer / VP Logistics**: Uses the dashboard to quantify demurrage exposure, update international PO clauses, manage CARM bonding requirements, and audit Scope 3 freight telematics under Bill C-59.
+- **Chief Supply Chain Officer / VP Logistics**: Uses the dashboard to quantify demurrage exposure, update international PO clauses, manage CARM bonding requirements, and audit Scope 3 freight telematics under ESG anti-greenwashing guidelines.
 - **B2B Business Developer / Trade Consultant**: Uses the synthesized *Consulting Pivots* to pitch productized advisory packages ($1,500/vessel Pre-Arrival Clearance Bundles, $15k CARM Integration, $25k Telematics Carbon Audits) to enterprise clients.
 
 ---
@@ -44,8 +44,8 @@ graph TD
     subgraph External Ingestion Sources
         CBSA[CBSA News & Customs Notices]
         GAC[Global Affairs Canada & SEMA Sanctions]
-        COMP[Competition Bureau & Bill C-59]
-        PS[Public Safety Canada & Bill C-35 / Bill C-26]
+        COMP[Competition Bureau & Anti-Greenwashing]
+        PS[Public Safety Canada & Critical Infrastructure]
         GAZ[Canada Gazette Part I & II Regulations]
         TCS[Trade Commissioner Service Reports]
         CITT[Canadian International Trade Tribunal]
