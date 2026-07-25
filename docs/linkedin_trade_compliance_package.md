@@ -13,30 +13,30 @@
 | **Scraper Automation** | 🟢 Live | `.github/workflows/daily_trade_compliance_scraper.yml` |
 | **Live Intelligence Feed** | 🟢 Active | `docs/data/trade-compliance/trade_insights.json` |
 | **Public Interactive Dashboard** | 🟢 Deployed | [Trade & Supply Chain Dashboard](https://4mayAi.github.io/canadian-grant-intelligence/trade-compliance/) |
-| **LinkedIn Brand Kit & Logo Options** | 🟢 3 mayAi Branded Concepts | Embedded below (`trade_logo_mayai_v1.jpg`, `v2`, `v3`) |
+| **LinkedIn Brand Kit & Logo Options** | 🟢 3 Rich 'mayAi' Concepts | Embedded below (`trade_logo_mayai_v4.jpg`, `v5`, `v6`) |
 | **Inaugural Article Draft** | 🟢 Ready | Grounded in live July 2026 dataset |
 
 ---
 
-## 2. Brand Identity & Visual Asset Options (mayAi Golden Egg & Typography)
+## 2. Brand Identity & Visual Asset Options (mayAi Golden Egg & Trade Supply Chain Context)
 
-To maintain consistent corporate identity across all platform channels, every logo option combines the signature **glowing golden egg** with explicit **mayAi** brand typography (`may` in crisp white/silver, `Ai` in vibrant metallic gold).
+To maintain consistent corporate identity across all platform channels, every logo option combines the signature **glowing golden egg** with explicit **mayAi** brand typography (`may` in crisp white/silver, `Ai` in vibrant metallic gold) and rich trade/supply chain visual context (cargo containers, intermodal rail lines, port terminal cranes).
 
-Below are 3 simplified, un-cluttered logo concepts:
+Below are 3 rich, trade-contextualized logo concepts containing **ONLY** the `mayAi` wordmark (strictly zero other words):
 
 ````carousel
-![Concept 1: Simplified Ring-Free Golden Egg with mayAi Typography](trade_logo_mayai_v1.jpg)
-*Concept 1: Simplified Ring-Free Golden Egg with Explicit 'mayAi' Brand Typography (Refined from Concept 2)*
+![Concept A: Golden Egg Port Terminal & Cargo Stack with mayAi Typography](trade_logo_mayai_v4.jpg)
+*Concept A: Golden Egg Seated at Cargo Container Port Terminal with Intermodal Rail & Crane Illumination*
 <!-- slide -->
-![Concept 2: Clean Minimalist Floating Golden Egg with mayAi Typography](trade_logo_mayai_v2.jpg)
-*Concept 2: Clean Minimalist Floating Golden Egg with 'mayAi' Brand Text & Subtle Gold Illumination*
+![Concept B: Golden Egg Obsidian Shipping Gateway with mayAi Typography](trade_logo_mayai_v5.jpg)
+*Concept B: Golden Egg Floating in High-Tech Shipping Container Gateway with Trade Route Lines*
 <!-- slide -->
-![Concept 3: Golden Egg Container Pedestal with mayAi Base Typography](trade_logo_mayai_v3.jpg)
-*Concept 3: Golden Egg Container Pedestal with 'mayAi' Base Typography*
+![Concept C: Golden Egg Container Vault & Laser Grid with mayAi Typography](trade_logo_mayai_v6.jpg)
+*Concept C: Golden Egg Container Vault with Laser Border Gridlines & Dark Gold Sheen*
 ````
 
 ### Recommended Brand Option
-**Concept 1 (Simplified Ring-Free Golden Egg with mayAi Typography)** is recommended as the primary avatar. It retains the dark obsidian glassmorphism of your preferred concept while removing the complex octagon ring and cleanly embedding the **mayAi** brand wordmark.
+**Concept A (Golden Egg Port Terminal & Cargo Stack)** is recommended as the primary avatar. It seamlessly embeds the glowing golden egg atop dark maritime shipping containers and port cranes while displaying **ONLY** the clean `mayAi` brand wordmark.
 
 ### Newsletter & Page Metadata
 
