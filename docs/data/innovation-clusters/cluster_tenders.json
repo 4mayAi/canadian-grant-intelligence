@@ -367,5 +367,113 @@
     "selection_criteria": "Not applicable",
     "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)",
     "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)"
+  },
+  {
+    "source": "ProteinIndustries_CanadaBuys",
+    "title": "26-58113 Universal Testing Machine with non-contact Extensometer for polymer research",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-733-25647240",
+    "date": "2026-07-24T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🧪 Attention Indigenous Innovators: NRC is sourcing a Universal Testing Machine with non-contact extensometers for advanced polymer research!",
+      "strategic_value": "* **Context:** The National Research Council's (NRC-AST) procurement is set aside exclusively for Indigenous-led businesses under the PSIB, presenting a key competitive entry point for qualified partners.\n* **Technology Target:** Requires a Universal Testing Machine (UTM) integrating non-contact extensometers to evaluate tensile/flexural metrics of polymer films and composites under ASTM/ISO standards.\n* **Consulting Pivot:** Propose an actionable B2B subcontracting arrangement with invited Indigenous prime contractors to deliver specialized secondary telemetry processing layers and localized database adapters for the extensometer's data output.",
+      "co_bidding_opportunity": "Under the PSIB guidelines, a valid consortium can be formed by partnering an invited Indigenous Prime Contractor (holding the bidding rights) with a specialized systems integrator or academic research lab acting as a subcontractor for setup, calibration, and software customization.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "Aligns with advanced physical testing machinery requirements for bio-composite and polymer development, bridging materials science with domestic agricultural co-product processing capacity (Fact ID 500).",
+      "grounded_fact_ids": [
+        500
+      ],
+      "anchor_reference": {
+        "source_name": "PIC Supply Chain Program Guide 2025",
+        "page_range": "Page 2",
+        "url": "https://www.proteinindustriescanada.ca/supply-chain"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-07T00:00:00Z",
+    "province": "NCR (Ottawa/Gatineau)",
+    "province_abbrev": "NCR",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)Title: Universal Testing Machine with non-contact Extensometer for polymer researchSolicitation Number: 26-58113Publication Date: 24 July 2026Closing Date and Time: 7 August 2026 at 2PM EDTTrade Agreements: This procurement is set aside from all the trade agreements under the provision each has that permits the procurement to be set aside for Indigenous business.Region of Opportunity: CanadaRegion of Delivery: Winnipeg, ManitobaGSIN: N6640 (UNSPSC 41100000) – ...",
+    "type": "Open",
+    "organization": "National Research Council of Canada (NRC)",
+    "solicitation_number": "26-58113",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Variations or combinations of the above methods",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "ProteinIndustries_CanadaBuys",
+    "title": "Two (2) Highspeed (15000 fps) Cameras",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-965-67727668",
+    "date": "2026-07-24T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "📸 High-speed imaging tech alert: NRC is procurement-tracking 15,000 fps cameras for advanced scientific research.",
+      "strategic_value": "* **Context:** This National Research Council procurement is restricted to pre-qualified suppliers under SA # E60PV-19EQUI, establishing a highly exclusive playing field.\n* **Technology Target:** Acquisition of dual 15,000 fps high-speed cameras requires high-throughput data pipelines and robust hardware standard compatibility for high-speed scientific imaging.\n* **Consulting Pivot:** Propose a downstream services partnership to deliver localized data storage layers and secondary telemetry processing scripts to manage and analyze the high-volume visual data streams for the pre-qualified primes.",
+      "co_bidding_opportunity": "For this selective tender, subcontracting roles are available for systems integrators to partner with pre-qualified Supply Arrangement # E60PV-19EQUI holders to deliver localized data acquisition systems and secondary image analysis pipelines.",
+      "mets_category": "METS-Digital",
+      "mets_rationalization": "High-speed camera sensor data requires low-latency telemetry processing and advanced analytical software platforms, aligning with digital testing infrastructure.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-10T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "NOTICE OF PROPOSED PROCUREMENT (NPP) Solicitation 26-58112Date: 24 July 2026Trade Agreement: Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Columbia Free Trade Agreement (CCOFTA)Canada-Panama Free Trade Agreement (CPAFTA)Canada-Honduras Free Trade Agreement (CHFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada Free Trade Agreement (CFTA)Canada-European Union: Comprehensive Economic and Trade Agreement (CETA)Cana...",
+    "type": "Open",
+    "organization": "National Research Council of Canada (NRC)",
+    "solicitation_number": "26-58112",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "ProteinIndustries_CanadaBuys",
+    "title": "Heavy Duty Mechanic Services, AAFC, Lacombe Research and Development Centre",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-899-75634138",
+    "date": "2026-07-24T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🔧 Keeping Canada's agricultural research fleet running: AAFC Lacombe is seeking heavy-duty mechanic services to support crop trial machinery!",
+      "strategic_value": "* Agriculture and Agri-Food Canada's Lacombe R&D Centre is procuring heavy-duty mechanic services on an \"as and when required\" basis to maintain its specialized agricultural fleet. Ensuring the operational uptime of this fleet directly supports public-sector field trials, which are critical for validating new crop varieties and regional agricultural inputs.\n* Contractors must demonstrate competence with specialized ag-machinery standards, including complex electro-hydraulic systems, CAN bus (ISOBUS) networks, and GPS auto-steer systems, aligning with ISO 12100 mechanical standards and Tier 4 emissions protocols.\n* **Consulting Pivot:** Propose a B2B engagement strategy focusing on custom telemetry and secondary predictive maintenance analytics adapters for agricultural research fleets. Instead of competing for general mechanical maintenance contracts, METS providers can offer downstream diagnostics and localized IoT sensor integration to track vehicle performance data during plant protein trial harvesting, supporting Fact 500's supply chain goals.",
+      "co_bidding_opportunity": "Under a Downstream Pivot model, a consortium can form between a heavy-duty mechanical prime contractor, a localized IoT sensor SME, and a telemetry data analytics provider to offer a turnkey, smart maintenance and diagnostics solution for the AAFC Lacombe research fleet.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "Ensuring the physical operational readiness of the AAFC Lacombe research fleet supports field trials for new crop varieties, which are essential to Protein Industries Canada's goal of bolstering domestic processing capacity and diversifying agricultural inputs.",
+      "grounded_fact_ids": [
+        500
+      ],
+      "anchor_reference": {
+        "source_name": "PIC Supply Chain Program Guide 2025",
+        "page_range": "Page 2",
+        "url": "https://www.proteinindustriescanada.ca/supply-chain"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-24T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Reissue of Solicitation of Offers. This solicitation of offers cancels and supersedes previous solicitation of offers number WSC-2526-193 dated April 30, 2026 with a closing of June 9, 2026 at 11:00 AM CST.DescriptionThe Department of Agriculture and Agri Food Canada (AAFC), Lacombe Research and Development Centre at 6000 C and E Trail, Lacombe, Alberta, requires a Contractor to provide Heavy Duty Mechanic Service on an “as and when required” basis.This bid solicitation is to establish a contrac...",
+    "type": "Open",
+    "organization": "Department of Agriculture and Agri-Food (AAFC)",
+    "solicitation_number": "WSC-2627-082",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Variations or combinations of the above methods",
+    "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade Agreement",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
   }
 ]
