@@ -167,8 +167,8 @@
   ],
   "classification_categories": {
     "Border Compliance & Tariffs": "CBSA customs notices, CARM bonding, surtaxes, tariff classifications, and valuation rules.",
-    "Trade Policy & Sanctions": "Global Affairs Canada trade diversification, SEMA sanctions, forced labour import prohibitions (Bill C-35), and transshipment evasion.",
-    "Trade Remedies & Competition": "CITT anti-dumping injury findings, Competition Bureau greenwashing enforcement (Bill C-59), and market competition studies.",
+    "Trade Policy & Sanctions": "Global Affairs Canada trade diversification, SEMA sanctions, forced labour provenance mandates, and transshipment evasion.",
+    "Trade Remedies & Competition": "CITT anti-dumping injury findings, Competition Bureau ESG anti-greenwashing enforcement, and market competition studies.",
     "Logistics & Infrastructure": "Transport Canada freight regulations, CTA rail corridor decisions, port authority operations, and CanadaBuys logistics procurement."
   },
   "llm_settings": {
