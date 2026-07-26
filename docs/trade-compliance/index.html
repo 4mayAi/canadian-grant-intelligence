@@ -72,6 +72,94 @@
             color: var(--text-secondary);
         }
 
+        /* Styling for Statutory Mandates & Regulatory Milestones Grid */
+        .milestones-section {
+            background: rgba(255, 215, 0, 0.02);
+            border: 1px solid rgba(255, 215, 0, 0.15);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        .milestones-header {
+            color: #ffd700;
+            font-size: 1.2em;
+            margin-top: 0;
+            margin-bottom: 14px;
+            border-bottom: 1px solid rgba(255, 215, 0, 0.15);
+            padding-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .milestones-grid {
+            display: grid;
+            gap: 16px;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        }
+        .milestone-card {
+            background: rgba(30, 41, 59, 0.5);
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            border-radius: 10px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.25s ease;
+            overflow-wrap: anywhere;
+            word-break: break-word;
+        }
+        .milestone-card:hover {
+            border-color: rgba(255, 215, 0, 0.5);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+        .milestone-card h4 {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin: 8px 0 6px 0;
+            line-height: 1.35;
+        }
+        .milestone-card p {
+            font-size: 12.5px;
+            line-height: 1.5;
+            color: var(--text-secondary);
+            margin: 0 0 12px 0;
+        }
+        .badge-anchor-cat {
+            background: rgba(255, 215, 0, 0.12);
+            color: #ffd700;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: 4px;
+            padding: 2px 7px;
+            font-size: 11px;
+            font-weight: 600;
+            align-self: flex-start;
+        }
+        .milestone-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 11.5px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            padding-top: 10px;
+            margin-top: auto;
+        }
+        .milestone-source {
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+        .milestone-link {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s ease;
+        }
+        .milestone-link:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
         /* Grid Layout for Logistics Tenders */
         .tenders-grid {
             display: grid;
@@ -252,6 +340,16 @@
 
         <!-- Dynamic Content Views -->
         <div id="signalsView">
+            <!-- Statutory Mandates, Trade Agreements & Regulatory Milestones Section -->
+            <div id="milestonesSection" class="milestones-section" style="display: none;">
+                <h2 class="milestones-header">
+                    🏛️ Key Statutory Mandates, Trade Agreements &amp; Regulatory Milestones
+                </h2>
+                <div id="milestonesGrid" class="milestones-grid">
+                    <!-- Dynamic milestone cards -->
+                </div>
+            </div>
+
             <!-- Collapsible Logistics Procurement Tenders Section -->
             <div id="tendersSection" style="display: none; margin-bottom: 25px; background: rgba(255, 215, 0, 0.02); border: 1px solid rgba(255, 215, 0, 0.15); border-radius: 12px; padding: 20px;">
                 <h2 style="color: #ffd700; font-size: 1.2em; margin-top: 0; margin-bottom: 14px; border-bottom: 1px solid rgba(255, 215, 0, 0.15); padding-bottom: 8px; display: flex; align-items: center; gap: 8px;">
@@ -290,6 +388,65 @@
         const AZURE_CONTAINER_URL = 'https://canadiangrants.blob.core.windows.net/trade-compliance-data';
         const MANIFEST_AZURE = `${AZURE_CONTAINER_URL}/manifest.json`;
         const MANIFEST_LOCAL = `../data/${TOPIC_ID}/manifest.json`;
+
+        const DEFAULT_TRADE_ANCHORS = [
+            {
+                id: 1,
+                category: "CUSMA & Trade Agreements",
+                fact: "The CUSMA 2026 Joint Review provisions mandate strict enforcement of regional value content (RVC) and melt-and-pour steel origin standards for automotive, industrial, and clean-tech supply chains crossing the Canada-U.S. border.",
+                source: "Global Affairs Canada",
+                pages: "CUSMA 2026 Joint Review Notice",
+                url: "https://www.international.gc.ca/trade-agreements-accords-commerciaux/agr-acc/cusma-aceum/index.aspx"
+            },
+            {
+                id: 2,
+                category: "Forced Labour & Import Bans",
+                fact: "Bill C-35 establishes a standalone forced labour import prohibition framework featuring a Ministerial High-Risk Goods Designation List and a statutory reverse-onus evidentiary burden requiring commercial importers to prove supply chain origin prior to border release.",
+                source: "Public Safety Canada",
+                pages: "Bill C-35 Legislation",
+                url: "https://www.publicsafety.gc.ca/cnt/cntrng-crm/frcd-lbr-mstr-eng.aspx"
+            },
+            {
+                id: 3,
+                category: "Border Enforcement & CARM",
+                fact: "The Canada Border Services Agency (CBSA) has solidified CARM as the official system of record, enforcing mandatory Release Prior to Payment (RPP) financial bonding for all commercial importers and administering retaliatory surtaxes on steel, aluminum, and EV imports.",
+                source: "Canada Border Services Agency",
+                pages: "Customs Notice CN26-04",
+                url: "https://www.cbsa-asfc.gc.ca/prog/carm-gcra/menu-eng.html"
+            },
+            {
+                id: 4,
+                category: "Trade Remedies & Anti-Dumping",
+                fact: "The Canadian International Trade Tribunal (CITT) administers the Special Import Measures Act (SIMA), establishing anti-dumping and countervailing duty injury thresholds and adjudicating federal procurement bid challenges under international trade agreements.",
+                source: "Canadian International Trade Tribunal",
+                pages: "SIMA Advisory",
+                url: "https://www.citt-tcce.gc.ca/en/home.html"
+            },
+            {
+                id: 5,
+                category: "Anti-Greenwashing & Competition",
+                fact: "Bill C-59 amendments to the Competition Act create a private right of action before the Competition Tribunal for unsubstantiated environmental claims, subjecting freight operators and manufacturers to penalties of up to 3% of global revenue for unverified supply chain ESG disclosures.",
+                source: "Competition Bureau Canada",
+                pages: "Bill C-59 Anti-Greenwashing Guidelines",
+                url: "https://ised-isde.canada.ca/site/competition-bureau-canada/en"
+            },
+            {
+                id: 6,
+                category: "Critical Infrastructure Cybersecurity",
+                fact: "Bill C-26 mandates compulsory cybersecurity controls and 24-hour incident reporting for critical transportation, energy, telecom, and financial infrastructure, requiring third-party OT/IT supply chain risk management for hardware and telemetry vendors.",
+                source: "Public Safety Canada / Transport Canada",
+                pages: "Bill C-26 Critical Infrastructure Protection",
+                url: "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/crtcl-nfrstrctr-eng.aspx"
+            },
+            {
+                id: 7,
+                category: "Geopolitical Sanctions & Transshipment Evasion",
+                fact: "The Special Economic Measures Act (SEMA) and Autonomous Sanctions Regulations enforce strict import and export prohibitions on sanctioned regimes (Russia, Iran, Belarus, North Korea) and target third-country transshipment evasion hubs in Central Asia, the Middle East, and Southeast Asia.",
+                source: "Global Affairs Canada",
+                pages: "SEMA Sanctions Registry",
+                url: "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/index.aspx"
+            }
+        ];
 
         let currentDate = 'latest';
         let cachedData = null;
@@ -365,12 +522,92 @@
             }
         }
 
+        async function loadAnchors() {
+            try {
+                const azureUrl = `${AZURE_CONTAINER_URL}/trade_anchors.json`;
+                const localPublishedUrl = `../data/${TOPIC_ID}/trade_anchors.json`;
+                const localDevUrl = `../../configs/trade_anchors.json`;
+
+                let res;
+                try {
+                    res = await fetchWithTimeout(azureUrl, { timeout: 3000 });
+                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                } catch {
+                    try {
+                        res = await fetchWithTimeout(localPublishedUrl, { timeout: 3000 });
+                        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                    } catch {
+                        try {
+                            res = await fetch(localDevUrl);
+                            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                        } catch {
+                            res = null;
+                        }
+                    }
+                }
+
+                let data = null;
+                if (res && res.ok) {
+                    data = await res.json();
+                }
+
+                renderMilestones(data || DEFAULT_TRADE_ANCHORS);
+            } catch (e) {
+                console.warn("Failed to load anchors database, rendering inlined fail-safe payload:", e);
+                renderMilestones(DEFAULT_TRADE_ANCHORS);
+            }
+        }
+
+        function renderMilestones(data) {
+            const section = document.getElementById('milestonesSection');
+            const grid = document.getElementById('milestonesGrid');
+            if (!section || !grid) return;
+
+            let list = [];
+            if (Array.isArray(data)) {
+                list = data;
+            } else if (data && typeof data === 'object') {
+                list = data.TradeCompliance || data.anchors || Object.values(data).find(val => Array.isArray(val)) || [];
+            }
+
+            if (!list || list.length === 0) {
+                list = DEFAULT_TRADE_ANCHORS;
+            }
+
+            let html = '';
+            list.forEach(item => {
+                const category = escapeHtml(item.category || 'Regulatory Mandate');
+                const title = escapeHtml(item.pages || item.category || 'Trade Baseline');
+                const fact = escapeHtml(item.fact || '');
+                const source = escapeHtml(item.source || 'Official Authority');
+                const url = item.url ? escapeHtml(item.url) : '#';
+
+                html += `
+                    <div class="milestone-card">
+                        <div>
+                            <span class="badge-anchor-cat">${category}</span>
+                            <h4>${title}</h4>
+                            <p>${fact}</p>
+                        </div>
+                        <div class="milestone-footer">
+                            <span class="milestone-source">🏛️ ${source}</span>
+                            ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener" class="milestone-link">Official Portal ↗</a>` : ''}
+                        </div>
+                    </div>
+                `;
+            });
+
+            grid.innerHTML = html;
+            section.style.display = 'block';
+        }
+
         async function loadData() {
             try {
                 const [insightsData, kpisData, tendersData] = await Promise.allSettled([
                     fetchJSON('insights'),
                     fetchJSON('kpis'),
-                    fetchJSON('tenders')
+                    fetchJSON('tenders'),
+                    loadAnchors()
                 ]);
 
                 if (insightsData.status === 'fulfilled') {
@@ -502,14 +739,18 @@
                     <div class="tender-card">
                         <div>
                             <div class="tender-badges">
-                                <span class="badge-dept">${t.organization || 'Government of Canada'}</span>
+                                <span class="badge-playbook">${escapeHtml(t.playbook || 'Standard Competitive Bidding')}</span>
+                                ${t.department ? `<span class="badge-dept">🏢 ${escapeHtml(t.department)}</span>` : ''}
                                 ${closingBadge}
                             </div>
-                            <h3><a href="${t.link}" target="_blank" rel="noopener">${t.title}</a></h3>
-                            <p style="font-size: 13.5px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 12px;">${t.description ? t.description.substring(0, 180) + '...' : ''}</p>
+                            <h3><a href="${escapeHtml(t.link)}" target="_blank" rel="noopener">${escapeHtml(t.title)}</a></h3>
+                            <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 15px;">
+                                ${escapeHtml(t.description || '')}
+                            </p>
                         </div>
-                        <div>
-                            ${t.recommended_playbook ? `<span class="badge-playbook">Playbook: ${t.recommended_playbook}</span>` : ''}
+                        <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 12px; margin-top: 10px;">
+                            <span style="font-size: 11.5px; color: var(--text-muted);">📍 ${escapeHtml(t.location || 'Canada')}</span>
+                            <a href="${escapeHtml(t.link)}" target="_blank" rel="noopener" class="btn btn-sm" style="font-size: 11.5px; padding: 4px 10px;">View Tender Docs ↗</a>
                         </div>
                     </div>
                 `;
@@ -518,38 +759,55 @@
             container.innerHTML = html;
         }
 
-        function copyLinkedInPost() {
-            if (cachedData && cachedData.linkedin_post) {
-                navigator.clipboard.writeText(cachedData.linkedin_post).then(() => {
-                    alert('Executive Briefing copied to clipboard!');
-                });
-            }
-        }
-
-        function switchTab(tab) {
-            document.getElementById('btn-signals').classList.toggle('active', tab === 'signals');
-            document.getElementById('btn-digest').classList.toggle('active', tab === 'digest');
-            document.getElementById('signalsView').style.display = tab === 'signals' ? 'block' : 'none';
-            document.getElementById('digestView').style.display = tab === 'digest' ? 'block' : 'none';
-        }
-
-        function selectHistoricalDate(val) {
-            currentDate = val;
-            loadData();
-        }
-
-        function handleSearch(term) {
+        function handleSearch(query) {
             if (!cachedData || !cachedData.insights) return;
-            const q = term.toLowerCase();
-            const filtered = cachedData.insights.filter(item =>
-                item.title.toLowerCase().includes(q) ||
-                (item.insight.strategic_value && item.insight.strategic_value.toLowerCase().includes(q)) ||
-                (item.insight.linkedin_hook && item.insight.linkedin_hook.toLowerCase().includes(q))
-            );
+            const cleanQuery = query.toLowerCase().trim();
+            if (!cleanQuery) {
+                renderInsights(cachedData.insights);
+                return;
+            }
+            const filtered = cachedData.insights.filter(item => {
+                const insight = item.insight || {};
+                const text = `${item.title} ${insight.linkedin_hook || ''} ${insight.strategic_value || ''} ${item.source || ''}`.toLowerCase();
+                return text.includes(cleanQuery);
+            });
             renderInsights(filtered);
         }
 
-        window.addEventListener('DOMContentLoaded', () => {
+        async function selectHistoricalDate(date) {
+            currentDate = date;
+            const searchInput = document.getElementById('searchQuery');
+            if (searchInput) searchInput.value = '';
+
+            document.getElementById('signalsContent').innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading historical trade compliance intelligence...</p></div>';
+            document.getElementById('digestContent').innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading historical briefing...</p></div>';
+
+            await loadData();
+        }
+
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            if (tabName === 'signals') {
+                document.getElementById('btn-signals').classList.add('active');
+                document.getElementById('signalsView').style.display = 'block';
+                document.getElementById('digestView').style.display = 'none';
+            } else {
+                document.getElementById('btn-digest').classList.add('active');
+                document.getElementById('signalsView').style.display = 'none';
+                document.getElementById('digestView').style.display = 'block';
+            }
+        }
+
+        function copyLinkedInPost() {
+            if (!cachedData || !cachedData.linkedin_post) return;
+            navigator.clipboard.writeText(cachedData.linkedin_post).then(() => {
+                alert('Executive briefing copied to clipboard!');
+            }).catch(err => {
+                console.error('Could not copy text: ', err);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
             loadManifest();
             loadData();
         });

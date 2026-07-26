@@ -79,6 +79,8 @@ jobs:
           SMTP_RECIPIENT_PAYMENTS: ${{ secrets.SMTP_RECIPIENT_PAYMENTS || secrets.SMTP_RECIPIENT_CLUSTERS }}
           DISCORD_WEBHOOK_AMR: ${{ secrets.DISCORD_WEBHOOK_AMR || secrets.DISCORD_WEBHOOK_CLUSTERS }}
           SMTP_RECIPIENT_AMR: ${{ secrets.SMTP_RECIPIENT_AMR || secrets.SMTP_RECIPIENT_CLUSTERS }}
+          DISCORD_WEBHOOK_TRADE_COMPLIANCE: ${{ secrets.DISCORD_WEBHOOK_TRADE_COMPLIANCE || secrets.DISCORD_WEBHOOK_CLUSTERS }}
+          SMTP_RECIPIENT_TRADE_COMPLIANCE: ${{ secrets.SMTP_RECIPIENT_TRADE_COMPLIANCE || secrets.SMTP_RECIPIENT_CLUSTERS }}
           SCRAPE_LOOKBACK_DAYS: ${{ inputs.lookback_days }}
         run: |
           python generic_engine/main.py --config ${{ inputs.config_path }} --run-type ${{ inputs.run_type }}

@@ -24,13 +24,34 @@ def clean_html(text: str) -> str:
     return text.strip()
 
 def clean_json_text(text: str) -> str:
-    """Replaces unescaped literal newlines and tabs inside JSON string values with escaped counterparts."""
+    """Replaces unescaped literal newlines and tabs inside JSON string values with escaped counterparts, stripping markdown blocks and trailing text."""
     if not text:
         return ""
+    
+    cleaned_str = text.strip()
+    if cleaned_str.startswith("```json"):
+        cleaned_str = cleaned_str[7:]
+    elif cleaned_str.startswith("```"):
+        cleaned_str = cleaned_str[3:]
+    if cleaned_str.endswith("```"):
+        cleaned_str = cleaned_str[:-3]
+    cleaned_str = cleaned_str.strip()
+
+    first_bracket = min(
+        [pos for pos in (cleaned_str.find('['), cleaned_str.find('{')) if pos != -1],
+        default=-1
+    )
+    last_bracket = max(
+        cleaned_str.rfind(']'),
+        cleaned_str.rfind('}')
+    )
+    if first_bracket != -1 and last_bracket != -1 and last_bracket > first_bracket:
+        cleaned_str = cleaned_str[first_bracket:last_bracket + 1]
+
     in_quote = False
     escaped = False
     cleaned = []
-    for char in text:
+    for char in cleaned_str:
         if char == '"' and not escaped:
             in_quote = not in_quote
         if char == '\\' and not escaped:
