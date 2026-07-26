@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T16:02:35.352089Z",
-  "linkedin_post": "China's recent export controls on critical minerals, including tungsten impacting Japan and rare earths affecting Europe, signal a strategic tightening of global supply. This geopolitical maneuver accelerates the urgent need for Western and Asian manufacturers, especially in high-tech and automotive, to reassess their supply chain vulnerabilities and rapidly diversify into secondary sources and non-Chinese processing capabilities.\n\nCloser to home, Canada's Maritime provinces have signed a significant MOU to build a stronger, integrated electricity grid. This first-of-a-kind initiative promises enhanced energy security and unlocks renewable potential across the region. Mining companies operating or planning investments in Canada's Maritimes should engage with this initiative to secure reliable, greener power, reduce carbon tax liabilities, and significantly enhance their ESG positioning.\n\nIn Australia, the ALP's rejection of calls to cut Fuel Tax Credits provides crucial operational stability, shielding the mining sector from unbudgeted cost increases. This policy certainty allows for better long-term financial planning and investment in efficiency, maintaining a competitive edge for trade-exposed commodities.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/mining-hubs/\n\n#MiningIndustry #CriticalMinerals #SupplyChainResilience #ESG #EnergyTransition\n\n### Featured News & Sources\n- [China’s tungsten export controls on Japan are backfiring - 9DashLine](https://www.9dashline.com/article/chinas-tungsten-export-controls-on-japan-are-backfiring) (China Mining)\n- [China Wields Its Rare-Earths Leverage Over Europe With Export Controls - The New York Times](https://www.nytimes.com/2026/07/24/business/china-europe-rare-earths.html) (China Mining)\n- [ALP rejects activist push to damage regional Australia by capping or cutting Fuel Tax Credits - Minerals Council of Australia](https://minerals.org.au/resources/alp-rejects-activist-push-to-damage-regional-australia-by-capping-or-cutting-fuel-tax-credits/) (Australia Mining)\n- [Building a stronger Maritime electricity grid](https://www.canada.ca/en/natural-resources-canada/news/2026/07/building-a-stronger-maritime-electricity-grid.html) (Canada NRCan)\n- [Copper Recovery Economic Impact & Saudi Arabia Mining - Farmonaut](https://farmonaut.com/mining/copper-recovery-economic-impact-saudi-arabia-mining) (Saudi Mining)\n",
+  "generated_at": "2026-07-26T16:02:16.151229Z",
+  "linkedin_post": "\n\n### Featured News & Sources\n- [China’s tungsten export controls on Japan are backfiring - 9DashLine](https://www.9dashline.com/article/chinas-tungsten-export-controls-on-japan-are-backfiring) (China Mining)\n- [China Wields Its Rare-Earths Leverage Over Europe With Export Controls - The New York Times](https://www.nytimes.com/2026/07/24/business/china-europe-rare-earths.html) (China Mining)\n- [ALP rejects activist push to damage regional Australia by capping or cutting Fuel Tax Credits - Minerals Council of Australia](https://minerals.org.au/resources/alp-rejects-activist-push-to-damage-regional-australia-by-capping-or-cutting-fuel-tax-credits/) (Australia Mining)\n- [Building a stronger Maritime electricity grid](https://www.canada.ca/en/natural-resources-canada/news/2026/07/building-a-stronger-maritime-electricity-grid.html) (Canada NRCan)\n- [Copper Recovery Economic Impact & Saudi Arabia Mining - Farmonaut](https://farmonaut.com/mining/copper-recovery-economic-impact-saudi-arabia-mining) (Saudi Mining)\n",
   "insights": [
     {
       "source": "China_Mining_News",
@@ -522,29 +522,6 @@
           "source_name": "MAC Facts & Figures 2026",
           "page_range": "Page 3",
           "url": "https://mining.ca/wp-content/uploads/2026/05/Facts-Figures-2026.pdf"
-        }
-      }
-    },
-    {
-      "source": "Switzerland_Geneva_News",
-      "title": "Fraude au nickel : Trafigura accuse l’épouse de Prateek Gupta d’avoir dissimulé des actifs - lexpress.mu",
-      "link": "https://lexpress.mu/s/trafigura-accuse-lepouse-de-prateek-gupta-davoir-dissimule-des-actifs-559677",
-      "date": "2026-06-26T10:41:49Z",
-      "insight": {
-        "linkedin_hook": "A $700M nickel fraud impacting a major global trader is a stark warning. 🚨 Is your supply chain due diligence robust enough to detect sophisticated material misrepresentation and financial impropriety before it cripples your bottom line and reputation?",
-        "strategic_value": "- This high-profile fraud case involving a leading commodities trader directly exposes profound vulnerabilities in global supply chain verification and financial transparency, posing significant reputational and financial risks for Swiss-based commodity firms.\n- The deliberate misrepresentation of high-quality nickel with valueless materials underscores an urgent and critical demand for advanced material authentication, digital traceability, and rigorous quality control across complex commodity trading networks.\n- * **Consulting Pivot:** Offer specialized risk advisory and technological integration services to Swiss commodity trading firms, focusing on enhancing compliance with mandated transparency (Fact ID 33) and supply chain due diligence (Fact ID 34) through blockchain-enabled material tracking and independent financial auditing solutions to fortify against similar fraudulent schemes.",
-        "co_bidding_opportunity": "Based on the source text, the opportunities highlighted are related to legal proceedings, asset identification, and asset freezing to enforce judgments. No explicit co-bidding opportunities for new technologies, programs, or preventative partnerships are mentioned within the article, beyond the ongoing legal actions and forensic accounting involved in asset recovery.",
-        "mets_category": "METS-ESG",
-        "mets_rationalization": "This incident critically highlights the immense financial and reputational exposure inherent in commodity trading and directly reinforces the necessity for Swiss commodity firms, as a global trading hub (Fact ID 32), to rigorously adhere to transparency regulations (Fact ID 33) and robust supply chain due diligence requirements (Fact ID 34) to mitigate fraud and ensure ethical conduct.",
-        "grounded_fact_ids": [
-          32,
-          33,
-          34
-        ],
-        "anchor_reference": {
-          "source_name": "SUISSENEGOCE Report 2025",
-          "page_range": "Page 1",
-          "url": "https://suissenegoce.ch/"
         }
       }
     }
