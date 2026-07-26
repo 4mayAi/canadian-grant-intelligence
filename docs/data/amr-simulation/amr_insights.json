@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T18:59:00.820560Z",
-  "linkedin_post": "The biological frontier is shifting. Recent breakthroughs in structural biology, ranging from bacteriophage mechanics targeting M. abscessus to cyanobacterial siderophores, are providing the essential data layers required for predictive computational modeling. For biotech firms, these insights represent more than academic interest; they are the new blueprints for drug discovery and synthetic design.\n\nResearchers have successfully mapped the 'Jabs' bacteriophage, revealing a disulfide-bonded capsid that challenges how we engineer therapeutics for drug-resistant Mycobacterium abscessus. If your firm is operating in the phage therapy space, there is a clear opportunity to utilize these structural coordinates for in silico prototyping of enhanced host-receptor binding.\n\nMeanwhile, the resolution of Cyanochelin C and the discovery of MreB nucleotide cycling mechanisms provide novel targets for antibacterial development. By integrating these biophysical data points into simulation software, developers can transition from traditional trial-and-error discovery to precision molecular design.\n\nIn the public sector, procurement remains a critical driver. The [NRC](https://nrc.canada.ca/)'s recent investment in advanced testing hardware under the Procurement Strategy for Indigenous Business (PSIB) signals a long-term commitment to high-fidelity materials research. Strategic value is realized by aligning digital simulation capabilities with physical hardware deployments.\n\nstrategic_value:\n* **Data Integration:** Leverage newly published cryo-EM and NMR datasets to populate high-fidelity simulation environments for faster lead optimization.\n* **Precision Targeting:** Apply computational biophysics to novel biological mechanisms like MreB cycling to identify unique binding pockets for next-gen antimicrobials.\n* **Consulting Pivot:** Pivot from product-centric service models to providing specialized computational-integration workflows that bridge the gap between experimental raw data and actionable structural insights.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#Biotech #DrugDiscovery #StructuralBiology #Canada #Innovation\n\n### Featured News & Sources\n- [Outbreak of Dermatophilus congolensis skin infection among contact sport practitioners, Norway, summer 2025](https://www.biorxiv.org/content/10.64898/2026.07.24.740579v1?rss=1) (bioRxiv Microbiology)\n- [Intrafilament nucleotide exchange in a prokaryotic actin homolog](https://www.biorxiv.org/content/10.64898/2026.07.24.740542v1?rss=1) (bioRxiv Microbiology)\n- [Structural and Stereochemical Elucidation of Cyanochelin C, a Siderophore Associated with Novel Class of Cyanobacterial Acyl Hydrolases](https://www.biorxiv.org/content/10.64898/2026.07.24.740629v1?rss=1) (bioRxiv Microbiology)\n- [Cryo-electron microscopy structure of Jabs, a bacteriophage infecting the multidrug-resistant pathogen Mycobacterium abscessus](https://www.biorxiv.org/content/10.64898/2026.07.24.740622v1?rss=1) (bioRxiv Microbiology)\n- [26-58113 Universal Testing Machine with non-contact Extensometer for polymer research](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-733-25647240) (Canada CanadaBuys Procurement)\n",
+  "generated_at": "2026-07-26T19:02:11.071444Z",
+  "linkedin_post": "Today's insights highlight significant strides in Canadian health-tech, from combating antibiotic resistance to advancing materials science. Cutting-edge research is rapidly evolving, creating immediate opportunities for strategic collaboration.\n\nNew bioRxiv research reveals the intricate cryo-EM structure of bacteriophage Jabs, a potent tool against multidrug-resistant Mycobacterium abscessus. Biopharmaceutical firms and research institutions should examine how advanced computational biology models can optimize phage-host interactions for novel therapeutic designs.\n\nAnother breakthrough preprint uncovers a novel nucleotide exchange mechanism in MreB, a prokaryotic actin homolog crucial for bacterial cell morphogenesis. Canadian biotech companies focusing on antibacterial strategies should leverage molecular dynamics simulations to identify new allosteric binding sites for next-generation drug discovery.\n\nFurthermore, a significant Universal Testing Machine procurement by the [NRC](https://nrc.canada.ca/), guided by Indigenous partnerships, signals a push for integrating advanced instrumentation with modern data processing. Materials science researchers and engineering firms should explore how computational materials modeling can extend the utility of such equipment for long-term R&D partnerships.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#CanadianBiotech #HealthTech #AntimicrobialResistance #PhageTherapy #ComputationalBiology\n\n### Featured News & Sources\n- [Outbreak of Dermatophilus congolensis skin infection among contact sport practitioners, Norway, summer 2025](https://www.biorxiv.org/content/10.64898/2026.07.24.740579v1?rss=1) (bioRxiv Microbiology)\n- [Intrafilament nucleotide exchange in a prokaryotic actin homolog](https://www.biorxiv.org/content/10.64898/2026.07.24.740542v1?rss=1) (bioRxiv Microbiology)\n- [Structural and Stereochemical Elucidation of Cyanochelin C, a Siderophore Associated with Novel Class of Cyanobacterial Acyl Hydrolases](https://www.biorxiv.org/content/10.64898/2026.07.24.740629v1?rss=1) (bioRxiv Microbiology)\n- [Cryo-electron microscopy structure of Jabs, a bacteriophage infecting the multidrug-resistant pathogen Mycobacterium abscessus](https://www.biorxiv.org/content/10.64898/2026.07.24.740622v1?rss=1) (bioRxiv Microbiology)\n- [26-58113 Universal Testing Machine with non-contact Extensometer for polymer research](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-733-25647240) (Canada CanadaBuys Procurement)\n",
   "insights": [
     {
       "source": "bioRxiv_Microbiology",
@@ -8,11 +8,11 @@
       "link": "https://www.biorxiv.org/content/10.64898/2026.07.24.740579v1?rss=1",
       "date": "2026-07-25T00:00:00Z",
       "insight": {
-        "linkedin_hook": "🤼‍♂️ A skin infection outbreak among contact sports athletes in Norway is rewriting the transmission rules for Dermatophilus congolensis—and exposing a massive gap in international genomic surveillance.",
-        "strategic_value": "* This outbreak demonstrates that atypical zoonotic pathogens can rapidly transition to human-to-human or fomite-mediated transmission networks in recreational and athletic spaces, necessitating dynamic transmission modeling.\n* Emphasizes the critical role of high-resolution whole-genome sequencing (WGS) and core-genome SNP analysis in tracing international clonal dissemination of atypical pathogens.\n* **Consulting Pivot:** Propose a partnership with public health agencies to integrate real-time contact-network modeling with genomic surveillance databases, identifying atypical outbreak clusters before they scale.",
-        "co_bidding_opportunity": "Subcontract as a digital genomic epidemiology specialist to collaborate with European and domestic public health researchers to build automated, SNP-based cluster detection pipelines for atypical bacterial skin infections.",
+        "linkedin_hook": "🚨 Contact sports linked to a rare bacterial outbreak! New bioRxiv research reveals *Dermatophilus congolensis* transmission pathways beyond animal contact. How can advanced simulation protect athletes globally?",
+        "strategic_value": "- This preprint highlights an emerging transmission pathway for *Dermatophilus congolensis* in human populations, emphasizing the critical role of genomic surveillance in outbreak investigation.\n- The identification of highly related isolates and potential international dissemination signals a need for advanced epidemiological modeling to predict spread and inform public health interventions.\n- * **Consulting Pivot:** Propose a computational epidemiology project to model *D. congolensis* transmission dynamics in high-contact environments, integrating genomic data to simulate potential international spread and evaluate intervention strategies for public health agencies in Canada.",
+        "co_bidding_opportunity": "Collaboration with bioinformatics firms specializing in pathogen genomic analysis and phylogenetic clustering to enhance outbreak prediction and source attribution models. Potential to partner with public health agencies for integrated surveillance solutions.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Connects to federal and provincial mandates for active infectious disease surveillance by showing how digital genomic epidemiology tools can trace novel and atypical transmission vectors.",
+        "mets_rationalization": "This signals a growing need for advanced digital tools in public health surveillance and outbreak management, aligning with Canadian public health priorities for strengthening infectious disease preparedness and response through data-driven insights and genomic epidemiology.",
         "grounded_fact_ids": [],
         "anchor_reference": null,
         "program_validation_status": null,
@@ -26,11 +26,11 @@
       "link": "https://www.biorxiv.org/content/10.64898/2026.07.24.740542v1?rss=1",
       "date": "2026-07-25T00:00:00Z",
       "insight": {
-        "linkedin_hook": "🧬 Bacterial shape-shifting is more dynamic than we ever realized: a new study reveals MreB filaments undergo continuous, internal nucleotide exchange to stabilize cell walls.",
-        "strategic_value": "* Unlocks a novel biological mechanism in bacterial cell morphogenesis (MreB nucleotide cycling) that can be targeted for next-generation narrow-spectrum or broad-spectrum antibacterial drugs.\n* Highlights the need for advanced 4D molecular dynamics and in silico simulations to model the physical forces of bacterial cytoskeleton polymerization on lipid membranes.\n* **Consulting Pivot:** Engage computational biology departments and antimicrobial resistance (AMR) drug developers to co-develop biophysical simulation plugins that model MreB filament assembly and identify novel binding pockets for MreB inhibitors.",
-        "co_bidding_opportunity": "Partner with academic consortia funded by international bodies like the European Research Council (ERC) to provide structural biology modeling and molecular dynamics simulation services targeting bacterial cytoskeleton dynamics for antibiotic discovery.",
+        "linkedin_hook": "🔬 Breakthrough in bacterial cell mechanics! New bioRxiv research uncovers a novel nucleotide exchange mechanism in MreB, a prokaryotic actin homolog. Could this be the key to next-gen antimicrobial strategies?",
+        "strategic_value": "- This fundamental research illuminates a novel mechanism of nucleotide exchange in bacterial actin homologs, critical for bacterial cell morphogenesis and offering new targets for antimicrobial development.\n- Understanding these complex protein assembly dynamics and nucleotide cycling presents a significant opportunity for in silico molecular modeling and computational biology to predict protein function and identify inhibition points.\n- * **Consulting Pivot:** Develop and apply molecular dynamics simulation software to model MreB filament dynamics and nucleotide exchange, aiming to identify novel allosteric binding sites or inhibitors for potential drug discovery programs with Canadian biotech firms focused on antibacterial therapies.",
+        "co_bidding_opportunity": "Molecular modeling specialists, computational chemists, and structural biology software providers could partner with pharmaceutical R&D divisions or academic research groups seeking to exploit MreB as a drug target.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Aligns with public health and academic funding bodies focusing on tackling antimicrobial resistance (AMR) through novel drug target validation and computational screening platforms.",
+        "mets_rationalization": "This research provides a foundational insight for the development of new antibacterial agents, aligning with Canadian academic funding priorities in infectious disease research and drug discovery, especially those targeting novel bacterial vulnerabilities.",
         "grounded_fact_ids": [],
         "anchor_reference": null,
         "program_validation_status": null,
@@ -44,11 +44,11 @@
       "link": "https://www.biorxiv.org/content/10.64898/2026.07.24.740629v1?rss=1",
       "date": "2026-07-25T00:00:00Z",
       "insight": {
-        "linkedin_hook": "🧪 Biosynthetic dark matter unmasked: Researchers have resolved the structure of Cyanochelin C, a novel cyanobacterial siderophore that could redefine iron-chelating therapeutic models.",
-        "strategic_value": "* Offers a new pathway for developing iron-chelating drugs or diagnostic tools using high-affinity bacterial siderophore structures.\n* Demonstrates the power of combining bioinformatic biosynthetic gene cluster (BGC) mining with NMR/MS data to discover novel metabolic enzymes like CcsQ acylases.\n* **Consulting Pivot:** Partner with biotechnology firms in the agricultural, environmental, or pharmaceutical sectors to deploy predictive machine-learning workflows that accelerate the discovery and enzymatic engineering of cyanobacterial secondary metabolites.",
-        "co_bidding_opportunity": "Form a research partnership with international academic institutions (such as the Czech Science Foundation or University of South Bohemia) to provide in silico structural modeling and deacylation pathway simulations for novel siderophores.",
+        "linkedin_hook": "🌟 Unlocking microbial secrets! New bioRxiv research unveils Cyanochelin C, a novel cyanobacterial siderophore. Could this iron-chelating marvel revolutionize drug delivery or antimicrobial strategies?",
+        "strategic_value": "- The discovery of Cyanochelin C and its associated acylase expands the known structural diversity of cyanobacterial siderophores, offering new insights into microbial iron acquisition crucial for growth and virulence.\n- This presents a rich opportunity for computational chemistry and bioinformatics tools to predict siderophore-metal interactions, design novel iron chelators, or develop strategies to disrupt microbial iron uptake pathways.\n- * **Consulting Pivot:** Offer advanced computational chemistry and molecular docking simulations to Canadian biopharma companies to screen for compounds that interfere with Cyanochelin C's iron chelation or the activity of its associated acyl hydrolase, potentially leading to new antimicrobial or anti-biofilm agents.",
+        "co_bidding_opportunity": "Partnerships with computational drug design platforms, chemoinformatics specialists, and natural product discovery labs to explore the therapeutic potential of novel siderophores or inhibitors of iron acquisition pathways.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Connects to the biotechnology and environmental health mandates of federal agencies by providing the computational framework to turn marine and aquatic microbial discoveries into therapeutic or bioremediation assets.",
+        "mets_rationalization": "This research into novel microbial metabolites offers avenues for drug discovery, aligning with Canadian biotech sector interests in identifying new bioactive compounds and exploring their therapeutic applications, particularly in areas like antimicrobial development or nutrient competition.",
         "grounded_fact_ids": [],
         "anchor_reference": null,
         "program_validation_status": null,
@@ -62,11 +62,11 @@
       "link": "https://www.biorxiv.org/content/10.64898/2026.07.24.740622v1?rss=1",
       "date": "2026-07-25T00:00:00Z",
       "insight": {
-        "linkedin_hook": "🦠 Fighting a superbug with structural biology: Cryo-EM has mapped \"Jabs,\" a bacteriophage targeting multidrug-resistant Mycobacterium abscessus with an unprecedented disulfide-bonded capsid.",
-        "strategic_value": "* Establishes a concrete structural blueprint of a phage targeting a high-priority, multi-drug resistant pathogen (M. abscessus), bypassing traditional chemical antibiotic mechanisms.\n* Reveals highly complex, dynamic receptor-binding proteins and novel capsid assemblies that can be computationally modeled to engineer custom synthetic phages.\n* **Consulting Pivot:** Offer molecular modeling and simulation services to clinical-stage phage therapy developers to virtually prototype and optimize phage tail fibers for enhanced host-receptor binding.",
-        "co_bidding_opportunity": "Subcontract as a bioinformatics and structural modeling partner with clinical consortia and non-profits (such as Vaincre la Mucoviscidose) targeting CF-associated pathogens like M. abscessus.",
+        "linkedin_hook": "🦠 Battle against superbugs heats up! A new bioRxiv preprint reveals the intricate structure of bacteriophage Jabs, a potent weapon against multidrug-resistant *Mycobacterium abscessus*. Huge implications for phage therapy!",
+        "strategic_value": "- This cryo-EM structure provides unprecedented atomic-level detail of a bacteriophage targeting *Mycobacterium abscessus*, a critical multidrug-resistant pathogen, opening new avenues for understanding phage-host interactions.\n- The complex architecture and adhesion device of Jabs offer prime targets for in silico engineering and virtual simulation to optimize phage efficacy, tropism, and stability for therapeutic applications.\n- * **Consulting Pivot:** Propose the development of computational biology models to simulate Jabs phage-host receptor binding and infection mechanisms, aiding Canadian biotechs or academic groups in the rational design and engineering of enhanced phage therapies for *M. abscessus* infections.",
+        "co_bidding_opportunity": "Partnerships with computational structural biology groups, bioinformatics platforms specializing in protein-protein interactions, and companies developing phage engineering tools to accelerate therapeutic phage development against MDR pathogens.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Directly supports long-term federal strategies to combat antimicrobial resistance (AMR) by validating phage-therapy platforms as a viable alternative to classic antibiotics through digital, structural-guided design.",
+        "mets_rationalization": "This directly supports the development of novel anti-infective strategies, aligning with Canadian public health and biotechnology efforts to combat antimicrobial resistance (AMR) through innovative approaches like phage therapy.",
         "grounded_fact_ids": [],
         "anchor_reference": null,
         "program_validation_status": null,
@@ -114,6 +114,44 @@
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
+      "title": "Two (2) Highspeed (15000 fps) Cameras",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-965-67727668",
+      "date": "2026-07-24T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "📸 High-speed physical imaging meets in silico validation: The National Research Council Canada is procuring 15,000 fps cameras for advanced laboratories.",
+        "strategic_value": "* Ultra-high-speed imaging at 15,000 fps is crucial for capturing physical microfluidic and aerosol dynamics, providing the empirical validation data necessary to calibrate and refine complex in silico pathogen transport models.\n* Because this procurement is strictly limited to pre-qualified holders of Supply Arrangement E60PV-19EQUI, standard simulation and computational software providers cannot bid directly, highlighting the need for strategic channel partnerships with hardware prime contractors.\n* **Consulting Pivot:** Propose an integrated hardware-software offering to pre-qualified Supply Arrangement holders to bundle these high-speed camera systems with advanced fluid dynamics and simulation modeling capabilities, targeting future NRC Ideation Fund breakthrough technology collaborative bids.",
+        "co_bidding_opportunity": "Based on the selective tendering procedures, bidding is strictly restricted to pre-qualified holders of Supply Arrangement # E60PV-19EQUI for Laboratory and Scientific Equipment. Non-qualified computational biology and simulation firms should pursue a subcontracting role with an invited Supply Arrangement holder to integrate analytical, visualization, or simulation software with the procured physical camera systems.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This procurement of high-speed laboratory cameras by the National Research Council (NRC) directly represents laboratory operations and scientific equipment hardware (METS-Ops). These physical experimental assets are essential for validating advanced health technologies and simulations funded under NRC collaborative frameworks.",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-10T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "NOTICE OF PROPOSED PROCUREMENT (NPP) Solicitation 26-58112Date: 24 July 2026Trade Agreement: Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Columbia Free Trade Agreement (CCOFTA)Canada-Panama Free Trade Agreement (CPAFTA)Canada-Honduras Free Trade Agreement (CHFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada Free Trade Agreement (CFTA)Canada-European Union: Comprehensive Economic and Trade Agreement (CETA)Cana...",
+      "type": "Open",
+      "organization": "National Research Council of Canada (NRC)",
+      "solicitation_number": "26-58112",
+      "notice_type": "RFP against Supply Arrangement",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+    },
+    {
+      "source": "Canada_CanadaBuys_Procurement",
       "title": "Mercury Program Project Support",
       "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-636-43216091",
       "date": "2026-07-24T00:00:00Z",
@@ -152,44 +190,6 @@
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
-      "title": "Two (2) Highspeed (15000 fps) Cameras",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-965-67727668",
-      "date": "2026-07-24T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "📸 High-speed physical imaging meets in silico validation: The National Research Council Canada is procuring 15,000 fps cameras for advanced laboratories.",
-        "strategic_value": "* Ultra-high-speed imaging at 15,000 fps is crucial for capturing physical microfluidic and aerosol dynamics, providing the empirical validation data necessary to calibrate and refine complex in silico pathogen transport models.\n* Because this procurement is strictly limited to pre-qualified holders of Supply Arrangement E60PV-19EQUI, standard simulation and computational software providers cannot bid directly, highlighting the need for strategic channel partnerships with hardware prime contractors.\n* **Consulting Pivot:** Propose an integrated hardware-software offering to pre-qualified Supply Arrangement holders to bundle these high-speed camera systems with advanced fluid dynamics and simulation modeling capabilities, targeting future NRC Ideation Fund breakthrough technology collaborative bids.",
-        "co_bidding_opportunity": "Based on the selective tendering procedures, bidding is strictly restricted to pre-qualified holders of Supply Arrangement # E60PV-19EQUI for Laboratory and Scientific Equipment. Non-qualified computational biology and simulation firms should pursue a subcontracting role with an invited Supply Arrangement holder to integrate analytical, visualization, or simulation software with the procured physical camera systems.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "This procurement of high-speed laboratory cameras by the National Research Council (NRC) directly represents laboratory operations and scientific equipment hardware (METS-Ops). These physical experimental assets are essential for validating advanced health technologies and simulations funded under NRC collaborative frameworks.",
-        "grounded_fact_ids": [
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-10T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "NOTICE OF PROPOSED PROCUREMENT (NPP) Solicitation 26-58112Date: 24 July 2026Trade Agreement: Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Columbia Free Trade Agreement (CCOFTA)Canada-Panama Free Trade Agreement (CPAFTA)Canada-Honduras Free Trade Agreement (CHFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada Free Trade Agreement (CFTA)Canada-European Union: Comprehensive Economic and Trade Agreement (CETA)Cana...",
-      "type": "Open",
-      "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "26-58112",
-      "notice_type": "RFP against Supply Arrangement",
-      "procurement_method": "Competitive - Selective tendering",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
       "title": "Purchase and delivery of an Atomic Force Microscope (AFM)",
       "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-393-83500933",
       "date": "2026-07-23T00:00:00Z",
@@ -223,7 +223,7 @@
       "notice_type": "",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Please refer to Tender Description or Tender DocumentsCanada-Peru Free Trade Agreement (CPFTA)",
+      "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Please refer to Tender Description or Tender DocumentsCanada-Peru Free Trade Agreement (CPFTA)",
       "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
