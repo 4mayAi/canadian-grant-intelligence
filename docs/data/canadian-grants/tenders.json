@@ -693,35 +693,6 @@
   },
   {
     "source": "CanadaBuys",
-    "title": "Thermal Imaging Cameras",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-46-64551612",
-    "date": "2026-06-25T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "📸 Defence contractors! DND is urgently seeking handheld Thermal Imaging Cameras for critical training and specialist validation by Sept 1, 2026.",
-      "strategic_value": "* This DND procurement supports enhanced operational readiness and training capabilities for military personnel, underscoring the continuous investment in tactical equipment to maintain force effectiveness.\n* The requirement is for four (4) handheld thermal imaging cameras, specifically for training and validating specialist capabilities, necessitating robust and reliable infrared imaging technology.\n* **Consulting Pivot:** Offer a 'deploy-and-train' solution for thermal imaging cameras, including initial setup, operator training, and ongoing maintenance support, emphasizing the lowest total cost of ownership to align with DND's \"Lowest Price\" selection criteria.",
-      "co_bidding_opportunity": "",
-      "mets_category": "METS-Ops",
-      "mets_rationalization": "This aligns with the routine operational procurement of specialized equipment for DND, supporting ongoing training and tactical readiness, crucial for national defense objectives.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-07-25T00:00:00Z",
-    "province": "Ontario",
-    "province_abbrev": "ON",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "The Department of National Defence has a requirement for four (4) handheld thermal imaging cameras to enhance training and validate specialist capabilities. This procurement process is intended to result in the acquisition of four (4) handheld thermal imaging cameras. The equipment being bid in this requirement must fully comply with the Technical Specifications within the Request for Proposal solicitation document. The deliverables are required no later than September 01st, 2026. The Crown reta...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W6399-27-SS06",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys",
     "title": "Modified Category 2 Base Building",
     "link": "https://www.merx.com/public/solicitations/4007251785/abstract?language=EN",
     "date": "2026-06-25T00:00:00Z",
@@ -2917,35 +2888,6 @@
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Please refer to Tender Description or Tender Documents",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys",
-    "title": "Vessel Rental Services",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-160-88806922",
-    "date": "2026-07-10T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🚢 Navigating federal procurement? W6399-27-TQ95 is a fast-track opportunity, but it’s restricted to Supply Arrangement holders.",
-      "strategic_value": "* This RFP targets vessel rental services under an existing Supply Arrangement (SA), signifying a tactical requirement for logistical support rather than a long-term capital acquisition.\n* The technological requirement focuses on domestic marine transport compliance and fleet readiness according to PSPC standards.\n* **Consulting Pivot:** If not currently an SA holder, identify and approach established prime contractors on the W6399-21-J415 list to propose yourself as a specialist vessel or maritime service subcontractor to fulfill specific operational gaps.",
-      "co_bidding_opportunity": "Maritime logistics providers, vessel owners, and technical maintenance services are ideal subcontractors for existing Supply Arrangement prime contractors.",
-      "mets_category": "METS-Ops",
-      "mets_rationalization": "This aligns with 'METS-Ops' by focusing on the physical mobilization and logistics of fleet assets required for federal operations.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null
-    },
-    "closing_date": "2026-07-25T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "This requirement is a Request for Proposal (RFP) against Supply Arrangement # W6399-21-J415. All Supply Arrangement holders will be e-mailed the RFP directly. If vendors outside of the Supply Arrangement are interested in submitting a proposal, they will have to qualify for the Supply Arrangement before they are given an opportunity to bid on this requirement. Please contact the Supply Arrangement Contracting Officer at PSPC to obtain the steps required to be considered for Supply Arrangement # ...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W6399-27-TQ95",
-    "notice_type": "RFP against Supply Arrangement",
-    "procurement_method": "Competitive - Selective tendering",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)",
-    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   },
   {
     "source": "CanadaBuys",
@@ -8977,7 +8919,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)",
+    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   }
 ]
