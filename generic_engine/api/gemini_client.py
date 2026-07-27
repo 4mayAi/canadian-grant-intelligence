@@ -445,6 +445,7 @@ class GeminiClient:
         {date_str}Rules:
         {headline_rule}
         - Ensure the very first paragraph after the opening headline directly addresses the lead topic of that headline.
+        - Explicitly mention the key entity, country, or organization name (e.g., Palestine, Angola, Bank of China, APAC) from each featured news highlight in its corresponding paragraph. Do not generalize specific geopolitical entities into generic terms.
         - Bridge political/policy context with actionable business opportunities
         - Highlight the 2-3 most impactful items from the news (and active tenders, if provided) below
         - For each highlight, include ONE actionable sentence about who should pay attention and why
