@@ -341,14 +341,17 @@
         <!-- Dynamic Content Views -->
         <div id="signalsView">
             <!-- Statutory Mandates, Trade Agreements & Regulatory Milestones Section -->
-            <div id="milestonesSection" class="milestones-section" style="display: none;">
-                <h2 class="milestones-header">
-                    🏛️ Key Statutory Mandates, Trade Agreements &amp; Regulatory Milestones
-                </h2>
+            <details id="milestonesSection" class="milestones-section" open style="display: none;">
+                <summary style="cursor: pointer; outline: none; user-select: none; color: #ffd700; font-size: 1.2em; font-weight: 700; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(255, 215, 0, 0.15); padding-bottom: 8px; margin-bottom: 14px;">
+                    <span style="display: flex; align-items: center; gap: 8px;">
+                        🏛️ Key Statutory Mandates, Trade Agreements &amp; Regulatory Milestones
+                    </span>
+                    <span style="font-size: 12.5px; color: var(--text-muted); font-weight: 500;">Click to Collapse / Expand ▾</span>
+                </summary>
                 <div id="milestonesGrid" class="milestones-grid">
                     <!-- Dynamic milestone cards -->
                 </div>
-            </div>
+            </details>
 
             <!-- Collapsible Logistics Procurement Tenders Section -->
             <details id="tendersSection" class="tenders-accordion" style="display: none; margin-bottom: 25px; background: rgba(255, 215, 0, 0.02); border: 1px solid rgba(255, 215, 0, 0.15); border-radius: 12px; padding: 16px 20px; transition: all 0.25s ease;">
@@ -438,7 +441,7 @@
                 fact: "The Canadian International Trade Tribunal (CITT) administers the Special Import Measures Act (SIMA), establishing anti-dumping and countervailing duty injury thresholds and adjudicating federal procurement bid challenges under international trade agreements.",
                 source: "Canadian International Trade Tribunal",
                 pages: "SIMA Advisory",
-                url: "https://www.citt-tcce.gc.ca/en/home.html"
+                url: "https://www.citt-tcce.gc.ca/en"
             },
             {
                 id: 5,
@@ -446,7 +449,7 @@
                 fact: "Bill C-59 amendments to the Competition Act create a private right of action before the Competition Tribunal for unsubstantiated environmental claims, subjecting freight operators and manufacturers to penalties of up to 3% of global revenue for unverified supply chain ESG disclosures.",
                 source: "Competition Bureau Canada",
                 pages: "Bill C-59 Anti-Greenwashing Guidelines",
-                url: "https://ised-isde.canada.ca/site/competition-bureau-canada/en"
+                url: "https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/deceptive-marketing-practices-digest-volume-7"
             },
             {
                 id: 6,
@@ -462,7 +465,7 @@
                 fact: "The Special Economic Measures Act (SEMA) and Autonomous Sanctions Regulations enforce strict import and export prohibitions on sanctioned regimes (Russia, Iran, Belarus, North Korea) and target third-country transshipment evasion hubs in Central Asia, the Middle East, and Southeast Asia.",
                 source: "Global Affairs Canada",
                 pages: "SEMA Sanctions Registry",
-                url: "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/index.aspx"
+                url: "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/index.aspx?lang=eng"
             }
         ];
 
@@ -601,17 +604,22 @@
                 const url = item.url ? escapeHtml(item.url) : '#';
 
                 html += `
-                    <div class="milestone-card">
-                        <div>
-                            <span class="badge-anchor-cat">${category}</span>
-                            <h4>${title}</h4>
-                            <p>${fact}</p>
+                    <details class="milestone-card" open style="cursor: pointer;">
+                        <summary style="outline: none; user-select: none; list-style: none;">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px;">
+                                <span class="badge-anchor-cat">${category}</span>
+                                <span style="font-size: 11px; color: var(--text-muted);">▾</span>
+                            </div>
+                            <h4 style="margin: 8px 0 6px 0;">${title}</h4>
+                        </summary>
+                        <div style="margin-top: 6px;">
+                            <p style="font-size: 12.5px; line-height: 1.5; color: var(--text-secondary); margin: 0 0 12px 0;">${fact}</p>
+                            <div class="milestone-footer">
+                                <span class="milestone-source">🏛️ ${source}</span>
+                                ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener" class="milestone-link" onclick="event.stopPropagation();">Official Portal ↗</a>` : ''}
+                            </div>
                         </div>
-                        <div class="milestone-footer">
-                            <span class="milestone-source">🏛️ ${source}</span>
-                            ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener" class="milestone-link">Official Portal ↗</a>` : ''}
-                        </div>
-                    </div>
+                    </details>
                 `;
             });
 
