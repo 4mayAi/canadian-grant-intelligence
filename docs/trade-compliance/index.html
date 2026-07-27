@@ -384,6 +384,21 @@
     </div>
 
     <script>
+        function decodeHtml(html) {
+            if (!html) return '';
+            const txt = document.createElement('textarea');
+            txt.innerHTML = html;
+            return txt.value;
+        }
+
+        function escapeHtml(text) {
+            if (!text) return '';
+            const decoded = decodeHtml(text);
+            const d = document.createElement('div');
+            d.textContent = decoded;
+            return d.innerHTML;
+        }
+
         const TOPIC_ID = 'trade-compliance';
         const AZURE_CONTAINER_URL = 'https://canadiangrants.blob.core.windows.net/trade-compliance-data';
         const MANIFEST_AZURE = `${AZURE_CONTAINER_URL}/manifest.json`;
