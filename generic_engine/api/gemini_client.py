@@ -436,24 +436,25 @@ class GeminiClient:
         date_str = f"Today's Date: {current_date}\n\n" if current_date else ""
         url_cta = dashboard_url if dashboard_url else "https://4mayAi.github.io/canadian-grant-intelligence/clusters/"
         tender_str = f"\nToday's procurement & active tenders:\n{tender_context}\n" if tender_context else ""
-        headline_rule = f'- Open the post with this exact Hero Headline as line 1: "{hero_hook}"\n' if hero_hook else '- Open with a clear, engaging headline (MAX 12 words) with a relevant emoji at the start. Write in plain, active language that reads naturally on mobile screens, avoiding awkward punctuation or dense banking jargon.\n'
-        prompt = f"""You are a professional LinkedIn content strategist for a business intelligence brand called mayAi.
+        headline_rule = f'- Line 1 MUST be this exact headline: "{hero_hook}"\n' if hero_hook else '- Open with a clear, engaging headline (MAX 12 words) with a relevant emoji at the start. Write in plain, active language that reads naturally on mobile screens.\n'
+        prompt = f"""You are a senior financial editor for Bloomberg or Financial Times writing an executive briefing for mayAi.
         {self.system_instruction}
         
-        Write a single LinkedIn post (MAX 250 words) that summarizes today's updates. 
+        Write a single, tightly edited executive post (MAX 250 words) that connects today's updates into a fluid, cohesive narrative. 
  
         {date_str}Rules:
         {headline_rule}
-        - Ensure the very first paragraph after the opening headline directly addresses the lead topic of that headline.
-        - Explicitly mention the key entity, country, or organization name (e.g., Palestine, Angola, Bank of China, APAC) from each featured news highlight in its corresponding paragraph. Do not generalize specific geopolitical entities into generic terms.
-        - Bridge political/policy context with actionable business opportunities
-        - Highlight the 2-3 most impactful items from the news (and active tenders, if provided) below
-        - For each highlight, include ONE actionable sentence about who should pay attention and why
+        - Immediately follow Line 1 with a cohesive narrative. Do NOT write abstract introductory filler like "The global financial landscape is rapidly reconfiguring...".
+        - Weave the featured news highlights below into 3 cohesive, fluid paragraphs that connect the dots:
+          * Paragraph 1: Geopolitical friction and de-risking (explicitly naming entities like Palestine) and how it drives alternative clearing adoption (explicitly naming entities like Angola's BFA adopting China's CIPS).
+          * Paragraph 2: High-value technological infrastructure taking off (explicitly naming entities like Bank of China's mBridge DLT milestone and APAC real-time rails).
+          * Paragraph 3: Actionable corporate treasury takeaways (e.g. addressing fragmented payment stacks like PayDo via ISO 20022 orchestration).
+        - Explicitly name specific entities, countries, and institutions from the context in their respective paragraphs.
         - End with a call-to-action: "Full dashboard with filters and strategic analysis 👉 {url_cta}"
-        - Close with exactly 5 relevant hashtags on their own line
-        - Do NOT use bullet points for the main body. Use separate, short paragraphs for each highlight (i.e., one short paragraph per key event, separated by a blank line) to keep the text clean and readable.
-        - Tone: Authoritative but accessible (Bloomberg style).
-        - Factual Rigor: Only reference names, figures, and timeframes explicitly mentioned in the context below. Do not guess or assume the name of the Prime Minister. Do not guess dates or dollar amounts unless supported by the source text. Do not fabricate hashtags for organizations not mentioned.
+        - Close with exactly 5 relevant hashtags on their own line.
+        - Do NOT use bullet points or disconnected one-line statements.
+        - Tone: Authoritative, crisp, Financial Times / Bloomberg executive style.
+        - Factual Rigor: Only reference names, figures, and timeframes explicitly mentioned in the context below.
         
         You MUST respond with a raw JSON object and nothing else.
         Format:
