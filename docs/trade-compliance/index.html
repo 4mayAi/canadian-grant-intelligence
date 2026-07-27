@@ -543,6 +543,25 @@
             }
         }
 
+        function sanitizeAnchorUrls(list) {
+            if (!Array.isArray(list) || list.length === 0) return DEFAULT_TRADE_ANCHORS;
+            const canonicalMap = {
+                1: "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/cusma-aceum/index.aspx?lang=eng",
+                2: "https://www.publicsafety.gc.ca/cnt/cntrng-crm/index-en.aspx",
+                3: "https://www.cbsa-asfc.gc.ca/services/carm-gcra/menu-eng.html",
+                4: "https://www.citt-tcce.gc.ca/en",
+                5: "https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/deceptive-marketing-practices-digest-volume-7",
+                6: "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/index-en.aspx",
+                7: "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/index.aspx?lang=eng"
+            };
+            return list.map(item => {
+                if (item.id && canonicalMap[item.id]) {
+                    return { ...item, url: canonicalMap[item.id] };
+                }
+                return item;
+            });
+        }
+
         async function loadAnchors() {
             try {
                 const azureUrl = `${AZURE_CONTAINER_URL}/trade_anchors.json`;
@@ -572,7 +591,14 @@
                     data = await res.json();
                 }
 
-                renderMilestones(data || DEFAULT_TRADE_ANCHORS);
+                let list = [];
+                if (Array.isArray(data)) {
+                    list = data;
+                } else if (data && typeof data === 'object') {
+                    list = data.TradeCompliance || data.anchors || Object.values(data).find(val => Array.isArray(val)) || [];
+                }
+
+                renderMilestones(sanitizeAnchorUrls(list));
             } catch (e) {
                 console.warn("Failed to load anchors database, rendering inlined fail-safe payload:", e);
                 renderMilestones(DEFAULT_TRADE_ANCHORS);
