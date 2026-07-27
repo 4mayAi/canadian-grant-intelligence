@@ -1,7 +1,71 @@
 {
-  "generated_at": "2026-07-26T15:05:18.090395Z",
-  "linkedin_post": "🇨🇦 Canada’s new sovereign defence and space tech opportunities heat up\n\nThe Government of Canada has launched the Defence Drone Initiative to accelerate autonomous systems for the CAF and CCG, creating fast-track pathways on CanadaBuys. Robotics, AI, and sensor SMEs should target this immediately to provide downstream analytics adapters and secondary telemetry processing subcontracts.\n\n[MDA Space](https://mda.space/) secured an OHB System AG contract for ESA's Argonaut lunar landing sensors, utilizing LEIA LiDAR. Embedded software developers and validation firms should offer safety-critical sensor verification and algorithm auditing to support these low-latency environments.\n\nCrucial national space tenders like the Martian Atmospheric Gas Evolution Experiment (MAGE ICOS) and the FTS-ADCI spectrometer are closing tomorrow on July 27, 2026. Aerospace research labs and advanced optics developers must submit bids rapidly to capture these high-value projects.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n\n#SovereignAI #DefenceTech #SpaceSector #GovCon #MayAi\n\n### Featured News & Sources\n- [Inside the private Muskoka conference that lures Canada’s movers and shakers – including Mark Carney - The Globe and Mail](https://www.theglobeandmail.com/business/article-davos-on-the-dock/) (CanTech AI Ecosystem)\n- [U.S. says it supports Canada’s sovereign AI goals, wants more partnership - Global News](https://globalnews.ca/news/11987965/ai-policy-strategy-us-embassy-canada/) (DIGITAL Ecosystem)\n- [Government of Canada launches Defence Drone Initiative to strengthen Canada’s sovereign defence capabilities - canada.ca](https://www.canada.ca/en/department-national-defence/news/2026/07/government-of-canada-launches-defence-drone-initiative-to-strengthen-canadas-sovereign-defence-capabilities.html) (NGen Federal)\n- [MDA Space announces new contract from OHB System AG for advanced lunar landing sensors - Canadian Manufacturing](https://www.canadianmanufacturing.com/manufacturing/mda-space-announces-new-contract-from-ohb-system-ag-for-advanced-lunar-landing-sensors-320323/) (SpaceDef CSA)\n- [26-58113 Universal Testing Machine with non-contact Extensometer for polymer research](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-733-25647240) (Protein Industries Canada CanadaBuys)\n",
+  "generated_at": "2026-07-27T15:05:31.486815Z",
+  "linkedin_post": "🇨🇦 Sovereign Tech Shift: Inside Canada's New Defense and Space Push\n\nThe Government of Canada has launched the Defence Drone Initiative (DDI) to fast-track sovereign autonomous systems and tactical drones for the CAF and CCG under a new CanadaBuys RFSA. Autonomous systems developers and sensor manufacturers should act now to secure downstream subcontracting integration roles with global defense primes.\n\nSimultaneously, [MDA Space](https://mda.space/) secured a critical contract from OHB System AG to provide LEIA LiDAR lunar landing sensors for the ESA’s Argonaut mission. Specialized software firms focusing on 3D-point cloud processing should target this milestone to offer secondary telemetry validation and safety-critical compliance auditing.\n\nOn the immediate procurement front, national-level aerospace tenders like the Martian Atmospheric Gas Evolution Experiment (MAGE ICOS) close today, highlighting a sustained federal appetite for sophisticated telemetry hardware. Tech firms specializing in localized data layers must move quickly to support prime contractors bidding on these complex scientific payloads.\n\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n\n#GovTech #Aerospace #DefenceTech #SovereignAI #mayAi\n\n### Featured News & Sources\n- [Inside the private Muskoka conference that lures Canada’s movers and shakers – including Mark Carney - The Globe and Mail](https://www.theglobeandmail.com/business/article-davos-on-the-dock/) (CanTech AI Ecosystem)\n- [U.S. says it supports Canada’s sovereign AI goals, wants more partnership - Global News](https://globalnews.ca/news/11987965/ai-policy-strategy-us-embassy-canada/) (DIGITAL Ecosystem)\n- [Government of Canada launches Defence Drone Initiative to strengthen Canada’s sovereign defence capabilities - canada.ca](https://www.canada.ca/en/department-national-defence/news/2026/07/government-of-canada-launches-defence-drone-initiative-to-strengthen-canadas-sovereign-defence-capabilities.html) (NGen Federal)\n- [MDA Space announces new contract from OHB System AG for advanced lunar landing sensors - Canadian Manufacturing](https://www.canadianmanufacturing.com/manufacturing/mda-space-announces-new-contract-from-ohb-system-ag-for-advanced-lunar-landing-sensors-320323/) (SpaceDef CSA)\n- [Application Services and Business Services](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-477-73588981) (Protein Industries Canada CanadaBuys)\n",
   "insights": [
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "Application Services and Business Services",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-477-73588981",
+      "date": "2026-07-27T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Insight generation failed or blocked: Unknown reason",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-11T00:00:00Z",
+      "province": "NCR (Ottawa/Gatineau)",
+      "province_abbrev": "NCR",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "IMTD requires additional resources to assist with the delivery and support of existing and upcoming projects leveraging various technologies. These resources will supplement existing staff to ensure that new and existing IM/IT projects or initiatives adhere to the established project management and delivery processes that have been developed to provide for the efficient and effective management and delivery of IM/IT products or services to TBS clients. Bidders must submit a bid for the identifie...",
+      "type": "New",
+      "organization": "Treasury Board (TBS)",
+      "solicitation_number": "24062-27-020",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "Software as a Service (SaaS) - Case Management System - Office of the Federal Ombudsperson for Victims of Crime (OFOVC)",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-766-58483371",
+      "date": "2026-07-27T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "",
+        "strategic_value": "Insight generation failed or blocked: Unknown reason",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-09-09T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "The Department of Justice Canada (JUS) has a requirement for a Software as a Service (SaaS) platform and associated services (via the issuance of Task Authorizations) to support case management of files enabling robust reporting and data analysis. This solution is required to effectively manage case files, increase capacity for trend analysis and support systemic reviews.The case management solution must be bilingual, respect Government of Canada accessibility and security requirements, be user ...",
+      "type": "New",
+      "organization": "Department of Justice (JUS)",
+      "solicitation_number": "1000036932",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade Agreement",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
     {
       "source": "CanTech_AI_Ecosystem",
       "title": "Inside the private Muskoka conference that lures Canada’s movers and shakers – including Mark Carney - The Globe and Mail",
@@ -105,46 +169,8 @@
       "notice_type": "RFP against Supply Arrangement",
       "procurement_method": "Competitive - Selective tendering",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)",
+      "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)",
       "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-    },
-    {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "Heavy Duty Mechanic Services, AAFC, Lacombe Research and Development Centre",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-899-75634138",
-      "date": "2026-07-24T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🔧 Keeping Canada's agricultural research fleet running: AAFC Lacombe is seeking heavy-duty mechanic services to support crop trial machinery!",
-        "strategic_value": "* Agriculture and Agri-Food Canada's Lacombe R&D Centre is procuring heavy-duty mechanic services on an \"as and when required\" basis to maintain its specialized agricultural fleet. Ensuring the operational uptime of this fleet directly supports public-sector field trials, which are critical for validating new crop varieties and regional agricultural inputs.\n* Contractors must demonstrate competence with specialized ag-machinery standards, including complex electro-hydraulic systems, CAN bus (ISOBUS) networks, and GPS auto-steer systems, aligning with ISO 12100 mechanical standards and Tier 4 emissions protocols.\n* **Consulting Pivot:** Propose a B2B engagement strategy focusing on custom telemetry and secondary predictive maintenance analytics adapters for agricultural research fleets. Instead of competing for general mechanical maintenance contracts, METS providers can offer downstream diagnostics and localized IoT sensor integration to track vehicle performance data during plant protein trial harvesting, supporting Fact 500's supply chain goals.",
-        "co_bidding_opportunity": "Under a Downstream Pivot model, a consortium can form between a heavy-duty mechanical prime contractor, a localized IoT sensor SME, and a telemetry data analytics provider to offer a turnkey, smart maintenance and diagnostics solution for the AAFC Lacombe research fleet.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "Ensuring the physical operational readiness of the AAFC Lacombe research fleet supports field trials for new crop varieties, which are essential to Protein Industries Canada's goal of bolstering domestic processing capacity and diversifying agricultural inputs.",
-        "grounded_fact_ids": [
-          500
-        ],
-        "anchor_reference": {
-          "source_name": "PIC Supply Chain Program Guide 2025",
-          "page_range": "Page 2",
-          "url": "https://www.proteinindustriescanada.ca/supply-chain"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-24T00:00:00Z",
-      "province": "Multiple Provinces",
-      "province_abbrev": "MULT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "Reissue of Solicitation of Offers. This solicitation of offers cancels and supersedes previous solicitation of offers number WSC-2526-193 dated April 30, 2026 with a closing of June 9, 2026 at 11:00 AM CST.DescriptionThe Department of Agriculture and Agri Food Canada (AAFC), Lacombe Research and Development Centre at 6000 C and E Trail, Lacombe, Alberta, requires a Contractor to provide Heavy Duty Mechanic Service on an “as and when required” basis.This bid solicitation is to establish a contrac...",
-      "type": "Open",
-      "organization": "Department of Agriculture and Agri-Food (AAFC)",
-      "solicitation_number": "WSC-2627-082",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Variations or combinations of the above methods",
-      "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade Agreement",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "NGen_Federal_News",
@@ -241,44 +267,6 @@
         "export_risk_advisory": null,
         "macro_sector_trend": null
       }
-    },
-    {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "NPP- TBIPS RFP i3A Technical Expertise",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-536-29463078",
-      "date": "2026-07-23T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🤖 Agriculture Canada is seeking AI/ML/LLM/RPA expertise for innovation! This massive digital transformation signals a push for advanced automation across the agri-food sector. Are you ready to accelerate Canada's agricultural future? #AICanada #AgriFoodTech #DigitalTransformation",
-        "strategic_value": "• The Government of Canada, through AAFC, is making a significant investment in AI, Machine Learning, Large Language Models, and Robotic Process Automation (RPA) to drive innovation and automation across the agricultural sector. This initiative aims to modernize operations and enhance digital capabilities, reflecting a broader policy push to strengthen Canadian industries and supply chains.\n• The core technological target involves the implementation and integration of advanced AI/ML/LLM/RPA software stacks, robust UI/UX design for AI applications, and adherence to cutting-edge DevOps practices (e.g., CI/CD pipelines, containerization standards like Docker/Kubernetes, cloud platforms like Azure/AWS) to support AAFC's innovation roadmap.\n• **Consulting Pivot:** For non-Supply Arrangement holders, the strategic pivot involves offering specialized downstream services to the primary SA contractor or directly to AAFC (if allowed as a niche expert). This could include developing localized data layers for specific agricultural regions, creating custom analytics adapters for processing diverse agri-food datasets, or providing secondary telemetry processing for sensor data collected in smart farming initiatives, thereby enhancing the value and utility of AAFC's AI investments.",
-        "co_bidding_opportunity": "This is a selective tendering process open only to pre-qualified TBIPS Supply Arrangement Holders. For firms not on the SA, the opportunity lies in partnering as a subcontractor with one of the 15 invited SA holders. Required partner roles could include specialized \"AI/ML developer,\" \"DevOps engineer,\" \"data scientist (agricultural applications),\" or \"AI UI/UX specialist.\"",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This procurement for AI and automation expertise at Agriculture and Agri-Food Canada will enhance digital infrastructure and data processing capabilities across the agricultural sector. This directly supports the long-term goal of 'Strengthening the Canadian Supply Chain' for agricultural inputs (Fact ID 500) by improving efficiency, innovation, and domestic processing capacity within Canada's agri-food industry.",
-        "grounded_fact_ids": [
-          500
-        ],
-        "anchor_reference": {
-          "source_name": "PIC Supply Chain Program Guide 2025",
-          "page_range": "Page 2",
-          "url": "https://www.proteinindustriescanada.ca/supply-chain"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-06T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)For TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS)UNSPSC: 8111000 Computer Services \t\tReference Number:\tCSC-2627-0272\tSolicitation Number:\tCSC-2627-0272Organization Name:\tAgriculture and Agri-Food CanadaSolicitation Date:\t2026-07-23\tClosing Date:  \t2026-08-06 (14:00PM ET) Anticipated Start Date:\tAs soon as possible\t\tEstimated Delivery Date:\t2029-10-31\tEstimate Level of Effort: \t “As Required”Contract Duration:\tThe contract period will be from date of con...",
-      "type": "New",
-      "organization": "Department of Agriculture and Agri-Food (AAFC)",
-      "solicitation_number": "CSC-2627-0272",
-      "notice_type": "RFP against Supply Arrangement",
-      "procurement_method": "Competitive - Selective tendering",
-      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)North American Free Trade Agreement (NAFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)",
-      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
     },
     {
       "source": "CanTech_BetaKit",
