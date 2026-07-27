@@ -429,19 +429,22 @@ class GeminiClient:
         news_summaries: str, 
         current_date: str = "", 
         dashboard_url: str = "",
-        tender_context: Optional[str] = None
+        tender_context: Optional[str] = None,
+        hero_hook: Optional[str] = None
     ) -> Optional[Dict[str, str]]:
         """Generates LinkedIn summary post in JSON format."""
         date_str = f"Today's Date: {current_date}\n\n" if current_date else ""
         url_cta = dashboard_url if dashboard_url else "https://4mayAi.github.io/canadian-grant-intelligence/clusters/"
         tender_str = f"\nToday's procurement & active tenders:\n{tender_context}\n" if tender_context else ""
+        headline_rule = f'- Open the post with this exact Hero Headline as line 1: "{hero_hook}"\n' if hero_hook else '- Open with a clear, engaging headline (MAX 12 words) with a relevant emoji at the start. Write in plain, active language that reads naturally on mobile screens, avoiding awkward punctuation or dense banking jargon.\n'
         prompt = f"""You are a professional LinkedIn content strategist for a business intelligence brand called mayAi.
         {self.system_instruction}
         
         Write a single LinkedIn post (MAX 250 words) that summarizes today's updates. 
  
         {date_str}Rules:
-        - Open with a clear, engaging headline (MAX 12 words) with a relevant emoji at the start. Write in plain, active language that reads naturally on mobile screens, avoiding awkward punctuation or dense banking jargon.
+        {headline_rule}
+        - Ensure the very first paragraph after the opening headline directly addresses the lead topic of that headline.
         - Bridge political/policy context with actionable business opportunities
         - Highlight the 2-3 most impactful items from the news (and active tenders, if provided) below
         - For each highlight, include ONE actionable sentence about who should pay attention and why

@@ -973,7 +973,8 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
             summaries_str, 
             current_date=today_str, 
             dashboard_url=config.dashboard_url,
-            tender_context=tender_context
+            tender_context=tender_context,
+            hero_hook=kpis.get("hero_hook")
         )
         suggested_post = linkedin_post.get("article_content", "No post text compiled.") if linkedin_post else ""
 
