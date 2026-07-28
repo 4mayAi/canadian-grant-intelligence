@@ -437,19 +437,20 @@ class GeminiClient:
         url_cta = dashboard_url if dashboard_url else "https://4mayAi.github.io/canadian-grant-intelligence/clusters/"
         tender_str = f"\nToday's procurement & active tenders:\n{tender_context}\n" if tender_context else ""
         headline_rule = f'- Line 1 MUST be this exact headline: "{hero_hook}"\n' if hero_hook else '- Open with a clear, engaging headline (MAX 12 words) with a relevant emoji at the start. Write in plain, active language that reads naturally on mobile screens.\n'
-        prompt = f"""You are a senior financial editor for Bloomberg or Financial Times writing an executive briefing for mayAi.
+        prompt = f"""You are a senior editor and executive intelligence advisor writing a daily briefing for mayAi.
         {self.system_instruction}
         
         Write a single, tightly edited executive post (MAX 250 words) that connects today's updates into a fluid, cohesive narrative. 
  
         {date_str}Rules:
         {headline_rule}
-        - Immediately follow Line 1 with a cohesive narrative. Do NOT write abstract introductory filler like "The global financial landscape is rapidly reconfiguring...".
-        - Weave the featured news highlights below into 3 cohesive, fluid paragraphs that connect the dots:
-          * Paragraph 1: Geopolitical friction and de-risking (explicitly naming entities like Palestine) and how it drives alternative clearing adoption (explicitly naming entities like Angola's BFA adopting China's CIPS).
-          * Paragraph 2: High-value technological infrastructure taking off (explicitly naming entities like Bank of China's mBridge DLT milestone and APAC real-time rails).
-          * Paragraph 3: Actionable corporate treasury takeaways (e.g. addressing fragmented payment stacks like PayDo via ISO 20022 orchestration).
-        - Explicitly name specific entities, countries, and institutions from the context in their respective paragraphs.
+        - Immediately follow Line 1 with a cohesive narrative. Do NOT write abstract introductory filler like "The global landscape is rapidly reconfiguring...".
+        - Weave the featured highlights provided in the context below into 3 cohesive, fluid paragraphs that connect the dots:
+          * Paragraph 1: Key policy, geopolitical, macro, or regulatory developments driving today's updates.
+          * Paragraph 2: Technological, infrastructure, operational, or market milestones taking shape.
+          * Paragraph 3: Actionable enterprise, institutional, or industry takeaways and strategic next steps.
+        - Strictly use ONLY the entities, organization names, countries, project names, and figures provided in today's highlights below. Do NOT introduce external or unrelated entities.
+        - Explicitly name the specific entities, organizations, and projects from today's highlights in their respective paragraphs.
         - End with a call-to-action: "Full dashboard with filters and strategic analysis 👉 {url_cta}"
         - Close with exactly 5 relevant hashtags on their own line.
         - Do NOT use bullet points or disconnected one-line statements.
