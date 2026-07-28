@@ -289,7 +289,7 @@
     "category": "SRV",
     "category_label": "Services",
     "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)For TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS)UNSPSC: 8111000 Computer Services \t\tReference Number:\tCSC-2627-0272\tSolicitation Number:\tCSC-2627-0272Organization Name:\tAgriculture and Agri-Food CanadaSolicitation Date:\t2026-07-23\tClosing Date:  \t2026-08-06 (14:00PM ET) Anticipated Start Date:\tAs soon as possible\t\tEstimated Delivery Date:\t2029-10-31\tEstimate Level of Effort: \t “As Required”Contract Duration:\tThe contract period will be from date of con...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of Agriculture and Agri-Food (AAFC)",
     "solicitation_number": "CSC-2627-0272",
     "notice_type": "RFP against Supply Arrangement",
@@ -505,7 +505,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)",
+    "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   },
   {
