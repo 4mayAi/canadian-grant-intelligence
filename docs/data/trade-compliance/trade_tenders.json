@@ -72,7 +72,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)",
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   },
   {
@@ -111,7 +111,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Variations or combinations of the above methods",
-    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)",
+    "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   },
   {
@@ -4262,6 +4262,187 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
     "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Application Services and Business Services",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-477-73588981",
+    "date": "2026-07-27T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Navigating Canada's complex IM/IT procurement landscape? 🇨🇦",
+      "strategic_value": "* Project delivery slippage or non-compliance with new federal procurement benchmarks can trigger operational audits, leading to effective revenue loss through potential contract termination and associated re-tendering costs.\n* Execute a 'Prime-Tracking' strategy by mapping your firm's technical deliverables directly to the TBS project management process mandates, ensuring seamless integration into the prime contractor’s existing SOW hierarchy.\n* **Consulting Pivot:** Propose a 'Compliance-as-a-Service' retainer ($15k-$25k/month) to manage sub-tier reporting, ensuring your firm's technical documentation meets the government's stringent project management transparency requirements.",
+      "co_bidding_opportunity": "Identify and align with existing Supply Arrangement holders for IM/IT professional services; prioritize forming consortiums with firms already pre-qualified under the TBIPS or TSPS frameworks to ensure direct qualification for subcontract roles.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "Connects IT project delivery to federal compliance standards, necessitating rigorous management of contractual obligations within the Buy Canadian framework.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-11T00:00:00Z",
+    "province": "NCR (Ottawa/Gatineau)",
+    "province_abbrev": "NCR",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "IMTD requires additional resources to assist with the delivery and support of existing and upcoming projects leveraging various technologies. These resources will supplement existing staff to ensure that new and existing IM/IT projects or initiatives adhere to the established project management and delivery processes that have been developed to provide for the efficient and effective management and delivery of IM/IT products or services to TBS clients. Bidders must submit a bid for the identifie...",
+    "type": "New",
+    "organization": "Treasury Board (TBS)",
+    "solicitation_number": "24062-27-020",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Signal Distress Day & Night No.1 Mk5",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-721-26520686",
+    "date": "2026-07-27T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Supply chain resilience meets mission-critical maritime safety. 🚢",
+      "strategic_value": "* Failure to meet technical specifications under the Controlled Goods Program can lead to total contract disqualification, locking suppliers out of future defense-industrial base opportunities valued at seven figures.\n* Implement strict chain-of-custody protocols for pyrotechnic hazardous materials, utilizing secure, bonded transit warehousing to maintain integrity from manufacturing origin to CFAD delivery points.\n* **Consulting Pivot:** Pitch a 'Controlled Goods Regulatory Audit' for your supply chain partners, priced at $10k per review, to certify that all sourcing complies with the reverse-onus evidentiary standards established by recent import prohibition frameworks.",
+      "co_bidding_opportunity": "Partner with registered Controlled Goods Program (CGP) manufacturers and logistics providers specializing in hazardous, high-reliability military cargo to ensure full regulatory alignment.",
+      "mets_category": "Border Compliance & Tariffs",
+      "mets_rationalization": "This procurement directly intersects with controlled goods and high-risk cargo regulations, requiring compliance with strict origin and transit protocols.",
+      "grounded_fact_ids": [
+        2,
+        3,
+        6
+      ],
+      "anchor_reference": {
+        "source_name": "Public Safety Canada",
+        "page_range": "Bill C-35 Legislation",
+        "url": "https://www.publicsafety.gc.ca/cnt/cntrng-crm/index-en.aspx"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-10T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "NOTICE OF PROPOSED PROCUREMENTCanada has a requirement for the items detailed below:GSIN: N1370 – PyrotechnicsUNSPSC: 46101600 –AmmunitionDescription: Signal Distress Day & Night No.1 Mk5A requirement exists to resupply Canada with the Signal Distress Day & Night No.1 Mk5. The Signal Distress Day & Night No.1 Mk5 uses survival signals for alerting potential rescuers of the position of an individual in distress. The waterproof tubular canister contains a flare at one end and a smoke signal on the...",
+    "type": "New",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8703-270013/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Installation and Configuration Services for IT Infrastructure Equipment",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-988-32958014",
+    "date": "2026-07-27T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Montreal’s tech infrastructure is scaling—is your compliance strategy keeping pace? 🏗️",
+      "strategic_value": "* Substandard installation or failure to meet technical service SLAs risks liquidating performance bonds, often resulting in 10-20% contract value penalties and exclusion from the federal contractor list.\n* Deploy pre-site audit protocols and verify hardware telemetry against Bill C-26 cybersecurity standards to ensure the IT infrastructure is 'cyber-hardened' prior to final client handover.\n* **Consulting Pivot:** Offer a 'Federal IT Infrastructure Compliance Certification' service at $12k per project, validating that all equipment and labor meet the mandatory federal cybersecurity and installation standards.",
+      "co_bidding_opportunity": "Seek partnership with established IT systems integrators and licensed electrical/infrastructure contractors operating within the Quebec region to bolster the bid's technical scope.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "IT infrastructure deployment is now subject to heightened cybersecurity reporting mandates under critical infrastructure protections.",
+      "grounded_fact_ids": [
+        6
+      ],
+      "anchor_reference": {
+        "source_name": "Public Safety Canada / Transport Canada",
+        "page_range": "Bill C-26 Critical Infrastructure Protection",
+        "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/index-en.aspx"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-24T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "The purpose of this Request for Proposal (RFP) is to obtain professional services for the installation of IT equipment at the Montreal location. The Contractor will be responsible for providing all necessary labour, technical expertise, and support required to complete the installation in accordance with the requirements outlined in the Statement of Work.",
+    "type": "New",
+    "organization": "Courts Administration Service (CAS)",
+    "solicitation_number": "5X001-26-0200",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "",
+    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Request for Quotation (RFQ) F2934-262109 for the purchase of IntelliJ IDEA Ultimate Subscription Licenses",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/WS5795549926-Doc5802609772",
+    "date": "2026-07-27T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Streamlining procurement: The reality of software compliance in the federal space. 💻",
+      "strategic_value": "* Mismanaging license compliance or failing to provide transparent pricing in SAP Ariba results in immediate non-responsive bid status, effectively forfeiting current and future software contract revenue.\n* Utilize pre-vetted Supply Arrangement (SA) channels to automate the 'Request for Quotation' response process, ensuring your bid architecture aligns with the specific procurement language required by Fisheries and Oceans Canada.\n* **Consulting Pivot:** Act as a 'Supply Arrangement Conduit' for software vendors, charging a 5-8% commission to manage the bid response workflow and ensure adherence to federal procurement audit trails.",
+      "co_bidding_opportunity": "Partner with existing Public Services and Procurement Canada (PSPC) pre-qualified software resellers or MSPs to leverage their standing Supply Arrangement status for this procurement.",
+      "mets_category": "Border Compliance & Tariffs",
+      "mets_rationalization": "This highlights the shift toward centralized digital procurement systems where compliance with SAP Ariba and SA frameworks is mandatory for contract participation.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-11T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "On behalf of Fisheries and Oceans Canada, Public Services and Procurement Canada (PSPC) is issuing the noted Request for Quotation (RFQ) F2934-262109 for the purchase of IntelliJ IDEA Ultimate Subscription License. All prices quoted in the RFQ must be provided in CAD and through SAP Ariba or Email to tanzim.haque-quader@tpsgc-pwgsc.gc.ca All Bid submissions must be received no later than August 11, 2026 @ 2:00PM EST.  Failure to respond by this date and time will deem your company non-compliant....",
+    "type": "New",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5795549926",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "F7049-260000 – RFP – CCGH Siyay VLE",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110020010?anId=ANONYMOUS",
+    "date": "2026-07-27T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Navigating heavy marine repairs: Precision is the only option. 🌊",
+      "strategic_value": "* Dry-docking and life-extension projects face high risk of 'scope-creep' related penalties; failing to document materials usage according to CUSMA steel origin standards can lead to severe cost overruns and potential litigation.\n* Establish a 'Material Traceability Dossier' for all steel and marine-grade components, documenting melt-and-pour origin to satisfy both the SOW and potential trade agreement audits.\n* **Consulting Pivot:** Pitch an 'Industrial Compliance Oversight' service for marine contractors at a $50k-$75k fee, ensuring all maintenance and alteration activities meet the stringent environmental and trade reporting requirements of the CCGH program.",
+      "co_bidding_opportunity": "Form a consortium with specialized marine engineering firms and certified metal fabrication partners that hold existing CUSMA-compliant supply chain certifications.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "Marine vessel life extensions implicate critical trade-remedy and origin-of-materials compliance regarding industrial steel procurement.",
+      "grounded_fact_ids": [
+        1,
+        4
+      ],
+      "anchor_reference": {
+        "source_name": "Global Affairs Canada",
+        "page_range": "CUSMA 2026 Joint Review Notice",
+        "url": "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/cusma-aceum/index.aspx?lang=eng"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-01T00:00:00Z",
+    "province": "British Columbia",
+    "province_abbrev": "BC",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "AMENDMENT TO CLOSING TIME: Please disregard the SAP Business Network posting response closing time and CanadaBuys posting closing time. Unless specified otherwise in the tender opportunity, all required supporting documentation and responses must be submitted by September 1, 2026 at 2pm EST. All responses submitted after 2pm EST will result in the submission being declared non-responsive.Requirement:  For the contractor to carry out the Vessel Life Extension (VLE) dry-docking, alongside, inspect...",
+    "type": "New",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5806010240",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   }
 ]
