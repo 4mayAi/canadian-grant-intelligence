@@ -112,5 +112,22 @@ Name:
 Rule:
     Before overwriting or pivoting from an active implementation plan (specifically `implementation_plan.md` in the agent's brain directory) to a new objective within the same repository, the agent MUST first archive the current plan under `docs/plans/` using the naming convention `plan_YYYY-MM-DD_short_description.md` (UTC date). Additionally, the agent must register the postponed/archived plan and its tasks in the centralized backlog registry `docs/plans/backlog.md` to ensure future agents can track and retrieve the postponed work.
 
+---
 
+Name:
+    Live Dashboard End-to-End Browser DOM Verification Rule
+Rule:
+    Whenever modifying, debugging, or fixing user-facing web dashboard interfaces, links, or client-rendered data in this repository:
+    1. Do NOT declare success based solely on backend Python scripts or static file edits.
+    2. You MUST execute an End-to-End (E2E) headless browser DOM extraction using Playwright Chromium (via `c:\dev\canadian-grant-intelligence\.venv_new\Scripts\python.exe`) on the live published URL (or local dev server).
+    3. Verify that the actual rendered DOM attributes (`href`, text content, layout visibility) match expectations AFTER all asynchronous JavaScript network requests and CDN fetches have fully resolved.
 
+---
+
+Name:
+    Azure Storage Static Anchor CDN Sync Rule
+Rule:
+    Whenever updating statutory trade anchor configurations or baseline URLs in `configs/trade_anchors.json`:
+    1. You MUST also synchronize and overwrite the updated file to Azure Blob Storage using `az storage blob upload`:
+       `az storage blob upload --account-name canadiangrants --container-name trade-compliance-data --name trade_anchors.json --file configs/trade_anchors.json --overwrite true --auth-mode key`
+    2. Verify via a network GET request that the Azure Blob CDN URL returns the updated JSON payload before notifying the user.
