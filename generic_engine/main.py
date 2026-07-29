@@ -456,6 +456,12 @@ def fetch_and_process_news(
                     skip_kw = True
 
             text_to_search = (item.get("title", "") + " " + item.get("text_to_search", "")).lower()
+            neg_keywords = getattr(config, 'negative_keywords', []) or []
+            if neg_keywords and matches_keywords(text_to_search, neg_keywords):
+                logging.info(f"Discarding item due to negative keyword match: {item.get('title')}")
+                processed_urls.add(link)
+                continue
+
             if skip_kw or "youtube.com/watch" in link or "youtu.be/" in link or matches_keywords(text_to_search, config.keywords):
                 unprocessed_items.append(item)
             else:

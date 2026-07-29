@@ -102,6 +102,18 @@
     "contract", "contracts", "procurement", "export", "exports",
     "MOU", "MOUs", "satellite", "radar", "infrastructure", "food security"
   ],
+  "negative_keywords": [
+    "electrical wire",
+    "electrical wiring",
+    "wire",
+    "wires",
+    "cabling",
+    "janitorial",
+    "plumbing",
+    "office supplies",
+    "roofing",
+    "fencing"
+  ],
   "localization_mappings": {
     "Protein Industries Canada": "[Protein Industries Canada](https://www.proteinindustriescanada.ca/)",
     "Protein Industries": "[Protein Industries](https://www.proteinindustriescanada.ca/)",
