@@ -100,12 +100,27 @@ def load_and_validate_config(config_path: Optional[str] = None, config_url: Opti
 
 def clean_source_display_name(source_name: str) -> str:
     """Standardizes feed source names for presentation in KPIs and LinkedIn posts."""
-    # 1. Strip news suffix and replace underscores
-    display_src = source_name.replace('_News', '').replace('_', ' ')
+    # Direct overrides for generic sub-feeds to prevent cluster namespace leakage
+    if 'CanadaBuys' in source_name:
+        return 'CanadaBuys / MERX'
+    if 'FoodSecurity' in source_name:
+        return 'Food Security Digest'
+    if source_name == 'CanTech_Federal_AI':
+        return 'Federal AI & Quantum'
+    if source_name == 'SpaceDef_CSA':
+        return 'Canadian Space Agency'
+    
+    # 1. Strip common sub-feed suffixes and replace underscores
+    display_src = source_name
+    for suffix in ['_Federal_News', '_Ecosystem_News', '_AgriFood_Federal', '_News', '_Federal']:
+        display_src = display_src.replace(suffix, '')
+    display_src = display_src.replace('_', ' ')
     
     # 2. Apply display overrides
     display_src = display_src.replace('ScaleAI', 'Scale AI')
     display_src = display_src.replace('ProteinIndustries', 'Protein Industries Canada')
+    display_src = display_src.replace('CanTech', 'Canadian Tech')
+    display_src = display_src.replace('SpaceDef', 'Space & Defence')
     
     # 3. Clean up Cluster suffix (ensure space before Supercluster)
     if 'Cluster' in display_src and 'Supercluster' not in display_src:
@@ -503,6 +518,7 @@ def fetch_and_process_news(
 
     # Group unprocessed items by hub to prevent context contamination
     source_hubs = {src.name: (src.hub if src.hub else get_hub_from_source(src.name)) for src in config.sources}
+    source_skip_anchor = {src.name: getattr(src, 'skip_anchor_injection', False) for src in config.sources}
     items_by_hub = {}
     for item in unprocessed_items:
         hub = source_hubs.get(item['source']) or get_hub_from_source(item['source'])
@@ -547,9 +563,10 @@ def fetch_and_process_news(
                 contents.append(base)
             
             today_str = datetime.utcnow().strftime("%B %d, %Y")
+            effective_anchor = None if any(source_skip_anchor.get(item['source'], False) for item in batch) else anchor_context
             insight_models = gemini_client.get_gemini_insights_batch(
                 contents,
-                anchor_context=anchor_context,
+                anchor_context=effective_anchor,
                 current_date=today_str
             )
             
@@ -981,7 +998,7 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         # Post-process: Automatically hyperlink names in the body (using lookarounds to prevent double-wrapping)
         hyperlinks = config.localization_mappings
         for name, link in hyperlinks.items():
-            pattern = re.compile(rf'(?<!\[){re.escape(name)}(?!\])')
+            pattern = re.compile(rf'(?<!\[)\b{re.escape(name)}\b(?![\]\(])')
             suggested_post = pattern.sub(link, suggested_post)
 
         # Append source references for clean tracking

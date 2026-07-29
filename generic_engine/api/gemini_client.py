@@ -445,17 +445,17 @@ class GeminiClient:
         {date_str}Rules:
         {headline_rule}
         - Immediately follow Line 1 with a cohesive narrative. Do NOT write abstract introductory filler like "The global landscape is rapidly reconfiguring...".
-        - Weave the featured highlights provided in the context below into 3 cohesive, fluid paragraphs that connect the dots:
+        - Anti-Echo Constraint: NEVER echo or repeat prompt structural titles or generic placeholder starter phrases such as "Canada's innovation agenda is driven by strategic policy", "Technological milestones are taking shape", or "Enterprises should pursue strategic B2B engagement". Open every paragraph directly with specific dates, organization names, policy initiatives, or macroeconomic facts.
+        - Weave the featured highlights provided in the context below into 3 cohesive, fluid paragraphs that connect the dots naturally:
           * Paragraph 1: Key policy, geopolitical, macro, or regulatory developments driving today's updates.
           * Paragraph 2: Technological, infrastructure, operational, or market milestones taking shape.
           * Paragraph 3: Actionable enterprise, institutional, or industry takeaways and strategic next steps.
         - Strictly use ONLY the entities, organization names, countries, project names, and figures provided in today's highlights below. Do NOT introduce external or unrelated entities.
         - Explicitly name the specific entities, organizations, and projects from today's highlights in their respective paragraphs.
-        - End with a call-to-action: "Full dashboard with filters and strategic analysis 👉 {url_cta}"
-        - Close with exactly 5 relevant hashtags on their own line.
-        - Do NOT use bullet points or disconnected one-line statements.
+        - Close with a call-to-action line linking to the dashboard: "👉 Full dashboard with filters and strategic analysis: {url_cta}" followed by exactly 5 relevant hashtags on their own line.
+        - Do NOT use bullet points or disconnected one-line statements in the article body.
         - Tone: Authoritative, crisp, Financial Times / Bloomberg executive style.
-        - Factual Rigor: Only reference names, figures, and timeframes explicitly mentioned in the context below.
+        - Factual Rigor & Temporal Accuracy: Only reference names, figures, and timeframes explicitly mentioned in the context below. Do not fabricate hashtags for organizations not mentioned. NEVER describe historical baseline years or past statistics (e.g., prior year trade numbers like 2025) as future target dates or deadlines. Always frame historical figures as past baseline achievements (e.g., 'building on the $2 billion benchmark set in 2025').
         
         You MUST respond with a raw JSON object and nothing else.
         Format:
