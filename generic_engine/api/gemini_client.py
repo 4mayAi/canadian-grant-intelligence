@@ -439,20 +439,22 @@ class GeminiClient:
         headline_rule = f'- Line 1 MUST be this exact headline: "{hero_hook}"\n' if hero_hook else '- Open with a clear, engaging headline (MAX 12 words) with a relevant emoji at the start. Write in plain, active language that reads naturally on mobile screens.\n'
         prompt = f"""You are a senior editor and executive intelligence advisor writing a daily briefing for mayAi.
         
-        Write a single, tightly edited executive post (MAX 250 words) that connects today's updates into a fluid, cohesive narrative. 
+        Write a single, tightly edited executive briefing (MAX 1,800 characters) that organizes today's updates by their natural industry or sector categories (e.g., Clean Energy & Infrastructure, Supply Chain & Telematics, Blue Economy, Aerospace & Defence). 
  
         {date_str}Rules:
         {headline_rule}
-        - Immediately follow Line 1 with a cohesive narrative. Do NOT write abstract introductory filler like "The global landscape is rapidly reconfiguring...".
-        - Anti-Echo Constraint: NEVER echo or repeat prompt structural titles or generic placeholder starter phrases such as "Canada's innovation agenda is driven by strategic policy", "Technological milestones are taking shape", or "Enterprises should pursue strategic B2B engagement". Open every paragraph directly with specific dates, organization names, policy initiatives, or macroeconomic facts.
-        - Weave the featured highlights provided in the context below into 3 cohesive, fluid paragraphs that connect the dots naturally:
-          * Paragraph 1: Key policy, geopolitical, macro, or regulatory developments driving today's updates.
-          * Paragraph 2: Technological, infrastructure, operational, or market milestones taking shape.
-          * Paragraph 3: Actionable enterprise, institutional, or industry takeaways and strategic next steps.
+        - Immediately follow Line 1 with the sector-clustered executive updates. Do NOT write abstract introductory filler like "The global landscape is rapidly reconfiguring...".
+        - Sector-Clustered Executive Prose: Group today's highlights by their respective industry/sector category. For each sector present in today's highlights, write a crisp 2-to-3 sentence executive paragraph that fluidly weaves together:
+          1. The Strategic Market Move (financial, policy, or geopolitical development).
+          2. The Technical Benchmark (engineering specification, infrastructure requirement, or operational scale).
+          3. The Actionable Enterprise Takeaway (exact B2B subcontracting, engineering, or consulting pivot).
+        - Single-Item Fallback: If only 1 news item or tender is provided in today's highlights, output a single concentrated 2-to-3 sentence executive paragraph for that item without forcing multiple sector headers.
+        - Anti-Stiffness Negative Constraints:
+          * NEVER use fake connective transitions between unrelated industries (e.g. "This geopolitical alignment is complemented by...", "Simultaneously...", "Alongside..."). Each sector paragraph must be a standalone, self-contained executive insight.
+          * NEVER use mechanical bullet labels or prefixes (e.g., "Market Move:", "Tech Benchmark:", "C-Suite Takeaway:"). The 3 elements must be written as a smooth, continuous, elegant paragraph of executive journalism.
+          * Anti-Echo Constraint: NEVER echo or repeat prompt structural titles or generic placeholder starter phrases (e.g., "Canada's innovation agenda is driven by strategic policy", "Technological milestones are taking shape", "Enterprises should pursue strategic B2B engagement"). Open every sector directly with specific organization names, financial figures, or policy facts.
         - Strictly use ONLY the entities, organization names, countries, project names, and figures provided in today's highlights below. Do NOT introduce external or unrelated entities.
-        - Explicitly name the specific entities, organizations, and projects from today's highlights in their respective paragraphs.
         - Close with a call-to-action line linking to the dashboard: "👉 Full dashboard with filters and strategic analysis: {url_cta}" followed by exactly 5 relevant hashtags on their own line.
-        - Do NOT use bullet points or disconnected one-line statements in the article body.
         - Tone: Authoritative, crisp, Financial Times / Bloomberg executive style.
         - Factual Rigor & Temporal Accuracy: Only reference names, figures, and timeframes explicitly mentioned in the context below. Do not fabricate hashtags for organizations not mentioned. NEVER describe historical baseline years or past statistics (e.g., prior year trade numbers like 2025) as future target dates or deadlines. Always frame historical figures as past baseline achievements (e.g., 'building on the $2 billion benchmark set in 2025').
         
