@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-07-28T15:08:32.196392Z",
-  "linkedin_post": "Quantum, AI, Space tech define Canada's innovation agenda. 🇨🇦\nCanada's innovation agenda is driven by strategic policy. The Canada–G7–Nordic quantum call, from the 2025 G7 Leaders’ Summit Kananaskis Common Vision, signals multi-national investment. Domestically, a $750M federal earmark for controlled environment agriculture under the National Food Security Strategy reinforces resilience. [Scale AI](https://www.scaleai.ca/)’s ALL IN conference, offering 50% co-investment for AI projects over CAD $1 million, catalyzes growth. BDC also seeks Digital Assessment Tools to optimize operations.\n\nTechnological milestones are taking shape. LLENA(AI)® Health Solutions, a Top 100 AI & Tech Startup, exemplifies AI/ML models integrated with EHRs for chronic care. AgTech advances with IoT-integrated climate control and precision hydro-automation for domestic food production. [MDA Space](https://mda.space/)’s $600 million raise accelerates U.S. Earth Observation satellite production, demanding advanced cloud-native ground segment processing and SDR hardware. The G7-Nordic quantum initiative targets specialized quantum hardware and SDKs for computing, sensing, and cryptography.\n\nEnterprises should pursue strategic B2B engagement. Opportunities include integration services for LLENA(AI)®, offering custom analytics adapters or data privacy auditing. In agriculture, firms can provide regional compliance auditing and custom telemetry adapters for greenhouse operators accessing the $750M CEA investment. For space, secondary telemetry processing or cross-border data sovereignty auditing can bridge MDA’s U.S. hardware output with Canadian ground stations. Quantum initiatives and BDC’s RFI create avenues for supporting research consortia and developing customized digital assessment blueprints for SMEs, particularly in plant-based protein.\nFull dashboard with filters and strategic analysis 👉 https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n#CanadianInnovation #QuantumTech #AIinHealthcare #AgTech #SpaceEconomy\n\n### Featured News & Sources\n- [LLENA(AI)® Health Solutions Named One of Canada’s Top 100 AI & Tech Startups for ALL IN 2026 - EIN Presswire](https://www.einpresswire.com/article/929644521/llena-ai-health-solutions-named-one-of-canada-s-top-100-ai-tech-startups-for-all-in-2026) (Scale AI Ecosystem)\n- [OGVG Supports National Food Security Strategy - Produce Business](https://producebusiness.com/news/ogvg-supports-national-food-security-strategy/) (Protein Industries Canada FoodSecurity)\n- [MDA Space issues $600-million in senior notes to finance U.S. expansion - SpaceQ](https://spaceq.ca/mda-space-issues-600-million-in-senior-notes-to-finance-u-s-expansion/) (SpaceDef CSA)\n- [Canada–G7–Nordic call for proposals on quantum technologies - nserc-crsng.canada.ca](https://nserc-crsng.canada.ca/en/funding-opportunity/canada-g7-nordic-call-proposals-on-quantum-technologies) (CanTech Federal AI)\n- [RFI - Digital Assessment Tool](https://www.merx.com/public/solicitations/4037185990/abstract?language=EN) (Protein Industries Canada CanadaBuys)\n",
+  "generated_at": "2026-07-29T05:18:37.840135Z",
+  "linkedin_post": "Canada integrates advanced AI and space-based surveillance to modernize national ops. 🛰️\n\nCanada’s [Ocean Supercluster](https://oceansupercluster.ca/), the federal National Food Security Strategy, and the Department of National Defence are aggressively realigning capital to fortify domestic infrastructure. A $6.2 million investment into Ocean Master Foods’ high-pressure processing project reflects a pivot toward sustainable, tech-enabled seafood exports, while the federal government’s $750 million earmark for controlled environment agriculture underscores a broader commitment to food security. Simultaneously, the DND is prioritizing local procurement for critical electronic components at CFB Halifax and Esquimalt, strictly adhering to the ‘Buy Canadian Policy’ to mitigate supply chain vulnerabilities.\n\nTechnological requirements across these sectors prioritize high-resolution synthetic aperture radar for satellite-based maritime surveillance in Mexico, and IoT-integrated climate control systems for domestic greenhouse production. Parallel advancements in AI are equally transformative; LLENA(AI)® Health Solutions has been recognized as a top 2026 startup by [Scale AI](https://www.scaleai.ca/), highlighting the integration of machine learning into chronic care management. These milestones rely on precise PLC automation, SCADA-driven monitoring, and robust data-logging adapters to ensure that local infrastructure meets national standards for security and interoperability.\n\nInstitutional stakeholders must transition from primary infrastructure competition toward high-value integration and compliance roles. Firms should prioritize offering specialized data-logging adapters, secondary cold-chain telemetry integration, and regional compliance auditing for entities leveraging the National Food Security Strategy or scaling through [Scale AI](https://www.scaleai.ca/) consortia. By positioning as a critical bridge between raw sensor data and agency-level enforcement reports, organizations can effectively service the national defense, maritime security, and digital health markets.\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n#CanadaTech #OceanSupercluster #AIInnovation #DefenceProcurement #AgTech\n\n### Featured News & Sources\n- [Ocean Master Foods Leads HPP Innovation Project for Sustainable Seafood Exports - environment coastal & offshore](https://ecomagazine.com/news/fisheries-aquaculture/ocean-master-foods-leads-hpp-innovation-project-for-sustainable-seafood-exports/) (Ocean)\n- [Canadian satellites to support fight against illegal fishing in Mexico - SpaceQ](https://spaceq.ca/canadian-satellites-to-support-fight-against-illegal-fishing-in-mexico/) (Canadian Space Agency)\n- [LLENA(AI)® Health Solutions Named One of Canada’s Top 100 AI & Tech Startups for ALL IN 2026 - EIN Presswire](https://www.einpresswire.com/article/929644521/llena-ai-health-solutions-named-one-of-canada-s-top-100-ai-tech-startups-for-all-in-2026) (Scale AI)\n- [OGVG Supports National Food Security Strategy - Produce Business](https://producebusiness.com/news/ogvg-supports-national-food-security-strategy/) (Food Security Digest)\n- [Sockets and Relays](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-175-75266282) (CanadaBuys / MERX)\n",
   "insights": [
+    {
+      "source": "Ocean_Ecosystem_News",
+      "title": "Ocean Master Foods Leads HPP Innovation Project for Sustainable Seafood Exports - environment coastal & offshore",
+      "link": "https://ecomagazine.com/news/fisheries-aquaculture/ocean-master-foods-leads-hpp-innovation-project-for-sustainable-seafood-exports/",
+      "date": "2026-07-28T20:50:59Z",
+      "insight": {
+        "linkedin_hook": "🦞 How do you unlock premium global seafood export markets while driving Indigenous-led economic growth? Enter Canada's first dedicated High Pressure Processing (HPP) system.",
+        "strategic_value": "* **Financial & Policy Context:** Under Canada's Ocean Supercluster (OSC) funding mechanism, a $6.2 million investment (including $2.4 million in OSC co-funding) is launching the nation's first seafood-specific High Pressure Processing (HPP) facility to scale sustainable Blue Foods exports.\n* **Technological Target:** The project requires specialized HPP machinery calibrated for delicate seafood profiles (like uni and premium whitefish), necessitating precise PLC automation, SCADA-driven pressure monitoring, and advanced clean-in-place (CIP) hardware standards.\n* **Consulting Pivot:** Propose downstream consulting services focusing on localized food safety compliance auditing, secondary cold-chain telemetry integration, and custom data-logging adapters to ensure regional operators can seamlessly interface with the new HPP export pipeline without competing for primary infrastructure tenders.",
+        "co_bidding_opportunity": "Based on the project's parameters, a valid consortium under OSC guidelines requires a lead seafood exporter (like Ocean Master Foods), an industrial HPP processing facility operator, and Indigenous community partners/co-design consultants to align wild-harvest supply chains with regional community standards.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This initiative represents a physical processing plant upgrade and machinery installation (HPP infrastructure) to drive ocean-based food logistics (METS-Ops), supporting the OSC's broader mandate to expand sustainable Blue Foods and support Indigenous coastal economic development as outlined in the anchor portfolio.",
+        "grounded_fact_ids": [
+          400,
+          401,
+          402
+        ],
+        "anchor_reference": {
+          "source_name": "OSC Strategic Plan 2023-2028",
+          "page_range": "Page 7",
+          "url": "https://oceansupercluster.ca/strategic-plan"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "SpaceDef_CSA",
+      "title": "Canadian satellites to support fight against illegal fishing in Mexico - SpaceQ",
+      "link": "https://spaceq.ca/canadian-satellites-to-support-fight-against-illegal-fishing-in-mexico/",
+      "date": "2026-07-28T16:52:40Z",
+      "insight": {
+        "linkedin_hook": "🚀 Canada's orbital edge is going global: How satellite telemetry is reshaping maritime surveillance and illegal fishing enforcement.",
+        "strategic_value": "* The federal government is expanding the operational mandate of Canadian satellite assets to include high-stakes international maritime security and illegal, unreported, and unregulated (IUU) fishing enforcement in Mexican waters.\n* The technological requirement involves leveraging high-resolution SAR (Synthetic Aperture Radar) and multispectral imagery stacks, integrated with automated ship-tracking telemetry and AI-based anomaly detection software.\n* **Consulting Pivot:** Position your firm to offer regional compliance auditing and custom telemetry-to-dashboard adapters that translate raw satellite imagery into actionable enforcement reports for Mexican maritime agencies, bypassing the need to compete for the core satellite hardware build.",
+        "co_bidding_opportunity": "Partnership opportunities exist for data analytics SMEs specializing in geospatial AI, marine systems integrators capable of managing local data-to-ground station hand-offs, and legal/regulatory consultants experienced in cross-border environmental enforcement protocols.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This initiative scales Canada's space-based monitoring capabilities beyond domestic resource management, creating a demand for localized digital integration and compliance services in international markets.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
     {
       "source": "ScaleAI_Ecosystem_News",
       "title": "LLENA(AI)® Health Solutions Named One of Canada’s Top 100 AI & Tech Startups for ALL IN 2026 - EIN Presswire",
@@ -26,6 +70,134 @@
         "export_risk_advisory": null,
         "macro_sector_trend": null
       }
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "Sockets and Relays",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-175-75266282",
+      "date": "2026-07-28T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "💡 DND is seeking critical electronic components for CFB Halifax and Esquimalt! With 'Buy Canadian Policy' driving procurement, is your company positioned to supply or substitute?",
+        "strategic_value": "- The Department of National Defence (DND) is procuring a range of electronic sockets and electromagnetic relays for its facilities at CFB Halifax and CFB Esquimalt, under the umbrella of the 'Buy Canadian Policy'.\n- The requirement specifies various part numbers for sockets (e.g., S301B1A2, S300-A1A2, S500A1A) and relays (e.g., M301D4K, M300-D4N, M500-1554), with an explicit invitation for bidders to propose equivalent or substitute products.\n- **Consulting Pivot:** Offer specialized supply chain advisory services to prime contractors, identifying Canadian manufacturers capable of producing compliant equivalent electronic components, or provide regional compliance auditing for parts sourcing under the 'Buy Canadian' framework.",
+        "co_bidding_opportunity": "Canadian electronic component manufacturers, electronic parts distributors, and suppliers of equivalent or substitute electronic components.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "Supports the DND's ongoing operational readiness and maintenance requirements for naval bases, aligning with the federal mandate to strengthen domestic supply chains through the 'Buy Canadian Policy'.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-12T00:00:00Z",
+      "province": "Multiple Provinces",
+      "province_abbrev": "MULT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "NOTICE OF PROPOSED PROCUREMENT\t\t\t\t\t\t\t\t\t\t\t\t\t\tThe Department of National Defence has a requirement for the items detailed below. The delivery is requested at CFB Halifax and CFB Esquimalt.\t\t\t\t\t\t\t\t\t\t\t\t\t\tLine Item: 001 SOCKET,PLUG-IN ELECTRONIC COMPONENTS\t\t\t\t\tPart Number: S301B1A2 NCAGE: D0080 LEACH INTERNATIONAL GERMANY GMBH\t\t\tGSIN: 5935 Quantity: 10 UoI: EA to be delivered to: CFB Esquimalt\t\t\t\t\t\t\tLine Item: 002 SOCKET,PLUG-IN ELECTRONIC COMPONENTS\t\t\t\t\tPart Number: S300-A1A2 NCAGE: F0219\tLEACH INTE...",
+      "type": "New",
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "W8482-275349/A",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "Dummy Cord Detonating, Inert",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-196-82966834",
+      "date": "2026-07-28T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🛡️ Canadian Forces are prioritizing safety & competence with a major procurement of inert detonating cord for training! A significant opportunity for suppliers in defence training materials.",
+        "strategic_value": "- Canada has a requirement for 600,000 feet of inert dummy detonating cord, split between CFAD Dundurn and CFAD Angus, to enhance soldier safety and competence in training with explosive components.\n- The procurement is for a non-explosive item (GSIN: N1375, UNSPSC: 46101600) that replicates live detonating cord in size, shape, and handling characteristics, subject to the Controlled Goods Program.\n- **Consulting Pivot:** Provide secondary telemetry processing services for advanced training simulations, integrating usage data from inert training devices into performance analytics platforms, or offer regional compliance auditing for secure logistics and distribution of Controlled Goods to CFADs.",
+        "co_bidding_opportunity": "Manufacturer of inert training materials, logistics contractor experienced with Controlled Goods Program, defence training solutions provider.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "Directly contributes to the Canadian Forces' long-term operational training, safety, and readiness, falling under defence procurement mandates for essential military supplies.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-27T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "NOTICE OF PROPOSED PROCUREMENTCanada has a requirement for the items detailed below:GSIN: N1375 – Demolition MaterialsUNSPSC: 46101600 –AmmunitionDescription: Dummy Cord Detonating, InertA requirement exists to resupply Canada with the Dummy Cord Detonating, Inert. The Dummy Cord Detonating, Inert replicates the size, shape, and handling characteristics of live detonating cord, but contains no explosive or initiating components. The Dummy Cord Detonating, Inert will ensure that soldiers can deve...",
+      "type": "New",
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "W8703-270047/A",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "Electrical Wire",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-213-16110799",
+      "date": "2026-07-28T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "⚡ DND needs electrical wire by September 15th! This RFP is specifically for pre-qualified suppliers under SA E60HN-16ELEC. Are you an SA holder looking to partner or an un-qualified firm seeking entry?",
+        "strategic_value": "- The Department of National Defence requires various electrical wire types, with a tight delivery deadline of September 15th, 2026.\n- This procurement is an RFP issued exclusively against an existing Supply Arrangement (SA series E60HN-16ELEC), meaning only pre-qualified suppliers can submit bids.\n- **Consulting Pivot:** Offer services to un-qualified Canadian suppliers for navigating the Public Services and Procurement Canada (PSPC) Supply Arrangement qualification process for E60HN-16ELEC, enabling future participation, or provide subcontract integration support to existing SA holders for specialized electrical wire types or expedited regional delivery requirements.",
+        "co_bidding_opportunity": "Pre-qualified Supply Arrangement holders (E60HN-16ELEC) may partner with specialized electrical wire manufacturers or logistics providers.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "Supports the DND's ongoing operational and infrastructure maintenance requirements, demonstrating a consistent demand for basic electrical components under established procurement frameworks.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-12T00:00:00Z",
+      "province": "Multiple Provinces",
+      "province_abbrev": "MULT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "NPP - As a requirement of the Supply Arrangement (SA) this notice is published on Buyandsell for a period of 15 calendar days. Only pre-qualified Suppliers have been invited to bid. Suppliers that do not already hold a Supply Arrangement in series E60HN-16ELEC with PSPC cannot submit a bid.The Department of National Defence has a requirement for various electrical wireRequested delivery date for above-mentioned goods is September 15th, 2026If you wish to find out how you can become a qualified S...",
+      "type": "New",
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "W6854-2026009",
+      "notice_type": "RFP against Supply Arrangement",
+      "procurement_method": "Competitive - Traditional",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "Stakeholder Engagement Services for the modernization of the Canada Lands Surveys Act.",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-243-57522245",
+      "date": "2026-07-28T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🗺️ Natural Resources Canada is modernizing the Canada Lands Surveys Act! This exclusive opportunity for Indigenous SA Holders focuses on critical stakeholder engagement. Are you an Indigenous firm ready to lead or partner?",
+        "strategic_value": "- Natural Resources Canada (NRCan) requires task-based professional services for stakeholder engagement to modernize the Canada Lands Surveys Act, focusing on gathering input within the Minister's authority.\n- This RFP is exclusively open to Indigenous Supply Arrangement Holders under E60ZT-18TSPS, specifically Tier 1, Stream 2, Category 2.15 Facilitator Consultant, Senior.\n- **Consulting Pivot:** Offer specialized support to Indigenous SA Holders (e.g., Acosys Consulting, Creative Fire LP) in developing custom analytics adapters for synthesizing diverse stakeholder feedback, or provide secondary telemetry processing for engagement metrics, ensuring robust data-driven reporting to NRCan.",
+        "co_bidding_opportunity": "Indigenous Supply Arrangement Holders (under E60ZT-18TSPS), professional services firms specializing in stakeholder engagement, legal/regulatory consultants (for specific land survey aspects) as sub-contractors, data analytics firms for feedback synthesis.",
+        "mets_category": "METS-PMO",
+        "mets_rationalization": "Aligns with Natural Resources Canada's mandate for land governance and supports Indigenous economic reconciliation through targeted procurement, reflecting a long-term commitment to regulatory modernization.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-12T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "NOTICE OF PROPOSED PROCUREMENT (NPP) for TASK Based Professional Services (TSPS) RequirementThis requirement is for: Natural Resources CanadaThis requirement is open only to Indigenous Supply Arrangement Holders under E60ZT-18TSPS who qualified under Tier 1, Stream 2, Category 2.15 Facilitator Consultant, Senior.The requirement is intended to result in the award of one (1) contract.The following SA Holders have been invited to submit a proposal. • 10900800 Canada Inc. • Acosys Consulting Service...",
+      "type": "New",
+      "organization": "Department of Natural Resources (NRCan)",
+      "solicitation_number": "NRCan#5000095437",
+      "notice_type": "RFP against Supply Arrangement",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "None",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
     },
     {
       "source": "ProteinIndustries_FoodSecurity",
@@ -125,76 +297,6 @@
       }
     },
     {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "RFI - Digital Assessment Tool",
-      "link": "https://www.merx.com/public/solicitations/4037185990/abstract?language=EN",
-      "date": "2026-07-27T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "💡 Canadian businesses are on the lookout for advanced Digital Assessment Tools! BDC's new RFI signals a strong drive for innovative solutions to evaluate and optimize investments. Are you ready to shape the future of business assessment?",
-        "strategic_value": "*   The Business Development Bank of Canada (BDC) is seeking comprehensive information on Digital Assessment Tools, indicating a federal interest in enhancing the evaluation and management of business operations and investments across Canadian industries. This aligns with broader government initiatives to support economic growth and innovation.\n*   The request targets advanced digital assessment capabilities, specifically requiring solutions that can analyze business performance, risk, and growth potential, likely involving data analytics platforms, AI-driven insights, or comprehensive business intelligence software stacks for a 5-year duration.\n*   **Consulting Pivot:** Propose targeted B2B engagement by developing customized 'digital assessment blueprints' or 'readiness frameworks' for SMEs within the plant-based protein sector. Offer services to integrate these assessments with existing financial reporting tools or supply chain management platforms, helping BDC-funded protein companies benchmark their processing capacity and market readiness against national supply chain strengthening goals (Fact ID: 500).",
-        "co_bidding_opportunity": "Consortium opportunities could involve: Digital Transformation Consultants, Software Developers (specializing in analytics platforms), Data Scientists, and Business Process Analysts.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "BDC's search for Digital Assessment Tools, sourced from the Protein Industries Canada procurement channel, indicates an underlying need for robust digital solutions to evaluate and support businesses. This aligns with the long-term goal of strengthening Canadian supply chains (Fact ID: 500) by enabling better assessment of projects and companies contributing to this objective within the plant protein sector.",
-        "grounded_fact_ids": [
-          500
-        ],
-        "anchor_reference": {
-          "source_name": "PIC Supply Chain Program Guide 2025",
-          "page_range": "Page 2",
-          "url": "https://www.proteinindustriescanada.ca/supply-chain"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-19T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "SRVGD",
-      "category_label": "Services & Goods",
-      "description": "The purpose of this request for information (RFI) is to gather comprehensive information from suppliers in relation to Digital Assessment Tools.The Business Development Bank of Canada (BDC) is seeking to better understand the range of solutions, approaches, and capabilities available in the market for solutions that support digital assessments and surveys in order to fulfill BDC&rsquo;s current and future needs in the area of business assessments, digital diagnostics, interactive questionnaires,...",
-      "type": "New",
-      "organization": "Business Development Bank of Canada",
-      "solicitation_number": "PRCP0003487",
-      "notice_type": "",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "Application Services and Business Services",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-477-73588981",
-      "date": "2026-07-27T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "",
-        "strategic_value": "Insight generation failed or blocked: Unknown reason",
-        "co_bidding_opportunity": "",
-        "mets_category": "",
-        "mets_rationalization": "",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-11T00:00:00Z",
-      "province": "NCR (Ottawa/Gatineau)",
-      "province_abbrev": "NCR",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "IMTD requires additional resources to assist with the delivery and support of existing and upcoming projects leveraging various technologies. These resources will supplement existing staff to ensure that new and existing IM/IT projects or initiatives adhere to the established project management and delivery processes that have been developed to provide for the efficient and effective management and delivery of IM/IT products or services to TBS clients. Bidders must submit a bid for the identifie...",
-      "type": "New",
-      "organization": "Treasury Board (TBS)",
-      "solicitation_number": "24062-27-020",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Selective tendering",
-      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)",
-      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-    },
-    {
       "source": "CanTech_AI_Ecosystem",
       "title": "Inside the private Muskoka conference that lures Canada’s movers and shakers – including Mark Carney - The Globe and Mail",
       "link": "https://www.theglobeandmail.com/business/article-davos-on-the-dock/",
@@ -229,76 +331,6 @@
         "export_risk_advisory": null,
         "macro_sector_trend": null
       }
-    },
-    {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "26-58113 Universal Testing Machine with non-contact Extensometer for polymer research",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-733-25647240",
-      "date": "2026-07-24T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🧪 Attention Indigenous Innovators: NRC is sourcing a Universal Testing Machine with non-contact extensometers for advanced polymer research!",
-        "strategic_value": "* **Context:** The National Research Council's (NRC-AST) procurement is set aside exclusively for Indigenous-led businesses under the PSIB, presenting a key competitive entry point for qualified partners.\n* **Technology Target:** Requires a Universal Testing Machine (UTM) integrating non-contact extensometers to evaluate tensile/flexural metrics of polymer films and composites under ASTM/ISO standards.\n* **Consulting Pivot:** Propose an actionable B2B subcontracting arrangement with invited Indigenous prime contractors to deliver specialized secondary telemetry processing layers and localized database adapters for the extensometer's data output.",
-        "co_bidding_opportunity": "Under the PSIB guidelines, a valid consortium can be formed by partnering an invited Indigenous Prime Contractor (holding the bidding rights) with a specialized systems integrator or academic research lab acting as a subcontractor for setup, calibration, and software customization.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "Aligns with advanced physical testing machinery requirements for bio-composite and polymer development, bridging materials science with domestic agricultural co-product processing capacity (Fact ID 500).",
-        "grounded_fact_ids": [
-          500
-        ],
-        "anchor_reference": {
-          "source_name": "PIC Supply Chain Program Guide 2025",
-          "page_range": "Page 2",
-          "url": "https://www.proteinindustriescanada.ca/supply-chain"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-07T00:00:00Z",
-      "province": "NCR (Ottawa/Gatineau)",
-      "province_abbrev": "NCR",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)Title: Universal Testing Machine with non-contact Extensometer for polymer researchSolicitation Number: 26-58113Publication Date: 24 July 2026Closing Date and Time: 7 August 2026 at 2PM EDTTrade Agreements: This procurement is set aside from all the trade agreements under the provision each has that permits the procurement to be set aside for Indigenous business.Region of Opportunity: CanadaRegion of Delivery: Winnipeg, ManitobaGSIN: N6640 (UNSPSC 41100000) – ...",
-      "type": "Open",
-      "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "26-58113",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Selective tendering",
-      "selection_criteria": "Variations or combinations of the above methods",
-      "trade_agreements": "Please refer to Tender Description or Tender Documents",
-      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-    },
-    {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "Two (2) Highspeed (15000 fps) Cameras",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-965-67727668",
-      "date": "2026-07-24T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "📸 High-speed imaging tech alert: NRC is procurement-tracking 15,000 fps cameras for advanced scientific research.",
-        "strategic_value": "* **Context:** This National Research Council procurement is restricted to pre-qualified suppliers under SA # E60PV-19EQUI, establishing a highly exclusive playing field.\n* **Technology Target:** Acquisition of dual 15,000 fps high-speed cameras requires high-throughput data pipelines and robust hardware standard compatibility for high-speed scientific imaging.\n* **Consulting Pivot:** Propose a downstream services partnership to deliver localized data storage layers and secondary telemetry processing scripts to manage and analyze the high-volume visual data streams for the pre-qualified primes.",
-        "co_bidding_opportunity": "For this selective tender, subcontracting roles are available for systems integrators to partner with pre-qualified Supply Arrangement # E60PV-19EQUI holders to deliver localized data acquisition systems and secondary image analysis pipelines.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "High-speed camera sensor data requires low-latency telemetry processing and advanced analytical software platforms, aligning with digital testing infrastructure.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-10T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "NOTICE OF PROPOSED PROCUREMENT (NPP) Solicitation 26-58112Date: 24 July 2026Trade Agreement: Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Columbia Free Trade Agreement (CCOFTA)Canada-Panama Free Trade Agreement (CPAFTA)Canada-Honduras Free Trade Agreement (CHFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada Free Trade Agreement (CFTA)Canada-European Union: Comprehensive Economic and Trade Agreement (CETA)Cana...",
-      "type": "Open",
-      "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "26-58112",
-      "notice_type": "RFP against Supply Arrangement",
-      "procurement_method": "Competitive - Selective tendering",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)North American Free Trade Agreement (NAFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
     },
     {
       "source": "NGen_Federal_News",
@@ -491,21 +523,6 @@
         "co_bidding_opportunity": "Consortium requires: Academic quantum research labs (Canadian/Korean), quantum-hardware security SMEs, and industrial pilot partners for sensor deployment.",
         "mets_category": "METS-Digital",
         "mets_rationalization": "This facilitates the long-term goal of national security through sovereign technology, specifically in encryption and high-sensitivity sensing technologies vital to future industrial operations.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "SpaceDef_CSA",
-      "title": "Grassroots space projects get Canadian Space Agency funding to train Canada's next space generation - SpaceQ",
-      "link": "https://spaceq.ca/grassroots-space-projects-get-canadian-space-agency-funding-to-train-canadas-next-space-generation/",
-      "date": "2026-07-20T11:14:00Z",
-      "insight": {
-        "linkedin_hook": "🚀 Investing in Canada's future space leaders! The Canadian Space Agency is funding grassroots projects to train the next generation of space talent. This isn't just about rockets; it's about cultivating a deep pipeline of specialized skills for a booming sector. #CanadaSpace #NextGenTech",
-        "strategic_value": "* The Canadian Space Agency (CSA) is strategically investing in grassroots space projects to cultivate Canada's next generation of space professionals, signaling a long-term commitment to human capital development in the sector.\n* This initiative targets foundational skills and practical experience across various space technologies, encompassing everything from small satellite design and payload integration to ground station operations and space data analytics, requiring expertise in embedded systems, RF communication, and mission control software.\n* **Consulting Pivot:** Offer specialized educational software licenses, virtual simulation environments for CubeSat missions, or develop custom curriculum modules on space systems engineering and data processing for educational institutions participating in these funded projects, building future market relationships.",
-        "co_bidding_opportunity": "Academic institutions, STEM education providers, non-profit space advocacy groups, and small hardware/software developers catering to educational markets could form consortiums to deliver these grassroots projects.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This aligns with the long-term need for skilled professionals to develop and operate advanced digital space technologies and leverage satellite data, crucial for any space industry anchor.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
@@ -861,27 +878,6 @@
         "co_bidding_opportunity": "Academic/Vocational Training Institutions (for curriculum development), Learning Management System (LMS) Developers (for platform customization), Data Management & Analytics SMEs (for tracking compliance and progress), International Development Consultants (for local implementation support).",
         "mets_category": "METS-Digital",
         "mets_rationalization": "Developing professional standards for the sustainable blue economy contributes to the long-term workforce development and operational excellence critical for the Ocean Supercluster's focus areas, such as Blue Foods and ocean decarbonization. This initiative, while international, sets benchmarks and creates a demand for digital tools for training and compliance management, directly connecting to the need for advanced digital solutions in ocean industries.",
-        "grounded_fact_ids": [
-          400
-        ],
-        "anchor_reference": {
-          "source_name": "OSC Strategic Plan 2023-2028",
-          "page_range": "Page 7",
-          "url": "https://oceansupercluster.ca/strategic-plan"
-        }
-      }
-    },
-    {
-      "source": "Ocean_Ecosystem_News",
-      "title": "ECO Canada and YemBlue Initiative Announce Strategic Partnership to Advance Sustainable Blue Economy Professional Standards in Yemen - Yahoo! Finance Canada",
-      "link": "https://ca.finance.yahoo.com/news/eco-canada-yemblue-initiative-announce-155200535.html",
-      "date": "2026-07-08T15:52:00Z",
-      "insight": {
-        "linkedin_hook": "Standardization is the bridge to global blue economy scalability. 🌐🚢",
-        "strategic_value": "* The partnership between ECO Canada and YemBlue highlights a growing global demand for standardized professional competencies (SBEP designation) in marine sector workforce development.\n* Digital platforms like the 'DSS-YB' (Decision Support System) demonstrate the shift toward data-driven marine monitoring as a requisite for sustainable blue economy professionalization.\n* **Consulting Pivot:** Offer subcontracted 'Digital Adaptor' services to integrate local community sensor data into the SBEP professional training curriculum, focusing on regional telemetry compliance and audit-ready data workflows.",
-        "co_bidding_opportunity": "Partnership opportunities require: Professional certification bodies (like ECO Canada), local environmental monitoring NGOs, and software developers specializing in low-bandwidth marine telemetry integration.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This reflects the OSC's broader mission (Fact ID 400) of marine domain awareness and professional ecosystem building, applicable to international technology transfer.",
         "grounded_fact_ids": [
           400
         ],
