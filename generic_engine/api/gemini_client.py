@@ -438,7 +438,6 @@ class GeminiClient:
         tender_str = f"\nToday's procurement & active tenders:\n{tender_context}\n" if tender_context else ""
         headline_rule = f'- Line 1 MUST be this exact headline: "{hero_hook}"\n' if hero_hook else '- Open with a clear, engaging headline (MAX 12 words) with a relevant emoji at the start. Write in plain, active language that reads naturally on mobile screens.\n'
         prompt = f"""You are a senior editor and executive intelligence advisor writing a daily briefing for mayAi.
-        {self.system_instruction}
         
         Write a single, tightly edited executive post (MAX 250 words) that connects today's updates into a fluid, cohesive narrative. 
  
