@@ -1,14 +1,16 @@
-Date: 2026-07-29
-Time: 01:18 AM UTC
-Title: Trade Compliance Dashboard Dropdown Ordering & News Freshness Fix
+Date: 2026-07-30
+Time: 10:54 PM UTC
+Title: Trade Compliance GCP Cloud Scheduler Job Registration
 
 Activities:
-- Diagnosed the two reported UI issues:
-  1. **Archive Dropdown Ordering**: `docs/trade-compliance/index.html` was calling `.reverse()` on `manifest.json`, which inverted the dates from newest-to-oldest into oldest-to-newest (`2026-07-24` first). Removed `.reverse()` so dates render newest to oldest (`2026-07-30`, `2026-07-28`, `2026-07-27`, `2026-07-26`, `2026-07-24`), matching all other platform dashboards.
-  2. **Perceived Static News**: Confirmed that news items in `trade_insights.json` are actively updating (fresh July 29 items ingested today). The inverted dropdown previously led users to select July 24 data by default when browsing the top of the archive list.
+- Queried active GCP Cloud Scheduler jobs using `gcloud scheduler jobs list --location=us-west1`.
+- Confirmed empirical cause: `daily-trade-compliance-scraper-trigger` had not yet been registered in GCP Cloud Scheduler under project `project-f0d36d83-0e2f-4d56-aad`.
+- Executed `scratch/setup_gcp_trade_compliance_scheduler.ps1` via PowerShell to register `daily-trade-compliance-scraper-trigger` in GCP for **12:00 PM EDT (16:00 UTC)**.
+- Executed `scratch/setup_gcp_amr_scheduler.ps1` via PowerShell to register `daily-amr-simulation-scraper-trigger` in GCP for **2:00 PM EDT (18:00 UTC)**.
+- Verified both jobs are active and `ENABLED` in GCP Cloud Scheduler.
 
 Summary:
-- Fixed dropdown sorting in `docs/trade-compliance/index.html` and verified active news ingestion.
+- Successfully registered and enabled `daily-trade-compliance-scraper-trigger` and `daily-amr-simulation-scraper-trigger` in Google Cloud Scheduler.
 
 Next Steps:
-- Commit and push HTML fix using OneDrive-safe Git flags.
+- Commit setup scripts to repository.
