@@ -1,16 +1,15 @@
 Date: 2026-07-30
-Time: 10:54 PM UTC
-Title: Trade Compliance GCP Cloud Scheduler Job Registration
+Time: 11:04 PM UTC
+Title: Trade Compliance GCP Cloud Scheduler Execution Test
 
 Activities:
-- Queried active GCP Cloud Scheduler jobs using `gcloud scheduler jobs list --location=us-west1`.
-- Confirmed empirical cause: `daily-trade-compliance-scraper-trigger` had not yet been registered in GCP Cloud Scheduler under project `project-f0d36d83-0e2f-4d56-aad`.
-- Executed `scratch/setup_gcp_trade_compliance_scheduler.ps1` via PowerShell to register `daily-trade-compliance-scraper-trigger` in GCP for **12:00 PM EDT (16:00 UTC)**.
-- Executed `scratch/setup_gcp_amr_scheduler.ps1` via PowerShell to register `daily-amr-simulation-scraper-trigger` in GCP for **2:00 PM EDT (18:00 UTC)**.
-- Verified both jobs are active and `ENABLED` in GCP Cloud Scheduler.
+- Directly executed the GCP Cloud Scheduler job `daily-trade-compliance-scraper-trigger` via `gcloud scheduler jobs run daily-trade-compliance-scraper-trigger --location=us-west1`.
+- Verified that GCP dispatched an HTTP POST request to GitHub Actions and launched run `#30588953666`.
+- Verified 100% successful execution (`completed` `success` in 4m30s).
+- The pipeline scraped 12 trade feeds, synthesized new signals, updated Azure Blob Storage, updated GitHub Pages, and dispatched the HTML email digest via SMTP to all subscribers.
 
 Summary:
-- Successfully registered and enabled `daily-trade-compliance-scraper-trigger` and `daily-amr-simulation-scraper-trigger` in Google Cloud Scheduler.
+- End-to-end GCP Cloud Scheduler execution verified and completed cleanly.
 
 Next Steps:
-- Commit setup scripts to repository.
+- Monitor daily 12:00 PM EDT GCP automated runs.
