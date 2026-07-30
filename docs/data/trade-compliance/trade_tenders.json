@@ -4127,7 +4127,7 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "On behalf of Fisheries and Oceans Canada, Public Services and Procurement Canada (PSPC) is issuing the noted Request for Quotation (RFQ) F2934-262109 for the purchase of IntelliJ IDEA Ultimate Subscription License. All prices quoted in the RFQ must be provided in CAD and through SAP Ariba or Email to tanzim.haque-quader@tpsgc-pwgsc.gc.ca All Bid submissions must be received no later than August 11, 2026 @ 2:00PM EST.  Failure to respond by this date and time will deem your company non-compliant....",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of Public Works and Government Services (PSPC)",
     "solicitation_number": "WS5795549926",
     "notice_type": "RFP against Supply Arrangement",
@@ -4205,13 +4205,13 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "The Department of National Defence has a requirement for the supply, delivery, installation, commissioning and conformity verification of commercial modular Privacy on Demand (POD) units, or equivalent, under Category 4 of the Furniture for Workspaces Supply Arrangement E60PQ-140003/D.The units must include an adjustable roof system offered as a standard commercial feature, as well as integrated ventilation, lighting, occupancy-sensing and electrical-power systems, in accordance with the Stateme...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of National Defence (DND)",
     "solicitation_number": "W2186-SPO-26-309-B",
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)North American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)",
+    "trade_agreements": "Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   },
   {
@@ -4243,7 +4243,7 @@
     "category": "SRV",
     "category_label": "Services",
     "description": "This requirement is for: Indigenous Services CanadaThis requirement is open ONLY to those Indigenous TBIPS Supply Arrangement Holders under EN578-170432 who qualified under Tier 1, under the region / metropolitan area: National Capital Region (NCR), level of expertise and for the following category(ies):Resource Category - Level of ExpertiseA.1 Application / Software Architect - Level 3I.9 System Administrator - Level 1B.1 Business Analyst - Level 3B.2 Business Architect - Level 3P.3 Human Resou...",
-    "type": "New",
+    "type": "Open",
     "partner_list": [
       {
         "name": "Sirius Conseils",
@@ -5047,5 +5047,152 @@
     "selection_criteria": "Variations or combinations of the above methods",
     "trade_agreements": "None",
     "recommended_playbook": "Specification Shaping (RFI / EOI)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Assessment-Based Learning and Development Services",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-147-34999681",
+    "date": "2026-07-30T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Investing in organizational resilience? EDC’s latest ACAN signals a pivot toward standardized, scalable assessment frameworks. 📈",
+      "strategic_value": "- Contracts of this scale, managed through long-term service agreements, mitigate the risk of administrative cost creep, typically saving 15-20% compared to ad-hoc vendor procurement.\n- Securing this as a sole-source provider creates an essential footprint within EDC, offering a high-barrier-to-entry competitive moat against new market entrants.\n- * **Consulting Pivot:** Propose an 'ESG & Human Capital Integration' audit for $75,000, framing the assessment framework as a mechanism to prove workforce sustainability compliance under upcoming C-59 disclosures.",
+      "co_bidding_opportunity": "Targeted partnership with Tier-1 management consultancy firms that serve EDC to act as the specialized training and accreditation subcontractor for specialized HR data analytics.",
+      "mets_category": "Trade Remedies & Competition",
+      "mets_rationalization": "The ACAN structure necessitates a specialized approach to demonstrating unique expertise, which is critical for competing in federal service procurement where compliance documentation is paramount.",
+      "grounded_fact_ids": [
+        5
+      ],
+      "anchor_reference": {
+        "source_name": "Competition Bureau Canada",
+        "page_range": "Bill C-59 Anti-Greenwashing Guidelines",
+        "url": "https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/deceptive-marketing-practices-digest-volume-7"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-14T00:00:00Z",
+    "province": "Ontario",
+    "province_abbrev": "ON",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Export Development Canada (EDC) requires continued access to assessment-based learning and development services that support employee onboarding, leadership development, team effectiveness, and organizational development initiatives across the organization.  The services must provide a consistent and scalable framework for understanding behavioral & communication preferences, workplace interactions, and team dynamics. The framework is used to support self-awareness, collaboration, leadership eff...",
+    "type": "New",
+    "organization": "Export Development Canada (EDC)",
+    "solicitation_number": "26-017",
+    "notice_type": "Advance Contract Award Notice",
+    "procurement_method": "Advance contract award notice",
+    "selection_criteria": "Not applicable",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)",
+    "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "PR19366 47419-264488 ITQ Radiation Detection Systems and Support ITQ - List of Qualified Respondents",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/WS5265437959-Doc5813700607",
+    "date": "2026-07-30T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "The frontline of border security is evolving. CBSA confirms its qualified list for radiation detection—are you positioned to support the infrastructure? 🛡️",
+      "strategic_value": "- Procurement of this magnitude involves complex hardware integration cycles where mismanaged logistics incur demurrage costs of up to $450/day per unit during port-of-entry delays.\n- Successful integration requires alignment with CBSA’s CARM system, mandating that all hardware vendors possess active RPP bonding to ensure smooth cross-border customs clearance.\n- * **Consulting Pivot:** Offer a 'Supply Chain Traceability & Compliance' retainer at $12,500/month to ensure the qualified respondents meet Bill C-26 cybersecurity controls for critical infrastructure.",
+      "co_bidding_opportunity": "Strategic subcontracting role for firms specializing in cybersecurity and IT/OT integration, specifically targeting the listed qualified respondents who may lack in-house compliance expertise for Bill C-26.",
+      "mets_category": "Border Compliance & Tariffs",
+      "mets_rationalization": "This list represents the core ecosystem of CBSA's physical security infrastructure, which is directly impacted by current trade enforcement and cross-border transit protocols.",
+      "grounded_fact_ids": [
+        3,
+        6
+      ],
+      "anchor_reference": {
+        "source_name": "Canada Border Services Agency",
+        "page_range": "Customs Notice CN26-04",
+        "url": "https://www.cbsa-asfc.gc.ca/services/carm-gcra/menu-eng.html"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2027-01-20T00:00:00Z",
+    "province": "NCR (Ottawa/Gatineau)",
+    "province_abbrev": "NCR",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "On August 25 2025 Canada issued an Invitation to Qualify (ITQ) (Solicitation CW2410036 / 47419-264488 ) allowing for interested parties to pre-qualify for future CBSA Radiation Detection Systems and Support needs. Four streams made up this ITQ.Stream 1 – Portal Radiation Detection SystemsStream 2 – Vehicle Mounted Radiation Detection SystemsStream 3 – Handheld Radiation DetectorsStream 4 – Personal Radiation DetectorsThe ITQ closed on October 16 2025 at 2pm EDT. This notice serves to announce th...",
+    "type": "New",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5265437959",
+    "notice_type": "Invitation to Qualify",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Prime-Tracking (Pre-Qualification)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "PR24714 47064-276088 RFI Automatic Contraband Detection X-Ray Images",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110020285?anId=ANONYMOUS",
+    "date": "2026-07-29T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Automation is the future of border transit. CBSA is scouting AI-driven contraband detection—where does your software fit? 🤖",
+      "strategic_value": "- Identification of high-risk cargo via automated software significantly reduces the 'reverse-onus' evidentiary burden on importers under Bill C-35, protecting firms from massive penalties.\n- Technical specification alignment for RFI responses prevents costly redesigns and ensures long-term compatibility with established CBSA X-Ray and CT scanning infrastructure.\n- * **Consulting Pivot:** Market a 'Pre-Border Clearance Optimization' strategy for $95,000, aligning detection software output with automated CBSA release filings to lower operational risk.",
+      "co_bidding_opportunity": "Systems integration partners specializing in AI and imaging technology, potentially forming a consortium with legacy CBSA equipment vendors identified in the prior ITQ.",
+      "mets_category": "Trade Policy & Sanctions",
+      "mets_rationalization": "The RFI directly addresses the technological requirement for enforcing Bill C-35 forced labour prohibitions and general border security through sophisticated scanning.",
+      "grounded_fact_ids": [
+        2
+      ],
+      "anchor_reference": {
+        "source_name": "Public Safety Canada",
+        "page_range": "Bill C-35 Legislation",
+        "url": "https://www.publicsafety.gc.ca/cnt/cntrng-crm/index-en.aspx"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-01T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "This Request for Information (RFI) is issued by Public Services and Procurement Canada (PSPC) on behalf of Canada Border Services Agency (CBSA). The purpose of this RFI is to identify and obtain information on technical specification for automatic contraband detection software compatible with conventional X-Ray or Computed Tomography (CT) systems.",
+    "type": "New",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5806316032",
+    "notice_type": "Request for Information",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Not applicable",
+    "trade_agreements": "None",
+    "recommended_playbook": "Specification Shaping (RFI / EOI)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "W6890-260088 - Janitorial Services",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110019819?anId=ANONYMOUS",
+    "date": "2026-07-24T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "When facilities management meets federal mandates: securing the janitorial contract for CFB North Bay requires strict adherence to security protocols. 🧼",
+      "strategic_value": "- Failure to manage the security clearance documentation for on-site personnel results in project suspension, potentially triggering loss of contract premiums equivalent to 10-15% of annual service revenue.\n- Mandatory site visits and compliance with Buy Canadian policies serve as a filter; contractors capable of navigating these regulatory hurdles retain a significant competitive advantage.\n- * **Consulting Pivot:** Propose a 'Federal Compliance & Security Management' B2B service, charging a $5,000 flat fee per tender submission to verify documentation against the CFTA requirements.",
+      "co_bidding_opportunity": "Partner with regional cleaning service providers who hold existing federal security clearances but lack the administrative capacity to manage complex RFP responses.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "Operational facilities management at critical defense sites requires strict supply chain and personnel compliance, effectively bridging internal site security with broader federal trade policy.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-08T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "All required supporting documentation and bid submission must be submitted by September 8 2026 at 14:00 EDT. All bids submitted after 14:00 EDT will result in the bid being declared non-responsive.  The full Request for Proposal (RFP) and attachments can only be accessed and downloaded when logged into your SAP Business Network account and you have filled out your Government of Canada profile. 1.There is a mandatory Site visit within the requirements detailed in the RFP.  2.The Department of Nat...",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5612321949",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)North American Free Trade Agreement (NAFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade Agreement",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
   }
 ]
