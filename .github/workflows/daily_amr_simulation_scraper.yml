@@ -1,8 +1,8 @@
 name: Health-Tech & Biotech Simulation Intelligence Pipeline
 
 on:
-  schedule:
-    - cron: '0 18 * * *' # Run daily at 18:00 UTC (2:00 PM EDT)
+#   schedule:
+#     - cron: '0 18 * * *' # Run daily at 18:00 UTC (2:00 PM EDT)
   workflow_dispatch:     # Allow manual runs
     inputs:
       lookback_days:
