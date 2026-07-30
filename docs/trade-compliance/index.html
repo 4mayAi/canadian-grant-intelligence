@@ -531,7 +531,7 @@
                 if (manifest && Array.isArray(manifest)) {
                     const select = document.getElementById('date-select');
                     select.innerHTML = '<option value="latest">Latest Run</option>';
-                    manifest.reverse().forEach(d => {
+                    manifest.forEach(d => {
                         const opt = document.createElement('option');
                         opt.value = d;
                         opt.textContent = d;
