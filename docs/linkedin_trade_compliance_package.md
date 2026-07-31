@@ -40,12 +40,12 @@ Below are 3 rich, trade-contextualized logo concepts containing **ONLY** the `ma
 
 ### Newsletter & Page Metadata
 
-- **Newsletter Title:** `Canadian Trade & Supply Chain Compliance Intelligence`
-- **Subtitle / Tagline:** `Sovereign Border Enforcement, CARM Bonding, Forced Labour & Logistics Risk`
+- **Newsletter Title:** `Canada Trade & Supply Chain` *(28 characters — under 30 char limit)*
+- **Newsletter Tagline / Description:** `Executive border enforcement, CARM bonding, forced labour provenance & federal logistics risk intelligence for Canada.` *(118 characters — under 120 char limit)*
 - **Publishing Frequency:** `Bi-weekly (Thursdays)` or `Weekly (Fridays)`
 - **Category:** `International Trade` / `Logistics & Supply Chain` / `Government Administration`
 
-### Page / Newsletter "About" Description
+### Full Web & Editorial Description (For Page "About" section or website)
 
 ```text
 Canadian Trade & Supply Chain Compliance Intelligence synthesizes border enforcement notices (CBSA), trade policy updates (Global Affairs Canada), competition guidelines (Competition Bureau), forced labour provenance mandates, and federal logistics procurements (CanadaBuys) into publication-grade executive intelligence.

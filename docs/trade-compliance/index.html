@@ -731,6 +731,84 @@
             container.innerHTML = html;
         }
 
+        function formatDigestHtml(text) {
+            if (!text) return '';
+            const lines = text.split('\n');
+            let html = '';
+            let inP = false;
+
+            lines.forEach(line => {
+                const lineStr = line.trim();
+                if (!lineStr) {
+                    if (inP) { html += '</p>'; inP = false; }
+                    return;
+                }
+
+                // Check for Topic Header pattern "Category Name: body..."
+                const topicMatch = lineStr.match(/^([A-Z][A-Za-z0-9\s&,/-]{3,45}:)\s*(.*)/);
+                if (topicMatch && !lineStr.startsWith('http') && !lineStr.startsWith('👉')) {
+                    if (inP) { html += '</p>'; inP = false; }
+                    const title = escapeHtml(topicMatch[1]);
+                    const body = escapeHtml(topicMatch[2]);
+                    html += `
+                        <div style="background: rgba(15, 23, 42, 0.85); border-left: 4px solid #ffd700; border-top: 1px solid rgba(255, 215, 0, 0.2); border-right: 1px solid rgba(255, 215, 0, 0.2); border-bottom: 1px solid rgba(255, 215, 0, 0.2); padding: 18px 20px; border-radius: 8px; margin-bottom: 18px; box-shadow: 0 4px 20px rgba(0,0,0,0.35);">
+                            <div style="color: #ffd700; font-weight: 700; font-size: 16px; margin-bottom: 8px; font-family: sans-serif;">${title}</div>
+                            <div style="color: var(--text-primary); font-size: 14.5px; line-height: 1.65; font-family: sans-serif;">${body}</div>
+                        </div>
+                    `;
+                    return;
+                }
+
+                // Hashtags
+                if (lineStr.startsWith('#') && lineStr.includes(' #')) {
+                    if (inP) { html += '</p>'; inP = false; }
+                    const tags = lineStr.split(/\s+/).filter(t => t.startsWith('#'));
+                    const pills = tags.map(t => `<span style="background: rgba(30, 41, 59, 0.8); color: #94a3b8; border: 1px solid rgba(255,255,255,0.15); padding: 4px 10px; border-radius: 4px; font-size: 11.5px; font-weight: 600; margin-right: 6px; display: inline-block; margin-bottom: 6px;">${escapeHtml(t)}</span>`).join('');
+                    html += `<div style="margin: 16px 0 20px 0;">${pills}</div>`;
+                    return;
+                }
+
+                // CTA Links
+                if (lineStr.includes('github.io') && (lineStr.includes('👉') || lineStr.includes('Full dashboard') || lineStr.includes('View Full'))) {
+                    if (inP) { html += '</p>'; inP = false; }
+                    const match = lineStr.match(/(https?:\/\/\S+)/);
+                    const url = match ? match[1] : '#';
+                    html += `
+                        <div style="text-align: center; margin: 24px 0;">
+                            <a href="${url}" target="_blank" rel="noopener" class="btn" style="background: #ffd700; color: #05070a; font-weight: 700; font-size: 14px; padding: 12px 24px; border-radius: 6px; text-decoration: none; display: inline-block; box-shadow: 0 4px 16px rgba(255, 215, 0, 0.25);">View Interactive Web Dashboard ↗</a>
+                        </div>
+                    `;
+                    return;
+                }
+
+                // Standard markdown headers (### Featured News & Sources)
+                if (lineStr.startsWith('### ')) {
+                    if (inP) { html += '</p>'; inP = false; }
+                    html += `<h3 style="color: #ffd700; font-size: 18px; margin-top: 24px; margin-bottom: 12px; font-weight: 700;">${escapeHtml(lineStr.slice(4))}</h3>`;
+                    return;
+                }
+
+                // Bullets
+                if (lineStr.startsWith('- ') || lineStr.startsWith('* ')) {
+                    if (inP) { html += '</p>'; inP = false; }
+                    const bulletText = lineStr.slice(2);
+                    html += `<ul style="margin-left: 20px; padding-left: 0; margin-bottom: 10px; color: var(--text-primary);"><li style="margin-bottom: 6px; line-height: 1.6;">${marked.parseInline(bulletText)}</li></ul>`;
+                    return;
+                }
+
+                if (!inP) {
+                    html += '<p style="margin-bottom: 14px; line-height: 1.65;">';
+                    inP = true;
+                } else {
+                    html += '<br/>';
+                }
+                html += marked.parseInline(lineStr);
+            });
+
+            if (inP) html += '</p>';
+            return html;
+        }
+
         function renderDigest(data) {
             const container = document.getElementById('digestContent');
             if (!data || !data.linkedin_post) {
@@ -765,7 +843,7 @@
                     </div>
 
                     <div style="max-width: 780px; margin: 0 auto; font-size: 14.5px; line-height: 1.65; color: var(--text-primary);">
-                        ${marked.parse(data.linkedin_post)}
+                        ${formatDigestHtml(data.linkedin_post)}
                     </div>
                 </div>
             `;
