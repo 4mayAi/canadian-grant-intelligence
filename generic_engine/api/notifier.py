@@ -190,6 +190,29 @@ class Notifier:
                 in_ul = False
 
             import re
+            # Convert raw dashboard URL into Golden CTA Button
+            cta_match = re.search(r'(?:👉\s*|View Full Interactive Dashboard:\s*|Full dashboard with filters and strategic analysis:\s*)(https?://\S+)', line_str, re.IGNORECASE)
+            if cta_match and "github.io" in line_str:
+                url = cta_match.group(1)
+                if in_p:
+                    html_lines.append("</p>")
+                    in_p = False
+                html_lines.append(f'''<div style="text-align: center; margin: 24px 0;">
+                    <a href="{url}" target="_blank" style="display: inline-block; background-color: #ffd700; color: #05070a; font-weight: bold; font-size: 14px; padding: 12px 24px; border-radius: 6px; text-decoration: none; box-shadow: 0 4px 16px rgba(255, 215, 0, 0.25); font-family: sans-serif;">View Interactive Web Dashboard ↗</a>
+                </div>''')
+                continue
+
+            # Convert raw hashtags into pill badges
+            if line_str.startswith("#") and " #" in line_str:
+                tags = [t.strip() for t in line_str.split() if t.startswith("#")]
+                if tags:
+                    if in_p:
+                        html_lines.append("</p>")
+                        in_p = False
+                    pills = "".join([f'<span style="display: inline-block; background-color: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 3px 9px; border-radius: 4px; font-size: 11px; font-weight: 600; margin-right: 6px; margin-bottom: 6px;">{t}</span>' for t in tags])
+                    html_lines.append(f'<div style="margin: 12px 0 16px 0;">{pills}</div>')
+                    continue
+
             # Inline images: ![alt](url)
             img_pattern = r'!\[([^\]]*)\]\(([^)]*)\)'
             line_str = re.sub(img_pattern, r'<img src="\2" alt="\1" style="max-width: 100%; border-radius: 8px; margin: 10px 0; border: 1px solid #ffd700;" />', line_str)
@@ -201,6 +224,20 @@ class Notifier:
             # Bold: **text**
             bold_pattern = r'\*\*([^*]+)\*\*'
             line_str = re.sub(bold_pattern, r'<strong>\1</strong>', line_str)
+
+            # Detect topic category titles at line start (e.g. "Category Name: paragraph...")
+            topic_header_match = re.match(r'^([A-Z][A-Za-z0-9\s&,/-]{3,45}:)\s*(.*)', line_str)
+            if topic_header_match and not line_str.startswith("http"):
+                header_title = topic_header_match.group(1)
+                body_rest = topic_header_match.group(2)
+                if in_p:
+                    html_lines.append("</p>")
+                    in_p = False
+                html_lines.append(f'''<div style="background-color: #0f172a; border-left: 4px solid #ffd700; padding: 14px 16px; border-radius: 6px; margin-bottom: 16px; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
+                    <div style="color: #ffd700; font-weight: bold; font-size: 15px; margin-bottom: 6px; font-family: sans-serif;">{header_title}</div>
+                    <div style="color: #e2e8f0; font-size: 13.5px; line-height: 1.6; font-family: sans-serif;">{body_rest}</div>
+                </div>''')
+                continue
 
             if not in_p:
                 html_lines.append("<p style='font-family: sans-serif; color: #e0e0e0; line-height: 1.6; font-size: 14px;'>")
@@ -216,15 +253,15 @@ class Notifier:
         body_html = "\n".join(html_lines)
         return f"""
         <html>
-        <body style="background-color: #05070a; color: #e0e0e0; padding: 20px; font-family: sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #1a1f26; border-radius: 12px;">
-            <div style="text-align: center; padding-bottom: 20px; border-bottom: 1px solid #1a1f26;">
+        <body style="background-color: #05070a; color: #e0e0e0; padding: 20px; font-family: sans-serif; max-width: 620px; margin: 0 auto; border: 1px solid #1a1f26; border-radius: 12px;">
+            <div style="text-align: center; padding-bottom: 16px; border-bottom: 1px solid #1a1f26;">
                 <h1 style="color: #ffd700; margin: 0; font-family: sans-serif; font-size: 28px;">may<span style="color: #ffffff;">Ai</span></h1>
-                <p style="color: #a0a0a0; font-size: 12px; margin: 5px 0 0 0;">{topic_name}</p>
+                <p style="color: #94a3b8; font-size: 12px; font-weight: 600; margin: 4px 0 0 0; letter-spacing: 0.5px;">{topic_name}</p>
             </div>
-            <div style="padding: 10px 0;">
+            <div style="padding: 16px 0;">
                 {body_html}
             </div>
-            <div style="text-align: center; padding-top: 20px; border-top: 1px solid #1a1f26; font-size: 11px; color: #707070; margin-top: 30px;">
+            <div style="text-align: center; padding-top: 16px; border-top: 1px solid #1a1f26; font-size: 11px; color: #707070; margin-top: 24px;">
                 <p>You are receiving this because you subscribed to the mayAi {topic_name} digest.</p>
                 <p>Powered by mayAi &middot; Azure Cloud Operations</p>
             </div>
