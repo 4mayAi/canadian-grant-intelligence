@@ -1,7 +1,135 @@
 {
-  "generated_at": "2026-07-31T15:06:35.824097Z",
-  "linkedin_post": "Capital investment pivots toward AI infrastructure and strategic defense readiness. 🇨🇦\n\nAerospace & Defence: Connor Clark & Lunn has solidified its position in the domestic space economy by securing a 5.6% stake in [MDA Space](https://mda.space/). This institutional commitment validates the operational scale of MDA’s satellite and robotics programs, which require sophisticated software stacks for secure autonomous operations. Enterprises should pivot to offer custom analytics adapters for satellite imagery processing or provide secondary telemetry solutions for mission assurance.\n\nFinancial Services & Artificial Intelligence: The Royal Bank of Canada has extended its platinum sponsorship of the [Vector Institute](https://vectorinstitute.ai/) through 2032 to advance responsible AI, including agentic models and federated learning. This long-term commitment demands expertise in privacy-preserving machine learning architectures and MLOps platforms like Kubeflow. Consulting firms should focus on developing validation frameworks for bias detection and transparency to ensure these deployments meet evolving ethical standards.\n\nFinTech & Data Infrastructure: Wealthsimple’s assets under management have surged to $155.6B, reflecting a shift toward diverse financial products and high-frequency transaction processing. This scale requires robust cloud infrastructure orchestrated via Kubernetes and advanced fraud detection capabilities. Firms should prioritize providing regional compliance auditing for provincial regulations and custom data adapters for real-time transactional insights.\n\nInternational Trade: The Government of Canada is mobilizing the Team Canada Trade Mission to India scheduled for October 12-17, 2026, to accelerate SME market access. This initiative relies on advanced B2B matchmaking platforms utilizing AI-driven algorithms to vet international partnerships. B2B service providers should position themselves to offer pre-mission market intelligence and post-mission deal flow tracking for participating SMEs.\n\nProcurement: Active federal tenders include the national Computer Aided Dispatch Replacement (closing August 14), RCAF SARTech GPS watch procurement (closing August 4), and specialized technical research into BLEVE behaviour for the Emergency Response Guidebook (closing August 17).\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n#AI #SpaceTech #FinTech #TradePolicy #CanadaInnovation\n\n### Featured News & Sources\n- [Connor Clark & Lunn (MDA) reports 7.7M-share, 5.6% stake in MDA Space - Stock Titan](https://www.stocktitan.net/sec-filings/MDA/schedule-13g-a-mda-space-ltd-amended-passive-investment-disclosure-d8180004191a.html) (Canadian Space Agency)\n- [Wealthsimple reports “biggest quarter ever” as it nearly doubles assets under management in a year - BetaKit](https://betakit.com/wealthsimple-reports-biggest-quarter-ever-as-it-nearly-doubles-assets-under-management-in-a-year/) (Canadian Tech BetaKit)\n- [Royal Bank of Canada extends Vector Institute sponsorship, advancing responsible AI innovation and talent development through 2032 - The Globe and Mail](https://www.theglobeandmail.com/investing/markets/stocks/RY-N/pressreleases/3547394/royal-bank-of-canada-extends-vector-institute-sponsorship-advancing-responsible-ai-innovation-and-talent-development-through-2032/) (Canadian Tech AI Ecosystem)\n- [Royal Bank of Canada Extends Vector Institute Sponsorship, Advancing Responsible AI Innovation and Talent Development Through 2032 - Moomoo](https://www.moomoo.com/news/post/73812456/royal-bank-of-canada-extends-vector-institute-sponsorship-advancing-responsible) (Canadian Tech AI Ecosystem)\n- [B2B Program for the Team Canada Trade Mission to India, October 12-17, 2026](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-864-25768876) (CanadaBuys / MERX)\n",
+  "generated_at": "2026-08-01T15:08:25.008257Z",
+  "linkedin_post": "Critical tech upgrades underpin Canada's security and modern operations. 🛡️\nRBC's extended platinum sponsorship of the [Vector Institute](https://vectorinstitute.ai/) until 2032 reinforces private sector investment in Canada's AI ecosystem, emphasizing responsible AI adoption, agentic AI, and RAG. This demands expertise in ML frameworks and ethical AI toolkits, creating opportunities for specialized AI model validation and regional compliance reporting. Wealthsimple's record growth, nearly doubling AUM to $155.6B CAD with 3.6 million users, highlights FinTech maturity driven by scalable cloud infrastructure and robust data analytics, necessitating B2B support for regional compliance auditing and custom analytics adapters.\nConnor Clark & Lunn's 5.6% stake in [MDA Space](https://mda.space/) underscores robust investor confidence in Canada's space technology leadership and advanced satellite systems. This investment supports development requiring specialized software stacks for data processing, opening avenues for B2B services in custom analytics adapters for imagery platforms or international space regulatory compliance. National procurements for RCAF SARTech GPS Watches signal ongoing demand for specialized equipment to modernize defence operations.\nExport Development Canada (EDC) is launching a 5-year market and customer research program to guide its strategic decisions, demonstrating a long-term commitment to data-driven operational intelligence. This initiative seeks advanced capabilities in market research and data analytics platforms, presenting opportunities for localized data layer integration or custom analytics adapter development for EDC's platforms.\nNational procurements are underway for essential public safety and critical infrastructure, including a Computer Aided Dispatch Replacement to modernize emergency response communications. Projects like the validation of BLEVE behaviour in the Emergency Response Guidebook highlight continuous need for expert consulting to enhance safety protocols. Opportunities exist for IT system integrators and safety engineering consultants, alongside routine tenders for Grounds Maintenance and Wall Repairs in Port Morien, NS.\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n#CanadianTech #FinTech #SpaceTech #ResponsibleAI #PublicSafety\n\n### Featured News & Sources\n- [Connor Clark & Lunn (MDA) reports 7.7M-share, 5.6% stake in MDA Space - Stock Titan](https://www.stocktitan.net/sec-filings/MDA/schedule-13g-a-mda-space-ltd-amended-passive-investment-disclosure-d8180004191a.html) (Canadian Space Agency)\n- [Wealthsimple reports “biggest quarter ever” as it nearly doubles assets under management in a year - BetaKit](https://betakit.com/wealthsimple-reports-biggest-quarter-ever-as-it-nearly-doubles-assets-under-management-in-a-year/) (Canadian Tech BetaKit)\n- [Royal Bank of Canada extends Vector Institute sponsorship, advancing responsible AI innovation and talent development through 2032 - The Globe and Mail](https://www.theglobeandmail.com/investing/markets/stocks/RY-N/pressreleases/3547394/royal-bank-of-canada-extends-vector-institute-sponsorship-advancing-responsible-ai-innovation-and-talent-development-through-2032/) (Canadian Tech AI Ecosystem)\n- [Royal Bank of Canada Extends Vector Institute Sponsorship, Advancing Responsible AI Innovation and Talent Development Through 2032 - Moomoo](https://www.moomoo.com/news/post/73812456/royal-bank-of-canada-extends-vector-institute-sponsorship-advancing-responsible) (Canadian Tech AI Ecosystem)\n- [Market Research Services](https://www.merx.com/public/solicitations/4045600819/abstract?language=EN) (CanadaBuys / MERX)\n",
   "insights": [
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "Market Research Services",
+      "link": "https://www.merx.com/public/solicitations/4045600819/abstract?language=EN",
+      "date": "2026-07-31T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🎯 Canadian businesses, Export Development Canada (EDC) is actively seeking market research partners for a 5-year program! This is your chance to shape national strategy. #MarketResearch #EDC #Canada",
+        "strategic_value": "*   Export Development Canada (EDC) is investing in a comprehensive, 5-year market and customer research program to guide its strategy, brand, customer experience, and business decisions, signaling a long-term commitment to data-driven operational intelligence.\n*   The initiative targets advanced capabilities in market research methodologies, data analytics platforms, customer experience (CX) design tools, and potentially AI/ML for predictive trend analysis and sentiment tracking.\n*   **Consulting Pivot:** Propose specialized downstream services such as localized data layer integration for regional market segmentation, custom analytics adapter development for existing EDC platforms, or expert consultation on applying advanced CX journey mapping to specific export sectors.",
+        "co_bidding_opportunity": "Market research firms, data analytics specialists, customer experience (CX) consultants, strategic advisory services.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This aligns with EDC's long-term mandate to support Canadian businesses by providing robust market intelligence, enabling informed strategic and financial decisions through digital data analysis and insights generation.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-09-16T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "EDC relies on a strong market and customer research program to guide its strategy, brand, customer experience design, and business decisions. This program includes flagship initiatives such as:&nbsp;\tTrade Confidence Index (TCI): a biannual study tracking exporter sentiment and outlook.&nbsp;\tBrand Tracker ongoing monitoring of EDC&rsquo;s reputation, relevance, and trust.&nbsp;\tCustomer and Partner Journey Research: understanding experiences across awareness, onboarding, servicing, and renewal....",
+      "type": "New",
+      "organization": "Export Development Canada - EDC",
+      "solicitation_number": "26-003-02",
+      "notice_type": "",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "",
+      "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "Request for Information (RFI) for an Enterprise DNS, DHCP, IPAM (DDI) Solution",
+      "link": "https://canadabuys.canada.ca/en/tender-opportunities?search_api_fulltext=BPM026292/34395",
+      "date": "2026-07-31T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🇨🇦 Shared Services Canada is scouting for the next-gen Enterprise DDI solution! If you're innovating in DNS, DHCP, and IPAM, this RFI is your signal. #SSCCanada #DDI #NetworkInfrastructure",
+        "strategic_value": "*   Shared Services Canada (SSC) is initiating an RFI for an Enterprise DNS, DHCP, IPAM (DDI) solution, indicating a strategic intent to modernize critical core network infrastructure within the federal government, potentially influenced by the 'Buy Canadian Policy.'\n*   The RFI seeks advanced, scalable, and secure DDI software suites, likely requiring robust network automation capabilities, enhanced security protocols, and seamless integration with existing government IT ecosystems.\n*   **Consulting Pivot:** Offer specialized integration services for DDI solutions, including custom API development for orchestration with existing IT service management tools, secondary telemetry processing for proactive network health monitoring, or regional compliance auditing services for DDI configurations under federal cybersecurity standards.",
+        "co_bidding_opportunity": "DDI solution providers, network security specialists, IT infrastructure consultants, systems integrators.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Modernizing core DDI infrastructure directly supports the long-term regulatory and financial anchors by enhancing the resilience, security, and efficiency of government digital services and data networks.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-21T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "Request for Information (RFI) – Enterprise DNS, DHCP, and IP Address Management (DDI) SolutionShared Services Canada (SSC) is seeking industry feedback through this Request for Information (RFI) to support the development of a future procurement for an enterprise Domain Name System (DNS), Dynamic Host Configuration Protocol (DHCP), and IP Address Management (IPAM) (DDI) solution.The objective is to establish a standardized, secure, and scalable enterprise DDI platform that will modernize and con...",
+      "type": "New",
+      "organization": "Shared Services Canada",
+      "solicitation_number": "BPM026292/34395",
+      "notice_type": "Request for Information",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "",
+      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)",
+      "recommended_playbook": "Specification Shaping (RFI / EOI)"
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "Spare parts for construction engineering equipment",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-425-46544395",
+      "date": "2026-07-31T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🛠️ DND is procuring spare parts for construction engineering equipment! Essential for operational readiness across Canada. Suppliers, check out this opportunity for Edmonton and Montreal. #DND #SupplyChain #Logistics",
+        "strategic_value": "*   The Department of National Defence (DND) is seeking spare parts for construction engineering equipment, highlighting an ongoing requirement for reliable supply chain management to maintain operational readiness across Canadian Forces Supply Depots (CFSDs).\n*   The procurement targets a diverse range of mechanical, electrical, and hydraulic components, requiring suppliers to meet specific National Stock Number (NSN) and Part Number standards, emphasizing precision and quality control.\n*   **Consulting Pivot:** Propose specialized logistics and inventory management services, such as implementing predictive maintenance analytics for parts consumption, developing optimized regional warehousing solutions for DND depots, or providing custom procurement software adapters to streamline the acquisition of diverse engineering components.",
+        "co_bidding_opportunity": "Logistics partners, specialized parts manufacturers/distributors, inventory management solution providers, supply chain consultants.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "Ensuring a steady and reliable supply of spare parts for DND's construction engineering equipment is crucial for maintaining operational readiness, directly supporting long-term national defense infrastructure, maintenance, and emergency response mandates.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-09-15T00:00:00Z",
+      "province": "Multiple Provinces",
+      "province_abbrev": "MULT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "File Number: W8486-270941/ANOTICE OF PROPOSED PROCUREMENT  The Department of National Defence has a requirement for the items detailed below. The delivery is requested at 25CFSD Montreal, Quebec or 7CFSD Edmonton, Alberta on or before December 31, 2026.Offers must be submitted in Canadian dollars, Applicable Taxes excluded, delivery, and Canadian customs duties and excise taxes included.   Item 1, GSIN: 4330, NSN: 4330-20-0072009, ADAPTER,FLUID FILTERPart No.: 43540NSCM/CAGE: 0NBY0Quantity: 4 Un...",
+      "type": "Open",
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "W8486-270941/A",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
+      "source": "ProteinIndustries_CanadaBuys",
+      "title": "Waste Removal Services",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-53-60958033",
+      "date": "2026-07-31T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🚨 Canadian businesses, listen up! The Correctional Service of Canada is seeking waste removal services for Bowden Institution for a 5-year term. Sustainability reporting is key! #BuyCanadian #WasteManagement",
+        "strategic_value": "* The Government of Canada's 'Buy Canadian Policy' aims to bolster domestic industries, while federal procurement necessitates adherence to the Sustainable Development Strategy, specifically mandating detailed waste weight reporting for environmental accountability.\n* This requires waste management solutions incorporating IoT-enabled waste scales and data logging software capable of providing accurate, verifiable weight data for each pickup, integrating with federal reporting standards for environmental compliance.\n* **Consulting Pivot:** Offer specialized data layer integration services for existing waste management contractors, enabling them to automate and streamline their waste weight reporting to meet federal Sustainable Development Strategy requirements, potentially including custom analytics adapters for compliance dashboards.",
+        "co_bidding_opportunity": "General waste management contractors, logistics partners (for specialized waste collection vehicles), data management/reporting solution providers.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "This aligns with the Protein Industries Canada's broader mandate for sustainable practices and operational efficiency within institutional settings. The federal requirement for waste weight reporting connects to overarching ESG goals and efficient resource management.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-27T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "Waste Removal Services, Bowden InstitutionThis requirement is for: The Correctional Service of Canada, Bowden Institution, Innisfail Alberta.Trade agreement:\t Canada Korea Trade Agreement (CKTA)Policy on Reciprocal Procurement: This solicitation is open only to Canadian suppliers and to Suppliers of an applicable trading partner.Competitive Procurement Strategy: lowest priced compliant bid.Set-aside under the Procurement Strategy for Indigenous Business: This procurement is not subject to any se...",
+      "type": "Open",
+      "organization": "Correctional Service of Canada (CSC)",
+      "solicitation_number": "53700-26-5427086/A",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
     {
       "source": "SpaceDef_CSA",
       "title": "Connor Clark & Lunn (MDA) reports 7.7M-share, 5.6% stake in MDA Space - Stock Titan",
@@ -75,68 +203,22 @@
       }
     },
     {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "B2B Program for the Team Canada Trade Mission to India, October 12-17, 2026",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-864-25768876",
-      "date": "2026-07-30T00:00:00Z",
+      "source": "DIGITAL_Ecosystem_News",
+      "title": "Middle East Leads Sovereign AI LLM Race in H1 2026 as UAE’s Falcon H1 Tops Counterpoint’s Sovereign AI Index - Counterpoint Research",
+      "link": "https://counterpointresearch.com/en/insights/middle-east-leads-sovereign-ai-llm-race-in-h1-2026",
+      "date": "2026-07-30T06:19:09Z",
       "insight": {
-        "linkedin_hook": "🇨🇦 Calling all innovators! Canada's Trade Mission to India in October 2026 is a prime opportunity for B2B matchmaking. Are you ready to connect?",
-        "strategic_value": "*   The Government of Canada's 'Buy Canadian Policy' aims to protect, build, and transform Canadian industries by facilitating international market access for Small and Medium-sized Enterprises (SMEs) in key growth sectors. This trade mission to India represents a direct policy initiative to expand Canadian business reach.\n*   The primary technological target, though a service, involves sophisticated B2B matchmaking platforms and event management systems capable of identifying, vetting, and facilitating introductions between Canadian SMEs and Indian counterparts in priority sectors like Aerospace, Clean Technologies, ICT, Life Sciences, Agri-food, and Forestry. This requires robust digital tools for registrant management, scheduling, and potentially AI-driven matching algorithms.\n*   **Consulting Pivot:** Offer specialized downstream services to either the Canadian SMEs participating in the mission or the prime contractor selected for the B2B matchmaking. This could include pre-mission market intelligence reports for specific Indian sub-sectors, localized data layers for trade compliance, post-mission deal flow tracking and analytics, or cultural and regulatory advisory for cross-border negotiations.",
-        "co_bidding_opportunity": "The solicitation is for a 'Contractor to provide business-to-business matchmaking services.' Potential partner roles include: B2B matchmaking specialist, events management firm, logistics partner (for Mumbai and Bengaluru operations), market research firm (specializing in Indian market insights), and communication/translation services.",
-        "mets_category": "METS-PMO",
-        "mets_rationalization": "This initiative directly supports the 'Buy Canadian Policy' by actively building and transforming Canadian industries through international trade opportunities. The trade mission provides critical project management and advisory services to Canadian SMEs seeking market expansion, which aligns with the METS-PMO category's focus on supporting business development and market entry strategies.",
+        "linkedin_hook": "",
+        "strategic_value": "Insight generation failed or blocked: Unknown reason",
+        "co_bidding_opportunity": "",
+        "mets_category": "",
+        "mets_rationalization": "",
         "grounded_fact_ids": [],
         "anchor_reference": null,
         "program_validation_status": null,
         "export_risk_advisory": null,
         "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-10T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "The Consulate General of Canada to India requires the services of a Contractor to provide business-to-business matchmaking services for a select number of small and medium-sized Canadian enterprises (SMEs) with strong potential to address opportunities in India and generate tangible business outcomes. The B2B program will take place in Mumbai and Bengaluru, from October 12 to 17, 2026.The Trade Mission will focus on six (6) priority sectors:1.\tAerospace and Space2.\tClean Technologies and Energy ...",
-      "type": "New",
-      "organization": "Department of Foreign Affairs, Trade and Development (GAC)",
-      "solicitation_number": "27-322571-MMBAI-SL",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Please refer to Tender Description or Tender Documents",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "PR19366 47419-264488 ITQ Radiation Detection Systems and Support ITQ - List of Qualified Respondents",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/WS5265437959-Doc5813700607",
-      "date": "2026-07-30T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🚨 National Security Alert! The CBSA has announced its pre-qualified list for Radiation Detection Systems. Is your firm ready to support these critical national security operations? 🛡️",
-        "strategic_value": "*   The Canadian Border Services Agency (CBSA) is strengthening national security infrastructure, aligned with the 'Buy Canadian Policy,' by pre-qualifying vendors for advanced radiation detection systems. This represents a long-term, high-value procurement stream to protect Canadian borders.\n*   The technological target encompasses highly specialized hardware and integrated software solutions across four streams: Portal, Vehicle Mounted, Handheld, and Personal Radiation Detectors. This requires expertise in sensor technology, data fusion, real-time analytics for threat detection, secure data transmission (e.g., encrypted protocols), and ruggedized hardware standards for operational environments.\n*   **Consulting Pivot:** Engage with the listed Qualified Respondents (QRs) to provide essential downstream support services. This could involve offering regional compliance auditing for system deployments across diverse border points, developing custom analytics adapters to integrate radiation data with existing CBSA operational dashboards, or providing secondary telemetry processing for enhanced data integrity and predictive maintenance of the systems.",
-        "co_bidding_opportunity": "As this is a Prime-Tracking (Pre-Qualification) scenario, the qualified respondents are the prime contractors. Subcontracting opportunities for these primes could include: systems integrator (for deployment and network integration), calibration and maintenance service provider, secure data management specialist, software development for custom user interfaces or advanced data analytics, logistics partner (for national deployment), and specialized training services for CBSA personnel.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "The procurement of radiation detection systems directly contributes to critical operational infrastructure for national security. This aligns with the 'Buy Canadian Policy' by strengthening Canada's security capabilities and potentially involving Canadian firms in the supply chain. The nature of these systems as physical equipment and their deployment/maintenance falls squarely into the METS-Ops category.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2027-01-20T00:00:00Z",
-      "province": "NCR (Ottawa/Gatineau)",
-      "province_abbrev": "NCR",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "On August 25 2025 Canada issued an Invitation to Qualify (ITQ) (Solicitation CW2410036 / 47419-264488 ) allowing for interested parties to pre-qualify for future CBSA Radiation Detection Systems and Support needs. Four streams made up this ITQ.Stream 1 – Portal Radiation Detection SystemsStream 2 – Vehicle Mounted Radiation Detection SystemsStream 3 – Handheld Radiation DetectorsStream 4 – Personal Radiation DetectorsThe ITQ closed on October 16 2025 at 2pm EDT. This notice serves to announce th...",
-      "type": "New",
-      "organization": "Department of Public Works and Government Services (PSPC)",
-      "solicitation_number": "WS5265437959",
-      "notice_type": "Invitation to Qualify",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Prime-Tracking (Pre-Qualification)"
+      }
     },
     {
       "source": "Energy_CleanTech",
@@ -269,68 +351,22 @@
       }
     },
     {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "Electrical Wire",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-213-16110799",
-      "date": "2026-07-28T00:00:00Z",
+      "source": "CanTech_Federal_AI",
+      "title": "Funding opportunities - nserc-crsng.canada.ca",
+      "link": "https://nserc-crsng.canada.ca/en/funding/funding-opportunity?search_api_fulltext=&field_archived=1&page=4",
+      "date": "2026-07-28T03:16:17Z",
       "insight": {
-        "linkedin_hook": "⚡ DND needs electrical wire by September 15th! This RFP is specifically for pre-qualified suppliers under SA E60HN-16ELEC. Are you an SA holder looking to partner or an un-qualified firm seeking entry?",
-        "strategic_value": "- The Department of National Defence requires various electrical wire types, with a tight delivery deadline of September 15th, 2026.\n- This procurement is an RFP issued exclusively against an existing Supply Arrangement (SA series E60HN-16ELEC), meaning only pre-qualified suppliers can submit bids.\n- **Consulting Pivot:** Offer services to un-qualified Canadian suppliers for navigating the Public Services and Procurement Canada (PSPC) Supply Arrangement qualification process for E60HN-16ELEC, enabling future participation, or provide subcontract integration support to existing SA holders for specialized electrical wire types or expedited regional delivery requirements.",
-        "co_bidding_opportunity": "Pre-qualified Supply Arrangement holders (E60HN-16ELEC) may partner with specialized electrical wire manufacturers or logistics providers.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "Supports the DND's ongoing operational and infrastructure maintenance requirements, demonstrating a consistent demand for basic electrical components under established procurement frameworks.",
+        "linkedin_hook": "🇨🇦 Canada’s latest NSERC funding rounds are a goldmine for industrial tech providers looking to co-develop advanced AI and semiconductor technologies. Here is how to position your firm downstream. 👇",
+        "strategic_value": "* NSERC's open bilateral calls, including the NSERC-NSTC Taiwan partnership and CASBE Stream II, provide direct financial pathways for integrating advanced AI models and custom silicon/semiconductor designs into heavy industrial applications.\n* Qualifying project consortia must leverage specific technological targets, such as PyTorch-based machine learning pipelines for physical modeling or RISC-V edge computing architectures for low-power remote sensors.\n* **Consulting Pivot:** Propose downstream integration services, such as developing localized data adaptation layers for AI model training, custom telemetry processing modules, and regional compliance auditing for international AI standards, allowing you to secure high-margin subcontracts with prime academic-industry consortia without competing for the lead role.",
+        "co_bidding_opportunity": "Based on NSERC Alliance, OCI, and CASBE program guidelines, a valid project consortium must include an eligible Canadian academic research lab as the prime applicant, a specialized AI or semiconductor SME to lead the technical development, and an industrial partner (such as a mining operator or logistics contractor) to serve as the technology pilot host.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Connecting federal semiconductor and AI R&D funding to practical METS applications directly accelerates the deployment of edge-compute telemetry and autonomous monitoring hardware, which are essential for digital transformation and remote operations in northern mining corridors.",
         "grounded_fact_ids": [],
         "anchor_reference": null,
         "program_validation_status": null,
         "export_risk_advisory": null,
         "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-12T00:00:00Z",
-      "province": "Multiple Provinces",
-      "province_abbrev": "MULT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "NPP - As a requirement of the Supply Arrangement (SA) this notice is published on Buyandsell for a period of 15 calendar days. Only pre-qualified Suppliers have been invited to bid. Suppliers that do not already hold a Supply Arrangement in series E60HN-16ELEC with PSPC cannot submit a bid.The Department of National Defence has a requirement for various electrical wireRequested delivery date for above-mentioned goods is September 15th, 2026If you wish to find out how you can become a qualified S...",
-      "type": "Open",
-      "organization": "Department of National Defence (DND)",
-      "solicitation_number": "W6854-2026009",
-      "notice_type": "RFP against Supply Arrangement",
-      "procurement_method": "Competitive - Traditional",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-    },
-    {
-      "source": "ProteinIndustries_CanadaBuys",
-      "title": "Sockets and Relays",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-175-75266282",
-      "date": "2026-07-28T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "💡 DND is seeking critical electronic components for CFB Halifax and Esquimalt! With 'Buy Canadian Policy' driving procurement, is your company positioned to supply or substitute?",
-        "strategic_value": "- The Department of National Defence (DND) is procuring a range of electronic sockets and electromagnetic relays for its facilities at CFB Halifax and CFB Esquimalt, under the umbrella of the 'Buy Canadian Policy'.\n- The requirement specifies various part numbers for sockets (e.g., S301B1A2, S300-A1A2, S500A1A) and relays (e.g., M301D4K, M300-D4N, M500-1554), with an explicit invitation for bidders to propose equivalent or substitute products.\n- **Consulting Pivot:** Offer specialized supply chain advisory services to prime contractors, identifying Canadian manufacturers capable of producing compliant equivalent electronic components, or provide regional compliance auditing for parts sourcing under the 'Buy Canadian' framework.",
-        "co_bidding_opportunity": "Canadian electronic component manufacturers, electronic parts distributors, and suppliers of equivalent or substitute electronic components.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "Supports the DND's ongoing operational readiness and maintenance requirements for naval bases, aligning with the federal mandate to strengthen domestic supply chains through the 'Buy Canadian Policy'.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-12T00:00:00Z",
-      "province": "Multiple Provinces",
-      "province_abbrev": "MULT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "NOTICE OF PROPOSED PROCUREMENT\t\t\t\t\t\t\t\t\t\t\t\t\t\tThe Department of National Defence has a requirement for the items detailed below. The delivery is requested at CFB Halifax and CFB Esquimalt.\t\t\t\t\t\t\t\t\t\t\t\t\t\tLine Item: 001 SOCKET,PLUG-IN ELECTRONIC COMPONENTS\t\t\t\t\tPart Number: S301B1A2 NCAGE: D0080 LEACH INTERNATIONAL GERMANY GMBH\t\t\tGSIN: 5935 Quantity: 10 UoI: EA to be delivered to: CFB Esquimalt\t\t\t\t\t\t\tLine Item: 002 SOCKET,PLUG-IN ELECTRONIC COMPONENTS\t\t\t\t\tPart Number: S300-A1A2 NCAGE: F0219\tLEACH INTE...",
-      "type": "Open",
-      "organization": "Department of National Defence (DND)",
-      "solicitation_number": "W8482-275349/A",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+      }
     },
     {
       "source": "ProteinIndustries_FoodSecurity",
@@ -849,30 +885,6 @@
       }
     },
     {
-      "source": "DIGITAL_Ecosystem_News",
-      "title": "Cohere teams up with Humain to deliver sovereign AI in Middle East - Telecompaper",
-      "link": "https://www.telecompaper.com/news/cohere-teams-up-with-humain-to-deliver-sovereign-ai-in-middle-east--1576653",
-      "date": "2026-07-10T15:09:17Z",
-      "insight": {
-        "linkedin_hook": "🚀 Canadian AI goes global! Cohere's strategic partnership with Humain for sovereign AI in the Middle East marks a significant expansion of AI compute capacity, showcasing Canada's leadership in secure, frontier AI models. #CanadianInnovation #GlobalAI",
-        "strategic_value": "- This collaboration, backed by diplomatic and economic alignment between Canada and Saudi Arabia, significantly expands AI compute capacity in the Middle East, aligning with Canada's broader strategy for secure and sovereign AI compute.\n- The technological target is the deployment of frontier AI models and special-purpose sovereign AI models, requiring robust secure cloud data spaces, high-performance computing (HPC) infrastructure, and federated learning architectures for privacy-preserving AI development.\n- * **Consulting Pivot:** Offer specialized regional compliance auditing and data governance consulting services to prime partners like Cohere or Humain, focusing on ensuring the deployed sovereign AI solutions strictly adhere to Middle Eastern data residency and privacy regulations, while leveraging Canadian best practices for secure cloud data spaces.",
-        "co_bidding_opportunity": "Secure Cloud Solutions Provider, AI Deployment Specialist, Data Privacy & Governance Expert (Middle East regulatory focus), High-Performance Computing (HPC) Systems Integrator.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "The news directly supports the long-term regulatory anchor of Canada's Sovereign AI Compute Strategy by demonstrating global expansion of sovereign AI capabilities and secure cloud data spaces, as highlighted in Fact ID 101, which prioritizes these architectures for sensitive data.",
-        "grounded_fact_ids": [
-          101
-        ],
-        "anchor_reference": {
-          "source_name": "DIGITAL Sovereign AI Strategy 2025",
-          "page_range": "Page 11",
-          "url": "https://digitalsupercluster.ca/category/news/"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      }
-    },
-    {
       "source": "DIGITAL_Federal_News",
       "title": "Canadian Forum for Digital Infrastructure Resilience (CFDIR) - ised-isde.canada.ca",
       "link": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/learn-more/committees-and-stakeholders/committees-and-councils/canadian-forum-digital-infrastructure-resilience-cfdir",
@@ -904,21 +916,6 @@
         "co_bidding_opportunity": "AI/ML specialists, Robotics engineering firms, Environmental DNA sequencing labs/Bioinformatics SMEs, Geospatial data analytics and remote sensing experts, Specialized sensor hardware providers, Systems integrators for complex operational technology (OT) environments, Indigenous ecological knowledge consultants/organizations.",
         "mets_category": "METS-Digital",
         "mets_rationalization": "This initiative directly supports Canada's long-term strategy for critical mineral supply chain security and environmental stewardship in resource development, aligning with the need for digital infrastructure and advanced data processing capabilities to enhance both economic competitiveness and ESG performance.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "CanTech_Federal_AI",
-      "title": "Government of Canada supports Etobicoke manufacturing business in adopting AI - canada.ca",
-      "link": "https://www.canada.ca/en/economic-development-southern-ontario/news/2026/07/government-of-canada-supports-etobicoke-manufacturing-business-in-adopting-ai.html",
-      "date": "2026-07-09T14:48:10Z",
-      "insight": {
-        "linkedin_hook": "🇨🇦 Manufacturing's AI future is here! FedDev Ontario is backing Huys Industries with $660K to integrate AI into their ESD welding systems. This isn't just about efficiency; it's a strategic move for Canadian SMEs to dominate high-value component repair. #AI #Manufacturing #CanadaInnovation",
-        "strategic_value": "*   The Government of Canada, through FedDev Ontario's Regional Artificial Intelligence Initiative, is investing $660,000 in Huys Industries to advance AI adoption in manufacturing, specifically aligning with Canada’s Artificial Intelligence Strategy: AI for All, which prioritizes SME integration for national economic growth.\n*   The project targets the integration of AI into existing electric spark deposition (ESD) welding systems for coating and repairing metallic components, requiring specialized AI software for process optimization, quality control, and predictive maintenance within an industrial manufacturing context.\n*   **Consulting Pivot:** Offer specialized services such as custom analytics adapter development for integrating AI-driven ESD system data with broader manufacturing execution systems (MES), secondary telemetry processing for welding performance optimization and anomaly detection, or regional compliance auditing for safety and quality standards (e.g., CWB, ISO) related to AI-enhanced industrial processes.",
-        "co_bidding_opportunity": "AI software development specialists (particularly for industrial automation and process control), academic or research labs for AI model validation and performance testing in manufacturing, and industrial systems integrators experienced in deploying advanced robotics/automation solutions.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "This investment in AI for advanced manufacturing directly supports the modernization of Canadian industrial operations, aligning with clusters focused on smart manufacturing and digital transformation to enhance productivity and global competitiveness for SMEs.",
         "grounded_fact_ids": [],
         "anchor_reference": null
       }
@@ -1107,43 +1104,6 @@
           "source_name": "Scale AI Program Guidelines 2026",
           "page_range": "Page 8",
           "url": "https://www.scaleai.ca/guidelines"
-        }
-      }
-    },
-    {
-      "source": "ScaleAI_Federal_News",
-      "title": "Transport Canada announces upcoming changes to strengthen required training and certification standards for railway workers - canada.ca",
-      "link": "https://www.canada.ca/en/transport-canada/news/2026/07/transport-canada-announces-upcoming-changes-to-strengthen-required-training-and-certification-standards-for-railway-workers.html",
-      "date": "2026-07-02T14:02:48Z",
-      "insight": {
-        "linkedin_hook": "Railway safety is evolving! 🚂 New federal regs for rail training start the clock on a 2-year transformation of safety-critical operations.",
-        "strategic_value": "* Transport Canada is mandating updated training and certification for critical positions, including remote control locomotive operators, effective in 24 months.\n* Technology requirements involve digital record-keeping systems and Crew Resource Management software, as the industry moves away from legacy 1987 standards.\n* **Consulting Pivot:** Propose the development of a localized data layer that automates compliance auditing for railway training records, ensuring operators can satisfy the new digital certification mandate within the two-year window.",
-        "co_bidding_opportunity": "Specialized vocational training platforms, LMS (Learning Management Systems) providers, and rail safety consultants are required to form compliant workforce development consortia.",
-        "mets_category": "METS-PMO",
-        "mets_rationalization": "Updating safety standards is a regulatory imperative that impacts how operational technology and personnel management software must be integrated in industrial sectors.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "OceanCluster_News",
-      "title": "National Indigenous Peoples Day 2026",
-      "link": "https://oceansupercluster.ca/national-indigenous-peoples-day-2026/",
-      "date": "2026-06-30T17:01:00Z",
-      "insight": {
-        "linkedin_hook": "Indigenous-led innovation is the heartbeat of Canada's blue economy. 🌊✨",
-        "strategic_value": "* The Ocean Supercluster (OSC) prioritizes projects that integrate 'Two-Eyed Seeing', aligning traditional Indigenous ecological knowledge with modern marine technology.\n* Financial support for Indigenous-led initiatives is a core component of the OSC's $600M portfolio, emphasizing community-led design for marine awareness and decarbonization.\n* **Consulting Pivot:** Propose the development of custom 'Indigenous Data Sovereignty' wrappers for marine sensors, ensuring that data collected on coastal territories complies with both OSC metadata standards and local community governance protocols.",
-        "co_bidding_opportunity": "Consortiums must include: Indigenous community governance bodies, marine sensor hardware manufacturers, and academic research labs specializing in traditional ecological knowledge (TEK) integration.",
-        "mets_category": "METS-ESG",
-        "mets_rationalization": "The hook aligns with Fact ID 401 regarding Indigenous economic development and community co-design in ocean innovation.",
-        "grounded_fact_ids": [
-          400,
-          401
-        ],
-        "anchor_reference": {
-          "source_name": "OSC Strategic Plan 2023-2028",
-          "page_range": "Page 7",
-          "url": "https://oceansupercluster.ca/strategic-plan"
         }
       }
     }
