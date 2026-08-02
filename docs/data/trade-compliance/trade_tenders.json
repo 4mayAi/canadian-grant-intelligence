@@ -517,44 +517,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFP- Digital Firefighting Equipment W0103-18944414 Solicitation",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-330-14055145",
-    "date": "2026-07-13T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Modernizing naval training: Digital firefighting tech goes to tender at CFB Esquimalt. 🔥",
-      "strategic_value": "* Given the 7-month contract window, supply chain slippage risks daily liquidated damages or 're-procurement' premiums of 15% above original contract pricing if delivery timelines are breached.\n* Adherence to the 'Buy Canadian' policy and potential tariff exposure on imported electronic sensors requires sophisticated valuation mapping to ensure competitive pricing.\n* **Consulting Pivot:** Propose a 'Contractual Compliance & ESG Audit' package for $15k, helping bidders navigate Bill C-59 greenwashing disclosure requirements for the integrated training systems, ensuring 3% of global revenue is protected from regulatory penalty.",
-      "co_bidding_opportunity": "Technical training system integrators, digital fire-simulation software developers, and defense logistics contractors capable of navigating the DND procurement framework.",
-      "mets_category": "Trade Remedies & Competition",
-      "mets_rationalization": "Procurement of specialized technology under DND contracts involves significant regulatory scrutiny regarding origin of goods and competitive compliance.",
-      "grounded_fact_ids": [
-        5
-      ],
-      "anchor_reference": {
-        "source_name": "Competition Bureau Canada",
-        "page_range": "Bill C-59 Anti-Greenwashing Guidelines",
-        "url": "https://ised-isde.canada.ca/site/competition-bureau-canada/en"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-07-31T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "Department of National Defence (DND), CFB Esquimalt, Base Logistics, Naval Training Group (Pacific) is developing a containerized DC training system to increase training capacity at Damage Control Training Facilities (DCTFs) and meet increasing Naval Environment Training Program (NETP) and refresher training requirements. To enable realistic, deployable, and modernized firefighting training within containerized environments, the RCN requires the supply of specialized digital firefighting equipme...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W0103-18944414",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Traditional",
-    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "NPP-Task-Based Informatics Professional Services (TBIPS) – Stream A.1.6: Programmer/Software Developer (Level 2) for the Department of National Defence",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-702-62436471",
     "date": "2026-07-13T00:00:00Z",
@@ -590,44 +552,6 @@
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
     "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
-    "title": "Medevac services",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-831-925312",
-    "date": "2026-07-13T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Global medical mobility for DND personnel requires a 24/7 mission-critical logistical shield. 🚁",
-      "strategic_value": "* Inadequate logistical coordination for medevac services risks medical liability exposure and immediate loss of service eligibility, with operational downtime costs exceeding $50k per incident.\n* Execution requires seamless bed-to-bed coordination and navigation of complex international customs and immigration requirements during urgent patient transit.\n* **Consulting Pivot:** Pitch a 'Medevac Regulatory Compliance Bridge' for private transport operators to align their internal reporting and border-transit protocols with DND standards for a $40k consulting fee per mission-readiness review.",
-      "co_bidding_opportunity": "Engage in Specification Shaping (RFI/EOI) to partner with logistics firms seeking to fulfill the mandatory immigration/customs and reporting components of the RFI.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "Medevac operations represent the highest tier of essential logistics infrastructure, necessitating strict cross-border regulatory compliance.",
-      "grounded_fact_ids": [
-        7
-      ],
-      "anchor_reference": {
-        "source_name": "Global Affairs Canada",
-        "page_range": "SEMA Sanctions Registry",
-        "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/index.aspx"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-07-31T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "The Contractor must provide Medical Evacuation (medevac) Services for military personnel, DND employees, dependents of military personnel, and dependents of DND employees across the globe and on a 24/7 basis.  Medevac includes the following service components:a.\tService Availability & Responsivenessb.\tBed-to-Bed Transportationc.\tPriority of Patient Cared.\tCategory of Patient Caree.\tMedical Oversightf.\tPatient Deliveryg.\tFull-Service Coordinationh.\tImmigration/Customs Requirementsi.\tCommunication...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W884-260869",
-    "notice_type": "Request for Information",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Variations or combinations of the above methods",
-    "trade_agreements": "None",
-    "recommended_playbook": "Specification Shaping (RFI / EOI)"
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
@@ -1233,38 +1157,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFP - 12 FT Observatory Dome",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-967-61132967",
-    "date": "2026-07-07T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "",
-      "strategic_value": "Insight generation failed or blocked: Unknown reason",
-      "co_bidding_opportunity": "",
-      "mets_category": "",
-      "mets_rationalization": "",
-      "grounded_fact_ids": [],
-      "anchor_reference": null,
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-07-31T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "The National Research Council Canada has a requirement for the supply of a large clamshell observatory dome that opens entirely to allow for full sky tracking. The dome must have a freestanding base, with a total weight less than 1,000 lbs. The side door should be at least 28” x 68” in size. The clear usable height inside should be at least 3.5 m and the diameter should be at least 3.6 m but at most 4 m to fit on our existing platform. In order to be controlled from a distance, the dome must hav...",
-    "type": "Open",
-    "organization": "National Research Council of Canada (NRC)",
-    "solicitation_number": "26-58054",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "Request for Information (RFI) Enterprise Network Access Control Solution",
     "link": "https://canadabuys.canada.ca/en/tender-opportunities?search_api_fulltext=BPM026155/34174",
     "date": "2026-07-06T00:00:00Z",
@@ -1537,44 +1429,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "Learning Services in Simulated Environment",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-234-57694854",
-    "date": "2026-06-22T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Security clearance is the gatekeeper of the defense supply chain. Are your logistics operations ready for the DND's simulation requirements? 🛡️",
-      "strategic_value": "* Failure to maintain 'Secret' level personnel and organizational security clearance results in an immediate disqualification, causing a total loss of bid preparation costs, which for complex DND simulation contracts, can exceed $50k in administrative man-hours.\n* Execution requires immediate synchronization with the Industrial Security Program (ISP) to ensure the physical facility and digital data environment (OT/IT) comply with the 24-hour incident reporting and cyber-security controls necessitated by Bill C-26.\n* **Consulting Pivot:** We provide a 'Security Clearance & Compliance Readiness Package' for $18,000, which includes a gap analysis of your current IT/OT architecture against DND's security clauses and direct assistance in managing the ISP portal submission.",
-      "co_bidding_opportunity": "Identify prime contractors specializing in 'Simulation and Training Systems' listed in the CanadaBuys supplier registry. Pitch a 'Managed Security and Training Support' role to act as a qualified subcontractor for the operator-level simulation services.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "This tender for small arms simulation services requires navigating DND's Industrial Security Program, which is a mandatory prerequisite for critical government infrastructure and defense equipment contracts.",
-      "grounded_fact_ids": [
-        6
-      ],
-      "anchor_reference": {
-        "source_name": "Public Safety Canada / Transport Canada",
-        "page_range": "Bill C-26 Critical Infrastructure Protection",
-        "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/crtcl-nfrstrctr-eng.aspx"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-07-31T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "NOTICE OF PROPOSED PROCUREMENTFile Number: W3915-260016/ATier: 1 (< $3.75M)This requirement is for the Department of National Defence (DND) for the services a contract for Small Arms Trainer (SAT) and Indirect Fire Trainer Operators at sites across Canada. The intent of this solicitation is to establish one (1) Contract for two (2) years. Documents may be submitted in either official language of Canada.RFP documents will be posting in CanadaBuys. Bidders are advised that the RFP documents are av...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W3915-260016/A",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Cost-per-Point",
-    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "RFP - FW076-251224- 5.5m-5.9m Open Aluminum Monohull Boat and Trailer",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/WS5712073811-Doc5745450726",
     "date": "2026-06-22T00:00:00Z",
@@ -1725,44 +1579,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "F5644-250029 - RISO - Marine Grade Diesel Exhaust Fluid",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015881?anId=ANONYMOUS",
-    "date": "2026-06-12T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Decarbonizing our waters: The new standard for marine environmental compliance. 🚢",
-      "strategic_value": "*   Inadequate DEF fluid procurement risks vessel downtime costs exceeding $5,000/day in operational losses, compounded by potential CITT-adjudicated penalties for failure to meet environmental emissions benchmarks.\n*   Execution requires secure supply-chain verification to ensure DEF chemical composition satisfies the high-performance SCR requirements of the CCGS Naalak Nappaaluk, necessitating pre-vessel clearance for all hazardous materials.\n*   **Consulting Pivot:** We provide a 'Marine ESG & Supply Chain Verification Audit' for $12,000, mapping your chemical reagent sourcing to prevent 'greenwashing' claims under Bill C-59 while ensuring technical compliance with IMO and Canadian maritime standards.",
-      "co_bidding_opportunity": "Engage as a Tier-2 supply chain logistics partner for prime marine vessel maintenance contractors currently serving the Canadian Coast Guard's National Shipbuilding Strategy.",
-      "mets_category": "Border Compliance & Tariffs",
-      "mets_rationalization": "Connects environmental mandates (SCR) with strict regulatory compliance required for critical government infrastructure.",
-      "grounded_fact_ids": [
-        5
-      ],
-      "anchor_reference": {
-        "source_name": "Competition Bureau Canada",
-        "page_range": "Bill C-59 Anti-Greenwashing Guidelines",
-        "url": "https://ised-isde.canada.ca/site/competition-bureau-canada/en"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-07-31T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "The Canadian Coast Guard has recieved the new Offshore Oceanographic Science vessel,  CCGS Naalak Nappaaluk, built through Canada’s National Shipbuilding Strategy.  In an effort to reduce emissions as set by the Government of Canada, this most recent vessel will be equipped with a Selective Catalytic Reduction (SCR) that requires Marine grade Diesel Exhaust Fluid (DEF) in order to limit the amount of pollutants expelled by the vessel when the engines are operative.  Barring any other conditions ...",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5467865775",
-    "notice_type": "Request for Standing Offer",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)",
-    "recommended_playbook": "Procurement Gateway Entry (RFSO / RFSA)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "CM - Wainwright Range and Training Area Program",
     "link": "https://www.merx.com/public/solicitations/3952147604/abstract?language=EN",
     "date": "2026-06-10T00:00:00Z",
@@ -1908,44 +1724,6 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
     "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFP - Oily Water Separator procurement",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014241?anId=ANONYMOUS",
-    "date": "2026-05-25T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Supplying the Halifax Class fleet? Your maritime supply chain is officially in the crosshairs of global trade scrutiny. 🚢",
-      "strategic_value": "* Non-compliance with SIMA anti-dumping thresholds can lead to retaliatory duties and potential supply chain stalling, incurring demurrage costs of $250-$450/day per TEU.\n* Execution requires robust pre-vessel clearance filings and explicit proof of origin documentation to bypass CITT scrutiny on marine mechanical components.\n* **Consulting Pivot:** We offer a 'SIMA/CITT Defense Audit' to ensure your oily water separator sourcing avoids duty-laden high-risk regions, with a structured retainer of $20,000 for full regulatory vetting.",
-      "co_bidding_opportunity": "Subcontract or partner with naval architecture firms or existing defense logistics contractors already familiar with the technical requirements for Halifax Class marine systems.",
-      "mets_category": "Trade Remedies & Competition",
-      "mets_rationalization": "Procurement of specialized maritime equipment like oily water separators triggers CITT and SIMA oversight regarding duty-impacted international manufacturing.",
-      "grounded_fact_ids": [
-        4
-      ],
-      "anchor_reference": {
-        "source_name": "Canadian International Trade Tribunal",
-        "page_range": "SIMA Advisory",
-        "url": "https://www.citt-tcce.gc.ca/en/home.html"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-07-31T00:00:00Z",
-    "province": "Quebec",
-    "province_abbrev": "QC",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "Supply Oily Water Separators for the Halifax Class",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5263258905",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   },
   {
@@ -3477,83 +3255,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFP B - Design and Manufacture Power Distribution",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110016571?anId=ANONYMOUS",
-    "date": "2026-06-19T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Powering Canada's North demands more than just delivery; it requires ironclad compliance. ⚡",
-      "strategic_value": "* Failure to comply with specific CETA/CFTA technical standards can lead to bid rejection, resulting in lost opportunity costs and potential demurrage charges if logistics timelines slip during Arctic shipping windows.\n* Execution involves pre-clearing hardware technical specifications against Canadian electrical standards and ensuring CARM-ready documentation for all imported components to avoid customs holds.\n* **Consulting Pivot:** We provide a $15k 'Trade Compliance & Logistics Review' to ensure your proposal meets all duty-drawback requirements and technical certifications, maximizing your competitive pricing edge for northern deliveries.",
-      "co_bidding_opportunity": "Partner with regional freight forwarders specializing in Arctic logistics or electrical engineering firms certified for installation and maintenance within NWT territories.",
-      "mets_category": "Border Compliance & Tariffs",
-      "mets_rationalization": "Aligns the specific requirement for power distribution equipment with the broader mandatory CARM bonding and import tariff compliance necessitated by the CBSA as the system of record.",
-      "grounded_fact_ids": [
-        3
-      ],
-      "anchor_reference": {
-        "source_name": "Canada Border Services Agency",
-        "page_range": "Customs Notice CN26-04",
-        "url": "https://www.cbsa-asfc.gc.ca/prog/carm-gcra/menu-eng.html"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-07-31T00:00:00Z",
-    "province": "Northwest Territories",
-    "province_abbrev": "NT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "Health Canada (HC) requires the design, supply and delivery of one (1) Power Distribution Kiosk with Automatic Transfer Switch to Yellowknife, NWT. This solicitation of offers cancels and supersedes previous solicitation of offers number Doc5595718760 dated 2026-03-23 with a closing of 2026-04-10 at 2pm.The requested delivery date is September 25, 2026. There are no security requirements associated with this requirement.",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5717388391",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)North American Free Trade Agreement (NAFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
-    "title": "Marine Propellers",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-881-92306189",
-    "date": "2026-06-18T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Maritime hardware procurement just got stricter. ⚓ Ensure your naval supply chain isn't flagged under the new integrity and suspension policy.",
-      "strategic_value": "* Non-compliance with the Ineligibility and Suspension Policy can lead to a total freeze on procurement revenue and multi-year debarment from federal bidding, effectively locking suppliers out of the lucrative defense ecosystem.\n* Operational play mandates rigorous Chain-of-Custody (CoC) documentation for raw materials (NiBrAl) and the establishment of a 'Pre-Vessel Clearance' validation for technical support inputs to satisfy CBSA/RCMP procurement scrutiny.\n* **Consulting Pivot:** We provide a 'Federal Integrity Certification' service (fixed fee $15,000) that validates your supply chain against the Ineligibility and Suspension Policy, ensuring clean eligibility status for upcoming RCMP patrol vessel tenders.",
-      "co_bidding_opportunity": "Partner with established marine defense contractors as a technical sub-consultant for propeller tuning and performance validation services required under the contract statement of work.",
-      "mets_category": "Border Compliance & Tariffs",
-      "mets_rationalization": "RCMP procurement mandates compliance with strict vendor integrity and suspension policies, necessitating rigorous origin and supplier vetting.",
-      "grounded_fact_ids": [
-        3,
-        7
-      ],
-      "anchor_reference": {
-        "source_name": "Canada Border Services Agency",
-        "page_range": "Customs Notice CN26-04",
-        "url": "https://www.cbsa-asfc.gc.ca/prog/carm-gcra/menu-eng.html"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-07-31T00:00:00Z",
-    "province": "British Columbia",
-    "province_abbrev": "BC",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "The Royal Canadian Mounted Police (RCMP) requires new 5 Blade NiBrAl surface Piercing Propellers for the Patrol Vessels Lindsay and Higgitt. One initial pair for testing and tuning, with an optional two pairs, to be supplied after acceptance of successful testing. The Contractor must provide technical assistance to the RCMP if the propellers require tuning after testing, including providing guidance for propeller adjustments.Delivery must be made within 12 weeks of the contract awarded date.Poli...",
-    "type": "Open",
-    "organization": "Royal Canadian Mounted Police (RCMP)",
-    "solicitation_number": "M2989-5-0275/A.",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "Housing Construction Program MDB CFHA RPCIP Bagotville, Montreal & Valcartier",
     "link": "https://www.merx.com/public/solicitations/3988916810/abstract?language=EN",
     "date": "2026-06-05T00:00:00Z",
@@ -4324,38 +4025,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "Atlantic Whitefish Holding, Raising and Captive-Breeding",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-63-15337421",
-    "date": "2026-07-16T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Conservation meets compliance: Is your supply chain ready for strict regulatory oversight? 🐟",
-      "strategic_value": "* Direct financial penalties for non-compliance with DFO standards could include immediate contract termination, recovery of lost government assets, and exclusion from future high-value research tenders, alongside potential liability for project failure costs.\n* Execution requires strict logistical adherence to 150km proximity mandates and redundant fail-safe power/mechanical infrastructure to prevent biological asset loss, necessitating certified mechanical and veterinary audit trails.\n* **Consulting Pivot:** We offer a specialized 'Conservation Compliance & Bio-Audit' package. Fee structures include a $15,000 baseline technical validation audit, ensuring facility documentation aligns with DFO regulatory requirements before submission.",
-      "co_bidding_opportunity": "Partnership opportunities exist for aquatic veterinary clinics, specialized mechanical HVAC/generator system integrators, and academic research institutions with proven track records in salmonid population genetics.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "This involves specialized supply chain management of live biological assets, requiring specific infrastructure compliance and risk mitigation systems.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null,
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-07-31T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "The Department of Fisheries and Oceans Canada (DFO) has a requirement to the holding, raising and genetically managed breeding of captive-held Atlantic Whitefish and any additional wild-caught YOY collected in present and future years of this project, and to further the development and testing of the genetic marker panel to support the development of a preliminary mating strategy for Atlantic Whitefish breeding.The work will involve the following: Project ObjectivesThe project objectives are two...",
-    "type": "Open",
-    "organization": "Department of Fisheries and Oceans (DFO)",
-    "solicitation_number": "30008180",
-    "notice_type": "",
-    "procurement_method": "Advance contract award notice",
-    "selection_criteria": "",
-    "trade_agreements": "Please refer to Tender Description or Tender Documents",
-    "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "RFP for Height Adjustable Work Surfaces, Privacy Panels and Monitor Arms",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-424-96355268",
     "date": "2026-07-15T00:00:00Z",
@@ -4385,44 +4054,6 @@
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
-    "title": "Electrical Load Banks",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-754-58069090",
-    "date": "2026-07-09T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Arctic defense research requires rigorous supply chain transparency. Are your load banks compliant with new northern procurement criteria? ❄️",
-      "strategic_value": "* With a 90-day delivery mandate, supply chain bottlenecks for technical components will trigger liquidated damages; firms must optimize logistics to avoid daily penalties associated with federal defense equipment delivery delays.\n* Execution relies on balancing technical merit with Inuit Benefit Plan commitments; firms must secure local northern logistics partners to satisfy the 'Highest Combined Rating' requirement.\n* **Consulting Pivot:** Launch a 'DND Compliance & Inuit Benefit Strategy' offering for $20k, facilitating the partnership between specialized electronics manufacturers and northern logistical hubs to satisfy the specific socioeconomic criteria of this procurement.",
-      "co_bidding_opportunity": "Partner with northern-based entities as the primary logistics or supply-chain partner to maximize the Inuit Benefit Plan criteria score required by DND.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "This involves defense-related technical equipment requiring strict adherence to federal socioeconomic procurement standards and logistical requirements for Arctic delivery.",
-      "grounded_fact_ids": [
-        6
-      ],
-      "anchor_reference": {
-        "source_name": "Public Safety Canada / Transport Canada",
-        "page_range": "Bill C-26 Critical Infrastructure Protection",
-        "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/index-en.aspx"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-07-31T00:00:00Z",
-    "province": "Ontario",
-    "province_abbrev": "ON",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "NOTICE OF PROPOSED PROCUREMENTElectrical Load BanksDescription of the Requirement:The Department of National Defence (DND), more specifically Defence Research and Development Canada (DRDC) is seeking to procure Electrical Load Banks as part of Over The Horizon Radar (OTHR) Initiative for field trials at an Arctic site as well as for the OTHR test bed at the DRDC Ottawa Shirley’s Bay test site.All the deliverables must be ready for shipping no later than ninety (90) days after Contract award.Appl...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W6369-27-X002",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Please refer to Tender Description or Tender Documents",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
@@ -4967,13 +4598,13 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "Request for Information (RFI) – Enterprise DNS, DHCP, and IP Address Management (DDI) SolutionShared Services Canada (SSC) is seeking industry feedback through this Request for Information (RFI) to support the development of a future procurement for an enterprise Domain Name System (DNS), Dynamic Host Configuration Protocol (DHCP), and IP Address Management (IPAM) (DDI) solution.The objective is to establish a standardized, secure, and scalable enterprise DDI platform that will modernize and con...",
-    "type": "New",
+    "type": "Open",
     "organization": "Shared Services Canada",
     "solicitation_number": "BPM026292/34395",
     "notice_type": "Request for Information",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
-    "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)",
+    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)",
     "recommended_playbook": "Specification Shaping (RFI / EOI)"
   },
   {
