@@ -1,54 +1,116 @@
 {
-  "generated_at": "2026-08-01T18:02:38.338156Z",
-  "linkedin_post": "[NRC](https://nrc.canada.ca/) leverages clinical facility expansion and biotech innovation to drive growth. 🔬\n\nBiotechnology & Clinical Infrastructure: The [National Research Council](https://nrc.canada.ca/)’s Clinical Trial Material Facility is initiating a three-year calibration program to ensure regulatory compliance across its bio-manufacturing suite. Enterprises should pivot to integrate IoT-enabled digital twins with this physical hardware to drive high-fidelity data uptime and optimize clinical trial outputs. [NRC](https://nrc.canada.ca/) Health’s 11% growth in Total Recurring Contract Value further underscores the demand for patient-centered data analytics, offering an opening to pitch specialized infectious disease simulation modules as a high-value plugin for [NRC](https://nrc.canada.ca/)’s governance workflows.\n\nMicrobiology & Pathogen Dynamics: Research into Borrelia turicatae confirms that strain-specific hyperparasitism creates critical timing-dependent barriers in vector-borne disease transmission. Firms should engage Canadian vector-control agencies to integrate these specific simulation parameters into national surveillance software to enhance localized risk-mapping accuracy. Simultaneously, advancements in Type VII secretion system mechanics now allow for structural rigidification data to serve as a digital target for antimicrobial design. Bioinformatics providers should offer proprietary pore-dynamics simulation as a B2B service for pharmaceutical partners focused on arresting bacterial virulence pathways.\n\nPrecision Diagnostics & Microbiome Analytics: The deployment of metaSPLiT single-cell transcriptomics reveals unprecedented functional heterogeneity within the human gut microbiome. Organizations must prioritize the development of digital twin modules for microbiome therapeutics, allowing firms to model patient-specific responses to strain variants and metabolic disorders. By integrating subspecies-resolution mapping into clinical databases, service providers can deliver superior phenotypic diagnostic models for large-scale therapeutic testing.\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n#Biotech #[NRC](https://nrc.canada.ca/) #Microbiome #DigitalTwin #HealthTech\n\n### Featured News & Sources\n- [Defining strain variation in the maintenance of Borrelia turicatae during hyperparasitism and transovarial transmission in Ornithodoros turicata](https://www.biorxiv.org/content/10.64898/2026.07.30.741854v1?rss=1) (bioRxiv Microbiology)\n- [Intrinsic flexibility of Type VII secretion central pore is required for substrate translocation](https://www.biorxiv.org/content/10.64898/2026.07.31.742005v1?rss=1) (bioRxiv Microbiology)\n- [Phenotypic heterogeneity in the human gut microbiome revealed by subspecies-resolution single-cell transcriptomics](https://www.biorxiv.org/content/10.64898/2026.07.30.741866v1?rss=1) (bioRxiv Microbiology)\n- [NRC Health (NRC) Q2 2026 Earnings Call Highlights: Strong TRCV Growth Amid Market Uncertainty - Yahoo Finance UK](https://uk.finance.yahoo.com/news/nrc-health-nrc-q2-2026-050142898.html) (Canada NRC Simulation)\n- [Calibration Services for (3) Years for the NRC- Clinical Trial Material Facility (CTMF) and Emergency Calibration Services](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-259-36093484) (CanadaBuys / MERX)\n",
+  "generated_at": "2026-08-02T18:02:40.883113Z",
+  "linkedin_post": "Canada faces rising HIV infections, jeopardizing years of public health progress ⚠️.\n\nPublic Health & Epidemiology: Rising HIV transmission rates require the [Public Health Agency of Canada](https://www.canada.ca/en/public-health.html) ([PHAC](https://www.canada.ca/en/public-health.html)) to pivot toward advanced agent-based epidemiological modeling to identify and neutralize transmission hotspots. Integrating demographic data into predictive simulations allows for the optimized allocation of prevention resources. Enterprises should move to propose custom transmission network models to [PHAC](https://www.canada.ca/en/public-health.html) to enhance regional public health intervention targeting.\n\nBiomanufacturing & Regulatory Compliance: The [National Research Council](https://nrc.canada.ca/) ([NRC](https://nrc.canada.ca/)) is accelerating the operationalization of its Royalmount Clinical Trial Material Facility in Montréal, targeting GMP compliance for Phase 1/2 biologics production by early 2027. Meeting the rigid analytical method transfer and environmental monitoring requirements mandated by Health Canada and the FDA necessitates precise procedural frameworks. Engineering consultants should offer digital twin simulation platforms to optimize cleanroom workflows and streamline regulatory certification for this facility.\n\nPathogen Research & Genomic Modeling: Recent breakthroughs in zebrafish leprosy models and Borrelia turicatae strain dynamics provide critical data architectures for host-pathogen interaction mapping. These datasets facilitate the development of multi-scale simulation platforms capable of predicting therapeutic efficacy and vector-borne outbreak risks. Biotech firms and public health agencies should leverage these genomic insights to build in silico models that accelerate drug discovery and refine pathogen transmission strategies.\n\nMicrobial Innovation & Bioremediation: Genomic variation research on Leclercia barmai is mapping the metabolic modules necessary for 3-nitropropionic acid degradation. These metabolic blueprints enable the application of computational simulation tools to engineer high-efficiency strains for industrial bioproduction and large-scale environmental remediation. Specialized genomics consultancies should partner with biotechnology firms to model these bacterial pathways for commercial bioremediation applications.\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n#PublicHealth #Biomanufacturing #ComputationalBiology #Biotech #[NRC](https://nrc.canada.ca/)\n\n### Featured News & Sources\n- [New HIV infections in Canada are rising. Advocates say years of progress are at risk - cbc.ca](https://www.cbc.ca/news/health/hiv-infections-rising-in-canada-9.7292692) (Canada PHAC AMR)\n- [A zebrafish leprosy model identifies interferon and plasminogen signaling as survival determinants in mycobacterial infection](https://www.biorxiv.org/content/10.64898/2026.07.31.739979v1?rss=1) (bioRxiv Microbiology)\n- [Convergent genomic variation and wild-type composite RNA-seq profiling identify candidate modules associated with 3-nitropropionic acid utilization in Leclercia barmai](https://www.biorxiv.org/content/10.64898/2026.08.01.742209v1?rss=1) (bioRxiv Microbiology)\n- [Defining strain variation in the maintenance of Borrelia turicatae during hyperparasitism and transovarial transmission in Ornithodoros turicata](https://www.biorxiv.org/content/10.64898/2026.07.30.741854v1?rss=1) (bioRxiv Microbiology)\n- [Professional Services of Quality Control QC) Consultants (3) for NRC- Clinical Trial Material Facility (CTMF)](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-189-12731109) (CanadaBuys / MERX)\n",
   "insights": [
+    {
+      "source": "Canada_PHAC_AMR",
+      "title": "New HIV infections in Canada are rising. Advocates say years of progress are at risk - cbc.ca",
+      "link": "https://www.cbc.ca/news/health/hiv-infections-rising-in-canada-9.7292692",
+      "date": "2026-08-01T13:13:57Z",
+      "insight": {
+        "linkedin_hook": "🚨 Rising HIV infection rates in Canada demand a shift from reactive measures to proactive predictive modeling. Here is how computational biology can lead the way.",
+        "strategic_value": "* Rising HIV rates underscore the urgent need for PHAC to leverage advanced epidemiological and transmission network modeling to identify transmission hotspots and optimize intervention targeting.\n* Computational simulation tools can model viral replication, drug resistance pathways, and the efficacy of novel therapeutics in silico, accelerating targeted treatment plans and vaccine designs.\n* **Consulting Pivot:** Propose to PHAC and regional public health networks the deployment of predictive agent-based simulation models that integrate demographic and epidemiological data to optimize resource allocation for prevention programs.",
+        "co_bidding_opportunity": "As a selective partnering opportunity, computational biology software vendors can position their simulation suites to sub-contract under academic public health consortia applying for federal public health modeling grants.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Applies pathogen modeling, in silico simulation, and data analytics tools to simulate disease transmission and therapeutic pathways, aligning with federal digital health and epidemiological priorities.",
+        "grounded_fact_ids": [
+          1002
+        ],
+        "anchor_reference": {
+          "source_name": "PHAC Laboratory Biosafety Guidelines",
+          "page_range": "Page 15",
+          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "A zebrafish leprosy model identifies interferon and plasminogen signaling as survival determinants in mycobacterial infection",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.31.739979v1?rss=1",
+      "date": "2026-08-01T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🔬 Breakthrough in leprosy research! A new zebrafish model combined with RNA-seq and CRISPR is unraveling critical survival determinants in mycobacterial infections, spotlighting interferon and plasminogen signaling. This opens up massive opportunities for advanced in silico modeling and drug discovery pipelines!",
+        "strategic_value": "- This research provides a rich dataset for developing sophisticated *in silico* models of host-pathogen interactions, specifically focusing on mycobacterial infections like leprosy and tuberculosis, and exploring the roles of interferon and plasminogen pathways.\n- Virtual pathogen modeling and computational biology tools can simulate the identified genetic pathways and predict the efficacy of novel drug candidates targeting these host defense mechanisms, accelerating preclinical development.\n- * **Consulting Pivot:** We can partner to develop a dynamic, multi-scale simulation platform that integrates RNA-seq data and CRISPR screening outcomes to model mycobacterial infection progression and identify new therapeutic targets for public health initiatives.",
+        "co_bidding_opportunity": "Based on the declared funders (Pew Charitable Trusts, NIH Common Fund, Alfred P. Sloan Foundation, Searle Scholars Program, CAPES-PrInt), organizations focused on computational biology or bioinformatics could explore future grant calls aligned with these institutions, particularly those emphasizing advanced modeling or drug discovery for infectious diseases.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This signal directly aligns with 'METS-Digital' by highlighting the need for advanced virtual pathogen modeling and computational biology tools to simulate complex biological processes (mycobacterial infection, host immune response) identified through genetic and transcriptomic studies. This capability is crucial for accelerating drug discovery and public health planning related to infectious diseases.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Convergent genomic variation and wild-type composite RNA-seq profiling identify candidate modules associated with 3-nitropropionic acid utilization in Leclercia barmai",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.08.01.742209v1?rss=1",
+      "date": "2026-08-01T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🦠 Ever wonder how bacteria adapt to extreme toxins? New bioRxiv research on Leclercia barmai is mapping the genomic variations and metabolic modules for 3-nitropropionic acid utilization! A goldmine for computational biology and bioremediation innovations! #Microbiology #Bioremediation",
+        "strategic_value": "- This study offers critical insights for developing advanced computational models of bacterial metabolic adaptation, allowing for the simulation of complex detoxification pathways and identification of novel enzymes or genes.\n- In silico simulation tools can be applied to predict how environmental bacteria like *Leclercia barmai* can be engineered or optimized for bioremediation of toxic compounds or for industrial bioproduction applications based on their unique metabolic modules.\n- * **Consulting Pivot:** We can offer specialized computational biology and genomic analysis services to model and simulate microbial metabolic pathways, assisting biotechnology firms in developing novel solutions for environmental remediation or biomanufacturing.",
+        "co_bidding_opportunity": "The research received funding from the Human Resource Development Group (CSIR-SRF) and the Department of Biotechnology. Future collaborative opportunities could exist with academic institutions or research consortia focusing on microbial genomics, metabolic engineering, or environmental biotechnology under funding programs from these or similar agencies.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This signal directly aligns with 'METS-Digital' by demonstrating the need for computational biology and genomic analysis to understand bacterial adaptation and metabolic pathways. This knowledge is fundamental for developing virtual pathogen models or designing engineered microbes, connecting to the hub's interest in advanced digital tools for biological challenges.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "Professional Services of Quality Control QC) Consultants (3) for NRC- Clinical Trial Material Facility (CTMF)",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-189-12731109",
+      "date": "2026-08-01T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🇨🇦 Big move for Canadian Biomanufacturing! The NRC is hiring Quality Control consultants to operationalize its GMP Clinical Trial Material Facility in Montréal.",
+        "strategic_value": "* The operationalization of the NRC's Royalmount facility (CTMF) highlights a massive federal push to secure domestic vaccine and biologics manufacturing capabilities ahead of its early 2027 GMP batch.\n* Setting up compliant Phase 1/2 QC processes, environmental monitoring (EM), and analytical method transfers requires highly specialized compliance frameworks matching Health Canada, FDA, and EMA guidelines.\n* **Consulting Pivot:** Partner with bidding consultants to propose digital twin simulation platforms to the NRC, demonstrating how in silico modeling of cleanroom workflows can optimize Grade C/D EM sampling schedules and regulatory compliance.",
+        "co_bidding_opportunity": "Under a Prime-Tracking strategy for this open competitive bid (Solicitation 25-58308), specialized life-sciences regulatory firms can bid directly or form a joint venture to provide the three distinct QC roles (Senior QC, Junior QC, and EM QC Sampler) required by the NRC.",
+        "mets_category": "METS-PMO",
+        "mets_rationalization": "This procurement represents professional consulting, program management, and operational compliance (QC) services required to validate and operationalize the NRC's biomanufacturing facility.",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-26T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "To engage qualified consultants to provide Quality Control (QC) support during the operationalization of the Clinical Trial Material Facility (CTMF), in compliance with Health Canada, Food and Drug Administration (FDA), and European Medicines Agency (EMA) regulations, policies, and procedures.The NRC has built a new permanent, Good Manufacturing Practices (GMP)-compliant Clinical Trial Material Facility (CTMF) at its Royalmount Avenue site in Montréal, where the facility and equipment completed ...",
+      "type": "Open",
+      "organization": "National Research Council of Canada (NRC)",
+      "solicitation_number": "25-58308",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
     {
       "source": "bioRxiv_Microbiology",
       "title": "Defining strain variation in the maintenance of Borrelia turicatae during hyperparasitism and transovarial transmission in Ornithodoros turicata",
       "link": "https://www.biorxiv.org/content/10.64898/2026.07.30.741854v1?rss=1",
       "date": "2026-07-31T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Are we overlooking the 'silent' transmission routes of relapsing fever? 🧬 New data suggests that strain-specific tick hyperparasitism is a massive blind spot in vector-borne disease modeling.",
-        "strategic_value": "* **In Silico Opportunity:** The observed timing-dependent barriers in Borrelia turicatae vertical transmission allow for the development of predictive agent-based models to simulate tick population dynamics.\n* **Strategic Insight:** By quantifying oocyte colonization bottlenecks, computational platforms can stress-test public health interventions for tick-borne relapsing fever (TBRF) containment.\n* **Consulting Pivot:** Engage Canadian vector-control agencies to integrate these strain-variation simulation parameters into national surveillance software to enhance localized risk-mapping accuracy.",
-        "co_bidding_opportunity": "Partnerships with environmental health labs focusing on tick surveillance could leverage these findings to bid for public health infrastructure modernization grants, particularly for integrated pest management systems.",
+        "linkedin_hook": "🦟 Startling new insights into tick-borne relapsing fever! Research on Borrelia turicatae reveals strain-specific transmission dynamics and a previously unrecognized hyperparasitism route in ticks. Critical data for refining virtual pathogen modeling and public health strategies! #VectorBorneDiseases",
+        "strategic_value": "- This research presents a unique opportunity for developing sophisticated virtual pathogen transmission models that incorporate strain-level differences and complex vector interactions, such as tick hyperparasitism and variable transovarial transmission.\n- In silico simulation and computational epidemiology tools can be applied to model the ecological and evolutionary processes influencing vector-borne disease persistence, enabling more accurate predictions of outbreak risks and spread patterns.\n- * **Consulting Pivot:** We can develop an advanced simulation platform for public health agencies to model the transmission dynamics of tick-borne relapsing fever, allowing for the evaluation of targeted intervention strategies based on specific Borrelia strains and tick populations.",
+        "co_bidding_opportunity": "The study was supported by the National Institute of Allergy and Infectious Diseases (NIAID), Lyda Hill Philanthropies, and Texas EcoLabs. There are potential co-bidding opportunities for computational epidemiology, vector-borne disease modeling, or public health planning projects that align with NIAID's infectious disease research priorities or regional initiatives like Texas EcoLabs.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "Connects advanced tick-borne pathogen mechanics to Canadian public health mandates regarding climate-induced vector migration and zoonotic surveillance.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Intrinsic flexibility of Type VII secretion central pore is required for substrate translocation",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.31.742005v1?rss=1",
-      "date": "2026-07-31T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Unlocking the mechanics of bacterial secretion: Why pore flexibility is the new frontier for antimicrobial design. 🛡️",
-        "strategic_value": "* **Drug Discovery Pipeline:** Structural rigidification data provides a precise digital target for screening molecules that inhibit Type VII secretion systems in Mycobacteria.\n* **Computational Simulation:** Molecular dynamics (MD) platforms can now prioritize candidates that effectively lock the EccC5 pore in a non-functional state to arrest substrate translocation.\n* **Consulting Pivot:** Recommend specialized bioinformatics firms to offer 'Pore-Dynamics Simulation' as a B2B service to pharmaceutical partners targeting recalcitrant bacterial virulence pathways.",
-        "co_bidding_opportunity": "Potential to align with Canadian academic research networks focused on AMR and tuberculosis to supply the computational simulation engine needed to evaluate high-throughput screening data.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Aligns with long-term Canadian federal priorities regarding the urgent development of novel antimicrobials and pathogen resistance modeling.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Phenotypic heterogeneity in the human gut microbiome revealed by subspecies-resolution single-cell transcriptomics",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.30.741866v1?rss=1",
-      "date": "2026-07-31T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Stop assuming your microbiome data is uniform. 📉 Single-cell meta-transcriptomics just revealed a new layer of hidden functional complexity in the human gut.",
-        "strategic_value": "* **Precision Diagnostics:** The metaSPLiT approach offers a powerful simulation framework for modeling how specific gut sub-populations respond to dietary or pharmaceutical interventions.\n* **Data Infrastructure:** Integrating subspecies-resolution mapping into existing clinical databases allows for deeper phenotyping of microbiome-related metabolic disorders.\n* **Consulting Pivot:** Pivot to lead the development of an analytical 'digital twin' module for microbiome therapeutics firms looking to model patient-specific responses to bacterial strain variants.",
-        "co_bidding_opportunity": "Opportunity to partner with academic bioinformatics hubs to propose meta-transcriptomic analytics packages for clinical trial platforms investigating the microbiome-drug axis.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Supports the growth of Canada's digital health sector by enabling high-resolution microbiome data analytics for personalized preventative health strategies.",
+        "mets_rationalization": "This signal directly aligns with 'METS-Digital' by emphasizing the critical need for virtual pathogen modeling and computational epidemiology to understand and predict vector-borne disease transmission. This supports the hub's focus on leveraging digital tools for public health planning and infectious disease control.",
         "grounded_fact_ids": [],
         "anchor_reference": null,
         "program_validation_status": null,
@@ -91,7 +153,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)North American Free Trade Agreement (NAFTA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)",
+      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)North American Free Trade Agreement (NAFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)",
       "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
@@ -177,7 +239,7 @@
       "notice_type": "Advance Contract Award Notice",
       "procurement_method": "Advance contract award notice",
       "selection_criteria": "Not applicable",
-      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade Agreement",
+      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)",
       "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)"
     },
     {
@@ -216,44 +278,6 @@
       "procurement_method": "Competitive - Selective tendering",
       "selection_criteria": "Variations or combinations of the above methods",
       "trade_agreements": "Please refer to Tender Description or Tender Documents",
-      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
-      "title": "Two (2) Highspeed (15000 fps) Cameras",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-965-67727668",
-      "date": "2026-07-24T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "📸 High-speed physical imaging meets in silico validation: The National Research Council Canada is procuring 15,000 fps cameras for advanced laboratories.",
-        "strategic_value": "* Ultra-high-speed imaging at 15,000 fps is crucial for capturing physical microfluidic and aerosol dynamics, providing the empirical validation data necessary to calibrate and refine complex in silico pathogen transport models.\n* Because this procurement is strictly limited to pre-qualified holders of Supply Arrangement E60PV-19EQUI, standard simulation and computational software providers cannot bid directly, highlighting the need for strategic channel partnerships with hardware prime contractors.\n* **Consulting Pivot:** Propose an integrated hardware-software offering to pre-qualified Supply Arrangement holders to bundle these high-speed camera systems with advanced fluid dynamics and simulation modeling capabilities, targeting future NRC Ideation Fund breakthrough technology collaborative bids.",
-        "co_bidding_opportunity": "Based on the selective tendering procedures, bidding is strictly restricted to pre-qualified holders of Supply Arrangement # E60PV-19EQUI for Laboratory and Scientific Equipment. Non-qualified computational biology and simulation firms should pursue a subcontracting role with an invited Supply Arrangement holder to integrate analytical, visualization, or simulation software with the procured physical camera systems.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "This procurement of high-speed laboratory cameras by the National Research Council (NRC) directly represents laboratory operations and scientific equipment hardware (METS-Ops). These physical experimental assets are essential for validating advanced health technologies and simulations funded under NRC collaborative frameworks.",
-        "grounded_fact_ids": [
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-10T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "NOTICE OF PROPOSED PROCUREMENT (NPP) Solicitation 26-58112Date: 24 July 2026Trade Agreement: Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Columbia Free Trade Agreement (CCOFTA)Canada-Panama Free Trade Agreement (CPAFTA)Canada-Honduras Free Trade Agreement (CHFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada Free Trade Agreement (CFTA)Canada-European Union: Comprehensive Economic and Trade Agreement (CETA)Cana...",
-      "type": "Open",
-      "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "26-58112",
-      "notice_type": "RFP against Supply Arrangement",
-      "procurement_method": "Competitive - Selective tendering",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)North American Free Trade Agreement (NAFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)",
       "recommended_playbook": "Selective Partnering (Supply Arrangement)"
     },
     {
@@ -396,30 +420,6 @@
           "page_range": "Page 4",
           "url": "https://cihr-irsc.gc.ca/e/53000.html"
         }
-      }
-    },
-    {
-      "source": "Canada_PHAC_AMR",
-      "title": "Diarrhea-causing parasite infecting more than 1,200 in Michigan has not spread to Canada: PHAC - CP24",
-      "link": "https://www.cp24.com/news/canada/2026/07/09/diarrhea-causing-parasite-infecting-more-than-1200-in-michigan-has-not-spread-to-canada-phac/",
-      "date": "2026-07-09T07:00:00Z",
-      "insight": {
-        "linkedin_hook": "Parasite outbreaks in the US are a sharp reminder that pathogen migration modeling is a public health necessity. 🦠",
-        "strategic_value": "* Food-borne pathogen tracing benefits from predictive in silico modeling to forecast contamination pathways.\n* PHAC’s support for infectious disease simulation creates a clear mandate for digital tools that map epidemiological risk in real-time.\n* **Consulting Pivot:** Propose a partnership with public health researchers to integrate predictive simulation software into existing food safety monitoring frameworks funded under the Infectious Disease Laboratory Network.",
-        "co_bidding_opportunity": "Collaborate with PHAC-affiliated laboratories or regional health agencies participating in the Infectious Disease Laboratory Network to develop or deploy predictive modeling software for food-borne pathogen outbreaks.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Connects public health surveillance signals to the strategic opportunity for deploying simulation software within federal infectious disease networks.",
-        "grounded_fact_ids": [
-          1002
-        ],
-        "anchor_reference": {
-          "source_name": "PHAC Laboratory Biosafety Guidelines",
-          "page_range": "Page 15",
-          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
       }
     }
   ]
