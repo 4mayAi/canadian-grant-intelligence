@@ -9431,5 +9431,37 @@
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Purchase of Office Furniture for Charlottetown Service Center, Prince Edward Island",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-873-65044525",
+    "date": "2026-08-03T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🪑 Navigating federal office realignments? Employment and Social Development Canada is upgrading its Charlottetown Service Center, but only pre-qualified Supply Arrangement holders can bid.",
+      "strategic_value": "* The procurement of physical office furniture and installation services for ESDC in Prince Edward Island leverages the active PWGSC Supply Arrangement (SA) # E60PQ-140003/D, aligning with the federal 'Buy Canadian Policy' to prioritize domestic manufacturing and regional supply chains.\n* The mandate requires the delivery, unboxing, and configuration of specialized ergonomic hardware (including the installation of 16 existing ESDC monitor arms) to be completed by March 31, 2027, under strict security and workspace access protocols.\n* **Consulting Pivot:** Since this is a selective tendering process restricted to pre-qualified SA holders under SA # E60PQ-140003/D, non-registered regional suppliers must immediately pitch subcontracting, logistics, and on-site installation services to pre-qualified General Stream SA holders to secure a share of this regional ESDC deployment.",
+      "co_bidding_opportunity": "Under the Selective Partnering playbook, non-qualified local logistics contractors, physical installation specialists, and ergonomic workspace consultants should seek subcontracts with pre-qualified PWGSC Supply Arrangement (SA) holders to provide physical delivery and installation support at the Jean Canfield Building in Charlottetown.",
+      "mets_category": "Infrastructure & Digital",
+      "mets_rationalization": "This project represents physical infrastructure and real property management for regional federal service delivery nodes, executed under national procurement frameworks managed by PWGSC on behalf of ESDC.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-13T00:00:00Z",
+    "province": "Prince Edward Island",
+    "province_abbrev": "PE",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "1. This Notice of Proposed Procurement (NPP) is issued pursuant to PWGSC Supply Arrangement (SA) # E60PQ-140003/D and covers a requirement from the following Product Category(ies) of the SA:- Product Category 5 - Ancillary Products- and Installation of 16 monitor arms already in the possession of Employment and Social Development Canada (ESDC)2. Employment and Social Development Canada (ESDC) has a requirement for the purchase, delivery and installation of office furniture to Charlottetown Servi...",
+    "type": "New",
+    "organization": "Department of Employment and Social Development (ESDC)",
+    "solicitation_number": "100032369",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   }
 ]
