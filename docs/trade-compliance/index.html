@@ -335,7 +335,7 @@
 
         <div class="tabs">
             <button class="tab-btn active" id="btn-signals" onclick="switchTab('signals')">Trade &amp; Regulatory Signals</button>
-            <button class="tab-btn" id="btn-digest" onclick="switchTab('digest')">Executive Briefing Digest</button>
+            <button class="tab-btn" id="btn-digest" onclick="switchTab('digest')">Trade Compliance Digest</button>
         </div>
 
         <!-- Dynamic Content Views -->
@@ -821,11 +821,11 @@
                 : `${AZURE_CONTAINER_URL}/social_card_${currentDate}.png`;
             const socialCardLocalFallback = `../data/${TOPIC_ID}/social_card.png`;
 
-            container.innerHTML = `
-                <div class="report-section" style="padding: 28px 24px; max-width: 820px; margin: 0 auto;">
-                    <div class="linkedin-card-header" style="margin-bottom: 20px;">
-                        <h2>📋 Trade Compliance Executive Briefing</h2>
-                        <button class="btn btn-sm" onclick="copyLinkedInPost()">📋 Copy Briefing</button>
+            let html = `
+                <div class="report-section" style="padding: 28px 24px; max-width: 820px; margin: 0 auto 24px auto;">
+                    <div class="linkedin-card-header" style="margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center;">
+                        <h2>📋 Trade Compliance Executive Digest</h2>
+                        <button class="btn btn-sm" onclick="copyLinkedInPost()">📋 Copy Digest</button>
                     </div>
 
                     <div style="text-align: center; margin-bottom: 24px;">
@@ -847,6 +847,38 @@
                     </div>
                 </div>
             `;
+
+            if (data.insights && data.insights.length > 0) {
+                html += `<h2 style="font-size: 20px; font-weight: 700; color: var(--text-primary); margin: 24px 0 16px 0; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 24px;">📰 Detailed Trade Signals & Articles</h2>`;
+                data.insights.forEach(item => {
+                    let bodyHtml = '';
+                    const innerInsight = item.insight || {};
+                    if (innerInsight.strategic_value) {
+                        const stratText = Array.isArray(innerInsight.strategic_value) ? innerInsight.strategic_value.join('\n') : innerInsight.strategic_value;
+                        bodyHtml += `<h4>Strategic Value</h4><div class="md-content">${marked.parse(stratText)}</div>`;
+                    }
+                    if (innerInsight.program_validation_status) {
+                        bodyHtml += `<div class="badge badge-verified" style="background:#0d9488;color:#fff;padding:4px 8px;border-radius:4px;display:inline-block;margin-bottom:8px;font-size:0.85rem;">✓ Verified Govt Program: ${escapeHtml(innerInsight.program_validation_status)}</div>`;
+                    }
+                    if (innerInsight.export_risk_advisory) {
+                        bodyHtml += `<h4>EDC Financial & Export Risk Advisory</h4><div class="md-content">${marked.parse(innerInsight.export_risk_advisory)}</div>`;
+                    }
+
+                    html += `
+                        <details class="report-section" style="margin-bottom: 12px; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px;">
+                            <summary class="report-summary" style="cursor: pointer; padding: 14px 18px; font-weight: 600;">
+                                <h3>${escapeHtml(item.title || 'Signal Item')}</h3>
+                                ${innerInsight.linkedin_hook ? `<div class="hook-subtitle" style="font-size: 13px; color: var(--text-muted); font-weight: 400; margin-top: 4px;">${escapeHtml(innerInsight.linkedin_hook)}</div>` : ''}
+                            </summary>
+                            <div class="report-details" style="padding: 16px 20px; border-top: 1px solid rgba(255,255,255,0.08);">
+                                ${bodyHtml || '<p style="color: var(--text-muted);">No additional strategic breakdown available for this signal.</p>'}
+                            </div>
+                        </details>
+                    `;
+                });
+            }
+
+            container.innerHTML = html;
         }
 
         function renderTenders(tenders) {

@@ -88,7 +88,7 @@
 
         <div class="tabs">
             <button class="tab-btn active" id="btn-tenders" onclick="switchTab('tenders', event)">CanadaBuys Tenders</button>
-            <button class="tab-btn" id="btn-news" onclick="switchTab('news', event)">PMO News & Insights</button>
+            <button class="tab-btn" id="btn-news" onclick="switchTab('news', event)">PMO Grants Digest</button>
         </div>
 
         <div id="tendersView">
@@ -737,23 +737,28 @@
                     : `https://canadiangrants.blob.core.windows.net/data/social_card_${date}.png`;
                 
                 html += `
-                    <div class="linkedin-card report-section">
-                        <div class="linkedin-card-header">
-                            <h2>📋 ${cardTitle}</h2>
-                            <button class="copy-btn" data-raw="${escapeHtml(data.linkedin_post)}" onclick="copyPost(this)">Copy Post</button>
+                    <div class="report-section" style="padding: 28px 24px; max-width: 820px; margin: 0 auto 24px auto;">
+                        <div class="linkedin-card-header" style="margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center;">
+                            <h2>📋 PMO Grants Executive Digest</h2>
+                            <button class="copy-btn btn btn-sm" data-raw="${escapeHtml(data.linkedin_post)}" onclick="copyPost(this)">📋 Copy Digest</button>
                         </div>
-                        <div class="linkedin-grid">
-                            <div>
-                                <div class="linkedin-body" id="linkedinPost">${marked.parse(data.linkedin_post)}</div>
-                            </div>
-                            <div class="social-card-preview">
 
+                        <div style="text-align: center; margin-bottom: 24px;">
+                            <div class="social-card-banner" style="max-width: 580px; margin: 0 auto; position: relative;">
                                 <img src="${socialCardUrl}" 
-                                     class="linkedin-social-image"
-                                     alt="Social Media Engagement Card"
-                                     onerror="this.closest('.social-card-preview').style.display='none'"
+                                     alt="PMO Grants Visual Card"
+                                     style="width: 100%; border-radius: 10px; border: 1px solid rgba(255, 215, 0, 0.35); box-shadow: 0 8px 30px rgba(0,0,0,0.5); cursor: pointer; transition: transform 0.2s ease;"
+                                     onerror="this.closest('.social-card-banner').style.display='none'"
                                      onclick="window.open(this.src, '_blank')">
                             </div>
+                            <div style="margin-top: 12px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+                                <a href="${socialCardUrl}" target="_blank" rel="noopener" class="btn btn-sm" style="background: rgba(255, 215, 0, 0.12); color: #ffd700; border: 1px solid rgba(255, 215, 0, 0.3); font-weight: 600; padding: 6px 14px; text-decoration: none;">📥 Open High-Res Visual Card ↗</a>
+                                <button class="copy-btn btn btn-sm" data-raw="${escapeHtml(data.linkedin_post)}" onclick="copyPost(this)" style="background: rgba(255, 255, 255, 0.08); color: var(--text-primary); border: 1px solid rgba(255, 255, 255, 0.2); font-weight: 600; padding: 6px 14px;">📋 Copy Briefing Text</button>
+                            </div>
+                        </div>
+
+                        <div style="max-width: 780px; margin: 0 auto; font-size: 14.5px; line-height: 1.65; color: var(--text-primary);" id="linkedinPost">
+                            ${marked.parse(data.linkedin_post)}
                         </div>
                     </div>
                 `;
