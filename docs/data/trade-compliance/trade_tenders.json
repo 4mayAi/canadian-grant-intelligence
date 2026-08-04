@@ -4604,7 +4604,7 @@
     "notice_type": "Request for Information",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
-    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)",
+    "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)",
     "recommended_playbook": "Specification Shaping (RFI / EOI)"
   },
   {
@@ -4883,6 +4883,45 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
     "trade_agreements": "Canada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Multiple Victoria-Class Spares: RECORDER, CONTROL TRAINING SONAR, CHART,RECORDING INSTRUMENT",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-337-66819002",
+    "date": "2026-08-04T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Securing the undersea supply chain: Victoria-Class sonar and recording systems under scrutiny. ⚓",
+      "strategic_value": "* Direct financial risk manifests through non-compliance with the Controlled Goods Program (CGP), where unauthorized technical data transfer triggers significant federal contract debarment and potential revenue forfeiture on defense portfolios.\n* Logistical execution requires an immediate audit of NCAGE-to-Part Number chain-of-custody, specifically verifying that substitute products undergo the mandatory DND technical authority certification before final assembly at CFB Esquimalt or Halifax.\n* **Consulting Pivot:** We propose a 'Defense-Industrial Compliance Overlay'—a flat-fee $15,000 readiness assessment per bid—which synchronizes your CARM API bonding status with Controlled Goods Program registration, ensuring zero-latency clearance for dual-use components.",
+      "co_bidding_opportunity": "Requires a partnership with a certified Controlled Goods Program (CGP) security officer and an existing prime defense contractor currently holding a standing offer for DND naval procurement to facilitate the technical integration of substitute sonar components.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This tender involves specialized defense hardware, triggering the Controlled Goods Program requirements and EIPA obligations, which are critical touchpoints for supply chain integrity under the current geopolitical regulatory framework.",
+      "grounded_fact_ids": [
+        3,
+        6
+      ],
+      "anchor_reference": {
+        "source_name": "Canada Border Services Agency",
+        "page_range": "Customs Notice CN26-04",
+        "url": "https://www.cbsa-asfc.gc.ca/services/carm-gcra/menu-eng.html"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-14T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "The Department of National Defence has a requirement for the items detailed below.  The delivery is requested at CFB Esquimalt and CFB Halifax.Item 1, GSIN: 5845, NSN: 21-854-6573, RECORDERPart No.: 875-200, NCAGE: 90827Quantity: 2, Unit of Issue: EA, to be delivered to CFB Esquimalt.Item 2, GSIN: 5845, NSN: 21-854-6573, RECORDERPart No.: 875-200, NCAGE: 90827Quantity: 1, Unit of Issue: EA, to be delivered to CFB Halifax.Item 3, GSIN: 5845, NSN: 99-749-6500, CONTROL TRAINING SONARPart No.: 354/2...",
+    "type": "New",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8482-275447/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Traditional",
+    "selection_criteria": "",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   }
 ]
