@@ -246,5 +246,49 @@
       "pages": "Page 4",
       "url": "https://www.icmm.com/en-gb/news-and-analysis"
     }
+  ],
+  "Africa": [
+    {
+      "id": 80,
+      "fact": "The Democratic Republic of the Congo (DRC) produces over 70% of world mined cobalt and holds approximately 55% of known global cobalt reserves.",
+      "source": "USGS Mineral Commodity Summaries",
+      "pages": "Cobalt Chapter",
+      "url": "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries"
+    },
+    {
+      "id": 81,
+      "fact": "South Africa and Zimbabwe control between 80% and 92% of global Platinum Group Metals (PGMs) reserves, essential for fuel cell stack production and industrial catalysis.",
+      "source": "USGS Mineral Commodity Summaries",
+      "pages": "Platinum-Group Metals Chapter",
+      "url": "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries"
+    },
+    {
+      "id": 82,
+      "fact": "South Africa hosts the Kalahari Manganese Field, the largest known land-based manganese deposit in the world, supplying over 35% of global manganese ore.",
+      "source": "USGS Mineral Commodity Summaries",
+      "pages": "Manganese Chapter",
+      "url": "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries"
+    },
+    {
+      "id": 83,
+      "fact": "Guinea holds an estimated 7.4 billion metric tons of bauxite reserves (approx. 25% of global reserves), making it the primary global exporter of aluminum raw material.",
+      "source": "USGS Mineral Commodity Summaries",
+      "pages": "Bauxite Chapter",
+      "url": "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries"
+    },
+    {
+      "id": 84,
+      "fact": "The African Green Minerals Strategy (AGMS) mandates in-country beneficiation and progressive export restrictions on raw ores to capture downstream processing value.",
+      "source": "African Union / AfDB Green Minerals Strategy",
+      "pages": "Executive Summary",
+      "url": "https://www.afdb.org/"
+    },
+    {
+      "id": 85,
+      "fact": "The Lobito Corridor infrastructure project connects mineral production in DRC and Zambia directly to the Atlantic port of Lobito in Angola via upgraded rail networks.",
+      "source": "US DFC / EU Global Gateway Infrastructure Brief",
+      "pages": "Project Brief",
+      "url": "https://www.dfc.gov/"
+    }
   ]
 }

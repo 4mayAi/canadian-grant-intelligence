@@ -7,12 +7,12 @@ This document describes the software architecture of the Global Mining Hubs Inte
 ## 1. Introduction and Goals
 
 ### 1.1 Requirements Overview
-The Global Mining Hubs Intelligence Pipeline is a serverless, scheduled, config-driven monitoring and synthesis system. It tracks B2B opportunities, policy shifts, joint ventures, and mineral exploration updates across five key global mining hubs: **Canada, Australia, China, Switzerland, and the United Kingdom/Global**.
+The Global Mining Hubs Intelligence Pipeline is a serverless, scheduled, config-driven monitoring and synthesis system. It tracks B2B opportunities, policy shifts, joint ventures, and mineral exploration updates across six key global mining hubs: **Canada, Australia, China, Switzerland, Africa, and the United Kingdom/Global**.
 
 Key features:
 - Ingests articles and tenders from peak industry body portals and critical mineral databases.
 - Implements a **dual-speed cross-synthesis engine**: integrates slow-moving, long-term industry baselines (Anchors) with fast-moving daily news signals (Signals).
-- Classifies procurement opportunities into exactly four Mutually Exclusive, Collectively Exhaustive (MECE) METS loop categories (Ops, ESG, Digital, PMO).
+- Classifies procurement and strategic opportunities into five METS loop categories (Ops, ESG, Digital, PMO, Geopolitics).
 - Programmatically maps grounded fact IDs to prevent LLM page-number and source-URL hallucinations.
 - Automatically compiles digest metrics, generates social card graphics, and broadcasts SMTP digests.
 
@@ -47,9 +47,11 @@ graph TD
         MCA[MCA News Feed / PDFs]
         CMA[China Export Policy Feeds]
         SUIS[SUISSENEGOCE / Geneva Trading Feeds]
+        AFR[Africa Green Minerals / AfDB Feeds]
         LME[London Metal Exchange News]
         ICMM[ICMM ESG / GISTM PDFs]
         IEA[IEA Critical Minerals]
+        TECH[Exploration Tech Key Players]
     end
 
     subgraph mayAi Serverless & Cloud context
@@ -72,9 +74,11 @@ graph TD
     MCA -->|Playwright / RSS Fallback| GHA
     CMA -->|RSS Ingestion| GHA
     SUIS -->|RSS Ingestion| GHA
+    AFR -->|RSS Ingestion| GHA
     LME -->|Playwright / RSS Ingestion| GHA
     ICMM -->|Playwright / RSS Ingestion| GHA
     IEA -->|Playwright / RSS Ingestion| GHA
+    TECH -->|RSS Ingestion| GHA
 
     GHA -->|Batch Curation & Synthesis| LLM
     LLM -->|JSON Response| GHA
@@ -133,6 +137,7 @@ The pipeline is configured via `configs/mining_hubs.json` with the following par
   - `Canada_ISED_Mining` (ISED Mining Strategy News Feed)
   - `Canada_PCO_News` (Privy Council Office News Feed)
   - `Canada_ECCC_News` (Environment and Climate Change Canada Google News RSS Feed)
+  - `Canada_CNSC_Nuclear_News` (Canadian Nuclear Safety Commission News Feed)
   - `Australia_Mining_News` (Minerals Council of Australia RSS Feed)
   - `Australia_WA_Mining` (Western Australia Department of Mines RSS Feed)
   - `China_Mining_News` (China English-language Mining News Feed)
@@ -141,6 +146,10 @@ The pipeline is configured via `configs/mining_hubs.json` with the following par
   - `UK_Gov_Mining` (UK Department for Business & Trade RSS Feed)
   - `ICMM_Global_ESG` (International Council on Mining and Metals ESG Feed)
   - `IEA_Critical_Minerals` (International Energy Agency Playwright HTML scraper)
+  - `Saudi_Mining_News` (Saudi Arabia Mining News Feed)
+  - `Africa_Mining_Strategy` (Africa Critical Minerals and Beneficiation News Feed)
+  - `Ecofin_Mining_Africa` (Ecofin Agency African Mining Feed)
+  - `Exploration_Tech_Key_Players` (Discovery Tech & Mining Key Players Feed)
 
 ---
 
