@@ -1602,7 +1602,7 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "The Department of National Defence has a requirement for the items detailed below.  The delivery is requested at CFB Esquimalt and CFB Halifax.Item 1, GSIN: 5845, NSN: 21-854-6573, RECORDERPart No.: 875-200, NCAGE: 90827Quantity: 2, Unit of Issue: EA, to be delivered to CFB Esquimalt.Item 2, GSIN: 5845, NSN: 21-854-6573, RECORDERPart No.: 875-200, NCAGE: 90827Quantity: 1, Unit of Issue: EA, to be delivered to CFB Halifax.Item 3, GSIN: 5845, NSN: 99-749-6500, CONTROL TRAINING SONARPart No.: 354/2...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of National Defence (DND)",
     "solicitation_number": "W8482-275447/A",
     "notice_type": "Request for Proposal",
