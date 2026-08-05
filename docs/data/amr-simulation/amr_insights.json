@@ -1,61 +1,7 @@
 {
-  "generated_at": "2026-08-04T18:03:32.359516Z",
-  "linkedin_post": "Advancing synthetic biology and viral defense mechanisms for next-gen therapeutics. 🧬\n\nBiotechnology and Therapeutics research has identified Vpr-mediated TCF7 degradation as a critical pathway in HIV-1 pathogenesis, revealing how the virus undermines CD4+ T cell stemness to persist in host populations. Enterprises should pivot toward developing advanced computational biology platforms to simulate these molecular interactions, facilitating the rapid identification of novel antiviral compound candidates. \n\nMicrobial Therapeutics have reached a new milestone with the engineering of the MEc30 native symbiont, designed for durable intestinal colonization and the localized delivery of therapeutic agents like IL-10 to combat metabolic dysfunction. Firms should focus on providing in silico modeling services to map the colonization kinetics and gut ecology integration of these engineered biotherapeutics, essential for optimizing clinical efficacy and safety profiles. \n\nVector Biology and Arbovirus defense systems have been bolstered by the application of pro-apoptotic CRISPR screening in Aedes mosquitoes, which successfully identified Lachesin as a primary entry factor for Chikungunya virus. Service providers should develop virtual pathogen models to simulate Lachesin-dependent viral entry, enabling the precise screening of genetic targets or inhibitors to disrupt mosquito-borne transmission cycles. \n\nAgricultural Biocontrol strategies are evolving through the discovery of extracellular vesicles (EVs) as a mechanism for cross-genus mycovirus transmission, offering a biological alternative for suppressing fungal pathogens. Consultants should offer computational simulation services to predict the ecological dynamics of EV-based viral cocktails, optimizing deployment strategies for large-scale agricultural fungal disease management. \n\nAdvanced Materials and Instrumentation procurement at the [National Research Council](https://nrc.canada.ca/) ([NRC](https://nrc.canada.ca/)) is currently focused on acquiring a Multichannel Quartz Crystal Microbalance system to enhance high-resolution kinetic studies in biological sensing. Organizations should align their offerings with this infrastructure upgrade by proposing automated data acquisition and software integration services to maximize the utility of this federal research hardware. \n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n#SyntheticBiology #Biotech #ComputationalBiology #ViralDefense #AgriTech\n\n### Featured News & Sources\n- [HIV-1 promotes loss of CD4+ T cell stemness and enrichment of effector-like states via Vpr-mediated TCF7 degradation](https://www.biorxiv.org/content/10.64898/2026.07.31.741970v1?rss=1) (bioRxiv Microbiology)\n- [A durably colonizing engineered native symbiont enables sustained intestinal delivery for metabolic dysfunction and colitis](https://www.biorxiv.org/content/10.64898/2026.08.02.741375v1?rss=1) (bioRxiv Microbiology)\n- [A pro-apoptotic selection strategy enables CRISPR screening in mosquitoes and identifies Lachesin as a chikungunya virus entry factor](https://www.biorxiv.org/content/10.64898/2026.07.31.742019v1?rss=1) (bioRxiv Microbiology)\n- [Extracellular vesicles drive cross-genus mycovirus transmission and suppress two fungal diseases](https://www.biorxiv.org/content/10.64898/2026.08.03.742386v1?rss=1) (bioRxiv Microbiology)\n- [Multichannel Quartz Crystal Microbalance System](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-747-26685857) (CanadaBuys / MERX)\n",
+  "generated_at": "2026-08-05T18:02:48.905231Z",
+  "linkedin_post": "Rising HIV rates and critical [NRC](https://nrc.canada.ca/) infrastructure upgrades dominate federal focus. 🇨🇦\n\nPublic Health & Epidemiology: Rising HIV infection rates in Canada require a transition from reactive policy to proactive predictive modeling through the [Public Health Agency of Canada](https://www.canada.ca/en/public-health.html) ([PHAC](https://www.canada.ca/en/public-health.html)). Leveraging agent-based simulation models that integrate complex epidemiological and transmission network data is now essential to identify transmission hotspots and optimize resource allocation. Firms should propose these simulation frameworks to [PHAC](https://www.canada.ca/en/public-health.html) as a means to accelerate both viral replication modeling and targeted intervention strategies.\n\nHealth-Tech Finance & Infrastructure: [NRC](https://nrc.canada.ca/) Health has seen its share price and TRCV valuation climb significantly in Q2 2026, underscored by an 11% growth rate and an increased price target of $26 per share. This financial momentum creates a clear mandate for integrating advanced 'Agentic AI' and specialized infectious disease modeling into existing patient engagement workflows. Strategic partners should pivot to offer these intelligence layers as high-value plugins for [NRC](https://nrc.canada.ca/) governance clients, securing a role in future research ideation cycles.\n\nScientific Research & Instrumentation: The [National Research Council](https://nrc.canada.ca/) ([NRC](https://nrc.canada.ca/)) is executing a targeted upgrade of its biological sensing infrastructure, evidenced by the procurement of a Multichannel Quartz Crystal Microbalance system to enhance high-resolution kinetic studies. This capital investment facilitates precise data collection, opening a direct pipeline for firms to provide automated data interpretation software that aligns with federal mandates for advanced research support. Enterprises should position themselves to integrate their simulation capabilities directly into these new lab workflows to maximize technical utility and project success.\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n#PublicHealth #HealthTech #[NRC](https://nrc.canada.ca/) #Epidemiology #Biotech\n\n### Featured News & Sources\n- [New HIV infections in Canada are rising. Advocates say years of progress are at risk - cbc.ca](https://www.cbc.ca/news/health/hiv-infections-rising-in-canada-9.7292692) (Canada PHAC AMR)\n- [NRC Health price target raised to $26 from $23 at Citizens - TipRanks](https://www.tipranks.com/news/the-fly/nrc-health-price-target-raised-to-26-from-23-at-citizens-thefly-news) (Canada NRC Simulation)\n- [NRC Health (NRC) Q2 2026 Earnings Call Highlights: Strong TRCV Growth Amid Market Uncertainty - Yahoo Finance UK](https://uk.finance.yahoo.com/news/nrc-health-nrc-q2-2026-050142898.html) (Canada NRC Simulation)\n- [Earnings call transcript: NRC Health posts solid Q2 2026 growth as shares rise - Investing.com Canada](https://ca.investing.com/news/transcripts/earnings-call-transcript-nrc-health-posts-solid-q2-2026-growth-as-shares-rise-93CH-4758209) (Canada NRC Simulation)\n- [Multichannel Quartz Crystal Microbalance System](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-747-26685857) (CanadaBuys / MERX)\n",
   "insights": [
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "HIV-1 promotes loss of CD4+ T cell stemness and enrichment of effector-like states via Vpr-mediated TCF7 degradation",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.31.741970v1?rss=1",
-      "date": "2026-08-04T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🤯 HIV-1's hidden strategy revealed! New research uncovers how HIV-1 hijacks CD4+ T cell identity by degrading TCF7, enhancing viral fitness. Critical insights for vaccine and drug design!",
-        "strategic_value": "- This preprint identifies a novel mechanism by which HIV-1 manipulates host T cell biology, presenting new targets for therapeutic intervention and vaccine development by understanding viral pathogenesis at a molecular level.\n- The discovery of Vpr-mediated TCF7 degradation provides a specific pathway ripe for virtual pathogen modeling, allowing for in silico simulation of T-cell fate changes and the impact on viral replication dynamics.\n- **Consulting Pivot:** Propose advanced computational biology tools and simulation platforms to model HIV-1 Vpr-TCF7 interactions and their effects on CD4+ T cell stemness, accelerating the identification and validation of new antiviral compounds or strategies.",
-        "co_bidding_opportunity": "As a scientific preprint, direct co-bidding opportunities are not explicit. However, this research opens avenues for potential partnerships with academic institutions or pharmaceutical R&D departments focusing on HIV therapeutics and immunology, where advanced computational modeling could be a subcontracted specialty.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This aligns with the METS-Digital category by leveraging computational biology and in silico simulation to understand complex viral mechanisms (HIV-1). This directly supports Canadian biotechnology and public health procurement by providing advanced tools to accelerate drug discovery and vaccine design against infectious diseases.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "A durably colonizing engineered native symbiont enables sustained intestinal delivery for metabolic dysfunction and colitis",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.08.02.741375v1?rss=1",
-      "date": "2026-08-04T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Gut health revolution? 🧬 A new engineered bacterial symbiont shows promise for sustained intestinal delivery, tackling metabolic dysfunction and colitis. A game-changer for chronic disease management!",
-        "strategic_value": "- This study introduces a novel, durably colonizing engineered native symbiont (MEc30) for sustained therapeutic delivery, addressing significant challenges in the treatment of chronic intestinal inflammatory and metabolic diseases.\n- The development of safety-optimized chassis and mechanisms for long-term colonization and therapeutic production (IL-10, nicotinic acid) offers a critical target for virtual modeling of microbial-host interactions, gut ecology, and drug delivery kinetics.\n- **Consulting Pivot:** Offer computational biology and in silico simulation services to model the colonization dynamics, therapeutic molecule production, and impact of engineered symbionts on gut microbial ecology and host metabolic pathways, optimizing future live biotherapeutic designs.",
-        "co_bidding_opportunity": "This preclinical research indicates a strong potential for future collaboration with biotech firms specializing in microbiome therapeutics or pharmaceutical companies developing novel drug delivery systems. Our expertise in simulating complex biological systems could be subcontracted for preclinical optimization and safety profiling.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This fits 'METS-Digital' by applying in silico simulation and computational biology to optimize engineered bacterial therapeutics. It supports Canadian biotechnology by providing tools for developing novel treatments for chronic diseases, aligning with health innovation and academic funding priorities for advanced biomedical research.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      }
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "A pro-apoptotic selection strategy enables CRISPR screening in mosquitoes and identifies Lachesin as a chikungunya virus entry factor",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.07.31.742019v1?rss=1",
-      "date": "2026-08-04T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Mosquitoes beware! 🦟 Scientists just unleashed CRISPR screening in Aedes mosquitoes to pinpoint Chikungunya virus entry factors, identifying Lachesin. A breakthrough for combating arboviruses!",
-        "strategic_value": "- This research pioneers a pro-apoptotic selection strategy for CRISPR screening in mosquitoes, a significant advancement for identifying critical host factors involved in arbovirus infection and transmission, like Chikungunya virus (CHIKV).\n- The identification of Lachesin as a critical CHIKV entry factor provides a high-value target for in silico simulation and virtual pathogen modeling to understand virus-vector interactions and develop novel antiviral or vector control strategies.\n- **Consulting Pivot:** Propose the development of virtual pathogen models to simulate CHIKV entry mechanisms in mosquito cells, analyze Lachesin's role, and screen potential inhibitors or gene-editing targets to disrupt viral transmission pathways.",
-        "co_bidding_opportunity": "No specific co-bidding partners are mentioned in the preprint. However, this work could align with public health agencies (e.g., PHAC), research consortia, or biotech companies focused on vector-borne disease control, where computational modeling and simulation of virus-vector dynamics could be a valuable subcontracted service.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This falls under 'METS-Digital' by utilizing virtual pathogen modeling and computational biology to understand and combat vector-borne diseases. This directly supports Canadian public health initiatives and academic funding goals for infectious disease research, particularly in developing novel strategies against emerging viral threats.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      }
-    },
     {
       "source": "Canada_CanadaBuys_Procurement",
       "title": "Multichannel Quartz Crystal Microbalance System",
@@ -85,9 +31,9 @@
       "category": "GD",
       "category_label": "Goods",
       "description": "The National Research Council Canada (NRC) is seeking offers from Offerors to provide one benchtop quartz crystal microbalance system (QCM) to the National Research Council Canada.",
-      "type": "New",
+      "type": "Open",
       "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "25-58128",
+      "solicitation_number": "25-58128 Version B",
       "notice_type": "",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
@@ -95,22 +41,42 @@
       "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
-      "source": "bioRxiv_Microbiology",
-      "title": "Extracellular vesicles drive cross-genus mycovirus transmission and suppress two fungal diseases",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.08.03.742386v1?rss=1",
-      "date": "2026-08-03T00:00:00Z",
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "6D063-253013 Steam and Heating System Services",
+      "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110020760?anId=ANONYMOUS",
+      "date": "2026-08-04T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Fungi fighting fungi? 🍄 New research reveals extracellular vesicles (EVs) mediate cross-genus mycovirus transmission, offering a novel strategy to suppress fungal plant diseases! #Biocontrol #AgriTech",
-        "strategic_value": "- This groundbreaking study unveils extracellular vesicles as a previously unrecognized mechanism for cross-genus mycovirus transmission, providing a fundamental shift in understanding fungal pathogen dynamics and inter-species interactions.\n- The discovery of EV-mediated transmission opens new avenues for developing 'EV-based virus cocktails' for biocontrol, requiring sophisticated in silico simulation to model viral spread, host range, and efficacy against multiple fungal diseases.\n- **Consulting Pivot:** Offer computational biology and virtual pathogen modeling services to simulate EV-mediated mycovirus transmission, predict the ecological impact of engineered viral cocktails, and optimize strategies for fungal disease suppression in agricultural settings.",
-        "co_bidding_opportunity": "With a patent application filed, this research suggests strong commercial potential. Future co-bidding opportunities could arise with agri-biotech companies, agricultural research agencies, or government bodies (e.g., Agriculture and Agri-Food Canada) seeking innovative, sustainable solutions for crop protection, where advanced simulation and modeling could be a subcontracted expertise.",
+        "linkedin_hook": "🧬 Securing the perimeter: Why PHAC's facility maintenance tender at the JC Wilt Centre is a critical signal for biosafety simulation partners.",
+        "strategic_value": "* The JC Wilt Infectious Diseases Research Centre represents the front line of Canada's infectious disease surveillance.\n* Facility maintenance and heating system integrity are prerequisites for high-containment biosafety lab compliance.\n* **Consulting Pivot:** Propose the integration of digital twin simulation software to optimize facility heating and HVAC systems, aligning with PHAC’s commitment to advanced infectious disease modeling and lab security.",
+        "co_bidding_opportunity": "Engage with PHAC regarding the Infectious Disease Laboratory Network [Fact ID: 1002] to provide digital simulation overlays for biosafety facility management as an value-add to physical maintenance contracts.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "This aligns with 'METS-Digital' through the application of virtual pathogen modeling and in silico simulation to understand and control fungal diseases. This supports Canadian agricultural innovation and academic funding by offering advanced tools for developing sustainable biocontrol solutions, enhancing food security and economic resilience.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
+        "mets_rationalization": "Leverages the facility site visit as a strategic entry point for digital simulation services into the Infectious Disease Laboratory Network.",
+        "grounded_fact_ids": [
+          1002
+        ],
+        "anchor_reference": {
+          "source_name": "PHAC Laboratory Biosafety Guidelines",
+          "page_range": "Page 15",
+          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
+        },
         "program_validation_status": null,
         "export_risk_advisory": null,
         "macro_sector_trend": null
-      }
+      },
+      "closing_date": "2026-09-17T00:00:00Z",
+      "province": "Manitoba",
+      "province_abbrev": "MB",
+      "category": "SRV",
+      "category_label": "Services",
+      "description": "Please note that late submissions will not be considered or accepted. The Canadian Science Centre for Human and Animal Health (CSCHAH) and the JC Wilt Infectious Diseases Research Centre (JCWIDRC), facilities operated by the Public Health Agency of Canada, require inspection, repair, and testing services for their building steam-generating and heating systems. This is for Task authorization contract consisting of two firm years and three one-year option periods. It is open to Canadian suppliers ...",
+      "type": "Open",
+      "organization": "Department of Public Works and Government Services (PSPC)",
+      "solicitation_number": "WS5813382679",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)North American Free Trade Agreement (NAFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
       "source": "Canada_PHAC_AMR",
@@ -171,7 +137,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "North American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)",
+      "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)",
       "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
@@ -209,46 +175,8 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)North American Free Trade Agreement (NAFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)",
+      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)",
       "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
-      "title": "ACAN tecovirimat",
-      "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110020394?anId=ANONYMOUS",
-      "date": "2026-07-30T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🛡️ Strengthening pandemic preparedness: PHAC and DND are moving to secure access to tecovirimat as part of critical national health defense planning. 💊",
-        "strategic_value": "* **Strategic Procurement:** Advance Contract Award Notices (ACANs) in the pharmaceutical space highlight the government's priority on maintaining ready-access to stockpiles for high-consequence pathogens.\n* **Modeling Demand:** The requirement for specific antivirals necessitates robust, in silico modeling of efficacy and distribution to ensure optimal public health response under PHAC's infectious disease oversight.\n* **Consulting Pivot:** * **Consulting Pivot:** Leverage this procurement signal to offer computational biology expertise that simulates pathogen response to antivirals, aligning your capabilities with the [Fact ID: 1002] mandate for infectious disease modeling support.",
-        "co_bidding_opportunity": "While the primary supplier is pre-identified, firms specializing in supply chain logistics, distribution, or clinical efficacy simulation can position themselves as value-added subcontractors for PHAC/DND defense initiatives.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This procurement highlights the logistical and clinical framework of PHAC, which is the primary body responsible for the infectious disease modeling infrastructure identified in [Fact ID: 1002].",
-        "grounded_fact_ids": [
-          1002
-        ],
-        "anchor_reference": {
-          "source_name": "PHAC Laboratory Biosafety Guidelines",
-          "page_range": "Page 15",
-          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-18T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "Advanced Contract Award Notice (ACAN) - tecovirimatAn ACAN is a public notice indicating to the supplier community that a department or agency intends to award a contract for goods, services or construction to a pre-identified supplier, thereby allowing other suppliers to signal their interest in bidding, by submitting a statement of capabilities. If no supplier submits a statement of capabilities that meets the requirements set out in the ACAN, on or before the closing date stated in the ACAN, ...",
-      "type": "Open",
-      "organization": "Department of Public Works and Government Services (PSPC)",
-      "solicitation_number": "WS5801165980",
-      "notice_type": "Advance Contract Award Notice",
-      "procurement_method": "Advance contract award notice",
-      "selection_criteria": "Not applicable",
-      "trade_agreements": "Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade Agreement",
-      "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)"
     },
     {
       "source": "Canada_NRC_Simulation",
@@ -286,6 +214,30 @@
         "co_bidding_opportunity": "Leverage the NRC Ideation Fund [Fact ID: 1001] to partner with NRC Health’s product development units to co-develop simulation tools that measure organizational risk and patient readiness during health emergencies.",
         "mets_category": "METS-Digital",
         "mets_rationalization": "Connects NRC’s enterprise health data dominance with the NRC's mandate to foster breakthrough technological simulation platforms via federal research support.",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "Canada_NRC_Simulation",
+      "title": "Earnings call transcript: NRC Health posts solid Q2 2026 growth as shares rise - Investing.com Canada",
+      "link": "https://ca.investing.com/news/transcripts/earnings-call-transcript-nrc-health-posts-solid-q2-2026-growth-as-shares-rise-93CH-4758209",
+      "date": "2026-07-28T21:53:51Z",
+      "insight": {
+        "linkedin_hook": "🚀 Market momentum alert: Are Canadian health-tech firms leveraging the current NRC growth cycle to scale simulation capabilities?",
+        "strategic_value": "* NRC Health’s financial growth signals robust reinvestment capacity for advanced R&D initiatives.\n* The expansion of health-tech valuation creates a premium environment for firms to align with federal innovation mandates.\n* **Consulting Pivot:** Position your firm to integrate specialized infectious disease modeling software into future NRC research ideation cycles to secure preferential partner status.",
+        "co_bidding_opportunity": "Monitor future NRC Ideation Fund calls [Fact ID: 1001] for potential collaboration on simulation platforms as NRC Health expands its R&D infrastructure footprint.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Connects Q2 fiscal growth signals to long-term R&D funding anchors via the NRC Ideation Fund.",
         "grounded_fact_ids": [
           1001
         ],
@@ -365,30 +317,6 @@
           "source_name": "PHAC Laboratory Biosafety Guidelines",
           "page_range": "Page 15",
           "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      }
-    },
-    {
-      "source": "Canada_NRC_Simulation",
-      "title": "NRC Health (NRC) Q1 2026 earnings summary - Quartr",
-      "link": "https://quartr.com/events/nrc-health-nrc-q1-2026_on5qxzVv",
-      "date": "2026-07-22T02:56:18Z",
-      "insight": {
-        "linkedin_hook": "Is your biotech firm hitting its growth targets? 🚀 NRC Health just reported a record $152.1M in recurring contract value, proving that the demand for actionable healthcare intelligence is at an all-time high.",
-        "strategic_value": "- High-level growth in recurring revenue signals a massive appetite for technology-driven healthcare outcomes in the Canadian market.\n- The shift toward long-term 'Enablement' and 'Experience' platforms suggests a trend away from legacy systems toward modular, scalable digital architectures.\n- * **Consulting Pivot:** Leverage this market sentiment to propose the integration of specialized, data-driven diagnostic simulation modules into existing patient-engagement platforms to enhance clinical outcomes.",
-        "co_bidding_opportunity": "Collaborate with NRC-aligned technology partners to integrate specialized simulation software into their Q3 2027 'Enablement platform' roadmap, providing the necessary backend modeling for clinical decision support.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Connects market-leading health technology growth to the long-term potential of applying in silico simulation to clinical environments.",
-        "grounded_fact_ids": [
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
         },
         "program_validation_status": null,
         "export_risk_advisory": null,
