@@ -80,16 +80,25 @@ graph TD
     IEA -->|Playwright / RSS Ingestion| GHA
     TECH -->|RSS Ingestion| GHA
 
-    GHA -->|Batch Curation & Synthesis| LLM
-    LLM -->|JSON Response| GHA
+    GHA -->|Batch Prompting| LLM
+    LLM -->|JSON Insights| GHA
 
-    GHA -->|Upload JSON feeds & PNG social card| AZ
-    GHA -->|Push warnings/failure alerts| DIS
-    GHA -->|Dispatch formatted newsletters| SMTP
+    GHA -->|Upload mining_insights.json & date reports| AZ
+    GHA -->|Failure Alerts| DIS
+    GHA -->|Dispatch Digests| SMTP
 
-    AZ -->|Fetch dynamic JSON data| GH
-    SMTP -->|Formatted HTML Digest| USR
+    AZ -->|Fetch historical JSONs| GH
+    SMTP -->|Formatted HTML Digests| USR
 ```
+
+### 3.2 External API Interface Catalog (Critical Minerals & Mining Hubs)
+
+| Interface Name | Host / Endpoint Base | Protocol & Format | Exact Parameters / Slugs | Ingestion Role |
+| :--- | :--- | :--- | :--- | :--- |
+| **NRCan Mining News API** | `api.io.canada.ca/io-server/gc/news/en/v2` | HTTPS GET (Atom XML) | `dept=naturalresourcescanada&type=newsreleases&sort=publishedDate&orderBy=desc&pick=15&format=atom` | Canadian critical minerals, battery supply chain, and mining strategy announcements |
+| **ISED Mining Tech API** | `api.io.canada.ca/io-server/gc/news/en/v2` | HTTPS GET (Atom XML) | `dept=departmentofindustry&type=newsreleases&sort=publishedDate&orderBy=desc&pick=15&format=atom` | SIF funding allocations for EV battery, critical mineral refining, and smelting facilities |
+| **PCO Mining Policy API** | `api.io.canada.ca/io-server/gc/news/en/v2` | HTTPS GET (Atom XML) | `dept=privycouncil&type=newsreleases&sort=publishedDate&orderBy=desc&pick=15&format=atom` | Federal cabinet critical mineral strategy directives and major project designations |
+| **Mining Peak Body RSS** | `mining.ca/news-feed`, `minerals.org.au` | HTTPS GET (RSS/Atom) | Hub feeds (Canada, AU, CH, UK, CN) | Peak body policy, ESG disclosures, and production quota updates |
 
 ---
 
@@ -133,7 +142,7 @@ The pipeline is configured via `configs/mining_hubs.json` with the following par
 - **Primary LLM Model:** `gemini-3.5-flash`
 - **Ingestion Sources:**
   - `Canada_Mining_News` (Canada Mining News Feed)
-  - `Canada_NRCan_News` (Natural Resources Canada News Feed)
+  - `Canada_NRCan_News` (Natural Resources Canada Mining News Feed — locked to `topic=mining` API endpoint)
   - `Canada_ISED_Mining` (ISED Mining Strategy News Feed)
   - `Canada_PCO_News` (Privy Council Office News Feed)
   - `Canada_ECCC_News` (Environment and Climate Change Canada Google News RSS Feed)
@@ -150,6 +159,8 @@ The pipeline is configured via `configs/mining_hubs.json` with the following par
   - `Africa_Mining_Strategy` (Africa Critical Minerals and Beneficiation News Feed)
   - `Ecofin_Mining_Africa` (Ecofin Agency African Mining Feed)
   - `Exploration_Tech_Key_Players` (Discovery Tech & Mining Key Players Feed)
+  - `MiningWeekly_Africa` (Mining Weekly Africa First-Party Journalism Feed)
+  - `MiningMX_Africa` (MiningMX African Mining & M&A Feed)
 
 ---
 

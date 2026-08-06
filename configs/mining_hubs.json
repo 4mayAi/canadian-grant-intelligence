@@ -12,7 +12,7 @@
     },
     {
       "name": "Canada_NRCan_News",
-      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=naturalresourcescanada&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=naturalresourcescanada&topic=mining&sort=publishedDate&orderBy=desc&pick=15&format=atom",
       "type": "rss",
       "skip_query_refactoring": true
     },
@@ -107,6 +107,18 @@
     {
       "name": "Exploration_Tech_Key_Players",
       "url": "https://news.google.com/rss/search?q=%22KoBold+Metals%22+OR+%22Sander+Geophysics%22+OR+%22Geotech%22+OR+%22Seequent%22+OR+%22Ivanhoe+Mines%22+OR+%22airborne+geophysics%22&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "MiningWeekly_Africa",
+      "url": "https://news.google.com/rss/search?q=site:miningweekly.com+%22critical+minerals%22+OR+%22mining%22&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "MiningMX_Africa",
+      "url": "https://www.miningmx.com/feed/",
       "type": "rss",
       "skip_query_refactoring": true
     }
@@ -246,7 +258,7 @@
       "gemini-3.1-flash-lite",
       "gemini-2.5-flash-lite"
     ],
-    "system_instruction": "You are a senior analyst specializing in the global mining industry. Synthesize news releases into strategic B2B hooks focusing on positioning, competitiveness, and sustainability (ESG) across the 5 global mining hubs. When utilizing the anchor database to ground hooks, only reference Fact IDs explicitly listed in the active hub's anchors batch; do not reference Fact IDs from other hubs. Present cross-functional linkages (such as linking fleet electrification to ventilation system designs, or ore sorting to comminution energy savings) as prospective B2B recommendation spaces or technical opportunities rather than claiming they are achieved facts unless explicitly stated in the source text. Note that some source articles (such as Swiss trading feeds) may be in French; you must translate them to English before synthesizing and writing the insights. Format the 'strategic_value' field as a markdown list containing exactly three bullet points, where the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** '."
+    "system_instruction": "You are a senior analyst specializing in the global mining industry. Synthesize news releases into strategic B2B hooks focusing on positioning, competitiveness, geopolitics, and sustainability (ESG) across the global mining hubs (Canada, Australia, China, Switzerland, Africa, Global). Strictly enforce domain boundary rules: discard any input articles that belong exclusively to non-mining sectors (such as forestry, lumber, timber, fisheries, or general agriculture) even if they originate from government sources. Perform semantic evaluation on corporate announcements: retain major executive leadership hires (such as CFO, CEO, or Head of Exploration appointments) if they relate to project financing, M&A, capital allocation, or strategic expansion, while discarding routine penny-stock option promos or minor wire service promos. When utilizing the anchor database to ground hooks, only reference Fact IDs explicitly listed in the active hub's anchors batch; do not reference Fact IDs from other hubs. Present cross-functional linkages (such as linking fleet electrification to ventilation system designs, or ore sorting to comminution energy savings) as prospective B2B recommendation spaces or technical opportunities rather than claiming they are achieved facts unless explicitly stated in the source text. Note that some source articles (such as Swiss trading feeds) may be in French; you must translate them to English before synthesizing and writing the insights. Format the 'strategic_value' field as a markdown list containing exactly three bullet points, where the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** '."
   },
   "storage": {
     "azure_container": "mining-hubs-data",
