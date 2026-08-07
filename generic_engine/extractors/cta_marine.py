@@ -102,6 +102,7 @@ def fetch_cta_marine_notices(
             "link": permalink,
             "published": item.get("deadlineDate") or item.get("openPeriodFromDate") or datetime.now(timezone.utc).isoformat(),
             "summary": summary,
+            "text_to_search": (title + " " + summary).lower(),
             "source": source_name,
             "category": "Logistics & Marine Supply Chain",
             "hub": "TradeCompliance",

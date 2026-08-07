@@ -67,8 +67,8 @@ def fetch_esdc_lmia_approvals(
             s for s in strings if any(term in s.upper() for term in ["INC", "LTD", "CORP", "CANADA", "CONSTRUCTION", "ENGINEERING", "SERVICES", "ENERGY"])
         ]
 
-        # Format Ingestion Item
-        permalink = f"{download_url}#lmia-latest"
+        # Format Ingestion Item (HTML dataset landing page to avoid binary XLSX download in Playwright)
+        permalink = f"https://open.canada.ca/data/en/dataset/{package_id}#lmia-latest"
         title = f"ESDC TFW Program LMIA Approvals: High-Skill Industrial Staffing Shortages ({resource_name[:50]})"
         
         sample_nocs = ", ".join(list(set(noc_matches))[:6]) if noc_matches else "Professional Engineers, Construction Managers, Welders"
@@ -85,6 +85,7 @@ def fetch_esdc_lmia_approvals(
             "link": permalink,
             "published": datetime.now(timezone.utc).isoformat(),
             "summary": summary,
+            "text_to_search": (title + " " + summary).lower(),
             "source": source_name,
             "category": "Industrial Workforce & Labour Shortages",
             "hub": "TradeCompliance",
