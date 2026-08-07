@@ -5027,7 +5027,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "Lowest Cost-per-Point",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade Agreement",
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   },
   {
@@ -5117,7 +5117,7 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "Please note that late submissions will not be considered or accepted. GRANITE BASES FOR OUTDOOR DISPLAY STRUCTURES REQUIREMENT:The Capital Interpretation and Commemoration group (CIC) of the department of Canadian Heritage (PCH) requires fourteen (14) custom granite base units to support outdoor image display structures commissioned by PCH-CIC. This solicitation of offers is open only to Canadian suppliers. This procurement is conditionally limited to Canadian goods. Green Procurement - Environm...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of Public Works and Government Services (PSPC)",
     "solicitation_number": "WS5557669681",
     "notice_type": "Request for Proposal",
@@ -5155,7 +5155,7 @@
     "category": "SRV",
     "category_label": "Services",
     "description": "Public Services and Procurement Canada (PSPC) is issuing this RFI on behalf of the Department of National Defence (DND) and Canadian Armed Forces (CAF). The purpose of this RFI is to provide DND with information on how to optimally sustain the legacy military payroll systems using managed services and assist the future transition to a new payroll solution.",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of Public Works and Government Services (PSPC)",
     "solicitation_number": "WS5789413257",
     "notice_type": "Request for Information",
@@ -5163,5 +5163,76 @@
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
     "trade_agreements": "Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)",
     "recommended_playbook": "Specification Shaping (RFI / EOI)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Selective Laser Sintering (SLS) 3D Printing System",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-678-87128923",
+    "date": "2026-08-07T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🚀 Industrial additive manufacturing adoption hits a critical milestone with today's NRC tender.",
+      "strategic_value": "* Procurement of high-precision SLS hardware carries significant capital risk if the asset cannot clear customs under current CARM RPP financial bonding requirements, potentially triggering $250-$450/day in demurrage costs if classification delays occur.\n* Successful bidders must execute a strict 'Chain-of-Custody' verification for imported components to ensure compliance with Bill C-35, ensuring no high-risk precursors enter the supply chain.\n* **Consulting Pivot:** We propose a 'Customs & Compliance Readiness' package for mid-market industrial manufacturers seeking to enter federal procurement, structured at a $15,000 retainer for CARM bonding integration and tariff classification audit services.",
+      "co_bidding_opportunity": "Collaborate with pre-qualified Canadian industrial systems integrators who maintain active standing with the NRC to mitigate supply chain provenance risks associated with imported 3D printing alloys.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "The procurement of high-tech manufacturing equipment is directly impacted by the operational necessity of CARM RPP bonding and the rigorous origin verification standards established under the federal Integrity Regime.",
+      "grounded_fact_ids": [
+        3,
+        4
+      ],
+      "anchor_reference": {
+        "source_name": "Canada Border Services Agency",
+        "page_range": "Customs Notice CN26-04",
+        "url": "https://www.cbsa-asfc.gc.ca/services/carm-gcra/menu-eng.html"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-02T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "Title: New Selective Laser Sintering (SLS) 3D Printing SystemSolicitation Number: 26-58097Publication Date: August 7, 2026Closing Date and Time: September 2, 2026Trade Agreements: Canadian Free Trade Agreement (CFTA) (formerly Agreement on Internal Trade [AIT])Region of Opportunity: Canada Region of Delivery: Mississauga, ONGSIN: N3695Notice Type: Request for Proposal (RFP)Tendering Procedure: OpenDescription:The National Research Council Canada (NRC) requires a New Selective Laser Sintering (SL...",
+    "type": "New",
+    "organization": "National Research Council of Canada (NRC)",
+    "solicitation_number": "26-58097",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "GE46 Electoral Material – Self Adhesive Floor Marking Strip",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-314-75088154",
+    "date": "2026-08-07T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🗳️ Elections Canada sets the stage for supply chain transparency with new electoral material requirements.",
+      "strategic_value": "* While localized in nature, non-compliance with the tender's precise environmental durability specs exposes vendors to financial clawbacks and potential long-term vendor debarment under federal procurement guidelines.\n* Bidders must implement a 'neutral transit warehouse' buffer strategy to manage the October 12, 2026, delivery window, shielding against potential logistics disruptions in the domestic transportation corridor.\n* **Consulting Pivot:** We offer a 'Federal Bid Compliance' subscription ($5,000/quarter) providing continuous monitoring of electoral and public sector agency tenders, inclusive of real-time supply chain mapping to preemptively address potential environmental claim scrutiny.",
+      "co_bidding_opportunity": "Engage in a 'Standard Competitive Bidding (RFP)' strategy by aligning with specialized domestic printing and logistics firms capable of meeting Elections Canada's specific tear-resistance and yellow/black print standards.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This tender represents a standardized procurement process where the operational focus shifts toward reliable, domestic-compliant logistics execution and adherence to strict federal RFP delivery deadlines.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-27T00:00:00Z",
+    "province": "NCR (Ottawa/Gatineau)",
+    "province_abbrev": "NCR",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "The Office of the Chief Electoral Officer (OCEO), an agent of Parliament, exercises general direction and supervision over the conduct of elections and referendums at the federal level and is commonly known as Elections Canada. RequirementThis requirement is for removable floor marking strip, prints in yellow and black and are tear resistant.PREFERRED DELIVERY DATE: The entire quantity must be delivered on or before October 12, 2026.IncumbentThe work is currently not being performed by a contrac...",
+    "type": "New",
+    "organization": "Office of the Chief Electoral Officer (Elections)",
+    "solicitation_number": "ECII-RFP-2026-4198-A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Variations or combinations of the above methods",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
   }
 ]
