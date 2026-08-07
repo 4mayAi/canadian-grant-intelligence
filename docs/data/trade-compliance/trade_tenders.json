@@ -447,38 +447,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "W307B-27A004-A RFP Arctic Naval Distillate Fuel",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110018795?anId=ANONYMOUS",
-    "date": "2026-07-15T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Arctic fuel supply: Navigating extreme logistics and strict regulatory hurdles. ⛽",
-      "strategic_value": "* **Financial Exposure:** Failure to meet CGSB 3.11-2022 lubricity specifications (<=460 µm) will result in immediate rejection of the fuel lot, incurring massive demurrage costs ($500+/hour) and potential total forfeiture of the $150,000L contract value.\n* **Operational Play:** Implement a certified Chain-of-Custody (CoC) mandate from point of refinery to ship-to-ship transfer; ensure all fuel lab certifications are pre-vetted against Arctic compliance standards before vessel dispatch.\n* **Consulting Pivot:** * **Consulting Pivot:** Engage us for a 'Logistics Risk Mitigation' retainer ($20,000/month) to oversee third-party lab testing, verify CoC integrity, and manage regulatory communications with the Department of National Defence to prevent breach of contract.",
-      "co_bidding_opportunity": "Partner with established northern logistics providers or indigenous-owned shipping companies to satisfy NILCA/JBNQA requirements for Arctic deliveries.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "Involves critical infrastructure supply chain management under strict Canadian General Standards Board (CGSB) technical benchmarks.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null,
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-05T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "Please note that late submissions will not be considered or accepted.  This Department of National Defence requirement is for the supply of 150,000 litres of Naval Distillate Fuel, Type 11, in accordance with CGSB Standard 3.11-2022 (latest issue) The product is required at one location in the Arctic as follows:   Item 1 - A firm quantity of 150,000 litres via ship-to-ship delivery into Royal Canadian Navy Ship HMCS HMCS Frederick Rolette at Ivujivik, Quebec. Anticipated delivery date is Septemb...",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5792260585",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Variations or combinations of the above methods",
-    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade Agreement",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "RFI - Integrated Workspace Management System",
     "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110018810?anId=ANONYMOUS",
     "date": "2026-07-15T00:00:00Z",
@@ -666,45 +634,6 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
     "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFP 300 kV Scanning and Transmission Electron Microscope",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110018285?anId=ANONYMOUS",
-    "date": "2026-07-10T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Precision instrumentation: The backbone of Canadian clean-tech and research innovation. 🔬",
-      "strategic_value": "*   Delayed procurement cycles due to supply-chain origin non-compliance risk $50,000+ in potential R&D funding clawbacks, while misclassification of high-tech imports triggers immediate CBSA audit flags.\n*   Execution requires deep-tier vendor scrutiny to ensure compliance with Bill C-26 (cybersecurity/OT controls) for complex electron microscope telemetry systems and specialized import compliance for high-value lab hardware.\n*   **Consulting Pivot:** We deliver a 'High-Tech Import Compliance Shield' for $20,000, providing an end-to-end audit of your hardware origin and cyber-compliance documentation to ensure your bid meets both NRCan procurement specs and evolving national security standards.",
-      "co_bidding_opportunity": "Collaborate with international high-end instrumentation manufacturers (e.g., ZEISS, Thermo Fisher) to serve as their domestic Canadian systems integration and regulatory compliance partner for federal tender bids.",
-      "mets_category": "Border Compliance & Tariffs",
-      "mets_rationalization": "This involves the import of critical, regulated technological goods requiring strict oversight of origin and cyber-security standards.",
-      "grounded_fact_ids": [
-        1,
-        6
-      ],
-      "anchor_reference": {
-        "source_name": "Global Affairs Canada",
-        "page_range": "CUSMA 2026 Joint Review Notice",
-        "url": "https://www.international.gc.ca/trade-agreements-accords-commerciaux/agr-acc/cusma-aceum/index.aspx"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-04T00:00:00Z",
-    "province": "Ontario",
-    "province_abbrev": "ON",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "Please note that late submissions will not be considered or accepted. Description of Requirement: Natural Resources Canada has a requirement for the supply, delivery, installation, configuration and commissioning of a new 300 kV Scanning/Transmission Electron Microscope system, including the training needed for full operation of the system. The delivery is to be made in Hamilton, Ontario. The Contractor must be able to provide in-situ Transmission Electron Microscopy holders for heating and elec...",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5703747890",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade Agreement",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   },
   {
@@ -1311,44 +1240,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "EJ196-261270 Janitorial Cleaning Services West Memorial Building",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110017212?anId=ANONYMOUS",
-    "date": "2026-06-29T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Compliance is not just for the C-suite; it’s a site-level requirement. Federal janitorial tenders now demand ironclad environmental reporting. 🧹",
-      "strategic_value": "* Unverified environmental claims regarding cleaning agents now carry a risk of private right-of-action litigation, potentially exposing operators to fines of up to 3% of global revenue under Bill C-59.\n* Execution requires a rigorous ESG data bridge integration that tracks the chemical composition of all cleaning agents against federal hazardous materials registries to ensure documentation integrity before every invoice submission.\n* **Consulting Pivot:** We propose an 'ESG Disclosure Assurance' audit for $12,500. We will verify your sustainability claims against the latest Competition Act requirements to ensure your marketing and operational disclosures are legally defensible.",
-      "co_bidding_opportunity": "Collaborate with facilities management firms as a compliance specialist, taking responsibility for the mandatory ESG and chemical-origin reporting required under current federal service contracts.",
-      "mets_category": "Trade Remedies & Competition",
-      "mets_rationalization": "Bill C-59 has fundamentally changed the risk profile of service procurement, making environmental 'greenwashing' a high-stakes legal and financial liability for all federal service vendors.",
-      "grounded_fact_ids": [
-        5
-      ],
-      "anchor_reference": {
-        "source_name": "Competition Bureau Canada",
-        "page_range": "Bill C-59 Anti-Greenwashing Guidelines",
-        "url": "https://ised-isde.canada.ca/site/competition-bureau-canada/en"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-04T00:00:00Z",
-    "province": "NCR (Ottawa/Gatineau)",
-    "province_abbrev": "NCR",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "AMENDMENT TO CLOSING TIME: Please disregard the Ariba Discovery posting response deadline closing time and CanadaBuys posting closing time. All required supporting documentation and bid submission must be submitted by August 4, 2026 at 2:00pm. All bids submitted after 2:00pm will result in the bid being declared non-responsive.  Canada is seeking offers from Offerors to provide Janitorial Services including all labour, material and equipment for Public Works and Government Services Canada (PWGSC...",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5753891185",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "Training Support",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-511-358458",
     "date": "2026-06-22T00:00:00Z",
@@ -1387,44 +1278,6 @@
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Please refer to Tender Description or Tender Documents",
-    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFP - FW076-251224- 5.5m-5.9m Open Aluminum Monohull Boat and Trailer",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/WS5712073811-Doc5745450726",
-    "date": "2026-06-22T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Navigating the complexities of Supply Arrangement (SA) logistics? ⚓",
-      "strategic_value": "* **Financial Exposure:** Failure to meet SA-specific compliance metrics risks immediate suspension of eligibility, incurring potential revenue losses equivalent to the full contract value plus administrative remediation costs for re-qualification.\n* **Operational Play:** Execute a rigorous pre-vessel clearance filing protocol; coordinate with CBSA customs brokers to ensure technical specifications of marine assets align with current CARM API bonding requirements for release eligibility.\n* **Consulting Pivot:** * **Consulting Pivot:** We offer a specialized 'SA Compliance Audit' service to ensure your technical documentation meets current PWGSC standards for Stream #12, starting at $15,000 per review cycle to bridge gaps between internal product specs and government-mandated procurement criteria.",
-      "co_bidding_opportunity": "Identify potential lead SA holders under Stream #12 to act as prime contractors; propose a secondary subcontracting role for specialized marine equipment testing and final delivery logistics within the Burlington/Campbell River corridors.",
-      "mets_category": "Border Compliance & Tariffs",
-      "mets_rationalization": "Requires strict adherence to existing Supply Arrangements and CARM system integration for marine import/compliance verification.",
-      "grounded_fact_ids": [
-        3
-      ],
-      "anchor_reference": {
-        "source_name": "Canada Border Services Agency",
-        "page_range": "Customs Notice CN26-04",
-        "url": "https://www.cbsa-asfc.gc.ca/prog/carm-gcra/menu-eng.html"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-04T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "Please note that late submissions will not be considered or accepted. This Notice of Proposed Procurement (NPP) is issued pursuant to PWGSC Supply Arrangement (SA) # E60MC-190001 and covers a requirement under the SA for the following Stream: Stream #12: Aluminum Boats - Equal to or less than 6 Meters. Department of Fisheries and Oceans (DFO) has a requirement to purchase three (3) 5.5m - 5.9m Open Aluminum Monohull Boat and Trailer for delivery to Burlington, Ontario and Campbell River, British...",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5712073811",
-    "notice_type": "RFP against Supply Arrangement",
-    "procurement_method": "Competitive - Selective tendering",
-    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   },
   {
@@ -1619,38 +1472,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFP - F7013-260023-A - IPMS Spare parts",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110015210?anId=ANONYMOUS",
-    "date": "2026-06-05T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "",
-      "strategic_value": "Insight generation failed or blocked: Unknown reason",
-      "co_bidding_opportunity": "",
-      "mets_category": "",
-      "mets_rationalization": "",
-      "grounded_fact_ids": [],
-      "anchor_reference": null,
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-04T00:00:00Z",
-    "province": "Nova Scotia",
-    "province_abbrev": "NS",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "AMENDMENT TO CLOSING TIME: Please disregard the SAP Business Network posting response closing time and CanadaBuys posting closing time. All required supporting documentation and responses must be submitted by 2026-08-04 at 14H00 EDT. All responses submitted after 14H00 EDT will result in the submission being declared non-responsive. This solicitation is for the supply of spare parts for the CCGS Donjek.",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5727137371",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)North American Free Trade Agreement (NAFTA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "Housing Construction Program MDB CFHA RPCIP Yellowknife",
     "link": "https://www.merx.com/public/solicitations/3975611901/abstract?language=EN",
     "date": "2026-05-28T00:00:00Z",
@@ -1802,46 +1623,6 @@
     "selection_criteria": "Not applicable",
     "trade_agreements": "None",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFP - Enterprise Architecture Software as a Service (SaaS) Solution",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110012467?anId=ANONYMOUS",
-    "date": "2026-05-07T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Navigating the complexities of federal SaaS procurement under the shadow of new data sovereignty laws. 🌐",
-      "strategic_value": "* Bidders must account for the statutory reverse-onus evidentiary burden under Bill C-35, ensuring that SaaS back-end infrastructure providers are not embedded in high-risk jurisdictions currently flagged by the SEMA registry.\n* Success requires pre-vessel clearance protocols for any hardware-dependent data centers and clear alignment with CARM API bonding for any associated equipment importations required to scale the SaaS deployment.\n* **Consulting Pivot:** Engage us for a 'Supply Chain Traceability Shield' at a flat fee of $25,000, ensuring your software sub-suppliers are verified against the Ministerial High-Risk Goods Designation List to prevent contract termination risk.",
-      "co_bidding_opportunity": "Partner with recognized data systems integrators that possess established CARM financial bonding status to facilitate the importation of necessary physical infrastructure.",
-      "mets_category": "Trade Policy & Sanctions",
-      "mets_rationalization": "SaaS procurement in the federal sector now intersects with critical supply chain traceability and global sanctions, necessitating robust evidentiary support to prove non-participation in forced labour or prohibited jurisdictions.",
-      "grounded_fact_ids": [
-        2,
-        3,
-        7
-      ],
-      "anchor_reference": {
-        "source_name": "Public Safety Canada",
-        "page_range": "Bill C-35 Legislation",
-        "url": "https://www.publicsafety.gc.ca/cnt/cntrng-crm/frcd-lbr-mstr-eng.aspx"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-05T00:00:00Z",
-    "province": "Ontario",
-    "province_abbrev": "ON",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "Supply Enterprise Architecture Software as a Service (SaaS) Solution",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5683108202",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
@@ -2991,44 +2772,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "EF944-270442 - PSIB - Purchase of office furniture under the SA for category 6 for ESDC",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110019397?anId=ANONYMOUS",
-    "date": "2026-07-21T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Office furniture procurement is now an exercise in risk mitigation. 🛋️ Don't let non-compliant furniture chain-of-custody expose your agency to audit scrutiny.",
-      "strategic_value": "* Failure to ensure vendor alignment with existing Supply Arrangement (SA) price caps can trigger contract audits, resulting in potential recovery of price premiums and loss of government preferred-supplier status.\n* Operational play involves immediate integration with the existing E60PQ-140003/D supply arrangement framework, ensuring all furniture sourcing matches the pre-negotiated 'Category 6' technical and pricing benchmarks.\n* **Consulting Pivot:** We provide a 'Government Contract Lifecycle Management' package (starting at $5,000/month) to track SA drawdown thresholds and ensure your internal procurement processes avoid 'Competition Act' compliance pitfalls.",
-      "co_bidding_opportunity": "Engage as a localized installation and logistics partner to prime Supply Arrangement holders who lack regional office footprint in Montreal.",
-      "mets_category": "Trade Remedies & Competition",
-      "mets_rationalization": "Utilization of established federal supply arrangements requires strict adherence to procurement policy and Competition Act transparency, grounding it in trade competition standards.",
-      "grounded_fact_ids": [
-        5
-      ],
-      "anchor_reference": {
-        "source_name": "Competition Bureau Canada",
-        "page_range": "Bill C-59 Anti-Greenwashing Guidelines",
-        "url": "https://ised-isde.canada.ca/site/competition-bureau-canada/en"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-04T00:00:00Z",
-    "province": "Quebec",
-    "province_abbrev": "QC",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "PWGSC, on behalf of Employment and Social Development Canada (ESDC), is issuing this request for proposal (RFP) for the purchase, delivery and installation of office furniture under the supply arrangement E60PQ-140003/D at Montreal, Quebec, Canada, as detailed in the bid solicitation.",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5799420242",
-    "notice_type": "RFP against Supply Arrangement",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "None",
-    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "RFP- FW076-260152- 6.05- 7.0m Aluminum RHIB T-top and trailer",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/WS5769863979-Doc5785806566",
     "date": "2026-07-14T00:00:00Z",
@@ -3102,45 +2845,6 @@
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
     "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFP - 5P304-250372 Medium Duty Cab and Frame Truck",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/WS5754081785-Doc5779007197",
-    "date": "2026-07-06T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Efficiency in transport procurement is lost if the paperwork doesn't clear the border first. 🚛",
-      "strategic_value": "* Errors in vehicle import classifications can trigger immediate CBSA secondary inspections, resulting in $250-$450/day per unit in demurrage costs and potentially invalidating the entire purchase contract.\n* Execution requires immediate CARM API bonding integration to ensure seamless Release Prior to Payment (RPP) status and verification of all vehicle components against CUSMA origin thresholds.\n* **Consulting Pivot:** We offer a $10k 'Customs Classification & Tariff Strategy' consultation to streamline your vehicle acquisition and ensure all import documentation is pre-cleared before arrival, mitigating all duty-related delivery risks.",
-      "co_bidding_opportunity": "Partner with authorized Canadian automotive distributors or specialized heavy-duty equipment upfitters to meet technical specifications and Buy Canadian content requirements.",
-      "mets_category": "Border Compliance & Tariffs",
-      "mets_rationalization": "Directly addresses the operational requirements of moving class 7 vehicles through customs within the framework of CARM and CUSMA-mandated origin rules.",
-      "grounded_fact_ids": [
-        1,
-        3
-      ],
-      "anchor_reference": {
-        "source_name": "Global Affairs Canada",
-        "page_range": "CUSMA 2026 Joint Review Notice",
-        "url": "https://www.international.gc.ca/trade-agreements-accords-commerciaux/agr-acc/cusma-aceum/index.aspx"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-05T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "All required supporting documentation and bid submission must be submitted by 05 August 2026 at 14:00 EDT. All bids submitted after 14:00 EDT will result in the bid being declared non-responsive. Canada is seeking offers from Offerors to provide the supply and delivery of one (1) new single-rear-axle factory 4x4, medium-duty, cab and frame class 7 truck complete with installed hook-lift system and aluminum landscape dump box to Parks Canada in Tobermory Ontario.",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5754081785",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade Agreement",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   },
   {
@@ -3987,118 +3691,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFP for Height Adjustable Work Surfaces, Privacy Panels and Monitor Arms",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-424-96355268",
-    "date": "2026-07-15T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Navigating the PSIB maze for furniture procurement? Here is the strategy for those without an existing Supply Arrangement. 🪑",
-      "strategic_value": "* Securing this contract avoids the opportunity cost of non-participation in the $100k+ federal office furniture space and leverages the PSIB preference to consolidate market share in the National Capital Region.\n* Execution requires immediate registration for the E60PQ-140003/D Supply Arrangement; firms failing to align with this structure will face immediate exclusion from bidding on these high-volume government requirements.\n* **Consulting Pivot:** Provide a 'PSIB Fast-Track Integration' service at a $5k retainer to guide non-SA holders through the necessary Supply Arrangement qualification process, ensuring they are competitive within 14 days.",
-      "co_bidding_opportunity": "Collaborate with existing pre-qualified Supply Arrangement (SA) holders as a local distribution or 'last-mile' installation partner to meet regional delivery mandates.",
-      "mets_category": "Border Compliance & Tariffs",
-      "mets_rationalization": "The notice relies on the federal Supply Arrangement (SA) framework, which serves as the primary gateway for commercial furniture providers under the Buy Canadian/Indigenous procurement strategies.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null,
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-05T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "1. This NPP is issued pursuant to PWGSC Supply Arrangement (SA) # E60PQ-140003/D and covers a requirement from the following Product Category(ies) of the SA: - Product Category 2 – Work Surface Products and Product Category 5 – Ancillary Products.2. The Canada School of Public Service (CSPS) has a requirement for the purchase, delivery and installation of office furniture to Ottawa, Ontario by October 30, 2026.3. This NPP covers a requirement to be solicited amongst the PSIB stream of Suppliers ...",
-    "type": "Open",
-    "organization": "Canada School of Public Service (CSPS)",
-    "solicitation_number": "CSPS-RFP-IP26-0537",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Selective tendering",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)",
-    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
-    "title": "Digital Feasibility Study of a solid-state hydrogen-powered Light Armoured Vehicle (LAV)",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-155-29430559",
-    "date": "2026-07-08T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Hydrogen-powered defense is the future—is your supply chain compliant? 🛡️",
-      "strategic_value": "* Non-compliance with TB policies and TSPS performance standards can lead to $100k+ in bid preparation losses and irrevocable disqualification from the $4.5M tier procurement.\n* Execution demands rigorous verification of 'former public servant' disclosure compliance and strict adherence to the TSPS Method of Supply protocols to ensure bid eligibility.\n* **Consulting Pivot:** We propose a 'Defense Procurement & TSPS Alignment' consulting sprint, priced at $25,000, to optimize bidding consortia for Tier 1 defense contracts.",
-      "co_bidding_opportunity": "Systems integrators specializing in hydrogen fuel cell technology, military-grade vehicle engineering firms, and TSPS-qualified professional services consultancies.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "Relates to government procurement of critical defense infrastructure technology and strict adherence to procurement policy frameworks.",
-      "grounded_fact_ids": [
-        3
-      ],
-      "anchor_reference": {
-        "source_name": "Canada Border Services Agency",
-        "page_range": "Customs Notice CN26-04",
-        "url": "https://www.cbsa-asfc.gc.ca/services/carm-gcra/menu-eng.html"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-05T00:00:00Z",
-    "province": "NCR (Ottawa/Gatineau)",
-    "province_abbrev": "NCR",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "NOTICE OF PROPOSED PROCUREMENTFile Number: W8486-270848/ATier: 1 (< $4.5M)This requirement is for the Department of National Defence (DND) to conduct a digital feasibility study for a solid-state hydrogen-powered Light Armoured Vehicle (LAV) with a maximum weight of 45,000 lbs. The intent of this solicitation is to establish one (1) Contract for two (2) initial year. Time Frame of Delivery: Final delivery is no later than 20 Mar 2028.Documents may be submitted in either official language of Cana...",
-    "type": "Open",
-    "partner_list": [
-      {
-        "name": "Elemental Trucks Incorporated",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1479187"
-      },
-      {
-        "name": "Simard Suspensions Inc",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1479169"
-      },
-      {
-        "name": "Dana TM4",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1478063"
-      },
-      {
-        "name": "FEV North America",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1477173"
-      },
-      {
-        "name": "Sector Canada",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1476608"
-      },
-      {
-        "name": "Suhanium Professional Inc.",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1476062"
-      },
-      {
-        "name": "STL Engineering Inc.",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1475982"
-      },
-      {
-        "name": "SolidHydrogen Pty Ltd",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1475574"
-      },
-      {
-        "name": "Hydrogen in Motion (H2M)",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1475563"
-      },
-      {
-        "name": "Redrock Power Systems",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1475422"
-      }
-    ],
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W8486-270848/A",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Highest Technical Merit within a Stipulated Maximum Budget",
-    "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "Laundry Services – Rental and Cleaning (QC)",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-29-54707838",
     "date": "2026-07-06T00:00:00Z",
@@ -4566,7 +4158,7 @@
     "notice_type": "Request for Information",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
-    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)",
+    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Specification Shaping (RFI / EOI)"
   },
   {
@@ -4909,7 +4501,7 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "`NOTICE OF PROPOSED PROCUREMENT – W8485-279492/BThe Department of National Defence has a requirement for the item(s) detailed below. The delivery is requested at the depot(s) indentified below.Item 1Part No.: BM-18-1000-50GSIN: 6685NSN: 6685-01-297-1628, TRANSMITTER, PRESSUREMcDonell Spec: 74B580183-139OrPart No.: BM-14-1000-50GSIN: 6685NSN: 6685-01-146-0153, TRANSMITTER, PRESSUREMcDonell Spec: 74B580183-127OrPart No.: BM-5-1000-50GSIN: 6685NSN: 6685-01-146-0153, TRANSMITTER, PRESSUREMcDonell Sp...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of National Defence (DND)",
     "solicitation_number": "W8485-279492/B",
     "notice_type": "Request for Proposal",
@@ -4986,6 +4578,307 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "CFSME Out-Service Training: Plumbing and Heating Technician (PH Tech)",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-502-80721867",
+    "date": "2026-08-06T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🇨🇦 Upskilling the Forces: The Department of National Defence is seeking accredited academic institutions to deliver vital Plumbing & Heating Technician training. A clear opportunity for educational providers!",
+      "strategic_value": "- Direct revenue potential for a single 13-month training contract, likely in the mid-to-high six-figure range given specialized vocational training duration and scope, reducing working capital tied up in business development for recurrent contracts. Competitive market consolidation among specialized training providers could occur, favoring institutions with established government accreditations and infrastructure.\n- Educational institutions must develop a comprehensive course delivery plan, including facility readiness, certified instructor availability, and curriculum alignment with DND standards. This requires detailed proposal writing, demonstrating capability for hands-on practical training and theoretical instruction, with a focus on New Brunswick, Nova Scotia, and Prince Edward Island delivery regions.\n- * **Consulting Pivot:** Offer \"Government Bid & Training Program Development\" services, assisting vocational institutes in structuring proposals, aligning curricula to DND requirements, and navigating the \"Buy Canadian\" policy nuances. Fee structure could be a hybrid model: a fixed proposal development fee of $10,000-$25,000, plus a success-based commission of 3-5% on contract award.",
+      "co_bidding_opportunity": "Accredited Post-Secondary Vocational Institutes (Prime Contractor), Educational Content Developers (Subcontractor for curriculum materials), Training Facilities Providers (Subcontractor for specialized labs/equipment).",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This procurement directly supports the operational readiness and infrastructure maintenance of the Department of National Defence, falling under the broader category of government logistics and infrastructure support through specialized vocational training.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-21T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "NOTICE OF PROPOSED PROCUREMENTThe Department of National Defence seeking offers from Offerors to provide provide out-service training (OST) for Department of National Defence, Canadian Forces School of Military Engineering (CFSME). The course required to be delivered will be for DP1 (apprentice) Plumbing and Heating Technician (PH Tech) trade.  All instructions will be provided by an accredited academic institution. Training will be conducted at a recognized, post-secondary vocational institute....",
+    "type": "New",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W2037-27-0421/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Traditional",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Document review in support of the Evaluation of the Future Skills Program",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-879-79038207",
+    "date": "2026-08-06T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "💡 Future Skills, Future Insights: ESDC is seeking specialized SA Holders for a critical document review to evaluate the Future Skills Program. A targeted opportunity for qualified consulting firms!",
+      "strategic_value": "- Direct project revenue for the duration until February 28, 2027, potentially securing a significant professional services contract in the low-to-mid six figures. For non-SA holders, competitive exclusion represents lost revenue and limits market access, contributing to market consolidation among pre-qualified consulting firms in the National Capital Region.\n- Qualified SA Holders must develop a rigorous, evidence-informed approach to review and synthesize over 500 public reports into six thematic documents, aligning findings with specific evaluation questions. This necessitates strong analytical capabilities, efficient data synthesis, and clear report writing, with project management ensuring timely delivery.\n- * **Consulting Pivot:** Offer \"SA Holder Partnership & Proposal Support\" services, specifically to the listed SA holders or other qualified Tier 1 firms, providing specialized document analysis methodologies, report structuring, and quality assurance for their bids. This could involve a subcontracting role for the document review phase, with fees structured as a percentage of the awarded contract or a fixed project rate.",
+      "co_bidding_opportunity": "Existing Supply Arrangement Holders (Prime Contractor - e.g., Big River Analytics Ltd., Cathexis Consulting Inc., Goss Gilroy Inc.), Data Analysts/Researchers (Subcontractor for document synthesis), Technical Writers (Subcontractor for report generation).",
+      "mets_category": "Trade Policy & Sanctions",
+      "mets_rationalization": "This project pertains to evaluating a significant national program (Future Skills) that influences workforce development and economic policy, thereby indirectly informing broader governmental trade and competitiveness strategies.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-21T00:00:00Z",
+    "province": "NCR (Ottawa/Gatineau)",
+    "province_abbrev": "NCR",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "NOTICE OF PROPOSED PROCUREMENT (NPP) for Solutions-Based Professional Services (TSPS) RequirementThis requirement is for: Employment and Social Development CanadaThis requirement is open only to those Supply Arrangement Holders under E60ZT-16TSSB who qualify under Tier 1, National Capital region and for the Business consulting/change management services stream. The requirement is intended to result in the award of one contract.The following SA Holders have been invited to submit a proposal. •\tBi...",
+    "type": "New",
+    "organization": "Department of Employment and Social Development (ESDC)",
+    "solicitation_number": "100032488",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "None",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "MDB - Camp Sustain Theatre Support Coordination Centre (CS TSCC)",
+    "link": "https://www.merx.com/public/solicitations/4049456373/abstract?language=EN",
+    "date": "2026-08-05T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🏗️ Defence Infrastructure Upgrade: DCC is seeking Design-Build Teams for the Camp Sustain Theatre Support Coordination Centre in Montreal. A major opportunity for construction and engineering firms!",
+      "strategic_value": "- Securing a significant multi-year design-build contract (57 months) offers substantial, stable revenue, potentially in the tens to hundreds of millions, significantly improving cash flow and long-term financial forecasting. Failure to bid or win results in foregone revenue, allowing winning consortia to strengthen their market position in defense infrastructure projects.\n- Design-Build teams must submit comprehensive technical and cost proposals, demonstrating integrated design (architecture, engineering) and construction capabilities. This involves detailed project planning, risk management, and compliance with all DND construction standards, requiring robust project execution, supply chain management, and adherence to security protocols for defense sites.\n- * **Consulting Pivot:** Offer \"Defence Infrastructure Bid Management\" services, assisting prime contractors and consortiums in preparing comprehensive design-build proposals, including technical specification compliance, risk assessment, and cost optimization. This could be structured as a fixed project fee of $50,000-$150,000 per bid, depending on complexity, for large-scale infrastructure projects.",
+      "co_bidding_opportunity": "Architecture & Engineering Firms (Design Lead), General Contractors (Construction Lead), Specialized Subcontractors (e.g., HVAC, Electrical, Security Systems), Materials Suppliers (for construction materials), Project Management Consultants.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This is a direct procurement for the design and construction of a critical military logistics and support facility, aligning squarely with infrastructure development and maintenance for national security.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-14T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "CNST",
+    "category_label": "Construction",
+    "description": "DEFENCE CONSTRUCTION CANADA (DCC) is requesting Proposals from Design-Build Teams to design and construct the Camp Sustain Theatre Support Coordination Center (CSTS CC) at Montreal Garrison following a modified design-build approach. Additional details are provided in the Request for Proposals (RFP) documents.The estimated cost for this opportunity is in the range of $31,100,000.00.Firms that consider themselves qualified to provide these services are invited to submit their proposals through th...",
+    "type": "Open",
+    "organization": "Defence Construction Canada / Construction de Défense Canada",
+    "solicitation_number": "LPC00760_85125",
+    "notice_type": "",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "",
+    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Electoral Material – Wooden Ruler",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-558-87159177",
+    "date": "2026-08-05T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🗳️ Equipping Democracy: Elections Canada is procuring custom wooden rulers for upcoming electoral activities. A unique manufacturing and supply opportunity!",
+      "strategic_value": "- Potential for a multi-year supply contract (initial term plus 2-year option), generating steady revenue in the mid-to-high five figures, depending on volume. Timely delivery by December 1, 2026, is critical, with delays potentially incurring penalties or reputational damage. The competitive nature fosters market consolidation toward suppliers with proven manufacturing capacity and logistical reliability.\n- Suppliers must demonstrate capacity for high-volume manufacturing of wooden rulers, including custom branding (Elections Canada logo), and ensure compliance with quality standards. A robust logistics plan is required to meet the preferred delivery deadline of December 1, 2026, necessitating careful production scheduling, quality control, and transport coordination.\n- * **Consulting Pivot:** Offer \"Electoral Supply Chain Optimization\" services, assisting manufacturers in meeting specific government procurement requirements, including material sourcing, branding compliance, and logistics planning for time-sensitive electoral materials. Fees could be project-based, ranging from $8,000 to $18,000, or a small percentage of the contract value.",
+      "co_bidding_opportunity": "Wood Product Manufacturers (Prime Contractor), Custom Printing/Branding Services (Subcontractor), Logistics & Freight Forwarding Companies (Delivery Partner), Quality Assurance/Testing Labs (Compliance Partner).",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This involves the procurement and delivery of physical goods (electoral materials) which directly supports the logistical operations required for conducting federal elections, aligning with government logistics.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-21T00:00:00Z",
+    "province": "NCR (Ottawa/Gatineau)",
+    "province_abbrev": "NCR",
+    "category": "SRVTGD",
+    "category_label": "Services (Goods-Related)",
+    "description": "The Office of the Chief Electoral Officer (OCEO), an agent of Parliament, exercises general direction and supervision over the conduct of elections and referendums at the federal level and is commonly known as Elections Canada. RequirementThis requirement is for Wooden Ruler with Elections Canada logo.Elections Canada preferred Final Delivery Date is received no later than December 1, 2026 and the Rated Technical Evaluation has been structured to reflect this preference. IncumbentThe work is cur...",
+    "type": "Open",
+    "organization": "Office of the Chief Electoral Officer (Elections)",
+    "solicitation_number": "ECBH-RFP-2026-4123-1",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Variations or combinations of the above methods",
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "AI-ENABLED TRANSLATION AND POST-EDITING SERVICES (MTPE MODEL)",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-799-43335979",
+    "date": "2026-08-05T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Navigating the AI translation frontier? 🌐 The CMHC is laying the groundwork for a massive 60-month MTPE pivot.",
+      "strategic_value": "* Potential revenue capture involves high-barrier government contracting where margins are protected by scalability and volume, but failure to secure security/data governance compliance could result in disqualification and loss of long-term contract value.\n* Operational execution requires strict adherence to the Government of Canada’s AI-enabled MTPE model specifications, demanding internal documentation of LLM training data provenance and human-in-the-loop audit logs for quality assurance.\n* **Consulting Pivot:** Launch a 'Secure AI Translation Readiness Assessment' at a fixed fee of $15,000 to audit linguistic solution providers against CMHC’s forthcoming security and data governance standards, positioning your firm as the primary integrator for the eventual 60-month RFP.",
+      "co_bidding_opportunity": "As this is a 'Specification Shaping (RFI)' process, the primary opportunity lies in identifying as a potential systems integrator or cybersecurity partner specializing in secure, sovereign AI deployment for public sector data infrastructure.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "The RFI focuses on the transition to automated linguistic models within Canadian government infrastructure, necessitating a framework that aligns with evolving digital sovereign data requirements.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-02T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "The purpose of this Request for Information (RFI) is to seek information from industry on their ability to supply to CMHC modern and AI-enabled translation solutions, that support a transition to a scalable, efficient, and high-quality MTPE model aligned with Government of Canada requirements.  The objectives of this RFI are to: •\tIdentify available AI-enabled linguistic solutions (including NMT and LLM-based systems) •\tAssess functional, technical, and operational capabilities •\tExplore opportu...",
+    "type": "Open",
+    "organization": "Canada Mortgage and Housing Corporation (CNHC)",
+    "solicitation_number": "CMHC-SCHL-RFI-DR-4403",
+    "notice_type": "Request for Information",
+    "procurement_method": "Non-competitive",
+    "selection_criteria": "",
+    "trade_agreements": "None",
+    "recommended_playbook": "Specification Shaping (RFI / EOI)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "10081826 - PSIB RFP against SA E60HN-25AVSA - Display and Wall Mounts, Credenzas",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-16-21897331",
+    "date": "2026-08-05T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Supply chain integrity meets interior fit-outs. 🏢 Indigenous procurement mandates are shifting the procurement landscape in the National Capital Region.",
+      "strategic_value": "* Lowest-price selection criteria necessitate aggressive overhead management; miscalculations in regional logistics delivery schedules to Gatineau sites risk liquidated damages of 0.5% of contract value per day of delay.\n* Execution mandates require verification of 'Supply Arrangement' compliance, ensuring all procured hardware adheres to the specified E60HN-25AVSA metadata and technical assembly requirements.\n* **Consulting Pivot:** Offer a 'Supply Arrangement Compliance Audit' subscription service at $2,500/month to ensure SMEs maintain their PSIB eligibility and technical reporting standards, shielding them from contract revocation.",
+      "co_bidding_opportunity": "Under 'Selective Partnering (Supply Arrangement)', identify as a PSIB-certified logistics fulfillment partner for Tier 1 facility management firms holding existing federal Supply Arrangements.",
+      "mets_category": "Border Compliance & Tariffs",
+      "mets_rationalization": "This involves government procurement logistics and vendor management under the PSIB and Supply Arrangement frameworks, requiring rigorous adherence to national administrative standards.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-19T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "Public Services and Procurement Canada (PSPC) on behalf of Crown-Indigenous Relations and Northern Affairs Canada (CIRNAC) is issuing this solicitation for the supply, delivery, and installation of Credenzas, Wall-mounts and Freestanding Fixed Display Mount for screens at 15 Rue Eddy, Gatineau for various floors (8-9-10-21) at Les Terrasses de la Chaudière as detailed in the bid solicitation. This solicitation has been set aside under the Procurement Strategy for Indigenous Business (PSIB) under...",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "10081826",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "CCTV installation services for RCMP in PEI and NS",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-254-50562195",
+    "date": "2026-08-05T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Surveillance upgrades in the Atlantic region demand absolute vendor integrity. 🎥 Are you compliant with federal ineligibility standards?",
+      "strategic_value": "* Non-compliance with the Ineligibility and Suspension Policy risks immediate bid rejection, while failure to maintain service-level agreements (SLAs) for critical infrastructure monitoring triggers performance penalties proportional to the system downtime impact.\n* Logistical execution requires strict adherence to the 'as and when requested' delivery model, necessitating a localized buffer of spare CCTV hardware to meet mandatory installation timelines without triggering emergency procurement premiums.\n* **Consulting Pivot:** Provide a 'Federal Integrity Compliance and Integrity Attestation' package for $5,000 per bid, ensuring subcontractors pass the RCMP’s rigorous suspension/ineligibility vetting processes.",
+      "co_bidding_opportunity": "Utilize 'Standard Competitive Bidding (RFP)' to partner with localized electronic security specialists, serving as the prime's compliance and vetting interface for federal critical infrastructure projects.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "Installation of security infrastructure for federal agencies requires strict adherence to institutional integrity and procurement standards, which are foundational to government supply chain security.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-20T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "This bid solicitation cancels and supersedes previous bid solicitation number 202504062 dated April 30, 2026 with a closing of May 7, 2026 at 2:00 PM. A debriefing or feedback session will be provided upon request to bidders/offerors/suppliers who bid on the previous solicitation.The Royal Canadian Mounted Police H and L Divisions (Nova Scotia and Prince Edward Island) have a requirement for CCTV equipment installation and system maintenance services on an “as and when requested” basis. The stan...",
+    "type": "Open",
+    "organization": "Royal Canadian Mounted Police (RCMP)",
+    "solicitation_number": "202504062B",
+    "notice_type": "Request for Standing Offer",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Procurement Gateway Entry (RFSO / RFSA)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "The Replacement of Patio Slabs (HSC) Trenton",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-622-50638386",
+    "date": "2026-08-05T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Building for the future at 8 Wing Trenton. 🛠️ CKFTA compliance is the new baseline for federal construction logistics.",
+      "strategic_value": "* Contract fulfillment requires precise alignment with CKFTA standards; failure to document raw material origin for concrete/patio components may trigger a regulatory review of project costs and invoice reconciliation delays.\n* Logistical deployment involves tight coordination with DND site access protocols, where missed delivery windows for construction materials result in standby costs estimated at $1,200-$1,800 per day.\n* **Consulting Pivot:** Deliver a 'Federal Trade Agreement Compliance Certification' for construction SMEs at $3,000 per project, ensuring all materials utilized in federal housing or infrastructure meet international trade threshold requirements.",
+      "co_bidding_opportunity": "As a 'Standard Competitive Bidding (RFP)' prospect, form a consortium with regional concrete installers to act as the lead project manager and regulatory documentation conduit for the Canadian Forces Housing Agency.",
+      "mets_category": "Border Compliance & Tariffs",
+      "mets_rationalization": "This project triggers international trade agreement compliance (CKFTA), requiring specific provenance documentation for materials utilized in federal infrastructure.",
+      "grounded_fact_ids": [
+        4
+      ],
+      "anchor_reference": {
+        "source_name": "Canadian International Trade Tribunal",
+        "page_range": "SIMA Advisory",
+        "url": "https://www.citt-tcce.gc.ca/en"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-31T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Notice of Proposed Procurement (NPP) For The replacement of Patio Slabs for 25 RHUs at HSC Trenton This requirement is for: Department of National Defence (DND) – Canadian Forces Housing Agency (CFHA) 1. CFHA, within DND, has a requirement for the procurement of the replacement of 25 patio slabs for RHUs located in HSC Trenton. 2. Publication: All solicitation documents will be published at the same time as this NPP on CanadaBuys (GETS).3. Point(s) of delivery: HSC Trenton located at 8 Wing Tren...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "AB3725-00016",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "",
+    "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "26-58008 Fabrication of Heavy Impact Test Theater (HITT), Question and Answer 1, Amendment 1 Components",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-720-34368755",
+    "date": "2026-07-22T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Precision fabrication for ocean engineering: The Heavy Impact Test Theater is setting a new technical benchmark. 🏗️",
+      "strategic_value": "* With high-precision fabrication mandates, any failure in dimensional tolerances results in total batch rejection, with the cost of wasted specialty steel and re-machining impacting margins by up to 25%.\n* The project demands rigorous chain-of-custody documentation for all steel and polyethylene components to satisfy NRC engineering standards and future potential ESG reporting requirements.\n* **Consulting Pivot:** Offer a 'Supply Chain Precision & ESG Compliance Audit' for industrial manufacturers at $7,500 per engagement, specifically targeting the validation of material origin and carbon disclosure documentation required for large-scale government research facility contracts.",
+      "co_bidding_opportunity": "In this 'Standard Competitive Bidding (RFP)', seek a partnership with certified steel fabricators and machining houses to provide a turn-key assembly package that meets the NRC's detailed engineering specifications.",
+      "mets_category": "Trade Remedies & Competition",
+      "mets_rationalization": "Heavy industrial manufacturing for federal facilities requires adherence to material origin and precision standards, increasingly tied to competition act ESG and supply chain reporting mandates.",
+      "grounded_fact_ids": [
+        1,
+        5
+      ],
+      "anchor_reference": {
+        "source_name": "Global Affairs Canada",
+        "page_range": "CUSMA 2026 Joint Review Notice",
+        "url": "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/cusma-aceum/index.aspx?lang=eng"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-28T00:00:00Z",
+    "province": "Newfoundland and Labrador",
+    "province_abbrev": "NL",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "Question and Answer #1, Amendment #1 to 26-58008 Fabrication of Heavy Impact Test Theater ComponentsThis amendment is issued to modify the solicitation in response to Question & Answer #1 (Q&A 1).Please see tender documents for the Amendment #1 to RFP 26-58008.ALL OTHER TERMS AND CONDITIONS REMAIN THE SAME _______________________________________________________________________________________________________________________________________________________________________________26-58008 Fabricat...",
+    "type": "Open",
+    "organization": "National Research Council of Canada (NRC)",
+    "solicitation_number": "26-58008",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Variations or combinations of the above methods",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   }
 ]
