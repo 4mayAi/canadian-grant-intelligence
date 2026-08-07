@@ -457,6 +457,7 @@ class GeminiClient:
         - Close with a call-to-action line linking to the dashboard: "👉 Full dashboard with filters and strategic analysis: {url_cta}" followed by exactly 5 relevant hashtags on their own line.
         - Tone: Authoritative, crisp, Financial Times / Bloomberg executive style.
         - Factual Rigor & Temporal Accuracy: Only reference names, figures, and timeframes explicitly mentioned in the context below. Do not fabricate hashtags for organizations not mentioned. NEVER describe historical baseline years or past statistics (e.g., prior year trade numbers like 2025) as future target dates or deadlines. Always frame historical figures as past baseline achievements (e.g., 'building on the $2 billion benchmark set in 2025').
+        - CRITICAL TEMPORAL ANCHOR RULE: If the context below includes statutory anchors or active regulatory frameworks (e.g. CARM RPP bonding, CUSMA 2026 rules, or Bill C-35), treat them strictly as active background operating baselines. NEVER state that an established baseline framework was 'mandated' or 'launched' today. Lead paragraph 1 directly with the single newest 24-hour news event or tender.
         
         You MUST respond with a raw JSON object and nothing else.
         Format:

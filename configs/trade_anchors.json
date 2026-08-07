@@ -3,6 +3,7 @@
     {
       "id": 1,
       "category": "CUSMA & Trade Agreements",
+      "anchor_type": "established_baseline",
       "fact": "The CUSMA 2026 Joint Review provisions mandate strict enforcement of regional value content (RVC) and melt-and-pour steel origin standards for automotive, industrial, and clean-tech supply chains crossing the Canada-U.S. border.",
       "source": "Global Affairs Canada",
       "pages": "CUSMA 2026 Joint Review Notice",
@@ -11,6 +12,7 @@
     {
       "id": 2,
       "category": "Forced Labour & Import Bans",
+      "anchor_type": "established_baseline",
       "fact": "Bill C-35 establishes a standalone forced labour import prohibition framework featuring a Ministerial High-Risk Goods Designation List and a statutory reverse-onus evidentiary burden requiring commercial importers to prove supply chain origin prior to border release.",
       "source": "Public Safety Canada",
       "pages": "Bill C-35 Legislation",
@@ -19,6 +21,7 @@
     {
       "id": 3,
       "category": "Border Enforcement & CARM",
+      "anchor_type": "established_baseline",
       "fact": "The Canada Border Services Agency (CBSA) has solidified CARM as the official system of record, enforcing mandatory Release Prior to Payment (RPP) financial bonding for all commercial importers and administering retaliatory surtaxes on steel, aluminum, and EV imports.",
       "source": "Canada Border Services Agency",
       "pages": "Customs Notice CN26-04",
@@ -27,6 +30,7 @@
     {
       "id": 4,
       "category": "Trade Remedies & Anti-Dumping",
+      "anchor_type": "established_baseline",
       "fact": "The Canadian International Trade Tribunal (CITT) administers the Special Import Measures Act (SIMA), establishing anti-dumping and countervailing duty injury thresholds and adjudicating federal procurement bid challenges under international trade agreements.",
       "source": "Canadian International Trade Tribunal",
       "pages": "SIMA Advisory",
@@ -35,6 +39,7 @@
     {
       "id": 5,
       "category": "Anti-Greenwashing & Competition",
+      "anchor_type": "established_baseline",
       "fact": "Bill C-59 amendments to the Competition Act create a private right of action before the Competition Tribunal for unsubstantiated environmental claims, subjecting freight operators and manufacturers to penalties of up to 3% of global revenue for unverified supply chain ESG disclosures.",
       "source": "Competition Bureau Canada",
       "pages": "Bill C-59 Anti-Greenwashing Guidelines",
@@ -43,6 +48,7 @@
     {
       "id": 6,
       "category": "Critical Infrastructure Cybersecurity",
+      "anchor_type": "established_baseline",
       "fact": "Bill C-26 mandates compulsory cybersecurity controls and 24-hour incident reporting for critical transportation, energy, telecom, and financial infrastructure, requiring third-party OT/IT supply chain risk management for hardware and telemetry vendors.",
       "source": "Public Safety Canada / Transport Canada",
       "pages": "Bill C-26 Critical Infrastructure Protection",
@@ -51,6 +57,7 @@
     {
       "id": 7,
       "category": "Geopolitical Sanctions & Transshipment Evasion",
+      "anchor_type": "established_baseline",
       "fact": "The Special Economic Measures Act (SEMA) and Autonomous Sanctions Regulations enforce strict import and export prohibitions on sanctioned regimes (Russia, Iran, Belarus, North Korea) and target third-country transshipment evasion hubs in Central Asia, the Middle East, and Southeast Asia.",
       "source": "Global Affairs Canada",
       "pages": "SEMA Sanctions Registry",
