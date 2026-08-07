@@ -4603,7 +4603,7 @@
     "category": "SRV",
     "category_label": "Services",
     "description": "NOTICE OF PROPOSED PROCUREMENTThe Department of National Defence seeking offers from Offerors to provide provide out-service training (OST) for Department of National Defence, Canadian Forces School of Military Engineering (CFSME). The course required to be delivered will be for DP1 (apprentice) Plumbing and Heating Technician (PH Tech) trade.  All instructions will be provided by an accredited academic institution. Training will be conducted at a recognized, post-secondary vocational institute....",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of National Defence (DND)",
     "solicitation_number": "W2037-27-0421/A",
     "notice_type": "Request for Proposal",
@@ -4635,7 +4635,7 @@
     "category": "SRV",
     "category_label": "Services",
     "description": "NOTICE OF PROPOSED PROCUREMENT (NPP) for Solutions-Based Professional Services (TSPS) RequirementThis requirement is for: Employment and Social Development CanadaThis requirement is open only to those Supply Arrangement Holders under E60ZT-16TSSB who qualify under Tier 1, National Capital region and for the Business consulting/change management services stream. The requirement is intended to result in the award of one contract.The following SA Holders have been invited to submit a proposal. •\tBi...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of Employment and Social Development (ESDC)",
     "solicitation_number": "100032488",
     "notice_type": "RFP against Supply Arrangement",
@@ -4880,5 +4880,84 @@
     "selection_criteria": "Variations or combinations of the above methods",
     "trade_agreements": "Please refer to Tender Description or Tender Documents",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "RFP F7049-260266 –CCGS Sir William Alexander Fall 2026 DryDocking",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110020511?anId=ANONYMOUS",
+    "date": "2026-08-01T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "⚓ Shipyard Alert: The Canadian Coast Guard is drydocking the Sir William Alexander. Is your marine supply chain compliant with strict trade standards?",
+      "strategic_value": "* Supply chain non-compliance or shipping delays during the drydock period can trigger $350-$450/day in shipyard demurrage costs, major working capital tie-ups, and long-term exclusion from federal marine tenders, reinforcing consolidation around highly compliant prime shipyards.\n* Prime contractors must execute strict PO Chain-of-Custody mandates for all replacement structural steel and marine telemetry components to guarantee compliance with CUSMA melt-and-pour origin rules and Bill C-26 marine OT cybersecurity thresholds.\n* **Consulting Pivot:** Propose a \"Marine VLE Procurement Compliance Framework\" to be integrated as a $50,000 subcontracted service within the prime's bid, providing CUSMA origin verification, CITT procurement compliance defense, and OT cybersecurity supply chain risk mapping.",
+      "co_bidding_opportunity": "Under the 'Standard Competitive Bidding (RFP)' playbook, a prime bidding consortium should consist of a lead Canadian shipyard operator, a certified marine engineering firm for vessel alterations, and a specialized trade and cybersecurity compliance subcontractor to manage CUSMA steel traceability and critical infrastructure telemetry risk.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "Vessel Life Extension (VLE) drydocking involves massive industrial supply chains. This integrates CUSMA regional steel standards, CITT procurement guidelines, and critical transportation infrastructure cybersecurity mandates into a major federal marine bid.",
+      "grounded_fact_ids": [
+        1,
+        4,
+        6
+      ],
+      "anchor_reference": {
+        "source_name": "Global Affairs Canada",
+        "page_range": "CUSMA 2026 Joint Review Notice",
+        "url": "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/cusma-aceum/index.aspx?lang=eng"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-17T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "AMENDMENT TO CLOSING TIME: Please disregard the SAP Business Network posting response closing time and CanadaBuys posting closing time. Unless specified otherwise in the tender opportunity, all required supporting documentation and responses must be submitted by September 17, 2026 at 2pm EST. All responses submitted after 2pm EST will result in the submission being declared non-responsive. Requirement: Canada is seeking offers from Offerors to carry out the Vessel Life Extension (VLE) dry-dockin...",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5814823949",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "EF944-270445 - Purchase workspaces furniture under the SA for ESDC - RFP",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110020490?anId=ANONYMOUS",
+    "date": "2026-07-31T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🪑 ESDC workspace procurement is live: Are your manufacturing supply chains fortified against new greenwashing and forced labour audits?",
+      "strategic_value": "* Sourcing unverified commercial furniture components risks severe working capital tie-ups during customs audits and potential revenue fines of up to 3% of global revenue under greenwashing provisions, driving market consolidation toward certified ESG-compliant suppliers.\n* Bidders must implement a rigorous PO Chain-of-Custody mandate for all timber, textile, and metal components, mapping global material origins to satisfy statutory reverse-onus import provisions.\n* **Consulting Pivot:** Propose a \"Supply Arrangement Green-Sourcing Audit\" as a $15,000 fixed-fee engagement to review and certify manufacturer carbon and origin declarations, ensuring the prime bidder meets CFTA and Bill C-59 compliance standards before tender submission.",
+      "co_bidding_opportunity": "Under the 'Selective Partnering (Supply Arrangement)' playbook, the recommended approach is to partner with pre-qualified Supply Arrangement holders under agreement E60PQ-140003, with the consultant acting as a downstream subcontractor managing green supply chain audits and logistics origin tracking.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This connects a federal furniture procurement project to trade and environmental compliance regulations, specifically the tracking of supply chain origin and ESG representations under the Competition Act.",
+      "grounded_fact_ids": [
+        2,
+        5
+      ],
+      "anchor_reference": {
+        "source_name": "Public Safety Canada",
+        "page_range": "Bill C-35 Legislation",
+        "url": "https://www.publicsafety.gc.ca/cnt/cntrng-crm/index-en.aspx"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-20T00:00:00Z",
+    "province": "Quebec",
+    "province_abbrev": "QC",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "PWGSC, on behalf of Employment and Social Development Canada (ESDC), is issuing this request for proposal (RFP) for supply, delivery, and installation in Montreal, Quebec, Canada, of office furniture across multiple categories under the supply arrangement E60PQ-140003, as detailed in the bid solicitation.",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5816197032",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   }
 ]
