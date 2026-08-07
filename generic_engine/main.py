@@ -23,6 +23,8 @@ from extractors.youtube import fetch_youtube_videos
 from extractors.ckan import fetch_canadabuys_tenders, get_category_label
 from extractors.bdlnow import fetch_bdlnow_indicators
 from extractors.ised_newsletter import fetch_ised_business_insights
+from extractors.cta_marine import fetch_cta_marine_notices
+from extractors.esdc_lmia import fetch_esdc_lmia_approvals
 from extractors.report_scraper import (
     resolve_google_news_url,
     scrape_html_report,
@@ -351,6 +353,42 @@ def fetch_and_process_news(
         except Exception as bdl_err:
             logging.error(f"Failed to fetch BDLNow indicators: {bdl_err}")
 
+    # Ingest CTA Marine Notices if configured
+    raw_cta_marine = []
+    cta_sources = [s for s in sources_dict if s.get("type") == "cta_marine"]
+    if cta_sources:
+        logging.info(f"Querying {len(cta_sources)} CTA Marine Notices sources...")
+        for src in cta_sources:
+            try:
+                c_items = fetch_cta_marine_notices(
+                    api_url=src.get("url", "https://portail-portal.otc-cta.gc.ca/api/MarineNotices"),
+                    max_items=max_items,
+                    source_name=src.get("name", "CTA_Coasting_Trade_Notices")
+                )
+                raw_cta_marine.extend(c_items)
+            except Exception as cta_err:
+                logging.error(f"Failed to fetch CTA Marine Notices for source '{src['name']}': {cta_err}")
+                if failed_feeds is not None:
+                    failed_feeds.append(src["name"])
+
+    # Ingest ESDC LMIA Approvals if configured
+    raw_esdc_lmia = []
+    lmia_sources = [s for s in sources_dict if s.get("type") == "esdc_lmia"]
+    if lmia_sources:
+        logging.info(f"Querying {len(lmia_sources)} ESDC LMIA Approvals sources...")
+        for src in lmia_sources:
+            try:
+                l_items = fetch_esdc_lmia_approvals(
+                    package_id="90fed587-1364-4f33-a9ee-208181dc0b97",
+                    max_items=max_items,
+                    source_name=src.get("name", "ESDC_LMIA_Positive_Approvals")
+                )
+                raw_esdc_lmia.extend(l_items)
+            except Exception as lmia_err:
+                logging.error(f"Failed to fetch ESDC LMIA Approvals for source '{src['name']}': {lmia_err}")
+                if failed_feeds is not None:
+                    failed_feeds.append(src["name"])
+
     # Check if any failed Playwright feeds have a fallback RSS configured
     playwright_fallbacks = []
     for src in sources_dict:
@@ -405,7 +443,7 @@ def fetch_and_process_news(
                 })
 
     # Combine feeds
-    combined_items = raw_rss + raw_html + raw_ckan + raw_youtube + raw_ised + retained_items
+    combined_items = raw_rss + raw_html + raw_ckan + raw_youtube + raw_ised + raw_cta_marine + raw_esdc_lmia + retained_items
     
     # Resolve Google News redirect URLs offline to original destination URLs
     logging.info("Resolving Google News redirect URLs for ingested news items...")

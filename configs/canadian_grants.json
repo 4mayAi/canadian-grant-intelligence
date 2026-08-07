@@ -65,6 +65,27 @@
       "url": "https://canadianchamber.shinyapps.io/Nowcast/",
       "type": "bdl_nowcast",
       "hub": "Canada"
+    },
+    {
+      "name": "CTA_Coasting_Trade_Notices",
+      "url": "https://portail-portal.otc-cta.gc.ca/api/MarineNotices",
+      "type": "cta_marine",
+      "hub": "Canada",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "CRTC_Telecom_Decisions_News",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=canadianradiotelevisionandtelecommunicationscommission&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+      "type": "rss",
+      "hub": "Canada",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "IAAC_Major_Project_Notices",
+      "url": "https://iaac-aeic.gc.ca/rss/news-nouvelles-eng.xml",
+      "type": "rss",
+      "hub": "Canada",
+      "skip_query_refactoring": true
     }
   ],
   "keywords": [

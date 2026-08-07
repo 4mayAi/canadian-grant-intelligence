@@ -27,7 +27,7 @@
     },
     {
       "name": "PublicSafety_ForcedLabour_News",
-      "url": "https://news.google.com/rss/search?q=site:canada.ca/en/public-safety/news+%28%22forced+labour%22+OR+%22supply+chains%22+OR+%22Bill+C-35%22%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=publicsafetycanada&sort=publishedDate&orderBy=desc&pick=15&format=atom",
       "type": "rss",
       "hub": "TradeCompliance",
       "skip_query_refactoring": true
@@ -86,6 +86,40 @@
       "url": "https://open.canada.ca/data/api/action/package_show?id=6abd20d4-7a1c-4b38-baa2-9525d0bb2fd2",
       "type": "ckan",
       "hub": "TradeCompliance"
+    },
+    {
+      "name": "CTA_Coasting_Trade_Notices",
+      "url": "https://portail-portal.otc-cta.gc.ca/api/MarineNotices",
+      "type": "cta_marine",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "ISED_ICA_Investment_News",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=departmentofindustry&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "CRTC_Telecom_Decisions_News",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=canadianradiotelevisionandtelecommunicationscommission&sort=publishedDate&orderBy=desc&pick=15&format=atom",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "ESDC_LMIA_Positive_Approvals",
+      "url": "https://open.canada.ca/data/api/action/package_show?id=90fed587-1364-4f33-a9ee-208181dc0b97",
+      "type": "esdc_lmia",
+      "hub": "TradeCompliance"
+    },
+    {
+      "name": "IAAC_Major_Project_Notices",
+      "url": "https://iaac-aeic.gc.ca/rss/news-nouvelles-eng.xml",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
     }
   ],
   "keywords": [
@@ -98,6 +132,18 @@
     "CARMs",
     "CITT",
     "CITTs",
+    "LMIA",
+    "LMIAs",
+    "IAAC",
+    "IAACs",
+    "FTTP",
+    "FTTPs",
+    "SIF",
+    "SIFs",
+    "ICA",
+    "ICAs",
+    "coasting trade",
+    "foreign vessel",
     "CBSA",
     "CBSAs",
     "Canada Revenue Agency excise",
