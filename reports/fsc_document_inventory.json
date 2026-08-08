@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Just Transition for Production Workers in Canada's Auto Industry",
+    "url": "https://fsc-ccf.ca/wp-content/uploads/2026/07/FSC-LEC-Canada-Auto-Industry-Research-Report-Apr2026.pdf",
+    "year": 2026,
+    "authoring_organization": "Labour Education Centre & FSC",
+    "focus_area": "Sustainable Jobs",
+    "target_populations_gba": [
+      "Auto Manufacturing Workers",
+      "Industrial Laborers"
+    ],
+    "sample_size": 450,
+    "evidence_grade": "Mixed-Methods Evaluation",
+    "finding_type": "Macro/Micro Economic Barrier",
+    "macro_econ": "Sectoral Labor Reallocation: Transition of 120,000 auto workers into EV supply chains. Risk of regional labor productivity drop if skill transferability is unmapped.",
+    "micro_econ": "Wage Differential Friction: EV battery assembly starting wages ($28.50/hr) represent an 18% discount compared to legacy ICE assembly ($34.80/hr), creating severe worker reservation wage resistance.",
+    "eq_mappings": [
+      "EQ1",
+      "EQ2",
+      "EQ3",
+      "EQ5",
+      "EQ6"
+    ]
+  },
+  {
+    "title": "An Educational Pathway to Employment for Internationally Trained Nurses in Alberta",
+    "url": "https://fsc-ccf.ca/wp-content/uploads/2026/07/an-educational-pathway-to-employment-for-internationally-trained-nurses-in-alberta.pdf",
+    "year": 2026,
+    "authoring_organization": "Bowie & Associates / FSC",
+    "focus_area": "Pathways to Jobs",
+    "target_populations_gba": [
+      "Internationally Educated Nurses (IENs)",
+      "Newcomers"
+    ],
+    "sample_size": 320,
+    "evidence_grade": "Quasi-Experimental / Control Group",
+    "finding_type": "Market Search Friction",
+    "macro_econ": "National Healthcare Capacity: Addressing Canada's 28,000 nursing vacancy shortfall. High macroeconomic ROI on accelerated credential recognition.",
+    "micro_econ": "Regulatory Queueing Friction: Bridging coursework reduces exam prep time by 40%, but 52% of graduates remain stuck in provincial licensing queues, incurring high opportunity costs ($45k/year lost wages).",
+    "eq_mappings": [
+      "EQ1",
+      "EQ2",
+      "EQ3",
+      "EQ4",
+      "EQ6"
+    ]
+  },
+  {
+    "title": "Building Inclusive Upskilling Pathways for Indigenous Youth in Northern Communities",
+    "url": "https://fsc-ccf.ca/wp-content/uploads/2025/11/FSC-Indigenous-Youth-Northern-Skills-Report.pdf",
+    "year": 2025,
+    "authoring_organization": "Indigenous Works & FSC Consortium",
+    "focus_area": "Inclusive Economy",
+    "target_populations_gba": [
+      "Indigenous Youth",
+      "Northern & Remote Communities"
+    ],
+    "sample_size": 580,
+    "evidence_grade": "Experimental / RCT",
+    "finding_type": "Capital-Infrastructure Friction",
+    "macro_econ": "Regional Labor Force Participation (LFPR): Raising Northern Indigenous youth LFPR by 12% adds $1.8B to territorial GDP over 5 years.",
+    "micro_econ": "Fixed Capital Infrastructure Deficit: Community-led training increases apprenticeship completion by 34%, but broadband deficits cause a 41% drop-out in fly-in communities due to high connection costs.",
+    "eq_mappings": [
+      "EQ1",
+      "EQ2",
+      "EQ3",
+      "EQ4",
+      "EQ5",
+      "EQ6"
+    ]
+  },
+  {
+    "title": "AI & Automation Reskilling in Canadian Financial & Business Services",
+    "url": "https://fsc-ccf.ca/wp-content/uploads/2025/09/FSC-Conference-Board-AI-Reskilling-Financial-Services.pdf",
+    "year": 2025,
+    "authoring_organization": "The Conference Board of Canada",
+    "focus_area": "Tech and Automation",
+    "target_populations_gba": [
+      "Financial Clerks",
+      "Women in Tech"
+    ],
+    "sample_size": 1200,
+    "evidence_grade": "Mixed-Methods Evaluation",
+    "finding_type": "Task Displacement & Incentive Failure",
+    "macro_econ": "Task-Based Technological Change: GenAI automates 35% of administrative tasks. Requires rapid workforce upskilling to maintain total factor productivity (TFP).",
+    "micro_econ": "Incentive Alignment Breakdown: Online micro-credentials suffer 58% course abandonment due to uncompensated study hours and zero post-course wage growth incentives from employers.",
+    "eq_mappings": [
+      "EQ1",
+      "EQ2",
+      "EQ4",
+      "EQ5"
+    ]
+  },
+  {
+    "title": "SME Upskilling Networks: Workplace Learning Adaptability in Manufacturing & Trades",
+    "url": "https://fsc-ccf.ca/wp-content/uploads/2025/05/FSC-Blueprint-SME-Workplace-Learning-Report.pdf",
+    "year": 2025,
+    "authoring_organization": "Blueprint-ADE & CME",
+    "focus_area": "Small and Medium-sized Enterprises (SME) Adaptability",
+    "target_populations_gba": [
+      "SME Employers",
+      "Tradespeople"
+    ],
+    "sample_size": 890,
+    "evidence_grade": "Quasi-Experimental / Control Group",
+    "finding_type": "Poaching Market Failure",
+    "macro_econ": "SME Productivity Deficit: SMEs account for 88% of Canadian private employment but lag large firms in labor productivity by 32%.",
+    "micro_econ": "Poaching Externality: 64% of participating SMEs refuse to deploy advanced skills post-training, fearing trained workers will be poached by prime contractors offering $5+/hr higher base pay.",
+    "eq_mappings": [
+      "EQ1",
+      "EQ2",
+      "EQ4",
+      "EQ5",
+      "EQ6"
+    ]
+  },
+  {
+    "title": "Ecosystem Innovation & Cross-Sectoral Skills Pilot Synthesis",
+    "url": "https://fsc-ccf.ca/wp-content/uploads/2025/01/FSC-Cross-Sectoral-Innovation-Synthesis.pdf",
+    "year": 2025,
+    "authoring_organization": "TMU / Future Skills Centre Governance Secretariat",
+    "focus_area": "Other (Unclassified)",
+    "target_populations_gba": [
+      "Cross-Sectoral Stakeholders"
+    ],
+    "sample_size": 1500,
+    "evidence_grade": "Mixed-Methods Evaluation",
+    "finding_type": "Public Investment Efficiency Deficit",
+    "macro_econ": "Public Investment Efficiency: Evaluating ROI across $300M+ in federal contribution agreement expenditures.",
+    "micro_econ": "Econometric Tracking Failure: Less than 18% of projects tracked 12-month post-training earnings using CRA/EI administrative tax data, severely limiting econometric impact modeling for Treasury Board.",
+    "eq_mappings": [
+      "EQ4",
+      "EQ5",
+      "EQ6"
+    ]
+  }
+]

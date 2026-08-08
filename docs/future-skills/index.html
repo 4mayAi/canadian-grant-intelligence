@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive Evaluation Matrix | ESDC Future Skills Program (508 Scraped Reports)</title>
+    <meta name="description" content="MayAi Market Intelligence: Executive Interactive Evaluation Dashboard for ESDC Solicitation #100032488.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="fsc_data.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="header-top">
+                <div class="logo-group">
+                    <span class="badge-flag">🇨🇦</span>
+                    <div>
+                        <h1>may<span>Ai</span> Market Intelligence</h1>
+                        <p class="subtitle">ESDC Evaluation Directorate | Future Skills Program Document Review (Solicitation #100032488)</p>
+                    </div>
+                </div>
+                <div class="tender-tag">
+                    <span id="lastRunBadge" style="color: var(--accent-gold); font-weight: 600;">Last Ingestion Audit: Loading...</span>
+                    <span>•</span>
+                    <span>Tender ID: cb-879-79038207</span>
+                    <span>•</span>
+                    <span>TSPS Tier 1 NCR</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Executive KPI Bar -->
+        <div class="kpi-grid">
+            <div class="kpi-card info">
+                <div class="kpi-value" id="kpi-total-docs">670 Items</div>
+                <div class="kpi-label">Cataloged FSC Publications</div>
+            </div>
+            <div class="kpi-card success">
+                <div class="kpi-value" id="kpi-sow-reports">6 Focus Reports</div>
+                <div class="kpi-label">Official SOW Structure</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-wcs-avg">0.68 / 1.0</div>
+                <div class="kpi-label">Average WCS Confidence</div>
+            </div>
+            <div class="kpi-card danger">
+                <div class="kpi-value" id="kpi-risk-count">58% Drop-Out</div>
+                <div class="kpi-label">Online Micro-Credential Attrition</div>
+            </div>
+        </div>
+
+        <!-- Executive Callout Box -->
+        <div class="executive-callout">
+            <div class="callout-header">
+                <span style="font-size: 1.4rem;">⚠️</span>
+                <div class="callout-title">Cabinet Submission Executive Alert: Unvarnished Findings across 670 Documents</div>
+            </div>
+            <div class="callout-body">
+                <p>An independent audit of the <strong>670 cataloged Future Skills Centre publications</strong> isolates critical implementation failures and reporting deficits that must be addressed prior to post-2027 Treasury Board re-funding:</p>
+                <ul>
+                    <li><strong>58% Course Abandonment:</strong> Online tech/AI micro-credentials suffer severe attrition due to workplace fatigue and absent wage incentives.</li>
+                    <li><strong>52% Regulatory Backlog:</strong> Foreign-trained healthcare bridging programs succeed in classroom training but stall at provincial nursing colleges.</li>
+                    <li><strong>82% Baseline Data Deficit:</strong> Under 18% of FSC projects tracked 12-month post-training tax (CRA/EI) job retention.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Tabs Navigation Bar -->
+        <div class="tabs-bar" id="tabsBar">
+            <button class="tab-button active" onclick="switchReportTab('master', event)">📊 Master Executive Synthesis (670 Documents)</button>
+            <button class="tab-button" onclick="switchReportTab('report1', event)">1. Pathways to Jobs</button>
+            <button class="tab-button" onclick="switchReportTab('report2', event)">2. Inclusive Economy (GBA+)</button>
+            <button class="tab-button" onclick="switchReportTab('report3', event)">3. Tech & Automation</button>
+            <button class="tab-button" onclick="switchReportTab('report4', event)">4. SME Adaptability</button>
+            <button class="tab-button" onclick="switchReportTab('report5', event)">5. Sustainable Jobs</button>
+            <button class="tab-button" onclick="switchReportTab('report6', event)">6. Other Unclassified</button>
+        </div>
+
+        <!-- Interactive Filter Bar -->
+        <div class="filter-bar">
+            <select id="eqFilter" class="filter-select" onchange="filterFindings()">
+                <option value="All">All Evaluation Questions (EQ1–EQ6)</option>
+                <option value="EQ1">EQ1 — Relevance & Ongoing Need</option>
+                <option value="EQ2">EQ2 — Performance & Effectiveness</option>
+                <option value="EQ3">EQ3 — Equity & Inclusion (GBA+)</option>
+                <option value="EQ4">EQ4 — Knowledge Mobilization</option>
+                <option value="EQ5">EQ5 — Efficiency & Data Governance</option>
+                <option value="EQ6">EQ6 — Scalability & Policy Lessons</option>
+            </select>
+
+            <select id="typeFilter" class="filter-select" onchange="filterFindings()">
+                <option value="All">All Finding Types</option>
+                <option value="Positive Outcome">Positive Outcome</option>
+                <option value="Systemic Barrier">Systemic Barrier</option>
+                <option value="Negative / Attrition Critical">Negative / Attrition Critical</option>
+                <option value="Governance & Data Failure">Governance & Data Failure</option>
+            </select>
+
+            <input type="text" id="searchInput" class="search-input" placeholder="Search across all 670 documents (e.g. SHA256, nurses, EV, AI, broadband, poaching)..." oninput="filterFindings()">
+        </div>
+
+        <!-- Pagination & Results Count Bar -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; color: var(--text-secondary); font-size: 0.9rem;">
+            <div id="resultsCount">Showing 1–12 of 670 items</div>
+            <div style="display: flex; gap: 10px;">
+                <button id="btnPrev" class="filter-select" onclick="changePage(-1)" style="cursor: pointer;">← Previous</button>
+                <span id="pageIndicator" style="display: flex; align-items: center;">Page 1 of 56</span>
+                <button id="btnNext" class="filter-select" onclick="changePage(1)" style="cursor: pointer;">Next →</button>
+            </div>
+        </div>
+
+        <!-- Report Content Views -->
+        <div id="masterView" class="report-section active">
+            <div class="cards-grid" id="masterGrid"></div>
+        </div>
+
+        <div id="report1View" class="report-section">
+            <div class="cards-grid" id="report1Grid"></div>
+        </div>
+
+        <div id="report2View" class="report-section">
+            <div class="cards-grid" id="report2Grid"></div>
+        </div>
+
+        <div id="report3View" class="report-section">
+            <div class="cards-grid" id="report3Grid"></div>
+        </div>
+
+        <div id="report4View" class="report-section">
+            <div class="cards-grid" id="report4Grid"></div>
+        </div>
+
+        <div id="report5View" class="report-section">
+            <div class="cards-grid" id="report5Grid"></div>
+        </div>
+
+        <div id="report6View" class="report-section">
+            <div class="cards-grid" id="report6Grid"></div>
+        </div>
+    </div>
+
+    <script>
+        let currentTab = 'master';
+        let currentPage = 1;
+        const pageSize = 12;
+        let activeFilteredData = FULL_508_CORPUS;
+
+        if (typeof FSC_META !== 'undefined' && FSC_META.last_run_timestamp) {
+            document.getElementById("lastRunBadge").textContent = `Last Ingestion Audit: ${FSC_META.last_run_timestamp}`;
+        }
+
+        function renderFindingCard(doc) {
+            const eqBadges = doc.eqs.map(eq => `<span class="eq-badge">${eq}</span>`).join('');
+            const gbaBadges = doc.gba.map(g => `<span class="eq-badge" style="border-color: var(--accent-gold); color: var(--accent-gold);">${g}</span>`).join(' ');
+            return `
+                <div class="finding-card">
+                    <div>
+                        <div class="card-header">
+                            <span class="finding-type-badge ${doc.badgeClass}">${doc.type}</span>
+                            <span class="year-badge">${doc.year} | ${doc.document_id}</span>
+                        </div>
+                        <div class="card-title">${doc.title}</div>
+                        <div class="card-body">${doc.summary}</div>
+                    </div>
+                    <div>
+                        <div style="margin-bottom: 10px;">${gbaBadges}</div>
+                        <div class="card-meta">
+                            <div>
+                                <strong style="color: var(--text-primary)">Organization:</strong> ${doc.author}<br>
+                                <strong style="color: var(--text-primary)">Methodology:</strong> ${doc.grade} (N=${doc.sample})
+                            </div>
+                            <div>
+                                <span class="wcs-score">WCS Score: ${doc.wcs.toFixed(2)}</span>
+                            </div>
+                        </div>
+                        <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <div class="eq-badges">${eqBadges}</div>
+                            <a class="btn-link" href="${doc.url}" target="_blank">View Document ↗</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateDisplay() {
+            const startIndex = (currentPage - 1) * pageSize;
+            const endIndex = startIndex + pageSize;
+            const pagedItems = activeFilteredData.slice(startIndex, endIndex);
+
+            const gridId = currentTab === 'master' ? 'masterGrid' : currentTab + 'Grid';
+            const grid = document.getElementById(gridId);
+            grid.innerHTML = pagedItems.map(renderFindingCard).join('');
+
+            const total = activeFilteredData.length;
+            const totalPages = Math.ceil(total / pageSize) || 1;
+            document.getElementById("resultsCount").textContent = `Showing ${total > 0 ? startIndex + 1 : 0}–${Math.min(endIndex, total)} of ${total} cataloged FSC items`;
+            document.getElementById("pageIndicator").textContent = `Page ${currentPage} of ${totalPages}`;
+            document.getElementById("btnPrev").disabled = (currentPage <= 1);
+            document.getElementById("btnNext").disabled = (currentPage >= totalPages);
+        }
+
+        function switchReportTab(tabId, event) {
+            currentTab = tabId;
+            currentPage = 1;
+            document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+            if (event && event.target) event.target.classList.add('active');
+            
+            document.querySelectorAll('.report-section').forEach(s => s.classList.remove('active'));
+            document.getElementById(tabId + 'View').classList.add('active');
+            
+            filterFindings();
+        }
+
+        function filterFindings() {
+            const eqVal = document.getElementById("eqFilter").value;
+            const typeVal = document.getElementById("typeFilter").value;
+            const searchVal = document.getElementById("searchInput").value.toLowerCase();
+
+            activeFilteredData = FULL_508_CORPUS.filter(d => {
+                const matchTab = (currentTab === 'master' || d.section === currentTab);
+                const matchEq = (eqVal === "All" || d.eqs.includes(eqVal));
+                const matchType = (typeVal === "All" || d.type === typeVal);
+                const matchSearch = (!searchVal || d.title.toLowerCase().includes(searchVal) || d.summary.toLowerCase().includes(searchVal) || d.document_id.toLowerCase().includes(searchVal) || d.author.toLowerCase().includes(searchVal));
+                return matchTab && matchEq && matchType && matchSearch;
+            });
+
+            currentPage = 1;
+            updateDisplay();
+        }
+
+        function changePage(delta) {
+            const totalPages = Math.ceil(activeFilteredData.length / pageSize) || 1;
+            currentPage += delta;
+            if (currentPage < 1) currentPage = 1;
+            if (currentPage > totalPages) currentPage = totalPages;
+            updateDisplay();
+        }
+
+        filterFindings();
+    </script>
+</body>
+</html>

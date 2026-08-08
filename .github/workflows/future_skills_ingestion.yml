@@ -1,0 +1,55 @@
+name: Future Skills Evaluation Engine Cloud Pipeline
+
+on:
+  repository_dispatch:
+    types: [trigger_future_skills_ingestion]
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: write
+
+jobs:
+  ingest_and_evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests lxml pypdf pydantic google-genai azure-storage-blob pytest
+
+      - name: Run Automated Test Suite
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          pytest tests/test_fsc_full_document_review.py
+
+      - name: Run Full Document Crawl & LLM Evaluation Engine
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python scripts/reports/generate_full_500_inventory.py
+          python scripts/reports/fsc_full_document_review.py
+
+      - name: Sync Artifacts to Azure Storage Account (canadiangrants)
+        env:
+          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+        run: |
+          python scripts/reports/sync_future_skills_azure.py
+
+      - name: Commit & Push Dashboard Updates to GitHub Pages
+        if: success()
+        run: |
+          git config --global user.name "MayAi Automation Bot"
+          git config --global user.email "bot@mayai.ca"
+          git add docs/future-skills/fsc_data.js reports/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: update Future Skills dataset [GCP Triggered]" && git push)
