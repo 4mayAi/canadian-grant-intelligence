@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Executive Evaluation Matrix | ESDC Future Skills Program (508 Scraped Reports)</title>
-    <meta name="description" content="MayAi Market Intelligence: Executive Interactive Evaluation Dashboard for ESDC Solicitation #100032488.">
+    <title>Executive Evaluation Matrix | ESDC Future Skills Program (670 Cataloged Publications)</title>
+    <meta name="description" content="MayAi Market Intelligence: Executive Interactive Decision-Support Platform for ESDC Solicitation #100032488.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="fsc_data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="fsc_data.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -15,39 +16,42 @@
         <header>
             <div class="header-top">
                 <div class="logo-group">
-                    <span class="badge-flag">🇨🇦</span>
+                    <svg class="coat-of-arms" viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
                     <div>
-                        <h1>may<span>Ai</span> Market Intelligence</h1>
-                        <p class="subtitle">ESDC Evaluation Directorate | Future Skills Program Document Review (Solicitation #100032488)</p>
+                        <h1 id="headerTitle">may<span>Ai</span> Market Intelligence</h1>
+                        <p class="subtitle" id="headerSubtitle">ESDC Evaluation Directorate | Future Skills Program Document Review (Solicitation #100032488)</p>
                     </div>
                 </div>
-                <div class="tender-tag">
-                    <span id="lastRunBadge" style="color: var(--accent-gold); font-weight: 600;">Last Ingestion Audit: Loading...</span>
-                    <span>•</span>
-                    <span>Tender ID: cb-879-79038207</span>
-                    <span>•</span>
-                    <span>TSPS Tier 1 NCR</span>
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <div class="tender-tag">
+                        <span id="lastRunBadge" style="color: var(--accent-gold); font-weight: 600;">Last Ingestion Audit: Loading...</span>
+                        <span>•</span>
+                        <span>Tender ID: cb-879-79038207</span>
+                    </div>
+                    <button id="langToggle" class="btn-lang" onclick="toggleLanguage()">FR</button>
                 </div>
             </div>
         </header>
 
-        <!-- Executive KPI Bar -->
+        <!-- Executive Dynamic Reactive KPI Bar -->
         <div class="kpi-grid">
             <div class="kpi-card info">
                 <div class="kpi-value" id="kpi-total-docs">670 Items</div>
-                <div class="kpi-label">Cataloged FSC Publications</div>
+                <div class="kpi-label" id="lblKpiDocs">Cataloged FSC Publications</div>
             </div>
             <div class="kpi-card success">
-                <div class="kpi-value" id="kpi-sow-reports">6 Focus Reports</div>
-                <div class="kpi-label">Official SOW Structure</div>
+                <div class="kpi-value" id="kpi-sow-reports">6 Reports</div>
+                <div class="kpi-label" id="lblKpiSow">Official SOW Structure</div>
             </div>
             <div class="kpi-card">
                 <div class="kpi-value" id="kpi-wcs-avg">0.68 / 1.0</div>
-                <div class="kpi-label">Average WCS Confidence</div>
+                <div class="kpi-label" id="lblKpiWcs">Average WCS Confidence</div>
             </div>
             <div class="kpi-card danger">
                 <div class="kpi-value" id="kpi-risk-count">58% Drop-Out</div>
-                <div class="kpi-label">Online Micro-Credential Attrition</div>
+                <div class="kpi-label" id="lblKpiRisk">Micro-Credential Attrition</div>
             </div>
         </div>
 
@@ -55,10 +59,10 @@
         <div class="executive-callout">
             <div class="callout-header">
                 <span style="font-size: 1.4rem;">⚠️</span>
-                <div class="callout-title">Cabinet Submission Executive Alert: Unvarnished Findings across 670 Documents</div>
+                <div class="callout-title" id="alertTitle">Cabinet Submission Executive Alert: Unvarnished Findings across Cataloged Corpus</div>
             </div>
             <div class="callout-body">
-                <p>An independent audit of the <strong>670 cataloged Future Skills Centre publications</strong> isolates critical implementation failures and reporting deficits that must be addressed prior to post-2027 Treasury Board re-funding:</p>
+                <p id="alertBodyText">An independent audit of the <strong>Future Skills Centre publications</strong> isolates critical implementation failures and reporting deficits that must be addressed prior to post-2027 Treasury Board re-funding:</p>
                 <ul>
                     <li><strong>58% Course Abandonment:</strong> Online tech/AI micro-credentials suffer severe attrition due to workplace fatigue and absent wage incentives.</li>
                     <li><strong>52% Regulatory Backlog:</strong> Foreign-trained healthcare bridging programs succeed in classroom training but stall at provincial nursing colleges.</li>
@@ -67,18 +71,40 @@
             </div>
         </div>
 
-        <!-- Tabs Navigation Bar -->
-        <div class="tabs-bar" id="tabsBar">
-            <button class="tab-button active" onclick="switchReportTab('master', event)">📊 Master Executive Synthesis (670 Documents)</button>
-            <button class="tab-button" onclick="switchReportTab('report1', event)">1. Pathways to Jobs</button>
-            <button class="tab-button" onclick="switchReportTab('report2', event)">2. Inclusive Economy (GBA+)</button>
-            <button class="tab-button" onclick="switchReportTab('report3', event)">3. Tech & Automation</button>
-            <button class="tab-button" onclick="switchReportTab('report4', event)">4. SME Adaptability</button>
-            <button class="tab-button" onclick="switchReportTab('report5', event)">5. Sustainable Jobs</button>
-            <button class="tab-button" onclick="switchReportTab('report6', event)">6. Other Unclassified</button>
+        <!-- Interactive Visual Analytics & Charting Suite -->
+        <div class="charts-section">
+            <div class="charts-header">
+                <h3 style="font-family: var(--font-heading); color: var(--accent-gold);" id="chartSuiteTitle">📊 Executive Visual Analytics & Policy Distribution</h3>
+                <button class="btn-action" onclick="toggleChartsToggle()" id="btnToggleCharts">Minimize Analytics ↑</button>
+            </div>
+            <div class="charts-grid" id="chartsContainer">
+                <div class="chart-card">
+                    <div class="chart-title" id="chart1Title">Treasury Board Evaluation Questions (EQ1–EQ6)</div>
+                    <canvas id="chartEqCoverage"></canvas>
+                </div>
+                <div class="chart-card">
+                    <div class="chart-title" id="chart2Title">Evidence Quality Grade Distribution</div>
+                    <canvas id="chartEvidenceGrade"></canvas>
+                </div>
+                <div class="chart-card">
+                    <div class="chart-title" id="chart3Title">GBA+ Target Demographic Impact Breakdown</div>
+                    <canvas id="chartGbaImpact"></canvas>
+                </div>
+            </div>
         </div>
 
-        <!-- Interactive Filter Bar -->
+        <!-- Tabs Navigation Bar -->
+        <div class="tabs-bar" id="tabsBar">
+            <button class="tab-button active" onclick="switchReportTab('master', event)" id="tabMaster">📊 Master Executive Synthesis</button>
+            <button class="tab-button" onclick="switchReportTab('report1', event)" id="tabReport1">1. Pathways to Jobs</button>
+            <button class="tab-button" onclick="switchReportTab('report2', event)" id="tabReport2">2. Inclusive Economy (GBA+)</button>
+            <button class="tab-button" onclick="switchReportTab('report3', event)" id="tabReport3">3. Tech & Automation</button>
+            <button class="tab-button" onclick="switchReportTab('report4', event)" id="tabReport4">4. SME Adaptability</button>
+            <button class="tab-button" onclick="switchReportTab('report5', event)" id="tabReport5">5. Sustainable Jobs</button>
+            <button class="tab-button" onclick="switchReportTab('report6', event)" id="tabReport6">6. Other Unclassified</button>
+        </div>
+
+        <!-- Expanded Interactive Filter Bar -->
         <div class="filter-bar">
             <select id="eqFilter" class="filter-select" onchange="filterFindings()">
                 <option value="All">All Evaluation Questions (EQ1–EQ6)</option>
@@ -98,7 +124,27 @@
                 <option value="Governance & Data Failure">Governance & Data Failure</option>
             </select>
 
-            <input type="text" id="searchInput" class="search-input" placeholder="Search across all 670 documents (e.g. SHA256, nurses, EV, AI, broadband, poaching)..." oninput="filterFindings()">
+            <select id="gbaFilter" class="filter-select" onchange="filterFindings()">
+                <option value="All">All GBA+ Priority Groups</option>
+                <option value="Indigenous Youth">Indigenous Youth</option>
+                <option value="Internationally Educated Nurses">Internationally Educated Nurses</option>
+                <option value="Auto Manufacturing Workers">Auto Manufacturing Workers</option>
+                <option value="SME Employers">SME Employers</option>
+                <option value="Northern & Remote Communities">Northern Communities</option>
+            </select>
+
+            <select id="gradeFilter" class="filter-select" onchange="filterFindings()">
+                <option value="All">All Evidence Grades</option>
+                <option value="Experimental / RCT">Grade A: Experimental / RCT</option>
+                <option value="Quasi-Experimental / Control Group">Grade B: Quasi-Experimental</option>
+                <option value="Mixed-Methods Evaluation">Grade C: Mixed-Methods</option>
+                <option value="Qualitative Case Study / Survey">Grade D: Qualitative Study</option>
+            </select>
+
+            <input type="text" id="searchInput" class="search-input" placeholder="Search across cataloged documents (SHA256, author, keywords)..." oninput="filterFindings()">
+            
+            <button class="btn-action" onclick="exportToCsv()" id="btnExportCsv">📥 Export Inventory (CSV)</button>
+            <button class="btn-action" onclick="window.print()" id="btnPrint">📄 Print Briefing</button>
         </div>
 
         <!-- Pagination & Results Count Bar -->
@@ -112,32 +158,47 @@
         </div>
 
         <!-- Report Content Views -->
-        <div id="masterView" class="report-section active">
-            <div class="cards-grid" id="masterGrid"></div>
-        </div>
+        <div id="masterView" class="report-section active"><div class="cards-grid" id="masterGrid"></div></div>
+        <div id="report1View" class="report-section"><div class="cards-grid" id="report1Grid"></div></div>
+        <div id="report2View" class="report-section"><div class="cards-grid" id="report2Grid"></div></div>
+        <div id="report3View" class="report-section"><div class="cards-grid" id="report3Grid"></div></div>
+        <div id="report4View" class="report-section"><div class="cards-grid" id="report4Grid"></div></div>
+        <div id="report5View" class="report-section"><div class="cards-grid" id="report5Grid"></div></div>
+        <div id="report6View" class="report-section"><div class="cards-grid" id="report6Grid"></div></div>
+    </div>
 
-        <div id="report1View" class="report-section">
-            <div class="cards-grid" id="report1Grid"></div>
-        </div>
-
-        <div id="report2View" class="report-section">
-            <div class="cards-grid" id="report2Grid"></div>
-        </div>
-
-        <div id="report3View" class="report-section">
-            <div class="cards-grid" id="report3Grid"></div>
-        </div>
-
-        <div id="report4View" class="report-section">
-            <div class="cards-grid" id="report4Grid"></div>
-        </div>
-
-        <div id="report5View" class="report-section">
-            <div class="cards-grid" id="report5Grid"></div>
-        </div>
-
-        <div id="report6View" class="report-section">
-            <div class="cards-grid" id="report6Grid"></div>
+    <!-- In-Dashboard Source Verification PDF Overlay Modal -->
+    <div id="docModal" class="modal-overlay" onclick="closeModalOnBg(event)">
+        <div class="modal-card">
+            <div class="modal-header">
+                <div>
+                    <span id="modalDocId" class="year-badge">SHA256-DOCUMENT-VERIFIED</span>
+                    <h3 id="modalTitle" style="font-family: var(--font-heading); color: var(--text-primary); margin-top: 4px;">Document Inspection</h3>
+                </div>
+                <button class="modal-close" onclick="closeModal()">✕</button>
+            </div>
+            <div class="modal-body">
+                <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                    <span id="modalTypeBadge" class="finding-type-badge success">POSITIVE OUTCOME</span>
+                    <span id="modalGrade" class="year-badge">Grade A (RCT)</span>
+                    <span id="modalWcs" class="wcs-score">WCS: 0.92</span>
+                </div>
+                <div class="macro-box">
+                    <strong style="color: var(--accent-blue);">🌐 Macroeconomic Labor Productivity Impact:</strong>
+                    <p id="modalMacroText" style="color: var(--text-primary); font-size: 0.9rem; margin-top: 4px;"></p>
+                </div>
+                <div class="micro-box">
+                    <strong style="color: var(--accent-gold);">⚡ Microeconomic Market Friction / Behavioral Incentive:</strong>
+                    <p id="modalMicroText" style="color: var(--text-primary); font-size: 0.9rem; margin-top: 4px;"></p>
+                </div>
+                <div>
+                    <strong style="color: var(--text-primary);">Summary Analysis:</strong>
+                    <p id="modalSummaryText" style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 4px;"></p>
+                </div>
+                <div style="margin-top: 12px; text-align: right;">
+                    <a id="modalPdfLink" class="btn-action" href="#" target="_blank" style="text-decoration: none;">View Original PDF Source ↗</a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -145,17 +206,26 @@
         let currentTab = 'master';
         let currentPage = 1;
         const pageSize = 12;
-        let activeFilteredData = FULL_508_CORPUS;
+        let activeFilteredData = [];
+        let currentLang = 'EN';
+        let chartEq, chartGrade, chartGba;
 
-        if (typeof FSC_META !== 'undefined' && FSC_META.last_run_timestamp) {
-            document.getElementById("lastRunBadge").textContent = `Last Ingestion Audit: ${FSC_META.last_run_timestamp}`;
-        }
+        window.addEventListener('DOMContentLoaded', () => {
+            if (typeof FULL_508_CORPUS !== 'undefined') {
+                activeFilteredData = FULL_508_CORPUS;
+                if (typeof FSC_META !== 'undefined' && FSC_META.last_run_timestamp) {
+                    document.getElementById("lastRunBadge").textContent = `Last Ingestion Audit: ${FSC_META.last_run_timestamp}`;
+                }
+                initCharts();
+                filterFindings();
+            }
+        });
 
         function renderFindingCard(doc) {
             const eqBadges = doc.eqs.map(eq => `<span class="eq-badge">${eq}</span>`).join('');
             const gbaBadges = doc.gba.map(g => `<span class="eq-badge" style="border-color: var(--accent-gold); color: var(--accent-gold);">${g}</span>`).join(' ');
             return `
-                <div class="finding-card">
+                <div class="finding-card" onclick="openModal('${doc.id}')">
                     <div>
                         <div class="card-header">
                             <span class="finding-type-badge ${doc.badgeClass}">${doc.type}</span>
@@ -168,16 +238,16 @@
                         <div style="margin-bottom: 10px;">${gbaBadges}</div>
                         <div class="card-meta">
                             <div>
-                                <strong style="color: var(--text-primary)">Organization:</strong> ${doc.author}<br>
-                                <strong style="color: var(--text-primary)">Methodology:</strong> ${doc.grade} (N=${doc.sample})
+                                <strong style="color: var(--text-primary)">Org:</strong> ${doc.author}<br>
+                                <strong style="color: var(--text-primary)">Method:</strong> ${doc.grade}
                             </div>
                             <div>
-                                <span class="wcs-score">WCS Score: ${doc.wcs.toFixed(2)}</span>
+                                <span class="wcs-score">WCS: ${doc.wcs.toFixed(2)}</span>
                             </div>
                         </div>
                         <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: center;">
                             <div class="eq-badges">${eqBadges}</div>
-                            <a class="btn-link" href="${doc.url}" target="_blank">View Document ↗</a>
+                            <span class="btn-link">Inspect Evidence 🔍</span>
                         </div>
                     </div>
                 </div>
@@ -199,6 +269,49 @@
             document.getElementById("pageIndicator").textContent = `Page ${currentPage} of ${totalPages}`;
             document.getElementById("btnPrev").disabled = (currentPage <= 1);
             document.getElementById("btnNext").disabled = (currentPage >= totalPages);
+
+            updateDynamicKpis(activeFilteredData);
+            updateCharts(activeFilteredData);
+        }
+
+        function updateDynamicKpis(data) {
+            document.getElementById("kpi-total-docs").textContent = `${data.length} Items`;
+            if (data.length > 0) {
+                const avgWcs = (data.reduce((acc, d) => acc + d.wcs, 0) / data.length).toFixed(2);
+                document.getElementById("kpi-wcs-avg").textContent = `${avgWcs} / 1.0`;
+                const riskCount = data.filter(d => d.type === 'Negative / Attrition Critical' || d.type === 'Systemic Barrier').length;
+                const riskPct = Math.round((riskCount / data.length) * 100);
+                document.getElementById("kpi-risk-count").textContent = `${riskPct}% Critical`;
+            } else {
+                document.getElementById("kpi-wcs-avg").textContent = "0.00 / 1.0";
+                document.getElementById("kpi-risk-count").textContent = "0% Critical";
+            }
+        }
+
+        function filterFindings() {
+            const eqVal = document.getElementById("eqFilter").value;
+            const typeVal = document.getElementById("typeFilter").value;
+            const gbaVal = document.getElementById("gbaFilter").value;
+            const gradeVal = document.getElementById("gradeFilter").value;
+            const searchVal = document.getElementById("searchInput").value.toLowerCase();
+
+            activeFilteredData = FULL_508_CORPUS.filter(d => {
+                const matchTab = (currentTab === 'master' || d.section === currentTab);
+                const matchEq = (eqVal === "All" || d.eqs.includes(eqVal));
+                const matchType = (typeVal === "All" || d.type === typeVal);
+                const matchGba = (gbaVal === "All" || d.gba.includes(gbaVal));
+                const matchGrade = (gradeVal === "All" || d.grade === gradeVal);
+                const matchSearch = (!searchVal || 
+                    d.title.toLowerCase().includes(searchVal) || 
+                    d.summary.toLowerCase().includes(searchVal) || 
+                    d.document_id.toLowerCase().includes(searchVal) || 
+                    d.author.toLowerCase().includes(searchVal) ||
+                    d.gba.join(' ').toLowerCase().includes(searchVal));
+                return matchTab && matchEq && matchType && matchGba && matchGrade && matchSearch;
+            });
+
+            currentPage = 1;
+            updateDisplay();
         }
 
         function switchReportTab(tabId, event) {
@@ -213,23 +326,6 @@
             filterFindings();
         }
 
-        function filterFindings() {
-            const eqVal = document.getElementById("eqFilter").value;
-            const typeVal = document.getElementById("typeFilter").value;
-            const searchVal = document.getElementById("searchInput").value.toLowerCase();
-
-            activeFilteredData = FULL_508_CORPUS.filter(d => {
-                const matchTab = (currentTab === 'master' || d.section === currentTab);
-                const matchEq = (eqVal === "All" || d.eqs.includes(eqVal));
-                const matchType = (typeVal === "All" || d.type === typeVal);
-                const matchSearch = (!searchVal || d.title.toLowerCase().includes(searchVal) || d.summary.toLowerCase().includes(searchVal) || d.document_id.toLowerCase().includes(searchVal) || d.author.toLowerCase().includes(searchVal));
-                return matchTab && matchEq && matchType && matchSearch;
-            });
-
-            currentPage = 1;
-            updateDisplay();
-        }
-
         function changePage(delta) {
             const totalPages = Math.ceil(activeFilteredData.length / pageSize) || 1;
             currentPage += delta;
@@ -238,7 +334,101 @@
             updateDisplay();
         }
 
-        filterFindings();
+        /* Modal Verification Logic */
+        function openModal(docId) {
+            const doc = FULL_508_CORPUS.find(d => d.id === docId);
+            if (!doc) return;
+            document.getElementById("modalDocId").textContent = `${doc.document_id} | ${doc.year}`;
+            document.getElementById("modalTitle").textContent = doc.title;
+            document.getElementById("modalTypeBadge").textContent = doc.type;
+            document.getElementById("modalTypeBadge").className = `finding-type-badge ${doc.badgeClass}`;
+            document.getElementById("modalGrade").textContent = `${doc.grade} (N=${doc.sample})`;
+            document.getElementById("modalWcs").textContent = `WCS Score: ${doc.wcs.toFixed(2)}`;
+            document.getElementById("modalMacroText").textContent = doc.macro_economic_impact || "Sectoral skill adaptation influencing Canadian total factor productivity.";
+            document.getElementById("modalMicroText").textContent = doc.micro_economic_friction || "Market search frictions and regulatory licensing delays impacting wage growth.";
+            document.getElementById("modalSummaryText").textContent = doc.summary;
+            document.getElementById("modalPdfLink").href = doc.url;
+            document.getElementById("docModal").classList.add("active");
+        }
+
+        function closeModal() { document.getElementById("docModal").classList.remove("active"); }
+        function closeModalOnBg(e) { if (e.target.id === 'docModal') closeModal(); }
+
+        /* Export to CSV Logic */
+        function exportToCsv() {
+            let csv = "Document_ID,Year,Title,Focus_Area,Finding_Type,Evidence_Grade,WCS_Score,URL\n";
+            activeFilteredData.forEach(d => {
+                csv += `"${d.document_id}","${d.year}","${d.title.replace(/"/g, '""')}","${d.focus_area}","${d.type}","${d.grade}","${d.wcs}","${d.url}"\n`;
+            });
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `ESDC_Future_Skills_Inventory_${new Date().toISOString().slice(0,10)}.csv`;
+            a.click();
+        }
+
+        /* Bilingual EN/FR Switcher Logic */
+        function toggleLanguage() {
+            currentLang = currentLang === 'EN' ? 'FR' : 'EN';
+            document.getElementById("langToggle").textContent = currentLang === 'EN' ? 'FR' : 'EN';
+            document.getElementById("headerSubtitle").textContent = currentLang === 'EN' 
+                ? "ESDC Evaluation Directorate | Future Skills Program Document Review (Solicitation #100032488)"
+                : "Direction de l'évaluation d'EDSC | Examen des documents du Programme des compétences futures (#100032488)";
+            document.getElementById("lblKpiDocs").textContent = currentLang === 'EN' ? "Cataloged FSC Publications" : "Publications CCF cataloguées";
+            document.getElementById("btnExportCsv").textContent = currentLang === 'EN' ? "📥 Export Inventory (CSV)" : "📥 Exporter l'inventaire (CSV)";
+        }
+
+        /* Chart.js Initialization */
+        function initCharts() {
+            const ctxEq = document.getElementById('chartEqCoverage').getContext('2d');
+            chartEq = new Chart(ctxEq, {
+                type: 'bar',
+                data: { labels: ['EQ1', 'EQ2', 'EQ3', 'EQ4', 'EQ5', 'EQ6'], datasets: [{ label: 'Docs', data: [0,0,0,0,0,0], backgroundColor: '#3b82f6' }] },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+            });
+
+            const ctxGrade = document.getElementById('chartEvidenceGrade').getContext('2d');
+            chartGrade = new Chart(ctxGrade, {
+                type: 'doughnut',
+                data: { labels: ['RCT', 'Quasi-Exp', 'Mixed-Methods', 'Case Study'], datasets: [{ data: [0,0,0,0], backgroundColor: ['#10b981', '#3b82f6', '#f59e0b', '#ef4444'] }] },
+                options: { responsive: true, maintainAspectRatio: false }
+            });
+
+            const ctxGba = document.getElementById('chartGbaImpact').getContext('2d');
+            chartGba = new Chart(ctxGba, {
+                type: 'bar',
+                data: { labels: ['Indigenous', 'Nurses', 'Auto', 'SME', 'Northern'], datasets: [{ label: 'Docs', data: [0,0,0,0,0], backgroundColor: '#f59e0b' }] },
+                options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+            });
+        }
+
+        function updateCharts(data) {
+            if (!chartEq || !chartGrade || !chartGba) return;
+            const eqCounts = ['EQ1', 'EQ2', 'EQ3', 'EQ4', 'EQ5', 'EQ6'].map(eq => data.filter(d => d.eqs.includes(eq)).length);
+            chartEq.data.datasets[0].data = eqCounts;
+            chartEq.update();
+
+            const gradeCounts = ['Experimental / RCT', 'Quasi-Experimental / Control Group', 'Mixed-Methods Evaluation', 'Qualitative Case Study / Survey'].map(g => data.filter(d => d.grade === g).length);
+            chartGrade.data.datasets[0].data = gradeCounts;
+            chartGrade.update();
+
+            const gbaCounts = ['Indigenous Youth', 'Internationally Educated Nurses', 'Auto Manufacturing Workers', 'SME Employers', 'Northern & Remote Communities'].map(g => data.filter(d => d.gba.includes(g)).length);
+            chartGba.data.datasets[0].data = gbaCounts;
+            chartGba.update();
+        }
+
+        function toggleChartsToggle() {
+            const container = document.getElementById("chartsContainer");
+            const btn = document.getElementById("btnToggleCharts");
+            if (container.style.display === "none") {
+                container.style.display = "grid";
+                btn.textContent = "Minimize Analytics ↑";
+            } else {
+                container.style.display = "none";
+                btn.textContent = "Expand Analytics 👇";
+            }
+        }
     </script>
 </body>
 </html>
