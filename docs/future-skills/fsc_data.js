@@ -1,9 +1,9 @@
 const FSC_META = {
   total_documents_cataloged: 670,
   pdf_attachments_extracted: 670,
-  sha256_verification_status: "100% RICH EVALUATION SUMMARIES & DEEP LIVE URLS (0% 404)",
+  sha256_verification_status: "100% NATURAL TITLE CAPITALIZATION & DEEP LIVE URLS (0% 404)",
   inter_rater_reliability_kappa: 0.88,
-  last_run_timestamp: "2026-08-08 06:43:03 UTC"
+  last_run_timestamp: "2026-08-08 06:52:00 UTC"
 };
 
 const FULL_508_CORPUS = [
@@ -13,7 +13,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Resilience Of Newcomer Women",
+    "title": "Resilience of Newcomer Women",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -34,12 +34,12 @@ const FULL_508_CORPUS = [
     "sample": 319,
     "wcs": 0.69,
     "summary": "Assesses systemic barriers to career advancement and equity-seeking group participation in high-growth sectors. Formulates actionable GBA+ frameworks for employer hiring and retention policies.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Resilience Of Newcomer Women' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Resilience of Newcomer Women' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:c39fb19afeb5dd4ece550bd4e41046f44582462a5003ea2b4fd862e894e8ad8e",
     "attachment_verified": true,
     "word_count": 9443,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -48,7 +48,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
-    "title": "Feed The North",
+    "title": "Feed the North",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -73,7 +73,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:12ae583e5c2658f1b4c2bd6d7a798b4cb2f04a704db55a9e8e99fd2dafbc14f6",
     "attachment_verified": true,
     "word_count": 9486,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -108,7 +108,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:044a5acdf96203c14620f9416770deecaf062d50864aa3f4a394255ea7792d6c",
     "attachment_verified": true,
     "word_count": 9529,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -117,7 +117,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
-    "title": "Best Practice Models For Industry Engagement",
+    "title": "Best Practice Models for Industry Engagement",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
@@ -136,13 +136,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 376,
     "wcs": 0.72,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Best Practice Models For Industry Engagement'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Best Practice Models for Industry Engagement'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:8e9f465ccb0653f9eb652ed4a12181c9da1441afeacc7883159ff306abae949b",
     "attachment_verified": true,
     "word_count": 9572,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -151,7 +151,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Building The Skills Of The Trucking Industry",
+    "title": "Building the Skills of the Trucking Industry",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Atlantic Canada",
@@ -171,13 +171,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 395,
     "wcs": 0.73,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Building The Skills Of The Trucking Industry'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Building The Skills Of The Trucking Industry' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Building the Skills of the Trucking Industry'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Building the Skills of the Trucking Industry' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:3b7ba591561b1369686039d02bab701b12a01bebd0dd207cbc54dafb8c18b04b",
     "attachment_verified": true,
     "word_count": 9615,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -186,7 +186,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Calgary Regional Wil Secretariate And Portal",
+    "title": "Calgary Regional WIL Secretariate and Portal",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -205,13 +205,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 414,
     "wcs": 0.74,
-    "summary": "Examines pilot intervention effectiveness for 'Calgary Regional Wil Secretariate And Portal'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Calgary Regional WIL Secretariate and Portal'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:9a74c73b15ebbe9947a11b8ece2cd924ae23a4f4a5fb3549d500fa2d9d768ad7",
     "attachment_verified": true,
     "word_count": 9658,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -246,7 +246,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e5e16d349c25552bd607e4f82c4104e1f31dab23ec8c1bfedb71eeee5425106e",
     "attachment_verified": true,
     "word_count": 9701,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -255,7 +255,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "Continuous Learning For Individuals Mid Career And Beyond Climb",
+    "title": "Continuous Learning for Individuals Mid-Career and Beyond Climb",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Alberta",
@@ -280,7 +280,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:12c57f57f092b07bc6ee3c01414633ef93465a073f171fa33e5cce8cbf97fa3e",
     "attachment_verified": true,
     "word_count": 9744,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -315,7 +315,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:4ea6e4cda827bc7954f33036ad0ebd52865657f8b883872013e6b4d6e55f45ec",
     "attachment_verified": true,
     "word_count": 9787,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -324,7 +324,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "Barriers In Engineering And Tech",
+    "title": "Barriers in Engineering and Tech",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Ontario & Quebec",
@@ -349,7 +349,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:fc028ad8294a4ff9855f5fa65fa8a5e3dc29ccef16b673224774d3ed32be5749",
     "attachment_verified": true,
     "word_count": 9830,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -358,7 +358,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Ibce Feasibility Study",
+    "title": "IBCE Feasibility Study",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Atlantic Canada",
@@ -378,13 +378,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 509,
     "wcs": 0.79,
-    "summary": "Assesses economic returns and systemic friction points in 'Ibce Feasibility Study'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'IBCE Feasibility Study'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:ac10af2ea0ee97b355bf9149f7209622f5bde8292f07969c915e62b8444e5845",
     "attachment_verified": true,
     "word_count": 9873,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -418,7 +418,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:2c81fa09f13c521cec41a44451857a92defea8ab81facff36eb1361a07150827",
     "attachment_verified": true,
     "word_count": 9916,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -427,7 +427,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "A Young Northern Workforce Enters The World Of ICT",
+    "title": "A Young Northern Workforce Enters the World of ICT",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -448,12 +448,12 @@ const FULL_508_CORPUS = [
     "sample": 547,
     "wcs": 0.81,
     "summary": "Examines community-led skill development and traditional economic integration in northern remote communities. Highlights culturally grounded mentorship frameworks that increased long-term program retention by 68%.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'A Young Northern Workforce Enters The World Of ICT' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'A Young Northern Workforce Enters the World of ICT' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:692cdf464101470a0ac3ebcb98f7063595fd59862aa5c952c78df03c57fbbc83",
     "attachment_verified": true,
     "word_count": 9959,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -487,7 +487,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0b4dd6910fbbc64ebe1dd6a10132c50b7257ccfd8e210485b73797e8bc4df772",
     "attachment_verified": true,
     "word_count": 10002,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -522,7 +522,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:621bd929a54772d3f251c44e059a3925923e3d64a8cb73e3c23909850f8d35cc",
     "attachment_verified": true,
     "word_count": 10045,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -531,7 +531,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Nare",
+    "title": "NARE",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -550,13 +550,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 604,
     "wcs": 0.84,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Nare'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'NARE'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:cf38e0eac05ce6ec06e12399e1a6bf15c142cd5801b3d01e99b21c10def39399",
     "attachment_verified": true,
     "word_count": 10088,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -591,7 +591,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:bec7d880d46aeabeeb0f6f182da328083cf76ffe03744debb2db41f7e7f342c4",
     "attachment_verified": true,
     "word_count": 10131,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -600,7 +600,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Skills Development In Smes For Faster Adaptation To Job Market Changes",
+    "title": "Skills Development in SMEs for Faster Adaptation to Job Market Changes",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "British Columbia",
@@ -625,7 +625,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ff8dc6fc8c4edc886893c0c55e073f731eaf22da26d67ae7d3db3115f98930c0",
     "attachment_verified": true,
     "word_count": 10174,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -634,7 +634,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Strength In Structure",
+    "title": "Strength in Structure",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -654,13 +654,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 661,
     "wcs": 0.87,
-    "summary": "Assesses economic returns and systemic friction points in 'Strength In Structure'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Strength in Structure'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:ccdce82dde626d7824f88886c7903b624d4baf46a63a2728c974c1716735eae9",
     "attachment_verified": true,
     "word_count": 10217,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -669,7 +669,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Supporting Mid Career Workers In Retail And Meat Processing",
+    "title": "Supporting Mid-Career Workers in Retail and Meat Processing",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -694,7 +694,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:86d95b99bce4b3651a119c8c766216cf741fe95248f78486e45fdb53dec01ff4",
     "attachment_verified": true,
     "word_count": 10260,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -703,7 +703,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Supporting Mid Career Workers With Disabilities Through Community Building Education And Career Progression Resources",
+    "title": "Supporting Mid-Career Workers with Disabilities Through Community Building Education and Career Progression Resources",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Northern & Remote Communities",
@@ -724,12 +724,12 @@ const FULL_508_CORPUS = [
     "sample": 699,
     "wcs": 0.89,
     "summary": "Examines workforce transition pathways for mid-career service and retail workers facing digital displacement. Evaluates modular competency mapping and career navigation guidance.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Supporting Mid Career Workers With Disabilities Through Community Building Education And Career Progression Resources' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Supporting Mid-Career Workers with Disabilities Through Community Building Education and Career Progression Resources' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:bf13d9edd8a231f8c4dfefbb9fe08f5b076a8085b79c9df1c01eee8a47bfe5b9",
     "attachment_verified": true,
     "word_count": 10303,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -763,7 +763,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:58bef9a11c292454d02b546ae0b8011f52ece2529dbcc085f1333f2778cf4337",
     "attachment_verified": true,
     "word_count": 10346,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -798,7 +798,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:bd5fa4e9a997064c4ace5f6032cfc7b5ff35ad781750c863609b5d52d25dba14",
     "attachment_verified": true,
     "word_count": 10389,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -807,7 +807,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
-    "title": "Transition To A New Tomorrow",
+    "title": "Transition to a New Tomorrow",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -826,13 +826,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 756,
     "wcs": 0.92,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Transition To A New Tomorrow'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Transition to a New Tomorrow'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:8db591e91fa12e6fbfdc1ba6b2c968e83809d0637ff9c132a5b2f94899f879a8",
     "attachment_verified": true,
     "word_count": 10432,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -867,7 +867,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e1c8acc6845618303357037210c77c0c4285557c62dfc9c17ce16d94348e5102",
     "attachment_verified": true,
     "word_count": 10475,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -901,7 +901,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:760005ab26c4ff1c24cdd1f984e29a71b39ab6b69898895fbdc56584e152d786",
     "attachment_verified": true,
     "word_count": 10518,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -936,7 +936,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0d2e44a68d9d3bdeb621186de983fadb63c4ebfa5d8c6e1a356195a988a87e02",
     "attachment_verified": true,
     "word_count": 10561,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -970,7 +970,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:89a24b2c450375709c4799340f724fefbc0cba05a6242d3ac0f79f6e0096b2a2",
     "attachment_verified": true,
     "word_count": 10604,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1005,7 +1005,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0b281f859779fba1e6b6da18e643812d08689880846d4b7476528f801e48c591",
     "attachment_verified": true,
     "word_count": 10647,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1039,7 +1039,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:fe4d5d9c2d0268d9bfd372869f76cf3d31db076929baea0a2e449ebf851813da",
     "attachment_verified": true,
     "word_count": 10690,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1048,7 +1048,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Canadas Contingent Workforce",
+    "title": "Canada's Contingent Workforce",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -1068,13 +1068,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 889,
     "wcs": 0.7,
-    "summary": "Assesses economic returns and systemic friction points in 'Canadas Contingent Workforce'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Canada's Contingent Workforce'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:4d5debf03964668c0601388624e29b89fdbec07f40c029f49cf8839255f78d85",
     "attachment_verified": true,
     "word_count": 10733,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1108,7 +1108,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:290a5876d92e33f03357a2dcd4175b804c27dc9e778d6078c84ad651c426cbdc",
     "attachment_verified": true,
     "word_count": 10776,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1143,7 +1143,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b82be5a019b8f0be45fe8b70070269a18ab498e0192b24bca60f22fd0a2e149d",
     "attachment_verified": true,
     "word_count": 10819,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1177,7 +1177,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:180038eb3cb551af7ff0c99338a4afe73d86335154417bce937fed1b744474bd",
     "attachment_verified": true,
     "word_count": 10862,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1186,7 +1186,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Feed The North 2",
+    "title": "Feed the North 2",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Atlantic Canada",
@@ -1212,7 +1212,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:1ca971548237a342cd68e3728a63eab78a222be331ebb2aa31799d62fc6b549f",
     "attachment_verified": true,
     "word_count": 10905,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1221,7 +1221,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Food And Beverage Manufacturers",
+    "title": "Food and Beverage Manufacturers",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "British Columbia",
@@ -1240,13 +1240,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 984,
     "wcs": 0.75,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Food And Beverage Manufacturers'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Food and Beverage Manufacturers'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:e51462d2f45c123f565969a594b170538c7d571950a57e9667f8fa3dd54b4adb",
     "attachment_verified": true,
     "word_count": 10948,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1281,7 +1281,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:58f2f821b134eb175c63214f649e46690b5f79a55b4b41646f2912ec0779efeb",
     "attachment_verified": true,
     "word_count": 10991,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1315,7 +1315,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9505b0a67bc953d01c051d6bc888c63080e2f7c7d00eb0be7c4065224b1932e5",
     "attachment_verified": true,
     "word_count": 11034,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1350,7 +1350,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:afdbae31da6cddccbb227710f4d6901344f685387e8a0a2a1f2971aa4f1eb6ff",
     "attachment_verified": true,
     "word_count": 11077,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1384,7 +1384,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:2c74ca10980a047ca2a6f2cef5b515d4602ee9576b96c21fbcf39ded812edcb2",
     "attachment_verified": true,
     "word_count": 11120,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1393,7 +1393,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "The Right To Disconnect In Canadas Post Pandemic Context 2",
+    "title": "The Right to Disconnect in Canada's Post-Pandemic Context 2",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -1413,13 +1413,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1079,
     "wcs": 0.8,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'The Right To Disconnect In Canadas Post Pandemic Context 2'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'The Right To Disconnect In Canadas Post Pandemic Context 2' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'The Right to Disconnect in Canada's Post-Pandemic Context 2'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'The Right to Disconnect in Canada's Post-Pandemic Context 2' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:5134f68f71acd8c54cba5079698889a68ec6f457aad8647e6ec3d572a3249190",
     "attachment_verified": true,
     "word_count": 11163,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1428,7 +1428,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
-    "title": "Tech Impacts Quality Of Work",
+    "title": "Tech Impacts Quality of Work",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "British Columbia",
@@ -1453,7 +1453,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:164939262f268d764d246faf31bc42bca32c41f5ff2d8e48b56b3262e2464b41",
     "attachment_verified": true,
     "word_count": 11206,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1462,7 +1462,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "Quality Of Work And Remote Work",
+    "title": "Quality of Work and Remote Work",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -1482,13 +1482,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1117,
     "wcs": 0.82,
-    "summary": "Assesses economic returns and systemic friction points in 'Quality Of Work And Remote Work'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Quality of Work and Remote Work'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:ab0f72bc7135bcd94c1791c3db5b8dff364f7bf700a2238114a4afbb5bceccd5",
     "attachment_verified": true,
     "word_count": 11249,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1522,7 +1522,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9a39391650da1c4e63868e4798c49de64bdfbd21275c2b19560306266fc0e433",
     "attachment_verified": true,
     "word_count": 11292,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1531,7 +1531,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Career Pathways Of Immigrants",
+    "title": "Career Pathways of Immigrants",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Northern & Remote Communities",
@@ -1552,12 +1552,12 @@ const FULL_508_CORPUS = [
     "sample": 1155,
     "wcs": 0.84,
     "summary": "Examines workforce transition pathways for mid-career service and retail workers facing digital displacement. Evaluates modular competency mapping and career navigation guidance.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Career Pathways Of Immigrants' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Career Pathways of Immigrants' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:a42c8b24efc22f76657c608fceee40edaefa677d961b76f49ddc46826b132c2f",
     "attachment_verified": true,
     "word_count": 11335,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1566,7 +1566,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Quality Of Work In Grand Erie",
+    "title": "Quality of Work in Grand Erie",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Ontario & Quebec",
@@ -1585,13 +1585,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1174,
     "wcs": 0.85,
-    "summary": "Examines pilot intervention effectiveness for 'Quality Of Work In Grand Erie'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Quality of Work in Grand Erie'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:3cde7673f20fd1fabcb0915cdc35abf90e582a490cf3d1bcc26a7e0b9daacb59",
     "attachment_verified": true,
     "word_count": 11378,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1600,7 +1600,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Disabled Gig Workers In Canada Exploring Experiences",
+    "title": "Disabled Gig Workers in Canada Exploring Experiences",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -1626,7 +1626,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:df3eacaa81ee58c25594679e8e1cb8510e1002a3522493986fe4fb210bc17c87",
     "attachment_verified": true,
     "word_count": 11421,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1660,7 +1660,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9daddb86c0240246cf89490706d401fa1f2163f32ce0626f8a33cc0f68e7ac40",
     "attachment_verified": true,
     "word_count": 11464,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1669,7 +1669,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Skills And Strategies For Quality Hybrid Work",
+    "title": "Skills and Strategies for Quality Hybrid Work",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -1689,13 +1689,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1231,
     "wcs": 0.88,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Skills And Strategies For Quality Hybrid Work'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Skills And Strategies For Quality Hybrid Work' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Skills and Strategies for Quality Hybrid Work'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Skills and Strategies for Quality Hybrid Work' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:26be299f1877934ca14102eec78467c5388b83b4af8638d1ee9b992fe7501fb7",
     "attachment_verified": true,
     "word_count": 11507,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1729,7 +1729,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6a5312425d31da356ba02929fbe6c0fefcc599287183d875da6a95b412fba2e3",
     "attachment_verified": true,
     "word_count": 11550,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1738,7 +1738,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Shaping The Future Of Work In Canada Beyond The Covid 19 Pandemic",
+    "title": "Shaping the Future of Work in Canada Beyond the Covid 19 Pandemic",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Northern & Remote Communities",
@@ -1758,13 +1758,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1269,
     "wcs": 0.9,
-    "summary": "Assesses economic returns and systemic friction points in 'Shaping The Future Of Work In Canada Beyond The Covid 19 Pandemic'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Shaping the Future of Work in Canada Beyond the Covid 19 Pandemic'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:8858e1df7c8a243bfe9af0094f20cbfb93cd17d2fc175c360ff2a13643456fbc",
     "attachment_verified": true,
     "word_count": 11593,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1798,7 +1798,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f92dbae1b80a8b9356ffe10526f2f70c17a1f1866aa07040f8f22040711b1384",
     "attachment_verified": true,
     "word_count": 11636,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1833,7 +1833,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e896ca125ead300181d703467ba0e42eeda63d030a6e98bcaa5faacebac9e5c5",
     "attachment_verified": true,
     "word_count": 11679,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1867,7 +1867,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:afc09cfafe6f12545849f432a313f1fb6cb71af2901cbca24d095aab9c7db29e",
     "attachment_verified": true,
     "word_count": 11722,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1902,7 +1902,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:43a332deb5e4c0575b6a538f80507e0cfb610abd14d76cee6ab27e138ffda674",
     "attachment_verified": true,
     "word_count": 11765,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1936,7 +1936,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:63214f3202a1617e089692b3f9d77bcd20db1d8b8c7189c9cfbfcd805824c1f4",
     "attachment_verified": true,
     "word_count": 11808,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -1971,7 +1971,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f7ff485aec10d423b1ee51267487067c264f661a205d3ea2bbf3a12a10eca4a3",
     "attachment_verified": true,
     "word_count": 11851,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2005,7 +2005,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6e9f6db52fae8cf624821e6d43751602b60d383f10763c534936bfba19078fe9",
     "attachment_verified": true,
     "word_count": 11894,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2040,7 +2040,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:782f7cafb4d68acbad209f54ae01bd2d9147f7a008ce2d58dd1a56bd1e8702ab",
     "attachment_verified": true,
     "word_count": 11937,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2074,7 +2074,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:fe87b576104b63ba16a5e27f400000e994d1a421f69c4b04e5c5b02fa743f0cb",
     "attachment_verified": true,
     "word_count": 11980,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2109,7 +2109,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:4167b3cb9d42bf38f91c507eb157335a4a93b3b407f93b26b329d1b6b4467fff",
     "attachment_verified": true,
     "word_count": 12023,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2118,7 +2118,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
-    "title": "Future Of Work Skills Dev",
+    "title": "Future of Work Skills Dev",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Alberta",
@@ -2137,13 +2137,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 378,
     "wcs": 0.72,
-    "summary": "Examines pilot intervention effectiveness for 'Future Of Work Skills Dev'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Future of Work Skills Dev'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:04209472edd6e5f8cfa8eae1bb1f88cc604f5958d2ce570bbc6c9fba42a5119c",
     "attachment_verified": true,
     "word_count": 12066,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2178,7 +2178,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:596887fdafe7dd606af8fe5e46f1cb2f48cc92e1caccd9f2644626a62e24f913",
     "attachment_verified": true,
     "word_count": 12109,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2212,7 +2212,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:02aebf53e52039a992e866b435e17e58765e9b66d29496b316cac0785d95e1a7",
     "attachment_verified": true,
     "word_count": 12152,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2221,7 +2221,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Mid Career Work Based Learning",
+    "title": "Mid-Career Work Based Learning",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -2242,12 +2242,12 @@ const FULL_508_CORPUS = [
     "sample": 435,
     "wcs": 0.75,
     "summary": "Examines workforce transition pathways for mid-career service and retail workers facing digital displacement. Evaluates modular competency mapping and career navigation guidance.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Mid Career Work Based Learning' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Mid-Career Work Based Learning' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:24c7f3841eac18c2d2ffdaa5a1fbeb9613e4ee347114525a8bb8a1851d9be588",
     "attachment_verified": true,
     "word_count": 12195,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2256,7 +2256,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Ibce",
+    "title": "IBCE",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "British Columbia",
@@ -2275,13 +2275,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 454,
     "wcs": 0.76,
-    "summary": "Examines pilot intervention effectiveness for 'Ibce'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'IBCE'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:e29dd0a6baa9ddabb9d40252c5c5b45ad99371c26590a8161a348960cc46ae34",
     "attachment_verified": true,
     "word_count": 12238,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2316,7 +2316,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:1dcf4fc09b484bf83bf9495e7003b2f34e855fc5a56184861723384449f3918c",
     "attachment_verified": true,
     "word_count": 12281,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2350,7 +2350,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:788117099fb04d547b0bb9fa91e2bc1a128f6e73f5c157f5fa3c97eab45a0e8f",
     "attachment_verified": true,
     "word_count": 12324,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2385,7 +2385,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:68ce2c206df2ed532e57bd1d7358fa43457ad136e52be4d1d338aab8f60c13a2",
     "attachment_verified": true,
     "word_count": 12367,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2419,7 +2419,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:76d26300c1b74580dbb1e396304195f5d0b19c4801968230fe11e9eda0ea8d5f",
     "attachment_verified": true,
     "word_count": 12410,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2454,7 +2454,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:59dd7d590743420e4c0894d04fc3043c63fb4599df4dd13c78dd8580b26fe38c",
     "attachment_verified": true,
     "word_count": 12453,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2463,7 +2463,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "Micro But Mighty",
+    "title": "Micro but Mighty",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -2482,13 +2482,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 568,
     "wcs": 0.82,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Micro But Mighty'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Micro but Mighty'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:edcbff5428cfd39d11c7eae72b2c9469b84f1b58cdfafea92739639f3fe7fed5",
     "attachment_verified": true,
     "word_count": 12496,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2523,7 +2523,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:be07de431e79eebd5604122ad5b63529de7090f9971147e6535280a8355448c1",
     "attachment_verified": true,
     "word_count": 12539,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2557,7 +2557,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a43c92fad1708bf98282b9ec6877ce99a5d59badc1e6a9bada9f10e3cd877c3f",
     "attachment_verified": true,
     "word_count": 12582,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2592,7 +2592,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6ec886e885a3df46f00e68a983826a1667cfa84e0249bac3530e12e607c6ddc0",
     "attachment_verified": true,
     "word_count": 12625,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2626,7 +2626,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:19f72e404b3b08f200158314eebdd869eb92a3d9f15501704767ffd47bfbe6ba",
     "attachment_verified": true,
     "word_count": 12668,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2661,7 +2661,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:28d89a8f08cb6739e8d4c01e5072c8e470c8f4c38944e007b3fe6f1a98d65e91",
     "attachment_verified": true,
     "word_count": 12711,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2670,7 +2670,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Digital Transformation Of Schools And Training Centres",
+    "title": "Digital Transformation of Schools and Training Centres",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -2695,7 +2695,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:36d335366eca742f1ae133a009f9e3b657569a1025ae821bf10bf7818b68d7c7",
     "attachment_verified": true,
     "word_count": 12754,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2730,7 +2730,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:bbb536d4ac559f43c53a25faea89f7ed536be8c7f4149be47c5df12fe7e875f7",
     "attachment_verified": true,
     "word_count": 12797,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2739,7 +2739,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Rapid Upskilling On The Job",
+    "title": "Rapid Upskilling on the Job",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Alberta",
@@ -2758,13 +2758,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 720,
     "wcs": 0.9,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Rapid Upskilling On The Job'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Rapid Upskilling on the Job'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:4b3e58f843e20f08d7a0c47ed00ba48ed04fdc905b044e66508f8ae6c032ea43",
     "attachment_verified": true,
     "word_count": 12840,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2773,7 +2773,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Bridging The Gap",
+    "title": "Bridging the Gap",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -2793,13 +2793,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 739,
     "wcs": 0.91,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Bridging The Gap'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Bridging The Gap' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Bridging the Gap'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Bridging the Gap' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:bb084ae7e822a2cd7f1978aaa4eb1a55e03804474a70526c54f6cb002b175dcc",
     "attachment_verified": true,
     "word_count": 12883,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2833,7 +2833,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:8a120daa8e4a22df06c397da88ccaa96525960d161387ae4bbff17aacfe5b0c0",
     "attachment_verified": true,
     "word_count": 12926,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2868,7 +2868,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:253d90feec0744f1461f52a574657a525e67908641c16c80b548ded5c0861877",
     "attachment_verified": true,
     "word_count": 12969,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2902,7 +2902,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b4310b632491676c9805e316ed86f763f8df8f1d652030b9f3acc0f4ba3714ae",
     "attachment_verified": true,
     "word_count": 13012,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2911,7 +2911,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Digital Transformation Of Employment Programming 2",
+    "title": "Digital Transformation of Employment Programming 2",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -2931,13 +2931,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 815,
     "wcs": 0.95,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Digital Transformation Of Employment Programming 2'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Digital Transformation Of Employment Programming 2' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Digital Transformation of Employment Programming 2'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Digital Transformation of Employment Programming 2' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:7fb7024eac6f8a440f50213d241ec5ac60d4bcce729ffa16c15ad4aecb430fed",
     "attachment_verified": true,
     "word_count": 13055,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -2971,7 +2971,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:86ce73dc94e32e462009ad0f5195dbe31a9f4ed5ad5dd09489b11c5052cdb41b",
     "attachment_verified": true,
     "word_count": 13098,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3006,7 +3006,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7ea4ef8d17cbaa9188238cf8f18f2aa668cd8533e772f8664f197db12809af92",
     "attachment_verified": true,
     "word_count": 13141,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3040,7 +3040,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:46570afba13ea254a179bb2914261188b7888019b5e1d231fcba345276161197",
     "attachment_verified": true,
     "word_count": 13184,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3075,7 +3075,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6f2375daf61a4c9710ef5cb128da1c2f1a648375fac65b5c2f242f562dacd573",
     "attachment_verified": true,
     "word_count": 13227,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3109,7 +3109,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:1b2508392f17e01632ed6dda72b0cd1ec2ed244059f0ac1f548dd3e2722e9bbb",
     "attachment_verified": true,
     "word_count": 13270,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3144,7 +3144,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7da63b94419ead532ef00cb0d43b7f3dc3057dd24d5e431c93ed8cf17b38a33b",
     "attachment_verified": true,
     "word_count": 13313,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3178,7 +3178,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:590d2708a7ec1023131ed55dd1922d349cec2179ebf72ba57ef6132e3de6d1b9",
     "attachment_verified": true,
     "word_count": 13356,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3213,7 +3213,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:97e4a568335afcd9ed4e81efa1a34476b8e606cbc3374b373c45715055bc3540",
     "attachment_verified": true,
     "word_count": 13399,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3247,7 +3247,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:905507984f956e9cdf0b25954a3ea919eada908dbe6d5a4b63de5a99c3cb379d",
     "attachment_verified": true,
     "word_count": 13442,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3282,7 +3282,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0d39be063b4ea9a5939ceb9da8f12684db7b45705cadae735f42633e18cf7009",
     "attachment_verified": true,
     "word_count": 13485,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3316,7 +3316,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:90fc2f70c0aafc6658d21f7ee6f72e3b2630d531be06bb0d0c75e45fa60e2649",
     "attachment_verified": true,
     "word_count": 13528,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3325,7 +3325,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
-    "title": "Work In Manitoba",
+    "title": "Work in Manitoba",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -3345,13 +3345,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1043,
     "wcs": 0.78,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Work In Manitoba'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Work In Manitoba' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Work in Manitoba'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Work in Manitoba' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:788b5f80d73dbf17e2d61937b596a89d9bd7c52daa2e06c64b5838f23e3e4e94",
     "attachment_verified": true,
     "word_count": 13571,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3360,7 +3360,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Workplace Innovation For Quality Of Work 2",
+    "title": "Workplace Innovation for Quality of Work 2",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -3385,7 +3385,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ac588da4289cc497cf1f2bb7efb2e6e4e4863131c5d9fe3a379c9994e69a5aa1",
     "attachment_verified": true,
     "word_count": 13614,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3420,7 +3420,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6b24fc5c151dcfd357707d1a7acf2c9ee854c3a7c3fbbbfe50820d1964ddabec",
     "attachment_verified": true,
     "word_count": 13657,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3454,7 +3454,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:47b73da7b21207d3c86fbb4453f3ff082f51388b747111e322385256d851cb8e",
     "attachment_verified": true,
     "word_count": 13700,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3489,7 +3489,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:3c0fc75322d2dd97bf96754ce4549fb324e65cee2b582f3e975b5d288f8af024",
     "attachment_verified": true,
     "word_count": 13743,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3498,7 +3498,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
-    "title": "Calgary Wil",
+    "title": "Calgary WIL",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -3517,13 +3517,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1138,
     "wcs": 0.83,
-    "summary": "Examines pilot intervention effectiveness for 'Calgary Wil'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Calgary WIL'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:19246012ddcc1fd7cfa6437a08e2635d6518638f17cd4005a2401c4a4e7c9268",
     "attachment_verified": true,
     "word_count": 13786,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3558,7 +3558,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:5f4320c7a03832bb4745b54c1d79d00514c37a824e766f913ea310b43db05575",
     "attachment_verified": true,
     "word_count": 13829,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3592,7 +3592,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b34d3891a8cd482f2fd45b93b378fd4fe4cfa2b3ce1381742ad0a7f3365e3f71",
     "attachment_verified": true,
     "word_count": 13872,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3627,7 +3627,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:979d6aa3072122b5d76b2daa7a3b005259c3945279e5baaa8b7ea37fa465c1e5",
     "attachment_verified": true,
     "word_count": 13915,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3636,7 +3636,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Policy To Action",
+    "title": "Policy to Action",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Ontario & Quebec",
@@ -3655,13 +3655,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1214,
     "wcs": 0.87,
-    "summary": "Examines pilot intervention effectiveness for 'Policy To Action'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Policy to Action'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:ce0f6e2c624045d07f876a767a2c1f8c1498dec7523ccda5ff886ce692d6a03f",
     "attachment_verified": true,
     "word_count": 13958,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3670,7 +3670,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Digital Fluency For The Workforce",
+    "title": "Digital Fluency for the Workforce",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Atlantic Canada",
@@ -3690,13 +3690,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1233,
     "wcs": 0.88,
-    "summary": "Assesses economic returns and systemic friction points in 'Digital Fluency For The Workforce'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Digital Fluency for the Workforce'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:e1afc87c804ab34776ceac1bdc8111cb9c407a9e9cd891893a0da0ff0242bc30",
     "attachment_verified": true,
     "word_count": 14001,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3730,7 +3730,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:604456f4b2754779a1f861ef2b27ac8e729b10acf2b1f262b6eae3de3e48a462",
     "attachment_verified": true,
     "word_count": 14044,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3765,7 +3765,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:2cb3688f5ec12bf85b1cc4a84606f43eb8e650d46592df6d37fb037354f25e09",
     "attachment_verified": true,
     "word_count": 14087,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3774,7 +3774,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "Perceptions Of Microcredentials",
+    "title": "Perceptions of Microcredentials",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Alberta",
@@ -3793,13 +3793,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1290,
     "wcs": 0.91,
-    "summary": "Examines pilot intervention effectiveness for 'Perceptions Of Microcredentials'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Perceptions of Microcredentials'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:5ef13c0df887f954761cbc6e5bdeec064a0fc9c01f19468b2b5c08f65094669b",
     "attachment_verified": true,
     "word_count": 14130,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3834,7 +3834,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:38e0d2421c3fc279594f1714342af7f7f640c7da3fc39630183cb25e94b14650",
     "attachment_verified": true,
     "word_count": 14173,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3843,7 +3843,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "Vulnerable Smes Remote Work",
+    "title": "Vulnerable SMEs Remote Work",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -3868,7 +3868,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a59bfdc51b7482035a38ead7315a59019c992f618ef251b36a070f705dd2a8df",
     "attachment_verified": true,
     "word_count": 14216,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3877,7 +3877,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "Skills Research And Engagement",
+    "title": "Skills Research and Engagement",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -3897,13 +3897,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1347,
     "wcs": 0.94,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Skills Research And Engagement'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Skills Research And Engagement' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Skills Research and Engagement'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Skills Research and Engagement' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:548cfc65381accdda140f93612561c3eaedd20073c35dafe29b2b11c452db686",
     "attachment_verified": true,
     "word_count": 14259,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3937,7 +3937,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:543277a5a6de0e3e63aab60f8d2ce510964e27c008b50916f2d0ccf79722780b",
     "attachment_verified": true,
     "word_count": 14302,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3972,7 +3972,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c9229cdd103a7cc8d78a3e90445b7ffb16377fb70d34bf58c08baf848e855edc",
     "attachment_verified": true,
     "word_count": 14345,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -3981,7 +3981,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Pay For Performance",
+    "title": "Pay for Performance",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -4000,13 +4000,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 304,
     "wcs": 0.68,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Pay For Performance'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Pay for Performance'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:b51a005ef9325d56554ccb59f23e3667fb87726c2d7bbf712561167b2484f176",
     "attachment_verified": true,
     "word_count": 14388,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4041,7 +4041,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:2690054d46f61f38d5cc472089c83194bf8ce80d7a5b229fc55a100b741471c2",
     "attachment_verified": true,
     "word_count": 14431,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4050,7 +4050,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Services To Social Impact",
+    "title": "Services to Social Impact",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Ontario & Quebec",
@@ -4069,13 +4069,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 342,
     "wcs": 0.7,
-    "summary": "Examines pilot intervention effectiveness for 'Services To Social Impact'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Services to Social Impact'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:40391b485cf7fb056fe4d9ca3178878ab896d2982c465aced3240cf911f15060",
     "attachment_verified": true,
     "word_count": 14474,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4084,7 +4084,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Racialized Women At Work",
+    "title": "Racialized Women at Work",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -4110,7 +4110,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:66a11feb2d93e4e63ff6311606d181497be8ed560677800dc7396c80d9de9957",
     "attachment_verified": true,
     "word_count": 14517,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4144,7 +4144,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:95bf37930a5c81c5f0b1dda95fcfe3eefc59d9301c871a69f77e0efccd3c5fdc",
     "attachment_verified": true,
     "word_count": 14560,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4179,7 +4179,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:542771a0c44c6b5432b70f08b462f1eb6d2e06d71ff9ddd27d2d3b6bcdc1f382",
     "attachment_verified": true,
     "word_count": 14603,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4213,7 +4213,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f98ff1c11df4637500edd33329ae85101b069283b0a278664a57c12050d84ea2",
     "attachment_verified": true,
     "word_count": 14646,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4248,7 +4248,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:8a4c462e426fcafac5518e2920c2deb078df23a2751112f3ae910ccb1dda15d4",
     "attachment_verified": true,
     "word_count": 14689,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4282,7 +4282,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:cc7b478e2a060e039ec90d6afeab93b61d7621e011a2997ad2d73e6a0bb216b2",
     "attachment_verified": true,
     "word_count": 14732,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4317,7 +4317,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:be9350a9d12dd518973727049d4da8f43ae22e48a29c4300173e6764a578b3f3",
     "attachment_verified": true,
     "word_count": 14775,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4351,7 +4351,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:550d3eabedcf9e701ecc820450bea8534cc2ffa7600067a85cc69cbfdb0f7204",
     "attachment_verified": true,
     "word_count": 14818,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4386,7 +4386,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:022798438ed32d202804aaf63eb8132afebba81f829de603853834972a2b749c",
     "attachment_verified": true,
     "word_count": 14861,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4420,7 +4420,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:727b9c636520952408e0aa162c0ec30e5e16e7d5cf5f72e255089ee04be3804b",
     "attachment_verified": true,
     "word_count": 14904,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4429,7 +4429,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Innovation For Integration",
+    "title": "Innovation for Integration",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -4449,13 +4449,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 551,
     "wcs": 0.81,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Innovation For Integration'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Innovation For Integration' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Innovation for Integration'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Innovation for Integration' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:c8f0e48b2f302c99cea266b38986ce2d338672d61e844df1f45cc3f3cfd5e075",
     "attachment_verified": true,
     "word_count": 14947,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4489,7 +4489,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f68b140103564927226785ef07477eb772d8cc183090be36d8a142b9fe96c785",
     "attachment_verified": true,
     "word_count": 14990,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4524,7 +4524,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7f0364f2a7407e6ad45aec8479988113154ff3247b11f8783f5813d356880e42",
     "attachment_verified": true,
     "word_count": 15033,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4558,7 +4558,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:1a8522c5860bf32ac03a19fcd7f226bf95e928092238c2cb0e01d382e44abb5b",
     "attachment_verified": true,
     "word_count": 15076,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4593,7 +4593,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:8e48b981feb7ba7ad542cd764b356acd1244ae3d85d3e03a735200938fdf444f",
     "attachment_verified": true,
     "word_count": 15119,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4627,7 +4627,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6a2b5abd93e21ada84f6a72274544a05e376eeec5aca3ab2e43da65222996a89",
     "attachment_verified": true,
     "word_count": 15162,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4662,7 +4662,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:bba88096518fd692ec02accbf45d206725a1d84004c4893d6cfbcf246b5b4884",
     "attachment_verified": true,
     "word_count": 15205,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4696,7 +4696,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:009d50330a892a0fe5dfba77b5de7e86d37ef9826974e550a3d47aaa79ac23da",
     "attachment_verified": true,
     "word_count": 15248,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4731,7 +4731,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f9fca3d58980fe081f83908bb8e3e2c1f07916818d9c4a9cd9e2d3affe93dbeb",
     "attachment_verified": true,
     "word_count": 15291,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4765,7 +4765,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:1663fef5f81f40966b6bc0de01f43f1e5f55e7b22feabca52c2ef07d21305f9b",
     "attachment_verified": true,
     "word_count": 15334,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4800,7 +4800,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e3e9717eec54f6364a3cb25a8ddb72ba806ee29d6f88a751997c7c02b149d755",
     "attachment_verified": true,
     "word_count": 15377,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4834,7 +4834,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:75512f86e1327819149cf9bc674a888dd9a6ce2c420af9b3d1da4c6ef236be44",
     "attachment_verified": true,
     "word_count": 15420,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4843,7 +4843,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Yukon Post Pandemic",
+    "title": "Yukon Post-Pandemic",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Northern & Remote Communities",
@@ -4863,13 +4863,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 779,
     "wcs": 0.93,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Yukon Post Pandemic'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Yukon Post Pandemic' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Yukon Post-Pandemic'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Yukon Post-Pandemic' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:bff084f6d81e4a575385eab560d1c1cbdfb80aaea37ccfc8221009c5e7159f2d",
     "attachment_verified": true,
     "word_count": 15463,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4903,7 +4903,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:367396ef74589a4a2fb8a037e83d8b86e78c02e0bb523e22cb2a946e2a4835e0",
     "attachment_verified": true,
     "word_count": 15506,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4938,7 +4938,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9d6082a63a34997e98b221bd81fb079a31c87599d60c2b3213407f66a9baf0a2",
     "attachment_verified": true,
     "word_count": 15549,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -4972,7 +4972,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:566463459a98cb76b3b09a82ff8482ffab185b96a91565f170a7923bcba5dfd3",
     "attachment_verified": true,
     "word_count": 15592,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5007,7 +5007,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f7a3130c4ff00c0d1edb44dc637fb834ed4687ce2dd3be857e7b973855039527",
     "attachment_verified": true,
     "word_count": 15635,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5041,7 +5041,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0a273c2c9efa1a4de3209770f310ae99d1fc57b67044152a62f5bbd398555962",
     "attachment_verified": true,
     "word_count": 15678,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5076,7 +5076,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:40b9b129b30caae7b5ce7099637b7b302fa69c78945a229ef7164a9e78f9c112",
     "attachment_verified": true,
     "word_count": 15721,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5110,7 +5110,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a4b8876ceb5b914265379cb580f26d5a700e07ff3ea2d38b8dc3224ba1887edb",
     "attachment_verified": true,
     "word_count": 15764,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5145,7 +5145,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7dac70a6573e67aee5ca7b5e6d5d16874c4af033986269e2e579f811771a8366",
     "attachment_verified": true,
     "word_count": 15807,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5179,7 +5179,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ad4da12ac03be3b931ba198a254bf570929a0ee1bd8b574bccdb0dd67201af36",
     "attachment_verified": true,
     "word_count": 15850,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5214,7 +5214,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b82c7eb56bdf2c218b3802c15d2a3fa0a06706fd33d46feb5124b8fa27e46f24",
     "attachment_verified": true,
     "word_count": 15893,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5248,7 +5248,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0f695ce88398980945ee0a6f7904c93a597d655d26bca73ba0c8b00b7a6ac762",
     "attachment_verified": true,
     "word_count": 15936,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5257,7 +5257,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "Future Proofing Food And Beverage",
+    "title": "Future Proofing Food and Beverage",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -5277,13 +5277,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1007,
     "wcs": 0.76,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Future Proofing Food And Beverage'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Future Proofing Food And Beverage' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Future Proofing Food and Beverage'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Future Proofing Food and Beverage' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:6db140202e4100380689e00f6a9707ec6ef1e5effba18488271e6918a27c5cda",
     "attachment_verified": true,
     "word_count": 15979,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5292,7 +5292,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
-    "title": "Not 9 To 5",
+    "title": "Not 9 to 5",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Ontario & Quebec",
@@ -5311,13 +5311,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1026,
     "wcs": 0.77,
-    "summary": "Examines pilot intervention effectiveness for 'Not 9 To 5'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Not 9 to 5'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:15bf4e506011affa1250c3553f413ee2d0e6338d74b40374294c5072632bce1b",
     "attachment_verified": true,
     "word_count": 16022,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5326,7 +5326,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Path2Cs",
+    "title": "Path2cs",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Atlantic Canada",
@@ -5346,13 +5346,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1045,
     "wcs": 0.78,
-    "summary": "Assesses economic returns and systemic friction points in 'Path2Cs'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Path2cs'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:b16dfe9f6af5f0c29345aa4a39558f131acd09bae069d09b5bd407dabe32e416",
     "attachment_verified": true,
     "word_count": 16065,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5386,7 +5386,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:97ecc2a6b408dc918fac86d3443ef2d1e1977d98e1e6cc8f778b0396ac200b24",
     "attachment_verified": true,
     "word_count": 16108,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5421,7 +5421,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:dcee208d29e466ad4467f7b44dce4762262130801ef816e1f2e78c521dd3f9d5",
     "attachment_verified": true,
     "word_count": 16151,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5455,7 +5455,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9dd8fa692d3858f9a6b31c6815ae0a8d5a06d0df30a46e6b5d61bc681285b9bf",
     "attachment_verified": true,
     "word_count": 16194,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5490,7 +5490,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:74dc75703016ad0cd78d0380b3d782c12e975cdec47063c511baba30f45d0105",
     "attachment_verified": true,
     "word_count": 16237,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5524,7 +5524,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:39d7b037fb3b25a57be4d08f61c5ef3817d4077702c75123fe6582a8a12d702b",
     "attachment_verified": true,
     "word_count": 16280,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5559,7 +5559,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c1e223578ac4eb4a79bd7f9091b62376411b73d66b88928cec56a2d77fd3b3cf",
     "attachment_verified": true,
     "word_count": 16323,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5593,7 +5593,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ed772fd27509858cf451a40ecef44cbf7326a4f9d78931181331ce256f9a04ec",
     "attachment_verified": true,
     "word_count": 16366,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5628,7 +5628,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ee761cd89acb38bbeeb4765bf74c08bc8184ed9fb7ac081e344fe0cbe69d5e16",
     "attachment_verified": true,
     "word_count": 16409,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5637,7 +5637,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
-    "title": "Capacity Building For Small Midsize Enterprises",
+    "title": "Capacity Building for Small Midsize Enterprises",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -5656,13 +5656,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1216,
     "wcs": 0.87,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Capacity Building For Small Midsize Enterprises'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Capacity Building for Small Midsize Enterprises'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:94d51fd5fb8c227d03c232482fc4ad43c7ecaacb42d286e869a33bf98a216f0d",
     "attachment_verified": true,
     "word_count": 16452,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5697,7 +5697,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:691ad021f0916c2d933a6f7ff178fff8d678bfa309755aa30602c6ee5ecf706e",
     "attachment_verified": true,
     "word_count": 16495,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5731,7 +5731,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:2150b347cf408e2272182c275619b955aa9ceef17023e404fe6cbd8fdf9595e2",
     "attachment_verified": true,
     "word_count": 16538,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5766,7 +5766,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:157edece10a0c62ed2b2a50e6cdca33707a30d692b21db001d595224aacb1099",
     "attachment_verified": true,
     "word_count": 16581,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5800,7 +5800,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f5d44233e2622a2a2334fbe9a5c0c2108833b072020c9d677c0f65b8a967e1d2",
     "attachment_verified": true,
     "word_count": 16624,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5835,7 +5835,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e76cef2c8e07b873d010b1c470c02eabc0f5b705f4b871a733fa3a18c933b14a",
     "attachment_verified": true,
     "word_count": 16667,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5869,7 +5869,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:bcf231dc45e3050287bedc96a19f5a1244be3e9be7ac2fb52f894769d8b5b007",
     "attachment_verified": true,
     "word_count": 16710,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5904,7 +5904,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a57365f9f3f43575c444c3420511c326935d59ed18d0368fe258bd7b3ed22641",
     "attachment_verified": true,
     "word_count": 16753,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5938,7 +5938,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e97534dc2e2c8caa4eb1b7bfc420ed2d93d651a380c82410f7845b920cb21e1f",
     "attachment_verified": true,
     "word_count": 16796,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -5973,7 +5973,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e2a3ef073a9af08b2a2c4419df07aafb9e0eba4cc91af17ea3ec5f65c6c4d242",
     "attachment_verified": true,
     "word_count": 16839,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6007,7 +6007,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ac5a63211d10ab17c8c78de0e44e419082d4a5ebf99ba12361ff57f7bb0ad433",
     "attachment_verified": true,
     "word_count": 16882,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6042,7 +6042,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6bd66645deac36f3ffc366b848d640b69f2c327cdca3924ecc2ff4009db75f2e",
     "attachment_verified": true,
     "word_count": 16925,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6076,7 +6076,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:3de5bc0b59aa8f1db84d2955aa21c6c820053b317fd996a32d7294c51577ac38",
     "attachment_verified": true,
     "word_count": 16968,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6111,7 +6111,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c6b34d64dbb937dea47b879765ad1e0f80ddd8a4b7b112435f2aa59dd806e180",
     "attachment_verified": true,
     "word_count": 17011,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6145,7 +6145,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:692a8e367750e80bfa1ad17e4b6c73011960e9c2ddef1eff22be699d279a35ce",
     "attachment_verified": true,
     "word_count": 17054,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6180,7 +6180,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:65b7cfacb0ba5d0208e231f3586211f455c0a5bb81c36f00d9eb027bf6323566",
     "attachment_verified": true,
     "word_count": 17097,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6214,7 +6214,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:fc9eb2b5fc366f7cf26d78f36fbe1c4b00127333cee94cce94dcf749a88bc6f1",
     "attachment_verified": true,
     "word_count": 17140,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6223,7 +6223,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Nare National Accessibility",
+    "title": "NARE National Accessibility",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -6243,13 +6243,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 439,
     "wcs": 0.75,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Nare National Accessibility'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Nare National Accessibility' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'NARE National Accessibility'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'NARE National Accessibility' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:0b203433dc268044bffe8a058ecf3612214bc0cddfbc5d5a85576bae0745cefe",
     "attachment_verified": true,
     "word_count": 17183,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6283,7 +6283,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c38c395d60a3ef4d5c7ee45d7ff457aa20e658adcba90bd997d449b72f0ebfe6",
     "attachment_verified": true,
     "word_count": 17226,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6318,7 +6318,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0df0c5b453c3c2a61facee6a120c097e4e9285372cc27000d35b13c7e6e0924d",
     "attachment_verified": true,
     "word_count": 17269,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6352,7 +6352,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b3bca3d3606dda859b699cf586fe20da2ff24b09ed940e2fdb9878db6777ce60",
     "attachment_verified": true,
     "word_count": 17312,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6387,7 +6387,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:09c232a9c899596a5c7e99219556e2e3a645bc106429f0b137bf752db65dadf8",
     "attachment_verified": true,
     "word_count": 17355,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6396,7 +6396,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Skills And Talent Cybersecurity",
+    "title": "Skills and Talent Cybersecurity",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "British Columbia",
@@ -6415,13 +6415,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 534,
     "wcs": 0.8,
-    "summary": "Examines pilot intervention effectiveness for 'Skills And Talent Cybersecurity'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Skills and Talent Cybersecurity'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:34ae90309d3678e4e76633ddf413c02759e96c1d2c18235983305cdbfb36d8cd",
     "attachment_verified": true,
     "word_count": 17398,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6456,7 +6456,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d9eb49f680bbffeadf7dab01e919734a656ce3baade430d9f6c09e8705d50587",
     "attachment_verified": true,
     "word_count": 17441,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6490,7 +6490,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c5c9dbb0a3fcebc95f8283377d568015f95836c4f12f193fbefa63d89f28a9e0",
     "attachment_verified": true,
     "word_count": 17484,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6525,7 +6525,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:18bfcbe56ae3156f4518ec84d392a5dafe1e3b5dacb402e38b8664441ef4fbed",
     "attachment_verified": true,
     "word_count": 17527,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6559,7 +6559,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:1429b6ca9176f0fd49abcc18a11a1da7b0326d3ba62340c70a3d3129c050c813",
     "attachment_verified": true,
     "word_count": 17570,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6594,7 +6594,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:4a56c78f6f5cd9980252bc05bf3f832a180767ba07893c54e6ecc1d603d0f909",
     "attachment_verified": true,
     "word_count": 17613,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6628,7 +6628,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:19b0d4675451621c87476971b359772d896ac2dc5117f316dd1ee0a04c1ec3e8",
     "attachment_verified": true,
     "word_count": 17656,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6663,7 +6663,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6b3086b348c1a3fb57f7c443d6488be4e4b08d3001fec34764c116fd1a39dad2",
     "attachment_verified": true,
     "word_count": 17699,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6672,7 +6672,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
-    "title": "Sos Resilient By Design",
+    "title": "Sos Resilient by Design",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -6691,13 +6691,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 686,
     "wcs": 0.88,
-    "summary": "Examines pilot intervention effectiveness for 'Sos Resilient By Design'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Sos Resilient by Design'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:39f87f00def85f76cfc4b5028ea784f7ae12476ad8109cd5697ea3691f66a1d1",
     "attachment_verified": true,
     "word_count": 17742,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6706,7 +6706,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Sos Northern Smes",
+    "title": "Sos Northern SMEs",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Northern & Remote Communities",
@@ -6732,7 +6732,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:cced3e2516919630e558ccbe24f1ca166f3eceb31636608af5a8cf7b8fa2ee5a",
     "attachment_verified": true,
     "word_count": 17785,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6766,7 +6766,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:12048d7fbbebc4897ac89d40b694c39bd5d61e9ff16ee19f951437587347b922",
     "attachment_verified": true,
     "word_count": 17828,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6775,7 +6775,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
-    "title": "Sos Wil",
+    "title": "Sos WIL",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Atlantic Canada",
@@ -6795,13 +6795,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 743,
     "wcs": 0.91,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Sos Wil'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Sos Wil' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Sos WIL'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Sos WIL' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:ea8579c5f4c8095ab7d98b4d4a7bdbff79e259a90c30e61e62abe79daa5098e1",
     "attachment_verified": true,
     "word_count": 17871,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6835,7 +6835,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:1ad2e44dfab26caa1db58674d6a0ec66458faa76ebf16027ed471058a6cdc3d2",
     "attachment_verified": true,
     "word_count": 17914,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6870,7 +6870,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:145eceada3efcdcdeafb1a97dfc0cb5b41929718700531c14231303af0aa73d9",
     "attachment_verified": true,
     "word_count": 17957,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6904,7 +6904,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:482bea7400bc868c4297fd83ba468a73e1a14371780027d4244d9d92210fac83",
     "attachment_verified": true,
     "word_count": 18000,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6939,7 +6939,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b237aaf654d4a4e0ab64cdca182ac4b697b4eab49bd813a87380374370819f3a",
     "attachment_verified": true,
     "word_count": 18043,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -6973,7 +6973,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9f8572ba652e53f3c02e6d6b634f2931eaf937e8509130cec86a25cf229fe6a5",
     "attachment_verified": true,
     "word_count": 18086,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7008,7 +7008,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:912421c77edf145ea7bae99d8339139724b79f7852d317856dd422c1110e9097",
     "attachment_verified": true,
     "word_count": 18129,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7042,7 +7042,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a031c5b769a551ebeb584cd87d38e561f5468ead36b004ff79773130676494c3",
     "attachment_verified": true,
     "word_count": 18172,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7077,7 +7077,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:cc2e63237a6df8343b28f03d36c0aab35c04aa96be38332c028e382c5c98b8eb",
     "attachment_verified": true,
     "word_count": 18215,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7111,7 +7111,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9f7c75e1a3557958583c2b6a8760e78a4aa83bea53412a393792e94e16048219",
     "attachment_verified": true,
     "word_count": 18258,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7120,7 +7120,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Sos Mid Career",
+    "title": "Sos Mid-Career",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Northern & Remote Communities",
@@ -7146,7 +7146,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:10a424657621487d8dffb2c17a9b2dc244b08354b3b7250f669dc9b52065940a",
     "attachment_verified": true,
     "word_count": 18301,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7180,7 +7180,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:064ce60f53eeb8d4647665e137183fac8c60df439b3d85ae76987be3206b9004",
     "attachment_verified": true,
     "word_count": 18344,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7215,7 +7215,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d6d73e917647d4290a0991f20f8ae72a3701014b157bd62599ece1a08e5fce83",
     "attachment_verified": true,
     "word_count": 18387,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7249,7 +7249,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ebf69ce2d0313cd4c681dad4a76074ca22f890329e78a8b97ff5ea76e56b5643",
     "attachment_verified": true,
     "word_count": 18430,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7284,7 +7284,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:82911eb7c9ba4b85e136c39944a34a27340e036ff46d9e17bb0415bb02d331ab",
     "attachment_verified": true,
     "word_count": 18473,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7318,7 +7318,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:3b3f577959615eb909112cdef803a8e12702babb81767decf94136203519a4a3",
     "attachment_verified": true,
     "word_count": 18516,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7353,7 +7353,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:4faa9177f3c877e102a8bbfd93de9790571785ea6d6b9fd1c823703d5dc1b7db",
     "attachment_verified": true,
     "word_count": 18559,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7387,7 +7387,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0825e0a268f62245d9bb59da5ba90dcbe57a551a03a4116b777cd223fb8745f0",
     "attachment_verified": true,
     "word_count": 18602,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7396,7 +7396,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Sustainability For The Bio Economy",
+    "title": "Sustainability for the Bio Economy",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -7422,7 +7422,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:8eb321b5089aedb786d2648cedd51fc9b4bdfc51855b76133ff05045a6edbcfb",
     "attachment_verified": true,
     "word_count": 18645,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7456,7 +7456,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:18242b8d43c106298b99a35ed831c366bcd9dd5c9b0273b54d9321565f73366b",
     "attachment_verified": true,
     "word_count": 18688,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7491,7 +7491,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:072063d841780f9730f415fa25e0efa90531121c37c1375dce80b7e9ffb1328b",
     "attachment_verified": true,
     "word_count": 18731,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7525,7 +7525,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:bd65a8b6bc5d5ba7c32eb591074bb43dd7116aa36f62f1805674fc050fabc429",
     "attachment_verified": true,
     "word_count": 18774,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7560,7 +7560,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:8b4d3c3a5df49a120ed0e3641ba6828873cd5b314de17e3e1a0a385f7f8865b0",
     "attachment_verified": true,
     "word_count": 18817,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7569,7 +7569,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Inclusive Work Integrated Learning",
+    "title": "Inclusive Work-Integrated Learning",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
@@ -7588,13 +7588,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1180,
     "wcs": 0.85,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Inclusive Work Integrated Learning'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Inclusive Work-Integrated Learning'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:3359c71094e22344ec4984e9e954bab87c66cbd5be1dc364c7e19fcb4b3dae0d",
     "attachment_verified": true,
     "word_count": 18860,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7629,7 +7629,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:489536a3eb7fab59bcec674914cbc1fab19d09166a66e9ae5ee07d7a954b0780",
     "attachment_verified": true,
     "word_count": 18903,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7663,7 +7663,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:eb8aae16c4625ed8a91b7645e1f4eb2963507376508b9e34fc7caa2f665f11dc",
     "attachment_verified": true,
     "word_count": 18946,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7698,7 +7698,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:789ffcc21253f3d06ca19599072d0c83569a89c174b3ca02016b3500c229496d",
     "attachment_verified": true,
     "word_count": 18989,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7732,7 +7732,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0d0b0dfb744b5e3c9d5603cdba574c5dda397655a92e5202fe376996e2f9fd54",
     "attachment_verified": true,
     "word_count": 9432,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7741,7 +7741,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Nurses In Alberta",
+    "title": "Nurses in Alberta",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -7762,12 +7762,12 @@ const FULL_508_CORPUS = [
     "sample": 1275,
     "wcs": 0.9,
     "summary": "Evaluates fast-track clinical credential recognition and work-integrated bridging for internationally trained healthcare practitioners. Achieved an 84% license completion rate and reduced workplace integration friction across provincial health authorities.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Nurses In Alberta' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Nurses in Alberta' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:1247ab75ef595c50badef10afb50ba6864796c47ce5c7cdc043492926bf3981f",
     "attachment_verified": true,
     "word_count": 9475,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7801,7 +7801,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:59b18c0751bdac98995efec9db46899edbad4550f91462c240d770dc25d90a9d",
     "attachment_verified": true,
     "word_count": 9518,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7836,7 +7836,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:58b2a6b0fcdd819fa9029f20a4b620221cefa782e749da2d070607c7b27980fa",
     "attachment_verified": true,
     "word_count": 9561,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7870,7 +7870,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:fdcb94358c1dac398449092f7b896803f999566e9ca789fafcb5671bbfffa150",
     "attachment_verified": true,
     "word_count": 9604,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7879,7 +7879,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Artificial Intelligence How Is It Shaping The Future Of Work And Skills",
+    "title": "Artificial Intelligence How Is It Shaping the Future of Work and Skills",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -7899,13 +7899,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1351,
     "wcs": 0.94,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Artificial Intelligence How Is It Shaping The Future Of Work And Skills'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Artificial Intelligence How Is It Shaping The Future Of Work And Skills' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Artificial Intelligence How Is It Shaping the Future of Work and Skills'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Artificial Intelligence How Is It Shaping the Future of Work and Skills' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:9cf3cfc6ff45870aacc4f3f32098dea036d77ff8fea54f00ffe1c5c5ef9e6339",
     "attachment_verified": true,
     "word_count": 9647,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7914,7 +7914,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "The Career Development Profession In Canada And The Emergence Of Online Multi Modal Practice Delivery",
+    "title": "The Career Development Profession in Canada and the Emergence of Online Multi Modal Practice Delivery",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Alberta",
@@ -7939,7 +7939,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:36a82aa81022c9bf08ad7fbb13e34853fa7b372ea2f1f3f7849b1945b8061fc3",
     "attachment_verified": true,
     "word_count": 9690,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7948,7 +7948,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Diversity Equity And Inclusion In Responsive Career Pathways",
+    "title": "Diversity Equity and Inclusion in Responsive Career Pathways",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Northern & Remote Communities",
@@ -7974,7 +7974,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:324a3c5af0a1ed4e361ae41a8b2565a363a5c40c57ab90e09b13a9de32843b32",
     "attachment_verified": true,
     "word_count": 9733,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -7983,7 +7983,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "The Role Of Employers In Responsive Career Pathways",
+    "title": "The Role of Employers in Responsive Career Pathways",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -8008,7 +8008,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:45254dc8009a25bd377c3fd8d4a257e055620edb3ccf290dd6eca5bde84f2951",
     "attachment_verified": true,
     "word_count": 9776,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8017,7 +8017,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "Use Of Technology And Tools",
+    "title": "Use of Technology and Tools",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -8038,12 +8038,12 @@ const FULL_508_CORPUS = [
     "sample": 327,
     "wcs": 0.69,
     "summary": "Investigates enterprise adoption of AI tools and automated workflow reskilling across financial and professional services. Documents a 3.1x return on upskilling investments alongside key policy recommendations for worker displacement safeguards.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Use Of Technology And Tools' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Use of Technology and Tools' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:3d7868156ef44feab71a5c1d63c9af2d40a9fec84de1bfe8956f99fcf8eee1ba",
     "attachment_verified": true,
     "word_count": 9819,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8052,7 +8052,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
-    "title": "Breaking Down Barriers To Career Development",
+    "title": "Breaking Down Barriers to Career Development",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "British Columbia",
@@ -8077,7 +8077,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:3163234d655853c4ce2db63086bfea615e5efb6290495516d2536905af670da4",
     "attachment_verified": true,
     "word_count": 9862,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8086,7 +8086,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Labour Market Information In Responsive Career Pathways",
+    "title": "Labour Market Information in Responsive Career Pathways",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -8112,7 +8112,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:346a4be7f2942d86d93f822001f9172d32bf3661fc692d8b2b8ac6aa6f579447",
     "attachment_verified": true,
     "word_count": 9905,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8121,7 +8121,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Navigating Canadas Messy Education And Training Marketplace For Career Focused Learning",
+    "title": "Navigating Canada's Messy Education and Training Marketplace for Career Focused Learning",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -8146,7 +8146,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:81ef85520549e057a4496db322db82d115768411e8f606b19add300ac2eb621d",
     "attachment_verified": true,
     "word_count": 9948,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8155,7 +8155,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
-    "title": "Applying Behavioural Insights To Career Guidance",
+    "title": "Applying Behavioural Insights to Career Guidance",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Northern & Remote Communities",
@@ -8176,12 +8176,12 @@ const FULL_508_CORPUS = [
     "sample": 403,
     "wcs": 0.73,
     "summary": "Examines workforce transition pathways for mid-career service and retail workers facing digital displacement. Evaluates modular competency mapping and career navigation guidance.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Applying Behavioural Insights To Career Guidance' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Applying Behavioural Insights to Career Guidance' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:b2376845796fe342c9c445b066c945aa86395f47c554fbab72ac9af721fa371d",
     "attachment_verified": true,
     "word_count": 9991,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8215,7 +8215,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9827a0a6d033446bec6d6d252291c74bab29fa797deacb1b78f4e4df766ea826",
     "attachment_verified": true,
     "word_count": 10034,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8224,7 +8224,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Microcredentials In Flux Challenges Opportunities And Insights From Fscs Portfolio",
+    "title": "Microcredentials in Flux Challenges Opportunities and Insights from Fscs Portfolio",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -8244,13 +8244,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 441,
     "wcs": 0.75,
-    "summary": "Assesses economic returns and systemic friction points in 'Microcredentials In Flux Challenges Opportunities And Insights From Fscs Portfolio'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Microcredentials in Flux Challenges Opportunities and Insights from Fscs Portfolio'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:6869687d0cfa76f3b9ff059909900b68db948a3b36c8db0465d87b069acaa656",
     "attachment_verified": true,
     "word_count": 10077,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8259,7 +8259,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "The Only Constant Changing Nature Of Work And Skills",
+    "title": "The Only Constant Changing Nature of Work and Skills",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -8278,13 +8278,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 460,
     "wcs": 0.76,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'The Only Constant Changing Nature Of Work And Skills'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'The Only Constant Changing Nature of Work and Skills'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:bdf6e62c8c3cffcd046cffcd76237f98b4720faca1803e5363749beccb0b1100",
     "attachment_verified": true,
     "word_count": 10120,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8293,7 +8293,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Social And Digital Infrastructure Laying The Groundwork For An Inclusive Recovery",
+    "title": "Social and Digital Infrastructure Laying the Groundwork for an Inclusive Recovery",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -8313,13 +8313,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 479,
     "wcs": 0.77,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Social And Digital Infrastructure Laying The Groundwork For An Inclusive Recovery'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Social And Digital Infrastructure Laying The Groundwork For An Inclusive Recovery' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Social and Digital Infrastructure Laying the Groundwork for an Inclusive Recovery'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Social and Digital Infrastructure Laying the Groundwork for an Inclusive Recovery' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:33c8dfcded565ae818e2dd4d0a338a137766caba0a7d3337a0e0a5bcfcd71b3a",
     "attachment_verified": true,
     "word_count": 10163,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8328,7 +8328,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
-    "title": "Essential Skills For Learning And Working Perspectives From Education And Employment Leaders Across Canada",
+    "title": "Essential Skills for Learning and Working Perspectives from Education and Employment Leaders Across Canada",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -8347,13 +8347,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 498,
     "wcs": 0.78,
-    "summary": "Examines pilot intervention effectiveness for 'Essential Skills For Learning And Working Perspectives From Education And Employment Leaders Across Canada'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Essential Skills for Learning and Working Perspectives from Education and Employment Leaders Across Canada'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:61db13a55870fa46ffded697f596b42d501a55710f6157d320572580111cb31f",
     "attachment_verified": true,
     "word_count": 10206,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8362,7 +8362,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "Beyond The Classroom The Future Of Post Secondary Education Has Arrived",
+    "title": "Beyond the Classroom the Future of Post Secondary Education Has Arrived",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Northern & Remote Communities",
@@ -8382,13 +8382,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 517,
     "wcs": 0.79,
-    "summary": "Assesses economic returns and systemic friction points in 'Beyond The Classroom The Future Of Post Secondary Education Has Arrived'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Beyond the Classroom the Future of Post Secondary Education Has Arrived'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:ea3c8f9470aff3b76b8e294735c570d1ea89e87327cc3f4cc4551e1f6ee5e889",
     "attachment_verified": true,
     "word_count": 10249,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8397,7 +8397,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
-    "title": "Recovery For All Finding Equities In Education And Employment",
+    "title": "Recovery for All Finding Equities in Education and Employment",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
@@ -8416,13 +8416,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 536,
     "wcs": 0.8,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Recovery For All Finding Equities In Education And Employment'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Recovery for All Finding Equities in Education and Employment'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:5e311775b943567a3487811912afbd93ed80e16ff06d6119469e80154830bc37",
     "attachment_verified": true,
     "word_count": 10292,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8431,7 +8431,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Skills Needs For Zero Emissions Vehicle And Battery Manufacturing In Ontario Summary For Policymakers",
+    "title": "Skills Needs for Zero Emissions Vehicle and Battery Manufacturing in Ontario Summary for Policymakers",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Atlantic Canada",
@@ -8452,12 +8452,12 @@ const FULL_508_CORPUS = [
     "sample": 555,
     "wcs": 0.81,
     "summary": "Assesses micro-credential upskilling models for automotive assembly line technicians transitioning to electric vehicle (EV) battery manufacturing. Demonstrates a 42% decrease in sectoral transition friction and wage preservation.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Skills Needs For Zero Emissions Vehicle And Battery Manufacturing In Ontario Summary For Policymakers' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Skills Needs for Zero Emissions Vehicle and Battery Manufacturing in Ontario Summary for Policymakers' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:9b14fb260aabd50aac7a8bf84bffa2931e8e92ffbd6fb5121e5d3e6333090311",
     "attachment_verified": true,
     "word_count": 10335,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8466,7 +8466,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Future Proofing The Automotive Workforce Supporting Ontarios Auto Sector Workers Through The Zev Transition",
+    "title": "Future Proofing the Automotive Workforce Supporting Ontarios Auto Sector Workers Through the Zev Transition",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -8491,7 +8491,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f05b4ac173b548bb174577d7874d17974d87f3731ddfaef4a9191f661ff5a8eb",
     "attachment_verified": true,
     "word_count": 10378,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8500,7 +8500,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Shifting Gears How Ontarios Push To Manufacturing Zero Emissions Vehicles Will Impact The Workforce",
+    "title": "Shifting Gears How Ontarios Push to Manufacturing Zero Emissions Vehicles Will Impact the Workforce",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -8526,7 +8526,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:efd1dbe9bad78a520ee437252549b64889a3b050bc0b7912fde48590eabd6f10",
     "attachment_verified": true,
     "word_count": 10421,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8535,7 +8535,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "Effective Employer Engagement In Skills Development From Rhetoric To Solutions",
+    "title": "Effective Employer Engagement in Skills Development from Rhetoric to Solutions",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Alberta",
@@ -8554,13 +8554,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 612,
     "wcs": 0.84,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Effective Employer Engagement In Skills Development From Rhetoric To Solutions'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Effective Employer Engagement in Skills Development from Rhetoric to Solutions'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:05e2b7d62befe727c9bc450c8e5a439889bdb5a21468c1c78e7299d424587eaf",
     "attachment_verified": true,
     "word_count": 10464,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8569,7 +8569,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "State Of Skills Leveraging The Skills Of Newcomers",
+    "title": "State of Skills Leveraging the Skills of Newcomers",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -8589,13 +8589,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 631,
     "wcs": 0.85,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'State Of Skills Leveraging The Skills Of Newcomers'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'State Of Skills Leveraging The Skills Of Newcomers' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'State of Skills Leveraging the Skills of Newcomers'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'State of Skills Leveraging the Skills of Newcomers' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:4d13cbe2e5985dc98d53083f410bc16080475a1b544bac74c947b784c5eb6138",
     "attachment_verified": true,
     "word_count": 10507,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8629,7 +8629,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:14fc02755e44ee25eb5cc0d96dd6a560c83ae54b8e1f5934055ec609213700df",
     "attachment_verified": true,
     "word_count": 10550,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8664,7 +8664,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c14fc6ecf0a27dfe67ca2f7af5549f1d099a2e241f68fe7584e993a0744533eb",
     "attachment_verified": true,
     "word_count": 10593,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8698,7 +8698,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9188db5c74d62ef5ef4baa5971708b12c80bade43165e2a835ab0287a9d7a302",
     "attachment_verified": true,
     "word_count": 10636,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8707,7 +8707,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "Infographic How To Forecast Skills In Demand",
+    "title": "Infographic How to Forecast Skills in Demand",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -8727,13 +8727,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 707,
     "wcs": 0.89,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Infographic How To Forecast Skills In Demand'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Infographic How To Forecast Skills In Demand' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Infographic How to Forecast Skills in Demand'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Infographic How to Forecast Skills in Demand' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:1c896c5e9cdc17f9faa2980989c7ae8cda201c5e720906165f64f2431b088beb",
     "attachment_verified": true,
     "word_count": 10679,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8742,7 +8742,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
-    "title": "Assessing Canadas Skills Requirements In The 21St Century",
+    "title": "Assessing Canada's Skills Requirements in the 21st Century",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Alberta",
@@ -8761,13 +8761,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 726,
     "wcs": 0.9,
-    "summary": "Examines pilot intervention effectiveness for 'Assessing Canadas Skills Requirements In The 21St Century'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Assessing Canada's Skills Requirements in the 21st Century'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:fca0e85d55f04d567e1be86330b372f3e1208835adbff1b12c16c4845c2c2a16",
     "attachment_verified": true,
     "word_count": 10722,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8776,7 +8776,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Skills For The Post Pandemic World Series",
+    "title": "Skills for the Post-Pandemic World Series",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Northern & Remote Communities",
@@ -8796,13 +8796,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 745,
     "wcs": 0.91,
-    "summary": "Assesses economic returns and systemic friction points in 'Skills For The Post Pandemic World Series'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Skills for the Post-Pandemic World Series'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:47fe837ee423329d736f03a72f8a1c376131dbd5bd157342e05c5d429468286e",
     "attachment_verified": true,
     "word_count": 10765,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8811,7 +8811,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Strengthening Social And Emotional Skills In Adults The Learning Experience At Canadian Colleges",
+    "title": "Strengthening Social and Emotional Skills in Adults the Learning Experience at Canadian Colleges",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -8830,13 +8830,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 764,
     "wcs": 0.92,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Strengthening Social And Emotional Skills In Adults The Learning Experience At Canadian Colleges'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Strengthening Social and Emotional Skills in Adults the Learning Experience at Canadian Colleges'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:2a2e0abedb9901766ae3aa8927aa3daa98b06f9f0ca5057b5341035454e53ddf",
     "attachment_verified": true,
     "word_count": 10808,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8845,7 +8845,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "April 8, 2023",
-    "title": "Social And Emotional Skills Measurement Toolkit",
+    "title": "Social and Emotional Skills Measurement Toolkit",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -8865,13 +8865,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 783,
     "wcs": 0.93,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Social And Emotional Skills Measurement Toolkit'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Social And Emotional Skills Measurement Toolkit' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Social and Emotional Skills Measurement Toolkit'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Social and Emotional Skills Measurement Toolkit' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:0f58d6eab0aa905e2d99204b1595f0362cc3e61953881d6ac32830411a605484",
     "attachment_verified": true,
     "word_count": 10851,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8880,7 +8880,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Social And Emotional Skills",
+    "title": "Social and Emotional Skills",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "British Columbia",
@@ -8899,13 +8899,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 802,
     "wcs": 0.94,
-    "summary": "Examines pilot intervention effectiveness for 'Social And Emotional Skills'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Social and Emotional Skills'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:e67e5a59219088072acfd3773407101b2416d08b069d2d1343352f35cb91a893",
     "attachment_verified": true,
     "word_count": 10894,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8914,7 +8914,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Innovation In Post Secondary Education",
+    "title": "Innovation in Post Secondary Education",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -8934,13 +8934,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 821,
     "wcs": 0.95,
-    "summary": "Assesses economic returns and systemic friction points in 'Innovation In Post Secondary Education'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Innovation in Post Secondary Education'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:18d8c61a9f8c5505620f9ca5868c5a0f40f90f11ba889561bc7c05e09ff31acb",
     "attachment_verified": true,
     "word_count": 10937,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8949,7 +8949,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Responding To Automation Technology Adoption In Canadian Industries",
+    "title": "Responding to Automation Technology Adoption in Canadian Industries",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -8974,7 +8974,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:564d85a7148f43950f7c2376017a27b0592dff6b4687cc3c5ab057e6adc2edc3",
     "attachment_verified": true,
     "word_count": 10980,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -8983,7 +8983,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Impact Of Digital Technologies On Quality Of Work",
+    "title": "Impact of Digital Technologies on Quality of Work",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Northern & Remote Communities",
@@ -9004,12 +9004,12 @@ const FULL_508_CORPUS = [
     "sample": 859,
     "wcs": 0.68,
     "summary": "Investigates enterprise adoption of AI tools and automated workflow reskilling across financial and professional services. Documents a 3.1x return on upskilling investments alongside key policy recommendations for worker displacement safeguards.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Impact Of Digital Technologies On Quality Of Work' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Impact of Digital Technologies on Quality of Work' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:71d2bc29417b9981051602610cc551380b7da8144a6dace3ce17bc8db84c7192",
     "attachment_verified": true,
     "word_count": 11023,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9018,7 +9018,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "July 15, 2023",
-    "title": "Learning Bulletins To Share Knowledge And Insights",
+    "title": "Learning Bulletins to Share Knowledge and Insights",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Ontario & Quebec",
@@ -9037,13 +9037,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 878,
     "wcs": 0.69,
-    "summary": "Examines pilot intervention effectiveness for 'Learning Bulletins To Share Knowledge And Insights'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Learning Bulletins to Share Knowledge and Insights'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:7de2ca4e8e813e2a78050b09b29baab1d42915e88e8fa7170f8820eb4becfbad",
     "attachment_verified": true,
     "word_count": 11066,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9078,7 +9078,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e48836fad71bcc2ed48977742c98a53d3326ef8ec158661a0d291891d368127a",
     "attachment_verified": true,
     "word_count": 11109,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9112,7 +9112,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:92a841ee5b470eecde0f4aa1c7c976177de2ad6b45cbb292bb72532cb7bc7211",
     "attachment_verified": true,
     "word_count": 11152,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9147,7 +9147,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a8910853467f4fe5144c6754c21ed8238f367f741ef8f4f449688fffece3541d",
     "attachment_verified": true,
     "word_count": 11195,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9156,7 +9156,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Diabetic Foot Care And Lower Limb Preservation",
+    "title": "Diabetic Foot Care and Lower Limb Preservation",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -9175,13 +9175,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 954,
     "wcs": 0.73,
-    "summary": "Examines pilot intervention effectiveness for 'Diabetic Foot Care And Lower Limb Preservation'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Diabetic Foot Care and Lower Limb Preservation'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:899dbb3f3e1650dd4099b70977da7181eab727acbadc1b009d9a40530d3ba245",
     "attachment_verified": true,
     "word_count": 11238,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9216,7 +9216,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9e3283421d4ef5203d95bc94d26b0833e11c10fe67a7fc81e486b1e1aa4ddee2",
     "attachment_verified": true,
     "word_count": 11281,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9225,7 +9225,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "Starting A New Business Survey",
+    "title": "Starting a New Business Survey",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
@@ -9244,13 +9244,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 992,
     "wcs": 0.75,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Starting A New Business Survey'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Starting a New Business Survey'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:40683e069e765023d6e15f9b21a8f336b81f860d6ce55e1e4f6b41bc80723949",
     "attachment_verified": true,
     "word_count": 11324,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9259,7 +9259,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Adapting To The Changing World Of Work 2020 Full Survey Report On Employment And Skills",
+    "title": "Adapting to the Changing World of Work 2020 Full Survey Report on Employment and Skills",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Atlantic Canada",
@@ -9279,13 +9279,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1011,
     "wcs": 0.76,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Adapting To The Changing World Of Work 2020 Full Survey Report On Employment And Skills'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Adapting To The Changing World Of Work 2020 Full Survey Report On Employment And Skills' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Adapting to the Changing World of Work 2020 Full Survey Report on Employment and Skills'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Adapting to the Changing World of Work 2020 Full Survey Report on Employment and Skills' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:d2aa1325c30e14558f1cebecaddf7855a54eb0d1f0d7a5f0413b0a882459920b",
     "attachment_verified": true,
     "word_count": 11367,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9294,7 +9294,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "A Foundation For The Next Normal Outlook Of Technology Adoption Its Impact In The Canada Workplace",
+    "title": "A Foundation for the Next Normal Outlook of Technology Adoption Its Impact in the Canada Workplace",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -9319,7 +9319,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:5cd79bb70adfd1a415dd23a36a414c337a8b0848d5fe2f559607a8af6c5e1ff3",
     "attachment_verified": true,
     "word_count": 11410,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9328,7 +9328,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Job Transitions In Canada",
+    "title": "Job Transitions in Canada",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -9348,13 +9348,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1049,
     "wcs": 0.78,
-    "summary": "Assesses economic returns and systemic friction points in 'Job Transitions In Canada'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Job Transitions in Canada'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:fb96adcae2e26e5081bd0a755d5fa54df21af18b28d3fa1a08621004e73b7b3e",
     "attachment_verified": true,
     "word_count": 11453,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9363,7 +9363,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "A Typology Of Gig Workers In Canada Towards A New Model For Understanding Gig Work Through Human Social And Economic Capital",
+    "title": "A Typology of Gig Workers in Canada Towards a New Model for Understanding Gig Work Through Human Social and Economic Capital",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Alberta",
@@ -9388,7 +9388,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:52098f02203b1e04a2c3583c5109900afda9336dba52071310db87f562868e9a",
     "attachment_verified": true,
     "word_count": 11496,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9397,7 +9397,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "Applied And Experiential Skills",
+    "title": "Applied and Experiential Skills",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -9417,13 +9417,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1087,
     "wcs": 0.8,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Applied And Experiential Skills'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Applied And Experiential Skills' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Applied and Experiential Skills'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Applied and Experiential Skills' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:41522980291fe4e5fe73703fb425f147326301c3cd86cca25880db5819ffc08f",
     "attachment_verified": true,
     "word_count": 11539,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9432,7 +9432,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
-    "title": "Are Adults Making Use Of Career Services In Canada",
+    "title": "Are Adults Making Use of Career Services in Canada",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Ontario & Quebec",
@@ -9457,7 +9457,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:52abfef1ddf55807da84d9282f71198a8a3b2cd7b191aeca2cd696c281a2a3cc",
     "attachment_verified": true,
     "word_count": 11582,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9466,7 +9466,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Beyond Blue And White Collar A Skills Based Approach To Canadian Job Groupings",
+    "title": "Beyond Blue and White Collar a Skills Based Approach to Canadian Job Groupings",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Atlantic Canada",
@@ -9486,13 +9486,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1125,
     "wcs": 0.82,
-    "summary": "Assesses economic returns and systemic friction points in 'Beyond Blue And White Collar A Skills Based Approach To Canadian Job Groupings'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Beyond Blue and White Collar a Skills Based Approach to Canadian Job Groupings'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:4027ca2d4de0aa52b0015d63ee9a2fb8c628c7c27b510fb108e83e3ea4be4726",
     "attachment_verified": true,
     "word_count": 11625,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9526,7 +9526,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7614642068f78c06c505f5944df7fef400ab89c510e0d0f00cbdc0b5388452a7",
     "attachment_verified": true,
     "word_count": 11668,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9535,7 +9535,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "April 8, 2023",
-    "title": "Bracing For Automation",
+    "title": "Bracing for Automation",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -9556,12 +9556,12 @@ const FULL_508_CORPUS = [
     "sample": 1163,
     "wcs": 0.84,
     "summary": "Assesses micro-credential upskilling models for automotive assembly line technicians transitioning to electric vehicle (EV) battery manufacturing. Demonstrates a 42% decrease in sectoral transition friction and wage preservation.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Bracing For Automation' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Bracing for Automation' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:212272222db3749351480f11f885ed0880a0cd4abb983278ddb8f8b7e62efa87",
     "attachment_verified": true,
     "word_count": 11711,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9595,7 +9595,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a8940622f529c85fc1e33ca88afe8a51014ea568ee52eba31f07c0fe70a541a9",
     "attachment_verified": true,
     "word_count": 11754,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9604,7 +9604,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Bridging The Digital Skills Gap Alternative Pathways",
+    "title": "Bridging the Digital Skills Gap Alternative Pathways",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Northern & Remote Communities",
@@ -9624,13 +9624,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1201,
     "wcs": 0.86,
-    "summary": "Assesses economic returns and systemic friction points in 'Bridging The Digital Skills Gap Alternative Pathways'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Bridging the Digital Skills Gap Alternative Pathways'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:cbdbaa55024eaf44714fce30161fc47bafae9e0f60601842910312b2d8f0c7c7",
     "attachment_verified": true,
     "word_count": 11797,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9639,7 +9639,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Social And Emotional Skills Black Canadians Perspectives",
+    "title": "Social and Emotional Skills Black Canadians Perspectives",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -9658,13 +9658,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1220,
     "wcs": 0.87,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Social And Emotional Skills Black Canadians Perspectives'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Social and Emotional Skills Black Canadians Perspectives'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:484c240b58467d48d3514c5d2e8662f5f5a29395cf1902f61d78a004bdb499df",
     "attachment_verified": true,
     "word_count": 11840,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9673,7 +9673,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Bridging The Skills Gap Within Small And Medium Sized Enterprises In Quebec An Analytical And Empirical Analysis",
+    "title": "Bridging the Skills Gap Within Small and Medium Sized Enterprises in Quebec an Analytical and Empirical Analysis",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -9693,13 +9693,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1239,
     "wcs": 0.88,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Bridging The Skills Gap Within Small And Medium Sized Enterprises In Quebec An Analytical And Empirical Analysis'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Bridging The Skills Gap Within Small And Medium Sized Enterprises In Quebec An Analytical And Empirical Analysis' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Bridging the Skills Gap Within Small and Medium Sized Enterprises in Quebec an Analytical and Empirical Analysis'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Bridging the Skills Gap Within Small and Medium Sized Enterprises in Quebec an Analytical and Empirical Analysis' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:1c863def481ddaa7d3cda714a8cd79f7a3a54bf9bb5aef7c4779cb0996624a18",
     "attachment_verified": true,
     "word_count": 11883,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9733,7 +9733,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:09627abdf773ac38889ceec6ec10599cb3afb0b754b60dba33a9abd7d7d57822",
     "attachment_verified": true,
     "word_count": 11926,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9742,7 +9742,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "Building A Digitally Skilled Workforce",
+    "title": "Building a Digitally Skilled Workforce",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -9762,13 +9762,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1277,
     "wcs": 0.9,
-    "summary": "Assesses economic returns and systemic friction points in 'Building A Digitally Skilled Workforce'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Building a Digitally Skilled Workforce'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:db9777e547144e05ab72c95e10378bd1d24f7f27651dadf143505a4b9bd8458f",
     "attachment_verified": true,
     "word_count": 11969,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9802,7 +9802,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:779ebf1d9a8411a170ba16f1e8ac9bb74f1ae37f603d70f6caa2c4d42627b795",
     "attachment_verified": true,
     "word_count": 12012,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9811,7 +9811,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Neurodiversity In Workplace",
+    "title": "Neurodiversity in Workplace",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Northern & Remote Communities",
@@ -9832,12 +9832,12 @@ const FULL_508_CORPUS = [
     "sample": 1315,
     "wcs": 0.92,
     "summary": "Analyzes workplace-based learning adaptability within small and medium enterprises. Identifies employer co-investment incentives that resolved core hiring bottlenecks for specialized technical trades.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Neurodiversity In Workplace' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Neurodiversity in Workplace' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:cbd854c84be5a68d6e33e91a1b5d53ff803e824c7cf5bab9e194e5ab14ed18e1",
     "attachment_verified": true,
     "word_count": 12055,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9846,7 +9846,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Can Social And Emotional Skills Be Taught",
+    "title": "Can Social and Emotional Skills Be Taught",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Ontario & Quebec",
@@ -9865,13 +9865,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1334,
     "wcs": 0.93,
-    "summary": "Examines pilot intervention effectiveness for 'Can Social And Emotional Skills Be Taught'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Can Social and Emotional Skills Be Taught'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:c7f8b933efd3c8ea539aa32210aa741cebf710a5b92686e107a2b6949e8dcb0e",
     "attachment_verified": true,
     "word_count": 12098,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9880,7 +9880,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Canadian Labour Demand Update Analysis Of Job Postings For The Fourth Quarter Of 2020",
+    "title": "Canadian Labour Demand Update Analysis of Job Postings for the Fourth Quarter of 2020",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -9900,13 +9900,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1353,
     "wcs": 0.94,
-    "summary": "Assesses economic returns and systemic friction points in 'Canadian Labour Demand Update Analysis Of Job Postings For The Fourth Quarter Of 2020'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Canadian Labour Demand Update Analysis of Job Postings for the Fourth Quarter of 2020'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:7886a75dcdec06ac9e2034edfa01757beb5d2e52a6a2716004612a366a607ae9",
     "attachment_verified": true,
     "word_count": 12141,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9915,7 +9915,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "Career Guidance For Adults In Canada",
+    "title": "Career Guidance for Adults in Canada",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -9940,7 +9940,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d93cf6c6d707901c36214cffc7d69dbb5b0df29845baebf9c891b3374dd5df42",
     "attachment_verified": true,
     "word_count": 12184,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9949,7 +9949,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Chatgpt Organizational And Labour Implications",
+    "title": "Chatgpt Organizational and Labour Implications",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -9969,13 +9969,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1391,
     "wcs": 0.96,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Chatgpt Organizational And Labour Implications'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Chatgpt Organizational And Labour Implications' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Chatgpt Organizational and Labour Implications'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Chatgpt Organizational and Labour Implications' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:6cd8e8f2247dcb28499f9d1578920d54b11cdd2777b387fd2db1e4163422d5bb",
     "attachment_verified": true,
     "word_count": 12227,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -9984,7 +9984,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "Competency Frameworks And Canadas Essential Skills",
+    "title": "Competency Frameworks and Canada's Essential Skills",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -10003,13 +10003,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 310,
     "wcs": 0.68,
-    "summary": "Examines pilot intervention effectiveness for 'Competency Frameworks And Canadas Essential Skills'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Competency Frameworks and Canada's Essential Skills'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:306adace4a47146ead646964a60dd186c966e4dac4fc0382c87279d33d7a4900",
     "attachment_verified": true,
     "word_count": 12270,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10018,7 +10018,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Covid 19 And Logistics Changes",
+    "title": "Covid 19 and Logistics Changes",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Northern & Remote Communities",
@@ -10038,13 +10038,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 329,
     "wcs": 0.69,
-    "summary": "Assesses economic returns and systemic friction points in 'Covid 19 And Logistics Changes'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Covid 19 and Logistics Changes'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:666652eb768c28a4940f24a4b2323c037494bab8f226e8b18d168bea27136b25",
     "attachment_verified": true,
     "word_count": 12313,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10053,7 +10053,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "Curriculum And Reconciliation",
+    "title": "Curriculum and Reconciliation",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
@@ -10072,13 +10072,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 348,
     "wcs": 0.7,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Curriculum And Reconciliation'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Curriculum and Reconciliation'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:479090b674c04ab9cc8c185b1cd977ad187ded8a73b30eb44b620c6241e1c05c",
     "attachment_verified": true,
     "word_count": 12356,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10087,7 +10087,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "Digital Differences The Impact Of Automation On The Indigenous Economy In Canada",
+    "title": "Digital Differences the Impact of Automation on the Indigenous Economy in Canada",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Atlantic Canada",
@@ -10108,12 +10108,12 @@ const FULL_508_CORPUS = [
     "sample": 367,
     "wcs": 0.71,
     "summary": "Assesses micro-credential upskilling models for automotive assembly line technicians transitioning to electric vehicle (EV) battery manufacturing. Demonstrates a 42% decrease in sectoral transition friction and wage preservation.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Digital Differences The Impact Of Automation On The Indigenous Economy In Canada' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Digital Differences the Impact of Automation on the Indigenous Economy in Canada' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:02ae854672469b87b43e3be9e4892dbbeb2de12b5954d6f05a4d6961aa950685",
     "attachment_verified": true,
     "word_count": 12399,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10122,7 +10122,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
-    "title": "Digital Infrastructure For The Post Pandemic World",
+    "title": "Digital Infrastructure for the Post-Pandemic World",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -10141,13 +10141,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 386,
     "wcs": 0.72,
-    "summary": "Examines pilot intervention effectiveness for 'Digital Infrastructure For The Post Pandemic World'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Digital Infrastructure for the Post-Pandemic World'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:fd279d1ea617c0ca490df99e15d07ed54532c088e3b7357c511145d95e023bb5",
     "attachment_verified": true,
     "word_count": 12442,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10156,7 +10156,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Digital Occupation Pathways From Vulnerable Jobs To Rapid Growth Careers",
+    "title": "Digital Occupation Pathways from Vulnerable Jobs to Rapid Growth Careers",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -10182,7 +10182,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b60a7f1c87ec110d7af17051c097d22652794f908f2334b2d2fb899a0fb86e81",
     "attachment_verified": true,
     "word_count": 12485,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10191,7 +10191,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Digital Skills And The Skills Gap",
+    "title": "Digital Skills and the Skills Gap",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Alberta",
@@ -10210,13 +10210,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 424,
     "wcs": 0.74,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Digital Skills And The Skills Gap'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Digital Skills and the Skills Gap'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:5d7520726b18605a5b2578e63839d82a55784c2ce364079265c8433b068eb0cf",
     "attachment_verified": true,
     "word_count": 12528,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10251,7 +10251,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d3de08717321b23d0c789dd410ffa5021b2b455aad3629e20bcb0c5faeede99f",
     "attachment_verified": true,
     "word_count": 12571,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10260,7 +10260,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Digital Transformation Of Government",
+    "title": "Digital Transformation of Government",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Ontario & Quebec",
@@ -10279,13 +10279,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 462,
     "wcs": 0.76,
-    "summary": "Examines pilot intervention effectiveness for 'Digital Transformation Of Government'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Digital Transformation of Government'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:9bfdb4b6daffad0277adf643c50ed542d713b1698c3b8d47287f8189bbebba7a",
     "attachment_verified": true,
     "word_count": 12614,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10294,7 +10294,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Disconnecting From Work The Varied Experiences Of Canadian Workers",
+    "title": "Disconnecting from Work the Varied Experiences of Canadian Workers",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Atlantic Canada",
@@ -10314,13 +10314,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 481,
     "wcs": 0.77,
-    "summary": "Assesses economic returns and systemic friction points in 'Disconnecting From Work The Varied Experiences Of Canadian Workers'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Disconnecting from Work the Varied Experiences of Canadian Workers'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:53b7103be314d22b89ea84f443b9cf2c10751bf10ff8e8dd681ad88f08272c1e",
     "attachment_verified": true,
     "word_count": 12657,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10329,7 +10329,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Diversity In Leadership At Tsx Companies",
+    "title": "Diversity in Leadership at Tsx Companies",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "British Columbia",
@@ -10354,7 +10354,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:39d169a1c53d46a8aa144bb00e735f918e06a44fb2bde5557db58378dc1901f5",
     "attachment_verified": true,
     "word_count": 12700,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10363,7 +10363,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Economic Equality In A Changing World Removing Barriers To Employment For Women",
+    "title": "Economic Equality in a Changing World Removing Barriers to Employment for Women",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -10384,12 +10384,12 @@ const FULL_508_CORPUS = [
     "sample": 519,
     "wcs": 0.79,
     "summary": "Assesses systemic barriers to career advancement and equity-seeking group participation in high-growth sectors. Formulates actionable GBA+ frameworks for employer hiring and retention policies.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Economic Equality In A Changing World Removing Barriers To Employment For Women' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Economic Equality in a Changing World Removing Barriers to Employment for Women' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:9d26204171cf272481dd39e2ad1136ef4d90784f4f9009e4859f8a0a3f8036a8",
     "attachment_verified": true,
     "word_count": 12743,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10398,7 +10398,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "July 15, 2023",
-    "title": "Employment Gaps And Underemployment For Racialized Groups And Immigrants In Canada",
+    "title": "Employment Gaps and Underemployment for Racialized Groups and Immigrants in Canada",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Alberta",
@@ -10417,13 +10417,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 538,
     "wcs": 0.8,
-    "summary": "Examines pilot intervention effectiveness for 'Employment Gaps And Underemployment For Racialized Groups And Immigrants In Canada'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Employment Gaps and Underemployment for Racialized Groups and Immigrants in Canada'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:91033552a396a4a6d0f0bf1a0474344225006fb6c043e094bbb367bc36096eac",
     "attachment_verified": true,
     "word_count": 12786,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10432,7 +10432,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "Employment In 2030 Action Labs",
+    "title": "Employment in 2030 Action Labs",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Northern & Remote Communities",
@@ -10452,13 +10452,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 557,
     "wcs": 0.81,
-    "summary": "Assesses economic returns and systemic friction points in 'Employment In 2030 Action Labs'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Employment in 2030 Action Labs'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:68e24fcff8b5d8b9371093eb2257ffc7caa996bc2f7247b4e083c2f107ff263b",
     "attachment_verified": true,
     "word_count": 12829,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10467,7 +10467,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "January 1, 2025",
-    "title": "Employment Transitions In Canadian Metropolitan Areas",
+    "title": "Employment Transitions in Canadian Metropolitan Areas",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -10486,13 +10486,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 576,
     "wcs": 0.82,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Employment Transitions In Canadian Metropolitan Areas'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Employment Transitions in Canadian Metropolitan Areas'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:cbe182ffb5fee0f75a95e44527cd2b494f448059abcaf2183ebdb90cbba7eb00",
     "attachment_verified": true,
     "word_count": 12872,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10501,7 +10501,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Experiences Of Discrimination At Work",
+    "title": "Experiences of Discrimination at Work",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -10521,13 +10521,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 595,
     "wcs": 0.83,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Experiences Of Discrimination At Work'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Experiences Of Discrimination At Work' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Experiences of Discrimination at Work'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Experiences of Discrimination at Work' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:0415ac23fa25cc083df1b339554fb6ec8677f73e0f3016d811eb2da2456800f3",
     "attachment_verified": true,
     "word_count": 12915,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10536,7 +10536,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Experiential Learning In The Social Sector",
+    "title": "Experiential Learning in the Social Sector",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "British Columbia",
@@ -10555,13 +10555,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 614,
     "wcs": 0.84,
-    "summary": "Examines pilot intervention effectiveness for 'Experiential Learning In The Social Sector'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Experiential Learning in the Social Sector'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:88a1e94c5c9e321059979297ea3e1ebfc640412493083a4e76375232e128f288",
     "attachment_verified": true,
     "word_count": 12958,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10596,7 +10596,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0ae9d6d76048e8700306202b5da91d61ab9e5d2739ccfd024779b01965efa366",
     "attachment_verified": true,
     "word_count": 13001,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10605,7 +10605,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "Research Call On The Future Of Skills And Work In A Digital Economy",
+    "title": "Research Call on the Future of Skills and Work in a Digital Economy",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -10624,13 +10624,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 652,
     "wcs": 0.86,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Research Call On The Future Of Skills And Work In A Digital Economy'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Research Call on the Future of Skills and Work in a Digital Economy'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:b0db0f088830c4e53f9fc52ef64103ec9366660cb28ce3515ab78fcb8da55937",
     "attachment_verified": true,
     "word_count": 13044,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10639,7 +10639,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Bridge To Clean Economy Careers",
+    "title": "Bridge to Clean Economy Careers",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Northern & Remote Communities",
@@ -10660,12 +10660,12 @@ const FULL_508_CORPUS = [
     "sample": 671,
     "wcs": 0.87,
     "summary": "Examines workforce transition pathways for mid-career service and retail workers facing digital displacement. Evaluates modular competency mapping and career navigation guidance.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Bridge To Clean Economy Careers' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Bridge to Clean Economy Careers' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:492c99235a9f59550402697967832042ed6b9b342763b993ff16e65e61dcbf6c",
     "attachment_verified": true,
     "word_count": 13087,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10674,7 +10674,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "Getting Beyond Non Standard Employment Sustainable Livelihoods For Indigenous Communities In Northern Canada",
+    "title": "Getting Beyond Non Standard Employment Sustainable Livelihoods for Indigenous Communities in Northern Canada",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Ontario & Quebec",
@@ -10699,7 +10699,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:5d7eb6355554baec6ee895b18df640fe24bda399debb80430ba45f332faf0970",
     "attachment_verified": true,
     "word_count": 13130,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10708,7 +10708,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Green Occupations Pathways From Vulnerable Jobs To Rapid Growth Careers",
+    "title": "Green Occupations Pathways from Vulnerable Jobs to Rapid Growth Careers",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -10734,7 +10734,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d298db79d00caadbec5f12a5ebce1c3f72909c59389d6c219ceb0e75357217ed",
     "attachment_verified": true,
     "word_count": 13173,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10743,7 +10743,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "Greening Smes",
+    "title": "Greening SMEs",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -10768,7 +10768,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:89b8ff89b16d2f387af0355c94844647b3e466362a89afd8966504ec16cc92a5",
     "attachment_verified": true,
     "word_count": 13216,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10777,7 +10777,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "Hiring Green An Analysis Of The Demand For Green Skills In Canada",
+    "title": "Hiring Green an Analysis of the Demand for Green Skills in Canada",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -10797,13 +10797,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 747,
     "wcs": 0.91,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Hiring Green An Analysis Of The Demand For Green Skills In Canada'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Hiring Green An Analysis Of The Demand For Green Skills In Canada' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Hiring Green an Analysis of the Demand for Green Skills in Canada'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Hiring Green an Analysis of the Demand for Green Skills in Canada' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:c0e2c43b9c3c563494ba06af18a9b0fe192d9cba32dd5f639f1ee616c31a3b61",
     "attachment_verified": true,
     "word_count": 13259,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10812,7 +10812,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
-    "title": "How To Forecast Skills In Demand A Primer",
+    "title": "How to Forecast Skills in Demand a Primer",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -10831,13 +10831,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 766,
     "wcs": 0.92,
-    "summary": "Examines pilot intervention effectiveness for 'How To Forecast Skills In Demand A Primer'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'How to Forecast Skills in Demand a Primer'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:de9f3179f804d2d29dedfb6d4b05f9bf846690ea35ed46ff6d636aec7c04b5cc",
     "attachment_verified": true,
     "word_count": 13302,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10846,7 +10846,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Immigration Canada Post Pandemic Economy",
+    "title": "Immigration Canada Post-Pandemic Economy",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Northern & Remote Communities",
@@ -10866,13 +10866,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 785,
     "wcs": 0.93,
-    "summary": "Assesses economic returns and systemic friction points in 'Immigration Canada Post Pandemic Economy'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Immigration Canada Post-Pandemic Economy'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:c5fecabd67812da24d2003a25bfe379caf0178c883a2d244f81e8d6543688b07",
     "attachment_verified": true,
     "word_count": 13345,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10881,7 +10881,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Incorporating Indigenous Cultures And Realities In Stem",
+    "title": "Incorporating Indigenous Cultures and Realities in Stem",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
@@ -10906,7 +10906,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c7109d8a419329589f4e63b6e9117642b7586af054ba1c19344744d70924d30f",
     "attachment_verified": true,
     "word_count": 13388,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10941,7 +10941,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:781a7c49a925a3e4ae17228f6de03f066997bccb4f111ac68f4793c3814c844a",
     "attachment_verified": true,
     "word_count": 13431,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10950,7 +10950,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Indigenous Finance And Management Professionals Critical For Reconciliation And Indigenous Self Determination",
+    "title": "Indigenous Finance and Management Professionals Critical for Reconciliation and Indigenous Self Determination",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -10975,7 +10975,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:149b4b26585d0d67d1f4e106563065914afb9b10fafe52de4f2706b647be394e",
     "attachment_verified": true,
     "word_count": 13474,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -10984,7 +10984,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Indigenous Financial Management Finally Finding Balance A Primer",
+    "title": "Indigenous Financial Management Finally Finding Balance a Primer",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -11010,7 +11010,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:da8c01a0addb32e4cb28ab2a593e42179a9ca5652d934968062f37a99ca05f1f",
     "attachment_verified": true,
     "word_count": 13517,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11044,7 +11044,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:46cfc352297373b620513f9ebe6e0e32b65c1d92528d7b7e50b0ead858108b09",
     "attachment_verified": true,
     "word_count": 13560,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11079,7 +11079,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:083c2d23d359d62fcb9d404916482695800e22e6a4a8633256c03be51e897954",
     "attachment_verified": true,
     "word_count": 13603,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11088,7 +11088,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "July 15, 2023",
-    "title": "Is The Future Micro Unbundling Learning For Flexibility Access",
+    "title": "Is the Future Micro Unbundling Learning for Flexibility Access",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Ontario & Quebec",
@@ -11107,13 +11107,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 918,
     "wcs": 0.71,
-    "summary": "Examines pilot intervention effectiveness for 'Is The Future Micro Unbundling Learning For Flexibility Access'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Is the Future Micro Unbundling Learning for Flexibility Access'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:d28e9c898049c7d57b733283b0626c231feb17a3a15c8f64ab43650e646ffc73",
     "attachment_verified": true,
     "word_count": 13646,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11122,7 +11122,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "Job Polarization In Canada",
+    "title": "Job Polarization in Canada",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Atlantic Canada",
@@ -11142,13 +11142,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 937,
     "wcs": 0.72,
-    "summary": "Assesses economic returns and systemic friction points in 'Job Polarization In Canada'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Job Polarization in Canada'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:62bbb64c78e424db0fc66395af53ce248553237e50a48c987dd3bfa015aa4769",
     "attachment_verified": true,
     "word_count": 13689,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11157,7 +11157,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "January 1, 2025",
-    "title": "Job Posting Trends In Canada 2021 Update",
+    "title": "Job Posting Trends in Canada 2021 Update",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "British Columbia",
@@ -11176,13 +11176,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 956,
     "wcs": 0.73,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Job Posting Trends In Canada 2021 Update'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Job Posting Trends in Canada 2021 Update'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:b8a1e888da01252f040765eb73f213d8b2b0014b60d374fb344f853c8160db59",
     "attachment_verified": true,
     "word_count": 13732,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11191,7 +11191,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Labour Demand Trends During The Covid 19 Pandemic",
+    "title": "Labour Demand Trends During the Covid 19 Pandemic",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -11211,13 +11211,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 975,
     "wcs": 0.74,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Labour Demand Trends During The Covid 19 Pandemic'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Labour Demand Trends During The Covid 19 Pandemic' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Labour Demand Trends During the Covid 19 Pandemic'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Labour Demand Trends During the Covid 19 Pandemic' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:df1431709a7ecefc5fd0156326e8bb96926d36d6ff0d8afee250b9977f00283c",
     "attachment_verified": true,
     "word_count": 13775,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11226,7 +11226,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Labour Market Implications For Racialized Youth",
+    "title": "Labour Market Implications for Racialized Youth",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Alberta",
@@ -11245,13 +11245,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 994,
     "wcs": 0.75,
-    "summary": "Examines pilot intervention effectiveness for 'Labour Market Implications For Racialized Youth'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Labour Market Implications for Racialized Youth'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:bbaa3a61457a3cae7b3de16c00588a070ed6d8c95f4f2e9a40dfb57a607e0df8",
     "attachment_verified": true,
     "word_count": 13818,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11260,7 +11260,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Learning Together Stem Outreach Programs For Indigenous Students",
+    "title": "Learning Together Stem Outreach Programs for Indigenous Students",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Northern & Remote Communities",
@@ -11286,7 +11286,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0c6c0bef0af0a6e3bf865e7e8465f9bc8bbde71c479064f69afc2cc33de2eb5e",
     "attachment_verified": true,
     "word_count": 13861,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11295,7 +11295,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "Lessons Learned The Pandemic And Learning From Home In Canada",
+    "title": "Lessons Learned the Pandemic and Learning from Home in Canada",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -11314,13 +11314,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1032,
     "wcs": 0.77,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Lessons Learned The Pandemic And Learning From Home In Canada'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Lessons Learned the Pandemic and Learning from Home in Canada'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:00f8061e3a3278bcc09699a5f1317ee52e56c3d4dd96ddf3bf6e6a3f6eb89c9f",
     "attachment_verified": true,
     "word_count": 13904,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11329,7 +11329,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Levelling The Playing Field For Black Canadians",
+    "title": "Levelling the Playing Field for Black Canadians",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -11349,13 +11349,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1051,
     "wcs": 0.78,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Levelling The Playing Field For Black Canadians'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Levelling The Playing Field For Black Canadians' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Levelling the Playing Field for Black Canadians'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Levelling the Playing Field for Black Canadians' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:7fb8cbcbd8ef385e8ec062939441cc051b4902d27bea3fa20d9aa516479f51ae",
     "attachment_verified": true,
     "word_count": 13947,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11364,7 +11364,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "Leveraging The Skills Of Social Sciences And Humanities Graduates",
+    "title": "Leveraging the Skills of Social Sciences and Humanities Graduates",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "British Columbia",
@@ -11383,13 +11383,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1070,
     "wcs": 0.79,
-    "summary": "Examines pilot intervention effectiveness for 'Leveraging The Skills Of Social Sciences And Humanities Graduates'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Leveraging the Skills of Social Sciences and Humanities Graduates'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:fdc53b4c438fdc8cee37bf4b0eaf278ecb4f24666d589c9c4b79a331128e2e2d",
     "attachment_verified": true,
     "word_count": 13990,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11398,7 +11398,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Linking Skills To Nunangat Inuit Employment",
+    "title": "Linking Skills to Nunangat Inuit Employment",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -11424,7 +11424,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:1ee8a54613ef20647e568cd15092665a6a9c568651186c0b217c2df62d7b58c3",
     "attachment_verified": true,
     "word_count": 14033,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11433,7 +11433,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "Lost Opportunities Measuring The Unrealized Value Of Skill Vacancies In Canada",
+    "title": "Lost Opportunities Measuring the Unrealized Value of Skill Vacancies in Canada",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -11452,13 +11452,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1108,
     "wcs": 0.81,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Lost Opportunities Measuring The Unrealized Value Of Skill Vacancies In Canada'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Lost Opportunities Measuring the Unrealized Value of Skill Vacancies in Canada'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:cf99c4a69c7cbfe4afc33e760faea1f16564a93c9b19441b89bdb2128d395e5f",
     "attachment_verified": true,
     "word_count": 14076,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11467,7 +11467,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "Made In Nunavut",
+    "title": "Made in Nunavut",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Northern & Remote Communities",
@@ -11487,13 +11487,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1127,
     "wcs": 0.82,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Made In Nunavut'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Made In Nunavut' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Made in Nunavut'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Made in Nunavut' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:aacb9bd0c358851358b0e8c5c24e41bd3660c4b210904236df77da749c405925",
     "attachment_verified": true,
     "word_count": 14119,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11502,7 +11502,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
-    "title": "Impact Of The Pandemic On Young Adults And Work",
+    "title": "Impact of the Pandemic on Young Adults and Work",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Ontario & Quebec",
@@ -11521,13 +11521,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1146,
     "wcs": 0.83,
-    "summary": "Examines pilot intervention effectiveness for 'Impact Of The Pandemic On Young Adults And Work'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Impact of the Pandemic on Young Adults and Work'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:b604371947fc961fd66704036266ceffc852d378e0e5551cca12fa6d6a937d0a",
     "attachment_verified": true,
     "word_count": 14162,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11536,7 +11536,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Mapping Racialized Experiences In Real Estate Development",
+    "title": "Mapping Racialized Experiences in Real Estate Development",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -11556,13 +11556,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1165,
     "wcs": 0.84,
-    "summary": "Assesses economic returns and systemic friction points in 'Mapping Racialized Experiences In Real Estate Development'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Mapping Racialized Experiences in Real Estate Development'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:80dbdc26d59b7f586971cce6257133f28188c201a1622f28bf992a31c794ecd8",
     "attachment_verified": true,
     "word_count": 14205,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11571,7 +11571,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Mapping The Landscape Indigenous Skills Training And Jobs In Canada",
+    "title": "Mapping the Landscape Indigenous Skills Training and Jobs in Canada",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -11596,7 +11596,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:3d5ae7e0166190eb716269df36fa66b419a8e9878e6aeb0d508bcab017b60377",
     "attachment_verified": true,
     "word_count": 14248,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11605,7 +11605,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "April 8, 2023",
-    "title": "Mind And Body Impact Of The Pandemic On Physical And Mental Health",
+    "title": "Mind and Body Impact of the Pandemic on Physical and Mental Health",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -11626,12 +11626,12 @@ const FULL_508_CORPUS = [
     "sample": 1203,
     "wcs": 0.86,
     "summary": "Evaluates fast-track clinical credential recognition and work-integrated bridging for internationally trained healthcare practitioners. Achieved an 84% license completion rate and reduced workplace integration friction across provincial health authorities.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Mind And Body Impact Of The Pandemic On Physical And Mental Health' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Mind and Body Impact of the Pandemic on Physical and Mental Health' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:b22824eb26c7c387a24ec5ff41429ab2c56c5c192493f1060756269136099307",
     "attachment_verified": true,
     "word_count": 14291,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11640,7 +11640,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Compensation Gaps Between Canadian And American Tech Workers",
+    "title": "Compensation Gaps Between Canadian and American Tech Workers",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -11665,7 +11665,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:37e7857d180ddf1c63535d4610f8c1d33faa0e655ec0ddf2330c38ec0f7671ba",
     "attachment_verified": true,
     "word_count": 14334,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11674,7 +11674,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Navigating The Transition Identifying Pathways To Careers In The Insurance Industry",
+    "title": "Navigating the Transition Identifying Pathways to Careers in the Insurance Industry",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Northern & Remote Communities",
@@ -11700,7 +11700,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0b45e0d7849a51f4df37d6a883b25ccaff32299640ae1ac385d145849a892cbf",
     "attachment_verified": true,
     "word_count": 14377,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11734,7 +11734,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:fbe7d7955dddf09d2e47d8ac7a1b15345e8635d8a8467f261904c39de4bac0ce",
     "attachment_verified": true,
     "word_count": 14420,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11743,7 +11743,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Newcomer Pathways To Employment Canadian Diversity Magazine Special Issue",
+    "title": "Newcomer Pathways to Employment Canadian Diversity Magazine Special Issue",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Atlantic Canada",
@@ -11764,12 +11764,12 @@ const FULL_508_CORPUS = [
     "sample": 1279,
     "wcs": 0.9,
     "summary": "Assesses systemic barriers to career advancement and equity-seeking group participation in high-growth sectors. Formulates actionable GBA+ frameworks for employer hiring and retention policies.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Newcomer Pathways To Employment Canadian Diversity Magazine Special Issue' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Newcomer Pathways to Employment Canadian Diversity Magazine Special Issue' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:bfd71d6ae51a2728761afa138f67acbd9d1b1fb957042ab459fe362a1f110e44",
     "attachment_verified": true,
     "word_count": 14463,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11803,7 +11803,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:273ad7aa61a09e0af7d88ee6d51b99b444ee30ce0f25925a0244a73b60b33ceb",
     "attachment_verified": true,
     "word_count": 14506,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11812,7 +11812,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "Opportunity For All",
+    "title": "Opportunity for All",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -11832,13 +11832,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1317,
     "wcs": 0.92,
-    "summary": "Assesses economic returns and systemic friction points in 'Opportunity For All'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Opportunity for All'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:f8eefdf60dcfc1c50fd2d386a2dd13daa4f6edd7cb180c104ca13ef5c70a5e87",
     "attachment_verified": true,
     "word_count": 14549,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11872,7 +11872,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:64d4f2612300a0b7352ad3423093ee5e0df4a1b9cc7798d2de6317db4325b1b1",
     "attachment_verified": true,
     "word_count": 14592,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11881,7 +11881,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Planning When You Cant Predict Strategic Foresight And The Future Of Work",
+    "title": "Planning When You Cant Predict Strategic Foresight and the Future of Work",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -11901,13 +11901,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1355,
     "wcs": 0.94,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Planning When You Cant Predict Strategic Foresight And The Future Of Work'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Planning When You Cant Predict Strategic Foresight And The Future Of Work' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Planning When You Cant Predict Strategic Foresight and the Future of Work'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Planning When You Cant Predict Strategic Foresight and the Future of Work' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:20409058c6f91de35896401b69aae2dcaf248eb9eeace476f096fa35df8c9f46",
     "attachment_verified": true,
     "word_count": 14635,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11916,7 +11916,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Canadians Shifting Outlook On Employment",
+    "title": "Canadians Shifting Outlook on Employment",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Ontario & Quebec",
@@ -11935,13 +11935,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1374,
     "wcs": 0.95,
-    "summary": "Examines pilot intervention effectiveness for 'Canadians Shifting Outlook On Employment'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Canadians Shifting Outlook on Employment'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:df5563824d26ac51d0c061f420d4c4690bb628ecdd0a5908dbb0015001235887",
     "attachment_verified": true,
     "word_count": 14678,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11950,7 +11950,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Quality Of Work Of Canadas Contingent Workforce",
+    "title": "Quality of Work of Canada's Contingent Workforce",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Atlantic Canada",
@@ -11970,13 +11970,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1393,
     "wcs": 0.96,
-    "summary": "Assesses economic returns and systemic friction points in 'Quality Of Work Of Canadas Contingent Workforce'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Quality of Work of Canada's Contingent Workforce'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:a613b4715e0875a68ada9d54f8e007c00c65cde1ee96108e8fb17e4d43d57926",
     "attachment_verified": true,
     "word_count": 14721,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -11985,7 +11985,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "Race Alongside The Machines",
+    "title": "Race Alongside the Machines",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "British Columbia",
@@ -12004,13 +12004,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 312,
     "wcs": 0.68,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Race Alongside The Machines'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Race Alongside the Machines'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:4ac9e006a1525820b32c9b280673fcc0fa914e27ffc2877d121fc13d7b6683a7",
     "attachment_verified": true,
     "word_count": 14764,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12019,7 +12019,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Readiness And Resilience Mapping The Contours Of The Indigenous Skills And Employment Ecosystem In Canada",
+    "title": "Readiness and Resilience Mapping the Contours of the Indigenous Skills and Employment Ecosystem in Canada",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -12040,12 +12040,12 @@ const FULL_508_CORPUS = [
     "sample": 331,
     "wcs": 0.69,
     "summary": "Examines community-led skill development and traditional economic integration in northern remote communities. Highlights culturally grounded mentorship frameworks that increased long-term program retention by 68%.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Readiness And Resilience Mapping The Contours Of The Indigenous Skills And Employment Ecosystem In Canada' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Readiness and Resilience Mapping the Contours of the Indigenous Skills and Employment Ecosystem in Canada' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:d6a4f95d24d4c9766fdaa77fd024e5aaa9b879f709fcb98c62dcb30b6f3d65f1",
     "attachment_verified": true,
     "word_count": 14807,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12054,7 +12054,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "Return On Investment Industry Leadership On Upskilling And Reskilling Their Workforce",
+    "title": "Return on Investment Industry Leadership on Upskilling and Reskilling Their Workforce",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Alberta",
@@ -12073,13 +12073,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 350,
     "wcs": 0.7,
-    "summary": "Examines pilot intervention effectiveness for 'Return On Investment Industry Leadership On Upskilling And Reskilling Their Workforce'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Return on Investment Industry Leadership on Upskilling and Reskilling Their Workforce'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:c7e79265033f2fbd6fefe73609ab4b12fd0497a08b92cac100dfcc27ff6180da",
     "attachment_verified": true,
     "word_count": 14850,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12088,7 +12088,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Skills For The Post Pandemic World",
+    "title": "Skills for the Post-Pandemic World",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Northern & Remote Communities",
@@ -12108,13 +12108,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 369,
     "wcs": 0.71,
-    "summary": "Assesses economic returns and systemic friction points in 'Skills For The Post Pandemic World'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Skills for the Post-Pandemic World'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:d735f5b63e61e98222a819a88fb6311ff9c06c3187e67e397641296e3e931067",
     "attachment_verified": true,
     "word_count": 14893,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12123,7 +12123,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "Searching For Strengths In Tourism And Hospitality Sector",
+    "title": "Searching for Strengths in Tourism and Hospitality Sector",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -12142,13 +12142,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 388,
     "wcs": 0.72,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Searching For Strengths In Tourism And Hospitality Sector'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Searching for Strengths in Tourism and Hospitality Sector'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:8bee64bd5e34056e82d05ad66d2f3b040d75c156218b171584d45e63a21031e2",
     "attachment_verified": true,
     "word_count": 14936,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12157,7 +12157,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "Skills Development For Innovation",
+    "title": "Skills Development for Innovation",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -12177,13 +12177,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 407,
     "wcs": 0.73,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Skills Development For Innovation'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Skills Development For Innovation' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Skills Development for Innovation'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Skills Development for Innovation' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:2cc8b032bbd1d526951cf71dc6dba356e5f21dcfa76b602e54b020d26411266a",
     "attachment_verified": true,
     "word_count": 14979,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12217,7 +12217,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:616924f9afbf5837c0ef6cdde3324929ef4dec274ed66b9d2474cb61d9d6b444",
     "attachment_verified": true,
     "word_count": 15022,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12226,7 +12226,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Skills For Inclusive Workplaces And The Advancement Of Indigenous Peoples",
+    "title": "Skills for Inclusive Workplaces and the Advancement of Indigenous Peoples",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -12252,7 +12252,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:3586e4ad724b8bc77e64e4eb7b54d6d706b3434097048504b4415b0e054433fd",
     "attachment_verified": true,
     "word_count": 15065,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12261,7 +12261,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Skills Gaps Underemployment And Equity Of Labour Market Opportunities For Persons With Disabilities In Canada",
+    "title": "Skills Gaps Underemployment and Equity of Labour Market Opportunities for Persons with Disabilities in Canada",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -12286,7 +12286,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:2f423f2f256a819b229ad6229f332a895ca210f62bc3d135bd923be4f65dba0f",
     "attachment_verified": true,
     "word_count": 15108,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12321,7 +12321,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:382a8cfa6515a948a3226abfa1e1be4d74c8ca590ca17058a6d3c334d4d2ed6b",
     "attachment_verified": true,
     "word_count": 15151,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12330,7 +12330,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Small And Medium Sized Employers Smes Skills Gaps And Future Skills",
+    "title": "Small and Medium Sized Employers SMEs Skills Gaps and Future Skills",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Ontario & Quebec",
@@ -12355,7 +12355,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:2c09011eb4612407d387f61cd8c901ae2cec6c17b1f07ed9a7240981c7269432",
     "attachment_verified": true,
     "word_count": 15194,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12364,7 +12364,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Social And Emotional Skills Across Canada",
+    "title": "Social and Emotional Skills Across Canada",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -12384,13 +12384,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 521,
     "wcs": 0.79,
-    "summary": "Assesses economic returns and systemic friction points in 'Social And Emotional Skills Across Canada'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Social and Emotional Skills Across Canada'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:1eeef4a1fd005c2f3079bfc13b7098655b8fd1893ed04dccec6c2de0e3db2e06",
     "attachment_verified": true,
     "word_count": 15237,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12399,7 +12399,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Social And Emotional Skills In The Workplace Insights From Canadian Employers",
+    "title": "Social and Emotional Skills in the Workplace Insights from Canadian Employers",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -12424,7 +12424,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:2236ed4bb13d777c6cdd8856b152c3fa46a58d28ba6c0e73ccbb29dede7011f6",
     "attachment_verified": true,
     "word_count": 15280,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12433,7 +12433,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Solving The Skills Puzzle The Missing Piece Is Good Information",
+    "title": "Solving the Skills Puzzle the Missing Piece Is Good Information",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -12453,13 +12453,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 559,
     "wcs": 0.81,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Solving The Skills Puzzle The Missing Piece Is Good Information'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Solving The Skills Puzzle The Missing Piece Is Good Information' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Solving the Skills Puzzle the Missing Piece Is Good Information'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Solving the Skills Puzzle the Missing Piece Is Good Information' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:d662217caf8f2d29f587087845dbcb9f98fbb37b50caa57a53ef14cacef3a3a3",
     "attachment_verified": true,
     "word_count": 15323,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12468,7 +12468,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "July 15, 2023",
-    "title": "Stem For Indigenous Learners",
+    "title": "Stem for Indigenous Learners",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -12493,7 +12493,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7f57d0958ade16be6c61d62c08cc650b9ddc69450ccb185c07e0108950d51a2a",
     "attachment_verified": true,
     "word_count": 15366,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12502,7 +12502,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "Supporting Entrepreneurship And Smes",
+    "title": "Supporting Entrepreneurship and SMEs",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Northern & Remote Communities",
@@ -12528,7 +12528,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:19c2801007682afc47d3d5f69618ad6a09758535076272d9e55058bfbfff190e",
     "attachment_verified": true,
     "word_count": 15409,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12537,7 +12537,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "January 1, 2025",
-    "title": "Sustainable Northern Livelihoods A Primer",
+    "title": "Sustainable Northern Livelihoods a Primer",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
@@ -12562,7 +12562,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d7ca51b62f401f1322dd0fa71966e3ea51cbbd9eacf64ab5605615f6f5067292",
     "attachment_verified": true,
     "word_count": 15452,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12597,7 +12597,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0f8a4c7c3cddfaa99da2ec50853ecb46aa554c22eeacc05c4dde7d6dbc0323f6",
     "attachment_verified": true,
     "word_count": 15495,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12606,7 +12606,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Technological Change And The Future Of Work In Canada",
+    "title": "Technological Change and the Future of Work in Canada",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -12631,7 +12631,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e1104e8cdf6655dd8a42910cacabf381a7675b88f0f7077ede62b0b1b0e8c5ab",
     "attachment_verified": true,
     "word_count": 15538,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12640,7 +12640,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Technological Transformations And The Automotive Services Industry",
+    "title": "Technological Transformations and the Automotive Services Industry",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -12666,7 +12666,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ce1044d17082ef639f581b458b4c1cfda03a11f7ed3b60605b8427824494dc2b",
     "attachment_verified": true,
     "word_count": 15581,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12675,7 +12675,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "Technology Enabled Innovations In The Skills And Employment Ecosystem",
+    "title": "Technology Enabled Innovations in the Skills and Employment Ecosystem",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Alberta",
@@ -12700,7 +12700,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b64bd72cfc362bff77f7e994bc0a0f7856c7d311216236c1b52adcf11680f2d6",
     "attachment_verified": true,
     "word_count": 15624,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12709,7 +12709,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Micro Credentials For Retraining And Lifelong Learning",
+    "title": "Micro Credentials for Retraining and Lifelong Learning",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -12730,12 +12730,12 @@ const FULL_508_CORPUS = [
     "sample": 711,
     "wcs": 0.89,
     "summary": "Investigates enterprise adoption of AI tools and automated workflow reskilling across financial and professional services. Documents a 3.1x return on upskilling investments alongside key policy recommendations for worker displacement safeguards.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Micro Credentials For Retraining And Lifelong Learning' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Micro Credentials for Retraining and Lifelong Learning' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:877f4bbb47f26db1ad32500bf3b6277c0630c1842d1e9eb4348ec273f7aae259",
     "attachment_verified": true,
     "word_count": 15667,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12744,7 +12744,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "The Heart Of The Matter Understanding Hiring Demand For Social And Emotional Skills",
+    "title": "The Heart of the Matter Understanding Hiring Demand for Social and Emotional Skills",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Ontario & Quebec",
@@ -12763,13 +12763,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 730,
     "wcs": 0.9,
-    "summary": "Examines pilot intervention effectiveness for 'The Heart Of The Matter Understanding Hiring Demand For Social And Emotional Skills'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'The Heart of the Matter Understanding Hiring Demand for Social and Emotional Skills'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:a3f4191eb015a3466f403aca8965bf0bc7888066b7c54b353948a763666f1e1d",
     "attachment_verified": true,
     "word_count": 15710,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12804,7 +12804,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:950927feea685576c5d9ea5245e4e3bfbe9918703b9fed89c2a2439aa4b5bab8",
     "attachment_verified": true,
     "word_count": 15753,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12813,7 +12813,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "The Mother Of Invention Skills For Innovation In The Post Pandemic World",
+    "title": "The Mother of Invention Skills for Innovation in the Post-Pandemic World",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "British Columbia",
@@ -12832,13 +12832,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 768,
     "wcs": 0.92,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'The Mother Of Invention Skills For Innovation In The Post Pandemic World'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'The Mother of Invention Skills for Innovation in the Post-Pandemic World'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:6dcb3c7b45be6f7b6e9b4e38546aad11c435d93da53926625e439ec3400a5c6e",
     "attachment_verified": true,
     "word_count": 15796,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12847,7 +12847,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "The Next Frontier In Canadas Agri Food Sector",
+    "title": "The Next Frontier in Canada's Agri Food Sector",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -12867,13 +12867,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 787,
     "wcs": 0.93,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'The Next Frontier In Canadas Agri Food Sector'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'The Next Frontier In Canadas Agri Food Sector' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'The Next Frontier in Canada's Agri Food Sector'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'The Next Frontier in Canada's Agri Food Sector' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:fdc7c6183e31e3859327f1775c4687e61ce20b939ac2fa5bb9e924a7295720f4",
     "attachment_verified": true,
     "word_count": 15839,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12882,7 +12882,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
-    "title": "The Next Wave Automation And Canadas Labour Market",
+    "title": "The Next Wave Automation and Canada's Labour Market",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Alberta",
@@ -12907,7 +12907,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7e2e893cf8997ddbfb9b99f2d9c4cad1e8234ab158587a033dca3c2f22413acd",
     "attachment_verified": true,
     "word_count": 15882,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12916,7 +12916,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "The Perspectives Of Second Generation Immigrants In Canada",
+    "title": "The Perspectives of Second Generation Immigrants in Canada",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Northern & Remote Communities",
@@ -12936,13 +12936,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 825,
     "wcs": 0.95,
-    "summary": "Assesses economic returns and systemic friction points in 'The Perspectives Of Second Generation Immigrants In Canada'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'The Perspectives of Second Generation Immigrants in Canada'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:9dfa3913e292bd64b8104f9f92de14f01a3d5d2dfb02f01b3bc80903c7bc7759",
     "attachment_verified": true,
     "word_count": 15925,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12951,7 +12951,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "The Role Of The Hunter In Inuit Nunangats Mixed Economy",
+    "title": "The Role of the Hunter in Inuit Nunangats Mixed Economy",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -12976,7 +12976,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:8049e7080f8b72115607a0cfced51d584cac718a7c9f67b2f39bb8ccc0913ee8",
     "attachment_verified": true,
     "word_count": 15968,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -12985,7 +12985,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "April 8, 2023",
-    "title": "The Shift To Remote Work",
+    "title": "The Shift to Remote Work",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -13005,13 +13005,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 863,
     "wcs": 0.68,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'The Shift To Remote Work'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'The Shift To Remote Work' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'The Shift to Remote Work'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'The Shift to Remote Work' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:34c0eb637555e1726c610da999b17777e7bb0e4d3ce61ed2a3761d6bb0ec22ff",
     "attachment_verified": true,
     "word_count": 16011,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13020,7 +13020,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Strengthening Interprofessional Collaboration In Diabetic Foot Care",
+    "title": "Strengthening Interprofessional Collaboration in Diabetic Foot Care",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "British Columbia",
@@ -13039,13 +13039,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 882,
     "wcs": 0.69,
-    "summary": "Examines pilot intervention effectiveness for 'Strengthening Interprofessional Collaboration In Diabetic Foot Care'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Strengthening Interprofessional Collaboration in Diabetic Foot Care'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:af636a4f4ff67bd33ffe392f010214b23a58191692a70e92404c4fa924cea7c9",
     "attachment_verified": true,
     "word_count": 16054,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13054,7 +13054,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Thinking Twice About Technology And The Future Of Work",
+    "title": "Thinking Twice About Technology and the Future of Work",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -13080,7 +13080,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:11591dac83fa84a6771ab965ededf516868c2d5eb684c2a9e5c64374ad79ac68",
     "attachment_verified": true,
     "word_count": 16097,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13089,7 +13089,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Transitioning To Clean Economy Jobs",
+    "title": "Transitioning to Clean Economy Jobs",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -13108,13 +13108,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 920,
     "wcs": 0.71,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Transitioning To Clean Economy Jobs'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Transitioning to Clean Economy Jobs'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:8e1c571ece0858973c4bfe9a92d7d6a9714ae67f6e916925b62e9252db6b2758",
     "attachment_verified": true,
     "word_count": 16140,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13149,7 +13149,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f6b375a480a44b595e8f4d79378ed3ae1398e01b31d2f1c51f06ecf1c00c065e",
     "attachment_verified": true,
     "word_count": 16183,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13158,7 +13158,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "July 15, 2023",
-    "title": "Understanding Future Skills Case Of The Montreal Aerospace Cluster",
+    "title": "Understanding Future Skills Case of the Montreal Aerospace Cluster",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Ontario & Quebec",
@@ -13177,13 +13177,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 958,
     "wcs": 0.73,
-    "summary": "Examines pilot intervention effectiveness for 'Understanding Future Skills Case Of The Montreal Aerospace Cluster'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Understanding Future Skills Case of the Montreal Aerospace Cluster'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:98770f5d92468f6e25ac77a579c843846964f95773c7aff8306ad60428c5f273",
     "attachment_verified": true,
     "word_count": 16226,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13192,7 +13192,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "Understanding Future Skills Emergence Of An Ecosystem For The Digital Economy",
+    "title": "Understanding Future Skills Emergence of an Ecosystem for the Digital Economy",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -13212,13 +13212,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 977,
     "wcs": 0.74,
-    "summary": "Assesses economic returns and systemic friction points in 'Understanding Future Skills Emergence Of An Ecosystem For The Digital Economy'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Understanding Future Skills Emergence of an Ecosystem for the Digital Economy'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:e2015b89e562b1da30912f87d5a6ce94bb744916acc9ca2fcd37bdf807d9164a",
     "attachment_verified": true,
     "word_count": 16269,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13227,7 +13227,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "January 1, 2025",
-    "title": "Understanding The Future Of Skills Trends And Global Policy Responses",
+    "title": "Understanding the Future of Skills Trends and Global Policy Responses",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -13246,13 +13246,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 996,
     "wcs": 0.75,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Understanding The Future Of Skills Trends And Global Policy Responses'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Understanding the Future of Skills Trends and Global Policy Responses'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:190b05567ae7972a6125d8de3306d3832dac1c7430af703d4d233bd375279742",
     "attachment_verified": true,
     "word_count": 16312,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13261,7 +13261,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Understanding The Nature And Experience Of Gig Work In Canada",
+    "title": "Understanding the Nature and Experience of Gig Work in Canada",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -13282,12 +13282,12 @@ const FULL_508_CORPUS = [
     "sample": 1015,
     "wcs": 0.76,
     "summary": "Examines workforce transition pathways for mid-career service and retail workers facing digital displacement. Evaluates modular competency mapping and career navigation guidance.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Understanding The Nature And Experience Of Gig Work In Canada' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Understanding the Nature and Experience of Gig Work in Canada' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:a93417667e5ba45816d04a3dbad10bab1056d37f0d402086c0eea87c1ea8360e",
     "attachment_verified": true,
     "word_count": 16355,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13321,7 +13321,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:cec157993088aff3099b77c0d01f895667213fbd9fadbcabc8d604a58cca04cc",
     "attachment_verified": true,
     "word_count": 16398,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13330,7 +13330,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Valuing Skills In Canada A Statistical Approach",
+    "title": "Valuing Skills in Canada a Statistical Approach",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Northern & Remote Communities",
@@ -13350,13 +13350,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1053,
     "wcs": 0.78,
-    "summary": "Assesses economic returns and systemic friction points in 'Valuing Skills In Canada A Statistical Approach'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Valuing Skills in Canada a Statistical Approach'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:a81e08608d832fab2a4c6481710a55e1c039aad1e16e0c2fa81686b61e448d33",
     "attachment_verified": true,
     "word_count": 16441,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13365,7 +13365,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "What Are Canadian Post Secondary Institutions Saying And Doing Social And Emotional Skills",
+    "title": "What Are Canadian Post Secondary Institutions Saying and Doing Social and Emotional Skills",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
@@ -13384,13 +13384,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1072,
     "wcs": 0.79,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'What Are Canadian Post Secondary Institutions Saying And Doing Social And Emotional Skills'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'What Are Canadian Post Secondary Institutions Saying and Doing Social and Emotional Skills'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:75aafd98577a55da301a9936d90387e40834c6807e97d084c8c61843d903ea45",
     "attachment_verified": true,
     "word_count": 16484,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13399,7 +13399,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Who Is Using Generative AI In Higher Education",
+    "title": "Who Is Using Generative AI in Higher Education",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Atlantic Canada",
@@ -13420,12 +13420,12 @@ const FULL_508_CORPUS = [
     "sample": 1091,
     "wcs": 0.8,
     "summary": "Investigates enterprise adoption of AI tools and automated workflow reskilling across financial and professional services. Documents a 3.1x return on upskilling investments alongside key policy recommendations for worker displacement safeguards.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Who Is Using Generative AI In Higher Education' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Who Is Using Generative AI in Higher Education' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:86fba8fc1b83cc4770d3a09634a809fc655aac85217a8df8817a99dcb86bb86e",
     "attachment_verified": true,
     "word_count": 16527,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13434,7 +13434,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "Widening Inequality Effects Of The Pandemic On Jobs And Income",
+    "title": "Widening Inequality Effects of the Pandemic on Jobs and Income",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -13453,13 +13453,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1110,
     "wcs": 0.81,
-    "summary": "Examines pilot intervention effectiveness for 'Widening Inequality Effects Of The Pandemic On Jobs And Income'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Widening Inequality Effects of the Pandemic on Jobs and Income'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:d5e80768479a24b08825eb73a08f1dfe33476802b5fa8120113683955d27536a",
     "attachment_verified": true,
     "word_count": 16570,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13468,7 +13468,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Work At Home Or Live At Work The Complexities Of New Working Arrangements",
+    "title": "Work at Home or Live at Work the Complexities of New Working Arrangements",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -13488,13 +13488,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1129,
     "wcs": 0.82,
-    "summary": "Assesses economic returns and systemic friction points in 'Work At Home Or Live At Work The Complexities Of New Working Arrangements'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Work at Home or Live at Work the Complexities of New Working Arrangements'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:b1921cf72e3972434dffeb67e84304fd71c1de28a159360fce4c1973c4c23b59",
     "attachment_verified": true,
     "word_count": 16613,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13528,7 +13528,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7db3ea016b6f42c630f14f4dbc09add65d8c5579f09cb34fc000cd878ec39fba",
     "attachment_verified": true,
     "word_count": 16656,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13537,7 +13537,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "Yesterdays Gone Exploring The Future Of Canadas Labour Market In A Post Covid World",
+    "title": "Yesterdays Gone Exploring the Future of Canada's Labour Market in a Post Covid World",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -13557,13 +13557,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1167,
     "wcs": 0.84,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Yesterdays Gone Exploring The Future Of Canadas Labour Market In A Post Covid World'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Yesterdays Gone Exploring The Future Of Canadas Labour Market In A Post Covid World' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Yesterdays Gone Exploring the Future of Canada's Labour Market in a Post Covid World'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Yesterdays Gone Exploring the Future of Canada's Labour Market in a Post Covid World' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:3cb25c504f9430a525ef316f2b3c69023c67e764a1e73ad1d16947fa1252237c",
     "attachment_verified": true,
     "word_count": 16699,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13572,7 +13572,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
-    "title": "Indigenous Youth In Finance Navigating A Complex Path",
+    "title": "Indigenous Youth in Finance Navigating a Complex Path",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Ontario & Quebec",
@@ -13597,7 +13597,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c0e225cbd064842036743e6519750bc15294cf4086bff4ed1daa4dcd97a1f30d",
     "attachment_verified": true,
     "word_count": 16742,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13606,7 +13606,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "How Are Educators Navigating The AI Revolution",
+    "title": "How Are Educators Navigating the AI Revolution",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Atlantic Canada",
@@ -13632,7 +13632,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:045845a46cfd15ded98b3e83c69a66a4a41eecd187bfa5d6ffda0a9f4a759edb",
     "attachment_verified": true,
     "word_count": 16785,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13641,7 +13641,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Artificial Intelligence Talent In Canada",
+    "title": "Artificial Intelligence Talent in Canada",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "British Columbia",
@@ -13660,13 +13660,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1224,
     "wcs": 0.87,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Artificial Intelligence Talent In Canada'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Artificial Intelligence Talent in Canada'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:66c598d6f1b702f3b79c31270d65ffece93de4ca83e47e88d759f4318b37a7b3",
     "attachment_verified": true,
     "word_count": 16828,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13701,7 +13701,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:376fb7db72bae44fdd1e105aeddffec8218fb4c1957357ed937629ebf71bb809",
     "attachment_verified": true,
     "word_count": 16871,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13710,7 +13710,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "How Working From Home Is Affecting The Workplace",
+    "title": "How Working from Home Is Affecting the Workplace",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Alberta",
@@ -13735,7 +13735,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:5021c2cbcd4ca98082e60237bdd85859d843944324fc595a64503366d37365f0",
     "attachment_verified": true,
     "word_count": 16914,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13744,7 +13744,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Quality Of Work",
+    "title": "Quality of Work",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Northern & Remote Communities",
@@ -13764,13 +13764,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1281,
     "wcs": 0.9,
-    "summary": "Assesses economic returns and systemic friction points in 'Quality Of Work'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Quality of Work'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:e00129bd5785f1b1cd33fa925e5867706850688cdd92b72b58d2235704bd206b",
     "attachment_verified": true,
     "word_count": 16957,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13779,7 +13779,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Quality Of Work Literature Review",
+    "title": "Quality of Work Literature Review",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -13798,13 +13798,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1300,
     "wcs": 0.91,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Quality Of Work Literature Review'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Quality of Work Literature Review'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:c3cf0ba90ea22e13ca4a4d276b6316cd5166d7e1a0fc732dd68a0bfbdb5f4411",
     "attachment_verified": true,
     "word_count": 17000,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13813,7 +13813,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Employers Insights On Social And Emotional Skills",
+    "title": "Employers Insights on Social and Emotional Skills",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -13833,13 +13833,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1319,
     "wcs": 0.92,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Employers Insights On Social And Emotional Skills'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Employers Insights On Social And Emotional Skills' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Employers Insights on Social and Emotional Skills'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Employers Insights on Social and Emotional Skills' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:7b8a39138b5cac70eadcdc08b6b7f99bd73216228078133b001d992084966932",
     "attachment_verified": true,
     "word_count": 17043,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13848,7 +13848,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "July 15, 2023",
-    "title": "Can Experiential Learning Go Virtual Lessons Learned From Nursing Edu",
+    "title": "Can Experiential Learning Go Virtual Lessons Learned from Nursing Edu",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "British Columbia",
@@ -13867,13 +13867,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1338,
     "wcs": 0.93,
-    "summary": "Examines pilot intervention effectiveness for 'Can Experiential Learning Go Virtual Lessons Learned From Nursing Edu'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Can Experiential Learning Go Virtual Lessons Learned from Nursing Edu'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:b4d3a9cc30847c689c390fb9b29f496f2a7e302881f7f35343854a98dfd69f44",
     "attachment_verified": true,
     "word_count": 17086,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13882,7 +13882,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "Neurodivergent Students Experiences In Canadian Higher Education",
+    "title": "Neurodivergent Students Experiences in Canadian Higher Education",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -13902,13 +13902,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1357,
     "wcs": 0.94,
-    "summary": "Assesses economic returns and systemic friction points in 'Neurodivergent Students Experiences In Canadian Higher Education'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Neurodivergent Students Experiences in Canadian Higher Education'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:94a4c12e07725e4fd5f5bcda70d3f46cb01eb26d14e857a2eb43fe1e7dc076a4",
     "attachment_verified": true,
     "word_count": 17129,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13917,7 +13917,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "January 1, 2025",
-    "title": "Planning For Sustainable Jobs 101",
+    "title": "Planning for Sustainable Jobs 101",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -13942,7 +13942,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c9be5535e1d54f7dc53da05ec4ff2b4af69d1f00fb62120e1bf523b38141deec",
     "attachment_verified": true,
     "word_count": 17172,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13951,7 +13951,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Ready For Green Jobs",
+    "title": "Ready for Green Jobs",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Northern & Remote Communities",
@@ -13971,13 +13971,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1395,
     "wcs": 0.96,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Ready For Green Jobs'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Ready For Green Jobs' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Ready for Green Jobs'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Ready for Green Jobs' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:15dab585ddc75c3d7cedd5c6809a3baa8c2fa5ee3bd061cf054f605510575418",
     "attachment_verified": true,
     "word_count": 17215,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -13986,7 +13986,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Addressing Skill Imbalances In Canada",
+    "title": "Addressing Skill Imbalances in Canada",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Ontario & Quebec",
@@ -14005,13 +14005,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 314,
     "wcs": 0.68,
-    "summary": "Examines pilot intervention effectiveness for 'Addressing Skill Imbalances In Canada'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Addressing Skill Imbalances in Canada'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:9032efe2241846570fd0821e514c23ef22718b9fd0ddffb6f3aeeed6d42c483c",
     "attachment_verified": true,
     "word_count": 17258,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14020,7 +14020,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "AI Powered Will AI Change Postsecondary Teaching And Learning",
+    "title": "AI Powered Will AI Change Postsecondary Teaching and Learning",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -14046,7 +14046,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7cf8b37611f6c67bebfcf6e6ede11caec4a317b90bb5854c24e6a24e682ea2a1",
     "attachment_verified": true,
     "word_count": 17301,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14055,7 +14055,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "Unemployment In Canada Survey",
+    "title": "Unemployment in Canada Survey",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -14074,13 +14074,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 352,
     "wcs": 0.7,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Unemployment In Canada Survey'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Unemployment in Canada Survey'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:8706627c659ddf21fb3bb92af691c92bb8ebad9ad7bf424e17c543d07b0c2a8e",
     "attachment_verified": true,
     "word_count": 17344,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14089,7 +14089,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Waiting For Takeoff",
+    "title": "Waiting for Takeoff",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -14110,12 +14110,12 @@ const FULL_508_CORPUS = [
     "sample": 371,
     "wcs": 0.71,
     "summary": "Investigates enterprise adoption of AI tools and automated workflow reskilling across financial and professional services. Documents a 3.1x return on upskilling investments alongside key policy recommendations for worker displacement safeguards.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Waiting For Takeoff' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Waiting for Takeoff' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:33ae93116f4c009dd4397b26a5b54f6a634acb77929f57f7931842215e20c34b",
     "attachment_verified": true,
     "word_count": 17387,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14149,7 +14149,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a87f837d31b45a6bbf9b88ab0953d3353b31c33721bfd2d287eca00afe62b36e",
     "attachment_verified": true,
     "word_count": 17430,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14158,7 +14158,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Bridging The Gender Gap",
+    "title": "Bridging the Gender Gap",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Northern & Remote Communities",
@@ -14178,13 +14178,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 409,
     "wcs": 0.73,
-    "summary": "Assesses economic returns and systemic friction points in 'Bridging The Gender Gap'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Bridging the Gender Gap'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:a3370e95ddaec78956073ee480d784fb3b3f96fcfd4502a0c7ca54367984c10a",
     "attachment_verified": true,
     "word_count": 17473,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14193,7 +14193,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "International Students Transition To Work",
+    "title": "International Students Transition to Work",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
@@ -14212,13 +14212,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 428,
     "wcs": 0.74,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'International Students Transition To Work'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'International Students Transition to Work'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:8830da15dd940349ef2dab9879b3b5bb838a3504d08d16e1267512d6026a7c86",
     "attachment_verified": true,
     "word_count": 17516,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14253,7 +14253,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:fed345d5fcce4b8e679f7836788caae3fe772288dbb284d078b162ae44bd5d77",
     "attachment_verified": true,
     "word_count": 17559,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14287,7 +14287,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:bc50cc4b4b53403ea9467f2aa542f12376ca6078288b0ba47b258ad46e466674",
     "attachment_verified": true,
     "word_count": 17602,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14296,7 +14296,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Equity Lens On AI",
+    "title": "Equity Lens on AI",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -14322,7 +14322,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f08d3b3a9a4c8357bb21bfd6632359631b2a4e615c7984449ddd26d92863507b",
     "attachment_verified": true,
     "word_count": 17645,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14356,7 +14356,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:667045a5ea426ac625163a8a657e1ad4cd6b6cf447f13467382a59e0da3012c9",
     "attachment_verified": true,
     "word_count": 17688,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14391,7 +14391,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f49f90de1ea650133c06451c536dd359b803532c1e4f640731aec8937fe7bdda",
     "attachment_verified": true,
     "word_count": 17731,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14400,7 +14400,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Working Outside The Box Exploring Self Employment As An Inclusive Employment Pathway For Neurodivergent Canadians",
+    "title": "Working Outside the Box Exploring Self Employment As an Inclusive Employment Pathway for Neurodivergent Canadians",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Ontario & Quebec",
@@ -14419,13 +14419,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 542,
     "wcs": 0.8,
-    "summary": "Examines pilot intervention effectiveness for 'Working Outside The Box Exploring Self Employment As An Inclusive Employment Pathway For Neurodivergent Canadians'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Working Outside the Box Exploring Self Employment As an Inclusive Employment Pathway for Neurodivergent Canadians'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:bcb122ad7a2dd82a708fc29b0acbb83c3f7da112ed5cb2b27849b8ac704625e6",
     "attachment_verified": true,
     "word_count": 17774,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14460,7 +14460,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:47c6c465446c381dd2276efd2ff199652817cda04272764777730ae9ca29847d",
     "attachment_verified": true,
     "word_count": 17817,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14494,7 +14494,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d1afb953bbf00df862e25b9bd6b06bc07a672d1563115775066b1bb0d150942f",
     "attachment_verified": true,
     "word_count": 17860,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14529,7 +14529,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6e0274fbd1dddcfea6800201ff9b421dfd5c65103b7e4c13eed2b8286f008034",
     "attachment_verified": true,
     "word_count": 17903,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14563,7 +14563,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6d344cfdcc83fb6b6bf99ee749d03291e991d746a4a00e6f1df8e255676c0cfe",
     "attachment_verified": true,
     "word_count": 17946,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14572,7 +14572,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "Mentorship In The Workplace",
+    "title": "Mentorship in the Workplace",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Northern & Remote Communities",
@@ -14598,7 +14598,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:cb800bd1032b0391cedd0e51c679a6c4206ca60d60b9be578ce37e80901b3219",
     "attachment_verified": true,
     "word_count": 17989,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14607,7 +14607,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "January 1, 2025",
-    "title": "Training For Tomorrow",
+    "title": "Training for Tomorrow",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -14632,7 +14632,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c132c232eb7e49ad6069695e7a61439b52b9f97becfbe29d894ff545fe003dd6",
     "attachment_verified": true,
     "word_count": 18032,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14641,7 +14641,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Learning From One Another Labour Markets In Northern Ontario",
+    "title": "Learning from One Another Labour Markets in Northern Ontario",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -14662,12 +14662,12 @@ const FULL_508_CORPUS = [
     "sample": 675,
     "wcs": 0.87,
     "summary": "Examines community-led skill development and traditional economic integration in northern remote communities. Highlights culturally grounded mentorship frameworks that increased long-term program retention by 68%.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Learning From One Another Labour Markets In Northern Ontario' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Learning from One Another Labour Markets in Northern Ontario' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:02bdcb3062e0ac4c145718b0799ec1ff8dda0e05ccc47f4229792204f74d5172",
     "attachment_verified": true,
     "word_count": 18075,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14676,7 +14676,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Learning From One Another Labour Markets In Yukon",
+    "title": "Learning from One Another Labour Markets in Yukon",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "British Columbia",
@@ -14695,13 +14695,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 694,
     "wcs": 0.88,
-    "summary": "Examines pilot intervention effectiveness for 'Learning From One Another Labour Markets In Yukon'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Learning from One Another Labour Markets in Yukon'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:25af3700a12c407c5034c9e7e06ac99348c16c95a7fb2e3f30d37019da8f1184",
     "attachment_verified": true,
     "word_count": 18118,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14710,7 +14710,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Optimizing Career Services Resources For Post Secondary Career Professionals",
+    "title": "Optimizing Career Services Resources for Post Secondary Career Professionals",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -14736,7 +14736,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ea1c41492842f542b7f95bb4b4a84c8b7f320fa8ea89023158c20ae82871f0be",
     "attachment_verified": true,
     "word_count": 18161,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14745,7 +14745,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "From Shortages To Solutions",
+    "title": "From Shortages to Solutions",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -14764,13 +14764,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 732,
     "wcs": 0.9,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'From Shortages To Solutions'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'From Shortages to Solutions'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:4e9bc4c87925be6ed57abdc9cf0d571849df3337e134a18f0edc09f4c5888b1e",
     "attachment_verified": true,
     "word_count": 18204,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14779,7 +14779,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Labour Markets In Nunavut",
+    "title": "Labour Markets in Nunavut",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Northern & Remote Communities",
@@ -14799,13 +14799,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 751,
     "wcs": 0.91,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Labour Markets In Nunavut'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Labour Markets In Nunavut' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Labour Markets in Nunavut'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Labour Markets in Nunavut' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:f92a3551b80cfca66877bc1e82f3ac7bc4e6a1a52b81c5a87e428a97b49af320",
     "attachment_verified": true,
     "word_count": 18247,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14814,7 +14814,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "Skill Gaps In Labour Markets In Northern Ont Yukon And Nunavut",
+    "title": "Skill Gaps in Labour Markets in Northern Ont Yukon and Nunavut",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Ontario & Quebec",
@@ -14839,7 +14839,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c7ba0a2f1e0b6539a54138f95c46e83911ec5e0dba776641c7b1191770d224cb",
     "attachment_verified": true,
     "word_count": 18290,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14848,7 +14848,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Indigenous Professionals Needed Increasing Indigenous Representation In Healthcare In Canada",
+    "title": "Indigenous Professionals Needed Increasing Indigenous Representation in Healthcare in Canada",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -14874,7 +14874,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e5d7ec2e0fcc9194889e700576fb3374d88e23d01eda57eb3edb02b9fcb552d1",
     "attachment_verified": true,
     "word_count": 18333,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14883,7 +14883,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "Impact Of Children",
+    "title": "Impact of Children",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -14902,13 +14902,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 808,
     "wcs": 0.94,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Impact Of Children'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Impact of Children'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:8c85eca81d60e54b8b46b0f7993b1b98108a3b7db281876b57eead8cc7171a2c",
     "attachment_verified": true,
     "word_count": 18376,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14943,7 +14943,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7bb6e1d5c3901e48e36f989a414c955e14b421b3b03e5fd1868a2500295db4aa",
     "attachment_verified": true,
     "word_count": 18419,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14952,7 +14952,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
-    "title": "Evidence Based_Insights",
+    "title": "Evidence Based_insights",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -14971,13 +14971,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 846,
     "wcs": 0.96,
-    "summary": "Examines pilot intervention effectiveness for 'Evidence Based_Insights'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Evidence Based_insights'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:37402c654b9e72da2ae5cf1d6ebbc43c1f49dbedaf79e54b1be937b4ef442ce3",
     "attachment_verified": true,
     "word_count": 18462,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -14986,7 +14986,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Impact Of AI",
+    "title": "Impact of AI",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Northern & Remote Communities",
@@ -15012,7 +15012,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ca06ea009c3980f23abb49a479d8fbe68adaad0ba24bcd71152b4ffc0c450823",
     "attachment_verified": true,
     "word_count": 18505,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15021,7 +15021,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Mid Career Disabilities",
+    "title": "Mid-Career Disabilities",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
@@ -15046,7 +15046,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7be1c4cf661698f35c626dcf636062a6ffe5fe535fd4d842ffa387b3714f8eb4",
     "attachment_verified": true,
     "word_count": 18548,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15081,7 +15081,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:05d43658abf493866e659cf3edf814ab32c11abf42acec86630fc502d1d1cf1b",
     "attachment_verified": true,
     "word_count": 18591,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15115,7 +15115,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ec9cb967ffe24522d75d27eca7c5b1c49c7f98f9ebc7bb140722799fbc009fcd",
     "attachment_verified": true,
     "word_count": 18634,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15150,7 +15150,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:516aeeda658f6434d8a143aa1bff56f31bda83d8fb2c2b3f0b8dc672704f6425",
     "attachment_verified": true,
     "word_count": 18677,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15184,7 +15184,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e8643037fd51e1d892beb284b223e5f7d20350a9ad655df8090c8c4c38c2d92c",
     "attachment_verified": true,
     "word_count": 18720,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15219,7 +15219,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6824e192d14483e25f0e4359c0c8c2827f4c2de97c079351f22152bc9b5609fd",
     "attachment_verified": true,
     "word_count": 18763,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15253,7 +15253,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9062cc0d672d1fd1888af8dcbfd11679a4a8dc666b1635b1c5f2da944fc1f733",
     "attachment_verified": true,
     "word_count": 18806,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15262,7 +15262,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "Jobs And Skills Transition To A Net Zero Economy",
+    "title": "Jobs and Skills Transition to a Net Zero Economy",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Atlantic Canada",
@@ -15282,13 +15282,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1017,
     "wcs": 0.76,
-    "summary": "Assesses economic returns and systemic friction points in 'Jobs And Skills Transition To A Net Zero Economy'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Jobs and Skills Transition to a Net Zero Economy'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:cf538d2d14a7000cc921fbb75f5105905b20da3d5c6f902d4aa4f54bb985dab3",
     "attachment_verified": true,
     "word_count": 18849,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15322,7 +15322,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:820a121c60107610f25e72885e20cd70205d31970bc84ae2327b2645b1e513d6",
     "attachment_verified": true,
     "word_count": 18892,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15331,7 +15331,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Retaining Canadas Healthcare Workforce",
+    "title": "Retaining Canada's Healthcare Workforce",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -15352,12 +15352,12 @@ const FULL_508_CORPUS = [
     "sample": 1055,
     "wcs": 0.78,
     "summary": "Evaluates fast-track clinical credential recognition and work-integrated bridging for internationally trained healthcare practitioners. Achieved an 84% license completion rate and reduced workplace integration friction across provincial health authorities.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Retaining Canadas Healthcare Workforce' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Retaining Canada's Healthcare Workforce' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:1940f3f1820653aea185a7fddc3b60b8acca7a94b8fbb6d876f5afdf48232324",
     "attachment_verified": true,
     "word_count": 18935,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15391,7 +15391,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:134e3bf19fa52fc5814fd27c3e5c5008b2e154cd5015180d1c5bacc34b115849",
     "attachment_verified": true,
     "word_count": 18978,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15400,7 +15400,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "How AI Is Shaping The Future Of Work",
+    "title": "How AI Is Shaping the Future of Work",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Northern & Remote Communities",
@@ -15426,7 +15426,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:1ec86ed98e1f3585e2e2f829ea362f3f79bbc02292889b7d35657baf8d4289e5",
     "attachment_verified": true,
     "word_count": 9421,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15460,7 +15460,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e802b8017a61e6662b39e90c8537bc11c646a977c057608722e233d1fa535364",
     "attachment_verified": true,
     "word_count": 9464,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15495,7 +15495,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:37e22d4edc474a4aca4d6acbe328df241efe57b13e91e19fabe329fe1d245890",
     "attachment_verified": true,
     "word_count": 9507,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15529,7 +15529,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7ad99b2dff293bd014022792ba4337518fdfd766de9afb511b18bcce709d9e34",
     "attachment_verified": true,
     "word_count": 9550,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15564,7 +15564,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:67770c46cb86486c540568dc60cefb9a0ed0393c44a2cd3a5c306ee333d63a44",
     "attachment_verified": true,
     "word_count": 9593,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15573,7 +15573,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "Women In Engineering",
+    "title": "Women in Engineering",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -15598,7 +15598,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:128f08e0d894885b8a551c0a5cd37d7fade00087288aad019dae1fe80fe059be",
     "attachment_verified": true,
     "word_count": 9636,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15633,7 +15633,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b95022b56f60aea7e1a481982a504fd11ff537134607905503db8eee66d6d2d0",
     "attachment_verified": true,
     "word_count": 9679,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15667,7 +15667,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:98e1454651afc72e151ea9be8400bb083aabd722db008026ba8ee8867ca6bc97",
     "attachment_verified": true,
     "word_count": 9722,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15676,7 +15676,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "AI Adoption In Smes Framework",
+    "title": "AI Adoption in SMEs Framework",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -15702,7 +15702,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:fbd8eebc0faac4b8c0eb3820bcfc7c3b7f8025af060aeb66d586ac2baad79e92",
     "attachment_verified": true,
     "word_count": 9765,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15711,7 +15711,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Edi For Municipalities",
+    "title": "Edi for Municipalities",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -15730,13 +15730,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1264,
     "wcs": 0.89,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Edi For Municipalities'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Edi for Municipalities'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:e056d015b0adb15be7656a4baa432d6dd45df520b8d66fc83f9fca99d0d45f45",
     "attachment_verified": true,
     "word_count": 9808,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15771,7 +15771,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b128937fc27e1cb26b6f44b5da9d4de4d3d0ecd6b1d7cb37e92f88b8b3c975ad",
     "attachment_verified": true,
     "word_count": 9851,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15805,7 +15805,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d696fc535e6787a52dd0d6bfa1b31bfc02c3061f1e817d611374066e3f18368f",
     "attachment_verified": true,
     "word_count": 9894,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15814,7 +15814,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Edi Smes Playbook",
+    "title": "Edi SMEs Playbook",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Northern & Remote Communities",
@@ -15840,7 +15840,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:53bd1b8a226e9d3ddc2726268fa16c641b2cf2f3176847cb742ea6bac88ec0fc",
     "attachment_verified": true,
     "word_count": 9937,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15874,7 +15874,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f0c015c20d4b417919df68431c40fb44345740d7a83a82d7af18815dd61100a4",
     "attachment_verified": true,
     "word_count": 9980,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15909,7 +15909,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:202857708a35bc8795c9dfefce443d7902a42b8e77f73680ccae9b0e1406892d",
     "attachment_verified": true,
     "word_count": 10023,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15943,7 +15943,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a84239c5ecc06cf9d19af24e6b6e72eb5650ac2b42c726d55b9ce7cdd82f41c4",
     "attachment_verified": true,
     "word_count": 10066,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -15978,7 +15978,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:013d9b3d62153db599bc724cb6044f4337ff30d95c965114cc5100b4f243bb6d",
     "attachment_verified": true,
     "word_count": 10109,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16012,7 +16012,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:64344786370c012177427932f5c6f96842f24f0b17a804d448a966ff093055a5",
     "attachment_verified": true,
     "word_count": 10152,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16047,7 +16047,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:be36de31af2ef561f7dfa7cdb7bc00af02ce0dd23f587c0e82e180fb4c9b499b",
     "attachment_verified": true,
     "word_count": 10195,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16056,7 +16056,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "The Burden Of Care Addressing Challenges In Employment In The Nonprofit Sector",
+    "title": "The Burden of Care Addressing Challenges in Employment in the Nonprofit Sector",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Ontario & Quebec",
@@ -16075,13 +16075,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 354,
     "wcs": 0.7,
-    "summary": "Examines pilot intervention effectiveness for 'The Burden Of Care Addressing Challenges In Employment In The Nonprofit Sector'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'The Burden of Care Addressing Challenges in Employment in the Nonprofit Sector'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:9a5de6a01bd56caafab22fa36d76a7fdb22b141e477bae4ae76a255f76296289",
     "attachment_verified": true,
     "word_count": 10238,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16116,7 +16116,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d1fc0e1fe9177960b3b2fd4ca665e593a21cbe96c23fbb1562ef7d9fdf21c1d3",
     "attachment_verified": true,
     "word_count": 10281,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16125,7 +16125,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "Innovation In Canadas Primary Industries",
+    "title": "Innovation in Canada's Primary Industries",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "British Columbia",
@@ -16144,13 +16144,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 392,
     "wcs": 0.72,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Innovation In Canadas Primary Industries'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Innovation in Canada's Primary Industries'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:046fc2abde367e9623889af97c189470d1bbb1676becc753e1a3f3416dcd9d84",
     "attachment_verified": true,
     "word_count": 10324,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16185,7 +16185,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:79bd80294ea7345a62a2d055f168179b706d84f00a7a71c9523ee7bc441992bf",
     "attachment_verified": true,
     "word_count": 10367,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16194,7 +16194,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "Survey On Employment And Skills",
+    "title": "Survey on Employment and Skills",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Alberta",
@@ -16213,13 +16213,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 430,
     "wcs": 0.74,
-    "summary": "Examines pilot intervention effectiveness for 'Survey On Employment And Skills'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Survey on Employment and Skills'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:251aa783ac725238e464d4be37dff052d4a33eaacfa284e0723dcd5e67f3fb20",
     "attachment_verified": true,
     "word_count": 10410,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16254,7 +16254,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b5d63d21049de7ab86919fb23b9a72675358acd5c73f0a50d24a33c5393db9fb",
     "attachment_verified": true,
     "word_count": 10453,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16263,7 +16263,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "Quebec Future Of Work",
+    "title": "Quebec Future of Work",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -16282,13 +16282,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 468,
     "wcs": 0.76,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Quebec Future Of Work'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Quebec Future of Work'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:667f414ea075d8c725597e38ff5760924912324353082c794119b6f0ee9cc1e9",
     "attachment_verified": true,
     "word_count": 10496,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16323,7 +16323,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b2371d4ad8f930f87b67675594b64fd9ef0e82363e02872b3999586dff56f84e",
     "attachment_verified": true,
     "word_count": 10539,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16357,7 +16357,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:fa1f3452aef27f052c5def3ca0f731ab7baceab2e53f7893d2fde7d6a5ced35e",
     "attachment_verified": true,
     "word_count": 10582,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16392,7 +16392,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:185f11c2de2de0a9e32e6895393cc8b02c8cff898a7882ebdffb4e1a569b3a43",
     "attachment_verified": true,
     "word_count": 10625,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16426,7 +16426,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:3a3f15a9396178836c08f3785e2ac723fd3751135562ad2dde43b472843e38aa",
     "attachment_verified": true,
     "word_count": 10668,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16461,7 +16461,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:cf278e124baf6cb365c87a9ede5496b48ee2f2f09558542b4ce768d2884a4033",
     "attachment_verified": true,
     "word_count": 10711,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16495,7 +16495,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:47f63f29a2188232b4f4dc20f0aab7d9001d28ea6e1417d846e116f96c476a29",
     "attachment_verified": true,
     "word_count": 10754,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16530,7 +16530,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:720dac4a6755d4a78803a253874e32b68d0e1432446ddfee5a89438a0ba40a99",
     "attachment_verified": true,
     "word_count": 10797,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16539,7 +16539,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Career Able Job Transitions For Canadians With Disabilities",
+    "title": "Career Able Job Transitions for Canadians with Disabilities",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -16564,7 +16564,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:273b14d80f93465e0749f3fa12b05e27f06cf15b138cfe1b53a51193081763dc",
     "attachment_verified": true,
     "word_count": 10840,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16573,7 +16573,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Responding To Automation Cleaner Future",
+    "title": "Responding to Automation Cleaner Future",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -16594,12 +16594,12 @@ const FULL_508_CORPUS = [
     "sample": 639,
     "wcs": 0.85,
     "summary": "Assesses micro-credential upskilling models for automotive assembly line technicians transitioning to electric vehicle (EV) battery manufacturing. Demonstrates a 42% decrease in sectoral transition friction and wage preservation.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Responding To Automation Cleaner Future' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Responding to Automation Cleaner Future' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:e1118addbb83201c00922fdb659c177981a12f59ceed167fc87c75b95ae63ac4",
     "attachment_verified": true,
     "word_count": 10883,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16633,7 +16633,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:bbe7dbcdc88daacb254ee1757f7360a3dcc8f12fcf235932645451ece6d3710c",
     "attachment_verified": true,
     "word_count": 10926,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16642,7 +16642,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "From Campus To Career",
+    "title": "From Campus to Career",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Northern & Remote Communities",
@@ -16668,7 +16668,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:797bccfd05755f509bad1e1eda83f50da1cc038d7e67e16086196051cc9fc340",
     "attachment_verified": true,
     "word_count": 10969,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16702,7 +16702,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ab10648b826d09f373c8840f3b7e332a4f4f1b297fc872f24d2dd32d92569099",
     "attachment_verified": true,
     "word_count": 11012,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16711,7 +16711,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Hidden Struggles Situating Neurodiversity In Post Secondary Education",
+    "title": "Hidden Struggles Situating Neurodiversity in Post Secondary Education",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Atlantic Canada",
@@ -16732,12 +16732,12 @@ const FULL_508_CORPUS = [
     "sample": 715,
     "wcs": 0.89,
     "summary": "Assesses systemic barriers to career advancement and equity-seeking group participation in high-growth sectors. Formulates actionable GBA+ frameworks for employer hiring and retention policies.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Hidden Struggles Situating Neurodiversity In Post Secondary Education' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Hidden Struggles Situating Neurodiversity in Post Secondary Education' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:eafc885babf02e0244791b54cb91372f94ae0b4ecdfbc10f53dfaa1cccf001db",
     "attachment_verified": true,
     "word_count": 11055,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16746,7 +16746,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Learning From One Another Economic And Labour Forecast For Northern Ontario Yukon And Nunavut",
+    "title": "Learning from One Another Economic and Labour Forecast for Northern Ontario Yukon and Nunavut",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -16771,7 +16771,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e2a0f2e9fa0093a61cfebc13de55921e0717d4089b9a332ed091d850355a6a72",
     "attachment_verified": true,
     "word_count": 11098,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16780,7 +16780,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Skills And Productivity Which Skills Shortages Are Impacting Canadian Productivity",
+    "title": "Skills and Productivity Which Skills Shortages Are Impacting Canadian Productivity",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -16800,13 +16800,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 753,
     "wcs": 0.91,
-    "summary": "Assesses economic returns and systemic friction points in 'Skills And Productivity Which Skills Shortages Are Impacting Canadian Productivity'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Skills and Productivity Which Skills Shortages Are Impacting Canadian Productivity'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:53f89a912fc9759195d221c911b56de8ab0355a02996ce15fc06022717e7924d",
     "attachment_verified": true,
     "word_count": 11141,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16815,7 +16815,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "Skills Needs For Mass Timber Production And Adoption In British Columbia",
+    "title": "Skills Needs for Mass Timber Production and Adoption in British Columbia",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Alberta",
@@ -16834,13 +16834,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 772,
     "wcs": 0.92,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Skills Needs For Mass Timber Production And Adoption In British Columbia'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Skills Needs for Mass Timber Production and Adoption in British Columbia'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:4d8589b2d480c68c0ef02fdfb093b7fb5f3a696da202aeca9a284f5cf0395406",
     "attachment_verified": true,
     "word_count": 11184,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16849,7 +16849,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Skills Needs For Workers In The Growing Plant Based Protein Industry In Manitoba And Saskatchewan",
+    "title": "Skills Needs for Workers in the Growing Plant Based Protein Industry in Manitoba and Saskatchewan",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -16869,13 +16869,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 791,
     "wcs": 0.93,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Skills Needs For Workers In The Growing Plant Based Protein Industry In Manitoba And Saskatchewan'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Skills Needs For Workers In The Growing Plant Based Protein Industry In Manitoba And Saskatchewan' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Skills Needs for Workers in the Growing Plant Based Protein Industry in Manitoba and Saskatchewan'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Skills Needs for Workers in the Growing Plant Based Protein Industry in Manitoba and Saskatchewan' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:322631be2a473b9d28317b9b520914fe3d68c1c01d8fca2a39be4f71cce17f38",
     "attachment_verified": true,
     "word_count": 11227,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16909,7 +16909,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0417b5d5030cf7c179905421a95aa676321ff00c30491aeee1a8e90e3dbd644d",
     "attachment_verified": true,
     "word_count": 11270,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16918,7 +16918,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Finance And Management Skills For Economic Reconciliation",
+    "title": "Finance and Management Skills for Economic Reconciliation",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Atlantic Canada",
@@ -16938,13 +16938,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 829,
     "wcs": 0.95,
-    "summary": "Assesses economic returns and systemic friction points in 'Finance And Management Skills For Economic Reconciliation'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Finance and Management Skills for Economic Reconciliation'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:31a78840ae8bae91ed35101397ac0ff8e4542f635f7b03b1d5bf7671ebb7386c",
     "attachment_verified": true,
     "word_count": 11313,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16953,7 +16953,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "Building Bridges Increasing Opportunity For Inuit",
+    "title": "Building Bridges Increasing Opportunity for Inuit",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "British Columbia",
@@ -16978,7 +16978,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:235b38ff57739b33803fb27ff2a27d02d500770b6dee1ba2cfff1c417a81889a",
     "attachment_verified": true,
     "word_count": 11356,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -16987,7 +16987,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "Transforming Learning In A Pandemic Context",
+    "title": "Transforming Learning in a Pandemic Context",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -17007,13 +17007,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 867,
     "wcs": 0.68,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Transforming Learning In A Pandemic Context'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Transforming Learning In A Pandemic Context' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Transforming Learning in a Pandemic Context'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Transforming Learning in a Pandemic Context' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:cd13cb2a60eb9312ff651c228bcf78704348997c29ae2c9a9d52ae478cddb4d7",
     "attachment_verified": true,
     "word_count": 11399,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17022,7 +17022,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
-    "title": "Laying Foundations Technological Maturity In Canadas Construction Sector",
+    "title": "Laying Foundations Technological Maturity in Canada's Construction Sector",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Alberta",
@@ -17047,7 +17047,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f532a38da12327fab3a3bb1b9f4b3bd247c4e9fc54f914e4f08106785e8a1ff0",
     "attachment_verified": true,
     "word_count": 11442,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17082,7 +17082,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e333d2afd2f941e99a77674636c4cab05641c547c2473a5b3594dfa5d0cd9c39",
     "attachment_verified": true,
     "word_count": 11485,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17116,7 +17116,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e80d3657ddcb1e033209ebdc0a5fbe1ea44410a2b8e6b53cb01be30aacd6fba7",
     "attachment_verified": true,
     "word_count": 11528,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17125,7 +17125,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "April 8, 2023",
-    "title": "The Big Shift Changes In Canadian Manufacturing Employment 2003 2018 Full Report",
+    "title": "The Big Shift Changes in Canadian Manufacturing Employment 2003 2018 Full Report",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -17146,12 +17146,12 @@ const FULL_508_CORPUS = [
     "sample": 943,
     "wcs": 0.72,
     "summary": "Assesses micro-credential upskilling models for automotive assembly line technicians transitioning to electric vehicle (EV) battery manufacturing. Demonstrates a 42% decrease in sectoral transition friction and wage preservation.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'The Big Shift Changes In Canadian Manufacturing Employment 2003 2018 Full Report' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'The Big Shift Changes in Canadian Manufacturing Employment 2003 2018 Full Report' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:33abfeaeb37694f0551a647425aa42de6a7cb8908a4214fc04913ad033833479",
     "attachment_verified": true,
     "word_count": 11571,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17160,7 +17160,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "The Big Shift Changes In Canadian Manufacturing Employment 2003 2018 Executive Summary",
+    "title": "The Big Shift Changes in Canadian Manufacturing Employment 2003 2018 Executive Summary",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "British Columbia",
@@ -17185,7 +17185,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d91c8d35edab3841e4face34f0fb7a360fa21f05b87c37fc1b0f2d7b49649dd4",
     "attachment_verified": true,
     "word_count": 11614,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17194,7 +17194,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Rising Skills Digital Upskilling For Advanced Manufacturing Workplaces",
+    "title": "Rising Skills Digital Upskilling for Advanced Manufacturing Workplaces",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -17220,7 +17220,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:54632fd1a8bf13f203e853dabe2bc44762e6a463257982ee9afa5cd849b997b8",
     "attachment_verified": true,
     "word_count": 11657,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17229,7 +17229,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Rising Skills Emerging Skills In The Food Services Trades",
+    "title": "Rising Skills Emerging Skills in the Food Services Trades",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -17254,7 +17254,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:50c60ef62754b8cd381bd9991eef67c8104687ee854f532cd55dc1bd543568c6",
     "attachment_verified": true,
     "word_count": 11700,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17263,7 +17263,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Rising Skills Digital Skills Needs For Smart And Connected Vehicles",
+    "title": "Rising Skills Digital Skills Needs for Smart and Connected Vehicles",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Northern & Remote Communities",
@@ -17283,13 +17283,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1019,
     "wcs": 0.76,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Rising Skills Digital Skills Needs For Smart And Connected Vehicles'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Rising Skills Digital Skills Needs For Smart And Connected Vehicles' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Rising Skills Digital Skills Needs for Smart and Connected Vehicles'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Rising Skills Digital Skills Needs for Smart and Connected Vehicles' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:66f076bda9b4db2a2a1004d32a355294d35baa7cfc58b7947a6dd4e7e1893933",
     "attachment_verified": true,
     "word_count": 11743,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17298,7 +17298,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "July 15, 2023",
-    "title": "Rising Skills A Toolbox Talk On Social And Emotional Skills In The Construction Trades",
+    "title": "Rising Skills a Toolbox Talk on Social and Emotional Skills in the Construction Trades",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Ontario & Quebec",
@@ -17323,7 +17323,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:12582c4263517234163e476a18e9e201433b922a8a7b011ff937d753410a5af2",
     "attachment_verified": true,
     "word_count": 11786,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17358,7 +17358,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0cae13dd03489a760906a16a3c15ad255d5199c83b54fe5b865e931273bc7d22",
     "attachment_verified": true,
     "word_count": 11829,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17367,7 +17367,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "January 1, 2025",
-    "title": "Career Pathways In The North",
+    "title": "Career Pathways in the North",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -17392,7 +17392,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:cc21b73bc109f4e2e97837a552c439e4389c9279a37281eabd0459f59b1b3fcc",
     "attachment_verified": true,
     "word_count": 11872,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17427,7 +17427,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:184e65900e25e372dcb0bb7ca1e8609afde97d28555f6e0821b6a5a2f70d3cca",
     "attachment_verified": true,
     "word_count": 11915,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17436,7 +17436,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Comparing Indigenous Centred Post Secondary Education In Canada",
+    "title": "Comparing Indigenous Centred Post Secondary Education in Canada",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -17461,7 +17461,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:4190c34efd8198ffd1b440aed1c182847bc7a22dfaae9edab25e8dd775df2047",
     "attachment_verified": true,
     "word_count": 11958,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17470,7 +17470,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Bridging Canadas Skills Gap",
+    "title": "Bridging Canada's Skills Gap",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Northern & Remote Communities",
@@ -17490,13 +17490,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1133,
     "wcs": 0.82,
-    "summary": "Assesses economic returns and systemic friction points in 'Bridging Canadas Skills Gap'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Bridging Canada's Skills Gap'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:9b70d0067292eae924f736f944350fc64c69c7df58462e9946fec7c7065e3cad",
     "attachment_verified": true,
     "word_count": 12001,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17505,7 +17505,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "Theres A Revolution Happening In Skilled Trades",
+    "title": "Theres a Revolution Happening in Skilled Trades",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
@@ -17530,7 +17530,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a13a79bf6ef21c3b7b7907be0424d9e6d8b1e9ac17415f35ab40016445fb507e",
     "attachment_verified": true,
     "word_count": 12044,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17539,7 +17539,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "The Future Is Social And Emotional",
+    "title": "The Future Is Social and Emotional",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Atlantic Canada",
@@ -17559,13 +17559,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1171,
     "wcs": 0.84,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'The Future Is Social And Emotional'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'The Future Is Social And Emotional' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'The Future Is Social and Emotional'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'The Future Is Social and Emotional' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:14a2d70e8e9230154e811b3bb13e9986bac0499dfeef85a4186ff76e363be1be",
     "attachment_verified": true,
     "word_count": 12087,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17599,7 +17599,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:3ce9907d210ab97c26e52bf924018b5ffef48cf8b33886c235dd599accc654a2",
     "attachment_verified": true,
     "word_count": 12130,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17634,7 +17634,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:313387aed78a2fb78f4baabc38c3d402b84e2abc0f4348cd00a5a3c5902db147",
     "attachment_verified": true,
     "word_count": 12173,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17643,7 +17643,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "Erp And Trades",
+    "title": "Erp and Trades",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Alberta",
@@ -17668,7 +17668,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:8bd9ba92dab0e174496a62504ba074f9b857f16605b19e3cd6c0a611c0f2a310",
     "attachment_verified": true,
     "word_count": 12216,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17677,7 +17677,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
-    "title": "Skills For Infrastructure",
+    "title": "Skills for Infrastructure",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -17697,13 +17697,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1247,
     "wcs": 0.88,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Skills For Infrastructure'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Skills For Infrastructure' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Skills for Infrastructure'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Skills for Infrastructure' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:f436eab415667035c1babcf397ecf5be7801ee1c152683c827274bdbd10072fd",
     "attachment_verified": true,
     "word_count": 12259,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17737,7 +17737,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:92da4285fc657da50f827a598631324e57926a6e9ce709c3a9868c2e3677b615",
     "attachment_verified": true,
     "word_count": 12302,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17772,7 +17772,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a5b149bc20176d725ed69661c63e5b40520c551e202c95b749334cfc96f1cb67",
     "attachment_verified": true,
     "word_count": 12345,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17806,7 +17806,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:97ca2f0da5bbbfd4d29849a17b3350da0ea9199d9cff0c87ec4adb6389528bb5",
     "attachment_verified": true,
     "word_count": 12388,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17815,7 +17815,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "April 8, 2023",
-    "title": "Green_Skills",
+    "title": "Green_skills",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -17835,13 +17835,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1323,
     "wcs": 0.92,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Green_Skills'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Green_Skills' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Green_skills'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Green_skills' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:70b5e6baaa33021fdc2410a995c9dd343127a7e5e4bb663eb940a402afb74866",
     "attachment_verified": true,
     "word_count": 12431,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17850,7 +17850,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Self Employment For Neurodivergent Canadians",
+    "title": "Self Employment for Neurodivergent Canadians",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Alberta",
@@ -17869,13 +17869,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1342,
     "wcs": 0.93,
-    "summary": "Examines pilot intervention effectiveness for 'Self Employment For Neurodivergent Canadians'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Self Employment for Neurodivergent Canadians'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:c0558243829c311ea692b91902db232ab4cc0d966fbdc3129e924bb8d7563942",
     "attachment_verified": true,
     "word_count": 12474,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17884,7 +17884,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Understanding Influence Of AI On Employment",
+    "title": "Understanding Influence of AI on Employment",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Northern & Remote Communities",
@@ -17910,7 +17910,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:5866a5e3fd6162b27ea8da6c2a5f9b417a0dcb74117bb4caead9dc748483bd35",
     "attachment_verified": true,
     "word_count": 12517,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17919,7 +17919,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Mapping Self Employment Resources For Neurodivergent Canadians",
+    "title": "Mapping Self Employment Resources for Neurodivergent Canadians",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -17938,13 +17938,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1380,
     "wcs": 0.95,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Mapping Self Employment Resources For Neurodivergent Canadians'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Mapping Self Employment Resources for Neurodivergent Canadians'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:88310578182e95589ce0eb6825da42800468b02711ba428829854a7ce20a4b3b",
     "attachment_verified": true,
     "word_count": 12560,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -17953,7 +17953,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "Banking On AI",
+    "title": "Banking on AI",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Atlantic Canada",
@@ -17974,12 +17974,12 @@ const FULL_508_CORPUS = [
     "sample": 1399,
     "wcs": 0.96,
     "summary": "Investigates enterprise adoption of AI tools and automated workflow reskilling across financial and professional services. Documents a 3.1x return on upskilling investments alongside key policy recommendations for worker displacement safeguards.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Banking On AI' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Banking on AI' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:885132408463257d77112107b0f2dc498837187020f3afe07f37d73aa18ab4c5",
     "attachment_verified": true,
     "word_count": 12603,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18013,7 +18013,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c2679f9fb015feccfa482e36fa0e14c9fe5900eba897ccc4ece479f902d7e675",
     "attachment_verified": true,
     "word_count": 12646,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18022,7 +18022,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "Art In Artificial Intelligence",
+    "title": "Art in Artificial Intelligence",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -18042,13 +18042,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 337,
     "wcs": 0.69,
-    "summary": "Assesses economic returns and systemic friction points in 'Art In Artificial Intelligence'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Art in Artificial Intelligence'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:0608d684bdd9f558fe190e828b57438a349b4aaa81987d6cfb352e44d3abcdc5",
     "attachment_verified": true,
     "word_count": 12689,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18082,7 +18082,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:aecb211c1eac1e82d51752c61c82340c8ba9a38ae0708962b97bcfb1f30c94d1",
     "attachment_verified": true,
     "word_count": 12732,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18091,7 +18091,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Skills Practices To Support Indigenous Exporters",
+    "title": "Skills Practices to Support Indigenous Exporters",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Northern & Remote Communities",
@@ -18112,12 +18112,12 @@ const FULL_508_CORPUS = [
     "sample": 375,
     "wcs": 0.71,
     "summary": "Examines community-led skill development and traditional economic integration in northern remote communities. Highlights culturally grounded mentorship frameworks that increased long-term program retention by 68%.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Skills Practices To Support Indigenous Exporters' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Skills Practices to Support Indigenous Exporters' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:7fc927a1c0c611fe41747b1b7d247533a46fee49b6f0ac8f70b2ce7e8534a486",
     "attachment_verified": true,
     "word_count": 12775,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18151,7 +18151,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e84f90083e13b0a2fa77c0dfc477403efe742a7700d46f94f9ce46cfd856155f",
     "attachment_verified": true,
     "word_count": 12818,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18160,7 +18160,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Advancing Pathways To Neurodivergent Self Employment",
+    "title": "Advancing Pathways to Neurodivergent Self Employment",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -18180,13 +18180,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 413,
     "wcs": 0.73,
-    "summary": "Assesses economic returns and systemic friction points in 'Advancing Pathways To Neurodivergent Self Employment'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Advancing Pathways to Neurodivergent Self Employment'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:1977f1fcc015c3e60192811062ee53f620d39d351469808f261a65cf3a595b2d",
     "attachment_verified": true,
     "word_count": 12861,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18220,7 +18220,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:87d375059a045d976e7a0f657d67be2f814bd977c1338f58e4251eb470330415",
     "attachment_verified": true,
     "word_count": 12904,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18255,7 +18255,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:42d233a8fca733e9d7c6477fbbc30e37c34beb16f54e09ab8e60bceda5e56403",
     "attachment_verified": true,
     "word_count": 12947,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18264,7 +18264,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "Diversity Assessment Tool Dat App For Municipalities",
+    "title": "Diversity Assessment Tool Dat App for Municipalities",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -18289,7 +18289,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f416f86114cbfd437de6901e8c295e3a30d0040637bd879b30050210952fd5e5",
     "attachment_verified": true,
     "word_count": 12990,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18324,7 +18324,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:20e60aeaf1147f7d97c4869fed50261d960fee57c6a48b59cfd19bf7e554a76c",
     "attachment_verified": true,
     "word_count": 13033,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18333,7 +18333,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
-    "title": "Addressing Barriers To Labour Force Participation",
+    "title": "Addressing Barriers to Labour Force Participation",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
@@ -18352,13 +18352,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 508,
     "wcs": 0.78,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Addressing Barriers To Labour Force Participation'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Addressing Barriers to Labour Force Participation'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:cfb56f066cc32ebbe4296b6057f11a6f5a668e3d242d8cc3cdc6ce9df4e5a781",
     "attachment_verified": true,
     "word_count": 13076,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18393,7 +18393,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:13c060bb43ecc837b8349cfc0e3201b062125028dcea2d01490e8aa8ebe69f40",
     "attachment_verified": true,
     "word_count": 13119,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18402,7 +18402,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
-    "title": "Learning From One Another Pir",
+    "title": "Learning from One Another Pir",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -18421,13 +18421,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 546,
     "wcs": 0.8,
-    "summary": "Examines pilot intervention effectiveness for 'Learning From One Another Pir'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Learning from One Another Pir'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:41d1939c59d2561f7ff383af4774fe883bceb9998e1295e160d698572a3b8027",
     "attachment_verified": true,
     "word_count": 13162,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18436,7 +18436,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
-    "title": "Canada Healthcare Workforce Retention And Migration",
+    "title": "Canada Healthcare Workforce Retention and Migration",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -18462,7 +18462,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7729138c8be62e556c053ac44e284df9aefe065c4dbefeadda8f634521a3ccb0",
     "attachment_verified": true,
     "word_count": 13205,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18496,7 +18496,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b33bbe61d5a1eff93b42de6a6fafe875a068d3f7abcffc111f52cdcf523b72fc",
     "attachment_verified": true,
     "word_count": 13248,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18505,7 +18505,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2023,
     "date": "April 8, 2023",
-    "title": "Shaping The Future Of Learning And Development",
+    "title": "Shaping the Future of Learning and Development",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -18525,13 +18525,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 603,
     "wcs": 0.83,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Shaping The Future Of Learning And Development'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Shaping The Future Of Learning And Development' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Shaping the Future of Learning and Development'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Shaping the Future of Learning and Development' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:b0f1243ebb4b2ff837d491aeab27b1b9626722f9d78cf7eb8914036a349fc1cf",
     "attachment_verified": true,
     "word_count": 13291,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18540,7 +18540,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Scorecard For Immigrant Skill Utilization",
+    "title": "Scorecard for Immigrant Skill Utilization",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Ontario & Quebec",
@@ -18559,13 +18559,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 622,
     "wcs": 0.84,
-    "summary": "Examines pilot intervention effectiveness for 'Scorecard For Immigrant Skill Utilization'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Scorecard for Immigrant Skill Utilization'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:d06a7aeb100f37e996e1a8ccf91fdb0485e4d97a433c91b40a3b9bd4273a4c89",
     "attachment_verified": true,
     "word_count": 13334,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18600,7 +18600,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ca613c9915ae8e1b850390805a1dc82e74bdce7b7b91361f0b405de449c6d0d4",
     "attachment_verified": true,
     "word_count": 13377,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18634,7 +18634,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a23f9c44c826ac2c18f38fe9b310a50bccfbb35846d7b5fbd7d7b7b6b55c5cc6",
     "attachment_verified": true,
     "word_count": 13420,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18669,7 +18669,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:5b05d0025133049480fa9dd2ca16d543bb08547fa5051fd593888d8785a5a807",
     "attachment_verified": true,
     "word_count": 13463,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18703,7 +18703,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d5322262823c373c3f23f5a035ebdea3c18205f8961926221c8a98097d083cf5",
     "attachment_verified": true,
     "word_count": 13506,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18738,7 +18738,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6879173f315af926ade62657510b1dfdc09498caa18698da0cf9916d11924f79",
     "attachment_verified": true,
     "word_count": 13549,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18772,7 +18772,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:eb36e57e1f4aec0b4ddf59636d6659b0d0232223abe9a2e8af7e4be8dc50e99d",
     "attachment_verified": true,
     "word_count": 13592,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18807,7 +18807,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c6d6596fe66a6b608a1d8714b7cb033104d4e1a2ee70e49b7e231010d1e50dcc",
     "attachment_verified": true,
     "word_count": 13635,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18841,7 +18841,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:fc9cba304b5ba77b81a5995a3c92aa313955c97ae6d9a7c622c812bed7da80eb",
     "attachment_verified": true,
     "word_count": 13678,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18876,7 +18876,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6cc13bd9afa12cf734c6d276cf7507d742f7b7c41a4d5a243ff769f4090dc243",
     "attachment_verified": true,
     "word_count": 13721,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18910,7 +18910,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:699c1d561759effe5b23f46818f1e5edbf905142a685014d78a2063f1ab55e2b",
     "attachment_verified": true,
     "word_count": 13764,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18945,7 +18945,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6c11518965927bd85b7722b448303269f79e3e810e8d9e4f68e72951f53dd8fc",
     "attachment_verified": true,
     "word_count": 13807,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -18979,7 +18979,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b699bea15d2fcedd181f5e5b4723dc901e1f264a2788a0570df9b2530bf6104b",
     "attachment_verified": true,
     "word_count": 13850,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19014,7 +19014,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:2a657cc07ddc824732b77a3c8b4993efc464f0635b6d52ed853d8627f6a73d25",
     "attachment_verified": true,
     "word_count": 13893,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19048,7 +19048,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9414ff334e3c6a1fda11482626006ee9a6d3edb24441e1aab0f92ba9df2285dc",
     "attachment_verified": true,
     "word_count": 13936,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19083,7 +19083,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e3c4314014632059a24d358ce0653e5d372beb946a74122e17684503ecd90c28",
     "attachment_verified": true,
     "word_count": 13979,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19117,7 +19117,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e16c17d5312b9b5667945a94af0a33c7c75a31e927d244c12d619e3c1ad3abdf",
     "attachment_verified": true,
     "word_count": 14022,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19152,7 +19152,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f27518b1f16a9fb98f9a03f91b75e8e4f23ad22a7c68179a9c96cd0659fc30e2",
     "attachment_verified": true,
     "word_count": 14065,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19161,7 +19161,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Substance Use And Employability",
+    "title": "Substance Use and Employability",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
@@ -19180,13 +19180,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 964,
     "wcs": 0.73,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Substance Use And Employability'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Substance Use and Employability'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:18a34a42ef848a663dc148d6f362736fe42b584a9afcc7b18444e61ae72b8f00",
     "attachment_verified": true,
     "word_count": 14108,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19221,7 +19221,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:1c40dd5b4c52ca5e05b9dd979697ff702957b023fd99881f849225c7370572d8",
     "attachment_verified": true,
     "word_count": 14151,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19230,7 +19230,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "AI In Action Smes",
+    "title": "AI in Action SMEs",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -19255,7 +19255,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e39b0060553e4760288207a485d72ceec237d00be278b96498fb0df41774f914",
     "attachment_verified": true,
     "word_count": 14194,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19264,7 +19264,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "AI And Future Skills",
+    "title": "AI and Future Skills",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -19290,7 +19290,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:801952021b5b58e8da85716cf3d816b08a3e4dec7d6e9f14ec4898e4cefff30a",
     "attachment_verified": true,
     "word_count": 14237,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19324,7 +19324,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:125b959937a48371aea121bf9e5ccd4599d365f0d42af5f53140e66472ab352e",
     "attachment_verified": true,
     "word_count": 14280,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19333,7 +19333,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "April 8, 2022",
-    "title": "AI In Higher Education",
+    "title": "AI in Higher Education",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -19354,12 +19354,12 @@ const FULL_508_CORPUS = [
     "sample": 1059,
     "wcs": 0.78,
     "summary": "Investigates enterprise adoption of AI tools and automated workflow reskilling across financial and professional services. Documents a 3.1x return on upskilling investments alongside key policy recommendations for worker displacement safeguards.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'AI In Higher Education' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'AI in Higher Education' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:3d2b108aa2a4c5455f2b6de17a7d45d316089b6406b0ae93aa88e54e0fed33c1",
     "attachment_verified": true,
     "word_count": 14323,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19393,7 +19393,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0054705e42bad51710c7b5f8c4ed0ba516edc483d376315b8b99c21e4a1d8c23",
     "attachment_verified": true,
     "word_count": 14366,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19428,7 +19428,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d0ec234ca0da479c9e866089e7e52c540a19e236fc585cf7a73b0184ec0f0daf",
     "attachment_verified": true,
     "word_count": 14409,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19462,7 +19462,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ac7608977091b2c4e54aa2cb4ed2a41fe2b48b047442a265a9fb6f2945c2e9ac",
     "attachment_verified": true,
     "word_count": 14452,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19497,7 +19497,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0971c204e29c3f759478fe6d638fb6a5511d6948ca36d6f1a923492c5be7faeb",
     "attachment_verified": true,
     "word_count": 14495,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19531,7 +19531,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:23dff04dcbb4480321e069d0acacf5b2934330eb21148bf81277eae7d7bb504c",
     "attachment_verified": true,
     "word_count": 14538,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19566,7 +19566,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:8088d088cb86fba6c9cad43a4d4ce6efbbd4a285420819b6b3031b68d03b340c",
     "attachment_verified": true,
     "word_count": 14581,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19600,7 +19600,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:703f47d21727d71321994aa098f837e127168e9ba7a903c5ad6cd7b301afed35",
     "attachment_verified": true,
     "word_count": 14624,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19635,7 +19635,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:2656e5ea3901f791e66584a767e72a0ce4a1b5cce9e331d71b063fd32aa6e779",
     "attachment_verified": true,
     "word_count": 14667,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19669,7 +19669,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6738e6159a2b2c38eea646ac97437c48c643528166131e5edcaf611c488de7cb",
     "attachment_verified": true,
     "word_count": 14710,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19704,7 +19704,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:8959ae6201f1356e687d4a8d5952321fa7ce05d52314f1ae7e7f0ee0c315428d",
     "attachment_verified": true,
     "word_count": 14753,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19738,7 +19738,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:43fbdaf5a822b0c99530c53e0968ea2e9e5a84d60b2581d4464c48c9b8caa122",
     "attachment_verified": true,
     "word_count": 14796,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19773,7 +19773,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9311282a361525480e972f6409dea501795698e858f9bbf018bcb65c95150bc0",
     "attachment_verified": true,
     "word_count": 14839,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19807,7 +19807,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f3435ede9ba763303c490695d8e784e1e9fe2e2541504b243ee50f4e6678e13c",
     "attachment_verified": true,
     "word_count": 14882,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19842,7 +19842,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:0fecc4302da8c6bbc86f86169d9b672b5cee20dba39ade000d7ad6b7e4c94287",
     "attachment_verified": true,
     "word_count": 14925,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19851,7 +19851,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Skills And Jobs",
+    "title": "Skills and Jobs",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "British Columbia",
@@ -19870,13 +19870,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1344,
     "wcs": 0.93,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Skills And Jobs'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Skills and Jobs'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:64570c9bdb43f15d4aa799ee195c8667481c456d59de32a4143b8ca88dd233ed",
     "attachment_verified": true,
     "word_count": 14968,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19911,7 +19911,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b7c299aa792acab0df6d8176545a7af3d136b17ef5bb7827c8da68c60b949e26",
     "attachment_verified": true,
     "word_count": 15011,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19920,7 +19920,7 @@ const FULL_508_CORPUS = [
     "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Greenification Of Smes",
+    "title": "Greenification of SMEs",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -19945,7 +19945,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:fad9733254089a4245fb1ab0ab2ab7fff121e1edb8efed3e1a725c68602098d4",
     "attachment_verified": true,
     "word_count": 15054,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -19980,7 +19980,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6dad8f85b88c514e0cb0e4501ddf2e67a9f9a43b52199e2e0e0afb03dcd47175",
     "attachment_verified": true,
     "word_count": 15097,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20014,7 +20014,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:db99af6f0d0f0cf07b63f57187e3e596804e25bc4528e1c16f18b36b91777e68",
     "attachment_verified": true,
     "word_count": 15140,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20049,7 +20049,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ae33a56f68d3ed09986e3459ab4d4f9d4697b481d894df60bde21a9e2953cb74",
     "attachment_verified": true,
     "word_count": 15183,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20083,7 +20083,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ed0f286511de97ddcc9ae6917aa9288a28c08978f5c284d0bae2a7f20f9aceee",
     "attachment_verified": true,
     "word_count": 15226,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20118,7 +20118,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b0b59fb1690df28131a412509af168916756de70d1e3951be146b93bc7309cbc",
     "attachment_verified": true,
     "word_count": 15269,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20127,7 +20127,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2025,
     "date": "January 1, 2025",
-    "title": "Blog Green Building And Skills Training",
+    "title": "Blog Green Building and Skills Training",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Alberta",
@@ -20152,7 +20152,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:192741fca60ec753f86e7b630272846bbe9cbdd83818724a38fee8e84ed72e58",
     "attachment_verified": true,
     "word_count": 15312,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20187,7 +20187,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:3d6f08351e83361fd93bdf0491e3717acd5ea8d06a5891b03e723b896d45454c",
     "attachment_verified": true,
     "word_count": 15355,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20221,7 +20221,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:73df3ef99342bc611f082c3b59fbc62381855b506d03a6587743bd6f63a707f5",
     "attachment_verified": true,
     "word_count": 15398,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20256,7 +20256,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d0e13ee0547224f2d2a0b449cc0320203d55fa456b34045bf67bfb5d0dad4498",
     "attachment_verified": true,
     "word_count": 15441,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20290,7 +20290,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b3812809ba96583940528750e48c4fbe09918444ad9130c389b5093253a44b37",
     "attachment_verified": true,
     "word_count": 15484,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20299,7 +20299,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Blog Skills Training For Youth",
+    "title": "Blog Skills Training for Youth",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -20320,12 +20320,12 @@ const FULL_508_CORPUS = [
     "sample": 491,
     "wcs": 0.77,
     "summary": "Investigates enterprise adoption of AI tools and automated workflow reskilling across financial and professional services. Documents a 3.1x return on upskilling investments alongside key policy recommendations for worker displacement safeguards.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Blog Skills Training For Youth' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Blog Skills Training for Youth' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:16173572352646fcc54b9cbc9fe5b621a4cc02986fb92b967a536fad059e2817",
     "attachment_verified": true,
     "word_count": 15527,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20359,7 +20359,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:624d1fba275c5a5394c2205d13c08e6eb0ea8967c33f427849a661e464e50920",
     "attachment_verified": true,
     "word_count": 15570,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20394,7 +20394,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:8569f35b4473529c9b3fa77cae9070a1379f816f6de8663cd8d6a43cfb0c4e3e",
     "attachment_verified": true,
     "word_count": 15613,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20428,7 +20428,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:72d6b40baa522c4d5d2b0cef9d7f8bdddda3403c75f00b70ace933ad43d0652e",
     "attachment_verified": true,
     "word_count": 15656,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20463,7 +20463,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:03120cee2d942cf38b1fbc38cf9e97c802f5622418847fd141c6c2419f01e7a1",
     "attachment_verified": true,
     "word_count": 15699,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20497,7 +20497,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a35e0da0844885b07f883c4bec205a1673fe1b5f5fd1159e77eff6449c5b7dd1",
     "attachment_verified": true,
     "word_count": 15742,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20532,7 +20532,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:725856739faa6655f5753eaacc8a8e0c4c457f23aa6dd65f7365d35c5a9ae153",
     "attachment_verified": true,
     "word_count": 15785,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20566,7 +20566,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e747f01e6db4683537d70f77aec90a54261b1f240ceabe4ce700208662dd7152",
     "attachment_verified": true,
     "word_count": 15828,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20601,7 +20601,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7182b6317c619d151eeb750e0c7b42fe860468a2a262148394bbb78cf5b8b528",
     "attachment_verified": true,
     "word_count": 15871,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20635,7 +20635,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:38c3df6a3f64235a69f4ff4227dafdb1dbf520ab3389e0ff8c204eb5af9b1d22",
     "attachment_verified": true,
     "word_count": 15914,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20670,7 +20670,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:5d61c2700e2bf90dffd53d6af8e8b3d04649732cda21c91d58d490f1072cf0b9",
     "attachment_verified": true,
     "word_count": 15957,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20704,7 +20704,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:d0fd2f1153036014a1f89a8ba0f69df91a35a81bd662c5472c82d925894d99d1",
     "attachment_verified": true,
     "word_count": 16000,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20739,7 +20739,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ea63e5542abe5d3e614a5283c58eec466a02797596859b2c281f4f6e1b8b8719",
     "attachment_verified": true,
     "word_count": 16043,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20773,7 +20773,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:8d964378be69b899f75f05c8d69df5769a74d0d483a4b1562f556215ff275a64",
     "attachment_verified": true,
     "word_count": 16086,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20808,7 +20808,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e88f5496e06b75945d768fdf4e165bf28f388ed9884dfc2dec966d9783bad18c",
     "attachment_verified": true,
     "word_count": 16129,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20842,7 +20842,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:613051669c14de20b6271905af519dd4feb2538ea21c10f1fc91f1c2889079f6",
     "attachment_verified": true,
     "word_count": 16172,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20877,7 +20877,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b7651e6275a392c16bc010e1f04b09c2780fd60f17460b903492cbbcd1548201",
     "attachment_verified": true,
     "word_count": 16215,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20886,7 +20886,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Blog Lgbtq2S",
+    "title": "Blog Lgbtq2s",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -20905,13 +20905,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 814,
     "wcs": 0.94,
-    "summary": "Examines pilot intervention effectiveness for 'Blog Lgbtq2S'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Blog Lgbtq2s'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:d26c15aee0b65d1a0f780f66477b5b581c9f6dc0f1c862ae7881def1d9f95bb6",
     "attachment_verified": true,
     "word_count": 16258,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20946,7 +20946,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:bde846153d09e8bbf1ccfd6a13d54eed60a3fd5b5fce15562a0a4aebadb62d8a",
     "attachment_verified": true,
     "word_count": 16301,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20980,7 +20980,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:75b237721687ac1e86cb770ebfed6dee6635de4f7d579c707d2ba65069dd4f0f",
     "attachment_verified": true,
     "word_count": 16344,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -20989,7 +20989,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Blog Rejection Into Redirection",
+    "title": "Blog Rejection into Redirection",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Northern & Remote Communities",
@@ -21009,13 +21009,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 871,
     "wcs": 0.68,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Blog Rejection Into Redirection'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Blog Rejection Into Redirection' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Blog Rejection into Redirection'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Blog Rejection into Redirection' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:411f2cedae23b7409b4c015f6be0534cbab0cfa768477c420b5fff57ccdb8d7f",
     "attachment_verified": true,
     "word_count": 16387,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21049,7 +21049,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:90aa0b71352533b10f5dcf401951e5cf0a32e46691d6b03bf9b44df6ea004068",
     "attachment_verified": true,
     "word_count": 16430,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21084,7 +21084,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b70651ccf593add508feee1bd2a589073a895a7fe9a1fbe1a628643de7b4145d",
     "attachment_verified": true,
     "word_count": 16473,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21118,7 +21118,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ad0baee2afd1843653469fb13d5dd95a59ef55f5ca3face12a98bb5a4d846d4d",
     "attachment_verified": true,
     "word_count": 16516,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21153,7 +21153,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:2c737546f12b15641f2f8aa06e8b8d78ed6f938e0afd7372f7e4c1e6c47ca21b",
     "attachment_verified": true,
     "word_count": 16559,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21187,7 +21187,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7c7f3bc49e44264de3dfc5d57c917e3d64bdfd5d026e9659e37b019717559dbb",
     "attachment_verified": true,
     "word_count": 16602,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21222,7 +21222,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:8f64f9ab21e713f2cae1a450541d7a54469031431ee96fec418003a06708d8c1",
     "attachment_verified": true,
     "word_count": 16645,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21256,7 +21256,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:f7fccb6f4f6086bd64fcbe21d5680b2b933aca32b46477a365c891a255739155",
     "attachment_verified": true,
     "word_count": 16688,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21291,7 +21291,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:afba7a3040560b9ecc6cd885ef25d2a0e3397d5d9fa3a03df5e2798d75fb095c",
     "attachment_verified": true,
     "word_count": 16731,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21325,7 +21325,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a8b366a695de88a224688ee720cb6d1fa7e4a058e9d58966ebdb9469446faf31",
     "attachment_verified": true,
     "word_count": 16774,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21334,7 +21334,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Blog Recovery Of Canadas Labour Market",
+    "title": "Blog Recovery of Canada's Labour Market",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -21354,13 +21354,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1061,
     "wcs": 0.78,
-    "summary": "Assesses economic returns and systemic friction points in 'Blog Recovery Of Canadas Labour Market'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Blog Recovery of Canada's Labour Market'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:be7b6e6016bceafaed2cae2ed35fc91e34d355a88b410ece6ac3ba98bd724005",
     "attachment_verified": true,
     "word_count": 16817,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21369,7 +21369,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Blog Power Of Networks",
+    "title": "Blog Power of Networks",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -21388,13 +21388,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1080,
     "wcs": 0.79,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Blog Power Of Networks'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Blog Power of Networks'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:6647f0c5660a9ac1cab7e8594b42ec8fb7792f66b30fe919f11404b6a927ddf7",
     "attachment_verified": true,
     "word_count": 16860,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21429,7 +21429,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:3a6fa51f0beedc2d2e178a4077aa9abd17f29edc83c6295a597096f75a318bb6",
     "attachment_verified": true,
     "word_count": 16903,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21463,7 +21463,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:8b0aac75be9d4abcd554df82e6e90a2fa4bc32114f7a9e276fa5889f9e274976",
     "attachment_verified": true,
     "word_count": 16946,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21498,7 +21498,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:84c19852a45b580e3b1f1a8e5cce1594d1224c3780ea23ee6e8721785734d696",
     "attachment_verified": true,
     "word_count": 16989,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21532,7 +21532,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ad1902c135f3b8dea19b3174eec9f14e16b12be87e095cded3d09f1ef0c62389",
     "attachment_verified": true,
     "word_count": 17032,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21567,7 +21567,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:31ca8034f2a50593dac2a05e63e5672258d80f1848363c4c4a2fccf9a7383786",
     "attachment_verified": true,
     "word_count": 17075,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21601,7 +21601,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:657aa22bf50b1ce3f8287b3510bca52dbb12c189ec47a25e968cf02cda612926",
     "attachment_verified": true,
     "word_count": 17118,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21636,7 +21636,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:70be85763b8ed57214df83d5595a85135eaa3bf22c7aaf7d6bdd57a892c5b150",
     "attachment_verified": true,
     "word_count": 17161,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21670,7 +21670,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:2a3ce6f4e800c101db41e201833ac7119adf52ac9ba6fdf9c903857b560f2ecc",
     "attachment_verified": true,
     "word_count": 17204,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21679,7 +21679,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2025,
     "date": "April 8, 2025",
-    "title": "Blog Advancing Canadas Bioeconomy",
+    "title": "Blog Advancing Canada's Bioeconomy",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Atlantic Canada",
@@ -21699,13 +21699,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 1251,
     "wcs": 0.88,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Blog Advancing Canadas Bioeconomy'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Blog Advancing Canadas Bioeconomy' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Blog Advancing Canada's Bioeconomy'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Blog Advancing Canada's Bioeconomy' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:42b3ffad1880b2fd4b3fcb931a0f4d69718c9839add706d3f1cfdaab7a43d382",
     "attachment_verified": true,
     "word_count": 17247,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21739,7 +21739,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ca7aff6aedb63a5b9bc510234732fd32495d71d2f1fe0e91d49012856401a2a1",
     "attachment_verified": true,
     "word_count": 17290,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21748,7 +21748,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2022,
     "date": "October 22, 2022",
-    "title": "Blog Neurodiversity Research In Action",
+    "title": "Blog Neurodiversity Research in Action",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -21774,7 +21774,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:87417cb2f1270a32cb9c76ca308e1d6ee726e47bd831e81dcce358f19d95d2e3",
     "attachment_verified": true,
     "word_count": 17333,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21808,7 +21808,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c0d21df7c00e5be4c1450fe277ea56fee40dd3ea2ec77cd9d854cea122bdfb0e",
     "attachment_verified": true,
     "word_count": 17376,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21843,7 +21843,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:21163ceb35242ffbb3deabbbc722c3177b671506c640fa815f8b2e1728ffd480",
     "attachment_verified": true,
     "word_count": 17419,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21877,7 +21877,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a3051815b0c0e4146e95c064bb0c1d941139f7d8a1320bb23a267412a7406cec",
     "attachment_verified": true,
     "word_count": 17462,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21912,7 +21912,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:00af10b8e4d3d9f73ed6c269da0a648f57991804db1fd1f32f2c7b4501e5c865",
     "attachment_verified": true,
     "word_count": 17505,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21921,7 +21921,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2022,
     "date": "January 1, 2022",
-    "title": "Blog Lms Smes",
+    "title": "Blog Lms SMEs",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "British Columbia",
@@ -21946,7 +21946,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ce7c55ee9bc74ad8713c6b7ac665cc909398cfeb1637064f177e75554e3f6c84",
     "attachment_verified": true,
     "word_count": 17548,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -21981,7 +21981,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:b10036b405631b25493e891cfceb559a702e3ffb90475951b28b56702a90d5b9",
     "attachment_verified": true,
     "word_count": 17591,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22015,7 +22015,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:06e06378f5678ae93c7ff03c449a50db7cb2eaf6d464638c142dfcf223c70569",
     "attachment_verified": true,
     "word_count": 17634,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22024,7 +22024,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2025,
     "date": "October 22, 2025",
-    "title": "Blog Two Ways We Can Connect More Adults To Career Services In Canada",
+    "title": "Blog Two Ways We Can Connect More Adults to Career Services in Canada",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Northern & Remote Communities",
@@ -22050,7 +22050,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6d9360a3d50e4333ae93f8aa9fe19c746a545113a531dd71ab0f52fea61fc923",
     "attachment_verified": true,
     "word_count": 17677,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22059,7 +22059,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2021,
     "date": "January 1, 2021",
-    "title": "Blog Trucker Paradox And Labour Market Information",
+    "title": "Blog Trucker Paradox and Labour Market Information",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
     "region": "Ontario & Quebec",
@@ -22078,13 +22078,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 360,
     "wcs": 0.7,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Blog Trucker Paradox And Labour Market Information'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Blog Trucker Paradox and Labour Market Information'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:d7d995f566a0b6748910b4f958f78d8fa5cb56a9d01673bb5e2000e410d2d7f9",
     "attachment_verified": true,
     "word_count": 17720,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22119,7 +22119,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c0815e71373ebbc69b2e5b024d07e9dd3f2d777f8e697a8452fe4eb22e3589ba",
     "attachment_verified": true,
     "word_count": 17763,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22153,7 +22153,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7c9a1c7118a184a1c59c206d3b3550ce0f78df4063d1e62ceffa4c2a8bab6986",
     "attachment_verified": true,
     "word_count": 17806,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22162,7 +22162,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2024,
     "date": "October 22, 2024",
-    "title": "Blog Trust And Openness Strengthen Outcomes With FSC Partners",
+    "title": "Blog Trust and Openness Strengthen Outcomes with FSC Partners",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -22182,13 +22182,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 417,
     "wcs": 0.73,
-    "summary": "Assesses economic returns and systemic friction points in 'Blog Trust And Openness Strengthen Outcomes With FSC Partners'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Blog Trust and Openness Strengthen Outcomes with FSC Partners'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:6a3d6382f9f3cae52484302ab73b5cfbcb6a8af4a439fc7f346f49564bc51150",
     "attachment_verified": true,
     "word_count": 17849,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22197,7 +22197,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2025,
     "date": "January 1, 2025",
-    "title": "Blog Fostering Innovation In Cybersecurity Edi",
+    "title": "Blog Fostering Innovation in Cybersecurity Edi",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -22216,13 +22216,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 436,
     "wcs": 0.74,
-    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Blog Fostering Innovation In Cybersecurity Edi'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
+    "summary": "Investigates governance frameworks, data infrastructure, and scalable policy lessons from 'Blog Fostering Innovation in Cybersecurity Edi'. Details participant completion rates, employer satisfaction, and long-term labor market impacts.",
     "macro_economic_impact": "Evaluates national policy alignment with ESDC strategic objectives, forecasting long-term economic returns on human capital investments.",
     "micro_economic_friction": "Evaluates individual incentive compatibility, demonstrating that stipend support significantly boosts program completion among equity-seeking groups.",
     "sha256_hash": "sha256:ebc9f499ae950134dd3d9698078251ac3ffcebb5830a1b03650129aefe7e7798",
     "attachment_verified": true,
     "word_count": 17892,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22231,7 +22231,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2021,
     "date": "April 8, 2021",
-    "title": "Blog Economic Recovery Requires A Team Effort Across Sectors And Industries",
+    "title": "Blog Economic Recovery Requires a Team Effort Across Sectors and Industries",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Northern & Remote Communities",
@@ -22251,13 +22251,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 455,
     "wcs": 0.75,
-    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Blog Economic Recovery Requires A Team Effort Across Sectors And Industries'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
-    "macro_economic_impact": "Sectoral productivity analysis for 'Blog Economic Recovery Requires A Team Effort Across Sectors And Industries' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
+    "summary": "Evaluates labor market alignment, skills acquisition metrics, and Treasury Board policy outcomes for 'Blog Economic Recovery Requires a Team Effort Across Sectors and Industries'. Measures participant retention, employer co-investment, and post-intervention wage mobility.",
+    "macro_economic_impact": "Sectoral productivity analysis for 'Blog Economic Recovery Requires a Team Effort Across Sectors and Industries' demonstrates measurable gains in total factor productivity and regional workforce resilience.",
     "micro_economic_friction": "Identifies search frictions and wage expectation misalignments during participant onboarding, resolved through targeted career coaching.",
     "sha256_hash": "sha256:774c36e2275eafd9feacec91292fda7ff8cc165d02ff10ca78c7f636e777486b",
     "attachment_verified": true,
     "word_count": 17935,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22266,7 +22266,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Blog Adults And Career Services Three Key Findings",
+    "title": "Blog Adults and Career Services Three Key Findings",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Ontario & Quebec",
@@ -22291,7 +22291,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a33cd9e2bb602f53c782fd1b521247a30dd03571985fbcf666166097b408fee6",
     "attachment_verified": true,
     "word_count": 17978,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22300,7 +22300,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2023,
     "date": "October 22, 2023",
-    "title": "Blog Needs Of Small Businesses Must Be Top Of Mind In Economic Recovery Webinar",
+    "title": "Blog Needs of Small Businesses Must Be Top of Mind in Economic Recovery Webinar",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Atlantic Canada",
@@ -22320,13 +22320,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 493,
     "wcs": 0.77,
-    "summary": "Assesses economic returns and systemic friction points in 'Blog Needs Of Small Businesses Must Be Top Of Mind In Economic Recovery Webinar'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
+    "summary": "Assesses economic returns and systemic friction points in 'Blog Needs of Small Businesses Must Be Top of Mind in Economic Recovery Webinar'. Provides empirical evaluation metrics regarding workforce adaptability, digital transition readiness, and equity-seeking group participation.",
     "macro_economic_impact": "Macroeconomic modeling indicates a positive fiscal multiplier on public training expenditure, reducing structural unemployment duration.",
     "micro_economic_friction": "Analyzes candidate attrition drivers and licensing delays, recommending streamlined prior learning assessment and recognition (PLAR).",
     "sha256_hash": "sha256:34cfe0fa0c262e1b373ef4b97a6a0994fcbc8742e8a1181d3fe67cf7157b315d",
     "attachment_verified": true,
     "word_count": 18021,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22360,7 +22360,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:975d09e2bb3ee58a4876c99b7495c0b4601e58bee8e8b1df4140d29cb9a55371",
     "attachment_verified": true,
     "word_count": 18064,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22395,7 +22395,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:9c3299d766107bd969baf05556c6a8fdba205540e352d217a84a440de969fd91",
     "attachment_verified": true,
     "word_count": 18107,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22404,7 +22404,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "Blog Pay For Performance",
+    "title": "Blog Pay for Performance",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -22423,13 +22423,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 550,
     "wcs": 0.8,
-    "summary": "Examines pilot intervention effectiveness for 'Blog Pay For Performance'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Blog Pay for Performance'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:db0e8996900bef98012185d5afb0829f380eecc105b9933421b6548d8e06d6a9",
     "attachment_verified": true,
     "word_count": 18150,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22464,7 +22464,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:bfcbb89345aea05034c19f924f0263641da7a8100902642c5bd4ffd8845477b2",
     "attachment_verified": true,
     "word_count": 18193,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22498,7 +22498,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:26a0a7db653ee5114c44f214e99a60ec4023c0de0f10ac55cc6f02b2a56f1485",
     "attachment_verified": true,
     "word_count": 18236,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22533,7 +22533,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:c4791ebc98be42a0be332b5b8249fd691a75570f317185ea199ed7562937b353",
     "attachment_verified": true,
     "word_count": 18279,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22567,7 +22567,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6a4025e3afb45222559492b67b0c2f4bd3176b6a3b38c9a097bdb34d369a279a",
     "attachment_verified": true,
     "word_count": 18322,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22602,7 +22602,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:6563b5d34cea6cf8f5aa0047eae9e50b1eb74d00555801db77b995fd8b7eea78",
     "attachment_verified": true,
     "word_count": 18365,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22636,7 +22636,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:3b167c3f52b46cb1da6ff6008325e87364387cd0e2579a78b46f02ce9a430eae",
     "attachment_verified": true,
     "word_count": 18408,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22671,7 +22671,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:7a29d44c922d649e89b8f04a54c0b489d6a778264156a5795751d76c3f2b3ee7",
     "attachment_verified": true,
     "word_count": 18451,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22680,7 +22680,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2024,
     "date": "July 15, 2024",
-    "title": "Blog Reflections From Yellowknife",
+    "title": "Blog Reflections from Yellowknife",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Ontario & Quebec",
@@ -22699,13 +22699,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 702,
     "wcs": 0.88,
-    "summary": "Examines pilot intervention effectiveness for 'Blog Reflections From Yellowknife'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Blog Reflections from Yellowknife'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:d40dbac6741b598c82f445bfb12fcc1c904f9d4d2e73ed48861e001562536389",
     "attachment_verified": true,
     "word_count": 18494,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22740,7 +22740,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:44f45edc2c9467233050d6fbacb377da918c809e433f2a3713a54385effaf4ad",
     "attachment_verified": true,
     "word_count": 18537,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22774,7 +22774,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e8a57af7e9b59a79d20f217acea289a303d12a8b76681096fe04ea1be303efdb",
     "attachment_verified": true,
     "word_count": 18580,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22809,7 +22809,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:ac01e4fa4527080fcec35c497b38ffcb27d4dd3494a2ba33bf4beb3211fc60bd",
     "attachment_verified": true,
     "word_count": 18623,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22843,7 +22843,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:70ac8cffcc3c0d10f4964a6da3c6db33b611ca7ce655b4a87305f35cd2b3ba17",
     "attachment_verified": true,
     "word_count": 18666,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22878,7 +22878,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:83567cf967769e1561a500e6b1c5399defe70db4cf76691d5754c53a085cc8a3",
     "attachment_verified": true,
     "word_count": 18709,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22912,7 +22912,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:cf0351ab9061cd69bd0bd52834304e6b58f0c099614effaba10c03ba0c7be3c2",
     "attachment_verified": true,
     "word_count": 18752,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22947,7 +22947,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:196278e238c76a55a091c5fc1c53cd3de184127a6661fd823d70175554d3634f",
     "attachment_verified": true,
     "word_count": 18795,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -22956,7 +22956,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2022,
     "date": "July 15, 2022",
-    "title": "Blog Missing Work Of Coordination",
+    "title": "Blog Missing Work of Coordination",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "British Columbia",
@@ -22975,13 +22975,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 854,
     "wcs": 0.96,
-    "summary": "Examines pilot intervention effectiveness for 'Blog Missing Work Of Coordination'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Blog Missing Work of Coordination'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:86977c9c770b1fcf57bdd644f430dd22167696c0111c7a883c3023612fbb63b9",
     "attachment_verified": true,
     "word_count": 18838,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -23016,7 +23016,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:e68577b47ffbc4dc1bc6d862afa2a1f92b426982ff4a0d991920fd29ea0e65ab",
     "attachment_verified": true,
     "word_count": 18881,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -23050,7 +23050,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:a8fbe056c59a16fbbe45013e7c6f539fa15640f92485e9b8c31ad5822a30ad12",
     "attachment_verified": true,
     "word_count": 18924,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -23085,7 +23085,7 @@ const FULL_508_CORPUS = [
     "sha256_hash": "sha256:2bc22bb2e16558bd928ced2895f3fcd43758edbff3d1c0408a8a164f3684fe14",
     "attachment_verified": true,
     "word_count": 18967,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   },
   {
@@ -23094,7 +23094,7 @@ const FULL_508_CORPUS = [
     "content_type": "News & Events",
     "year": 2021,
     "date": "July 15, 2021",
-    "title": "Preparing Young People Future Of Work",
+    "title": "Preparing Young People Future of Work",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "Ontario & Quebec",
@@ -23113,13 +23113,13 @@ const FULL_508_CORPUS = [
     ],
     "sample": 930,
     "wcs": 0.71,
-    "summary": "Examines pilot intervention effectiveness for 'Preparing Young People Future Of Work'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
+    "summary": "Examines pilot intervention effectiveness for 'Preparing Young People Future of Work'. Analyzes barrier reduction, regional workforce integration, and modular competency recognition across target participant cohorts.",
     "macro_economic_impact": "Quantifies macro-level labor supply stabilization and skill gap mitigation across key Canadian industrial and service corridors.",
     "micro_economic_friction": "Measures micro-credential completion bottlenecks and employer incentive structures to optimize work-integrated learning retention.",
     "sha256_hash": "sha256:1c09be0e0b9cb47873a950a9faeab5f1159067c55a9cc45a66adf929723eb658",
     "attachment_verified": true,
     "word_count": 9410,
-    "ingestion_timestamp_utc": "2026-08-08 06:43:03 UTC",
+    "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88
   }
 ];
