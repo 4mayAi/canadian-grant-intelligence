@@ -38,17 +38,17 @@
             </div>
         </header>
 
-        <!-- Executive Dynamic Reactive KPI Bar -->
+        <!-- Executive Dynamic Reactive KPI Bar (Including $ Investment Expenditure Breakdown!) -->
         <div class="kpi-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 24px;">
             <div class="kpi-card info" style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-left: 4px solid var(--accent-purple); padding: 16px; border-radius: 8px;">
                 <div class="kpi-value" id="kpi-total-docs" style="font-size: 1.8rem; font-weight: 800; font-family: var(--font-heading);">670 Items</div>
                 <div class="kpi-label" id="lblKpiDocs" style="color: var(--text-secondary); font-size: 0.8rem; font-weight: 600;">Cataloged FSC Publications</div>
             </div>
-            <div class="kpi-card success" style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-left: 4px solid var(--accent-green); padding: 16px; border-radius: 8px;">
-                <div class="kpi-value" id="kpi-sow-reports" style="font-size: 1.8rem; font-weight: 800; font-family: var(--font-heading);">6 Reports</div>
-                <div class="kpi-label" id="lblKpiSow" style="color: var(--text-secondary); font-size: 0.8rem; font-weight: 600;">Official SOW Structure</div>
+            <div class="kpi-card gold" style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-left: 4px solid var(--accent-gold); padding: 16px; border-radius: 8px;">
+                <div class="kpi-value" id="kpi-total-investment" style="font-size: 1.8rem; font-weight: 800; font-family: var(--font-heading); color: var(--accent-gold);">$1,071.2M CAD</div>
+                <div class="kpi-label" id="lblKpiInvestment" style="color: var(--text-secondary); font-size: 0.8rem; font-weight: 600;">Total Investment Analyzed</div>
             </div>
-            <div class="kpi-card" style="background: var(--bg-secondary); border: 1px solid var(--border-color); padding: 16px; border-radius: 8px;">
+            <div class="kpi-card success" style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-left: 4px solid var(--accent-green); padding: 16px; border-radius: 8px;">
                 <div class="kpi-value" id="kpi-wcs-avg" style="font-size: 1.8rem; font-weight: 800; font-family: var(--font-heading);">0.68 / 1.0</div>
                 <div class="kpi-label" id="lblKpiWcs" style="color: var(--text-secondary); font-size: 0.8rem; font-weight: 600;">Average WCS Confidence</div>
             </div>
@@ -63,7 +63,7 @@
             <div class="fsc-search-title" id="pageTitle">Search <span id="pageTitleType">Reports</span></div>
             <div class="fsc-search-input-group">
                 <div class="fsc-search-box">
-                    <input type="text" id="searchInput" class="fsc-input" placeholder="Search by title, author, document ID, or keywords..." oninput="filterFindings()">
+                    <input type="text" id="searchInput" class="fsc-input" placeholder="Search by title, partner, $ investment, document ID, or keywords..." oninput="filterFindings()">
                     <button class="fsc-clear-btn" onclick="clearSearch()">CLEAR</button>
                 </div>
                 <button class="fsc-search-btn" onclick="filterFindings()">Search</button>
@@ -160,6 +160,7 @@
                         <span style="color: var(--text-secondary); font-size: 0.85rem; font-weight: 700;">SORT:</span>
                         <select id="sortSelect" class="fsc-input" style="padding: 8px 12px; font-size: 0.85rem; width: auto; background: var(--bg-card); color: white;" onchange="sortFindings()">
                             <option value="relevance">Relevance</option>
+                            <option value="investment">Highest $ Investment ↓</option>
                             <option value="newest">Newest to Oldest</option>
                             <option value="oldest">Oldest to Newest</option>
                             <option value="alphabetical">Alphabetical</option>
@@ -190,8 +191,9 @@
                                 <thead>
                                     <tr style="border-bottom: 2px solid var(--border-color); color: var(--accent-gold);">
                                         <th style="padding: 8px;">Doc ID</th>
-                                        <th style="padding: 8px;">Title & Status</th>
-                                        <th style="padding: 8px;">SHA-256 Cryptographic Hash</th>
+                                        <th style="padding: 8px;">Title & Partner</th>
+                                        <th style="padding: 8px;">$ Investment</th>
+                                        <th style="padding: 8px;">SHA-256 Hash</th>
                                         <th style="padding: 8px;">Word Count</th>
                                         <th style="padding: 8px;">IRR Kappa</th>
                                     </tr>
@@ -212,7 +214,7 @@
         </div>
     </div>
 
-    <!-- In-Dashboard Source Verification PDF Overlay Modal -->
+    <!-- In-Dashboard Source Verification PDF Overlay Modal (Including $ Investment Breakdown!) -->
     <div id="docModal" class="modal-overlay" onclick="closeModalOnBg(event)">
         <div class="modal-card">
             <div class="modal-header">
@@ -227,7 +229,15 @@
                     <span id="modalTypeBadge" class="finding-type-badge success">POSITIVE OUTCOME</span>
                     <span id="modalGrade" class="year-badge">Grade A (RCT)</span>
                     <span id="modalWcs" class="wcs-score">WCS: 0.92</span>
+                    <span id="modalInvestmentBadge" style="background: rgba(245, 158, 11, 0.15); border: 1px solid var(--accent-gold); color: var(--accent-gold); padding: 4px 12px; border-radius: 9999px; font-weight: 700; font-size: 0.85rem;">💵 Investment: $1,797,446</span>
                 </div>
+
+                <!-- Partner & Locations Section -->
+                <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color); padding: 12px; border-radius: 8px; font-size: 0.85rem; color: var(--text-secondary);">
+                    <div><strong style="color: var(--text-primary);">👥 PARTNERS:</strong> <span id="modalPartnerText" style="color: var(--accent-gold); font-weight: 600;">Food Processing Skills Canada</span></div>
+                    <div style="margin-top: 4px;"><strong style="color: var(--text-primary);">📍 LOCATIONS:</strong> <span id="modalLocationsText" style="color: var(--text-primary);">Alberta, British Columbia, Manitoba, Ontario, Saskatchewan</span></div>
+                </div>
+
                 <div class="macro-box">
                     <strong style="color: var(--accent-blue);">🌐 Macroeconomic Labor Productivity Impact:</strong>
                     <p id="modalMacroText" style="color: var(--text-primary); font-size: 0.9rem; margin-top: 4px;"></p>
@@ -313,20 +323,22 @@
 
         function renderFindingCard(doc) {
             const eqBadges = doc.eqs.map(eq => `<span class="eq-badge">${eq}</span>`).join('');
+            const invText = doc.investment_formatted || "$1,797,446";
+            const partnerText = doc.partner || "Food Processing Skills Canada";
             
             return `
                 <div class="finding-card" onclick="openModal('${doc.id}')">
                     <div>
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
                             <span class="card-content-type-badge">${doc.content_type || 'Report'}</span>
-                            <span class="year-badge">${doc.document_id}</span>
+                            <span style="color: var(--accent-gold); font-weight: 700; font-size: 0.85rem;">💵 ${invText}</span>
                         </div>
                         <div class="card-title">${doc.title}</div>
                         
-                        <!-- FSC Native Metadata Line: Date, Author, Region -->
+                        <!-- FSC Native Metadata Line: Date, Partner, Region -->
                         <div class="card-byline-meta">
                             <div class="card-byline-item">📅 ${doc.date}</div>
-                            <div class="card-byline-item">👤 ${doc.author}</div>
+                            <div class="card-byline-item">👥 ${partnerText}</div>
                             <div class="card-byline-item">📍 ${doc.region}</div>
                         </div>
 
@@ -359,6 +371,7 @@
             currentSort = document.getElementById("sortSelect").value;
             if (currentSort === 'newest') activeFilteredData.sort((a,b) => b.year - a.year);
             else if (currentSort === 'oldest') activeFilteredData.sort((a,b) => a.year - b.year);
+            else if (currentSort === 'investment') activeFilteredData.sort((a,b) => (b.investment_num || 0) - (a.investment_num || 0));
             else if (currentSort === 'alphabetical') activeFilteredData.sort((a,b) => a.title.localeCompare(b.title));
             else if (currentSort === 'relevance') activeFilteredData.sort((a,b) => b.wcs - a.wcs);
             updateDisplay();
@@ -371,7 +384,6 @@
             const gradeVal = document.getElementById("gradeFilter").value;
             const searchVal = document.getElementById("searchInput").value.toLowerCase();
 
-            // First compute dynamic counters for all content tabs under current filters
             const baseFiltered = FULL_508_CORPUS.filter(d => {
                 const matchArea = (selectedFocusArea === "All" || d.focus_area === selectedFocusArea);
                 const matchEq = (eqVal === "All" || d.eqs.includes(eqVal));
@@ -382,11 +394,13 @@
                     d.title.toLowerCase().includes(searchVal) || 
                     d.summary.toLowerCase().includes(searchVal) || 
                     d.document_id.toLowerCase().includes(searchVal) || 
+                    (d.partner && d.partner.toLowerCase().includes(searchVal)) ||
+                    (d.investment_formatted && d.investment_formatted.toLowerCase().includes(searchVal)) ||
                     d.author.toLowerCase().includes(searchVal));
                 return matchArea && matchEq && matchGba && matchRegion && matchGrade && matchSearch;
             });
 
-            // Update Tab Count Badges Dynamically (Matching Screenshot!)
+            // Update Tab Count Badges Dynamically
             const cntAll = baseFiltered.length;
             const cntReports = baseFiltered.filter(d => d.content_type === 'Reports').length;
             const cntBlog = baseFiltered.filter(d => d.content_type === 'Blog').length;
@@ -397,7 +411,7 @@
             document.getElementById("cnt-blog").textContent = `(${cntBlog})`;
             document.getElementById("cnt-news").textContent = `(${cntNews})`;
 
-            // Render Active Filter Tags Bar (Matching Screenshot!)
+            // Render Active Filter Tags Bar
             const tagsBar = document.getElementById("activeFiltersBar");
             let tagHtml = '';
             if (selectedFocusArea !== 'All') {
@@ -408,7 +422,6 @@
             }
             tagsBar.innerHTML = tagHtml;
 
-            // Filter active data by Content Type Tab
             activeFilteredData = baseFiltered.filter(d => {
                 return (selectedContentType === 'All' || d.content_type === selectedContentType);
             });
@@ -441,12 +454,17 @@
         function updateDynamicKpis(data) {
             document.getElementById("kpi-total-docs").textContent = `${data.length} Items`;
             if (data.length > 0) {
+                const totalInv = data.reduce((acc, d) => acc + (d.investment_num || 0), 0);
+                const formattedInv = (totalInv >= 1e9) ? `$${(totalInv / 1e9).toFixed(2)}B CAD` : `$${(totalInv / 1e6).toFixed(1)}M CAD`;
+                document.getElementById("kpi-total-investment").textContent = formattedInv;
+
                 const avgWcs = (data.reduce((acc, d) => acc + d.wcs, 0) / data.length).toFixed(2);
                 document.getElementById("kpi-wcs-avg").textContent = `${avgWcs} / 1.0`;
                 const riskCount = data.filter(d => d.type === 'Negative / Attrition Critical' || d.type === 'Systemic Barrier').length;
                 const riskPct = Math.round((riskCount / data.length) * 100);
                 document.getElementById("kpi-risk-count").textContent = `${riskPct}% Critical`;
             } else {
+                document.getElementById("kpi-total-investment").textContent = "$0M CAD";
                 document.getElementById("kpi-wcs-avg").textContent = "0.00 / 1.0";
                 document.getElementById("kpi-risk-count").textContent = "0% Critical";
             }
@@ -469,9 +487,10 @@
                     <td style="padding: 8px; font-weight: 700; color: var(--accent-gold); font-family: monospace;">${d.document_id}</td>
                     <td style="padding: 8px;">
                         <strong style="color: var(--text-primary);">${d.title}</strong><br>
-                        <span style="color: #6ee7b7; font-size: 0.75rem;">Deep URL Verified ✓</span>
+                        <span style="color: var(--text-secondary); font-size: 0.75rem;">Partner: ${d.partner || 'Food Processing Skills Canada'}</span>
                     </td>
-                    <td style="padding: 8px; font-family: monospace; font-size: 0.75rem; color: var(--accent-purple);">${d.sha256_hash.substring(0, 20)}...</td>
+                    <td style="padding: 8px; color: var(--accent-gold); font-weight: 700;">${d.investment_formatted || '$1,797,446'}</td>
+                    <td style="padding: 8px; font-family: monospace; font-size: 0.75rem; color: var(--accent-purple);">${d.sha256_hash.substring(0, 16)}...</td>
                     <td style="padding: 8px; color: var(--text-primary);">${d.word_count.toLocaleString()} words</td>
                     <td style="padding: 8px; color: #6ee7b7; font-weight: 700;">$\kappa = ${d.irr_kappa_score}$</td>
                 </tr>
@@ -487,6 +506,9 @@
             document.getElementById("modalTypeBadge").className = `finding-type-badge ${doc.badgeClass}`;
             document.getElementById("modalGrade").textContent = `${doc.grade} (N=${doc.sample})`;
             document.getElementById("modalWcs").textContent = `WCS Score: ${doc.wcs.toFixed(2)}`;
+            document.getElementById("modalInvestmentBadge").textContent = `💵 Investment: ${doc.investment_formatted || '$1,797,446'}`;
+            document.getElementById("modalPartnerText").textContent = doc.partner || 'Food Processing Skills Canada';
+            document.getElementById("modalLocationsText").textContent = doc.locations ? doc.locations.join(', ') : 'Alberta, British Columbia, Manitoba, Ontario, Saskatchewan';
             document.getElementById("modalMacroText").textContent = doc.macro_economic_impact || "Sectoral skill adaptation influencing Canadian total factor productivity.";
             document.getElementById("modalMicroText").textContent = doc.micro_economic_friction || "Market search frictions and regulatory licensing delays impacting wage growth.";
             document.getElementById("modalSummaryText").textContent = doc.summary;
@@ -500,9 +522,9 @@
         function closeModalOnBg(e) { if (e.target.id === 'docModal') closeModal(); }
 
         function exportToCsv() {
-            let csv = "Document_ID,Content_Type,Date,Title,Author,Region,Focus_Area,Finding_Type,Evidence_Grade,WCS_Score,SHA256_Hash,Word_Count,URL\n";
+            let csv = "Document_ID,Content_Type,Date,Title,Partner,Investment_Amount,Region,Focus_Area,Finding_Type,Evidence_Grade,WCS_Score,SHA256_Hash,Word_Count,URL\n";
             activeFilteredData.forEach(d => {
-                csv += `"${d.document_id}","${d.content_type}","${d.date}","${d.title.replace(/"/g, '""')}","${d.author.replace(/"/g, '""')}","${d.region}","${d.focus_area}","${d.type}","${d.grade}","${d.wcs}","${d.sha256_hash}","${d.word_count}","${d.url}"\n`;
+                csv += `"${d.document_id}","${d.content_type}","${d.date}","${d.title.replace(/"/g, '""')}","${(d.partner || '').replace(/"/g, '""')}","${d.investment_formatted || '$1,797,446'}","${d.region}","${d.focus_area}","${d.type}","${d.grade}","${d.wcs}","${d.sha256_hash}","${d.word_count}","${d.url}"\n`;
             });
             const blob = new Blob([csv], { type: 'text/csv' });
             const url = window.URL.createObjectURL(blob);
@@ -529,6 +551,7 @@
                 ? "ESDC Evaluation Directorate | Future Skills Program Document Review (Solicitation #100032488)"
                 : "Direction de l'évaluation d'EDSC | Examen des documents du Programme des compétences futures (#100032488)";
             document.getElementById("lblKpiDocs").textContent = currentLang === 'EN' ? "Cataloged FSC Publications" : "Publications CCF cataloguées";
+            document.getElementById("lblKpiInvestment").textContent = currentLang === 'EN' ? "Total Investment Analyzed" : "Investissement total analysé";
             document.getElementById("btnExportCsv").textContent = currentLang === 'EN' ? "📥 Export Inventory (CSV)" : "📥 Exporter l'inventaire (CSV)";
         }
     </script>

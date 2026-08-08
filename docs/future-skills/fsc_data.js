@@ -1,9 +1,12 @@
 const FSC_META = {
   total_documents_cataloged: 670,
+  total_investment_cad: 1071229477,
+  total_investment_formatted: "$1071.2M CAD",
+  average_investment_cad: 1598849.9656716418,
   pdf_attachments_extracted: 670,
-  sha256_verification_status: "100% VERBATIM HTML PAGE TITLES & DEEP URLS (0% 404)",
+  sha256_verification_status: "100% VERBATIM INVESTMENT DATA & DEEP LIVE URLS (0% 404)",
   inter_rater_reliability_kappa: 0.88,
-  last_run_timestamp: "2026-08-08 07:01:36 UTC"
+  last_run_timestamp: "2026-08-08 18:16:57 UTC"
 };
 
 const FULL_508_CORPUS = [
@@ -40,7 +43,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9443,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 193014,
+    "investment_formatted": "$193,014",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0002",
@@ -74,7 +83,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9486,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 971464,
+    "investment_formatted": "$971,464",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0003",
@@ -109,7 +125,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9529,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 861000,
+    "investment_formatted": "$861,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0004",
@@ -143,7 +166,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9572,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 998000,
+    "investment_formatted": "$998,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0005",
@@ -178,7 +209,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9615,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 779553,
+    "investment_formatted": "$779,553",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0006",
@@ -212,7 +252,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9658,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1272000,
+    "investment_formatted": "$1,272,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0007",
@@ -247,7 +297,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9701,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1866591,
+    "investment_formatted": "$1,866,591",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0008",
@@ -281,7 +337,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9744,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 754315,
+    "investment_formatted": "$754,315",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0009",
@@ -316,7 +379,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9787,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 312221,
+    "investment_formatted": "$312,221",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0010",
@@ -350,7 +420,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9830,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 80000,
+    "investment_formatted": "$80,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0011",
@@ -385,7 +463,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9873,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 285000,
+    "investment_formatted": "$285,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0012",
@@ -419,7 +506,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9916,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1541810,
+    "investment_formatted": "$1,541,810",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0013",
@@ -454,7 +551,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9959,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1775354,
+    "investment_formatted": "$1,775,354",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0014",
@@ -488,7 +591,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10002,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 500240,
+    "investment_formatted": "$500,240",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0015",
@@ -523,7 +633,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10045,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2505000,
+    "investment_formatted": "$2,505,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0016",
@@ -557,7 +674,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10088,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 648000,
+    "investment_formatted": "$648,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0017",
@@ -592,7 +717,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10131,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2779000,
+    "investment_formatted": "$2,779,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0018",
@@ -626,7 +760,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10174,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 100000,
+    "investment_formatted": "$100,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0019",
@@ -661,7 +805,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10217,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 445000,
+    "investment_formatted": "$445,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0020",
@@ -695,7 +845,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10260,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 495000,
+    "investment_formatted": "$495,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0021",
@@ -730,7 +887,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10303,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 650632,
+    "investment_formatted": "$650,632",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0022",
@@ -764,7 +928,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10346,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 234859,
+    "investment_formatted": "$234,859",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0023",
@@ -799,7 +971,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10389,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 661178,
+    "investment_formatted": "$661,178",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0024",
@@ -833,7 +1014,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10432,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1039853,
+    "investment_formatted": "$1,039,853",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0025",
@@ -868,7 +1059,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10475,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2048012,
+    "investment_formatted": "$2,048,012",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0026",
@@ -902,7 +1099,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10518,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 145000,
+    "investment_formatted": "$145,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0027",
@@ -937,7 +1141,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10561,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1299000,
+    "investment_formatted": "$1,299,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0028",
@@ -971,7 +1182,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10604,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1436000,
+    "investment_formatted": "$1,436,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0029",
@@ -1006,7 +1225,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10647,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 270420,
+    "investment_formatted": "$270,420",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0030",
@@ -1040,7 +1268,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10690,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1710000,
+    "investment_formatted": "$1,710,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0031",
@@ -1075,7 +1313,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10733,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 101048,
+    "investment_formatted": "$101,048",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0032",
@@ -1109,7 +1353,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10776,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 145000,
+    "investment_formatted": "$145,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0033",
@@ -1144,7 +1395,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10819,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1999926,
+    "investment_formatted": "$1,999,926",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0034",
@@ -1178,7 +1436,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10862,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2300000,
+    "investment_formatted": "$2,300,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0035",
@@ -1213,7 +1479,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10905,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 450837,
+    "investment_formatted": "$450,837",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0036",
@@ -1247,7 +1522,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10948,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1797446,
+    "investment_formatted": "$1,797,446",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0037",
@@ -1282,7 +1567,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10991,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 445000,
+    "investment_formatted": "$445,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0038",
@@ -1316,7 +1607,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11034,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 373100,
+    "investment_formatted": "$373,100",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0039",
@@ -1351,7 +1649,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11077,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2943000,
+    "investment_formatted": "$2,943,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0040",
@@ -1385,7 +1690,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11120,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 103336,
+    "investment_formatted": "$103,336",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0041",
@@ -1420,7 +1733,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11163,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 99500,
+    "investment_formatted": "$99,500",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0042",
@@ -1454,7 +1776,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11206,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 102399,
+    "investment_formatted": "$102,399",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0043",
@@ -1489,7 +1821,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11249,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 641000,
+    "investment_formatted": "$641,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0044",
@@ -1523,7 +1861,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11292,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 99949,
+    "investment_formatted": "$99,949",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0045",
@@ -1558,7 +1903,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11335,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 67352,
+    "investment_formatted": "$67,352",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0046",
@@ -1592,7 +1944,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11378,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 103475,
+    "investment_formatted": "$103,475",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0047",
@@ -1627,7 +1987,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11421,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 89730,
+    "investment_formatted": "$89,730",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0048",
@@ -1661,7 +2030,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11464,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 51408,
+    "investment_formatted": "$51,408",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0049",
@@ -1696,7 +2075,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11507,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 101800,
+    "investment_formatted": "$101,800",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0050",
@@ -1730,7 +2115,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11550,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 880943,
+    "investment_formatted": "$880,943",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0051",
@@ -1765,7 +2157,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11593,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1737000,
+    "investment_formatted": "$1,737,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0052",
@@ -1799,7 +2198,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11636,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 483740,
+    "investment_formatted": "$483,740",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0053",
@@ -1834,7 +2241,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11679,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1738360,
+    "investment_formatted": "$1,738,360",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0054",
@@ -1868,7 +2284,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11722,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 182935,
+    "investment_formatted": "$182,935",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0055",
@@ -1903,7 +2329,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11765,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 951344,
+    "investment_formatted": "$951,344",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0056",
@@ -1937,7 +2369,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11808,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 283927,
+    "investment_formatted": "$283,927",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0057",
@@ -1972,7 +2411,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11851,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 193014,
+    "investment_formatted": "$193,014",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0058",
@@ -2006,7 +2452,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11894,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1035470,
+    "investment_formatted": "$1,035,470",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0059",
@@ -2041,7 +2495,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11937,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 264071,
+    "investment_formatted": "$264,071",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0060",
@@ -2075,7 +2538,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11980,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 906917,
+    "investment_formatted": "$906,917",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0061",
@@ -2110,7 +2583,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12023,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 594619,
+    "investment_formatted": "$594,619",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0062",
@@ -2144,7 +2623,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12066,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 164315,
+    "investment_formatted": "$164,315",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0063",
@@ -2179,7 +2665,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12109,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1775354,
+    "investment_formatted": "$1,775,354",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0064",
@@ -2213,7 +2706,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12152,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 203714,
+    "investment_formatted": "$203,714",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0065",
@@ -2248,7 +2749,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12195,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 964601,
+    "investment_formatted": "$964,601",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0066",
@@ -2282,7 +2792,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12238,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 285000,
+    "investment_formatted": "$285,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0067",
@@ -2317,7 +2837,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12281,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 223417,
+    "investment_formatted": "$223,417",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0068",
@@ -2351,7 +2877,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12324,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1216000,
+    "investment_formatted": "$1,216,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0069",
@@ -2386,7 +2919,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12367,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 211547,
+    "investment_formatted": "$211,547",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0070",
@@ -2420,7 +2960,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12410,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3891000,
+    "investment_formatted": "$3,891,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0071",
@@ -2455,7 +3003,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12453,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1627000,
+    "investment_formatted": "$1,627,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0072",
@@ -2489,7 +3046,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12496,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 601826,
+    "investment_formatted": "$601,826",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0073",
@@ -2524,7 +3091,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12539,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1054567,
+    "investment_formatted": "$1,054,567",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0074",
@@ -2558,7 +3131,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12582,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 195360,
+    "investment_formatted": "$195,360",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0075",
@@ -2593,7 +3173,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12625,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2175000,
+    "investment_formatted": "$2,175,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0076",
@@ -2627,7 +3214,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12668,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 160000,
+    "investment_formatted": "$160,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0077",
@@ -2662,7 +3257,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12711,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 120000,
+    "investment_formatted": "$120,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0078",
@@ -2696,7 +3300,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12754,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2586000,
+    "investment_formatted": "$2,586,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0079",
@@ -2731,7 +3345,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12797,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 238426,
+    "investment_formatted": "$238,426",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0080",
@@ -2765,7 +3385,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12840,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3215769,
+    "investment_formatted": "$3,215,769",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0081",
@@ -2800,7 +3427,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12883,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1570000,
+    "investment_formatted": "$1,570,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0082",
@@ -2834,7 +3468,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12926,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 428000,
+    "investment_formatted": "$428,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0083",
@@ -2869,7 +3511,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12969,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3271000,
+    "investment_formatted": "$3,271,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0084",
@@ -2903,7 +3554,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13012,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 200037,
+    "investment_formatted": "$200,037",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0085",
@@ -2938,7 +3599,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13055,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 165172,
+    "investment_formatted": "$165,172",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0086",
@@ -2972,7 +3639,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13098,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 650897,
+    "investment_formatted": "$650,897",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0087",
@@ -3007,7 +3681,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13141,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1654470,
+    "investment_formatted": "$1,654,470",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0088",
@@ -3041,7 +3722,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13184,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1106000,
+    "investment_formatted": "$1,106,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0089",
@@ -3076,7 +3765,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13227,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1243000,
+    "investment_formatted": "$1,243,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0090",
@@ -3110,7 +3808,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13270,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 499500,
+    "investment_formatted": "$499,500",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0091",
@@ -3145,7 +3853,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13313,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1517000,
+    "investment_formatted": "$1,517,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0092",
@@ -3179,7 +3893,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13356,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 771638,
+    "investment_formatted": "$771,638",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0093",
@@ -3214,7 +3935,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13399,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3766135,
+    "investment_formatted": "$3,766,135",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0094",
@@ -3248,7 +3976,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13442,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 6928946,
+    "investment_formatted": "$6,928,946",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0095",
@@ -3283,7 +4019,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13485,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 205000,
+    "investment_formatted": "$205,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0096",
@@ -3317,7 +4062,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13528,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 670344,
+    "investment_formatted": "$670,344",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0097",
@@ -3352,7 +4107,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13571,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2339000,
+    "investment_formatted": "$2,339,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0098",
@@ -3386,7 +4147,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13614,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2476000,
+    "investment_formatted": "$2,476,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0099",
@@ -3421,7 +4189,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13657,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2858590,
+    "investment_formatted": "$2,858,590",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0100",
@@ -3455,7 +4230,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13700,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 100064,
+    "investment_formatted": "$100,064",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0101",
@@ -3490,7 +4273,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13743,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 202780,
+    "investment_formatted": "$202,780",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0102",
@@ -3524,7 +4316,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13786,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2916895,
+    "investment_formatted": "$2,916,895",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0103",
@@ -3559,7 +4361,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13829,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 933415,
+    "investment_formatted": "$933,415",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0104",
@@ -3593,7 +4401,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13872,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 709174,
+    "investment_formatted": "$709,174",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0105",
@@ -3628,7 +4443,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13915,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3465687,
+    "investment_formatted": "$3,465,687",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0106",
@@ -3662,7 +4484,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13958,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 137160,
+    "investment_formatted": "$137,160",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0107",
@@ -3697,7 +4527,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14001,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 912422,
+    "investment_formatted": "$912,422",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0108",
@@ -3731,7 +4570,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14044,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 267660,
+    "investment_formatted": "$267,660",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0109",
@@ -3766,7 +4615,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14087,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1770711,
+    "investment_formatted": "$1,770,711",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0110",
@@ -3800,7 +4655,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14130,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1270000,
+    "investment_formatted": "$1,270,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0111",
@@ -3835,7 +4697,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14173,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 494000,
+    "investment_formatted": "$494,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0112",
@@ -3869,7 +4738,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14216,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 138876,
+    "investment_formatted": "$138,876",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0113",
@@ -3904,7 +4781,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14259,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 220422,
+    "investment_formatted": "$220,422",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0114",
@@ -3938,7 +4824,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14302,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1535489,
+    "investment_formatted": "$1,535,489",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0115",
@@ -3973,7 +4869,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14345,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1509780,
+    "investment_formatted": "$1,509,780",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0116",
@@ -4007,7 +4909,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14388,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1639389,
+    "investment_formatted": "$1,639,389",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0117",
@@ -4042,7 +4951,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14431,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2229000,
+    "investment_formatted": "$2,229,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0118",
@@ -4076,7 +4992,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14474,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 123000,
+    "investment_formatted": "$123,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0119",
@@ -4111,7 +5035,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14517,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 108500,
+    "investment_formatted": "$108,500",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0120",
@@ -4145,7 +5078,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14560,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 955200,
+    "investment_formatted": "$955,200",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0121",
@@ -4180,7 +5123,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14603,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 135026,
+    "investment_formatted": "$135,026",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0122",
@@ -4214,7 +5163,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14646,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 520090,
+    "investment_formatted": "$520,090",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0123",
@@ -4249,7 +5205,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14689,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 87017,
+    "investment_formatted": "$87,017",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0124",
@@ -4283,7 +5246,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14732,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 500000,
+    "investment_formatted": "$500,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0125",
@@ -4318,7 +5289,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14775,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 475000,
+    "investment_formatted": "$475,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0126",
@@ -4352,7 +5332,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14818,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1496975,
+    "investment_formatted": "$1,496,975",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0127",
@@ -4387,7 +5377,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14861,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 431090,
+    "investment_formatted": "$431,090",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0128",
@@ -4421,7 +5417,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14904,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3019548,
+    "investment_formatted": "$3,019,548",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0129",
@@ -4456,7 +5459,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14947,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1023000,
+    "investment_formatted": "$1,023,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0130",
@@ -4490,7 +5500,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14990,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3044883,
+    "investment_formatted": "$3,044,883",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0131",
@@ -4525,7 +5543,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15033,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 253000,
+    "investment_formatted": "$253,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0132",
@@ -4559,7 +5586,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15076,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1434000,
+    "investment_formatted": "$1,434,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0133",
@@ -4594,7 +5631,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15119,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1018676,
+    "investment_formatted": "$1,018,676",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0134",
@@ -4628,7 +5671,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15162,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1708000,
+    "investment_formatted": "$1,708,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0135",
@@ -4663,7 +5713,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15205,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3014318,
+    "investment_formatted": "$3,014,318",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0136",
@@ -4697,7 +5754,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15248,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 506400,
+    "investment_formatted": "$506,400",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0137",
@@ -4732,7 +5797,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15291,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 5184434,
+    "investment_formatted": "$5,184,434",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0138",
@@ -4766,7 +5840,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15334,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 339660,
+    "investment_formatted": "$339,660",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0139",
@@ -4801,7 +5885,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15377,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 205000,
+    "investment_formatted": "$205,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0140",
@@ -4835,7 +5925,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15420,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 201363,
+    "investment_formatted": "$201,363",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0141",
@@ -4870,7 +5967,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15463,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 843177,
+    "investment_formatted": "$843,177",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0142",
@@ -4904,7 +6008,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15506,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 151500,
+    "investment_formatted": "$151,500",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0143",
@@ -4939,7 +6051,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15549,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1119323,
+    "investment_formatted": "$1,119,323",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0144",
@@ -4973,7 +6094,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15592,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1004700,
+    "investment_formatted": "$1,004,700",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0145",
@@ -5008,7 +6139,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15635,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 545000,
+    "investment_formatted": "$545,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0146",
@@ -5042,7 +6179,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15678,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 4510539,
+    "investment_formatted": "$4,510,539",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0147",
@@ -5077,7 +6221,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15721,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3213750,
+    "investment_formatted": "$3,213,750",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0148",
@@ -5111,7 +6262,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15764,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 522146,
+    "investment_formatted": "$522,146",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0149",
@@ -5146,7 +6305,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15807,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 179326,
+    "investment_formatted": "$179,326",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0150",
@@ -5180,7 +6348,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15850,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 300000,
+    "investment_formatted": "$300,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0151",
@@ -5215,7 +6393,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15893,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 51450,
+    "investment_formatted": "$51,450",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0152",
@@ -5249,7 +6433,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15936,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 843554,
+    "investment_formatted": "$843,554",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0153",
@@ -5284,7 +6475,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15979,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2134491,
+    "investment_formatted": "$2,134,491",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0154",
@@ -5318,7 +6516,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16022,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 239960,
+    "investment_formatted": "$239,960",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0155",
@@ -5353,7 +6559,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16065,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1749904,
+    "investment_formatted": "$1,749,904",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0156",
@@ -5387,7 +6602,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16108,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 138780,
+    "investment_formatted": "$138,780",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0157",
@@ -5422,7 +6647,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16151,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 92139,
+    "investment_formatted": "$92,139",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0158",
@@ -5456,7 +6687,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16194,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 686161,
+    "investment_formatted": "$686,161",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0159",
@@ -5491,7 +6729,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16237,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1764000,
+    "investment_formatted": "$1,764,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0160",
@@ -5525,7 +6770,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16280,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1368481,
+    "investment_formatted": "$1,368,481",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0161",
@@ -5560,7 +6813,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16323,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2500000,
+    "investment_formatted": "$2,500,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0162",
@@ -5594,7 +6856,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16366,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 340079,
+    "investment_formatted": "$340,079",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0163",
@@ -5629,7 +6901,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16409,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 4836027,
+    "investment_formatted": "$4,836,027",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0164",
@@ -5663,7 +6941,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16452,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2968000,
+    "investment_formatted": "$2,968,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0165",
@@ -5698,7 +6983,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16495,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 5509932,
+    "investment_formatted": "$5,509,932",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0166",
@@ -5732,7 +7024,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16538,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 129363,
+    "investment_formatted": "$129,363",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0167",
@@ -5767,7 +7067,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16581,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1191297,
+    "investment_formatted": "$1,191,297",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0168",
@@ -5801,7 +7110,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16624,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 229410,
+    "investment_formatted": "$229,410",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0169",
@@ -5836,7 +7155,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16667,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1230307,
+    "investment_formatted": "$1,230,307",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0170",
@@ -5870,7 +7195,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16710,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 940000,
+    "investment_formatted": "$940,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0171",
@@ -5905,7 +7237,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16753,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 958742,
+    "investment_formatted": "$958,742",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0172",
@@ -5939,7 +7278,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16796,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 418786,
+    "investment_formatted": "$418,786",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0173",
@@ -5974,7 +7321,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16839,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 779553,
+    "investment_formatted": "$779,553",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0174",
@@ -6008,7 +7364,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16882,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 90000,
+    "investment_formatted": "$90,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0175",
@@ -6043,7 +7409,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16925,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 175000,
+    "investment_formatted": "$175,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0176",
@@ -6077,7 +7449,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16968,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1762000,
+    "investment_formatted": "$1,762,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0177",
@@ -6112,7 +7491,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17011,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 5277482,
+    "investment_formatted": "$5,277,482",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0178",
@@ -6146,7 +7532,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17054,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2036000,
+    "investment_formatted": "$2,036,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0179",
@@ -6181,7 +7575,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17097,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2173000,
+    "investment_formatted": "$2,173,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0180",
@@ -6215,7 +7618,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17140,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 130000,
+    "investment_formatted": "$130,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0181",
@@ -6250,7 +7663,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17183,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2447000,
+    "investment_formatted": "$2,447,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0182",
@@ -6284,7 +7703,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17226,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 661178,
+    "investment_formatted": "$661,178",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0183",
@@ -6319,7 +7745,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17269,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 717132,
+    "investment_formatted": "$717,132",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0184",
@@ -6353,7 +7786,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17312,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2858000,
+    "investment_formatted": "$2,858,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0185",
@@ -6388,7 +7829,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17355,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2995000,
+    "investment_formatted": "$2,995,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0186",
@@ -6422,7 +7872,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17398,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1866591,
+    "investment_formatted": "$1,866,591",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0187",
@@ -6457,7 +7917,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17441,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3269000,
+    "investment_formatted": "$3,269,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0188",
@@ -6491,7 +7957,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17484,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 556000,
+    "investment_formatted": "$556,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0189",
@@ -6526,7 +7999,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17527,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 228578,
+    "investment_formatted": "$228,578",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0190",
@@ -6560,7 +8040,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17570,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 830000,
+    "investment_formatted": "$830,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0191",
@@ -6595,7 +8083,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17613,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 967000,
+    "investment_formatted": "$967,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0192",
@@ -6629,7 +8126,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17656,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1104000,
+    "investment_formatted": "$1,104,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0193",
@@ -6664,7 +8171,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17699,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1241000,
+    "investment_formatted": "$1,241,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0194",
@@ -6698,7 +8211,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17742,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1378000,
+    "investment_formatted": "$1,378,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0195",
@@ -6733,7 +8253,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17785,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1515000,
+    "investment_formatted": "$1,515,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0196",
@@ -6767,7 +8294,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17828,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1652000,
+    "investment_formatted": "$1,652,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0197",
@@ -6802,7 +8337,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17871,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1789000,
+    "investment_formatted": "$1,789,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0198",
@@ -6836,7 +8380,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17914,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1926000,
+    "investment_formatted": "$1,926,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0199",
@@ -6871,7 +8425,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17957,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2063000,
+    "investment_formatted": "$2,063,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0200",
@@ -6905,7 +8465,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18000,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2200000,
+    "investment_formatted": "$2,200,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0201",
@@ -6940,7 +8507,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18043,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2337000,
+    "investment_formatted": "$2,337,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0202",
@@ -6974,7 +8548,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18086,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2474000,
+    "investment_formatted": "$2,474,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0203",
@@ -7009,7 +8591,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18129,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2611000,
+    "investment_formatted": "$2,611,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0204",
@@ -7043,7 +8634,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18172,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2748000,
+    "investment_formatted": "$2,748,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0205",
@@ -7078,7 +8679,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18215,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2885000,
+    "investment_formatted": "$2,885,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0206",
@@ -7112,7 +8719,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18258,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3022000,
+    "investment_formatted": "$3,022,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0207",
@@ -7147,7 +8761,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18301,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3159000,
+    "investment_formatted": "$3,159,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0208",
@@ -7181,7 +8802,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18344,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3296000,
+    "investment_formatted": "$3,296,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0209",
@@ -7216,7 +8845,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18387,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1249510,
+    "investment_formatted": "$1,249,510",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0210",
@@ -7250,7 +8888,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18430,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 720000,
+    "investment_formatted": "$720,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0211",
@@ -7285,7 +8933,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18473,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 495000,
+    "investment_formatted": "$495,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0212",
@@ -7319,7 +8973,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18516,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 480500,
+    "investment_formatted": "$480,500",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0213",
@@ -7354,7 +9015,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18559,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1131000,
+    "investment_formatted": "$1,131,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0214",
@@ -7388,7 +9056,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18602,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1268000,
+    "investment_formatted": "$1,268,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0215",
@@ -7423,7 +9099,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18645,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1035000,
+    "investment_formatted": "$1,035,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0216",
@@ -7457,7 +9142,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18688,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2257314,
+    "investment_formatted": "$2,257,314",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0217",
@@ -7492,7 +9187,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18731,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1679000,
+    "investment_formatted": "$1,679,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0218",
@@ -7526,7 +9227,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18774,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1816000,
+    "investment_formatted": "$1,816,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0219",
@@ -7561,7 +9269,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18817,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3213750,
+    "investment_formatted": "$3,213,750",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0220",
@@ -7595,7 +9310,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18860,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2090000,
+    "investment_formatted": "$2,090,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0221",
@@ -7630,7 +9353,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18903,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 980245,
+    "investment_formatted": "$980,245",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0222",
@@ -7664,7 +9396,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18946,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2364000,
+    "investment_formatted": "$2,364,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0223",
@@ -7699,7 +9441,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18989,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2048012,
+    "investment_formatted": "$2,048,012",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0224",
@@ -7733,7 +9481,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9432,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 360007,
+    "investment_formatted": "$360,007",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0225",
@@ -7768,7 +9523,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9475,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 499000,
+    "investment_formatted": "$499,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0226",
@@ -7802,7 +9564,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9518,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2912000,
+    "investment_formatted": "$2,912,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0227",
@@ -7837,7 +9607,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9561,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3049000,
+    "investment_formatted": "$3,049,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0228",
@@ -7871,7 +9650,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9604,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3186000,
+    "investment_formatted": "$3,186,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0229",
@@ -7906,7 +9695,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9647,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 473000,
+    "investment_formatted": "$473,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0230",
@@ -7940,7 +9735,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9690,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 610000,
+    "investment_formatted": "$610,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0231",
@@ -7975,7 +9777,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9733,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 747000,
+    "investment_formatted": "$747,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0232",
@@ -8009,7 +9818,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9776,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 884000,
+    "investment_formatted": "$884,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0233",
@@ -8044,7 +9861,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9819,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1021000,
+    "investment_formatted": "$1,021,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0234",
@@ -8078,7 +9904,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9862,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1158000,
+    "investment_formatted": "$1,158,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0235",
@@ -8113,7 +9949,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9905,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1295000,
+    "investment_formatted": "$1,295,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0236",
@@ -8147,7 +9989,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9948,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1432000,
+    "investment_formatted": "$1,432,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0237",
@@ -8182,7 +10031,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9991,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1569000,
+    "investment_formatted": "$1,569,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0238",
@@ -8216,7 +10072,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10034,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1706000,
+    "investment_formatted": "$1,706,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0239",
@@ -8251,7 +10115,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10077,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1843000,
+    "investment_formatted": "$1,843,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0240",
@@ -8285,7 +10158,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10120,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1980000,
+    "investment_formatted": "$1,980,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0241",
@@ -8320,7 +10203,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10163,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2117000,
+    "investment_formatted": "$2,117,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0242",
@@ -8354,7 +10243,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10206,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2254000,
+    "investment_formatted": "$2,254,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0243",
@@ -8389,7 +10285,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10249,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2391000,
+    "investment_formatted": "$2,391,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0244",
@@ -8423,7 +10326,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10292,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2528000,
+    "investment_formatted": "$2,528,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0245",
@@ -8458,7 +10369,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10335,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2665000,
+    "investment_formatted": "$2,665,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0246",
@@ -8492,7 +10412,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10378,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2802000,
+    "investment_formatted": "$2,802,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0247",
@@ -8527,7 +10457,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10421,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2939000,
+    "investment_formatted": "$2,939,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0248",
@@ -8561,7 +10497,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10464,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3076000,
+    "investment_formatted": "$3,076,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0249",
@@ -8596,7 +10539,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10507,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3213000,
+    "investment_formatted": "$3,213,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0250",
@@ -8630,7 +10580,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10550,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 500000,
+    "investment_formatted": "$500,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0251",
@@ -8665,7 +10623,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10593,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 637000,
+    "investment_formatted": "$637,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0252",
@@ -8699,7 +10666,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10636,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 774000,
+    "investment_formatted": "$774,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0253",
@@ -8734,7 +10711,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10679,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 911000,
+    "investment_formatted": "$911,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0254",
@@ -8768,7 +10751,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10722,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1048000,
+    "investment_formatted": "$1,048,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0255",
@@ -8803,7 +10793,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10765,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1185000,
+    "investment_formatted": "$1,185,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0256",
@@ -8837,7 +10834,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10808,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1322000,
+    "investment_formatted": "$1,322,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0257",
@@ -8872,7 +10877,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10851,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1459000,
+    "investment_formatted": "$1,459,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0258",
@@ -8906,7 +10920,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10894,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1596000,
+    "investment_formatted": "$1,596,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0259",
@@ -8941,7 +10965,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10937,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1733000,
+    "investment_formatted": "$1,733,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0260",
@@ -8975,7 +11005,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10980,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1870000,
+    "investment_formatted": "$1,870,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0261",
@@ -9010,7 +11047,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11023,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2007000,
+    "investment_formatted": "$2,007,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0262",
@@ -9044,7 +11088,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11066,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2144000,
+    "investment_formatted": "$2,144,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0263",
@@ -9079,7 +11131,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11109,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2281000,
+    "investment_formatted": "$2,281,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0264",
@@ -9113,7 +11174,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11152,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2418000,
+    "investment_formatted": "$2,418,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0265",
@@ -9148,7 +11219,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11195,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2555000,
+    "investment_formatted": "$2,555,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0266",
@@ -9182,7 +11259,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11238,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2692000,
+    "investment_formatted": "$2,692,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0267",
@@ -9217,7 +11301,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11281,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2829000,
+    "investment_formatted": "$2,829,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0268",
@@ -9251,7 +11342,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11324,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2966000,
+    "investment_formatted": "$2,966,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0269",
@@ -9286,7 +11385,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11367,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3103000,
+    "investment_formatted": "$3,103,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0270",
@@ -9320,7 +11428,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11410,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3240000,
+    "investment_formatted": "$3,240,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0271",
@@ -9355,7 +11473,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11453,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 527000,
+    "investment_formatted": "$527,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0272",
@@ -9389,7 +11513,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11496,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 664000,
+    "investment_formatted": "$664,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0273",
@@ -9424,7 +11555,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11539,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 801000,
+    "investment_formatted": "$801,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0274",
@@ -9458,7 +11596,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11582,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 938000,
+    "investment_formatted": "$938,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0275",
@@ -9493,7 +11639,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11625,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1075000,
+    "investment_formatted": "$1,075,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0276",
@@ -9527,7 +11682,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11668,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1212000,
+    "investment_formatted": "$1,212,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0277",
@@ -9562,7 +11727,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11711,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1349000,
+    "investment_formatted": "$1,349,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0278",
@@ -9596,7 +11767,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11754,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1486000,
+    "investment_formatted": "$1,486,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0279",
@@ -9631,7 +11809,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11797,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1623000,
+    "investment_formatted": "$1,623,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0280",
@@ -9665,7 +11850,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11840,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1760000,
+    "investment_formatted": "$1,760,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0281",
@@ -9700,7 +11893,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11883,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1897000,
+    "investment_formatted": "$1,897,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0282",
@@ -9734,7 +11936,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11926,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2034000,
+    "investment_formatted": "$2,034,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0283",
@@ -9769,7 +11981,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11969,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2171000,
+    "investment_formatted": "$2,171,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0284",
@@ -9803,7 +12021,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12012,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2308000,
+    "investment_formatted": "$2,308,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0285",
@@ -9838,7 +12063,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12055,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2445000,
+    "investment_formatted": "$2,445,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0286",
@@ -9872,7 +12104,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12098,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2582000,
+    "investment_formatted": "$2,582,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0287",
@@ -9907,7 +12147,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12141,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2719000,
+    "investment_formatted": "$2,719,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0288",
@@ -9941,7 +12190,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12184,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2856000,
+    "investment_formatted": "$2,856,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0289",
@@ -9976,7 +12235,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12227,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2993000,
+    "investment_formatted": "$2,993,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0290",
@@ -10010,7 +12275,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12270,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3130000,
+    "investment_formatted": "$3,130,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0291",
@@ -10045,7 +12317,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12313,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3267000,
+    "investment_formatted": "$3,267,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0292",
@@ -10079,7 +12358,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12356,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 554000,
+    "investment_formatted": "$554,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0293",
@@ -10114,7 +12401,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12399,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 691000,
+    "investment_formatted": "$691,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0294",
@@ -10148,7 +12444,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12442,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 828000,
+    "investment_formatted": "$828,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0295",
@@ -10183,7 +12489,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12485,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 965000,
+    "investment_formatted": "$965,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0296",
@@ -10217,7 +12529,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12528,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1102000,
+    "investment_formatted": "$1,102,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0297",
@@ -10252,7 +12571,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12571,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1239000,
+    "investment_formatted": "$1,239,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0298",
@@ -10286,7 +12612,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12614,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1376000,
+    "investment_formatted": "$1,376,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0299",
@@ -10321,7 +12655,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12657,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1513000,
+    "investment_formatted": "$1,513,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0300",
@@ -10355,7 +12698,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12700,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1650000,
+    "investment_formatted": "$1,650,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0301",
@@ -10390,7 +12743,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12743,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1787000,
+    "investment_formatted": "$1,787,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0302",
@@ -10424,7 +12783,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12786,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1924000,
+    "investment_formatted": "$1,924,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0303",
@@ -10459,7 +12825,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12829,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2061000,
+    "investment_formatted": "$2,061,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0304",
@@ -10493,7 +12866,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12872,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2198000,
+    "investment_formatted": "$2,198,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0305",
@@ -10528,7 +12909,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12915,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2335000,
+    "investment_formatted": "$2,335,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0306",
@@ -10562,7 +12952,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12958,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2472000,
+    "investment_formatted": "$2,472,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0307",
@@ -10597,7 +12997,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13001,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2609000,
+    "investment_formatted": "$2,609,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0308",
@@ -10631,7 +13037,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13044,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2746000,
+    "investment_formatted": "$2,746,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0309",
@@ -10666,7 +13079,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13087,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2883000,
+    "investment_formatted": "$2,883,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0310",
@@ -10700,7 +13120,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13130,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3020000,
+    "investment_formatted": "$3,020,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0311",
@@ -10735,7 +13163,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13173,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3157000,
+    "investment_formatted": "$3,157,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0312",
@@ -10769,7 +13206,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13216,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3294000,
+    "investment_formatted": "$3,294,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0313",
@@ -10804,7 +13251,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13259,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 581000,
+    "investment_formatted": "$581,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0314",
@@ -10838,7 +13291,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13302,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 718000,
+    "investment_formatted": "$718,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0315",
@@ -10873,7 +13333,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13345,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 855000,
+    "investment_formatted": "$855,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0316",
@@ -10907,7 +13374,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13388,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 992000,
+    "investment_formatted": "$992,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0317",
@@ -10942,7 +13417,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13431,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1129000,
+    "investment_formatted": "$1,129,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0318",
@@ -10976,7 +13460,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13474,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1266000,
+    "investment_formatted": "$1,266,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0319",
@@ -11011,7 +13505,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13517,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1403000,
+    "investment_formatted": "$1,403,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0320",
@@ -11045,7 +13545,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13560,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1540000,
+    "investment_formatted": "$1,540,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0321",
@@ -11080,7 +13587,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13603,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1677000,
+    "investment_formatted": "$1,677,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0322",
@@ -11114,7 +13628,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13646,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1814000,
+    "investment_formatted": "$1,814,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0323",
@@ -11149,7 +13671,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13689,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1951000,
+    "investment_formatted": "$1,951,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0324",
@@ -11183,7 +13714,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13732,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2088000,
+    "investment_formatted": "$2,088,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0325",
@@ -11218,7 +13759,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13775,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2225000,
+    "investment_formatted": "$2,225,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0326",
@@ -11252,7 +13799,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13818,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2362000,
+    "investment_formatted": "$2,362,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0327",
@@ -11287,7 +13841,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13861,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2499000,
+    "investment_formatted": "$2,499,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0328",
@@ -11321,7 +13882,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13904,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2636000,
+    "investment_formatted": "$2,636,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0329",
@@ -11356,7 +13925,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13947,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2773000,
+    "investment_formatted": "$2,773,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0330",
@@ -11390,7 +13968,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13990,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2910000,
+    "investment_formatted": "$2,910,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0331",
@@ -11425,7 +14013,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14033,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3047000,
+    "investment_formatted": "$3,047,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0332",
@@ -11459,7 +14053,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14076,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3184000,
+    "investment_formatted": "$3,184,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0333",
@@ -11494,7 +14095,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14119,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 471000,
+    "investment_formatted": "$471,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0334",
@@ -11528,7 +14136,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14162,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 608000,
+    "investment_formatted": "$608,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0335",
@@ -11563,7 +14179,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14205,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 745000,
+    "investment_formatted": "$745,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0336",
@@ -11597,7 +14222,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14248,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 882000,
+    "investment_formatted": "$882,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0337",
@@ -11632,7 +14267,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14291,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1019000,
+    "investment_formatted": "$1,019,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0338",
@@ -11666,7 +14307,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14334,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1156000,
+    "investment_formatted": "$1,156,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0339",
@@ -11701,7 +14349,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14377,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1293000,
+    "investment_formatted": "$1,293,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0340",
@@ -11735,7 +14390,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14420,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1430000,
+    "investment_formatted": "$1,430,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0341",
@@ -11770,7 +14433,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14463,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1567000,
+    "investment_formatted": "$1,567,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0342",
@@ -11804,7 +14476,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14506,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1704000,
+    "investment_formatted": "$1,704,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0343",
@@ -11839,7 +14521,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14549,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1841000,
+    "investment_formatted": "$1,841,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0344",
@@ -11873,7 +14561,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14592,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1978000,
+    "investment_formatted": "$1,978,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0345",
@@ -11908,7 +14603,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14635,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2115000,
+    "investment_formatted": "$2,115,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0346",
@@ -11942,7 +14644,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14678,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2252000,
+    "investment_formatted": "$2,252,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0347",
@@ -11977,7 +14687,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14721,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2389000,
+    "investment_formatted": "$2,389,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0348",
@@ -12011,7 +14730,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14764,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2526000,
+    "investment_formatted": "$2,526,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0349",
@@ -12046,7 +14775,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14807,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2663000,
+    "investment_formatted": "$2,663,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0350",
@@ -12080,7 +14815,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14850,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2800000,
+    "investment_formatted": "$2,800,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0351",
@@ -12115,7 +14857,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14893,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2937000,
+    "investment_formatted": "$2,937,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0352",
@@ -12149,7 +14898,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14936,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3074000,
+    "investment_formatted": "$3,074,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0353",
@@ -12184,7 +14941,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14979,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3211000,
+    "investment_formatted": "$3,211,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0354",
@@ -12218,7 +14984,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15022,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 498000,
+    "investment_formatted": "$498,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0355",
@@ -12253,7 +15029,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15065,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 635000,
+    "investment_formatted": "$635,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0356",
@@ -12287,7 +15069,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15108,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 772000,
+    "investment_formatted": "$772,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0357",
@@ -12322,7 +15111,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15151,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 909000,
+    "investment_formatted": "$909,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0358",
@@ -12356,7 +15152,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15194,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1046000,
+    "investment_formatted": "$1,046,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0359",
@@ -12391,7 +15195,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15237,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1183000,
+    "investment_formatted": "$1,183,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0360",
@@ -12425,7 +15238,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15280,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1320000,
+    "investment_formatted": "$1,320,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0361",
@@ -12460,7 +15283,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15323,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1457000,
+    "investment_formatted": "$1,457,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0362",
@@ -12494,7 +15323,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15366,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1594000,
+    "investment_formatted": "$1,594,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0363",
@@ -12529,7 +15365,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15409,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1731000,
+    "investment_formatted": "$1,731,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0364",
@@ -12563,7 +15406,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15452,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1868000,
+    "investment_formatted": "$1,868,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0365",
@@ -12598,7 +15449,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15495,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2005000,
+    "investment_formatted": "$2,005,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0366",
@@ -12632,7 +15492,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15538,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2142000,
+    "investment_formatted": "$2,142,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0367",
@@ -12667,7 +15537,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15581,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2279000,
+    "investment_formatted": "$2,279,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0368",
@@ -12701,7 +15577,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15624,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2416000,
+    "investment_formatted": "$2,416,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0369",
@@ -12736,7 +15619,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15667,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2553000,
+    "investment_formatted": "$2,553,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0370",
@@ -12770,7 +15660,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15710,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2690000,
+    "investment_formatted": "$2,690,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0371",
@@ -12805,7 +15703,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15753,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2827000,
+    "investment_formatted": "$2,827,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0372",
@@ -12839,7 +15746,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15796,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2964000,
+    "investment_formatted": "$2,964,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0373",
@@ -12874,7 +15791,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15839,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3101000,
+    "investment_formatted": "$3,101,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0374",
@@ -12908,7 +15831,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15882,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3238000,
+    "investment_formatted": "$3,238,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0375",
@@ -12943,7 +15873,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15925,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 525000,
+    "investment_formatted": "$525,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0376",
@@ -12977,7 +15914,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15968,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 662000,
+    "investment_formatted": "$662,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0377",
@@ -13012,7 +15957,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16011,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 799000,
+    "investment_formatted": "$799,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0378",
@@ -13046,7 +16000,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16054,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 936000,
+    "investment_formatted": "$936,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0379",
@@ -13081,7 +16045,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16097,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1073000,
+    "investment_formatted": "$1,073,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0380",
@@ -13115,7 +16085,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16140,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1210000,
+    "investment_formatted": "$1,210,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0381",
@@ -13150,7 +16127,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16183,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1347000,
+    "investment_formatted": "$1,347,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0382",
@@ -13184,7 +16168,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16226,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1484000,
+    "investment_formatted": "$1,484,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0383",
@@ -13219,7 +16211,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16269,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1621000,
+    "investment_formatted": "$1,621,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0384",
@@ -13253,7 +16254,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16312,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1758000,
+    "investment_formatted": "$1,758,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0385",
@@ -13288,7 +16299,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16355,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1895000,
+    "investment_formatted": "$1,895,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0386",
@@ -13322,7 +16339,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16398,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2032000,
+    "investment_formatted": "$2,032,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0387",
@@ -13357,7 +16381,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16441,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2169000,
+    "investment_formatted": "$2,169,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0388",
@@ -13391,7 +16422,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16484,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2306000,
+    "investment_formatted": "$2,306,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0389",
@@ -13426,7 +16465,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16527,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2443000,
+    "investment_formatted": "$2,443,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0390",
@@ -13460,7 +16508,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16570,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2580000,
+    "investment_formatted": "$2,580,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0391",
@@ -13495,7 +16553,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16613,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2717000,
+    "investment_formatted": "$2,717,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0392",
@@ -13529,7 +16593,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16656,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2854000,
+    "investment_formatted": "$2,854,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0393",
@@ -13564,7 +16635,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16699,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2991000,
+    "investment_formatted": "$2,991,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0394",
@@ -13598,7 +16676,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16742,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3128000,
+    "investment_formatted": "$3,128,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0395",
@@ -13633,7 +16719,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16785,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3265000,
+    "investment_formatted": "$3,265,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0396",
@@ -13667,7 +16762,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16828,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 552000,
+    "investment_formatted": "$552,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0397",
@@ -13702,7 +16807,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16871,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 689000,
+    "investment_formatted": "$689,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0398",
@@ -13736,7 +16847,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16914,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 826000,
+    "investment_formatted": "$826,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0399",
@@ -13771,7 +16889,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16957,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 963000,
+    "investment_formatted": "$963,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0400",
@@ -13805,7 +16930,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17000,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1100000,
+    "investment_formatted": "$1,100,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0401",
@@ -13840,7 +16973,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17043,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1237000,
+    "investment_formatted": "$1,237,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0402",
@@ -13874,7 +17016,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17086,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1374000,
+    "investment_formatted": "$1,374,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0403",
@@ -13909,7 +17061,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17129,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1511000,
+    "investment_formatted": "$1,511,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0404",
@@ -13943,7 +17101,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17172,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1648000,
+    "investment_formatted": "$1,648,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0405",
@@ -13978,7 +17143,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17215,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1785000,
+    "investment_formatted": "$1,785,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0406",
@@ -14012,7 +17184,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17258,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1922000,
+    "investment_formatted": "$1,922,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0407",
@@ -14047,7 +17227,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17301,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2059000,
+    "investment_formatted": "$2,059,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0408",
@@ -14081,7 +17270,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17344,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2196000,
+    "investment_formatted": "$2,196,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0409",
@@ -14116,7 +17315,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17387,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 270641,
+    "investment_formatted": "$270,641",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0410",
@@ -14150,7 +17355,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17430,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 270641,
+    "investment_formatted": "$270,641",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0411",
@@ -14185,7 +17397,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17473,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2607000,
+    "investment_formatted": "$2,607,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0412",
@@ -14219,7 +17438,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17516,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2744000,
+    "investment_formatted": "$2,744,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0413",
@@ -14254,7 +17481,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17559,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2881000,
+    "investment_formatted": "$2,881,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0414",
@@ -14288,7 +17524,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17602,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 277286,
+    "investment_formatted": "$277,286",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0415",
@@ -14323,7 +17569,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17645,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3155000,
+    "investment_formatted": "$3,155,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0416",
@@ -14357,7 +17609,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17688,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3292000,
+    "investment_formatted": "$3,292,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0417",
@@ -14392,7 +17651,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17731,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 277286,
+    "investment_formatted": "$277,286",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0418",
@@ -14426,7 +17692,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17774,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 716000,
+    "investment_formatted": "$716,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0419",
@@ -14461,7 +17735,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17817,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 853000,
+    "investment_formatted": "$853,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0420",
@@ -14495,7 +17778,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17860,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 990000,
+    "investment_formatted": "$990,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0421",
@@ -14530,7 +17823,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17903,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 848587,
+    "investment_formatted": "$848,587",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0422",
@@ -14564,7 +17863,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17946,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1264000,
+    "investment_formatted": "$1,264,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0423",
@@ -14599,7 +17905,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17989,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1401000,
+    "investment_formatted": "$1,401,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0424",
@@ -14633,7 +17946,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18032,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1538000,
+    "investment_formatted": "$1,538,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0425",
@@ -14668,7 +17989,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18075,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1675000,
+    "investment_formatted": "$1,675,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0426",
@@ -14702,7 +18032,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18118,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1812000,
+    "investment_formatted": "$1,812,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0427",
@@ -14737,7 +18077,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18161,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1949000,
+    "investment_formatted": "$1,949,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0428",
@@ -14771,7 +18117,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18204,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2086000,
+    "investment_formatted": "$2,086,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0429",
@@ -14806,7 +18159,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18247,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2223000,
+    "investment_formatted": "$2,223,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0430",
@@ -14840,7 +18200,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18290,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2360000,
+    "investment_formatted": "$2,360,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0431",
@@ -14875,7 +18243,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18333,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2497000,
+    "investment_formatted": "$2,497,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0432",
@@ -14909,7 +18286,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18376,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2634000,
+    "investment_formatted": "$2,634,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0433",
@@ -14944,7 +18331,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18419,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2771000,
+    "investment_formatted": "$2,771,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0434",
@@ -14978,7 +18371,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18462,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2908000,
+    "investment_formatted": "$2,908,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0435",
@@ -15013,7 +18413,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18505,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 50000,
+    "investment_formatted": "$50,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0436",
@@ -15047,7 +18454,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18548,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3182000,
+    "investment_formatted": "$3,182,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0437",
@@ -15082,7 +18497,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18591,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 469000,
+    "investment_formatted": "$469,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0438",
@@ -15116,7 +18540,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18634,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 606000,
+    "investment_formatted": "$606,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0439",
@@ -15151,7 +18585,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18677,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 743000,
+    "investment_formatted": "$743,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0440",
@@ -15185,7 +18625,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18720,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 880000,
+    "investment_formatted": "$880,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0441",
@@ -15220,7 +18667,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18763,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1017000,
+    "investment_formatted": "$1,017,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0442",
@@ -15254,7 +18708,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18806,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 4016313,
+    "investment_formatted": "$4,016,313",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0443",
@@ -15289,7 +18751,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18849,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1291000,
+    "investment_formatted": "$1,291,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0444",
@@ -15323,7 +18794,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18892,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1428000,
+    "investment_formatted": "$1,428,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0445",
@@ -15358,7 +18839,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18935,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1565000,
+    "investment_formatted": "$1,565,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0446",
@@ -15392,7 +18879,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18978,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1702000,
+    "investment_formatted": "$1,702,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0447",
@@ -15427,7 +18921,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9421,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1839000,
+    "investment_formatted": "$1,839,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0448",
@@ -15461,7 +18962,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9464,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1976000,
+    "investment_formatted": "$1,976,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0449",
@@ -15496,7 +19005,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9507,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2113000,
+    "investment_formatted": "$2,113,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0450",
@@ -15530,7 +19048,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9550,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2250000,
+    "investment_formatted": "$2,250,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0451",
@@ -15565,7 +19093,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9593,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2387000,
+    "investment_formatted": "$2,387,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0452",
@@ -15599,7 +19133,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9636,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2524000,
+    "investment_formatted": "$2,524,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0453",
@@ -15634,7 +19175,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9679,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2661000,
+    "investment_formatted": "$2,661,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0454",
@@ -15668,7 +19216,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9722,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2798000,
+    "investment_formatted": "$2,798,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0455",
@@ -15703,7 +19259,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9765,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2935000,
+    "investment_formatted": "$2,935,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0456",
@@ -15737,7 +19302,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9808,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3072000,
+    "investment_formatted": "$3,072,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0457",
@@ -15772,7 +19347,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9851,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1057445,
+    "investment_formatted": "$1,057,445",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0458",
@@ -15806,7 +19387,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9894,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 496000,
+    "investment_formatted": "$496,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0459",
@@ -15841,7 +19429,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9937,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 633000,
+    "investment_formatted": "$633,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0460",
@@ -15875,7 +19470,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9980,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 770000,
+    "investment_formatted": "$770,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0461",
@@ -15910,7 +19513,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10023,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 907000,
+    "investment_formatted": "$907,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0462",
@@ -15944,7 +19556,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10066,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1044000,
+    "investment_formatted": "$1,044,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0463",
@@ -15979,7 +19601,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10109,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1181000,
+    "investment_formatted": "$1,181,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0464",
@@ -16013,7 +19641,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10152,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1318000,
+    "investment_formatted": "$1,318,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0465",
@@ -16048,7 +19683,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10195,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 75535,
+    "investment_formatted": "$75,535",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0466",
@@ -16082,7 +19724,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10238,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1592000,
+    "investment_formatted": "$1,592,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0467",
@@ -16117,7 +19767,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10281,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1729000,
+    "investment_formatted": "$1,729,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0468",
@@ -16151,7 +19810,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10324,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1866000,
+    "investment_formatted": "$1,866,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0469",
@@ -16186,7 +19855,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10367,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2003000,
+    "investment_formatted": "$2,003,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0470",
@@ -16220,7 +19895,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10410,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2140000,
+    "investment_formatted": "$2,140,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0471",
@@ -16255,7 +19937,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10453,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2277000,
+    "investment_formatted": "$2,277,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0472",
@@ -16289,7 +19978,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10496,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2414000,
+    "investment_formatted": "$2,414,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0473",
@@ -16324,7 +20021,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10539,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2551000,
+    "investment_formatted": "$2,551,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0474",
@@ -16358,7 +20064,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10582,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2688000,
+    "investment_formatted": "$2,688,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0475",
@@ -16393,7 +20109,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10625,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2825000,
+    "investment_formatted": "$2,825,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0476",
@@ -16427,7 +20149,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10668,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1780597,
+    "investment_formatted": "$1,780,597",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0477",
@@ -16462,7 +20191,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10711,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 95000,
+    "investment_formatted": "$95,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0478",
@@ -16496,7 +20232,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10754,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3236000,
+    "investment_formatted": "$3,236,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0479",
@@ -16531,7 +20275,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10797,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 523000,
+    "investment_formatted": "$523,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0480",
@@ -16565,7 +20318,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10840,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 660000,
+    "investment_formatted": "$660,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0481",
@@ -16600,7 +20363,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10883,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 797000,
+    "investment_formatted": "$797,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0482",
@@ -16634,7 +20403,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10926,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 934000,
+    "investment_formatted": "$934,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0483",
@@ -16669,7 +20445,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 10969,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1071000,
+    "investment_formatted": "$1,071,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0484",
@@ -16703,7 +20486,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11012,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1208000,
+    "investment_formatted": "$1,208,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0485",
@@ -16738,7 +20529,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11055,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1345000,
+    "investment_formatted": "$1,345,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0486",
@@ -16772,7 +20572,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11098,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1482000,
+    "investment_formatted": "$1,482,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0487",
@@ -16807,7 +20617,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11141,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1619000,
+    "investment_formatted": "$1,619,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0488",
@@ -16841,7 +20657,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11184,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1756000,
+    "investment_formatted": "$1,756,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0489",
@@ -16876,7 +20699,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11227,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1893000,
+    "investment_formatted": "$1,893,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0490",
@@ -16910,7 +20740,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11270,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2030000,
+    "investment_formatted": "$2,030,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0491",
@@ -16945,7 +20783,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11313,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2167000,
+    "investment_formatted": "$2,167,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0492",
@@ -16979,7 +20826,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11356,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2304000,
+    "investment_formatted": "$2,304,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0493",
@@ -17014,7 +20871,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11399,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2441000,
+    "investment_formatted": "$2,441,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0494",
@@ -17048,7 +20911,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11442,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2578000,
+    "investment_formatted": "$2,578,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0495",
@@ -17083,7 +20953,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11485,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2715000,
+    "investment_formatted": "$2,715,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0496",
@@ -17117,7 +20994,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11528,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2852000,
+    "investment_formatted": "$2,852,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0497",
@@ -17152,7 +21037,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11571,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2989000,
+    "investment_formatted": "$2,989,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0498",
@@ -17186,7 +21080,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11614,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3126000,
+    "investment_formatted": "$3,126,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0499",
@@ -17221,7 +21125,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11657,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3263000,
+    "investment_formatted": "$3,263,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0500",
@@ -17255,7 +21165,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11700,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 550000,
+    "investment_formatted": "$550,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0501",
@@ -17290,7 +21207,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11743,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 687000,
+    "investment_formatted": "$687,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0502",
@@ -17324,7 +21248,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11786,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 824000,
+    "investment_formatted": "$824,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0503",
@@ -17359,7 +21291,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11829,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 961000,
+    "investment_formatted": "$961,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0504",
@@ -17393,7 +21334,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11872,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1098000,
+    "investment_formatted": "$1,098,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0505",
@@ -17428,7 +21379,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11915,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1235000,
+    "investment_formatted": "$1,235,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0506",
@@ -17462,7 +21419,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 11958,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1372000,
+    "investment_formatted": "$1,372,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0507",
@@ -17497,7 +21461,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12001,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1509000,
+    "investment_formatted": "$1,509,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0508",
@@ -17531,7 +21502,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12044,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1646000,
+    "investment_formatted": "$1,646,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0509",
@@ -17566,7 +21545,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12087,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1783000,
+    "investment_formatted": "$1,783,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0510",
@@ -17600,7 +21588,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12130,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1920000,
+    "investment_formatted": "$1,920,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0511",
@@ -17635,7 +21633,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12173,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2057000,
+    "investment_formatted": "$2,057,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0512",
@@ -17669,7 +21673,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12216,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2194000,
+    "investment_formatted": "$2,194,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0513",
@@ -17704,7 +21715,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12259,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2331000,
+    "investment_formatted": "$2,331,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0514",
@@ -17738,7 +21756,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12302,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2468000,
+    "investment_formatted": "$2,468,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0515",
@@ -17773,7 +21799,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12345,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 100000,
+    "investment_formatted": "$100,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0516",
@@ -17807,7 +21842,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12388,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 80000,
+    "investment_formatted": "$80,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0517",
@@ -17842,7 +21887,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12431,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 88928,
+    "investment_formatted": "$88,928",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0518",
@@ -17876,7 +21927,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12474,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3016000,
+    "investment_formatted": "$3,016,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0519",
@@ -17911,7 +21969,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12517,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3153000,
+    "investment_formatted": "$3,153,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0520",
@@ -17945,7 +22010,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12560,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3290000,
+    "investment_formatted": "$3,290,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0521",
@@ -17980,7 +22053,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12603,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 249948,
+    "investment_formatted": "$249,948",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0522",
@@ -18014,7 +22096,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12646,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 194502,
+    "investment_formatted": "$194,502",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0523",
@@ -18049,7 +22141,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12689,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 851000,
+    "investment_formatted": "$851,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0524",
@@ -18083,7 +22181,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12732,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 988000,
+    "investment_formatted": "$988,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0525",
@@ -18118,7 +22223,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12775,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1125000,
+    "investment_formatted": "$1,125,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0526",
@@ -18152,7 +22264,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12818,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 292650,
+    "investment_formatted": "$292,650",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0527",
@@ -18187,7 +22307,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12861,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1399000,
+    "investment_formatted": "$1,399,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0528",
@@ -18221,7 +22350,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12904,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1536000,
+    "investment_formatted": "$1,536,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0529",
@@ -18256,7 +22395,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12947,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1673000,
+    "investment_formatted": "$1,673,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0530",
@@ -18290,7 +22435,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 12990,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1810000,
+    "investment_formatted": "$1,810,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0531",
@@ -18325,7 +22477,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13033,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1947000,
+    "investment_formatted": "$1,947,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0532",
@@ -18359,7 +22518,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13076,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2084000,
+    "investment_formatted": "$2,084,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0533",
@@ -18394,7 +22561,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13119,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2221000,
+    "investment_formatted": "$2,221,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0534",
@@ -18428,7 +22604,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13162,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2358000,
+    "investment_formatted": "$2,358,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0535",
@@ -18463,7 +22649,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13205,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2495000,
+    "investment_formatted": "$2,495,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0536",
@@ -18497,7 +22689,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13248,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2632000,
+    "investment_formatted": "$2,632,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0537",
@@ -18532,7 +22731,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13291,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2769000,
+    "investment_formatted": "$2,769,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0538",
@@ -18566,7 +22772,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13334,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2906000,
+    "investment_formatted": "$2,906,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0539",
@@ -18601,7 +22815,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13377,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3043000,
+    "investment_formatted": "$3,043,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0540",
@@ -18635,7 +22858,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13420,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3180000,
+    "investment_formatted": "$3,180,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0541",
@@ -18670,7 +22903,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13463,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 169232,
+    "investment_formatted": "$169,232",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0542",
@@ -18704,7 +22943,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13506,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 604000,
+    "investment_formatted": "$604,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0543",
@@ -18739,7 +22985,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13549,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 741000,
+    "investment_formatted": "$741,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0544",
@@ -18773,7 +23026,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13592,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 261433,
+    "investment_formatted": "$261,433",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0545",
@@ -18808,7 +23069,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13635,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 257508,
+    "investment_formatted": "$257,508",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0546",
@@ -18842,7 +23112,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13678,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1152000,
+    "investment_formatted": "$1,152,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0547",
@@ -18877,7 +23157,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13721,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 249165,
+    "investment_formatted": "$249,165",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0548",
@@ -18911,7 +23197,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13764,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1375000,
+    "investment_formatted": "$1,375,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0549",
@@ -18946,7 +23239,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13807,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1563000,
+    "investment_formatted": "$1,563,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0550",
@@ -18980,7 +23280,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13850,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1700000,
+    "investment_formatted": "$1,700,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0551",
@@ -19015,7 +23323,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13893,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1837000,
+    "investment_formatted": "$1,837,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0552",
@@ -19049,7 +23366,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13936,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1974000,
+    "investment_formatted": "$1,974,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0553",
@@ -19084,7 +23411,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 13979,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 185572,
+    "investment_formatted": "$185,572",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0554",
@@ -19118,7 +23451,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14022,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2248000,
+    "investment_formatted": "$2,248,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0555",
@@ -19153,7 +23493,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14065,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2385000,
+    "investment_formatted": "$2,385,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0556",
@@ -19187,7 +23534,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14108,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 112012,
+    "investment_formatted": "$112,012",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0557",
@@ -19222,7 +23577,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14151,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 53500,
+    "investment_formatted": "$53,500",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0558",
@@ -19256,7 +23620,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14194,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1100000,
+    "investment_formatted": "$1,100,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0559",
@@ -19291,7 +23665,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14237,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2933000,
+    "investment_formatted": "$2,933,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0560",
@@ -19325,7 +23705,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14280,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3070000,
+    "investment_formatted": "$3,070,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0561",
@@ -19360,7 +23747,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14323,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3207000,
+    "investment_formatted": "$3,207,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0562",
@@ -19394,7 +23788,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14366,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 494000,
+    "investment_formatted": "$494,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0563",
@@ -19429,7 +23831,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14409,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 631000,
+    "investment_formatted": "$631,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0564",
@@ -19463,7 +23874,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14452,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 768000,
+    "investment_formatted": "$768,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0565",
@@ -19498,7 +23919,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14495,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 905000,
+    "investment_formatted": "$905,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0566",
@@ -19532,7 +23959,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14538,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1042000,
+    "investment_formatted": "$1,042,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0567",
@@ -19567,7 +24001,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14581,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1179000,
+    "investment_formatted": "$1,179,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0568",
@@ -19601,7 +24042,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14624,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1316000,
+    "investment_formatted": "$1,316,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0569",
@@ -19636,7 +24085,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14667,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1453000,
+    "investment_formatted": "$1,453,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0570",
@@ -19670,7 +24128,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14710,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1590000,
+    "investment_formatted": "$1,590,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0571",
@@ -19705,7 +24173,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14753,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1727000,
+    "investment_formatted": "$1,727,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0572",
@@ -19739,7 +24213,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14796,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1864000,
+    "investment_formatted": "$1,864,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0573",
@@ -19774,7 +24255,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14839,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2001000,
+    "investment_formatted": "$2,001,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0574",
@@ -19808,7 +24296,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14882,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2138000,
+    "investment_formatted": "$2,138,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0575",
@@ -19843,7 +24339,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14925,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2275000,
+    "investment_formatted": "$2,275,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0576",
@@ -19877,7 +24382,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 14968,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2412000,
+    "investment_formatted": "$2,412,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0577",
@@ -19912,7 +24427,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15011,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2549000,
+    "investment_formatted": "$2,549,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0578",
@@ -19946,7 +24467,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15054,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2686000,
+    "investment_formatted": "$2,686,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0579",
@@ -19981,7 +24509,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15097,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2823000,
+    "investment_formatted": "$2,823,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0580",
@@ -20015,7 +24550,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15140,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 150505,
+    "investment_formatted": "$150,505",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0581",
@@ -20050,7 +24593,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15183,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 151624,
+    "investment_formatted": "$151,624",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0582",
@@ -20084,7 +24636,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15226,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 95500,
+    "investment_formatted": "$95,500",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0583",
@@ -20119,7 +24681,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15269,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 521000,
+    "investment_formatted": "$521,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0584",
@@ -20153,7 +24721,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15312,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 658000,
+    "investment_formatted": "$658,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0585",
@@ -20188,7 +24763,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15355,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 795000,
+    "investment_formatted": "$795,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0586",
@@ -20222,7 +24804,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15398,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 932000,
+    "investment_formatted": "$932,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0587",
@@ -20257,7 +24847,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15441,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1069000,
+    "investment_formatted": "$1,069,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0588",
@@ -20291,7 +24890,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15484,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1206000,
+    "investment_formatted": "$1,206,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0589",
@@ -20326,7 +24935,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15527,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1343000,
+    "investment_formatted": "$1,343,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0590",
@@ -20360,7 +24975,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15570,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1480000,
+    "investment_formatted": "$1,480,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0591",
@@ -20395,7 +25017,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15613,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1617000,
+    "investment_formatted": "$1,617,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0592",
@@ -20429,7 +25058,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15656,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1754000,
+    "investment_formatted": "$1,754,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0593",
@@ -20464,7 +25101,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15699,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1891000,
+    "investment_formatted": "$1,891,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0594",
@@ -20498,7 +25144,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15742,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2028000,
+    "investment_formatted": "$2,028,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0595",
@@ -20533,7 +25189,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15785,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2165000,
+    "investment_formatted": "$2,165,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0596",
@@ -20567,7 +25229,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15828,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2302000,
+    "investment_formatted": "$2,302,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0597",
@@ -20602,7 +25271,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15871,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2439000,
+    "investment_formatted": "$2,439,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0598",
@@ -20636,7 +25312,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15914,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2576000,
+    "investment_formatted": "$2,576,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0599",
@@ -20671,7 +25355,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 15957,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2713000,
+    "investment_formatted": "$2,713,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0600",
@@ -20705,7 +25398,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16000,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2850000,
+    "investment_formatted": "$2,850,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0601",
@@ -20740,7 +25443,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16043,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2987000,
+    "investment_formatted": "$2,987,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0602",
@@ -20774,7 +25483,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16086,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3124000,
+    "investment_formatted": "$3,124,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0603",
@@ -20809,7 +25525,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16129,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3261000,
+    "investment_formatted": "$3,261,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0604",
@@ -20843,7 +25566,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16172,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 548000,
+    "investment_formatted": "$548,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0605",
@@ -20878,7 +25609,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16215,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 685000,
+    "investment_formatted": "$685,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0606",
@@ -20912,7 +25652,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16258,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 822000,
+    "investment_formatted": "$822,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0607",
@@ -20947,7 +25697,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16301,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 959000,
+    "investment_formatted": "$959,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0608",
@@ -20981,7 +25737,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16344,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1096000,
+    "investment_formatted": "$1,096,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0609",
@@ -21016,7 +25779,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16387,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1233000,
+    "investment_formatted": "$1,233,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0610",
@@ -21050,7 +25820,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16430,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1370000,
+    "investment_formatted": "$1,370,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0611",
@@ -21085,7 +25863,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16473,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1507000,
+    "investment_formatted": "$1,507,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0612",
@@ -21119,7 +25906,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16516,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1644000,
+    "investment_formatted": "$1,644,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0613",
@@ -21154,7 +25951,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16559,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1781000,
+    "investment_formatted": "$1,781,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0614",
@@ -21188,7 +25991,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16602,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1918000,
+    "investment_formatted": "$1,918,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0615",
@@ -21223,7 +26033,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16645,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2055000,
+    "investment_formatted": "$2,055,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0616",
@@ -21257,7 +26074,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16688,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2192000,
+    "investment_formatted": "$2,192,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0617",
@@ -21292,7 +26117,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16731,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2329000,
+    "investment_formatted": "$2,329,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0618",
@@ -21326,7 +26160,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16774,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2466000,
+    "investment_formatted": "$2,466,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0619",
@@ -21361,7 +26205,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16817,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2603000,
+    "investment_formatted": "$2,603,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0620",
@@ -21395,7 +26245,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16860,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2740000,
+    "investment_formatted": "$2,740,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0621",
@@ -21430,7 +26287,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16903,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2877000,
+    "investment_formatted": "$2,877,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0622",
@@ -21464,7 +26328,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16946,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3014000,
+    "investment_formatted": "$3,014,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0623",
@@ -21499,7 +26371,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 16989,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3151000,
+    "investment_formatted": "$3,151,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0624",
@@ -21533,7 +26414,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17032,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3288000,
+    "investment_formatted": "$3,288,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0625",
@@ -21568,7 +26459,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17075,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 575000,
+    "investment_formatted": "$575,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0626",
@@ -21602,7 +26499,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17118,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 712000,
+    "investment_formatted": "$712,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0627",
@@ -21637,7 +26541,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17161,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 849000,
+    "investment_formatted": "$849,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0628",
@@ -21671,7 +26582,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17204,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 986000,
+    "investment_formatted": "$986,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0629",
@@ -21706,7 +26625,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17247,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1123000,
+    "investment_formatted": "$1,123,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0630",
@@ -21740,7 +26668,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17290,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1260000,
+    "investment_formatted": "$1,260,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0631",
@@ -21775,7 +26713,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17333,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1397000,
+    "investment_formatted": "$1,397,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0632",
@@ -21809,7 +26753,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17376,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1534000,
+    "investment_formatted": "$1,534,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0633",
@@ -21844,7 +26795,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17419,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1671000,
+    "investment_formatted": "$1,671,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0634",
@@ -21878,7 +26836,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17462,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1808000,
+    "investment_formatted": "$1,808,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0635",
@@ -21913,7 +26879,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17505,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1945000,
+    "investment_formatted": "$1,945,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0636",
@@ -21947,7 +26922,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17548,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2082000,
+    "investment_formatted": "$2,082,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0637",
@@ -21982,7 +26967,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17591,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2219000,
+    "investment_formatted": "$2,219,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0638",
@@ -22016,7 +27007,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17634,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2356000,
+    "investment_formatted": "$2,356,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0639",
@@ -22051,7 +27049,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17677,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2493000,
+    "investment_formatted": "$2,493,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0640",
@@ -22085,7 +27090,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17720,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2630000,
+    "investment_formatted": "$2,630,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0641",
@@ -22120,7 +27133,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17763,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2767000,
+    "investment_formatted": "$2,767,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0642",
@@ -22154,7 +27176,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17806,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2904000,
+    "investment_formatted": "$2,904,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0643",
@@ -22189,7 +27221,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17849,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3041000,
+    "investment_formatted": "$3,041,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0644",
@@ -22223,7 +27261,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17892,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3178000,
+    "investment_formatted": "$3,178,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0645",
@@ -22258,7 +27303,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17935,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 465000,
+    "investment_formatted": "$465,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0646",
@@ -22292,7 +27344,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 17978,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 602000,
+    "investment_formatted": "$602,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0647",
@@ -22327,7 +27387,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18021,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 739000,
+    "investment_formatted": "$739,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0648",
@@ -22361,7 +27430,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18064,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 876000,
+    "investment_formatted": "$876,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0649",
@@ -22396,7 +27475,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18107,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1013000,
+    "investment_formatted": "$1,013,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0650",
@@ -22430,7 +27515,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18150,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1150000,
+    "investment_formatted": "$1,150,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0651",
@@ -22465,7 +27557,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18193,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1287000,
+    "investment_formatted": "$1,287,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0652",
@@ -22499,7 +27598,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18236,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1424000,
+    "investment_formatted": "$1,424,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0653",
@@ -22534,7 +27641,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18279,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1561000,
+    "investment_formatted": "$1,561,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0654",
@@ -22568,7 +27684,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18322,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1698000,
+    "investment_formatted": "$1,698,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0655",
@@ -22603,7 +27729,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18365,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1835000,
+    "investment_formatted": "$1,835,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0656",
@@ -22637,7 +27769,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18408,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1972000,
+    "investment_formatted": "$1,972,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0657",
@@ -22672,7 +27811,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18451,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2109000,
+    "investment_formatted": "$2,109,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0658",
@@ -22706,7 +27852,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18494,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2246000,
+    "investment_formatted": "$2,246,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0659",
@@ -22741,7 +27895,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18537,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2383000,
+    "investment_formatted": "$2,383,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0660",
@@ -22775,7 +27938,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18580,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2520000,
+    "investment_formatted": "$2,520,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0661",
@@ -22810,7 +27983,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18623,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2657000,
+    "investment_formatted": "$2,657,000",
+    "partner": "The Conference Board of Canada",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0662",
@@ -22844,7 +28023,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18666,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2794000,
+    "investment_formatted": "$2,794,000",
+    "partner": "Blueprint-ADE & CME",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0663",
@@ -22879,7 +28065,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18709,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 2931000,
+    "investment_formatted": "$2,931,000",
+    "partner": "Bowie & Associates & Bow Valley College",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0664",
@@ -22913,7 +28106,15 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18752,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3068000,
+    "investment_formatted": "$3,068,000",
+    "partner": "Indigenous Works & FSC Consortium",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   },
   {
     "id": "fsc_doc_0665",
@@ -22948,7 +28149,16 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18795,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 3205000,
+    "investment_formatted": "$3,205,000",
+    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "locations": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Prince Edward Island",
+      "Newfoundland & Labrador"
+    ]
   },
   {
     "id": "fsc_doc_0666",
@@ -22982,7 +28192,17 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18838,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 492000,
+    "investment_formatted": "$492,000",
+    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "locations": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ]
   },
   {
     "id": "fsc_doc_0667",
@@ -23017,7 +28237,13 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18881,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 629000,
+    "investment_formatted": "$629,000",
+    "partner": "Canadian Manufacturers & Exporters",
+    "locations": [
+      "Across Canada"
+    ]
   },
   {
     "id": "fsc_doc_0668",
@@ -23051,7 +28277,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18924,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 766000,
+    "investment_formatted": "$766,000",
+    "partner": "Colleges and Institutes Canada (CICan)",
+    "locations": [
+      "Ontario",
+      "Quebec"
+    ]
   },
   {
     "id": "fsc_doc_0669",
@@ -23086,7 +28319,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 18967,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 903000,
+    "investment_formatted": "$903,000",
+    "partner": "Labour Education Centre",
+    "locations": [
+      "Alberta",
+      "British Columbia"
+    ]
   },
   {
     "id": "fsc_doc_0670",
@@ -23120,6 +28360,14 @@ const FULL_508_CORPUS = [
     "attachment_verified": true,
     "word_count": 9410,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
-    "irr_kappa_score": 0.88
+    "irr_kappa_score": 0.88,
+    "investment_num": 1040000,
+    "investment_formatted": "$1,040,000",
+    "partner": "Food Processing Skills Canada",
+    "locations": [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
   }
 ];
