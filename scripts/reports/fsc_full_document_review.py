@@ -10,9 +10,6 @@ if PROJECT_ROOT not in sys.path:
 REPORTS_DIR = os.path.join(PROJECT_ROOT, "reports")
 os.makedirs(REPORTS_DIR, exist_ok=True)
 
-BRAIN_DIR = r"C:\Users\masan\.gemini\antigravity\brain\d40ab2bb-4efc-4b67-a7ce-025b2b62962f"
-os.makedirs(BRAIN_DIR, exist_ok=True)
-
 # Curated macro/microeconomic research corpus
 FSC_ECONOMICS_CORPUS = [
     {
@@ -161,7 +158,7 @@ def main():
             f.write(content)
         print(f"Generated High-Rigor Cabinet Report: {filepath}")
         
-    # Master Integrated Report
+    # Master Integrated Report - Cleaned f-string backslash syntax
     master_md = "# Master Cabinet Briefing & Macroeconomic Evaluation Synthesis\n"
     master_md += "## Evaluation of the Future Skills Program (ESDC Solicitation #100032488 / cb-879-79038207)\n"
     master_md += "**Author:** MayAi Market Intelligence – Strategic Consulting & Data Analytics Division  \n"
@@ -172,7 +169,8 @@ def main():
     master_md += "It bridges project-level activities with **national labor productivity (TFP), task-based AI displacement, SME poaching market failures, EV transition wage differentials (-18%), and CRA tax data tracking deficits (82%)**.\n\n"
     master_md += "### Master SOW Reports Index\n"
     for filename, title, area in sow_reports:
-        master_md += f"- [{title}](file:///{os.path.join(REPORTS_DIR, filename).replace('\\', '/')})\n"
+        clean_path = os.path.join(REPORTS_DIR, filename).replace('\\', '/')
+        master_md += f"- [{title}](file:///{clean_path})\n"
         
     master_path = os.path.join(REPORTS_DIR, "master_esdc_future_skills_evaluation_report.md")
     with open(master_path, "w", encoding="utf-8") as f:
