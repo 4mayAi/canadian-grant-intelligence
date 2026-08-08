@@ -55,18 +55,18 @@
             </div>
         </div>
 
-        <!-- Executive Callout Box -->
-        <div class="executive-callout">
-            <div class="callout-header">
-                <span style="font-size: 1.4rem;">⚠️</span>
-                <div class="callout-title" id="alertTitle">Cabinet Submission Executive Alert: Unvarnished Findings across Cataloged Corpus</div>
+        <!-- Professional Executive Evidence Summary Box -->
+        <div class="executive-callout" style="background: rgba(59, 130, 246, 0.06); border-color: rgba(59, 130, 246, 0.25);">
+            <div class="callout-header" style="color: var(--accent-blue);">
+                <span style="font-size: 1.4rem;">📋</span>
+                <div class="callout-title" id="alertTitle">Executive Evidence Summary: Key Program Implementation & Data Findings</div>
             </div>
             <div class="callout-body">
-                <p id="alertBodyText">An independent audit of the <strong>Future Skills Centre publications</strong> isolates critical implementation failures and reporting deficits that must be addressed prior to post-2027 Treasury Board re-funding:</p>
+                <p id="alertBodyText">Comprehensive synthesis of the Future Skills Centre publication corpus identifies key operational dynamics and evaluation considerations for program performance:</p>
                 <ul>
-                    <li><strong>58% Course Abandonment:</strong> Online tech/AI micro-credentials suffer severe attrition due to workplace fatigue and absent wage incentives.</li>
-                    <li><strong>52% Regulatory Backlog:</strong> Foreign-trained healthcare bridging programs succeed in classroom training but stall at provincial nursing colleges.</li>
-                    <li><strong>82% Baseline Data Deficit:</strong> Under 18% of FSC projects tracked 12-month post-training tax (CRA/EI) job retention.</li>
+                    <li><strong>Micro-Credential Completion Rates:</strong> Online tech and business reskilling initiatives exhibit a 58% course drop-out rate, influenced by workplace scheduling constraints and unaligned wage structures.</li>
+                    <li><strong>Credential Recognition Pathways:</strong> Foreign-trained healthcare bridging programs achieve high classroom completion, but 52% of candidates experience multi-year regulatory licensing delays.</li>
+                    <li><strong>Longitudinal Data Linkage:</strong> Less than 18% of reviewed initiatives tracked 12-month post-program employment outcomes using CRA administrative tax data, highlighting an area for data governance enhancement.</li>
                 </ul>
             </div>
         </div>
@@ -377,6 +377,9 @@
                 : "Direction de l'évaluation d'EDSC | Examen des documents du Programme des compétences futures (#100032488)";
             document.getElementById("lblKpiDocs").textContent = currentLang === 'EN' ? "Cataloged FSC Publications" : "Publications CCF cataloguées";
             document.getElementById("btnExportCsv").textContent = currentLang === 'EN' ? "📥 Export Inventory (CSV)" : "📥 Exporter l'inventaire (CSV)";
+            document.getElementById("alertTitle").textContent = currentLang === 'EN'
+                ? "Executive Evidence Summary: Key Program Implementation & Data Findings"
+                : "Sommaire exécutif des données : Principales constatations et données de programme";
         }
 
         /* Chart.js Initialization */
