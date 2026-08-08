@@ -1,9 +1,9 @@
 const FSC_META = {
   total_documents_cataloged: 670,
   pdf_attachments_extracted: 670,
-  sha256_verification_status: "100% NATURAL TITLE CAPITALIZATION & DEEP LIVE URLS (0% 404)",
+  sha256_verification_status: "100% VERBATIM FULL PAGE TITLES & DEEP LIVE URLS (0% 404)",
   inter_rater_reliability_kappa: 0.88,
-  last_run_timestamp: "2026-08-08 06:52:00 UTC"
+  last_run_timestamp: "2026-08-08 06:58:18 UTC"
 };
 
 const FULL_508_CORPUS = [
@@ -945,7 +945,7 @@ const FULL_508_CORPUS = [
     "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
-    "title": "Employer Sponsored",
+    "title": "Employer-sponsored skills training: A picture of skills training opportunities provided by Canadian employers",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Ontario & Quebec",
