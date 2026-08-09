@@ -149,82 +149,6 @@
   },
   {
     "source": "ProteinIndustries_CanadaBuys",
-    "title": "United Nations Environment Programme Life Cycle Initiative Biogenic Carbon Project",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-177-86944561",
-    "date": "2026-07-22T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🌱 Quantifying the future of sustainable construction: NRC seeks expert support for the UNEP Biogenic Carbon Project. Is your LCA data ready for international harmonization?",
-      "strategic_value": "* The NRC is aligning Canadian wood-based construction and bio-product methodologies with global standards to ensure market competitiveness in the biogenic carbon economy.\n* Success in this contract requires deep technical proficiency in Life Cycle Assessment (LCA) software stacks and expertise in managing Life Cycle Inventory (LCI) databases under international compliance frameworks.\n* **Consulting Pivot:** Propose a 'Regional Compliance Auditing & Reporting' service, where you act as the specialized bridge to reconcile Canadian wood construction metrics with UNEP’s global reporting mandates, focusing on downstream data translation and administrative compliance.",
-      "co_bidding_opportunity": "Environmental life cycle assessment (LCA) consultancies, sustainable forestry research labs, and bio-product industry policy advisors.",
-      "mets_category": "METS-ESG",
-      "mets_rationalization": "This aligns with the broader Canadian agricultural and industrial goal of standardizing supply chain sustainability, directly overlapping with the strategic intent of the Protein Industries Canada initiatives in bio-based product advancement.",
-      "grounded_fact_ids": [
-        500
-      ],
-      "anchor_reference": {
-        "source_name": "PIC Supply Chain Program Guide 2025",
-        "page_range": "Page 2",
-        "url": "https://www.proteinindustriescanada.ca/supply-chain"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-07T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "The National Research Council Canada (NRC) has a requirement to support the United Nations Environment Programme (UNEP) Life Cycle Initiative’s Biogenic Carbon Project – Phase II. The objective of this work is to support the development of harmonized, credible, and scientifically robust methodologies for accounting for biogenic carbon in life cycle assessments (LCAs) of bio-based products. The work will involve supporting NRC’s participation in the project and facilitating coordination with UNEP...",
-    "type": "Open",
-    "organization": "National Research Council of Canada (NRC)",
-    "solicitation_number": "26-58076",
-    "notice_type": "Advance Contract Award Notice",
-    "procurement_method": "Advance contract award notice",
-    "selection_criteria": "Not applicable",
-    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)",
-    "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)"
-  },
-  {
-    "source": "ProteinIndustries_CanadaBuys",
-    "title": "26-58113 Universal Testing Machine with non-contact Extensometer for polymer research",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-733-25647240",
-    "date": "2026-07-24T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🧪 Attention Indigenous Innovators: NRC is sourcing a Universal Testing Machine with non-contact extensometers for advanced polymer research!",
-      "strategic_value": "* **Context:** The National Research Council's (NRC-AST) procurement is set aside exclusively for Indigenous-led businesses under the PSIB, presenting a key competitive entry point for qualified partners.\n* **Technology Target:** Requires a Universal Testing Machine (UTM) integrating non-contact extensometers to evaluate tensile/flexural metrics of polymer films and composites under ASTM/ISO standards.\n* **Consulting Pivot:** Propose an actionable B2B subcontracting arrangement with invited Indigenous prime contractors to deliver specialized secondary telemetry processing layers and localized database adapters for the extensometer's data output.",
-      "co_bidding_opportunity": "Under the PSIB guidelines, a valid consortium can be formed by partnering an invited Indigenous Prime Contractor (holding the bidding rights) with a specialized systems integrator or academic research lab acting as a subcontractor for setup, calibration, and software customization.",
-      "mets_category": "METS-Ops",
-      "mets_rationalization": "Aligns with advanced physical testing machinery requirements for bio-composite and polymer development, bridging materials science with domestic agricultural co-product processing capacity (Fact ID 500).",
-      "grounded_fact_ids": [
-        500
-      ],
-      "anchor_reference": {
-        "source_name": "PIC Supply Chain Program Guide 2025",
-        "page_range": "Page 2",
-        "url": "https://www.proteinindustriescanada.ca/supply-chain"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-07T00:00:00Z",
-    "province": "NCR (Ottawa/Gatineau)",
-    "province_abbrev": "NCR",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)Title: Universal Testing Machine with non-contact Extensometer for polymer researchSolicitation Number: 26-58113Publication Date: 24 July 2026Closing Date and Time: 7 August 2026 at 2PM EDTTrade Agreements: This procurement is set aside from all the trade agreements under the provision each has that permits the procurement to be set aside for Indigenous business.Region of Opportunity: CanadaRegion of Delivery: Winnipeg, ManitobaGSIN: N6640 (UNSPSC 41100000) – ...",
-    "type": "Open",
-    "organization": "National Research Council of Canada (NRC)",
-    "solicitation_number": "26-58113",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Selective tendering",
-    "selection_criteria": "Variations or combinations of the above methods",
-    "trade_agreements": "Please refer to Tender Description or Tender Documents",
-    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-  },
-  {
-    "source": "ProteinIndustries_CanadaBuys",
     "title": "Two (2) Highspeed (15000 fps) Cameras",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-965-67727668",
     "date": "2026-07-24T00:00:00Z",
@@ -2146,7 +2070,7 @@
     "category": "CNST",
     "category_label": "Construction",
     "description": "Invitation to tender ESC-2627-063Boiler Replacement Project at the Harrow Research and Development CentreTenders for the project indicated above, will be accepted at the following address, up to the tender closing date and time indicated below: aafc.escprocurement-cseapprovisionnement.aac@agr.gc.ca  Scope of Work:Agriculture and Agri-Food Canada (AAFC) requires the services of a General Contractor to carry out the work as part of the DAR and faulty junctions project at the Normandin Farm in Queb...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of Agriculture and Agri-Food (AAFC)",
     "solicitation_number": "ESC-2627-063",
     "notice_type": "Request for Proposal",
@@ -2178,7 +2102,7 @@
     "category": "SRV",
     "category_label": "Services",
     "description": "The response time deadline is 14:00 EST Department of Fisheries and Oceans requires ShoreZone Linear Mapping and Data Analysis For Newfoundland and Labrador delivered on or before February 19 2026. This solicitation of offers is open only to Canadian suppliers. Bidders may request a debriefing on the results of the bid solicitation. Bidders should make the request to the Contracting Authority within fifteen (15) working days from receipt of notification that their bid was unsuccessful. Reference...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of Public Works and Government Services (PSPC)",
     "solicitation_number": "WS5823905634",
     "notice_type": "Request for Proposal",
@@ -2210,7 +2134,7 @@
     "category": "CNST",
     "category_label": "Construction",
     "description": "The response time deadline is 14:00 EDT.  TWO PHASE SELECTION PROCESS. This is the second phase (Phase Two) of a two-phase process: the second phase (Phase Two) invites qualified suppliers from Phase 1 to provide a financial bid on the project based on the specifications and drawings. The work covered under this project consists of the furnishing of all plant, labour, equipment and material required for the chiller replacement at the CFIA Charlottetown Laboratory.  The estimated cost for this op...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of Public Works and Government Services (PSPC)",
     "solicitation_number": "WS5784194681",
     "notice_type": "Invitation to Qualify",
@@ -2594,7 +2518,7 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "Requirement DescriptionNational Defence has a requirement for the procurement of Alteryx Software. This Request for Quote is issued pursuant to Software Licensing Supply Arrangement (SLSA) # EN578-232335/065/SMS.Tendering Procedure: Selective tenderingOnly suppliers who are pre-qualified and have been issued a supply arrangement are eligible to bid. Non-SA holders cannot be awarded a contract unless and until the Supply Arrangement Authority (SAA) has issued a Supply Arrangement to that supplier...",
-    "type": "New",
+    "type": "Open",
     "organization": "Shared Services Canada",
     "solicitation_number": "BPM026308/34425",
     "notice_type": "Request for Proposal",
@@ -2664,7 +2588,7 @@
     "notice_type": "Advance Contract Award Notice",
     "procurement_method": "Advance contract award notice",
     "selection_criteria": "Not applicable",
-    "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)",
+    "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)",
     "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)"
   },
   {
