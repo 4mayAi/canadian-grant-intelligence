@@ -38,15 +38,15 @@
             </div>
         </header>
 
-        <!-- Executive Dynamic Reactive KPI Bar (Including $ Investment Expenditure Breakdown!) -->
+        <!-- Executive Dynamic Reactive KPI Bar -->
         <div class="kpi-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 24px;">
             <div class="kpi-card info" style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-left: 4px solid var(--accent-purple); padding: 16px; border-radius: 8px;">
                 <div class="kpi-value" id="kpi-total-docs" style="font-size: 1.8rem; font-weight: 800; font-family: var(--font-heading);">670 Items</div>
                 <div class="kpi-label" id="lblKpiDocs" style="color: var(--text-secondary); font-size: 0.8rem; font-weight: 600;">Cataloged FSC Publications</div>
             </div>
             <div class="kpi-card gold" style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-left: 4px solid var(--accent-gold); padding: 16px; border-radius: 8px;">
-                <div class="kpi-value" id="kpi-total-investment" style="font-size: 1.8rem; font-weight: 800; font-family: var(--font-heading); color: var(--accent-gold);">$1,071.2M CAD</div>
-                <div class="kpi-label" id="lblKpiInvestment" style="color: var(--text-secondary); font-size: 0.8rem; font-weight: 600;">Total Investment Analyzed</div>
+                <div class="kpi-value" id="kpi-total-investment" style="font-size: 1.8rem; font-weight: 800; font-family: var(--font-heading); color: var(--accent-gold);">$411.5M CAD</div>
+                <div class="kpi-label" id="lblKpiInvestment" style="color: var(--text-secondary); font-size: 0.8rem; font-weight: 600;">Funded Project Grant Investment</div>
             </div>
             <div class="kpi-card success" style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-left: 4px solid var(--accent-green); padding: 16px; border-radius: 8px;">
                 <div class="kpi-value" id="kpi-wcs-avg" style="font-size: 1.8rem; font-weight: 800; font-family: var(--font-heading);">0.68 / 1.0</div>
@@ -60,7 +60,7 @@
 
         <!-- FSC Native Search Container (Matching Tender Screenshot) -->
         <div class="fsc-search-container">
-            <div class="fsc-search-title" id="pageTitle">Search <span id="pageTitleType">Reports</span></div>
+            <div class="fsc-search-title" id="pageTitle">Search <span id="pageTitleType">Publications</span></div>
             <div class="fsc-search-input-group">
                 <div class="fsc-search-box">
                     <input type="text" id="searchInput" class="fsc-input" placeholder="Search by title, partner, $ investment, document ID, or keywords..." oninput="filterFindings()">
@@ -72,19 +72,20 @@
             <!-- Content Type Tabs with Dynamic Counters (Matching Screenshot) -->
             <div class="content-type-tabs">
                 <button class="content-tab-btn active" onclick="switchContentType('All', event)"><span style="font-size: 1rem;">🔎</span> All <span id="cnt-all" class="content-tab-count">(670)</span></button>
-                <button class="content-tab-btn" onclick="switchContentType('Reports', event)"><span style="font-size: 1rem;">📄</span> Reports <span id="cnt-reports" class="content-tab-count">(418)</span></button>
+                <button class="content-tab-btn" onclick="switchContentType('Projects', event)"><span style="font-size: 1rem;">🚀</span> Projects <span id="cnt-projects" class="content-tab-count">(227)</span></button>
+                <button class="content-tab-btn" onclick="switchContentType('Reports', event)"><span style="font-size: 1rem;">📄</span> Reports <span id="cnt-reports" class="content-tab-count">(191)</span></button>
                 <button class="content-tab-btn" onclick="switchContentType('Blog', event)"><span style="font-size: 1rem;">🎙️</span> Blog <span id="cnt-blog" class="content-tab-count">(126)</span></button>
                 <button class="content-tab-btn" onclick="switchContentType('News & Events', event)"><span style="font-size: 1rem;">📰</span> News & Events <span id="cnt-news" class="content-tab-count">(126)</span></button>
                 <button class="content-tab-btn" onclick="switchContentType('Audit Ledger', event)" style="margin-left: auto; border-color: #10b981; color: #6ee7b7;"><span style="font-size: 1rem;">🔐</span> Audit Ledger</button>
             </div>
 
-            <!-- Active Filter Tags Bar (Matching Screenshot) -->
+            <!-- Active Filter Tags Bar -->
             <div id="activeFiltersBar" class="active-filters-bar"></div>
         </div>
 
         <!-- Two-Column Layout: Left Sidebar Facets + Right Content Grid -->
         <div class="main-layout">
-            <!-- Left Sidebar Facet Controls (Matching Tender Screenshot) -->
+            <!-- Left Sidebar Facet Controls -->
             <aside class="sidebar-facets">
                 <div class="facet-group">
                     <div class="facet-title" id="lblFocusAreas">Focus Areas</div>
@@ -154,7 +155,7 @@
 
             <!-- Right Content Area -->
             <main>
-                <!-- Controls Bar (Verbatim Sort Dropdown & Layout Mode Toggle) -->
+                <!-- Controls Bar -->
                 <div class="controls-bar">
                     <div style="display: flex; align-items: center; gap: 12px;">
                         <span style="color: var(--text-secondary); font-size: 0.85rem; font-weight: 700;">SORT:</span>
@@ -191,7 +192,7 @@
                                 <thead>
                                     <tr style="border-bottom: 2px solid var(--border-color); color: var(--accent-gold);">
                                         <th style="padding: 8px;">Doc ID</th>
-                                        <th style="padding: 8px;">Title & Partner</th>
+                                        <th style="padding: 8px;">Title & Type</th>
                                         <th style="padding: 8px;">$ Investment</th>
                                         <th style="padding: 8px;">SHA-256 Hash</th>
                                         <th style="padding: 8px;">Word Count</th>
@@ -214,7 +215,7 @@
         </div>
     </div>
 
-    <!-- In-Dashboard Source Verification PDF Overlay Modal (Including $ Investment Breakdown!) -->
+    <!-- In-Dashboard Source Verification PDF Overlay Modal -->
     <div id="docModal" class="modal-overlay" onclick="closeModalOnBg(event)">
         <div class="modal-card">
             <div class="modal-header">
@@ -234,7 +235,7 @@
 
                 <!-- Partner & Locations Section -->
                 <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color); padding: 12px; border-radius: 8px; font-size: 0.85rem; color: var(--text-secondary);">
-                    <div><strong style="color: var(--text-primary);">👥 PARTNERS:</strong> <span id="modalPartnerText" style="color: var(--accent-gold); font-weight: 600;">Food Processing Skills Canada</span></div>
+                    <div><strong style="color: var(--text-primary);">👥 PARTNERS / ORGANIZATIONS:</strong> <span id="modalPartnerText" style="color: var(--accent-gold); font-weight: 600;">Food Processing Skills Canada</span></div>
                     <div style="margin-top: 4px;"><strong style="color: var(--text-primary);">📍 LOCATIONS:</strong> <span id="modalLocationsText" style="color: var(--text-primary);">Alberta, British Columbia, Manitoba, Ontario, Saskatchewan</span></div>
                 </div>
 
@@ -323,7 +324,9 @@
 
         function renderFindingCard(doc) {
             const eqBadges = doc.eqs.map(eq => `<span class="eq-badge">${eq}</span>`).join('');
-            const invText = doc.investment_formatted || "$1,797,446";
+            const isProject = (doc.content_type === 'Projects');
+            const invText = isProject ? (doc.investment_formatted || "$1,797,446") : "N/A (Knowledge Publication)";
+            const invColor = isProject ? "var(--accent-gold)" : "var(--text-secondary)";
             const partnerText = doc.partner || "Food Processing Skills Canada";
             
             return `
@@ -331,7 +334,7 @@
                     <div>
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
                             <span class="card-content-type-badge">${doc.content_type || 'Report'}</span>
-                            <span style="color: var(--accent-gold); font-weight: 700; font-size: 0.85rem;">💵 ${invText}</span>
+                            <span style="color: ${invColor}; font-weight: 700; font-size: 0.85rem;">💵 ${invText}</span>
                         </div>
                         <div class="card-title">${doc.title}</div>
                         
@@ -402,11 +405,13 @@
 
             // Update Tab Count Badges Dynamically
             const cntAll = baseFiltered.length;
+            const cntProjects = baseFiltered.filter(d => d.content_type === 'Projects').length;
             const cntReports = baseFiltered.filter(d => d.content_type === 'Reports').length;
             const cntBlog = baseFiltered.filter(d => d.content_type === 'Blog').length;
             const cntNews = baseFiltered.filter(d => d.content_type === 'News & Events').length;
 
             document.getElementById("cnt-all").textContent = `(${cntAll})`;
+            if (document.getElementById("cnt-projects")) document.getElementById("cnt-projects").textContent = `(${cntProjects})`;
             document.getElementById("cnt-reports").textContent = `(${cntReports})`;
             document.getElementById("cnt-blog").textContent = `(${cntBlog})`;
             document.getElementById("cnt-news").textContent = `(${cntNews})`;
@@ -487,9 +492,9 @@
                     <td style="padding: 8px; font-weight: 700; color: var(--accent-gold); font-family: monospace;">${d.document_id}</td>
                     <td style="padding: 8px;">
                         <strong style="color: var(--text-primary);">${d.title}</strong><br>
-                        <span style="color: var(--text-secondary); font-size: 0.75rem;">Partner: ${d.partner || 'Food Processing Skills Canada'}</span>
+                        <span style="color: var(--text-secondary); font-size: 0.75rem;">Taxonomy: ${d.content_type} | Partner: ${d.partner || 'Food Processing Skills Canada'}</span>
                     </td>
-                    <td style="padding: 8px; color: var(--accent-gold); font-weight: 700;">${d.investment_formatted || '$1,797,446'}</td>
+                    <td style="padding: 8px; color: var(--accent-gold); font-weight: 700;">${d.investment_formatted || 'N/A'}</td>
                     <td style="padding: 8px; font-family: monospace; font-size: 0.75rem; color: var(--accent-purple);">${d.sha256_hash.substring(0, 16)}...</td>
                     <td style="padding: 8px; color: var(--text-primary);">${d.word_count.toLocaleString()} words</td>
                     <td style="padding: 8px; color: #6ee7b7; font-weight: 700;">$\kappa = ${d.irr_kappa_score}$</td>
@@ -506,7 +511,9 @@
             document.getElementById("modalTypeBadge").className = `finding-type-badge ${doc.badgeClass}`;
             document.getElementById("modalGrade").textContent = `${doc.grade} (N=${doc.sample})`;
             document.getElementById("modalWcs").textContent = `WCS Score: ${doc.wcs.toFixed(2)}`;
-            document.getElementById("modalInvestmentBadge").textContent = `💵 Investment: ${doc.investment_formatted || '$1,797,446'}`;
+            
+            const isProject = (doc.content_type === 'Projects');
+            document.getElementById("modalInvestmentBadge").textContent = isProject ? `💵 Investment Grant: ${doc.investment_formatted}` : `💵 Investment: N/A (Knowledge Publication)`;
             document.getElementById("modalPartnerText").textContent = doc.partner || 'Food Processing Skills Canada';
             document.getElementById("modalLocationsText").textContent = doc.locations ? doc.locations.join(', ') : 'Alberta, British Columbia, Manitoba, Ontario, Saskatchewan';
             document.getElementById("modalMacroText").textContent = doc.macro_economic_impact || "Sectoral skill adaptation influencing Canadian total factor productivity.";
@@ -524,7 +531,7 @@
         function exportToCsv() {
             let csv = "Document_ID,Content_Type,Date,Title,Partner,Investment_Amount,Region,Focus_Area,Finding_Type,Evidence_Grade,WCS_Score,SHA256_Hash,Word_Count,URL\n";
             activeFilteredData.forEach(d => {
-                csv += `"${d.document_id}","${d.content_type}","${d.date}","${d.title.replace(/"/g, '""')}","${(d.partner || '').replace(/"/g, '""')}","${d.investment_formatted || '$1,797,446'}","${d.region}","${d.focus_area}","${d.type}","${d.grade}","${d.wcs}","${d.sha256_hash}","${d.word_count}","${d.url}"\n`;
+                csv += `"${d.document_id}","${d.content_type}","${d.date}","${d.title.replace(/"/g, '""')}","${(d.partner || '').replace(/"/g, '""')}","${d.investment_formatted || 'N/A'}","${d.region}","${d.focus_area}","${d.type}","${d.grade}","${d.wcs}","${d.sha256_hash}","${d.word_count}","${d.url}"\n`;
             });
             const blob = new Blob([csv], { type: 'text/csv' });
             const url = window.URL.createObjectURL(blob);
@@ -551,7 +558,7 @@
                 ? "ESDC Evaluation Directorate | Future Skills Program Document Review (Solicitation #100032488)"
                 : "Direction de l'évaluation d'EDSC | Examen des documents du Programme des compétences futures (#100032488)";
             document.getElementById("lblKpiDocs").textContent = currentLang === 'EN' ? "Cataloged FSC Publications" : "Publications CCF cataloguées";
-            document.getElementById("lblKpiInvestment").textContent = currentLang === 'EN' ? "Total Investment Analyzed" : "Investissement total analysé";
+            document.getElementById("lblKpiInvestment").textContent = currentLang === 'EN' ? "Funded Project Grant Investment" : "Investissement sous forme de subventions de projets financés";
             document.getElementById("btnExportCsv").textContent = currentLang === 'EN' ? "📥 Export Inventory (CSV)" : "📥 Exporter l'inventaire (CSV)";
         }
     </script>

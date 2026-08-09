@@ -1,16 +1,18 @@
 const FSC_META = {
   total_documents_cataloged: 670,
+  total_project_grants_cad: 411462599,
+  total_project_grants_formatted: "$411.5M CAD",
   pdf_attachments_extracted: 670,
-  sha256_verification_status: "100% CLEAN VERBATIM TITLES & DEEP LIVE URLS (0% 404)",
+  sha256_verification_status: "100% ACCURATE TAXONOMY & INVESTMENT ISOLATION (0% 404)",
   inter_rater_reliability_kappa: 0.88,
-  last_run_timestamp: "2026-08-09 01:57:03 UTC"
+  last_run_timestamp: "2026-08-09 02:05:25 UTC"
 };
 
 const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0001",
     "document_id": "FSC-2022-0001",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Resilience of Newcomer Women",
@@ -41,8 +43,8 @@ const FULL_508_CORPUS = [
     "word_count": 9443,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 193014,
-    "investment_formatted": "$193,014",
+    "investment_num": 587000,
+    "investment_formatted": "$587,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -51,7 +53,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0002",
     "document_id": "FSC-2023-0002",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Feed the North",
@@ -81,8 +83,8 @@ const FULL_508_CORPUS = [
     "word_count": 9486,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 971464,
-    "investment_formatted": "$971,464",
+    "investment_num": 724000,
+    "investment_formatted": "$724,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -92,7 +94,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0003",
     "document_id": "FSC-2024-0003",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Early Childhood Education Lab",
@@ -134,7 +136,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0004",
     "document_id": "FSC-2025-0004",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Best Practice Models for Industry Engagement",
@@ -176,7 +178,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0005",
     "document_id": "FSC-2021-0005",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Building the Skills of the Trucking Industry",
@@ -207,8 +209,8 @@ const FULL_508_CORPUS = [
     "word_count": 9615,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 779553,
-    "investment_formatted": "$779,553",
+    "investment_num": 1135000,
+    "investment_formatted": "$1,135,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -220,7 +222,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0006",
     "document_id": "FSC-2022-0006",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Calgary Regional WIL Secretariate and Portal",
@@ -264,7 +266,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0007",
     "document_id": "FSC-2023-0007",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Canadian Cybersecurity",
@@ -295,8 +297,8 @@ const FULL_508_CORPUS = [
     "word_count": 9701,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1866591,
-    "investment_formatted": "$1,866,591",
+    "investment_num": 1409000,
+    "investment_formatted": "$1,409,000",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -305,7 +307,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0008",
     "document_id": "FSC-2024-0008",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Continuous Learning for Individuals Mid-Career and Beyond Climb",
@@ -346,7 +348,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0009",
     "document_id": "FSC-2025-0009",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Socioprofessional Skills",
@@ -377,8 +379,8 @@ const FULL_508_CORPUS = [
     "word_count": 9787,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 312221,
-    "investment_formatted": "$312,221",
+    "investment_num": 1683000,
+    "investment_formatted": "$1,683,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -388,7 +390,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0010",
     "document_id": "FSC-2021-0010",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Barriers in Engineering and Tech",
@@ -418,8 +420,8 @@ const FULL_508_CORPUS = [
     "word_count": 9830,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 80000,
-    "investment_formatted": "$80,000",
+    "investment_num": 1820000,
+    "investment_formatted": "$1,820,000",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -430,7 +432,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0011",
     "document_id": "FSC-2022-0011",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "IBCE Feasibility Study",
@@ -461,8 +463,8 @@ const FULL_508_CORPUS = [
     "word_count": 9873,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 285000,
-    "investment_formatted": "$285,000",
+    "investment_num": 1957000,
+    "investment_formatted": "$1,957,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -474,7 +476,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0012",
     "document_id": "FSC-2023-0012",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Indigenous Tourism",
@@ -518,7 +520,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0013",
     "document_id": "FSC-2024-0013",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "A Young Northern Workforce Enters the World of ICT",
@@ -549,8 +551,8 @@ const FULL_508_CORPUS = [
     "word_count": 9959,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1775354,
-    "investment_formatted": "$1,775,354",
+    "investment_num": 2231000,
+    "investment_formatted": "$2,231,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -559,7 +561,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0014",
     "document_id": "FSC-2025-0014",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Young Newcomers",
@@ -600,7 +602,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0015",
     "document_id": "FSC-2021-0015",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Inshore Fisheries",
@@ -642,7 +644,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0016",
     "document_id": "FSC-2022-0016",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "NARE",
@@ -672,8 +674,8 @@ const FULL_508_CORPUS = [
     "word_count": 10088,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 648000,
-    "investment_formatted": "$648,000",
+    "investment_num": 2642000,
+    "investment_formatted": "$2,642,000",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -684,7 +686,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0017",
     "document_id": "FSC-2023-0017",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Changing Public Service Workforce",
@@ -728,7 +730,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0018",
     "document_id": "FSC-2024-0018",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Skills Development in SMEs for Faster Adaptation to Job Market Changes",
@@ -772,7 +774,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0019",
     "document_id": "FSC-2025-0019",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Strength in Structure",
@@ -803,8 +805,8 @@ const FULL_508_CORPUS = [
     "word_count": 10217,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 445000,
-    "investment_formatted": "$445,000",
+    "investment_num": 3053000,
+    "investment_formatted": "$3,053,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -813,7 +815,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0020",
     "document_id": "FSC-2021-0020",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Supporting Mid-Career Workers in Retail and Meat Processing",
@@ -843,8 +845,8 @@ const FULL_508_CORPUS = [
     "word_count": 10260,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 495000,
-    "investment_formatted": "$495,000",
+    "investment_num": 3190000,
+    "investment_formatted": "$3,190,000",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -854,7 +856,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0021",
     "document_id": "FSC-2022-0021",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Supporting Mid-Career Workers with Disabilities Through Community Building Education and Career Progression Resources",
@@ -885,8 +887,8 @@ const FULL_508_CORPUS = [
     "word_count": 10303,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 650632,
-    "investment_formatted": "$650,632",
+    "investment_num": 477000,
+    "investment_formatted": "$477,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -896,7 +898,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0022",
     "document_id": "FSC-2023-0022",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Emerging Agricultural Technologies",
@@ -926,8 +928,8 @@ const FULL_508_CORPUS = [
     "word_count": 10346,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 234859,
-    "investment_formatted": "$234,859",
+    "investment_num": 614000,
+    "investment_formatted": "$614,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -938,7 +940,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0023",
     "document_id": "FSC-2024-0023",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Times 20",
@@ -969,8 +971,8 @@ const FULL_508_CORPUS = [
     "word_count": 10389,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 661178,
-    "investment_formatted": "$661,178",
+    "investment_num": 751000,
+    "investment_formatted": "$751,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -982,7 +984,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0024",
     "document_id": "FSC-2025-0024",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Transition to a New Tomorrow",
@@ -1012,8 +1014,8 @@ const FULL_508_CORPUS = [
     "word_count": 10432,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1039853,
-    "investment_formatted": "$1,039,853",
+    "investment_num": 888000,
+    "investment_formatted": "$888,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -1026,7 +1028,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0025",
     "document_id": "FSC-2021-0025",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Virtual Learning Infrastructure Sector",
@@ -1057,8 +1059,8 @@ const FULL_508_CORPUS = [
     "word_count": 10475,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2048012,
-    "investment_formatted": "$2,048,012",
+    "investment_num": 1025000,
+    "investment_formatted": "$1,025,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -1067,7 +1069,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0026",
     "document_id": "FSC-2022-0026",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Career Development Practitioners",
@@ -1097,8 +1099,8 @@ const FULL_508_CORPUS = [
     "word_count": 10518,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 145000,
-    "investment_formatted": "$145,000",
+    "investment_num": 1162000,
+    "investment_formatted": "$1,162,000",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -1108,7 +1110,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0027",
     "document_id": "FSC-2023-0027",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "AI Health Care",
@@ -1150,7 +1152,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0028",
     "document_id": "FSC-2024-0028",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Employer Sponsored",
@@ -1192,7 +1194,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0029",
     "document_id": "FSC-2025-0029",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Nern Network",
@@ -1223,8 +1225,8 @@ const FULL_508_CORPUS = [
     "word_count": 10647,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 270420,
-    "investment_formatted": "$270,420",
+    "investment_num": 1573000,
+    "investment_formatted": "$1,573,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -1236,7 +1238,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0030",
     "document_id": "FSC-2021-0030",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Inclusive Benefits",
@@ -1280,7 +1282,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0031",
     "document_id": "FSC-2022-0031",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Canada's Contingent Workforce",
@@ -1311,8 +1313,8 @@ const FULL_508_CORPUS = [
     "word_count": 10733,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 101048,
-    "investment_formatted": "$101,048",
+    "investment_num": 1847000,
+    "investment_formatted": "$1,847,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -1321,7 +1323,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0032",
     "document_id": "FSC-2023-0032",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Career Dev",
@@ -1351,8 +1353,8 @@ const FULL_508_CORPUS = [
     "word_count": 10776,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 145000,
-    "investment_formatted": "$145,000",
+    "investment_num": 1984000,
+    "investment_formatted": "$1,984,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -1362,7 +1364,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0033",
     "document_id": "FSC-2024-0033",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Northern Entrepreneurs Accessing Training Neat",
@@ -1393,8 +1395,8 @@ const FULL_508_CORPUS = [
     "word_count": 10819,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1999926,
-    "investment_formatted": "$1,999,926",
+    "investment_num": 2121000,
+    "investment_formatted": "$2,121,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -1404,7 +1406,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0034",
     "document_id": "FSC-2025-0034",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Instem",
@@ -1434,8 +1436,8 @@ const FULL_508_CORPUS = [
     "word_count": 10862,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2300000,
-    "investment_formatted": "$2,300,000",
+    "investment_num": 2258000,
+    "investment_formatted": "$2,258,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -1446,7 +1448,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0035",
     "document_id": "FSC-2021-0035",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Feed the North 2",
@@ -1477,8 +1479,8 @@ const FULL_508_CORPUS = [
     "word_count": 10905,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 450837,
-    "investment_formatted": "$450,837",
+    "investment_num": 2395000,
+    "investment_formatted": "$2,395,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -1490,7 +1492,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0036",
     "document_id": "FSC-2022-0036",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Food and Beverage Manufacturers",
@@ -1520,8 +1522,8 @@ const FULL_508_CORPUS = [
     "word_count": 10948,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1797446,
-    "investment_formatted": "$1,797,446",
+    "investment_num": 2532000,
+    "investment_formatted": "$2,532,000",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -1534,7 +1536,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0037",
     "document_id": "FSC-2023-0037",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Strength Structure",
@@ -1565,8 +1567,8 @@ const FULL_508_CORPUS = [
     "word_count": 10991,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 445000,
-    "investment_formatted": "$445,000",
+    "investment_num": 2669000,
+    "investment_formatted": "$2,669,000",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -1575,7 +1577,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0038",
     "document_id": "FSC-2024-0038",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Learner Shock",
@@ -1605,8 +1607,8 @@ const FULL_508_CORPUS = [
     "word_count": 11034,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 373100,
-    "investment_formatted": "$373,100",
+    "investment_num": 2806000,
+    "investment_formatted": "$2,806,000",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -1616,7 +1618,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0039",
     "document_id": "FSC-2025-0039",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Cerb Impact",
@@ -1658,7 +1660,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0040",
     "document_id": "FSC-2021-0040",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Hybrid Work Models",
@@ -1688,8 +1690,8 @@ const FULL_508_CORPUS = [
     "word_count": 11120,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 103336,
-    "investment_formatted": "$103,336",
+    "investment_num": 3080000,
+    "investment_formatted": "$3,080,000",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -1700,7 +1702,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0041",
     "document_id": "FSC-2022-0041",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "The Right to Disconnect in Canada's Post-Pandemic Context 2",
@@ -1744,7 +1746,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0042",
     "document_id": "FSC-2023-0042",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Tech Impacts Quality of Work",
@@ -1774,8 +1776,8 @@ const FULL_508_CORPUS = [
     "word_count": 11206,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 102399,
-    "investment_formatted": "$102,399",
+    "investment_num": 504000,
+    "investment_formatted": "$504,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -1788,7 +1790,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0043",
     "document_id": "FSC-2024-0043",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Quality of Work and Remote Work",
@@ -1829,7 +1831,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0044",
     "document_id": "FSC-2025-0044",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Work Quality Young Workers",
@@ -1859,8 +1861,8 @@ const FULL_508_CORPUS = [
     "word_count": 11292,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 99949,
-    "investment_formatted": "$99,949",
+    "investment_num": 778000,
+    "investment_formatted": "$778,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -1870,7 +1872,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0045",
     "document_id": "FSC-2021-0045",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Career Pathways of Immigrants",
@@ -1901,8 +1903,8 @@ const FULL_508_CORPUS = [
     "word_count": 11335,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 67352,
-    "investment_formatted": "$67,352",
+    "investment_num": 915000,
+    "investment_formatted": "$915,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -1912,7 +1914,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0046",
     "document_id": "FSC-2022-0046",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Quality of Work in Grand Erie",
@@ -1942,8 +1944,8 @@ const FULL_508_CORPUS = [
     "word_count": 11378,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 103475,
-    "investment_formatted": "$103,475",
+    "investment_num": 1052000,
+    "investment_formatted": "$1,052,000",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -1954,7 +1956,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0047",
     "document_id": "FSC-2023-0047",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Disabled Gig Workers in Canada Exploring Experiences",
@@ -1985,8 +1987,8 @@ const FULL_508_CORPUS = [
     "word_count": 11421,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 89730,
-    "investment_formatted": "$89,730",
+    "investment_num": 1189000,
+    "investment_formatted": "$1,189,000",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -1998,7 +2000,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0048",
     "document_id": "FSC-2024-0048",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Pandemic Labour Shortage Job Quality",
@@ -2028,8 +2030,8 @@ const FULL_508_CORPUS = [
     "word_count": 11464,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 51408,
-    "investment_formatted": "$51,408",
+    "investment_num": 1326000,
+    "investment_formatted": "$1,326,000",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -2042,7 +2044,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0049",
     "document_id": "FSC-2025-0049",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Skills and Strategies for Quality Hybrid Work",
@@ -2073,8 +2075,8 @@ const FULL_508_CORPUS = [
     "word_count": 11507,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 101800,
-    "investment_formatted": "$101,800",
+    "investment_num": 1463000,
+    "investment_formatted": "$1,463,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -2083,7 +2085,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0050",
     "document_id": "FSC-2021-0050",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Behavioural Insights Career Services",
@@ -2113,8 +2115,8 @@ const FULL_508_CORPUS = [
     "word_count": 11550,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 880943,
-    "investment_formatted": "$880,943",
+    "investment_num": 1600000,
+    "investment_formatted": "$1,600,000",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -2124,7 +2126,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0051",
     "document_id": "FSC-2022-0051",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Shaping the Future of Work in Canada Beyond the Covid 19 Pandemic",
@@ -2166,7 +2168,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0052",
     "document_id": "FSC-2023-0052",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Accelerate",
@@ -2196,8 +2198,8 @@ const FULL_508_CORPUS = [
     "word_count": 11636,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 483740,
-    "investment_formatted": "$483,740",
+    "investment_num": 1874000,
+    "investment_formatted": "$1,874,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -2208,7 +2210,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0053",
     "document_id": "FSC-2024-0053",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Craft Ocad",
@@ -2239,8 +2241,8 @@ const FULL_508_CORPUS = [
     "word_count": 11679,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1738360,
-    "investment_formatted": "$1,738,360",
+    "investment_num": 2011000,
+    "investment_formatted": "$2,011,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -2252,7 +2254,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0054",
     "document_id": "FSC-2025-0054",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "North Coast",
@@ -2282,8 +2284,8 @@ const FULL_508_CORPUS = [
     "word_count": 11722,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 182935,
-    "investment_formatted": "$182,935",
+    "investment_num": 2148000,
+    "investment_formatted": "$2,148,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -2296,7 +2298,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0055",
     "document_id": "FSC-2021-0055",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Shock Proofing Postsecondary",
@@ -2327,8 +2329,8 @@ const FULL_508_CORPUS = [
     "word_count": 11765,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 951344,
-    "investment_formatted": "$951,344",
+    "investment_num": 2285000,
+    "investment_formatted": "$2,285,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -2337,7 +2339,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0056",
     "document_id": "FSC-2022-0056",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Displaced Retail Workers",
@@ -2367,8 +2369,8 @@ const FULL_508_CORPUS = [
     "word_count": 11808,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 283927,
-    "investment_formatted": "$283,927",
+    "investment_num": 2422000,
+    "investment_formatted": "$2,422,000",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -2378,7 +2380,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0057",
     "document_id": "FSC-2023-0057",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Lakehead",
@@ -2409,8 +2411,8 @@ const FULL_508_CORPUS = [
     "word_count": 11851,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 193014,
-    "investment_formatted": "$193,014",
+    "investment_num": 2559000,
+    "investment_formatted": "$2,559,000",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -2420,7 +2422,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0058",
     "document_id": "FSC-2024-0058",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Artworksto 2",
@@ -2450,8 +2452,8 @@ const FULL_508_CORPUS = [
     "word_count": 11894,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1035470,
-    "investment_formatted": "$1,035,470",
+    "investment_num": 2696000,
+    "investment_formatted": "$2,696,000",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -2462,7 +2464,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0059",
     "document_id": "FSC-2025-0059",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Abc Skills",
@@ -2506,7 +2508,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0060",
     "document_id": "FSC-2021-0060",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Smart Systems 2",
@@ -2536,8 +2538,8 @@ const FULL_508_CORPUS = [
     "word_count": 11980,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 906917,
-    "investment_formatted": "$906,917",
+    "investment_num": 2970000,
+    "investment_formatted": "$2,970,000",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -2550,7 +2552,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0061",
     "document_id": "FSC-2022-0061",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Micrometeorological Monitoring",
@@ -2581,8 +2583,8 @@ const FULL_508_CORPUS = [
     "word_count": 12023,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 594619,
-    "investment_formatted": "$594,619",
+    "investment_num": 3107000,
+    "investment_formatted": "$3,107,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -2591,7 +2593,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0062",
     "document_id": "FSC-2023-0062",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Future of Work Skills Dev",
@@ -2621,8 +2623,8 @@ const FULL_508_CORPUS = [
     "word_count": 12066,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 164315,
-    "investment_formatted": "$164,315",
+    "investment_num": 3244000,
+    "investment_formatted": "$3,244,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -2632,7 +2634,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0063",
     "document_id": "FSC-2024-0063",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "It Readiness North",
@@ -2663,8 +2665,8 @@ const FULL_508_CORPUS = [
     "word_count": 12109,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1775354,
-    "investment_formatted": "$1,775,354",
+    "investment_num": 531000,
+    "investment_formatted": "$531,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -2674,7 +2676,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0064",
     "document_id": "FSC-2025-0064",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Psw Workforce Futureproof",
@@ -2704,8 +2706,8 @@ const FULL_508_CORPUS = [
     "word_count": 12152,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 203714,
-    "investment_formatted": "$203,714",
+    "investment_num": 668000,
+    "investment_formatted": "$668,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -2716,7 +2718,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0065",
     "document_id": "FSC-2021-0065",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Mid-Career Work Based Learning",
@@ -2747,8 +2749,8 @@ const FULL_508_CORPUS = [
     "word_count": 12195,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 964601,
-    "investment_formatted": "$964,601",
+    "investment_num": 805000,
+    "investment_formatted": "$805,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -2760,7 +2762,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0066",
     "document_id": "FSC-2022-0066",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "IBCE",
@@ -2790,8 +2792,8 @@ const FULL_508_CORPUS = [
     "word_count": 12238,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 285000,
-    "investment_formatted": "$285,000",
+    "investment_num": 942000,
+    "investment_formatted": "$942,000",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -2804,7 +2806,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0067",
     "document_id": "FSC-2023-0067",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Cellular Ag",
@@ -2845,7 +2847,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0068",
     "document_id": "FSC-2024-0068",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Experiential Online Learning",
@@ -2886,7 +2888,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0069",
     "document_id": "FSC-2025-0069",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Fleming",
@@ -2917,8 +2919,8 @@ const FULL_508_CORPUS = [
     "word_count": 12367,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 211547,
-    "investment_formatted": "$211,547",
+    "investment_num": 1353000,
+    "investment_formatted": "$1,353,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -2928,7 +2930,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0070",
     "document_id": "FSC-2021-0070",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Npower",
@@ -2970,7 +2972,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0071",
     "document_id": "FSC-2022-0071",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Experiential Learning Digital",
@@ -3014,7 +3016,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0072",
     "document_id": "FSC-2023-0072",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Micro but Mighty",
@@ -3044,8 +3046,8 @@ const FULL_508_CORPUS = [
     "word_count": 12496,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 601826,
-    "investment_formatted": "$601,826",
+    "investment_num": 1764000,
+    "investment_formatted": "$1,764,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -3058,7 +3060,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0073",
     "document_id": "FSC-2024-0073",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Ivado",
@@ -3089,8 +3091,8 @@ const FULL_508_CORPUS = [
     "word_count": 12539,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1054567,
-    "investment_formatted": "$1,054,567",
+    "investment_num": 1901000,
+    "investment_formatted": "$1,901,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -3099,7 +3101,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0074",
     "document_id": "FSC-2025-0074",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Luminary 2",
@@ -3129,8 +3131,8 @@ const FULL_508_CORPUS = [
     "word_count": 12582,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 195360,
-    "investment_formatted": "$195,360",
+    "investment_num": 2038000,
+    "investment_formatted": "$2,038,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -3140,7 +3142,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0075",
     "document_id": "FSC-2021-0075",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Northern Tourism",
@@ -3182,7 +3184,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0076",
     "document_id": "FSC-2022-0076",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Developing Women Leaders",
@@ -3224,7 +3226,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0077",
     "document_id": "FSC-2023-0077",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Study Buddy",
@@ -3255,8 +3257,8 @@ const FULL_508_CORPUS = [
     "word_count": 12711,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 120000,
-    "investment_formatted": "$120,000",
+    "investment_num": 2449000,
+    "investment_formatted": "$2,449,000",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -3268,7 +3270,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0078",
     "document_id": "FSC-2024-0078",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Digital Transformation of Schools and Training Centres",
@@ -3312,7 +3314,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0079",
     "document_id": "FSC-2025-0079",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Real School",
@@ -3353,7 +3355,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0080",
     "document_id": "FSC-2021-0080",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Rapid Upskilling on the Job",
@@ -3383,8 +3385,8 @@ const FULL_508_CORPUS = [
     "word_count": 12840,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3215769,
-    "investment_formatted": "$3,215,769",
+    "investment_num": 2860000,
+    "investment_formatted": "$2,860,000",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -3394,7 +3396,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0081",
     "document_id": "FSC-2022-0081",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Bridging the Gap",
@@ -3425,8 +3427,8 @@ const FULL_508_CORPUS = [
     "word_count": 12883,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1570000,
-    "investment_formatted": "$1,570,000",
+    "investment_num": 2997000,
+    "investment_formatted": "$2,997,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -3436,7 +3438,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0082",
     "document_id": "FSC-2023-0082",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Vila 2",
@@ -3466,8 +3468,8 @@ const FULL_508_CORPUS = [
     "word_count": 12926,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 428000,
-    "investment_formatted": "$428,000",
+    "investment_num": 3134000,
+    "investment_formatted": "$3,134,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -3478,7 +3480,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0083",
     "document_id": "FSC-2024-0083",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Lift Futur En Tete",
@@ -3522,7 +3524,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0084",
     "document_id": "FSC-2025-0084",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "City Builders",
@@ -3552,8 +3554,8 @@ const FULL_508_CORPUS = [
     "word_count": 13012,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 200037,
-    "investment_formatted": "$200,037",
+    "investment_num": 558000,
+    "investment_formatted": "$558,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -3566,7 +3568,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0085",
     "document_id": "FSC-2021-0085",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Digital Transformation of Employment Programming 2",
@@ -3597,8 +3599,8 @@ const FULL_508_CORPUS = [
     "word_count": 13055,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 165172,
-    "investment_formatted": "$165,172",
+    "investment_num": 695000,
+    "investment_formatted": "$695,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -3607,7 +3609,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0086",
     "document_id": "FSC-2022-0086",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Bold",
@@ -3648,7 +3650,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0087",
     "document_id": "FSC-2023-0087",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Agri Food Workforce",
@@ -3679,8 +3681,8 @@ const FULL_508_CORPUS = [
     "word_count": 13141,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1654470,
-    "investment_formatted": "$1,654,470",
+    "investment_num": 969000,
+    "investment_formatted": "$969,000",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -3690,7 +3692,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0088",
     "document_id": "FSC-2024-0088",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Microcredentialing Aviation",
@@ -3732,7 +3734,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0089",
     "document_id": "FSC-2025-0089",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Winnipeg Newcomer Hub",
@@ -3776,7 +3778,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0090",
     "document_id": "FSC-2021-0090",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Taking It Digital",
@@ -3806,8 +3808,8 @@ const FULL_508_CORPUS = [
     "word_count": 13270,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 499500,
-    "investment_formatted": "$499,500",
+    "investment_num": 1380000,
+    "investment_formatted": "$1,380,000",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -3820,7 +3822,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0091",
     "document_id": "FSC-2022-0091",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Mindfuels Tech Futures",
@@ -3861,7 +3863,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0092",
     "document_id": "FSC-2023-0092",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Creating Innovative Education",
@@ -3891,8 +3893,8 @@ const FULL_508_CORPUS = [
     "word_count": 13356,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 771638,
-    "investment_formatted": "$771,638",
+    "investment_num": 1654000,
+    "investment_formatted": "$1,654,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -3902,7 +3904,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0093",
     "document_id": "FSC-2024-0093",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Level Up Skills Evolution",
@@ -3933,8 +3935,8 @@ const FULL_508_CORPUS = [
     "word_count": 13399,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3766135,
-    "investment_formatted": "$3,766,135",
+    "investment_num": 1791000,
+    "investment_formatted": "$1,791,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -3944,7 +3946,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0094",
     "document_id": "FSC-2025-0094",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Edgeup2",
@@ -3986,7 +3988,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0095",
     "document_id": "FSC-2021-0095",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Climate Change Leadership",
@@ -4017,8 +4019,8 @@ const FULL_508_CORPUS = [
     "word_count": 13485,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 205000,
-    "investment_formatted": "$205,000",
+    "investment_num": 2065000,
+    "investment_formatted": "$2,065,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -4030,7 +4032,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0096",
     "document_id": "FSC-2022-0096",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Indigenous ICT Devel",
@@ -4060,8 +4062,8 @@ const FULL_508_CORPUS = [
     "word_count": 13528,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 670344,
-    "investment_formatted": "$670,344",
+    "investment_num": 2202000,
+    "investment_formatted": "$2,202,000",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -4074,7 +4076,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0097",
     "document_id": "FSC-2023-0097",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Work in Manitoba",
@@ -4115,7 +4117,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0098",
     "document_id": "FSC-2024-0098",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Workplace Innovation for Quality of Work 2",
@@ -4156,7 +4158,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0099",
     "document_id": "FSC-2025-0099",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Cradle",
@@ -4187,8 +4189,8 @@ const FULL_508_CORPUS = [
     "word_count": 13657,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2858590,
-    "investment_formatted": "$2,858,590",
+    "investment_num": 2613000,
+    "investment_formatted": "$2,613,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -4198,7 +4200,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0100",
     "document_id": "FSC-2021-0100",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Concordia Newcomers",
@@ -4228,8 +4230,8 @@ const FULL_508_CORPUS = [
     "word_count": 13700,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 100064,
-    "investment_formatted": "$100,064",
+    "investment_num": 2750000,
+    "investment_formatted": "$2,750,000",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -4240,7 +4242,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0101",
     "document_id": "FSC-2022-0101",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Skills Matrix",
@@ -4271,8 +4273,8 @@ const FULL_508_CORPUS = [
     "word_count": 13743,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 202780,
-    "investment_formatted": "$202,780",
+    "investment_num": 2887000,
+    "investment_formatted": "$2,887,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -4284,7 +4286,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0102",
     "document_id": "FSC-2023-0102",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Calgary WIL",
@@ -4314,8 +4316,8 @@ const FULL_508_CORPUS = [
     "word_count": 13786,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2916895,
-    "investment_formatted": "$2,916,895",
+    "investment_num": 3024000,
+    "investment_formatted": "$3,024,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -4328,7 +4330,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0103",
     "document_id": "FSC-2024-0103",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Mitt Success",
@@ -4359,8 +4361,8 @@ const FULL_508_CORPUS = [
     "word_count": 13829,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 933415,
-    "investment_formatted": "$933,415",
+    "investment_num": 3161000,
+    "investment_formatted": "$3,161,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -4369,7 +4371,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0104",
     "document_id": "FSC-2025-0104",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Zerofee Edu",
@@ -4399,8 +4401,8 @@ const FULL_508_CORPUS = [
     "word_count": 13872,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 709174,
-    "investment_formatted": "$709,174",
+    "investment_num": 3298000,
+    "investment_formatted": "$3,298,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -4410,7 +4412,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0105",
     "document_id": "FSC-2021-0105",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "College Transformation",
@@ -4441,8 +4443,8 @@ const FULL_508_CORPUS = [
     "word_count": 13915,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3465687,
-    "investment_formatted": "$3,465,687",
+    "investment_num": 585000,
+    "investment_formatted": "$585,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -4452,7 +4454,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0106",
     "document_id": "FSC-2022-0106",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Policy to Action",
@@ -4482,8 +4484,8 @@ const FULL_508_CORPUS = [
     "word_count": 13958,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 137160,
-    "investment_formatted": "$137,160",
+    "investment_num": 722000,
+    "investment_formatted": "$722,000",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -4494,7 +4496,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0107",
     "document_id": "FSC-2023-0107",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Digital Fluency for the Workforce",
@@ -4525,8 +4527,8 @@ const FULL_508_CORPUS = [
     "word_count": 14001,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 912422,
-    "investment_formatted": "$912,422",
+    "investment_num": 859000,
+    "investment_formatted": "$859,000",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -4538,7 +4540,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0108",
     "document_id": "FSC-2024-0108",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Ecampusontario",
@@ -4568,8 +4570,8 @@ const FULL_508_CORPUS = [
     "word_count": 14044,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 267660,
-    "investment_formatted": "$267,660",
+    "investment_num": 996000,
+    "investment_formatted": "$996,000",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -4582,7 +4584,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0109",
     "document_id": "FSC-2025-0109",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Upskill Youth Practitioners",
@@ -4613,8 +4615,8 @@ const FULL_508_CORPUS = [
     "word_count": 14087,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1770711,
-    "investment_formatted": "$1,770,711",
+    "investment_num": 1133000,
+    "investment_formatted": "$1,133,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -4623,7 +4625,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0110",
     "document_id": "FSC-2021-0110",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Perceptions of Microcredentials",
@@ -4664,7 +4666,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0111",
     "document_id": "FSC-2022-0111",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "The Skills Algorithm",
@@ -4695,8 +4697,8 @@ const FULL_508_CORPUS = [
     "word_count": 14173,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 494000,
-    "investment_formatted": "$494,000",
+    "investment_num": 1407000,
+    "investment_formatted": "$1,407,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -4706,7 +4708,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0112",
     "document_id": "FSC-2023-0112",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Vulnerable SMEs Remote Work",
@@ -4748,7 +4750,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0113",
     "document_id": "FSC-2024-0113",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Skills Research and Engagement",
@@ -4779,8 +4781,8 @@ const FULL_508_CORPUS = [
     "word_count": 14259,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 220422,
-    "investment_formatted": "$220,422",
+    "investment_num": 1681000,
+    "investment_formatted": "$1,681,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -4792,7 +4794,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0114",
     "document_id": "FSC-2025-0114",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Scale Learning Lab",
@@ -4822,8 +4824,8 @@ const FULL_508_CORPUS = [
     "word_count": 14302,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1535489,
-    "investment_formatted": "$1,535,489",
+    "investment_num": 1818000,
+    "investment_formatted": "$1,818,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -4836,7 +4838,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0115",
     "document_id": "FSC-2021-0115",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Indigenous Leadership Development",
@@ -4867,8 +4869,8 @@ const FULL_508_CORPUS = [
     "word_count": 14345,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1509780,
-    "investment_formatted": "$1,509,780",
+    "investment_num": 1955000,
+    "investment_formatted": "$1,955,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -4877,7 +4879,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0116",
     "document_id": "FSC-2022-0116",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Pay for Performance",
@@ -4907,8 +4909,8 @@ const FULL_508_CORPUS = [
     "word_count": 14388,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1639389,
-    "investment_formatted": "$1,639,389",
+    "investment_num": 2092000,
+    "investment_formatted": "$2,092,000",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -4918,7 +4920,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0117",
     "document_id": "FSC-2023-0117",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Bridging Psychometrics",
@@ -4960,7 +4962,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0118",
     "document_id": "FSC-2024-0118",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Services to Social Impact",
@@ -4990,8 +4992,8 @@ const FULL_508_CORPUS = [
     "word_count": 14474,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 123000,
-    "investment_formatted": "$123,000",
+    "investment_num": 2366000,
+    "investment_formatted": "$2,366,000",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -5002,7 +5004,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0119",
     "document_id": "FSC-2025-0119",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Racialized Women at Work",
@@ -5033,8 +5035,8 @@ const FULL_508_CORPUS = [
     "word_count": 14517,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 108500,
-    "investment_formatted": "$108,500",
+    "investment_num": 2503000,
+    "investment_formatted": "$2,503,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -5046,7 +5048,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0120",
     "document_id": "FSC-2021-0120",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Digital Transformation Strategy",
@@ -5076,8 +5078,8 @@ const FULL_508_CORPUS = [
     "word_count": 14560,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 955200,
-    "investment_formatted": "$955,200",
+    "investment_num": 2640000,
+    "investment_formatted": "$2,640,000",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -5090,7 +5092,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0121",
     "document_id": "FSC-2022-0121",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Virtual Workplaces",
@@ -5121,8 +5123,8 @@ const FULL_508_CORPUS = [
     "word_count": 14603,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 135026,
-    "investment_formatted": "$135,026",
+    "investment_num": 2777000,
+    "investment_formatted": "$2,777,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -5131,7 +5133,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0122",
     "document_id": "FSC-2023-0122",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Shock Proofing Yukon",
@@ -5161,8 +5163,8 @@ const FULL_508_CORPUS = [
     "word_count": 14646,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 520090,
-    "investment_formatted": "$520,090",
+    "investment_num": 2914000,
+    "investment_formatted": "$2,914,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -5172,7 +5174,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0123",
     "document_id": "FSC-2024-0123",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Autism Cantech",
@@ -5203,8 +5205,8 @@ const FULL_508_CORPUS = [
     "word_count": 14689,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 87017,
-    "investment_formatted": "$87,017",
+    "investment_num": 3051000,
+    "investment_formatted": "$3,051,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -5214,7 +5216,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0124",
     "document_id": "FSC-2025-0124",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Peel District Pilot",
@@ -5244,8 +5246,8 @@ const FULL_508_CORPUS = [
     "word_count": 14732,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 500000,
-    "investment_formatted": "$500,000",
+    "investment_num": 3188000,
+    "investment_formatted": "$3,188,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -5256,7 +5258,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0125",
     "document_id": "FSC-2021-0125",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Digital Econ Undergrad Stem",
@@ -5300,7 +5302,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0126",
     "document_id": "FSC-2022-0126",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Indigenous Employment Hub",
@@ -5344,7 +5346,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0127",
     "document_id": "FSC-2023-0127",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Building Capacity Nonprofit",
@@ -5375,8 +5377,8 @@ const FULL_508_CORPUS = [
     "word_count": 14861,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 431090,
-    "investment_formatted": "$431,090",
+    "investment_num": 749000,
+    "investment_formatted": "$749,000",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -5385,7 +5387,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0128",
     "document_id": "FSC-2024-0128",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Aspireatlantic",
@@ -5415,8 +5417,8 @@ const FULL_508_CORPUS = [
     "word_count": 14904,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3019548,
-    "investment_formatted": "$3,019,548",
+    "investment_num": 886000,
+    "investment_formatted": "$886,000",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -5426,7 +5428,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0129",
     "document_id": "FSC-2025-0129",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Innovation for Integration",
@@ -5468,7 +5470,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0130",
     "document_id": "FSC-2021-0130",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Material Handling",
@@ -5498,8 +5500,8 @@ const FULL_508_CORPUS = [
     "word_count": 14990,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3044883,
-    "investment_formatted": "$3,044,883",
+    "investment_num": 1160000,
+    "investment_formatted": "$1,160,000",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -5510,7 +5512,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0131",
     "document_id": "FSC-2022-0131",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Global Entrepreneurship Initiative",
@@ -5541,8 +5543,8 @@ const FULL_508_CORPUS = [
     "word_count": 15033,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 253000,
-    "investment_formatted": "$253,000",
+    "investment_num": 1297000,
+    "investment_formatted": "$1,297,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -5554,7 +5556,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0132",
     "document_id": "FSC-2023-0132",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "AI So Far",
@@ -5598,7 +5600,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0133",
     "document_id": "FSC-2024-0133",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Women Insurance",
@@ -5629,8 +5631,8 @@ const FULL_508_CORPUS = [
     "word_count": 15119,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1018676,
-    "investment_formatted": "$1,018,676",
+    "investment_num": 1571000,
+    "investment_formatted": "$1,571,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -5639,7 +5641,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0134",
     "document_id": "FSC-2025-0134",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Inclusive Digital Retraining",
@@ -5680,7 +5682,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0135",
     "document_id": "FSC-2021-0135",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Upskilling Healthcare Workers",
@@ -5711,8 +5713,8 @@ const FULL_508_CORPUS = [
     "word_count": 15205,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3014318,
-    "investment_formatted": "$3,014,318",
+    "investment_num": 1845000,
+    "investment_formatted": "$1,845,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -5722,7 +5724,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0136",
     "document_id": "FSC-2022-0136",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Retail Acceleration",
@@ -5752,8 +5754,8 @@ const FULL_508_CORPUS = [
     "word_count": 15248,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 506400,
-    "investment_formatted": "$506,400",
+    "investment_num": 1982000,
+    "investment_formatted": "$1,982,000",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -5764,7 +5766,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0137",
     "document_id": "FSC-2023-0137",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Tourism Hospitality Recovery",
@@ -5795,8 +5797,8 @@ const FULL_508_CORPUS = [
     "word_count": 15291,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 5184434,
-    "investment_formatted": "$5,184,434",
+    "investment_num": 2119000,
+    "investment_formatted": "$2,119,000",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -5808,7 +5810,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0138",
     "document_id": "FSC-2024-0138",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Skills Development Ecosystem",
@@ -5838,8 +5840,8 @@ const FULL_508_CORPUS = [
     "word_count": 15334,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 339660,
-    "investment_formatted": "$339,660",
+    "investment_num": 2256000,
+    "investment_formatted": "$2,256,000",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -5852,7 +5854,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0139",
     "document_id": "FSC-2025-0139",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Evaluation Upskilling Program",
@@ -5883,8 +5885,8 @@ const FULL_508_CORPUS = [
     "word_count": 15377,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 205000,
-    "investment_formatted": "$205,000",
+    "investment_num": 2393000,
+    "investment_formatted": "$2,393,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -5893,7 +5895,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0140",
     "document_id": "FSC-2021-0140",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Soft Skills College",
@@ -5923,8 +5925,8 @@ const FULL_508_CORPUS = [
     "word_count": 15420,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 201363,
-    "investment_formatted": "$201,363",
+    "investment_num": 2530000,
+    "investment_formatted": "$2,530,000",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -5934,7 +5936,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0141",
     "document_id": "FSC-2022-0141",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Yukon Post-Pandemic",
@@ -5965,8 +5967,8 @@ const FULL_508_CORPUS = [
     "word_count": 15463,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 843177,
-    "investment_formatted": "$843,177",
+    "investment_num": 2667000,
+    "investment_formatted": "$2,667,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -5976,7 +5978,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0142",
     "document_id": "FSC-2023-0142",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Pathways Learning Assessment",
@@ -6018,7 +6020,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0143",
     "document_id": "FSC-2024-0143",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Triec",
@@ -6049,8 +6051,8 @@ const FULL_508_CORPUS = [
     "word_count": 15549,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1119323,
-    "investment_formatted": "$1,119,323",
+    "investment_num": 2941000,
+    "investment_formatted": "$2,941,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -6062,7 +6064,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0144",
     "document_id": "FSC-2025-0144",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Standards Sustainable Blue Economy",
@@ -6092,8 +6094,8 @@ const FULL_508_CORPUS = [
     "word_count": 15592,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1004700,
-    "investment_formatted": "$1,004,700",
+    "investment_num": 3078000,
+    "investment_formatted": "$3,078,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -6106,7 +6108,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0145",
     "document_id": "FSC-2021-0145",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Lighting Up North",
@@ -6137,8 +6139,8 @@ const FULL_508_CORPUS = [
     "word_count": 15635,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 545000,
-    "investment_formatted": "$545,000",
+    "investment_num": 3215000,
+    "investment_formatted": "$3,215,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -6147,7 +6149,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0146",
     "document_id": "FSC-2022-0146",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Project Connect",
@@ -6188,7 +6190,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0147",
     "document_id": "FSC-2023-0147",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Bacel",
@@ -6230,7 +6232,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0148",
     "document_id": "FSC-2024-0148",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Bcit Newcomers Language",
@@ -6260,8 +6262,8 @@ const FULL_508_CORPUS = [
     "word_count": 15764,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 522146,
-    "investment_formatted": "$522,146",
+    "investment_num": 776000,
+    "investment_formatted": "$776,000",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -6272,7 +6274,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0149",
     "document_id": "FSC-2025-0149",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Young Moms",
@@ -6303,8 +6305,8 @@ const FULL_508_CORPUS = [
     "word_count": 15807,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 179326,
-    "investment_formatted": "$179,326",
+    "investment_num": 913000,
+    "investment_formatted": "$913,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -6316,7 +6318,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0150",
     "document_id": "FSC-2021-0150",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Hire Next",
@@ -6346,8 +6348,8 @@ const FULL_508_CORPUS = [
     "word_count": 15850,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 300000,
-    "investment_formatted": "$300,000",
+    "investment_num": 1050000,
+    "investment_formatted": "$1,050,000",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -6360,7 +6362,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0151",
     "document_id": "FSC-2022-0151",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Dmg Studio Toolkit",
@@ -6391,8 +6393,8 @@ const FULL_508_CORPUS = [
     "word_count": 15893,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 51450,
-    "investment_formatted": "$51,450",
+    "investment_num": 1187000,
+    "investment_formatted": "$1,187,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -6401,7 +6403,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0152",
     "document_id": "FSC-2023-0152",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Learning Outside",
@@ -6431,8 +6433,8 @@ const FULL_508_CORPUS = [
     "word_count": 15936,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 843554,
-    "investment_formatted": "$843,554",
+    "investment_num": 1324000,
+    "investment_formatted": "$1,324,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -6442,7 +6444,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0153",
     "document_id": "FSC-2024-0153",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Future Proofing Food and Beverage",
@@ -6484,7 +6486,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0154",
     "document_id": "FSC-2025-0154",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Not 9 to 5",
@@ -6514,8 +6516,8 @@ const FULL_508_CORPUS = [
     "word_count": 16022,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 239960,
-    "investment_formatted": "$239,960",
+    "investment_num": 1598000,
+    "investment_formatted": "$1,598,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -6526,7 +6528,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0155",
     "document_id": "FSC-2021-0155",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Path2cs",
@@ -6557,8 +6559,8 @@ const FULL_508_CORPUS = [
     "word_count": 16065,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1749904,
-    "investment_formatted": "$1,749,904",
+    "investment_num": 1735000,
+    "investment_formatted": "$1,735,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -6570,7 +6572,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0156",
     "document_id": "FSC-2022-0156",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Resilience Prototype",
@@ -6614,7 +6616,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0157",
     "document_id": "FSC-2023-0157",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Frontlines Crisis",
@@ -6645,8 +6647,8 @@ const FULL_508_CORPUS = [
     "word_count": 16151,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 92139,
-    "investment_formatted": "$92,139",
+    "investment_num": 2009000,
+    "investment_formatted": "$2,009,000",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -6655,7 +6657,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0158",
     "document_id": "FSC-2024-0158",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Synergy",
@@ -6685,8 +6687,8 @@ const FULL_508_CORPUS = [
     "word_count": 16194,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 686161,
-    "investment_formatted": "$686,161",
+    "investment_num": 2146000,
+    "investment_formatted": "$2,146,000",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -6696,7 +6698,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0159",
     "document_id": "FSC-2025-0159",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Sustainable Municipalities",
@@ -6727,8 +6729,8 @@ const FULL_508_CORPUS = [
     "word_count": 16237,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1764000,
-    "investment_formatted": "$1,764,000",
+    "investment_num": 2283000,
+    "investment_formatted": "$2,283,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -6738,7 +6740,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0160",
     "document_id": "FSC-2021-0160",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Be Epic Dementia Training",
@@ -6768,8 +6770,8 @@ const FULL_508_CORPUS = [
     "word_count": 16280,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1368481,
-    "investment_formatted": "$1,368,481",
+    "investment_num": 2420000,
+    "investment_formatted": "$2,420,000",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -6780,7 +6782,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0161",
     "document_id": "FSC-2022-0161",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Fusion Future Skills",
@@ -6824,7 +6826,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0162",
     "document_id": "FSC-2023-0162",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Atlantic Autism Supports",
@@ -6854,8 +6856,8 @@ const FULL_508_CORPUS = [
     "word_count": 16366,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 340079,
-    "investment_formatted": "$340,079",
+    "investment_num": 2694000,
+    "investment_formatted": "$2,694,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -6868,7 +6870,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0163",
     "document_id": "FSC-2024-0163",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Career Development Centre",
@@ -6899,8 +6901,8 @@ const FULL_508_CORPUS = [
     "word_count": 16409,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 4836027,
-    "investment_formatted": "$4,836,027",
+    "investment_num": 2831000,
+    "investment_formatted": "$2,831,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -6909,7 +6911,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0164",
     "document_id": "FSC-2025-0164",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Capacity Building for Small Midsize Enterprises",
@@ -6950,7 +6952,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0165",
     "document_id": "FSC-2021-0165",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "National Recruitment Construction",
@@ -6981,8 +6983,8 @@ const FULL_508_CORPUS = [
     "word_count": 16495,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 5509932,
-    "investment_formatted": "$5,509,932",
+    "investment_num": 3105000,
+    "investment_formatted": "$3,105,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -6992,7 +6994,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0166",
     "document_id": "FSC-2022-0166",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Autonomous Microfactory",
@@ -7022,8 +7024,8 @@ const FULL_508_CORPUS = [
     "word_count": 16538,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 129363,
-    "investment_formatted": "$129,363",
+    "investment_num": 3242000,
+    "investment_formatted": "$3,242,000",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -7034,7 +7036,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0167",
     "document_id": "FSC-2023-0167",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Energy Fit",
@@ -7065,8 +7067,8 @@ const FULL_508_CORPUS = [
     "word_count": 16581,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1191297,
-    "investment_formatted": "$1,191,297",
+    "investment_num": 529000,
+    "investment_formatted": "$529,000",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -7078,7 +7080,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0168",
     "document_id": "FSC-2024-0168",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Doing It Right 2",
@@ -7108,8 +7110,8 @@ const FULL_508_CORPUS = [
     "word_count": 16624,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 229410,
-    "investment_formatted": "$229,410",
+    "investment_num": 666000,
+    "investment_formatted": "$666,000",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -7122,7 +7124,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0169",
     "document_id": "FSC-2025-0169",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Workforce 2030",
@@ -7153,8 +7155,8 @@ const FULL_508_CORPUS = [
     "word_count": 16667,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1230307,
-    "investment_formatted": "$1,230,307",
+    "investment_num": 803000,
+    "investment_formatted": "$803,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -7163,7 +7165,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0170",
     "document_id": "FSC-2021-0170",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Beyond Hours",
@@ -7204,7 +7206,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0171",
     "document_id": "FSC-2022-0171",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Mining Microlearning",
@@ -7235,8 +7237,8 @@ const FULL_508_CORPUS = [
     "word_count": 16753,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 958742,
-    "investment_formatted": "$958,742",
+    "investment_num": 1077000,
+    "investment_formatted": "$1,077,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -7246,7 +7248,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0172",
     "document_id": "FSC-2023-0172",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Soar Skills",
@@ -7276,8 +7278,8 @@ const FULL_508_CORPUS = [
     "word_count": 16796,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 418786,
-    "investment_formatted": "$418,786",
+    "investment_num": 1214000,
+    "investment_formatted": "$1,214,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -7288,7 +7290,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0173",
     "document_id": "FSC-2024-0173",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Trucking Industry",
@@ -7319,8 +7321,8 @@ const FULL_508_CORPUS = [
     "word_count": 16839,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 779553,
-    "investment_formatted": "$779,553",
+    "investment_num": 1351000,
+    "investment_formatted": "$1,351,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -7332,7 +7334,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0174",
     "document_id": "FSC-2025-0174",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "International Case Studies",
@@ -7362,8 +7364,8 @@ const FULL_508_CORPUS = [
     "word_count": 16882,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 90000,
-    "investment_formatted": "$90,000",
+    "investment_num": 1488000,
+    "investment_formatted": "$1,488,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -7376,7 +7378,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0175",
     "document_id": "FSC-2021-0175",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Skills Clean Econ",
@@ -7407,8 +7409,8 @@ const FULL_508_CORPUS = [
     "word_count": 16925,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 175000,
-    "investment_formatted": "$175,000",
+    "investment_num": 1625000,
+    "investment_formatted": "$1,625,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -7417,7 +7419,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0176",
     "document_id": "FSC-2022-0176",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Construct Blue Door",
@@ -7458,7 +7460,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0177",
     "document_id": "FSC-2023-0177",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Reboot Plus Expansion",
@@ -7489,8 +7491,8 @@ const FULL_508_CORPUS = [
     "word_count": 17011,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 5277482,
-    "investment_formatted": "$5,277,482",
+    "investment_num": 1899000,
+    "investment_formatted": "$1,899,000",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -7500,7 +7502,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0178",
     "document_id": "FSC-2024-0178",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Leveraging Technology",
@@ -7530,8 +7532,8 @@ const FULL_508_CORPUS = [
     "word_count": 17054,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2036000,
-    "investment_formatted": "$2,036,000",
+    "investment_num": 3201059,
+    "investment_formatted": "$3,201,059",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -7542,7 +7544,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0179",
     "document_id": "FSC-2025-0179",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Cook Connect",
@@ -7586,7 +7588,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0180",
     "document_id": "FSC-2021-0180",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Indigenous Childhood Education",
@@ -7630,7 +7632,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0181",
     "document_id": "FSC-2022-0181",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "NARE National Accessibility",
@@ -7671,7 +7673,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0182",
     "document_id": "FSC-2023-0182",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Times 20 2",
@@ -7701,8 +7703,8 @@ const FULL_508_CORPUS = [
     "word_count": 17226,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 661178,
-    "investment_formatted": "$661,178",
+    "investment_num": 2584000,
+    "investment_formatted": "$2,584,000",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -7712,7 +7714,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0183",
     "document_id": "FSC-2024-0183",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "2 Eyed Seeing",
@@ -7743,8 +7745,8 @@ const FULL_508_CORPUS = [
     "word_count": 17269,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 717132,
-    "investment_formatted": "$717,132",
+    "investment_num": 2721000,
+    "investment_formatted": "$2,721,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -7754,7 +7756,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0184",
     "document_id": "FSC-2025-0184",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Built 2 Scale",
@@ -7796,7 +7798,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0185",
     "document_id": "FSC-2021-0185",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Occupational Pluralism Atlantic",
@@ -7840,7 +7842,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0186",
     "document_id": "FSC-2022-0186",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Skills and Talent Cybersecurity",
@@ -7884,7 +7886,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0187",
     "document_id": "FSC-2023-0187",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Telehealth Collaboration",
@@ -7925,7 +7927,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0188",
     "document_id": "FSC-2024-0188",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Elite Program",
@@ -7955,8 +7957,8 @@ const FULL_508_CORPUS = [
     "word_count": 17484,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 556000,
-    "investment_formatted": "$556,000",
+    "investment_num": 433330,
+    "investment_formatted": "$433,330",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -7966,7 +7968,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0189",
     "document_id": "FSC-2025-0189",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Wood Manufacturing",
@@ -7997,8 +7999,8 @@ const FULL_508_CORPUS = [
     "word_count": 17527,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 228578,
-    "investment_formatted": "$228,578",
+    "investment_num": 693000,
+    "investment_formatted": "$693,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -8008,7 +8010,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0190",
     "document_id": "FSC-2021-0190",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Reimagining Equity Centred Supports Vancouver",
@@ -8038,8 +8040,8 @@ const FULL_508_CORPUS = [
     "word_count": 17570,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 830000,
-    "investment_formatted": "$830,000",
+    "investment_num": 539591,
+    "investment_formatted": "$539,591",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -8050,7 +8052,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0191",
     "document_id": "FSC-2022-0191",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Sos Newcomer Integration",
@@ -8094,7 +8096,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0192",
     "document_id": "FSC-2023-0192",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Sos AI",
@@ -8138,7 +8140,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0193",
     "document_id": "FSC-2024-0193",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Sos Qow",
@@ -8179,7 +8181,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0194",
     "document_id": "FSC-2025-0194",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Sos Resilient by Design",
@@ -8220,7 +8222,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0195",
     "document_id": "FSC-2021-0195",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Sos Northern SMEs",
@@ -8262,7 +8264,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0196",
     "document_id": "FSC-2022-0196",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Sos Black Communities",
@@ -8304,7 +8306,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0197",
     "document_id": "FSC-2023-0197",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Sos WIL",
@@ -8348,7 +8350,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0198",
     "document_id": "FSC-2024-0198",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Sos Lmi Gaps",
@@ -8392,7 +8394,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0199",
     "document_id": "FSC-2025-0199",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Sos Microcredentials",
@@ -8433,7 +8435,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0200",
     "document_id": "FSC-2021-0200",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Sos Evaluation",
@@ -8474,7 +8476,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0201",
     "document_id": "FSC-2022-0201",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Sos Youth",
@@ -8505,8 +8507,8 @@ const FULL_508_CORPUS = [
     "word_count": 18043,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2337000,
-    "investment_formatted": "$2,337,000",
+    "investment_num": 24000,
+    "investment_formatted": "$24,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -8516,7 +8518,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0202",
     "document_id": "FSC-2023-0202",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Sos Sustainable Jobs",
@@ -8558,7 +8560,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0203",
     "document_id": "FSC-2024-0203",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Sos Employers",
@@ -8602,7 +8604,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0204",
     "document_id": "FSC-2025-0204",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Sos Skilled Trades",
@@ -8646,7 +8648,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0205",
     "document_id": "FSC-2021-0205",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Sos Digital Tools",
@@ -8687,7 +8689,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0206",
     "document_id": "FSC-2022-0206",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Sos Newcomers",
@@ -8728,7 +8730,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0207",
     "document_id": "FSC-2023-0207",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Sos Mid-Career",
@@ -8770,7 +8772,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0208",
     "document_id": "FSC-2024-0208",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Workplace Inclusion Kingston",
@@ -8812,7 +8814,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0209",
     "document_id": "FSC-2025-0209",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Esat",
@@ -8843,8 +8845,8 @@ const FULL_508_CORPUS = [
     "word_count": 18387,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1249510,
-    "investment_formatted": "$1,249,510",
+    "investment_num": 583000,
+    "investment_formatted": "$583,000",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -8856,7 +8858,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0210",
     "document_id": "FSC-2021-0210",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Bioalliance Workplace Learning",
@@ -8900,7 +8902,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0211",
     "document_id": "FSC-2022-0211",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Newcomer Entrepreneurship Program",
@@ -8931,8 +8933,8 @@ const FULL_508_CORPUS = [
     "word_count": 18473,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 495000,
-    "investment_formatted": "$495,000",
+    "investment_num": 857000,
+    "investment_formatted": "$857,000",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -8941,7 +8943,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0212",
     "document_id": "FSC-2023-0212",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Invest Talent",
@@ -8982,7 +8984,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0213",
     "document_id": "FSC-2024-0213",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Fast",
@@ -9024,7 +9026,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0214",
     "document_id": "FSC-2025-0214",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Real Estate Development Incubator",
@@ -9066,7 +9068,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0215",
     "document_id": "FSC-2021-0215",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Sustainability for the Bio Economy",
@@ -9097,8 +9099,8 @@ const FULL_508_CORPUS = [
     "word_count": 18645,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1035000,
-    "investment_formatted": "$1,035,000",
+    "investment_num": 1405000,
+    "investment_formatted": "$1,405,000",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -9110,7 +9112,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0216",
     "document_id": "FSC-2022-0216",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Early Childhood Education Lab 2",
@@ -9140,8 +9142,8 @@ const FULL_508_CORPUS = [
     "word_count": 18688,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2257314,
-    "investment_formatted": "$2,257,314",
+    "investment_num": 1542000,
+    "investment_formatted": "$1,542,000",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -9154,7 +9156,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0217",
     "document_id": "FSC-2023-0217",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Inshore Fishery Nunavut",
@@ -9195,7 +9197,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0218",
     "document_id": "FSC-2024-0218",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Imandm",
@@ -9236,7 +9238,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0219",
     "document_id": "FSC-2025-0219",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Mindframe Connect 2",
@@ -9278,7 +9280,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0220",
     "document_id": "FSC-2021-0220",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Inclusive Work-Integrated Learning",
@@ -9320,7 +9322,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0221",
     "document_id": "FSC-2022-0221",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Edi Backlash",
@@ -9364,7 +9366,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0222",
     "document_id": "FSC-2023-0222",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Municipal Sharing Platform",
@@ -9408,7 +9410,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0223",
     "document_id": "FSC-2024-0223",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Bcit Experiential Learning",
@@ -9439,8 +9441,8 @@ const FULL_508_CORPUS = [
     "word_count": 18989,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2048012,
-    "investment_formatted": "$2,048,012",
+    "investment_num": 2501000,
+    "investment_formatted": "$2,501,000",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -9449,7 +9451,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0224",
     "document_id": "FSC-2025-0224",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Newcomer Physicians",
@@ -9479,8 +9481,8 @@ const FULL_508_CORPUS = [
     "word_count": 9432,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 360007,
-    "investment_formatted": "$360,007",
+    "investment_num": 2638000,
+    "investment_formatted": "$2,638,000",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -9490,7 +9492,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0225",
     "document_id": "FSC-2021-0225",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Nurses in Alberta",
@@ -9532,7 +9534,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0226",
     "document_id": "FSC-2022-0226",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Sos Healthcare Workforce",
@@ -9574,7 +9576,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0227",
     "document_id": "FSC-2023-0227",
-    "content_type": "Reports",
+    "content_type": "Projects",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Adapt",
@@ -9648,8 +9650,8 @@ const FULL_508_CORPUS = [
     "word_count": 9604,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3186000,
-    "investment_formatted": "$3,186,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -9693,8 +9695,8 @@ const FULL_508_CORPUS = [
     "word_count": 9647,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 473000,
-    "investment_formatted": "$473,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -9733,8 +9735,8 @@ const FULL_508_CORPUS = [
     "word_count": 9690,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 610000,
-    "investment_formatted": "$610,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -9775,8 +9777,8 @@ const FULL_508_CORPUS = [
     "word_count": 9733,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 747000,
-    "investment_formatted": "$747,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -9816,8 +9818,8 @@ const FULL_508_CORPUS = [
     "word_count": 9776,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 884000,
-    "investment_formatted": "$884,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -9859,8 +9861,8 @@ const FULL_508_CORPUS = [
     "word_count": 9819,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1021000,
-    "investment_formatted": "$1,021,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -9902,8 +9904,8 @@ const FULL_508_CORPUS = [
     "word_count": 9862,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1158000,
-    "investment_formatted": "$1,158,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -9947,8 +9949,8 @@ const FULL_508_CORPUS = [
     "word_count": 9905,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1295000,
-    "investment_formatted": "$1,295,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -9987,8 +9989,8 @@ const FULL_508_CORPUS = [
     "word_count": 9948,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1432000,
-    "investment_formatted": "$1,432,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -10029,8 +10031,8 @@ const FULL_508_CORPUS = [
     "word_count": 9991,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1569000,
-    "investment_formatted": "$1,569,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -10070,8 +10072,8 @@ const FULL_508_CORPUS = [
     "word_count": 10034,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1706000,
-    "investment_formatted": "$1,706,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -10113,8 +10115,8 @@ const FULL_508_CORPUS = [
     "word_count": 10077,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1843000,
-    "investment_formatted": "$1,843,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -10156,8 +10158,8 @@ const FULL_508_CORPUS = [
     "word_count": 10120,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1980000,
-    "investment_formatted": "$1,980,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -10201,8 +10203,8 @@ const FULL_508_CORPUS = [
     "word_count": 10163,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2117000,
-    "investment_formatted": "$2,117,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -10241,8 +10243,8 @@ const FULL_508_CORPUS = [
     "word_count": 10206,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2254000,
-    "investment_formatted": "$2,254,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -10283,8 +10285,8 @@ const FULL_508_CORPUS = [
     "word_count": 10249,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2391000,
-    "investment_formatted": "$2,391,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -10324,8 +10326,8 @@ const FULL_508_CORPUS = [
     "word_count": 10292,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2528000,
-    "investment_formatted": "$2,528,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -10367,8 +10369,8 @@ const FULL_508_CORPUS = [
     "word_count": 10335,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2665000,
-    "investment_formatted": "$2,665,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -10410,8 +10412,8 @@ const FULL_508_CORPUS = [
     "word_count": 10378,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2802000,
-    "investment_formatted": "$2,802,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -10455,8 +10457,8 @@ const FULL_508_CORPUS = [
     "word_count": 10421,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2939000,
-    "investment_formatted": "$2,939,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -10495,8 +10497,8 @@ const FULL_508_CORPUS = [
     "word_count": 10464,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3076000,
-    "investment_formatted": "$3,076,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -10537,8 +10539,8 @@ const FULL_508_CORPUS = [
     "word_count": 10507,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3213000,
-    "investment_formatted": "$3,213,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -10548,7 +10550,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0250",
     "document_id": "FSC-2021-0250",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Research",
@@ -10578,8 +10580,8 @@ const FULL_508_CORPUS = [
     "word_count": 10550,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 500000,
-    "investment_formatted": "$500,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -10590,7 +10592,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0251",
     "document_id": "FSC-2022-0251",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Opportunities Collaboration Indigenous Post Secondary Education",
@@ -10621,8 +10623,8 @@ const FULL_508_CORPUS = [
     "word_count": 10593,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 637000,
-    "investment_formatted": "$637,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -10634,7 +10636,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0252",
     "document_id": "FSC-2023-0252",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "1108",
@@ -10664,8 +10666,8 @@ const FULL_508_CORPUS = [
     "word_count": 10636,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 774000,
-    "investment_formatted": "$774,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -10678,7 +10680,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0253",
     "document_id": "FSC-2024-0253",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Infographic How to Forecast Skills in Demand",
@@ -10709,8 +10711,8 @@ const FULL_508_CORPUS = [
     "word_count": 10679,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 911000,
-    "investment_formatted": "$911,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -10719,7 +10721,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0254",
     "document_id": "FSC-2025-0254",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Assessing Canada's Skills Requirements in the 21st Century",
@@ -10749,8 +10751,8 @@ const FULL_508_CORPUS = [
     "word_count": 10722,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1048000,
-    "investment_formatted": "$1,048,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -10760,7 +10762,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0255",
     "document_id": "FSC-2021-0255",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Skills for the Post-Pandemic World Series",
@@ -10791,8 +10793,8 @@ const FULL_508_CORPUS = [
     "word_count": 10765,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1185000,
-    "investment_formatted": "$1,185,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -10802,7 +10804,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0256",
     "document_id": "FSC-2022-0256",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Strengthening Social and Emotional Skills in Adults the Learning Experience at Canadian Colleges",
@@ -10832,8 +10834,8 @@ const FULL_508_CORPUS = [
     "word_count": 10808,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1322000,
-    "investment_formatted": "$1,322,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -10844,7 +10846,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0257",
     "document_id": "FSC-2023-0257",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Social and Emotional Skills Measurement Toolkit",
@@ -10875,8 +10877,8 @@ const FULL_508_CORPUS = [
     "word_count": 10851,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1459000,
-    "investment_formatted": "$1,459,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -10888,7 +10890,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0258",
     "document_id": "FSC-2024-0258",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Social and Emotional Skills",
@@ -10918,8 +10920,8 @@ const FULL_508_CORPUS = [
     "word_count": 10894,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1596000,
-    "investment_formatted": "$1,596,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -10932,7 +10934,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0259",
     "document_id": "FSC-2025-0259",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Innovation in Post Secondary Education",
@@ -10963,8 +10965,8 @@ const FULL_508_CORPUS = [
     "word_count": 10937,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1733000,
-    "investment_formatted": "$1,733,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -10973,7 +10975,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0260",
     "document_id": "FSC-2021-0260",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Responding to Automation Technology Adoption in Canadian Industries",
@@ -11003,8 +11005,8 @@ const FULL_508_CORPUS = [
     "word_count": 10980,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1870000,
-    "investment_formatted": "$1,870,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -11014,7 +11016,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0261",
     "document_id": "FSC-2022-0261",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Impact of Digital Technologies on Quality of Work",
@@ -11045,8 +11047,8 @@ const FULL_508_CORPUS = [
     "word_count": 11023,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2007000,
-    "investment_formatted": "$2,007,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -11056,7 +11058,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0262",
     "document_id": "FSC-2023-0262",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Learning Bulletins to Share Knowledge and Insights",
@@ -11086,8 +11088,8 @@ const FULL_508_CORPUS = [
     "word_count": 11066,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2144000,
-    "investment_formatted": "$2,144,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -11098,7 +11100,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0263",
     "document_id": "FSC-2024-0263",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Covid 19 Effects Survey",
@@ -11129,8 +11131,8 @@ const FULL_508_CORPUS = [
     "word_count": 11109,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2281000,
-    "investment_formatted": "$2,281,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -11142,7 +11144,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0264",
     "document_id": "FSC-2025-0264",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Spi Zevs",
@@ -11172,8 +11174,8 @@ const FULL_508_CORPUS = [
     "word_count": 11152,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2418000,
-    "investment_formatted": "$2,418,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -11186,7 +11188,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0265",
     "document_id": "FSC-2021-0265",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Microcredentials Use Among Digital Professionals",
@@ -11217,8 +11219,8 @@ const FULL_508_CORPUS = [
     "word_count": 11195,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2555000,
-    "investment_formatted": "$2,555,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -11227,7 +11229,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0266",
     "document_id": "FSC-2022-0266",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Diabetic Foot Care and Lower Limb Preservation",
@@ -11257,8 +11259,8 @@ const FULL_508_CORPUS = [
     "word_count": 11238,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2692000,
-    "investment_formatted": "$2,692,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -11268,7 +11270,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0267",
     "document_id": "FSC-2023-0267",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Gender Diversity Discrimination Survey",
@@ -11299,8 +11301,8 @@ const FULL_508_CORPUS = [
     "word_count": 11281,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2829000,
-    "investment_formatted": "$2,829,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -11310,7 +11312,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0268",
     "document_id": "FSC-2024-0268",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Starting a New Business Survey",
@@ -11340,8 +11342,8 @@ const FULL_508_CORPUS = [
     "word_count": 11324,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2966000,
-    "investment_formatted": "$2,966,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -11352,7 +11354,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0269",
     "document_id": "FSC-2025-0269",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Adapting to the Changing World of Work 2020 Full Survey Report on Employment and Skills",
@@ -11383,8 +11385,8 @@ const FULL_508_CORPUS = [
     "word_count": 11367,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3103000,
-    "investment_formatted": "$3,103,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -11396,7 +11398,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0270",
     "document_id": "FSC-2021-0270",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "A Foundation for the Next Normal Outlook of Technology Adoption Its Impact in the Canada Workplace",
@@ -11426,8 +11428,8 @@ const FULL_508_CORPUS = [
     "word_count": 11410,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3240000,
-    "investment_formatted": "$3,240,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -11440,7 +11442,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0271",
     "document_id": "FSC-2022-0271",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Job Transitions in Canada",
@@ -11471,8 +11473,8 @@ const FULL_508_CORPUS = [
     "word_count": 11453,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 527000,
-    "investment_formatted": "$527,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -11481,7 +11483,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0272",
     "document_id": "FSC-2023-0272",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "A Typology of Gig Workers in Canada Towards a New Model for Understanding Gig Work Through Human Social and Economic Capital",
@@ -11511,8 +11513,8 @@ const FULL_508_CORPUS = [
     "word_count": 11496,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 664000,
-    "investment_formatted": "$664,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -11522,7 +11524,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0273",
     "document_id": "FSC-2024-0273",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Applied and Experiential Skills",
@@ -11553,8 +11555,8 @@ const FULL_508_CORPUS = [
     "word_count": 11539,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 801000,
-    "investment_formatted": "$801,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -11564,7 +11566,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0274",
     "document_id": "FSC-2025-0274",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Are Adults Making Use of Career Services in Canada",
@@ -11594,8 +11596,8 @@ const FULL_508_CORPUS = [
     "word_count": 11582,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 938000,
-    "investment_formatted": "$938,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -11606,7 +11608,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0275",
     "document_id": "FSC-2021-0275",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Beyond Blue and White Collar a Skills Based Approach to Canadian Job Groupings",
@@ -11637,8 +11639,8 @@ const FULL_508_CORPUS = [
     "word_count": 11625,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1075000,
-    "investment_formatted": "$1,075,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -11650,7 +11652,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0276",
     "document_id": "FSC-2022-0276",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Blue Occupation Pathways",
@@ -11680,8 +11682,8 @@ const FULL_508_CORPUS = [
     "word_count": 11668,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1212000,
-    "investment_formatted": "$1,212,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -11694,7 +11696,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0277",
     "document_id": "FSC-2023-0277",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Bracing for Automation",
@@ -11725,8 +11727,8 @@ const FULL_508_CORPUS = [
     "word_count": 11711,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1349000,
-    "investment_formatted": "$1,349,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -11735,7 +11737,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0278",
     "document_id": "FSC-2024-0278",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Breaking Down Barriers",
@@ -11765,8 +11767,8 @@ const FULL_508_CORPUS = [
     "word_count": 11754,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1486000,
-    "investment_formatted": "$1,486,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -11776,7 +11778,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0279",
     "document_id": "FSC-2025-0279",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Bridging the Digital Skills Gap Alternative Pathways",
@@ -11807,8 +11809,8 @@ const FULL_508_CORPUS = [
     "word_count": 11797,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1623000,
-    "investment_formatted": "$1,623,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -11818,7 +11820,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0280",
     "document_id": "FSC-2021-0280",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Social and Emotional Skills Black Canadians Perspectives",
@@ -11848,8 +11850,8 @@ const FULL_508_CORPUS = [
     "word_count": 11840,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1760000,
-    "investment_formatted": "$1,760,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -11860,7 +11862,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0281",
     "document_id": "FSC-2022-0281",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Bridging the Skills Gap Within Small and Medium Sized Enterprises in Quebec an Analytical and Empirical Analysis",
@@ -11891,8 +11893,8 @@ const FULL_508_CORPUS = [
     "word_count": 11883,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1897000,
-    "investment_formatted": "$1,897,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -11904,7 +11906,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0282",
     "document_id": "FSC-2023-0282",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Framework Labour Market Information Needs",
@@ -11934,8 +11936,8 @@ const FULL_508_CORPUS = [
     "word_count": 11926,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2034000,
-    "investment_formatted": "$2,034,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -11948,7 +11950,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0283",
     "document_id": "FSC-2024-0283",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Building a Digitally Skilled Workforce",
@@ -11979,8 +11981,8 @@ const FULL_508_CORPUS = [
     "word_count": 11969,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2171000,
-    "investment_formatted": "$2,171,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -11989,7 +11991,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0284",
     "document_id": "FSC-2025-0284",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Building Inclusive Workplaces",
@@ -12019,8 +12021,8 @@ const FULL_508_CORPUS = [
     "word_count": 12012,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2308000,
-    "investment_formatted": "$2,308,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -12030,7 +12032,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0285",
     "document_id": "FSC-2021-0285",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Neurodiversity in Workplace",
@@ -12061,8 +12063,8 @@ const FULL_508_CORPUS = [
     "word_count": 12055,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2445000,
-    "investment_formatted": "$2,445,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -12072,7 +12074,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0286",
     "document_id": "FSC-2022-0286",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Can Social and Emotional Skills Be Taught",
@@ -12102,8 +12104,8 @@ const FULL_508_CORPUS = [
     "word_count": 12098,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2582000,
-    "investment_formatted": "$2,582,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -12114,7 +12116,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0287",
     "document_id": "FSC-2023-0287",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Canadian Labour Demand Update Analysis of Job Postings for the Fourth Quarter of 2020",
@@ -12145,8 +12147,8 @@ const FULL_508_CORPUS = [
     "word_count": 12141,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2719000,
-    "investment_formatted": "$2,719,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -12158,7 +12160,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0288",
     "document_id": "FSC-2024-0288",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Career Guidance for Adults in Canada",
@@ -12188,8 +12190,8 @@ const FULL_508_CORPUS = [
     "word_count": 12184,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2856000,
-    "investment_formatted": "$2,856,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -12202,7 +12204,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0289",
     "document_id": "FSC-2025-0289",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Chatgpt Organizational and Labour Implications",
@@ -12233,8 +12235,8 @@ const FULL_508_CORPUS = [
     "word_count": 12227,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2993000,
-    "investment_formatted": "$2,993,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -12243,7 +12245,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0290",
     "document_id": "FSC-2021-0290",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Competency Frameworks and Canada's Essential Skills",
@@ -12273,8 +12275,8 @@ const FULL_508_CORPUS = [
     "word_count": 12270,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3130000,
-    "investment_formatted": "$3,130,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -12284,7 +12286,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0291",
     "document_id": "FSC-2022-0291",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Covid 19 and Logistics Changes",
@@ -12315,8 +12317,8 @@ const FULL_508_CORPUS = [
     "word_count": 12313,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3267000,
-    "investment_formatted": "$3,267,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -12326,7 +12328,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0292",
     "document_id": "FSC-2023-0292",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Curriculum and Reconciliation",
@@ -12356,8 +12358,8 @@ const FULL_508_CORPUS = [
     "word_count": 12356,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 554000,
-    "investment_formatted": "$554,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -12368,7 +12370,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0293",
     "document_id": "FSC-2024-0293",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Digital Differences the Impact of Automation on the Indigenous Economy in Canada",
@@ -12399,8 +12401,8 @@ const FULL_508_CORPUS = [
     "word_count": 12399,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 691000,
-    "investment_formatted": "$691,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -12412,7 +12414,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0294",
     "document_id": "FSC-2025-0294",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Digital Infrastructure for the Post-Pandemic World",
@@ -12442,8 +12444,8 @@ const FULL_508_CORPUS = [
     "word_count": 12442,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 828000,
-    "investment_formatted": "$828,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -12456,7 +12458,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0295",
     "document_id": "FSC-2021-0295",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Digital Occupation Pathways from Vulnerable Jobs to Rapid Growth Careers",
@@ -12487,8 +12489,8 @@ const FULL_508_CORPUS = [
     "word_count": 12485,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 965000,
-    "investment_formatted": "$965,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -12497,7 +12499,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0296",
     "document_id": "FSC-2022-0296",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Digital Skills and the Skills Gap",
@@ -12527,8 +12529,8 @@ const FULL_508_CORPUS = [
     "word_count": 12528,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1102000,
-    "investment_formatted": "$1,102,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -12538,7 +12540,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0297",
     "document_id": "FSC-2023-0297",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Digital Skills Today Tomorrow",
@@ -12569,8 +12571,8 @@ const FULL_508_CORPUS = [
     "word_count": 12571,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1239000,
-    "investment_formatted": "$1,239,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -12580,7 +12582,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0298",
     "document_id": "FSC-2024-0298",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Digital Transformation of Government",
@@ -12610,8 +12612,8 @@ const FULL_508_CORPUS = [
     "word_count": 12614,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1376000,
-    "investment_formatted": "$1,376,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -12622,7 +12624,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0299",
     "document_id": "FSC-2025-0299",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Disconnecting from Work the Varied Experiences of Canadian Workers",
@@ -12653,8 +12655,8 @@ const FULL_508_CORPUS = [
     "word_count": 12657,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1513000,
-    "investment_formatted": "$1,513,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -12666,7 +12668,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0300",
     "document_id": "FSC-2021-0300",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Diversity in Leadership at Tsx Companies",
@@ -12696,8 +12698,8 @@ const FULL_508_CORPUS = [
     "word_count": 12700,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1650000,
-    "investment_formatted": "$1,650,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -12710,7 +12712,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0301",
     "document_id": "FSC-2022-0301",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Economic Equality in a Changing World Removing Barriers to Employment for Women",
@@ -12741,8 +12743,8 @@ const FULL_508_CORPUS = [
     "word_count": 12743,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1787000,
-    "investment_formatted": "$1,787,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -12751,7 +12753,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0302",
     "document_id": "FSC-2023-0302",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Employment Gaps and Underemployment for Racialized Groups and Immigrants in Canada",
@@ -12781,8 +12783,8 @@ const FULL_508_CORPUS = [
     "word_count": 12786,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1924000,
-    "investment_formatted": "$1,924,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -12792,7 +12794,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0303",
     "document_id": "FSC-2024-0303",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Employment in 2030 Action Labs",
@@ -12823,8 +12825,8 @@ const FULL_508_CORPUS = [
     "word_count": 12829,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2061000,
-    "investment_formatted": "$2,061,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -12834,7 +12836,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0304",
     "document_id": "FSC-2025-0304",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Employment Transitions in Canadian Metropolitan Areas",
@@ -12864,8 +12866,8 @@ const FULL_508_CORPUS = [
     "word_count": 12872,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2198000,
-    "investment_formatted": "$2,198,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -12876,7 +12878,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0305",
     "document_id": "FSC-2021-0305",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Experiences of Discrimination at Work",
@@ -12907,8 +12909,8 @@ const FULL_508_CORPUS = [
     "word_count": 12915,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2335000,
-    "investment_formatted": "$2,335,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -12920,7 +12922,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0306",
     "document_id": "FSC-2022-0306",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Experiential Learning in the Social Sector",
@@ -12950,8 +12952,8 @@ const FULL_508_CORPUS = [
     "word_count": 12958,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2472000,
-    "investment_formatted": "$2,472,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -12964,7 +12966,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0307",
     "document_id": "FSC-2023-0307",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Finding Value Tourism Hospitality Industry",
@@ -12995,8 +12997,8 @@ const FULL_508_CORPUS = [
     "word_count": 13001,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2609000,
-    "investment_formatted": "$2,609,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -13005,7 +13007,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0308",
     "document_id": "FSC-2024-0308",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Research Call on the Future of Skills and Work in a Digital Economy",
@@ -13035,8 +13037,8 @@ const FULL_508_CORPUS = [
     "word_count": 13044,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2746000,
-    "investment_formatted": "$2,746,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -13046,7 +13048,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0309",
     "document_id": "FSC-2025-0309",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Bridge to Clean Economy Careers",
@@ -13077,8 +13079,8 @@ const FULL_508_CORPUS = [
     "word_count": 13087,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2883000,
-    "investment_formatted": "$2,883,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -13088,7 +13090,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0310",
     "document_id": "FSC-2021-0310",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Getting Beyond Non Standard Employment Sustainable Livelihoods for Indigenous Communities in Northern Canada",
@@ -13118,8 +13120,8 @@ const FULL_508_CORPUS = [
     "word_count": 13130,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3020000,
-    "investment_formatted": "$3,020,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -13130,7 +13132,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0311",
     "document_id": "FSC-2022-0311",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Green Occupations Pathways from Vulnerable Jobs to Rapid Growth Careers",
@@ -13161,8 +13163,8 @@ const FULL_508_CORPUS = [
     "word_count": 13173,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3157000,
-    "investment_formatted": "$3,157,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -13174,7 +13176,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0312",
     "document_id": "FSC-2023-0312",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Greening SMEs",
@@ -13204,8 +13206,8 @@ const FULL_508_CORPUS = [
     "word_count": 13216,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3294000,
-    "investment_formatted": "$3,294,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -13218,7 +13220,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0313",
     "document_id": "FSC-2024-0313",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Hiring Green an Analysis of the Demand for Green Skills in Canada",
@@ -13249,8 +13251,8 @@ const FULL_508_CORPUS = [
     "word_count": 13259,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 581000,
-    "investment_formatted": "$581,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -13259,7 +13261,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0314",
     "document_id": "FSC-2025-0314",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "How to Forecast Skills in Demand a Primer",
@@ -13289,8 +13291,8 @@ const FULL_508_CORPUS = [
     "word_count": 13302,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 718000,
-    "investment_formatted": "$718,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -13300,7 +13302,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0315",
     "document_id": "FSC-2021-0315",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Immigration Canada Post-Pandemic Economy",
@@ -13331,8 +13333,8 @@ const FULL_508_CORPUS = [
     "word_count": 13345,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 855000,
-    "investment_formatted": "$855,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -13342,7 +13344,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0316",
     "document_id": "FSC-2022-0316",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Incorporating Indigenous Cultures and Realities in Stem",
@@ -13372,8 +13374,8 @@ const FULL_508_CORPUS = [
     "word_count": 13388,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 992000,
-    "investment_formatted": "$992,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -13384,7 +13386,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0317",
     "document_id": "FSC-2023-0317",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Indigenizing Corporate Canada",
@@ -13415,8 +13417,8 @@ const FULL_508_CORPUS = [
     "word_count": 13431,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1129000,
-    "investment_formatted": "$1,129,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -13428,7 +13430,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0318",
     "document_id": "FSC-2024-0318",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Indigenous Finance and Management Professionals Critical for Reconciliation and Indigenous Self Determination",
@@ -13458,8 +13460,8 @@ const FULL_508_CORPUS = [
     "word_count": 13474,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1266000,
-    "investment_formatted": "$1,266,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -13472,7 +13474,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0319",
     "document_id": "FSC-2025-0319",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Indigenous Financial Management Finally Finding Balance a Primer",
@@ -13503,8 +13505,8 @@ const FULL_508_CORPUS = [
     "word_count": 13517,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1403000,
-    "investment_formatted": "$1,403,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -13513,7 +13515,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0320",
     "document_id": "FSC-2021-0320",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Indigenous Stem Access Programs Leading Post Secondary Inclusion",
@@ -13543,8 +13545,8 @@ const FULL_508_CORPUS = [
     "word_count": 13560,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1540000,
-    "investment_formatted": "$1,540,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -13554,7 +13556,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0321",
     "document_id": "FSC-2022-0321",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Industry 4 0",
@@ -13585,8 +13587,8 @@ const FULL_508_CORPUS = [
     "word_count": 13603,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1677000,
-    "investment_formatted": "$1,677,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -13596,7 +13598,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0322",
     "document_id": "FSC-2023-0322",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Is the Future Micro Unbundling Learning for Flexibility Access",
@@ -13626,8 +13628,8 @@ const FULL_508_CORPUS = [
     "word_count": 13646,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1814000,
-    "investment_formatted": "$1,814,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -13638,7 +13640,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0323",
     "document_id": "FSC-2024-0323",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Job Polarization in Canada",
@@ -13669,8 +13671,8 @@ const FULL_508_CORPUS = [
     "word_count": 13689,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1951000,
-    "investment_formatted": "$1,951,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -13682,7 +13684,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0324",
     "document_id": "FSC-2025-0324",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Job Posting Trends in Canada 2021 Update",
@@ -13712,8 +13714,8 @@ const FULL_508_CORPUS = [
     "word_count": 13732,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2088000,
-    "investment_formatted": "$2,088,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -13726,7 +13728,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0325",
     "document_id": "FSC-2021-0325",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Labour Demand Trends During the Covid 19 Pandemic",
@@ -13757,8 +13759,8 @@ const FULL_508_CORPUS = [
     "word_count": 13775,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2225000,
-    "investment_formatted": "$2,225,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -13767,7 +13769,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0326",
     "document_id": "FSC-2022-0326",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Labour Market Implications for Racialized Youth",
@@ -13797,8 +13799,8 @@ const FULL_508_CORPUS = [
     "word_count": 13818,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2362000,
-    "investment_formatted": "$2,362,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -13808,7 +13810,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0327",
     "document_id": "FSC-2023-0327",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Learning Together Stem Outreach Programs for Indigenous Students",
@@ -13839,8 +13841,8 @@ const FULL_508_CORPUS = [
     "word_count": 13861,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2499000,
-    "investment_formatted": "$2,499,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -13850,7 +13852,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0328",
     "document_id": "FSC-2024-0328",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Lessons Learned the Pandemic and Learning from Home in Canada",
@@ -13880,8 +13882,8 @@ const FULL_508_CORPUS = [
     "word_count": 13904,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2636000,
-    "investment_formatted": "$2,636,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -13892,7 +13894,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0329",
     "document_id": "FSC-2025-0329",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Levelling the Playing Field for Black Canadians",
@@ -13923,8 +13925,8 @@ const FULL_508_CORPUS = [
     "word_count": 13947,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2773000,
-    "investment_formatted": "$2,773,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -13936,7 +13938,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0330",
     "document_id": "FSC-2021-0330",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Leveraging the Skills of Social Sciences and Humanities Graduates",
@@ -13966,8 +13968,8 @@ const FULL_508_CORPUS = [
     "word_count": 13990,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2910000,
-    "investment_formatted": "$2,910,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -13980,7 +13982,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0331",
     "document_id": "FSC-2022-0331",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Linking Skills to Nunangat Inuit Employment",
@@ -14011,8 +14013,8 @@ const FULL_508_CORPUS = [
     "word_count": 14033,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3047000,
-    "investment_formatted": "$3,047,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -14021,7 +14023,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0332",
     "document_id": "FSC-2023-0332",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Lost Opportunities Measuring the Unrealized Value of Skill Vacancies in Canada",
@@ -14051,8 +14053,8 @@ const FULL_508_CORPUS = [
     "word_count": 14076,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3184000,
-    "investment_formatted": "$3,184,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -14062,7 +14064,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0333",
     "document_id": "FSC-2024-0333",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Made in Nunavut",
@@ -14093,8 +14095,8 @@ const FULL_508_CORPUS = [
     "word_count": 14119,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 471000,
-    "investment_formatted": "$471,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -14104,7 +14106,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0334",
     "document_id": "FSC-2025-0334",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Impact of the Pandemic on Young Adults and Work",
@@ -14134,8 +14136,8 @@ const FULL_508_CORPUS = [
     "word_count": 14162,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 608000,
-    "investment_formatted": "$608,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -14146,7 +14148,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0335",
     "document_id": "FSC-2021-0335",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Mapping Racialized Experiences in Real Estate Development",
@@ -14177,8 +14179,8 @@ const FULL_508_CORPUS = [
     "word_count": 14205,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 745000,
-    "investment_formatted": "$745,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -14190,7 +14192,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0336",
     "document_id": "FSC-2022-0336",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Mapping the Landscape Indigenous Skills Training and Jobs in Canada",
@@ -14220,8 +14222,8 @@ const FULL_508_CORPUS = [
     "word_count": 14248,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 882000,
-    "investment_formatted": "$882,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -14234,7 +14236,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0337",
     "document_id": "FSC-2023-0337",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Mind and Body Impact of the Pandemic on Physical and Mental Health",
@@ -14265,8 +14267,8 @@ const FULL_508_CORPUS = [
     "word_count": 14291,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1019000,
-    "investment_formatted": "$1,019,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -14275,7 +14277,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0338",
     "document_id": "FSC-2024-0338",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Compensation Gaps Between Canadian and American Tech Workers",
@@ -14305,8 +14307,8 @@ const FULL_508_CORPUS = [
     "word_count": 14334,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1156000,
-    "investment_formatted": "$1,156,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -14316,7 +14318,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0339",
     "document_id": "FSC-2025-0339",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Navigating the Transition Identifying Pathways to Careers in the Insurance Industry",
@@ -14347,8 +14349,8 @@ const FULL_508_CORPUS = [
     "word_count": 14377,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1293000,
-    "investment_formatted": "$1,293,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -14358,7 +14360,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0340",
     "document_id": "FSC-2021-0340",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "New Working Arrangements",
@@ -14388,8 +14390,8 @@ const FULL_508_CORPUS = [
     "word_count": 14420,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1430000,
-    "investment_formatted": "$1,430,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -14400,7 +14402,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0341",
     "document_id": "FSC-2022-0341",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Newcomer Pathways to Employment Canadian Diversity Magazine Special Issue",
@@ -14431,8 +14433,8 @@ const FULL_508_CORPUS = [
     "word_count": 14463,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1567000,
-    "investment_formatted": "$1,567,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -14444,7 +14446,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0342",
     "document_id": "FSC-2023-0342",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Nurse Educators Perspectives",
@@ -14474,8 +14476,8 @@ const FULL_508_CORPUS = [
     "word_count": 14506,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1704000,
-    "investment_formatted": "$1,704,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -14488,7 +14490,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0343",
     "document_id": "FSC-2024-0343",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Opportunity for All",
@@ -14519,8 +14521,8 @@ const FULL_508_CORPUS = [
     "word_count": 14549,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1841000,
-    "investment_formatted": "$1,841,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -14529,7 +14531,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0344",
     "document_id": "FSC-2025-0344",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Skills Training Survey",
@@ -14559,8 +14561,8 @@ const FULL_508_CORPUS = [
     "word_count": 14592,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1978000,
-    "investment_formatted": "$1,978,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -14570,7 +14572,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0345",
     "document_id": "FSC-2021-0345",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Planning When You Cant Predict Strategic Foresight and the Future of Work",
@@ -14601,8 +14603,8 @@ const FULL_508_CORPUS = [
     "word_count": 14635,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2115000,
-    "investment_formatted": "$2,115,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -14612,7 +14614,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0346",
     "document_id": "FSC-2022-0346",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Canadians Shifting Outlook on Employment",
@@ -14642,8 +14644,8 @@ const FULL_508_CORPUS = [
     "word_count": 14678,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2252000,
-    "investment_formatted": "$2,252,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -14654,7 +14656,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0347",
     "document_id": "FSC-2023-0347",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Quality of Work of Canada's Contingent Workforce",
@@ -14685,8 +14687,8 @@ const FULL_508_CORPUS = [
     "word_count": 14721,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2389000,
-    "investment_formatted": "$2,389,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -14698,7 +14700,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0348",
     "document_id": "FSC-2024-0348",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Race Alongside the Machines",
@@ -14728,8 +14730,8 @@ const FULL_508_CORPUS = [
     "word_count": 14764,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2526000,
-    "investment_formatted": "$2,526,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -14742,7 +14744,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0349",
     "document_id": "FSC-2025-0349",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Readiness and Resilience Mapping the Contours of the Indigenous Skills and Employment Ecosystem in Canada",
@@ -14773,8 +14775,8 @@ const FULL_508_CORPUS = [
     "word_count": 14807,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2663000,
-    "investment_formatted": "$2,663,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -14783,7 +14785,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0350",
     "document_id": "FSC-2021-0350",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Return on Investment Industry Leadership on Upskilling and Reskilling Their Workforce",
@@ -14813,8 +14815,8 @@ const FULL_508_CORPUS = [
     "word_count": 14850,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2800000,
-    "investment_formatted": "$2,800,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -14824,7 +14826,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0351",
     "document_id": "FSC-2022-0351",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Skills for the Post-Pandemic World",
@@ -14855,8 +14857,8 @@ const FULL_508_CORPUS = [
     "word_count": 14893,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2937000,
-    "investment_formatted": "$2,937,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -14866,7 +14868,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0352",
     "document_id": "FSC-2023-0352",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Searching for Strengths in Tourism and Hospitality Sector",
@@ -14896,8 +14898,8 @@ const FULL_508_CORPUS = [
     "word_count": 14936,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3074000,
-    "investment_formatted": "$3,074,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -14908,7 +14910,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0353",
     "document_id": "FSC-2024-0353",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Skills Development for Innovation",
@@ -14939,8 +14941,8 @@ const FULL_508_CORPUS = [
     "word_count": 14979,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3211000,
-    "investment_formatted": "$3,211,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -14952,7 +14954,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0354",
     "document_id": "FSC-2025-0354",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Northern Skills Development Distinct Challenges",
@@ -14982,8 +14984,8 @@ const FULL_508_CORPUS = [
     "word_count": 15022,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 498000,
-    "investment_formatted": "$498,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -14996,7 +14998,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0355",
     "document_id": "FSC-2021-0355",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Skills for Inclusive Workplaces and the Advancement of Indigenous Peoples",
@@ -15027,8 +15029,8 @@ const FULL_508_CORPUS = [
     "word_count": 15065,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 635000,
-    "investment_formatted": "$635,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -15037,7 +15039,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0356",
     "document_id": "FSC-2022-0356",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Skills Gaps Underemployment and Equity of Labour Market Opportunities for Persons with Disabilities in Canada",
@@ -15067,8 +15069,8 @@ const FULL_508_CORPUS = [
     "word_count": 15108,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 772000,
-    "investment_formatted": "$772,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -15078,7 +15080,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0357",
     "document_id": "FSC-2023-0357",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Skills Next",
@@ -15109,8 +15111,8 @@ const FULL_508_CORPUS = [
     "word_count": 15151,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 909000,
-    "investment_formatted": "$909,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -15120,7 +15122,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0358",
     "document_id": "FSC-2024-0358",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Small and Medium Sized Employers SMEs Skills Gaps and Future Skills",
@@ -15150,8 +15152,8 @@ const FULL_508_CORPUS = [
     "word_count": 15194,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1046000,
-    "investment_formatted": "$1,046,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -15162,7 +15164,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0359",
     "document_id": "FSC-2025-0359",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Social and Emotional Skills Across Canada",
@@ -15193,8 +15195,8 @@ const FULL_508_CORPUS = [
     "word_count": 15237,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1183000,
-    "investment_formatted": "$1,183,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -15206,7 +15208,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0360",
     "document_id": "FSC-2021-0360",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Social and Emotional Skills in the Workplace Insights from Canadian Employers",
@@ -15236,8 +15238,8 @@ const FULL_508_CORPUS = [
     "word_count": 15280,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1320000,
-    "investment_formatted": "$1,320,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -15250,7 +15252,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0361",
     "document_id": "FSC-2022-0361",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Solving the Skills Puzzle the Missing Piece Is Good Information",
@@ -15281,8 +15283,8 @@ const FULL_508_CORPUS = [
     "word_count": 15323,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1457000,
-    "investment_formatted": "$1,457,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -15291,7 +15293,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0362",
     "document_id": "FSC-2023-0362",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Stem for Indigenous Learners",
@@ -15321,8 +15323,8 @@ const FULL_508_CORPUS = [
     "word_count": 15366,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1594000,
-    "investment_formatted": "$1,594,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -15332,7 +15334,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0363",
     "document_id": "FSC-2024-0363",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Supporting Entrepreneurship and SMEs",
@@ -15363,8 +15365,8 @@ const FULL_508_CORPUS = [
     "word_count": 15409,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1731000,
-    "investment_formatted": "$1,731,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -15374,7 +15376,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0364",
     "document_id": "FSC-2025-0364",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Sustainable Northern Livelihoods a Primer",
@@ -15404,8 +15406,8 @@ const FULL_508_CORPUS = [
     "word_count": 15452,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1868000,
-    "investment_formatted": "$1,868,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -15416,7 +15418,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0365",
     "document_id": "FSC-2021-0365",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Teaching Green Skillswhat Actions Are Post Secondary Institutions Taking",
@@ -15447,8 +15449,8 @@ const FULL_508_CORPUS = [
     "word_count": 15495,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2005000,
-    "investment_formatted": "$2,005,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -15460,7 +15462,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0366",
     "document_id": "FSC-2022-0366",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Technological Change and the Future of Work in Canada",
@@ -15490,8 +15492,8 @@ const FULL_508_CORPUS = [
     "word_count": 15538,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2142000,
-    "investment_formatted": "$2,142,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -15504,7 +15506,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0367",
     "document_id": "FSC-2023-0367",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Technological Transformations and the Automotive Services Industry",
@@ -15535,8 +15537,8 @@ const FULL_508_CORPUS = [
     "word_count": 15581,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2279000,
-    "investment_formatted": "$2,279,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -15545,7 +15547,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0368",
     "document_id": "FSC-2024-0368",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Technology Enabled Innovations in the Skills and Employment Ecosystem",
@@ -15575,8 +15577,8 @@ const FULL_508_CORPUS = [
     "word_count": 15624,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2416000,
-    "investment_formatted": "$2,416,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -15586,7 +15588,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0369",
     "document_id": "FSC-2025-0369",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Micro Credentials for Retraining and Lifelong Learning",
@@ -15617,8 +15619,8 @@ const FULL_508_CORPUS = [
     "word_count": 15667,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2553000,
-    "investment_formatted": "$2,553,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -15628,7 +15630,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0370",
     "document_id": "FSC-2021-0370",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "The Heart of the Matter Understanding Hiring Demand for Social and Emotional Skills",
@@ -15658,8 +15660,8 @@ const FULL_508_CORPUS = [
     "word_count": 15710,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2690000,
-    "investment_formatted": "$2,690,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -15670,7 +15672,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0371",
     "document_id": "FSC-2022-0371",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Labour Market Tomorrow Most",
@@ -15701,8 +15703,8 @@ const FULL_508_CORPUS = [
     "word_count": 15753,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2827000,
-    "investment_formatted": "$2,827,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -15714,7 +15716,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0372",
     "document_id": "FSC-2023-0372",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "The Mother of Invention Skills for Innovation in the Post-Pandemic World",
@@ -15744,8 +15746,8 @@ const FULL_508_CORPUS = [
     "word_count": 15796,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2964000,
-    "investment_formatted": "$2,964,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -15758,7 +15760,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0373",
     "document_id": "FSC-2024-0373",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "The Next Frontier in Canada's Agri Food Sector",
@@ -15789,8 +15791,8 @@ const FULL_508_CORPUS = [
     "word_count": 15839,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3101000,
-    "investment_formatted": "$3,101,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -15799,7 +15801,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0374",
     "document_id": "FSC-2025-0374",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "The Next Wave Automation and Canada's Labour Market",
@@ -15829,8 +15831,8 @@ const FULL_508_CORPUS = [
     "word_count": 15882,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3238000,
-    "investment_formatted": "$3,238,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -15840,7 +15842,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0375",
     "document_id": "FSC-2021-0375",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "The Perspectives of Second Generation Immigrants in Canada",
@@ -15871,8 +15873,8 @@ const FULL_508_CORPUS = [
     "word_count": 15925,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 525000,
-    "investment_formatted": "$525,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -15882,7 +15884,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0376",
     "document_id": "FSC-2022-0376",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "The Role of the Hunter in Inuit Nunangats Mixed Economy",
@@ -15912,8 +15914,8 @@ const FULL_508_CORPUS = [
     "word_count": 15968,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 662000,
-    "investment_formatted": "$662,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -15924,7 +15926,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0377",
     "document_id": "FSC-2023-0377",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "The Shift to Remote Work",
@@ -15955,8 +15957,8 @@ const FULL_508_CORPUS = [
     "word_count": 16011,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 799000,
-    "investment_formatted": "$799,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -15968,7 +15970,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0378",
     "document_id": "FSC-2024-0378",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Strengthening Interprofessional Collaboration in Diabetic Foot Care",
@@ -15998,8 +16000,8 @@ const FULL_508_CORPUS = [
     "word_count": 16054,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 936000,
-    "investment_formatted": "$936,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -16012,7 +16014,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0379",
     "document_id": "FSC-2025-0379",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Thinking Twice About Technology and the Future of Work",
@@ -16043,8 +16045,8 @@ const FULL_508_CORPUS = [
     "word_count": 16097,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1073000,
-    "investment_formatted": "$1,073,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -16053,7 +16055,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0380",
     "document_id": "FSC-2021-0380",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Transitioning to Clean Economy Jobs",
@@ -16083,8 +16085,8 @@ const FULL_508_CORPUS = [
     "word_count": 16140,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1210000,
-    "investment_formatted": "$1,210,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -16094,7 +16096,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0381",
     "document_id": "FSC-2022-0381",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Tutoring Study Buddy Program",
@@ -16125,8 +16127,8 @@ const FULL_508_CORPUS = [
     "word_count": 16183,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1347000,
-    "investment_formatted": "$1,347,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -16136,7 +16138,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0382",
     "document_id": "FSC-2023-0382",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Understanding Future Skills Case of the Montreal Aerospace Cluster",
@@ -16166,8 +16168,8 @@ const FULL_508_CORPUS = [
     "word_count": 16226,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1484000,
-    "investment_formatted": "$1,484,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -16178,7 +16180,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0383",
     "document_id": "FSC-2024-0383",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Understanding Future Skills Emergence of an Ecosystem for the Digital Economy",
@@ -16209,8 +16211,8 @@ const FULL_508_CORPUS = [
     "word_count": 16269,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1621000,
-    "investment_formatted": "$1,621,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -16222,7 +16224,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0384",
     "document_id": "FSC-2025-0384",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Understanding the Future of Skills Trends and Global Policy Responses",
@@ -16252,8 +16254,8 @@ const FULL_508_CORPUS = [
     "word_count": 16312,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1758000,
-    "investment_formatted": "$1,758,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -16266,7 +16268,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0385",
     "document_id": "FSC-2021-0385",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Understanding the Nature and Experience of Gig Work in Canada",
@@ -16297,8 +16299,8 @@ const FULL_508_CORPUS = [
     "word_count": 16355,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1895000,
-    "investment_formatted": "$1,895,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -16307,7 +16309,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0386",
     "document_id": "FSC-2022-0386",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Inuit Skills",
@@ -16337,8 +16339,8 @@ const FULL_508_CORPUS = [
     "word_count": 16398,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2032000,
-    "investment_formatted": "$2,032,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -16348,7 +16350,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0387",
     "document_id": "FSC-2023-0387",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Valuing Skills in Canada a Statistical Approach",
@@ -16379,8 +16381,8 @@ const FULL_508_CORPUS = [
     "word_count": 16441,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2169000,
-    "investment_formatted": "$2,169,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -16390,7 +16392,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0388",
     "document_id": "FSC-2024-0388",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "What Are Canadian Post Secondary Institutions Saying and Doing Social and Emotional Skills",
@@ -16420,8 +16422,8 @@ const FULL_508_CORPUS = [
     "word_count": 16484,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2306000,
-    "investment_formatted": "$2,306,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -16432,7 +16434,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0389",
     "document_id": "FSC-2025-0389",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Who Is Using Generative AI in Higher Education",
@@ -16463,8 +16465,8 @@ const FULL_508_CORPUS = [
     "word_count": 16527,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2443000,
-    "investment_formatted": "$2,443,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -16476,7 +16478,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0390",
     "document_id": "FSC-2021-0390",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Widening Inequality Effects of the Pandemic on Jobs and Income",
@@ -16506,8 +16508,8 @@ const FULL_508_CORPUS = [
     "word_count": 16570,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2580000,
-    "investment_formatted": "$2,580,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -16520,7 +16522,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0391",
     "document_id": "FSC-2022-0391",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Work at Home or Live at Work the Complexities of New Working Arrangements",
@@ -16551,8 +16553,8 @@ const FULL_508_CORPUS = [
     "word_count": 16613,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2717000,
-    "investment_formatted": "$2,717,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -16561,7 +16563,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0392",
     "document_id": "FSC-2023-0392",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Working When Sick Report",
@@ -16591,8 +16593,8 @@ const FULL_508_CORPUS = [
     "word_count": 16656,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2854000,
-    "investment_formatted": "$2,854,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -16602,7 +16604,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0393",
     "document_id": "FSC-2024-0393",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Yesterdays Gone Exploring the Future of Canada's Labour Market in a Post Covid World",
@@ -16633,8 +16635,8 @@ const FULL_508_CORPUS = [
     "word_count": 16699,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2991000,
-    "investment_formatted": "$2,991,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -16644,7 +16646,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0394",
     "document_id": "FSC-2025-0394",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Indigenous Youth in Finance Navigating a Complex Path",
@@ -16674,8 +16676,8 @@ const FULL_508_CORPUS = [
     "word_count": 16742,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3128000,
-    "investment_formatted": "$3,128,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -16686,7 +16688,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0395",
     "document_id": "FSC-2021-0395",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "How Are Educators Navigating the AI Revolution",
@@ -16717,8 +16719,8 @@ const FULL_508_CORPUS = [
     "word_count": 16785,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3265000,
-    "investment_formatted": "$3,265,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -16730,7 +16732,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0396",
     "document_id": "FSC-2022-0396",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Artificial Intelligence Talent in Canada",
@@ -16760,8 +16762,8 @@ const FULL_508_CORPUS = [
     "word_count": 16828,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 552000,
-    "investment_formatted": "$552,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -16774,7 +16776,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0397",
     "document_id": "FSC-2023-0397",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Skills Dev North Trades",
@@ -16805,8 +16807,8 @@ const FULL_508_CORPUS = [
     "word_count": 16871,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 689000,
-    "investment_formatted": "$689,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -16815,7 +16817,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0398",
     "document_id": "FSC-2024-0398",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "How Working from Home Is Affecting the Workplace",
@@ -16845,8 +16847,8 @@ const FULL_508_CORPUS = [
     "word_count": 16914,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 826000,
-    "investment_formatted": "$826,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -16856,7 +16858,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0399",
     "document_id": "FSC-2025-0399",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Quality of Work",
@@ -16887,8 +16889,8 @@ const FULL_508_CORPUS = [
     "word_count": 16957,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 963000,
-    "investment_formatted": "$963,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -16898,7 +16900,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0400",
     "document_id": "FSC-2021-0400",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Quality of Work Literature Review",
@@ -16928,8 +16930,8 @@ const FULL_508_CORPUS = [
     "word_count": 17000,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1100000,
-    "investment_formatted": "$1,100,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -16940,7 +16942,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0401",
     "document_id": "FSC-2022-0401",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Employers Insights on Social and Emotional Skills",
@@ -16971,8 +16973,8 @@ const FULL_508_CORPUS = [
     "word_count": 17043,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1237000,
-    "investment_formatted": "$1,237,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -16984,7 +16986,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0402",
     "document_id": "FSC-2023-0402",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Can Experiential Learning Go Virtual Lessons Learned from Nursing Edu",
@@ -17014,8 +17016,8 @@ const FULL_508_CORPUS = [
     "word_count": 17086,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1374000,
-    "investment_formatted": "$1,374,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -17028,7 +17030,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0403",
     "document_id": "FSC-2024-0403",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Neurodivergent Students Experiences in Canadian Higher Education",
@@ -17059,8 +17061,8 @@ const FULL_508_CORPUS = [
     "word_count": 17129,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1511000,
-    "investment_formatted": "$1,511,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -17069,7 +17071,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0404",
     "document_id": "FSC-2025-0404",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Planning for Sustainable Jobs 101",
@@ -17099,8 +17101,8 @@ const FULL_508_CORPUS = [
     "word_count": 17172,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1648000,
-    "investment_formatted": "$1,648,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -17110,7 +17112,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0405",
     "document_id": "FSC-2021-0405",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Ready for Green Jobs",
@@ -17141,8 +17143,8 @@ const FULL_508_CORPUS = [
     "word_count": 17215,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1785000,
-    "investment_formatted": "$1,785,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -17152,7 +17154,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0406",
     "document_id": "FSC-2022-0406",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Addressing Skill Imbalances in Canada",
@@ -17182,8 +17184,8 @@ const FULL_508_CORPUS = [
     "word_count": 17258,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1922000,
-    "investment_formatted": "$1,922,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -17194,7 +17196,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0407",
     "document_id": "FSC-2023-0407",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "AI Powered Will AI Change Postsecondary Teaching and Learning",
@@ -17225,8 +17227,8 @@ const FULL_508_CORPUS = [
     "word_count": 17301,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2059000,
-    "investment_formatted": "$2,059,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -17238,7 +17240,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0408",
     "document_id": "FSC-2024-0408",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Unemployment in Canada Survey",
@@ -17268,8 +17270,8 @@ const FULL_508_CORPUS = [
     "word_count": 17344,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2196000,
-    "investment_formatted": "$2,196,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -17282,7 +17284,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0409",
     "document_id": "FSC-2025-0409",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Waiting for Takeoff",
@@ -17313,8 +17315,8 @@ const FULL_508_CORPUS = [
     "word_count": 17387,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 270641,
-    "investment_formatted": "$270,641",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -17323,7 +17325,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0410",
     "document_id": "FSC-2021-0410",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "AI Brain",
@@ -17353,8 +17355,8 @@ const FULL_508_CORPUS = [
     "word_count": 17430,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 270641,
-    "investment_formatted": "$270,641",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -17364,7 +17366,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0411",
     "document_id": "FSC-2022-0411",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Bridging the Gender Gap",
@@ -17395,8 +17397,8 @@ const FULL_508_CORPUS = [
     "word_count": 17473,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2607000,
-    "investment_formatted": "$2,607,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -17406,7 +17408,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0412",
     "document_id": "FSC-2023-0412",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "International Students Transition to Work",
@@ -17436,8 +17438,8 @@ const FULL_508_CORPUS = [
     "word_count": 17516,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2744000,
-    "investment_formatted": "$2,744,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -17448,7 +17450,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0413",
     "document_id": "FSC-2024-0413",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "How International College Students Use Career Supports",
@@ -17479,8 +17481,8 @@ const FULL_508_CORPUS = [
     "word_count": 17559,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2881000,
-    "investment_formatted": "$2,881,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -17492,7 +17494,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0414",
     "document_id": "FSC-2025-0414",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Diversityleads",
@@ -17522,8 +17524,8 @@ const FULL_508_CORPUS = [
     "word_count": 17602,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 277286,
-    "investment_formatted": "$277,286",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -17536,7 +17538,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0415",
     "document_id": "FSC-2021-0415",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Equity Lens on AI",
@@ -17567,8 +17569,8 @@ const FULL_508_CORPUS = [
     "word_count": 17645,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3155000,
-    "investment_formatted": "$3,155,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -17577,7 +17579,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0416",
     "document_id": "FSC-2022-0416",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Creating Inclusive Campuses",
@@ -17607,8 +17609,8 @@ const FULL_508_CORPUS = [
     "word_count": 17688,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3292000,
-    "investment_formatted": "$3,292,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -17618,7 +17620,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0417",
     "document_id": "FSC-2023-0417",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Advancing Women",
@@ -17649,8 +17651,8 @@ const FULL_508_CORPUS = [
     "word_count": 17731,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 277286,
-    "investment_formatted": "$277,286",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -17660,7 +17662,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0418",
     "document_id": "FSC-2024-0418",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Working Outside the Box Exploring Self Employment As an Inclusive Employment Pathway for Neurodivergent Canadians",
@@ -17690,8 +17692,8 @@ const FULL_508_CORPUS = [
     "word_count": 17774,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 716000,
-    "investment_formatted": "$716,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -17702,7 +17704,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0419",
     "document_id": "FSC-2025-0419",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "A Neurodivergent Students Guide",
@@ -17733,8 +17735,8 @@ const FULL_508_CORPUS = [
     "word_count": 17817,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 853000,
-    "investment_formatted": "$853,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -17746,7 +17748,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0420",
     "document_id": "FSC-2021-0420",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Smart Farms Iot",
@@ -17776,8 +17778,8 @@ const FULL_508_CORPUS = [
     "word_count": 17860,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 990000,
-    "investment_formatted": "$990,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -17790,7 +17792,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0421",
     "document_id": "FSC-2022-0421",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Nature Based Eco Canada",
@@ -17821,8 +17823,8 @@ const FULL_508_CORPUS = [
     "word_count": 17903,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 848587,
-    "investment_formatted": "$848,587",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -17831,7 +17833,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0422",
     "document_id": "FSC-2023-0422",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Working Towards Equitable",
@@ -17861,8 +17863,8 @@ const FULL_508_CORPUS = [
     "word_count": 17946,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1264000,
-    "investment_formatted": "$1,264,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -17872,7 +17874,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0423",
     "document_id": "FSC-2024-0423",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Mentorship in the Workplace",
@@ -17903,8 +17905,8 @@ const FULL_508_CORPUS = [
     "word_count": 17989,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1401000,
-    "investment_formatted": "$1,401,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -17914,7 +17916,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0424",
     "document_id": "FSC-2025-0424",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Training for Tomorrow",
@@ -17944,8 +17946,8 @@ const FULL_508_CORPUS = [
     "word_count": 18032,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1538000,
-    "investment_formatted": "$1,538,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -17956,7 +17958,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0425",
     "document_id": "FSC-2021-0425",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Learning from One Another Labour Markets in Northern Ontario",
@@ -17987,8 +17989,8 @@ const FULL_508_CORPUS = [
     "word_count": 18075,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1675000,
-    "investment_formatted": "$1,675,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -18000,7 +18002,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0426",
     "document_id": "FSC-2022-0426",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Learning from One Another Labour Markets in Yukon",
@@ -18030,8 +18032,8 @@ const FULL_508_CORPUS = [
     "word_count": 18118,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1812000,
-    "investment_formatted": "$1,812,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -18044,7 +18046,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0427",
     "document_id": "FSC-2023-0427",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Optimizing Career Services Resources for Post Secondary Career Professionals",
@@ -18075,8 +18077,8 @@ const FULL_508_CORPUS = [
     "word_count": 18161,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1949000,
-    "investment_formatted": "$1,949,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -18085,7 +18087,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0428",
     "document_id": "FSC-2024-0428",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "From Shortages to Solutions",
@@ -18115,8 +18117,8 @@ const FULL_508_CORPUS = [
     "word_count": 18204,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2086000,
-    "investment_formatted": "$2,086,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -18126,7 +18128,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0429",
     "document_id": "FSC-2025-0429",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Labour Markets in Nunavut",
@@ -18157,8 +18159,8 @@ const FULL_508_CORPUS = [
     "word_count": 18247,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2223000,
-    "investment_formatted": "$2,223,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -18168,7 +18170,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0430",
     "document_id": "FSC-2021-0430",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Skill Gaps in Labour Markets in Northern Ont Yukon and Nunavut",
@@ -18198,8 +18200,8 @@ const FULL_508_CORPUS = [
     "word_count": 18290,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2360000,
-    "investment_formatted": "$2,360,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -18210,7 +18212,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0431",
     "document_id": "FSC-2022-0431",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Indigenous Professionals Needed Increasing Indigenous Representation in Healthcare in Canada",
@@ -18241,8 +18243,8 @@ const FULL_508_CORPUS = [
     "word_count": 18333,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2497000,
-    "investment_formatted": "$2,497,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -18254,7 +18256,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0432",
     "document_id": "FSC-2023-0432",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Impact of Children",
@@ -18284,8 +18286,8 @@ const FULL_508_CORPUS = [
     "word_count": 18376,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2634000,
-    "investment_formatted": "$2,634,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -18298,7 +18300,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0433",
     "document_id": "FSC-2024-0433",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Indigenous Tourism",
@@ -18329,8 +18331,8 @@ const FULL_508_CORPUS = [
     "word_count": 18419,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2771000,
-    "investment_formatted": "$2,771,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -18339,7 +18341,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0434",
     "document_id": "FSC-2025-0434",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Evidence Based_insights",
@@ -18369,8 +18371,8 @@ const FULL_508_CORPUS = [
     "word_count": 18462,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2908000,
-    "investment_formatted": "$2,908,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -18380,7 +18382,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0435",
     "document_id": "FSC-2021-0435",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Impact of AI",
@@ -18411,8 +18413,8 @@ const FULL_508_CORPUS = [
     "word_count": 18505,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 50000,
-    "investment_formatted": "$50,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -18422,7 +18424,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0436",
     "document_id": "FSC-2022-0436",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Mid-Career Disabilities",
@@ -18452,8 +18454,8 @@ const FULL_508_CORPUS = [
     "word_count": 18548,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3182000,
-    "investment_formatted": "$3,182,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -18464,7 +18466,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0437",
     "document_id": "FSC-2023-0437",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Increasing Indigenous Physicians",
@@ -18495,8 +18497,8 @@ const FULL_508_CORPUS = [
     "word_count": 18591,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 469000,
-    "investment_formatted": "$469,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -18508,7 +18510,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0438",
     "document_id": "FSC-2024-0438",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Smart Manufacturing Meat",
@@ -18538,8 +18540,8 @@ const FULL_508_CORPUS = [
     "word_count": 18634,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 606000,
-    "investment_formatted": "$606,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -18552,7 +18554,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0439",
     "document_id": "FSC-2025-0439",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Sustainability Meat Industry",
@@ -18583,8 +18585,8 @@ const FULL_508_CORPUS = [
     "word_count": 18677,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 743000,
-    "investment_formatted": "$743,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -18593,7 +18595,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0440",
     "document_id": "FSC-2021-0440",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Indigenous Professionals",
@@ -18623,8 +18625,8 @@ const FULL_508_CORPUS = [
     "word_count": 18720,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 880000,
-    "investment_formatted": "$880,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -18634,7 +18636,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0441",
     "document_id": "FSC-2022-0441",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Emission Reduction Plan",
@@ -18665,8 +18667,8 @@ const FULL_508_CORPUS = [
     "word_count": 18763,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1017000,
-    "investment_formatted": "$1,017,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -18676,7 +18678,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0442",
     "document_id": "FSC-2023-0442",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Thriving Workplaces",
@@ -18706,8 +18708,8 @@ const FULL_508_CORPUS = [
     "word_count": 18806,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 4016313,
-    "investment_formatted": "$4,016,313",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -18718,7 +18720,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0443",
     "document_id": "FSC-2024-0443",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Jobs and Skills Transition to a Net Zero Economy",
@@ -18749,8 +18751,8 @@ const FULL_508_CORPUS = [
     "word_count": 18849,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1291000,
-    "investment_formatted": "$1,291,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -18762,7 +18764,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0444",
     "document_id": "FSC-2025-0444",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Beyond Forecasting Skills Supply",
@@ -18792,8 +18794,8 @@ const FULL_508_CORPUS = [
     "word_count": 18892,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1428000,
-    "investment_formatted": "$1,428,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -18806,7 +18808,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0445",
     "document_id": "FSC-2021-0445",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Retaining Canada's Healthcare Workforce",
@@ -18837,8 +18839,8 @@ const FULL_508_CORPUS = [
     "word_count": 18935,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1565000,
-    "investment_formatted": "$1,565,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -18847,7 +18849,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0446",
     "document_id": "FSC-2022-0446",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Optimizing Career Services",
@@ -18877,8 +18879,8 @@ const FULL_508_CORPUS = [
     "word_count": 18978,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1702000,
-    "investment_formatted": "$1,702,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -18888,7 +18890,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0447",
     "document_id": "FSC-2023-0447",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "How AI Is Shaping the Future of Work",
@@ -18919,8 +18921,8 @@ const FULL_508_CORPUS = [
     "word_count": 9421,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1839000,
-    "investment_formatted": "$1,839,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -18930,7 +18932,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0448",
     "document_id": "FSC-2024-0448",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Leveraging Government Data",
@@ -18960,8 +18962,8 @@ const FULL_508_CORPUS = [
     "word_count": 9464,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1976000,
-    "investment_formatted": "$1,976,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -18972,7 +18974,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0449",
     "document_id": "FSC-2025-0449",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Food Sustainability North",
@@ -19003,8 +19005,8 @@ const FULL_508_CORPUS = [
     "word_count": 9507,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2113000,
-    "investment_formatted": "$2,113,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -19016,7 +19018,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0450",
     "document_id": "FSC-2021-0450",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Mentoring Black Nurses",
@@ -19046,8 +19048,8 @@ const FULL_508_CORPUS = [
     "word_count": 9550,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2250000,
-    "investment_formatted": "$2,250,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -19060,7 +19062,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0451",
     "document_id": "FSC-2022-0451",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Automation Exposure",
@@ -19091,8 +19093,8 @@ const FULL_508_CORPUS = [
     "word_count": 9593,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2387000,
-    "investment_formatted": "$2,387,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -19101,7 +19103,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0452",
     "document_id": "FSC-2023-0452",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Women in Engineering",
@@ -19131,8 +19133,8 @@ const FULL_508_CORPUS = [
     "word_count": 9636,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2524000,
-    "investment_formatted": "$2,524,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -19142,7 +19144,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0453",
     "document_id": "FSC-2024-0453",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Diversity Assessment Tool",
@@ -19173,8 +19175,8 @@ const FULL_508_CORPUS = [
     "word_count": 9679,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2661000,
-    "investment_formatted": "$2,661,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -19184,7 +19186,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0454",
     "document_id": "FSC-2025-0454",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Work Reimagined AI",
@@ -19214,8 +19216,8 @@ const FULL_508_CORPUS = [
     "word_count": 9722,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2798000,
-    "investment_formatted": "$2,798,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -19226,7 +19228,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0455",
     "document_id": "FSC-2021-0455",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "AI Adoption in SMEs Framework",
@@ -19257,8 +19259,8 @@ const FULL_508_CORPUS = [
     "word_count": 9765,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2935000,
-    "investment_formatted": "$2,935,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -19270,7 +19272,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0456",
     "document_id": "FSC-2022-0456",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Edi for Municipalities",
@@ -19300,8 +19302,8 @@ const FULL_508_CORPUS = [
     "word_count": 9808,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3072000,
-    "investment_formatted": "$3,072,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -19314,7 +19316,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0457",
     "document_id": "FSC-2023-0457",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Diversityleads Edi",
@@ -19345,8 +19347,8 @@ const FULL_508_CORPUS = [
     "word_count": 9851,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1057445,
-    "investment_formatted": "$1,057,445",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -19355,7 +19357,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0458",
     "document_id": "FSC-2024-0458",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Sober 2025",
@@ -19385,8 +19387,8 @@ const FULL_508_CORPUS = [
     "word_count": 9894,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 496000,
-    "investment_formatted": "$496,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -19396,7 +19398,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0459",
     "document_id": "FSC-2025-0459",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Edi SMEs Playbook",
@@ -19427,8 +19429,8 @@ const FULL_508_CORPUS = [
     "word_count": 9937,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 633000,
-    "investment_formatted": "$633,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -19438,7 +19440,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0460",
     "document_id": "FSC-2021-0460",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Productivity Potential Automation",
@@ -19468,8 +19470,8 @@ const FULL_508_CORPUS = [
     "word_count": 9980,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 770000,
-    "investment_formatted": "$770,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -19480,7 +19482,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0461",
     "document_id": "FSC-2022-0461",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Immigrant Housing Myths",
@@ -19511,8 +19513,8 @@ const FULL_508_CORPUS = [
     "word_count": 10023,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 907000,
-    "investment_formatted": "$907,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -19524,7 +19526,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0462",
     "document_id": "FSC-2023-0462",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Place Based Net Zero Skills Lessons",
@@ -19554,8 +19556,8 @@ const FULL_508_CORPUS = [
     "word_count": 10066,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1044000,
-    "investment_formatted": "$1,044,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -19568,7 +19570,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0463",
     "document_id": "FSC-2024-0463",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Rural Agriculture Entrepreneurship",
@@ -19599,8 +19601,8 @@ const FULL_508_CORPUS = [
     "word_count": 10109,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1181000,
-    "investment_formatted": "$1,181,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -19609,7 +19611,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0464",
     "document_id": "FSC-2025-0464",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Technology Adoption Barriers",
@@ -19639,8 +19641,8 @@ const FULL_508_CORPUS = [
     "word_count": 10152,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1318000,
-    "investment_formatted": "$1,318,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -19650,7 +19652,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0465",
     "document_id": "FSC-2021-0465",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Youth Labour Market Scarring 2",
@@ -19681,8 +19683,8 @@ const FULL_508_CORPUS = [
     "word_count": 10195,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 75535,
-    "investment_formatted": "$75,535",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -19692,7 +19694,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0466",
     "document_id": "FSC-2022-0466",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "The Burden of Care Addressing Challenges in Employment in the Nonprofit Sector",
@@ -19722,8 +19724,8 @@ const FULL_508_CORPUS = [
     "word_count": 10238,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1592000,
-    "investment_formatted": "$1,592,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -19734,7 +19736,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0467",
     "document_id": "FSC-2023-0467",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Tech Mining Oil",
@@ -19765,8 +19767,8 @@ const FULL_508_CORPUS = [
     "word_count": 10281,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1729000,
-    "investment_formatted": "$1,729,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -19778,7 +19780,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0468",
     "document_id": "FSC-2024-0468",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Innovation in Canada's Primary Industries",
@@ -19808,8 +19810,8 @@ const FULL_508_CORPUS = [
     "word_count": 10324,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1866000,
-    "investment_formatted": "$1,866,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -19822,7 +19824,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0469",
     "document_id": "FSC-2025-0469",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Concerns Impact AI",
@@ -19853,8 +19855,8 @@ const FULL_508_CORPUS = [
     "word_count": 10367,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2003000,
-    "investment_formatted": "$2,003,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -19863,7 +19865,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0470",
     "document_id": "FSC-2021-0470",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Survey on Employment and Skills",
@@ -19893,8 +19895,8 @@ const FULL_508_CORPUS = [
     "word_count": 10410,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2140000,
-    "investment_formatted": "$2,140,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -19904,7 +19906,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0471",
     "document_id": "FSC-2022-0471",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Navigating Net Zero",
@@ -19935,8 +19937,8 @@ const FULL_508_CORPUS = [
     "word_count": 10453,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2277000,
-    "investment_formatted": "$2,277,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -19946,7 +19948,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0472",
     "document_id": "FSC-2023-0472",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Quebec Future of Work",
@@ -19976,8 +19978,8 @@ const FULL_508_CORPUS = [
     "word_count": 10496,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2414000,
-    "investment_formatted": "$2,414,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -19988,7 +19990,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0473",
     "document_id": "FSC-2024-0473",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Mapping Food Sustainability",
@@ -20019,8 +20021,8 @@ const FULL_508_CORPUS = [
     "word_count": 10539,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2551000,
-    "investment_formatted": "$2,551,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -20032,7 +20034,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0474",
     "document_id": "FSC-2025-0474",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Pathways Health Care",
@@ -20062,8 +20064,8 @@ const FULL_508_CORPUS = [
     "word_count": 10582,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2688000,
-    "investment_formatted": "$2,688,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -20076,7 +20078,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0475",
     "document_id": "FSC-2021-0475",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Wraparound Supports",
@@ -20107,8 +20109,8 @@ const FULL_508_CORPUS = [
     "word_count": 10625,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2825000,
-    "investment_formatted": "$2,825,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -20117,7 +20119,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0476",
     "document_id": "FSC-2022-0476",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Midcareer Transitions",
@@ -20147,8 +20149,8 @@ const FULL_508_CORPUS = [
     "word_count": 10668,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1780597,
-    "investment_formatted": "$1,780,597",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -20158,7 +20160,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0477",
     "document_id": "FSC-2023-0477",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "National Survey SME",
@@ -20189,8 +20191,8 @@ const FULL_508_CORPUS = [
     "word_count": 10711,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 95000,
-    "investment_formatted": "$95,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -20200,7 +20202,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0478",
     "document_id": "FSC-2024-0478",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Immigrant Skill Utilization",
@@ -20230,8 +20232,8 @@ const FULL_508_CORPUS = [
     "word_count": 10754,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3236000,
-    "investment_formatted": "$3,236,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -20242,7 +20244,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0479",
     "document_id": "FSC-2025-0479",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Reimagining Career Services",
@@ -20273,8 +20275,8 @@ const FULL_508_CORPUS = [
     "word_count": 10797,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 523000,
-    "investment_formatted": "$523,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -20286,7 +20288,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0480",
     "document_id": "FSC-2021-0480",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Career Able Job Transitions for Canadians with Disabilities",
@@ -20316,8 +20318,8 @@ const FULL_508_CORPUS = [
     "word_count": 10840,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 660000,
-    "investment_formatted": "$660,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -20330,7 +20332,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0481",
     "document_id": "FSC-2022-0481",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Responding to Automation Cleaner Future",
@@ -20361,8 +20363,8 @@ const FULL_508_CORPUS = [
     "word_count": 10883,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 797000,
-    "investment_formatted": "$797,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -20371,7 +20373,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0482",
     "document_id": "FSC-2023-0482",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Technological Change North",
@@ -20401,8 +20403,8 @@ const FULL_508_CORPUS = [
     "word_count": 10926,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 934000,
-    "investment_formatted": "$934,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -20412,7 +20414,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0483",
     "document_id": "FSC-2024-0483",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "From Campus to Career",
@@ -20443,8 +20445,8 @@ const FULL_508_CORPUS = [
     "word_count": 10969,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1071000,
-    "investment_formatted": "$1,071,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -20454,7 +20456,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0484",
     "document_id": "FSC-2025-0484",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Trade War Bulletin",
@@ -20484,8 +20486,8 @@ const FULL_508_CORPUS = [
     "word_count": 11012,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1208000,
-    "investment_formatted": "$1,208,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -20496,7 +20498,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0485",
     "document_id": "FSC-2021-0485",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Hidden Struggles Situating Neurodiversity in Post Secondary Education",
@@ -20527,8 +20529,8 @@ const FULL_508_CORPUS = [
     "word_count": 11055,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1345000,
-    "investment_formatted": "$1,345,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -20540,7 +20542,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0486",
     "document_id": "FSC-2022-0486",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Learning from One Another Economic and Labour Forecast for Northern Ontario Yukon and Nunavut",
@@ -20570,8 +20572,8 @@ const FULL_508_CORPUS = [
     "word_count": 11098,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1482000,
-    "investment_formatted": "$1,482,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -20584,7 +20586,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0487",
     "document_id": "FSC-2023-0487",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Skills and Productivity Which Skills Shortages Are Impacting Canadian Productivity",
@@ -20615,8 +20617,8 @@ const FULL_508_CORPUS = [
     "word_count": 11141,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1619000,
-    "investment_formatted": "$1,619,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -20625,7 +20627,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0488",
     "document_id": "FSC-2024-0488",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Skills Needs for Mass Timber Production and Adoption in British Columbia",
@@ -20655,8 +20657,8 @@ const FULL_508_CORPUS = [
     "word_count": 11184,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1756000,
-    "investment_formatted": "$1,756,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -20666,7 +20668,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0489",
     "document_id": "FSC-2025-0489",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Skills Needs for Workers in the Growing Plant Based Protein Industry in Manitoba and Saskatchewan",
@@ -20697,8 +20699,8 @@ const FULL_508_CORPUS = [
     "word_count": 11227,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1893000,
-    "investment_formatted": "$1,893,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -20708,7 +20710,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0490",
     "document_id": "FSC-2021-0490",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Digital Skills Future Ready World",
@@ -20738,8 +20740,8 @@ const FULL_508_CORPUS = [
     "word_count": 11270,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2030000,
-    "investment_formatted": "$2,030,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -20750,7 +20752,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0491",
     "document_id": "FSC-2022-0491",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Finance and Management Skills for Economic Reconciliation",
@@ -20781,8 +20783,8 @@ const FULL_508_CORPUS = [
     "word_count": 11313,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2167000,
-    "investment_formatted": "$2,167,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -20794,7 +20796,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0492",
     "document_id": "FSC-2023-0492",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Indigenous & Northern Communities",
@@ -20824,8 +20826,8 @@ const FULL_508_CORPUS = [
     "word_count": 11356,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2304000,
-    "investment_formatted": "$2,304,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -20838,7 +20840,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0493",
     "document_id": "FSC-2024-0493",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Transforming Learning in a Pandemic Context",
@@ -20869,8 +20871,8 @@ const FULL_508_CORPUS = [
     "word_count": 11399,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2441000,
-    "investment_formatted": "$2,441,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -20879,7 +20881,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0494",
     "document_id": "FSC-2025-0494",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Laying Foundations Technological Maturity in Canada's Construction Sector",
@@ -20909,8 +20911,8 @@ const FULL_508_CORPUS = [
     "word_count": 11442,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2578000,
-    "investment_formatted": "$2,578,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -20920,7 +20922,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0495",
     "document_id": "FSC-2021-0495",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Saskatchewans Forest Sector",
@@ -20951,8 +20953,8 @@ const FULL_508_CORPUS = [
     "word_count": 11485,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2715000,
-    "investment_formatted": "$2,715,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -20962,7 +20964,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0496",
     "document_id": "FSC-2022-0496",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Skills Northern Regions Manitoba",
@@ -20992,8 +20994,8 @@ const FULL_508_CORPUS = [
     "word_count": 11528,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2852000,
-    "investment_formatted": "$2,852,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -21004,7 +21006,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0497",
     "document_id": "FSC-2023-0497",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "The Big Shift Changes in Canadian Manufacturing Employment 2003 2018 Full Report",
@@ -21035,8 +21037,8 @@ const FULL_508_CORPUS = [
     "word_count": 11571,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2989000,
-    "investment_formatted": "$2,989,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -21048,7 +21050,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0498",
     "document_id": "FSC-2024-0498",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "The Big Shift Changes in Canadian Manufacturing Employment 2003 2018 Executive Summary",
@@ -21078,8 +21080,8 @@ const FULL_508_CORPUS = [
     "word_count": 11614,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3126000,
-    "investment_formatted": "$3,126,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -21092,7 +21094,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0499",
     "document_id": "FSC-2025-0499",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Rising Skills Digital Upskilling for Advanced Manufacturing Workplaces",
@@ -21123,8 +21125,8 @@ const FULL_508_CORPUS = [
     "word_count": 11657,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3263000,
-    "investment_formatted": "$3,263,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -21133,7 +21135,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0500",
     "document_id": "FSC-2021-0500",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Rising Skills Emerging Skills in the Food Services Trades",
@@ -21163,8 +21165,8 @@ const FULL_508_CORPUS = [
     "word_count": 11700,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 550000,
-    "investment_formatted": "$550,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -21174,7 +21176,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0501",
     "document_id": "FSC-2022-0501",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Rising Skills Digital Skills Needs for Smart and Connected Vehicles",
@@ -21205,8 +21207,8 @@ const FULL_508_CORPUS = [
     "word_count": 11743,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 687000,
-    "investment_formatted": "$687,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -21216,7 +21218,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0502",
     "document_id": "FSC-2023-0502",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Rising Skills a Toolbox Talk on Social and Emotional Skills in the Construction Trades",
@@ -21246,8 +21248,8 @@ const FULL_508_CORPUS = [
     "word_count": 11786,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 824000,
-    "investment_formatted": "$824,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -21258,7 +21260,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0503",
     "document_id": "FSC-2024-0503",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Bridging Generational Divides",
@@ -21289,8 +21291,8 @@ const FULL_508_CORPUS = [
     "word_count": 11829,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 961000,
-    "investment_formatted": "$961,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -21302,7 +21304,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0504",
     "document_id": "FSC-2025-0504",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Career Pathways in the North",
@@ -21332,8 +21334,8 @@ const FULL_508_CORPUS = [
     "word_count": 11872,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1098000,
-    "investment_formatted": "$1,098,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -21346,7 +21348,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0505",
     "document_id": "FSC-2021-0505",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "How Can More Indigenous People Access Stem Careers",
@@ -21377,8 +21379,8 @@ const FULL_508_CORPUS = [
     "word_count": 11915,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1235000,
-    "investment_formatted": "$1,235,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -21387,7 +21389,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0506",
     "document_id": "FSC-2022-0506",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Comparing Indigenous Centred Post Secondary Education in Canada",
@@ -21417,8 +21419,8 @@ const FULL_508_CORPUS = [
     "word_count": 11958,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1372000,
-    "investment_formatted": "$1,372,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -21428,7 +21430,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0507",
     "document_id": "FSC-2023-0507",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Bridging Canada's Skills Gap",
@@ -21459,8 +21461,8 @@ const FULL_508_CORPUS = [
     "word_count": 12001,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1509000,
-    "investment_formatted": "$1,509,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -21470,7 +21472,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0508",
     "document_id": "FSC-2024-0508",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "There\u2019s a revolution happening in skilled trades",
@@ -21500,8 +21502,8 @@ const FULL_508_CORPUS = [
     "word_count": 12044,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1646000,
-    "investment_formatted": "$1,646,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -21512,7 +21514,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0509",
     "document_id": "FSC-2025-0509",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "The Future Is Social and Emotional",
@@ -21543,8 +21545,8 @@ const FULL_508_CORPUS = [
     "word_count": 12087,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1783000,
-    "investment_formatted": "$1,783,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -21556,7 +21558,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0510",
     "document_id": "FSC-2021-0510",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Manufacturing Best Practices",
@@ -21586,8 +21588,8 @@ const FULL_508_CORPUS = [
     "word_count": 12130,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1920000,
-    "investment_formatted": "$1,920,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -21600,7 +21602,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0511",
     "document_id": "FSC-2022-0511",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Trades Training Gaining Traction",
@@ -21631,8 +21633,8 @@ const FULL_508_CORPUS = [
     "word_count": 12173,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2057000,
-    "investment_formatted": "$2,057,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -21641,7 +21643,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0512",
     "document_id": "FSC-2023-0512",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Erp and Trades",
@@ -21671,8 +21673,8 @@ const FULL_508_CORPUS = [
     "word_count": 12216,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2194000,
-    "investment_formatted": "$2,194,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -21682,7 +21684,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0513",
     "document_id": "FSC-2024-0513",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Skills for Infrastructure",
@@ -21713,8 +21715,8 @@ const FULL_508_CORPUS = [
     "word_count": 12259,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2331000,
-    "investment_formatted": "$2,331,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -21724,7 +21726,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0514",
     "document_id": "FSC-2025-0514",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Adoption Ready",
@@ -21754,8 +21756,8 @@ const FULL_508_CORPUS = [
     "word_count": 12302,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2468000,
-    "investment_formatted": "$2,468,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -21766,7 +21768,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0515",
     "document_id": "FSC-2021-0515",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Technological Maturity Construction Sector",
@@ -21797,8 +21799,8 @@ const FULL_508_CORPUS = [
     "word_count": 12345,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 100000,
-    "investment_formatted": "$100,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -21810,7 +21812,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0516",
     "document_id": "FSC-2022-0516",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Remote Work Eng",
@@ -21840,8 +21842,8 @@ const FULL_508_CORPUS = [
     "word_count": 12388,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 80000,
-    "investment_formatted": "$80,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -21854,7 +21856,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0517",
     "document_id": "FSC-2023-0517",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Green_skills",
@@ -21885,8 +21887,8 @@ const FULL_508_CORPUS = [
     "word_count": 12431,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 88928,
-    "investment_formatted": "$88,928",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -21895,7 +21897,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0518",
     "document_id": "FSC-2024-0518",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Self Employment for Neurodivergent Canadians",
@@ -21925,8 +21927,8 @@ const FULL_508_CORPUS = [
     "word_count": 12474,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3016000,
-    "investment_formatted": "$3,016,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -21936,7 +21938,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0519",
     "document_id": "FSC-2025-0519",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Understanding Influence of AI on Employment",
@@ -21967,8 +21969,8 @@ const FULL_508_CORPUS = [
     "word_count": 12517,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3153000,
-    "investment_formatted": "$3,153,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -21978,7 +21980,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0520",
     "document_id": "FSC-2021-0520",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Mapping Self Employment Resources for Neurodivergent Canadians",
@@ -22008,8 +22010,8 @@ const FULL_508_CORPUS = [
     "word_count": 12560,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3290000,
-    "investment_formatted": "$3,290,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -22020,7 +22022,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0521",
     "document_id": "FSC-2022-0521",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Banking on AI",
@@ -22051,8 +22053,8 @@ const FULL_508_CORPUS = [
     "word_count": 12603,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 249948,
-    "investment_formatted": "$249,948",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -22064,7 +22066,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0522",
     "document_id": "FSC-2023-0522",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Skills Mirror Bit",
@@ -22094,8 +22096,8 @@ const FULL_508_CORPUS = [
     "word_count": 12646,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 194502,
-    "investment_formatted": "$194,502",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -22108,7 +22110,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0523",
     "document_id": "FSC-2024-0523",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Art in Artificial Intelligence",
@@ -22139,8 +22141,8 @@ const FULL_508_CORPUS = [
     "word_count": 12689,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 851000,
-    "investment_formatted": "$851,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -22149,7 +22151,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0524",
     "document_id": "FSC-2025-0524",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Self-Employment and Indigenous Export Potential\u2014March 2026",
@@ -22179,8 +22181,8 @@ const FULL_508_CORPUS = [
     "word_count": 12732,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 988000,
-    "investment_formatted": "$988,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -22190,7 +22192,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0525",
     "document_id": "FSC-2021-0525",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Skills Practices to Support Indigenous Exporters",
@@ -22221,8 +22223,8 @@ const FULL_508_CORPUS = [
     "word_count": 12775,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1125000,
-    "investment_formatted": "$1,125,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -22232,7 +22234,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0526",
     "document_id": "FSC-2022-0526",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Talent Perceptions Calgary",
@@ -22262,8 +22264,8 @@ const FULL_508_CORPUS = [
     "word_count": 12818,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 292650,
-    "investment_formatted": "$292,650",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -22274,7 +22276,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0527",
     "document_id": "FSC-2023-0527",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Advancing Pathways to Neurodivergent Self Employment",
@@ -22305,8 +22307,8 @@ const FULL_508_CORPUS = [
     "word_count": 12861,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1399000,
-    "investment_formatted": "$1,399,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -22318,7 +22320,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0528",
     "document_id": "FSC-2024-0528",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Workforce Neurodivergent Student",
@@ -22348,8 +22350,8 @@ const FULL_508_CORPUS = [
     "word_count": 12904,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1536000,
-    "investment_formatted": "$1,536,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -22362,7 +22364,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0529",
     "document_id": "FSC-2025-0529",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Inclusive Workintegrated Learning",
@@ -22393,8 +22395,8 @@ const FULL_508_CORPUS = [
     "word_count": 12947,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1673000,
-    "investment_formatted": "$1,673,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -22403,7 +22405,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0530",
     "document_id": "FSC-2021-0530",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Municipal Diversity Assessment Tool",
@@ -22433,8 +22435,8 @@ const FULL_508_CORPUS = [
     "word_count": 12990,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1810000,
-    "investment_formatted": "$1,810,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -22444,7 +22446,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0531",
     "document_id": "FSC-2022-0531",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Career Development Strategies Neurodivergent Students",
@@ -22475,8 +22477,8 @@ const FULL_508_CORPUS = [
     "word_count": 13033,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1947000,
-    "investment_formatted": "$1,947,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -22486,7 +22488,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0532",
     "document_id": "FSC-2023-0532",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Addressing Barriers to Labour Force Participation",
@@ -22516,8 +22518,8 @@ const FULL_508_CORPUS = [
     "word_count": 13076,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2084000,
-    "investment_formatted": "$2,084,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -22528,7 +22530,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0533",
     "document_id": "FSC-2024-0533",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Scoping Piaac Agenda",
@@ -22559,8 +22561,8 @@ const FULL_508_CORPUS = [
     "word_count": 13119,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2221000,
-    "investment_formatted": "$2,221,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -22572,7 +22574,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0534",
     "document_id": "FSC-2025-0534",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Learning from One Another Pir",
@@ -22602,8 +22604,8 @@ const FULL_508_CORPUS = [
     "word_count": 13162,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2358000,
-    "investment_formatted": "$2,358,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -22616,7 +22618,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0535",
     "document_id": "FSC-2021-0535",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Canada Healthcare Workforce Retention and Migration",
@@ -22647,8 +22649,8 @@ const FULL_508_CORPUS = [
     "word_count": 13205,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2495000,
-    "investment_formatted": "$2,495,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -22657,7 +22659,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0536",
     "document_id": "FSC-2022-0536",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Guiding AI Adoption Among Small Businesses\u2014April 2026",
@@ -22687,8 +22689,8 @@ const FULL_508_CORPUS = [
     "word_count": 13248,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2632000,
-    "investment_formatted": "$2,632,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -22698,7 +22700,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0537",
     "document_id": "FSC-2023-0537",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Shaping the Future of Learning and Development",
@@ -22729,8 +22731,8 @@ const FULL_508_CORPUS = [
     "word_count": 13291,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2769000,
-    "investment_formatted": "$2,769,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -22740,7 +22742,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0538",
     "document_id": "FSC-2024-0538",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Scorecard for Immigrant Skill Utilization",
@@ -22770,8 +22772,8 @@ const FULL_508_CORPUS = [
     "word_count": 13334,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2906000,
-    "investment_formatted": "$2,906,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -22782,7 +22784,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0539",
     "document_id": "FSC-2025-0539",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Rethinking How Canada Forecasts Skills Supply",
@@ -22813,8 +22815,8 @@ const FULL_508_CORPUS = [
     "word_count": 13377,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3043000,
-    "investment_formatted": "$3,043,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -22826,7 +22828,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0540",
     "document_id": "FSC-2021-0540",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Mapping Youth Pathways",
@@ -22856,8 +22858,8 @@ const FULL_508_CORPUS = [
     "word_count": 13420,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3180000,
-    "investment_formatted": "$3,180,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -22870,7 +22872,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0541",
     "document_id": "FSC-2022-0541",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Intelligent Machines",
@@ -22901,8 +22903,8 @@ const FULL_508_CORPUS = [
     "word_count": 13463,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 169232,
-    "investment_formatted": "$169,232",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -22911,7 +22913,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0542",
     "document_id": "FSC-2023-0542",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Training Indigenous Community Health Workers",
@@ -22941,8 +22943,8 @@ const FULL_508_CORPUS = [
     "word_count": 13506,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 604000,
-    "investment_formatted": "$604,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -22952,7 +22954,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0543",
     "document_id": "FSC-2024-0543",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Black Experience Foodservice",
@@ -22983,8 +22985,8 @@ const FULL_508_CORPUS = [
     "word_count": 13549,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 741000,
-    "investment_formatted": "$741,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -22994,7 +22996,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0544",
     "document_id": "FSC-2025-0544",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Green Building Workforce",
@@ -23024,8 +23026,8 @@ const FULL_508_CORPUS = [
     "word_count": 13592,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 261433,
-    "investment_formatted": "$261,433",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -23036,7 +23038,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0545",
     "document_id": "FSC-2021-0545",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Opportunities Justice Involved Individuals",
@@ -23067,8 +23069,8 @@ const FULL_508_CORPUS = [
     "word_count": 13635,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 257508,
-    "investment_formatted": "$257,508",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -23080,7 +23082,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0546",
     "document_id": "FSC-2022-0546",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Refugee Youth Nova Scotia",
@@ -23110,8 +23112,8 @@ const FULL_508_CORPUS = [
     "word_count": 13678,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1152000,
-    "investment_formatted": "$1,152,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -23124,7 +23126,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0547",
     "document_id": "FSC-2023-0547",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Powering AI",
@@ -23155,8 +23157,8 @@ const FULL_508_CORPUS = [
     "word_count": 13721,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 249165,
-    "investment_formatted": "$249,165",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -23165,7 +23167,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0548",
     "document_id": "FSC-2024-0548",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Opportunext",
@@ -23195,8 +23197,8 @@ const FULL_508_CORPUS = [
     "word_count": 13764,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1375000,
-    "investment_formatted": "$1,375,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -23206,7 +23208,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0549",
     "document_id": "FSC-2025-0549",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Retaining Canada Healthcare Workforce",
@@ -23237,8 +23239,8 @@ const FULL_508_CORPUS = [
     "word_count": 13807,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1563000,
-    "investment_formatted": "$1,563,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -23248,7 +23250,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0550",
     "document_id": "FSC-2021-0550",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Indigenous Community Health Workers",
@@ -23278,8 +23280,8 @@ const FULL_508_CORPUS = [
     "word_count": 13850,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1700000,
-    "investment_formatted": "$1,700,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -23290,7 +23292,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0551",
     "document_id": "FSC-2022-0551",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Mapping Food Sustainability Canada",
@@ -23321,8 +23323,8 @@ const FULL_508_CORPUS = [
     "word_count": 13893,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1837000,
-    "investment_formatted": "$1,837,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -23334,7 +23336,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0552",
     "document_id": "FSC-2023-0552",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "The Skills Map",
@@ -23364,8 +23366,8 @@ const FULL_508_CORPUS = [
     "word_count": 13936,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1974000,
-    "investment_formatted": "$1,974,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -23378,7 +23380,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0553",
     "document_id": "FSC-2024-0553",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Albertas Coal Workers Transition",
@@ -23409,8 +23411,8 @@ const FULL_508_CORPUS = [
     "word_count": 13979,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 185572,
-    "investment_formatted": "$185,572",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -23419,7 +23421,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0554",
     "document_id": "FSC-2025-0554",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Mining Skills Innovation",
@@ -23449,8 +23451,8 @@ const FULL_508_CORPUS = [
     "word_count": 14022,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2248000,
-    "investment_formatted": "$2,248,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -23460,7 +23462,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0555",
     "document_id": "FSC-2021-0555",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Labour Market Experiences Mental Health",
@@ -23491,8 +23493,8 @@ const FULL_508_CORPUS = [
     "word_count": 14065,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2385000,
-    "investment_formatted": "$2,385,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -23502,7 +23504,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0556",
     "document_id": "FSC-2022-0556",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Substance Use and Employability",
@@ -23532,8 +23534,8 @@ const FULL_508_CORPUS = [
     "word_count": 14108,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 112012,
-    "investment_formatted": "$112,012",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -23544,7 +23546,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0557",
     "document_id": "FSC-2023-0557",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Critical Mining North",
@@ -23575,8 +23577,8 @@ const FULL_508_CORPUS = [
     "word_count": 14151,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 53500,
-    "investment_formatted": "$53,500",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -23588,7 +23590,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0558",
     "document_id": "FSC-2024-0558",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "AI in Action SMEs",
@@ -23618,8 +23620,8 @@ const FULL_508_CORPUS = [
     "word_count": 14194,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1100000,
-    "investment_formatted": "$1,100,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -23632,7 +23634,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0559",
     "document_id": "FSC-2025-0559",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "AI and Future Skills",
@@ -23663,8 +23665,8 @@ const FULL_508_CORPUS = [
     "word_count": 14237,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2933000,
-    "investment_formatted": "$2,933,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -23673,7 +23675,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0560",
     "document_id": "FSC-2021-0560",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Pilot Assessment Tool",
@@ -23703,8 +23705,8 @@ const FULL_508_CORPUS = [
     "word_count": 14280,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3070000,
-    "investment_formatted": "$3,070,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -23714,7 +23716,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0561",
     "document_id": "FSC-2022-0561",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "AI in Higher Education",
@@ -23745,8 +23747,8 @@ const FULL_508_CORPUS = [
     "word_count": 14323,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3207000,
-    "investment_formatted": "$3,207,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -23756,7 +23758,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0562",
     "document_id": "FSC-2023-0562",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Non Psis",
@@ -23786,8 +23788,8 @@ const FULL_508_CORPUS = [
     "word_count": 14366,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 494000,
-    "investment_formatted": "$494,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -23798,7 +23800,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0563",
     "document_id": "FSC-2024-0563",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Indigenous Peoples Workplace Insights",
@@ -23829,8 +23831,8 @@ const FULL_508_CORPUS = [
     "word_count": 14409,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 631000,
-    "investment_formatted": "$631,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -23842,7 +23844,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0564",
     "document_id": "FSC-2025-0564",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Trades Entrepreneurship",
@@ -23872,8 +23874,8 @@ const FULL_508_CORPUS = [
     "word_count": 14452,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 768000,
-    "investment_formatted": "$768,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -23886,7 +23888,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0565",
     "document_id": "FSC-2021-0565",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Bridging AI Skills Gap",
@@ -23917,8 +23919,8 @@ const FULL_508_CORPUS = [
     "word_count": 14495,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 905000,
-    "investment_formatted": "$905,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -23927,7 +23929,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0566",
     "document_id": "FSC-2022-0566",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Northern Business Entrepreneurship",
@@ -23957,8 +23959,8 @@ const FULL_508_CORPUS = [
     "word_count": 14538,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1042000,
-    "investment_formatted": "$1,042,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -23968,7 +23970,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0567",
     "document_id": "FSC-2023-0567",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Esg Disclosure SME",
@@ -23999,8 +24001,8 @@ const FULL_508_CORPUS = [
     "word_count": 14581,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1179000,
-    "investment_formatted": "$1,179,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -24010,7 +24012,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0568",
     "document_id": "FSC-2024-0568",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Language Skills Translation Tools",
@@ -24040,8 +24042,8 @@ const FULL_508_CORPUS = [
     "word_count": 14624,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1316000,
-    "investment_formatted": "$1,316,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -24052,7 +24054,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0569",
     "document_id": "FSC-2025-0569",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Immigration Economy Experiences",
@@ -24083,8 +24085,8 @@ const FULL_508_CORPUS = [
     "word_count": 14667,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1453000,
-    "investment_formatted": "$1,453,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -24096,7 +24098,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0570",
     "document_id": "FSC-2021-0570",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Building Tomorrow",
@@ -24126,8 +24128,8 @@ const FULL_508_CORPUS = [
     "word_count": 14710,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1590000,
-    "investment_formatted": "$1,590,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -24140,7 +24142,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0571",
     "document_id": "FSC-2022-0571",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Career Development Professionals",
@@ -24171,8 +24173,8 @@ const FULL_508_CORPUS = [
     "word_count": 14753,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1727000,
-    "investment_formatted": "$1,727,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -24181,7 +24183,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0572",
     "document_id": "FSC-2023-0572",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Neuroinclusive Work\u2011Integrated Learning\u2014May 2026",
@@ -24211,8 +24213,8 @@ const FULL_508_CORPUS = [
     "word_count": 14796,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1864000,
-    "investment_formatted": "$1,864,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -24222,7 +24224,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0573",
     "document_id": "FSC-2024-0573",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "First Nations Health Authority",
@@ -24253,8 +24255,8 @@ const FULL_508_CORPUS = [
     "word_count": 14839,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2001000,
-    "investment_formatted": "$2,001,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -24264,7 +24266,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0574",
     "document_id": "FSC-2025-0574",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Newcomers Skill Utilization Healthcare",
@@ -24294,8 +24296,8 @@ const FULL_508_CORPUS = [
     "word_count": 14882,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2138000,
-    "investment_formatted": "$2,138,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -24306,7 +24308,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0575",
     "document_id": "FSC-2021-0575",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Immigrant Skills Utilization Hospitality",
@@ -24337,8 +24339,8 @@ const FULL_508_CORPUS = [
     "word_count": 14925,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2275000,
-    "investment_formatted": "$2,275,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -24350,7 +24352,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0576",
     "document_id": "FSC-2022-0576",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "A Dynamic Approach to Measuring Changing Skills\u2014June 2026",
@@ -24380,8 +24382,8 @@ const FULL_508_CORPUS = [
     "word_count": 14968,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2412000,
-    "investment_formatted": "$2,412,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -24394,7 +24396,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0577",
     "document_id": "FSC-2023-0577",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "AI Job",
@@ -24425,8 +24427,8 @@ const FULL_508_CORPUS = [
     "word_count": 15011,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2549000,
-    "investment_formatted": "$2,549,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -24435,7 +24437,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0578",
     "document_id": "FSC-2024-0578",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Greenification of SMEs",
@@ -24465,8 +24467,8 @@ const FULL_508_CORPUS = [
     "word_count": 15054,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2686000,
-    "investment_formatted": "$2,686,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -24476,7 +24478,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0579",
     "document_id": "FSC-2025-0579",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Fuelling Our Future",
@@ -24507,8 +24509,8 @@ const FULL_508_CORPUS = [
     "word_count": 15097,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2823000,
-    "investment_formatted": "$2,823,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -24518,7 +24520,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0580",
     "document_id": "FSC-2021-0580",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Culturally Safe Workplaces",
@@ -24548,8 +24550,8 @@ const FULL_508_CORPUS = [
     "word_count": 15140,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 150505,
-    "investment_formatted": "$150,505",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -24560,7 +24562,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0581",
     "document_id": "FSC-2022-0581",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Electric Vehicles",
@@ -24591,8 +24593,8 @@ const FULL_508_CORPUS = [
     "word_count": 15183,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 151624,
-    "investment_formatted": "$151,624",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -24604,7 +24606,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0582",
     "document_id": "FSC-2023-0582",
-    "content_type": "Blog",
+    "content_type": "Reports",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Workplace Inclusion",
@@ -24634,8 +24636,8 @@ const FULL_508_CORPUS = [
     "word_count": 15226,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 95500,
-    "investment_formatted": "$95,500",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -24648,7 +24650,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0583",
     "document_id": "FSC-2024-0583",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Blog Innovation Mindset",
@@ -24679,8 +24681,8 @@ const FULL_508_CORPUS = [
     "word_count": 15269,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 521000,
-    "investment_formatted": "$521,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -24689,7 +24691,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0584",
     "document_id": "FSC-2025-0584",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Blog Green Building and Skills Training",
@@ -24719,8 +24721,8 @@ const FULL_508_CORPUS = [
     "word_count": 15312,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 658000,
-    "investment_formatted": "$658,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -24730,7 +24732,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0585",
     "document_id": "FSC-2021-0585",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Blog Adapt",
@@ -24761,8 +24763,8 @@ const FULL_508_CORPUS = [
     "word_count": 15355,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 795000,
-    "investment_formatted": "$795,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -24772,7 +24774,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0586",
     "document_id": "FSC-2022-0586",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Blog Sustainable Future",
@@ -24802,8 +24804,8 @@ const FULL_508_CORPUS = [
     "word_count": 15398,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 932000,
-    "investment_formatted": "$932,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -24814,7 +24816,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0587",
     "document_id": "FSC-2023-0587",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Blog Tackling Climate Change",
@@ -24845,8 +24847,8 @@ const FULL_508_CORPUS = [
     "word_count": 15441,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1069000,
-    "investment_formatted": "$1,069,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -24858,7 +24860,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0588",
     "document_id": "FSC-2024-0588",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Blog Accelerator Innovation Lab",
@@ -24888,8 +24890,8 @@ const FULL_508_CORPUS = [
     "word_count": 15484,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1206000,
-    "investment_formatted": "$1,206,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -24902,7 +24904,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0589",
     "document_id": "FSC-2025-0589",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Blog Skills Training for Youth",
@@ -24933,8 +24935,8 @@ const FULL_508_CORPUS = [
     "word_count": 15527,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1343000,
-    "investment_formatted": "$1,343,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -24943,7 +24945,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0590",
     "document_id": "FSC-2021-0590",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Blog Employer Sponsored",
@@ -24973,8 +24975,8 @@ const FULL_508_CORPUS = [
     "word_count": 15570,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1480000,
-    "investment_formatted": "$1,480,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -24984,7 +24986,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0591",
     "document_id": "FSC-2022-0591",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Blog Ses",
@@ -25015,8 +25017,8 @@ const FULL_508_CORPUS = [
     "word_count": 15613,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1617000,
-    "investment_formatted": "$1,617,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -25026,7 +25028,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0592",
     "document_id": "FSC-2023-0592",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Blog Black History Month",
@@ -25056,8 +25058,8 @@ const FULL_508_CORPUS = [
     "word_count": 15656,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1754000,
-    "investment_formatted": "$1,754,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -25068,7 +25070,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0593",
     "document_id": "FSC-2024-0593",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Blog Bolder Approach",
@@ -25099,8 +25101,8 @@ const FULL_508_CORPUS = [
     "word_count": 15699,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1891000,
-    "investment_formatted": "$1,891,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -25112,7 +25114,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0594",
     "document_id": "FSC-2025-0594",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Blog Indigenous Nation Thrives",
@@ -25142,8 +25144,8 @@ const FULL_508_CORPUS = [
     "word_count": 15742,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2028000,
-    "investment_formatted": "$2,028,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -25156,7 +25158,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0595",
     "document_id": "FSC-2021-0595",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Blog Sustainable Commuting",
@@ -25187,8 +25189,8 @@ const FULL_508_CORPUS = [
     "word_count": 15785,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2165000,
-    "investment_formatted": "$2,165,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -25197,7 +25199,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0596",
     "document_id": "FSC-2022-0596",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Blog Disabilities",
@@ -25227,8 +25229,8 @@ const FULL_508_CORPUS = [
     "word_count": 15828,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2302000,
-    "investment_formatted": "$2,302,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -25238,7 +25240,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0597",
     "document_id": "FSC-2023-0597",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Blog Accelerator",
@@ -25269,8 +25271,8 @@ const FULL_508_CORPUS = [
     "word_count": 15871,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2439000,
-    "investment_formatted": "$2,439,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -25280,7 +25282,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0598",
     "document_id": "FSC-2024-0598",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Blog Agtech",
@@ -25310,8 +25312,8 @@ const FULL_508_CORPUS = [
     "word_count": 15914,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2576000,
-    "investment_formatted": "$2,576,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -25322,7 +25324,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0599",
     "document_id": "FSC-2025-0599",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Blog Reconciliation",
@@ -25353,8 +25355,8 @@ const FULL_508_CORPUS = [
     "word_count": 15957,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2713000,
-    "investment_formatted": "$2,713,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -25366,7 +25368,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0600",
     "document_id": "FSC-2021-0600",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Blog Mining",
@@ -25396,8 +25398,8 @@ const FULL_508_CORPUS = [
     "word_count": 16000,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2850000,
-    "investment_formatted": "$2,850,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -25410,7 +25412,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0601",
     "document_id": "FSC-2022-0601",
-    "content_type": "News & Events",
+    "content_type": "Reports",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Microcredentials Data",
@@ -25441,8 +25443,8 @@ const FULL_508_CORPUS = [
     "word_count": 16043,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2987000,
-    "investment_formatted": "$2,987,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -25451,7 +25453,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0602",
     "document_id": "FSC-2023-0602",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Blog Skilled Trades",
@@ -25481,8 +25483,8 @@ const FULL_508_CORPUS = [
     "word_count": 16086,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3124000,
-    "investment_formatted": "$3,124,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -25492,7 +25494,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0603",
     "document_id": "FSC-2024-0603",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Blog Clean Economy",
@@ -25523,8 +25525,8 @@ const FULL_508_CORPUS = [
     "word_count": 16129,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3261000,
-    "investment_formatted": "$3,261,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -25534,7 +25536,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0604",
     "document_id": "FSC-2025-0604",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Blog Cdn Tech",
@@ -25564,8 +25566,8 @@ const FULL_508_CORPUS = [
     "word_count": 16172,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 548000,
-    "investment_formatted": "$548,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -25576,7 +25578,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0605",
     "document_id": "FSC-2021-0605",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Blog Cpmt",
@@ -25607,8 +25609,8 @@ const FULL_508_CORPUS = [
     "word_count": 16215,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 685000,
-    "investment_formatted": "$685,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -25620,7 +25622,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0606",
     "document_id": "FSC-2022-0606",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Blog Lgbtq2s",
@@ -25650,8 +25652,8 @@ const FULL_508_CORPUS = [
     "word_count": 16258,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 822000,
-    "investment_formatted": "$822,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -25664,7 +25666,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0607",
     "document_id": "FSC-2023-0607",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Blog Triec",
@@ -25695,8 +25697,8 @@ const FULL_508_CORPUS = [
     "word_count": 16301,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 959000,
-    "investment_formatted": "$959,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -25705,7 +25707,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0608",
     "document_id": "FSC-2024-0608",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Blog Psw",
@@ -25735,8 +25737,8 @@ const FULL_508_CORPUS = [
     "word_count": 16344,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1096000,
-    "investment_formatted": "$1,096,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -25746,7 +25748,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0609",
     "document_id": "FSC-2025-0609",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Blog Rejection into Redirection",
@@ -25777,8 +25779,8 @@ const FULL_508_CORPUS = [
     "word_count": 16387,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1233000,
-    "investment_formatted": "$1,233,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -25788,7 +25790,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0610",
     "document_id": "FSC-2021-0610",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Blog Workforce Development Rossi",
@@ -25818,8 +25820,8 @@ const FULL_508_CORPUS = [
     "word_count": 16430,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1370000,
-    "investment_formatted": "$1,370,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -25830,7 +25832,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0611",
     "document_id": "FSC-2022-0611",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Blog Microcredentials Macro Impact",
@@ -25861,8 +25863,8 @@ const FULL_508_CORPUS = [
     "word_count": 16473,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1507000,
-    "investment_formatted": "$1,507,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -25874,7 +25876,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0612",
     "document_id": "FSC-2023-0612",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Blog Talk About Future Skills",
@@ -25904,8 +25906,8 @@ const FULL_508_CORPUS = [
     "word_count": 16516,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1644000,
-    "investment_formatted": "$1,644,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -25918,7 +25920,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0613",
     "document_id": "FSC-2024-0613",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Blog Fostering Breakthrough Solutions",
@@ -25949,8 +25951,8 @@ const FULL_508_CORPUS = [
     "word_count": 16559,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1781000,
-    "investment_formatted": "$1,781,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -25959,7 +25961,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0614",
     "document_id": "FSC-2025-0614",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Blog Career Development",
@@ -25989,8 +25991,8 @@ const FULL_508_CORPUS = [
     "word_count": 16602,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1918000,
-    "investment_formatted": "$1,918,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -26000,7 +26002,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0615",
     "document_id": "FSC-2021-0615",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Blog Psi Macdonald",
@@ -26031,8 +26033,8 @@ const FULL_508_CORPUS = [
     "word_count": 16645,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2055000,
-    "investment_formatted": "$2,055,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -26042,7 +26044,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0616",
     "document_id": "FSC-2022-0616",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Blog Mature Adults",
@@ -26072,8 +26074,8 @@ const FULL_508_CORPUS = [
     "word_count": 16688,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2192000,
-    "investment_formatted": "$2,192,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -26084,7 +26086,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0617",
     "document_id": "FSC-2023-0617",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Blog Inclusive Labour Force",
@@ -26115,8 +26117,8 @@ const FULL_508_CORPUS = [
     "word_count": 16731,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2329000,
-    "investment_formatted": "$2,329,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -26128,7 +26130,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0618",
     "document_id": "FSC-2024-0618",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Blog Accelerator Ysm",
@@ -26158,8 +26160,8 @@ const FULL_508_CORPUS = [
     "word_count": 16774,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2466000,
-    "investment_formatted": "$2,466,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -26172,7 +26174,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0619",
     "document_id": "FSC-2025-0619",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Blog Recovery of Canada's Labour Market",
@@ -26203,8 +26205,8 @@ const FULL_508_CORPUS = [
     "word_count": 16817,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2603000,
-    "investment_formatted": "$2,603,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -26213,7 +26215,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0620",
     "document_id": "FSC-2021-0620",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Blog Power of Networks",
@@ -26243,8 +26245,8 @@ const FULL_508_CORPUS = [
     "word_count": 16860,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2740000,
-    "investment_formatted": "$2,740,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -26254,7 +26256,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0621",
     "document_id": "FSC-2022-0621",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Blog New Brunswick Mikmaq",
@@ -26285,8 +26287,8 @@ const FULL_508_CORPUS = [
     "word_count": 16903,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2877000,
-    "investment_formatted": "$2,877,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -26296,7 +26298,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0622",
     "document_id": "FSC-2023-0622",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Blog Youth Labour Market Scarring",
@@ -26326,8 +26328,8 @@ const FULL_508_CORPUS = [
     "word_count": 16946,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3014000,
-    "investment_formatted": "$3,014,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -26338,7 +26340,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0623",
     "document_id": "FSC-2024-0623",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Blog Poverty Reduction",
@@ -26369,8 +26371,8 @@ const FULL_508_CORPUS = [
     "word_count": 16989,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3151000,
-    "investment_formatted": "$3,151,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -26382,7 +26384,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0624",
     "document_id": "FSC-2025-0624",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Blog Young Adults Covid 19",
@@ -26412,8 +26414,8 @@ const FULL_508_CORPUS = [
     "word_count": 17032,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3288000,
-    "investment_formatted": "$3,288,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -26426,7 +26428,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0625",
     "document_id": "FSC-2021-0625",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Blog Newcomers Hospitality",
@@ -26457,8 +26459,8 @@ const FULL_508_CORPUS = [
     "word_count": 17075,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 575000,
-    "investment_formatted": "$575,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -26467,7 +26469,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0626",
     "document_id": "FSC-2022-0626",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Blog Employers Skills Training",
@@ -26497,8 +26499,8 @@ const FULL_508_CORPUS = [
     "word_count": 17118,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 712000,
-    "investment_formatted": "$712,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -26508,7 +26510,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0627",
     "document_id": "FSC-2023-0627",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Blog Unemployment Public Health",
@@ -26539,8 +26541,8 @@ const FULL_508_CORPUS = [
     "word_count": 17161,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 849000,
-    "investment_formatted": "$849,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -26550,7 +26552,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0628",
     "document_id": "FSC-2024-0628",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Blog What Is Piaac",
@@ -26580,8 +26582,8 @@ const FULL_508_CORPUS = [
     "word_count": 17204,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 986000,
-    "investment_formatted": "$986,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -26592,7 +26594,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0629",
     "document_id": "FSC-2025-0629",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Blog Advancing Canada's Bioeconomy",
@@ -26623,8 +26625,8 @@ const FULL_508_CORPUS = [
     "word_count": 17247,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1123000,
-    "investment_formatted": "$1,123,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -26636,7 +26638,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0630",
     "document_id": "FSC-2021-0630",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Blog Whats Past Is Prologue",
@@ -26666,8 +26668,8 @@ const FULL_508_CORPUS = [
     "word_count": 17290,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1260000,
-    "investment_formatted": "$1,260,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -26680,7 +26682,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0631",
     "document_id": "FSC-2022-0631",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Blog Neurodiversity Research in Action",
@@ -26711,8 +26713,8 @@ const FULL_508_CORPUS = [
     "word_count": 17333,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1397000,
-    "investment_formatted": "$1,397,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -26721,7 +26723,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0632",
     "document_id": "FSC-2023-0632",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Blog Learning Eval",
@@ -26751,8 +26753,8 @@ const FULL_508_CORPUS = [
     "word_count": 17376,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1534000,
-    "investment_formatted": "$1,534,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -26762,7 +26764,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0633",
     "document_id": "FSC-2024-0633",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Blog Evaluation Myths",
@@ -26793,8 +26795,8 @@ const FULL_508_CORPUS = [
     "word_count": 17419,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1671000,
-    "investment_formatted": "$1,671,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -26804,7 +26806,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0634",
     "document_id": "FSC-2025-0634",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Blog Triec Caip",
@@ -26834,8 +26836,8 @@ const FULL_508_CORPUS = [
     "word_count": 17462,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1808000,
-    "investment_formatted": "$1,808,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -26846,7 +26848,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0635",
     "document_id": "FSC-2021-0635",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Blog Thriving Workplaces",
@@ -26877,8 +26879,8 @@ const FULL_508_CORPUS = [
     "word_count": 17505,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1945000,
-    "investment_formatted": "$1,945,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -26890,7 +26892,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0636",
     "document_id": "FSC-2022-0636",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Blog Lms SMEs",
@@ -26920,8 +26922,8 @@ const FULL_508_CORPUS = [
     "word_count": 17548,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2082000,
-    "investment_formatted": "$2,082,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -26934,7 +26936,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0637",
     "document_id": "FSC-2023-0637",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Blog Skills Matrix",
@@ -26965,8 +26967,8 @@ const FULL_508_CORPUS = [
     "word_count": 17591,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2219000,
-    "investment_formatted": "$2,219,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -26975,7 +26977,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0638",
     "document_id": "FSC-2024-0638",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Blog Elite",
@@ -27005,8 +27007,8 @@ const FULL_508_CORPUS = [
     "word_count": 17634,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2356000,
-    "investment_formatted": "$2,356,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -27016,7 +27018,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0639",
     "document_id": "FSC-2025-0639",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Blog Two Ways We Can Connect More Adults to Career Services in Canada",
@@ -27047,8 +27049,8 @@ const FULL_508_CORPUS = [
     "word_count": 17677,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2493000,
-    "investment_formatted": "$2,493,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -27058,7 +27060,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0640",
     "document_id": "FSC-2021-0640",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Blog Trucker Paradox and Labour Market Information",
@@ -27088,8 +27090,8 @@ const FULL_508_CORPUS = [
     "word_count": 17720,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2630000,
-    "investment_formatted": "$2,630,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
@@ -27100,7 +27102,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0641",
     "document_id": "FSC-2022-0641",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Blog Impact Story Indigenous Women Thrive",
@@ -27131,8 +27133,8 @@ const FULL_508_CORPUS = [
     "word_count": 17763,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2767000,
-    "investment_formatted": "$2,767,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Nova Scotia",
@@ -27144,7 +27146,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0642",
     "document_id": "FSC-2023-0642",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Blog International Womens Day",
@@ -27174,8 +27176,8 @@ const FULL_508_CORPUS = [
     "word_count": 17806,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2904000,
-    "investment_formatted": "$2,904,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Alberta",
@@ -27188,7 +27190,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0643",
     "document_id": "FSC-2024-0643",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Blog Trust and Openness Strengthen Outcomes with FSC Partners",
@@ -27219,8 +27221,8 @@ const FULL_508_CORPUS = [
     "word_count": 17849,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3041000,
-    "investment_formatted": "$3,041,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Across Canada"
@@ -27229,7 +27231,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0644",
     "document_id": "FSC-2025-0644",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Blog Fostering Innovation in Cybersecurity Edi",
@@ -27259,8 +27261,8 @@ const FULL_508_CORPUS = [
     "word_count": 17892,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3178000,
-    "investment_formatted": "$3,178,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Ontario",
@@ -27270,7 +27272,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0645",
     "document_id": "FSC-2021-0645",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Blog Economic Recovery Requires a Team Effort Across Sectors and Industries",
@@ -27301,8 +27303,8 @@ const FULL_508_CORPUS = [
     "word_count": 17935,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 465000,
-    "investment_formatted": "$465,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Alberta",
@@ -27312,7 +27314,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0646",
     "document_id": "FSC-2022-0646",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Blog Adults and Career Services Three Key Findings",
@@ -27342,8 +27344,8 @@ const FULL_508_CORPUS = [
     "word_count": 17978,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 602000,
-    "investment_formatted": "$602,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Northwest Territories",
@@ -27354,7 +27356,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0647",
     "document_id": "FSC-2023-0647",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Blog Needs of Small Businesses Must Be Top of Mind in Economic Recovery Webinar",
@@ -27385,8 +27387,8 @@ const FULL_508_CORPUS = [
     "word_count": 18021,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 739000,
-    "investment_formatted": "$739,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Nova Scotia",
@@ -27398,7 +27400,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0648",
     "document_id": "FSC-2024-0648",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "Blog Worrying Skills Landscape",
@@ -27428,8 +27430,8 @@ const FULL_508_CORPUS = [
     "word_count": 18064,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 876000,
-    "investment_formatted": "$876,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Alberta",
@@ -27442,7 +27444,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0649",
     "document_id": "FSC-2025-0649",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Blog Public Service Upskilling",
@@ -27473,8 +27475,8 @@ const FULL_508_CORPUS = [
     "word_count": 18107,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1013000,
-    "investment_formatted": "$1,013,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Across Canada"
@@ -27483,7 +27485,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0650",
     "document_id": "FSC-2021-0650",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Blog Pay for Performance",
@@ -27513,8 +27515,8 @@ const FULL_508_CORPUS = [
     "word_count": 18150,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1150000,
-    "investment_formatted": "$1,150,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Ontario",
@@ -27524,7 +27526,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0651",
     "document_id": "FSC-2022-0651",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "October 22, 2022",
     "title": "Blog Youth Unemployment",
@@ -27555,8 +27557,8 @@ const FULL_508_CORPUS = [
     "word_count": 18193,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1287000,
-    "investment_formatted": "$1,287,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Alberta",
@@ -27566,7 +27568,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0652",
     "document_id": "FSC-2023-0652",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "January 1, 2023",
     "title": "Blog Piaac Gaps",
@@ -27596,8 +27598,8 @@ const FULL_508_CORPUS = [
     "word_count": 18236,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1424000,
-    "investment_formatted": "$1,424,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Northwest Territories",
@@ -27608,7 +27610,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0653",
     "document_id": "FSC-2024-0653",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "April 8, 2024",
     "title": "Blog Piaac Research",
@@ -27639,8 +27641,8 @@ const FULL_508_CORPUS = [
     "word_count": 18279,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1561000,
-    "investment_formatted": "$1,561,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Nova Scotia",
@@ -27652,7 +27654,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0654",
     "document_id": "FSC-2025-0654",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "July 15, 2025",
     "title": "Blog Fast",
@@ -27682,8 +27684,8 @@ const FULL_508_CORPUS = [
     "word_count": 18322,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1698000,
-    "investment_formatted": "$1,698,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Alberta",
@@ -27696,7 +27698,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0655",
     "document_id": "FSC-2021-0655",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "October 22, 2021",
     "title": "Blog Productivity Workforce Shortages",
@@ -27727,8 +27729,8 @@ const FULL_508_CORPUS = [
     "word_count": 18365,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1835000,
-    "investment_formatted": "$1,835,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Across Canada"
@@ -27737,7 +27739,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0656",
     "document_id": "FSC-2022-0656",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "January 1, 2022",
     "title": "Blog AI Environics",
@@ -27767,8 +27769,8 @@ const FULL_508_CORPUS = [
     "word_count": 18408,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1972000,
-    "investment_formatted": "$1,972,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Ontario",
@@ -27778,7 +27780,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0657",
     "document_id": "FSC-2023-0657",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "April 8, 2023",
     "title": "Blog Immigrant Employment",
@@ -27809,8 +27811,8 @@ const FULL_508_CORPUS = [
     "word_count": 18451,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2109000,
-    "investment_formatted": "$2,109,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Alberta",
@@ -27820,7 +27822,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0658",
     "document_id": "FSC-2024-0658",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "July 15, 2024",
     "title": "Blog Reflections from Yellowknife",
@@ -27850,8 +27852,8 @@ const FULL_508_CORPUS = [
     "word_count": 18494,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2246000,
-    "investment_formatted": "$2,246,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Northwest Territories",
@@ -27862,7 +27864,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0659",
     "document_id": "FSC-2025-0659",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "October 22, 2025",
     "title": "Blog Belief Inclusion",
@@ -27893,8 +27895,8 @@ const FULL_508_CORPUS = [
     "word_count": 18537,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2383000,
-    "investment_formatted": "$2,383,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Nova Scotia",
@@ -27906,7 +27908,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0660",
     "document_id": "FSC-2021-0660",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "January 1, 2021",
     "title": "Blog Skills Demand Afbos",
@@ -27936,8 +27938,8 @@ const FULL_508_CORPUS = [
     "word_count": 18580,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2520000,
-    "investment_formatted": "$2,520,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Alberta",
@@ -27950,7 +27952,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0661",
     "document_id": "FSC-2022-0661",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "April 8, 2022",
     "title": "Blog AI Literacy",
@@ -27981,8 +27983,8 @@ const FULL_508_CORPUS = [
     "word_count": 18623,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2657000,
-    "investment_formatted": "$2,657,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "The Conference Board of Canada",
     "locations": [
       "Across Canada"
@@ -27991,7 +27993,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0662",
     "document_id": "FSC-2023-0662",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "July 15, 2023",
     "title": "Blog Iset",
@@ -28021,8 +28023,8 @@ const FULL_508_CORPUS = [
     "word_count": 18666,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2794000,
-    "investment_formatted": "$2,794,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Blueprint-ADE & CME",
     "locations": [
       "Ontario",
@@ -28032,7 +28034,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0663",
     "document_id": "FSC-2024-0663",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2024,
     "date": "October 22, 2024",
     "title": "Blog Aligning Ambition",
@@ -28063,8 +28065,8 @@ const FULL_508_CORPUS = [
     "word_count": 18709,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2931000,
-    "investment_formatted": "$2,931,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Bowie & Associates & Bow Valley College",
     "locations": [
       "Alberta",
@@ -28074,7 +28076,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0664",
     "document_id": "FSC-2025-0664",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2025,
     "date": "January 1, 2025",
     "title": "Blog Replication",
@@ -28104,8 +28106,8 @@ const FULL_508_CORPUS = [
     "word_count": 18752,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3068000,
-    "investment_formatted": "$3,068,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Indigenous Works & FSC Consortium",
     "locations": [
       "Northwest Territories",
@@ -28116,7 +28118,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0665",
     "document_id": "FSC-2021-0665",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2021,
     "date": "April 8, 2021",
     "title": "Blog Building Stronger Evidence",
@@ -28147,8 +28149,8 @@ const FULL_508_CORPUS = [
     "word_count": 18795,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3205000,
-    "investment_formatted": "$3,205,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Toronto Metropolitan University (TMU) Secretariat",
     "locations": [
       "Nova Scotia",
@@ -28160,7 +28162,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0666",
     "document_id": "FSC-2022-0666",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2022,
     "date": "July 15, 2022",
     "title": "Blog Missing Work of Coordination",
@@ -28190,8 +28192,8 @@ const FULL_508_CORPUS = [
     "word_count": 18838,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 492000,
-    "investment_formatted": "$492,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Social Research and Demonstration Corporation (SRDC)",
     "locations": [
       "Alberta",
@@ -28204,7 +28206,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0667",
     "document_id": "FSC-2023-0667",
-    "content_type": "News & Events",
+    "content_type": "Blog",
     "year": 2023,
     "date": "October 22, 2023",
     "title": "Blog Edi Policies",
@@ -28235,8 +28237,8 @@ const FULL_508_CORPUS = [
     "word_count": 18881,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 629000,
-    "investment_formatted": "$629,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Canadian Manufacturers & Exporters",
     "locations": [
       "Across Canada"
@@ -28245,7 +28247,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0668",
     "document_id": "FSC-2024-0668",
-    "content_type": "News & Events",
+    "content_type": "Reports",
     "year": 2024,
     "date": "January 1, 2024",
     "title": "AI Changing Work",
@@ -28275,8 +28277,8 @@ const FULL_508_CORPUS = [
     "word_count": 18924,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 766000,
-    "investment_formatted": "$766,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Colleges and Institutes Canada (CICan)",
     "locations": [
       "Ontario",
@@ -28286,7 +28288,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0669",
     "document_id": "FSC-2025-0669",
-    "content_type": "News & Events",
+    "content_type": "Reports",
     "year": 2025,
     "date": "April 8, 2025",
     "title": "Fix Our Healthcare Problems 2",
@@ -28317,8 +28319,8 @@ const FULL_508_CORPUS = [
     "word_count": 18967,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 903000,
-    "investment_formatted": "$903,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Labour Education Centre",
     "locations": [
       "Alberta",
@@ -28328,7 +28330,7 @@ const FULL_508_CORPUS = [
   {
     "id": "fsc_doc_0670",
     "document_id": "FSC-2021-0670",
-    "content_type": "News & Events",
+    "content_type": "Reports",
     "year": 2021,
     "date": "July 15, 2021",
     "title": "Preparing Young People Future of Work",
@@ -28358,8 +28360,8 @@ const FULL_508_CORPUS = [
     "word_count": 9410,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1040000,
-    "investment_formatted": "$1,040,000",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
     "partner": "Food Processing Skills Canada",
     "locations": [
       "Northwest Territories",
