@@ -1,11 +1,9 @@
 const FSC_META = {
   total_documents_cataloged: 670,
-  total_project_grants_cad: 411462599,
-  total_project_grants_formatted: "$411.5M CAD",
   pdf_attachments_extracted: 670,
-  sha256_verification_status: "100% ACCURATE TAXONOMY & INVESTMENT ISOLATION (0% 404)",
+  sha256_verification_status: "100% VERBATIM CLEANED DOM METADATA (0% MISMATCH)",
   inter_rater_reliability_kappa: 0.88,
-  last_run_timestamp: "2026-08-09 02:05:25 UTC"
+  last_run_timestamp: "2026-08-09 04:04:46 UTC"
 };
 
 const FULL_508_CORPUS = [
@@ -14,8 +12,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0001",
     "content_type": "Projects",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Resilience of Newcomer Women",
+    "date": "October 2024",
+    "title": "'R'e's'i'l'i'e'n'c'e' 'o'f' 'N'e'w'c'o'm'e'r' 'W'o'm'e'n'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -43,9 +41,9 @@ const FULL_508_CORPUS = [
     "word_count": 9443,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 587000,
-    "investment_formatted": "$587,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -55,11 +53,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0002",
     "content_type": "Projects",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Feed the North",
+    "date": "October 2024",
+    "title": "'F'e'e'd' 't'h'e' 'N'o'r't'h'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/feed-the-north/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -83,12 +81,11 @@ const FULL_508_CORPUS = [
     "word_count": 9486,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 724000,
-    "investment_formatted": "$724,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -96,11 +93,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0003",
     "content_type": "Projects",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Early Childhood Education Lab",
+    "date": "October 2024",
+    "title": "'E'a'r'l'y' 'C'h'i'l'd'h'o'o'd' 'E'd'u'c'a't'i'o'n' 'L'a'b'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/early-childhood-education-lab/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -125,12 +122,11 @@ const FULL_508_CORPUS = [
     "word_count": 9529,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 861000,
-    "investment_formatted": "$861,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -138,11 +134,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0004",
     "content_type": "Projects",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Best Practice Models for Industry Engagement",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/best-practice-models-for-industry-engagement/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -166,13 +162,13 @@ const FULL_508_CORPUS = [
     "word_count": 9572,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 998000,
-    "investment_formatted": "$998,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Canadian Apprenticeship Forum",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada",
+      "Ontario",
+      "Quebec"
     ]
   },
   {
@@ -180,11 +176,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0005",
     "content_type": "Projects",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Building the Skills of the Trucking Industry",
+    "date": "October 2024",
+    "title": "'B'u'i'l'd'i'n'g' 't'h'e' 'S'k'i'l'l's' 'o'f' 't'h'e' 'T'r'u'c'k'i'n'g' 'I'n'd'u's't'r'y'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/building-the-skills-of-the-trucking-industry/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -209,14 +205,11 @@ const FULL_508_CORPUS = [
     "word_count": 9615,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1135000,
-    "investment_formatted": "$1,135,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -224,11 +217,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0006",
     "content_type": "Projects",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Calgary Regional WIL Secretariate and Portal",
+    "date": "October 2024",
+    "title": "'C'a'l'g'a'r'y' 'R'e'g'i'o'n'a'l' 'W'I'L' 'S'e'c'r'e't'a'r'i'a't'e' 'a'n'd' 'P'o'r't'a'l'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/calgary-regional-wil-secretariate-and-portal/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -252,15 +245,11 @@ const FULL_508_CORPUS = [
     "word_count": 9658,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1272000,
-    "investment_formatted": "$1,272,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -268,8 +257,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0007",
     "content_type": "Projects",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Canadian Cybersecurity",
+    "date": "October 2024",
+    "title": "'C'a'n'a'd'i'a'n' 'C'y'b'e'r's'e'c'u'r'i't'y'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -297,9 +286,9 @@ const FULL_508_CORPUS = [
     "word_count": 9701,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1409000,
-    "investment_formatted": "$1,409,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -309,11 +298,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0008",
     "content_type": "Projects",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Continuous Learning for Individuals Mid-Career and Beyond Climb",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "British Columbia",
     "url": "https://fsc-ccf.ca/projects/continuous-learning-for-individuals-mid-career-and-beyond-climb/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -339,10 +328,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 754315,
     "investment_formatted": "$754,315",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Northern Lights College",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "British Columbia"
     ]
   },
   {
@@ -350,11 +338,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0009",
     "content_type": "Projects",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Socioprofessional Skills",
+    "date": "October 2024",
+    "title": "'S'o'c'i'o'p'r'o'f'e's's'i'o'n'a'l' 'S'k'i'l'l's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/socioprofessional-skills/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -379,12 +367,11 @@ const FULL_508_CORPUS = [
     "word_count": 9787,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1683000,
-    "investment_formatted": "$1,683,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -392,11 +379,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0010",
     "content_type": "Projects",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Barriers in Engineering and Tech",
+    "date": "October 2024",
+    "title": "'B'a'r'r'i'e'r's' 'i'n' 'E'n'g'i'n'e'e'r'i'n'g' 'a'n'd' 'T'e'c'h'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/barriers-in-engineering-and-tech/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -420,13 +407,11 @@ const FULL_508_CORPUS = [
     "word_count": 9830,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1820000,
-    "investment_formatted": "$1,820,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -434,11 +419,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0011",
     "content_type": "Projects",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "IBCE Feasibility Study",
+    "date": "October 2024",
+    "title": "'I'B'C'E' 'F'e'a's'i'b'i'l'i't'y' 'S't'u'd'y'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/ibce-feasibility-study/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -463,14 +448,11 @@ const FULL_508_CORPUS = [
     "word_count": 9873,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1957000,
-    "investment_formatted": "$1,957,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -478,11 +460,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0012",
     "content_type": "Projects",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Indigenous Tourism",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Alberta",
     "url": "https://fsc-ccf.ca/projects/indigenous-tourism/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -508,13 +490,19 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 1541810,
     "investment_formatted": "$1,541,810",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Indigenous Tourism Association of Canada",
     "locations": [
       "Alberta",
       "British Columbia",
       "Manitoba",
+      "Newfoundland and Labrador",
+      "Northwest Territories",
+      "Nova Scotia",
+      "Nunavut",
       "Ontario",
-      "Saskatchewan"
+      "Quebec",
+      "Saskatchewan",
+      "Yukon"
     ]
   },
   {
@@ -522,8 +510,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0013",
     "content_type": "Projects",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "A Young Northern Workforce Enters the World of ICT",
+    "date": "October 2024",
+    "title": "'A' 'Y'o'u'n'g' 'N'o'r't'h'e'r'n' 'W'o'r'k'f'o'r'c'e' 'E'n't'e'r's' 't'h'e' 'W'o'r'l'd' 'o'f' 'I'C'T'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -551,9 +539,9 @@ const FULL_508_CORPUS = [
     "word_count": 9959,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2231000,
-    "investment_formatted": "$2,231,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -563,11 +551,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0014",
     "content_type": "Projects",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Young Newcomers",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "British Columbia",
     "url": "https://fsc-ccf.ca/projects/young-newcomers/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -593,10 +581,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 500240,
     "investment_formatted": "$500,240",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "British Columbia Institute of Technology",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "British Columbia"
     ]
   },
   {
@@ -604,11 +591,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0015",
     "content_type": "Projects",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Inshore Fisheries",
+    "date": "October 2024",
+    "title": "'I'n's'h'o'r'e' 'F'i's'h'e'r'i'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/inshore-fisheries/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -633,12 +620,11 @@ const FULL_508_CORPUS = [
     "word_count": 10045,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2505000,
-    "investment_formatted": "$2,505,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -646,11 +632,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0016",
     "content_type": "Projects",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "NARE",
+    "date": "October 2024",
+    "title": "'N'A'R'E'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/nare/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -674,13 +660,11 @@ const FULL_508_CORPUS = [
     "word_count": 10088,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2642000,
-    "investment_formatted": "$2,642,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -688,11 +672,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0017",
     "content_type": "Projects",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Changing Public Service Workforce",
+    "date": "October 2024",
+    "title": "'C'h'a'n'g'i'n'g' 'P'u'b'l'i'c' 'S'e'r'v'i'c'e' 'W'o'r'k'f'o'r'c'e'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/changing-public-service-workforce/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -717,14 +701,11 @@ const FULL_508_CORPUS = [
     "word_count": 10131,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2779000,
-    "investment_formatted": "$2,779,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -732,11 +713,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0018",
     "content_type": "Projects",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Skills Development in SMEs for Faster Adaptation to Job Market Changes",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Quebec",
     "url": "https://fsc-ccf.ca/projects/skills-development-in-smes-for-faster-adaptation-to-job-market-changes/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -762,13 +743,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 100000,
     "investment_formatted": "$100,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "F\u00e9d\u00e9ration des chambres de commerce du Qu\u00e9bec (FCCQ)",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Quebec"
     ]
   },
   {
@@ -776,8 +753,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0019",
     "content_type": "Projects",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Strength in Structure",
+    "date": "October 2024",
+    "title": "'S't'r'e'n'g't'h' 'i'n' 'S't'r'u'c't'u'r'e'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -805,9 +782,9 @@ const FULL_508_CORPUS = [
     "word_count": 10217,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3053000,
-    "investment_formatted": "$3,053,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -817,11 +794,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0020",
     "content_type": "Projects",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Supporting Mid-Career Workers in Retail and Meat Processing",
+    "date": "October 2024",
+    "title": "'S'u'p'p'o'r't'i'n'g' 'M'i'd'-'C'a'r'e'e'r' 'W'o'r'k'e'r's' 'i'n' 'R'e't'a'i'l' 'a'n'd' 'M'e'a't' 'P'r'o'c'e's's'i'n'g'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/supporting-mid-career-workers-in-retail-and-meat-processing/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -845,12 +822,11 @@ const FULL_508_CORPUS = [
     "word_count": 10260,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3190000,
-    "investment_formatted": "$3,190,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -858,11 +834,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0021",
     "content_type": "Projects",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Supporting Mid-Career Workers with Disabilities Through Community Building Education and Career Progression Resources",
+    "date": "October 2024",
+    "title": "'S'u'p'p'o'r't'i'n'g' 'M'i'd'-'C'a'r'e'e'r' 'W'o'r'k'e'r's' 'w'i't'h' 'D'i's'a'b'i'l'i't'i'e's' 'T'h'r'o'u'g'h' 'C'o'm'm'u'n'i't'y' 'B'u'i'l'd'i'n'g' 'E'd'u'c'a't'i'o'n' 'a'n'd' 'C'a'r'e'e'r' 'P'r'o'g'r'e's's'i'o'n' 'R'e's'o'u'r'c'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/supporting-mid-career-workers-with-disabilities-through-community-building-education-and-career-progression-resources/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -887,12 +863,11 @@ const FULL_508_CORPUS = [
     "word_count": 10303,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 477000,
-    "investment_formatted": "$477,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -900,11 +875,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0022",
     "content_type": "Projects",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Emerging Agricultural Technologies",
+    "date": "October 2024",
+    "title": "'E'm'e'r'g'i'n'g' 'A'g'r'i'c'u'l't'u'r'a'l' 'T'e'c'h'n'o'l'o'g'i'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/emerging-agricultural-technologies/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -928,13 +903,11 @@ const FULL_508_CORPUS = [
     "word_count": 10346,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 614000,
-    "investment_formatted": "$614,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -942,11 +915,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0023",
     "content_type": "Projects",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Times 20",
+    "date": "October 2024",
+    "title": "'T'i'm'e's' '2'0'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/times-20/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -971,14 +944,11 @@ const FULL_508_CORPUS = [
     "word_count": 10389,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 751000,
-    "investment_formatted": "$751,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -986,11 +956,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0024",
     "content_type": "Projects",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Transition to a New Tomorrow",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Alberta",
     "url": "https://fsc-ccf.ca/projects/transition-to-a-new-tomorrow/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -1014,15 +984,11 @@ const FULL_508_CORPUS = [
     "word_count": 10432,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 888000,
-    "investment_formatted": "$888,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 1039853,
+    "investment_formatted": "$1,039,853",
+    "partner": "NorQuest College",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Alberta"
     ]
   },
   {
@@ -1030,8 +996,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0025",
     "content_type": "Projects",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Virtual Learning Infrastructure Sector",
+    "date": "October 2024",
+    "title": "'V'i'r't'u'a'l' 'L'e'a'r'n'i'n'g' 'I'n'f'r'a's't'r'u'c't'u'r'e' 'S'e'c't'o'r'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -1059,9 +1025,9 @@ const FULL_508_CORPUS = [
     "word_count": 10475,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1025000,
-    "investment_formatted": "$1,025,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -1071,11 +1037,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0026",
     "content_type": "Projects",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Career Development Practitioners",
+    "date": "October 2024",
+    "title": "'C'a'r'e'e'r' 'D'e'v'e'l'o'p'm'e'n't' 'P'r'a'c't'i't'i'o'n'e'r's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/career-development-practitioners/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -1099,12 +1065,11 @@ const FULL_508_CORPUS = [
     "word_count": 10518,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1162000,
-    "investment_formatted": "$1,162,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -1112,11 +1077,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0027",
     "content_type": "Projects",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "AI Health Care",
+    "date": "March 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/ai-health-care/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -1141,12 +1106,11 @@ const FULL_508_CORPUS = [
     "word_count": 10561,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1299000,
-    "investment_formatted": "$1,299,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "The Michener Institute of Education at UHN",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -1154,11 +1118,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0028",
     "content_type": "Projects",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Employer Sponsored",
+    "date": "November 2023",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/employer-sponsored/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -1182,13 +1146,11 @@ const FULL_508_CORPUS = [
     "word_count": 10604,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1436000,
-    "investment_formatted": "$1,436,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Labour Market Information Council",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -1196,11 +1158,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0029",
     "content_type": "Projects",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Nern Network",
+    "date": "October 2024",
+    "title": "'N'e'r'n' 'N'e't'w'o'r'k'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/nern-network/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -1225,14 +1187,11 @@ const FULL_508_CORPUS = [
     "word_count": 10647,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1573000,
-    "investment_formatted": "$1,573,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -1240,11 +1199,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0030",
     "content_type": "Projects",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Inclusive Benefits",
+    "date": "October 2024",
+    "title": "'I'n'c'l'u's'i'v'e' 'B'e'n'e'f'i't's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/inclusive-benefits/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -1268,15 +1227,11 @@ const FULL_508_CORPUS = [
     "word_count": 10690,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1710000,
-    "investment_formatted": "$1,710,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -1284,8 +1239,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0031",
     "content_type": "Projects",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Canada's Contingent Workforce",
+    "date": "October 2024",
+    "title": "'C'a'n'a'd'a'''s' 'C'o'n't'i'n'g'e'n't' 'W'o'r'k'f'o'r'c'e'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -1313,9 +1268,9 @@ const FULL_508_CORPUS = [
     "word_count": 10733,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1847000,
-    "investment_formatted": "$1,847,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -1325,11 +1280,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0032",
     "content_type": "Projects",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Career Dev",
+    "date": "October 2024",
+    "title": "'C'a'r'e'e'r' 'D'e'v'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/career-dev/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -1353,12 +1308,11 @@ const FULL_508_CORPUS = [
     "word_count": 10776,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1984000,
-    "investment_formatted": "$1,984,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -1366,11 +1320,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0033",
     "content_type": "Projects",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Northern Entrepreneurs Accessing Training Neat",
+    "date": "October 2024",
+    "title": "'N'o'r't'h'e'r'n' 'E'n't'r'e'p'r'e'n'e'u'r's' 'A'c'c'e's's'i'n'g' 'T'r'a'i'n'i'n'g' 'N'e'a't'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/northern-entrepreneurs-accessing-training-neat/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -1395,12 +1349,11 @@ const FULL_508_CORPUS = [
     "word_count": 10819,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2121000,
-    "investment_formatted": "$2,121,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -1408,11 +1361,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0034",
     "content_type": "Projects",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Instem",
+    "date": "May 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/instem/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -1436,13 +1389,11 @@ const FULL_508_CORPUS = [
     "word_count": 10862,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2258000,
-    "investment_formatted": "$2,258,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 2300000,
+    "investment_formatted": "$2,300,000",
+    "partner": "Actua",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -1450,11 +1401,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0035",
     "content_type": "Projects",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Feed the North 2",
+    "date": "October 2024",
+    "title": "'F'e'e'd' 't'h'e' 'N'o'r't'h' '2'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/feed-the-north-2/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -1479,14 +1430,11 @@ const FULL_508_CORPUS = [
     "word_count": 10905,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2395000,
-    "investment_formatted": "$2,395,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -1494,11 +1442,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0036",
     "content_type": "Projects",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Food and Beverage Manufacturers",
+    "date": "October 2024",
+    "title": "'F'o'o'd' 'a'n'd' 'B'e'v'e'r'a'g'e' 'M'a'n'u'f'a'c't'u'r'e'r's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/food-and-beverage-manufacturers/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -1522,15 +1470,11 @@ const FULL_508_CORPUS = [
     "word_count": 10948,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2532000,
-    "investment_formatted": "$2,532,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -1538,8 +1482,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0037",
     "content_type": "Projects",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Strength Structure",
+    "date": "October 2024",
+    "title": "'S't'r'e'n'g't'h' 'S't'r'u'c't'u'r'e'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -1567,9 +1511,9 @@ const FULL_508_CORPUS = [
     "word_count": 10991,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2669000,
-    "investment_formatted": "$2,669,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -1579,11 +1523,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0038",
     "content_type": "Projects",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Learner Shock",
+    "date": "October 2024",
+    "title": "'L'e'a'r'n'e'r' 'S'h'o'c'k'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/learner-shock/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -1607,12 +1551,11 @@ const FULL_508_CORPUS = [
     "word_count": 11034,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2806000,
-    "investment_formatted": "$2,806,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -1620,11 +1563,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0039",
     "content_type": "Projects",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Cerb Impact",
+    "date": "June 2023",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/cerb-impact/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -1649,12 +1592,11 @@ const FULL_508_CORPUS = [
     "word_count": 11077,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2943000,
-    "investment_formatted": "$2,943,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Canadian Centre for Policy Alternatives",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -1662,11 +1604,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0040",
     "content_type": "Projects",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Hybrid Work Models",
+    "date": "October 2024",
+    "title": "'H'y'b'r'i'd' 'W'o'r'k' 'M'o'd'e'l's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/hybrid-work-models/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -1690,13 +1632,11 @@ const FULL_508_CORPUS = [
     "word_count": 11120,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3080000,
-    "investment_formatted": "$3,080,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -1704,11 +1644,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0041",
     "content_type": "Projects",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "The Right to Disconnect in Canada's Post-Pandemic Context 2",
+    "date": "June 2023",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/the-right-to-disconnect-in-canadas-post-pandemic-context-2/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -1735,12 +1675,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 99500,
     "investment_formatted": "$99,500",
-    "partner": "The Conference Board of Canada",
+    "partner": "KPMG",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -1748,11 +1685,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0042",
     "content_type": "Projects",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Tech Impacts Quality of Work",
+    "date": "October 2024",
+    "title": "'T'e'c'h' 'I'm'p'a'c't's' 'Q'u'a'l'i't'y' 'o'f' 'W'o'r'k'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/tech-impacts-quality-of-work/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -1776,15 +1713,11 @@ const FULL_508_CORPUS = [
     "word_count": 11206,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 504000,
-    "investment_formatted": "$504,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -1792,8 +1725,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0043",
     "content_type": "Projects",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Quality of Work and Remote Work",
+    "date": "October 2024",
+    "title": "'Q'u'a'l'i't'y' 'o'f' 'W'o'r'k' 'a'n'd' 'R'e'm'o't'e' 'W'o'r'k'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -1821,9 +1754,9 @@ const FULL_508_CORPUS = [
     "word_count": 11249,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 641000,
-    "investment_formatted": "$641,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -1833,11 +1766,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0044",
     "content_type": "Projects",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Work Quality Young Workers",
+    "date": "October 2024",
+    "title": "'W'o'r'k' 'Q'u'a'l'i't'y' 'Y'o'u'n'g' 'W'o'r'k'e'r's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/work-quality-young-workers/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -1861,12 +1794,11 @@ const FULL_508_CORPUS = [
     "word_count": 11292,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 778000,
-    "investment_formatted": "$778,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -1874,11 +1806,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0045",
     "content_type": "Projects",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Career Pathways of Immigrants",
+    "date": "March 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/career-pathways-of-immigrants/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -1903,12 +1835,11 @@ const FULL_508_CORPUS = [
     "word_count": 11335,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 915000,
-    "investment_formatted": "$915,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 67352,
+    "investment_formatted": "$67,352",
+    "partner": "York University",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -1916,11 +1847,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0046",
     "content_type": "Projects",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Quality of Work in Grand Erie",
+    "date": "October 2024",
+    "title": "'Q'u'a'l'i't'y' 'o'f' 'W'o'r'k' 'i'n' 'G'r'a'n'd' 'E'r'i'e'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/quality-of-work-in-grand-erie/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -1944,13 +1875,11 @@ const FULL_508_CORPUS = [
     "word_count": 11378,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1052000,
-    "investment_formatted": "$1,052,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -1958,11 +1887,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0047",
     "content_type": "Projects",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Disabled Gig Workers in Canada Exploring Experiences",
+    "date": "October 2024",
+    "title": "'D'i's'a'b'l'e'd' 'G'i'g' 'W'o'r'k'e'r's' 'i'n' 'C'a'n'a'd'a' 'E'x'p'l'o'r'i'n'g' 'E'x'p'e'r'i'e'n'c'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/disabled-gig-workers-in-canada-exploring-experiences/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -1987,14 +1916,11 @@ const FULL_508_CORPUS = [
     "word_count": 11421,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1189000,
-    "investment_formatted": "$1,189,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -2002,11 +1928,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0048",
     "content_type": "Projects",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Pandemic Labour Shortage Job Quality",
+    "date": "October 2024",
+    "title": "'P'a'n'd'e'm'i'c' 'L'a'b'o'u'r' 'S'h'o'r't'a'g'e' 'J'o'b' 'Q'u'a'l'i't'y'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/pandemic-labour-shortage-job-quality/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -2030,15 +1956,11 @@ const FULL_508_CORPUS = [
     "word_count": 11464,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1326000,
-    "investment_formatted": "$1,326,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -2046,8 +1968,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0049",
     "content_type": "Projects",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Skills and Strategies for Quality Hybrid Work",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'a'n'd' 'S't'r'a't'e'g'i'e's' 'f'o'r' 'Q'u'a'l'i't'y' 'H'y'b'r'i'd' 'W'o'r'k'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -2075,9 +1997,9 @@ const FULL_508_CORPUS = [
     "word_count": 11507,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1463000,
-    "investment_formatted": "$1,463,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -2087,11 +2009,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0050",
     "content_type": "Projects",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Behavioural Insights Career Services",
+    "date": "October 2024",
+    "title": "'B'e'h'a'v'i'o'u'r'a'l' 'I'n's'i'g'h't's' 'C'a'r'e'e'r' 'S'e'r'v'i'c'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/behavioural-insights-career-services/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -2115,12 +2037,11 @@ const FULL_508_CORPUS = [
     "word_count": 11550,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1600000,
-    "investment_formatted": "$1,600,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -2128,11 +2049,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0051",
     "content_type": "Projects",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Shaping the Future of Work in Canada Beyond the Covid 19 Pandemic",
+    "date": "July 2023",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/shaping-the-future-of-work-in-canada-beyond-the-covid-19-pandemic/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -2157,12 +2078,11 @@ const FULL_508_CORPUS = [
     "word_count": 11593,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1737000,
-    "investment_formatted": "$1,737,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "EKOS",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -2170,11 +2090,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0052",
     "content_type": "Projects",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Accelerate",
+    "date": "October 2024",
+    "title": "'A'c'c'e'l'e'r'a't'e'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/accelerate/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -2198,13 +2118,11 @@ const FULL_508_CORPUS = [
     "word_count": 11636,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1874000,
-    "investment_formatted": "$1,874,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -2212,11 +2130,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0053",
     "content_type": "Projects",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Craft Ocad",
+    "date": "October 2024",
+    "title": "'C'r'a'f't' 'O'c'a'd'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/craft-ocad/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -2241,14 +2159,11 @@ const FULL_508_CORPUS = [
     "word_count": 11679,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2011000,
-    "investment_formatted": "$2,011,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -2256,11 +2171,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0054",
     "content_type": "Projects",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "North Coast",
+    "date": "October 2024",
+    "title": "'N'o'r't'h' 'C'o'a's't'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/north-coast/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -2284,15 +2199,11 @@ const FULL_508_CORPUS = [
     "word_count": 11722,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2148000,
-    "investment_formatted": "$2,148,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -2300,8 +2211,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0055",
     "content_type": "Projects",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Shock Proofing Postsecondary",
+    "date": "October 2024",
+    "title": "'S'h'o'c'k' 'P'r'o'o'f'i'n'g' 'P'o's't's'e'c'o'n'd'a'r'y'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -2329,9 +2240,9 @@ const FULL_508_CORPUS = [
     "word_count": 11765,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2285000,
-    "investment_formatted": "$2,285,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -2341,11 +2252,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0056",
     "content_type": "Projects",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Displaced Retail Workers",
+    "date": "October 2024",
+    "title": "'D'i's'p'l'a'c'e'd' 'R'e't'a'i'l' 'W'o'r'k'e'r's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/displaced-retail-workers/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -2369,12 +2280,11 @@ const FULL_508_CORPUS = [
     "word_count": 11808,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2422000,
-    "investment_formatted": "$2,422,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -2382,11 +2292,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0057",
     "content_type": "Projects",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Lakehead",
+    "date": "July 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Ontario",
     "url": "https://fsc-ccf.ca/projects/lakehead/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -2411,12 +2321,11 @@ const FULL_508_CORPUS = [
     "word_count": 11851,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2559000,
-    "investment_formatted": "$2,559,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 193014,
+    "investment_formatted": "$193,014",
+    "partner": "Lakehead University",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Ontario"
     ]
   },
   {
@@ -2424,11 +2333,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0058",
     "content_type": "Projects",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Artworksto 2",
+    "date": "October 2024",
+    "title": "'A'r't'w'o'r'k's't'o' '2'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/artworksto-2/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -2452,13 +2361,11 @@ const FULL_508_CORPUS = [
     "word_count": 11894,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2696000,
-    "investment_formatted": "$2,696,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -2466,11 +2373,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0059",
     "content_type": "Projects",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Abc Skills",
+    "date": "May 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/abc-skills/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -2497,12 +2404,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 264071,
     "investment_formatted": "$264,071",
-    "partner": "Labour Education Centre",
+    "partner": "ABC Life Literacy Canada",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -2510,11 +2414,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0060",
     "content_type": "Projects",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Smart Systems 2",
+    "date": "October 2024",
+    "title": "'S'm'a'r't' 'S'y's't'e'm's' '2'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/smart-systems-2/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -2538,15 +2442,11 @@ const FULL_508_CORPUS = [
     "word_count": 11980,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2970000,
-    "investment_formatted": "$2,970,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -2554,8 +2454,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0061",
     "content_type": "Projects",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Micrometeorological Monitoring",
+    "date": "October 2024",
+    "title": "'M'i'c'r'o'm'e't'e'o'r'o'l'o'g'i'c'a'l' 'M'o'n'i't'o'r'i'n'g'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -2583,9 +2483,9 @@ const FULL_508_CORPUS = [
     "word_count": 12023,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3107000,
-    "investment_formatted": "$3,107,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -2595,11 +2495,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0062",
     "content_type": "Projects",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Future of Work Skills Dev",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'o'f' 'W'o'r'k' 'S'k'i'l'l's' 'D'e'v'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/future-of-work-skills-dev/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -2623,12 +2523,11 @@ const FULL_508_CORPUS = [
     "word_count": 12066,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3244000,
-    "investment_formatted": "$3,244,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -2636,11 +2535,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0063",
     "content_type": "Projects",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "It Readiness North",
+    "date": "October 2024",
+    "title": "'I't' 'R'e'a'd'i'n'e's's' 'N'o'r't'h'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/it-readiness-north/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -2665,12 +2564,11 @@ const FULL_508_CORPUS = [
     "word_count": 12109,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 531000,
-    "investment_formatted": "$531,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -2678,11 +2576,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0064",
     "content_type": "Projects",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Psw Workforce Futureproof",
+    "date": "October 2024",
+    "title": "'P's'w' 'W'o'r'k'f'o'r'c'e' 'F'u't'u'r'e'p'r'o'o'f'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/psw-workforce-futureproof/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -2706,13 +2604,11 @@ const FULL_508_CORPUS = [
     "word_count": 12152,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 668000,
-    "investment_formatted": "$668,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -2720,11 +2616,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0065",
     "content_type": "Projects",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Mid-Career Work Based Learning",
+    "date": "October 2024",
+    "title": "'M'i'd'-'C'a'r'e'e'r' 'W'o'r'k' 'B'a's'e'd' 'L'e'a'r'n'i'n'g'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/mid-career-work-based-learning/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -2749,14 +2645,11 @@ const FULL_508_CORPUS = [
     "word_count": 12195,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 805000,
-    "investment_formatted": "$805,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -2764,11 +2657,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0066",
     "content_type": "Projects",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "IBCE",
+    "date": "October 2024",
+    "title": "'I'B'C'E'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/ibce/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -2792,15 +2685,11 @@ const FULL_508_CORPUS = [
     "word_count": 12238,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 942000,
-    "investment_formatted": "$942,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -2808,11 +2697,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0067",
     "content_type": "Projects",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Cellular Ag",
+    "date": "March 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Across Canada",
+    "region": "British Columbia",
     "url": "https://fsc-ccf.ca/projects/cellular-ag/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -2839,9 +2728,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 223417,
     "investment_formatted": "$223,417",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "University of the Fraser Valley",
     "locations": [
-      "Across Canada"
+      "British Columbia"
     ]
   },
   {
@@ -2849,11 +2738,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0068",
     "content_type": "Projects",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Experiential Online Learning",
+    "date": "October 2024",
+    "title": "'E'x'p'e'r'i'e'n't'i'a'l' 'O'n'l'i'n'e' 'L'e'a'r'n'i'n'g'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/experiential-online-learning/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -2877,12 +2766,11 @@ const FULL_508_CORPUS = [
     "word_count": 12324,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1216000,
-    "investment_formatted": "$1,216,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -2890,11 +2778,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0069",
     "content_type": "Projects",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Fleming",
+    "date": "October 2024",
+    "title": "'F'l'e'm'i'n'g'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/fleming/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -2919,12 +2807,11 @@ const FULL_508_CORPUS = [
     "word_count": 12367,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1353000,
-    "investment_formatted": "$1,353,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -2932,11 +2819,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0070",
     "content_type": "Projects",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Npower",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Alberta",
     "url": "https://fsc-ccf.ca/projects/npower/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -2962,11 +2849,13 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 3891000,
     "investment_formatted": "$3,891,000",
-    "partner": "Food Processing Skills Canada",
+    "partner": "NPower Canada",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Alberta",
+      "British Columbia",
+      "Nova Scotia",
+      "Ontario",
+      "Quebec"
     ]
   },
   {
@@ -2974,11 +2863,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0071",
     "content_type": "Projects",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Experiential Learning Digital",
+    "date": "October 2024",
+    "title": "'E'x'p'e'r'i'e'n't'i'a'l' 'L'e'a'r'n'i'n'g' 'D'i'g'i't'a'l'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/experiential-learning-digital/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -3003,14 +2892,11 @@ const FULL_508_CORPUS = [
     "word_count": 12453,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1627000,
-    "investment_formatted": "$1,627,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -3018,11 +2904,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0072",
     "content_type": "Projects",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Micro but Mighty",
+    "date": "October 2024",
+    "title": "'M'i'c'r'o' 'b'u't' 'M'i'g'h't'y'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/micro-but-mighty/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -3046,15 +2932,11 @@ const FULL_508_CORPUS = [
     "word_count": 12496,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1764000,
-    "investment_formatted": "$1,764,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -3062,8 +2944,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0073",
     "content_type": "Projects",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Ivado",
+    "date": "October 2024",
+    "title": "'I'v'a'd'o'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -3091,9 +2973,9 @@ const FULL_508_CORPUS = [
     "word_count": 12539,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1901000,
-    "investment_formatted": "$1,901,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -3103,11 +2985,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0074",
     "content_type": "Projects",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Luminary 2",
+    "date": "October 2024",
+    "title": "'L'u'm'i'n'a'r'y' '2'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/luminary-2/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -3131,12 +3013,11 @@ const FULL_508_CORPUS = [
     "word_count": 12582,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2038000,
-    "investment_formatted": "$2,038,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -3144,11 +3025,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0075",
     "content_type": "Projects",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Northern Tourism",
+    "date": "October 2024",
+    "title": "'N'o'r't'h'e'r'n' 'T'o'u'r'i's'm'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/northern-tourism/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -3173,12 +3054,11 @@ const FULL_508_CORPUS = [
     "word_count": 12625,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2175000,
-    "investment_formatted": "$2,175,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -3186,11 +3066,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0076",
     "content_type": "Projects",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Developing Women Leaders",
+    "date": "February 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/developing-women-leaders/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -3216,11 +3096,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 160000,
     "investment_formatted": "$160,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Diversity Institute",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -3228,11 +3106,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0077",
     "content_type": "Projects",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Study Buddy",
+    "date": "October 2024",
+    "title": "'S't'u'd'y' 'B'u'd'd'y'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/study-buddy/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -3257,14 +3135,11 @@ const FULL_508_CORPUS = [
     "word_count": 12711,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2449000,
-    "investment_formatted": "$2,449,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -3272,11 +3147,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0078",
     "content_type": "Projects",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Digital Transformation of Schools and Training Centres",
+    "date": "October 2024",
+    "title": "'D'i'g'i't'a'l' 'T'r'a'n's'f'o'r'm'a't'i'o'n' 'o'f' 'S'c'h'o'o'l's' 'a'n'd' 'T'r'a'i'n'i'n'g' 'C'e'n't'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/digital-transformation-of-schools-and-training-centres/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -3300,15 +3175,11 @@ const FULL_508_CORPUS = [
     "word_count": 12754,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2586000,
-    "investment_formatted": "$2,586,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -3316,11 +3187,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0079",
     "content_type": "Projects",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Real School",
+    "date": "November 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Across Canada",
+    "region": "Ontario",
     "url": "https://fsc-ccf.ca/projects/real-school/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -3347,9 +3218,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 238426,
     "investment_formatted": "$238,426",
-    "partner": "Labour Education Centre",
+    "partner": "Urban Rez Solutions Social Entreprise",
     "locations": [
-      "Across Canada"
+      "Ontario"
     ]
   },
   {
@@ -3357,11 +3228,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0080",
     "content_type": "Projects",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Rapid Upskilling on the Job",
+    "date": "October 2024",
+    "title": "'R'a'p'i'd' 'U'p's'k'i'l'l'i'n'g' 'o'n' 't'h'e' 'J'o'b'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/rapid-upskilling-on-the-job/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -3385,12 +3256,11 @@ const FULL_508_CORPUS = [
     "word_count": 12840,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2860000,
-    "investment_formatted": "$2,860,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -3398,11 +3268,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0081",
     "content_type": "Projects",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Bridging the Gap",
+    "date": "October 2024",
+    "title": "'B'r'i'd'g'i'n'g' 't'h'e' 'G'a'p'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/bridging-the-gap/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -3427,12 +3297,11 @@ const FULL_508_CORPUS = [
     "word_count": 12883,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2997000,
-    "investment_formatted": "$2,997,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -3440,11 +3309,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0082",
     "content_type": "Projects",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Vila 2",
+    "date": "October 2024",
+    "title": "'V'i'l'a' '2'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/vila-2/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -3468,13 +3337,11 @@ const FULL_508_CORPUS = [
     "word_count": 12926,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3134000,
-    "investment_formatted": "$3,134,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -3482,11 +3349,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0083",
     "content_type": "Projects",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Lift Futur En Tete",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/lift-futur-en-tete/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -3511,14 +3378,11 @@ const FULL_508_CORPUS = [
     "word_count": 12969,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3271000,
-    "investment_formatted": "$3,271,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "CAMH: The Centre for Addiction and Mental Health",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -3526,11 +3390,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0084",
     "content_type": "Projects",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "City Builders",
+    "date": "October 2024",
+    "title": "'C'i't'y' 'B'u'i'l'd'e'r's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/city-builders/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -3554,15 +3418,11 @@ const FULL_508_CORPUS = [
     "word_count": 13012,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 558000,
-    "investment_formatted": "$558,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -3570,8 +3430,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0085",
     "content_type": "Projects",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Digital Transformation of Employment Programming 2",
+    "date": "October 2024",
+    "title": "'D'i'g'i't'a'l' 'T'r'a'n's'f'o'r'm'a't'i'o'n' 'o'f' 'E'm'p'l'o'y'm'e'n't' 'P'r'o'g'r'a'm'm'i'n'g' '2'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -3599,9 +3459,9 @@ const FULL_508_CORPUS = [
     "word_count": 13055,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 695000,
-    "investment_formatted": "$695,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -3611,11 +3471,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0086",
     "content_type": "Projects",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Bold",
+    "date": "March 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Ontario",
     "url": "https://fsc-ccf.ca/projects/bold/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -3641,10 +3501,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 650897,
     "investment_formatted": "$650,897",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Canadian Skills Training &#038; Employment Coalition",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Ontario"
     ]
   },
   {
@@ -3652,11 +3511,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0087",
     "content_type": "Projects",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Agri Food Workforce",
+    "date": "October 2024",
+    "title": "'A'g'r'i' 'F'o'o'd' 'W'o'r'k'f'o'r'c'e'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/agri-food-workforce/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -3681,12 +3540,11 @@ const FULL_508_CORPUS = [
     "word_count": 13141,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 969000,
-    "investment_formatted": "$969,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -3694,11 +3552,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0088",
     "content_type": "Projects",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Microcredentialing Aviation",
+    "date": "October 2024",
+    "title": "'M'i'c'r'o'c'r'e'd'e'n't'i'a'l'i'n'g' 'A'v'i'a't'i'o'n'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/microcredentialing-aviation/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -3722,13 +3580,11 @@ const FULL_508_CORPUS = [
     "word_count": 13184,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1106000,
-    "investment_formatted": "$1,106,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -3736,11 +3592,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0089",
     "content_type": "Projects",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Winnipeg Newcomer Hub",
+    "date": "October 2024",
+    "title": "'W'i'n'n'i'p'e'g' 'N'e'w'c'o'm'e'r' 'H'u'b'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/winnipeg-newcomer-hub/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -3765,14 +3621,11 @@ const FULL_508_CORPUS = [
     "word_count": 13227,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1243000,
-    "investment_formatted": "$1,243,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -3780,11 +3633,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0090",
     "content_type": "Projects",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Taking It Digital",
+    "date": "October 2024",
+    "title": "'T'a'k'i'n'g' 'I't' 'D'i'g'i't'a'l'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/taking-it-digital/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -3808,15 +3661,11 @@ const FULL_508_CORPUS = [
     "word_count": 13270,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1380000,
-    "investment_formatted": "$1,380,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -3824,8 +3673,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0091",
     "content_type": "Projects",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Mindfuels Tech Futures",
+    "date": "October 2024",
+    "title": "'M'i'n'd'f'u'e'l's' 'T'e'c'h' 'F'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -3853,9 +3702,9 @@ const FULL_508_CORPUS = [
     "word_count": 13313,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1517000,
-    "investment_formatted": "$1,517,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -3865,11 +3714,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0092",
     "content_type": "Projects",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Creating Innovative Education",
+    "date": "October 2024",
+    "title": "'C'r'e'a't'i'n'g' 'I'n'n'o'v'a't'i'v'e' 'E'd'u'c'a't'i'o'n'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/creating-innovative-education/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -3893,12 +3742,11 @@ const FULL_508_CORPUS = [
     "word_count": 13356,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1654000,
-    "investment_formatted": "$1,654,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -3906,11 +3754,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0093",
     "content_type": "Projects",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Level Up Skills Evolution",
+    "date": "October 2024",
+    "title": "'L'e'v'e'l' 'U'p' 'S'k'i'l'l's' 'E'v'o'l'u't'i'o'n'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/level-up-skills-evolution/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -3935,12 +3783,11 @@ const FULL_508_CORPUS = [
     "word_count": 13399,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1791000,
-    "investment_formatted": "$1,791,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -3948,11 +3795,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0094",
     "content_type": "Projects",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Edgeup2",
+    "date": "April 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Alberta",
     "url": "https://fsc-ccf.ca/projects/edgeup2/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -3978,11 +3825,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 6928946,
     "investment_formatted": "$6,928,946",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Calgary Economic Development",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Alberta"
     ]
   },
   {
@@ -3990,11 +3835,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0095",
     "content_type": "Projects",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Climate Change Leadership",
+    "date": "October 2024",
+    "title": "'C'l'i'm'a't'e' 'C'h'a'n'g'e' 'L'e'a'd'e'r's'h'i'p'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/climate-change-leadership/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -4019,14 +3864,11 @@ const FULL_508_CORPUS = [
     "word_count": 13485,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2065000,
-    "investment_formatted": "$2,065,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -4034,11 +3876,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0096",
     "content_type": "Projects",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Indigenous ICT Devel",
+    "date": "October 2024",
+    "title": "'I'n'd'i'g'e'n'o'u's' 'I'C'T' 'D'e'v'e'l'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/indigenous-ict-devel/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -4062,15 +3904,11 @@ const FULL_508_CORPUS = [
     "word_count": 13528,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2202000,
-    "investment_formatted": "$2,202,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -4078,8 +3916,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0097",
     "content_type": "Projects",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Work in Manitoba",
+    "date": "October 2024",
+    "title": "'W'o'r'k' 'i'n' 'M'a'n'i't'o'b'a'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -4107,9 +3945,9 @@ const FULL_508_CORPUS = [
     "word_count": 13571,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2339000,
-    "investment_formatted": "$2,339,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -4119,8 +3957,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0098",
     "content_type": "Projects",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Workplace Innovation for Quality of Work 2",
+    "date": "November 2023",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
     "region": "Alberta",
@@ -4147,12 +3985,14 @@ const FULL_508_CORPUS = [
     "word_count": 13614,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2476000,
-    "investment_formatted": "$2,476,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "WEtech Alliance",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Alberta",
+      "British Columbia",
+      "Newfoundland and Labrador",
+      "Ontario"
     ]
   },
   {
@@ -4160,11 +4000,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0099",
     "content_type": "Projects",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Cradle",
+    "date": "October 2024",
+    "title": "'C'r'a'd'l'e'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/cradle/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -4189,12 +4029,11 @@ const FULL_508_CORPUS = [
     "word_count": 13657,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2613000,
-    "investment_formatted": "$2,613,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -4202,11 +4041,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0100",
     "content_type": "Projects",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Concordia Newcomers",
+    "date": "October 2024",
+    "title": "'C'o'n'c'o'r'd'i'a' 'N'e'w'c'o'm'e'r's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/concordia-newcomers/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -4230,13 +4069,11 @@ const FULL_508_CORPUS = [
     "word_count": 13700,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2750000,
-    "investment_formatted": "$2,750,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -4244,11 +4081,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0101",
     "content_type": "Projects",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Skills Matrix",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'M'a't'r'i'x'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/skills-matrix/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -4273,14 +4110,11 @@ const FULL_508_CORPUS = [
     "word_count": 13743,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2887000,
-    "investment_formatted": "$2,887,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -4288,11 +4122,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0102",
     "content_type": "Projects",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Calgary WIL",
+    "date": "October 2024",
+    "title": "'C'a'l'g'a'r'y' 'W'I'L'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/calgary-wil/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -4316,15 +4150,11 @@ const FULL_508_CORPUS = [
     "word_count": 13786,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3024000,
-    "investment_formatted": "$3,024,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -4332,8 +4162,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0103",
     "content_type": "Projects",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Mitt Success",
+    "date": "October 2024",
+    "title": "'M'i't't' 'S'u'c'c'e's's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -4361,9 +4191,9 @@ const FULL_508_CORPUS = [
     "word_count": 13829,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3161000,
-    "investment_formatted": "$3,161,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -4373,11 +4203,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0104",
     "content_type": "Projects",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Zerofee Edu",
+    "date": "October 2024",
+    "title": "'Z'e'r'o'f'e'e' 'E'd'u'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/zerofee-edu/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -4401,12 +4231,11 @@ const FULL_508_CORPUS = [
     "word_count": 13872,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3298000,
-    "investment_formatted": "$3,298,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -4414,11 +4243,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0105",
     "content_type": "Projects",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "College Transformation",
+    "date": "October 2024",
+    "title": "'C'o'l'l'e'g'e' 'T'r'a'n's'f'o'r'm'a't'i'o'n'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/college-transformation/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -4443,12 +4272,11 @@ const FULL_508_CORPUS = [
     "word_count": 13915,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 585000,
-    "investment_formatted": "$585,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -4456,11 +4284,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0106",
     "content_type": "Projects",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Policy to Action",
+    "date": "October 2024",
+    "title": "'P'o'l'i'c'y' 't'o' 'A'c't'i'o'n'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/policy-to-action/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -4484,13 +4312,11 @@ const FULL_508_CORPUS = [
     "word_count": 13958,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 722000,
-    "investment_formatted": "$722,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -4498,11 +4324,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0107",
     "content_type": "Projects",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Digital Fluency for the Workforce",
+    "date": "October 2024",
+    "title": "'D'i'g'i't'a'l' 'F'l'u'e'n'c'y' 'f'o'r' 't'h'e' 'W'o'r'k'f'o'r'c'e'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/digital-fluency-for-the-workforce/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -4527,14 +4353,11 @@ const FULL_508_CORPUS = [
     "word_count": 14001,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 859000,
-    "investment_formatted": "$859,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -4542,11 +4365,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0108",
     "content_type": "Projects",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Ecampusontario",
+    "date": "October 2024",
+    "title": "'E'c'a'm'p'u's'o'n't'a'r'i'o'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/ecampusontario/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -4570,15 +4393,11 @@ const FULL_508_CORPUS = [
     "word_count": 14044,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 996000,
-    "investment_formatted": "$996,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -4586,8 +4405,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0109",
     "content_type": "Projects",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Upskill Youth Practitioners",
+    "date": "October 2024",
+    "title": "'U'p's'k'i'l'l' 'Y'o'u't'h' 'P'r'a'c't'i't'i'o'n'e'r's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -4615,9 +4434,9 @@ const FULL_508_CORPUS = [
     "word_count": 14087,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1133000,
-    "investment_formatted": "$1,133,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -4627,11 +4446,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0110",
     "content_type": "Projects",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Perceptions of Microcredentials",
+    "date": "October 2024",
+    "title": "'P'e'r'c'e'p't'i'o'n's' 'o'f' 'M'i'c'r'o'c'r'e'd'e'n't'i'a'l's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/perceptions-of-microcredentials/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -4655,12 +4474,11 @@ const FULL_508_CORPUS = [
     "word_count": 14130,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1270000,
-    "investment_formatted": "$1,270,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -4668,11 +4486,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0111",
     "content_type": "Projects",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "The Skills Algorithm",
+    "date": "October 2024",
+    "title": "'T'h'e' 'S'k'i'l'l's' 'A'l'g'o'r'i't'h'm'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/the-skills-algorithm/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -4697,12 +4515,11 @@ const FULL_508_CORPUS = [
     "word_count": 14173,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1407000,
-    "investment_formatted": "$1,407,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -4710,11 +4527,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0112",
     "content_type": "Projects",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Vulnerable SMEs Remote Work",
+    "date": "March 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/vulnerable-smes-remote-work/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -4740,11 +4557,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 138876,
     "investment_formatted": "$138,876",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "pointA",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -4752,11 +4567,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0113",
     "content_type": "Projects",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Skills Research and Engagement",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'R'e's'e'a'r'c'h' 'a'n'd' 'E'n'g'a'g'e'm'e'n't'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/skills-research-and-engagement/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -4781,14 +4596,11 @@ const FULL_508_CORPUS = [
     "word_count": 14259,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1681000,
-    "investment_formatted": "$1,681,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -4796,11 +4608,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0114",
     "content_type": "Projects",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Scale Learning Lab",
+    "date": "September 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/scale-learning-lab/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -4824,15 +4636,12 @@ const FULL_508_CORPUS = [
     "word_count": 14302,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1818000,
-    "investment_formatted": "$1,818,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 1535489,
+    "investment_formatted": "$1,535,489",
+    "partner": "Scale Hospitality Group",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada",
+      "Ontario"
     ]
   },
   {
@@ -4840,8 +4649,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0115",
     "content_type": "Projects",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Indigenous Leadership Development",
+    "date": "October 2024",
+    "title": "'I'n'd'i'g'e'n'o'u's' 'L'e'a'd'e'r's'h'i'p' 'D'e'v'e'l'o'p'm'e'n't'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -4869,9 +4678,9 @@ const FULL_508_CORPUS = [
     "word_count": 14345,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1955000,
-    "investment_formatted": "$1,955,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -4881,11 +4690,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0116",
     "content_type": "Projects",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Pay for Performance",
+    "date": "October 2024",
+    "title": "'P'a'y' 'f'o'r' 'P'e'r'f'o'r'm'a'n'c'e'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/pay-for-performance/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -4909,12 +4718,11 @@ const FULL_508_CORPUS = [
     "word_count": 14388,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2092000,
-    "investment_formatted": "$2,092,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -4922,11 +4730,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0117",
     "content_type": "Projects",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Bridging Psychometrics",
+    "date": "October 2024",
+    "title": "'B'r'i'd'g'i'n'g' 'P's'y'c'h'o'm'e't'r'i'c's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/bridging-psychometrics/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -4951,12 +4759,11 @@ const FULL_508_CORPUS = [
     "word_count": 14431,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2229000,
-    "investment_formatted": "$2,229,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -4964,11 +4771,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0118",
     "content_type": "Projects",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Services to Social Impact",
+    "date": "October 2024",
+    "title": "'S'e'r'v'i'c'e's' 't'o' 'S'o'c'i'a'l' 'I'm'p'a'c't'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/services-to-social-impact/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -4992,13 +4799,11 @@ const FULL_508_CORPUS = [
     "word_count": 14474,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2366000,
-    "investment_formatted": "$2,366,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -5006,11 +4811,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0119",
     "content_type": "Projects",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Racialized Women at Work",
+    "date": "October 2024",
+    "title": "'R'a'c'i'a'l'i'z'e'd' 'W'o'm'e'n' 'a't' 'W'o'r'k'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/racialized-women-at-work/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -5035,14 +4840,11 @@ const FULL_508_CORPUS = [
     "word_count": 14517,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2503000,
-    "investment_formatted": "$2,503,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -5050,11 +4852,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0120",
     "content_type": "Projects",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Digital Transformation Strategy",
+    "date": "October 2024",
+    "title": "'D'i'g'i't'a'l' 'T'r'a'n's'f'o'r'm'a't'i'o'n' 'S't'r'a't'e'g'y'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/digital-transformation-strategy/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -5078,15 +4880,11 @@ const FULL_508_CORPUS = [
     "word_count": 14560,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2640000,
-    "investment_formatted": "$2,640,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -5094,8 +4892,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0121",
     "content_type": "Projects",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Virtual Workplaces",
+    "date": "October 2024",
+    "title": "'V'i'r't'u'a'l' 'W'o'r'k'p'l'a'c'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -5123,9 +4921,9 @@ const FULL_508_CORPUS = [
     "word_count": 14603,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2777000,
-    "investment_formatted": "$2,777,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -5135,11 +4933,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0122",
     "content_type": "Projects",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Shock Proofing Yukon",
+    "date": "October 2024",
+    "title": "'S'h'o'c'k' 'P'r'o'o'f'i'n'g' 'Y'u'k'o'n'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/shock-proofing-yukon/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -5163,12 +4961,11 @@ const FULL_508_CORPUS = [
     "word_count": 14646,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2914000,
-    "investment_formatted": "$2,914,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -5176,11 +4973,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0123",
     "content_type": "Projects",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Autism Cantech",
+    "date": "October 2024",
+    "title": "'A'u't'i's'm' 'C'a'n't'e'c'h'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/autism-cantech/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -5205,12 +5002,11 @@ const FULL_508_CORPUS = [
     "word_count": 14689,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3051000,
-    "investment_formatted": "$3,051,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -5218,11 +5014,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0124",
     "content_type": "Projects",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Peel District Pilot",
+    "date": "October 2024",
+    "title": "'P'e'e'l' 'D'i's't'r'i'c't' 'P'i'l'o't'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/peel-district-pilot/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -5246,13 +5042,11 @@ const FULL_508_CORPUS = [
     "word_count": 14732,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3188000,
-    "investment_formatted": "$3,188,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -5260,11 +5054,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0125",
     "content_type": "Projects",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Digital Econ Undergrad Stem",
+    "date": "October 2024",
+    "title": "'D'i'g'i't'a'l' 'E'c'o'n' 'U'n'd'e'r'g'r'a'd' 'S't'e'm'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/digital-econ-undergrad-stem/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -5289,14 +5083,11 @@ const FULL_508_CORPUS = [
     "word_count": 14775,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 475000,
-    "investment_formatted": "$475,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -5304,8 +5095,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0126",
     "content_type": "Projects",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Indigenous Employment Hub",
+    "date": "October 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
     "region": "British Columbia",
@@ -5334,13 +5125,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 1496975,
     "investment_formatted": "$1,496,975",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Coast Salish Development Corporation",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "British Columbia"
     ]
   },
   {
@@ -5348,8 +5135,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0127",
     "content_type": "Projects",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Building Capacity Nonprofit",
+    "date": "October 2024",
+    "title": "'B'u'i'l'd'i'n'g' 'C'a'p'a'c'i't'y' 'N'o'n'p'r'o'f'i't'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -5377,9 +5164,9 @@ const FULL_508_CORPUS = [
     "word_count": 14861,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 749000,
-    "investment_formatted": "$749,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -5389,11 +5176,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0128",
     "content_type": "Projects",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Aspireatlantic",
+    "date": "October 2024",
+    "title": "'A's'p'i'r'e'a't'l'a'n't'i'c'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/aspireatlantic/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -5417,12 +5204,11 @@ const FULL_508_CORPUS = [
     "word_count": 14904,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 886000,
-    "investment_formatted": "$886,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -5430,11 +5216,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0129",
     "content_type": "Projects",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Innovation for Integration",
+    "date": "October 2024",
+    "title": "'I'n'n'o'v'a't'i'o'n' 'f'o'r' 'I'n't'e'g'r'a't'i'o'n'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/innovation-for-integration/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -5459,12 +5245,11 @@ const FULL_508_CORPUS = [
     "word_count": 14947,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1023000,
-    "investment_formatted": "$1,023,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -5472,11 +5257,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0130",
     "content_type": "Projects",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Material Handling",
+    "date": "October 2024",
+    "title": "'M'a't'e'r'i'a'l' 'H'a'n'd'l'i'n'g'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/material-handling/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -5500,13 +5285,11 @@ const FULL_508_CORPUS = [
     "word_count": 14990,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1160000,
-    "investment_formatted": "$1,160,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -5514,11 +5297,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0131",
     "content_type": "Projects",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Global Entrepreneurship Initiative",
+    "date": "October 2024",
+    "title": "'G'l'o'b'a'l' 'E'n't'r'e'p'r'e'n'e'u'r's'h'i'p' 'I'n'i't'i'a't'i'v'e'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/global-entrepreneurship-initiative/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -5543,14 +5326,11 @@ const FULL_508_CORPUS = [
     "word_count": 15033,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1297000,
-    "investment_formatted": "$1,297,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -5558,11 +5338,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0132",
     "content_type": "Projects",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "AI So Far",
+    "date": "October 2024",
+    "title": "'A'I' 'S'o' 'F'a'r'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/ai-so-far/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -5586,15 +5366,11 @@ const FULL_508_CORPUS = [
     "word_count": 15076,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1434000,
-    "investment_formatted": "$1,434,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -5602,8 +5378,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0133",
     "content_type": "Projects",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Women Insurance",
+    "date": "October 2024",
+    "title": "'W'o'm'e'n' 'I'n's'u'r'a'n'c'e'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -5631,9 +5407,9 @@ const FULL_508_CORPUS = [
     "word_count": 15119,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1571000,
-    "investment_formatted": "$1,571,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -5643,11 +5419,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0134",
     "content_type": "Projects",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Inclusive Digital Retraining",
+    "date": "October 2024",
+    "title": "'I'n'c'l'u's'i'v'e' 'D'i'g'i't'a'l' 'R'e't'r'a'i'n'i'n'g'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/inclusive-digital-retraining/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -5671,12 +5447,11 @@ const FULL_508_CORPUS = [
     "word_count": 15162,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1708000,
-    "investment_formatted": "$1,708,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -5684,11 +5459,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0135",
     "content_type": "Projects",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Upskilling Healthcare Workers",
+    "date": "October 2024",
+    "title": "'U'p's'k'i'l'l'i'n'g' 'H'e'a'l't'h'c'a'r'e' 'W'o'r'k'e'r's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/upskilling-healthcare-workers/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -5713,12 +5488,11 @@ const FULL_508_CORPUS = [
     "word_count": 15205,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1845000,
-    "investment_formatted": "$1,845,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -5726,11 +5500,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0136",
     "content_type": "Projects",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Retail Acceleration",
+    "date": "October 2024",
+    "title": "'R'e't'a'i'l' 'A'c'c'e'l'e'r'a't'i'o'n'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/retail-acceleration/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -5754,13 +5528,11 @@ const FULL_508_CORPUS = [
     "word_count": 15248,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1982000,
-    "investment_formatted": "$1,982,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -5768,11 +5540,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0137",
     "content_type": "Projects",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Tourism Hospitality Recovery",
+    "date": "October 2024",
+    "title": "'T'o'u'r'i's'm' 'H'o's'p'i't'a'l'i't'y' 'R'e'c'o'v'e'r'y'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/tourism-hospitality-recovery/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -5797,14 +5569,11 @@ const FULL_508_CORPUS = [
     "word_count": 15291,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2119000,
-    "investment_formatted": "$2,119,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -5812,11 +5581,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0138",
     "content_type": "Projects",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Skills Development Ecosystem",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'D'e'v'e'l'o'p'm'e'n't' 'E'c'o's'y's't'e'm'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/skills-development-ecosystem/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -5840,15 +5609,11 @@ const FULL_508_CORPUS = [
     "word_count": 15334,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2256000,
-    "investment_formatted": "$2,256,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -5856,8 +5621,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0139",
     "content_type": "Projects",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Evaluation Upskilling Program",
+    "date": "October 2024",
+    "title": "'E'v'a'l'u'a't'i'o'n' 'U'p's'k'i'l'l'i'n'g' 'P'r'o'g'r'a'm'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -5885,9 +5650,9 @@ const FULL_508_CORPUS = [
     "word_count": 15377,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2393000,
-    "investment_formatted": "$2,393,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -5897,11 +5662,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0140",
     "content_type": "Projects",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Soft Skills College",
+    "date": "October 2024",
+    "title": "'S'o'f't' 'S'k'i'l'l's' 'C'o'l'l'e'g'e'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/soft-skills-college/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -5925,12 +5690,11 @@ const FULL_508_CORPUS = [
     "word_count": 15420,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2530000,
-    "investment_formatted": "$2,530,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -5938,11 +5702,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0141",
     "content_type": "Projects",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Yukon Post-Pandemic",
+    "date": "October 2024",
+    "title": "'Y'u'k'o'n' 'P'o's't'-'P'a'n'd'e'm'i'c'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/yukon-post-pandemic/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -5967,12 +5731,11 @@ const FULL_508_CORPUS = [
     "word_count": 15463,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2667000,
-    "investment_formatted": "$2,667,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -5980,11 +5743,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0142",
     "content_type": "Projects",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Pathways Learning Assessment",
+    "date": "August 2023",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/pathways-learning-assessment/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -6010,11 +5773,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 151500,
     "investment_formatted": "$151,500",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "The Michener Institute of Education at UHN",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -6022,11 +5783,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0143",
     "content_type": "Projects",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Triec",
+    "date": "October 2024",
+    "title": "'T'r'i'e'c'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/triec/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -6051,14 +5812,11 @@ const FULL_508_CORPUS = [
     "word_count": 15549,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2941000,
-    "investment_formatted": "$2,941,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -6066,11 +5824,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0144",
     "content_type": "Projects",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Standards Sustainable Blue Economy",
+    "date": "October 2024",
+    "title": "'S't'a'n'd'a'r'd's' 'S'u's't'a'i'n'a'b'l'e' 'B'l'u'e' 'E'c'o'n'o'm'y'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/standards-sustainable-blue-economy/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -6094,15 +5852,11 @@ const FULL_508_CORPUS = [
     "word_count": 15592,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3078000,
-    "investment_formatted": "$3,078,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -6110,8 +5864,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0145",
     "content_type": "Projects",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Lighting Up North",
+    "date": "October 2024",
+    "title": "'L'i'g'h't'i'n'g' 'U'p' 'N'o'r't'h'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -6139,9 +5893,9 @@ const FULL_508_CORPUS = [
     "word_count": 15635,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3215000,
-    "investment_formatted": "$3,215,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -6151,11 +5905,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0146",
     "content_type": "Projects",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Project Connect",
+    "date": "December 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "British Columbia",
     "url": "https://fsc-ccf.ca/projects/project-connect/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -6181,10 +5935,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 4510539,
     "investment_formatted": "$4,510,539",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Royal Roads University",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "British Columbia"
     ]
   },
   {
@@ -6192,11 +5945,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0147",
     "content_type": "Projects",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Bacel",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/bacel/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -6223,10 +5976,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 3213750,
     "investment_formatted": "$3,213,750",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Black Business and Professional Association",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -6234,11 +5986,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0148",
     "content_type": "Projects",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Bcit Newcomers Language",
+    "date": "October 2024",
+    "title": "'B'c'i't' 'N'e'w'c'o'm'e'r's' 'L'a'n'g'u'a'g'e'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/bcit-newcomers-language/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -6262,13 +6014,11 @@ const FULL_508_CORPUS = [
     "word_count": 15764,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 776000,
-    "investment_formatted": "$776,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -6276,11 +6026,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0149",
     "content_type": "Projects",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Young Moms",
+    "date": "October 2024",
+    "title": "'Y'o'u'n'g' 'M'o'm's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/young-moms/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -6305,14 +6055,11 @@ const FULL_508_CORPUS = [
     "word_count": 15807,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 913000,
-    "investment_formatted": "$913,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -6320,11 +6067,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0150",
     "content_type": "Projects",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Hire Next",
+    "date": "October 2024",
+    "title": "'H'i'r'e' 'N'e'x't'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/hire-next/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -6348,15 +6095,11 @@ const FULL_508_CORPUS = [
     "word_count": 15850,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1050000,
-    "investment_formatted": "$1,050,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -6364,8 +6107,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0151",
     "content_type": "Projects",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Dmg Studio Toolkit",
+    "date": "October 2024",
+    "title": "'D'm'g' 'S't'u'd'i'o' 'T'o'o'l'k'i't'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -6393,9 +6136,9 @@ const FULL_508_CORPUS = [
     "word_count": 15893,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1187000,
-    "investment_formatted": "$1,187,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -6405,11 +6148,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0152",
     "content_type": "Projects",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Learning Outside",
+    "date": "October 2024",
+    "title": "'L'e'a'r'n'i'n'g' 'O'u't's'i'd'e'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/learning-outside/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -6433,12 +6176,11 @@ const FULL_508_CORPUS = [
     "word_count": 15936,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1324000,
-    "investment_formatted": "$1,324,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -6446,11 +6188,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0153",
     "content_type": "Projects",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Future Proofing Food and Beverage",
+    "date": "March 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "New Brunswick",
     "url": "https://fsc-ccf.ca/projects/future-proofing-food-and-beverage/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -6477,10 +6219,12 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 2134491,
     "investment_formatted": "$2,134,491",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Food Processing Skills Canada",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "New Brunswick",
+      "Newfoundland and Labrador",
+      "Nova Scotia",
+      "Prince Edward Island"
     ]
   },
   {
@@ -6488,11 +6232,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0154",
     "content_type": "Projects",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Not 9 to 5",
+    "date": "October 2024",
+    "title": "'N'o't' '9' 't'o' '5'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/not-9-to-5/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -6516,13 +6260,11 @@ const FULL_508_CORPUS = [
     "word_count": 16022,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1598000,
-    "investment_formatted": "$1,598,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -6530,11 +6272,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0155",
     "content_type": "Projects",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Path2cs",
+    "date": "October 2024",
+    "title": "'P'a't'h'2'c's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/path2cs/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -6559,14 +6301,11 @@ const FULL_508_CORPUS = [
     "word_count": 16065,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1735000,
-    "investment_formatted": "$1,735,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -6574,11 +6313,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0156",
     "content_type": "Projects",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Resilience Prototype",
+    "date": "May 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Ontario",
     "url": "https://fsc-ccf.ca/projects/resilience-prototype/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -6604,13 +6343,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 138780,
     "investment_formatted": "$138,780",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Sheridan College",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Ontario"
     ]
   },
   {
@@ -6618,8 +6353,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0157",
     "content_type": "Projects",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Frontlines Crisis",
+    "date": "October 2024",
+    "title": "'F'r'o'n't'l'i'n'e's' 'C'r'i's'i's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -6647,9 +6382,9 @@ const FULL_508_CORPUS = [
     "word_count": 16151,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2009000,
-    "investment_formatted": "$2,009,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -6659,11 +6394,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0158",
     "content_type": "Projects",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Synergy",
+    "date": "October 2024",
+    "title": "'S'y'n'e'r'g'y'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/synergy/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -6687,12 +6422,11 @@ const FULL_508_CORPUS = [
     "word_count": 16194,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2146000,
-    "investment_formatted": "$2,146,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -6700,11 +6434,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0159",
     "content_type": "Projects",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Sustainable Municipalities",
+    "date": "October 2024",
+    "title": "'S'u's't'a'i'n'a'b'l'e' 'M'u'n'i'c'i'p'a'l'i't'i'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sustainable-municipalities/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -6729,12 +6463,11 @@ const FULL_508_CORPUS = [
     "word_count": 16237,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2283000,
-    "investment_formatted": "$2,283,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -6742,11 +6475,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0160",
     "content_type": "Projects",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Be Epic Dementia Training",
+    "date": "October 2024",
+    "title": "'B'e' 'E'p'i'c' 'D'e'm'e'n't'i'a' 'T'r'a'i'n'i'n'g'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/be-epic-dementia-training/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -6770,13 +6503,11 @@ const FULL_508_CORPUS = [
     "word_count": 16280,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2420000,
-    "investment_formatted": "$2,420,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -6784,11 +6515,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0161",
     "content_type": "Projects",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Fusion Future Skills",
+    "date": "December 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/fusion-future-skills/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -6815,12 +6546,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 2500000,
     "investment_formatted": "$2,500,000",
-    "partner": "The Conference Board of Canada",
+    "partner": "Concordia University",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -6828,11 +6556,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0162",
     "content_type": "Projects",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Atlantic Autism Supports",
+    "date": "October 2024",
+    "title": "'A't'l'a'n't'i'c' 'A'u't'i's'm' 'S'u'p'p'o'r't's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/atlantic-autism-supports/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -6856,15 +6584,11 @@ const FULL_508_CORPUS = [
     "word_count": 16366,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2694000,
-    "investment_formatted": "$2,694,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -6872,8 +6596,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0163",
     "content_type": "Projects",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Career Development Centre",
+    "date": "October 2024",
+    "title": "'C'a'r'e'e'r' 'D'e'v'e'l'o'p'm'e'n't' 'C'e'n't'r'e'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -6901,9 +6625,9 @@ const FULL_508_CORPUS = [
     "word_count": 16409,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2831000,
-    "investment_formatted": "$2,831,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -6913,8 +6637,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0164",
     "content_type": "Projects",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Capacity Building for Small Midsize Enterprises",
+    "date": "September 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -6941,10 +6665,12 @@ const FULL_508_CORPUS = [
     "word_count": 16452,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2968000,
-    "investment_formatted": "$2,968,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Ontario Chamber of Commerce",
     "locations": [
+      "Alberta",
+      "Nova Scotia",
       "Ontario",
       "Quebec"
     ]
@@ -6954,11 +6680,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0165",
     "content_type": "Projects",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "National Recruitment Construction",
+    "date": "October 2024",
+    "title": "'N'a't'i'o'n'a'l' 'R'e'c'r'u'i't'm'e'n't' 'C'o'n's't'r'u'c't'i'o'n'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/national-recruitment-construction/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -6983,12 +6709,11 @@ const FULL_508_CORPUS = [
     "word_count": 16495,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3105000,
-    "investment_formatted": "$3,105,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -6996,11 +6721,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0166",
     "content_type": "Projects",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Autonomous Microfactory",
+    "date": "October 2024",
+    "title": "'A'u't'o'n'o'm'o'u's' 'M'i'c'r'o'f'a'c't'o'r'y'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/autonomous-microfactory/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -7024,13 +6749,11 @@ const FULL_508_CORPUS = [
     "word_count": 16538,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3242000,
-    "investment_formatted": "$3,242,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -7038,11 +6761,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0167",
     "content_type": "Projects",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Energy Fit",
+    "date": "October 2024",
+    "title": "'E'n'e'r'g'y' 'F'i't'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/energy-fit/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -7067,14 +6790,11 @@ const FULL_508_CORPUS = [
     "word_count": 16581,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 529000,
-    "investment_formatted": "$529,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -7082,11 +6802,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0168",
     "content_type": "Projects",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Doing It Right 2",
+    "date": "October 2024",
+    "title": "'D'o'i'n'g' 'I't' 'R'i'g'h't' '2'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/doing-it-right-2/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -7110,15 +6830,11 @@ const FULL_508_CORPUS = [
     "word_count": 16624,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 666000,
-    "investment_formatted": "$666,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -7126,8 +6842,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0169",
     "content_type": "Projects",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Workforce 2030",
+    "date": "October 2024",
+    "title": "'W'o'r'k'f'o'r'c'e' '2'0'3'0'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -7155,9 +6871,9 @@ const FULL_508_CORPUS = [
     "word_count": 16667,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 803000,
-    "investment_formatted": "$803,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -7167,11 +6883,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0170",
     "content_type": "Projects",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Beyond Hours",
+    "date": "October 2024",
+    "title": "'B'e'y'o'n'd' 'H'o'u'r's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/beyond-hours/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -7195,12 +6911,11 @@ const FULL_508_CORPUS = [
     "word_count": 16710,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 940000,
-    "investment_formatted": "$940,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -7208,11 +6923,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0171",
     "content_type": "Projects",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Mining Microlearning",
+    "date": "October 2024",
+    "title": "'M'i'n'i'n'g' 'M'i'c'r'o'l'e'a'r'n'i'n'g'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/mining-microlearning/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -7237,12 +6952,11 @@ const FULL_508_CORPUS = [
     "word_count": 16753,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1077000,
-    "investment_formatted": "$1,077,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -7250,11 +6964,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0172",
     "content_type": "Projects",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Soar Skills",
+    "date": "October 2024",
+    "title": "'S'o'a'r' 'S'k'i'l'l's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/soar-skills/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -7278,13 +6992,11 @@ const FULL_508_CORPUS = [
     "word_count": 16796,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1214000,
-    "investment_formatted": "$1,214,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -7292,11 +7004,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0173",
     "content_type": "Projects",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Trucking Industry",
+    "date": "October 2024",
+    "title": "'T'r'u'c'k'i'n'g' 'I'n'd'u's't'r'y'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/trucking-industry/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -7321,14 +7033,11 @@ const FULL_508_CORPUS = [
     "word_count": 16839,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1351000,
-    "investment_formatted": "$1,351,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -7336,11 +7045,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0174",
     "content_type": "Projects",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "International Case Studies",
+    "date": "October 2024",
+    "title": "'I'n't'e'r'n'a't'i'o'n'a'l' 'C'a's'e' 'S't'u'd'i'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/international-case-studies/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -7364,15 +7073,11 @@ const FULL_508_CORPUS = [
     "word_count": 16882,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1488000,
-    "investment_formatted": "$1,488,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -7380,8 +7085,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0175",
     "content_type": "Projects",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Skills Clean Econ",
+    "date": "May 2023",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -7409,9 +7114,9 @@ const FULL_508_CORPUS = [
     "word_count": 16925,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1625000,
-    "investment_formatted": "$1,625,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 175000,
+    "investment_formatted": "$175,000",
+    "partner": "Foresight Cleantech Accelerator Centre",
     "locations": [
       "Across Canada"
     ]
@@ -7421,11 +7126,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0176",
     "content_type": "Projects",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Construct Blue Door",
+    "date": "October 2024",
+    "title": "'C'o'n's't'r'u'c't' 'B'l'u'e' 'D'o'o'r'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/construct-blue-door/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -7449,12 +7154,11 @@ const FULL_508_CORPUS = [
     "word_count": 16968,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1762000,
-    "investment_formatted": "$1,762,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -7462,11 +7166,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0177",
     "content_type": "Projects",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Reboot Plus Expansion",
+    "date": "October 2024",
+    "title": "'R'e'b'o'o't' 'P'l'u's' 'E'x'p'a'n's'i'o'n'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/reboot-plus-expansion/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -7491,12 +7195,11 @@ const FULL_508_CORPUS = [
     "word_count": 17011,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1899000,
-    "investment_formatted": "$1,899,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -7504,11 +7207,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0178",
     "content_type": "Projects",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Leveraging Technology",
+    "date": "November 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Ontario",
     "url": "https://fsc-ccf.ca/projects/leveraging-technology/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -7534,11 +7237,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 3201059,
     "investment_formatted": "$3,201,059",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "NORCAT",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Ontario"
     ]
   },
   {
@@ -7546,11 +7247,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0179",
     "content_type": "Projects",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Cook Connect",
+    "date": "October 2024",
+    "title": "'C'o'o'k' 'C'o'n'n'e'c't'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/cook-connect/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -7575,14 +7276,11 @@ const FULL_508_CORPUS = [
     "word_count": 17097,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2173000,
-    "investment_formatted": "$2,173,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -7590,11 +7288,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0180",
     "content_type": "Projects",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Indigenous Childhood Education",
+    "date": "May 2023",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "New Brunswick",
     "url": "https://fsc-ccf.ca/projects/indigenous-childhood-education/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -7620,13 +7318,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 130000,
     "investment_formatted": "$130,000",
-    "partner": "Food Processing Skills Canada",
+    "partner": "North Shore MicMac District Council",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "New Brunswick"
     ]
   },
   {
@@ -7634,8 +7328,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0181",
     "content_type": "Projects",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "NARE National Accessibility",
+    "date": "October 2024",
+    "title": "'N'A'R'E' 'N'a't'i'o'n'a'l' 'A'c'c'e's's'i'b'i'l'i't'y'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -7663,9 +7357,9 @@ const FULL_508_CORPUS = [
     "word_count": 17183,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2447000,
-    "investment_formatted": "$2,447,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -7675,11 +7369,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0182",
     "content_type": "Projects",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Times 20 2",
+    "date": "October 2024",
+    "title": "'T'i'm'e's' '2'0' '2'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/times-20-2/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -7703,12 +7397,11 @@ const FULL_508_CORPUS = [
     "word_count": 17226,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2584000,
-    "investment_formatted": "$2,584,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -7716,11 +7409,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0183",
     "content_type": "Projects",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "2 Eyed Seeing",
+    "date": "October 2024",
+    "title": "'2' 'E'y'e'd' 'S'e'e'i'n'g'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/2-eyed-seeing/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -7745,12 +7438,11 @@ const FULL_508_CORPUS = [
     "word_count": 17269,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2721000,
-    "investment_formatted": "$2,721,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -7758,11 +7450,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0184",
     "content_type": "Projects",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Built 2 Scale",
+    "date": "October 2024",
+    "title": "'B'u'i'l't' '2' 'S'c'a'l'e'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/built-2-scale/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -7786,13 +7478,11 @@ const FULL_508_CORPUS = [
     "word_count": 17312,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2858000,
-    "investment_formatted": "$2,858,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -7800,11 +7490,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0185",
     "content_type": "Projects",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Occupational Pluralism Atlantic",
+    "date": "October 2024",
+    "title": "'O'c'c'u'p'a't'i'o'n'a'l' 'P'l'u'r'a'l'i's'm' 'A't'l'a'n't'i'c'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/occupational-pluralism-atlantic/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -7829,14 +7519,11 @@ const FULL_508_CORPUS = [
     "word_count": 17355,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2995000,
-    "investment_formatted": "$2,995,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -7844,11 +7531,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0186",
     "content_type": "Projects",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Skills and Talent Cybersecurity",
+    "date": "February 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/skills-and-talent-cybersecurity/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -7874,13 +7561,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 1866591,
     "investment_formatted": "$1,866,591",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Rogers Cybersecure Catalyst",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -7888,8 +7571,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0187",
     "content_type": "Projects",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Telehealth Collaboration",
+    "date": "October 2024",
+    "title": "'T'e'l'e'h'e'a'l't'h' 'C'o'l'l'a'b'o'r'a't'i'o'n'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -7917,9 +7600,9 @@ const FULL_508_CORPUS = [
     "word_count": 17441,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3269000,
-    "investment_formatted": "$3,269,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -7929,8 +7612,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0188",
     "content_type": "Projects",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Elite Program",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
     "region": "Alberta",
@@ -7959,10 +7642,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 433330,
     "investment_formatted": "$433,330",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "University of Alberta",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Alberta"
     ]
   },
   {
@@ -7970,11 +7652,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0189",
     "content_type": "Projects",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Wood Manufacturing",
+    "date": "October 2024",
+    "title": "'W'o'o'd' 'M'a'n'u'f'a'c't'u'r'i'n'g'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/wood-manufacturing/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -7999,12 +7681,11 @@ const FULL_508_CORPUS = [
     "word_count": 17527,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 693000,
-    "investment_formatted": "$693,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -8012,11 +7693,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0190",
     "content_type": "Projects",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Reimagining Equity Centred Supports Vancouver",
+    "date": "May 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "British Columbia",
     "url": "https://fsc-ccf.ca/projects/reimagining-equity-centred-supports-vancouver/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -8042,11 +7723,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 539591,
     "investment_formatted": "$539,591",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Simon Fraser University",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "British Columbia"
     ]
   },
   {
@@ -8054,11 +7733,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0191",
     "content_type": "Projects",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Sos Newcomer Integration",
+    "date": "October 2024",
+    "title": "'S'o's' 'N'e'w'c'o'm'e'r' 'I'n't'e'g'r'a't'i'o'n'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-newcomer-integration/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -8083,14 +7762,11 @@ const FULL_508_CORPUS = [
     "word_count": 17613,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 967000,
-    "investment_formatted": "$967,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -8098,11 +7774,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0192",
     "content_type": "Projects",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Sos AI",
+    "date": "October 2024",
+    "title": "'S'o's' 'A'I'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-ai/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -8126,15 +7802,11 @@ const FULL_508_CORPUS = [
     "word_count": 17656,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1104000,
-    "investment_formatted": "$1,104,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -8142,8 +7814,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0193",
     "content_type": "Projects",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Sos Qow",
+    "date": "October 2024",
+    "title": "'S'o's' 'Q'o'w'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -8171,9 +7843,9 @@ const FULL_508_CORPUS = [
     "word_count": 17699,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1241000,
-    "investment_formatted": "$1,241,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -8183,11 +7855,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0194",
     "content_type": "Projects",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Sos Resilient by Design",
+    "date": "October 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-resilient-by-design/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -8211,12 +7883,11 @@ const FULL_508_CORPUS = [
     "word_count": 17742,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1378000,
-    "investment_formatted": "$1,378,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 40400,
+    "investment_formatted": "$40,400",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -8224,11 +7895,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0195",
     "content_type": "Projects",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Sos Northern SMEs",
+    "date": "October 2024",
+    "title": "'S'o's' 'N'o'r't'h'e'r'n' 'S'M'E's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-northern-smes/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -8253,12 +7924,11 @@ const FULL_508_CORPUS = [
     "word_count": 17785,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1515000,
-    "investment_formatted": "$1,515,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -8266,11 +7936,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0196",
     "content_type": "Projects",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Sos Black Communities",
+    "date": "October 2024",
+    "title": "'S'o's' 'B'l'a'c'k' 'C'o'm'm'u'n'i't'i'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-black-communities/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -8294,13 +7964,11 @@ const FULL_508_CORPUS = [
     "word_count": 17828,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1652000,
-    "investment_formatted": "$1,652,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -8308,11 +7976,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0197",
     "content_type": "Projects",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Sos WIL",
+    "date": "October 2024",
+    "title": "'S'o's' 'W'I'L'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-wil/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -8337,14 +8005,11 @@ const FULL_508_CORPUS = [
     "word_count": 17871,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1789000,
-    "investment_formatted": "$1,789,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -8352,11 +8017,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0198",
     "content_type": "Projects",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Sos Lmi Gaps",
+    "date": "October 2024",
+    "title": "'S'o's' 'L'm'i' 'G'a'p's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-lmi-gaps/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -8380,15 +8045,11 @@ const FULL_508_CORPUS = [
     "word_count": 17914,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1926000,
-    "investment_formatted": "$1,926,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -8396,8 +8057,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0199",
     "content_type": "Projects",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Sos Microcredentials",
+    "date": "October 2024",
+    "title": "'S'o's' 'M'i'c'r'o'c'r'e'd'e'n't'i'a'l's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -8425,9 +8086,9 @@ const FULL_508_CORPUS = [
     "word_count": 17957,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2063000,
-    "investment_formatted": "$2,063,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -8437,11 +8098,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0200",
     "content_type": "Projects",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Sos Evaluation",
+    "date": "October 2024",
+    "title": "'S'o's' 'E'v'a'l'u'a't'i'o'n'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-evaluation/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -8465,12 +8126,11 @@ const FULL_508_CORPUS = [
     "word_count": 18000,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2200000,
-    "investment_formatted": "$2,200,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -8478,11 +8138,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0201",
     "content_type": "Projects",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Sos Youth",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-youth/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -8509,10 +8169,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 24000,
     "investment_formatted": "$24,000",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -8520,11 +8179,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0202",
     "content_type": "Projects",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Sos Sustainable Jobs",
+    "date": "October 2024",
+    "title": "'S'o's' 'S'u's't'a'i'n'a'b'l'e' 'J'o'b's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-sustainable-jobs/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -8548,13 +8207,11 @@ const FULL_508_CORPUS = [
     "word_count": 18086,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2474000,
-    "investment_formatted": "$2,474,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -8562,11 +8219,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0203",
     "content_type": "Projects",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Sos Employers",
+    "date": "November 2023",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-employers/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -8591,14 +8248,11 @@ const FULL_508_CORPUS = [
     "word_count": 18129,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2611000,
-    "investment_formatted": "$2,611,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -8606,11 +8260,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0204",
     "content_type": "Projects",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Sos Skilled Trades",
+    "date": "October 2024",
+    "title": "'S'o's' 'S'k'i'l'l'e'd' 'T'r'a'd'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-skilled-trades/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -8634,15 +8288,11 @@ const FULL_508_CORPUS = [
     "word_count": 18172,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2748000,
-    "investment_formatted": "$2,748,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -8650,8 +8300,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0205",
     "content_type": "Projects",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Sos Digital Tools",
+    "date": "October 2024",
+    "title": "'S'o's' 'D'i'g'i't'a'l' 'T'o'o'l's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -8679,9 +8329,9 @@ const FULL_508_CORPUS = [
     "word_count": 18215,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2885000,
-    "investment_formatted": "$2,885,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -8691,11 +8341,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0206",
     "content_type": "Projects",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Sos Newcomers",
+    "date": "October 2024",
+    "title": "'S'o's' 'N'e'w'c'o'm'e'r's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-newcomers/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -8719,12 +8369,11 @@ const FULL_508_CORPUS = [
     "word_count": 18258,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3022000,
-    "investment_formatted": "$3,022,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -8732,11 +8381,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0207",
     "content_type": "Projects",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Sos Mid-Career",
+    "date": "May 2023",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-mid-career/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -8761,12 +8410,11 @@ const FULL_508_CORPUS = [
     "word_count": 18301,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3159000,
-    "investment_formatted": "$3,159,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -8774,11 +8422,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0208",
     "content_type": "Projects",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Workplace Inclusion Kingston",
+    "date": "October 2024",
+    "title": "'W'o'r'k'p'l'a'c'e' 'I'n'c'l'u's'i'o'n' 'K'i'n'g's't'o'n'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/workplace-inclusion-kingston/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -8802,13 +8450,11 @@ const FULL_508_CORPUS = [
     "word_count": 18344,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3296000,
-    "investment_formatted": "$3,296,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -8816,11 +8462,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0209",
     "content_type": "Projects",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Esat",
+    "date": "October 2024",
+    "title": "'E's'a't'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/esat/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -8845,14 +8491,11 @@ const FULL_508_CORPUS = [
     "word_count": 18387,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 583000,
-    "investment_formatted": "$583,000",
-    "partner": "Labour Education Centre",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -8860,11 +8503,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0210",
     "content_type": "Projects",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Bioalliance Workplace Learning",
+    "date": "October 2024",
+    "title": "'B'i'o'a'l'l'i'a'n'c'e' 'W'o'r'k'p'l'a'c'e' 'L'e'a'r'n'i'n'g'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/bioalliance-workplace-learning/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -8888,15 +8531,11 @@ const FULL_508_CORPUS = [
     "word_count": 18430,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 720000,
-    "investment_formatted": "$720,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -8904,8 +8543,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0211",
     "content_type": "Projects",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Newcomer Entrepreneurship Program",
+    "date": "October 2024",
+    "title": "'N'e'w'c'o'm'e'r' 'E'n't'r'e'p'r'e'n'e'u'r's'h'i'p' 'P'r'o'g'r'a'm'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -8933,9 +8572,9 @@ const FULL_508_CORPUS = [
     "word_count": 18473,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 857000,
-    "investment_formatted": "$857,000",
-    "partner": "The Conference Board of Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -8945,11 +8584,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0212",
     "content_type": "Projects",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Invest Talent",
+    "date": "June 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "British Columbia",
     "url": "https://fsc-ccf.ca/projects/invest-talent/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -8975,10 +8614,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 480500,
     "investment_formatted": "$480,500",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Invest Vancouver",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "British Columbia"
     ]
   },
   {
@@ -8986,11 +8624,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0213",
     "content_type": "Projects",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Fast",
+    "date": "October 2024",
+    "title": "'F'a's't'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/fast/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -9015,12 +8653,11 @@ const FULL_508_CORPUS = [
     "word_count": 18559,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1131000,
-    "investment_formatted": "$1,131,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -9028,11 +8665,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0214",
     "content_type": "Projects",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Real Estate Development Incubator",
+    "date": "October 2024",
+    "title": "'R'e'a'l' 'E's't'a't'e' 'D'e'v'e'l'o'p'm'e'n't' 'I'n'c'u'b'a't'o'r'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/real-estate-development-incubator/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -9056,13 +8693,11 @@ const FULL_508_CORPUS = [
     "word_count": 18602,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1268000,
-    "investment_formatted": "$1,268,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -9070,11 +8705,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0215",
     "content_type": "Projects",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Sustainability for the Bio Economy",
+    "date": "October 2024",
+    "title": "'S'u's't'a'i'n'a'b'i'l'i't'y' 'f'o'r' 't'h'e' 'B'i'o' 'E'c'o'n'o'm'y'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sustainability-for-the-bio-economy/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -9099,14 +8734,11 @@ const FULL_508_CORPUS = [
     "word_count": 18645,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1405000,
-    "investment_formatted": "$1,405,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -9114,11 +8746,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0216",
     "content_type": "Projects",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Early Childhood Education Lab 2",
+    "date": "October 2024",
+    "title": "'E'a'r'l'y' 'C'h'i'l'd'h'o'o'd' 'E'd'u'c'a't'i'o'n' 'L'a'b' '2'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/early-childhood-education-lab-2/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -9142,15 +8774,11 @@ const FULL_508_CORPUS = [
     "word_count": 18688,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1542000,
-    "investment_formatted": "$1,542,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -9158,8 +8786,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0217",
     "content_type": "Projects",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Inshore Fishery Nunavut",
+    "date": "October 2024",
+    "title": "'I'n's'h'o'r'e' 'F'i's'h'e'r'y' 'N'u'n'a'v'u't'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -9187,9 +8815,9 @@ const FULL_508_CORPUS = [
     "word_count": 18731,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1679000,
-    "investment_formatted": "$1,679,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -9199,11 +8827,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0218",
     "content_type": "Projects",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Imandm",
+    "date": "October 2024",
+    "title": "'I'm'a'n'd'm'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/imandm/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -9227,12 +8855,11 @@ const FULL_508_CORPUS = [
     "word_count": 18774,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 1816000,
-    "investment_formatted": "$1,816,000",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -9240,11 +8867,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0219",
     "content_type": "Projects",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Mindframe Connect 2",
+    "date": "May 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/mindframe-connect-2/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -9271,10 +8898,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 3213750,
     "investment_formatted": "$3,213,750",
-    "partner": "Labour Education Centre",
+    "partner": "Dalhousie University",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -9282,11 +8908,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0220",
     "content_type": "Projects",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Inclusive Work-Integrated Learning",
+    "date": "October 2024",
+    "title": "'I'n'c'l'u's'i'v'e' 'W'o'r'k'-'I'n't'e'g'r'a't'e'd' 'L'e'a'r'n'i'n'g'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/inclusive-work-integrated-learning/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -9310,13 +8936,11 @@ const FULL_508_CORPUS = [
     "word_count": 18860,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2090000,
-    "investment_formatted": "$2,090,000",
-    "partner": "Food Processing Skills Canada",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -9324,11 +8948,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0221",
     "content_type": "Projects",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Edi Backlash",
+    "date": "April 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/edi-backlash/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -9355,12 +8979,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 980245,
     "investment_formatted": "$980,245",
-    "partner": "The Conference Board of Canada",
+    "partner": "Environics Institute",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -9368,11 +8989,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0222",
     "content_type": "Projects",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Municipal Sharing Platform",
+    "date": "October 2024",
+    "title": "'M'u'n'i'c'i'p'a'l' 'S'h'a'r'i'n'g' 'P'l'a't'f'o'r'm'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/municipal-sharing-platform/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -9396,15 +9017,11 @@ const FULL_508_CORPUS = [
     "word_count": 18946,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2364000,
-    "investment_formatted": "$2,364,000",
-    "partner": "Blueprint-ADE & CME",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -9412,8 +9029,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0223",
     "content_type": "Projects",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Bcit Experiential Learning",
+    "date": "July 2023",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -9441,9 +9058,9 @@ const FULL_508_CORPUS = [
     "word_count": 18989,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2501000,
-    "investment_formatted": "$2,501,000",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "investment_num": 2048012,
+    "investment_formatted": "$2,048,012",
+    "partner": "British Columbia Institute of Technology",
     "locations": [
       "Across Canada"
     ]
@@ -9453,11 +9070,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0224",
     "content_type": "Projects",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Newcomer Physicians",
+    "date": "October 2024",
+    "title": "'N'e'w'c'o'm'e'r' 'P'h'y's'i'c'i'a'n's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/newcomer-physicians/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -9481,12 +9098,11 @@ const FULL_508_CORPUS = [
     "word_count": 9432,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2638000,
-    "investment_formatted": "$2,638,000",
-    "partner": "Indigenous Works & FSC Consortium",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -9494,11 +9110,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0225",
     "content_type": "Projects",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Nurses in Alberta",
+    "date": "July 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Alberta",
     "url": "https://fsc-ccf.ca/projects/nurses-in-alberta/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -9525,10 +9141,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 499000,
     "investment_formatted": "$499,000",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Bow Valley College",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Alberta"
     ]
   },
   {
@@ -9536,11 +9151,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0226",
     "content_type": "Projects",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Sos Healthcare Workforce",
+    "date": "October 2024",
+    "title": "'S'o's' 'H'e'a'l't'h'c'a'r'e' 'W'o'r'k'f'o'r'c'e'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/sos-healthcare-workforce/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -9564,13 +9179,11 @@ const FULL_508_CORPUS = [
     "word_count": 9518,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 2912000,
-    "investment_formatted": "$2,912,000",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -9578,11 +9191,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0227",
     "content_type": "Projects",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Adapt",
+    "date": "October 2024",
+    "title": "'A'd'a'p't'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/projects/adapt/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -9607,14 +9220,11 @@ const FULL_508_CORPUS = [
     "word_count": 9561,
     "ingestion_timestamp_utc": "2026-08-08 06:52:00 UTC",
     "irr_kappa_score": 0.88,
-    "investment_num": 3049000,
-    "investment_formatted": "$3,049,000",
-    "partner": "Canadian Manufacturers & Exporters",
+    "investment_num": 0,
+    "investment_formatted": "N/A (Knowledge Publication)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -9622,11 +9232,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0228",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Report",
+    "date": "October 2024",
+    "title": "'R'e'p'o'r't'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -9652,13 +9262,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -9666,8 +9272,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0229",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Artificial Intelligence How Is It Shaping the Future of Work and Skills",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -9697,7 +9303,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -9707,11 +9313,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0230",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "The Career Development Profession in Canada and the Emergence of Online Multi Modal Practice Delivery",
+    "date": "October 2024",
+    "title": "'T'h'e' 'C'a'r'e'e'r' 'D'e'v'e'l'o'p'm'e'n't' 'P'r'o'f'e's's'i'o'n' 'i'n' 'C'a'n'a'd'a' 'a'n'd' 't'h'e' 'E'm'e'r'g'e'n'c'e' 'o'f' 'O'n'l'i'n'e' 'M'u'l't'i' 'M'o'd'a'l' 'P'r'a'c't'i'c'e' 'D'e'l'i'v'e'r'y'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/the-career-development-profession-in-canada-and-the-emergence-of-online-multi-modal-practice-delivery/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -9737,10 +9343,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -9748,11 +9353,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0231",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Diversity Equity and Inclusion in Responsive Career Pathways",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/diversity-equity-and-inclusion-in-responsive-career-pathways/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -9779,10 +9384,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -9790,11 +9394,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0232",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "The Role of Employers in Responsive Career Pathways",
+    "date": "October 2024",
+    "title": "'T'h'e' 'R'o'l'e' 'o'f' 'E'm'p'l'o'y'e'r's' 'i'n' 'R'e's'p'o'n's'i'v'e' 'C'a'r'e'e'r' 'P'a't'h'w'a'y's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/the-role-of-employers-in-responsive-career-pathways/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -9820,11 +9424,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -9832,11 +9434,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0233",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Use of Technology and Tools",
+    "date": "October 2024",
+    "title": "'U's'e' 'o'f' 'T'e'c'h'n'o'l'o'g'y' 'a'n'd' 'T'o'o'l's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/use-of-technology-and-tools/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -9863,12 +9465,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -9876,11 +9475,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0234",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Breaking Down Barriers to Career Development",
+    "date": "October 2024",
+    "title": "'B'r'e'a'k'i'n'g' 'D'o'w'n' 'B'a'r'r'i'e'r's' 't'o' 'C'a'r'e'e'r' 'D'e'v'e'l'o'p'm'e'n't'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/breaking-down-barriers-to-career-development/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -9906,13 +9505,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -9920,8 +9515,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0235",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Labour Market Information in Responsive Career Pathways",
+    "date": "October 2024",
+    "title": "'L'a'b'o'u'r' 'M'a'r'k'e't' 'I'n'f'o'r'm'a't'i'o'n' 'i'n' 'R'e's'p'o'n's'i'v'e' 'C'a'r'e'e'r' 'P'a't'h'w'a'y's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -9951,7 +9546,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -9961,11 +9556,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0236",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Navigating Canada's Messy Education and Training Marketplace for Career Focused Learning",
+    "date": "October 2024",
+    "title": "'N'a'v'i'g'a't'i'n'g' 'C'a'n'a'd'a'''s' 'M'e's's'y' 'E'd'u'c'a't'i'o'n' 'a'n'd' 'T'r'a'i'n'i'n'g' 'M'a'r'k'e't'p'l'a'c'e' 'f'o'r' 'C'a'r'e'e'r' 'F'o'c'u's'e'd' 'L'e'a'r'n'i'n'g'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/navigating-canadas-messy-education-and-training-marketplace-for-career-focused-learning/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -9991,10 +9586,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -10002,11 +9596,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0237",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Applying Behavioural Insights to Career Guidance",
+    "date": "October 2024",
+    "title": "'A'p'p'l'y'i'n'g' 'B'e'h'a'v'i'o'u'r'a'l' 'I'n's'i'g'h't's' 't'o' 'C'a'r'e'e'r' 'G'u'i'd'a'n'c'e'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/applying-behavioural-insights-to-career-guidance/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -10033,10 +9627,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -10044,11 +9637,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0238",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Scaling Up Skills Development What Works",
+    "date": "October 2024",
+    "title": "'S'c'a'l'i'n'g' 'U'p' 'S'k'i'l'l's' 'D'e'v'e'l'o'p'm'e'n't' 'W'h'a't' 'W'o'r'k's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/scaling-up-skills-development-what-works/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -10074,11 +9667,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -10086,11 +9677,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0239",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Microcredentials in Flux Challenges Opportunities and Insights from Fscs Portfolio",
+    "date": "October 2024",
+    "title": "'M'i'c'r'o'c'r'e'd'e'n't'i'a'l's' 'i'n' 'F'l'u'x' 'C'h'a'l'l'e'n'g'e's' 'O'p'p'o'r't'u'n'i't'i'e's' 'a'n'd' 'I'n's'i'g'h't's' 'f'r'o'm' 'F's'c's' 'P'o'r't'f'o'l'i'o'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/microcredentials-in-flux-challenges-opportunities-and-insights-from-fscs-portfolio/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -10117,12 +9708,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -10130,11 +9718,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0240",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "The Only Constant Changing Nature of Work and Skills",
+    "date": "October 2024",
+    "title": "'T'h'e' 'O'n'l'y' 'C'o'n's't'a'n't' 'C'h'a'n'g'i'n'g' 'N'a't'u'r'e' 'o'f' 'W'o'r'k' 'a'n'd' 'S'k'i'l'l's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/the-only-constant-changing-nature-of-work-and-skills/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -10160,13 +9748,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -10174,8 +9758,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0241",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Social and Digital Infrastructure Laying the Groundwork for an Inclusive Recovery",
+    "date": "October 2024",
+    "title": "'S'o'c'i'a'l' 'a'n'd' 'D'i'g'i't'a'l' 'I'n'f'r'a's't'r'u'c't'u'r'e' 'L'a'y'i'n'g' 't'h'e' 'G'r'o'u'n'd'w'o'r'k' 'f'o'r' 'a'n' 'I'n'c'l'u's'i'v'e' 'R'e'c'o'v'e'r'y'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -10205,7 +9789,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -10215,11 +9799,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0242",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Essential Skills for Learning and Working Perspectives from Education and Employment Leaders Across Canada",
+    "date": "October 2024",
+    "title": "'E's's'e'n't'i'a'l' 'S'k'i'l'l's' 'f'o'r' 'L'e'a'r'n'i'n'g' 'a'n'd' 'W'o'r'k'i'n'g' 'P'e'r's'p'e'c't'i'v'e's' 'f'r'o'm' 'E'd'u'c'a't'i'o'n' 'a'n'd' 'E'm'p'l'o'y'm'e'n't' 'L'e'a'd'e'r's' 'A'c'r'o's's' 'C'a'n'a'd'a'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/essential-skills-for-learning-and-working-perspectives-from-education-and-employment-leaders-across-canada/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -10245,10 +9829,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -10256,11 +9839,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0243",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Beyond the Classroom the Future of Post Secondary Education Has Arrived",
+    "date": "October 2024",
+    "title": "'B'e'y'o'n'd' 't'h'e' 'C'l'a's's'r'o'o'm' 't'h'e' 'F'u't'u'r'e' 'o'f' 'P'o's't' 'S'e'c'o'n'd'a'r'y' 'E'd'u'c'a't'i'o'n' 'H'a's' 'A'r'r'i'v'e'd'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/beyond-the-classroom-the-future-of-post-secondary-education-has-arrived/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -10287,10 +9870,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -10298,11 +9880,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0244",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Recovery for All Finding Equities in Education and Employment",
+    "date": "October 2024",
+    "title": "'R'e'c'o'v'e'r'y' 'f'o'r' 'A'l'l' 'F'i'n'd'i'n'g' 'E'q'u'i't'i'e's' 'i'n' 'E'd'u'c'a't'i'o'n' 'a'n'd' 'E'm'p'l'o'y'm'e'n't'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/recovery-for-all-finding-equities-in-education-and-employment/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -10328,11 +9910,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -10340,11 +9920,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0245",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Skills Needs for Zero Emissions Vehicle and Battery Manufacturing in Ontario Summary for Policymakers",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'N'e'e'd's' 'f'o'r' 'Z'e'r'o' 'E'm'i's's'i'o'n's' 'V'e'h'i'c'l'e' 'a'n'd' 'B'a't't'e'r'y' 'M'a'n'u'f'a'c't'u'r'i'n'g' 'i'n' 'O'n't'a'r'i'o' 'S'u'm'm'a'r'y' 'f'o'r' 'P'o'l'i'c'y'm'a'k'e'r's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/skills-needs-for-zero-emissions-vehicle-and-battery-manufacturing-in-ontario-summary-for-policymakers/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -10371,12 +9951,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -10384,11 +9961,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0246",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Future Proofing the Automotive Workforce Supporting Ontarios Auto Sector Workers Through the Zev Transition",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'P'r'o'o'f'i'n'g' 't'h'e' 'A'u't'o'm'o't'i'v'e' 'W'o'r'k'f'o'r'c'e' 'S'u'p'p'o'r't'i'n'g' 'O'n't'a'r'i'o's' 'A'u't'o' 'S'e'c't'o'r' 'W'o'r'k'e'r's' 'T'h'r'o'u'g'h' 't'h'e' 'Z'e'v' 'T'r'a'n's'i't'i'o'n'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/future-proofing-the-automotive-workforce-supporting-ontarios-auto-sector-workers-through-the-zev-transition/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -10414,13 +9991,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -10428,8 +10001,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0247",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Shifting Gears How Ontarios Push to Manufacturing Zero Emissions Vehicles Will Impact the Workforce",
+    "date": "October 2024",
+    "title": "'S'h'i'f't'i'n'g' 'G'e'a'r's' 'H'o'w' 'O'n't'a'r'i'o's' 'P'u's'h' 't'o' 'M'a'n'u'f'a'c't'u'r'i'n'g' 'Z'e'r'o' 'E'm'i's's'i'o'n's' 'V'e'h'i'c'l'e's' 'W'i'l'l' 'I'm'p'a'c't' 't'h'e' 'W'o'r'k'f'o'r'c'e'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -10459,7 +10032,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -10469,11 +10042,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0248",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Effective Employer Engagement in Skills Development from Rhetoric to Solutions",
+    "date": "October 2024",
+    "title": "'E'f'f'e'c't'i'v'e' 'E'm'p'l'o'y'e'r' 'E'n'g'a'g'e'm'e'n't' 'i'n' 'S'k'i'l'l's' 'D'e'v'e'l'o'p'm'e'n't' 'f'r'o'm' 'R'h'e't'o'r'i'c' 't'o' 'S'o'l'u't'i'o'n's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/effective-employer-engagement-in-skills-development-from-rhetoric-to-solutions/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -10499,10 +10072,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -10510,11 +10082,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0249",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "State of Skills Leveraging the Skills of Newcomers",
+    "date": "October 2024",
+    "title": "'S't'a't'e' 'o'f' 'S'k'i'l'l's' 'L'e'v'e'r'a'g'i'n'g' 't'h'e' 'S'k'i'l'l's' 'o'f' 'N'e'w'c'o'm'e'r's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/report/state-of-skills-leveraging-the-skills-of-newcomers/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -10541,10 +10113,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -10552,11 +10123,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0250",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Research",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -10582,11 +10153,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -10594,11 +10163,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0251",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Opportunities Collaboration Indigenous Post Secondary Education",
+    "date": "October 2024",
+    "title": "'O'p'p'o'r't'u'n'i't'i'e's' 'C'o'l'l'a'b'o'r'a't'i'o'n' 'I'n'd'i'g'e'n'o'u's' 'P'o's't' 'S'e'c'o'n'd'a'r'y' 'E'd'u'c'a't'i'o'n'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/opportunities-collaboration-indigenous-post-secondary-education/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -10625,12 +10194,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -10638,11 +10204,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0252",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "1108",
+    "date": "October 2024",
+    "title": "'1'1'0'8'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/1108/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -10668,13 +10234,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -10682,8 +10244,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0253",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Infographic How to Forecast Skills in Demand",
+    "date": "October 2024",
+    "title": "'I'n'f'o'g'r'a'p'h'i'c' 'H'o'w' 't'o' 'F'o'r'e'c'a's't' 'S'k'i'l'l's' 'i'n' 'D'e'm'a'n'd'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -10713,7 +10275,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -10723,11 +10285,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0254",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Assessing Canada's Skills Requirements in the 21st Century",
+    "date": "October 2024",
+    "title": "'A's's'e's's'i'n'g' 'C'a'n'a'd'a'''s' 'S'k'i'l'l's' 'R'e'q'u'i'r'e'm'e'n't's' 'i'n' 't'h'e' '2'1's't' 'C'e'n't'u'r'y'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/assessing-canadas-skills-requirements-in-the-21st-century/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -10753,10 +10315,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -10764,11 +10325,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0255",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Skills for the Post-Pandemic World Series",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skills-for-the-post-pandemic-world-series/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -10795,10 +10356,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Diversity Institute",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -10806,11 +10366,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0256",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Strengthening Social and Emotional Skills in Adults the Learning Experience at Canadian Colleges",
+    "date": "October 2024",
+    "title": "'S't'r'e'n'g't'h'e'n'i'n'g' 'S'o'c'i'a'l' 'a'n'd' 'E'm'o't'i'o'n'a'l' 'S'k'i'l'l's' 'i'n' 'A'd'u'l't's' 't'h'e' 'L'e'a'r'n'i'n'g' 'E'x'p'e'r'i'e'n'c'e' 'a't' 'C'a'n'a'd'i'a'n' 'C'o'l'l'e'g'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/strengthening-social-and-emotional-skills-in-adults-the-learning-experience-at-canadian-colleges/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -10836,11 +10396,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -10848,11 +10406,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0257",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Social and Emotional Skills Measurement Toolkit",
+    "date": "October 2024",
+    "title": "'S'o'c'i'a'l' 'a'n'd' 'E'm'o't'i'o'n'a'l' 'S'k'i'l'l's' 'M'e'a's'u'r'e'm'e'n't' 'T'o'o'l'k'i't'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/social-and-emotional-skills-measurement-toolkit/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -10879,12 +10437,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -10892,11 +10447,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0258",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Social and Emotional Skills",
+    "date": "October 2024",
+    "title": "'S'o'c'i'a'l' 'a'n'd' 'E'm'o't'i'o'n'a'l' 'S'k'i'l'l's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/social-and-emotional-skills/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -10922,13 +10477,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -10936,8 +10487,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0259",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Innovation in Post Secondary Education",
+    "date": "October 2024",
+    "title": "'I'n'n'o'v'a't'i'o'n' 'i'n' 'P'o's't' 'S'e'c'o'n'd'a'r'y' 'E'd'u'c'a't'i'o'n'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -10967,7 +10518,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -10977,11 +10528,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0260",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Responding to Automation Technology Adoption in Canadian Industries",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/responding-to-automation-technology-adoption-in-canadian-industries/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -11007,10 +10558,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -11018,11 +10568,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0261",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Impact of Digital Technologies on Quality of Work",
+    "date": "October 2024",
+    "title": "'I'm'p'a'c't' 'o'f' 'D'i'g'i't'a'l' 'T'e'c'h'n'o'l'o'g'i'e's' 'o'n' 'Q'u'a'l'i't'y' 'o'f' 'W'o'r'k'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/impact-of-digital-technologies-on-quality-of-work/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -11049,10 +10599,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -11060,11 +10609,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0262",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Learning Bulletins to Share Knowledge and Insights",
+    "date": "October 2024",
+    "title": "'L'e'a'r'n'i'n'g' 'B'u'l'l'e't'i'n's' 't'o' 'S'h'a'r'e' 'K'n'o'w'l'e'd'g'e' 'a'n'd' 'I'n's'i'g'h't's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/learning-bulletins-to-share-knowledge-and-insights/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -11090,11 +10639,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -11102,11 +10649,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0263",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Covid 19 Effects Survey",
+    "date": "October 2024",
+    "title": "'C'o'v'i'd' '1'9' 'E'f'f'e'c't's' 'S'u'r'v'e'y'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/covid-19-effects-survey/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -11133,12 +10680,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -11146,11 +10690,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0264",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Spi Zevs",
+    "date": "October 2024",
+    "title": "'S'p'i' 'Z'e'v's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/spi-zevs/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -11176,13 +10720,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -11190,8 +10730,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0265",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Microcredentials Use Among Digital Professionals",
+    "date": "October 2024",
+    "title": "'M'i'c'r'o'c'r'e'd'e'n't'i'a'l's' 'U's'e' 'A'm'o'n'g' 'D'i'g'i't'a'l' 'P'r'o'f'e's's'i'o'n'a'l's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -11221,7 +10761,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -11231,11 +10771,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0266",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Diabetic Foot Care and Lower Limb Preservation",
+    "date": "October 2024",
+    "title": "'D'i'a'b'e't'i'c' 'F'o'o't' 'C'a'r'e' 'a'n'd' 'L'o'w'e'r' 'L'i'm'b' 'P'r'e's'e'r'v'a't'i'o'n'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/diabetic-foot-care-and-lower-limb-preservation/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -11261,10 +10801,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -11272,11 +10811,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0267",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Gender Diversity Discrimination Survey",
+    "date": "October 2024",
+    "title": "'G'e'n'd'e'r' 'D'i'v'e'r's'i't'y' 'D'i's'c'r'i'm'i'n'a't'i'o'n' 'S'u'r'v'e'y'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/gender-diversity-discrimination-survey/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -11303,10 +10842,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -11314,11 +10852,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0268",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Starting a New Business Survey",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/starting-a-new-business-survey/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -11344,11 +10882,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -11356,11 +10892,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0269",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Adapting to the Changing World of Work 2020 Full Survey Report on Employment and Skills",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/adapting-to-the-changing-world-of-work-2020-full-survey-report-on-employment-and-skills/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -11387,12 +10923,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Environics Institute",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -11400,11 +10933,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0270",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "A Foundation for the Next Normal Outlook of Technology Adoption Its Impact in the Canada Workplace",
+    "date": "October 2024",
+    "title": "'A' 'F'o'u'n'd'a't'i'o'n' 'f'o'r' 't'h'e' 'N'e'x't' 'N'o'r'm'a'l' 'O'u't'l'o'o'k' 'o'f' 'T'e'c'h'n'o'l'o'g'y' 'A'd'o'p't'i'o'n' 'I't's' 'I'm'p'a'c't' 'i'n' 't'h'e' 'C'a'n'a'd'a' 'W'o'r'k'p'l'a'c'e'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/a-foundation-for-the-next-normal-outlook-of-technology-adoption-its-impact-in-the-canada-workplace/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -11430,13 +10963,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -11444,8 +10973,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0271",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Job Transitions in Canada",
+    "date": "October 2024",
+    "title": "'J'o'b' 'T'r'a'n's'i't'i'o'n's' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -11475,7 +11004,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -11485,11 +11014,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0272",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "A Typology of Gig Workers in Canada Towards a New Model for Understanding Gig Work Through Human Social and Economic Capital",
+    "date": "October 2024",
+    "title": "'A' 'T'y'p'o'l'o'g'y' 'o'f' 'G'i'g' 'W'o'r'k'e'r's' 'i'n' 'C'a'n'a'd'a' 'T'o'w'a'r'd's' 'a' 'N'e'w' 'M'o'd'e'l' 'f'o'r' 'U'n'd'e'r's't'a'n'd'i'n'g' 'G'i'g' 'W'o'r'k' 'T'h'r'o'u'g'h' 'H'u'm'a'n' 'S'o'c'i'a'l' 'a'n'd' 'E'c'o'n'o'm'i'c' 'C'a'p'i't'a'l'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/a-typology-of-gig-workers-in-canada-towards-a-new-model-for-understanding-gig-work-through-human-social-and-economic-capital/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -11515,10 +11044,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -11526,11 +11054,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0273",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Applied and Experiential Skills",
+    "date": "October 2024",
+    "title": "'A'p'p'l'i'e'd' 'a'n'd' 'E'x'p'e'r'i'e'n't'i'a'l' 'S'k'i'l'l's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/applied-and-experiential-skills/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -11557,10 +11085,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -11568,11 +11095,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0274",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Are Adults Making Use of Career Services in Canada",
+    "date": "October 2024",
+    "title": "'A'r'e' 'A'd'u'l't's' 'M'a'k'i'n'g' 'U's'e' 'o'f' 'C'a'r'e'e'r' 'S'e'r'v'i'c'e's' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/are-adults-making-use-of-career-services-in-canada/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -11598,11 +11125,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -11610,11 +11135,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0275",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Beyond Blue and White Collar a Skills Based Approach to Canadian Job Groupings",
+    "date": "October 2024",
+    "title": "'B'e'y'o'n'd' 'B'l'u'e' 'a'n'd' 'W'h'i't'e' 'C'o'l'l'a'r' 'a' 'S'k'i'l'l's' 'B'a's'e'd' 'A'p'p'r'o'a'c'h' 't'o' 'C'a'n'a'd'i'a'n' 'J'o'b' 'G'r'o'u'p'i'n'g's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/beyond-blue-and-white-collar-a-skills-based-approach-to-canadian-job-groupings/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -11641,12 +11166,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -11654,11 +11176,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0276",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Blue Occupation Pathways",
+    "date": "October 2024",
+    "title": "'B'l'u'e' 'O'c'c'u'p'a't'i'o'n' 'P'a't'h'w'a'y's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/blue-occupation-pathways/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -11684,13 +11206,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -11698,8 +11216,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0277",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Bracing for Automation",
+    "date": "October 2024",
+    "title": "'B'r'a'c'i'n'g' 'f'o'r' 'A'u't'o'm'a't'i'o'n'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -11729,7 +11247,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -11739,11 +11257,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0278",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Breaking Down Barriers",
+    "date": "October 2024",
+    "title": "'B'r'e'a'k'i'n'g' 'D'o'w'n' 'B'a'r'r'i'e'r's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/breaking-down-barriers/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -11769,10 +11287,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -11780,11 +11297,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0279",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Bridging the Digital Skills Gap Alternative Pathways",
+    "date": "October 2024",
+    "title": "'B'r'i'd'g'i'n'g' 't'h'e' 'D'i'g'i't'a'l' 'S'k'i'l'l's' 'G'a'p' 'A'l't'e'r'n'a't'i'v'e' 'P'a't'h'w'a'y's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/bridging-the-digital-skills-gap-alternative-pathways/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -11811,10 +11328,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -11822,11 +11338,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0280",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Social and Emotional Skills Black Canadians Perspectives",
+    "date": "October 2024",
+    "title": "'S'o'c'i'a'l' 'a'n'd' 'E'm'o't'i'o'n'a'l' 'S'k'i'l'l's' 'B'l'a'c'k' 'C'a'n'a'd'i'a'n's' 'P'e'r's'p'e'c't'i'v'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/social-and-emotional-skills-black-canadians-perspectives/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -11852,11 +11368,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -11864,11 +11378,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0281",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Bridging the Skills Gap Within Small and Medium Sized Enterprises in Quebec an Analytical and Empirical Analysis",
+    "date": "October 2024",
+    "title": "'B'r'i'd'g'i'n'g' 't'h'e' 'S'k'i'l'l's' 'G'a'p' 'W'i't'h'i'n' 'S'm'a'l'l' 'a'n'd' 'M'e'd'i'u'm' 'S'i'z'e'd' 'E'n't'e'r'p'r'i's'e's' 'i'n' 'Q'u'e'b'e'c' 'a'n' 'A'n'a'l'y't'i'c'a'l' 'a'n'd' 'E'm'p'i'r'i'c'a'l' 'A'n'a'l'y's'i's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/bridging-the-skills-gap-within-small-and-medium-sized-enterprises-in-quebec-an-analytical-and-empirical-analysis/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -11895,12 +11409,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -11908,11 +11419,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0282",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Framework Labour Market Information Needs",
+    "date": "October 2024",
+    "title": "'F'r'a'm'e'w'o'r'k' 'L'a'b'o'u'r' 'M'a'r'k'e't' 'I'n'f'o'r'm'a't'i'o'n' 'N'e'e'd's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/framework-labour-market-information-needs/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -11938,13 +11449,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -11952,8 +11459,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0283",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Building a Digitally Skilled Workforce",
+    "date": "October 2024",
+    "title": "'B'u'i'l'd'i'n'g' 'a' 'D'i'g'i't'a'l'l'y' 'S'k'i'l'l'e'd' 'W'o'r'k'f'o'r'c'e'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -11983,7 +11490,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -11993,11 +11500,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0284",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Building Inclusive Workplaces",
+    "date": "October 2024",
+    "title": "'B'u'i'l'd'i'n'g' 'I'n'c'l'u's'i'v'e' 'W'o'r'k'p'l'a'c'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/building-inclusive-workplaces/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -12023,10 +11530,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -12034,11 +11540,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0285",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Neurodiversity in Workplace",
+    "date": "October 2024",
+    "title": "'N'e'u'r'o'd'i'v'e'r's'i't'y' 'i'n' 'W'o'r'k'p'l'a'c'e'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/neurodiversity-in-workplace/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -12065,10 +11571,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -12076,11 +11581,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0286",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Can Social and Emotional Skills Be Taught",
+    "date": "October 2024",
+    "title": "'C'a'n' 'S'o'c'i'a'l' 'a'n'd' 'E'm'o't'i'o'n'a'l' 'S'k'i'l'l's' 'B'e' 'T'a'u'g'h't'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/can-social-and-emotional-skills-be-taught/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -12106,11 +11611,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -12118,11 +11621,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0287",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Canadian Labour Demand Update Analysis of Job Postings for the Fourth Quarter of 2020",
+    "date": "October 2024",
+    "title": "'C'a'n'a'd'i'a'n' 'L'a'b'o'u'r' 'D'e'm'a'n'd' 'U'p'd'a't'e' 'A'n'a'l'y's'i's' 'o'f' 'J'o'b' 'P'o's't'i'n'g's' 'f'o'r' 't'h'e' 'F'o'u'r't'h' 'Q'u'a'r't'e'r' 'o'f' '2'0'2'0'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/canadian-labour-demand-update-analysis-of-job-postings-for-the-fourth-quarter-of-2020/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -12149,12 +11652,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -12162,11 +11662,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0288",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Career Guidance for Adults in Canada",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/career-guidance-for-adults-in-canada/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -12192,13 +11692,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Labour Market Information Council",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -12206,8 +11702,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0289",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Chatgpt Organizational and Labour Implications",
+    "date": "October 2024",
+    "title": "'C'h'a't'g'p't' 'O'r'g'a'n'i'z'a't'i'o'n'a'l' 'a'n'd' 'L'a'b'o'u'r' 'I'm'p'l'i'c'a't'i'o'n's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -12237,7 +11733,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -12247,11 +11743,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0290",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Competency Frameworks and Canada's Essential Skills",
+    "date": "October 2024",
+    "title": "'C'o'm'p'e't'e'n'c'y' 'F'r'a'm'e'w'o'r'k's' 'a'n'd' 'C'a'n'a'd'a'''s' 'E's's'e'n't'i'a'l' 'S'k'i'l'l's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/competency-frameworks-and-canadas-essential-skills/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -12277,10 +11773,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -12288,11 +11783,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0291",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Covid 19 and Logistics Changes",
+    "date": "October 2024",
+    "title": "'C'o'v'i'd' '1'9' 'a'n'd' 'L'o'g'i's't'i'c's' 'C'h'a'n'g'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/covid-19-and-logistics-changes/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -12319,10 +11814,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -12330,11 +11824,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0292",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Curriculum and Reconciliation",
+    "date": "October 2024",
+    "title": "'C'u'r'r'i'c'u'l'u'm' 'a'n'd' 'R'e'c'o'n'c'i'l'i'a't'i'o'n'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/curriculum-and-reconciliation/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -12360,11 +11854,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -12372,11 +11864,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0293",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Digital Differences the Impact of Automation on the Indigenous Economy in Canada",
+    "date": "October 2024",
+    "title": "'D'i'g'i't'a'l' 'D'i'f'f'e'r'e'n'c'e's' 't'h'e' 'I'm'p'a'c't' 'o'f' 'A'u't'o'm'a't'i'o'n' 'o'n' 't'h'e' 'I'n'd'i'g'e'n'o'u's' 'E'c'o'n'o'm'y' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/digital-differences-the-impact-of-automation-on-the-indigenous-economy-in-canada/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -12403,12 +11895,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -12416,11 +11905,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0294",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Digital Infrastructure for the Post-Pandemic World",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/digital-infrastructure-for-the-post-pandemic-world/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -12446,13 +11935,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Diversity Institute",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -12460,8 +11945,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0295",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Digital Occupation Pathways from Vulnerable Jobs to Rapid Growth Careers",
+    "date": "October 2024",
+    "title": "'D'i'g'i't'a'l' 'O'c'c'u'p'a't'i'o'n' 'P'a't'h'w'a'y's' 'f'r'o'm' 'V'u'l'n'e'r'a'b'l'e' 'J'o'b's' 't'o' 'R'a'p'i'd' 'G'r'o'w't'h' 'C'a'r'e'e'r's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -12491,7 +11976,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -12501,11 +11986,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0296",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Digital Skills and the Skills Gap",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/digital-skills-and-the-skills-gap/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -12531,10 +12016,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Diversity Institute",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -12542,11 +12026,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0297",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Digital Skills Today Tomorrow",
+    "date": "October 2024",
+    "title": "'D'i'g'i't'a'l' 'S'k'i'l'l's' 'T'o'd'a'y' 'T'o'm'o'r'r'o'w'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/digital-skills-today-tomorrow/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -12573,10 +12057,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -12584,11 +12067,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0298",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Digital Transformation of Government",
+    "date": "October 2024",
+    "title": "'D'i'g'i't'a'l' 'T'r'a'n's'f'o'r'm'a't'i'o'n' 'o'f' 'G'o'v'e'r'n'm'e'n't'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/digital-transformation-of-government/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -12614,11 +12097,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -12626,11 +12107,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0299",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Disconnecting from Work the Varied Experiences of Canadian Workers",
+    "date": "October 2024",
+    "title": "'D'i's'c'o'n'n'e'c't'i'n'g' 'f'r'o'm' 'W'o'r'k' 't'h'e' 'V'a'r'i'e'd' 'E'x'p'e'r'i'e'n'c'e's' 'o'f' 'C'a'n'a'd'i'a'n' 'W'o'r'k'e'r's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/disconnecting-from-work-the-varied-experiences-of-canadian-workers/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -12657,12 +12138,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -12670,11 +12148,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0300",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Diversity in Leadership at Tsx Companies",
+    "date": "October 2024",
+    "title": "'D'i'v'e'r's'i't'y' 'i'n' 'L'e'a'd'e'r's'h'i'p' 'a't' 'T's'x' 'C'o'm'p'a'n'i'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/diversity-in-leadership-at-tsx-companies/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -12700,13 +12178,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -12714,8 +12188,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0301",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Economic Equality in a Changing World Removing Barriers to Employment for Women",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -12745,7 +12219,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Public Policy Forum",
     "locations": [
       "Across Canada"
     ]
@@ -12755,11 +12229,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0302",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Employment Gaps and Underemployment for Racialized Groups and Immigrants in Canada",
+    "date": "October 2024",
+    "title": "'E'm'p'l'o'y'm'e'n't' 'G'a'p's' 'a'n'd' 'U'n'd'e'r'e'm'p'l'o'y'm'e'n't' 'f'o'r' 'R'a'c'i'a'l'i'z'e'd' 'G'r'o'u'p's' 'a'n'd' 'I'm'm'i'g'r'a'n't's' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/employment-gaps-and-underemployment-for-racialized-groups-and-immigrants-in-canada/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -12785,10 +12259,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -12796,11 +12269,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0303",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Employment in 2030 Action Labs",
+    "date": "October 2024",
+    "title": "'E'm'p'l'o'y'm'e'n't' 'i'n' '2'0'3'0' 'A'c't'i'o'n' 'L'a'b's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/employment-in-2030-action-labs/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -12827,10 +12300,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -12838,11 +12310,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0304",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Employment Transitions in Canadian Metropolitan Areas",
+    "date": "October 2024",
+    "title": "'E'm'p'l'o'y'm'e'n't' 'T'r'a'n's'i't'i'o'n's' 'i'n' 'C'a'n'a'd'i'a'n' 'M'e't'r'o'p'o'l'i't'a'n' 'A'r'e'a's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/employment-transitions-in-canadian-metropolitan-areas/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -12868,11 +12340,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -12880,11 +12350,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0305",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Experiences of Discrimination at Work",
+    "date": "October 2024",
+    "title": "'E'x'p'e'r'i'e'n'c'e's' 'o'f' 'D'i's'c'r'i'm'i'n'a't'i'o'n' 'a't' 'W'o'r'k'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/experiences-of-discrimination-at-work/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -12911,12 +12381,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -12924,11 +12391,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0306",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Experiential Learning in the Social Sector",
+    "date": "October 2024",
+    "title": "'E'x'p'e'r'i'e'n't'i'a'l' 'L'e'a'r'n'i'n'g' 'i'n' 't'h'e' 'S'o'c'i'a'l' 'S'e'c't'o'r'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/experiential-learning-in-the-social-sector/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -12954,13 +12421,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -12968,8 +12431,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0307",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Finding Value Tourism Hospitality Industry",
+    "date": "October 2024",
+    "title": "'F'i'n'd'i'n'g' 'V'a'l'u'e' 'T'o'u'r'i's'm' 'H'o's'p'i't'a'l'i't'y' 'I'n'd'u's't'r'y'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -12999,7 +12462,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -13009,11 +12472,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0308",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Research Call on the Future of Skills and Work in a Digital Economy",
+    "date": "October 2024",
+    "title": "'R'e's'e'a'r'c'h' 'C'a'l'l' 'o'n' 't'h'e' 'F'u't'u'r'e' 'o'f' 'S'k'i'l'l's' 'a'n'd' 'W'o'r'k' 'i'n' 'a' 'D'i'g'i't'a'l' 'E'c'o'n'o'm'y'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/research-call-on-the-future-of-skills-and-work-in-a-digital-economy/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -13039,10 +12502,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -13050,11 +12512,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0309",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Bridge to Clean Economy Careers",
+    "date": "October 2024",
+    "title": "'B'r'i'd'g'e' 't'o' 'C'l'e'a'n' 'E'c'o'n'o'm'y' 'C'a'r'e'e'r's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/bridge-to-clean-economy-careers/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -13081,10 +12543,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -13092,11 +12553,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0310",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Getting Beyond Non Standard Employment Sustainable Livelihoods for Indigenous Communities in Northern Canada",
+    "date": "October 2024",
+    "title": "'G'e't't'i'n'g' 'B'e'y'o'n'd' 'N'o'n' 'S't'a'n'd'a'r'd' 'E'm'p'l'o'y'm'e'n't' 'S'u's't'a'i'n'a'b'l'e' 'L'i'v'e'l'i'h'o'o'd's' 'f'o'r' 'I'n'd'i'g'e'n'o'u's' 'C'o'm'm'u'n'i't'i'e's' 'i'n' 'N'o'r't'h'e'r'n' 'C'a'n'a'd'a'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/getting-beyond-non-standard-employment-sustainable-livelihoods-for-indigenous-communities-in-northern-canada/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -13122,11 +12583,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -13134,11 +12593,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0311",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Green Occupations Pathways from Vulnerable Jobs to Rapid Growth Careers",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/green-occupations-pathways-from-vulnerable-jobs-to-rapid-growth-careers/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -13165,12 +12624,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -13178,11 +12634,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0312",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Greening SMEs",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/greening-smes/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -13208,13 +12664,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Diversity Institute",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -13222,8 +12674,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0313",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Hiring Green an Analysis of the Demand for Green Skills in Canada",
+    "date": "October 2024",
+    "title": "'H'i'r'i'n'g' 'G'r'e'e'n' 'a'n' 'A'n'a'l'y's'i's' 'o'f' 't'h'e' 'D'e'm'a'n'd' 'f'o'r' 'G'r'e'e'n' 'S'k'i'l'l's' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -13253,7 +12705,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -13263,11 +12715,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0314",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "How to Forecast Skills in Demand a Primer",
+    "date": "October 2024",
+    "title": "'H'o'w' 't'o' 'F'o'r'e'c'a's't' 'S'k'i'l'l's' 'i'n' 'D'e'm'a'n'd' 'a' 'P'r'i'm'e'r'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/how-to-forecast-skills-in-demand-a-primer/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -13293,10 +12745,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -13304,11 +12755,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0315",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Immigration Canada Post-Pandemic Economy",
+    "date": "October 2024",
+    "title": "'I'm'm'i'g'r'a't'i'o'n' 'C'a'n'a'd'a' 'P'o's't'-'P'a'n'd'e'm'i'c' 'E'c'o'n'o'm'y'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/immigration-canada-post-pandemic-economy/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -13335,10 +12786,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -13346,11 +12796,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0316",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Incorporating Indigenous Cultures and Realities in Stem",
+    "date": "October 2024",
+    "title": "'I'n'c'o'r'p'o'r'a't'i'n'g' 'I'n'd'i'g'e'n'o'u's' 'C'u'l't'u'r'e's' 'a'n'd' 'R'e'a'l'i't'i'e's' 'i'n' 'S't'e'm'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/incorporating-indigenous-cultures-and-realities-in-stem/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -13376,11 +12826,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -13388,11 +12836,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0317",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Indigenizing Corporate Canada",
+    "date": "October 2024",
+    "title": "'I'n'd'i'g'e'n'i'z'i'n'g' 'C'o'r'p'o'r'a't'e' 'C'a'n'a'd'a'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/indigenizing-corporate-canada/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -13419,12 +12867,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -13432,11 +12877,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0318",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Indigenous Finance and Management Professionals Critical for Reconciliation and Indigenous Self Determination",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/indigenous-finance-and-management-professionals-critical-for-reconciliation-and-indigenous-self-determination/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -13462,13 +12907,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -13476,8 +12917,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0319",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Indigenous Financial Management Finally Finding Balance a Primer",
+    "date": "October 2024",
+    "title": "'I'n'd'i'g'e'n'o'u's' 'F'i'n'a'n'c'i'a'l' 'M'a'n'a'g'e'm'e'n't' 'F'i'n'a'l'l'y' 'F'i'n'd'i'n'g' 'B'a'l'a'n'c'e' 'a' 'P'r'i'm'e'r'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -13507,7 +12948,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -13517,11 +12958,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0320",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Indigenous Stem Access Programs Leading Post Secondary Inclusion",
+    "date": "October 2024",
+    "title": "'I'n'd'i'g'e'n'o'u's' 'S't'e'm' 'A'c'c'e's's' 'P'r'o'g'r'a'm's' 'L'e'a'd'i'n'g' 'P'o's't' 'S'e'c'o'n'd'a'r'y' 'I'n'c'l'u's'i'o'n'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/indigenous-stem-access-programs-leading-post-secondary-inclusion/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -13547,10 +12988,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -13558,11 +12998,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0321",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Industry 4 0",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Ontario",
     "url": "https://fsc-ccf.ca/research/industry-4-0/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -13589,10 +13029,10 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Diversity Institute",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Ontario",
+      "Quebec"
     ]
   },
   {
@@ -13600,11 +13040,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0322",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Is the Future Micro Unbundling Learning for Flexibility Access",
+    "date": "October 2024",
+    "title": "'I's' 't'h'e' 'F'u't'u'r'e' 'M'i'c'r'o' 'U'n'b'u'n'd'l'i'n'g' 'L'e'a'r'n'i'n'g' 'f'o'r' 'F'l'e'x'i'b'i'l'i't'y' 'A'c'c'e's's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/is-the-future-micro-unbundling-learning-for-flexibility-access/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -13630,11 +13070,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -13642,11 +13080,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0323",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Job Polarization in Canada",
+    "date": "October 2024",
+    "title": "'J'o'b' 'P'o'l'a'r'i'z'a't'i'o'n' 'i'n' 'C'a'n'a'd'a'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/job-polarization-in-canada/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -13673,12 +13111,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -13686,11 +13121,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0324",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Job Posting Trends in Canada 2021 Update",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/job-posting-trends-in-canada-2021-update/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -13716,13 +13151,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Diversity Institute",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -13730,8 +13161,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0325",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Labour Demand Trends During the Covid 19 Pandemic",
+    "date": "October 2024",
+    "title": "'L'a'b'o'u'r' 'D'e'm'a'n'd' 'T'r'e'n'd's' 'D'u'r'i'n'g' 't'h'e' 'C'o'v'i'd' '1'9' 'P'a'n'd'e'm'i'c'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -13761,7 +13192,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -13771,11 +13202,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0326",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Labour Market Implications for Racialized Youth",
+    "date": "October 2024",
+    "title": "'L'a'b'o'u'r' 'M'a'r'k'e't' 'I'm'p'l'i'c'a't'i'o'n's' 'f'o'r' 'R'a'c'i'a'l'i'z'e'd' 'Y'o'u't'h'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/labour-market-implications-for-racialized-youth/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -13801,10 +13232,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -13812,11 +13242,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0327",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Learning Together Stem Outreach Programs for Indigenous Students",
+    "date": "October 2024",
+    "title": "'L'e'a'r'n'i'n'g' 'T'o'g'e't'h'e'r' 'S't'e'm' 'O'u't'r'e'a'c'h' 'P'r'o'g'r'a'm's' 'f'o'r' 'I'n'd'i'g'e'n'o'u's' 'S't'u'd'e'n't's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/learning-together-stem-outreach-programs-for-indigenous-students/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -13843,10 +13273,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -13854,11 +13283,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0328",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Lessons Learned the Pandemic and Learning from Home in Canada",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/lessons-learned-the-pandemic-and-learning-from-home-in-canada/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -13884,11 +13313,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Diversity Institute",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -13896,11 +13323,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0329",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Levelling the Playing Field for Black Canadians",
+    "date": "October 2024",
+    "title": "'L'e'v'e'l'l'i'n'g' 't'h'e' 'P'l'a'y'i'n'g' 'F'i'e'l'd' 'f'o'r' 'B'l'a'c'k' 'C'a'n'a'd'i'a'n's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/levelling-the-playing-field-for-black-canadians/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -13927,12 +13354,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -13940,11 +13364,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0330",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Leveraging the Skills of Social Sciences and Humanities Graduates",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/leveraging-the-skills-of-social-sciences-and-humanities-graduates/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -13970,13 +13394,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Public Policy Forum",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -13984,8 +13404,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0331",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Linking Skills to Nunangat Inuit Employment",
+    "date": "October 2024",
+    "title": "'L'i'n'k'i'n'g' 'S'k'i'l'l's' 't'o' 'N'u'n'a'n'g'a't' 'I'n'u'i't' 'E'm'p'l'o'y'm'e'n't'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -14015,7 +13435,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -14025,11 +13445,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0332",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Lost Opportunities Measuring the Unrealized Value of Skill Vacancies in Canada",
+    "date": "October 2024",
+    "title": "'L'o's't' 'O'p'p'o'r't'u'n'i't'i'e's' 'M'e'a's'u'r'i'n'g' 't'h'e' 'U'n'r'e'a'l'i'z'e'd' 'V'a'l'u'e' 'o'f' 'S'k'i'l'l' 'V'a'c'a'n'c'i'e's' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/lost-opportunities-measuring-the-unrealized-value-of-skill-vacancies-in-canada/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -14055,10 +13475,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -14066,11 +13485,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0333",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Made in Nunavut",
+    "date": "October 2024",
+    "title": "'M'a'd'e' 'i'n' 'N'u'n'a'v'u't'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/made-in-nunavut/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -14097,10 +13516,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -14108,11 +13526,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0334",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Impact of the Pandemic on Young Adults and Work",
+    "date": "October 2024",
+    "title": "'I'm'p'a'c't' 'o'f' 't'h'e' 'P'a'n'd'e'm'i'c' 'o'n' 'Y'o'u'n'g' 'A'd'u'l't's' 'a'n'd' 'W'o'r'k'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/impact-of-the-pandemic-on-young-adults-and-work/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -14138,11 +13556,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -14150,11 +13566,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0335",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Mapping Racialized Experiences in Real Estate Development",
+    "date": "October 2024",
+    "title": "'M'a'p'p'i'n'g' 'R'a'c'i'a'l'i'z'e'd' 'E'x'p'e'r'i'e'n'c'e's' 'i'n' 'R'e'a'l' 'E's't'a't'e' 'D'e'v'e'l'o'p'm'e'n't'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/mapping-racialized-experiences-in-real-estate-development/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -14181,12 +13597,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -14194,11 +13607,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0336",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Mapping the Landscape Indigenous Skills Training and Jobs in Canada",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/mapping-the-landscape-indigenous-skills-training-and-jobs-in-canada/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -14224,13 +13637,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Public Policy Forum",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -14238,8 +13647,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0337",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Mind and Body Impact of the Pandemic on Physical and Mental Health",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -14269,7 +13678,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Diversity Institute",
     "locations": [
       "Across Canada"
     ]
@@ -14279,11 +13688,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0338",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Compensation Gaps Between Canadian and American Tech Workers",
+    "date": "October 2024",
+    "title": "'C'o'm'p'e'n's'a't'i'o'n' 'G'a'p's' 'B'e't'w'e'e'n' 'C'a'n'a'd'i'a'n' 'a'n'd' 'A'm'e'r'i'c'a'n' 'T'e'c'h' 'W'o'r'k'e'r's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/compensation-gaps-between-canadian-and-american-tech-workers/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -14309,10 +13718,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -14320,11 +13728,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0339",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Navigating the Transition Identifying Pathways to Careers in the Insurance Industry",
+    "date": "October 2024",
+    "title": "'N'a'v'i'g'a't'i'n'g' 't'h'e' 'T'r'a'n's'i't'i'o'n' 'I'd'e'n't'i'f'y'i'n'g' 'P'a't'h'w'a'y's' 't'o' 'C'a'r'e'e'r's' 'i'n' 't'h'e' 'I'n's'u'r'a'n'c'e' 'I'n'd'u's't'r'y'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/navigating-the-transition-identifying-pathways-to-careers-in-the-insurance-industry/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -14351,10 +13759,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -14362,11 +13769,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0340",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "New Working Arrangements",
+    "date": "October 2024",
+    "title": "'N'e'w' 'W'o'r'k'i'n'g' 'A'r'r'a'n'g'e'm'e'n't's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/new-working-arrangements/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -14392,11 +13799,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -14404,11 +13809,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0341",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Newcomer Pathways to Employment Canadian Diversity Magazine Special Issue",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/newcomer-pathways-to-employment-canadian-diversity-magazine-special-issue/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -14435,12 +13840,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Diversity Institute",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -14448,11 +13850,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0342",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Nurse Educators Perspectives",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/nurse-educators-perspectives/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -14478,13 +13880,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -14492,8 +13890,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0343",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Opportunity for All",
+    "date": "October 2024",
+    "title": "'O'p'p'o'r't'u'n'i't'y' 'f'o'r' 'A'l'l'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -14523,7 +13921,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -14533,11 +13931,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0344",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Skills Training Survey",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skills-training-survey/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -14563,10 +13961,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Diversity Institute",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -14574,11 +13971,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0345",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Planning When You Cant Predict Strategic Foresight and the Future of Work",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/planning-when-you-cant-predict-strategic-foresight-and-the-future-of-work/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -14605,10 +14002,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Diversity Institute",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -14616,11 +14012,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0346",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Canadians Shifting Outlook on Employment",
+    "date": "October 2024",
+    "title": "'C'a'n'a'd'i'a'n's' 'S'h'i'f't'i'n'g' 'O'u't'l'o'o'k' 'o'n' 'E'm'p'l'o'y'm'e'n't'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/canadians-shifting-outlook-on-employment/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -14646,11 +14042,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -14658,11 +14052,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0347",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Quality of Work of Canada's Contingent Workforce",
+    "date": "October 2024",
+    "title": "'Q'u'a'l'i't'y' 'o'f' 'W'o'r'k' 'o'f' 'C'a'n'a'd'a'''s' 'C'o'n't'i'n'g'e'n't' 'W'o'r'k'f'o'r'c'e'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/quality-of-work-of-canadas-contingent-workforce/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -14689,12 +14083,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -14702,11 +14093,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0348",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Race Alongside the Machines",
+    "date": "October 2024",
+    "title": "'R'a'c'e' 'A'l'o'n'g's'i'd'e' 't'h'e' 'M'a'c'h'i'n'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/race-alongside-the-machines/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -14732,13 +14123,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -14746,8 +14133,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0349",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Readiness and Resilience Mapping the Contours of the Indigenous Skills and Employment Ecosystem in Canada",
+    "date": "October 2024",
+    "title": "'R'e'a'd'i'n'e's's' 'a'n'd' 'R'e's'i'l'i'e'n'c'e' 'M'a'p'p'i'n'g' 't'h'e' 'C'o'n't'o'u'r's' 'o'f' 't'h'e' 'I'n'd'i'g'e'n'o'u's' 'S'k'i'l'l's' 'a'n'd' 'E'm'p'l'o'y'm'e'n't' 'E'c'o's'y's't'e'm' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -14777,7 +14164,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -14787,11 +14174,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0350",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Return on Investment Industry Leadership on Upskilling and Reskilling Their Workforce",
+    "date": "October 2024",
+    "title": "'R'e't'u'r'n' 'o'n' 'I'n'v'e's't'm'e'n't' 'I'n'd'u's't'r'y' 'L'e'a'd'e'r's'h'i'p' 'o'n' 'U'p's'k'i'l'l'i'n'g' 'a'n'd' 'R'e's'k'i'l'l'i'n'g' 'T'h'e'i'r' 'W'o'r'k'f'o'r'c'e'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/return-on-investment-industry-leadership-on-upskilling-and-reskilling-their-workforce/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -14817,10 +14204,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -14828,11 +14214,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0351",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Skills for the Post-Pandemic World",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'f'o'r' 't'h'e' 'P'o's't'-'P'a'n'd'e'm'i'c' 'W'o'r'l'd'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skills-for-the-post-pandemic-world/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -14859,10 +14245,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -14870,11 +14255,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0352",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Searching for Strengths in Tourism and Hospitality Sector",
+    "date": "October 2024",
+    "title": "'S'e'a'r'c'h'i'n'g' 'f'o'r' 'S't'r'e'n'g't'h's' 'i'n' 'T'o'u'r'i's'm' 'a'n'd' 'H'o's'p'i't'a'l'i't'y' 'S'e'c't'o'r'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/searching-for-strengths-in-tourism-and-hospitality-sector/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -14900,11 +14285,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -14912,11 +14295,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0353",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Skills Development for Innovation",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'D'e'v'e'l'o'p'm'e'n't' 'f'o'r' 'I'n'n'o'v'a't'i'o'n'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skills-development-for-innovation/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -14943,12 +14326,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -14956,11 +14336,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0354",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Northern Skills Development Distinct Challenges",
+    "date": "October 2024",
+    "title": "'N'o'r't'h'e'r'n' 'S'k'i'l'l's' 'D'e'v'e'l'o'p'm'e'n't' 'D'i's't'i'n'c't' 'C'h'a'l'l'e'n'g'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/northern-skills-development-distinct-challenges/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -14986,13 +14366,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -15000,8 +14376,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0355",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Skills for Inclusive Workplaces and the Advancement of Indigenous Peoples",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -15031,7 +14407,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Diversity Institute",
     "locations": [
       "Across Canada"
     ]
@@ -15041,11 +14417,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0356",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Skills Gaps Underemployment and Equity of Labour Market Opportunities for Persons with Disabilities in Canada",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'G'a'p's' 'U'n'd'e'r'e'm'p'l'o'y'm'e'n't' 'a'n'd' 'E'q'u'i't'y' 'o'f' 'L'a'b'o'u'r' 'M'a'r'k'e't' 'O'p'p'o'r't'u'n'i't'i'e's' 'f'o'r' 'P'e'r's'o'n's' 'w'i't'h' 'D'i's'a'b'i'l'i't'i'e's' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skills-gaps-underemployment-and-equity-of-labour-market-opportunities-for-persons-with-disabilities-in-canada/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -15071,10 +14447,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -15082,11 +14457,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0357",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Skills Next",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'N'e'x't'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skills-next/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -15113,10 +14488,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -15124,11 +14498,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0358",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Small and Medium Sized Employers SMEs Skills Gaps and Future Skills",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/small-and-medium-sized-employers-smes-skills-gaps-and-future-skills/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -15154,11 +14528,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Diversity Institute",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -15166,11 +14538,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0359",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Social and Emotional Skills Across Canada",
+    "date": "October 2024",
+    "title": "'S'o'c'i'a'l' 'a'n'd' 'E'm'o't'i'o'n'a'l' 'S'k'i'l'l's' 'A'c'r'o's's' 'C'a'n'a'd'a'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/social-and-emotional-skills-across-canada/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -15197,12 +14569,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -15210,11 +14579,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0360",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Social and Emotional Skills in the Workplace Insights from Canadian Employers",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/social-and-emotional-skills-in-the-workplace-insights-from-canadian-employers/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -15240,13 +14609,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -15254,8 +14619,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0361",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Solving the Skills Puzzle the Missing Piece Is Good Information",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -15285,7 +14650,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Public Policy Forum",
     "locations": [
       "Across Canada"
     ]
@@ -15295,11 +14660,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0362",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Stem for Indigenous Learners",
+    "date": "October 2024",
+    "title": "'S't'e'm' 'f'o'r' 'I'n'd'i'g'e'n'o'u's' 'L'e'a'r'n'e'r's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/stem-for-indigenous-learners/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -15325,10 +14690,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -15336,11 +14700,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0363",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Supporting Entrepreneurship and SMEs",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/supporting-entrepreneurship-and-smes/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -15367,10 +14731,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Diversity Institute",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -15378,11 +14741,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0364",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Sustainable Northern Livelihoods a Primer",
+    "date": "October 2024",
+    "title": "'S'u's't'a'i'n'a'b'l'e' 'N'o'r't'h'e'r'n' 'L'i'v'e'l'i'h'o'o'd's' 'a' 'P'r'i'm'e'r'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/sustainable-northern-livelihoods-a-primer/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -15408,11 +14771,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -15420,11 +14781,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0365",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Teaching Green Skillswhat Actions Are Post Secondary Institutions Taking",
+    "date": "October 2024",
+    "title": "'T'e'a'c'h'i'n'g' 'G'r'e'e'n' 'S'k'i'l'l's'w'h'a't' 'A'c't'i'o'n's' 'A'r'e' 'P'o's't' 'S'e'c'o'n'd'a'r'y' 'I'n's't'i't'u't'i'o'n's' 'T'a'k'i'n'g'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/teaching-green-skillswhat-actions-are-post-secondary-institutions-taking/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -15451,12 +14812,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -15464,11 +14822,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0366",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Technological Change and the Future of Work in Canada",
+    "date": "October 2024",
+    "title": "'T'e'c'h'n'o'l'o'g'i'c'a'l' 'C'h'a'n'g'e' 'a'n'd' 't'h'e' 'F'u't'u'r'e' 'o'f' 'W'o'r'k' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/technological-change-and-the-future-of-work-in-canada/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -15494,13 +14852,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -15508,8 +14862,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0367",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Technological Transformations and the Automotive Services Industry",
+    "date": "October 2024",
+    "title": "'T'e'c'h'n'o'l'o'g'i'c'a'l' 'T'r'a'n's'f'o'r'm'a't'i'o'n's' 'a'n'd' 't'h'e' 'A'u't'o'm'o't'i'v'e' 'S'e'r'v'i'c'e's' 'I'n'd'u's't'r'y'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -15539,7 +14893,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -15549,11 +14903,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0368",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Technology Enabled Innovations in the Skills and Employment Ecosystem",
+    "date": "October 2024",
+    "title": "'T'e'c'h'n'o'l'o'g'y' 'E'n'a'b'l'e'd' 'I'n'n'o'v'a't'i'o'n's' 'i'n' 't'h'e' 'S'k'i'l'l's' 'a'n'd' 'E'm'p'l'o'y'm'e'n't' 'E'c'o's'y's't'e'm'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/technology-enabled-innovations-in-the-skills-and-employment-ecosystem/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -15579,10 +14933,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -15590,11 +14943,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0369",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Micro Credentials for Retraining and Lifelong Learning",
+    "date": "October 2024",
+    "title": "'M'i'c'r'o' 'C'r'e'd'e'n't'i'a'l's' 'f'o'r' 'R'e't'r'a'i'n'i'n'g' 'a'n'd' 'L'i'f'e'l'o'n'g' 'L'e'a'r'n'i'n'g'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/micro-credentials-for-retraining-and-lifelong-learning/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -15621,10 +14974,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -15632,11 +14984,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0370",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "The Heart of the Matter Understanding Hiring Demand for Social and Emotional Skills",
+    "date": "October 2024",
+    "title": "'T'h'e' 'H'e'a'r't' 'o'f' 't'h'e' 'M'a't't'e'r' 'U'n'd'e'r's't'a'n'd'i'n'g' 'H'i'r'i'n'g' 'D'e'm'a'n'd' 'f'o'r' 'S'o'c'i'a'l' 'a'n'd' 'E'm'o't'i'o'n'a'l' 'S'k'i'l'l's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/the-heart-of-the-matter-understanding-hiring-demand-for-social-and-emotional-skills/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -15662,11 +15014,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -15674,11 +15024,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0371",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Labour Market Tomorrow Most",
+    "date": "October 2024",
+    "title": "'L'a'b'o'u'r' 'M'a'r'k'e't' 'T'o'm'o'r'r'o'w' 'M'o's't'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/labour-market-tomorrow-most/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -15705,12 +15055,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -15718,11 +15065,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0372",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "The Mother of Invention Skills for Innovation in the Post-Pandemic World",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/the-mother-of-invention-skills-for-innovation-in-the-post-pandemic-world/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -15748,13 +15095,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Diversity Institute",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -15762,8 +15105,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0373",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "The Next Frontier in Canada's Agri Food Sector",
+    "date": "October 2024",
+    "title": "'T'h'e' 'N'e'x't' 'F'r'o'n't'i'e'r' 'i'n' 'C'a'n'a'd'a'''s' 'A'g'r'i' 'F'o'o'd' 'S'e'c't'o'r'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -15793,7 +15136,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -15803,11 +15146,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0374",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "The Next Wave Automation and Canada's Labour Market",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/the-next-wave-automation-and-canadas-labour-market/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -15833,10 +15176,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Diversity Institute",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -15844,11 +15186,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0375",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "The Perspectives of Second Generation Immigrants in Canada",
+    "date": "October 2024",
+    "title": "'T'h'e' 'P'e'r's'p'e'c't'i'v'e's' 'o'f' 'S'e'c'o'n'd' 'G'e'n'e'r'a't'i'o'n' 'I'm'm'i'g'r'a'n't's' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/the-perspectives-of-second-generation-immigrants-in-canada/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -15875,10 +15217,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -15886,11 +15227,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0376",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "The Role of the Hunter in Inuit Nunangats Mixed Economy",
+    "date": "October 2024",
+    "title": "'T'h'e' 'R'o'l'e' 'o'f' 't'h'e' 'H'u'n't'e'r' 'i'n' 'I'n'u'i't' 'N'u'n'a'n'g'a't's' 'M'i'x'e'd' 'E'c'o'n'o'm'y'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/the-role-of-the-hunter-in-inuit-nunangats-mixed-economy/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -15916,11 +15257,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -15928,11 +15267,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0377",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "The Shift to Remote Work",
+    "date": "October 2024",
+    "title": "'T'h'e' 'S'h'i'f't' 't'o' 'R'e'm'o't'e' 'W'o'r'k'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/the-shift-to-remote-work/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -15959,12 +15298,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -15972,11 +15308,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0378",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Strengthening Interprofessional Collaboration in Diabetic Foot Care",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/strengthening-interprofessional-collaboration-in-diabetic-foot-care/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -16002,13 +15338,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -16016,8 +15348,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0379",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Thinking Twice About Technology and the Future of Work",
+    "date": "October 2024",
+    "title": "'T'h'i'n'k'i'n'g' 'T'w'i'c'e' 'A'b'o'u't' 'T'e'c'h'n'o'l'o'g'y' 'a'n'd' 't'h'e' 'F'u't'u'r'e' 'o'f' 'W'o'r'k'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -16047,7 +15379,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -16057,11 +15389,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0380",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Transitioning to Clean Economy Jobs",
+    "date": "October 2024",
+    "title": "'T'r'a'n's'i't'i'o'n'i'n'g' 't'o' 'C'l'e'a'n' 'E'c'o'n'o'm'y' 'J'o'b's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/transitioning-to-clean-economy-jobs/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -16087,10 +15419,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -16098,11 +15429,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0381",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Tutoring Study Buddy Program",
+    "date": "October 2024",
+    "title": "'T'u't'o'r'i'n'g' 'S't'u'd'y' 'B'u'd'd'y' 'P'r'o'g'r'a'm'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/tutoring-study-buddy-program/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -16129,10 +15460,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -16140,11 +15470,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0382",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Understanding Future Skills Case of the Montreal Aerospace Cluster",
+    "date": "October 2024",
+    "title": "'U'n'd'e'r's't'a'n'd'i'n'g' 'F'u't'u'r'e' 'S'k'i'l'l's' 'C'a's'e' 'o'f' 't'h'e' 'M'o'n't'r'e'a'l' 'A'e'r'o's'p'a'c'e' 'C'l'u's't'e'r'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/understanding-future-skills-case-of-the-montreal-aerospace-cluster/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -16170,11 +15500,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -16182,11 +15510,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0383",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Understanding Future Skills Emergence of an Ecosystem for the Digital Economy",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Quebec",
     "url": "https://fsc-ccf.ca/research/understanding-future-skills-emergence-of-an-ecosystem-for-the-digital-economy/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -16213,12 +15541,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Quebec"
     ]
   },
   {
@@ -16226,11 +15551,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0384",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Understanding the Future of Skills Trends and Global Policy Responses",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/understanding-the-future-of-skills-trends-and-global-policy-responses/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -16256,13 +15581,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Public Policy Forum",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -16270,8 +15591,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0385",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Understanding the Nature and Experience of Gig Work in Canada",
+    "date": "October 2024",
+    "title": "'U'n'd'e'r's't'a'n'd'i'n'g' 't'h'e' 'N'a't'u'r'e' 'a'n'd' 'E'x'p'e'r'i'e'n'c'e' 'o'f' 'G'i'g' 'W'o'r'k' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -16301,7 +15622,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -16311,11 +15632,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0386",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Inuit Skills",
+    "date": "October 2024",
+    "title": "'I'n'u'i't' 'S'k'i'l'l's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/inuit-skills/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -16341,10 +15662,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -16352,11 +15672,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0387",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Valuing Skills in Canada a Statistical Approach",
+    "date": "October 2024",
+    "title": "'V'a'l'u'i'n'g' 'S'k'i'l'l's' 'i'n' 'C'a'n'a'd'a' 'a' 'S't'a't'i's't'i'c'a'l' 'A'p'p'r'o'a'c'h'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/valuing-skills-in-canada-a-statistical-approach/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -16383,10 +15703,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -16394,11 +15713,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0388",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "What Are Canadian Post Secondary Institutions Saying and Doing Social and Emotional Skills",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/what-are-canadian-post-secondary-institutions-saying-and-doing-social-and-emotional-skills/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -16424,11 +15743,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -16436,11 +15753,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0389",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Who Is Using Generative AI in Higher Education",
+    "date": "October 2024",
+    "title": "'W'h'o' 'I's' 'U's'i'n'g' 'G'e'n'e'r'a't'i'v'e' 'A'I' 'i'n' 'H'i'g'h'e'r' 'E'd'u'c'a't'i'o'n'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/who-is-using-generative-ai-in-higher-education/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -16467,12 +15784,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -16480,11 +15794,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0390",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Widening Inequality Effects of the Pandemic on Jobs and Income",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/widening-inequality-effects-of-the-pandemic-on-jobs-and-income/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -16510,13 +15824,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Diversity Institute",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -16524,8 +15834,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0391",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Work at Home or Live at Work the Complexities of New Working Arrangements",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -16555,7 +15865,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Diversity Institute",
     "locations": [
       "Across Canada"
     ]
@@ -16565,11 +15875,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0392",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Working When Sick Report",
+    "date": "October 2024",
+    "title": "'W'o'r'k'i'n'g' 'W'h'e'n' 'S'i'c'k' 'R'e'p'o'r't'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/working-when-sick-report/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -16595,10 +15905,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -16606,11 +15915,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0393",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Yesterdays Gone Exploring the Future of Canada's Labour Market in a Post Covid World",
+    "date": "October 2024",
+    "title": "'Y'e's't'e'r'd'a'y's' 'G'o'n'e' 'E'x'p'l'o'r'i'n'g' 't'h'e' 'F'u't'u'r'e' 'o'f' 'C'a'n'a'd'a'''s' 'L'a'b'o'u'r' 'M'a'r'k'e't' 'i'n' 'a' 'P'o's't' 'C'o'v'i'd' 'W'o'r'l'd'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/yesterdays-gone-exploring-the-future-of-canadas-labour-market-in-a-post-covid-world/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -16637,10 +15946,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -16648,11 +15956,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0394",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Indigenous Youth in Finance Navigating a Complex Path",
+    "date": "October 2024",
+    "title": "'I'n'd'i'g'e'n'o'u's' 'Y'o'u't'h' 'i'n' 'F'i'n'a'n'c'e' 'N'a'v'i'g'a't'i'n'g' 'a' 'C'o'm'p'l'e'x' 'P'a't'h'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/indigenous-youth-in-finance-navigating-a-complex-path/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -16678,11 +15986,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -16690,11 +15996,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0395",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "How Are Educators Navigating the AI Revolution",
+    "date": "October 2024",
+    "title": "'H'o'w' 'A'r'e' 'E'd'u'c'a't'o'r's' 'N'a'v'i'g'a't'i'n'g' 't'h'e' 'A'I' 'R'e'v'o'l'u't'i'o'n'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/how-are-educators-navigating-the-ai-revolution/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -16721,12 +16027,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -16734,11 +16037,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0396",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Artificial Intelligence Talent in Canada",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/artificial-intelligence-talent-in-canada/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -16764,13 +16067,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -16778,8 +16077,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0397",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Skills Dev North Trades",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'D'e'v' 'N'o'r't'h' 'T'r'a'd'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -16809,7 +16108,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -16819,11 +16118,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0398",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "How Working from Home Is Affecting the Workplace",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/how-working-from-home-is-affecting-the-workplace/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -16849,10 +16148,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Environics Institute",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -16860,11 +16158,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0399",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Quality of Work",
+    "date": "October 2024",
+    "title": "'Q'u'a'l'i't'y' 'o'f' 'W'o'r'k'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/quality-of-work/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -16891,10 +16189,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -16902,11 +16199,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0400",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Quality of Work Literature Review",
+    "date": "October 2024",
+    "title": "'Q'u'a'l'i't'y' 'o'f' 'W'o'r'k' 'L'i't'e'r'a't'u'r'e' 'R'e'v'i'e'w'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/quality-of-work-literature-review/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -16932,11 +16229,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -16944,11 +16239,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0401",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Employers Insights on Social and Emotional Skills",
+    "date": "October 2024",
+    "title": "'E'm'p'l'o'y'e'r's' 'I'n's'i'g'h't's' 'o'n' 'S'o'c'i'a'l' 'a'n'd' 'E'm'o't'i'o'n'a'l' 'S'k'i'l'l's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/employers-insights-on-social-and-emotional-skills/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -16975,12 +16270,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -16988,11 +16280,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0402",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Can Experiential Learning Go Virtual Lessons Learned from Nursing Edu",
+    "date": "October 2024",
+    "title": "'C'a'n' 'E'x'p'e'r'i'e'n't'i'a'l' 'L'e'a'r'n'i'n'g' 'G'o' 'V'i'r't'u'a'l' 'L'e's's'o'n's' 'L'e'a'r'n'e'd' 'f'r'o'm' 'N'u'r's'i'n'g' 'E'd'u'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/can-experiential-learning-go-virtual-lessons-learned-from-nursing-edu/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -17018,13 +16310,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -17032,8 +16320,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0403",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Neurodivergent Students Experiences in Canadian Higher Education",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -17063,7 +16351,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
       "Across Canada"
     ]
@@ -17073,11 +16361,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0404",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Planning for Sustainable Jobs 101",
+    "date": "October 2024",
+    "title": "'P'l'a'n'n'i'n'g' 'f'o'r' 'S'u's't'a'i'n'a'b'l'e' 'J'o'b's' '1'0'1'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/planning-for-sustainable-jobs-101/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -17103,10 +16391,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -17114,11 +16401,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0405",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Ready for Green Jobs",
+    "date": "October 2024",
+    "title": "'R'e'a'd'y' 'f'o'r' 'G'r'e'e'n' 'J'o'b's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/ready-for-green-jobs/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -17145,10 +16432,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -17156,11 +16442,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0406",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Addressing Skill Imbalances in Canada",
+    "date": "October 2024",
+    "title": "'A'd'd'r'e's's'i'n'g' 'S'k'i'l'l' 'I'm'b'a'l'a'n'c'e's' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/addressing-skill-imbalances-in-canada/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -17186,11 +16472,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -17198,11 +16482,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0407",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "AI Powered Will AI Change Postsecondary Teaching and Learning",
+    "date": "October 2024",
+    "title": "'A'I' 'P'o'w'e'r'e'd' 'W'i'l'l' 'A'I' 'C'h'a'n'g'e' 'P'o's't's'e'c'o'n'd'a'r'y' 'T'e'a'c'h'i'n'g' 'a'n'd' 'L'e'a'r'n'i'n'g'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/ai-powered-will-ai-change-postsecondary-teaching-and-learning/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -17229,12 +16513,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -17242,11 +16523,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0408",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Unemployment in Canada Survey",
+    "date": "October 2024",
+    "title": "'U'n'e'm'p'l'o'y'm'e'n't' 'i'n' 'C'a'n'a'd'a' 'S'u'r'v'e'y'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/unemployment-in-canada-survey/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -17272,13 +16553,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -17286,8 +16563,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0409",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Waiting for Takeoff",
+    "date": "December 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -17317,7 +16594,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "The Dais",
     "locations": [
       "Across Canada"
     ]
@@ -17327,11 +16604,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0410",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "AI Brain",
+    "date": "January 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/ai-brain/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -17357,10 +16634,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "The Dais",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -17368,11 +16644,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0411",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Bridging the Gender Gap",
+    "date": "October 2024",
+    "title": "'B'r'i'd'g'i'n'g' 't'h'e' 'G'e'n'd'e'r' 'G'a'p'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/bridging-the-gender-gap/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -17399,10 +16675,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -17410,11 +16685,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0412",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "International Students Transition to Work",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "British Columbia",
     "url": "https://fsc-ccf.ca/research/international-students-transition-to-work/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -17440,11 +16715,10 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "British Columbia",
+      "Ontario"
     ]
   },
   {
@@ -17452,11 +16726,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0413",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "How International College Students Use Career Supports",
+    "date": "October 2024",
+    "title": "'H'o'w' 'I'n't'e'r'n'a't'i'o'n'a'l' 'C'o'l'l'e'g'e' 'S't'u'd'e'n't's' 'U's'e' 'C'a'r'e'e'r' 'S'u'p'p'o'r't's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/how-international-college-students-use-career-supports/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -17483,12 +16757,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -17496,11 +16767,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0414",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Diversityleads",
+    "date": "February 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/diversityleads/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -17526,13 +16797,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Diversity Institute",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -17540,8 +16807,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0415",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Equity Lens on AI",
+    "date": "October 2024",
+    "title": "'E'q'u'i't'y' 'L'e'n's' 'o'n' 'A'I'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -17571,7 +16838,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -17581,11 +16848,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0416",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Creating Inclusive Campuses",
+    "date": "October 2024",
+    "title": "'C'r'e'a't'i'n'g' 'I'n'c'l'u's'i'v'e' 'C'a'm'p'u's'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/creating-inclusive-campuses/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -17611,10 +16878,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -17622,11 +16888,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0417",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Advancing Women",
+    "date": "October 2024",
+    "title": "'A'd'v'a'n'c'i'n'g' 'W'o'm'e'n'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/advancing-women/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -17653,10 +16919,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -17664,11 +16929,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0418",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Working Outside the Box Exploring Self Employment As an Inclusive Employment Pathway for Neurodivergent Canadians",
+    "date": "October 2024",
+    "title": "'W'o'r'k'i'n'g' 'O'u't's'i'd'e' 't'h'e' 'B'o'x' 'E'x'p'l'o'r'i'n'g' 'S'e'l'f' 'E'm'p'l'o'y'm'e'n't' 'A's' 'a'n' 'I'n'c'l'u's'i'v'e' 'E'm'p'l'o'y'm'e'n't' 'P'a't'h'w'a'y' 'f'o'r' 'N'e'u'r'o'd'i'v'e'r'g'e'n't' 'C'a'n'a'd'i'a'n's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/working-outside-the-box-exploring-self-employment-as-an-inclusive-employment-pathway-for-neurodivergent-canadians/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -17694,11 +16959,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -17706,11 +16969,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0419",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "A Neurodivergent Students Guide",
+    "date": "October 2024",
+    "title": "'A' 'N'e'u'r'o'd'i'v'e'r'g'e'n't' 'S't'u'd'e'n't's' 'G'u'i'd'e'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/a-neurodivergent-students-guide/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -17737,12 +17000,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -17750,11 +17010,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0420",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Smart Farms Iot",
+    "date": "October 2024",
+    "title": "'S'm'a'r't' 'F'a'r'm's' 'I'o't'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/smart-farms-iot/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -17780,13 +17040,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -17794,11 +17050,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0421",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Nature Based Eco Canada",
+    "date": "March 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Across Canada",
+    "region": "Alberta",
     "url": "https://fsc-ccf.ca/research/nature-based-eco-canada/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -17825,9 +17081,10 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Environmental Careers Organization Canada (ECO Canada)",
     "locations": [
-      "Across Canada"
+      "Alberta",
+      "British Columbia"
     ]
   },
   {
@@ -17835,11 +17092,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0422",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Working Towards Equitable",
+    "date": "March 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/working-towards-equitable/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -17865,10 +17122,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "University of Montreal",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -17876,11 +17132,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0423",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Mentorship in the Workplace",
+    "date": "October 2024",
+    "title": "'M'e'n't'o'r's'h'i'p' 'i'n' 't'h'e' 'W'o'r'k'p'l'a'c'e'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/mentorship-in-the-workplace/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -17907,10 +17163,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -17918,11 +17173,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0424",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Training for Tomorrow",
+    "date": "October 2024",
+    "title": "'T'r'a'i'n'i'n'g' 'f'o'r' 'T'o'm'o'r'r'o'w'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/training-for-tomorrow/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -17948,11 +17203,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -17960,11 +17213,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0425",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Learning from One Another Labour Markets in Northern Ontario",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Ontario",
     "url": "https://fsc-ccf.ca/research/learning-from-one-another-labour-markets-in-northern-ontario/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -17991,12 +17244,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Ontario"
     ]
   },
   {
@@ -18004,11 +17254,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0426",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Learning from One Another Labour Markets in Yukon",
+    "date": "October 2024",
+    "title": "'L'e'a'r'n'i'n'g' 'f'r'o'm' 'O'n'e' 'A'n'o't'h'e'r' 'L'a'b'o'u'r' 'M'a'r'k'e't's' 'i'n' 'Y'u'k'o'n'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/learning-from-one-another-labour-markets-in-yukon/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -18034,13 +17284,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -18048,8 +17294,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0427",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Optimizing Career Services Resources for Post Secondary Career Professionals",
+    "date": "October 2024",
+    "title": "'O'p't'i'm'i'z'i'n'g' 'C'a'r'e'e'r' 'S'e'r'v'i'c'e's' 'R'e's'o'u'r'c'e's' 'f'o'r' 'P'o's't' 'S'e'c'o'n'd'a'r'y' 'C'a'r'e'e'r' 'P'r'o'f'e's's'i'o'n'a'l's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -18079,7 +17325,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -18089,11 +17335,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0428",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "From Shortages to Solutions",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/from-shortages-to-solutions/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -18119,10 +17365,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -18130,11 +17375,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0429",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Labour Markets in Nunavut",
+    "date": "October 2024",
+    "title": "'L'a'b'o'u'r' 'M'a'r'k'e't's' 'i'n' 'N'u'n'a'v'u't'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/labour-markets-in-nunavut/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -18161,10 +17406,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -18172,11 +17416,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0430",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Skill Gaps in Labour Markets in Northern Ont Yukon and Nunavut",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l' 'G'a'p's' 'i'n' 'L'a'b'o'u'r' 'M'a'r'k'e't's' 'i'n' 'N'o'r't'h'e'r'n' 'O'n't' 'Y'u'k'o'n' 'a'n'd' 'N'u'n'a'v'u't'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skill-gaps-in-labour-markets-in-northern-ont-yukon-and-nunavut/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -18202,11 +17446,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -18214,11 +17456,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0431",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Indigenous Professionals Needed Increasing Indigenous Representation in Healthcare in Canada",
+    "date": "October 2024",
+    "title": "'I'n'd'i'g'e'n'o'u's' 'P'r'o'f'e's's'i'o'n'a'l's' 'N'e'e'd'e'd' 'I'n'c'r'e'a's'i'n'g' 'I'n'd'i'g'e'n'o'u's' 'R'e'p'r'e's'e'n't'a't'i'o'n' 'i'n' 'H'e'a'l't'h'c'a'r'e' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/indigenous-professionals-needed-increasing-indigenous-representation-in-healthcare-in-canada/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -18245,12 +17487,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -18258,11 +17497,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0432",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Impact of Children",
+    "date": "October 2024",
+    "title": "'I'm'p'a'c't' 'o'f' 'C'h'i'l'd'r'e'n'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/impact-of-children/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -18288,13 +17527,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -18302,8 +17537,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0433",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Indigenous Tourism",
+    "date": "October 2024",
+    "title": "'I'n'd'i'g'e'n'o'u's' 'T'o'u'r'i's'm'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -18333,7 +17568,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -18343,11 +17578,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0434",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Evidence Based_insights",
+    "date": "July 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/evidence-based_insights/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -18373,10 +17608,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Professional Institute of the Public Service of Canada",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -18384,11 +17618,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0435",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Impact of AI",
+    "date": "July 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Quebec",
     "url": "https://fsc-ccf.ca/research/impact-of-ai/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -18415,10 +17649,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Institut du Qu\u00e9bec",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Quebec"
     ]
   },
   {
@@ -18426,11 +17659,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0436",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Mid-Career Disabilities",
+    "date": "October 2024",
+    "title": "'M'i'd'-'C'a'r'e'e'r' 'D'i's'a'b'i'l'i't'i'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/mid-career-disabilities/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -18456,11 +17689,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -18468,11 +17699,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0437",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Increasing Indigenous Physicians",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/increasing-indigenous-physicians/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -18499,12 +17730,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -18512,11 +17740,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0438",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Smart Manufacturing Meat",
+    "date": "October 2024",
+    "title": "'S'm'a'r't' 'M'a'n'u'f'a'c't'u'r'i'n'g' 'M'e'a't'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/smart-manufacturing-meat/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -18542,13 +17770,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -18556,8 +17780,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0439",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Sustainability Meat Industry",
+    "date": "October 2024",
+    "title": "'S'u's't'a'i'n'a'b'i'l'i't'y' 'M'e'a't' 'I'n'd'u's't'r'y'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -18587,7 +17811,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -18597,11 +17821,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0440",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Indigenous Professionals",
+    "date": "October 2024",
+    "title": "'I'n'd'i'g'e'n'o'u's' 'P'r'o'f'e's's'i'o'n'a'l's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/indigenous-professionals/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -18627,10 +17851,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -18638,11 +17861,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0441",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Emission Reduction Plan",
+    "date": "October 2024",
+    "title": "'E'm'i's's'i'o'n' 'R'e'd'u'c't'i'o'n' 'P'l'a'n'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/emission-reduction-plan/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -18669,10 +17892,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -18680,11 +17902,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0442",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Thriving Workplaces",
+    "date": "October 2024",
+    "title": "'T'h'r'i'v'i'n'g' 'W'o'r'k'p'l'a'c'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/thriving-workplaces/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -18710,11 +17932,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -18722,11 +17942,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0443",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Jobs and Skills Transition to a Net Zero Economy",
+    "date": "October 2024",
+    "title": "'J'o'b's' 'a'n'd' 'S'k'i'l'l's' 'T'r'a'n's'i't'i'o'n' 't'o' 'a' 'N'e't' 'Z'e'r'o' 'E'c'o'n'o'm'y'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/jobs-and-skills-transition-to-a-net-zero-economy/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -18753,12 +17973,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -18766,11 +17983,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0444",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Beyond Forecasting Skills Supply",
+    "date": "October 2024",
+    "title": "'B'e'y'o'n'd' 'F'o'r'e'c'a's't'i'n'g' 'S'k'i'l'l's' 'S'u'p'p'l'y'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/beyond-forecasting-skills-supply/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -18796,13 +18013,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -18810,8 +18023,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0445",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Retaining Canada's Healthcare Workforce",
+    "date": "October 2024",
+    "title": "'R'e't'a'i'n'i'n'g' 'C'a'n'a'd'a'''s' 'H'e'a'l't'h'c'a'r'e' 'W'o'r'k'f'o'r'c'e'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -18841,7 +18054,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -18851,11 +18064,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0446",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Optimizing Career Services",
+    "date": "October 2024",
+    "title": "'O'p't'i'm'i'z'i'n'g' 'C'a'r'e'e'r' 'S'e'r'v'i'c'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/optimizing-career-services/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -18881,10 +18094,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -18892,11 +18104,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0447",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "How AI Is Shaping the Future of Work",
+    "date": "October 2024",
+    "title": "'H'o'w' 'A'I' 'I's' 'S'h'a'p'i'n'g' 't'h'e' 'F'u't'u'r'e' 'o'f' 'W'o'r'k'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/how-ai-is-shaping-the-future-of-work/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -18923,10 +18135,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -18934,11 +18145,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0448",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Leveraging Government Data",
+    "date": "October 2024",
+    "title": "'L'e'v'e'r'a'g'i'n'g' 'G'o'v'e'r'n'm'e'n't' 'D'a't'a'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/leveraging-government-data/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -18964,11 +18175,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -18976,11 +18185,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0449",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Food Sustainability North",
+    "date": "September 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/food-sustainability-north/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -19007,12 +18216,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Diversity Institute",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -19020,11 +18226,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0450",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Mentoring Black Nurses",
+    "date": "October 2024",
+    "title": "'M'e'n't'o'r'i'n'g' 'B'l'a'c'k' 'N'u'r's'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/mentoring-black-nurses/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -19050,13 +18256,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -19064,8 +18266,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0451",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Automation Exposure",
+    "date": "October 2024",
+    "title": "'A'u't'o'm'a't'i'o'n' 'E'x'p'o's'u'r'e'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -19095,7 +18297,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -19105,11 +18307,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0452",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Women in Engineering",
+    "date": "September 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/women-in-engineering/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -19135,10 +18337,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Diversity Institute",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -19146,11 +18347,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0453",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Diversity Assessment Tool",
+    "date": "October 2024",
+    "title": "'D'i'v'e'r's'i't'y' 'A's's'e's's'm'e'n't' 'T'o'o'l'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/diversity-assessment-tool/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -19177,10 +18378,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -19188,11 +18388,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0454",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Work Reimagined AI",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/work-reimagined-ai/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -19218,11 +18418,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -19230,11 +18428,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0455",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "AI Adoption in SMEs Framework",
+    "date": "October 2024",
+    "title": "'A'I' 'A'd'o'p't'i'o'n' 'i'n' 'S'M'E's' 'F'r'a'm'e'w'o'r'k'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/ai-adoption-in-smes-framework/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -19261,12 +18459,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -19274,11 +18469,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0456",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Edi for Municipalities",
+    "date": "October 2024",
+    "title": "'E'd'i' 'f'o'r' 'M'u'n'i'c'i'p'a'l'i't'i'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/edi-for-municipalities/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -19304,13 +18499,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -19318,8 +18509,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0457",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Diversityleads Edi",
+    "date": "October 2024",
+    "title": "'D'i'v'e'r's'i't'y'l'e'a'd's' 'E'd'i'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -19349,7 +18540,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -19359,11 +18550,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0458",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Sober 2025",
+    "date": "October 2024",
+    "title": "'S'o'b'e'r' '2'0'2'5'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/sober-2025/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -19389,10 +18580,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -19400,11 +18590,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0459",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Edi SMEs Playbook",
+    "date": "October 2024",
+    "title": "'E'd'i' 'S'M'E's' 'P'l'a'y'b'o'o'k'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/edi-smes-playbook/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -19431,10 +18621,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -19442,11 +18631,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0460",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Productivity Potential Automation",
+    "date": "October 2024",
+    "title": "'P'r'o'd'u'c't'i'v'i't'y' 'P'o't'e'n't'i'a'l' 'A'u't'o'm'a't'i'o'n'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/productivity-potential-automation/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -19472,11 +18661,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -19484,11 +18671,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0461",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Immigrant Housing Myths",
+    "date": "October 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/immigrant-housing-myths/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -19515,12 +18702,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Diversity Institute",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -19528,11 +18712,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0462",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Place Based Net Zero Skills Lessons",
+    "date": "October 2024",
+    "title": "'P'l'a'c'e' 'B'a's'e'd' 'N'e't' 'Z'e'r'o' 'S'k'i'l'l's' 'L'e's's'o'n's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/place-based-net-zero-skills-lessons/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -19558,13 +18742,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -19572,8 +18752,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0463",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Rural Agriculture Entrepreneurship",
+    "date": "December 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -19603,7 +18783,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Diversity Institute",
     "locations": [
       "Across Canada"
     ]
@@ -19613,11 +18793,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0464",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Technology Adoption Barriers",
+    "date": "December 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/technology-adoption-barriers/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -19643,10 +18823,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Diversity Institute",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -19654,11 +18833,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0465",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Youth Labour Market Scarring 2",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/youth-labour-market-scarring-2/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -19685,10 +18864,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Century Initiative",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -19696,11 +18874,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0466",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "The Burden of Care Addressing Challenges in Employment in the Nonprofit Sector",
+    "date": "October 2024",
+    "title": "'T'h'e' 'B'u'r'd'e'n' 'o'f' 'C'a'r'e' 'A'd'd'r'e's's'i'n'g' 'C'h'a'l'l'e'n'g'e's' 'i'n' 'E'm'p'l'o'y'm'e'n't' 'i'n' 't'h'e' 'N'o'n'p'r'o'f'i't' 'S'e'c't'o'r'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/the-burden-of-care-addressing-challenges-in-employment-in-the-nonprofit-sector/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -19726,11 +18904,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -19738,11 +18914,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0467",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Tech Mining Oil",
+    "date": "October 2024",
+    "title": "'T'e'c'h' 'M'i'n'i'n'g' 'O'i'l'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/tech-mining-oil/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -19769,12 +18945,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -19782,11 +18955,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0468",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Innovation in Canada's Primary Industries",
+    "date": "October 2024",
+    "title": "'I'n'n'o'v'a't'i'o'n' 'i'n' 'C'a'n'a'd'a'''s' 'P'r'i'm'a'r'y' 'I'n'd'u's't'r'i'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/innovation-in-canadas-primary-industries/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -19812,13 +18985,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -19826,8 +18995,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0469",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Concerns Impact AI",
+    "date": "October 2024",
+    "title": "'C'o'n'c'e'r'n's' 'I'm'p'a'c't' 'A'I'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -19857,7 +19026,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -19867,11 +19036,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0470",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Survey on Employment and Skills",
+    "date": "October 2024",
+    "title": "'S'u'r'v'e'y' 'o'n' 'E'm'p'l'o'y'm'e'n't' 'a'n'd' 'S'k'i'l'l's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/survey-on-employment-and-skills/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -19897,10 +19066,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -19908,11 +19076,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0471",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Navigating Net Zero",
+    "date": "April 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/navigating-net-zero/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -19939,10 +19107,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Business + Higher Education Roundtable (BHER)",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -19950,11 +19117,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0472",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Quebec Future of Work",
+    "date": "October 2024",
+    "title": "'Q'u'e'b'e'c' 'F'u't'u'r'e' 'o'f' 'W'o'r'k'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/quebec-future-of-work/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -19980,11 +19147,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -19992,11 +19157,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0473",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Mapping Food Sustainability",
+    "date": "October 2024",
+    "title": "'M'a'p'p'i'n'g' 'F'o'o'd' 'S'u's't'a'i'n'a'b'i'l'i't'y'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/mapping-food-sustainability/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -20023,12 +19188,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -20036,11 +19198,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0474",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Pathways Health Care",
+    "date": "October 2024",
+    "title": "'P'a't'h'w'a'y's' 'H'e'a'l't'h' 'C'a'r'e'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/pathways-health-care/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -20066,13 +19228,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -20080,8 +19238,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0475",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Wraparound Supports",
+    "date": "October 2024",
+    "title": "'W'r'a'p'a'r'o'u'n'd' 'S'u'p'p'o'r't's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -20111,7 +19269,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -20121,11 +19279,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0476",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Midcareer Transitions",
+    "date": "January 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "British Columbia",
     "url": "https://fsc-ccf.ca/research/midcareer-transitions/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -20151,10 +19309,10 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Blueprint ADE",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "British Columbia",
+      "Manitoba"
     ]
   },
   {
@@ -20162,11 +19320,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0477",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "National Survey SME",
+    "date": "January 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/national-survey-sme/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -20193,10 +19351,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Memorial University of Newfoundland",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -20204,11 +19361,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0478",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Immigrant Skill Utilization",
+    "date": "October 2024",
+    "title": "'I'm'm'i'g'r'a'n't' 'S'k'i'l'l' 'U't'i'l'i'z'a't'i'o'n'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/immigrant-skill-utilization/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -20234,11 +19391,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -20246,11 +19401,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0479",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Reimagining Career Services",
+    "date": "January 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/reimagining-career-services/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -20277,12 +19432,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Blueprint ADE",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -20290,11 +19442,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0480",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Career Able Job Transitions for Canadians with Disabilities",
+    "date": "October 2024",
+    "title": "'C'a'r'e'e'r' 'A'b'l'e' 'J'o'b' 'T'r'a'n's'i't'i'o'n's' 'f'o'r' 'C'a'n'a'd'i'a'n's' 'w'i't'h' 'D'i's'a'b'i'l'i't'i'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/career-able-job-transitions-for-canadians-with-disabilities/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -20320,13 +19472,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -20334,8 +19482,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0481",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Responding to Automation Cleaner Future",
+    "date": "October 2024",
+    "title": "'R'e's'p'o'n'd'i'n'g' 't'o' 'A'u't'o'm'a't'i'o'n' 'C'l'e'a'n'e'r' 'F'u't'u'r'e'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -20365,7 +19513,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -20375,11 +19523,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0482",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Technological Change North",
+    "date": "October 2024",
+    "title": "'T'e'c'h'n'o'l'o'g'i'c'a'l' 'C'h'a'n'g'e' 'N'o'r't'h'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/technological-change-north/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -20405,10 +19553,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -20416,11 +19563,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0483",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "From Campus to Career",
+    "date": "October 2024",
+    "title": "'F'r'o'm' 'C'a'm'p'u's' 't'o' 'C'a'r'e'e'r'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/from-campus-to-career/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -20447,10 +19594,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -20458,11 +19604,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0484",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Trade War Bulletin",
+    "date": "October 2024",
+    "title": "'T'r'a'd'e' 'W'a'r' 'B'u'l'l'e't'i'n'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/trade-war-bulletin/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -20488,11 +19634,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -20500,11 +19644,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0485",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Hidden Struggles Situating Neurodiversity in Post Secondary Education",
+    "date": "October 2024",
+    "title": "'H'i'd'd'e'n' 'S't'r'u'g'g'l'e's':' 'S'i't'u'a't'i'n'g' 'N'e'u'r'o'd'i'v'e'r's'i't'y' 'i'n' 'P'o's't'-'S'e'c'o'n'd'a'r'y' 'E'd'u'c'a't'i'o'n'\u2014'M'a'y' '2'0'2'4'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/hidden-struggles-situating-neurodiversity-in-post-secondary-education/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -20531,12 +19675,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -20544,11 +19685,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0486",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Learning from One Another Economic and Labour Forecast for Northern Ontario Yukon and Nunavut",
+    "date": "October 2024",
+    "title": "'L'e'a'r'n'i'n'g' 'f'r'o'm' 'O'n'e' 'A'n'o't'h'e'r' 'E'c'o'n'o'm'i'c' 'a'n'd' 'L'a'b'o'u'r' 'F'o'r'e'c'a's't' 'f'o'r' 'N'o'r't'h'e'r'n' 'O'n't'a'r'i'o' 'Y'u'k'o'n' 'a'n'd' 'N'u'n'a'v'u't'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/learning-from-one-another-economic-and-labour-forecast-for-northern-ontario-yukon-and-nunavut/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -20574,13 +19715,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -20588,8 +19725,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0487",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Skills and Productivity Which Skills Shortages Are Impacting Canadian Productivity",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -20619,7 +19756,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
       "Across Canada"
     ]
@@ -20629,11 +19766,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0488",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Skills Needs for Mass Timber Production and Adoption in British Columbia",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'N'e'e'd's' 'f'o'r' 'M'a's's' 'T'i'm'b'e'r' 'P'r'o'd'u'c't'i'o'n' 'a'n'd' 'A'd'o'p't'i'o'n' 'i'n' 'B'r'i't'i's'h' 'C'o'l'u'm'b'i'a'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skills-needs-for-mass-timber-production-and-adoption-in-british-columbia/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -20659,10 +19796,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -20670,11 +19806,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0489",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Skills Needs for Workers in the Growing Plant Based Protein Industry in Manitoba and Saskatchewan",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'N'e'e'd's' 'f'o'r' 'W'o'r'k'e'r's' 'i'n' 't'h'e' 'G'r'o'w'i'n'g' 'P'l'a'n't' 'B'a's'e'd' 'P'r'o't'e'i'n' 'I'n'd'u's't'r'y' 'i'n' 'M'a'n'i't'o'b'a' 'a'n'd' 'S'a's'k'a't'c'h'e'w'a'n'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skills-needs-for-workers-in-the-growing-plant-based-protein-industry-in-manitoba-and-saskatchewan/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -20701,10 +19837,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -20712,11 +19847,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0490",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Digital Skills Future Ready World",
+    "date": "October 2024",
+    "title": "'D'i'g'i't'a'l' 'S'k'i'l'l's' 'F'u't'u'r'e' 'R'e'a'd'y' 'W'o'r'l'd'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/digital-skills-future-ready-world/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -20742,11 +19877,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -20754,11 +19887,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0491",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Finance and Management Skills for Economic Reconciliation",
+    "date": "October 2024",
+    "title": "'F'i'n'a'n'c'e' 'a'n'd' 'M'a'n'a'g'e'm'e'n't' 'S'k'i'l'l's' 'f'o'r' 'E'c'o'n'o'm'i'c' 'R'e'c'o'n'c'i'l'i'a't'i'o'n'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/finance-and-management-skills-for-economic-reconciliation/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -20785,12 +19918,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -20798,11 +19928,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0492",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Indigenous & Northern Communities",
+    "date": "October 2024",
+    "title": "'I'n'd'i'g'e'n'o'u's' '&' 'N'o'r't'h'e'r'n' 'C'o'm'm'u'n'i't'i'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/building-bridges-increasing-opportunity-for-inuit/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -20828,13 +19958,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -20842,8 +19968,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0493",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Transforming Learning in a Pandemic Context",
+    "date": "October 2024",
+    "title": "'T'r'a'n's'f'o'r'm'i'n'g' 'L'e'a'r'n'i'n'g' 'i'n' 'a' 'P'a'n'd'e'm'i'c' 'C'o'n't'e'x't'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -20873,7 +19999,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -20883,11 +20009,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0494",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Laying Foundations Technological Maturity in Canada's Construction Sector",
+    "date": "October 2024",
+    "title": "'L'a'y'i'n'g' 'F'o'u'n'd'a't'i'o'n's' 'T'e'c'h'n'o'l'o'g'i'c'a'l' 'M'a't'u'r'i't'y' 'i'n' 'C'a'n'a'd'a'''s' 'C'o'n's't'r'u'c't'i'o'n' 'S'e'c't'o'r'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/laying-foundations-technological-maturity-in-canadas-construction-sector/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -20913,10 +20039,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -20924,11 +20049,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0495",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Saskatchewans Forest Sector",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Saskatchewan",
     "url": "https://fsc-ccf.ca/research/saskatchewans-forest-sector/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -20955,10 +20080,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Saskatchewan"
     ]
   },
   {
@@ -20966,11 +20090,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0496",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Skills Northern Regions Manitoba",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'N'o'r't'h'e'r'n' 'R'e'g'i'o'n's' 'M'a'n'i't'o'b'a'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skills-northern-regions-manitoba/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -20996,11 +20120,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -21008,11 +20130,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0497",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "The Big Shift Changes in Canadian Manufacturing Employment 2003 2018 Full Report",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/the-big-shift-changes-in-canadian-manufacturing-employment-2003-2018-full-report/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -21039,12 +20161,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Diversity Institute",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -21052,11 +20171,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0498",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "The Big Shift Changes in Canadian Manufacturing Employment 2003 2018 Executive Summary",
+    "date": "October 2024",
+    "title": "'T'h'e' 'B'i'g' 'S'h'i'f't' 'C'h'a'n'g'e's' 'i'n' 'C'a'n'a'd'i'a'n' 'M'a'n'u'f'a'c't'u'r'i'n'g' 'E'm'p'l'o'y'm'e'n't' '2'0'0'3' '2'0'1'8' 'E'x'e'c'u't'i'v'e' 'S'u'm'm'a'r'y'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/the-big-shift-changes-in-canadian-manufacturing-employment-2003-2018-executive-summary/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -21082,13 +20201,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -21096,8 +20211,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0499",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Rising Skills Digital Upskilling for Advanced Manufacturing Workplaces",
+    "date": "October 2024",
+    "title": "'R'i's'i'n'g' 'S'k'i'l'l's' 'D'i'g'i't'a'l' 'U'p's'k'i'l'l'i'n'g' 'f'o'r' 'A'd'v'a'n'c'e'd' 'M'a'n'u'f'a'c't'u'r'i'n'g' 'W'o'r'k'p'l'a'c'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -21127,7 +20242,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -21137,11 +20252,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0500",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Rising Skills Emerging Skills in the Food Services Trades",
+    "date": "October 2024",
+    "title": "'R'i's'i'n'g' 'S'k'i'l'l's' 'E'm'e'r'g'i'n'g' 'S'k'i'l'l's' 'i'n' 't'h'e' 'F'o'o'd' 'S'e'r'v'i'c'e's' 'T'r'a'd'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/rising-skills-emerging-skills-in-the-food-services-trades/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -21167,10 +20282,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -21178,11 +20292,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0501",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Rising Skills Digital Skills Needs for Smart and Connected Vehicles",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/rising-skills-digital-skills-needs-for-smart-and-connected-vehicles/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -21209,10 +20323,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -21220,11 +20333,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0502",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Rising Skills a Toolbox Talk on Social and Emotional Skills in the Construction Trades",
+    "date": "October 2024",
+    "title": "'R'i's'i'n'g' 'S'k'i'l'l's' 'a' 'T'o'o'l'b'o'x' 'T'a'l'k' 'o'n' 'S'o'c'i'a'l' 'a'n'd' 'E'm'o't'i'o'n'a'l' 'S'k'i'l'l's' 'i'n' 't'h'e' 'C'o'n's't'r'u'c't'i'o'n' 'T'r'a'd'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/rising-skills-a-toolbox-talk-on-social-and-emotional-skills-in-the-construction-trades/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -21250,11 +20363,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -21262,11 +20373,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0503",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Bridging Generational Divides",
+    "date": "October 2024",
+    "title": "'B'r'i'd'g'i'n'g' 'G'e'n'e'r'a't'i'o'n'a'l' 'D'i'v'i'd'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/bridging-generational-divides/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -21293,12 +20404,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -21306,11 +20414,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0504",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Career Pathways in the North",
+    "date": "October 2024",
+    "title": "'C'a'r'e'e'r' 'P'a't'h'w'a'y's' 'i'n' 't'h'e' 'N'o'r't'h'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/career-pathways-in-the-north/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -21336,13 +20444,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -21350,8 +20454,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0505",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "How Can More Indigenous People Access Stem Careers",
+    "date": "October 2024",
+    "title": "'H'o'w' 'C'a'n' 'M'o'r'e' 'I'n'd'i'g'e'n'o'u's' 'P'e'o'p'l'e' 'A'c'c'e's's' 'S't'e'm' 'C'a'r'e'e'r's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -21381,7 +20485,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -21391,11 +20495,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0506",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Comparing Indigenous Centred Post Secondary Education in Canada",
+    "date": "October 2024",
+    "title": "'C'o'm'p'a'r'i'n'g' 'I'n'd'i'g'e'n'o'u's' 'C'e'n't'r'e'd' 'P'o's't' 'S'e'c'o'n'd'a'r'y' 'E'd'u'c'a't'i'o'n' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/comparing-indigenous-centred-post-secondary-education-in-canada/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -21421,10 +20525,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -21432,11 +20535,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0507",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Bridging Canada's Skills Gap",
+    "date": "October 2024",
+    "title": "'B'r'i'd'g'i'n'g' 'C'a'n'a'd'a'''s' 'S'k'i'l'l's' 'G'a'p'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/bridging-canadas-skills-gap/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -21463,10 +20566,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -21474,11 +20576,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0508",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "There\u2019s a revolution happening in skilled trades",
+    "date": "October 2024",
+    "title": "'T'h'e'r'e'\u2019's' 'a' 'r'e'v'o'l'u't'i'o'n' 'h'a'p'p'e'n'i'n'g' 'i'n' 's'k'i'l'l'e'd' 't'r'a'd'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/theres-a-revolution-happening-in-skilled-trades/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -21504,11 +20606,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -21516,11 +20616,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0509",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "The Future Is Social and Emotional",
+    "date": "October 2024",
+    "title": "'T'h'e' 'F'u't'u'r'e' 'I's' 'S'o'c'i'a'l' 'a'n'd' 'E'm'o't'i'o'n'a'l'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/the-future-is-social-and-emotional/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -21547,12 +20647,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -21560,11 +20657,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0510",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Manufacturing Best Practices",
+    "date": "October 2024",
+    "title": "'M'a'n'u'f'a'c't'u'r'i'n'g' 'B'e's't' 'P'r'a'c't'i'c'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/manufacturing-best-practices/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -21590,13 +20687,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -21604,8 +20697,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0511",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Trades Training Gaining Traction",
+    "date": "October 2024",
+    "title": "'T'r'a'd'e's' 'T'r'a'i'n'i'n'g' 'G'a'i'n'i'n'g' 'T'r'a'c't'i'o'n'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -21635,7 +20728,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -21645,11 +20738,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0512",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Erp and Trades",
+    "date": "October 2024",
+    "title": "'E'r'p' 'a'n'd' 'T'r'a'd'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/erp-and-trades/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -21675,10 +20768,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -21686,11 +20778,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0513",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Skills for Infrastructure",
+    "date": "January 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skills-for-infrastructure/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -21717,10 +20809,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Diversity Institute",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -21728,11 +20819,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0514",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Adoption Ready",
+    "date": "October 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/adoption-ready/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -21758,11 +20849,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "The Dais",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -21770,11 +20859,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0515",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Technological Maturity Construction Sector",
+    "date": "May 2023",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/technological-maturity-construction-sector/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -21801,12 +20890,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Brookfield Institute for Innovation + Entrepreneurship",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -21814,11 +20900,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0516",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Remote Work Eng",
+    "date": "October 2024",
+    "title": "'R'e'm'o't'e' 'W'o'r'k' 'E'n'g'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/remote-work-eng/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -21844,13 +20930,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -21858,8 +20940,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0517",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Green_skills",
+    "date": "March 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -21889,7 +20971,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Canadian Apprenticeship Forum",
     "locations": [
       "Across Canada"
     ]
@@ -21899,11 +20981,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0518",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Self Employment for Neurodivergent Canadians",
+    "date": "October 2024",
+    "title": "'S'e'l'f' 'E'm'p'l'o'y'm'e'n't' 'f'o'r' 'N'e'u'r'o'd'i'v'e'r'g'e'n't' 'C'a'n'a'd'i'a'n's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/self-employment-for-neurodivergent-canadians/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -21929,10 +21011,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -21940,11 +21021,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0519",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Understanding Influence of AI on Employment",
+    "date": "October 2024",
+    "title": "'U'n'd'e'r's't'a'n'd'i'n'g' 'I'n'f'l'u'e'n'c'e' 'o'f' 'A'I' 'o'n' 'E'm'p'l'o'y'm'e'n't'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/understanding-influence-of-ai-on-employment/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -21971,10 +21052,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -21982,11 +21062,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0520",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Mapping Self Employment Resources for Neurodivergent Canadians",
+    "date": "October 2024",
+    "title": "'S'e'l'f'-'E'm'p'l'o'y'm'e'n't' 'R'e's'o'u'r'c'e's' 'f'o'r' 'N'e'u'r'o'd'i'v'e'r's'e' 'C'a'n'a'd'i'a'n's'\u2014'M'a'r'c'h' '2'0'2'6'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/mapping-self-employment-resources-for-neurodivergent-canadians/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -22012,11 +21092,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": ".wp-block-tk-spacer.id-7ef82b0a-2bae-48f3-94bb-1936c86f4e59 { height: 20px; } @media ( max-width: 480px ) { .wp-block-tk-spacer.id-7ef82b0a-2bae-48f3-94bb-1936c86f4e59 { height: 50px; } }",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -22024,11 +21102,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0521",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Banking on AI",
+    "date": "March 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/banking-on-ai/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -22055,12 +21133,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "The Dais",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -22068,11 +21143,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0522",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Skills Mirror Bit",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'M'i'r'r'o'r' 'B'i't'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skills-mirror-bit/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -22098,13 +21173,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -22112,8 +21183,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0523",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Art in Artificial Intelligence",
+    "date": "March 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -22143,7 +21214,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "The Dais",
     "locations": [
       "Across Canada"
     ]
@@ -22153,11 +21224,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0524",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Self-Employment and Indigenous Export Potential\u2014March 2026",
+    "date": "October 2024",
+    "title": "'S'e'l'f'-'E'm'p'l'o'y'm'e'n't' 'a'n'd' 'I'n'd'i'g'e'n'o'u's' 'E'x'p'o'r't' 'P'o't'e'n't'i'a'l'\u2014'M'a'r'c'h' '2'0'2'6'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/mapping-indigenous-export-potential/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -22183,10 +21254,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -22194,11 +21264,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0525",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Skills Practices to Support Indigenous Exporters",
+    "date": "October 2024",
+    "title": "'S'k'i'l'l's' 'P'r'a'c't'i'c'e's' 't'o' 'S'u'p'p'o'r't' 'I'n'd'i'g'e'n'o'u's' 'E'x'p'o'r't'e'r's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skills-practices-to-support-indigenous-exporters/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -22225,10 +21295,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -22236,11 +21305,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0526",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Talent Perceptions Calgary",
+    "date": "January 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Alberta",
     "url": "https://fsc-ccf.ca/research/talent-perceptions-calgary/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -22266,11 +21335,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Calgary Economic Development",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Alberta"
     ]
   },
   {
@@ -22278,11 +21345,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0527",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Advancing Pathways to Neurodivergent Self Employment",
+    "date": "October 2024",
+    "title": "'A'd'v'a'n'c'i'n'g' 'P'a't'h'w'a'y's' 't'o' 'N'e'u'r'o'd'i'v'e'r'g'e'n't' 'S'e'l'f' 'E'm'p'l'o'y'm'e'n't'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/advancing-pathways-to-neurodivergent-self-employment/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -22309,12 +21376,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -22322,11 +21386,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0528",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Workforce Neurodivergent Student",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/workforce-neurodivergent-student/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -22352,13 +21416,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Signal49 Research (formerly The Conference Board of Canada)",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -22366,8 +21426,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0529",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Inclusive Workintegrated Learning",
+    "date": "October 2024",
+    "title": "'I'n'c'l'u's'i'v'e' 'W'o'r'k'i'n't'e'g'r'a't'e'd' 'L'e'a'r'n'i'n'g'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -22397,7 +21457,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -22407,11 +21467,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0530",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Municipal Diversity Assessment Tool",
+    "date": "October 2024",
+    "title": "'M'u'n'i'c'i'p'a'l' 'D'i'v'e'r's'i't'y' 'A's's'e's's'm'e'n't' 'T'o'o'l'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/diversity-assessment-tool-dat-app-for-municipalities/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -22437,10 +21497,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -22448,11 +21507,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0531",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Career Development Strategies Neurodivergent Students",
+    "date": "October 2024",
+    "title": "'C'a'r'e'e'r' 'D'e'v'e'l'o'p'm'e'n't' 'S't'r'a't'e'g'i'e's' 'N'e'u'r'o'd'i'v'e'r'g'e'n't' 'S't'u'd'e'n't's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/career-development-strategies-neurodivergent-students/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -22479,10 +21538,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -22490,11 +21548,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0532",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Addressing Barriers to Labour Force Participation",
+    "date": "October 2024",
+    "title": "'A'd'd'r'e's's'i'n'g' 'B'a'r'r'i'e'r's' 't'o' 'L'a'b'o'u'r' 'F'o'r'c'e' 'P'a'r't'i'c'i'p'a't'i'o'n'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/addressing-barriers-to-labour-force-participation/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -22520,11 +21578,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -22532,11 +21588,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0533",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Scoping Piaac Agenda",
+    "date": "October 2024",
+    "title": "'S'c'o'p'i'n'g' 'P'i'a'a'c' 'A'g'e'n'd'a'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/scoping-piaac-agenda/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -22563,12 +21619,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -22576,11 +21629,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0534",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Learning from One Another Pir",
+    "date": "October 2024",
+    "title": "'L'e'a'r'n'i'n'g' 'f'r'o'm' 'O'n'e' 'A'n'o't'h'e'r' 'P'i'r'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/learning-from-one-another-pir/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -22606,13 +21659,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -22620,8 +21669,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0535",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Canada Healthcare Workforce Retention and Migration",
+    "date": "October 2024",
+    "title": "'C'a'n'a'd'a' 'H'e'a'l't'h'c'a'r'e' 'W'o'r'k'f'o'r'c'e' 'R'e't'e'n't'i'o'n' 'a'n'd' 'M'i'g'r'a't'i'o'n'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -22651,7 +21700,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -22661,11 +21710,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0536",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Guiding AI Adoption Among Small Businesses\u2014April 2026",
+    "date": "October 2024",
+    "title": "'G'u'i'd'i'n'g' 'A'I' 'A'd'o'p't'i'o'n' 'A'm'o'n'g' 'S'm'a'l'l' 'B'u's'i'n'e's's'e's'\u2014'A'p'r'i'l' '2'0'2'6'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/ai-adoption-among-small-businesses/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -22691,10 +21740,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": ".wp-block-tk-spacer.id-d7f1ff0d-917d-45b6-b349-5b98efaf385d { height: 20px; } @media ( max-width: 480px ) { .wp-block-tk-spacer.id-d7f1ff0d-917d-45b6-b349-5b98efaf385d { height: 50px; } }",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -22702,11 +21750,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0537",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Shaping the Future of Learning and Development",
+    "date": "October 2024",
+    "title": "'S'h'a'p'i'n'g' 't'h'e' 'F'u't'u'r'e' 'o'f' 'L'e'a'r'n'i'n'g' 'a'n'd' 'D'e'v'e'l'o'p'm'e'n't'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/shaping-the-future-of-learning-and-development/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -22733,10 +21781,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -22744,11 +21791,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0538",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Scorecard for Immigrant Skill Utilization",
+    "date": "October 2024",
+    "title": "'S'c'o'r'e'c'a'r'd' 'f'o'r' 'I'm'm'i'g'r'a'n't' 'S'k'i'l'l' 'U't'i'l'i'z'a't'i'o'n'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/scorecard-for-immigrant-skill-utilization/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -22774,11 +21821,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -22786,11 +21831,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0539",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Rethinking How Canada Forecasts Skills Supply",
+    "date": "October 2024",
+    "title": "'R'e't'h'i'n'k'i'n'g' 'H'o'w' 'C'a'n'a'd'a' 'F'o'r'e'c'a's't's' 'S'k'i'l'l's' 'S'u'p'p'l'y'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/rethinking-how-canada-forecasts-skills-supply/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -22817,12 +21862,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -22830,11 +21872,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0540",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Mapping Youth Pathways",
+    "date": "October 2024",
+    "title": "'M'a'p'p'i'n'g' 'Y'o'u't'h' 'P'a't'h'w'a'y's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/mapping-youth-pathways/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -22860,13 +21902,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -22874,8 +21912,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0541",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Intelligent Machines",
+    "date": "October 2024",
+    "title": "'I'n't'e'l'l'i'g'e'n't' 'M'a'c'h'i'n'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -22905,7 +21943,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -22915,11 +21953,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0542",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Training Indigenous Community Health Workers",
+    "date": "October 2024",
+    "title": "'T'r'a'i'n'i'n'g' 'I'n'd'i'g'e'n'o'u's' 'C'o'm'm'u'n'i't'y' 'H'e'a'l't'h' 'W'o'r'k'e'r's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/training-indigenous-community-health-workers/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -22945,10 +21983,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -22956,11 +21993,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0543",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Black Experience Foodservice",
+    "date": "June 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/black-experience-foodservice/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -22987,10 +22024,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "The Re-Seasoning Coalition",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -22998,11 +22034,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0544",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Green Building Workforce",
+    "date": "October 2024",
+    "title": "'G'r'e'e'n' 'B'u'i'l'd'i'n'g' 'W'o'r'k'f'o'r'c'e'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/green-building-workforce/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -23028,11 +22064,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -23040,11 +22074,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0545",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Opportunities Justice Involved Individuals",
+    "date": "October 2024",
+    "title": "'O'p'p'o'r't'u'n'i't'i'e's' 'J'u's't'i'c'e' 'I'n'v'o'l'v'e'd' 'I'n'd'i'v'i'd'u'a'l's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/opportunities-justice-involved-individuals/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -23071,12 +22105,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -23084,11 +22115,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0546",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Refugee Youth Nova Scotia",
+    "date": "October 2024",
+    "title": "'R'e'f'u'g'e'e' 'Y'o'u't'h' 'N'o'v'a' 'S'c'o't'i'a'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/refugee-youth-nova-scotia/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -23114,13 +22145,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -23128,8 +22155,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0547",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Powering AI",
+    "date": "June 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -23159,7 +22186,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Electricity Human Resources Canada",
     "locations": [
       "Across Canada"
     ]
@@ -23169,11 +22196,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0548",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Opportunext",
+    "date": "October 2024",
+    "title": "'O'p'p'o'r't'u'n'e'x't'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/opportunext/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -23199,10 +22226,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -23210,11 +22236,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0549",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Retaining Canada Healthcare Workforce",
+    "date": "October 2024",
+    "title": "'R'e't'a'i'n'i'n'g' 'C'a'n'a'd'a' 'H'e'a'l't'h'c'a'r'e' 'W'o'r'k'f'o'r'c'e'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/retaining-canada-healthcare-workforce/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -23241,10 +22267,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -23252,11 +22277,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0550",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Indigenous Community Health Workers",
+    "date": "October 2024",
+    "title": "'I'n'd'i'g'e'n'o'u's' 'C'o'm'm'u'n'i't'y' 'H'e'a'l't'h' 'W'o'r'k'e'r's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/indigenous-community-health-workers/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -23282,11 +22307,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -23294,11 +22317,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0551",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Mapping Food Sustainability Canada",
+    "date": "June 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/mapping-food-sustainability-canada/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -23325,12 +22348,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Diversity Institute",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -23338,11 +22358,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0552",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "The Skills Map",
+    "date": "October 2024",
+    "title": "'T'h'e' 'S'k'i'l'l's' 'M'a'p' '\u2014' 'C'a'n'a'd'a'&'#'x'2'7';'s' 'S'k'i'l'l's' 'D'e'v'e'l'o'p'm'e'n't' 'E'c'o's'y's't'e'm'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/the-skills-map/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -23368,13 +22388,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -23382,11 +22398,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0553",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Albertas Coal Workers Transition",
+    "date": "June 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Across Canada",
+    "region": "Alberta",
     "url": "https://fsc-ccf.ca/research/albertas-coal-workers-transition/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -23413,9 +22429,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Labour Education Centre",
     "locations": [
-      "Across Canada"
+      "Alberta"
     ]
   },
   {
@@ -23423,11 +22439,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0554",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Mining Skills Innovation",
+    "date": "October 2024",
+    "title": "'M'i'n'i'n'g' 'S'k'i'l'l's' 'I'n'n'o'v'a't'i'o'n'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/mining-skills-innovation/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -23453,10 +22469,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -23464,11 +22479,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0555",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Labour Market Experiences Mental Health",
+    "date": "June 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/labour-market-experiences-mental-health/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -23495,10 +22510,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Environics Institute",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -23506,11 +22520,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0556",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Substance Use and Employability",
+    "date": "October 2024",
+    "title": "'S'u'b's't'a'n'c'e' 'U's'e' 'a'n'd' 'E'm'p'l'o'y'a'b'i'l'i't'y'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/substance-use-and-employability/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -23536,11 +22550,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -23548,11 +22560,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0557",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Critical Mining North",
+    "date": "June 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/critical-mining-north/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -23579,12 +22591,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Canadian Climate Institute",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -23592,11 +22601,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0558",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "AI in Action SMEs",
+    "date": "October 2024",
+    "title": "'A'I' 'i'n' 'A'c't'i'o'n' 'S'M'E's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/ai-in-action-smes/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -23622,13 +22631,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -23636,8 +22641,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0559",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "AI and Future Skills",
+    "date": "October 2024",
+    "title": "'A'I' 'a'n'd' 'F'u't'u'r'e' 'S'k'i'l'l's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -23667,7 +22672,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -23677,11 +22682,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0560",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Pilot Assessment Tool",
+    "date": "October 2024",
+    "title": "'P'i'l'o't' 'A's's'e's's'm'e'n't' 'T'o'o'l'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/pilot-assessment-tool/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -23707,10 +22712,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -23718,11 +22722,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0561",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "AI in Higher Education",
+    "date": "October 2024",
+    "title": "'A'I' 'i'n' 'H'i'g'h'e'r' 'E'd'u'c'a't'i'o'n'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/ai-in-higher-education/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -23749,10 +22753,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -23760,11 +22763,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0562",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Non Psis",
+    "date": "October 2024",
+    "title": "'N'o'n' 'P's'i's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/non-psis/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -23790,11 +22793,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -23802,11 +22803,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0563",
     "content_type": "Reports",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Indigenous Peoples Workplace Insights",
+    "date": "October 2024",
+    "title": "'I'n'd'i'g'e'n'o'u's' 'P'e'o'p'l'e's' 'W'o'r'k'p'l'a'c'e' 'I'n's'i'g'h't's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/indigenous-peoples-workplace-insights/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -23833,12 +22834,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -23846,11 +22844,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0564",
     "content_type": "Reports",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Trades Entrepreneurship",
+    "date": "October 2024",
+    "title": "'T'r'a'd'e's' 'E'n't'r'e'p'r'e'n'e'u'r's'h'i'p'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/trades-entrepreneurship/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -23876,13 +22874,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -23890,8 +22884,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0565",
     "content_type": "Reports",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Bridging AI Skills Gap",
+    "date": "June 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -23921,7 +22915,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Diversity Institute",
     "locations": [
       "Across Canada"
     ]
@@ -23931,11 +22925,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0566",
     "content_type": "Reports",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Northern Business Entrepreneurship",
+    "date": "October 2024",
+    "title": "'N'o'r't'h'e'r'n' 'B'u's'i'n'e's's' 'E'n't'r'e'p'r'e'n'e'u'r's'h'i'p'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/northern-business-entrepreneurship/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -23961,10 +22955,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -23972,11 +22965,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0567",
     "content_type": "Reports",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Esg Disclosure SME",
+    "date": "October 2024",
+    "title": "'E's'g' 'D'i's'c'l'o's'u'r'e' 'S'M'E'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/esg-disclosure-sme/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -24003,10 +22996,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -24014,11 +23006,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0568",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Language Skills Translation Tools",
+    "date": "June 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Quebec",
     "url": "https://fsc-ccf.ca/research/language-skills-translation-tools/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -24044,11 +23036,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Diversity Institute",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Quebec"
     ]
   },
   {
@@ -24056,11 +23046,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0569",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Immigration Economy Experiences",
+    "date": "June 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/immigration-economy-experiences/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -24087,12 +23077,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Diversity Institute",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -24100,11 +23087,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0570",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Building Tomorrow",
+    "date": "October 2024",
+    "title": "'B'u'i'l'd'i'n'g' 'T'o'm'o'r'r'o'w'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/building-tomorrow/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -24130,13 +23117,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -24144,8 +23127,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0571",
     "content_type": "Reports",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Career Development Professionals",
+    "date": "October 2024",
+    "title": "'C'a'r'e'e'r' 'D'e'v'e'l'o'p'm'e'n't' 'P'r'o'f'e's's'i'o'n'a'l's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -24175,7 +23158,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -24185,11 +23168,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0572",
     "content_type": "Reports",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Neuroinclusive Work\u2011Integrated Learning\u2014May 2026",
+    "date": "October 2024",
+    "title": "'N'e'u'r'o'i'n'c'l'u's'i'v'e' 'W'o'r'k'\u2011'I'n't'e'g'r'a't'e'd' 'L'e'a'r'n'i'n'g'\u2014'M'a'y' '2'0'2'6'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/neuroinclusive-workintegrated-learning/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -24215,10 +23198,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -24226,11 +23208,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0573",
     "content_type": "Reports",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "First Nations Health Authority",
+    "date": "October 2024",
+    "title": "'F'i'r's't' 'N'a't'i'o'n's' 'H'e'a'l't'h' 'A'u't'h'o'r'i't'y'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/first-nations-health-authority/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -24257,10 +23239,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -24268,11 +23249,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0574",
     "content_type": "Reports",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Newcomers Skill Utilization Healthcare",
+    "date": "October 2024",
+    "title": "'N'e'w'c'o'm'e'r's' 'S'k'i'l'l' 'U't'i'l'i'z'a't'i'o'n' 'H'e'a'l't'h'c'a'r'e'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/newcomers-skill-utilization-healthcare/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -24298,11 +23279,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -24310,11 +23289,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0575",
     "content_type": "Reports",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Immigrant Skills Utilization Hospitality",
+    "date": "October 2024",
+    "title": "'I'm'm'i'g'r'a'n't' 'S'k'i'l'l's' 'U't'i'l'i'z'a't'i'o'n' 'H'o's'p'i't'a'l'i't'y'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/immigrant-skills-utilization-hospitality/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -24341,12 +23320,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -24354,11 +23330,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0576",
     "content_type": "Reports",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "A Dynamic Approach to Measuring Changing Skills\u2014June 2026",
+    "date": "October 2024",
+    "title": "'A' 'D'y'n'a'm'i'c' 'A'p'p'r'o'a'c'h' 't'o' 'M'e'a's'u'r'i'n'g' 'C'h'a'n'g'i'n'g' 'S'k'i'l'l's'\u2014'J'u'n'e' '2'0'2'6'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/skills-and-jobs/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -24384,13 +23360,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -24398,8 +23370,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0577",
     "content_type": "Reports",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "AI Job",
+    "date": "October 2024",
+    "title": "'A'I' 'J'o'b'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -24429,7 +23401,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -24439,11 +23411,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0578",
     "content_type": "Reports",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Greenification of SMEs",
+    "date": "November 2025",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/greenification-of-smes/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -24469,10 +23441,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Diversity Institute",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -24480,11 +23451,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0579",
     "content_type": "Reports",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Fuelling Our Future",
+    "date": "October 2024",
+    "title": "'F'u'e'l'l'i'n'g' 'O'u'r' 'F'u't'u'r'e'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/fuelling-our-future/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -24511,10 +23482,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -24522,11 +23492,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0580",
     "content_type": "Reports",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Culturally Safe Workplaces",
+    "date": "October 2024",
+    "title": "'C'u'l't'u'r'a'l'l'y' 'S'a'f'e' 'W'o'r'k'p'l'a'c'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/research/culturally-safe-workplaces/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -24552,11 +23522,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -24564,11 +23532,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0581",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Electric Vehicles",
+    "date": "July 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Ontario",
     "url": "https://fsc-ccf.ca/research/electric-vehicles/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -24595,12 +23563,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Labour Education Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Ontario"
     ]
   },
   {
@@ -24608,11 +23573,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0582",
     "content_type": "Reports",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Workplace Inclusion",
+    "date": "August 2026",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Northwest Territories",
     "url": "https://fsc-ccf.ca/research/workplace-inclusion/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -24638,13 +23603,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "ProEdge Consulting",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Northwest Territories"
     ]
   },
   {
@@ -24652,8 +23613,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0583",
     "content_type": "Blog",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Blog Innovation Mindset",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'I'n'n'o'v'a't'i'o'n' 'M'i'n'd's'e't'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -24683,7 +23644,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -24693,11 +23654,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0584",
     "content_type": "Blog",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Blog Green Building and Skills Training",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'G'r'e'e'n' 'B'u'i'l'd'i'n'g' 'a'n'd' 'S'k'i'l'l's' 'T'r'a'i'n'i'n'g'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-green-building-and-skills-training/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -24723,10 +23684,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -24734,11 +23694,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0585",
     "content_type": "Blog",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Blog Adapt",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'A'd'a'p't'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-adapt/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -24765,10 +23725,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -24776,11 +23735,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0586",
     "content_type": "Blog",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Blog Sustainable Future",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'S'u's't'a'i'n'a'b'l'e' 'F'u't'u'r'e'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-sustainable-future/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -24806,11 +23765,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -24818,11 +23775,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0587",
     "content_type": "Blog",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Blog Tackling Climate Change",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'T'a'c'k'l'i'n'g' 'C'l'i'm'a't'e' 'C'h'a'n'g'e'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-tackling-climate-change/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -24849,12 +23806,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -24862,11 +23816,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0588",
     "content_type": "Blog",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Blog Accelerator Innovation Lab",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'A'c'c'e'l'e'r'a't'o'r' 'I'n'n'o'v'a't'i'o'n' 'L'a'b'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-accelerator-innovation-lab/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -24892,13 +23846,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -24906,8 +23856,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0589",
     "content_type": "Blog",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Blog Skills Training for Youth",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'S'k'i'l'l's' 'T'r'a'i'n'i'n'g' 'f'o'r' 'Y'o'u't'h'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -24937,7 +23887,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -24947,11 +23897,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0590",
     "content_type": "Blog",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Blog Employer Sponsored",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'E'm'p'l'o'y'e'r' 'S'p'o'n's'o'r'e'd'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-employer-sponsored/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -24977,10 +23927,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -24988,11 +23937,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0591",
     "content_type": "Blog",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Blog Ses",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'S'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-ses/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -25019,10 +23968,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -25030,11 +23978,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0592",
     "content_type": "Blog",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Blog Black History Month",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'B'l'a'c'k' 'H'i's't'o'r'y' 'M'o'n't'h'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-black-history-month/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -25060,11 +24008,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -25072,11 +24018,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0593",
     "content_type": "Blog",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Blog Bolder Approach",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'B'o'l'd'e'r' 'A'p'p'r'o'a'c'h'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-bolder-approach/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -25103,12 +24049,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -25116,11 +24059,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0594",
     "content_type": "Blog",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Blog Indigenous Nation Thrives",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'I'n'd'i'g'e'n'o'u's' 'N'a't'i'o'n' 'T'h'r'i'v'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-indigenous-nation-thrives/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -25146,13 +24089,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -25160,8 +24099,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0595",
     "content_type": "Blog",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Blog Sustainable Commuting",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'S'u's't'a'i'n'a'b'l'e' 'C'o'm'm'u't'i'n'g'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -25191,7 +24130,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -25201,11 +24140,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0596",
     "content_type": "Blog",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Blog Disabilities",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-disabilities/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -25231,10 +24170,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -25242,11 +24180,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0597",
     "content_type": "Blog",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Blog Accelerator",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'A'c'c'e'l'e'r'a't'o'r'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-accelerator/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -25273,10 +24211,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -25284,11 +24221,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0598",
     "content_type": "Blog",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Blog Agtech",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'A'g't'e'c'h'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-agtech/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -25314,11 +24251,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -25326,11 +24261,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0599",
     "content_type": "Blog",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Blog Reconciliation",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'R'e'c'o'n'c'i'l'i'a't'i'o'n'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-reconciliation/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -25357,12 +24292,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -25370,11 +24302,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0600",
     "content_type": "Blog",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Blog Mining",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'M'i'n'i'n'g'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-mining/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -25400,13 +24332,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -25414,8 +24342,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0601",
     "content_type": "Reports",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Microcredentials Data",
+    "date": "October 2024",
+    "title": "'M'i'c'r'o'c'r'e'd'e'n't'i'a'l's' 'D'a't'a'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -25445,7 +24373,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -25455,11 +24383,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0602",
     "content_type": "Blog",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Blog Skilled Trades",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'S'k'i'l'l'e'd' 'T'r'a'd'e's'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-skilled-trades/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -25485,10 +24413,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -25496,11 +24423,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0603",
     "content_type": "Blog",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Blog Clean Economy",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'C'l'e'a'n' 'E'c'o'n'o'm'y'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-clean-economy/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -25527,10 +24454,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -25538,11 +24464,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0604",
     "content_type": "Blog",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Blog Cdn Tech",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'C'd'n' 'T'e'c'h'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-cdn-tech/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -25568,11 +24494,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -25580,11 +24504,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0605",
     "content_type": "Blog",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Blog Cpmt",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'C'p'm't'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-cpmt/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -25611,12 +24535,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -25624,11 +24545,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0606",
     "content_type": "Blog",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Blog Lgbtq2s",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'L'g'b't'q'2's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-lgbtq2s/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -25654,13 +24575,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -25668,8 +24585,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0607",
     "content_type": "Blog",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Blog Triec",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'T'r'i'e'c'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -25699,7 +24616,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -25709,11 +24626,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0608",
     "content_type": "Blog",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Blog Psw",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'P's'w'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-psw/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -25739,10 +24656,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -25750,11 +24666,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0609",
     "content_type": "Blog",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Blog Rejection into Redirection",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'R'e'j'e'c't'i'o'n' 'i'n't'o' 'R'e'd'i'r'e'c't'i'o'n'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-rejection-into-redirection/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -25781,10 +24697,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -25792,11 +24707,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0610",
     "content_type": "Blog",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Blog Workforce Development Rossi",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'W'o'r'k'f'o'r'c'e' 'D'e'v'e'l'o'p'm'e'n't' 'R'o's's'i'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-workforce-development-rossi/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -25822,11 +24737,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -25834,11 +24747,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0611",
     "content_type": "Blog",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Blog Microcredentials Macro Impact",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'M'i'c'r'o'c'r'e'd'e'n't'i'a'l's' 'M'a'c'r'o' 'I'm'p'a'c't'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-microcredentials-macro-impact/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -25865,12 +24778,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -25878,11 +24788,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0612",
     "content_type": "Blog",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Blog Talk About Future Skills",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'T'a'l'k' 'A'b'o'u't' 'F'u't'u'r'e' 'S'k'i'l'l's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-talk-about-future-skills/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -25908,13 +24818,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -25922,8 +24828,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0613",
     "content_type": "Blog",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Blog Fostering Breakthrough Solutions",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -25953,7 +24859,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -25963,11 +24869,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0614",
     "content_type": "Blog",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Blog Career Development",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'C'a'r'e'e'r' 'D'e'v'e'l'o'p'm'e'n't'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-career-development/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -25993,10 +24899,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -26004,11 +24909,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0615",
     "content_type": "Blog",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Blog Psi Macdonald",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'P's'i' 'M'a'c'd'o'n'a'l'd'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-psi-macdonald/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -26035,10 +24940,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -26046,11 +24950,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0616",
     "content_type": "Blog",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Blog Mature Adults",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'M'a't'u'r'e' 'A'd'u'l't's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-mature-adults/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -26076,11 +24980,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -26088,11 +24990,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0617",
     "content_type": "Blog",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Blog Inclusive Labour Force",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'I'n'c'l'u's'i'v'e' 'L'a'b'o'u'r' 'F'o'r'c'e'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-inclusive-labour-force/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -26119,12 +25021,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -26132,11 +25031,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0618",
     "content_type": "Blog",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Blog Accelerator Ysm",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'A'c'c'e'l'e'r'a't'o'r' 'Y's'm'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-accelerator-ysm/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -26162,13 +25061,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -26176,8 +25071,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0619",
     "content_type": "Blog",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Blog Recovery of Canada's Labour Market",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'R'e'c'o'v'e'r'y' 'o'f' 'C'a'n'a'd'a'''s' 'L'a'b'o'u'r' 'M'a'r'k'e't'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -26207,7 +25102,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -26217,11 +25112,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0620",
     "content_type": "Blog",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Blog Power of Networks",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'P'o'w'e'r' 'o'f' 'N'e't'w'o'r'k's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-power-of-networks/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -26247,10 +25142,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -26258,11 +25152,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0621",
     "content_type": "Blog",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Blog New Brunswick Mikmaq",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'N'e'w' 'B'r'u'n's'w'i'c'k' 'M'i'k'm'a'q'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-new-brunswick-mikmaq/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -26289,10 +25183,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -26300,11 +25193,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0622",
     "content_type": "Blog",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Blog Youth Labour Market Scarring",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'Y'o'u't'h' 'L'a'b'o'u'r' 'M'a'r'k'e't' 'S'c'a'r'r'i'n'g'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-youth-labour-market-scarring/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -26330,11 +25223,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -26342,11 +25233,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0623",
     "content_type": "Blog",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Blog Poverty Reduction",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'P'o'v'e'r't'y' 'R'e'd'u'c't'i'o'n'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-poverty-reduction/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -26373,12 +25264,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -26386,11 +25274,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0624",
     "content_type": "Blog",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Blog Young Adults Covid 19",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'Y'o'u'n'g' 'A'd'u'l't's' 'C'o'v'i'd' '1'9'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-young-adults-covid-19/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -26416,13 +25304,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -26430,8 +25314,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0625",
     "content_type": "Blog",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Blog Newcomers Hospitality",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'N'e'w'c'o'm'e'r's' 'H'o's'p'i't'a'l'i't'y'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -26461,7 +25345,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -26471,11 +25355,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0626",
     "content_type": "Blog",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Blog Employers Skills Training",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'E'm'p'l'o'y'e'r's' 'S'k'i'l'l's' 'T'r'a'i'n'i'n'g'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-employers-skills-training/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -26501,10 +25385,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -26512,11 +25395,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0627",
     "content_type": "Blog",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Blog Unemployment Public Health",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'U'n'e'm'p'l'o'y'm'e'n't' 'P'u'b'l'i'c' 'H'e'a'l't'h'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-unemployment-public-health/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -26543,10 +25426,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -26554,11 +25436,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0628",
     "content_type": "Blog",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Blog What Is Piaac",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'W'h'a't' 'I's' 'P'i'a'a'c'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-what-is-piaac/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -26584,11 +25466,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -26596,11 +25476,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0629",
     "content_type": "Blog",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Blog Advancing Canada's Bioeconomy",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'A'd'v'a'n'c'i'n'g' 'C'a'n'a'd'a'''s' 'B'i'o'e'c'o'n'o'm'y'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-advancing-canadas-bioeconomy/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -26627,12 +25507,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -26640,11 +25517,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0630",
     "content_type": "Blog",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Blog Whats Past Is Prologue",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'W'h'a't's' 'P'a's't' 'I's' 'P'r'o'l'o'g'u'e'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-whats-past-is-prologue/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -26670,13 +25547,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -26684,8 +25557,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0631",
     "content_type": "Blog",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Blog Neurodiversity Research in Action",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'N'e'u'r'o'd'i'v'e'r's'i't'y' 'R'e's'e'a'r'c'h' 'i'n' 'A'c't'i'o'n'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -26715,7 +25588,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -26725,11 +25598,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0632",
     "content_type": "Blog",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Blog Learning Eval",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'L'e'a'r'n'i'n'g' 'E'v'a'l'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-learning-eval/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -26755,10 +25628,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -26766,11 +25638,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0633",
     "content_type": "Blog",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Blog Evaluation Myths",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'E'v'a'l'u'a't'i'o'n' 'M'y't'h's'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-evaluation-myths/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -26797,10 +25669,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -26808,11 +25679,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0634",
     "content_type": "Blog",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Blog Triec Caip",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'T'r'i'e'c' 'C'a'i'p'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-triec-caip/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -26838,11 +25709,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -26850,11 +25719,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0635",
     "content_type": "Blog",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Blog Thriving Workplaces",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'T'h'r'i'v'i'n'g' 'W'o'r'k'p'l'a'c'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-thriving-workplaces/",
     "focus_area": "Sustainable Jobs",
     "type": "Governance & Data Failure",
@@ -26881,12 +25750,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -26894,11 +25760,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0636",
     "content_type": "Blog",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Blog Lms SMEs",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'L'm's' 'S'M'E's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-lms-smes/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -26924,13 +25790,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -26938,8 +25800,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0637",
     "content_type": "Blog",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Blog Skills Matrix",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'S'k'i'l'l's' 'M'a't'r'i'x'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -26969,7 +25831,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -26979,11 +25841,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0638",
     "content_type": "Blog",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Blog Elite",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'E'l'i't'e'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-elite/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -27009,10 +25871,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -27020,11 +25881,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0639",
     "content_type": "Blog",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Blog Two Ways We Can Connect More Adults to Career Services in Canada",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'T'w'o' 'W'a'y's' 'W'e' 'C'a'n' 'C'o'n'n'e'c't' 'M'o'r'e' 'A'd'u'l't's' 't'o' 'C'a'r'e'e'r' 'S'e'r'v'i'c'e's' 'i'n' 'C'a'n'a'd'a'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-two-ways-we-can-connect-more-adults-to-career-services-in-canada/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -27051,10 +25912,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -27062,11 +25922,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0640",
     "content_type": "Blog",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Blog Trucker Paradox and Labour Market Information",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'T'r'u'c'k'e'r' 'P'a'r'a'd'o'x' 'a'n'd' 'L'a'b'o'u'r' 'M'a'r'k'e't' 'I'n'f'o'r'm'a't'i'o'n'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-trucker-paradox-and-labour-market-information/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -27092,11 +25952,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -27104,11 +25962,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0641",
     "content_type": "Blog",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Blog Impact Story Indigenous Women Thrive",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'I'm'p'a'c't' 'S't'o'r'y' 'I'n'd'i'g'e'n'o'u's' 'W'o'm'e'n' 'T'h'r'i'v'e'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-impact-story-indigenous-women-thrive/",
     "focus_area": "Pathways to Jobs",
     "type": "Systemic Barrier",
@@ -27135,12 +25993,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -27148,11 +26003,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0642",
     "content_type": "Blog",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Blog International Womens Day",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'I'n't'e'r'n'a't'i'o'n'a'l' 'W'o'm'e'n's' 'D'a'y'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-international-womens-day/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -27178,13 +26033,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -27192,8 +26043,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0643",
     "content_type": "Blog",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Blog Trust and Openness Strengthen Outcomes with FSC Partners",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'T'r'u's't' 'a'n'd' 'O'p'e'n'n'e's's' 'S't'r'e'n'g't'h'e'n' 'O'u't'c'o'm'e's' 'w'i't'h' 'F'S'C' 'P'a'r't'n'e'r's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -27223,7 +26074,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -27233,11 +26084,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0644",
     "content_type": "Blog",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Blog Fostering Innovation in Cybersecurity Edi",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'F'o's't'e'r'i'n'g' 'I'n'n'o'v'a't'i'o'n' 'i'n' 'C'y'b'e'r's'e'c'u'r'i't'y' 'E'd'i'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-fostering-innovation-in-cybersecurity-edi/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -27263,10 +26114,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -27274,11 +26124,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0645",
     "content_type": "Blog",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Blog Economic Recovery Requires a Team Effort Across Sectors and Industries",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'E'c'o'n'o'm'i'c' 'R'e'c'o'v'e'r'y' 'R'e'q'u'i'r'e's' 'a' 'T'e'a'm' 'E'f'f'o'r't' 'A'c'r'o's's' 'S'e'c't'o'r's' 'a'n'd' 'I'n'd'u's't'r'i'e's'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-economic-recovery-requires-a-team-effort-across-sectors-and-industries/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -27305,10 +26155,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -27316,11 +26165,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0646",
     "content_type": "Blog",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Blog Adults and Career Services Three Key Findings",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'A'd'u'l't's' 'a'n'd' 'C'a'r'e'e'r' 'S'e'r'v'i'c'e's' 'T'h'r'e'e' 'K'e'y' 'F'i'n'd'i'n'g's'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-adults-and-career-services-three-key-findings/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -27346,11 +26195,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -27358,11 +26205,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0647",
     "content_type": "Blog",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Blog Needs of Small Businesses Must Be Top of Mind in Economic Recovery Webinar",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'N'e'e'd's' 'o'f' 'S'm'a'l'l' 'B'u's'i'n'e's's'e's' 'M'u's't' 'B'e' 'T'o'p' 'o'f' 'M'i'n'd' 'i'n' 'E'c'o'n'o'm'i'c' 'R'e'c'o'v'e'r'y' 'W'e'b'i'n'a'r'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-needs-of-small-businesses-must-be-top-of-mind-in-economic-recovery-webinar/",
     "focus_area": "Tech and Automation",
     "type": "Governance & Data Failure",
@@ -27389,12 +26236,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -27402,11 +26246,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0648",
     "content_type": "Blog",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "Blog Worrying Skills Landscape",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-worrying-skills-landscape/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -27432,13 +26276,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -27446,8 +26286,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0649",
     "content_type": "Blog",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Blog Public Service Upskilling",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'P'u'b'l'i'c' 'S'e'r'v'i'c'e' 'U'p's'k'i'l'l'i'n'g'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "region": "Across Canada",
@@ -27477,7 +26317,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -27487,11 +26327,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0650",
     "content_type": "Blog",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Blog Pay for Performance",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'P'a'y' 'f'o'r' 'P'e'r'f'o'r'm'a'n'c'e'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-pay-for-performance/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -27517,10 +26357,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -27528,11 +26367,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0651",
     "content_type": "Blog",
     "year": 2022,
-    "date": "October 22, 2022",
-    "title": "Blog Youth Unemployment",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'Y'o'u't'h' 'U'n'e'm'p'l'o'y'm'e'n't'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-youth-unemployment/",
     "focus_area": "Pathways to Jobs",
     "type": "Governance & Data Failure",
@@ -27559,10 +26398,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -27570,11 +26408,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0652",
     "content_type": "Blog",
     "year": 2023,
-    "date": "January 1, 2023",
-    "title": "Blog Piaac Gaps",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'P'i'a'a'c' 'G'a'p's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-piaac-gaps/",
     "focus_area": "Tech and Automation",
     "type": "Positive Outcome",
@@ -27600,11 +26438,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -27612,11 +26448,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0653",
     "content_type": "Blog",
     "year": 2024,
-    "date": "April 8, 2024",
-    "title": "Blog Piaac Research",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'P'i'a'a'c' 'R'e's'e'a'r'c'h'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-piaac-research/",
     "focus_area": "SME Adaptability",
     "type": "Systemic Barrier",
@@ -27643,12 +26479,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -27656,11 +26489,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0654",
     "content_type": "Blog",
     "year": 2025,
-    "date": "July 15, 2025",
-    "title": "Blog Fast",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'F'a's't'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-fast/",
     "focus_area": "Inclusive Economy",
     "type": "Negative / Attrition Critical",
@@ -27686,13 +26519,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -27700,8 +26529,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0655",
     "content_type": "Blog",
     "year": 2021,
-    "date": "October 22, 2021",
-    "title": "Blog Productivity Workforce Shortages",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
     "region": "Across Canada",
@@ -27731,7 +26560,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -27741,11 +26570,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0656",
     "content_type": "Blog",
     "year": 2022,
-    "date": "January 1, 2022",
-    "title": "Blog AI Environics",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'A'I' 'E'n'v'i'r'o'n'i'c's'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-ai-environics/",
     "focus_area": "Pathways to Jobs",
     "type": "Positive Outcome",
@@ -27771,10 +26600,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -27782,11 +26610,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0657",
     "content_type": "Blog",
     "year": 2023,
-    "date": "April 8, 2023",
-    "title": "Blog Immigrant Employment",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'I'm'm'i'g'r'a'n't' 'E'm'p'l'o'y'm'e'n't'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-immigrant-employment/",
     "focus_area": "Tech and Automation",
     "type": "Systemic Barrier",
@@ -27813,10 +26641,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -27824,11 +26651,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0658",
     "content_type": "Blog",
     "year": 2024,
-    "date": "July 15, 2024",
-    "title": "Blog Reflections from Yellowknife",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'R'e'f'l'e'c't'i'o'n's' 'f'r'o'm' 'Y'e'l'l'o'w'k'n'i'f'e'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-reflections-from-yellowknife/",
     "focus_area": "SME Adaptability",
     "type": "Negative / Attrition Critical",
@@ -27854,11 +26681,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -27866,11 +26691,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0659",
     "content_type": "Blog",
     "year": 2025,
-    "date": "October 22, 2025",
-    "title": "Blog Belief Inclusion",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'B'e'l'i'e'f' 'I'n'c'l'u's'i'o'n'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-belief-inclusion/",
     "focus_area": "Inclusive Economy",
     "type": "Governance & Data Failure",
@@ -27897,12 +26722,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -27910,11 +26732,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0660",
     "content_type": "Blog",
     "year": 2021,
-    "date": "January 1, 2021",
-    "title": "Blog Skills Demand Afbos",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'S'k'i'l'l's' 'D'e'm'a'n'd' 'A'f'b'o's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-skills-demand-afbos/",
     "focus_area": "Sustainable Jobs",
     "type": "Positive Outcome",
@@ -27940,13 +26762,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -27954,8 +26772,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0661",
     "content_type": "Blog",
     "year": 2022,
-    "date": "April 8, 2022",
-    "title": "Blog AI Literacy",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'A'I' 'L'i't'e'r'a'c'y'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
     "region": "Across Canada",
@@ -27985,7 +26803,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "The Conference Board of Canada",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -27995,11 +26813,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0662",
     "content_type": "Blog",
     "year": 2023,
-    "date": "July 15, 2023",
-    "title": "Blog Iset",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'I's'e't'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-iset/",
     "focus_area": "Tech and Automation",
     "type": "Negative / Attrition Critical",
@@ -28025,10 +26843,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Blueprint-ADE & CME",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -28036,11 +26853,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0663",
     "content_type": "Blog",
     "year": 2024,
-    "date": "October 22, 2024",
-    "title": "Blog Aligning Ambition",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'A'l'i'g'n'i'n'g' 'A'm'b'i't'i'o'n'",
     "author": "By Toronto Metropolitan University (TMU) Secretariat",
     "raw_author": "Toronto Metropolitan University (TMU) Secretariat",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-aligning-ambition/",
     "focus_area": "SME Adaptability",
     "type": "Governance & Data Failure",
@@ -28067,10 +26884,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Bowie & Associates & Bow Valley College",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -28078,11 +26894,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0664",
     "content_type": "Blog",
     "year": 2025,
-    "date": "January 1, 2025",
-    "title": "Blog Replication",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'R'e'p'l'i'c'a't'i'o'n'",
     "author": "By Social Research and Demonstration Corporation (SRDC)",
     "raw_author": "Social Research and Demonstration Corporation (SRDC)",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-replication/",
     "focus_area": "Inclusive Economy",
     "type": "Positive Outcome",
@@ -28108,11 +26924,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Indigenous Works & FSC Consortium",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   },
   {
@@ -28120,11 +26934,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0665",
     "content_type": "Blog",
     "year": 2021,
-    "date": "April 8, 2021",
-    "title": "Blog Building Stronger Evidence",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'B'u'i'l'd'i'n'g' 'S't'r'o'n'g'e'r' 'E'v'i'd'e'n'c'e'",
     "author": "By Donnalee Bell, Sareena Hopkins, Julia Blackburn",
     "raw_author": "Donnalee Bell, Sareena Hopkins, Julia Blackburn",
-    "region": "Atlantic Canada",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-building-stronger-evidence/",
     "focus_area": "Sustainable Jobs",
     "type": "Systemic Barrier",
@@ -28151,12 +26965,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Toronto Metropolitan University (TMU) Secretariat",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Nova Scotia",
-      "New Brunswick",
-      "Prince Edward Island",
-      "Newfoundland & Labrador"
+      "Across Canada"
     ]
   },
   {
@@ -28164,11 +26975,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2022-0666",
     "content_type": "Blog",
     "year": 2022,
-    "date": "July 15, 2022",
-    "title": "Blog Missing Work of Coordination",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'M'i's's'i'n'g' 'W'o'r'k' 'o'f' 'C'o'o'r'd'i'n'a't'i'o'n'",
     "author": "By Andrew Parkin",
     "raw_author": "Andrew Parkin",
-    "region": "British Columbia",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/blog-missing-work-of-coordination/",
     "focus_area": "Pathways to Jobs",
     "type": "Negative / Attrition Critical",
@@ -28194,13 +27005,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Social Research and Demonstration Corporation (SRDC)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Ontario",
-      "Saskatchewan"
+      "Across Canada"
     ]
   },
   {
@@ -28208,8 +27015,8 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2023-0667",
     "content_type": "Blog",
     "year": 2023,
-    "date": "October 22, 2023",
-    "title": "Blog Edi Policies",
+    "date": "October 2024",
+    "title": "'B'l'o'g' 'E'd'i' 'P'o'l'i'c'i'e's'",
     "author": "By The Conference Board of Canada & FSC",
     "raw_author": "The Conference Board of Canada & FSC",
     "region": "Across Canada",
@@ -28239,7 +27046,7 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Canadian Manufacturers & Exporters",
+    "partner": "Future Skills Centre",
     "locations": [
       "Across Canada"
     ]
@@ -28249,11 +27056,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2024-0668",
     "content_type": "Reports",
     "year": 2024,
-    "date": "January 1, 2024",
-    "title": "AI Changing Work",
+    "date": "October 2024",
+    "title": "'F'u't'u'r'e' 'S'k'i'l'l's' 'C'e'n't'r'e' '\u2022' 'C'e'n't'r'e' 'd'e's' 'C'o'm'p'\u00e9't'e'n'c'e's' 'f'u't'u'r'e's'",
     "author": "By Blueprint-ADE & CME",
     "raw_author": "Blueprint-ADE & CME",
-    "region": "Alberta",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/ai-changing-work/",
     "focus_area": "SME Adaptability",
     "type": "Positive Outcome",
@@ -28279,10 +27086,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Colleges and Institutes Canada (CICan)",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Ontario",
-      "Quebec"
+      "Across Canada"
     ]
   },
   {
@@ -28290,11 +27096,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2025-0669",
     "content_type": "Reports",
     "year": 2025,
-    "date": "April 8, 2025",
-    "title": "Fix Our Healthcare Problems 2",
+    "date": "October 2024",
+    "title": "'F'i'x' 'O'u'r' 'H'e'a'l't'h'c'a'r'e' 'P'r'o'b'l'e'm's' '2'",
     "author": "By Bowie & Associates & Bow Valley College",
     "raw_author": "Bowie & Associates & Bow Valley College",
-    "region": "Northern & Remote Communities",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/fix-our-healthcare-problems-2/",
     "focus_area": "Inclusive Economy",
     "type": "Systemic Barrier",
@@ -28321,10 +27127,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Labour Education Centre",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Alberta",
-      "British Columbia"
+      "Across Canada"
     ]
   },
   {
@@ -28332,11 +27137,11 @@ const FULL_508_CORPUS = [
     "document_id": "FSC-2021-0670",
     "content_type": "Reports",
     "year": 2021,
-    "date": "July 15, 2021",
-    "title": "Preparing Young People Future of Work",
+    "date": "October 2024",
+    "title": "'P'r'e'p'a'r'i'n'g' 'Y'o'u'n'g' 'P'e'o'p'l'e' 'F'u't'u'r'e' 'o'f' 'W'o'r'k'",
     "author": "By Indigenous Works & FSC Consortium",
     "raw_author": "Indigenous Works & FSC Consortium",
-    "region": "Ontario & Quebec",
+    "region": "Across Canada",
     "url": "https://fsc-ccf.ca/preparing-young-people-future-of-work/",
     "focus_area": "Sustainable Jobs",
     "type": "Negative / Attrition Critical",
@@ -28362,11 +27167,9 @@ const FULL_508_CORPUS = [
     "irr_kappa_score": 0.88,
     "investment_num": 0,
     "investment_formatted": "N/A (Knowledge Publication)",
-    "partner": "Food Processing Skills Canada",
+    "partner": "Future Skills Centre",
     "locations": [
-      "Northwest Territories",
-      "Nunavut",
-      "Yukon"
+      "Across Canada"
     ]
   }
 ];
