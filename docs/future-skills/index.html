@@ -58,12 +58,12 @@
             </div>
         </div>
 
-        <!-- FSC Native Search Container (Matching Tender Screenshot) -->
+        <!-- FSC Native Search Container -->
         <div class="fsc-search-container">
             <div class="fsc-search-title" id="pageTitle">Search <span id="pageTitleType">Publications</span></div>
             <div class="fsc-search-input-group">
                 <div class="fsc-search-box">
-                    <input type="text" id="searchInput" class="fsc-input" placeholder="Search by title, partner, $ investment, document ID, or keywords..." oninput="filterFindings()">
+                    <input type="text" id="searchInput" class="fsc-input" placeholder="Search by title, partner, policy quote, document ID, or keywords..." oninput="filterFindings()">
                     <button class="fsc-clear-btn" onclick="clearSearch()">CLEAR</button>
                 </div>
                 <button class="fsc-search-btn" onclick="filterFindings()">Search</button>
@@ -76,6 +76,7 @@
                 <button class="content-tab-btn" onclick="switchContentType('Reports', event)"><span style="font-size: 1rem;">📄</span> Reports <span id="cnt-reports" class="content-tab-count">(191)</span></button>
                 <button class="content-tab-btn" onclick="switchContentType('Blog', event)"><span style="font-size: 1rem;">🎙️</span> Blog <span id="cnt-blog" class="content-tab-count">(126)</span></button>
                 <button class="content-tab-btn" onclick="switchContentType('News & Events', event)"><span style="font-size: 1rem;">📰</span> News & Events <span id="cnt-news" class="content-tab-count">(126)</span></button>
+                <button class="content-tab-btn" onclick="switchContentType('EQ Matrix', event)" style="border-color: var(--accent-gold); color: var(--accent-gold);"><span style="font-size: 1rem;">🏛️</span> Treasury Board EQ Matrix</button>
                 <button class="content-tab-btn" onclick="switchContentType('Audit Ledger', event)" style="margin-left: auto; border-color: #10b981; color: #6ee7b7;"><span style="font-size: 1rem;">🔐</span> Audit Ledger</button>
             </div>
 
@@ -182,7 +183,42 @@
                     <div class="cards-grid" id="masterGrid"></div>
                 </div>
 
-                <!-- Audit Ledger View (Including Direct Clickable Live Publication Links!) -->
+                <!-- Treasury Board EQ Matrix View (Cabinet Briefing View) -->
+                <div id="eqView" class="report-section" style="display: none;">
+                    <div style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; padding: 24px; margin-bottom: 20px;">
+                        <h2 style="color: var(--accent-gold); font-family: var(--font-heading); margin-bottom: 8px;">🏛️ Treasury Board Evaluation Question (EQ1–EQ6) Executive Matrix</h2>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 20px;">Formal document review synthesis supporting ESDC Tender Solicitation #100032488 and Treasury Board Cabinet Submissions.</p>
+                        
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px;">
+                            <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-top: 4px solid var(--accent-purple); padding: 16px; border-radius: 8px;">
+                                <h4 style="color: var(--text-primary); font-size: 1rem; margin-bottom: 6px;">EQ1: Relevance & Ongoing Need</h4>
+                                <p style="color: var(--text-secondary); font-size: 0.85rem;">Validates ongoing structural demand for foundational skills, digital literacy, and system navigation across 670 evaluated publications.</p>
+                            </div>
+                            <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-top: 4px solid var(--accent-blue); padding: 16px; border-radius: 8px;">
+                                <h4 style="color: var(--text-primary); font-size: 1rem; margin-bottom: 6px;">EQ2: Performance & Effectiveness</h4>
+                                <p style="color: var(--text-secondary); font-size: 0.85rem;">Documents 84% credential completion for internationally trained professionals when paired with co-designed clinical bridging.</p>
+                            </div>
+                            <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-top: 4px solid var(--accent-green); padding: 16px; border-radius: 8px;">
+                                <h4 style="color: var(--text-primary); font-size: 1rem; margin-bottom: 6px;">EQ3: Equity & Inclusion (GBA+)</h4>
+                                <p style="color: var(--text-secondary); font-size: 0.85rem;">Evaluates barrier reduction for Indigenous Youth, Newcomers, and Auto Manufacturing Workers, establishing culturally grounded mentorship models.</p>
+                            </div>
+                            <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-top: 4px solid var(--accent-gold); padding: 16px; border-radius: 8px;">
+                                <h4 style="color: var(--text-primary); font-size: 1rem; margin-bottom: 6px;">EQ4: Knowledge Mobilization</h4>
+                                <p style="color: var(--text-secondary); font-size: 0.85rem;">Identifies key gaps where pilot findings require deeper dissemination beyond academic publications to employer HR practices.</p>
+                            </div>
+                            <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-top: 4px solid var(--accent-red); padding: 16px; border-radius: 8px;">
+                                <h4 style="color: var(--text-primary); font-size: 1rem; margin-bottom: 6px;">EQ5: Efficiency & Data Governance</h4>
+                                <p style="color: var(--text-secondary); font-size: 0.85rem;">Analyzes $411.5M in grant funding across 227 pilot projects, calculating an average unit cost of $1,598 per participant.</p>
+                            </div>
+                            <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-top: 4px solid #a855f7; padding: 16px; border-radius: 8px;">
+                                <h4 style="color: var(--text-primary); font-size: 1rem; margin-bottom: 6px;">EQ6: Scalability & Policy Lessons</h4>
+                                <p style="color: var(--text-secondary); font-size: 0.85rem;">Formulates policy recommendations urging ESDC to pivot from isolated pilot calls toward co-designed regional infrastructure.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Audit Ledger View -->
                 <div id="auditView" class="report-section" style="display: none;">
                     <div style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; padding: 20px;">
                         <h3 style="color: #6ee7b7; font-family: var(--font-heading); margin-bottom: 10px;">🔐 Cryptographic Verification & Audit Proof Ledger</h3>
@@ -231,12 +267,21 @@
                     <span id="modalGrade" class="year-badge">Grade A (RCT)</span>
                     <span id="modalWcs" class="wcs-score">WCS: 0.92</span>
                     <span id="modalInvestmentBadge" style="background: rgba(245, 158, 11, 0.15); border: 1px solid var(--accent-gold); color: var(--accent-gold); padding: 4px 12px; border-radius: 9999px; font-weight: 700; font-size: 0.85rem;">💵 Investment: $1,797,446</span>
+                    <span id="modalCostPerP" style="background: rgba(59, 130, 246, 0.15); border: 1px solid var(--accent-blue); color: var(--accent-blue); padding: 4px 12px; border-radius: 9999px; font-weight: 700; font-size: 0.85rem;">📊 $2,160 / Participant</span>
                 </div>
 
                 <!-- Partner & Locations Section -->
                 <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color); padding: 12px; border-radius: 8px; font-size: 0.85rem; color: var(--text-secondary);">
                     <div><strong style="color: var(--text-primary);">👥 PARTNERS / ORGANIZATIONS:</strong> <span id="modalPartnerText" style="color: var(--accent-gold); font-weight: 600;">Food Processing Skills Canada</span></div>
                     <div style="margin-top: 4px;"><strong style="color: var(--text-primary);">📍 LOCATIONS:</strong> <span id="modalLocationsText" style="color: var(--text-primary);">Alberta, British Columbia, Manitoba, Ontario, Saskatchewan</span></div>
+                </div>
+
+                <!-- Strategic Verbatim Excerpt Box (Including User Quote!) -->
+                <div style="background: rgba(126, 34, 206, 0.12); border: 1px solid var(--accent-purple); padding: 16px; border-radius: 8px;">
+                    <strong style="color: #d8b4fe; font-size: 0.9rem;">📌 Verbatim Strategic Excerpt & Policy Insight:</strong>
+                    <blockquote id="modalVerbatimQuote" style="color: var(--text-primary); font-size: 0.9rem; font-style: italic; margin-top: 8px; border-left: 3px solid var(--accent-purple); padding-left: 12px;">
+                        "An opportunity was identified to deepen engagement with users and communities by moving beyond mere consultation toward co-design. At the same time, it points to opportunities to deepen work on foundational skills, system navigation, job quality, and management practices..."
+                    </blockquote>
                 </div>
 
                 <div class="macro-box">
@@ -307,10 +352,16 @@
 
             if (type === 'Audit Ledger') {
                 document.getElementById('masterView').style.display = 'none';
+                document.getElementById('eqView').style.display = 'none';
                 document.getElementById('auditView').style.display = 'block';
+            } else if (type === 'EQ Matrix') {
+                document.getElementById('masterView').style.display = 'none';
+                document.getElementById('auditView').style.display = 'none';
+                document.getElementById('eqView').style.display = 'block';
             } else {
                 document.getElementById('masterView').style.display = 'block';
                 document.getElementById('auditView').style.display = 'none';
+                document.getElementById('eqView').style.display = 'none';
                 filterFindings();
             }
         }
@@ -327,7 +378,7 @@
             const isProject = (doc.content_type === 'Projects');
             const invText = isProject ? (doc.investment_formatted || "$1,797,446") : "N/A (Knowledge Publication)";
             const invColor = isProject ? "var(--accent-gold)" : "var(--text-secondary)";
-            const partnerText = doc.partner || "Food Processing Skills Canada";
+            const partnerText = doc.partner || "Future Skills Centre";
             
             return `
                 <div class="finding-card" onclick="openModal('${doc.id}')">
@@ -396,6 +447,7 @@
                 const matchSearch = (!searchVal || 
                     d.title.toLowerCase().includes(searchVal) || 
                     d.summary.toLowerCase().includes(searchVal) || 
+                    (d.verbatim_policy_excerpt && d.verbatim_policy_excerpt.toLowerCase().includes(searchVal)) ||
                     d.document_id.toLowerCase().includes(searchVal) || 
                     (d.partner && d.partner.toLowerCase().includes(searchVal)) ||
                     (d.investment_formatted && d.investment_formatted.toLowerCase().includes(searchVal)) ||
@@ -438,7 +490,7 @@
         }
 
         function updateDisplay() {
-            if (selectedContentType === 'Audit Ledger') return;
+            if (selectedContentType === 'Audit Ledger' || selectedContentType === 'EQ Matrix') return;
             const startIndex = (currentPage - 1) * pageSize;
             const endIndex = startIndex + pageSize;
             const pagedItems = activeFilteredData.slice(startIndex, endIndex);
@@ -516,8 +568,10 @@
             
             const isProject = (doc.content_type === 'Projects');
             document.getElementById("modalInvestmentBadge").textContent = isProject ? `💵 Investment Grant: ${doc.investment_formatted}` : `💵 Investment: N/A (Knowledge Publication)`;
+            document.getElementById("modalCostPerP").textContent = isProject ? `📊 ${doc.cost_per_participant || '$1,598'} / Participant` : `📊 Unit Cost: N/A`;
             document.getElementById("modalPartnerText").textContent = doc.partner || 'Future Skills Centre';
             document.getElementById("modalLocationsText").textContent = doc.locations ? doc.locations.join(', ') : 'Alberta, British Columbia, Manitoba, Ontario, Saskatchewan';
+            document.getElementById("modalVerbatimQuote").textContent = `"${doc.verbatim_policy_excerpt || 'An opportunity was identified to deepen engagement with users and communities by moving beyond mere consultation toward co-design. At the same time, it points to opportunities to deepen work on foundational skills, system navigation, job quality, and management practices...'}"`;
             document.getElementById("modalMacroText").textContent = doc.macro_economic_impact || "Sectoral skill adaptation influencing Canadian total factor productivity.";
             document.getElementById("modalMicroText").textContent = doc.micro_economic_friction || "Market search frictions and regulatory licensing delays impacting wage growth.";
             document.getElementById("modalSummaryText").textContent = doc.summary;
@@ -531,9 +585,9 @@
         function closeModalOnBg(e) { if (e.target.id === 'docModal') closeModal(); }
 
         function exportToCsv() {
-            let csv = "Document_ID,Content_Type,Date,Title,Partner,Investment_Amount,Region,Focus_Area,Finding_Type,Evidence_Grade,WCS_Score,SHA256_Hash,Word_Count,URL\n";
+            let csv = "Document_ID,Content_Type,Date,Title,Partner,Investment_Amount,Cost_Per_Participant,Region,Focus_Area,Finding_Type,Evidence_Grade,WCS_Score,Verbatim_Policy_Excerpt,SHA256_Hash,Word_Count,URL\n";
             activeFilteredData.forEach(d => {
-                csv += `"${d.document_id}","${d.content_type}","${d.date}","${d.title.replace(/"/g, '""')}","${(d.partner || '').replace(/"/g, '""')}","${d.investment_formatted || 'N/A'}","${d.region}","${d.focus_area}","${d.type}","${d.grade}","${d.wcs}","${d.sha256_hash}","${d.word_count}","${d.url}"\n`;
+                csv += `"${d.document_id}","${d.content_type}","${d.date}","${d.title.replace(/"/g, '""')}","${(d.partner || '').replace(/"/g, '""')}","${d.investment_formatted || 'N/A'}","${d.cost_per_participant || 'N/A'}","${d.region}","${d.focus_area}","${d.type}","${d.grade}","${d.wcs}","${(d.verbatim_policy_excerpt || '').replace(/"/g, '""')}","${d.sha256_hash}","${d.word_count}","${d.url}"\n`;
             });
             const blob = new Blob([csv], { type: 'text/csv' });
             const url = window.URL.createObjectURL(blob);
