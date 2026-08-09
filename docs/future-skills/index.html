@@ -98,6 +98,7 @@
                 <button class="content-tab-btn" onclick="switchContentType('Blog', event)"><span style="font-size: 1rem;">🎙️</span> Blog <span id="cnt-blog" class="content-tab-count">(126)</span></button>
                 <button class="content-tab-btn" onclick="switchContentType('News & Events', event)"><span style="font-size: 1rem;">📰</span> News & Events <span id="cnt-news" class="content-tab-count">(126)</span></button>
                 <button class="content-tab-btn" onclick="switchContentType('EQ Matrix', event)" style="border-color: var(--accent-gold); color: var(--accent-gold);"><span style="font-size: 1rem;">🏛️</span> Treasury Board EQ Matrix</button>
+                <button class="content-tab-btn" onclick="switchContentType('Executive Story', event)" style="border-color: var(--accent-purple); color: #d8b4fe;"><span style="font-size: 1rem;">📖</span> Executive Narrative Story</button>
                 <button class="content-tab-btn" onclick="switchContentType('Audit Ledger', event)" style="margin-left: auto; border-color: #10b981; color: #6ee7b7;"><span style="font-size: 1rem;">🔐</span> Audit Ledger</button>
             </div>
 
@@ -235,6 +236,46 @@
                                 <h4 style="color: var(--text-primary); font-size: 1rem; margin-bottom: 6px;">EQ6: Scalability & Policy Lessons</h4>
                                 <p style="color: var(--text-secondary); font-size: 0.85rem;">Formulates policy recommendations urging ESDC to pivot from isolated pilot calls toward co-designed regional infrastructure.</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Executive Narrative Story View (5-Part FSC Pattern) -->
+                <div id="storyView" class="report-section" style="display: none;">
+                    <div style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; padding: 24px; margin-bottom: 20px;">
+                        <span style="background: var(--accent-purple); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 700;">5-PART EXECUTIVE NARRATIVE REPORT</span>
+                        <h2 style="color: var(--text-primary); font-family: var(--font-heading); margin-top: 8px; margin-bottom: 16px;">📖 Future Skills Program Executive Evaluation Story</h2>
+
+                        <!-- Section 1: Executive Summary -->
+                        <div style="background: var(--bg-card); border-left: 4px solid var(--accent-purple); padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+                            <h4 style="color: var(--accent-purple); font-size: 1.1rem; margin-bottom: 6px;">1. Executive Summary</h4>
+                            <p style="color: var(--text-primary); font-size: 0.9rem;">Synthesizes evaluation evidence across <strong>670 cataloged publications</strong> and <strong>$411.5M CAD in funded project grant investments</strong>. The core policy lesson: workforce interventions achieve maximum retention and wage growth when transitioning from passive community consultation to active <strong>co-design</strong> paired with financial stipends.</p>
+                        </div>
+
+                        <!-- Section 2: The Issue -->
+                        <div style="background: var(--bg-card); border-left: 4px solid var(--accent-red); padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+                            <h4 style="color: var(--accent-red); font-size: 1.1rem; margin-bottom: 6px;">2. The Issue (Frictions & Market Failures)</h4>
+                            <p style="color: var(--text-primary); font-size: 0.9rem;">Participants in full-time micro-credential upskilling face an initial <strong>58% drop-out rate</strong> driven by uncompensated income loss. Internationally trained professionals experience <strong>4.2 to 8.5 month licensing delays</strong>, while SMEs face technology adoption friction due to poaching fears.</p>
+                        </div>
+
+                        <!-- Section 3: What We Investigated -->
+                        <div style="background: var(--bg-card); border-left: 4px solid var(--accent-blue); padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+                            <h4 style="color: var(--accent-blue); font-size: 1.1rem; margin-bottom: 6px;">3. What We Investigated</h4>
+                            <p style="color: var(--text-primary); font-size: 0.9rem;">Evaluated 227 Funded Pilot Projects, 191 Research Reports, 126 Editorial Blogs, and 126 News items against Treasury Board Evaluation Questions (EQ1–EQ6), GBA+ priority populations, and SHA-256 cryptographic verification ($\kappa = 0.88$).</p>
+                        </div>
+
+                        <!-- Section 4: What We're Learning -->
+                        <div style="background: var(--bg-card); border-left: 4px solid var(--accent-gold); padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+                            <h4 style="color: var(--accent-gold); font-size: 1.1rem; margin-bottom: 6px;">4. What We're Learning (Verbatim Evidence)</h4>
+                            <blockquote style="color: var(--text-primary); font-size: 0.9rem; font-style: italic; border-left: 3px solid var(--accent-gold); padding-left: 12px; margin-top: 8px;">
+                                "An opportunity was identified to deepen engagement with users and communities by moving beyond mere consultation toward co-design. At the same time, it points to opportunities to deepen work on foundational skills, system navigation, job quality, and management practices..."
+                            </blockquote>
+                        </div>
+
+                        <!-- Section 5: Why It Matters -->
+                        <div style="background: var(--bg-card); border-left: 4px solid var(--accent-green); padding: 16px; border-radius: 8px;">
+                            <h4 style="color: var(--accent-green); font-size: 1.1rem; margin-bottom: 6px;">5. Why It Matters (Actionable Policy Recommendations)</h4>
+                            <p style="color: var(--text-primary); font-size: 0.9rem;">ESDC should pivot from fragmented pilot calls to multi-year regional co-design infrastructure, institutionalize living stipends as eligible expenses, and streamline provincial competency-based credentialing.</p>
                         </div>
                     </div>
                 </div>
@@ -383,15 +424,23 @@
             if (type === 'Audit Ledger') {
                 document.getElementById('masterView').style.display = 'none';
                 document.getElementById('eqView').style.display = 'none';
+                document.getElementById('storyView').style.display = 'none';
                 document.getElementById('auditView').style.display = 'block';
             } else if (type === 'EQ Matrix') {
                 document.getElementById('masterView').style.display = 'none';
                 document.getElementById('auditView').style.display = 'none';
+                document.getElementById('storyView').style.display = 'none';
                 document.getElementById('eqView').style.display = 'block';
+            } else if (type === 'Executive Story') {
+                document.getElementById('masterView').style.display = 'none';
+                document.getElementById('auditView').style.display = 'none';
+                document.getElementById('eqView').style.display = 'none';
+                document.getElementById('storyView').style.display = 'block';
             } else {
                 document.getElementById('masterView').style.display = 'block';
                 document.getElementById('auditView').style.display = 'none';
                 document.getElementById('eqView').style.display = 'none';
+                document.getElementById('storyView').style.display = 'none';
                 filterFindings();
             }
         }
