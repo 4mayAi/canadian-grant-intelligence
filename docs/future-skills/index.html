@@ -71,11 +71,11 @@
 
             <!-- Preset Policy Query Buttons -->
             <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px;">
-                <button class="focus-pill" onclick="searchPolicyPrompt('co-design community engagement', event)" style="background: rgba(168, 85, 247, 0.2); border-color: #a855f7;">💡 Community Co-Design</button>
-                <button class="focus-pill" onclick="searchPolicyPrompt('foundational skills system navigation', event)" style="background: rgba(6, 182, 212, 0.2); border-color: #06b6d4;">🧭 Foundational Skills & Navigation</button>
-                <button class="focus-pill" onclick="searchPolicyPrompt('job quality wage growth', event)" style="background: rgba(245, 158, 11, 0.2); border-color: #f59e0b;">📈 Job Quality & Wage Growth</button>
-                <button class="focus-pill" onclick="searchPolicyPrompt('micro-credential attrition stipend', event)" style="background: rgba(239, 68, 68, 0.2); border-color: #ef4444;">🛡️ Attrition & Stipend Supports</button>
-                <button class="focus-pill" onclick="searchPolicyPrompt('internationally educated nurses licensing', event)" style="background: rgba(16, 185, 129, 0.2); border-color: #10b981;">👩‍⚕️ Foreign Credential Recognition</button>
+                <button class="focus-pill" onclick="searchPolicyPrompt('co-design', event)" style="background: rgba(168, 85, 247, 0.2); border-color: #a855f7;">💡 Community Co-Design</button>
+                <button class="focus-pill" onclick="searchPolicyPrompt('foundational', event)" style="background: rgba(6, 182, 212, 0.2); border-color: #06b6d4;">🧭 Foundational Skills & Navigation</button>
+                <button class="focus-pill" onclick="searchPolicyPrompt('job quality', event)" style="background: rgba(245, 158, 11, 0.2); border-color: #f59e0b;">📈 Job Quality & Wage Growth</button>
+                <button class="focus-pill" onclick="searchPolicyPrompt('stipend', event)" style="background: rgba(239, 68, 68, 0.2); border-color: #ef4444;">🛡️ Attrition & Stipend Supports</button>
+                <button class="focus-pill" onclick="searchPolicyPrompt('nurses', event)" style="background: rgba(16, 185, 129, 0.2); border-color: #10b981;">👩‍⚕️ Foreign Credential Recognition</button>
             </div>
         </div>
 
@@ -474,14 +474,21 @@
                 const matchGba = (gbaVal === "All" || d.gba.includes(gbaVal));
                 const matchRegion = (regionVal === "All" || d.region === regionVal);
                 const matchGrade = (gradeVal === "All" || d.grade === gradeVal);
-                const matchSearch = (!searchVal || 
-                    d.title.toLowerCase().includes(searchVal) || 
-                    d.summary.toLowerCase().includes(searchVal) || 
-                    (d.verbatim_policy_excerpt && d.verbatim_policy_excerpt.toLowerCase().includes(searchVal)) ||
-                    d.document_id.toLowerCase().includes(searchVal) || 
-                    (d.partner && d.partner.toLowerCase().includes(searchVal)) ||
-                    (d.investment_formatted && d.investment_formatted.toLowerCase().includes(searchVal)) ||
-                    d.author.toLowerCase().includes(searchVal));
+                
+                let matchSearch = true;
+                if (searchVal) {
+                    const terms = searchVal.trim().split(/\s+/);
+                    const fullText = (
+                        (d.title || "") + " " + 
+                        (d.summary || "") + " " + 
+                        (d.verbatim_policy_excerpt || "") + " " + 
+                        (d.document_id || "") + " " + 
+                        (d.partner || "") + " " + 
+                        (d.investment_formatted || "") + " " + 
+                        (d.author || "")
+                    ).toLowerCase();
+                    matchSearch = terms.every(term => fullText.includes(term));
+                }
                 return matchArea && matchEq && matchGba && matchRegion && matchGrade && matchSearch;
             });
 
