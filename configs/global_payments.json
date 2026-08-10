@@ -54,7 +54,7 @@
     },
     {
       "name": "Global_Payments_News",
-      "url": "https://news.google.com/rss/search?q=%22mBridge%22+OR+%22wholesale+CBDC%22+OR+%22correspondent+banking%22+OR+%22de-risking%22+OR+%22swap+lines%22&hl=en-US&gl=US&ceid=US:en",
+      "url": "https://news.google.com/rss/search?q=%22mBridge%22+OR+%22wholesale+CBDC%22+OR+%22correspondent+banking%22+OR+%22bank+de-risking%22+OR+%22correspondent+de-risking%22+OR+%22swap+lines%22&hl=en-US&gl=US&ceid=US:en",
       "type": "rss",
       "skip_query_refactoring": true
     }
@@ -66,7 +66,8 @@
     "SWIFT",
     "cross-border payments",
     "correspondent banking",
-    "de-risking",
+    "bank de-risking",
+    "correspondent de-risking",
     "trade finance",
     "letters of credit",
     "supply chain finance",
@@ -88,7 +89,8 @@
     "CIPS",
     "swap lines",
     "correspondent banking",
-    "de-risking",
+    "bank de-risking",
+    "correspondent de-risking",
     "trade finance",
     "diversification",
     "mou",
