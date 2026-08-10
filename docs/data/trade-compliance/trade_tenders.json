@@ -4948,7 +4948,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "Lowest Cost-per-Point",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)",
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade Agreement",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   },
   {
@@ -5257,5 +5257,44 @@
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
     "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)North American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "1250 kVA Shore Power Autotransformer for CCG AOPS",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-564-18965931",
+    "date": "2026-08-10T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "⚓ Powering the Arctic Patrol: CCG issues RFQ for 1250 kVA shore power autotransformers under strict 'Buy Canadian' guidelines.",
+      "strategic_value": "* **Financial Impact & Market Realities:** Non-compliant bids face immediate disqualification from the federal procurement system, risking up to $150,000 in sunk design and engineering costs. Furthermore, delayed vessel deployment due to incompatible shore power can cost operators up to $15,000/day in operational standby penalties, driving market consolidation toward certified domestic electrical packagers.\n* **Operational Execution Playbook:** Bid preparation requires strict execution of regional value content (RVC) validation for copper windings and structural steel, dimensional clearance CAD modeling to fit the ISO 668 Type 1C envelope, and integration of CSA Type 3R testing certifications prior to delivery to Department of National Defence facilities.\n* **Consulting Pivot:** Propose a 'Downstream Integration and Certification Package' at a $15,000 fixed fee to primary defense contractors, managing the technical CSA compliance, RVC sourcing documentation, and mechanical containerization validation required for the DND/CCG bid.",
+      "co_bidding_opportunity": "Under a Downstream Pivot strategy, partner as a specialized electrical design and testing subcontractor with pre-qualified prime defense logistics contractors and container customizers to supply the integrated autotransformer and containerized housing.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This tender aligns with Transport Canada and DND logistics modernization programs. Under the active background rules of CITT federal procurement bid challenges and CUSMA regional value requirements, the Buy Canadian requirement acts as a compliance gate for industrial equipment procurement.",
+      "grounded_fact_ids": [
+        1,
+        4
+      ],
+      "anchor_reference": {
+        "source_name": "Global Affairs Canada",
+        "page_range": "CUSMA 2026 Joint Review Notice",
+        "url": "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/cusma-aceum/index.aspx?lang=eng"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-17T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "REQUEST FOR QUOTE (RFQ)Project Title: 1250 kVA Shore Power Autotransformer for CCG AOPSRFQ Reference Number: RFQ-CCG-AOPS-2026-001Issue Date: August 10th, 2026Closing Date/Time: August 17th, 2026 at 2:00 PM ASTPrimary Contact: Sarah.Boyce@forces.gc.ca1.0 IMPORTANT NOTICE TO VENDORS (DISCLAIMER)Pre-Contractual & Planning Disclaimer:This Request for Quote (RFQ) is issued strictly for planning, estimation, and pre-contractual drafting purposes. This process does not constitute a formal solicitation...",
+    "type": "New",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "RFQ-CCG-AOPS-2026-001",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "None",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
   }
 ]
