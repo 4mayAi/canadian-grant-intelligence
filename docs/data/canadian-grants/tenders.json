@@ -3348,38 +3348,6 @@
   },
   {
     "source": "CanadaBuys",
-    "title": "Snap-On Versatest Digital Monitor",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-305-81971151",
-    "date": "2026-07-23T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "DND is procuring specialized diagnostic equipment! 🛠️ Canadian suppliers, here's a chance to bid on the Snap-On Versatest Digital Monitor RFP for a 5-month contract.",
-      "strategic_value": "*   **Financial/Policy Context:** The Department of National Defence is issuing an open competitive RFP for specialized diagnostic equipment, demonstrating ongoing needs for tactical support and maintenance tooling within the Canadian Armed Forces, subject to the Canadian Free Trade Agreement.\n*   **Technological Target:** DND requires Snap-On Versatest Digital Monitors, which are precision diagnostic instruments for testing and calibration, essential for maintaining operational readiness of defence assets. Each unit must be delivered with a Certificate of Calibration dated within 90 days of delivery.\n*   **Consulting Pivot:** Offer DND a comprehensive asset management and calibration service package for their diagnostic equipment fleet, potentially covering multiple types of instruments beyond this immediate RFP, ensuring compliance and operational readiness.",
-      "co_bidding_opportunity": "A certified calibration service provider could partner with a general equipment supplier or direct reseller to ensure the mandatory calibration certificate requirement is met efficiently upon delivery.",
-      "mets_category": "Defence Procurement",
-      "mets_rationalization": "This is a direct procurement by DND for specialized equipment, connecting to the long-term anchor of maintaining military infrastructure and operational readiness through the acquisition of specific, calibrated tools.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null,
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-08T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "This notice is published on Buyandsell for a period of 15 calendar days. The Department of National Defence requires the following items:Snap-On Versatest Digital MonitorEach item must come with a Certificate of Calibration that is dated no more than 90 days before delivery dateRequested delivery date for all of the above-mentioned goods is January 15, 2027.",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W8486-270946A",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Variations or combinations of the above methods",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys",
     "title": "TBIPS - Geomatics Analyst for Mapping & Charting Establishment",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-307-47535224",
     "date": "2026-07-23T00:00:00Z",
@@ -9245,7 +9213,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "Lowest Cost-per-Point",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)",
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade Agreement",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   },
   {
@@ -10235,5 +10203,75 @@
     "selection_criteria": "",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "1250 kVA Shore Power Autotransformer for CCG AOPS",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-564-18965931",
+    "date": "2026-08-10T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "⚡ Enabling the Arctic and Offshore Patrol Ships (AOPS): The Canadian Coast Guard is looking for a custom 1250 kVA shore power autotransformer.",
+      "strategic_value": "* Marine electrification and federal greening initiatives are driving demand for shore-to-ship power conversion. DND shore facilities utilize 450 VAC, while the new CCG AOPS vessels require 600 VAC, representing a critical interoperability gap.\n* The technical target is a CSA-approved, three-phase, 1250 kVA autotransformer (450V primary to 600V secondary) featuring copper windings, a CSA Type 3R enclosure, and a strict physical footprint restriction to fit inside an ISO 668 Type 1C 20-foot freight container.\n* **Consulting Pivot:** Propose a physical systems integration study to the primary contact (Sarah Boyce, DND) showing how your team can pre-integrate the transformer with automated switchgear and climate controls directly inside the 20-foot ISO container before shipping, minimizing on-site commissioning costs.",
+      "co_bidding_opportunity": "Under the public procurement guidelines, a valid project consortium would require an electrical manufacturing contractor (such as a custom transformer builder) partnering with a marine engineering firm or a containerized power systems integrator to package and qualify the enclosure.",
+      "mets_category": "Defence Procurement",
+      "mets_rationalization": "This tender bridges Canadian Coast Guard (CCG) operations with Department of National Defence (DND) shore facilities, focusing on vessel interoperability and electrical infrastructure deployment.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-17T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "REQUEST FOR QUOTE (RFQ)Project Title: 1250 kVA Shore Power Autotransformer for CCG AOPSRFQ Reference Number: RFQ-CCG-AOPS-2026-001Issue Date: August 10th, 2026Closing Date/Time: August 17th, 2026 at 2:00 PM ASTPrimary Contact: Sarah.Boyce@forces.gc.ca1.0 IMPORTANT NOTICE TO VENDORS (DISCLAIMER)Pre-Contractual & Planning Disclaimer:This Request for Quote (RFQ) is issued strictly for planning, estimation, and pre-contractual drafting purposes. This process does not constitute a formal solicitation...",
+    "type": "New",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "RFQ-CCG-AOPS-2026-001",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "None",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "HPE Hardware for NRC",
+    "link": "https://canadabuys.canada.ca/en/tender-opportunities?search_api_fulltext=BPM026274/34360",
+    "date": "2026-08-09T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🇨🇦 Ensuring sovereignty in national research: NRC is procuring high-performance HPE hardware for government data and AI workloads!",
+      "strategic_value": "* Federal research and data analytics mandates require high-performance computing (HPC) nodes that comply with Canadian data residency laws, forcing agencies like the National Research Council (NRC) to invest heavily in on-premise or sovereign private cloud hardware.\n* The technical target is enterprise-grade HPE hardware equipped with high-density compute cores, hardware-level encryption (Silicon Root of Trust), and localized network routing.\n* **Consulting Pivot:** Pivot toward advising NRC on hybrid cloud architecture, showing how local HPE physical assets can securely interface with sovereign public cloud endpoints without violating BC FIPPA or Quebec Law 25 routing restrictions.",
+      "co_bidding_opportunity": "An enterprise IT systems integrator and an authorized HPE reseller can partner with a specialized AI data sovereignty consultant to deliver a turn-key private cloud environment compliant with domestic privacy mandates.",
+      "mets_category": "Infrastructure & Digital",
+      "mets_rationalization": "National Research Council (NRC) computing acquisitions are bound by federal and provincial data residency laws, linking hardware procurement directly to domestic digital infrastructure and sovereignty.",
+      "grounded_fact_ids": [
+        3
+      ],
+      "anchor_reference": {
+        "source_name": "Federal & Provincial Data Sovereignty Legislation",
+        "page_range": "General",
+        "url": "https://www.priv.gc.ca/"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-20T00:00:00Z",
+    "province": "Newfoundland and Labrador",
+    "province_abbrev": "NL",
+    "category": "SRVTGD",
+    "category_label": "Services (Goods-Related)",
+    "description": "Notice of Proposed ProcurementShared Services Canada (SSC) has a requirement for HPE server and drive, or equivalent, on behalf of the National Research Council Canada (NRC), for delivery to a location in St John’s, Newfoundland, as outlined in the attached Request for Quotations. This process is intended to result in the award of one contract for the delivery of goods; the term of the contract will be a period of time encompassing:&nbsp; the period for delivery, acceptance and warranty.Policy o...",
+    "type": "New",
+    "organization": "Shared Services Canada",
+    "solicitation_number": "BPM026274/34360",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
   }
 ]
