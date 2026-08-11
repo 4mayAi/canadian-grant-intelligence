@@ -4948,7 +4948,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Traditional",
     "selection_criteria": "Lowest Cost-per-Point",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade Agreement",
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
   },
   {
@@ -5288,7 +5288,7 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "REQUEST FOR QUOTE (RFQ)Project Title: 1250 kVA Shore Power Autotransformer for CCG AOPSRFQ Reference Number: RFQ-CCG-AOPS-2026-001Issue Date: August 10th, 2026Closing Date/Time: August 17th, 2026 at 2:00 PM ASTPrimary Contact: Sarah.Boyce@forces.gc.ca1.0 IMPORTANT NOTICE TO VENDORS (DISCLAIMER)Pre-Contractual & Planning Disclaimer:This Request for Quote (RFQ) is issued strictly for planning, estimation, and pre-contractual drafting purposes. This process does not constitute a formal solicitation...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of National Defence (DND)",
     "solicitation_number": "RFQ-CCG-AOPS-2026-001",
     "notice_type": "Request for Proposal",
@@ -5296,5 +5296,349 @@
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
     "trade_agreements": "None",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Languages Testing for Interpreters",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-917-80043566",
+    "date": "2026-08-11T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🗣️ Translating trade compliance into federal wins! The Immigration and Refugee Board of Canada launches a major language testing procurement under international trade rules.",
+      "strategic_value": "* Navigating federal language assessment procurement without strict compliance to international trade agreements risks CITT bid challenges, which can tie up over $150,000 in operational working capital and consolidate market access among dominant global testing corporations.\n* Bidders must implement a strict PO Chain-of-Custody mandate for test materials, establish secure candidate databases, and coordinate localized transit networks to ensure physical security and reliability standards are met for consecutive interpretation assessments.\n* **Consulting Pivot:** Propose a \"CITT Bid Compliance & Proctoring Audit\" for a fixed fee of $15,000, ensuring mid-tier language translation agencies align their testing versions and security profiles with IRB's strict 70% passing threshold.",
+      "co_bidding_opportunity": "Partner with ISO-certified testing developers, reliability-cleared translation agencies, and secure IT database administrators to submit a joint proposal for IRB's 60-language testing suite.",
+      "mets_category": "Trade Remedies & Competition",
+      "mets_rationalization": "Federal procurements under international trade agreements like WTO GPA and CETA are subject to CITT bid challenges, necessitating strict regulatory and competitive compliance.",
+      "grounded_fact_ids": [
+        4
+      ],
+      "anchor_reference": {
+        "source_name": "Canadian International Trade Tribunal",
+        "page_range": "SIMA Advisory",
+        "url": "https://www.citt-tcce.gc.ca/en"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-11T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Services RequirementThis requirement is for: Immigration and Refugee Board of CanadaTitle: 20260726-IRB – Language Testing for InterpretersDescription of the Requirement:Immigration and Refugee Board of Canada has a requirement for service of testing components and test assessments for the recruitment of their interpreter contractors to Immigration and Refugee Board of Canada (IRB).Interpreter Services Contractors (ISCs) accredited by the IRB must successfully complete three (3) language tests w...",
+    "type": "New",
+    "organization": "Immigration and Refugee Board (IRB)",
+    "solicitation_number": "20260726-IRB",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)North American Free Trade Agreement (NAFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade Agreement",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "CCTV Upgrade – Cowansville Institution",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-604-38747835",
+    "date": "2026-08-10T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🔒 Secure the perimeter! Correctional Service Canada triggers a major CCTV upgrade at Cowansville under strict E60HN-24VSSA supply protocols.",
+      "strategic_value": "* Supply chain disruptions or delayed installations of telemetry systems can trigger liquidated damages of $1,200/day, strain critical capital allocations, and disqualify integrators from lucrative standing arrangements, consolidating federal security contracts among elite tier-1 players.\n* Integrators must enforce rigid PO Chain-of-Custody mandates for foreign-sourced camera components, establish neutral transit warehouse buffers to bypass shipping backlogs, and utilize pre-vessel clearance equivalents to ensure zero telemetry network vulnerabilities.\n* **Consulting Pivot:** Propose a \"Bill C-26 OT Security Alignment Audit\" at a flat rate of $24,000 per facility, assisting pre-qualified Supply Arrangement holders in verifying that all cameras, network switches, and NVUS workstations are free of banned foreign components.",
+      "co_bidding_opportunity": "Partner as a specialized cybersecurity subcontractor with one of the pre-qualified SA holders listed—such as Paladin Technologies, Convergint Technologies, or Motorola Solutions Canada—to deliver Bill C-26 compliant OT firmware screening.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This project involves physical infrastructure security upgrades within a federal facility, governed by public procurement rules and cybersecurity supply chain frameworks.",
+      "grounded_fact_ids": [
+        6
+      ],
+      "anchor_reference": {
+        "source_name": "Public Safety Canada / Transport Canada",
+        "page_range": "Bill C-26 Critical Infrastructure Protection",
+        "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/index-en.aspx"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-14T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "SRVTGD",
+    "category_label": "Services (Goods-Related)",
+    "description": "This requirement is for: The Correctional Service of Canada, Cowansville Institution in the Quebec Region. Trade agreement:\tCanadian Free Trade Agreement (CFTA), World Trade Organisation-Agreement on Government Procurement (WTO-AGP), Canada Ukraine Free-Trade Agreement (CUFTA), Canada Korea Trade Agreement (CKTA), Canada free trade agreements with Chile/Colombia/Honduras/Panama, Canada-Peru Free Trade Agreement, Canada-European Union Comprehensive Economic and Trade Agreement (CETA) and Canada-U...",
+    "type": "Open",
+    "organization": "Correctional Service of Canada (CSC)",
+    "solicitation_number": "21120-27-5437887",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Request for Information (RFI) - Licensed Guard Services for all ESDC/Service Canada Sites across Canada",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-322-4988368",
+    "date": "2026-08-10T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🛡️ 383 federal sites, 20 procurement zones! ESDC prepares a massive national security guard contract. Secure your seat at the RFI table today.",
+      "strategic_value": "* Missing the opportunity to influence this massive ESDC guard contract during the RFI stage could lock out mid-tier physical security operators, risking $5,000/day in missed regional operational revenue and driving market consolidation toward three national security conglomerates.\n* Security firms must propose automated PO Chain-of-Custody tracking for guard telemetry, establish localized labor buffers, and coordinate regional response logistics to meet the extensive static guarding and mobile patrol parameters.\n* **Consulting Pivot:** Propose an \"RFI Response & Specification Alignment Program\" for a $15,000 flat fee, helping regional security agencies draft technical submissions that align ESDC's static and mobile patrol requirements with their proprietary operational capabilities.",
+      "co_bidding_opportunity": "Form a multi-regional consortium of regional security guard firms across the 20 specified procurement zones, integrating a certified Indigenous-owned security firm to cover local socio-economic procurement requirements.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "Large-scale federal real estate security deployments represent critical operational logistics, managed through federal standing offer procurement.",
+      "grounded_fact_ids": [
+        4
+      ],
+      "anchor_reference": {
+        "source_name": "Canadian International Trade Tribunal",
+        "page_range": "SIMA Advisory",
+        "url": "https://www.citt-tcce.gc.ca/en"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-24T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Employment and Social Development Canada (ESDC) is issuing this Request for Information (RFI) to gather information from industry in advance of an anticipated competitive Request for Standing Offers (RFSO) for Licensed Security Guard Services. The anticipated requirement covers static guarding and mobile patrol services at approximately 383 ESDC-occupied sites across Canada, grouped into 20 procurement zones, with an anticipated operational start date of April 1, 2027. Sites in Nunavut and sites...",
+    "type": "Open",
+    "organization": "Department of Employment and Social Development (ESDC)",
+    "solicitation_number": "100032317-RFI",
+    "notice_type": "Request for Information",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Not applicable",
+    "trade_agreements": "None",
+    "recommended_playbook": "Specification Shaping (RFI / EOI)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "One (1) Senior Engineering Graduate",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-639-29986997",
+    "date": "2026-08-10T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🎖️ DND is on the hunt for senior engineering talent under the TSPS framework. Pre-qualified suppliers, here is your path to secure the mandate.",
+      "strategic_value": "* Delays in deploying specialized defense engineering talent under the TSPS SA result in unbilled professional service revenues of up to $800/day, severe working capital tie-ups, and a competitive disadvantage that consolidates defense engineering contracts with massive defense primes.\n* Suppliers must establish a seamless PO Chain-of-Custody mandate for candidates' technical credentials, secure reliability status clearances, and configure neutral transit digital work environments for sensitive military data.\n* **Consulting Pivot:** Propose a \"TSPS Engineering Talent Pipeline Integration\" service under a $5,000/month retainer, helping pre-qualified SA holders source, screen, and deploy engineering graduates to DND projects under Stream 5.",
+      "co_bidding_opportunity": "Subcontract with a pre-qualified TSPS SA holder listed in the RFP (such as Calian Ltd, ADGA Group, or BMT Canada) to provide specialized engineering graduate placement services.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "Professional defense engineering contracts support military maintenance and logistics infrastructure under strict DND supply arrangements.",
+      "grounded_fact_ids": [
+        4
+      ],
+      "anchor_reference": {
+        "source_name": "Canadian International Trade Tribunal",
+        "page_range": "SIMA Advisory",
+        "url": "https://www.citt-tcce.gc.ca/en"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-25T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "NOTICE OF PROPOSED PROCUREMENTFile Number: W8486-260749/ATier: 1 (< $3.75M)This requirement is for the Department of National Defence (DND) for the services of One (1) Senior Engineering Graduate under Stream 5, Technical, Engineering and Maintenance Services. The intent of this solicitation is to establish one (1) Contract for three (3) initial years, with the option to extend the term of the Contract by up to one (1) one-year irrevocable option period under the same conditions. This solicitati...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8486-260749/A",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Traditional",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "TBIPS AI Support Services",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-40-97221487",
+    "date": "2026-08-10T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🚀 Global Affairs Canada signals a aggressive pivot to AI and quantum-ready infrastructure as the new cornerstone of departmental transformation.",
+      "strategic_value": "* The procurement represents a high-stakes capital investment where delays in technical implementation can result in $5,000–$10,000/day in operational drag or lost productivity across GAC’s global mission network.\n* Success necessitates immediate alignment with TBIPS Tier 1 security mandates and rigorous adherence to the Procurement Strategy for Indigenous Business (PSIB) set-aside requirements to avoid disqualification during the technical bid review.\n* **Consulting Pivot:** Propose a 'Tech-Compliance Integration' retainer ($15k–$25k/mo) specifically for non-qualified firms to structure joint ventures or sub-tier agreements with the identified SA holders, focusing on risk-transfer clauses regarding Bill C-26 cybersecurity standards.",
+      "co_bidding_opportunity": "Partnership roles available via sub-tier integration with the listed SA holders (e.g., Acosys, S.I. Systems, TPG Technology) to provide specialized data science or cloud architecture talent under a joint venture arrangement.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "The notice necessitates alignment with Bill C-26, as IT/OT supply chain risks are now subject to strict federal cybersecurity reporting protocols for critical government infrastructure.",
+      "grounded_fact_ids": [
+        6
+      ],
+      "anchor_reference": {
+        "source_name": "Public Safety Canada / Transport Canada",
+        "page_range": "Bill C-26 Critical Infrastructure Protection",
+        "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/index-en.aspx"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-28T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)For TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS)GSIN:  D302A Informatics Professional Services \t\tReference Number:\t26-306881\tSolicitation Number:\t26-306881Organization Name:\tDepartment of foreign Affairs, Trade and DevelopmentSolicitation Date:\t2026-08-10\tClosing Date:\t2026-08-28 02:00 PM Eastern Time ET  Anticipated Start Date:\tas soon as possible\t\tEstimated Delivery Date:\t2029-12-31\tEstimate Level of Effort:                          \t Up to three yea...",
+    "type": "Open",
+    "organization": "Department of Foreign Affairs, Trade and Development (GAC)",
+    "solicitation_number": "26-306881",
+    "notice_type": "",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "",
+    "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Please refer to Tender Description or Tender DocumentsCanada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "One (1) Life Cycle Management Specialist - Intermediate",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-882-77612498",
+    "date": "2026-08-10T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🛡️ DND accelerates lifecycle maintenance for R&CS assets: Are your supply chain tracking protocols ready for the next audit cycle?",
+      "strategic_value": "* Non-compliance with DND’s stringent technical lifecycle mandates can trigger immediate contract termination and liquidating damages, potentially exceeding 10% of total contract value.\n* Execution requires seamless integration with existing CARM-linked RPP bonding workflows and strict adherence to the DND's specific security clearance verification for all site-accessible personnel.\n* **Consulting Pivot:** Launch a 'DND Lifecycle Compliance Audit' service package ($12k flat fee) to assist SMEs in documenting their chain-of-custody protocols to meet DND-specific R&CS (Radar and Communication Systems) technical documentation standards.",
+      "co_bidding_opportunity": "Standard subcontracting role as a specialist maintenance support partner or logistics provider for DND-certified Supply Arrangement holders.",
+      "mets_category": "Border Compliance & Tariffs",
+      "mets_rationalization": "The project is subject to CARM-governed import/export regulations for high-tech components that may transit the border, requiring full RPP bonding compliance.",
+      "grounded_fact_ids": [
+        3
+      ],
+      "anchor_reference": {
+        "source_name": "Canada Border Services Agency",
+        "page_range": "Customs Notice CN26-04",
+        "url": "https://www.cbsa-asfc.gc.ca/services/carm-gcra/menu-eng.html"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-26T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "NOTICE OF PROPOSED PROCUREMENTThis requirement is only open to the below list of pre-qualified suppliers under the Task and Solutions Professional Services (TSPS). TASK BASED E60ZT-18TSPS/ PROFESSIONAL SERVICES REQUIREMENTFILE NUMBER: W8485-TSPS2026-07TIER 1 (< $3.75 M)This requirement is for the Department of National Defence (DND). This requirement is for the: -  Stream 5: Technical, engineering and maintenance services stream-  Category 5.16: Life Cycle Management Specialistfor the services o...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8485-TSPS2026-07",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "EF236-270268 Roof repair on various buildings at the Laval Complex (Phase 3 and Phase 4)",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110020751?anId=ANONYMOUS",
+    "date": "2026-08-04T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🏗️ Re-roofing projects at the Laval Complex signal a broader push for robust physical infrastructure maintenance in federal correctional facilities.",
+      "strategic_value": "* Standard procurement delays or supply chain bottlenecks on materials can lead to significant demurrage costs at port-of-entry, averaging $250–$450 per TEU per day.\n* Bidders must ensure that construction materials comply with the Ministerial High-Risk Goods Designation List to avoid border seizures under the forced labour prohibition framework.\n* **Consulting Pivot:** Propose a 'Provenance Compliance Dossier' service ($5k per project) to provide the mandatory evidentiary burden required by Bill C-35, shielding prime contractors from border release delays.",
+      "co_bidding_opportunity": "Standard direct or subcontract bid strategy, focusing on site-specific mechanical or construction trade integration.",
+      "mets_category": "Border Compliance & Tariffs",
+      "mets_rationalization": "All construction material imports are subject to the forced labour provenance burden established by Bill C-35, necessitating rigorous supply chain transparency.",
+      "grounded_fact_ids": [
+        2
+      ],
+      "anchor_reference": {
+        "source_name": "Public Safety Canada",
+        "page_range": "Bill C-35 Legislation",
+        "url": "https://www.publicsafety.gc.ca/cnt/cntrng-crm/index-en.aspx"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-31T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "CNST",
+    "category_label": "Construction",
+    "description": "PWGSC, on behalf of Correctional Services Canada, is issuing this REQUEST FOR PROPOSAL (RFP) for the acquisition of Re-roofing services of various buildings at Complex Laval including construction services located in Laval, Quebec, as detailed in Annex A.",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5785869257",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Not applicable",
+    "trade_agreements": "Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "6D063-253013 Steam and Heating System Services",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110020760?anId=ANONYMOUS",
+    "date": "2026-08-04T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🔬 Critical steam and heating system maintenance at the JC Wilt Research Centre mandates top-tier operational resilience and supply chain continuity.",
+      "strategic_value": "* Technical maintenance failures within sensitive research environments can lead to costly operational shutdowns and potential liability if safety standards are not met in accordance with federal oversight.\n* All mechanical imports and replacement parts must be screened for origin compliance to prevent potential retaliatory surtaxes or border detentions under current CBSA enforcement regimes.\n* **Consulting Pivot:** Offer a 'Critical Infrastructure Sourcing Review' ($8k fee) to help prime bidders verify that all HVAC and steam components are sourced from compliant jurisdictions, avoiding SIMA-related duty surprises.",
+      "co_bidding_opportunity": "Standard direct bid strategy for engineering and maintenance firms, potentially requiring sub-specialists for bio-secure facility access and compliance.",
+      "mets_category": "Trade Remedies & Competition",
+      "mets_rationalization": "The maintenance of critical research infrastructure necessitates compliance with both SIMA-mandated duty requirements for mechanical parts and Bill C-26 cybersecurity protocols.",
+      "grounded_fact_ids": [
+        4,
+        6
+      ],
+      "anchor_reference": {
+        "source_name": "Canadian International Trade Tribunal",
+        "page_range": "SIMA Advisory",
+        "url": "https://www.citt-tcce.gc.ca/en"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-17T00:00:00Z",
+    "province": "Manitoba",
+    "province_abbrev": "MB",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Please note that late submissions will not be considered or accepted. The Canadian Science Centre for Human and Animal Health (CSCHAH) and the JC Wilt Infectious Diseases Research Centre (JCWIDRC), facilities operated by the Public Health Agency of Canada, require inspection, repair, and testing services for their building steam-generating and heating systems. This is for Task authorization contract consisting of two firm years and three one-year option periods. It is open to Canadian suppliers ...",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5813382679",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)North American Free Trade Agreement (NAFTA)Canada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "EB218-270465 - RFP Osborne Head Coastal Stabilization Option Analysis and Conceptual Design",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/WS5806059845-Doc5809209295",
+    "date": "2026-07-31T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🌊 Climate change is reshaping our coastal infrastructure: How are your project specs accounting for the new regulatory volatility?",
+      "strategic_value": "* Coastal stabilization projects now face rigorous environmental vetting under Bill C-59; failure to substantiate 'green' project claims could result in penalties reaching 3% of global revenue.\n* Successful execution depends on pre-clearing design materials through the CUSMA-compliant melt-and-pour steel origin standards if foreign-sourced infrastructure components are utilized.\n* **Consulting Pivot:** Develop a 'Coastal ESG Verification Strategy' ($20k project fee) for prime bidders to map environmental claims against Competition Bureau criteria, preventing potential litigation from private rights of action.",
+      "co_bidding_opportunity": "Selective partnering with the four named pre-qualified firms (AtkinsRealis, CBCL, Stantec, WSP) to provide local sub-consultancy or environmental regulatory analysis.",
+      "mets_category": "Trade Remedies & Competition",
+      "mets_rationalization": "Addresses the interplay between infrastructure procurement and the heightened evidentiary requirements for ESG/Environmental impact claims under Bill C-59.",
+      "grounded_fact_ids": [
+        1,
+        5
+      ],
+      "anchor_reference": {
+        "source_name": "Global Affairs Canada",
+        "page_range": "CUSMA 2026 Joint Review Notice",
+        "url": "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/cusma-aceum/index.aspx?lang=eng"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-18T00:00:00Z",
+    "province": "Nova Scotia",
+    "province_abbrev": "NS",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "The response time deadline is 14:00 EDT. PSPC requires an options analysis to be completed at the Department of National Defence (DND) property located in Osborne Head in relation to climate change-driven coastal hazards that pose growing risk to shoreline stability, critical infrastructure, and long-term operability of the site. The proposed work shall comprise of an options analysis and conceptual design for coastal stabilization at Osborne Head, with nature based solutions prioritized where p...",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5806059845",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   }
 ]
