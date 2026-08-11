@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-08-11T14:06:01.167439Z",
-  "linkedin_post": "\n\n### Featured News & Sources\n- [Minister Anand announces sanctions against defence manufacturing company](https://www.canada.ca/en/global-affairs/news/2026/08/minister-anand-announces-sanctions-against-defence-manufacturing-company.html) (Global Affairs)\n- [Minister Anand concludes trip to Benin and Côte d’Ivoire to strengthen Canada’s partnerships in West Africa](https://www.canada.ca/en/global-affairs/news/2026/08/minister-anand-concludes-trip-to-benin-and-cote-divoire-to-strengthen-canadas-partnerships-in-west-africa.html) (Global Affairs)\n- [Government of Canada and City of Toronto to build thousands of new rental homes](https://www.pm.gc.ca/en/news/news-releases/2026/08/05/government-canada-and-city-toronto-build-thousands-new-rental-homes) (PMO)\n- [Minister Anand to travel to Benin and Côte d’Ivoire to strengthen Canada’s partnerships in West Africa](https://www.canada.ca/en/global-affairs/news/2026/08/minister-anand-to-travel-to-benin-and-cote-divoire-to-strengthen-canadas-partnerships-in-west-africa.html) (Global Affairs)\n- [Safety Training - Fall Protection](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-154-61400465) (CanadaBuys / MERX)\n",
+  "generated_at": "2026-08-11T18:04:58.998289Z",
+  "linkedin_post": "Canada pivots toward climate-resilient infrastructure and logistics scaling. 🇨🇦\n\nMinister Dabrusin and the Federation of Canadian Municipalities have announced new funding aimed at hardening critical Canadian infrastructure against extreme weather and rising sea levels. These capital projects mandate adherence to advanced engineering standards for storm-water management and hardened transportation corridors, requiring firms to offer climate-risk simulation services to influence technical project specifications.\n\nHealth Canada’s HeatADAPT program is scaling infrastructure-level climate adaptation in Quebec City, moving beyond emergency response toward real-time health data monitoring. Enterprises should position themselves as integrators for public health digital infrastructure by proposing sensor-based analytics and GIS-mapped vulnerability modeling to regional authorities.\n\nMinister Anand has imposed sanctions on the Streit Group, forcing a tightening of compliance requirements across the Canadian defence manufacturing supply chain. B2B partners must now prioritize proactive compliance audits of sub-tier providers to ensure no alignment with sanctioned entities, securing their status as low-risk contractors for DND tenders.\n\nGlobal Affairs Canada has committed over $85M to West Africa, focusing on digital transformation and climate-resilient port infrastructure at locations like the Port of Cotonou. Consultancies should adopt a tripartite model connecting Canadian advisory services with local West African execution partners to capture sub-grants for fintech and civil engineering projects.\n\nCORCAN Prairie Region is leveraging the Procurement Strategy for Indigenous Business to procure accredited Fall Protection safety training. Service providers should propose bundling these CSA-standard certifications with LMS-based digital credentialing to streamline employment readiness reporting for the Correctional Service of Canada.\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/\n#CanadaInfrastructure #ClimateResilience #DefenceProcurement #GlobalTrade #IndigenousBusiness\n\n### Featured News & Sources\n- [Minister Dabrusin and the Federation of Canadian Municipalities announce funding to protect communities from severe weather - canada.ca](https://www.canada.ca/en/environment-climate-change/news/2026/08/minister-dabrusin-and-the-federation-of-canadian-municipalities-announce-funding-to-protect-communities-from-severe-weather.html) (ECCC)\n- [Government of Canada highlights funding to address the health risks of climate change in Quebec City - canada.ca](https://www.canada.ca/en/environment-climate-change/news/2026/08/government-of-canada-highlights-funding-to-address-the-health-risks-of-climate-change-in-quebec-city.html) (ECCC)\n- [Minister Anand announces sanctions against defence manufacturing company](https://www.canada.ca/en/global-affairs/news/2026/08/minister-anand-announces-sanctions-against-defence-manufacturing-company.html) (Global Affairs)\n- [Minister Anand concludes trip to Benin and Côte d’Ivoire to strengthen Canada’s partnerships in West Africa](https://www.canada.ca/en/global-affairs/news/2026/08/minister-anand-concludes-trip-to-benin-and-cote-divoire-to-strengthen-canadas-partnerships-in-west-africa.html) (Global Affairs)\n- [Safety Training - Fall Protection](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-154-61400465) (CanadaBuys / MERX)\n",
   "insights": [
+    {
+      "source": "ECCC_News",
+      "title": "Minister Dabrusin and the Federation of Canadian Municipalities announce funding to protect communities from severe weather - canada.ca",
+      "link": "https://www.canada.ca/en/environment-climate-change/news/2026/08/minister-dabrusin-and-the-federation-of-canadian-municipalities-announce-funding-to-protect-communities-from-severe-weather.html",
+      "date": "2026-08-11T16:07:07Z",
+      "insight": {
+        "linkedin_hook": "🌊 Building resilient communities: Halifax infrastructure gets a climate-readiness boost tomorrow! 🏗️",
+        "strategic_value": "* This announcement signals upcoming federal-municipal capital projects aimed at hardening critical assets against extreme weather and rising sea levels.\n* Expected investments will prioritize engineering standards for climate-resilient civil infrastructure, including storm-water management and hardened transportation corridors.\n* **Consulting Pivot:** Proactively engage with regional engineering firms and the Federation of Canadian Municipalities members to provide 'climate-risk simulation as a service' to influence the technical standards for these forthcoming resilience projects.",
+        "co_bidding_opportunity": "Consortiums involving municipal infrastructure planning firms, climate modeling software providers, and construction project managers.",
+        "mets_category": "Infrastructure & Digital",
+        "mets_rationalization": "Climate resilience funding is a primary driver for the 'Trade Diversification Corridor Fund' and general national infrastructure hardening efforts.",
+        "grounded_fact_ids": [
+          5
+        ],
+        "anchor_reference": {
+          "source_name": "Transport Canada & Infrastructure Canada Policy Framework",
+          "page_range": "General",
+          "url": "https://www.canada.ca/"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
+    {
+      "source": "ECCC_News",
+      "title": "Government of Canada highlights funding to address the health risks of climate change in Quebec City - canada.ca",
+      "link": "https://www.canada.ca/en/environment-climate-change/news/2026/08/government-of-canada-highlights-funding-to-address-the-health-risks-of-climate-change-in-quebec-city.html",
+      "date": "2026-08-11T15:00:17Z",
+      "insight": {
+        "linkedin_hook": "🌡️ Climate-resilient health systems: Is your organization ready for the new reality of extreme heat?",
+        "strategic_value": "* Federal funding under Health Canada's HeatADAPT program shifts focus from emergency response to infrastructure-level climate adaptation and real-time monitoring.\n* Targeted deployment involves integrating sensor-based health data analytics and GIS-mapped climate vulnerability modeling for public health authorities.\n* **Consulting Pivot:** Position your firm as a specialized integrator for public health digital infrastructure by offering 'Heat-Resilient Health' data pilot frameworks to regional health authorities seeking to scale these federally funded demonstration projects.",
+        "co_bidding_opportunity": "Partnerships with local community organizations, health research institutes, and data analytics firms specialized in climate-health monitoring systems.",
+        "mets_category": "Public Health & Advisory",
+        "mets_rationalization": "This project directly addresses public health capacity building which serves as the foundational data layer for future climate-health infrastructure procurement.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      }
+    },
     {
       "source": "CanadaBuys",
       "title": "Safety Training - Fall Protection",
@@ -35,6 +77,114 @@
       "recommended_playbook": "Standard Competitive Bidding (RFP)"
     },
     {
+      "source": "CanadaBuys",
+      "title": "Workplace Furniture",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-272-48643294",
+      "date": "2026-08-11T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🪑 Navigating federal furniture procurement? The PSIB stream is the new gatekeeper. 🇨🇦",
+        "strategic_value": "* This solicitation utilizes a set-aside procurement strategy under the Procurement Strategy for Indigenous Business (PSIB), effectively restricting competition to pre-qualified Supply Arrangement (SA) holders.\n* The requirement targets specialized office systems and work surface products, emphasizing Canadian-manufactured compliance as per the Buy Canadian Policy.\n* **Consulting Pivot:** If you are not a PSIB-qualified SA holder, pivot to a 'Supply Chain Integration' strategy by partnering with a qualified Indigenous-owned prime contractor to provide installation, logistics, or value-added configuration services.",
+        "co_bidding_opportunity": "Indigenous-owned furniture manufacturing firms, commercial logistics providers, and professional installation crews authorized under SA #E60PQ-140003/D.",
+        "mets_category": "Infrastructure & Digital",
+        "mets_rationalization": "Federal facility management is increasingly aligned with social procurement mandates to foster indigenous economic participation.",
+        "grounded_fact_ids": [
+          6
+        ],
+        "anchor_reference": {
+          "source_name": "Internal Trade Secretariat / CFTA Guidelines",
+          "page_range": "General",
+          "url": "https://www.cfta-alec.ca/"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-24T00:00:00Z",
+      "province": "NCR (Ottawa/Gatineau)",
+      "province_abbrev": "NCR",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "Notice of Proposed Procurement (NPP) 1. This NPP is issued pursuant to PWGSC Supply Arrangement (SA) # E60PQ-140003/D and covers a requirement from the following Product Category of the SA: - Product Category 1: Work Station Systems  - Product Category 2: Work Surface Products  2. Statistics Canada has a requirement for the purchase, delivery and installation of office furniture to Ottawa, Ontario by November 6, 2026.3. This NPP covers a requirement to be solicited amongst the PSIB stream of Sup...",
+      "type": "New",
+      "organization": "Statistics Canada (StatCan)",
+      "solicitation_number": "J095758",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Selective tendering",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "None",
+      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "Rough Terrain Forklifts (RTFL)",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-399-40125838",
+      "date": "2026-08-11T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🚚 DND is upgrading its heavy-lift capability for remote operations—are you in the supply chain? 🛡️",
+        "strategic_value": "* The DND requires ruggedized material handling equipment for extreme environments, prioritizing reliability and Integrated Logistics Support (ILS) standards.\n* Success in this RFP hinges on strict adherence to technical specifications for harsh-climate operations, necessitating specific hardware certifications.\n* **Consulting Pivot:** Leverage this DND mandate to approach the prime equipment manufacturer with specialized maintenance, training, or remote-site field service packages to support the 180-day delivery and lifecycle sustainment phase.",
+        "co_bidding_opportunity": "Heavy equipment maintenance specialists, remote-site logistics providers, and defence-sector training consultants.",
+        "mets_category": "Defence Procurement",
+        "mets_rationalization": "This aligns with DND military infrastructure and tactical logistics requirements, consistent with Canadian defence procurement priorities.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-09-22T00:00:00Z",
+      "province": "Multiple Provinces",
+      "province_abbrev": "MULT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "The Department of National Defence (DND) has a requirement to procure 12 Rough Terrain, Sit-Down Rider Type Forklift Trucks and ILS deliverables for delivery to CFB Shilo, MB, Det Dundurn, SK, Wainwright, AB, CFB Petawawa, ON, Ashton, ON, and Borden, On.  The requested delivery date is 180 days after contract award.  An option for up to 14 additional Rough Terrain, Sit-Down Rider Type Forklift Trucks and ILS deliverables is included for delivery to DND within Canada. GSIN: N3900. UNSPSC: 2410160...",
+      "type": "New",
+      "organization": "Department of National Defence (DND)",
+      "solicitation_number": "W8476-267143/A",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)North American Free Trade Agreement (NAFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
+      "source": "CanadaBuys",
+      "title": "Gravelling West Block Roads - Grasslands National Park",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-746-9352283",
+      "date": "2026-08-11T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🚧 Parks Canada needs your gravel, but they need your Indigenous participation plan even more. 🏞️",
+        "strategic_value": "* This procurement mandates an Indigenous Participation Plan, turning a routine civil works contract into an exercise in socio-economic reconciliation.\n* The scope requires localized material supply and transportation, emphasizing regional connectivity within Grasslands National Park.\n* **Consulting Pivot:** If you are a civil contractor bidding this project, consult on and integrate community-led labor and sourcing strategies to satisfy the evaluation criteria for the 'Contractor Selection and Indigenous Participation Plan'.",
+        "co_bidding_opportunity": "Indigenous-owned aggregate and earthworks subcontractors, local logistics carriers, and environmental compliance consultants familiar with National Parks regulations.",
+        "mets_category": "Infrastructure & Digital",
+        "mets_rationalization": "Infrastructure projects within federal lands (Parks Canada) serve as critical entry points for localized procurement and indigenous business integration.",
+        "grounded_fact_ids": [
+          6
+        ],
+        "anchor_reference": {
+          "source_name": "Internal Trade Secretariat / CFTA Guidelines",
+          "page_range": "General",
+          "url": "https://www.cfta-alec.ca/"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-26T00:00:00Z",
+      "province": "Saskatchewan",
+      "province_abbrev": "SK",
+      "category": "CNST",
+      "category_label": "Construction",
+      "description": "BIDS RECEIVED BY FAX AND EMAIL WILL BE ACCEPTED AS OFFICIAL. PARKS CANADA IS NOT CURRENTLY ACCEPTING BIDS VIA SAP ARIBA, YOU MUST SUBMIT YOUR BID VIA FAX OR EMAIL AS INDICATED IN THE SOLICITATION DOCUMENT.BIDS RECEIVED IN-PERSON OR BY COURIER WILL NOT BE ACCEPTED. The only acceptable email address for responses to bid solicitations is soumissionsami-bidsrpc@pc.gc.ca. Bids submitted by email directly to the Contracting Authority or to any email address other than soumissionsami-bidsrpc@pc.gc.ca w...",
+      "type": "New",
+      "organization": "Parks Canada Agency (PC)",
+      "solicitation_number": "5P468-26-0104/A",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)"
+    },
+    {
       "source": "Global_Affairs",
       "title": "Minister Anand announces sanctions against defence manufacturing company",
       "link": "https://www.canada.ca/en/global-affairs/news/2026/08/minister-anand-announces-sanctions-against-defence-manufacturing-company.html",
@@ -51,114 +201,6 @@
         "export_risk_advisory": null,
         "macro_sector_trend": null
       }
-    },
-    {
-      "source": "CanadaBuys",
-      "title": "1250 kVA Shore Power Autotransformer for CCG AOPS",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-564-18965931",
-      "date": "2026-08-10T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "⚡ Enabling the Arctic and Offshore Patrol Ships (AOPS): The Canadian Coast Guard is looking for a custom 1250 kVA shore power autotransformer.",
-        "strategic_value": "* Marine electrification and federal greening initiatives are driving demand for shore-to-ship power conversion. DND shore facilities utilize 450 VAC, while the new CCG AOPS vessels require 600 VAC, representing a critical interoperability gap.\n* The technical target is a CSA-approved, three-phase, 1250 kVA autotransformer (450V primary to 600V secondary) featuring copper windings, a CSA Type 3R enclosure, and a strict physical footprint restriction to fit inside an ISO 668 Type 1C 20-foot freight container.\n* **Consulting Pivot:** Propose a physical systems integration study to the primary contact (Sarah Boyce, DND) showing how your team can pre-integrate the transformer with automated switchgear and climate controls directly inside the 20-foot ISO container before shipping, minimizing on-site commissioning costs.",
-        "co_bidding_opportunity": "Under the public procurement guidelines, a valid project consortium would require an electrical manufacturing contractor (such as a custom transformer builder) partnering with a marine engineering firm or a containerized power systems integrator to package and qualify the enclosure.",
-        "mets_category": "Defence Procurement",
-        "mets_rationalization": "This tender bridges Canadian Coast Guard (CCG) operations with Department of National Defence (DND) shore facilities, focusing on vessel interoperability and electrical infrastructure deployment.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-17T00:00:00Z",
-      "province": "Multiple Provinces",
-      "province_abbrev": "MULT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "REQUEST FOR QUOTE (RFQ)Project Title: 1250 kVA Shore Power Autotransformer for CCG AOPSRFQ Reference Number: RFQ-CCG-AOPS-2026-001Issue Date: August 10th, 2026Closing Date/Time: August 17th, 2026 at 2:00 PM ASTPrimary Contact: Sarah.Boyce@forces.gc.ca1.0 IMPORTANT NOTICE TO VENDORS (DISCLAIMER)Pre-Contractual & Planning Disclaimer:This Request for Quote (RFQ) is issued strictly for planning, estimation, and pre-contractual drafting purposes. This process does not constitute a formal solicitation...",
-      "type": "Open",
-      "organization": "Department of National Defence (DND)",
-      "solicitation_number": "RFQ-CCG-AOPS-2026-001",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "None",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)"
-    },
-    {
-      "source": "CanadaBuys",
-      "title": "REQUEST FOR INFORMATION FOR A USER TESTING AND RESEARCH PLATFORM FOR EMPLOYMENT AND SOCIAL DEVELOPMENT CANADA",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-237-59677578",
-      "date": "2026-08-10T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Is your UX research stack built for the future of public service? 🇨🇦 ESDC is seeking a secure, cloud-native platform to transform digital service delivery.",
-        "strategic_value": "* ESDC requires a COTS SaaS solution that guarantees bilingual accessibility and secure, evidence-based user research data handling.\n* The technological target is a robust, cloud-based platform capable of handling complex integrations with existing government enterprise analytics tools.\n* **Consulting Pivot:** Submit a 'Specification Shaping' response detailing how your platform achieves high-velocity data sovereignty—crucial for future-proofing against evolving PIPEDA and provincial privacy requirements.",
-        "co_bidding_opportunity": "SaaS providers with bilingual UI, digital accessibility specialists, and cloud infrastructure partners certified for Canadian government data residency.",
-        "mets_category": "Infrastructure & Digital",
-        "mets_rationalization": "This aligns with the mandate for digital transformation and enterprise IT efficiency, ensuring compliance with domestic data sovereignty standards.",
-        "grounded_fact_ids": [
-          3
-        ],
-        "anchor_reference": {
-          "source_name": "Federal & Provincial Data Sovereignty Legislation",
-          "page_range": "General",
-          "url": "https://www.priv.gc.ca/"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-25T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "ESDC requires a cloud-based, Commercial-Off-The-Shelf (COTS) Software-as-a-Service (SaaS) User Testing and Research Platform (the “Platform”) to plan, execute, analyze, and store user research and usability testing in French and English across programs and digital products—supporting evidence-based service and product decisions.The Platform will help user researchers and designers within the department improve navigation and user flow of web content and validate design concepts while enabling se...",
-      "type": "Open",
-      "partner_list": [
-        {
-          "name": "TinyOps Studio LLC",
-          "link": "https://canadabuys.canada.ca/en/node/preview/1487121"
-        }
-      ],
-      "organization": "Department of Employment and Social Development (ESDC)",
-      "solicitation_number": "100031622",
-      "notice_type": "Request for Information",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Not applicable",
-      "trade_agreements": "None",
-      "recommended_playbook": "Specification Shaping (RFI / EOI)"
-    },
-    {
-      "source": "CanadaBuys",
-      "title": "TSPS - Evaluation Services Consultant",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-265-73388100",
-      "date": "2026-08-10T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Strengthening Canada's defence doctrine: New opportunities for Senior Evaluation Consultants in the military sector. 🪖",
-        "strategic_value": "* The DND is centralizing military personnel management doctrine (CFJP 1-0), necessitating specialized administrative and organizational expertise.\n* The target is professional services and high-level policy advisory that can support the modernization of CAF personnel strategies.\n* **Consulting Pivot:** Partner with pre-qualified Supply Arrangement (SA) holders in the 'TSPS' category to offer specialized military personnel doctrine expertise as a sub-contractor.",
-        "co_bidding_opportunity": "Holders of the Task and Solutions Professional Services (TSPS) Supply Arrangement, military human resources consultancy firms, and organizational design experts.",
-        "mets_category": "Defence Procurement",
-        "mets_rationalization": "Direct alignment with DND military infrastructure and personnel readiness, requiring specialized consulting support.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-27T00:00:00Z",
-      "province": "NCR (Ottawa/Gatineau)",
-      "province_abbrev": "NCR",
-      "category": "SRV",
-      "category_label": "Services",
-      "description": "The Department of National Defence (DND) has a requirement for one (1) Senior Evaluation Consultant to support Military Personnel Command (MILPERSCOM) in advancing its mandate to modernize personnel management within the Canadian Armed Forces (CAF) through the development of updated military personnel management doctrine in Canadian Forces Joint Publication 1-0, Military Personnel Management evaluation frameworks, and supporting materials that enable the implementation of new strategies, policie...",
-      "type": "Open",
-      "organization": "Department of National Defence (DND)",
-      "solicitation_number": "W2294-26-AA024A",
-      "notice_type": "RFP against Supply Arrangement",
-      "procurement_method": "Competitive - Selective tendering",
-      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)",
-      "recommended_playbook": "Selective Partnering (Supply Arrangement)"
     },
     {
       "source": "Global_Affairs",
@@ -449,36 +491,6 @@
         "program_validation_status": null,
         "export_risk_advisory": null,
         "macro_sector_trend": null
-      }
-    },
-    {
-      "source": "ECCC_News",
-      "title": "The federal government helps CHEO modernize its facilities with new, energy-efficient technologies - canada.ca",
-      "link": "https://www.canada.ca/en/environment-climate-change/news/2026/07/the-federal-government-helps-cheo-modernize-its-facilities-with-new-energy-efficient-technologies.html",
-      "date": "2026-07-17T13:02:28Z",
-      "insight": {
-        "linkedin_hook": "Is your facility energy strategy keeping pace with federal mandates? 🏥",
-        "strategic_value": "* The federal government is aggressively deploying capital through the Low Carbon Economy Fund to incentivize deep energy retrofits in public sector infrastructure, specifically targeting high-utility-load institutions like hospitals.\n* The technological focus involves integrated HVAC modernization, transitioning from fossil-fuel boilers to high-efficiency heat pumps, and implementing smart energy recovery systems to lower long-term OpEx.\n* **Consulting Pivot:** Propose an audit-to-implementation engagement strategy for other public institutions, positioning your firm as the bridge between federal grant eligibility (LCEF) and the technical integration of low-carbon building management systems.",
-        "co_bidding_opportunity": "Collaborate with mechanical engineering firms specializing in hospital HVAC infrastructure, energy management systems (EMS) vendors, and carbon-accounting consultants to build a turnkey application package for future LCEF grant cycles.",
-        "mets_category": "Grants & Stimulus",
-        "mets_rationalization": "This project illustrates the federal government's pivot toward funding decarbonization in public infrastructure, creating an ecosystem for energy-tech vendors.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
-      }
-    },
-    {
-      "source": "ECCC_News",
-      "title": "Minister Dabrusin joins provincial and territorial environment ministers to strengthen collaboration on environmental protection - canada.ca",
-      "link": "https://www.canada.ca/en/environment-climate-change/news/2026/07/minister-dabrusin-joins-provincial-and-territorial-environment-ministers-to-strengthen-collaboration-on-environmental-protection.html",
-      "date": "2026-07-16T20:12:09Z",
-      "insight": {
-        "linkedin_hook": "🇨🇦 Major policy signal! Minister Dabrusin just wrapped up crucial talks with provincial/territorial environment ministers, solidifying Canada's path to net-zero by 2050. Expect significant federal emphasis on clean power, electrification, and energy efficiency across all sectors. #CleanEconomy #NetZero #ClimateAction",
-        "strategic_value": "* The federal government is reinforcing its commitment to the 2050 net-zero target through enhanced intergovernmental collaboration, indicating forthcoming programs and funding streams to accelerate clean innovation and reduce emissions.\n* Strategic technological targets include clean and renewable power generation, mass electrification infrastructure, and a broad range of energy efficiency solutions for both residential and commercial applications.\n* **Consulting Pivot:** Proactive engagement with federal and provincial environment ministries to align product/service roadmaps with identified priorities in clean power, electrification, and energy efficiency, positioning as a go-to expert for future policy implementation and program design.",
-        "co_bidding_opportunity": "This is a policy announcement, not a direct tender. Therefore, no specific co-bidding opportunities are identified at this stage. Focus is on policy alignment and future program participation.",
-        "mets_category": "Grants & Stimulus",
-        "mets_rationalization": "This news release outlines a strategic alignment between federal, provincial, and territorial governments on environmental protection and clean economy initiatives. It signals future policy directions that will lead to grants, stimulus programs, and possibly infrastructure projects focused on clean technology, energy efficiency, and electrification.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null
       }
     },
     {
