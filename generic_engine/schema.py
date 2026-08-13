@@ -12,6 +12,7 @@ class SourceConfig(BaseModel):
     skip_keyword_filter: Optional[bool] = False
     skip_anchor_injection: Optional[bool] = False
     hub: Optional[str] = None
+    ecosystem_stage: Optional[str] = None
 
     @field_validator("url")
     @classmethod
@@ -54,6 +55,7 @@ class PipelineConfig(BaseModel):
     max_items_per_source: int = 5
     max_items_per_source_on_dashboard: int = 4
     max_items_per_hub: Optional[int] = None
+    max_items_per_stage: Optional[int] = None
     sources: List[SourceConfig]
     keywords: List[str]
     high_value_keywords: List[str]

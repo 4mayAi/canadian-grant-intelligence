@@ -94,6 +94,18 @@ def get_hub_for_source(source_name: str, sources_config: Any) -> str:
         return "Africa"
     return "Global"
 
+def get_stage_for_source(source_name: str, sources_config: Any) -> str:
+    """Resolves ecosystem water-cycle stage for a given source name via explicit config attribute or fallback."""
+    if not source_name:
+        return "general"
+    if sources_config:
+        for src in sources_config:
+            src_name = getattr(src, 'name', '') if not isinstance(src, dict) else src.get('name', '')
+            src_stage = getattr(src, 'ecosystem_stage', None) if not isinstance(src, dict) else src.get('ecosystem_stage', None)
+            if src_name == source_name and src_stage:
+                return src_stage
+    return "general"
+
 def load_and_validate_config(config_path: Optional[str] = None, config_url: Optional[str] = None) -> PipelineConfig:
     """Loads JSON config (local or remote), interpolates env variables, and validates via Pydantic V2."""
     config_data = {}
@@ -1023,29 +1035,35 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
 
         insights.sort(key=sort_key_news_first, reverse=True)
 
-        # 2. Enforce per-source and per-hub caps on the sorted insights array to maintain regional & source balance
+        # 2. Enforce per-source, per-hub, and per-stage caps on sorted insights array to maintain regional & stage balance
         max_per_src = getattr(config, 'max_items_per_source_on_dashboard', 4)
         if not isinstance(max_per_src, int):
             max_per_src = 4
         max_per_hub = getattr(config, 'max_items_per_hub', None)
+        max_per_stage = getattr(config, 'max_items_per_stage', None)
 
         source_counts = {}
         hub_counts = {}
+        stage_counts = {}
         capped_insights = []
 
         for item in insights:
             src = item.get("source", "")
             hub = get_hub_for_source(src, getattr(config, 'sources', []))
+            stage = get_stage_for_source(src, getattr(config, 'sources', []))
 
             src_ok = source_counts.get(src, 0) < max_per_src
             hub_ok = (max_per_hub is None) or not isinstance(max_per_hub, int) or (hub_counts.get(hub, 0) < max_per_hub)
+            stage_ok = (max_per_stage is None) or not isinstance(max_per_stage, int) or (stage_counts.get(stage, 0) < max_per_stage)
 
-            if src_ok and hub_ok:
+            if src_ok and hub_ok and stage_ok:
+                item["ecosystem_stage"] = stage
                 capped_insights.append(item)
                 source_counts[src] = source_counts.get(src, 0) + 1
                 hub_counts[hub] = hub_counts.get(hub, 0) + 1
+                stage_counts[stage] = stage_counts.get(stage, 0) + 1
             else:
-                logging.info(f"Quota cap reached (src_ok={src_ok}, hub_ok={hub_ok} for hub '{hub}', src '{src}'). Dropping: {item.get('title', '?')[:60]}")
+                logging.info(f"Quota cap reached (src_ok={src_ok}, hub_ok={hub_ok}, stage_ok={stage_ok} for hub '{hub}', stage '{stage}', src '{src}'). Dropping: {item.get('title', '?')[:50]}")
 
         insights = capped_insights
 
