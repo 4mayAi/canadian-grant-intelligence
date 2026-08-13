@@ -163,6 +163,35 @@ The pipeline is configured via `configs/mining_hubs.json` with the following par
   - `MiningWeekly_Africa` (Mining Weekly Africa First-Party Journalism Feed)
   - `MiningMX_Africa` (MiningMX African Mining & M&A Feed)
 
+### 5.3 6-Stage Institutional Water-Cycle Mining Architecture
+To represent the global mining industry as a closed-loop ecosystem, ingestion sources are partitioned across **Six Ecosystem Water-Cycle Stages**:
+
+```
+     [Stage 1: Vapor] ─────────► [Stage 2: Clouds] ─────────► [Stage 3: Rain]
+  Geological Surveys &          Impact Assessment &           Infrastructure &
+     Prospectivity                   Permitting                 CIM Standards
+           ▲                                                          │
+           │                                                          ▼
+  [Stage 6: Percolation] ◄───── [Stage 5: Transpiration] ◄──── [Stage 4: Runoff]
+   Superfund Reclamation &       Sovereign Offtake &        National Production &
+      ICMM Tailings                 Trade Policy            Operational Outputs
+```
+
+1. **Stage 1 (Vapor - Prospectivity & Discovery):** Geological surveys, TSX-V junior explorer drill intercepts, and airborne geophysics (`Canada_GSC_NRCan`, `USGS_Minerals_News`, `BGS_UK_Minerals`, `Geoscience_Australia`, `Canada_TSXV_Junior_Mining`).
+2. **Stage 2 (Clouds - EA, Permitting & Finance):** Statutory impact assessment registries and sovereign development finance (`Canada_IAAC_Permitting`, `EU_CRM_Board`, `EDC_Canada_Mining_Finance`, `Canada_PCO_News`, `Canada_CNSC_Nuclear_News`).
+3. **Stage 3 (Rain - Infrastructure & Buildout):** Federal transport corridors and CIM engineering reporting standards (`Canada_Infrastructure_Mining`, `CIM_Mining_Standards`).
+4. **Stage 4 (Runoff - Operational Extraction & Compliance):** Official monthly production statistics and state mining boards (`StatCan_Mining_Production`, `Australia_DISR_Resources`, `Australia_WA_DEMIRS`, `MiningMX_Africa`, `MiningWeekly_Africa`).
+5. **Stage 5 (Transpiration - Downstream Refining & Policy):** Multilateral energy transition bodies and commodity trade boards (`IEA_Critical_Minerals`, `US_DOE_MESC_Refining`, `Swiss_SECO_Commodities`, `China_Mining_News`, `Canada_ISED_Mining`).
+6. **Stage 6 (Percolation - Recycling & Mine Closure):** Secondary battery recycling, Superfund mine reclamation, and tailings standards (`US_EPA_Mine_Reclamation`, `Canada_ECCC_Circular_Economy`, `ICMM_Global_ESG`).
+
+### 5.4 Dual-Dimension Budget & Quota Engine
+To prevent high-frequency trade feeds from overwhelming slow-moving government registries or specific regional hubs, `generic_engine/main.py` enforces a **3-way quota evaluation predicate**:
+- `max_items_per_source_on_dashboard: 4` (Prevents single-source saturation)
+- `max_items_per_hub: 5` (Guarantees regional equilibrium across Canada, Australia, China, Switzerland, Africa, Global)
+- `max_items_per_stage: 5` (Guarantees ecosystem stage balance across Vapor, Clouds, Rain, Runoff, Transpiration, Percolation)
+
+Candidate arrays are pre-sorted chronologically (latest news first), and items are evaluated sequentially against `src_ok AND hub_ok AND stage_ok`.
+
 ---
 
 ## 6. Runtime View
@@ -183,7 +212,7 @@ sequenceDiagram
     Ext-->>Runner: Return raw HTML content and PDF texts
     Runner->>Runner: Filter previously processed URLs & resolve Google News redirects
     Runner->>Runner: Cluster and deduplicate news events
-    Runner->>Runner: Partition articles by Hub
+    Runner->>Runner: Enforce 3-way quota engine (src, hub, stage)
     
     loop For Each Hub
         Runner->>Runner: Load hub-specific anchors context
@@ -254,6 +283,8 @@ By instructing the model to return *only* the matching integer IDs (`"grounded_f
 
 ## 9. Design Decisions
 
+- **3-Way Quota Engine**: Implemented `src_ok AND hub_ok AND stage_ok` evaluation on pre-sorted arrays to eliminate both geographical bias and ecosystem stage imbalance.
+- **TSX-V Market Disclosure Ingestion**: Dedicated `Canada_TSXV_Junior_Mining` feed added to capture early-stage junior exploration discoveries, drill intercepts, and flow-through private placements before major M&A acquisitions occur.
 - **Waterfall Model Cascade**: Routes API payloads through a tiered cascade of models, dynamically pivoting if a primary model is throttled, ensuring high runtime availability.
 - **Offline Redirection Decoder**: Uses an offline Google News redirect URL decoder to resolve links prior to processing, maintaining clean caching keys and avoiding HTTP redirection delays for dashboard users.
 - **No-Relational-Database JSON Storage**: Storing datasets as structured, static JSON files in Azure Blob allows the frontend to operate without a server-side backend, reducing hosting costs.
@@ -269,3 +300,25 @@ By instructing the model to return *only* the matching integer IDs (`"grounded_f
 The Global Mining Hubs pipeline is fully decoupled under the central Skills Registry pattern:
 - **Skill Boundary**: The Skill boundary encompasses the configuration layer (`mining_hubs.json`, `hub_anchors.json`) defining the scraper sources, keyword pre-filters, and LLM system instruction components (persona, classification, grounding, translation, formatting). The Harness boundary governs validation, telemetry metrics collection, cloud synchronization, and dynamic email dispatch.
 - **Per-Skill Subscribers**: Audience records reside in `subscribers.json` inside the `mining-hubs-data` storage container, ensuring email distribution is strictly isolated per topic.
+
+---
+
+## 11. Identified Research Gaps & Future Enhancements
+
+The following architectural and data ingestion gaps have been identified for future research and pipeline expansion:
+
+### Gap 1: Intellectual Property & Hydrometallurgical Patent Registries (WIPO / CIPO / USPTO)
+* **Description:** Current feeds track news and financial disclosures, but miss early patent applications for novel direct lithium extraction (DLE), battery-grade manganese refining, and green hydrometallurgy processes.
+* **Research Action:** Evaluate WIPO Patentscope and CIPO RSS endpoints for `CPC C22B` (Extraction and Refining of Metals) to capture technological breakthroughs 2–3 years before commercial deployment.
+
+### Gap 2: Sovereign Critical Minerals Stockpile Registries (DLA / JOGMEC)
+* **Description:** National strategic stockpile purchases (such as the US Defense Logistics Agency Strategic Materials or Japan’s JOGMEC) exert significant influence on spot market availability.
+* **Research Action:** Research official publication feeds for US DLA Strategic Materials contracts and JOGMEC critical mineral stock reports.
+
+### Gap 3: Latin American Lithium Triangle Official Feeds (Chile & Argentina)
+* **Description:** Chile and Argentina represent over 50% of global lithium brine reserves. Current coverage captures South American news through global feeds rather than first-party Spanish-language government registries.
+* **Research Action:** Configure first-party feeds for Chile's Ministry of Mining (*Ministerio de Minería de Chile*) and Argentina's Mining Secretariat (*Secretaría de Minería de la Nación*), leveraging Gemini's translation layer for Spanish-to-English B2B synthesis.
+
+### Gap 4: Logistics & Sub-Saharan Infrastructure Corridor Registries
+* **Description:** Mine-to-port infrastructure bottlenecks (such as the Lobito Atlantic Railway Corridor and the Tazara Corridor) determine whether critical mineral projects reach European/North American markets.
+* **Research Action:** Research official development authority updates from the Lobito Corridor Investment Authority and AfDB infrastructure project trackers.
