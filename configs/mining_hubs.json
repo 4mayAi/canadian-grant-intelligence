@@ -7,6 +7,14 @@
   "max_items_per_stage": 5,
   "sources": [
     {
+      "name": "Canada_TSXV_Junior_Mining",
+      "url": "https://news.google.com/rss/search?q=%22TSXV%22+OR+%22TSX-V%22+%28%22drill%22+OR+%22discovery%22+OR+%22NI+43-101%22+OR+%22private+placement%22%29&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "skip_query_refactoring": true,
+      "hub": "Canada",
+      "ecosystem_stage": "vapor"
+    },
+    {
       "name": "Canada_Mining_News",
       "url": "https://mining.ca/feed/",
       "type": "rss",

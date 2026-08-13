@@ -141,6 +141,7 @@ configs/
 The pipeline is configured via `configs/mining_hubs.json` with the following parameters:
 - **Primary LLM Model:** `gemini-3.5-flash`
 - **Ingestion Sources:**
+  - `Canada_TSXV_Junior_Mining` (TSX Venture Junior Mining Exploration & Market Disclosure Feed)
   - `Canada_Mining_News` (Canada Mining News Feed)
   - `Canada_NRCan_News` (Natural Resources Canada Mining News Feed — locked to `topic=mining` API endpoint)
   - `Canada_ISED_Mining` (ISED Mining Strategy News Feed)
