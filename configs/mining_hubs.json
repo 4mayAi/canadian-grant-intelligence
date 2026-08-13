@@ -3,124 +3,145 @@
   "display_name": "Global Mining Hubs Intelligence",
   "dashboard_url": "https://4mayAi.github.io/canadian-grant-intelligence/mining-hubs/",
   "max_items_per_source": 5,
+  "max_items_per_hub": 5,
   "sources": [
     {
       "name": "Canada_Mining_News",
       "url": "https://mining.ca/feed/",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Canada"
     },
     {
       "name": "Canada_NRCan_News",
       "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=naturalresourcescanada&topic=mining&sort=publishedDate&orderBy=desc&pick=15&format=atom",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Canada"
     },
     {
       "name": "Canada_ISED_Mining",
       "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=departmentofindustry&sort=publishedDate&orderBy=desc&pick=15&format=atom",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Canada"
     },
     {
       "name": "Canada_PCO_News",
       "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?type=newsreleases&dept=privycouncil&sort=publishedDate&orderBy=desc&pick=15&format=atom",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Canada"
     },
     {
       "name": "Canada_ECCC_News",
       "url": "https://news.google.com/rss/search?q=site:canada.ca/en/environment-climate-change/news&hl=en-CA&gl=CA&ceid=CA:en",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Canada"
     },
     {
       "name": "Canada_CNSC_Nuclear_News",
       "url": "https://news.google.com/rss/search?q=site:cnsc-ccsn.gc.ca+%28nuclear+OR+uranium+OR+SMR+OR+export+OR+licence%29&hl=en-CA&gl=CA&ceid=CA:en",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Canada"
     },
     {
       "name": "Australia_Mining_News",
       "url": "https://news.google.com/rss/search?q=%22Minerals+Council+of+Australia%22+OR+site:minerals.org.au/news/&hl=en-AU&gl=AU&ceid=AU:en",
-      "type": "rss"
+      "type": "rss",
+      "hub": "Australia"
     },
     {
       "name": "Australia_WA_Mining",
       "url": "https://emits.dmp.wa.gov.au/emits/advert/rss.xml",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Australia"
     },
     {
       "name": "China_Mining_News",
       "url": "https://news.google.com/rss/search?q=%22China%22+%28%22export+controls%22+OR+%22export+ban%22%29+%28%22minerals%22+OR+%22rare+earth%22+OR+%22gallium%22+OR+%22germanium%22+OR+%22antimony%22%29&hl=en-US&gl=US&ceid=US:en",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "China"
     },
     {
       "name": "Switzerland_Mining_News",
       "url": "https://news.google.com/rss/search?q=%22SUISSENEGOCE%22+OR+%22Swiss+Commodity+Trading%22+OR+%22Glencore%22+OR+%22Trafigura%22&hl=en-US&gl=US&ceid=US:en",
-      "type": "rss"
+      "type": "rss",
+      "hub": "Switzerland"
     },
     {
       "name": "Switzerland_Geneva_News",
       "url": "https://news.google.com/rss/search?q=Glencore+OR+Trafigura+%22mati%C3%A8res+premi%C3%A8res%22&hl=fr&gl=CH&ceid=CH:fr",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Switzerland"
     },
     {
       "name": "UK_Gov_Mining",
       "url": "https://www.gov.uk/search/news-and-communications.atom?keywords=%22critical+minerals%22",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Global"
     },
     {
       "name": "ICMM_Global_ESG",
       "url": "https://news.google.com/rss/search?q=%22ICMM%22+OR+%22International+Council+on+Mining+and+Metals%22&hl=en-US&gl=US&ceid=US:en",
-      "type": "rss"
+      "type": "rss",
+      "hub": "Global"
     },
     {
       "name": "IEA_Critical_Minerals",
       "url": "https://www.iea.org/news",
       "type": "html_playwright",
       "fallback_url": "https://news.google.com/rss/search?q=%22IEA%22+%22critical+minerals%22&hl=en-US&gl=US&ceid=US:en",
-      "fallback_type": "rss"
+      "fallback_type": "rss",
+      "hub": "Global"
     },
     {
       "name": "Saudi_Mining_News",
       "url": "https://news.google.com/rss/search?q=%22Saudi+Arabia%22+%28%22mining%22+OR+%22mineral%22+OR+%22Ma%27aden%22%29&hl=en-US&gl=US&ceid=US:en",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Global"
     },
     {
       "name": "Africa_Mining_Strategy",
       "url": "https://news.google.com/rss/search?q=%22Africa%22+%28%22critical+minerals%22+OR+%22beneficiation%22+OR+%22mining+infrastructure%22+OR+%22cobalt%22+OR+%22lithium%22+OR+%22trade+corridor%22%29&hl=en-US&gl=US&ceid=US:en",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Africa"
     },
     {
       "name": "Ecofin_Mining_Africa",
       "url": "https://news.google.com/rss/search?q=site:ecofinagency.com+%22mining%22+OR+%22minerals%22&hl=en-US&gl=US&ceid=US:en",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Africa"
     },
     {
       "name": "Exploration_Tech_Key_Players",
       "url": "https://news.google.com/rss/search?q=%22KoBold+Metals%22+OR+%22Sander+Geophysics%22+OR+%22Geotech%22+OR+%22Seequent%22+OR+%22Ivanhoe+Mines%22+OR+%22airborne+geophysics%22&hl=en-US&gl=US&ceid=US:en",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Global"
     },
     {
       "name": "MiningWeekly_Africa",
       "url": "https://news.google.com/rss/search?q=site:miningweekly.com+%22critical+minerals%22+OR+%22mining%22&hl=en-US&gl=US&ceid=US:en",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Africa"
     },
     {
       "name": "MiningMX_Africa",
       "url": "https://www.miningmx.com/feed/",
       "type": "rss",
-      "skip_query_refactoring": true
+      "skip_query_refactoring": true,
+      "hub": "Africa"
     }
   ],
   "keywords": [

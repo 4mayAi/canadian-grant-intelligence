@@ -72,6 +72,28 @@ def matches_keywords(text: str, keywords: List[str]) -> bool:
                 return True
     return False
 
+def get_hub_for_source(source_name: str, sources_config: Any) -> str:
+    """Resolves regional hub for a given source name via explicit config attribute or prefix fallback."""
+    if not source_name:
+        return "Global"
+    if sources_config:
+        for src in sources_config:
+            src_name = getattr(src, 'name', '') if not isinstance(src, dict) else src.get('name', '')
+            src_hub = getattr(src, 'hub', None) if not isinstance(src, dict) else src.get('hub', None)
+            if src_name == source_name and src_hub:
+                return src_hub
+    if source_name.startswith("Canada_"):
+        return "Canada"
+    elif source_name.startswith("Australia_"):
+        return "Australia"
+    elif source_name.startswith("China_"):
+        return "China"
+    elif source_name.startswith("Switzerland_"):
+        return "Switzerland"
+    elif "Africa" in source_name or "MiningMX" in source_name or "MiningWeekly" in source_name or "Ecofin" in source_name:
+        return "Africa"
+    return "Global"
+
 def load_and_validate_config(config_path: Optional[str] = None, config_url: Optional[str] = None) -> PipelineConfig:
     """Loads JSON config (local or remote), interpolates env variables, and validates via Pydantic V2."""
     config_data = {}
@@ -992,8 +1014,42 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         kpis = generate_dashboard_kpis(insights, gemini_client, tenders=final_tenders)
         kpis["skill_version"] = config.skill_version
 
-        # Select top 5 featured items for digest, prioritizing news over tenders with fallback backfilling
+        # 1. Interleave & sort insights chronologically (news releases surface above tenders of the same date)
         TENDER_SOURCES = {"CanadaBuys"}
+        def sort_key_news_first(item):
+            dt = parse_date_safely(item)
+            is_tender = item.get("source") in TENDER_SOURCES or "closing_date" in item
+            return (dt, 1 if not is_tender else 0)
+
+        insights.sort(key=sort_key_news_first, reverse=True)
+
+        # 2. Enforce per-source and per-hub caps on the sorted insights array to maintain regional & source balance
+        max_per_src = getattr(config, 'max_items_per_source_on_dashboard', 4)
+        if not isinstance(max_per_src, int):
+            max_per_src = 4
+        max_per_hub = getattr(config, 'max_items_per_hub', None)
+
+        source_counts = {}
+        hub_counts = {}
+        capped_insights = []
+
+        for item in insights:
+            src = item.get("source", "")
+            hub = get_hub_for_source(src, getattr(config, 'sources', []))
+
+            src_ok = source_counts.get(src, 0) < max_per_src
+            hub_ok = (max_per_hub is None) or not isinstance(max_per_hub, int) or (hub_counts.get(hub, 0) < max_per_hub)
+
+            if src_ok and hub_ok:
+                capped_insights.append(item)
+                source_counts[src] = source_counts.get(src, 0) + 1
+                hub_counts[hub] = hub_counts.get(hub, 0) + 1
+            else:
+                logging.info(f"Quota cap reached (src_ok={src_ok}, hub_ok={hub_ok} for hub '{hub}', src '{src}'). Dropping: {item.get('title', '?')[:60]}")
+
+        insights = capped_insights
+
+        # 3. Select top 5 featured items for digest from surviving capped insights
         TARGET_FEATURED_COUNT = 5
         MAX_FEATURED_TENDERS = 1
 
@@ -1051,31 +1107,6 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
             for item in featured_insights:
                 src_name = clean_source_display_name(item.get("source", ""))
                 suggested_post += f"- [{item['title']}]({item['link']}) ({src_name})\n"
-
-        # Enforce per-source cap to prevent single-source flooding on the dashboard
-        max_per_src = getattr(config, 'max_items_per_source_on_dashboard', 4)
-        if not isinstance(max_per_src, int):
-            max_per_src = 4
-        source_counts = {}
-        capped_insights = []
-        for item in insights:
-            src = item.get("source", "")
-            count = source_counts.get(src, 0)
-            if count < max_per_src:
-                capped_insights.append(item)
-                source_counts[src] = count + 1
-            else:
-                logging.info(f"Per-source cap ({max_per_src}) reached for '{src}'. Dropping: {item.get('title', '?')[:60]}")
-        insights = capped_insights
-
-        # Interleave insights array for pmo_insights.json so news releases surface above tenders of the same date
-        def sort_key_news_first(item):
-            dt = parse_date_safely(item)
-            is_tender = item.get("source") in TENDER_SOURCES or "closing_date" in item
-            # Priority is 1 for news, 0 for tender so reverse=True puts news FIRST on date tie
-            return (dt, 1 if not is_tender else 0)
-
-        insights.sort(key=sort_key_news_first, reverse=True)
 
         pmo_wrapper = {
             "generated_at": datetime.utcnow().isoformat() + "Z",
