@@ -323,7 +323,7 @@ def fetch_and_process_news(
                     ckan_api_url=src["url"],
                     keywords=config.keywords,
                     max_items=150,
-                    lookback_days=7,
+                    lookback_days=14,
                     source_name=src["name"],
                     pulse_only=pulse_only
                 )

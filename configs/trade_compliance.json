@@ -116,7 +116,7 @@
     },
     {
       "name": "IAAC_Major_Project_Notices",
-      "url": "https://iaac-aeic.gc.ca/rss/news-nouvelles-eng.xml",
+      "url": "https://news.google.com/rss/search?q=site:canada.ca+%22Impact+Assessment+Agency%22+OR+%22IAAC%22&hl=en-CA&gl=CA&ceid=CA:en",
       "type": "rss",
       "hub": "TradeCompliance",
       "skip_query_refactoring": true
