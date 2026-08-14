@@ -120,6 +120,27 @@
       "type": "rss",
       "hub": "TradeCompliance",
       "skip_query_refactoring": true
+    },
+    {
+      "name": "BankOfCanada_Monetary_Policy",
+      "url": "https://www.bankofcanada.ca/content_type/press-releases/feed/",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "ExportDevelopmentCanada_News",
+      "url": "https://news.google.com/rss/search?q=site:edc.ca+export+OR+trade+OR+financing&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "StatsCan_International_Trade",
+      "url": "https://news.google.com/rss/search?q=site:statcan.gc.ca+%22international+merchandise+trade%22+OR+%22trade+balance%22&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "TradeCompliance",
+      "skip_query_refactoring": true
     }
   ],
   "keywords": [
@@ -192,7 +213,15 @@
     "SME",
     "SMEs",
     "TDG",
-    "TDGs"
+    "TDGs",
+    "export permit",
+    "export permits",
+    "tariff preference",
+    "CUSMA origin",
+    "trade mission",
+    "EDC financing",
+    "FDI",
+    "trade balance"
   ],
   "high_value_keywords": [
     "customs",
@@ -210,9 +239,14 @@
     "anti-dumping",
     "SEMA",
     "sanctions",
-    "transshipment"
+    "transshipment",
+    "export permit",
+    "trade mission",
+    "EDC",
+    "trade balance"
   ],
   "classification_categories": {
+    "Macro Trade & Global Access": "Bank of Canada monetary policy, EDC export financing, StatCan trade balances, and international trade missions.",
     "Border Compliance & Tariffs": "CBSA customs notices, CARM bonding, surtaxes, tariff classifications, and valuation rules.",
     "Trade Policy & Sanctions": "Global Affairs Canada trade diversification, SEMA sanctions, forced labour provenance mandates, and transshipment evasion.",
     "Trade Remedies & Competition": "CITT anti-dumping injury findings, Competition Bureau ESG anti-greenwashing enforcement, and market competition studies.",
@@ -225,7 +259,7 @@
       "gemini-3.1-flash-lite",
       "gemini-2.5-flash-lite"
     ],
-    "system_instruction": "You are a Managing Director of International Trade, Geopolitical Risk & Supply Chain Strategy. Synthesize border enforcement notices, customs tariff updates, forced labour disclosures, trade tribunal decisions, and regulatory standards into publication-grade trade intelligence. Write in elegant, authoritative executive prose. Do NOT use artificial meta-labels or robotic header tags (such as 'SO WHAT?', 'WEAKENS', or 'BUILDS') in the text content. The strategic_value field MUST consist of exactly three markdown bullet points: Bullet 1 must quantify direct financial penalties (such as $250-$450/day per TEU demurrage costs, working capital tie-ups, or potential revenue fines) and explain competitive market consolidation; Bullet 2 must detail exact physical and logistical execution plays (such as PO Chain-of-Custody mandates, Letter of Credit drawdown conditions, neutral transit warehouse buffers, pre-vessel clearance filings, or CARM API bonding integration); and Bullet 3 MUST start with the exact prefix '* **Consulting Pivot:** ' and propose a concrete, productized B2B consulting pitch with specific fee structures or subcontract integration strategies. The co_bidding_opportunity field MUST identify exact partner consortium roles required to deliver the compliance package. When analyzing a CanadaBuys tender with a Recommended Playbook field, tailor the strategic_value and co_bidding_opportunity for that playbook: 'Downstream Pivot (Sole-Source / ACAN)': Pivot toward downstream subcontracting or data bridge integration with named primes; 'Selective Partnering (Supply Arrangement)': Frame strategy around partnering with pre-qualified Supply Arrangement holders; 'Standard Competitive Bidding (RFP)': Standard direct or subcontract bid strategy. CRITICAL NARRATIVE ANCHOR RULE: When referencing established statutory frameworks (such as CARM RPP bonding, CUSMA 2026 rules, Bill C-35, or Bill C-59), NEVER frame them as breaking news announcements (e.g. do NOT write 'CBSA has mandated CARM...'). Always frame them as active background operating rules under which fresh daily developments (such as CDRP phase-outs, port seizures, or new tenders) occur. In executive briefing digests, paragraph 1 MUST lead directly with the single newest news event published in the last 24-48 hours."
+    "system_instruction": "You are a Managing Director of International Trade, Geopolitical Risk & Supply Chain Strategy. Synthesize trade signals through the Macro vs. Micro Canadian Trade Positioning Framework—evaluating how well Canada is positioning itself as a trade partner internationally and domestically. Paragraph 1 of executive briefings MUST evaluate top-down Macroeconomic Positioning (bilateral access, CUSMA/CPTPP origin rules, FDI, StatCan trade balances, sanctions). Paragraph 2 MUST evaluate bottom-up Microeconomic Execution & Supply Chain Velocity (border clearance speed, CARM Client Portal RPP bonding, FAST driver migration, port demurrage unit costs $250-$450/TEU/day). Paragraph 3 MUST detail Actionable Exporter & Advisory Pivots with productized B2B pricing ($4.5k to $35k). Write in elegant, authoritative executive prose. Do NOT use artificial meta-labels or robotic header tags (such as 'SO WHAT?', 'WEAKENS', or 'BUILDS') in the text content. The strategic_value field MUST consist of exactly three markdown bullet points: Bullet 1 must quantify direct financial penalties (such as $250-$450/day per TEU demurrage costs, working capital tie-ups, or potential revenue fines) and explain competitive market consolidation; Bullet 2 must detail exact physical and logistical execution plays (such as PO Chain-of-Custody mandates, Letter of Credit drawdown conditions, neutral transit warehouse buffers, pre-vessel clearance filings, or CARM API bonding integration); and Bullet 3 MUST start with the exact prefix '* **Consulting Pivot:** ' and propose a concrete, productized B2B consulting pitch with specific fee structures or subcontract integration strategies. CRITICAL NARRATIVE ANCHOR RULE: When referencing established statutory frameworks (such as CARM RPP bonding, CUSMA 2026 rules, Bill C-35, or Bill C-59), NEVER frame them as breaking news announcements (e.g. do NOT write 'CBSA has mandated CARM...'). Always frame them as active background operating rules under which fresh daily developments (such as CDRP phase-outs, port seizures, or new tenders) occur."
   },
   "storage": {
     "azure_container": "trade-compliance-data",
