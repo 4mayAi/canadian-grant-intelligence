@@ -435,11 +435,12 @@ class GeminiClient:
         """Generates LinkedIn summary post in JSON format."""
         date_str = f"Today's Date: {current_date}\n\n" if current_date else ""
         url_cta = dashboard_url if dashboard_url else "https://4mayAi.github.io/canadian-grant-intelligence/clusters/"
-        tender_str = f"\nToday's procurement & active tenders:\n{tender_context}\n" if tender_context else ""
         headline_rule = f'- Line 1 MUST be this exact headline: "{hero_hook}"\n' if hero_hook else '- Open with a clear, engaging headline (MAX 12 words) with a relevant emoji at the start. Write in plain, active language that reads naturally on mobile screens.\n'
-        prompt = f"""You are a senior editor and executive intelligence advisor writing a daily briefing for mayAi.
-        
-        Write a single, tightly edited executive briefing (MAX 1,800 characters) that organizes today's updates into the following 3 explicit strategic sections:
+
+        is_macro_micro = "Macro vs. Micro" in self.system_instruction or "Macroeconomic Positioning" in self.system_instruction
+
+        if is_macro_micro:
+            structure_instruction = """Write a single, tightly edited executive briefing (MAX 1,800 characters) that organizes today's updates into the following 3 explicit strategic sections:
         
         🌐 Macroeconomic Positioning: International Access & Domestic Policy
         (Write a crisp 2-to-3 sentence executive paragraph evaluating top-down bilateral trade, CUSMA/CPTPP origin rules, StatCan trade balances, FDI inflows, and sanctions.)
@@ -450,11 +451,18 @@ class GeminiClient:
         💼 Actionable Exporter & Advisory Pivots
         • Outbound Exporter Strategy: (1 sentence strategy for exporters)
         • Logistics Operational Playbook: (1 sentence operational action)
-        • * **Consulting Pivot:** (1 sentence proposing a concrete B2B consulting pitch with specific pricing $4.5k to $35k)
+        • * **Consulting Pivot:** (1 sentence proposing a concrete B2B consulting pitch with specific pricing $4.5k to $35k)"""
+        else:
+            structure_instruction = """Write a single, tightly edited executive briefing (MAX 1,800 characters) that organizes today's updates by their natural industry or sector categories (e.g., Clean Energy & Infrastructure, Supply Chain & Telematics, Blue Economy, Aerospace & Defence).
+            For each sector present in today's highlights, write a crisp 2-to-3 sentence executive paragraph that fluidly weaves together the Strategic Market Move, Technical Benchmark, and Actionable Enterprise Takeaway."""
+
+        prompt = f"""You are a senior editor and executive intelligence advisor writing a daily briefing for mayAi.
+        
+        {structure_instruction}
 
         {date_str}Rules:
         {headline_rule}
-        - Immediately follow Line 1 with the 3 strategic sections above. Do NOT write abstract introductory filler like "The global landscape is rapidly reconfiguring...".
+        - Immediately follow Line 1 with the structured executive updates. Do NOT write abstract introductory filler like "The global landscape is rapidly reconfiguring...".
         - Anti-Stiffness Negative Constraints:
           * NEVER use fake connective transitions (e.g. "This geopolitical alignment is complemented by...", "Simultaneously...").
           * Anti-Echo Constraint: Open every section directly with specific organization names, financial figures, or policy facts.
@@ -468,7 +476,7 @@ class GeminiClient:
         Format:
         {{
             "suggested_title": "A high-impact suggested LinkedIn Article Title (Bloomberg style)",
-            "article_content": "The full article body adhering to the 3-section structure above"
+            "article_content": "The full article body adhering to the structure above"
         }}
  
         Today's highlights:
