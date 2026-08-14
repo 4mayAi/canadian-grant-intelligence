@@ -1,7 +1,83 @@
 {
-  "generated_at": "2026-08-13T18:02:31.909274Z",
-  "linkedin_post": "Ottawa pivots to advanced drone tech and defence innovation as leadership shifts. 🇨🇦\n\nHealth-Tech & Biotechnology: [NRC](https://nrc.canada.ca/) Health has initiated an executive search following the resignation of CFO Shane Harrison, signaling an imminent recalibration of R&D funding priorities. Enterprises should map simulation platform capabilities against [NRC](https://nrc.canada.ca/) Ideation Fund criteria immediately to align with the incoming administration’s research trajectory. \n\nPublic Health & Predictive Modeling: Rising HIV infection rates across Canada are driving an urgent requirement for [PHAC](https://www.canada.ca/en/public-health.html) to adopt advanced epidemiological and transmission network modeling to optimize resource allocation. Firms must propose the deployment of agent-based simulation models that integrate complex demographic data to improve the targeting of regional prevention programs.\n\nMaterials Science & Computational Research: The [NRC](https://nrc.canada.ca/)’s acquisition of a Benchtop X-ray Diffractometer establishes a new technical baseline for structural biology and material property analysis. Consultants should leverage the high-fidelity data outputs from this instrument to build predictive models for protein-ligand interactions and antimicrobial resistance pathways, directly accelerating in-silico drug discovery pipelines.\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n\n#[NRC](https://nrc.canada.ca/) #Biotech #ComputationalBiology #PublicHealth #InnovationStrategy\n\n### Featured News & Sources\n- [NRC Health CFO Shane Harrison resigns, search for successor underway By Investing.com - Investing.com Canada](https://ca.investing.com/news/stock-market-news/nrc-health-cfo-shane-harrison-resigns-search-for-successor-underway-93CH-4793131) (Canada NRC Simulation)\n- [NRC Down 8% Despite Q2 Earnings Rising Y/Y on TRCV Growth - theglobeandmail.com](https://www.theglobeandmail.com/investing/markets/stocks/NRC-Q/pressreleases/3618566/nrc-down-8-despite-q2-earnings-rising-y-y-on-trcv-growth/) (Canada NRC Simulation)\n- [New HIV infections in Canada are rising. Advocates say years of progress are at risk - cbc.ca](https://www.cbc.ca/news/health/hiv-infections-rising-in-canada-9.7292692) (Canada PHAC AMR)\n- [NRC Health (NRC) Stock Sinks As Margin Compression Deepens Earnings Pain - webull.com](https://www.webull.com/news/15312919042679808) (Canada NRC Simulation)\n- [Benchtop X-ray Diffractometer](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-343-97800951) (CanadaBuys / MERX)\n",
+  "generated_at": "2026-08-14T18:04:00.164796Z",
+  "linkedin_post": "Canada invests in quantum infrastructure and facility upgrades to scale tech R&D. 🇨🇦\n\nBiotechnology & Life Sciences\nResearch on PucsarTIR antiphage defense and KSHV vBcl-2 replication provides new frameworks for drug intervention. These studies utilize protein-nucleotide interaction models and AlphaFold-supported protein mapping to identify high-value druggable pockets for next-gen antimicrobials. Consulting firms should pivot to offer specialized in silico screening services, integrating proprietary protein-folding software to support virology and structural biology labs in their drug discovery efforts.\n\nGenomics & Public Health\nMetagenomic analysis of tick endosymbionts and the functional screening of fermented bors-derived microbial strains offer actionable blueprints for biocontrol and food-tech innovation. These datasets define the requirements for taxon-specific diagnostic panels and industrial-grade lactic acid bacteria manufacturing. Enterprises should facilitate the transition from benchtop identification to large-scale pipeline integration, specifically targeting Canadian public health entomology and food-tech infrastructure.\n\nMaterials Science & Instrumentation\nThe [National Research Council](https://nrc.canada.ca/) ([NRC](https://nrc.canada.ca/)) is acquiring a benchtop X-ray diffractometer to advance its capability in structural biology and materials characterization. This equipment provides the essential high-resolution datasets required for accurate molecular dynamics simulations and novel material property prediction. Consulting practices should leverage this procurement to offer computational biology services, converting raw diffraction output into predictive models that accelerate vaccine design and research timelines.\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n#Biotech #Genomics #[NRC](https://nrc.canada.ca/) #DrugDiscovery #MaterialsScience\n\n### Featured News & Sources\n- [Cyclase-generated 3',5'-cGMP activates PucsarTIR antiphage defense through a stepwise zig-zag aligned filament assembly](https://www.biorxiv.org/content/10.64898/2026.08.12.744502v1?rss=1) (bioRxiv Microbiology)\n- [Characterisation and genomic analysis of bacterial nutritional endosymbionts in Australian ticks from shotgun metagenomic sequencing](https://www.biorxiv.org/content/10.64898/2026.08.12.744556v1?rss=1) (bioRxiv Microbiology)\n- [Decoding the microbiota of bors: multifunctional potential of a traditional Romanian beverage fermentation](https://www.biorxiv.org/content/10.64898/2026.08.13.744363v1?rss=1) (bioRxiv Microbiology)\n- [KLHL9 acts as a KSHV vBcl-2-interacting host factor that supports lytic replication](https://www.biorxiv.org/content/10.64898/2026.08.13.744635v1?rss=1) (bioRxiv Microbiology)\n- [Benchtop X-ray Diffractometer](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-343-97800951) (CanadaBuys / MERX)\n",
   "insights": [
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Cyclase-generated 3',5'-cGMP activates PucsarTIR antiphage defense through a stepwise zig-zag aligned filament assembly",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.08.12.744502v1?rss=1",
+      "date": "2026-08-13T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Are bacteria smarter than we think? New research reveals how bacteria use 'zig-zag' filaments to fight off phages. 🧬",
+        "strategic_value": "* This discovery of PucsarTIR NADase-competent filaments highlights a new class of antimicrobial defense mechanisms that can be modeled in silico.\n* Computational biologists can simulate these protein-nucleotide interactions to identify druggable pockets, potentially accelerating the development of next-gen antibiotics.\n* **Consulting Pivot:** Propose a partnership with academic research labs to integrate your proprietary protein-folding simulation software into their ongoing structural validation studies.",
+        "co_bidding_opportunity": "Collaborate with research consortia funded by NIH or similar international foundations to provide digital twinning for TIR effector-based defense systems.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Connects advanced bacterial defense mechanisms to the broader requirement for pathogen-focused simulation tools in the Canadian biotechnology ecosystem.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Characterisation and genomic analysis of bacterial nutritional endosymbionts in Australian ticks from shotgun metagenomic sequencing",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.08.12.744556v1?rss=1",
+      "date": "2026-08-13T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Ticks are more than just pests—they are complex biological factories. 🦠",
+        "strategic_value": "* Metagenomic mapping of tick endosymbionts provides the blueprint for designing taxon-specific biocontrol agents and diagnostic panels.\n* Understanding the mutualistic relationship between tick microbiomes and blood-feeding markers is essential for regional disease surveillance.\n* **Consulting Pivot:** Reach out to Canadian public health entomology labs to discuss using your data analytics platform for large-scale metagenomic pipeline integration.",
+        "co_bidding_opportunity": "Partner with public health agencies for the development of diagnostic tools or biocontrol protocols based on recovered MAGs from tick species.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Maps the genomic characterization of disease-vectors to public health monitoring priorities within the Canadian surveillance context.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Decoding the microbiota of bors: multifunctional potential of a traditional Romanian beverage fermentation",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.08.13.744363v1?rss=1",
+      "date": "2026-08-13T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Can a traditional fermented beverage hold the key to the next generation of protective food cultures? 🧪",
+        "strategic_value": "* The microbial diversity found in bors offers a high-value source of industrial-grade lactic acid bacteria with potent anti-Listeria capabilities.\n* Functional screening of these strains highlights their potential to optimize fermentation performance and enhance food safety without chemical additives.\n* **Consulting Pivot:** Position your firm to facilitate the transition from benchtop identification of these strains to scale-up manufacturing for Canadian food-tech applications.",
+        "co_bidding_opportunity": "Explore partnerships with European or Canadian food-tech research clusters to commercialize the identified strains as protective cultures for food production.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "Translates microbiome discovery into operational biotech opportunities in food safety and bio-manufacturing.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "KLHL9 acts as a KSHV vBcl-2-interacting host factor that supports lytic replication",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.08.13.744635v1?rss=1",
+      "date": "2026-08-13T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Host factors are the hidden architects of viral replication. A new study on KSHV sheds light on how viruses hijack cellular machinery. 🛡️",
+        "strategic_value": "* The role of KLHL9 as an essential host factor in KSHV replication provides a clear target for CRISPR-based screening and drug intervention research.\n* Leveraging AlphaFold-supported protein interaction modeling allows for high-throughput identification of host-targeted antiviral candidates.\n* **Consulting Pivot:** Offer specialized in silico screening services to virology labs to identify small-molecule inhibitors that disrupt the vBcl-2-KLHL9 interface.",
+        "co_bidding_opportunity": "Join forces with academic virology labs in upcoming grant applications focused on novel viral host-factor therapeutics.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Aligns viral replication pathway modeling with the growing demand for broad-spectrum antiviral strategies in biopharma.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
     {
       "source": "Canada_CanadaBuys_Procurement",
       "title": "Benchtop X-ray Diffractometer",
@@ -31,27 +107,27 @@
       "category": "GD",
       "category_label": "Goods",
       "description": "The National Research Council of Canada (NRC) requires the supply, delivery, and training for a benchtop X-ray diffractometer, such as the Bruker D6 PHASER or equivalent, capable of supporting NRC's current and anticipated X-ray diffraction research activities while providing data quality and scan performance comparable to NRC's existing high-performance floor-standing X-ray diffraction systems.",
-      "type": "New",
+      "type": "Open",
       "organization": "National Research Council of Canada (NRC)",
       "solicitation_number": "26-58123",
       "notice_type": "Advance Contract Award Notice",
       "procurement_method": "Advance contract award notice",
       "selection_criteria": "Variations or combinations of the above methods",
-      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Panama Free Trade Agreement",
+      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)",
       "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)",
       "ecosystem_stage": "general"
     },
     {
       "source": "Canada_CanadaBuys_Procurement",
-      "title": "Long-Endurance, Electric-Powered, Hybrid Gyroplane–Helicopter Vertical Takeoff and Landing (VTOL) Remotely Piloted Aircraft System (RPAS).",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-236-30865714",
-      "date": "2026-08-12T00:00:00Z",
+      "title": "Uninterruptible Power Supply (UPS)",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-948-65978272",
+      "date": "2026-08-13T00:00:00Z",
       "insight": {
-        "linkedin_hook": "Advanced aerial platforms for remote research: The next frontier in scientific data collection. 🛸",
-        "strategic_value": "* The NRC is scaling its capacity for autonomous data collection, creating a need for sophisticated software integration.\n* These platforms serve as vital field-testing sites for remote sensing payloads that could eventually host bioscanning sensors.\n* **Consulting Pivot:** Pivot your strategy to offer software integration services for these RPAS platforms, specifically targeting specialized payload data analysis modules.",
-        "co_bidding_opportunity": "As a specialist SME, act as a systems integrator by partnering with drone manufacturers to equip the GHX25 platform with advanced data processing software for NRC research missions.",
+        "linkedin_hook": "Powering the next generation of Canadian health-tech breakthroughs. ⚡",
+        "strategic_value": "* Reliable electrical infrastructure is critical for the continuous operation of high-performance computing clusters used in bioinformatics and simulation.\n* NRC labs require stable power to support high-fidelity modeling and data-intensive research environments.\n* **Consulting Pivot:** Position your firm as a specialized infrastructure partner that ensures 'uptime' for NRC's computational simulation labs, facilitating further Ideation Fund collaborations.",
+        "co_bidding_opportunity": "Partner with electrical engineering firms as a sub-consultant to provide specialized monitoring software that tracks power stability for high-performance simulation hardware.",
         "mets_category": "METS-Ops",
-        "mets_rationalization": "Building infrastructure for high-end research platforms is a critical operational step for future bio-detection or scientific data gathering initiatives.",
+        "mets_rationalization": "Essential infrastructure support for NRC facilities, directly enabling research environments funded via the NRC Ideation Fund (Fact ID 1001).",
         "grounded_fact_ids": [
           1001
         ],
@@ -64,20 +140,98 @@
         "export_risk_advisory": null,
         "macro_sector_trend": null
       },
-      "closing_date": "2026-08-27T00:00:00Z",
+      "closing_date": "2026-09-07T00:00:00Z",
       "province": "National",
       "province_abbrev": "NAT",
       "category": "GD",
       "category_label": "Goods",
-      "description": "The National Research Council of Canada's (NRC) Centre for Drone Innovation, part of theDrone and Flight Autonomy Laboratory, has a requirement for the supply of one (1) long endurance,fully electric, hybrid gyroplane–helicopter vertical take-off and landing (VTOL)remotely piloted aircraft system (RPAS), Airial UAS GHX25 or equivalent, including groundcontrol station software, flight battery and charger, one (1) additional flight battery, andmanufacturer-provided training, suitable for the integ...",
+      "description": "Title:\tUninterruptible Power Supply (UPS)Solicitation Number:\t26-58072 Publication Date:\tAugust 13, 2026Closing Date and Time:\tSeptember 7, 2026 EDT at 14:00Trade Agreements:\tCanadian Free Trade Agreement (CFTA) (formerly Agreement on Internal Trade [AIT])Region of Opportunity:\tCanada Region of Delivery: \tCanada GSIN:\tN5935 (UNSPSC 39121000) Connectors, ElectricalNotice Type:\tRequest for Proposal (RFP)Tendering Procedure:\tOpenDescription:The National Research Council Canada (NRC) require one (1)...",
       "type": "Open",
       "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "26-58114",
-      "notice_type": "",
-      "procurement_method": "Advance contract award notice",
-      "selection_criteria": "",
-      "trade_agreements": "Please refer to Tender Description or Tender Documents",
-      "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)",
+      "solicitation_number": "26-58072",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)",
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "Electron Multiplying Charged-Coupled Device (EMCCD) camera for Adaptive Optics (AO)",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-376-70830646",
+      "date": "2026-08-13T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Pushing the boundaries of adaptive optics: Precision hardware meets high-speed computational imaging. 🔭",
+        "strategic_value": "* High-performance cameras enable the capture of biological or astronomical data sets that fuel NRC's research and simulation capabilities.\n* Upgrading imaging hardware directly enhances the input data quality for in silico modeling and analysis platforms.\n* **Consulting Pivot:** Offer integration services to calibrate these high-speed detectors with existing NRC research software stacks, creating a unified data-acquisition and simulation pipeline.",
+        "co_bidding_opportunity": "Partner with established research optics firms as a systems integration specialist to ensure seamless data transmission to analytical modeling platforms.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "High-speed sensors are core to capturing data for breakthrough technology platforms eligible for NRC Ideation Fund support (Fact ID 1001).",
+        "grounded_fact_ids": [
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-08-31T00:00:00Z",
+      "province": "British Columbia",
+      "province_abbrev": "BC",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "The National Research Council Canada (NRC) requires an EMCCD detector to enable high-speed operation of a pyramid wavefront sensor in an adaptive optics system on a 1.2 m telescope. This detector will enhance Herzberg Astronomy and Astrophysics (HAA) capacity for advanced research and contribute to improved research outcomes.",
+      "type": "Open",
+      "organization": "National Research Council of Canada (NRC)",
+      "solicitation_number": "26-58094",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)",
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "Pacific Environmental Science Centre (PESC) Roof Replacement Project, North Vancouver, British Columbia",
+      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-166-57766522",
+      "date": "2026-08-13T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "Building the future of Canadian environmental health: Digital labs and physical infrastructure. 🔬",
+        "strategic_value": "* PESC serves as a critical node in Canada’s network for bacterial source tracking and microbiological research.\n* Modernizing laboratory physical infrastructure ensures regulatory compliance and continuity for ongoing public health monitoring programs.\n* **Consulting Pivot:** Propose the integration of digital lab management systems during facility upgrades to centralize microbiological data and accelerate future 'One Health' AMR research initiatives.",
+        "co_bidding_opportunity": "Form a consortium with construction management firms to act as the specialized lead for laboratory environmental safety and digital systems implementation.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "The PESC facility performs microbiological analysis which is inherently linked to 'One Health' Antimicrobial Resistance research mandates (Fact ID 1000).",
+        "grounded_fact_ids": [
+          1000
+        ],
+        "anchor_reference": {
+          "source_name": "CIHR One Health AMR Strategy 2025",
+          "page_range": "Page 4",
+          "url": "https://cihr-irsc.gc.ca/e/53000.html"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-09-02T00:00:00Z",
+      "province": "Multiple Provinces",
+      "province_abbrev": "MULT",
+      "category": "CNST",
+      "category_label": "Construction",
+      "description": "Located on Burrard Inlet in North Vancouver, Pacific Environmental Science Centre (PESC) is a centre for the study of marine, estuarine and freshwater toxicology and chemistry, with specialization in salmonid toxicogenomic, bacterial source tracking, and marine water quality monitoring. The Centre works in partnership with B.C. Environment, Health Canada, Transport Canada, Fisheries and Oceans Canada and the University of Victoria. The Centre houses chemical analysis (inorganic & organic), toxic...",
+      "type": "Open",
+      "organization": "Department of the Environment (ECCC )",
+      "solicitation_number": "5000094586",
+      "notice_type": "Request for Proposal",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+      "recommended_playbook": "Standard Competitive Bidding (RFP)",
       "ecosystem_stage": "general"
     },
     {
@@ -103,85 +257,6 @@
         "export_risk_advisory": null,
         "macro_sector_trend": null
       },
-      "ecosystem_stage": "general"
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
-      "title": "Long-Wave Infrared Hyperspectral Imaging System for Defence and Dual-Use Applications Using Remotely Piloted Aircraft Systems",
-      "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-826-6556795",
-      "date": "2026-08-11T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "Hyperspectral imaging is evolving—from defense to dual-use biotechnology applications. 📸",
-        "strategic_value": "* The NRC's requirement for LWIR hyperspectral imaging opens doors for advanced remote sensing applications.\n* Deploying hyperspectral sensors on RPAS platforms can be repurposed for environmental pathogen monitoring or ecological health surveillance.\n* **Consulting Pivot:** Develop a 'Dual-Use' proposal that bridges the gap between current defense-related imaging requirements and public health, AMR-focused environmental monitoring.",
-        "co_bidding_opportunity": "Leverage this ACAN procurement to offer specialized imaging analytics software as a subcontracting partner to the primary hardware provider.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Hyperspectral data processing is fundamentally a digital/computational challenge that mirrors the requirements for advanced pathogen modeling systems.",
-        "grounded_fact_ids": [
-          1000,
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "CIHR One Health AMR Strategy 2025",
-          "page_range": "Page 4",
-          "url": "https://cihr-irsc.gc.ca/e/53000.html"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-08-26T00:00:00Z",
-      "province": "National",
-      "province_abbrev": "NAT",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "The National Research Council of Canada's (NRC) Centre for Drone Innovation, part of theDrone and Flight Autonomy Laboratory, has a requirement for the supply of one (1) compactairborne long-wave infrared (LWIR) hyperspectral imaging system, Hyper-Cam Airborne Nano orequivalent, suitable for deployment on remotely piloted aircraft systems (RPAS) and crewedairborne platforms.",
-      "type": "Open",
-      "organization": "National Research Council of Canada (NRC)",
-      "solicitation_number": "26-58108",
-      "notice_type": "",
-      "procurement_method": "Advance contract award notice",
-      "selection_criteria": "",
-      "trade_agreements": "Please refer to Tender Description or Tender Documents",
-      "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)",
-      "ecosystem_stage": "general"
-    },
-    {
-      "source": "Canada_CanadaBuys_Procurement",
-      "title": "W7714-279012 - Advanced Animal Imaging System",
-      "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110021244?anId=ANONYMOUS",
-      "date": "2026-08-10T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🔬 DRDC is seeking an Advanced Animal Imaging System to trace biothreat agent infections! This isn't just hardware; it's a critical gateway for in silico simulation and computational biology to accelerate medical countermeasure development. #BioDefense #ComputationalBiology #InSilico",
-        "strategic_value": "*   This RFP from DRDC presents a critical need for advanced tools to understand biothreat agent infection processes, directly aligning with the application of virtual pathogen modeling and computational biology.\n*   The data generated by such an imaging system will be invaluable for developing in silico models that can simulate infection pathways, predict drug efficacy, and accelerate vaccine design against biothreats.\n*   **Consulting Pivot:** Propose a technical collaboration with DRDC, offering advanced computational modeling and simulation services to analyze the complex imaging data from the new system, thereby accelerating the discovery and validation of medical countermeasures against biothreat agents.",
-        "co_bidding_opportunity": "Opportunity to partner with a prime vendor submitting a bid for the Advanced Animal Imaging System, offering specialized computational biology and in silico simulation expertise to enhance the system's utility for tracing biothreat agent infection processes and informing medical countermeasure development.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "DRDC's acquisition of advanced in vivo imaging hardware generates a critical need for sophisticated computational biology and simulation tools to effectively analyze complex biothreat agent infection pathways, aligning with the intent of the National Research Council (NRC) Ideation Fund (Fact ID 1001) for breakthrough health technologies and simulation platforms.",
-        "grounded_fact_ids": [
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "closing_date": "2026-09-04T00:00:00Z",
-      "province": "Alberta",
-      "province_abbrev": "AB",
-      "category": "GD",
-      "category_label": "Goods",
-      "description": "Please note that late submissions will not be considered or accepted. Defence Research and Development Canada, Suffield Research Centre located in Ralston, AB, been developing medical countermeasures against biothreat agents within DRDC Science and Technology program. A better understanding of biothreat agent infection process in mice is mandatory for regulatory authorities to approve these medical countermeasures to be used in humans. We require an in vivo imaging optical imaging cabinet system...",
-      "type": "Open",
-      "organization": "Department of Public Works and Government Services (PSPC)",
-      "solicitation_number": "WS5804951060",
-      "notice_type": "Request for Proposal",
-      "procurement_method": "Competitive - Open bidding",
-      "selection_criteria": "Lowest Price",
-      "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade Agreement",
-      "recommended_playbook": "Standard Competitive Bidding (RFP)",
       "ecosystem_stage": "general"
     },
     {
@@ -335,11 +410,11 @@
       "link": "https://www.canada.ca/en/public-health/news/2026/07/new-temporary-border-measures-in-response-to-the-ebola-disease-outbreak.html",
       "date": "2026-07-22T07:00:00Z",
       "insight": {
-        "linkedin_hook": "🚨 Urgent Public Health Alert: Canada's new border measures against the Ebola outbreak underscore the critical need for rapid-response pathogen modeling. How quickly can we simulate emerging threats? #Ebola #PublicHealth #PathogenModeling",
-        "strategic_value": "- PHAC's proactive border measures against the Ebola outbreak highlight the continuous requirement for robust infectious disease surveillance and control mechanisms, offering a clear use case for advanced epidemiological tools.\n- Virtual pathogen modeling and in silico simulation tools can be deployed to rapidly assess the efficacy of border interventions, predict disease spread patterns within Canada, and optimize resource allocation for public health responses.\n- * **Consulting Pivot:** Propose a partnership with PHAC's Infectious Disease Laboratory Network to implement custom virtual Ebola transmission models, enhancing their preparedness and response capabilities for future outbreaks by simulating intervention strategies.",
-        "co_bidding_opportunity": "While this is a policy announcement, PHAC's involvement suggests future opportunities for specialized firms to collaborate on infectious disease modeling initiatives. Companies specializing in real-time epidemiological data analysis or secure data integration platforms could support PHAC's ongoing risk assessment and response planning.",
+        "linkedin_hook": "Border security meets computational foresight: How we simulate pathogen entry to protect Canadian public health. ✈️🇨🇦",
+        "strategic_value": "* Monitoring travel-based disease entry remains a priority for PHAC; integrating in silico modeling can predict potential spread pathways based on real-time flight data.\n* Leveraging computational epidemiology allows for proactive, data-driven border policy adjustments rather than reactive measures.\n* **Consulting Pivot:** Engage PHAC’s infectious disease modeling teams to propose digital twin frameworks that stress-test containment protocols against emerging hemorrhagic fever outbreaks.",
+        "co_bidding_opportunity": "Collaborate with PHAC-approved research partners currently involved in the Infectious Disease Laboratory Network to develop predictive entry-risk software tools.",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "PHAC's mandate for infectious disease control directly aligns with the need for advanced digital tools. This policy action signals a continuous demand for sophisticated simulation models to support public health planning, a core area where PHAC allocates funding as per Fact ID 1002.",
+        "mets_rationalization": "Direct alignment with PHAC's mandate for infectious disease simulation modeling, leveraging Fact ID 1002.",
         "grounded_fact_ids": [
           1002
         ],
@@ -351,29 +426,6 @@
         "program_validation_status": null,
         "export_risk_advisory": null,
         "macro_sector_trend": null
-      },
-      "ecosystem_stage": "general"
-    },
-    {
-      "source": "Canada_CIHR_AMR",
-      "title": "[Policy Recommendations] Toward Further Advancement of Measures Against Antimicrobial Resistance (AMR) (July 15, 2026) - 日本医療政策機構",
-      "link": "https://hgpi.org/en/research/amr-20260715.html",
-      "date": "2026-07-15T05:44:25Z",
-      "insight": {
-        "linkedin_hook": "Is your AMR drug discovery strategy keeping pace with the new 2026-2036 Global Action Plan? 🦠",
-        "strategic_value": "* **One Health Alignment:** The shift toward 'One Health' necessitates advanced modeling to bridge the gap between environmental, veterinary, and human health data.\n* **Economic Security:** With stagnant R&D investment, computational modeling offers a cost-effective path to simulate antimicrobial efficacy before committing to expensive, traditional clinical trials.\n* **Consulting Pivot:** Position your firm to support CIHR-funded researchers by providing 'in silico' simulation platforms that directly address the 'One Health' AMR mandate for predictive modeling and breakthrough technology validation.",
-        "co_bidding_opportunity": "Identify consortium partners within the CIHR 'One Health' AMR networks to co-submit proposals for NRC Ideation Fund grants aimed at automating AMR surveillance through AI-driven simulation.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "This aligns with the Canadian mandate for 'One Health' research, where digital simulation tools are required to handle the complex, cross-domain data sets inherent in modern AMR policy frameworks.",
-        "grounded_fact_ids": [
-          1000,
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "CIHR One Health AMR Strategy 2025",
-          "page_range": "Page 4",
-          "url": "https://cihr-irsc.gc.ca/e/53000.html"
-        }
       },
       "ecosystem_stage": "general"
     }
