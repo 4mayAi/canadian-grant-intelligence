@@ -11663,7 +11663,7 @@
     "category": "SRV",
     "category_label": "Services",
     "description": "Advance Contract Award Notice (ACAN) Title: CubeSat Mission 1 – Osiris-3 Payload1.\tDefinition of ACANAn Advance Contract Award Notice (ACAN) is a public notice informing suppliers that Canada intends to award a contract for goods or services to a pre-identified supplier and invites other suppliers to express their interest by submitting a statement of capabilities. If no supplier submits a statement of capabilities that meets the requirements set out in this ACAN by the closing date stated in th...",
-    "type": "New",
+    "type": "Open",
     "organization": "Canadian Space Agency (CSA)",
     "solicitation_number": "20260120",
     "notice_type": "Advance Contract Award Notice",
@@ -12300,6 +12300,39 @@
     "selection_criteria": "",
     "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Please refer to Tender Description or Tender DocumentsCanada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "Skyvan Parachute Training",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-570-87383682",
+    "date": "2026-08-15T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🚀 Canadian aerospace & defence partners: DND is seeking Skyvan Parachute Training services via a Supply Arrangement! This is your cue to engage pre-qualified prime contractors. #DefenceProcurement #CanadaBuys",
+      "strategic_value": "*   The Department of National Defence (DND) maintains a continuous operational readiness requiring specialized aviation assets and training, as evidenced by this RFP for Skyvan parachute training services. The \"Lowest Price\" selection criteria underscore DND's focus on cost-efficient delivery for these critical training programs in Petawawa.\n*   This requirement specifically targets the provision of fixed-wing training aircraft (UNSPSC 25131509) suitable for parachute operations, indicating an immediate need for specialized aviation platforms and related flight/ground crew expertise to support DND's airborne training mandates.\n*   **Consulting Pivot:** Proactively identify and establish partnerships with pre-qualified Supply Arrangement # W6399-26AA08 holders to offer specialized sub-contracting services in aircraft maintenance, flight operations, ground support, or instructional expertise for airborne training missions.",
+      "co_bidding_opportunity": "Potential partners could include specialized aviation service providers (operators of Skyvan-type aircraft), aircraft maintenance organizations (MROs), flight operations specialists (e.g., experienced pilots, loadmasters), or parachute training instructors to form a comprehensive offering to an existing Supply Arrangement holder.",
+      "mets_category": "Defence Procurement",
+      "mets_rationalization": "This tender directly supports the Department of National Defence's mandate for military readiness and tactical operations by securing specialized aircraft and training services essential for parachute operations, a core component of airborne forces' capabilities.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-08-16T00:00:00Z",
+    "province": "Ontario",
+    "province_abbrev": "ON",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "This requirement is a Request for Proposal (RFP) against Supply Arrangement # W6399-26AA08. All Supply Arrangement holders will be e-mailed the RFP directly. If vendors outside of the Supply Arrangement are interested in submitting a proposal, they will have to qualify for the Supply Arrangement before they are given an opportunity to bid on this requirement. Please contact the Supply Arrangement Contracting Officer at PSPC to obtain the steps required to be considered for Supply Arrangement # W...",
+    "type": "New",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W6399-27-SS14",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "None",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)",
     "ecosystem_stage": "general"
   }
 ]
