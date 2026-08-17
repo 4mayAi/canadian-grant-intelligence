@@ -5369,7 +5369,7 @@
     "notice_type": "RFP against Supply Arrangement",
     "procurement_method": "Competitive - Selective tendering",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)",
+    "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)North American Free Trade Agreement (NAFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)",
     "ecosystem_stage": "general"
   },
@@ -5474,7 +5474,7 @@
     "notice_type": "",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
-    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)",
+    "trade_agreements": "Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)",
     "ecosystem_stage": "general"
   },
@@ -5726,5 +5726,45 @@
     "selection_criteria": "Lowest Cost-per-Point",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Preventive maintenance and repairs of medical equipment",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-486-2255849",
+    "date": "2026-08-17T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🚨 Just published on August 17, 2026, the Correctional Service of Canada has launched a competitive tender (21120-27-5379427/A) for regional medical equipment maintenance in Quebec, highlighting the escalating compliance pressures of the 'Buy Canadian' policy. Under background rules like CARM RPP financial bonding, standard bids must now secure strict component provenance to win.",
+      "strategic_value": "* Failure to maintain strict spare part import timelines risks direct contract non-compliance penalties of up to $500/day in liquidated damages, combined with $250-$450/day per TEU demurrage costs for stalled diagnostic components, driving rapid market consolidation toward highly capitalized, CARM-bonded service providers.\n* Bidders must implement rigorous PO Chain-of-Custody mandates and establish Quebec-based neutral transit warehouse buffers for critical medical spares, while integrating CARM API bonding systems to ensure immediate pre-vessel clearance filings for all foreign-sourced electronic components.\n* **Consulting Pivot:** Propose a 'CSC Federal Procurement Bid Compliance Audit' at a flat fee of $12,500, delivering a comprehensive supply chain mapping that aligns the bidder's replacement parts logistics with CARM RPP requirements and Bill C-26 cybersecurity telemetry standards to guarantee a compliant RFP submission.",
+      "co_bidding_opportunity": "Under a Standard Competitive Bidding (RFP) play, bidders should form a consortium consisting of a primary biomedical services contractor to deliver the 'qualified labour' and technical 'expertise' at Quebec CSC facilities, a medical equipment distributor to supply the required 'products, accessories, tools, [and] equipment', and a specialized regional carrier to provide the secure 'transportation' of calibrated medical units.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This tender from August 17, 2026, involves the maintenance, logistics, and supply chain of critical medical equipment across federal prisons. It connects directly to the hub's long-term regulatory frameworks, specifically CBSA's CARM system which commercial importers must use to secure RPP bonding for imported repair parts, and Bill C-26 which mandates strict OT/IT supply chain controls for hardware and telemetry tools used in federal environments.",
+      "grounded_fact_ids": [
+        3,
+        6
+      ],
+      "anchor_reference": {
+        "source_name": "Canada Border Services Agency",
+        "page_range": "Customs Notice CN26-04",
+        "url": "https://www.cbsa-asfc.gc.ca/services/carm-gcra/menu-eng.html"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-15T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "This requirement is for: The Correctional Service of Canada, all CSC institutions in the Quebec Region. Trade agreement: Canadian Free Trade Agreement (CFTA), Canada Korea Trade Agreement (CKTA), Canada free trade agreements with Chile/Colombia/Honduras/Panama, Canada-Peru Free Trade Agreement, Canada-European Union Comprehensive Economic and Trade Agreement (CETA). Policy on Reciprocal Procurement: This solicitation is open only to Canadian suppliers and to Suppliers of an applicable trading pa...",
+    "type": "New",
+    "organization": "Correctional Service of Canada (CSC)",
+    "solicitation_number": "21120-27-5379427/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
   }
 ]
