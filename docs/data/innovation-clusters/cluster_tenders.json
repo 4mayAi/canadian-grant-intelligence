@@ -4722,8 +4722,41 @@
     "notice_type": "Advance Contract Award Notice",
     "procurement_method": "Advance contract award notice",
     "selection_criteria": "Not applicable",
-    "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)North American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)",
+    "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)North American Free Trade Agreement (NAFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "ProteinIndustries_CanadaBuys",
+    "title": "Preventive maintenance and repairs of medical equipment",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-486-2255849",
+    "date": "2026-08-17T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🩺 Critical health infrastructure needs secure maintenance! Correctional Service Canada (CSC) is seeking bids for essential preventive maintenance and repairs of medical equipment across all Quebec Region institutions. This is a key opportunity to support public health and safety under the Buy Canadian Policy. #BuyCanadian #HealthcareMaintenance #PublicProcurement",
+      "strategic_value": "* This procurement for medical equipment maintenance at Correctional Service Canada (CSC) institutions in Quebec directly supports the Government of Canada's new 'Buy Canadian Policy,' aiming to protect and build Canadian industries through strategic federal spending.\n* The project specifically targets the continuous functionality and regulatory compliance of critical medical equipment, requiring specialized expertise in preventive maintenance, calibration, and repair in line with Accreditation Canada's Required Safety Practices and manufacturer specifications.\n* **Consulting Pivot:** Propose services for regional compliance auditing against Accreditation Canada standards, custom analytics adapters for tracking equipment lifespan and maintenance schedules, or localized data layers for integrating individual device reports and calibration certificates into a centralized, secure system for the Quebec region CSC facilities.",
+      "co_bidding_opportunity": "The solicitation requires qualified labour, expertise, products, accessories, tools, equipment, and transportation. Therefore, potential consortium partners or subcontractors could include:\n*   **Specialized Medical Equipment Service Providers:** For the direct provision of technical labour and expertise in medical device maintenance and repair.\n*   **Medical Equipment Parts/Accessories Suppliers:** To provide necessary components for repairs and general maintenance supplies.\n*   **Logistics & Transportation Contractors:** For the efficient movement of tools, specialized equipment, and personnel to various CSC institutions across the Quebec region.\n*   **Compliance & Regulatory Consultants:** To ensure all maintenance practices and reporting strictly adhere to Accreditation Canada's Required Safety Practices and other relevant standards.\n*   **IT/Software Developers:** For creating or customizing reporting systems to manage detailed visit reports, calibration certificates, and repair documentation efficiently.",
+      "mets_category": "METS-Ops",
+      "mets_rationalization": "This procurement for essential medical equipment maintenance directly supports the operational resilience of Canada's public health infrastructure within federal institutions. It aligns with the 'Buy Canadian Policy' to strengthen domestic industrial capabilities and ensure high standards of health service delivery, contributing to the long-term national goal of a robust and self-reliant supply chain for critical public services, which is a core tenet often supported by Global Innovation Clusters.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-15T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "This requirement is for: The Correctional Service of Canada, all CSC institutions in the Quebec Region. Trade agreement: Canadian Free Trade Agreement (CFTA), Canada Korea Trade Agreement (CKTA), Canada free trade agreements with Chile/Colombia/Honduras/Panama, Canada-Peru Free Trade Agreement, Canada-European Union Comprehensive Economic and Trade Agreement (CETA). Policy on Reciprocal Procurement: This solicitation is open only to Canadian suppliers and to Suppliers of an applicable trading pa...",
+    "type": "New",
+    "organization": "Correctional Service of Canada (CSC)",
+    "solicitation_number": "21120-27-5379427/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Colombia Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
     "ecosystem_stage": "general"
   }
 ]
