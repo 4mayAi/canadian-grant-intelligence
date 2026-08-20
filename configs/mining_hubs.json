@@ -171,6 +171,37 @@
       "skip_query_refactoring": true,
       "hub": "Africa",
       "ecosystem_stage": "runoff"
+    },
+    {
+      "name": "Canada_CIPO_Mining_Patents",
+      "url": "https://news.google.com/rss/search?q=site:ic.gc.ca/opic-cipo+%22mining%22+OR+%22extraction%22+OR+%22hydrometallurgy%22&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "skip_query_refactoring": true,
+      "hub": "Canada",
+      "ecosystem_stage": "vapor"
+    },
+    {
+      "name": "US_DLA_Strategic_Stockpile",
+      "url": "https://news.google.com/rss/search?q=site:dla.mil+%22Strategic+Materials%22+OR+%22critical+minerals%22&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "hub": "Global",
+      "ecosystem_stage": "transpiration"
+    },
+    {
+      "name": "Chile_MinMineria_Lithium",
+      "url": "https://news.google.com/rss/search?q=site:minmineria.cl+%22litio%22+OR+%22mineria%22&hl=es-419&gl=CL&ceid=CL:es-419",
+      "type": "rss",
+      "skip_query_refactoring": true,
+      "skip_keyword_filter": true,
+      "hub": "Global",
+      "ecosystem_stage": "runoff"
+    },
+    {
+      "name": "SubSaharan_Lobito_Corridor",
+      "url": "https://news.google.com/rss/search?q=%22Lobito+Corridor%22+OR+%22Tazara%22+%28%22mining%22+OR+%22minerals%22+OR+%22rail%22%29&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "hub": "Africa",
+      "ecosystem_stage": "rain"
     }
   ],
   "keywords": [
@@ -203,6 +234,12 @@
     "predictive maintenance",
     "OPC UA",
     "lithium",
+    "DLE",
+    "DLEs",
+    "CIPO",
+    "CIPOs",
+    "DLA",
+    "DLAs",
     "cobalt",
     "nickel",
     "copper",
