@@ -1,10 +1,10 @@
 {
-  "total_active": 18,
-  "new_today": 6,
-  "closing_this_week": 0,
-  "top_category": "Mixed Sectors",
-  "hero_hook": "Canada's research deciphers microbial interfaces, gut health, and imaging tech. 🦠",
-  "generated_at": "2026-08-20T18:03:54.633563Z",
+  "total_active": 16,
+  "new_today": 5,
+  "closing_this_week": 1,
+  "top_category": "bioRxiv Microbiology",
+  "hero_hook": "Biotech research surges as scientists decode new viral threats and pathogens. 🧬",
+  "generated_at": "2026-08-21T18:02:01.637122Z",
   "macro_indicators": null,
   "skill_version": "1.0.0"
 }
