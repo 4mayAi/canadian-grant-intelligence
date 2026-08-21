@@ -450,6 +450,7 @@ class GeminiClient:
           3. The Actionable Enterprise Takeaway (exact B2B subcontracting, engineering, or consulting pivot).
         - Single-Item Fallback: If only 1 news item or tender is provided in today's highlights, output a single concentrated 2-to-3 sentence executive paragraph for that item without forcing multiple sector headers.
         - Anti-Stiffness Negative Constraints:
+          * NEVER use first-person pronouns (such as "we", "our", "us", "we offer", or "our team"). Write strictly in objective third-person executive prose (e.g. "Enterprise importers should engage external trade counsel to conduct...", "Advisory practices and trade consultants can package a $15,000 audit...").
           * NEVER use fake connective transitions between unrelated industries (e.g. "This geopolitical alignment is complemented by...", "Simultaneously...", "Alongside..."). Each sector paragraph must be a standalone, self-contained executive insight.
           * NEVER use mechanical bullet labels or prefixes (e.g., "Market Move:", "Tech Benchmark:", "C-Suite Takeaway:"). The 3 elements must be written as a smooth, continuous, elegant paragraph of executive journalism.
           * Anti-Echo Constraint: NEVER echo or repeat prompt structural titles or generic placeholder starter phrases (e.g., "Canada's innovation agenda is driven by strategic policy", "Technological milestones are taking shape", "Enterprises should pursue strategic B2B engagement"). Open every sector directly with specific organization names, financial figures, or policy facts.
