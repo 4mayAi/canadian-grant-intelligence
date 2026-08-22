@@ -1,85 +1,27 @@
 {
-  "generated_at": "2026-08-21T18:02:10.150275Z",
-  "linkedin_post": "Biotech research surges as scientists decode new viral threats and pathogens. 🧬\n\nBiotechnology and Viral Pathogenesis: Recent bioRxiv findings demonstrate that genome-scale codon deoptimization facilitates the engineering of stable, attenuated Rift Valley Fever Virus strains with high precision. This proof-of-concept validation for in silico simulation tools allows for the rapid development of candidates targeting zoonotic threats identified by the [Public Health Agency of Canada](https://www.canada.ca/en/public-health.html). Consultancy firms should propose computational partnerships to integrate these deoptimization algorithms into standardized vaccine candidate screening pipelines for government procurement programs.\n\nInfluenza Surveillance and Structural Bioinformatics: New data on bovine-origin H5N1 influenza reveals that specific haemagglutinin mutations maintain avian receptor binding with increased structural stability. These findings demand the application of structural bioinformatics to predict receptor-binding affinity for effective real-time categorization of high-risk variants within national surveillance networks. Advisory practices can integrate these stability-modelling tools into provincial influenza monitoring dashboard upgrades to facilitate proactive public health intervention.\n\nCRISPR-Cas and Antimicrobial Resistance: Research into the RecA-CRISPR feedback loop identifies the specific requirements for computational modeling of bacterial stress response pathways during CRISPR-Cas adaptation. This capability enables the development of predictive in-silico models for adaptation rates across diverse microbial populations to mitigate antimicrobial resistance. Systems integrators should target academic research consortia to bridge the operational gap between experimental wet-lab data and predictive microbial evolution software.\n\nSmall-Molecule Therapeutic Discovery: Phenotypic screening for BK Polyomavirus has identified distinct small-molecule inhibitors that target specific viral life-cycle stages. This discovery establishes a technical benchmark for simulation software development aimed at predicting inhibitor efficacy across complex biological systems, offering a blueprint for high-throughput drug discovery. Consulting engagements should focus on pitching software integration projects to clinical research centers aiming to translate these specific small-molecule leads into viable therapeutic candidates.\n\nAdvanced Computational Imaging: The [National Research Council](https://nrc.canada.ca/) is prioritizing the acquisition of high-resolution light-field snapshot hyperspectral cameras, such as the Cubert ULTRIS X20, to capture concurrent spatial and spectral data for biological tissue simulation. Integrating advanced computational imaging algorithms allows for the bypass of traditional staining protocols, significantly accelerating high-throughput diagnostic validation. Service providers should offer custom spectral-signature simulation and machine learning classification software to [NRC](https://nrc.canada.ca/) research teams to maximize the analytical utility of these high-fidelity imaging systems.\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n#Biotech #H5N1 #CRISPR #Bioinformatics #[NRC](https://nrc.canada.ca/) #HealthTech\n\n### Featured News & Sources\n- [Genome-Scale Codon Deoptimization Enables Attenuation of Rift Valley Fever Virus](https://www.biorxiv.org/content/10.64898/2026.08.13.744589v1?rss=1) (bioRxiv Microbiology)\n- [Emerging Haemagglutinin Mutations in Bovine-origin H5N1 Influenza Viruses from Humans and Cattle Retain Avian Receptor Binding with Increased Stability](https://www.biorxiv.org/content/10.64898/2026.08.18.745528v1?rss=1) (bioRxiv Microbiology)\n- [RecA status determines SOS- and RecBCD-dependent outcomes in CRISPR-Cas adaptation](https://www.biorxiv.org/content/10.64898/2026.08.20.745894v1?rss=1) (bioRxiv Microbiology)\n- [Phenotypic Screening Identifies Small-Molecule Inhibitors with Distinct Activities across the BK Polyomavirus Life Cycle](https://www.biorxiv.org/content/10.64898/2026.08.20.745923v1?rss=1) (bioRxiv Microbiology)\n- [High-Resolution Light-Field Snapshot Hyperspectral Camera](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-286-1787513) (CanadaBuys / MERX)\n",
+  "generated_at": "2026-08-22T18:02:08.199729Z",
+  "linkedin_post": "AI-driven health diagnostics and microbiome research hit the Canadian innovation frontier. 🧬\n\nBiotechnology & Precision Medicine: Researchers have mapped 737 cross-kingdom associations within human microbiomes, providing a rigorous data foundation for predictive in silico modeling of ecological networks. Firms should integrate these specific mapping algorithms into existing precision medicine R&D workflows for biotechnology entities focused on microbial therapeutic development. Complementing this, AI-driven analysis has unveiled novel bacterial relationships linked to Alzheimer’s disease, creating high-value data for digital twin modeling of the gut-brain axis; technical partners should pivot to translate these findings into actionable predictive models for clinical trials.\n\nHealth Infrastructure & Government R&D: The [National Research Council](https://nrc.canada.ca/) ([NRC](https://nrc.canada.ca/)) is currently sourcing high-resolution light-field snapshot hyperspectral cameras, such as the Cubert ULTRIS X20, to enhance biological tissue simulation and real-time pathogen identification. Engineering consultants must pitch custom spectral-signature simulation and machine learning classification software to [NRC](https://nrc.canada.ca/) teams to maximize the analytical utility of this hardware. Meanwhile, the resignation of [NRC](https://nrc.canada.ca/) Health CFO Shane Harrison marks a transition period in departmental R&D prioritization, necessitating that vendors map simulation platform capabilities directly against [NRC](https://nrc.canada.ca/) Ideation Fund criteria to align with future leadership research mandates. Beyond institutional leadership, while [NRC](https://nrc.canada.ca/) Health ETFs track broad market performance, capital-efficient R&D remains focused on the Ideation Fund; service providers should position themselves as technical integration partners for 'One Health' simulation projects to bridge the gap between theoretical modeling and procurement-ready software.\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n#HealthTech #AI #Microbiome #[NRC](https://nrc.canada.ca/) #Biotech\n\n### Featured News & Sources\n- [ETFs Investing in NRC Health Stocks - TradingView](https://www.tradingview.com/symbols/LS-A1WYXP/etfs/) (Canada NRC Simulation)\n- [Ecological Network Inference Reveals 737 Cross-Kingdom Associations Structuring Human Microbiomes](https://www.biorxiv.org/content/10.64898/2026.08.11.744128v1?rss=1) (bioRxiv Microbiology)\n- [Analysis of gut bacterial communities leveraging AI methods unveils novel relations between species in Alzheimers disease](https://www.biorxiv.org/content/10.64898/2026.08.12.743985v1?rss=1) (bioRxiv Microbiology)\n- [NRC Health CFO Shane Harrison resigns, search for successor underway By Investing.com - Investing.com Canada](https://ca.investing.com/news/stock-market-news/nrc-health-cfo-shane-harrison-resigns-search-for-successor-underway-93CH-4793131) (Canada NRC Simulation)\n- [High-Resolution Light-Field Snapshot Hyperspectral Camera](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-286-1787513) (CanadaBuys / MERX)\n",
   "insights": [
     {
-      "source": "bioRxiv_Microbiology",
-      "title": "Genome-Scale Codon Deoptimization Enables Attenuation of Rift Valley Fever Virus",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.08.13.744589v1?rss=1",
-      "date": "2026-08-21T00:00:00Z",
+      "source": "Canada_NRC_Simulation",
+      "title": "ETFs Investing in NRC Health Stocks - TradingView",
+      "link": "https://www.tradingview.com/symbols/LS-A1WYXP/etfs/",
+      "date": "2026-08-21T05:15:52Z",
       "insight": {
-        "linkedin_hook": "🚀 Can codon deoptimization rewrite the future of viral vaccine design? Recent bioRxiv findings on Rift Valley Fever Virus suggest we can now engineer stable, attenuated strains with higher precision.",
-        "strategic_value": "- Provides a proof-of-concept for in silico simulation tools to predict codon usage bias and viral attenuation kinetics.\n- Facilitates rapid development of candidates for emerging zoonotic threats identified by the Public Health Agency of Canada.\n- * **Consulting Pivot:** Propose a computational partnership with academic labs to integrate their deoptimization algorithms into standard vaccine candidate screening pipelines for government procurement programs.",
-        "co_bidding_opportunity": "Partnership with institutional research labs to leverage the in-silico simulation suite for public-private R&D bids.",
+        "linkedin_hook": "Are your health-tech investments leveraging Canada’s R&D ecosystem or just tracking market benchmarks? 📈",
+        "strategic_value": "* While NRC Health ETFs track broad market performance, there is a strategic opportunity to pivot capital-efficient R&D toward high-impact, government-backed simulation technology.\n* The National Research Council's Ideation Fund serves as a catalyst for breakthrough health technologies, providing a clear pathway for small-cap innovators to secure non-dilutive funding for simulation-based platforms.\n* **Consulting Pivot:** Position your firm to support NRC-funded research groups by acting as a technical integration partner for 'One Health' simulation projects, effectively bridging the gap between theoretical modeling and scalable, procurement-ready software solutions.",
+        "co_bidding_opportunity": "Target collaborative opportunities through the NRC Ideation Fund [Fact ID: 1001] to develop simulation platforms that align with the broader infectious disease modeling priorities of the Public Health Agency of Canada [Fact ID: 1002].",
         "mets_category": "METS-Digital",
-        "mets_rationalization": "This aligns with Canada's focus on pandemic preparedness and biotechnology innovation to improve national health security.",
+        "mets_rationalization": "Connects investor interest in 'NRC' related entities to actual Canadian federal research funding mandates (Ideation Fund) that prioritize digital simulation platforms.",
         "grounded_fact_ids": [
-          1
+          1001,
+          1002
         ],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "ecosystem_stage": "general"
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Emerging Haemagglutinin Mutations in Bovine-origin H5N1 Influenza Viruses from Humans and Cattle Retain Avian Receptor Binding with Increased Stability",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.08.18.745528v1?rss=1",
-      "date": "2026-08-21T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🔬 Stability is the new metric for H5N1 surveillance. New data on bovine-origin influenza variants highlights why we need predictive modeling to stay ahead of cross-species transmission risks.",
-        "strategic_value": "- Demonstrates the utility of structural bioinformatics in predicting receptor-binding affinity for H5N1 variants.\n- Enhances the ability of national surveillance networks to categorize high-risk mutations in real-time.\n- * **Consulting Pivot:** Offer to integrate these stability-modelling tools into provincial influenza monitoring dashboard upgrades to assist in proactive public health responses.",
-        "co_bidding_opportunity": "Collaborative research ventures involving PHAC-affiliated laboratories focused on zoonotic pathogen surveillance.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Connecting academic microbiology research to the surveillance infrastructure mandated for Canadian national health security.",
-        "grounded_fact_ids": [
-          1
-        ],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "ecosystem_stage": "general"
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "RecA status determines SOS- and RecBCD-dependent outcomes in CRISPR-Cas adaptation",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.08.20.745894v1?rss=1",
-      "date": "2026-08-20T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🧬 Understanding the RecA-CRISPR feedback loop is critical for next-gen gene editing and antimicrobial resistance mitigation strategies.",
-        "strategic_value": "- Highlights the requirement for computational modeling of bacterial stress response pathways in the context of AMR.\n- Enables the development of 'in-silico' models that predict CRISPR-Cas system adaptation rates across diverse microbial populations.\n- * **Consulting Pivot:** Position your firm as the systems integrator for academic research consortia studying bacterial evolution, bridging the gap between wet-lab data and modeling software.",
-        "co_bidding_opportunity": "Grant-based consortium building with Canadian genomic research organizations focused on antimicrobial resistance.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Supports the long-term goal of improving AMR response strategies through advanced computational modeling.",
-        "grounded_fact_ids": [
-          1
-        ],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "ecosystem_stage": "general"
-    },
-    {
-      "source": "bioRxiv_Microbiology",
-      "title": "Phenotypic Screening Identifies Small-Molecule Inhibitors with Distinct Activities across the BK Polyomavirus Life Cycle",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.08.20.745923v1?rss=1",
-      "date": "2026-08-20T00:00:00Z",
-      "insight": {
-        "linkedin_hook": "🧪 Rethinking BK Polyomavirus treatment: Phenotypic screening just got a massive upgrade with new insights into life-cycle-specific small-molecule inhibitors.",
-        "strategic_value": "- Offers a benchmark for developing simulation software capable of predicting inhibitor efficacy across complex viral life cycles.\n- Provides a blueprint for high-throughput in-silico drug discovery platforms.\n- * **Consulting Pivot:** Pitch a specialized software integration project to clinical research centers aiming to translate these small-molecule leads into potential therapeutic candidates.",
-        "co_bidding_opportunity": "Partnering with pharmaceutical technology SMEs to provide the data analytics layer for drug discovery projects.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Aligns with the objective of leveraging digital tools to accelerate drug discovery pipelines in the Canadian biotech sector.",
-        "grounded_fact_ids": [
-          1
-        ],
-        "anchor_reference": null,
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        },
         "program_validation_status": null,
         "export_risk_advisory": null,
         "macro_sector_trend": null
@@ -123,6 +65,44 @@
       "selection_criteria": "Lowest Price",
       "trade_agreements": "Please refer to Tender Description or Tender Documents",
       "recommended_playbook": "Standard Competitive Bidding (RFP)",
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Ecological Network Inference Reveals 737 Cross-Kingdom Associations Structuring Human Microbiomes",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.08.11.744128v1?rss=1",
+      "date": "2026-08-17T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🧬 Decoding the human microbiome: 737 cross-kingdom associations just mapped. Ready to simulate these interactions?",
+        "strategic_value": "* The identification of 737 cross-kingdom associations provides a complex data foundation for predictive microbiome modeling.\n* In silico simulation tools can now be calibrated to test how perturbations in these specific ecological networks affect systemic human health.\n* **Consulting Pivot:** Propose the integration of these specific network mapping algorithms into existing precision medicine R&D workflows for biotechnology firms focused on microbial therapeutic development.",
+        "co_bidding_opportunity": "Partnership opportunities exist for computational biology SMEs to collaborate with research universities conducting metagenomic ecological modeling, specifically for proposals targeting CIHR or NSERC grants centered on microbiome-driven disease pathways.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This aligns with Canada's focus on building domestic capacity in high-performance computing and clinical data analytics for health research.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Analysis of gut bacterial communities leveraging AI methods unveils novel relations between species in Alzheimers disease",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.08.12.743985v1?rss=1",
+      "date": "2026-08-17T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🧠 Can we map the gut-brain axis? New AI-driven analysis of bacterial communities is rewriting the Alzheimer’s narrative.",
+        "strategic_value": "* Leveraging AI to unveil novel bacterial relations in Alzheimer’s patients creates a high-value data set for digital twin modeling of the gut-brain axis.\n* Computational biology tools can simulate how specific bacterial species populations shift in response to neurodegenerative therapeutic interventions.\n* **Consulting Pivot:** Position your firm as a technical partner for academic institutions or pharma developers to translate these AI-detected associations into actionable predictive models for clinical trials.",
+        "co_bidding_opportunity": "Consortium opportunities for clinical research networks and AI-based diagnostics firms to apply for collaborative health research grants focused on neuro-microbiology and long-term geriatric care strategies.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "This supports the digital transformation of Canadian healthcare by applying advanced AI to link multi-omic datasets with specific chronic disease outcomes.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
       "ecosystem_stage": "general"
     },
     {
@@ -193,7 +173,7 @@
       "notice_type": "Advance Contract Award Notice",
       "procurement_method": "Advance contract award notice",
       "selection_criteria": "Variations or combinations of the above methods",
-      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Panama Free Trade Agreement",
+      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Panama Free Trade Agreement",
       "recommended_playbook": "Downstream Pivot (Sole-Source / ACAN)",
       "ecosystem_stage": "general"
     },
@@ -310,81 +290,6 @@
         "co_bidding_opportunity": "As a selective partnering opportunity, computational biology software vendors can position their simulation suites to sub-contract under academic public health consortia applying for federal public health modeling grants.",
         "mets_category": "METS-Digital",
         "mets_rationalization": "Applies pathogen modeling, in silico simulation, and data analytics tools to simulate disease transmission and therapeutic pathways, aligning with federal digital health and epidemiological priorities.",
-        "grounded_fact_ids": [
-          1002
-        ],
-        "anchor_reference": {
-          "source_name": "PHAC Laboratory Biosafety Guidelines",
-          "page_range": "Page 15",
-          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "ecosystem_stage": "general"
-    },
-    {
-      "source": "Canada_NRC_Simulation",
-      "title": "NRC Health (NRC) Stock Sinks As Margin Compression Deepens Earnings Pain - webull.com",
-      "link": "https://www.webull.com/news/15312919042679808",
-      "date": "2026-07-30T21:27:20Z",
-      "insight": {
-        "linkedin_hook": "Is your biotech firm losing sleep over margin compression? 📉 While NRC Health faces a valuation correction, the path to sustained growth lies in leveraging high-value innovation grants.",
-        "strategic_value": "* **Portfolio Optimization:** Move beyond generic software offerings by aligning R&D roadmaps with federal simulation funding mandates that prioritize high-impact health outcomes.\n* **Capital Efficiency:** Use non-dilutive government funding mechanisms to offset high operational costs associated with recurring software development.\n* **Consulting Pivot:** Position your firm as an 'Ideation Partner' to help clients bridge the gap between financial losses and operational excellence by securing NRC Ideation Fund support for digital transformation.",
-        "co_bidding_opportunity": "Explore collaborative research pathways via the NRC Ideation Fund [Fact ID: 1001] to develop digital health simulation platforms that integrate with existing healthcare systems.",
-        "mets_category": "METS-PMO",
-        "mets_rationalization": "Connects the financial distress of a major industry player to the broader ecosystem of available NRC innovation support, highlighting how federal funding can stabilize R&D pipelines.",
-        "grounded_fact_ids": [
-          1001
-        ],
-        "anchor_reference": {
-          "source_name": "NRC Collaborative Science & Technology Program",
-          "page_range": "Page 2",
-          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "ecosystem_stage": "general"
-    },
-    {
-      "source": "Canada_PHAC_AMR",
-      "title": "Health Matters: PHAC says pistachio salmonella outbreak officially over - Yahoo News Canada",
-      "link": "https://ca.news.yahoo.com/health-matters-phac-says-pistachio-202706837.html",
-      "date": "2026-07-22T20:27:06Z",
-      "insight": {
-        "linkedin_hook": "The recent PHAC report on the pistachio-salmonella outbreak is a stark reminder: microbial outbreaks demand more than retrospective tracking. 🦠",
-        "strategic_value": "* Infectious disease outbreaks require real-time, in silico modeling to predict transmission patterns before they peak.\n* PHAC’s dedicated funding for simulation modeling [Fact ID: 1002] remains the primary vehicle for transitioning from observation to predictive biosecurity.\n* **Consulting Pivot:** Position your firm to support PHAC’s Infectious Disease Laboratory Network by developing digital twin models that simulate cross-contamination pathways for future food-borne pathogen prevention.",
-        "co_bidding_opportunity": "Pursue R&D consortia under the PHAC Infectious Disease Laboratory Network [Fact ID: 1002] to deploy pathogen simulation tools for public health preparedness.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Public health surveillance is shifting from manual reporting to simulation-based predictive modeling, aligning with the PHAC mandate.",
-        "grounded_fact_ids": [
-          1002
-        ],
-        "anchor_reference": {
-          "source_name": "PHAC Laboratory Biosafety Guidelines",
-          "page_range": "Page 15",
-          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "ecosystem_stage": "general"
-    },
-    {
-      "source": "Canada_PHAC_AMR",
-      "title": "Health Matters: PHAC says pistachio salmonella outbreak officially over - Global News",
-      "link": "https://globalnews.ca/video/11976406/health-matters-phac-says-pistachio-salmonella-outbreak-officially-over",
-      "date": "2026-07-22T20:24:33Z",
-      "insight": {
-        "linkedin_hook": "Outbreaks like the recent Salmonella incident remind us: surveillance is reactive, but simulation is predictive. 🦠",
-        "strategic_value": "* Public health agencies are increasingly moving toward proactive, digital-first containment strategies to manage infectious disease outbreaks.\n* There is a clear operational gap between reporting raw laboratory findings and the computational modeling required to predict transmission vectors in real-time.\n* **Consulting Pivot:** Propose a digital twin pilot to PHAC that leverages the 'Infectious Disease Laboratory Network' funding to integrate real-time pathogen surveillance with predictive in silico transmission models.",
-        "co_bidding_opportunity": "Partner with existing laboratory networks to integrate predictive software tools into PHAC's routine pathogen monitoring systems.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "Connects the need for infectious disease surveillance (PHAC context) with the 'Infectious Disease Laboratory Network' funding anchor (Fact 1002).",
         "grounded_fact_ids": [
           1002
         ],

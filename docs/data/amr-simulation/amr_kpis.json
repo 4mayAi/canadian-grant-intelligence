@@ -1,10 +1,10 @@
 {
-  "total_active": 16,
-  "new_today": 5,
+  "total_active": 12,
+  "new_today": 1,
   "closing_this_week": 1,
-  "top_category": "bioRxiv Microbiology",
-  "hero_hook": "Biotech research surges as scientists decode new viral threats and pathogens. 🧬",
-  "generated_at": "2026-08-21T18:02:01.637122Z",
+  "top_category": "Canada NRC Simulation",
+  "hero_hook": "AI-driven health diagnostics and microbiome research hit the Canadian innovation frontier. 🧬",
+  "generated_at": "2026-08-22T18:01:56.925570Z",
   "macro_indicators": null,
   "skill_version": "1.0.0"
 }
