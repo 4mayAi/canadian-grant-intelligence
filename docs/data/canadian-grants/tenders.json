@@ -12973,5 +12973,38 @@
     "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade Agreement",
     "recommended_playbook": "Standard Competitive Bidding (RFP)",
     "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "RFP - 12 FT Observatory Dome",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-400-96901732",
+    "date": "2026-08-22T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🔭 Calling all specialized fabricators and automation experts! The National Research Council Canada is seeking a cutting-edge 12 FT Observatory Dome. This is your chance to elevate Canadian scientific research!",
+      "strategic_value": "* The National Research Council Canada (NRC) is investing in critical research infrastructure to enhance outdoor telescope experiments, demonstrating a commitment to advanced scientific capabilities and positioning Canada at the forefront of astronomical discovery. The explicit mention of a 'Buy Canadian Policy' indicates a preference for domestic suppliers.\n* The tender specifies a large clamshell observatory dome (3.6-4m diameter, 3.0m clear height, under 1,000 lbs) with a motorized opening and essential computer interfacing, demanding expertise in precision fabrication and integrated automation systems.\n* **Consulting Pivot:** Advise clients on developing a comprehensive bid strategy for this standard RFP, focusing on demonstrating precise technical compliance, highlighting Canadian manufacturing capabilities to align with the 'Buy Canadian Policy', and outlining a robust 12-month project delivery plan for the National Research Council Canada.",
+      "co_bidding_opportunity": "This procurement calls for specialized expertise. A valid project consortium could involve a 'Specialized Dome Fabricator' for the structural elements, partnering with an 'Automation & Control Systems Integrator' to deliver the motorized opening and computer interfacing requirements.",
+      "mets_category": "Infrastructure & Digital",
+      "mets_rationalization": "This procurement directly funds specialized physical infrastructure with integrated digital controls (motorized opening, computer interfacing) crucial for advanced scientific research, aligning with federal investment in research and development facilities.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-04T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "The National Research Council Canada has a requirement for the supply of a large clamshell observatory dome that opens entirely to allow for full sky tracking. The dome must have a freestanding base, with a total weight less than 1,000 lbs. The side door should be at least 28” x 68” in size. The clear usable height inside should be at least 3.0 m and the diameter should be at least 3.6 m but at most 4 m to fit on our existing platform. In order to be controlled from a distance, the dome must hav...",
+    "type": "New",
+    "organization": "National Research Council of Canada (NRC)",
+    "solicitation_number": "26-58054/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
   }
 ]
