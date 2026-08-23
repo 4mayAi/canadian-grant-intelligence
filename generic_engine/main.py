@@ -490,13 +490,22 @@ def fetch_and_process_news(
         except Exception as err:
             logging.error(f"Failed to resolve URL {original_link}: {err}")
             
-    # Deduplicate URL keys
+    # Deduplicate URL keys and Canonical Title Hashes to collapse syndicated stories early
+    import hashlib
     seen_links = set()
+    seen_title_hashes = set()
     deduped_items = []
     for item in combined_items:
-        if item['link'] not in seen_links:
+        title_clean = item.get('title', '').lower().strip()
+        if " - " in title_clean:
+            title_clean = title_clean.rsplit(" - ", 1)[0].strip()
+        title_hash = hashlib.md5(title_clean.encode('utf-8')).hexdigest() if title_clean else None
+
+        if item['link'] not in seen_links and (not title_hash or title_hash not in seen_title_hashes):
             deduped_items.append(item)
             seen_links.add(item['link'])
+            if title_hash:
+                seen_title_hashes.add(title_hash)
 
     unprocessed_items = []
     final_insights = []

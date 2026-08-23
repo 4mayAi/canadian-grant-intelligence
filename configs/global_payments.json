@@ -57,7 +57,46 @@
       "url": "https://news.google.com/rss/search?q=%22mBridge%22+OR+%22wholesale+CBDC%22+OR+%22correspondent+banking%22+OR+%22bank+de-risking%22+OR+%22correspondent+de-risking%22+OR+%22swap+lines%22&hl=en-US&gl=US&ceid=US:en",
       "type": "rss",
       "skip_query_refactoring": true
+    },
+    {
+      "name": "BIS_Official_Press",
+      "url": "https://news.google.com/rss/search?q=site:bis.org+%22payments%22+OR+%22CBDC%22+OR+%22mBridge%22+OR+%22settlement%22&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Federal_Reserve_Payments",
+      "url": "https://news.google.com/rss/search?q=site:federalreserve.gov+%22FedNow%22+OR+%22Fedwire%22+OR+%22CBDC%22+OR+%22payments%22&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Bank_of_England_CHAPS",
+      "url": "https://news.google.com/rss/search?q=site:bankofengland.co.uk+%22CHAPS%22+OR+%22ISO+20022%22+OR+%22wholesale+CBDC%22&hl=en-GB&gl=GB&ceid=GB:en",
+      "type": "rss",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "SWIFT_Official_News",
+      "url": "https://news.google.com/rss/search?q=site:swift.com+%22ISO+20022%22+OR+%22Swift+GO%22+OR+%22gpi%22+OR+%22CBDC%22&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "skip_query_refactoring": true
     }
+  ],
+  "negative_keywords": [
+    "job",
+    "jobs",
+    "hiring",
+    "career",
+    "careers",
+    "relationship manager",
+    "business development manager",
+    "apply now",
+    "casino",
+    "gambling",
+    "instant withdrawal",
+    "slot",
+    "betting"
   ],
   "keywords": [
     "ISO 20022",
