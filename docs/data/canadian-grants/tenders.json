@@ -12319,5 +12319,38 @@
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)",
     "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "INVITATION TO SUBMIT AN EXPRESSION OF INTEREST (EOI) AS TO THE AVAILABILITY OF SPACE FOR LEASE IN THE CITY OF ROBERVAL FILE NUMBER 81003383",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-497-83126782",
+    "date": "2026-08-23T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🏢 Commercial landlords & developers in Quebec: PSPC is locking in a 15-year federal lease in Roberval, and you have until September 4 to shape the technical specs before the official RFP drops! 🇨🇦",
+      "strategic_value": "* **Financial & Policy Context:** This 15-year federal lease by Public Services and Procurement Canada (PSPC), commencing in 2028, guarantees long-term, stable federal tenancy in the Roberval region while enforcing strict alignment with the federal Buy Canadian Policy and green building directives.\n* **Technological Target:** The lease requires 423 square meters of contiguous space engineered to satisfy universal physical, sensory, and cognitive accessibility standards alongside modern environmental sustainability performance targets (such as energy-efficient HVAC, localized climate controls, and smart lighting systems).\n* **Consulting Pivot:** Propose submitting highly technical EOI responses to influence the forthcoming RFP's technical baseline—positioning specific property assets through the lens of cognitive accessibility design, smart-building environmental automation, and secure dual-entrance infrastructure to lock out competitors who cannot meet these advanced criteria.",
+      "co_bidding_opportunity": "Under the Specification Shaping playbook, local commercial real estate developers should form a consortium with a universal accessibility consultant, a LEED-certified HVAC/engineering firm, and a physical security systems integrator to present a fully compliant, future-proof facility blueprint during this EOI phase.",
+      "mets_category": "Infrastructure & Digital",
+      "mets_rationalization": "This project represents a critical long-term investment in regional federal physical infrastructure, forcing compliance with federal accessibility legislation and modern environmental building standards.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-04T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "INVITATION TO SUBMIT AN EXPRESSION OF INTEREST (EOI)AS TO THE AVAILABILITY OF SPACE FOR LEASEIN THE CITY OF ROBERVAL FILE NUMBER 81003383Public Services and Procurement Canada (PSPC) is asking interested parties to provide information for a potential lease of space that meets the following criteria:Section A: Lease Components•\ta lease term of approximately fifteen (15) years, commencing on or about December 1, 2028;•\tapproximately four hundred twenty three (423) usable square metres (um2) of con...",
+    "type": "New",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "81003383",
+    "notice_type": "Request for Information",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Not applicable",
+    "trade_agreements": "None",
+    "recommended_playbook": "Specification Shaping (RFI / EOI)",
+    "ecosystem_stage": "general"
   }
 ]
