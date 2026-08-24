@@ -1,10 +1,10 @@
 {
-  "total_active": 10,
+  "total_active": 14,
   "new_today": 1,
-  "closing_this_week": 1,
-  "top_category": "Mixed Sectors",
-  "hero_hook": "Ottawa underscores commitment to health innovation and essential care delivery. ⚕️",
-  "generated_at": "2026-08-23T18:02:08.124555Z",
+  "closing_this_week": 2,
+  "top_category": "bioRxiv Microbiology",
+  "hero_hook": "Emerging pathogen dynamics and microbiome shifts redefine critical health risks. 🧬",
+  "generated_at": "2026-08-24T18:02:16.703441Z",
   "macro_indicators": null,
   "skill_version": "1.0.0"
 }
