@@ -3382,44 +3382,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "One (1) Project Leader/ Executive",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-40-44500461",
-    "date": "2026-08-07T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "✈️ The Future Fighter Capability Project (FFCP) demands top-tier project leadership. DND is seeking a Project Leader/Executive via a Task and Solutions Professional Services (TSPS) Supply Arrangement. For pre-qualified firms, this signals a critical engagement opportunity.",
-      "strategic_value": "- Major defense procurements like the FFCP carry multi-billion dollar price tags, where ineffective project leadership can lead to cost overruns exceeding 10-15% of project phases, equating to hundreds of millions in potential losses or delayed operational readiness. Firms that can supply proven senior leadership in complex defense programs gain significant competitive advantage, consolidating influence within the defense industrial base and limiting access for firms without specialized DND experience or existing Supply Arrangement qualifications.\n- Physical and logistical execution plays involve strict adherence to DND's project management frameworks, secure information handling protocols for 'Secret' level data, and precise coordination across multiple government departments and defense industry partners. Key elements include establishing robust governance structures, managing interdependencies between infrastructure development and aircraft integration, and implementing rigorous risk management strategies.\n- * **Consulting Pivot:** Propose a 'Defense Project Management Augmentation' service, offering specialized project leaders and executives with active DND security clearances to pre-qualified TSPS Supply Arrangement holders. This could be structured as a seconded executive placement at a rate of $2,000-$3,500 per day, or a fixed-price subcontract for a specific project phase, focusing on critical infrastructure transition or large-scale system integration.",
-      "co_bidding_opportunity": "Given this requirement is only open to pre-qualified suppliers under the TSPS Supply Arrangement, the key opportunity is for non-listed firms to partner with one of the identified pre-qualified prime contractors. Subcontracting roles could include specialized aerospace or infrastructure engineers, security consultants to advise on 'Secret' level requirements, or logistics and supply chain specialists to support the physical transition infrastructure.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "This DND requirement for Project Leader/Executive services in the Future Fighter Capability Project is directly connected to critical national defense infrastructure development. Effective project leadership is essential for managing the complexities of integrating advanced military assets and associated facilities, which aligns with the broader framework of Bill C-26, mandating robust cybersecurity and supply chain risk management for critical infrastructure, including defense systems.",
-      "grounded_fact_ids": [
-        6
-      ],
-      "anchor_reference": {
-        "source_name": "Public Safety Canada / Transport Canada",
-        "page_range": "Bill C-26 Critical Infrastructure Protection",
-        "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/index-en.aspx"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-22T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "NOTICE OF PROPOSED PROCUREMENTThis requirement is only open to the below list of pre-qualified suppliers under the Task and Solutions Professional Services (TSPS) Supply Arrangement.TASK BASED E60ZT-18TSPS, PROFESSIONAL SERVICES REQUIREMENTFILE NUMBER: W8485-TSPS2027-01/ATIER 1 (< $4.5 M)This requirement is for the Department of National Defence (DND). This requirement is for the: -\tStream 3: Project Management Servicesfor the services of: -\tOne (1) 3.3:  Project Leader/Executive, SeniorNumber o...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W8485-TSPS2027-01/A",
-    "notice_type": "RFP against Supply Arrangement",
-    "procurement_method": "Competitive - Selective tendering",
-    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade Agreement",
-    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "Senior Learning Designer Training Plan (TP) and Master Lesson Plans (MLPs)",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-355-61136815",
     "date": "2026-08-07T00:00:00Z",
@@ -6050,6 +6012,39 @@
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Electrical Products (Fiber-optic enclosure)",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-603-14987240",
+    "date": "2026-08-24T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🚨 Government of Canada issues a specialized Request for Proposal for fiber-optic enclosures, accessible exclusively to pre-qualified Supply Arrangement (SA) holders. This signals refined procurement strategies for defence sector needs. #GovtProcurement #SupplyChain",
+      "strategic_value": "* This targeted procurement strategy for electrical products, limited to an established pool of Supply Arrangement holders, reinforces market consolidation for specified vendors. Companies outside this pre-qualified list face significant barriers to direct engagement, potentially losing out on multi-million dollar annual revenue streams from similar government contracts, exacerbating market share concentration among current SA holders.\n* Successful engagement requires meticulous inventory management and distribution capabilities to fulfill Department of National Defence (DND) requirements within the stipulated two-month contract duration. Compliance with the 'Buy Canadian Policy' will necessitate robust domestic sourcing verification and agile logistics networks to ensure timely, compliant delivery of fiber-optic enclosures and related electrical components.\n* **Consulting Pivot:** Trade advisory practices can package a 'Government Procurement Readiness Audit' for non-SA entities, focusing on strategic qualification pathways and partnership formation, or offer 'SA Bidding Optimization' services for current holders to enhance proposal competitiveness and compliance for specialized tenders.",
+      "co_bidding_opportunity": "For this 'Selective Partnering (Supply Arrangement)' tender, non-SA firms can explore subcontracting opportunities with the 22 invited SA holders. Potential roles include specialized logistics and secure warehousing services, technical installation support for fiber-optic enclosures, or acting as a niche component supplier for specific electrical products. Collaboration could also extend to last-mile delivery or regional distribution networks, particularly for firms with a strong presence in Ontario.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This CanadaBuys tender for electrical products for the Department of National Defence directly illustrates the government's operational logistics and infrastructure procurement. It underscores the strategic importance of pre-qualified supply arrangements in streamlining essential component acquisition for national operations.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-08T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "This requirement is open only to those Electrical Products Supply Arrangement Holders who qualified under Stream one (1) for services in Ontario  for the following category:1.Stream one (1) – Electrical ProductsFollowing SA Holders have been invited to submit a proposal:1. Anixter2. Graybar3. Nedco-Rexel4. Daltco5. Wesco6. Gimpel7. Guillevin8. Marchand9. Province Electric10. KGPCo11. Newark Element 1412. Westburne-Rexel13. ECS Electrical14. KVA Protection15. Robertson Electric16. RS Americas (Ca...",
+    "type": "New",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W3330-26-631",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)",
     "ecosystem_stage": "general"
   }
 ]
