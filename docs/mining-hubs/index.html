@@ -430,7 +430,7 @@
                             </div>
 
                             <div style="max-width: 780px; margin: 0 auto; font-size: 14.5px; line-height: 1.65; color: var(--text-primary);" id="digestPost">
-                                ${marked.parse(data.linkedin_post)}
+                                ${marked.parse((data.linkedin_post || '').replace(/([^\n])\n([^\n#\-\s])/g, '$1\n\n$2'))}
                             </div>
                         </div>
                     `;

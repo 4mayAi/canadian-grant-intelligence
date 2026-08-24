@@ -14,6 +14,39 @@
     <link rel="stylesheet" href="../style.css">
     <style>
         /* Extra custom styling to enhance the layout specifically for Payments */
+        #digestPost p {
+            margin-bottom: 18px !important;
+            line-height: 1.75 !important;
+            color: var(--text-primary);
+        }
+        #digestPost p:first-of-type {
+            font-size: 17px !important;
+            font-weight: 700 !important;
+            color: #ffd700 !important;
+            background: rgba(255, 215, 0, 0.08);
+            border-left: 4px solid #ffd700;
+            padding: 12px 16px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 20px !important;
+        }
+        #digestPost h3 {
+            font-size: 16px !important;
+            font-weight: 700 !important;
+            color: #ffd700 !important;
+            margin-top: 24px !important;
+            margin-bottom: 12px !important;
+            border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+            padding-bottom: 6px;
+        }
+        #digestPost ul {
+            margin-top: 8px !important;
+            margin-bottom: 20px !important;
+            padding-left: 20px !important;
+        }
+        #digestPost li {
+            margin-bottom: 8px !important;
+            line-height: 1.6 !important;
+        }
         .report-section {
             background: rgba(30, 41, 59, 0.4);
             border: 1px solid rgba(255, 215, 0, 0.15);
@@ -385,7 +418,7 @@
                             </div>
 
                             <div style="max-width: 780px; margin: 0 auto; font-size: 14.5px; line-height: 1.65; color: var(--text-primary);" id="digestPost">
-                                ${marked.parse(data.linkedin_post)}
+                                ${marked.parse((data.linkedin_post || '').replace(/([^\n])\n([^\n#\-\s])/g, '$1\n\n$2'))}
                             </div>
                         </div>
                     `;
