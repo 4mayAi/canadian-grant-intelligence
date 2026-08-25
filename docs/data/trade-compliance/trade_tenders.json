@@ -301,44 +301,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "NPP-Task-Based Informatics Professional Services (TBIPS) – Stream A.1.6: Programmer/Software Developer (Level 2) for the Department of National Defence",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-702-62436471",
-    "date": "2026-07-13T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Modernizing naval platforms requires more than just code; it requires rigorous IM/IT policy integration. ⚓",
-      "strategic_value": "* Delays in digital transformation of naval IM systems result in significant operational bottlenecks, with project overheads effectively bleeding $10k-$20k in daily resource burn during integration lag.\n* Execution demands deep familiarity with Microsoft 365 and Power Platform within the specific security classification of DND environments, necessitating strict adherence to TBIPS Tier 1 credentialing.\n* **Consulting Pivot:** Offer a 'Defense-Ready Digital Transformation' subcontracting service for listed SA holders to accelerate SharePoint Online migration, priced at a 15% management fee on project scope.",
-      "co_bidding_opportunity": "Leverage Downstream Pivot (Selective Partnering) to integrate with listed SA holders such as Accenture or KPMG as a specialized technical subcontractor.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "The requirement links to critical infrastructure and DND digital strategy, falling under the umbrella of long-term departmental modernization.",
-      "grounded_fact_ids": [
-        6
-      ],
-      "anchor_reference": {
-        "source_name": "Public Safety Canada / Transport Canada",
-        "page_range": "Bill C-26 Critical Infrastructure Protection",
-        "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/crtcl-nfrstrctr-eng.aspx"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-08-23T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)for TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS)This requirement is for: Department of National DefenceThis requirement is open only to those TBIPS Supply Arrangement Holders under EN578-170432 who qualified under Tier 1 under the region / metropolitan area, level of expertise for the following category: Application 1.6: Programmer/Software Developer- Level 2The requirement is intended to result in the award of one (1) contractThe following SA Holders ...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W0103-18897457",
-    "notice_type": "RFP against Supply Arrangement",
-    "procurement_method": "Competitive - Traditional",
-    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)",
-    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "SPACE BASED OPTICAL CAPABILITY (SBO) - SURVEILLANCE OF SPACE 2",
     "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110018461?anId=ANONYMOUS",
     "date": "2026-07-13T00:00:00Z",
@@ -6037,7 +5999,7 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "This requirement is open only to those Electrical Products Supply Arrangement Holders who qualified under Stream one (1) for services in Ontario  for the following category:1.Stream one (1) – Electrical ProductsFollowing SA Holders have been invited to submit a proposal:1. Anixter2. Graybar3. Nedco-Rexel4. Daltco5. Wesco6. Gimpel7. Guillevin8. Marchand9. Province Electric10. KGPCo11. Newark Element 1412. Westburne-Rexel13. ECS Electrical14. KVA Protection15. Robertson Electric16. RS Americas (Ca...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of National Defence (DND)",
     "solicitation_number": "W3330-26-631",
     "notice_type": "Request for Proposal",
@@ -6045,6 +6007,124 @@
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "MDB - New CAT II Accommodations Buildings",
+    "link": "https://www.merx.com/public/solicitations/4056245952/abstract?language=EN",
+    "date": "2026-08-24T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Construction and facility management firms: a major federal infrastructure opportunity is now live. 🏗️",
+      "strategic_value": "* Failure to comply with federal procurement integrity requirements can result in immediate disqualification and forfeiture of bid bonds, often valued at 10% of total contract tender estimates.\n* Proponents must ensure that all structural steel and secondary construction inputs meet domestic sourcing and environmental disclosure standards under Bill C-59 to avoid post-award financial penalties.\n* **Consulting Pivot:** Project management consultants can package a $25,000 'Government Procurement Compliance & ESG Filing' support service to help Tier-2 bidders navigate CETA-aligned procurement and environmental reporting mandates.",
+      "co_bidding_opportunity": "Proponents should seek sub-contracting roles with prime construction entities as a lead mechanical or site-logistics partner, leveraging standard competitive bidding structures.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This tender occurs within the statutory framework of Canadian federal procurement, where compliance with CETA and ESG reporting is now a baseline expectation for major site development.",
+      "grounded_fact_ids": [
+        5
+      ],
+      "anchor_reference": {
+        "source_name": "Competition Bureau Canada",
+        "page_range": "Bill C-59 Anti-Greenwashing Guidelines",
+        "url": "https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/deceptive-marketing-practices-digest-volume-7"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-10-05T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "CNST",
+    "category_label": "Construction",
+    "description": "Design and construction of the new of CAT II Accommodations Building at 5 CDSB Gagetown, Oromocto, New BrunswickDEFENCE CONSTRUCTION CANADA (DCC) is requesting Proposals from Design-Build Teams to design and construct up to seven (7) CAT II Accommodation Buildings at 5th Canadian Division Support Base (CDSB) Gagetown, Oromocto, New Brunswick following a modified design-build approach. Additional details are provided in the Request for Proposals (RFP) documents.The estimated cost for this opportu...",
+    "type": "New",
+    "organization": "Defence Construction Canada / Construction de Défense Canada",
+    "solicitation_number": "GA260046_86759",
+    "notice_type": "",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "",
+    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Repair Parts for Boschung Jetbroom",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-957-33733663",
+    "date": "2026-08-24T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Systemic maintenance and repair parts procurement: are you prepared for stringent vendor compliance? ⚙️",
+      "strategic_value": "* Missing technical specifications or documentation in complex equipment procurement leads to immediate bid rejection, preventing access to long-term service contracts that offer stable, recurring revenue streams.\n* Suppliers must ensure that all parts telemetry and hardware connectivity meet Bill C-26 cybersecurity mandates, as failure to provide robust OT/IT security reporting will disqualify vendors during the qualification stage.\n* **Consulting Pivot:** Technical procurement consultants can offer a $10,000 'Public Sector Tender Response & Cybersecurity Gap Analysis' to ensure smaller technical vendors can meet the strict vetting standards required for critical infrastructure equipment.",
+      "co_bidding_opportunity": "Systems integrators and maintenance specialists can partner with original equipment manufacturers (OEMs) to provide localized service-level agreements and compliance assurance.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "The requirement for specialized maintenance parts requires strict alignment with cybersecurity and operational integrity rules governing federal equipment supply chains.",
+      "grounded_fact_ids": [
+        6
+      ],
+      "anchor_reference": {
+        "source_name": "Public Safety Canada / Transport Canada",
+        "page_range": "Bill C-26 Critical Infrastructure Protection",
+        "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/index-en.aspx"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-14T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "Notice of Purposed ProcurementThe Department of National Defence (DND) has a requirement for the supply and delivery of new, unused, and non-refurbished replacement parts required to repair a 2020 Jetbroom T10000 Rotary Towed Sweeper in support of airfield operations at Canadian Forces Base (CFB) Trenton.Detailed specifications and quantities for all required parts are identified in the Line Item Detail section of the attached Request for Proposal (RFP).Bidders proposing an Equivalent or a Subst...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W0125-27TEM4",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Oleoresin Capsicum Defensive Spray",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-822-95474271",
+    "date": "2026-08-24T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "The RCMP is expanding its supply chain procurement: verify your eligibility for standing offers today. 🛡️",
+      "strategic_value": "* Failure to maintain updated standing offer eligibility—including rigorous adherence to integrity and suspension policies—risks the loss of multi-year call-up revenue streams and exclusion from subsequent federal procurement cycles.\n* Vendors must establish a verified supply chain of custody that complies with Bill C-35, ensuring that chemical and hardware inputs are sourced ethically to meet the federal reverse-onus evidentiary burden.\n* **Consulting Pivot:** Trade consultants can package a $12,000 'Federal Supply Chain Integrity & Standing Offer Maintenance' service, ensuring that vendors maintain the necessary evidentiary documentation for periodic federal audit reviews.",
+      "co_bidding_opportunity": "Suppliers should pursue a 'Selective Partnering' approach, integrating with established federal procurement distributors or acting as a specialized chemical safety compliance subcontractor for primary defense contractors.",
+      "mets_category": "Trade Policy & Sanctions",
+      "mets_rationalization": "This solicitation highlights the intersection of federal law enforcement supply needs and the mandatory compliance burdens regarding forced labour and corporate integrity that define current federal sourcing policies.",
+      "grounded_fact_ids": [
+        2,
+        4
+      ],
+      "anchor_reference": {
+        "source_name": "Public Safety Canada",
+        "page_range": "Bill C-35 Legislation",
+        "url": "https://www.publicsafety.gc.ca/cnt/cntrng-crm/index-en.aspx"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-10-05T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)Title:\t\tOleoresin Capsicum Defensive SpraySolicitation Number:\t\t202603090APublication Date:\t\t2026-08-24Closing Date and Time: \t2026-10-05 14:00 EDTTrade Agreements:\t\tCanadian Free Trade Agreement (CFTA) Region of Opportunity:\tWorldRegion of Delivery: \t\tCanadaGSIN:\t\tUNSPSC 46150000 - L2 Law EnforcementNotice Type:\t\tRequest for Standing Offer (RFSO)Tendering Procedure:\t\tOpenDescription:The Royal Canadian Mounted Police (RCMP) require equipment to ensure the safe...",
+    "type": "Open",
+    "organization": "Royal Canadian Mounted Police (RCMP)",
+    "solicitation_number": "202603090A",
+    "notice_type": "Request for Standing Offer",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Procurement Gateway Entry (RFSO / RFSA)",
     "ecosystem_stage": "general"
   }
 ]
