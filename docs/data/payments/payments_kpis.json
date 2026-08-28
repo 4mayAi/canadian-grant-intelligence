@@ -1,10 +1,10 @@
 {
-  "total_active": 16,
-  "new_today": 6,
+  "total_active": 17,
+  "new_today": 2,
   "closing_this_week": 0,
-  "top_category": "Global Payments",
-  "hero_hook": "Global central banks accelerate tokenized settlement to bypass legacy friction. 🌐",
-  "generated_at": "2026-08-26T17:03:55.525885Z",
+  "top_category": "Mixed Sectors",
+  "hero_hook": "Global payments shift toward tokenization as ISO 20022 standards redefine liquidity. 🌐",
+  "generated_at": "2026-08-28T04:54:12.644485Z",
   "macro_indicators": null,
   "skill_version": "1.0.0"
 }
