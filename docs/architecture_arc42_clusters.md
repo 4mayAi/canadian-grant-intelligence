@@ -142,7 +142,7 @@ generic_engine/
 
 ### 5.2 Configured Ingestion Sources and LLM Model
 The pipeline is configured via `configs/innovation_clusters.json` with the following parameters:
-- **Primary LLM Model:** `gemini-3.5-flash`
+- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.5-flash-lite` $\rightarrow$ `gemma-4-31b-it`)
 - **Ingestion Sources:**
   - `DIGITAL_News` (DIGITAL Supercluster News Feed)
   - `DIGITAL_Ecosystem_News` (DIGITAL Ecosystem Feed)

@@ -138,7 +138,7 @@ scripts/
 
 ### 5.2 Configured Ingestion Sources and LLM Model
 The pipeline is configured via `configs/trade_compliance.json`:
-- **Primary LLM Model:** `gemini-3.5-flash` (Fallback chain: `gemini-2.5-flash` $\rightarrow$ `gemini-3.1-flash-lite` $\rightarrow$ `gemini-2.5-flash-lite`)
+- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.5-flash-lite` $\rightarrow$ `gemma-4-31b-it`)
 - **Ingestion Sources:**
   - `CBSA_News` (GC News API Atom)
   - `GAC_News` (GC News API Atom)

@@ -4,7 +4,7 @@ An automated pipeline that monitors official Canadian government feeds (CanadaBu
 
 ## Features
 - **Multi-Feed Monitoring**: Aggregates data from four primary federal sources (PMO, ISED, Finance Canada, Global Affairs Canada) using `feedparser` to retrieve raw XML/Atom feeds, avoiding headless browser blocking.
-- **AI Synthesis**: Uses Google Gemini API (primarily `gemini-2.5-flash-lite`, with automatic waterfall fallback to `gemini-3.1-flash-lite` and `gemini-1.5-flash`) to generate B2B-focused LinkedIn hooks, co-bidding insights, and newsletter content.
+- **AI Synthesis**: Uses Google Gemini API (primarily `gemini-flash-latest`, with automatic waterfall fallback to `gemini-flash-lite-latest`, `gemini-3.8-flash`, `gemini-3.5-flash-lite`, and `gemma-4-31b-it`) to generate B2B-focused LinkedIn hooks, co-bidding insights, and newsletter content.
 - **JSON-First Architecture**: Strictly-typed JSON payloads (`tenders.json`, `pmo_insights.json`, `kpis.json`) power a reactive, high-fidelity UI. Legacy Markdown parsing has been deprecated.
 - **Azure Blob Storage**: Data is automatically synchronized and published to Azure for zero-persistence cloud delivery.
 

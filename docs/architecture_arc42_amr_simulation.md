@@ -118,8 +118,7 @@ docs/
 ```
 
 ### 5.2 Configured Ingestion Sources and LLM Model
-The pipeline is configured via `configs/amr_simulation.json` with the following parameters:
-- **Primary LLM Model:** `gemini-3.5-flash`
+- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.5-flash-lite` $\rightarrow$ `gemma-4-31b-it`)
 - **Ingestion Sources:**
   - `Canada_CIHR_AMR` (CIHR Antimicrobial Resistance Research Feed)
   - `Canada_NRC_Simulation` (NRC Simulation and Modeling Feed)

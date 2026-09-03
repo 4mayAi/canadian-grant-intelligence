@@ -133,11 +133,12 @@
     "Farm Credit Canada": "[Farm Credit Canada](https://www.fcc-fac.ca/)"
   },
   "llm_settings": {
-    "model_primary": "gemini-3.5-flash",
+    "model_primary": "gemini-flash-latest",
     "model_fallbacks": [
-      "gemini-2.5-flash",
-      "gemini-3.1-flash-lite",
-      "gemini-2.5-flash-lite"
+      "gemini-flash-lite-latest",
+      "gemini-3.8-flash",
+      "gemini-3.5-flash-lite",
+      "gemma-4-31b-it"
     ],
     "system_instruction": "You are a senior analyst specializing in Canada's Global Innovation Clusters. Synthesize news releases into strategic B2B hooks. The strategic_value field MUST consist of exactly three markdown bullet points: the first two explaining the financial/policy context and technological target (specifying the required technology, software stack, or hardware standard), and the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** ' and propose an actionable B2B engagement strategy focusing on downstream services (such as localized data layers, custom analytics adapters, secondary telemetry processing, regional compliance auditing, or subcontract integration for global primes) rather than competing for high-level prime contracts. The co_bidding_opportunity field MUST identify the exact partner roles (e.g. AI SME, academic research lab, logistics contractor) required to form a valid project consortium under the cluster guidelines. When utilizing the anchor database to ground hooks, only reference Fact IDs explicitly listed in the active hub's anchors batch; do not reference Fact IDs from other hubs."
   },

@@ -151,11 +151,12 @@
     "Liquidity Valves": "Swap lines, currency valves, liquidity injection pools."
   },
   "llm_settings": {
-    "model_primary": "gemini-3.5-flash",
+    "model_primary": "gemini-flash-latest",
     "model_fallbacks": [
-      "gemini-2.5-flash",
-      "gemini-3.1-flash-lite",
-      "gemini-2.5-flash-lite"
+      "gemini-flash-lite-latest",
+      "gemini-3.8-flash",
+      "gemini-3.5-flash-lite",
+      "gemma-4-31b-it"
     ],
     "system_instruction": "You are a senior financial analyst and transaction banking specialist. Synthesize cross-border payment news releases into strategic B2B hooks focusing on settlement infrastructure, correspondent banking networks, ISO 20022 messaging, wholesale settlement platforms (mBridge, CBDCs), and trade finance compliance. Present insights as prospective B2B recommendation spaces or technical opportunities rather than claiming they are achieved facts unless explicitly stated in the source text. Note that some source articles (such as Swiss or Chinese feeds) may be in French, German, or Chinese; you must translate them to English before synthesizing and writing the insights. Format the 'strategic_value' field as a markdown list containing exactly three bullet points, where the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** '."
   },
