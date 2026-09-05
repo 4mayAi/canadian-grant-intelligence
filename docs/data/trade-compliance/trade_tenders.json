@@ -333,45 +333,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFI - WildFireSat Global",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110014133?anId=ANONYMOUS",
-    "date": "2026-05-22T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🌍 Protecting the planet requires supply chains that are as transparent as they are global.",
-      "strategic_value": "* Failure to substantiate environmental claims for climate-monitoring satellite components exposes companies to Bill C-59 penalties of up to 3% of global revenue if ESG disclosures are found to be misleading or unverified.\n* Importers of specialized space hardware must establish rigorous PO Chain-of-Custody mandates to ensure environmental hardware components do not violate forced labour import prohibitions under Bill C-35.\n* **Consulting Pivot:** We propose a 'Green-Tech Supply Chain Verification' retainer at $75,000/annum to map, audit, and certify hardware origin against both C-59 greenwashing thresholds and C-35 labour standards.",
-      "co_bidding_opportunity": "Partner with established aerospace engineering primes as the 'ESG/Regulatory Compliance lead' for WildFireSat payload procurement.",
-      "mets_category": "Trade Remedies & Competition",
-      "mets_rationalization": "Monitors environmental data, which is now subject to strict federal scrutiny regarding truth in claims and supply chain integrity as per Fact ID 2 and 5.",
-      "grounded_fact_ids": [
-        2,
-        5
-      ],
-      "anchor_reference": {
-        "source_name": "Public Safety Canada",
-        "page_range": "Bill C-35 Legislation",
-        "url": "https://www.publicsafety.gc.ca/cnt/cntrng-crm/frcd-lbr-mstr-eng.aspx"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-09-03T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "Please note that late submissions will not be considered or accepted.Where to find amendments to the tender document: The event messages tab and/or the event contents section in the SAP Business Network event. It is important you regularly check both.Where to submit questions about the tender document: The event messages tab of this event. Do not use the Q&A section appearing on the SAP Business Network Discovery website.Ensure you are fully registered in CanadaBuys/SAP Ariba!   Public Services ...",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5708909900",
-    "notice_type": "Request for Information",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Not applicable",
-    "trade_agreements": "None",
-    "recommended_playbook": "Specification Shaping (RFI / EOI)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "23240-210846 - Request for Information -RFI- 2026-2027 - Supplemental invitation to Commercial Satellite Imagery (CSI)",
     "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110013670?anId=ANONYMOUS",
     "date": "2026-05-22T00:00:00Z",
@@ -2238,44 +2199,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "EV385-270547 - RFP - SRDC Building Control Replacement - AAFC",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110021615?anId=ANONYMOUS",
-    "date": "2026-08-13T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🚨 Government tenders for critical infrastructure upgrades are intensifying! Staying ahead in secure OT integration is crucial for public sector contracts. #GovTech #Cybersecurity",
-      "strategic_value": "- From a macroeconomic perspective, securing and modernizing critical operational technology (OT) within government facilities reinforces Canada's national resilience and ability to safeguard essential services. Failure to compete for and win these foundational contracts represents a direct loss of projected revenue for high-tech integrators, contributing to competitive market consolidation in the advanced control systems sector, which is vital for Canada's long-term digital infrastructure positioning.\n- At the microeconomic level, successful execution of such projects demands stringent supply chain velocity and integrity, particularly concerning the sourcing and integration of advanced control hardware and software. This necessitates meticulous third-party OT/IT supply chain risk management for all vendors, ensuring robust cybersecurity controls and adherence to 24-hour incident reporting mandates as stipulated by Bill C-26, thereby mitigating operational vulnerabilities and ensuring project velocity.\n- * **Consulting Pivot:** Offer a 'Secure Building Automation Modernization' advisory package, priced at $22k-$35k, encompassing initial system audits, vendor supply chain cybersecurity due diligence, and comprehensive design-build project oversight to ensure compliance with Bill C-26 for critical infrastructure.",
-      "co_bidding_opportunity": "This RFP for professional engineering services for AAFC's SRDC facility presents opportunities for firms specializing in industrial control systems (ICS) and operational technology (OT) security. Potential roles include: systems integrators, mechanical engineering consultants, electrical engineering consultants, and specialized cybersecurity SMEs focusing on critical infrastructure protection, particularly given Bill C-26 mandates.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "Modern building control systems for government facilities are integral to resilient national infrastructure, aligning with the broader operational technology (OT) security frameworks established by Bill C-26 for critical sectors. Ensuring the integrity and security of these systems is a prerequisite for robust logistics and public service delivery.",
-      "grounded_fact_ids": [
-        6
-      ],
-      "anchor_reference": {
-        "source_name": "Public Safety Canada / Transport Canada",
-        "page_range": "Bill C-26 Critical Infrastructure Protection",
-        "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/index-en.aspx"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-09-03T00:00:00Z",
-    "province": "Saskatchewan",
-    "province_abbrev": "SK",
-    "category": "CNST",
-    "category_label": "Construction",
-    "description": "Please note that late submissions will not be considered or accepted. Public Service and Procurement Canada (PSPC) on behalf of Agriculture and Agri-food Canada (AAFC) requires professional engineering services to replace the existing building control system with modern system for the entire SRDC facility. Review the existing mechanical building control systems, related electrical systems, and previously prepared study, and provide services to design and provide services during construction of a...",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5815183797",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "Collaborative Interface and Prototyping Design Tool",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-642-64991767",
     "date": "2026-08-14T00:00:00Z",
@@ -2413,50 +2336,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "EC016-270543 - CBSA St. Leonard Port of Entry Redevelopment Design",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/WS5824003479-Doc5825650440",
-    "date": "2026-08-10T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🚨 The CBSA's St. Leonard Port of Entry is slated for redevelopment, presenting a prime opportunity for architectural firms and a multidisciplinary team of subconsultants.",
-      "strategic_value": "*   This significant infrastructure project offers substantial design fees, potentially millions of dollars for the prime consultant and their sub-consultants, driving competitive consolidation among the pre-qualified architectural firms on the listed Supply Arrangement. Efficient design and project management are critical to avoid future cost overruns, which could add 15-25% to construction budgets through change orders.\n*   Successful project delivery requires comprehensive architectural and engineering design, precise integration of border security technologies, and expert management of a multi-disciplinary sub-consultant team, including specialists in structural, mechanical, electrical, civil, and security systems. The design must adhere to CBSA operational requirements and leverage advancements in border processing.\n*   **Consulting Pivot:** Provide specialized bid strategy and consortium formation services for sub-consultants (e.g., security system integrators, civil engineers) seeking to align with the pre-qualified prime architectural firms for this CBSA Port of Entry redevelopment, offering a success-based fee of 1-3% of the awarded subcontract value.",
-      "co_bidding_opportunity": "The tender explicitly calls for a 'multi disciplinary team of subconsultants' supporting the Prime Consultant. Non-listed firms can partner with the pre-qualified architectural firms on Supply Arrangement E0225-152290. Specific roles include structural engineers, mechanical and electrical engineers, civil engineers, IT/network architects for border systems, security consultants, and environmental design specialists.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "The redevelopment of a Port of Entry is a critical strategic investment directly impacting the efficiency and security of border operations. This underpins the Canada Border Services Agency's (CBSA) mandate to enforce customs regulations, administer CARM, and manage retaliatory surtaxes, thereby supporting broader 'Border Compliance & Tariffs' frameworks. (Fact ID 3)",
-      "grounded_fact_ids": [
-        3
-      ],
-      "anchor_reference": {
-        "source_name": "Canada Border Services Agency",
-        "page_range": "Customs Notice CN26-04",
-        "url": "https://www.cbsa-asfc.gc.ca/services/carm-gcra/menu-eng.html"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-09-03T00:00:00Z",
-    "province": "New Brunswick",
-    "province_abbrev": "NB",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "Public Services and Procurement Canada, on behalf of Canada Border Services Agency (CBSA), is seeking the services of an architectural firm, acting as the Prime Consultant and supported by a multi disciplinary team of subconsultants, to provide professional services for the design of a new Port of Entry facility at St. Leonard, New Brunswick. The list of the pre-qualified firms invited that qualified under the Architecture & interior Design Supply Arrangement E0225-152290 in no particular order ...",
-    "type": "Open",
-    "partner_list": [
-      {
-        "name": "Entro",
-        "link": "https://canadabuys.canada.ca/en/node/preview/1487627"
-      }
-    ],
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5824003479",
-    "notice_type": "RFP against Supply Arrangement",
-    "procurement_method": "Competitive - Selective tendering",
-    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)",
-    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "F7047-260016 - Containment Booms",
     "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110021125?anId=ANONYMOUS",
     "date": "2026-08-07T00:00:00Z",
@@ -2525,45 +2404,6 @@
     "selection_criteria": "Lowest Price",
     "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)",
-    "ecosystem_stage": "general"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
-    "title": "EC016-270557 RFP Various Building Condition Reports - DFO NL",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/WS5840103795-Doc5840177799",
-    "date": "2026-08-19T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Selective procurement demands more than just expertise; it demands a strategic alignment with pre-qualified incumbents. 🤝",
-      "strategic_value": "* Operating under a Supply Arrangement (SA) streamlines project initiation, but failing to meet the evolving ESG reporting requirements in Bill C-59 during contract execution poses a 3% global revenue risk for non-compliance.\n* Successful execution requires the immediate alignment of technical engineering workflows with the pre-qualified SA holders to ensure data bridge integration across DFO site-specific reporting systems.\n* **Consulting Pivot:** Propose a 'Subcontracting Integration & ESG Alignment' engagement (flat project fee of $10k per site) that helps non-SA firms bridge the compliance gap to act as tier-2 specialist partners for the invited incumbents.",
-      "co_bidding_opportunity": "Selective Partnering (Supply Arrangement): Target the four invited firms—Duffus Romans Kundzins Rounsefull Ltd., Gibbons Snow Architects Inc., DSRA Architecture Inc., and Eastpoint Architecture—to offer niche technical site inspection or ESG verification support.",
-      "mets_category": "Trade Remedies & Competition",
-      "mets_rationalization": "This Selective Tendering solicitation prioritizes pre-existing institutional relationships, making it a critical case study in how to leverage private rights of action and ESG disclosures to differentiate from incumbent firms.",
-      "grounded_fact_ids": [
-        5
-      ],
-      "anchor_reference": {
-        "source_name": "Competition Bureau Canada",
-        "page_range": "Bill C-59 Anti-Greenwashing Guidelines",
-        "url": "https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/deceptive-marketing-practices-digest-volume-7"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-09-03T00:00:00Z",
-    "province": "Newfoundland and Labrador",
-    "province_abbrev": "NL",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "Public Services and Procurement Canada has a requirement on behalf of the Department of Fisheries and Oceans to conduct Building Condition Reports at both the Stephenville Base and St. Lewis Satellite Office in Newfoundland. This is a request for proposal (RFP) against Supply Arrangement (SA) E0225-152290. The invited firms are: Duffus Romans Kundzins Rounsefull Ltd., Gibbons Snow Architects Inc., DSRA Architecture Inc., Eastpoint Architecture.",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5840103795",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Selective tendering",
-    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade Agreement",
-    "recommended_playbook": "Selective Partnering (Supply Arrangement)",
     "ecosystem_stage": "general"
   },
   {
@@ -3192,44 +3032,6 @@
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
     "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
-    "title": "TBIPS - DFATD - Modernization of endpoint management infrastructure and processes",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-335-46131928",
-    "date": "2026-08-19T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🛡️ Modernizing DFATD's endpoint infrastructure requires more than just IT skill—it requires ironclad compliance with federal cyber-risk mandates. 🌐",
-      "strategic_value": "* With contract values tied to 1320 days of service, the financial risk of non-compliance includes potential project suspension under Bill C-26, where security failures trigger 24-hour mandatory reporting protocols.\n* Execution mandates focus on cloud-enabled endpoint security and IT service integration; bidders must ensure their supply chain for hardware and telemetry strictly adheres to the National Capital Region's security vetting standards for high-side government operations.\n* **Consulting Pivot:** Offer a 'C-26 Compliance & Security Hardening' service for shortlisted SA holders; fixed-fee $25,000 retainer to map current endpoint telemetry against federal OT/IT risk management frameworks.",
-      "co_bidding_opportunity": "Selective Partnering: Align with one of the 15 pre-qualified TBIPS Tier 1 Supply Arrangement holders to provide specialized 'Technical Architect' or 'Business Consultant' talent.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "The modernization of endpoint infrastructure is a prerequisite for broader compliance with the critical infrastructure cybersecurity mandates (Fact 6) defining current government procurement.",
-      "grounded_fact_ids": [
-        6
-      ],
-      "anchor_reference": {
-        "source_name": "Public Safety Canada / Transport Canada",
-        "page_range": "Bill C-26 Critical Infrastructure Protection",
-        "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/index-en.aspx"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-09-03T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)For TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS) – Department of Foreign Affairs, Trade and Development (DFATD)  - Modernization of endpoint management infrastructure and processes GSIN:  D302A Informatics Professional Services\t\tReference Number:\t26-312476\tSolicitation Number:\t 26-312476Organization Name:\tDepartment of foreign Affairs, Trade and DevelopmentSolicitation Date:\t2026-08-19\tClosing Date:\t2026-09-03 02:00 PM Eastern Time ET  Anticipated Star...",
-    "type": "Open",
-    "organization": "Department of Foreign Affairs, Trade and Development (GAC)",
-    "solicitation_number": "26-312476",
-    "notice_type": "Not Applicable",
-    "procurement_method": "Competitive - Selective tendering",
-    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)North American Free Trade Agreement (NAFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)",
-    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
@@ -4359,7 +4161,7 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "Public Services and Procurement Canada (PSPC), on behalf of the Canadian Coast Guard (CCG), is seeking information from industry regarding the availability of existing Landing Craft Motorized (LCMs), the potential modification or conversion of existing LCMs, the adaptation of existing commercial or proven designs, and the design and construction of new LCMs to support the operation of two Polar Icebreakers. The LCMs are intended to be carried aboard and deployed from the Polar Icebreakers to tra...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of Public Works and Government Services (PSPC)",
     "solicitation_number": "WS5862663189",
     "notice_type": "Request for Information",
@@ -4392,7 +4194,7 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "PWGSC, on behalf of the Canadian Coast Guard, is issuing this REQUEST FOR PROPOSAL (RFP)) for the acquisition of IPMS spare parts as detailed in Annex Basis of Payment.",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of Public Works and Government Services (PSPC)",
     "solicitation_number": "WS5727137371",
     "notice_type": "Request for Proposal",
@@ -4960,38 +4762,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "EZ899-260548 – Workspaces Furniture – CGC Burnaby",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110022447?anId=ANONYMOUS",
-    "date": "2026-08-21T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🪑 Federal office furniture contracts require strict navigation of Supply Arrangement tiers and Indigenous business set-asides!",
-      "strategic_value": "* Bidders face working capital tie-ups, inventory holding costs for delayed site deliveries, and potential disqualification penalties if supply arrangement category credentials lapse during the tender evaluation phase.\n* Execution plans demand rigorous pre-qualification verification under Supply Arrangement E60PQ-140003/PQ, synchronized delivery scheduling, and strict compliance with the Procurement Strategy for Indigenous Business (PSIB).\n* **Consulting Pivot:** Customs and procurement consultants can package a $10,000 Supply Arrangement verification and PSIB compliance advisory service for commercial furniture distributors.",
-      "co_bidding_opportunity": "Selective partnering with verified PSIB-certified business enterprises and holders of Supply Arrangements in Categories 2, 3, 5, and 6 is essential for consortium bidding.",
-      "mets_category": "Border Compliance & Tariffs",
-      "mets_rationalization": "Procurement relies directly on pre-established federal Supply Arrangement frameworks and mandatory vendor eligibility lists.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null,
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-09-03T00:00:00Z",
-    "province": "British Columbia",
-    "province_abbrev": "BC",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "The Canadian Grain Commission (CGC) requires the supply, delivery and installation of office furniture. This requirement will be competed under Supply Arrangement E60PQ-140003/PQ (version /D series of SAs) and is limited to suppliers holding Supply Arrangements in Categories 2, 3, 5 and 6 at the time of solicitation closing. This procurement is set aside under the Procurement Strategy for Indigenous Business (PSIB).",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5316391778",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "None",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "Multiple Victoria-Class Spares : SCREW, MACHINE, BALL, JACK,SCREW,HAND, SCREW,CAP, SOCKET HEAD and WATER TESTING KIT,CHEMICAL AGENTS",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-537-36055995",
     "date": "2026-09-04T00:00:00Z",
@@ -5013,7 +4783,7 @@
     "category": "GD",
     "category_label": "Goods",
     "description": "The Department of National Defence has a requirement for the items detailed below. The delivery is requested at CFB Esquimalt and CFB Halifax.Item 1, GSIN: 5305 , NSN: 99-7379240 ,SCREW, MACHINEPart No.: 100401-0010-032, NCAGE: K1806Quantity: 20 , Unit of Issue: EA , to be delivered to CFB Esquimalt.Item 2, GSIN: 5305 , NSN: 99-7379240 ,SCREW, MACHINEPart No.: 100401-0010-032, NCAGE: K1806Quantity: 20 , Unit of Issue: EA , to be delivered to CFB Halifax.Item 3, GSIN: 4921 , NSN: 99-1974309 , BAL...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of National Defence (DND)",
     "solicitation_number": "W8482-275379/A",
     "notice_type": "Request for Proposal",
@@ -5145,7 +4915,7 @@
     "category": "SRV",
     "category_label": "Services",
     "description": "Canada Post is seeking a single Service Provider (the Selected Proponent) to deliver a Maximo Spare Parts Management solution, including software, implementation, system integration, and ongoing support services. The solution will enable Canada Post to improve the quality, accuracy, governance, and sustainability of spare parts master data within IBM Maximo.The Requirement to be performed is outlined in the Ariba Sourcing event:&nbsp;https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/c...",
-    "type": "New",
+    "type": "Open",
     "organization": "Canada Post Corporation",
     "solicitation_number": "Doc2371626845",
     "notice_type": "",
@@ -5153,5 +4923,37 @@
     "selection_criteria": "",
     "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Snow removal and Sanding Services at the Department of Crown-Indigenous Relations and Northern Affairs Canada (CIRNAC) Properties in Iqaluit, Nunavut",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-166-63712501",
+    "date": "2026-08-04T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "❄️ Northern logistics operators and federal contractors must secure indigenous enterprise registrations to capture multi-year facility maintenance tenders in Iqaluit.",
+      "strategic_value": "* **Financial Penalty Exposure:** Non-compliance with strict local contracting mandates results in immediate disqualification from the $295,000 multi-year facility maintenance spend, alongside $2,500-$5,000 per-occurrence contractual default penalties for property damage or missed weather-triggered sanding intervals.\n* **Physical Execution Plays:** Contractors must establish pre-positioned heavy machinery fleets in Iqaluit, implement automated local meteorological tracking integrations for real-time sanding dispatches, and execute strict Inuit Firm Registry (IFR) compliance verifications prior to bid closing.\n* **Consulting Pivot:** Trade advisors and federal procurement consultants can package a $12,000 compliance audit and IFR partnership matchmaking service for non-indigenous prime contractors seeking compliant joint-venture structures.",
+      "co_bidding_opportunity": "Based on the Nunavut Land Claims Agreement (NLCA) Article 24 set-aside, non-indigenous logistics enterprises must partner with Inuit Firm Registry (IFR) registered entities as primary joint-venture leads or secure downstream subcontracting agreements to successfully bid on CIRNAC property maintenance tenders.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "The notice outlines a federal infrastructure and property maintenance procurement in Nunavut, connecting regional logistical execution to strict indigenous land claims compliance frameworks.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-09-17T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Amendment 1 to RFP:Change the contracting authority to Bruno Paradis: Bruno.Paradis2@sac-isc.gc.caNotice of Proposed Procurement (NPP) – Solicitation number 1000264764This requirement is for: the Department of Crown-Indigenous Relations and Northern Affairs Canada (CIRNAC)This procurement is reserved for beneficiaries of the following Comprehensive Land Claims Agreement (CLCA): Nunavut Land Claims Agreement (https://www.tunngavik.com/documents/publications/LAND_CLAIMS_AGREEMENT_NUNAVUT.pdf) unde...",
+    "type": "Open",
+    "organization": "Department of Indigenous Services (ISC)",
+    "solicitation_number": "1000264764",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "None",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
   }
 ]
