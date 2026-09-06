@@ -1285,38 +1285,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFI - Defence Expert Analysis and Assistance (DEAA)",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-229-53800320",
-    "date": "2026-06-19T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Navigating the complexities of the National Shipbuilding Strategy just got more strategic. 🚢",
-      "strategic_value": "* Project delays in high-value defence programs often incur liquidated damages ranging from 0.5% to 2% of contract value per week, alongside substantial working capital tie-ups during extended RFI/RFP cycles.\n* Execution requires granular mapping of prime contractor tiers and alignment with the new Buy Canadian Procurement Policy, necessitating pre-validated domestic content certification for all technical sub-components.\n* **Consulting Pivot:** We offer a $25k 'Defence Readiness Audit' to evaluate your current compliance posture against the new Buy Canadian framework, followed by a prioritized roadmap for successful integration into Tier-1 prime shipbuilder supply chains.",
-      "co_bidding_opportunity": "Identify consortium roles as a specialty sub-contractor for project management office (PMO) support, technical consultancy for naval procurement, or domestic supply chain validation audit partner for lead shipbuilders.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "Connects the RFI's strategic focus on the Defence Investment Agency with the broader industrial policy mandates requiring verified domestic sourcing and professional project governance.",
-      "grounded_fact_ids": [],
-      "anchor_reference": null,
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-09-04T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "This Amendment 002 is issued to provide suppliers with an opportunity to participate in one-on-one virtual meetings with Canada following the Request for Information (RFI) response submissions. The requested response to the RFI remains 29 July 2026 at 14:00 EDT.  Any late submissions will not receive a one-on-one meeting opportunity. Any late submissions will not receive a one-on-one meeting opportunity.The RFI closing date is hereby extended to 4 September 2026 at 14:00 EDT to allow Canada suff...",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "EN578-260808-B",
-    "notice_type": "Request for Information",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Not applicable",
-    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)",
-    "recommended_playbook": "Specification Shaping (RFI / EOI)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "Signal Distress Day & Night No.1 Mk5",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-721-26520686",
     "date": "2026-07-27T00:00:00Z",
@@ -1573,44 +1541,6 @@
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Not applicable",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-    "recommended_playbook": "Specification Shaping (RFI / EOI)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFI for Space Command and Control",
-    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110020122?anId=ANONYMOUS",
-    "date": "2026-07-28T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🌌 Space Command & Control software procurement is officially underway, and the regulatory stakes for critical defense telemetry have never been higher.",
-      "strategic_value": "* Failure to secure critical defense space assets can result in immediate contract terminations, severe national security financial liabilities, and operational exclusion from Western alliance consortia, shifting market share to a small cartel of pre-cleared aerospace primes.\n* Logistical execution requires deep OT/IT supply chain risk management, 24-hour incident reporting systems integrated into the software architecture, and absolute verification of regional hardware provenance for all connected telecommunications nodes.\n* **Consulting Pivot:** Offer a Space-Sector Security & Compliance Advisory Service targeting potential C2 prime bidders, structured as an $85,000 diagnostic to align software architecture with Bill C-26 cybersecurity controls before formal RFP release.",
-      "co_bidding_opportunity": "Under the 'Specification Shaping (RFI / EOI)' playbook, prime defense contractors should actively seek specialized subcontracts with secure cloud hosting providers, sovereign cryptology developers, and space-asset telemetry software SMEs.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "Space Command and Control falls squarely under the critical telecommunications and defense infrastructure sectors targeted by Bill C-26's mandatory supply chain cybersecurity and telemetry controls.",
-      "grounded_fact_ids": [
-        6
-      ],
-      "anchor_reference": {
-        "source_name": "Public Safety Canada / Transport Canada",
-        "page_range": "Bill C-26 Critical Infrastructure Protection",
-        "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/index-en.aspx"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-09-04T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "SRV",
-    "category_label": "Services",
-    "description": "Software",
-    "type": "Open",
-    "organization": "Department of Public Works and Government Services (PSPC)",
-    "solicitation_number": "WS5806325873",
-    "notice_type": "Request for Information",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
-    "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)North American Free Trade Agreement (NAFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Korea Free Trade Agreement (CKFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)",
     "recommended_playbook": "Specification Shaping (RFI / EOI)"
   },
   {
@@ -2738,45 +2668,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "Computer Numerical Controlled (CNC) Electrical Discharge Machine (EDM)",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-148-66716562",
-    "date": "2026-08-20T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "Precision manufacturing requirements at the NRC demand more than just hardware; they require absolute compliance with reciprocal procurement rules. ⚙️",
-      "strategic_value": "* Financial penalties for non-compliance are severe; failing to adhere to CETA/CFTA procurement standards risks immediate bid rejection, resulting in lost R&D overhead and sunk business development costs.\n* Operational execution requires seamless integration of security requirements as per the SRCL; failure to map your physical hardware supply chain to these security benchmarks results in disqualification.\n* **Consulting Pivot:** We offer a 'Bid-to-Bond' advisory service starting at $10,000 per submission to ensure your technical documentation meets strict security clearance standards and reciprocal trading partner eligibility requirements.",
-      "co_bidding_opportunity": "Partner with pre-qualified security vetting consultants to ensure your hardware telemetry and firmware components meet the SRCL requirements outlined in the NRC RFP.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "This tender operates under the umbrella of federal procurement and trade agreements, where the 'Buy Canadian' policy and reciprocal procurement are binding operating rules.",
-      "grounded_fact_ids": [
-        6
-      ],
-      "anchor_reference": {
-        "source_name": "Public Safety Canada / Transport Canada",
-        "page_range": "Bill C-26 Critical Infrastructure Protection",
-        "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/index-en.aspx"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-09-04T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "The National Research Council Canada (NRC) requires a high precision Computer Numerical Controlled electrical discharge machine, referred to as CNC EDM machine. The new CNC EDM will support the production of high-accuracy parts for the modification, repair, and development of NRC Research center.All the deliverables must be received on or before January 31st 2027Solicitation of Offer Submission Eligibility.This solicitation of offers is subject to the Policy on Reciprocal Procurement. This means...",
-    "type": "Open",
-    "organization": "National Research Council of Canada (NRC)",
-    "solicitation_number": "26-58116",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Colombia Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Chile Free Trade Agreement (CCFTA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)",
-    "ecosystem_stage": "general"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "Request For Proposal (RFP) for Pharmacological testing of novel opioids, stimulants, and synthetic cannabinoids.",
     "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-93-39360034",
     "date": "2026-08-20T00:00:00Z",
@@ -3323,45 +3214,6 @@
     "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
     "trade_agreements": "Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
-    "title": "RFP - 12 FT Observatory Dome",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-400-96901732",
-    "date": "2026-08-22T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "🌌 **National Research Council Canada issues RFP for a 12 FT Observatory Dome, signaling a prime competitive opportunity for specialized fabricators and tech integrators.** This tender highlights critical infrastructure needs for advanced research capabilities.",
-      "strategic_value": "- The competitive procurement for a 12-month contract duration presents a direct revenue opportunity for specialized scientific infrastructure suppliers. Successful bid capture can solidify market positioning and establish precedent for future specialized government projects, while unsuccessful participation results in foregone revenue and potential market share erosion.\n- Execution requires precision manufacturing to meet strict specifications, including a freestanding base under 1,000 lbs, minimum 3.0m clear height, and 3.6-4m diameter, alongside the integration of motorized opening mechanisms and computer interfacing. Logistical plans must account for specialized handling of sensitive scientific equipment, ensuring secure transit and on-site delivery to the National Research Council Canada facility.\n- **Consulting Pivot:** Trade advisory firms and bid strategists can package a $10,000 to $20,000 bid readiness assessment and comprehensive proposal development service, specializing in CFTA-compliant procurement strategies and technical response optimization for complex scientific infrastructure tenders.",
-      "co_bidding_opportunity": "This competitive RFP invites direct bids or consortiums of specialized manufacturers capable of producing precision observatory domes, along with mechanical/electrical engineering firms for motorized and computer interfacing systems, and logistics providers experienced in transporting sensitive scientific equipment. Partnering opportunities exist for firms offering custom fabrication, automation integration, and installation services to ensure full compliance with technical specifications and delivery requirements.",
-      "mets_category": "Logistics & Infrastructure",
-      "mets_rationalization": "This competitive procurement signal for specialized scientific infrastructure highlights the consistent regulatory framework governing federal tenders. Adherence to agreements such as the Canadian Free Trade Agreement (CFTA) ensures fair competition, within an overarching environment that includes potential scrutiny by bodies such as the Canadian International Trade Tribunal (CITT), which adjudicates federal procurement bid challenges under applicable trade agreements (Fact ID 4).",
-      "grounded_fact_ids": [
-        4
-      ],
-      "anchor_reference": {
-        "source_name": "Canadian International Trade Tribunal",
-        "page_range": "SIMA Advisory",
-        "url": "https://www.citt-tcce.gc.ca/en"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-09-04T00:00:00Z",
-    "province": "National",
-    "province_abbrev": "NAT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "The National Research Council Canada has a requirement for the supply of a large clamshell observatory dome that opens entirely to allow for full sky tracking. The dome must have a freestanding base, with a total weight less than 1,000 lbs. The side door should be at least 28” x 68” in size. The clear usable height inside should be at least 3.0 m and the diameter should be at least 3.6 m but at most 4 m to fit on our existing platform. In order to be controlled from a distance, the dome must hav...",
-    "type": "Open",
-    "organization": "National Research Council of Canada (NRC)",
-    "solicitation_number": "26-58054/A",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)",
-    "ecosystem_stage": "general"
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
