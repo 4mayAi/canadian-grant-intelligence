@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-09-06T19:02:19.067179Z",
-  "linkedin_post": "Federal tenders and Arctic remediation lead today's procurement landscape. 🇨🇦\n\nGlobal Affairs Canada has announced over $13 million in targeted funding across three distinct international development initiatives, focusing on gender economic inclusion, climate resilience in remote indigenous communities, and sustainable small-scale fisheries following Secretary of State Sarai's participation at the Pacific Islands Forum Leaders Meeting. The technical and operational target centers on localized capacity building, climate risk monitoring systems such as CREWS, and ecological management frameworks deployed via multilateral partners like UN Women, Cowater International, and the FAO. Consulting practices should propose partnering directly with named executing agencies including Cowater International or the FAO to provide specialized digital monitoring, data analytics, or climate-resilience advisory services for Pacific field operations.\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/\n#GovernmentProcurement #GlobalAffairs #ClimateResilience #IndigenousServices #CanadianBusiness\n\n### Featured News & Sources\n- [Secretary of State Sarai concludes participation at Pacific Islands Forum Leaders Meeting](https://www.canada.ca/en/global-affairs/news/2026/09/secretary-of-state-sarai-concludes-participation-at-pacific-islands-forum-leaders-meeting.html) (Global Affairs)\n- [Government of Canada releases new climate report supporting climate resilience planning - canada.ca](https://www.canada.ca/en/environment-climate-change/news/2026/09/government-of-canada-releases-new-climate-report-supporting-climate-resilience-planning.html) (ECCC)\n- [Prime Minister Carney launches Digital Transformation Canada to deliver better, faster, more reliable government services to Canadians](https://www.pm.gc.ca/en/news/news-releases/2026/09/03/prime-minister-carney-launches-digital-transformation-canada-deliver) (PMO)\n- [Canada advances international collaboration at the G20 Innovation Ministerial](https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/canada-advances-international-collaboration-at-the-g20-innovation-ministerial.html) (ISED)\n- [Plow Truck - Behchoko](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-420-60692241) (CanadaBuys / MERX)\n",
+  "generated_at": "2026-09-07T19:26:03.628989Z",
+  "linkedin_post": "\n\n### Featured News & Sources\n- [Prime Minister Carney to hold fall Cabinet Planning Forum focused on building with greater speed and ambition](https://www.pm.gc.ca/en/news/news-releases/2026/09/07/prime-minister-carney-hold-fall-cabinet-planning-forum) (PMO)\n- [Secretary of State Sarai concludes participation at Pacific Islands Forum Leaders Meeting](https://www.canada.ca/en/global-affairs/news/2026/09/secretary-of-state-sarai-concludes-participation-at-pacific-islands-forum-leaders-meeting.html) (Global Affairs)\n- [Government of Canada releases new climate report supporting climate resilience planning - canada.ca](https://www.canada.ca/en/environment-climate-change/news/2026/09/government-of-canada-releases-new-climate-report-supporting-climate-resilience-planning.html) (ECCC)\n- [Prime Minister Carney launches Digital Transformation Canada to deliver better, faster, more reliable government services to Canadians](https://www.pm.gc.ca/en/news/news-releases/2026/09/03/prime-minister-carney-launches-digital-transformation-canada-deliver) (PMO)\n- [Plow Truck - Behchoko](https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-420-60692241) (CanadaBuys / MERX)\n",
   "insights": [
+    {
+      "source": "PMO_News",
+      "title": "Prime Minister Carney to hold fall Cabinet Planning Forum focused on building with greater speed and ambition",
+      "link": "https://www.pm.gc.ca/en/news/news-releases/2026/09/07/prime-minister-carney-hold-fall-cabinet-planning-forum",
+      "date": "2026-09-07T16:00:00Z",
+      "insight": {
+        "linkedin_hook": "🏛️ Prime Minister Carney is convening the fall Cabinet Planning Forum in Banff to accelerate infrastructure projects, defence industrial execution, and trade diversification.",
+        "strategic_value": "* The federal government is doubling down on national infrastructure acceleration, defence industrial capability, and trade corridor expansion under a unified economic strategy.\n* The technological target spans major civil engineering platforms, secure defence systems, and cross-border logistics digital architectures required to bolster economic resilience.\n* **Consulting Pivot:** Position your firm to engage federal procurement leads and prime contractors early as the Cabinet outlines execution timelines for new infrastructure and defence tax credits.",
+        "co_bidding_opportunity": "Consortium opportunities include teaming with major systems integrators, Indigenous business partnerships, and specialized engineering contractors to bid on forthcoming federal infrastructure and defence industrial projects.",
+        "mets_category": "Infrastructure & Digital",
+        "mets_rationalization": "Connects federal economic planning and Cabinet-level directives directly to multi-billion-dollar infrastructure, trade diversification corridors, and public-sector procurement pipelines.",
+        "grounded_fact_ids": [
+          5,
+          6
+        ],
+        "anchor_reference": {
+          "source_name": "Transport Canada & Infrastructure Canada Policy Framework",
+          "page_range": "General",
+          "url": "https://www.canada.ca/"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
     {
       "source": "Global_Affairs",
       "title": "Secretary of State Sarai concludes participation at Pacific Islands Forum Leaders Meeting",
@@ -116,7 +142,7 @@
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Open bidding",
       "selection_criteria": "Variations or combinations of the above methods",
-      "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade Agreement",
+      "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canadian Free Trade Agreement (CFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Honduras Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Korea Free Trade Agreement (CKFTA)",
       "recommended_playbook": "Standard Competitive Bidding (RFP)",
       "ecosystem_stage": "general"
     },
@@ -280,31 +306,6 @@
         "mets_rationalization": "",
         "grounded_fact_ids": [],
         "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "ecosystem_stage": "general"
-    },
-    {
-      "source": "PMO_News",
-      "title": "Prime Minister Carney announces the appointments of new Chair of the Board and CEO of Invest in Canada",
-      "link": "https://www.pm.gc.ca/en/news/news-releases/2026/08/31/prime-minister-carney-announces-appointments-new-chair-board-and-ceo",
-      "date": "2026-08-31T19:30:00Z",
-      "insight": {
-        "linkedin_hook": "🍁 Huge news for Canadian FDI: Prime Minister Mark Carney has appointed Dominic Barton and Gurinder Grewal to lead Invest in Canada!",
-        "strategic_value": "* Invest in Canada is targeting $1 trillion in capital inflows over five years, leveraging a coordinated intergovernmental and Major Projects Office framework to bypass historical regional silos.\n* The technological target spans large-scale artificial intelligence, clean energy grids, and critical mineral processing supply chains requiring unified cross-provincial standard alignment.\n* **Consulting Pivot:** Help international capital partners navigate complex multi-jurisdictional environmental assessments and inter-provincial regulatory compliance under Canada's trade harmonization efforts.",
-        "co_bidding_opportunity": "Collaborative frameworks involving provincial, territorial, Indigenous, and municipal partners, operating in coordination with the Major Projects Office to guide global investors.",
-        "mets_category": "Grants & Stimulus",
-        "mets_rationalization": "Connects the leadership appointments at Invest in Canada to the strategic push for domestic capital injection and reducing inter-provincial trade barriers to accelerate major energy and infrastructure projects.",
-        "grounded_fact_ids": [
-          6
-        ],
-        "anchor_reference": {
-          "source_name": "Internal Trade Secretariat / CFTA Guidelines",
-          "page_range": "General",
-          "url": "https://www.cfta-alec.ca/"
-        },
         "program_validation_status": null,
         "export_risk_advisory": null,
         "macro_sector_trend": null
