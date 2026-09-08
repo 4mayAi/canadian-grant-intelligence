@@ -10485,5 +10485,44 @@
     "selection_criteria": "Variations or combinations of the above methods",
     "trade_agreements": "Canadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)",
     "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys",
+    "title": "E6MON-26PQFL - Period 07 - RMSO Food - Fresh Fruits and Vegetables",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110021360?anId=ANONYMOUS",
+    "date": "2026-09-07T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🍎 Securing a federal standing offer for fresh produce supply to DND and Correctional Service Canada requires tight logistics and cold-chain precision.",
+      "strategic_value": "* This Request for Standing Offer (RFSO) issued by PSPC establishes multi-year panel positioning for supplying fresh fruits and vegetables to federal institutions in Quebec.\n* The technological target involves enterprise agricultural supply chain management, cold-chain temperature monitoring, and high-volume inventory fulfillment meeting strict federal food quality standards.\n* **Consulting Pivot:** Position your firm to assist agricultural producers and regional distributors in structuring multi-year standing offer bids, optimizing distribution pathways, and navigating complex federal procurement compliance frameworks under international trade agreements.",
+      "co_bidding_opportunity": "Regional agricultural producers, cold-chain logistics providers, and food distribution enterprises can form joint ventures or supply syndicates to meet the high-volume delivery demands across multiple institutional locations in Quebec.",
+      "mets_category": "Infrastructure & Digital",
+      "mets_rationalization": "Connects federal procurement gateway entries for institutional supply chains to the broader mandate of national supply chain resilience and inter-provincial trade alignment.",
+      "grounded_fact_ids": [
+        6
+      ],
+      "anchor_reference": {
+        "source_name": "Internal Trade Secretariat / CFTA Guidelines",
+        "page_range": "General",
+        "url": "https://www.cfta-alec.ca/"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-10-07T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "PWGSC, on behalf of Department of National Defence and Correctional Service Canada, is issuing this request for standing offer for the acquisition and delivery of fresh fruits and vegetables located in Quebec, Canada, as detailed in Annex Statement of Requirement.",
+    "type": "New",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5576291337",
+    "notice_type": "Request for Standing Offer",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Panama Free Trade AgreementCanada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Korea Free Trade Agreement (CKFTA)",
+    "recommended_playbook": "Procurement Gateway Entry (RFSO / RFSA)",
+    "ecosystem_stage": "general"
   }
 ]
