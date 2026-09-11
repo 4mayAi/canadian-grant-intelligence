@@ -1121,6 +1121,10 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
             title = item.get('title', '')
             hook = item.get('insight', {}).get('linkedin_hook', '')
             strat = item.get('insight', {}).get('strategic_value', '')
+            # Sanitize legacy synthetic pricing and prompt leakage from cached insights
+            if strat:
+                strat = re.sub(r'a \$(?:10,000|12,000|12,500|15,000|20,000|25,000|30,000)\s+', 'a comprehensive ', strat)
+                strat = re.sub(r'scaling between \$250 and \$450 per TEU daily', 'across containerized rail and port corridors', strat)
             news_summaries_list.append(f"- **{title}**\n  *Hook:* {hook}\n  *Key Insights:* {strat}")
         summaries_str = "\n\n".join(news_summaries_list)
 
