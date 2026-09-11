@@ -1037,10 +1037,30 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
 
         # 1. Interleave & sort insights chronologically (news releases surface above tenders of the same date)
         TENDER_SOURCES = {"CanadaBuys"}
+        high_val_kw = getattr(config, 'high_value_keywords', []) or []
+
+        def is_tender_item(item):
+            src = item.get("source", "")
+            return src in TENDER_SOURCES or src.startswith("CanadaBuys") or "closing_date" in item
+
         def sort_key_news_first(item):
             dt = parse_date_safely(item)
-            is_tender = item.get("source") in TENDER_SOURCES or "closing_date" in item
-            return (dt, 1 if not is_tender else 0)
+            is_tender = is_tender_item(item)
+            if not is_tender:
+                return (dt, 1, 0)
+            
+            # Topic-agnostic priority scoring for tenders of the same date
+            playbook = item.get("recommended_playbook")
+            playbook_score = 2 if playbook and playbook not in ("Unclassified", "None") else 0
+            
+            text = (item.get("title", "") + " " + item.get("text_to_search", "")).lower()
+            kw_score = min(5, sum(1 for kw in high_val_kw if kw.lower() in text)) if high_val_kw else 0
+            
+            close_dt = item.get("closing_date")
+            urgency_score = 1 if close_dt else 0
+            
+            total_priority = playbook_score + kw_score + urgency_score
+            return (dt, 0, total_priority)
 
         insights.sort(key=sort_key_news_first, reverse=True)
 
@@ -1080,8 +1100,8 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         TARGET_FEATURED_COUNT = 5
         MAX_FEATURED_TENDERS = 1
 
-        news_pool = [i for i in insights if i.get("source") not in TENDER_SOURCES and "closing_date" not in i]
-        tender_pool = [i for i in insights if i.get("source") in TENDER_SOURCES or "closing_date" in i]
+        news_pool = [i for i in insights if not is_tender_item(i)]
+        tender_pool = [i for i in insights if is_tender_item(i)]
 
         # Primary allocation: up to 4 news + up to 1 tender
         featured_insights = news_pool[:TARGET_FEATURED_COUNT - MAX_FEATURED_TENDERS] + tender_pool[:MAX_FEATURED_TENDERS]

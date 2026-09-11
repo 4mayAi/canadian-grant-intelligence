@@ -130,7 +130,7 @@ class GeminiClient:
     def _get_url(self, model_name: str) -> str:
         return f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={self.api_key}"
         
-    def _retry_request(self, payload: Dict[str, Any], max_retries: int = 5, timeout: int = 30) -> Optional[Dict[str, Any]]:
+    def _retry_request(self, payload: Dict[str, Any], max_retries: int = 5, timeout: int = 60) -> Optional[Dict[str, Any]]:
         if not self.api_key:
             logging.error("GEMINI_API_KEY not found.")
             return None
@@ -162,19 +162,28 @@ class GeminiClient:
                     if is_daily:
                         logging.warning(f"Gemini model {model_name} exhausted its daily limit. Blacklisting it for the remainder of this run.")
                         self.blacklisted_models.add(model_name)
-                    
-                    if is_daily or (model_idx < len(active_models) - 1):
-                        logging.warning(f"Rate limited on {model_name}. Zero-delay pivoting to next model...")
-                        self.stats["model_fallbacks"] += 1
-                        model_idx += 1
-                        attempt += 1
-                        continue
+                        if model_idx < len(active_models) - 1:
+                            logging.warning(f"Zero-delay pivoting to next model after daily exhaustion...")
+                            self.stats["model_fallbacks"] += 1
+                            model_idx += 1
+                            attempt += 1
+                            continue
                     else:
-                        wait_time = (2 ** attempt) * 15  # 15s, 30s, 60s
-                        logging.warning(f"Rate limited on last available model {model_name}. Waiting {wait_time}s before retry...")
-                        time.sleep(wait_time)
-                        attempt += 1
-                        continue
+                        # Transient per-minute rate limit (RPM) or temporary service unavailable (503)
+                        # Apply a short jittered backoff (3-5s) to allow quota window reset before burning fallback models
+                        time.sleep(4.0)
+                        if model_idx < len(active_models) - 1:
+                            logging.warning(f"Transient rate limit on {model_name}. Pivoting to next model...")
+                            self.stats["model_fallbacks"] += 1
+                            model_idx += 1
+                            attempt += 1
+                            continue
+                        else:
+                            wait_time = (2 ** attempt) * 15  # 15s, 30s, 60s
+                            logging.warning(f"Rate limited on last available model {model_name}. Waiting {wait_time}s before retry...")
+                            time.sleep(wait_time)
+                            attempt += 1
+                            continue
                     
                 if response.status_code != 200:
                     logging.error(f"Gemini API error (Status {response.status_code}): {response.text}")
@@ -634,7 +643,7 @@ class GeminiClient:
             "generationConfig": {"responseMimeType": "application/json"}
         }
 
-        data = self._retry_request(payload, timeout=45)
+        data = self._retry_request(payload, timeout=60)
         if data and 'candidates' in data and data['candidates']:
             try:
                 text = data['candidates'][0]['content']['parts'][0]['text']

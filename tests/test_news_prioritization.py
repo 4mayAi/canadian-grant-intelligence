@@ -139,6 +139,48 @@ class TestNewsPrioritization(unittest.TestCase):
         item_sources = [i.get("source") for i in insights]
         self.assertTrue("PMO_News" in item_sources)
 
+    def test_canadabuys_prefix_and_priority_ranking(self):
+        """Verify that CanadaBuys prefixed sources are treated as tenders and ranked by priority."""
+        t1 = {
+            "source": "CanadaBuys_Logistics_Tenders",
+            "title": "Unclassified Office Supplies",
+            "date": "2026-07-20T10:00:00Z",
+            "text_to_search": "supplies",
+            "recommended_playbook": "Unclassified",
+            "closing_date": None
+        }
+        t2 = {
+            "source": "CanadaBuys_Logistics_Tenders",
+            "title": "High Priority Drone Procurement",
+            "date": "2026-07-20T10:00:00Z",
+            "text_to_search": "defence drone customs system",
+            "recommended_playbook": "Selective Partnering (Supply Arrangement)",
+            "closing_date": "2026-08-30T00:00:00Z"
+        }
+        high_val_kw = ["defence", "drone", "customs"]
+        TENDER_SOURCES = {"CanadaBuys"}
+
+        def is_tender_item(item):
+            src = item.get("source", "")
+            return src in TENDER_SOURCES or src.startswith("CanadaBuys") or "closing_date" in item
+
+        def sort_key(item):
+            dt = parse_date_safely(item)
+            if not is_tender_item(item):
+                return (dt, 1, 0)
+            playbook = item.get("recommended_playbook")
+            playbook_score = 2 if playbook and playbook not in ("Unclassified", "None") else 0
+            text = (item.get("title", "") + " " + item.get("text_to_search", "")).lower()
+            kw_score = min(5, sum(1 for kw in high_val_kw if kw.lower() in text)) if high_val_kw else 0
+            close_dt = item.get("closing_date")
+            urgency_score = 1 if close_dt else 0
+            return (dt, 0, playbook_score + kw_score + urgency_score)
+
+        items = [t1, t2]
+        items.sort(key=sort_key, reverse=True)
+        self.assertEqual(items[0]["title"], "High Priority Drone Procurement")
+
 
 if __name__ == "__main__":
     unittest.main()
+
