@@ -1,0 +1,1 @@
+Transaction_ID,Date,Type,Entity_Name,Jurisdiction,Currency,FX_Rate,Gross_Amount_Orig,Tax_Type,GST_HST_Paid_Claimable,Net_Amount_CAD,Total_Amount_CAD,T2125_Line,T2125_Category,Home_Office_Pct,Deductible_Amount_CAD,Receipt_Hash,Receipt_Path,Notes
