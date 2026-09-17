@@ -191,7 +191,7 @@ class Notifier:
 
             import re
             # Convert raw dashboard URL into Golden CTA Button
-            cta_match = re.search(r'(?:👉\s*|View Full Interactive Dashboard:\s*|Full dashboard with filters and strategic analysis:\s*)(https?://\S+)', line_str, re.IGNORECASE)
+            cta_match = re.search(r'(?:👉\s*|View Full Interactive Dashboard:\s*|Full dashboard with filters and strategic analysis:\s*|\[View Interactive Web Dashboard ↗\]\()(https?://[^\s\)]+)', line_str, re.IGNORECASE)
             if cta_match and "github.io" in line_str:
                 url = cta_match.group(1)
                 if in_p:

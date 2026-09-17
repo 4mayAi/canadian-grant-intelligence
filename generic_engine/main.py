@@ -1103,16 +1103,57 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
         news_pool = [i for i in insights if not is_tender_item(i)]
         tender_pool = [i for i in insights if is_tender_item(i)]
 
-        # Primary allocation: up to 4 news + up to 1 tender
-        featured_insights = news_pool[:TARGET_FEATURED_COUNT - MAX_FEATURED_TENDERS] + tender_pool[:MAX_FEATURED_TENDERS]
+        # Deduplicate syndicated news wire articles by title stem in featured selection
+        def normalize_title_stem(itm):
+            title = itm.get("title", "")
+            if not title:
+                return ""
+            if is_tender_item(itm):
+                return title
+            link = itm.get("link", "").lower()
+            if any(p in link for p in ("biorxiv", "medrxiv", "arxiv")):
+                return title
+            cleaned = re.sub(
+                r'\s*[-–|]\s*(?:Yahoo(?:\s*Finance)?|newsfilecorp\.com|PR\s*Newswire|GlobeNewswire|Proactive(?:\s*financial\s*news)?|Business\s*Wire|Medianet.*|The\s*Canadian\s*Press|canada\.ca)\s*$',
+                '',
+                title,
+                flags=re.IGNORECASE
+            ).strip()
+            return re.sub(r'[^a-z0-9]', '', cleaned.lower())
+
+        def select_unique_featured(items, max_needed, seen_stems):
+            selected = []
+            for itm in items:
+                stem = normalize_title_stem(itm)
+                if stem and stem in seen_stems:
+                    logging.info(f"Skipping duplicate syndicated article in featured selection: {itm.get('title')}")
+                    continue
+                if stem:
+                    seen_stems.add(stem)
+                selected.append(itm)
+                if len(selected) >= max_needed:
+                    break
+            return selected
+
+        featured_seen_stems = set()
+        featured_news = select_unique_featured(news_pool, TARGET_FEATURED_COUNT - MAX_FEATURED_TENDERS, featured_seen_stems)
+        featured_tenders = select_unique_featured(tender_pool, MAX_FEATURED_TENDERS, featured_seen_stems)
+        featured_insights = featured_news + featured_tenders
 
         # Fallback backfill: if under 5 items, fill from remaining pools (news first, then tenders)
         if len(featured_insights) < TARGET_FEATURED_COUNT:
-            remaining_news = news_pool[TARGET_FEATURED_COUNT - MAX_FEATURED_TENDERS:]
-            remaining_tenders = tender_pool[MAX_FEATURED_TENDERS:]
+            remaining_news = [i for i in news_pool if i not in featured_insights]
+            remaining_tenders = [i for i in tender_pool if i not in featured_insights]
             remaining_combined = remaining_news + remaining_tenders
             needed = TARGET_FEATURED_COUNT - len(featured_insights)
-            featured_insights.extend(remaining_combined[:needed])
+            backfill = select_unique_featured(remaining_combined, needed, featured_seen_stems)
+            featured_insights.extend(backfill)
+            if len(featured_insights) < TARGET_FEATURED_COUNT:
+                for itm in remaining_combined:
+                    if itm not in featured_insights:
+                        featured_insights.append(itm)
+                        if len(featured_insights) >= TARGET_FEATURED_COUNT:
+                            break
 
         # 5. Compile LinkedIn summary post
         # Build enriched context: title + hook + full strategic_value for top 5 items
@@ -1145,6 +1186,17 @@ def run_engine_pipeline(config_path: Optional[str] = None, config_url: Optional[
             hero_hook=kpis.get("hero_hook")
         )
         suggested_post = linkedin_post.get("article_content", "No post text compiled.") if linkedin_post else ""
+
+        # Post-process: Programmatically space hashtags if concatenated (e.g. #Tag1#Tag2 -> #Tag1 #Tag2)
+        suggested_post = re.sub(r'(#[A-Za-z0-9_]+)(?=#)', r'\1 ', suggested_post)
+
+        # Post-process: Defensively prepend hero headline if Line 1 opened directly with a section header
+        stripped_post = suggested_post.strip()
+        first_line = stripped_post.split('\n')[0].strip() if stripped_post else ""
+        if first_line.startswith("###") or first_line.startswith("**"):
+            headline = (linkedin_post.get("suggested_title") if linkedin_post else None) or kpis.get("hero_hook")
+            if headline and headline.strip() not in stripped_post[:200]:
+                suggested_post = f"{headline.strip()}\n\n{suggested_post}"
 
         # Post-process: Automatically hyperlink names in the body (using lookarounds to prevent double-wrapping)
         hyperlinks = config.localization_mappings

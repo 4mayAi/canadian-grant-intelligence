@@ -445,7 +445,7 @@ class GeminiClient:
         date_str = f"Today's Date: {current_date}\n\n" if current_date else ""
         url_cta = dashboard_url if dashboard_url else "https://4mayAi.github.io/canadian-grant-intelligence/clusters/"
         tender_str = f"\nToday's procurement & active tenders:\n{tender_context}\n" if tender_context else ""
-        headline_rule = f'- Line 1 MUST be this exact headline: "{hero_hook}"\n' if hero_hook else '- Open with a clear, engaging headline (MAX 12 words) with a relevant emoji at the start. Write in plain, active language that reads naturally on mobile screens.\n'
+        headline_rule = f'- Line 1 of "article_content" MUST be this exact headline: "{hero_hook}"\n' if hero_hook else '- Line 1 of "article_content" MUST open with a clear, engaging headline (MAX 12 words) with a relevant emoji at the start. Write in plain, active language that reads naturally on mobile screens. Do NOT omit this headline from "article_content".\n'
         prompt = f"""You are a senior editor and executive intelligence advisor writing a daily briefing for mayAi.
         
         Write a single, tightly edited executive briefing (MAX 1,800 characters) that organizes today's updates by their natural industry or sector categories (e.g., Clean Energy & Infrastructure, Supply Chain & Telematics, Blue Economy, Aerospace & Defence). 
@@ -453,6 +453,7 @@ class GeminiClient:
         {date_str}Rules:
         {headline_rule}
         - Immediately follow Line 1 with the sector-clustered executive updates. Do NOT write abstract introductory filler like "The global landscape is rapidly reconfiguring...".
+        - Sector Headers: Format each sector category header as a clean markdown H3: '### <Sector Name>' on its own line. Ensure correct spelling of all sector titles.
         - Sector-Clustered Executive Prose: Group today's highlights by their respective industry/sector category. For each sector present in today's highlights, write a crisp 2-to-3 sentence executive paragraph that fluidly weaves together:
           1. The Strategic Market Move (financial, policy, or geopolitical development).
           2. The Technical Benchmark (engineering specification, infrastructure requirement, or operational scale).
@@ -463,8 +464,9 @@ class GeminiClient:
           * NEVER use fake connective transitions between unrelated industries (e.g. "This geopolitical alignment is complemented by...", "Simultaneously...", "Alongside..."). Each sector paragraph must be a standalone, self-contained executive insight.
           * NEVER use mechanical bullet labels or prefixes (e.g., "Market Move:", "Tech Benchmark:", "C-Suite Takeaway:"). The 3 elements must be written as a smooth, continuous, elegant paragraph of executive journalism.
           * Anti-Echo Constraint: NEVER echo or repeat prompt structural titles or generic placeholder starter phrases (e.g., "Canada's innovation agenda is driven by strategic policy", "Technological milestones are taking shape", "Enterprises should pursue strategic B2B engagement"). Open every sector directly with specific organization names, financial figures, or policy facts.
+          * Anti-Taxonomy Constraint: NEVER output internal classification codes, database keys, or configuration abbreviations (e.g. internal taxonomy shorthand) verbatim in the executive prose. Translate all concepts into natural, publication-grade executive terminology.
         - Strictly use ONLY the entities, organization names, countries, project names, and figures provided in today's highlights below. Do NOT introduce external or unrelated entities.
-        - Close with a call-to-action line linking to the dashboard: "👉 Full dashboard with filters and strategic analysis: {url_cta}" followed by exactly 5 relevant hashtags on their own line.
+        - Close with a call-to-action line linking to the dashboard: "👉 Full dashboard with filters and strategic analysis: {url_cta}" followed by exactly 5 relevant space-separated hashtags on their own line (e.g., #TagOne #TagTwo #TagThree #TagFour #TagFive). Each hashtag MUST be separated by a space.
         - Tone: Authoritative, crisp, Financial Times / Bloomberg executive style.
         - Factual Rigor & Temporal Accuracy: Only reference names, figures, and timeframes explicitly mentioned in the context below. Do not fabricate hashtags for organizations not mentioned. NEVER describe historical baseline years or past statistics (e.g., prior year trade numbers like 2025) as future target dates or deadlines. Always frame historical figures as past baseline achievements (e.g., 'building on the $2 billion benchmark set in 2025').
         - CRITICAL TEMPORAL ANCHOR RULE: If the context below includes statutory anchors or active regulatory frameworks (e.g. CARM RPP bonding, CUSMA 2026 rules, or Bill C-35), treat them strictly as active background operating baselines. NEVER state that an established baseline framework was 'mandated' or 'launched' today. Lead paragraph 1 directly with the single newest 24-hour news event or tender.
