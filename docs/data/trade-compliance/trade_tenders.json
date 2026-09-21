@@ -4496,7 +4496,7 @@
     "notice_type": "Request for Standing Offer",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Variations or combinations of the above methods",
-    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)",
+    "trade_agreements": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)",
     "recommended_playbook": "Procurement Gateway Entry (RFSO / RFSA)",
     "ecosystem_stage": "general"
   },
@@ -4895,7 +4895,7 @@
     "notice_type": "Request for Proposal",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "Lowest Price",
-    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)North American Free Trade Agreement (NAFTA)Please refer to Tender Description or Tender DocumentsCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)",
+    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)North American Free Trade Agreement (NAFTA)Please refer to Tender Description or Tender DocumentsCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementCanada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)",
     "recommended_playbook": "Standard Competitive Bidding (RFP)",
     "ecosystem_stage": "general"
   },
