@@ -7,14 +7,18 @@ import requests
 from urllib.parse import urljoin
 from pypdf import PdfReader
 from playwright.sync_api import sync_playwright
-from googlenewsdecoder import new_decoderv1
+try:
+    from googlenewsdecoder import new_decoderv1
+except Exception as exc:
+    new_decoderv1 = None
+    logging.warning(f"googlenewsdecoder could not be imported ({exc}). URL resolution will fall back to original URLs.")
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def resolve_google_news_url(url: str) -> str:
     """Decodes Google News redirect URLs offline to original URLs."""
-    if not url or "news.google.com" not in url:
+    if not url or "news.google.com" not in url or new_decoderv1 is None:
         return url
     try:
         res_dec = new_decoderv1(url, interval=1)
