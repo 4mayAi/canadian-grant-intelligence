@@ -8,24 +8,24 @@ import logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
 # Empirically Verified Model Cascade based on Live User Rate Limit Table:
-# High Quota Tier (15 RPM / 500 RPD): gemini-3.5-flash-lite, gemini-3.1-flash-lite
-# Mid Quota Tier (10 RPM / 20 RPD): gemini-2.5-flash-lite
-# Low Quota Tier (5 RPM / 20 RPD): gemini-3.6-flash, gemini-3.5-flash, gemini-2.5-flash
+# High Quota Tier (15 RPM / 500 RPD): gemini-flash-lite-latest, gemini-3.1-flash-lite
+# Mid Quota Tier (10 RPM / 20 RPD): gemini-3.8-flash, gemini-3.7-flash
+# Fallback Flash Models: gemini-3.6-flash, gemini-2.5-flash
 MODEL_CASCADE = [
-    ("gemini-3.5-flash-lite", 4.1),  # 15 RPM, 500 RPD (BEST PRIMARY BATCH MODEL)
-    ("gemini-3.1-flash-lite", 4.1),  # 15 RPM, 500 RPD (FALLBACK 1)
-    ("gemini-2.5-flash-lite", 6.5),  # 10 RPM, 20 RPD (FALLBACK 2)
-    ("gemini-3.6-flash", 12.5),       # 5 RPM, 20 RPD (FALLBACK 3)
-    ("gemini-3.5-flash", 12.5),       # 5 RPM, 20 RPD (FALLBACK 4)
-    ("gemini-2.5-flash", 12.5)        # 5 RPM, 20 RPD (FALLBACK 5)
+    ("gemini-flash-lite-latest", 4.1), # 15 RPM, 500 RPD (BEST PRIMARY BATCH MODEL)
+    ("gemini-3.8-flash", 4.1),         # 15 RPM, High RPD (FALLBACK 1)
+    ("gemini-3.7-flash", 6.5),         # 10 RPM, 20 RPD (FALLBACK 2)
+    ("gemini-3.1-flash-lite", 4.1),    # 15 RPM, 500 RPD (FALLBACK 3)
+    ("gemini-3.6-flash", 12.5),        # 5 RPM, 20 RPD (FALLBACK 4)
+    ("gemini-2.5-flash", 12.5)         # 5 RPM, 20 RPD (FALLBACK 5)
 ]
 
 class UserTierAwareGeminiEvaluator:
     """
     Evaluator strictly calibrated against the user's live API quota table:
-    - Primary Batch Model: gemini-3.5-flash-lite (15 RPM, 500 RPD)
-    - Secondary Batch Model: gemini-3.1-flash-lite (15 RPM, 500 RPD)
-    - Standard Flash Models: Calibrated to 12.5s pacing throttle (5 RPM limit)
+    - Primary Batch Model: gemini-flash-lite-latest (15 RPM, 500 RPD)
+    - Secondary Batch Model: gemini-3.8-flash (15 RPM, High RPD)
+    - Standard Flash Models: Calibrated to pacing throttles based on RPM limits
     """
     def __init__(self, api_key: str = None, max_retries: int = 3):
         self.api_key = api_key or os.environ.get("GEMINI_API_KEY")

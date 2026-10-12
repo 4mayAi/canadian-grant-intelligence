@@ -64,7 +64,7 @@ Employment and Social Development Canada (ESDC) issued Solicitation **#100032488
 - **Azure Key Vault Reuse:** Reuse existing Key Vault `MyAgentKeyVault` and Storage Account `canadiangrants`.
 
 ### 2.2 Rate Limit Constraints (Empirical Quota Telemetry)
-- **Primary Batch Evaluator (`gemini-3.5-flash-lite`):** 15 RPM / 250K TPM / 500 RPD. Paced at 4.1s intervals.
+- **Primary Batch Evaluator (`gemini-flash-lite-latest` / `gemini-3.8-flash`):** 15 RPM / 250K TPM / 500 RPD. Paced at 4.1s intervals.
 - **Low-Quota Flash Models (`gemini-2.5-flash`):** 5 RPM / 20 RPD (Red-lined). Paced at 12.5s intervals.
 
 ---
@@ -126,7 +126,7 @@ sequenceDiagram
 
     GCP->>GH: POST /repos/4mayAi/canadian-grant-intelligence/dispatches
     GH->>GH: Execute Pytest Suite (test_fsc_full_document_review.py)
-    GH->>LLM: Evaluate document text (gemini-3.5-flash-lite)
+    GH->>LLM: Evaluate document text (gemini-flash-lite-latest / gemini-3.8-flash)
     LLM-->>GH: Return structured JSON (EQ1-EQ6 & WCS)
     GH->>AZ: Upload fsc_document_inventory.json & Markdown reports
     GH->>GH: Commit fsc_data.js to GitHub Pages
@@ -173,7 +173,7 @@ sequenceDiagram
 ### ADR 01: Pacing Throttle & Model Selection Order
 - **Status:** Approved
 - **Context:** Standard Flash (`gemini-2.5-flash`) has a daily limit of 20 RPD on active tier.
-- **Decision:** Adopt `gemini-3.5-flash-lite` (15 RPM / 500 RPD) as Primary Batch Evaluator with 4.1s pacing throttle.
+- **Decision:** Adopt `gemini-flash-lite-latest` and `gemini-3.8-flash` (15 RPM / 500 RPD) as Primary Batch Evaluators with 4.1s pacing throttle, superseding deprecated 3.5 series.
 
 ### ADR 02: In-Dashboard Evidence Inspection Modal (`#docModal`)
 - **Status:** Approved
