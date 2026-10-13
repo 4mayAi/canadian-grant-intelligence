@@ -7650,7 +7650,7 @@
     "notice_type": "Request for Information",
     "procurement_method": "Competitive - Open bidding",
     "selection_criteria": "",
-    "trade_agreements": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)",
+    "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Colombia Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Honduras Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-Panama Free Trade AgreementCanadian Free Trade Agreement (CFTA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)",
     "recommended_playbook": "Specification Shaping (RFI / EOI)",
     "ecosystem_stage": "general"
   },
@@ -8177,7 +8177,7 @@
     "category": "SRV",
     "category_label": "Services",
     "description": "Public Works and Government Services Canada (PWGSC), Environmental Services and Contaminated Sites Management (ESCSM), on behalf of PWGSC and other client departments, requires environmental consulting services for a variety of projects on an “if and when requested\" basis. To support this requirement, PWGSC is seeking offers from qualified consulting firms with expertise in environmental engineering to establish Standing Offers. The required environmental services are related to a wide variety o...",
-    "type": "New",
+    "type": "Open",
     "organization": "Department of Public Works and Government Services (PSPC)",
     "solicitation_number": "WS5240497231",
     "notice_type": "Request for Standing Offer",
