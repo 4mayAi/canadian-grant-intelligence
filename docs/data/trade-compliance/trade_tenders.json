@@ -2111,44 +2111,6 @@
   },
   {
     "source": "CanadaBuys_Logistics_Tenders",
-    "title": "Spare Parts for Airfield Ground Support Equipment 2",
-    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-336-31242598",
-    "date": "2026-09-08T00:00:00Z",
-    "insight": {
-      "linkedin_hook": "✈️ Department of National Defence issues active supply tender for specialized aerospace ground support replacement parts destined for major military distribution hubs.",
-      "strategic_value": "* **Operational Liabilities:** Importers and logistics providers face shipment detentions, dwell penalties, and potential customs clearance blocks if border documentation and tariff classifications for specialized military hardware are misaligned.\n* **Execution Plays:** Supply chain operators must integrate pre-arrival electronic data interchange filings, ensure accurate customs valuation, and secure compliant transport channels to designated supply depots in Montreal and Edmonton.\n* **Consulting Pivot:** * **Consulting Pivot:** Trade compliance consultants can structure customs valuation and tariff classification reviews for defense contractors managing cross-border military hardware and aerospace component distribution.",
-      "co_bidding_opportunity": "Standard direct or subcontract bid strategy for defense aerospace parts distribution and logistics fulfillment.",
-      "mets_category": "Border Compliance & Tariffs",
-      "mets_rationalization": "The tender details specific customs valuation, import duties, and delivery requirements at Canadian Forces Supply Depots, tying directly into border compliance and tariff execution.",
-      "grounded_fact_ids": [
-        3
-      ],
-      "anchor_reference": {
-        "source_name": "Canada Border Services Agency",
-        "page_range": "Customs Notice CN26-04",
-        "url": "https://www.cbsa-asfc.gc.ca/services/carm-gcra/menu-eng.html"
-      },
-      "program_validation_status": null,
-      "export_risk_advisory": null,
-      "macro_sector_trend": null
-    },
-    "closing_date": "2026-10-11T00:00:00Z",
-    "province": "Multiple Provinces",
-    "province_abbrev": "MULT",
-    "category": "GD",
-    "category_label": "Goods",
-    "description": "File Number: W8486-270982/A NOTICE OF PROPOSED PROCUREMENT  The Department of National Defence has a requirement for the items detailed below.  The delivery is requested at the Canadian Forces Supply Depot (CFSD) in Montreal Quebec or in Edmonton Alberta by December 31, 2026. Please note that offers must be submitted in Canadian dollars, Applicable Taxes excluded, delivery, and Canadian customs duties and excise taxes included.Item 1 UNSPSC: 31171500NSN: 3120-21-AAN3891, BUSHING-D8Part No.: 1000...",
-    "type": "Open",
-    "organization": "Department of National Defence (DND)",
-    "solicitation_number": "W8486-270982/A",
-    "notice_type": "Request for Proposal",
-    "procurement_method": "Competitive - Open bidding",
-    "selection_criteria": "Lowest Price",
-    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
-    "recommended_playbook": "Standard Competitive Bidding (RFP)"
-  },
-  {
-    "source": "CanadaBuys_Logistics_Tenders",
     "title": "W7714-278992-2_Photon arrival time taggers",
     "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110025492?anId=ANONYMOUS",
     "date": "2026-09-17T00:00:00Z",
