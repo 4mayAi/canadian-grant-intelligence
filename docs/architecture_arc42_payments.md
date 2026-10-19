@@ -114,7 +114,8 @@ generic_engine/
 └── api/
     ├── azure_client.py         # Azure Blob Storage client
     ├── gemini_client.py        # Gemini API interface
-    └── notifier.py             # Email digest SMTP transmitter & failure notifier
+    ├── notifier.py             # Email digest SMTP transmitter & failure notifier
+    └── profile_matcher.py      # Profile-aware B2B lead alert and co-bidding matcher
 
 configs/
 ├── global_payments.json        # Ingestion sources, search terms, and model parameters
@@ -128,8 +129,8 @@ docs/
 
 ### 5.2 Configured Ingestion Sources and LLM Model
 The pipeline is configured via `configs/global_payments.json` with the following parameters:
-- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.5-flash-lite` $\rightarrow$ `gemma-4-31b-it`)
-- **Ingestion Sources:**
+- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.7-flash` $\rightarrow$ `gemma-4-31b-it`)
+- **Ingestion Sources (`13 total`):**
   - `Canada_Payments_News` (Canada Payments News Feed)
   - `Australia_Payments_News` (Australia Payments News Feed)
   - `China_Payments_News` (China Payments News Feed)
@@ -139,6 +140,10 @@ The pipeline is configured via `configs/global_payments.json` with the following
   - `Switzerland_German_Payments_News` (Swiss German-language Payments News Feed)
   - `UK_Payments_News` (UK Payments News Feed)
   - `Global_Payments_News` (Global Payments News Feed)
+  - `BIS_Official_Press` (Bank for International Settlements CBDC, mBridge & Settlement Feed)
+  - `Federal_Reserve_Payments` (US Federal Reserve FedNow, Fedwire & Payments Feed)
+  - `Bank_of_England_CHAPS` (Bank of England CHAPS, ISO 20022 & Wholesale CBDC Feed)
+  - `SWIFT_Official_News` (SWIFT Official ISO 20022, Swift GO & gpi Feed)
 
 ---
 

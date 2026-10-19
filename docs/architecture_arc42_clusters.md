@@ -51,12 +51,15 @@ Key features:
 ```mermaid
 graph TD
     subgraph News & Portal Sources
-        DS[DIGITAL RSS Feed]
-        SA[Scale AI RSS Feed]
-        OS[Ocean Supercluster RSS Feed]
-        NG[NGen RSS Feed]
-        PI[Protein Industries Portal]
+        DS[DIGITAL RSS & Ecosystem Feeds]
+        SA[Scale AI RSS & Ecosystem Feeds]
+        OS[Ocean Supercluster & Blue Economy Feeds]
+        NG[NGen RSS & Ecosystem Feeds]
+        PI[Protein Industries Portal, Food Security & CanadaBuys CKAN]
         PI_FB[Google News RSS Fallback]
+        CT[CanadianTech: BetaKit & AI Ecosystem Feeds]
+        SD[SpaceDefence: CSA, DND & Defence Industry Feeds]
+        EE[EnergyEnvironment: Transport, CleanTech & Conservation Feeds]
         FED[Federal News: ISED/TC/DFO/NRCan/NRC/DND/AAFC]
     end
 
@@ -83,9 +86,12 @@ graph TD
     SA -->|RSS Ingest| GHA
     OS -->|RSS Ingest| GHA
     NG -->|RSS Ingest| GHA
+    CT -->|RSS Ingest| GHA
+    SD -->|RSS Ingest| GHA
+    EE -->|RSS Ingest| GHA
     FED -->|Targeted RSS Ingest| GHA
     
-    PI -->|Playwright Scraper| GHA
+    PI -->|Playwright & CKAN Scraper| GHA
     PI_FB -.->|RSS Fallback| GHA
     
     CFG -->|Load parameters| GHA
@@ -132,7 +138,8 @@ generic_engine/
 └── api/
     ├── azure_client.py         # Handles raw JSON and file uploads to Azure Blob Storage
     ├── gemini_client.py        # Connects to Gemini API for B2B insights synthesis
-    └── notifier.py             # Sends Discord failure alerts and formatted SMTP digests
+    ├── notifier.py             # Sends Discord failure alerts and formatted SMTP digests
+    └── profile_matcher.py      # Profile-aware B2B lead alert and co-bidding matcher
 ```
 
 - **main.py**: Directs the flow. It parses CLI arguments, loads the local configuration JSON (`innovation_clusters.json`), runs scrapers, deduplicates against cached URLs, queries Gemini, validates outputs, and triggers email dispatches.
@@ -142,8 +149,8 @@ generic_engine/
 
 ### 5.2 Configured Ingestion Sources and LLM Model
 The pipeline is configured via `configs/innovation_clusters.json` with the following parameters:
-- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.5-flash-lite` $\rightarrow$ `gemma-4-31b-it`)
-- **Ingestion Sources:**
+- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.7-flash` $\rightarrow$ `gemma-4-31b-it`)
+- **Ingestion Sources (`27 total`):**
   - `DIGITAL_News` (DIGITAL Supercluster News Feed)
   - `DIGITAL_Ecosystem_News` (DIGITAL Ecosystem Feed)
   - `DIGITAL_Federal_News` (DIGITAL Federal News Feed)
@@ -153,11 +160,24 @@ The pipeline is configured via `configs/innovation_clusters.json` with the follo
   - `OceanCluster_News` (Ocean Supercluster News Feed)
   - `Ocean_Ecosystem_News` (Ocean Ecosystem Feed)
   - `Ocean_Federal_News` (Ocean Federal News Feed)
+  - `Ocean_BlueEconomy` (Ocean Fisheries Technology, Aquaculture & Blue Economy Feed)
   - `NGen_News` (NGen Manufacturing News Feed)
   - `NGen_Ecosystem_News` (NGen Ecosystem Feed)
   - `NGen_Federal_News` (NGen Federal News Feed)
-  - `ProteinIndustries_News` (Protein Industries Playwright crawler)
+  - `ProteinIndustries_News` (Protein Industries Playwright crawler with RSS fallback)
   - `ProteinIndustries_Federal_News` (Protein Industries Federal News Feed)
+  - `ProteinIndustries_FoodSecurity` (National Food Security Strategy & Food Innovation Fund Feed)
+  - `ProteinIndustries_AgriFood_Federal` (AAFC Agri-Food Federal News Feed)
+  - `ProteinIndustries_CanadaBuys` (CanadaBuys CKAN Agri-Food Procurement Crawler)
+  - `CanTech_BetaKit` (BetaKit Canadian AI, Quantum, CleanTech & Defence Feed)
+  - `CanTech_AI_Ecosystem` (Cohere, Mila, Vector Institute, CIFAR & Sanctuary AI Feed)
+  - `CanTech_Federal_AI` (Federal Sovereign AI, Quantum & Digital Economy Feed)
+  - `SpaceDef_CSA` (Canadian Space Agency, MDA Space, RADARSAT & Telesat Lightspeed Feed)
+  - `SpaceDef_Defence` (DND Defence Procurement, NORAD Modernization & NATO Feed)
+  - `SpaceDef_Industry` (Canadian Defence Primes — CAE, L3Harris, General Dynamics, Irving Feed)
+  - `Energy_Transport` (Transport Canada Port, Terminal & Trade Corridor Infrastructure Feed)
+  - `Energy_CleanTech` (NRCan & ECCC Hydrogen, SMR Nuclear, Battery & Carbon Capture Feed)
+  - `Energy_Conservation` (Conservation Technology & Marine Protected Areas Feed)
 
 ---
 

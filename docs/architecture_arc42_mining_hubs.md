@@ -109,7 +109,7 @@ The pipeline implements three core design strategies to handle the integration o
 1. **Dual-Speed Cross-Synthesis**: Slow-moving annual anchor facts are indexed with unique integer Fact IDs. When daily signals are scraped, they are grouped by hub, and the matching hub anchor facts are appended to the Gemini prompt context.
 2. **Programmatic Reference Resolution**: Instead of allowing the LLM to write page numbers and source URLs (which leads to hallucinations), the model only returns the list of selected integer `grounded_fact_ids`. The Python script programmatically resolves the report name, page range, and URL from the local anchor database.
 3. **Double-Extraction Playwright Scraper**: Playwright scrapes landing pages. If it detects thin text or nested download links, it downloads the PDF and extracts text in memory (up to 100 pages for Level 3 documents), preserving formatting.
-4. **Model waterfall Fallbacks**: Requests use a tiered model waterfall (`gemini-flash-latest` $\rightarrow$ `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.5-flash-lite` $\rightarrow$ `gemma-4-31b-it`) to bypass saturated API quotas and rate limits.
+4. **Model waterfall Fallbacks**: Requests use a tiered model waterfall (`gemini-flash-latest` $\rightarrow$ `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.7-flash` $\rightarrow$ `gemma-4-31b-it`) to bypass saturated API quotas and rate limits.
 
 ---
 
@@ -123,7 +123,8 @@ generic_engine/
 ├── api/
 │   ├── azure_client.py         # Azure Blob Storage API wrapper
 │   ├── gemini_client.py        # Gemini client featuring cascade fallback & deduplication
-│   └── notifier.py             # Alert notifier for SMTP and Discord
+│   ├── notifier.py             # Alert notifier for SMTP and Discord
+│   └── profile_matcher.py      # Profile-aware B2B lead alert and co-bidding matcher
 └── extractors/
     ├── rss.py                  # Ingests and parses RSS news feeds
     ├── playwright_scraper.py   # Scrapes JS-rendered pages using Playwright browser contexts
@@ -138,8 +139,8 @@ configs/
 ```
 
 ### 5.2 Configured Ingestion Sources and LLM Model
-- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.5-flash-lite` $\rightarrow$ `gemma-4-31b-it`)
-- **Ingestion Sources:**
+- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.7-flash` $\rightarrow$ `gemma-4-31b-it`)
+- **Ingestion Sources (`25 total`):**
   - `Canada_TSXV_Junior_Mining` (TSX Venture Junior Mining Exploration & Market Disclosure Feed)
   - `Canada_Mining_News` (Canada Mining News Feed)
   - `Canada_NRCan_News` (Natural Resources Canada Mining News Feed — locked to `topic=mining` API endpoint)

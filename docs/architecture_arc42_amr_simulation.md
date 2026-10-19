@@ -44,7 +44,9 @@ graph TD
         CB[CanadaBuys CKAN API]
         CIHR[CIHR AMR Google News Feed]
         NRC[NRC Health Google News Feed]
-        PHAC[PHAC Health Google News Feed]
+        PHAC[PHAC AMR / Updates / CCDR Feeds]
+        HC[Health Canada MedTech Feed]
+        BIO[bioRxiv Microbiology RSS Feed]
     end
 
     subgraph mayAi Cloud Context
@@ -64,6 +66,8 @@ graph TD
     CIHR -->|RSS Ingestion| GHA
     NRC -->|RSS Ingestion| GHA
     PHAC -->|RSS Ingestion| GHA
+    HC -->|RSS Ingestion| GHA
+    BIO -->|RSS Ingestion| GHA
 
     GHA -->|Batch Ingestion & Synthesis| LLM
     LLM -->|JSON Response| GHA
@@ -105,11 +109,12 @@ generic_engine/
 └── api/
     ├── azure_client.py         # Azure Blob Storage client
     ├── gemini_client.py        # Gemini API interface
-    └── notifier.py             # Email digest SMTP transmitter & failure notifier
+    ├── notifier.py             # Email digest SMTP transmitter & failure notifier
+    └── profile_matcher.py      # Profile-aware B2B lead alert and co-bidding matcher
 
 configs/
 ├── amr_simulation.json         # Ingestion sources, search terms, and model parameters
-└── amr_anchors.json            # Local seed database for slow-moving payment anchors
+└── amr_anchors.json            # Local seed database for slow-moving biotech and AMR policy anchors
 
 docs/
 ├── amr-simulation/
@@ -118,12 +123,13 @@ docs/
 ```
 
 ### 5.2 Configured Ingestion Sources and LLM Model
-- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.5-flash-lite` $\rightarrow$ `gemma-4-31b-it`)
-- **Ingestion Sources:**
+- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.7-flash` $\rightarrow$ `gemma-4-31b-it`)
+- **Ingestion Sources (`8 total`):**
   - `Canada_CIHR_AMR` (CIHR Antimicrobial Resistance Research Feed)
   - `Canada_NRC_Simulation` (NRC Simulation and Modeling Feed)
   - `Canada_CanadaBuys_Procurement` (CKAN database crawler matching AMR keywords)
   - `Canada_PHAC_AMR` (PHAC Antimicrobial Resistance Feed)
+  - `Canada_HealthCanada_MedTech` (Health Canada Medical Devices, Drug & Laboratory Compliance Feed)
   - `bioRxiv_Microbiology` (bioRxiv Microbiology Subject Feed)
   - `Canada_PHAC_Public_Health_Updates` (PHAC Public Health Updates Feed)
   - `Canada_PHAC_CCDR` (PHAC CCDR Research Reports Feed)

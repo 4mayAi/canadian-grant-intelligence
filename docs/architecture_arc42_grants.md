@@ -105,18 +105,23 @@ generic_engine/
 ├── models.py                   # Dataclass schemas for Insights and KPIs
 ├── schema.py                   # Pydantic V2 configuration validator
 ├── extractors/
+│   ├── bdlnow.py               # Chamber of Commerce BDL Nowcast macroeconomic indicator scraper
 │   ├── ckan.py                 # Direct CanadaBuys CKAN API database crawler
+│   ├── cta_marine.py           # Canadian Transportation Agency coasting trade / marine notice extractor
+│   ├── ised_newsletter.py      # ISED GC Business Insights newsletter scraper
 │   ├── rss.py                  # Parses RSS/Atom news feeds
 │   ├── youtube.py              # Scrapes YouTube channel videos tab
 │   └── report_scraper.py       # Standby PDF report crawler
 └── api/
     ├── azure_client.py         # Azure Blob Storage client
     ├── gemini_client.py        # Gemini API interface
-    └── notifier.py             # Email digest SMTP transmitter & failure notifier
+    ├── notifier.py             # Email digest SMTP transmitter & failure notifier
+    └── profile_matcher.py      # Profile-aware B2B lead alert and co-bidding matcher
 
 configs/
 ├── canadian_grants.json        # Ingestion sources, search terms, and model parameters
-└── grants_anchors.json         # Local seed database for slow-moving anchors (currently empty)
+├── grants_anchors.json         # Local seed database with 7 statutory telecom, privacy & corridor anchors
+└── subscriber_profiles.json    # Subscriber profile definitions for targeted B2B lead alerts
 
 docs/
 ├── index.html                  # Frontend presentation dashboard
@@ -125,16 +130,21 @@ docs/
 
 ### 5.2 Configured Ingestion Sources and LLM Model
 The pipeline is configured via `configs/canadian_grants.json` with the following parameters:
-- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.5-flash-lite` $\rightarrow$ `gemma-4-31b-it`)
-- **Ingestion Sources:**
+- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.7-flash` $\rightarrow$ `gemma-4-31b-it`)
+- **Ingestion Sources (`13 total`):**
   - `PMO_News` (Prime Minister's Office RSS Feed)
   - `ISED_News` (Innovation, Science and Economic Development Canada Atom Feed)
   - `Finance_Canada` (Finance Canada Atom Feed)
-  - `Global_Affairs` (Global Affairs RSS Feed)
+  - `Global_Affairs` (Global Affairs Canada Atom Feed)
   - `ECCC_News` (Environment and Climate Change Canada Google News RSS Feed)
   - `PCO_News` (Privy Council Office Atom Feed)
   - `CanadaBuys` (CKAN Procurement database crawler)
   - `Prime Minister YouTube` (YouTube Briefing Channel scraper)
+  - `ISED_GC_Business_Insights` (ISED GC Business Insights newsletter scraper)
+  - `BDLNow_Economic_Indicator` (Canadian Chamber of Commerce BDL Nowcast indicator scraper)
+  - `CTA_Coasting_Trade_Notices` (Canadian Transportation Agency Marine Notices API extractor)
+  - `CRTC_Telecom_Decisions_News` (CRTC Telecommunications Decisions & News Atom Feed)
+  - `IAAC_Major_Project_Notices` (Impact Assessment Agency of Canada Major Project RSS Feed)
 
 ---
 

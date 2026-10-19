@@ -10,8 +10,8 @@ This document describes the software architecture of the Canadian Trade & Supply
 The Canadian Trade & Supply Chain Compliance Intelligence Pipeline is a serverless, scheduled, config-driven monitoring and synthesis system. It tracks border enforcement notices, customs tariff updates, forced labour provenance mandates, trade tribunal decisions (CITT), anti-greenwashing competition rules, critical infrastructure cybersecurity mandates, Special Economic Measures Act (SEMA) sanctions, and logistics procurement across Canada.
 
 Key features:
-- **Multi-Layered Ingestion (12 Sources)**: Scrapes official Atom/RSS feeds and Google News search proxies across 5 operational trade layers (Trade Policy, Customs/Border, Standards & Metrology, Modal Freight Regulators, and Trade Remedies).
-- **Direct Database Integration (CKAN API)**: Crawls the live CanadaBuys dataset API for logistics, warehousing, freight, and supply chain tenders.
+- **Multi-Layered Ingestion (17 Sources)**: Scrapes official Atom/RSS feeds, Google News search proxies, CTA Marine APIs, and Open Government CKAN datasets across 5 operational trade layers (Trade Policy & Investment Screening, Customs/Border, Standards & Metrology, Modal Freight & Labour Regulators, and Trade Remedies).
+- **Direct Database Integration (CKAN API & Marine Notices)**: Crawls the live CanadaBuys dataset API for logistics, warehousing, freight, and supply chain tenders, alongside ESDC Positive LMIA approvals and CTA Coasting Trade marine notices.
 - **Geopolitical Sanctions & Transshipment Evasion Screening**: Monitors SEMA sanctions, Autonomous Sanctions Regulations, and transshipment evasion risks involving high-risk jurisdictions and raw material origin tracking.
 - **Publication-Grade Executive Narrative (Zero Meta-Labels)**: Enforces clean, authoritative executive narrative prose, completely eliminating artificial header tags such as `"SO WHAT?"`, `"WEAKENS"`, or `"BUILDS"`.
 - **4-Part Value Framework**: Synthesizes every insight across direct bottom-line financial penalties ($/day demurrage, capital tie-ups), physical logistics execution plays (PO Chain-of-Custody mandates, LC drawdown conditions, neutral transit warehouse buffers), competitive winner/loser market dynamics, and concrete B2B consulting pitches.
@@ -50,8 +50,10 @@ graph TD
         TCS[Trade Commissioner Service Reports]
         CITT[Canadian International Trade Tribunal]
         SCC[Standards Council of Canada]
-        CTA[Canadian Transportation Agency Freight]
+        CTA[CTA Freight & Coasting Trade Marine API]
         CGC[Canadian Grain Commission Exports]
+        ISED[ISED ICA Investment & CRTC & IAAC Feeds]
+        LMIA[ESDC Positive LMIA CKAN Dataset]
         CB[CanadaBuys CKAN Logistics Tenders]
     end
 
@@ -71,13 +73,15 @@ graph TD
     CBSA -->|Atom / RSS Ingestion| GHA
     GAC -->|Atom Ingestion| GHA
     COMP -->|Atom Ingestion| GHA
-    PS -->|RSS Proxy Ingestion| GHA
+    PS -->|Atom Ingestion| GHA
     GAZ -->|RSS Proxy Ingestion| GHA
     TCS -->|RSS Proxy Ingestion| GHA
     CITT -->|RSS Proxy Ingestion| GHA
     SCC -->|RSS Proxy Ingestion| GHA
-    CTA -->|RSS Proxy Ingestion| GHA
+    CTA -->|RSS & Marine API Ingestion| GHA
     CGC -->|RSS Proxy Ingestion| GHA
+    ISED -->|Atom & RSS Ingestion| GHA
+    LMIA -->|CKAN CSV Ingestion| GHA
     CB -->|CKAN CSV Ingestion| GHA
 
     GHA -->|Batch Ingestion & Synthesis| LLM
@@ -113,12 +117,15 @@ generic_engine/
 ├── schema.py                   # Pydantic V2 configuration validator
 ├── extractors/
 │   ├── ckan.py                 # Direct CanadaBuys CKAN API database crawler
+│   ├── cta_marine.py           # Canadian Transportation Agency coasting trade / marine notice extractor
+│   ├── esdc_lmia.py            # Open Government CKAN Positive LMIA quarterly dataset extractor
 │   ├── rss.py                  # Parses RSS/Atom news feeds
 │   └── report_scraper.py       # HTML semantic container report scraper
 └── api/
     ├── azure_client.py         # Azure Blob Storage client wrapper
     ├── gemini_client.py        # Gemini API interface with waterfall fallbacks
-    └── notifier.py             # Email digest SMTP transmitter & Discord alert client
+    ├── notifier.py             # Email digest SMTP transmitter & Discord alert client
+    └── profile_matcher.py      # Profile-aware B2B lead alert and co-bidding matcher
 
 configs/
 ├── trade_compliance.json       # Ingestion sources, search terms, and model parameters
@@ -138,12 +145,12 @@ scripts/
 
 ### 5.2 Configured Ingestion Sources and LLM Model
 The pipeline is configured via `configs/trade_compliance.json`:
-- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.5-flash-lite` $\rightarrow$ `gemma-4-31b-it`)
-- **Ingestion Sources:**
+- **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.7-flash` $\rightarrow$ `gemma-4-31b-it`)
+- **Ingestion Sources (`17 total`):**
   - `CBSA_News` (GC News API Atom)
   - `GAC_News` (GC News API Atom)
   - `CompetitionBureau_News` (GC News API Atom)
-  - `PublicSafety_ForcedLabour_News` (Google News RSS proxy)
+  - `PublicSafety_ForcedLabour_News` (GC News API Atom)
   - `CBSA_Customs_Notices` (Google News RSS proxy)
   - `CanadaGazette_Regulations` (Google News RSS proxy)
   - `TCS_Market_Intelligence` (Google News RSS proxy)
@@ -152,6 +159,11 @@ The pipeline is configured via `configs/trade_compliance.json`:
   - `CTA_Freight_News` (Google News RSS proxy)
   - `CGC_Grain_Export_News` (Google News RSS proxy)
   - `CanadaBuys_Logistics_Tenders` (CanadaBuys CKAN API)
+  - `CTA_Coasting_Trade_Notices` (CTA Marine Notices API extractor)
+  - `ISED_ICA_Investment_News` (GC News API Atom — Investment Canada Act notifications)
+  - `CRTC_Telecom_Decisions_News` (GC News API Atom — Telecom regulatory notices)
+  - `ESDC_LMIA_Positive_Approvals` (Open Government CKAN Positive LMIA dataset extractor)
+  - `IAAC_Major_Project_Notices` (Google News RSS proxy for Impact Assessment Agency notices)
 
 ---
 
@@ -163,15 +175,15 @@ The pipeline is configured via `configs/trade_compliance.json`:
 sequenceDiagram
     participant Runner as GitHub Actions Runner
     participant Azure as Azure Blob Storage
-    participant CKAN as CanadaBuys CKAN API
-    participant RSS as RSS/Atom news extractors
+    participant CKAN as CanadaBuys & ESDC LMIA CKAN APIs
+    participant RSS as RSS/Atom & CTA Marine Extractors
     participant LLM as Gemini API Cascade
     
     Runner->>Azure: Download processed_urls.json, trade_anchors.json & trade_insights.json
-    Runner->>CKAN: Query logistics tenders matching keywords
-    Runner->>RSS: Ingest RSS/Atom feeds from 11 trade sources
-    RSS-->>Runner: Return raw news items
-    CKAN-->>Runner: Return matching tender rows
+    Runner->>CKAN: Query logistics tenders & Positive LMIA datasets
+    Runner->>RSS: Ingest RSS/Atom & Marine API feeds from 15 trade sources
+    RSS-->>Runner: Return raw news items & vessel notices
+    CKAN-->>Runner: Return matching tender & LMIA rows
     Runner->>Runner: Pre-filter titles against keyword matrix
     Runner->>Runner: Unwrap Google News proxy redirect URLs
     Runner->>LLM: Cluster & deduplicate new articles
@@ -208,3 +220,11 @@ The pipeline executes dynamic output verification checks prior to cloud upload:
 - **Dedicated Pipeline Container (`trade-compliance-data`)**: Isolating trade compliance data into its own container prevents cache pollution across domain hubs.
 - **Disambiguated Acronym Keyword Boundaries**: Using exact word boundaries (`\b`) and explicit plural keywords prevents false-positive matches (e.g. preventing `CRA` from matching `crash`).
 - **Clean Executive Narrative Prompting**: Removing artificial header tags (`SO WHAT?`, `WEAKENS`, `BUILDS`) ensures outputs read as publication-grade executive briefs.
+
+---
+
+## 10. Skills Registry Governance
+
+The Canadian Trade & Supply Chain Compliance pipeline is fully decoupled under the central Skills Registry pattern:
+- **Skill Boundary**: The Skill boundary encompasses the configuration layer (`trade_compliance.json`, `trade_anchors.json`) defining the 17 scraper sources, disambiguated keyword pre-filters, and LLM system instruction rules. The Harness boundary governs validation, telemetry metrics collection, cloud synchronization, and dynamic email dispatch.
+- **Per-Skill Subscribers**: Audience records reside in `subscribers.json` inside the `trade-compliance-data` storage container, ensuring email distribution is strictly isolated per topic.
