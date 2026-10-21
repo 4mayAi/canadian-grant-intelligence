@@ -1,10 +1,10 @@
 {
-  "total_active": 10,
-  "new_today": 2,
-  "closing_this_week": 0,
+  "total_active": 13,
+  "new_today": 4,
+  "closing_this_week": 1,
   "top_category": "CanadaBuys / MERX",
-  "hero_hook": "Public Health Agency declares national measles outbreak officially over. 🇨🇦",
-  "generated_at": "2026-10-20T02:13:32.164354Z",
+  "hero_hook": "PHAC officially declares Canada's two-year measles outbreak over. 🩺",
+  "generated_at": "2026-10-21T02:32:53.039256Z",
   "macro_indicators": null,
   "skill_version": "1.0.0"
 }
