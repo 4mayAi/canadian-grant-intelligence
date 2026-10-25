@@ -1,10 +1,10 @@
 {
-  "total_active": 13,
-  "new_today": 5,
+  "total_active": 9,
+  "new_today": 0,
   "closing_this_week": 1,
-  "top_category": "bioRxiv Microbiology",
-  "hero_hook": "Advancing pathogen defenses through targeted microbiological breakthroughs. 🦠",
-  "generated_at": "2026-10-22T23:45:32.778685Z",
+  "top_category": "CanadaBuys / MERX",
+  "hero_hook": "Canada officially declares its two-year measles outbreak over. 🩺",
+  "generated_at": "2026-10-25T03:33:30.501419Z",
   "macro_indicators": null,
   "skill_version": "1.0.0"
 }
