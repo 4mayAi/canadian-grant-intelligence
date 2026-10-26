@@ -1,10 +1,10 @@
 {
-  "total_active": 20,
-  "new_today": 5,
+  "total_active": 16,
+  "new_today": 0,
   "closing_this_week": 0,
-  "top_category": "MiningWeekly Africa",
-  "hero_hook": "Ottawa invests $190M to fortify critical minerals and aluminum processing. 🇨🇦",
-  "generated_at": "2026-10-25T03:35:19.887646Z",
+  "top_category": "Mixed Sectors",
+  "hero_hook": "Ottawa's $190M critical minerals injection accelerates domestic processing security. 🇨🇦",
+  "generated_at": "2026-10-26T00:03:55.388533Z",
   "macro_indicators": null,
   "skill_version": "1.0.0"
 }
