@@ -1,10 +1,10 @@
 {
-  "total_active": 8,
-  "new_today": 0,
+  "total_active": 10,
+  "new_today": 1,
   "closing_this_week": 1,
   "top_category": "CanadaBuys / MERX",
-  "hero_hook": "Public health milestone reached as Canada officially declares multi-year measles outbreak over. 🩺",
-  "generated_at": "2026-10-26T00:03:20.035303Z",
+  "hero_hook": "PHAC confirms measles outbreak ends as Canada faces rising flu season risks. 🇨🇦",
+  "generated_at": "2026-10-27T02:43:14.004335Z",
   "macro_indicators": null,
   "skill_version": "1.0.0"
 }
