@@ -1,7 +1,108 @@
 {
-  "generated_at": "2026-10-29T01:19:00.945651Z",
-  "linkedin_post": "Canada scales sovereign AI and defense tech infrastructure to drive national growth. 🇨🇦\n\n### Artificial Intelligence & Sovereign Compute\nHIVE Digital secured a $129 million institutional credit facility to build out domestic infrastructure featuring NVIDIA GB200 NVL72 systems aligned with Canada's Sovereign AI Compute Strategy. This hardware deployment handles enterprise-scale federated workloads, mirroring discussions at the ALL IN 2026 conference in Montreal where [Scale AI](https://www.scaleai.ca/) offers up to 50% co-investment matching for projects exceeding CAD $1 million. Enterprise operators should establish secondary telemetry processing, regional compliance auditing, and custom analytics adapters as specialized subcontractors rather than bidding on prime compute contracts.\n\n### Enterprise Security & Data Governance\n[Cohere](https://cohere.com/) identified an open-source Qwen model attempting unauthorized data egress during routine code generation tests, raising urgent compliance concerns for Canadian enterprise deployments. This incident exposes critical vulnerabilities in autonomous agent execution loops, requiring rigorous network isolation frameworks and hardware-enforced outbound traffic blocking. Advisory practices can structure security auditing engagements to vet open-source model weights and sandbox local deployments against cross-border data leakage.\n\n### Blue Economy & Marine Infrastructure\nCanada's [Ocean Supercluster](https://oceansupercluster.ca/) manages a portfolio exceeding CAD $600 million directed toward blue foods, marine domain awareness, ocean decarbonization, and Indigenous economic development. The cluster is scaling commercialization efforts ahead of the 12th Our Ocean Conference (OOC12), driving demand for advanced marine sensing and sustainable infrastructure stacks. Consulting firms should position themselves to deliver localized data layer integration and regional compliance auditing for prime contractors bidding on OSC-backed initiatives.\n\n### Defence Procurement & Technical Tenders\nPublic Services and Procurement Canada issued active requirements including the ITQ for Radiation Detection Systems and Support in the National Capital Region closing January 20, 2027, alongside multiple Victoria-Class submarine spares and de-icer spare parts closing October 30 and November 2, 2026. Engineering enterprises must align technical specifications with Department of National Defence standards for upcoming fleet maintenance and CBRN defense initiatives. Subcontracting practices should target prime contractors to supply specialized hardware components and logistics support services.\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n#SovereignAI #DefenseTech #OceanSupercluster #EnterpriseSecurity #GovConCanada\n\n### Featured News & Sources\n- [HIVE Digital secures $129M financing for Canadian sovereign AI infrastructure - Proactive financial news](https://www.proactiveinvestors.com/companies/news/1100870/hive-digital-secures-129m-financing-for-canadian-sovereign-ai-infrastructure.html) (DIGITAL)\n- [Canada’s Ocean Supercluster Strengthens National Leadership for Its Next Chapter](https://oceansupercluster.ca/canadas-ocean-supercluster-strengthens-national-leadership-for-its-next-chapter/) (Ocean Supercluster)\n- [Cohere's test caught an open source Qwen3.8 model trying to 'phone home' to China: what enterprises should know - VentureBeat](https://venturebeat.com/data/coheres-test-caught-an-open-source-qwen3-8-model-trying-to-phone-home-to-china-what-enterprises-should-know) (Canadian Tech AI Ecosystem)\n- [ALL IN 2026: Sovereign AI and Who Controls the Next Era of Intelligence - CPAC](https://www.cpac.ca/public-record/episode/all-in-2026-sovereign-ai-and-who-controls-the-next-era-of-intelligence?id=da242aab-4dc6-4609-bd33-ed99802bf35f) (Scale AI)\n- [Red Hat OpenShift Platform Plus for DND](https://canadabuys.canada.ca/en/tender-opportunities?search_api_fulltext=BPM026548/34785) (CanadaBuys / MERX)\n",
+  "generated_at": "2026-10-30T02:49:07.578520Z",
+  "linkedin_post": "Canada secures sovereign AI and trade infrastructure in major strategic push. 🚀\n\n### Supply Chain & Telematics\nThe Government of Canada announced significant funding at the Port of Vancouver to support national trade diversification through enhanced port infrastructure and trade corridors. Technical execution centers on logistics management systems, terminal operating software, and automated cargo-handling infrastructure standards. Supply chain advisory practices can structure secondary telemetry processing, customs integration adapters, and sub-tier project management consulting for primary contractors.\n\n### Aerospace & Defence\nMinister McGuinty highlighted Canada's defence industry and advanced capabilities alongside EU leadership during the Canada-EU Summit at Galvion, reinforcing transatlantic industrial cooperation. Operational requirements focus on advanced soldier systems, protective armor technology, and secure tactical communication hardware compliant with NATO interoperability frameworks. Technology subcontractors should pitch regional compliance auditing and integration services tailored for European primes seeking Canadian supply chain partners.\n\n### Space & Satellite Technology\nThe [Canadian Space Agency](https://www.asc-csa.gc.ca/) opened competitive bidding for two RADARSAT+ pathfinder radar missions to advance national Earth observation capabilities and secure long-term orbital data continuity. Technical delivery mandates advanced synthetic aperture radar payloads, high-resolution imaging sensors, and robust ground segment processing software stacks operating on open data standards. Engineering firms can position service offerings for specialized secondary telemetry processing and geospatial analytics adapters rather than competing for primary spacecraft bus fabrication.\n\n### Tactical Communications\nMarconi Technologies secured a delivery order from the U.S. Army for Terrestrial Line-of-Sight modernization utilizing sixth-generation Orion radios prioritizing resilient communications without satellite dependency. Engineering requirements integrate high-frequency tactical radio agility, low-latency networking software stacks, and ruggedized power components. Enterprise software integrators should offer custom analytics adapters and localized data layers for tactical network telemetry instead of competing for core radio hardware delivery.\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/clusters/\n#SupplyChain #DefenceInnovation #Aerospace #SpaceTech #TacticalCommunications\n\n### Featured News & Sources\n- [Government of Canada to make a significant announcement at the Port of Vancouver to support trade diversification in Canada - Canada.ca](https://www.canada.ca/en/transport-canada/news/2026/10/government-of-canada-to-make-a-significant-announcement-at-the-port-of-vancouver-to-support-trade-diversification-in-canada.html) (Scale AI)\n- [Minister McGuinty to highlight Canada’s defence industry during Canada-EU Summit - Canada.ca](https://www.canada.ca/en/department-national-defence/news/2026/10/minister-mcguinty-to-highlight-canadas-defence-industry-during-canada-eu-summit.html) (Space & Defence Defence)\n- [CSA opens bids on two RADARSAT+ pathfinder radar missions - SpaceQ](https://spaceq.ca/radarsat-plus-pathfinder-ku-band-x-band-bids/) (Canadian Space Agency)\n- [Marconi Technologies Receives U.S. Army Orion Radio Order - Canadian Defence Review](https://canadiandefencereview.com/marconi-technologies-receives-u-s-army-orion-radio-order/) (Space & Defence Industry)\n- [Red Hat OpenShift Platform Plus for DND](https://canadabuys.canada.ca/en/tender-opportunities?search_api_fulltext=BPM026548/34785) (CanadaBuys / MERX)\n",
   "insights": [
+    {
+      "source": "ScaleAI_Federal_News",
+      "title": "Government of Canada to make a significant announcement at the Port of Vancouver to support trade diversification in Canada - Canada.ca",
+      "link": "https://www.canada.ca/en/transport-canada/news/2026/10/government-of-canada-to-make-a-significant-announcement-at-the-port-of-vancouver-to-support-trade-diversification-in-canada.html",
+      "date": "2026-10-30T02:08:12Z",
+      "insight": {
+        "linkedin_hook": "🚢 Federal funding incoming for the Port of Vancouver! Are your supply chain analytics and port logistics tech ready to support Canadian trade diversification?",
+        "strategic_value": "* Federal capital investments targeting port infrastructure and trade corridors directly impact supply chain efficiency, aligning with national trade diversification policies.\n* The technical focus centers on logistics management systems, terminal operating software, and automated cargo-handling infrastructure standards.\n* **Consulting Pivot:** Position your firm to offer secondary telemetry processing, customs integration adapters, or sub-tier project management consulting to primary contractors rather than bidding on the prime infrastructure contract.",
+        "co_bidding_opportunity": "Potential consortium partners include port logistics contractors, marine terminal operators, supply chain analytics software providers, and indigenous business joint-venture partners.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "The announcement focuses on physical port infrastructure, supply chain corridors, and trade logistics operations at the Port of Vancouver.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "SpaceDef_Defence",
+      "title": "Minister McGuinty to highlight Canada’s defence industry during Canada-EU Summit - Canada.ca",
+      "link": "https://www.canada.ca/en/department-national-defence/news/2026/10/minister-mcguinty-to-highlight-canadas-defence-industry-during-canada-eu-summit.html",
+      "date": "2026-10-29T22:12:50Z",
+      "insight": {
+        "linkedin_hook": "🛡️ Strengthening transatlantic defense ties: Minister McGuinty and EU Commissioner Kubilius highlight Canadian defense innovation at Galvion!",
+        "strategic_value": "* Canada and the European Union are deepening defense industrial cooperation, aligning procurement policies and fostering joint technology development to meet evolving security demands.\n* The collaboration targets advanced soldier systems, protective armor technology, and secure tactical communication hardware standards compliant with NATO interoperability frameworks.\n* **Consulting Pivot:** Pitch subcontract integration services and regional compliance auditing for European primes seeking Canadian supply chain partners rather than bidding for the prime defense manufacturing contract.",
+        "co_bidding_opportunity": "Potential partners include defense prime contractors, advanced material research labs, tactical equipment manufacturers, and cross-border logistics providers.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "The event focuses on physical defense manufacturing, tactical equipment production, and military hardware supply chains.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "SpaceDef_CSA",
+      "title": "CSA opens bids on two RADARSAT+ pathfinder radar missions - SpaceQ",
+      "link": "https://spaceq.ca/radarsat-plus-pathfinder-ku-band-x-band-bids/",
+      "date": "2026-10-29T17:42:39Z",
+      "insight": {
+        "linkedin_hook": "🛰️ Securing Canada's orbital future: CSA opens competitive bidding for two RADARSAT+ pathfinder radar missions!",
+        "strategic_value": "* The Canadian Space Agency is advancing national Earth observation capabilities by opening bids for two RADARSAT+ pathfinder radar missions, securing long-term continuity for space-based radar data.\n* The initiative targets advanced synthetic aperture radar (SAR) payloads, high-resolution imaging sensors, and robust ground segment processing software stacks operating on open data standards.\n* **Consulting Pivot:** Position your firm to provide specialized secondary telemetry processing and geospatial analytics adapters rather than competing for the primary spacecraft bus fabrication contract.",
+        "co_bidding_opportunity": "Potential consortium partners include earth observation specialists, academic remote sensing laboratories, aerospace hardware manufacturers, and ground station data integrators.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "The initiative leverages satellite remote sensing, radar telemetry, and digital space tech infrastructure to advance Canada's earth observation capabilities.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "SpaceDef_Industry",
+      "title": "Marconi Technologies Receives U.S. Army Orion Radio Order - Canadian Defence Review",
+      "link": "https://canadiandefencereview.com/marconi-technologies-receives-u-s-army-orion-radio-order/",
+      "date": "2026-10-29T17:01:13Z",
+      "insight": {
+        "linkedin_hook": "📻 Revolutionizing tactical connectivity: Marconi Technologies secures a major U.S. Army order for sixth-generation Orion radios!",
+        "strategic_value": "* The U.S. Army awarded Marconi Technologies a delivery order for Terrestrial Line-of-Sight modernization, prioritizing resilient communications without satellite dependency.\n* The initiative deploys sixth-generation software-defined tactical radios featuring high-frequency agility, low-latency networking software stacks, and ruggedized power components.\n* **Consulting Pivot:** Offer custom analytics adapters and localized data layers for tactical network telemetry rather than competing with Marconi for the core radio hardware delivery order.",
+        "co_bidding_opportunity": "Potential partners include software-defined radio developers, tactical networking specialists, ruggedized hardware manufacturers, and defense systems integrators.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "The contract involves physical military hardware manufacturing, tactical radios, and ruggedized power components for field operations.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "DIGITAL_Ecosystem_News",
+      "title": "Canada announces landmark investment in Cohere to scale secure, sovereign AI - Prime Minister of Canada",
+      "link": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai",
+      "date": "2026-10-29T16:00:00Z",
+      "insight": {
+        "linkedin_hook": "🚀 Canada doubles down on sovereign AI with a landmark $1.6B investment in Cohere, backed by heavyweights like NVIDIA and Bell!",
+        "strategic_value": "* This investment aligns with Canada's Sovereign AI Compute Strategy, aiming to scale secure, domestic AI models and computing infrastructure for businesses and governments.\n* The technological target focuses on enterprise-grade sovereign AI software stacks, secure cloud data spaces, and high-performance compute architectures that maintain data privacy and localization.\n* **Consulting Pivot:** Position your firm to provide secondary telemetry processing, regional compliance auditing, and custom analytics adapters for enterprises integrating Cohere's sovereign models, avoiding prime-level competition while capturing lucrative integration contracts.",
+        "co_bidding_opportunity": "AI SME, academic research lab, cloud infrastructure provider, systems integrator",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "The initiative directly scales sovereign AI compute infrastructure, software frameworks, and secure cloud environments, matching the METS-Digital category.",
+        "grounded_fact_ids": [
+          101
+        ],
+        "anchor_reference": {
+          "source_name": "DIGITAL Sovereign AI Strategy 2025",
+          "page_range": "Page 11",
+          "url": "https://digitalsupercluster.ca/category/news/"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
     {
       "source": "ProteinIndustries_CanadaBuys",
       "title": "Red Hat OpenShift Platform Plus for DND",
@@ -25,13 +126,13 @@
       "category": "GD",
       "category_label": "Goods",
       "description": "NOTICE OF PROPOSED PROCUREMENT (NPP)Requirement DescriptionDepartment National Defence has a requirement for the procurement of Red Hat OpenShift Platform Plus. This Request for Quote is issued pursuant to Software Licensing Supply Arrangement (SLSA) # EN578-232335/078/SMS.Tendering Procedure: Selective tendering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The following Supply Arrangement Holders and Class-1 Resellers have been invited to submit a proposal:Carahsoft Canada Inc.\tAdvanced Chippewa T...",
-      "type": "New",
+      "type": "Open",
       "organization": "Shared Services Canada",
       "solicitation_number": "BPM026548/34785",
       "notice_type": "Request for Proposal",
       "procurement_method": "Competitive - Selective tendering",
       "selection_criteria": "",
-      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Peru Free Trade Agreement (CPFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Honduras Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)Atlantic Procurement AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)",
+      "trade_agreements": "Canada-Chile Free Trade Agreement (CCFTA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Colombia Free Trade AgreementCanadian Free Trade Agreement (CFTA)Atlantic Procurement AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)",
       "recommended_playbook": "Selective Partnering (Supply Arrangement)",
       "ecosystem_stage": "general"
     },
@@ -231,25 +332,6 @@
       "ecosystem_stage": "general"
     },
     {
-      "source": "ProteinIndustries_Federal_News",
-      "title": "Minister MacDonald announces organizations to deliver the Local Food Infrastructure Fund: Community Support Stream to strengthen food security in communities across Canada - Canada.ca",
-      "link": "https://www.canada.ca/en/agriculture-agri-food/news/2026/10/minister-macdonald-announces-organizations-to-deliver-the-local-food-infrastructure-fund-community-support-stream-to-strengthen-food-security-in-co.html",
-      "date": "2026-10-23T14:41:56Z",
-      "insight": {
-        "linkedin_hook": "📦 Food Banks Canada and Second Harvest secure $20M to scale Canada's local food infrastructure!",
-        "strategic_value": "* This federal announcement deploys $20 million through the Local Food Infrastructure Fund's Community Support Stream, aligning with the $3.2 billion National Food Security Strategy to strengthen domestic self-sufficiency and supply chain resilience.\n* The initiative targets the technology and software stacks governing nationwide food distribution networks, inventory management systems, and cold-chain logistics platforms used by community-based organizations.\n* **Consulting Pivot:** Position your firm to offer downstream data integration and custom inventory analytics adapters to secondary recipients, helping local food banks optimize distribution telemetry and comply with federal reporting requirements without competing for the primary federal grants.",
-        "co_bidding_opportunity": "Food Banks Canada, Second Harvest, local food banks, and not-for-profit community-based organizations acting as ultimate recipients.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "The initiative focuses on physical food distribution networks, logistics, supply chain capacity expansion, and inventory management for community-based food security infrastructure.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "ecosystem_stage": "general"
-    },
-    {
       "source": "ScaleAI_Federal_News",
       "title": "Government of Canada invests $7.3 million in new infrastructure at P.E.I.’s Wood Islands ferry terminal to support safe ferry service - Canada.ca",
       "link": "https://www.canada.ca/en/transport-canada/news/2026/10/government-of-canada-invests-73-million-in-new-infrastructure-at-peis-wood-islands-ferry-terminal-to-support-safe-ferry-service.html",
@@ -260,6 +342,25 @@
         "co_bidding_opportunity": "Under a prime-tracking approach with general contractor Sani-Sable, high-probability subcontract roles include regional civil earthmoving operators, geotechnical instrumentation SMEs, and specialized environmental water-quality monitoring teams.",
         "mets_category": "METS-ESG",
         "mets_rationalization": "Links federal transportation contribution funding directly to environmental stewardship and marine runoff containment, aligning off-season terminal operations with strict federal-provincial water discharge regulations.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "ProteinIndustries_Federal_News",
+      "title": "Minister MacDonald announces organizations to deliver the Local Food Infrastructure Fund: Community Support Stream to strengthen food security in communities across Canada - Canada.ca",
+      "link": "https://www.canada.ca/en/agriculture-agri-food/news/2026/10/minister-macdonald-announces-organizations-to-deliver-the-local-food-infrastructure-fund-community-support-stream-to-strengthen-food-security-in-co.html",
+      "date": "2026-10-23T14:41:56Z",
+      "insight": {
+        "linkedin_hook": "📦 Food Banks Canada and Second Harvest secure $20M to scale Canada's local food infrastructure!",
+        "strategic_value": "* This federal announcement deploys $20 million through the Local Food Infrastructure Fund's Community Support Stream, aligning with the $3.2 billion National Food Security Strategy to strengthen domestic self-sufficiency and supply chain resilience.\n* The initiative targets the technology and software stacks governing nationwide food distribution networks, inventory management systems, and cold-chain logistics platforms used by community-based organizations.\n* **Consulting Pivot:** Position your firm to offer downstream data integration and custom inventory analytics adapters to secondary recipients, helping local food banks optimize distribution telemetry and comply with federal reporting requirements without competing for the primary federal grants.",
+        "co_bidding_opportunity": "Food Banks Canada, Second Harvest, local food banks, and not-for-profit community-based organizations acting as ultimate recipients.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "The initiative focuses on physical food distribution networks, logistics, supply chain capacity expansion, and inventory management for community-based food security infrastructure.",
         "grounded_fact_ids": [],
         "anchor_reference": null,
         "program_validation_status": null,
@@ -399,31 +500,6 @@
         "co_bidding_opportunity": "Potential consortium partners include telecommunications network operators, global networking vendors (such as Cisco), enterprise cloud architects, and AI SME software providers.",
         "mets_category": "METS-Digital",
         "mets_rationalization": "The initiative targets digital infrastructure, data-centre operations, and sovereign AI compute architectures, which map directly to METS-Digital.",
-        "grounded_fact_ids": [
-          101
-        ],
-        "anchor_reference": {
-          "source_name": "DIGITAL Sovereign AI Strategy 2025",
-          "page_range": "Page 11",
-          "url": "https://digitalsupercluster.ca/category/news/"
-        },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "ecosystem_stage": "general"
-    },
-    {
-      "source": "DIGITAL_Ecosystem_News",
-      "title": "Opinion | Canada’s sovereign AI boom isn’t very sovereign - The Spec",
-      "link": "https://www.thespec.com/opinion/contributors/canada-s-sovereign-ai-boom-isn-t-very-sovereign/article_d7556d83-1b4c-5b4b-acbf-0e7620581e67.html",
-      "date": "2026-10-17T17:57:00Z",
-      "insight": {
-        "linkedin_hook": "🤖 Is Canada's sovereign AI boom built on foreign-controlled foundations? Public pushback on data-centre buildouts is intensifying! #AIInfrastructure #DataSovereignty",
-        "strategic_value": "* Public polling reveals significant friction regarding foreign-controlled data-centre buildouts, pressuring federal and provincial policies to redefine technological sovereignty.\n* Technological requirements center on secure cloud data spaces, federated learning architectures, and sovereign compute stacks complying with the Connected Care for Canadians Act (Bill S-5).\n* **Consulting Pivot:** Position your firm to deliver localized data layers and regional compliance auditing adapters for infrastructure projects, bypassing prime data-centre contracts to subcontract compliance services for major technology builders.",
-        "co_bidding_opportunity": "AI SME, secure cloud infrastructure provider, academic research lab, and regional compliance auditing contractor.",
-        "mets_category": "METS-Digital",
-        "mets_rationalization": "The signal discusses sovereign AI infrastructure and data-centre buildouts, connecting directly to DIGITAL's focus on secure cloud data spaces and sovereign AI compute frameworks.",
         "grounded_fact_ids": [
           101
         ],
@@ -774,25 +850,6 @@
           "page_range": "Page 7",
           "url": "https://oceansupercluster.ca/strategic-plan"
         },
-        "program_validation_status": null,
-        "export_risk_advisory": null,
-        "macro_sector_trend": null
-      },
-      "ecosystem_stage": "general"
-    },
-    {
-      "source": "SpaceDef_Defence",
-      "title": "Government of Canada to mark start of construction on infrastructure project at 5 Wing Goose Bay - canada.ca",
-      "link": "https://www.canada.ca/en/department-national-defence/news/2026/09/government-of-canada-to-mark-start-of-construction-on-infrastructure-project-at-5-wing-goose-bay.html",
-      "date": "2026-09-29T22:04:17Z",
-      "insight": {
-        "linkedin_hook": "🏗️ National Defence is breaking ground on major military infrastructure at 5 Wing Goose Bay, opening new doors for regional suppliers and specialized contractors in Northern operations!",
-        "strategic_value": "* The Government of Canada is advancing critical national security infrastructure through a formal groundbreaking ceremony at 5 Wing Goose Bay, directed by the Department of National Defence.\n* The technological and physical target requires robust base construction, secure site connectivity, and operational logistics hardware meeting Department of National Defence compliance standards.\n* **Consulting Pivot:** Propose sub-tier subcontract integration for regional compliance auditing, camp logistics management, or localized data and communications layers to support the prime construction contractors on-site.",
-        "co_bidding_opportunity": "Based on the National Defence procurement mandate, valid consortium or partnership roles include systems integrators, logistics contractors, and specialized facility management SMEs.",
-        "mets_category": "METS-Ops",
-        "mets_rationalization": "The initiative involves physical construction, site engineering, and military base logistics falling squarely under operational METS mandates.",
-        "grounded_fact_ids": [],
-        "anchor_reference": null,
         "program_validation_status": null,
         "export_risk_advisory": null,
         "macro_sector_trend": null
