@@ -282,6 +282,8 @@ class GeminiClient:
         
         CRITICAL: If the content is just a routine schedule, placeholder, or completely lacks relevance to the topic, you MUST set the strategic_value field EXACTLY to "No insight available". Do not write anything else in that field. Note that scientific preprints and public health updates relevant to the topic (microbiology, pathogens, outbreaks, AMR) DO have strategic value as research/simulation signals and should NOT be marked as "No insight available".
         
+        CRITICAL EVENT FIDELITY & MILESTONES: Your analysis, hook, and strategic value MUST accurately reflect the specific real-world event announced in the headline and source text. When an item announces an executive or leadership appointment (e.g. CEO, Chair, Board Member, executive hire), a regulatory notice, or an operationalization milestone for an established organization, agency, or fund, you MUST report the appointment or operational milestone accurately. NEVER state, imply, or hallucinate that the entity, fund, program, or legislation was newly launched, established, or mandated if it already exists or if only leadership/governance is being announced.
+        
         Each JSON object in the array must have exactly these six keys. For "strategic_value" and "co_bidding_opportunity", use markdown formatting inside the string:
         "linkedin_hook": "A 'Stop-the-scroll' high-impact opening line (include an emoji).",
         "strategic_value": "Consultative analysis of why this matters. It MUST be a markdown list containing EXACTLY three bullet points. The third bullet point MUST start with the exact prefix '* **Consulting Pivot:** ' and propose an actionable B2B engagement angle.",
@@ -470,6 +472,7 @@ class GeminiClient:
         - Tone: Authoritative, crisp, Financial Times / Bloomberg executive style.
         - Factual Rigor & Temporal Accuracy: Only reference names, figures, and timeframes explicitly mentioned in the context below. Do not fabricate hashtags for organizations not mentioned. NEVER describe historical baseline years or past statistics (e.g., prior year trade numbers like 2025) as future target dates or deadlines. Always frame historical figures as past baseline achievements (e.g., 'building on the $2 billion benchmark set in 2025').
         - CRITICAL TEMPORAL ANCHOR RULE: If the context below includes statutory anchors or active regulatory frameworks (e.g. CARM RPP bonding, CUSMA 2026 rules, or Bill C-35), treat them strictly as active background operating baselines. NEVER state that an established baseline framework was 'mandated' or 'launched' today. Lead paragraph 1 directly with the single newest 24-hour news event or tender.
+        - EVENT FIDELITY & LEADERSHIP MILESTONES: When an update announces an executive or leadership appointment (e.g., CEO, Chair, Board appointment) or operational milestone for an existing fund, organization, or initiative, state the appointment and its operational mandate accurately. NEVER state or imply that the fund, entity, or initiative was newly 'launched' or 'established' today.
         
         You MUST respond with a raw JSON object and nothing else.
         Format:

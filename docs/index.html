@@ -241,7 +241,8 @@
                 let res = null;
                 if (currentDate === 'latest') {
                     try {
-                        res = await fetch('data/kpis.json');
+                        res = await fetch('data/canadian-grants/kpis.json');
+                        if (!res || !res.ok) res = await fetch('data/kpis.json');
                     } catch {
                         res = null;
                     }
@@ -303,7 +304,8 @@
                 // Try local first for testing (only on 'latest' currentDate)
                 if (currentDate === 'latest') {
                     try {
-                        res = await fetch('data/tenders.json');
+                        res = await fetch('data/canadian-grants/tenders.json');
+                        if (!res || !res.ok) res = await fetch('data/tenders.json');
                     } catch {
                         res = null;
                     }
@@ -548,7 +550,8 @@
                 let res = null;
                 if (currentDate === 'latest') {
                     try {
-                        res = await fetch('data/pmo_insights.json');
+                        res = await fetch('data/canadian-grants/pmo_insights.json');
+                        if (!res || !res.ok) res = await fetch('data/pmo_insights.json');
                     } catch {
                         res = null;
                     }
