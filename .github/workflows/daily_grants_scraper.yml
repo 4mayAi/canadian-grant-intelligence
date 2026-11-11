@@ -21,6 +21,11 @@ on:
         required: false
         default: '7'
         type: string
+      pre_run_script:
+        description: 'Optional pre-run script command (e.g. scripts/validators/invalidate_cached_urls.py ...)'
+        required: false
+        default: ''
+        type: string
 
 permissions:
   contents: write
@@ -33,4 +38,5 @@ jobs:
       lookback_days: ${{ github.event.inputs.lookback_days || '7' }}
       run_type: ${{ github.event.inputs.run_type || 'DEEP_DIVE' }}
       run_prune: ${{ github.event.schedule != '' && contains(github.event.schedule, '0 22 * * 0') }}
+      pre_run_script: ${{ github.event.inputs.pre_run_script || '' }}
     secrets: inherit
