@@ -10,6 +10,11 @@ on:
         required: false
         default: '30'
         type: string
+      pre_run_script:
+        description: 'Optional pre-run validation or cache invalidation script'
+        required: false
+        default: ''
+        type: string
 
 permissions:
   contents: write
@@ -22,4 +27,5 @@ jobs:
       lookback_days: ${{ github.event.inputs.lookback_days || '30' }}
       run_type: 'deep_dive'
       run_prune: ${{ github.event.schedule != '' && contains(github.event.schedule, '0 17 * * 0') }}
+      pre_run_script: ${{ github.event.inputs.pre_run_script || '' }}
     secrets: inherit

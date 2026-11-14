@@ -3,83 +3,119 @@
   "display_name": "Global Payments & Settlement Intelligence",
   "dashboard_url": "https://4mayAi.github.io/canadian-grant-intelligence/payments/",
   "max_items_per_source": 5,
+  "max_items_per_source_on_dashboard": 4,
+  "max_items_per_hub": 5,
   "sources": [
     {
       "name": "Canada_Payments_News",
-      "url": "https://news.google.com/rss/search?q=%22ISO+20022%22+OR+%22SWIFT+payment%22+OR+%22SWIFT+network%22+OR+%22SWIFT+system%22+OR+%22cross-border+payments%22+site:ca&hl=en-CA&gl=CA&ceid=CA:en",
+      "url": "https://news.google.com/rss/search?q=%28%22Payments+Canada%22+OR+%22Real-Time+Rail%22+OR+%22ISO+20022%22+OR+%22SWIFT+payment%22+OR+%22SWIFT+network%22+OR+%22cross-border+payments%22+OR+%22RPAA%22+OR+%22Retail+Payment+Activities+Act%22+OR+%22Lynx+payment%22%29+site:ca&hl=en-CA&gl=CA&ceid=CA:en",
       "type": "rss",
+      "hub": "Canada",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Payments_Canada_Official",
+      "url": "https://news.google.com/rss/search?q=site:payments.ca+%22Real-Time+Rail%22+OR+%22RTR%22+OR+%22Lynx%22+OR+%22ISO+20022%22+OR+%22RPAA%22&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "Canada",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Bank_of_Canada_Payments",
+      "url": "https://news.google.com/rss/search?q=site:bankofcanada.ca+%22Real-Time+Rail%22+OR+%22RTR%22+OR+%22RPAA%22+OR+%22Retail+Payment%22+OR+%22Lynx%22+OR+%22prominent+payment+system%22&hl=en-CA&gl=CA&ceid=CA:en",
+      "type": "rss",
+      "hub": "Canada",
       "skip_query_refactoring": true
     },
     {
       "name": "Australia_Payments_News",
-      "url": "https://news.google.com/rss/search?q=%22NPP%22+OR+%22cross-border+payments%22+OR+%22ISO+20022%22+site:au&hl=en-AU&gl=AU&ceid=AU:en",
+      "url": "https://news.google.com/rss/search?q=%22NPP%22+OR+%22PayTo%22+OR+%22cross-border+payments%22+OR+%22ISO+20022%22+site:au&hl=en-AU&gl=AU&ceid=AU:en",
       "type": "rss",
+      "hub": "Australia",
       "skip_query_refactoring": true
     },
     {
       "name": "China_Payments_News",
-      "url": "https://news.google.com/rss/search?q=%22CIPS%22+OR+%22cross-border+payments%22+OR+%22digital+yuan%22+OR+%22e-CNY%22+site:cn+OR+site:hk&hl=en-US&gl=US&ceid=US:en",
+      "url": "https://news.google.com/rss/search?q=%22CIPS%22+OR+%22cross-border+payments%22+OR+%22digital+yuan%22+OR+%22e-CNY%22+OR+%22Project+Ensemble%22+site:cn+OR+site:hk&hl=en-US&gl=US&ceid=US:en",
       "type": "rss",
+      "hub": "China",
       "skip_query_refactoring": true
     },
     {
       "name": "China_Chinese_Payments_News",
-      "url": "https://news.google.com/rss/search?q=%22CIPS%22+OR+%22%E8%B7%A8%E5%A2%83%E6%94%AF%E4%BB%98%22+OR+%22%E6%95%B0%E5%AD%97%E4%BA%BA%E6%B0%91%E5%B8%81%22+OR+%22e-CNY%22&hl=zh-CN&gl=CN&ceid=CN:zh-CN",
+      "url": "https://news.google.com/rss/search?q=%22CIPS%22+OR+%22%E8%B7%A8%E5%A2%83%E6%94%AF%E4%BB%98%22+OR+%22%E6%95%B0%E5%AD%97%E4%BA%BA%E6%B0%91%E5%B8%81%22+OR+%22e-CNY%22+OR+%22%E6%95%B0%E5%B8%81%E8%BE%BE%22&hl=zh-CN&gl=CN&ceid=CN:zh-CN",
       "type": "rss",
+      "hub": "China",
       "skip_query_refactoring": true
     },
     {
       "name": "Switzerland_Payments_News",
-      "url": "https://news.google.com/rss/search?q=Glencore+OR+Trafigura+%22trade+finance%22+OR+%22letters+of+credit%22+OR+%22commodity+settlement%22+site:ch&hl=en-US&gl=US&ceid=US:en",
+      "url": "https://news.google.com/rss/search?q=%28%22Swiss+National+Bank%22+OR+%22SIX+Group%22+OR+%22Project+Helvetia%22+OR+Glencore+OR+Trafigura%29+%28%22CBDC%22+OR+%22settlement%22+OR+%22payments%22+OR+%22trade+finance%22+OR+%22letters+of+credit%22%29&hl=en-US&gl=US&ceid=US:en",
       "type": "rss",
+      "hub": "Switzerland",
       "skip_query_refactoring": true
     },
     {
       "name": "Switzerland_French_Payments_News",
       "url": "https://news.google.com/rss/search?q=%22financement+du+commerce%22+OR+%22lettre+de+cr%C3%A9dit%22+OR+%22r%C3%A8glement+des+transactions%22+OR+%22financement+des+exportations%22+site:ch&hl=fr&gl=CH&ceid=CH:fr",
       "type": "rss",
+      "hub": "Switzerland",
       "skip_query_refactoring": true
     },
     {
       "name": "Switzerland_German_Payments_News",
       "url": "https://news.google.com/rss/search?q=%22Handelsfinanzierung%22+OR+%22Akkreditiv%22+OR+%22Zahlungsabwicklung%22+OR+%22Exportfinanzierung%22+site:ch&hl=de&gl=CH&ceid=CH:de",
       "type": "rss",
+      "hub": "Switzerland",
       "skip_query_refactoring": true
     },
     {
       "name": "UK_Payments_News",
-      "url": "https://news.google.com/rss/search?q=%22CHIPS+clearing%22+OR+%22CHIPS+payment%22+OR+%22CHIPS+system%22+OR+%22SWIFT+payment%22+OR+%22SWIFT+network%22+OR+%22SWIFT+system%22+OR+%22cross-border+payments%22+site:uk&hl=en-GB&gl=GB&ceid=GB:en",
+      "url": "https://news.google.com/rss/search?q=%22CHIPS+clearing%22+OR+%22CHIPS+payment%22+OR+%22CHAPS%22+OR+%22SWIFT+payment%22+OR+%22SWIFT+network%22+OR+%22SWIFT+system%22+OR+%22cross-border+payments%22+site:uk&hl=en-GB&gl=GB&ceid=GB:en",
       "type": "rss",
-      "skip_query_refactoring": true
-    },
-    {
-      "name": "Global_Payments_News",
-      "url": "https://news.google.com/rss/search?q=%22mBridge%22+OR+%22wholesale+CBDC%22+OR+%22correspondent+banking%22+OR+%22bank+de-risking%22+OR+%22correspondent+de-risking%22+OR+%22swap+lines%22&hl=en-US&gl=US&ceid=US:en",
-      "type": "rss",
-      "skip_query_refactoring": true
-    },
-    {
-      "name": "BIS_Official_Press",
-      "url": "https://news.google.com/rss/search?q=site:bis.org+%22payments%22+OR+%22CBDC%22+OR+%22mBridge%22+OR+%22settlement%22&hl=en-US&gl=US&ceid=US:en",
-      "type": "rss",
-      "skip_query_refactoring": true
-    },
-    {
-      "name": "Federal_Reserve_Payments",
-      "url": "https://news.google.com/rss/search?q=site:federalreserve.gov+%22FedNow%22+OR+%22Fedwire%22+OR+%22CBDC%22+OR+%22payments%22&hl=en-US&gl=US&ceid=US:en",
-      "type": "rss",
+      "hub": "UK",
       "skip_query_refactoring": true
     },
     {
       "name": "Bank_of_England_CHAPS",
-      "url": "https://news.google.com/rss/search?q=site:bankofengland.co.uk+%22CHAPS%22+OR+%22ISO+20022%22+OR+%22wholesale+CBDC%22&hl=en-GB&gl=GB&ceid=GB:en",
+      "url": "https://news.google.com/rss/search?q=site:bankofengland.co.uk+%22CHAPS%22+OR+%22RTGS%22+OR+%22ISO+20022%22+OR+%22wholesale+CBDC%22+OR+%22tokenised+collateral%22+OR+%22Payments+Infrastructure%22&hl=en-GB&gl=GB&ceid=GB:en",
       "type": "rss",
+      "hub": "UK",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Global_Payments_News",
+      "url": "https://news.google.com/rss/search?q=%22mBridge%22+OR+%22wholesale+CBDC%22+OR+%22correspondent+banking%22+OR+%22bank+de-risking%22+OR+%22correspondent+de-risking%22+OR+%22swap+lines%22+OR+%22Project+Agor%C3%A1%22+OR+%22Project+Nexus%22+OR+%22GENIUS+Act%22+OR+%22BRICS+Pay%22&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "hub": "Global",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "BIS_Official_Press",
+      "url": "https://news.google.com/rss/search?q=site:bis.org+%22payments%22+OR+%22CBDC%22+OR+%22mBridge%22+OR+%22settlement%22+OR+%22Agor%C3%A1%22+OR+%22Nexus%22&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "hub": "Global",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "Federal_Reserve_Payments",
+      "url": "https://news.google.com/rss/search?q=site:federalreserve.gov+%22FedNow%22+OR+%22Fedwire%22+OR+%22CBDC%22+OR+%22payments%22+OR+%22stablecoin%22&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "hub": "Global",
+      "skip_query_refactoring": true
+    },
+    {
+      "name": "ECB_Eurosystem_Payments",
+      "url": "https://news.google.com/rss/search?q=site:ecb.europa.eu+%22digital+euro%22+OR+%22TARGET+Instant+Payment%22+OR+%22TIPS%22+OR+%22wholesale+CBDC%22+OR+%22T2%22&hl=en-GB&gl=GB&ceid=GB:en",
+      "type": "rss",
+      "hub": "Global",
       "skip_query_refactoring": true
     },
     {
       "name": "SWIFT_Official_News",
-      "url": "https://news.google.com/rss/search?q=site:swift.com+%22ISO+20022%22+OR+%22Swift+GO%22+OR+%22gpi%22+OR+%22CBDC%22&hl=en-US&gl=US&ceid=US:en",
+      "url": "https://news.google.com/rss/search?q=site:swift.com+%22ISO+20022%22+OR+%22Swift+GO%22+OR+%22gpi%22+OR+%22CBDC%22+OR+%22CBPR%2B%22+OR+%22tokenized%22&hl=en-US&gl=US&ceid=US:en",
       "type": "rss",
+      "hub": "Global",
       "skip_query_refactoring": true
     }
   ],
@@ -91,6 +127,13 @@
     "careers",
     "relationship manager",
     "business development manager",
+    "head of marketing",
+    "head of sales",
+    "head of procurement",
+    "specialist, cash",
+    "offres-emplois",
+    "stellenangebote",
+    "ctgoodjobs",
     "apply now",
     "casino",
     "gambling",
@@ -103,6 +146,46 @@
     "mBridge",
     "CIPS",
     "SWIFT",
+    "Payments Canada",
+    "Real-Time Rail",
+    "RTR",
+    "RTRs",
+    "Lynx",
+    "RPAA",
+    "RPAAs",
+    "Retail Payment Activities Act",
+    "prominent payment system",
+    "Confirmation of Payee",
+    "NPP",
+    "NPPs",
+    "PayTo",
+    "CHAPS",
+    "RTGS",
+    "FedNow",
+    "Fedwire",
+    "TIPS",
+    "TARGET Instant Payment",
+    "SEPA Instant",
+    "digital euro",
+    "Project Agorá",
+    "Project Agora",
+    "Project Nexus",
+    "Nexus Global Payments",
+    "Project Ensemble",
+    "Project Helvetia",
+    "BRICS Pay",
+    "BRICS Bridge",
+    "GENIUS Act",
+    "stablecoin",
+    "stablecoins",
+    "tokenized deposit",
+    "tokenized deposits",
+    "tokenised deposit",
+    "tokenised deposits",
+    "tokenized collateral",
+    "tokenised collateral",
+    "CBPR+",
+    "e-CNY",
     "cross-border payments",
     "correspondent banking",
     "bank de-risking",
@@ -113,6 +196,11 @@
     "swap lines",
     "clearing",
     "settlement",
+    "instant payment",
+    "instant payments",
+    "real-time payment",
+    "real-time payments",
+    "retail payments infrastructure",
     "digital yuan",
     "CBDC",
     "CBDCs",
@@ -120,12 +208,35 @@
     "MOUs",
     "Double Taxation Agreement",
     "FIPA",
-    "FIPAs"
+    "FIPAs",
+    "跨境支付",
+    "数字人民币",
+    "数币达",
+    "financement du commerce",
+    "lettre de crédit",
+    "règlement des transactions",
+    "financement des exportations",
+    "Handelsfinanzierung",
+    "Akkreditiv",
+    "Zahlungsabwicklung",
+    "Exportfinanzierung"
   ],
   "high_value_keywords": [
     "ISO 20022",
     "mBridge",
     "CIPS",
+    "Payments Canada",
+    "Real-Time Rail",
+    "RTR",
+    "RTRs",
+    "Lynx",
+    "RPAA",
+    "RPAAs",
+    "Project Agorá",
+    "Project Nexus",
+    "GENIUS Act",
+    "BRICS Pay",
+    "digital euro",
     "swap lines",
     "correspondent banking",
     "bank de-risking",
@@ -140,15 +251,21 @@
     "SWIFT": "[SWIFT](https://www.swift.com/)",
     "BIS": "[Bank for International Settlements](https://www.bis.org/)",
     "mBridge": "[Project mBridge](https://www.bis.org/about/bisih/topics/cbdc/mcbdc.htm)",
+    "Project Agorá": "[Project Agorá](https://www.bis.org/about/bisih/topics/cbdc/agora.htm)",
+    "Project Nexus": "[Project Nexus](https://www.bis.org/about/bisih/topics/fmis/nexus.htm)",
+    "Payments Canada": "[Payments Canada](https://www.payments.ca/)",
+    "Real-Time Rail": "[Real-Time Rail](https://www.payments.ca/systems-services/payment-systems/real-time-rail-payment-system)",
+    "Bank of Canada": "[Bank of Canada](https://www.bankofcanada.ca/)",
     "Federal Reserve": "[Federal Reserve](https://www.federalreserve.gov/)",
+    "Bank of England": "[Bank of England](https://www.bankofengland.co.uk/)",
     "CIPS": "[CIPS](https://www.cips.com.cn/en/)"
   },
   "classification_categories": {
-    "Standards": "ISO 20022 messaging, clearing standards, legal compliance frameworks.",
-    "Sovereign Rails": "Project mBridge, wholesale CBDCs, clearing house integrations, sovereign rail networks.",
-    "Correspondent Networks": "Cross-border payment clearing, de-risking, banking partnerships.",
-    "Trade Finance": "Letters of credit, supply chain finance, commodity trade settlement.",
-    "Liquidity Valves": "Swap lines, currency valves, liquidity injection pools."
+    "Standards": "ISO 20022 messaging, CBPR+ structured address rules, RPAA & GENIUS Act regulatory compliance frameworks, Confirmation of Payee fraud standards.",
+    "Sovereign Rails": "Payments Canada Real-Time Rail (RTR) & Lynx, Project mBridge, Project Agorá, Project Nexus, CIPS, FedNow/Fedwire, CHAPS/RTGS, digital euro, and wholesale CBDCs.",
+    "Correspondent Networks": "Cross-border payment clearing, bank de-risking, non-bank PSP direct clearing access, regulated stablecoin settlement rails, and banking partnerships.",
+    "Trade Finance": "Letters of credit, supply chain finance, programmable e-CNY smart contracts, and commodity trade settlement.",
+    "Liquidity Valves": "Central bank swap lines, tokenized collateral in central clearing, 24/7 intraday liquidity pools, and offshore currency valves."
   },
   "llm_settings": {
     "model_primary": "gemini-flash-latest",
@@ -158,7 +275,7 @@
       "gemini-3.7-flash",
       "gemma-4-31b-it"
     ],
-    "system_instruction": "You are a senior financial analyst and transaction banking specialist. Synthesize cross-border payment news releases into strategic B2B hooks focusing on settlement infrastructure, correspondent banking networks, ISO 20022 messaging, wholesale settlement platforms (mBridge, CBDCs), and trade finance compliance. Present insights as prospective B2B recommendation spaces or technical opportunities rather than claiming they are achieved facts unless explicitly stated in the source text. Note that some source articles (such as Swiss or Chinese feeds) may be in French, German, or Chinese; you must translate them to English before synthesizing and writing the insights. Format the 'strategic_value' field as a markdown list containing exactly three bullet points, where the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** '."
+    "system_instruction": "You are a senior financial analyst and transaction banking specialist. Synthesize domestic and cross-border payment news releases into strategic B2B hooks focusing on national and cross-border settlement infrastructure (e.g. Payments Canada Real-Time Rail and Lynx, FedNow/Fedwire, CHAPS/RTGS, CIPS, SIC5, NPP), regulatory access frameworks (e.g. Canada's Retail Payment Activities Act / RPAA, US GENIUS Act for payment stablecoins), correspondent banking networks, ISO 20022 / CBPR+ messaging, multilateral wholesale & instant platforms (Project mBridge, Project Agorá, Project Nexus, Project Ensemble, Project Helvetia, BRICS Pay, digital euro), and trade finance compliance. Present insights as prospective B2B recommendation spaces or technical opportunities rather than claiming they are achieved facts unless explicitly stated in the source text. Note that some source articles (such as Swiss or Chinese feeds) may be in French, German, or Chinese; you must translate them to English before synthesizing and writing the insights. Format the 'strategic_value' field as a markdown list containing exactly three bullet points, where the third bullet point MUST start with the exact prefix '* **Consulting Pivot:** '."
   },
   "storage": {
     "azure_container": "payments-data",

@@ -297,7 +297,14 @@ def fetch_and_process_news(
         if existing_insights and "insights" in existing_insights:
             for item in existing_insights["insights"]:
                 ins_val = item.get("insight", {})
-                if ins_val.get("strategic_value") == "No insight available":
+                strat_val = str(ins_val.get("strategic_value") or "").strip()
+                if (
+                    not strat_val
+                    or strat_val == "No insight available"
+                    or strat_val.startswith("Gemini API Error")
+                    or strat_val.startswith("Insight generation failed")
+                ):
+                    logging.info(f"Skipping failed/empty cached insight so it can be re-evaluated: {item.get('title')}")
                     continue
                 
                 # Prune tenders closed more than 30 days ago
@@ -658,10 +665,20 @@ def fetch_and_process_news(
             )
             
             for item, insight_model in zip(batch, insight_models):
+                strat_str = str(insight_model.strategic_value or "").strip()
+                is_failed_insight = (
+                    not strat_str
+                    or strat_str.startswith("Gemini API Error")
+                    or strat_str.startswith("Insight generation failed")
+                )
+                if is_failed_insight:
+                    logging.warning(f"Skipping failed/blocked insight without caching URL so it retries next run: {item['title']}")
+                    continue
+
                 processed_urls.add(item['link'])
                 
                 # Relevancy Filtering: If Gemini returned "No insight available", discard the item
-                if insight_model.strategic_value == "No insight available":
+                if strat_str == "No insight available":
                     logging.info(f"Discarding irrelevant/low-value news item: {item['title']}")
                     continue
 

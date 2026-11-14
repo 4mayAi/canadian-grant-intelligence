@@ -130,20 +130,23 @@ docs/
 ### 5.2 Configured Ingestion Sources and LLM Model
 The pipeline is configured via `configs/global_payments.json` with the following parameters:
 - **Primary LLM Model:** `gemini-flash-latest` (Fallback chain: `gemini-flash-lite-latest` $\rightarrow$ `gemini-3.8-flash` $\rightarrow$ `gemini-3.7-flash` $\rightarrow$ `gemma-4-31b-it`)
-- **Ingestion Sources (`13 total`):**
-  - `Canada_Payments_News` (Canada Payments News Feed)
-  - `Australia_Payments_News` (Australia Payments News Feed)
-  - `China_Payments_News` (China Payments News Feed)
-  - `China_Chinese_Payments_News` (China Chinese-language Payments News Feed)
-  - `Switzerland_Payments_News` (Swiss Payments News Feed)
-  - `Switzerland_French_Payments_News` (Swiss French-language Payments News Feed)
-  - `Switzerland_German_Payments_News` (Swiss German-language Payments News Feed)
-  - `UK_Payments_News` (UK Payments News Feed)
-  - `Global_Payments_News` (Global Payments News Feed)
-  - `BIS_Official_Press` (Bank for International Settlements CBDC, mBridge & Settlement Feed)
-  - `Federal_Reserve_Payments` (US Federal Reserve FedNow, Fedwire & Payments Feed)
-  - `Bank_of_England_CHAPS` (Bank of England CHAPS, ISO 20022 & Wholesale CBDC Feed)
-  - `SWIFT_Official_News` (SWIFT Official ISO 20022, Swift GO & gpi Feed)
+- **Ingestion Sources (`16 total`):**
+  - `Canada_Payments_News` (Canada Payments, Real-Time Rail, Lynx & RPAA News Feed)
+  - `Payments_Canada_Official` (Payments Canada Official Real-Time Rail, Lynx & ISO 20022 Feed)
+  - `Bank_of_Canada_Payments` (Bank of Canada Prominent Payment Systems, RTR & RPAA Oversight Feed)
+  - `Australia_Payments_News` (Australia NPP, PayTo & ISO 20022 Payments News Feed)
+  - `China_Payments_News` (China & Hong Kong CIPS, e-CNY & Project Ensemble News Feed)
+  - `China_Chinese_Payments_News` (China Chinese-language CIPS, e-CNY & Cross-Border Payments Feed)
+  - `Switzerland_Payments_News` (Swiss National Bank, SIX Group, Project Helvetia & Commodity Trade Finance Feed)
+  - `Switzerland_French_Payments_News` (Swiss French-language Trade Finance & Settlement Feed)
+  - `Switzerland_German_Payments_News` (Swiss German-language Trade Finance & Clearing Feed)
+  - `UK_Payments_News` (UK CHAPS, CHIPS & SWIFT Payments News Feed)
+  - `Bank_of_England_CHAPS` (Bank of England CHAPS, RTGS Renewal, ISO 20022 & Tokenised Collateral Feed)
+  - `Global_Payments_News` (Global mBridge, Project Agorá, Project Nexus, GENIUS Act & Correspondent Banking Feed)
+  - `BIS_Official_Press` (Bank for International Settlements CBDC, mBridge, Agorá, Nexus & Settlement Feed)
+  - `Federal_Reserve_Payments` (US Federal Reserve FedNow, Fedwire, Stablecoin & Payments Feed)
+  - `ECB_Eurosystem_Payments` (European Central Bank Digital Euro, TIPS & T2 Wholesale Settlement Feed)
+  - `SWIFT_Official_News` (SWIFT Official ISO 20022, CBPR+, Swift GO, gpi & Tokenized Ledger Feed)
 
 ---
 

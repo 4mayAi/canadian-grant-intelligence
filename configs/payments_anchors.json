@@ -5,28 +5,35 @@
       "fact": "Payments Canada successfully launched Lynx Release 2 in March 2023, migrating Canada's high-value payment system to the ISO 20022 messaging standard to support rich data transmission and automated transaction compliance.",
       "source": "Payments Canada Lynx System Guide",
       "pages": "Section 2.1",
-      "url": "https://www.paymentscanada.ca/our-systems/lynx"
+      "url": "https://www.payments.ca/systems-services/payment-systems/high-value-payment-system-lynx"
     },
     {
       "id": 101,
-      "fact": "Canada's Real-Time Rail (RTR) instant payment system is designed to utilize the ISO 20022 standard to enable 24/7/365 immediate clearing and settlement of retail and corporate transactions.",
-      "source": "Payments Canada RTR Modernization",
-      "pages": "Page 3",
-      "url": "https://www.paymentscanada.ca/our-focus/modernization/real-time-rail"
+      "fact": "Payments Canada officially launched the Real-Time Rail (RTR) on November 9, 2026—operating 24/7/365 on ISO 20022 messaging with centralized Confirmation of Payee fraud controls—following its November 8, 2026 designation by the Bank of Canada as a prominent payment system under the Payment Clearing and Settlement Act.",
+      "source": "Payments Canada & Bank of Canada RTR Launch Designation (Nov 2026)",
+      "pages": "Official Release",
+      "url": "https://www.payments.ca/systems-services/payment-systems/real-time-rail-payment-system"
+    },
+    {
+      "id": 102,
+      "fact": "Under Canada's Retail Payment Activities Act (RPAA) supervisory framework administered by the Bank of Canada and amendments to the Canadian Payments Act, registered non-bank Payment Service Providers (PSPs) gained regulatory pathways for direct participation in Payments Canada clearing systems including the Real-Time Rail.",
+      "source": "Bank of Canada Retail Payment Supervision Framework",
+      "pages": "RPAA Policy Overview",
+      "url": "https://www.bankofcanada.ca/core-functions/retail-payments-supervision/"
     }
   ],
   "Australia": [
     {
       "id": 200,
-      "fact": "Australia's National Payments Platform (NPP) successfully completed its industry-wide migration of high-value payments messaging to the ISO 20022 standard in March 2023.",
-      "source": "Reserve Bank of Australia Payments Report 2023",
+      "fact": "Australia's New Payments Platform (NPP) successfully completed its industry-wide migration of high-value payments messaging to the ISO 20022 standard in March 2023 and scaled its PayTo digital account-to-account mandate service for real-time corporate and retail settlement.",
+      "source": "Reserve Bank of Australia Payments System Board Report",
       "pages": "Page 14",
       "url": "https://www.rba.gov.au/payments-and-infrastructure/"
     },
     {
       "id": 201,
-      "fact": "The Reserve Bank of Australia and the NPP have integrated the ISO 20022 standard to support structured remittance details, reducing compliance delays for inbound cross-border transactions.",
-      "source": "RBA Bulletin March 2023",
+      "fact": "The Reserve Bank of Australia and Australian Payments Plus (AP+) utilize the ISO 20022 standard across the NPP to support structured remittance details and international inbound payment verification, reducing compliance friction for cross-border transactions.",
+      "source": "RBA Bulletin: Modernising Australia's High-Value Payments System",
       "pages": "Page 5",
       "url": "https://www.rba.gov.au/publications/bulletin/2023/mar/modernising-australias-high-value-payments-system-iso-20022.html"
     }
@@ -34,26 +41,26 @@
   "China": [
     {
       "id": 300,
-      "fact": "China's Cross-Border Interbank Payment System (CIPS) was established in 2015 to clear and settle cross-border Renminbi (RMB) transactions, growing to support over 1,500 direct and indirect participants globally by 2024.",
-      "source": "CIPS Official Profile 2024",
+      "fact": "China's Cross-Border Interbank Payment System (CIPS) clears and settles cross-border Renminbi (RMB) transactions on ISO 20022 messaging standards, expanding to over 1,800 direct and indirect banking participants across more than 133 countries and territories by Q3 2026.",
+      "source": "CIPS Official Participant Registry (2026)",
       "pages": "Section 1",
       "url": "https://www.cips.com.cn/en/"
     },
     {
       "id": 301,
-      "fact": "The People's Bank of China (PBOC) Digital Currency Research Institute utilizes the digital yuan (e-CNY) for bilateral cross-border retail and wholesale payment pilots, partnering with the Hong Kong Monetary Authority.",
-      "source": "PBOC e-CNY Progress Report",
+      "fact": "The People's Bank of China (PBOC) expanded its digital yuan (e-CNY) operating network to 30 commercial banks in 2026 and upgraded e-CNY into a programmable digital deposit money framework with smart contract trade settlement, alongside the Hong Kong Monetary Authority's (HKMA) Project Ensemble 24/7 tokenized Central Bank Money (CeBM) interbank pilot.",
+      "source": "PBOC e-CNY & HKMA Project Ensemble Progress Reports (2026)",
       "pages": "Section IV",
-      "url": "http://www.pbc.gov.cn/en/3688110/3688172/4157443/index.html"
+      "url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/project-ensemble/"
     }
   ],
   "Switzerland": [
     {
       "id": 400,
-      "fact": "Switzerland's Swiss Interbank Clearing (SIC) system, operated by SIX under the supervision of the Swiss National Bank, completed its migration to the ISO 20022-based SIC5 platform in November 2023, enabling instant payments.",
-      "source": "SIX SIC5 Migration Guide",
+      "fact": "Switzerland's Swiss Interbank Clearing (SIC) system, operated by SIX under the supervision of the Swiss National Bank (SNB), operates on the ISO 20022-based SIC5 platform, enforcing mandatory instant payment capability across Swiss financial institutions.",
+      "source": "SIX SIC5 Instant Payments Guide",
       "pages": "Section 1.2",
-      "url": "https://www.six-group.com/en/products-services/financial-information.html"
+      "url": "https://www.six-group.com/en/products-services/banking-services/interbank-clearing/sic.html"
     },
     {
       "id": 401,
@@ -61,12 +68,19 @@
       "source": "SUISSENEGOCE Trade Finance Review",
       "pages": "Page 8",
       "url": "https://suissenegoce.ch/"
+    },
+    {
+      "id": 402,
+      "fact": "Under Project Helvetia Phase III, the Swiss National Bank (SNB) and SIX Digital Exchange (SDX) extended live issuance and settlement of wholesale central bank digital currency (wCBDC) in Swiss francs on regulated distributed ledger infrastructure through 2026.",
+      "source": "Swiss National Bank Project Helvetia III Release",
+      "pages": "Pages 1-4",
+      "url": "https://www.snb.ch/en/the-snb/mandates-goals/payment-transactions/project-helvetia"
     }
   ],
   "UK": [
     {
       "id": 500,
-      "fact": "The Bank of England migrated its Real-Time Gross Settlement (RTGS) system and CHAPS clearing network to the ISO 20022 messaging standard in June 2023 to improve resiliency and interoperability with global rails.",
+      "fact": "The Bank of England migrated its Real-Time Gross Settlement (RTGS) system and CHAPS clearing network to the ISO 20022 messaging standard and transitioned to the renewed RTGS core ledger engine (TS3) to enhance resiliency, direct API access, and tokenized collateral clearing.",
       "source": "Bank of England RTGS Renewal Program",
       "pages": "Page 2",
       "url": "https://www.bankofengland.co.uk/payment-and-settlement/rtgs-renewal-programme"
@@ -82,17 +96,38 @@
   "Global": [
     {
       "id": 600,
-      "fact": "Project mBridge, a multi-currency cross-border wholesale CBDC platform developed by the BIS Innovation Hub and the central banks of China, Hong Kong, Thailand, UAE, and Saudi Arabia, reached its Minimum Viable Product (MVP) stage in June 2024.",
+      "fact": "Project mBridge, a multi-currency cross-border wholesale CBDC platform developed by the BIS Innovation Hub and founding central banks, reached its Minimum Viable Product (MVP) stage in June 2024 and transitioned toward commercial multi-corridor trade settlement.",
       "source": "BIS mBridge MVP Announcement",
       "pages": "Press Release",
-      "url": "https://www.bis.org/press/p240605.htm"
+      "url": "https://www.bis.org/about/bisih/topics/cbdc/mcbdc.htm"
     },
     {
       "id": 601,
-      "fact": "SWIFT's global migration to ISO 20022 for cross-border payment messaging began its coexistence phase in March 2023, with the legacy MT format scheduled for complete decommissioning by November 2025.",
-      "source": "SWIFT ISO 20022 Roadmap",
+      "fact": "SWIFT concluded the multi-year coexistence period between legacy MT messages and ISO 20022 for cross-border payments and reporting (CBPR+) in November 2025, establishing ISO 20022 as the mandatory global wire baseline while running parallel tokenized ledger interoperability trials with global banks in 2026.",
+      "source": "SWIFT ISO 20022 CBPR+ Roadmap",
       "pages": "Executive Summary",
       "url": "https://www.swift.com/standards/iso-20022"
+    },
+    {
+      "id": 602,
+      "fact": "Project Agorá, convened by the Bank for International Settlements (BIS) and the Institute of International Finance (IIF), unites seven major central banks and over 40 private financial institutions in 2025-2026 to test atomic cross-border wholesale settlement combining tokenized commercial bank deposits with tokenized central bank reserves.",
+      "source": "BIS Innovation Hub Project Agorá Blueprint",
+      "pages": "Overview",
+      "url": "https://www.bis.org/about/bisih/topics/cbdc/agora.htm"
+    },
+    {
+      "id": 603,
+      "fact": "Project Nexus (incorporated in Singapore as Nexus Global Payments by founding ASEAN and Reserve Bank of India central banks) links domestic Instant Payment Systems (IPS) through a multilateral hub-and-spoke ISO 20022 gateway for real-time cross-border retail and commercial settlement.",
+      "source": "BIS Project Nexus & Nexus Global Payments",
+      "pages": "Technical Architecture",
+      "url": "https://www.bis.org/about/bisih/topics/fmis/nexus.htm"
+    },
+    {
+      "id": 604,
+      "fact": "The U.S. Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act and European MiCA regulations establish federal and supranational prudential standards—including 1:1 liquid reserve backing and redemption mandates—for regulated payment stablecoins used in institutional cross-border settlement.",
+      "source": "OCC & Federal Reserve GENIUS Act Implementation Framework (2026)",
+      "pages": "Final Rule Summary",
+      "url": "https://www.federalreserve.gov/paymentsystems.htm"
     }
   ]
 }
