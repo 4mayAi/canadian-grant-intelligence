@@ -1,0 +1,798 @@
+[
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Department of National Defence - 2025 Freight Forwarding Transportation Source Lists",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-990-11745680",
+    "date": "2025-02-05T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Navigating DND freight? The bar for 'Complex' logistics has been raised. 🚢",
+      "strategic_value": "* Direct financial penalties: Exclusion from the 2025 Source Lists risks a complete loss of DND-related freight revenue, forcing firms to absorb capital idle-time costs of $250-$450/day per TEU for lack of priority cargo allocation.\n* Physical and logistical execution: Requires immediate documentation of 'Complex' freight handling capability, including cross-border customs bond management under CARM and potential IT/OT security integration per Bill C-26.\n* **Consulting Pivot:** Pivot to 'DND Source List Readiness Training,' a packaged consultancy ($12,000 flat fee) assisting brokers in upgrading their cybersecurity telemetry and customs compliance documentation to meet the 'Complex' classification threshold.",
+      "co_bidding_opportunity": "Standard Competitive Bidding (RFP): Target the 'Complex' service grouping by forming joint ventures with specialized multi-modal logistics providers to consolidate the necessary fleet scale.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "The DND source list renewal highlights the integration of national security requirements into everyday freight procurement, necessitating compliance with Bill C-26 and CARM.",
+      "grounded_fact_ids": [
+        3,
+        6
+      ],
+      "anchor_reference": {
+        "source_name": "Canada Border Services Agency",
+        "page_range": "Customs Notice CN26-04",
+        "url": "https://www.cbsa-asfc.gc.ca/prog/carm-gcra/menu-eng.html"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2028-02-18T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "1.\tBackgroundThe Department of National Defence (DND) moves materiel domestically and internationally on an as required basis to support operations and exercises. DND accomplishes this task primarily through its own means but also contracts directly with Industry for the movement of cargo by freight forwarding for some multi-modal movements. To contract for transportation requirements that arise, DND maintains multiple Source Lists of pre-qualified service providers and brokers.2.\tSource List Re...",
+    "type": "Open",
+    "partner_list": [
+      {
+        "name": "C.A.C. 3000 Inc.",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1468066"
+      },
+      {
+        "name": "6S Trinity Transport",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1450730"
+      },
+      {
+        "name": "Polaris Transportation Group",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1450724"
+      },
+      {
+        "name": "Polaris Transport Carriers Inc",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1449569"
+      },
+      {
+        "name": "Long Road Logistics",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1422202"
+      },
+      {
+        "name": "Action Freightlines Corp",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1379666"
+      },
+      {
+        "name": "Fortus group Inc",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1374137"
+      },
+      {
+        "name": "Larway Transportation",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1373339"
+      },
+      {
+        "name": "Total Quality Logistics",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1366668"
+      },
+      {
+        "name": "Raiko Transport Inc",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1359259"
+      },
+      {
+        "name": "NEAS",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1357318"
+      },
+      {
+        "name": "Future Link Logistics",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1349980"
+      },
+      {
+        "name": "Melroy Logistics Inc.",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1341072"
+      },
+      {
+        "name": "Trans-Pro Logistics",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1326398"
+      },
+      {
+        "name": "GEORGIAN FREIGHT LINES INC",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1313029"
+      },
+      {
+        "name": "Gillespie-Munro Inc.",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1301575"
+      },
+      {
+        "name": "Centurion Trucking Inc",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1296578"
+      },
+      {
+        "name": "Stacycorp Logistics Ltd",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1287409"
+      },
+      {
+        "name": "Total Quality Logistics, LLC",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1280940"
+      },
+      {
+        "name": "fgjfs",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1280376"
+      },
+      {
+        "name": "Finley Brophy Trucking Limited",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1279693"
+      },
+      {
+        "name": "Xan Logistics Systems",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1277033"
+      },
+      {
+        "name": "ALG WORLDWIDE LOGISTICS LLC",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1264168"
+      },
+      {
+        "name": "Quality Move Management Inc.",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1228478"
+      },
+      {
+        "name": "Nextflightcourier Worldwide Ltd",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1217644"
+      }
+    ],
+    "organization": "Department of National Defence",
+    "solicitation_number": "DND/DSPCOS 7 - 2025-001",
+    "notice_type": "Invitation to Qualify",
+    "procurement_method": "Competitive - Traditional",
+    "selection_criteria": "Variations or combinations of the above methods",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Prime-Tracking (Pre-Qualification)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "SA-THIRD PARTY LOGISTICS",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/18231754?anId=ANONYMOUS",
+    "date": "2023-12-08T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "Supply chain resilience is now a national security imperative. 📦 Are you prepared for the next evolution in Health Products Logistics?",
+      "strategic_value": "* Non-compliant health product handling carries severe financial risk, including potential penalties for improper cold-chain custody and revenue loss from disqualified inventory; consolidation in this sector rewards firms with robust, traceable quality management systems.\n* Logistics strategy must prioritize CARM API bonding integration to ensure seamless cross-border importation of medical countermeasures, paired with real-time inventory visibility to meet federal SLA thresholds.\n* **Consulting Pivot:** Propose a 'Logistics Digital Bridge' consultancy package, charging a flat $15,000 setup fee plus performance-based monitoring, to integrate client warehouse management systems with federal procurement tracking APIs.",
+      "co_bidding_opportunity": "Target established Supply Arrangement holders in the health products sector to offer 'niche logistics' subcontracting, specifically focusing on the cold-chain and secure warehousing compliance gaps.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This involves complex logistics and infrastructure requirements that directly intersect with federal regulatory standards for medical countermeasures.",
+      "grounded_fact_ids": [
+        3,
+        6
+      ],
+      "anchor_reference": {
+        "source_name": "Canada Border Services Agency",
+        "page_range": "Customs Notice CN26-04",
+        "url": "https://www.cbsa-asfc.gc.ca/prog/carm-gcra/menu-eng.html"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2028-12-31T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "This Request for Supply Arrangements is to establish Supply Arrangements with Third Party Logistics services companies for the provision of Health Products Logistics Services (HPLS). HPLS may consist of importation, receipt, sampling, inventory management, recalls, storage, warehousing (proper storage, life cycle management, etc.), reporting, distribution and/or disposal services related to medical countermeasures.",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS4341909175",
+    "notice_type": "Request for Supply Arrangement",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Not applicable",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "W8703-270055 Defence Drone Initiative (DDI) Marketplace",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110019561?anId=ANONYMOUS",
+    "date": "2026-07-23T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🛸 The Department of National Defence launches the Defence Drone Initiative (DDI) Marketplace via PSPC, creating a rapid-access supply arrangement for uncrewed systems.",
+      "strategic_value": "* **Export and Compliance Liabilities:** Suppliers face severe export control violations under the Defence Production Act and trade compliance penalties if uncrewed systems (UxS) or counter-UxS technologies lack proper dual-use classification and end-use monitoring.\n* **Operational Play:** Manufacturers and integrators must establish secure domestic supply chains, implement strict intellectual property protections for autonomous telemetry, and ready their engineering teams for rigorous testing and evaluation cycles.\n* **Consulting Pivot:** Advisory practices can structure specialized trade compliance audits and strategic co-bidding partnerships to help emerging tech vendors successfully navigate the DDI Marketplace pre-qualification process.",
+      "co_bidding_opportunity": "Technology vendors and defense primes can form selective partnerships, integrating specialized drone hardware developers with established systems integrators to fulfill comprehensive DDI Marketplace requirements.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This directly connects advanced defense technology procurement to national security supply chain security and autonomous systems integration mandates.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2031-07-31T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "CLOSING TIME:  Please disregard the Ariba Discovery posting response deadline closing time and CanadaBuys posting closing time. All required supporting documentation and bid submission for the first round of the Supply Arrangement must be submitted by 14 August 2026 at 14:00 EDT.  All bids submitted after this date and time will be considered in future rounds. The Defence Investment Agency (DIA), on behalf of the Department of National Defence (DND) is inviting Canadian suppliers to qualify for ...",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5802684496",
+    "notice_type": "Request for Supply Arrangement",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Not applicable",
+    "trade_agreements": "None",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Air Simulator Verification, Validation & Accreditation (VV&A) consultants",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-643-48756938",
+    "date": "2026-10-27T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🛩️ Federal procurement initiates new requirements for Air Simulator Verification, Validation & Accreditation (VV&A) consultants supporting tactical aviation and simulation asset fitness.",
+      "strategic_value": "* Unverified technical compliance and simulator deviation from required aeronautical quality standards risk immediate contract disqualification, formal default proceedings, and administrative forfeiture of the multi-year professional services agreement.\n* Enterprise resource providers must execute rigorous pre-solicitation technical audits, deploy cleared Secret-level engineering personnel, and establish direct configuration management protocols aligned with National Capital Region standards.\n* **Consulting Pivot:** Advisory practices and trade consultants can package comprehensive bid-readiness and technical compliance programs to guide specialized aeronautical engineering firms through DND procurement evaluations.",
+      "co_bidding_opportunity": "Aeronautical engineering firms and specialized simulation consultants can bid as prime contractors or form strategic joint ventures to meet the combined 480 annual resource days required by the Department of National Defence.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This procurement directly governs Transport Canada and Department of National Defence logistics infrastructure through tactical aviation simulation oversight.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-11-26T00:00:00Z",
+    "province": "NCR (Ottawa/Gatineau)",
+    "province_abbrev": "NCR",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "NOTICE OF PROPOSED PROCUREMENTFILE NUMBER: W8485-26-SC20This requirement is for the Department of National Defence (DND) for two (2) Air Simulator Verification, Validation & Accreditation (VV&A) consultants to support the Director Aerospace Equipment Program Management (Tactical Aviation and Simulation) (DAEPM (T&AS 4)) group. These resources will independently determine flight simulator fitness and will ensure the flight simulator’s compliance with required technical and quality standardsTender...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8485-26-SC20",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Cost-per-Point",
+    "trade_agreements": "Canada-Honduras Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Chile Free Trade Agreement (CCFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canadian Free Trade Agreement (CFTA)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Panama Free Trade AgreementCanada-Colombia Free Trade AgreementCanada-Peru Free Trade Agreement (CPFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Printer Accessories and Accreditation Consumables",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-824-9195880",
+    "date": "2026-11-02T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🖨️ House of Commons issues a competitive Request for Quotation for printer accessories and security accreditation consumables!",
+      "strategic_value": "* The three-year House of Commons supply contract exposes unverified consumable vendors to immediate supply chain disruption and contractual termination if material provenance, security accreditation tracking, or delivery SLAs fail to meet parliamentary standards.\n* Bidders must implement robust inventory buffering, secure serialized item tracking, and pre-arrival fulfillment workflows tailored to parliamentary security protocols to prevent operational delays and administrative penalties.\n* **Consulting Pivot:** Advisory practices can package vendor onboarding blueprints and secure supply chain auditing services to assist hardware distributors in meeting parliamentary security accreditation frameworks.",
+      "co_bidding_opportunity": "Office technology distributors and specialized print solution providers can engage directly through MERX to bid on the House of Commons Sergeant-at-Arms and Corporate Security procurement.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "The notice represents a federal procurement contract for physical logistics, printing accessories, and security consumables destined for parliamentary operations.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-11-23T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "House of Commons Notice of Proposed ProcurementRequest for Quotation reference number: 2026033Description:This requirement is for: House of Commons (HoC)This Request for quotation (RFQ) is an invitation by the House of Commons (HoC) to prospective Bidders to submit Proposals for accreditation consumables, for the Sergeant-at-Arms and Corporate Security (SAA-CS), as further described in Appendix D – Statement of Requirements. This HoC tender notice and its solicitation documents are available on ...",
+    "type": "Open",
+    "organization": "House of Commons",
+    "solicitation_number": "2026033",
+    "notice_type": "",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "",
+    "trade_agreements": "None",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Logistics Analysis of Damaged, Defective, or Recalled Lithium-Ion and Lithium-Metal Batteries in Canada",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-891-20768361",
+    "date": "2026-11-03T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🔋 Managing damaged lithium-ion batteries requires advanced logistics analysis to mitigate hazardous transit liabilities. ⚡",
+      "strategic_value": "- Freight operators face severe shipment rejections, dwell penalties, and regulatory non-compliance fines when transporting damaged or defective energy storage units without verified logistics protocols.\n- Supply chain managers must implement rigorous reverse-logistics tracking, specialized containment procedures, and pre-arrival hazardous material declarations.\n* **Consulting Pivot:** Advisory practices and trade consultants can design specialized reverse-logistics audit frameworks and hazardous materials handling protocols for enterprises managing recalled energy storage technologies.",
+      "co_bidding_opportunity": "Standard direct or subcontract bid strategy, focusing on positioning specialized hazardous materials logistics providers as expert partners for complex battery recall analysis.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "Connects hazardous battery logistics analysis directly to transport safety and dangerous goods compliance frameworks.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-12-07T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "The primary objective of this study is to collect and analyze data and comprehensively describe the recycling process and logistics for the transportation of DDR lithium-ion and lithium-metal batteries in Canada. This is carried out using Geographic Information Systems (GIS) analytics and mapping along with statistical data analyses and research. The results of this study will provide TC and TDG Regulations with data / information for the purpose of contributing to informed policy decisions rega...",
+    "type": "Open",
+    "organization": "Department of Transport (TC)",
+    "solicitation_number": "T8080-260378",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Canada-Ukraine Free Trade Agreement (CUFTA)Canadian Free Trade Agreement (CFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Chile Free Trade Agreement (CCFTA)North American Free Trade Agreement (NAFTA)Canada-Colombia Free Trade AgreementWorld Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)Canada-Honduras Free Trade Agreement",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Spare parts for Construction Engineering Equipment",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-157-83066064",
+    "date": "2026-11-04T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🏗️ Department of National Defence issues a fresh procurement notice for specialized construction engineering equipment spare parts destined for supply depots in Montreal and Edmonton.",
+      "strategic_value": "* **Operational Liabilities:** Commercial suppliers face strict contractual default risks and logistical penalties if component deliveries fail to meet the absolute March 31, 2027 deadline at the designated Canadian Forces Supply Depots (CFSD).\n* **Execution Strategy:** Enterprise fulfillment teams must implement pre-arrival electronic data interchange (EDI) filings and secure bonded warehouse buffering to guarantee seamless border clearance and inventory staging.\n* **Consulting Pivot:** Advisory practices and trade consultants can package comprehensive CUSMA origin-verification audit readiness programs to assist prime defense contractors in validating regional value content for specialized mechanical components.",
+      "co_bidding_opportunity": "Standard direct or subcontract bid strategy.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "The notice outlines a federal supply tender managed through CanadaBuys, focusing on military logistics infrastructure and domestic distribution.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-12-14T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "File Number: W8486-271019NOTICE OF PROPOSED PROCUREMENT  The Department of National Defence has a requirement for the items detailed below.  The delivery is requested at the Canadian Forces Supply Depots (CFSD) in Montreal and Edmonton by 31 March 2027. Please note that offers must be submitted in Canadian dollars, Applicable Taxes excluded, delivery, and Canadian customs duties and excise taxes included. Item 1UNSPSC : 26121538NSN: 6150-20-0071316, CABLE ASSEMBLY, SPECIAL PURPOSE,ELECTRICALPart...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W8486-271019/A",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "DATA SECURITY ASSESSMENT TEAM",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-184-68710011",
+    "date": "2026-11-04T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🛡️ The Government of Canada opens a competitive RFP for specialized IT security professionals to overhaul human capital management enterprise architecture.",
+      "strategic_value": "* **Operational Liabilities:** Technology service providers encounter significant administrative and financial liabilities associated with unmet project milestones, failing security clearances, and system downtime during architectural migrations.\n* **Execution Strategy:** Consulting firms should deploy specialized Task-Based Informatics Professional Services (TBIPS) teams to execute rigorous current-state architecture assessments and implement robust cloud-readiness frameworks.\n* **Consulting Pivot:** Advisory practices and trade consultants can package compliance frameworks for federal IT security mandates, helping suppliers integrate mandatory cybersecurity controls and threat assessment protocols.",
+      "co_bidding_opportunity": "Standard direct or subcontract bid strategy.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This procurement directly concerns federal IT modernization and enterprise architecture under established Task-Based Informatics Professional Services frameworks.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-11-26T00:00:00Z",
+    "province": "Ontario",
+    "province_abbrev": "ON",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "The Contractor must provide a Data Security Assessment Team consisting of a Strategic Information Technology Security Planning and Protection Consultants (Task-Based Informatics Professional Services (TBIPS) Stream 6: C.1), an Information Technology Security Threat and Risk Assessment and Certification and Accreditation Analysts (TBIPS Stream 6: C.3), and an Information Technology Security Design Specialists (TBIPS Stream 6: C.7).The Data Security Assessment Team must assess current-state archit...",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W2294-27-AA017",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Traditional",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Colombia Free Trade Agreement",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Communications Equipment – Hardware and Abrasives – UNSPSC 31160000",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-286-11127230",
+    "date": "2026-11-05T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🛡️ The Department of National Defence has released a non-recurring competitive tender for Logistics Vehicle Modernization (LVM) hardware assemblies and protective covers destined for Montréal.",
+      "strategic_value": "* **Operational & Financial Liability:** Contractors incur significant commercial risks, including potential liquidated damages for untimely delivery of the 1,640 protective cover assemblies and 4,004 mounting brackets, alongside strict supply chain traceability requirements for defence hardware under multi-lateral trade agreements.\n* **Logistical Execution Play:** Supply chain operators must integrate robust part-number tracking (NCAGE 38655 and 35907) and establish secure cross-border or domestic staging corridors into Montréal to guarantee 12-month contract performance starting December 17, 2026.\n* **Consulting Pivot:** Advisory practices and trade consultants can package defence procurement compliance and SAP Ariba onboarding frameworks for tier-one automotive and industrial hardware suppliers entering federal defence supply chains.",
+      "co_bidding_opportunity": "Standard direct or subcontract bid strategy.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This procurement addresses critical military vehicle modernization hardware, aligning with federal logistics and supply chain execution mandates for defence equipment.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-12-15T00:00:00Z",
+    "province": "Quebec",
+    "province_abbrev": "QC",
+    "category": "GD",
+    "category_label": "Goods",
+    "description": "This non-recurring requirement is for the Land Command Support System (LCSS) that is part of the Logistics Vehicle Modernization (LVM) with UNSPSC 31160000. In Request for Proposal : Part No.: U3415205, NCAGE: 38655 , Description: COVER, PROTECTIVE COVER ASSEMBLYQuantity: 1640&Part No.: 9379849-1, NCAGE: 35907 , Description: BRACKET, MOUNTINGQuantity: 4004",
+    "type": "Open",
+    "organization": "Department of National Defence (DND)",
+    "solicitation_number": "W847L-270179",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)North American Free Trade Agreement (NAFTA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Korea Free Trade Agreement (CKFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Honduras Free Trade Agreement",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "TBIPS SAP Technical and Functional RFP",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-330-64321634",
+    "date": "2026-11-05T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "💻 The Canada Border Services Agency (CBSA) Finance and Corporate Management Branch has issued a selective tender for specialized SAP technical and functional IT professional resources.",
+      "strategic_value": "* **Operational & Financial Liability:** Service providers face strict resource availability defaults and contractual penalty exposures if specialist IT personnel fail to maintain continuous operational continuity within the SAP Systems Management Division (SSMD).\n* **Logistical Execution Play:** Consulting firms must deploy pre-cleared National Capital Region (NCR) technical talent pools with deep familiarity with federal customs and financial management architectures to meet the aggressive February 1, 2027 project start date.\n* **Consulting Pivot:** Advisory practices and trade consultants can package enterprise resource planning (ERP) integration and CARM-aligned financial data bridge audits for systems integrators bidding on federal border agency infrastructure.",
+      "co_bidding_opportunity": "Frame strategy around partnering with pre-qualified Supply Arrangement holders.",
+      "mets_category": "Border Compliance & Tariffs",
+      "mets_rationalization": "The contract directly supports the internal IT and financial architecture of the Canada Border Services Agency, tying directly into the systems that manage commercial trade accounting and border compliance infrastructure.",
+      "grounded_fact_ids": [
+        3
+      ],
+      "anchor_reference": {
+        "source_name": "Canada Border Services Agency",
+        "page_range": "Customs Notice CN26-04",
+        "url": "https://www.cbsa-asfc.gc.ca/services/carm-gcra/menu-eng.html"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-11-30T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "The Finance and Corporate Management Branch of the Canada Border Services Agency (CBSA) requires the continuous services of highly specialized IT Professional Resources. Fulfilling this requirement ensures the successful, timely, and cost-effective delivery of ongoing projects within the SAP Systems Management Division (SSMD).",
+    "type": "Open",
+    "organization": "Canada Border Services Agency (CBSA)",
+    "solicitation_number": "1000560706",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Variations or combinations of the above methods",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Workplace Assessment and Restoration",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-165-30421875",
+    "date": "2026-11-10T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "👥 The Canada Border Services Agency launches a selective HR procurement for workplace assessment and restoration services in the National Capital Region.",
+      "strategic_value": "* **Operational & Contractual Liabilities:** Service providers face administrative and contractual default risks if human resources consulting deliverables fail to meet the rigorous operational standards required within federal border security agency divisions supporting approximately 40 personnel.\n* **Execution & Delivery Plays:** Specialized HR consultancies must establish secure project management frameworks, align service-level agreements with federal workplace standards, and prepare rapid-response intervention teams for deployment within the National Capital Region.\n* **Consulting Pivot:** Management consulting firms should structure joint venture bids or sub-consulting agreements with pre-qualified Supply Arrangement holders to capture federal agency workplace restoration contracts.",
+      "co_bidding_opportunity": "Selective partnering opportunity via pre-qualified Supply Arrangement holders. Small and medium enterprises can collaborate with established HR consulting primes listed under federal procurement vehicles.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This notice details federal procurement for internal workforce services supporting border agency infrastructure and administrative operations.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-11-26T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Canada Border Services Agency (CBSA) requires a workplace assessment and restoration for oneof its Divisions, involving approximately 40 employees.",
+    "type": "Open",
+    "organization": "Canada Border Services Agency (CBSA)",
+    "solicitation_number": "PR274424 - 1000573528",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Canada-Korea Free Trade Agreement (CKFTA)Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Geospatial Informatics Professional Services for the Impact Assessment Agency of Canada",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-621-34120934",
+    "date": "2026-11-13T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🗺️ The Impact Assessment Agency of Canada has issued a vital procurement for enterprise geospatial informatics professional services under Stream 4 of the Solutions Based Informatics Professional Services supply arrangement.",
+      "strategic_value": "* **Operational Liabilities:** Commercial suppliers facing non-compliance risks under Shared Services Canada (SSC) enterprise standards risk bid disqualification, administrative rework penalties, and project schedule default.\n* **Execution Plays:** Technical operators must execute end-to-end origin mapping of GIS software architectures, establish pre-arrival integration protocols for AI-enabled geospatial capabilities, and align deployment workflows with federal cloud security mandates.\n* **Consulting Pivot:** Advisory practices and trade consultants can package consortium bidding frameworks around the Solutions Based Informatics Professional Services supply arrangement to link niche geospatial SMEs with prime systems integrators.",
+      "co_bidding_opportunity": "Selective Partnering (Supply Arrangement): Frame strategy around partnering with pre-qualified Supply Arrangement holders under the Solutions Based Informatics Professional Services vehicle.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This connects the daily federal IT infrastructure tender to long-term government procurement standards and digital supply chain resilience.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-11-30T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "The Impact Assessment Agency of Canada (IAAC) requires Stream 4 - Geospatial Informatics Services, under the Solutions Based Informatics Professional Services supply arrangement, on an as-and-when-required basis to support the operation, maintenance, enhancement, modernization, and sustainability of its enterprise Geographic Information System (GIS) environment.The Contractor shall provide senior-level geospatial informatics professional services related to enterprise GIS architecture, GIS appli...",
+    "type": "Open",
+    "organization": "Impact Assessment Agency of Canada (IAAC)",
+    "solicitation_number": "IAAC-SBIPS-GIS-2026",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Please refer to Tender Description or Tender Documents",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "M7594-253587 - Variable Printing Services, Warehousing, Inventory Management and Distribution Services",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030361?anId=ANONYMOUS",
+    "date": "2026-11-12T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "📦 PSPC's new open RFP for variable printing, warehousing, and distribution tests how tightly fulfillment operators can compress unit economics under Lowest Cost-per-Point scoring.",
+      "strategic_value": "* Under Solicitation WS5799408035 (M7594-253587), competitive bidding governed by the Canadian Free Trade Agreement (CFTA) uses Lowest Cost-per-Point selection, penalizing fragmented overhead while exposing awarded contractors to service-level penalties, inventory discrepancies, and document security liabilities.\n* Bidders should co-locate variable-print production with automated warehouse management systems (WMS), consolidate document storage footprints to drive down per-point cost structures, and deploy standardized domestic distribution lanes compliant with CFTA delivery benchmarks.\n* **Consulting Pivot:** Executing the Standard Competitive Bidding (RFP) playbook, commercial print operators and third-party logistics providers can structure integrated prime-subcontractor bids supported by cost-per-point financial modeling and fulfillment SLA optimization.",
+      "co_bidding_opportunity": "Under the Standard Competitive Bidding (RFP) playbook, variable printing houses lacking scalable document storage and national fulfillment infrastructure can team with CFTA-compliant 3PL warehousing, inventory management, and distribution providers to submit a unified, cost-competitive proposal.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "Consolidating federal printing, document storage, inventory management, and physical distribution under a single CFTA-governed open RFP reinforces domestic supply-chain procurement efficiency backed by CITT bid-challenge oversight.",
+      "grounded_fact_ids": [
+        4
+      ],
+      "anchor_reference": {
+        "source_name": "Canadian International Trade Tribunal",
+        "page_range": "SIMA Advisory",
+        "url": "https://www.citt-tcce.gc.ca/en"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-12-10T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Document storage servicesPrinting",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5799408035",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Lowest Cost-per-Point",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "ITQ - Health Services Supply Chain Logistics Solution (MVP)",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030743?anId=ANONYMOUS",
+    "date": "2026-11-05T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🏥 PSPC has opened an Invitation to Qualify for a modern Canadian Forces Health Services supply chain logistics solution—setting the pre-qualification gate for defense medical ERP modernization.",
+      "strategic_value": "* Under PSPC Solicitation WS5469260533, failing to clear the Invitation to Qualify (ITQ) precludes participation in the Phase 1 Minimum Viable Product (MVP) deployment and optional Enterprise Resource Planning (ERP) readiness tasking; downstream execution failures in medical materiel data migration, interoperability, or hypercare stabilization expose prime contractors to contractual default and trade-agreement procurement scrutiny across CFTA, CETA, CPTPP, and WTO GPA frameworks.\n* Prospective respondents targeting the Highest Combined Rating of Technical Merit and Price threshold should map legacy Canadian Forces Health Services medical inventory taxonomies, architect scalable integration layers for future ERP readiness, and resource dedicated change-management and transition-to-operations teams.\n* **Consulting Pivot:** Under the Prime-Tracking (Pre-Qualification) playbook, supply chain systems integrators and defense health-logistics consultancies should track qualifying Tier-1 ERP primes through the ITQ gate to secure downstream subcontracting mandates covering medical materiel data migration, stabilization, and organizational change management.",
+      "co_bidding_opportunity": "Following the Prime-Tracking (Pre-Qualification) playbook, specialist SMEs—including defense ERP systems integrators, medical materiel inventory software vendors, data migration specialists, and change-management consultancies—should establish teaming arrangements with prime IT respondents qualifying under PSPC Solicitation WS5469260533 to deliver the Phase 1 MVP and optional capability expansion streams.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "Modernizing defense medical materiel logistics represents a core federal supply-chain infrastructure procurement governed by international trade-agreement disciplines (WTO GPA, CETA, CPTPP, CFTA) where CITT bid-challenge standards remain an active oversight backstop.",
+      "grounded_fact_ids": [
+        4
+      ],
+      "anchor_reference": {
+        "source_name": "Canadian International Trade Tribunal",
+        "page_range": "SIMA Advisory",
+        "url": "https://www.citt-tcce.gc.ca/en"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-12-03T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "The requirement is for the design, configuration, integration, implementation, deployment, and operationalization of a modern, secure, scalable, and interoperable medical materiel and inventory management solution for the Canadian Forces Health Services (CFHS). Phase 1 will deliver a Minimum Viable Product (MVP), including data migration, testing, training, change management, hypercare, stabilization, and transition to operations. Optional professional services may be required to support future ...",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5469260533",
+    "notice_type": "Invitation to Qualify",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "North American Free Trade Agreement (NAFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Panama Free Trade AgreementCanada-Ukraine Free Trade Agreement (CUFTA)Canada-Peru Free Trade Agreement (CPFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canadian Free Trade Agreement (CFTA)Canada-Honduras Free Trade Agreement",
+    "recommended_playbook": "Prime-Tracking (Pre-Qualification)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Economic and Technical Cooperation (ECOTECH) Program Management and Implementation Services",
+    "link": "https://canadabuys.canada.ca/tender-opportunities/tender-notice/cb-221-45952470",
+    "date": "2026-09-21T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "🌏 Global Affairs Canada's November 10 amendment keeps the clock ticking toward a November 30 close for the Managing Contractor running the Canada-Indonesia CEPA ECOTECH program.",
+      "strategic_value": "* With Solicitation 27-322598 closing November 30, 2026 and targeting an immediate December 1, 2026 mobilization for a 24-month term, compressed onboarding and strict adherence to approved Economic and Technical Cooperation (ECOTECH) governance arrangements create acute delivery, staffing, and administrative compliance liabilities if bilingual program controls falter.\n* Bidding consortia must establish dual-corridor program management linking Canada and Indonesia, embed rapid work-plan execution mechanisms compliant with Government of Canada directives, and verify trade-agreement eligibility across WTO GPA, CFTA, CETA, and CPTPP procurement rules alongside Buy Canadian Policy considerations.\n* **Consulting Pivot:** International trade advisories and economic-development program managers can assemble a multi-disciplinary Managing Contractor consortium—integrating CanadaBuys-listed partnering candidates—to govern technical assistance, capacity building, and commercial implementation under the Canada-Indonesia CEPA.",
+      "co_bidding_opportunity": "Global Affairs Canada's solicitation portal identifies four entities registered as interested in partnering—International School of Conflict Management & Diplomatic Studies (ISCMDS Limited), [LML Shine Inc](https://canadabuys.canada.ca/en/node/preview/1508407), [NCC](https://canadabuys.canada.ca/en/node/preview/1507129), and [Canbiotech Limited](https://canadabuys.canada.ca/en/node/preview/1504376)—providing an immediate pool for a prime Managing Contractor to form a cross-border Canada-Indonesia technical, diplomatic, and biotechnology-sector implementation consortium.",
+      "mets_category": "Trade Policy & Sanctions",
+      "mets_rationalization": "Operationalizing the ECOTECH pillar of the Canada-Indonesia CEPA directly executes Global Affairs Canada's broader Indo-Pacific trade diversification agenda while remaining subject to CITT international trade-agreement procurement governance.",
+      "grounded_fact_ids": [
+        4,
+        9
+      ],
+      "anchor_reference": {
+        "source_name": "Canadian International Trade Tribunal",
+        "page_range": "SIMA Advisory",
+        "url": "https://www.citt-tcce.gc.ca/en"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-11-30T00:00:00Z",
+    "province": "Multiple Provinces",
+    "province_abbrev": "MULT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Global Affairs Canada (GAC) requires the services of a Managing Contractor to provide program management and implementation services in support of the delivery of the Economic and Technical Cooperation (ECOTECH) Program established under the Canada-Indonesia Comprehensive Economic Partnership Agreement (CEPA). The objective of the Contract is to provide the program management, technical, operational, administrative and implementation services required to support the effective delivery of ECOTECH...",
+    "type": "Open",
+    "partner_list": [
+      {
+        "name": "INTERNATIONAL SCHOOL OF CONFLICT MANAGEMENT & DIPLOMATIC STUDIES - ISCMDS LIMITED",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1511656"
+      },
+      {
+        "name": "LML Shine Inc",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1508407"
+      },
+      {
+        "name": "NCC",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1507129"
+      },
+      {
+        "name": "Canbiotech Limited",
+        "link": "https://canadabuys.canada.ca/en/node/preview/1504376"
+      }
+    ],
+    "organization": "Department of Foreign Affairs, Trade and Development (GAC)",
+    "solicitation_number": "27-322598",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Canada-Colombia Free Trade AgreementCanada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Chile Free Trade Agreement (CCFTA)Canada-Panama Free Trade AgreementCanada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)World Trade Organization Agreement on Government Procurement (WTO GPA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Ukraine Free Trade Agreement (CUFTA)North American Free Trade Agreement (NAFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "EV385-270708 Electric Vehicle Charging Station and Generator",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030374?anId=ANONYMOUS",
+    "date": "2026-11-02T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "⚡ PSPC opens competitive RFP WS5899157430 for backup generator and EV charging design at Saskatchewan's Climax Port of Entry under an Indigenous-only set-aside.",
+      "strategic_value": "* Federal solicitation WS5899157430 enforces strict bid disqualification for late submissions and restricts prime eligibility exclusively to Indigenous businesses, exposing non-compliant proposals to automatic rejection under Canadian Free Trade Agreement (CFTA) procurement rules and Highest Combined Rating of Technical Merit and Price scoring.\n* Winning contractors must coordinate engineering design specifications for full-capacity backup power generation and dedicated EV charging infrastructure strictly on the Canadian side of the Climax, Saskatchewan Port of Entry, synchronizing site engineering with Canada Border Services Agency (CBSA) border clearance operations.\n* **Consulting Pivot:** Public-sector procurement advisors can structure competitive RFP teaming frameworks pairing eligible Indigenous prime contractors with electrical engineering, backup generator, and EV charging design specialists to maximize technical merit scoring under PSPC evaluation criteria.",
+      "co_bidding_opportunity": "Because solicitation WS5899157430 is limited to offers from Indigenous businesses and evaluated on Highest Combined Rating of Technical Merit and Price under a Standard Competitive Bidding (RFP) playbook, engineering design firms and backup generator or EV charging specialists can pursue subcontracting or joint-venture support roles alongside an eligible Indigenous business acting as prime bidder to PSPC for the CBSA Climax Port of Entry scope.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "Connects a daily PSPC CanadaBuys solicitation at the Climax, Saskatchewan Port of Entry to long-term federal border facility modernization, energy resilience, and Indigenous procurement participation across CBSA land-border infrastructure.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-11-24T00:00:00Z",
+    "province": "Saskatchewan",
+    "province_abbrev": "SK",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Please note that late submissions will not be considered or accepted.    The User Department referred to throughout the TOR is Canada Border Services Agency (CBSA). The Canada Border Services Agency (CBSA) facilitates the flow of legitimate travellers and trade. The agency also enforces more than 100 acts and regulations that keep our country and Canadians safe. CBSA requires design services at the Port of Entry (POE), located in Climax, Saskatchewan for: •              Installation of a new gen...",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5899157430",
+    "notice_type": "Request for Proposal",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Standard Competitive Bidding (RFP)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "RFI Request for Information – SA No. 6D142-226332 - Third Party Logistics, MCM Stream 6",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032002?anId=ANONYMOUS",
+    "date": "2026-11-19T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "❄️ Public Services and Procurement Canada has issued an RFI for ultra-cold (-70°C to -90°C) 3PL storage and distribution for PHAC's medical stockpile!",
+      "strategic_value": "* Failure to participate in this RFI risks exclusion from future technical specifications and qualification criteria for multi-year federal contracts covering ultra-cold pharmaceutical storage and distribution.\n* Specialized 3PL operators must submit capability statements detailing validated -70°C to -90°C storage infrastructure, continuous temperature telemetry auditing, and emergency stockpile dispatch capabilities.\n* **Consulting Pivot:** Supply chain consultancies can lead consortium assembly for 3PL providers, cold-storage warehouse operators, and temperature monitoring technology vendors to jointly shape PHAC's forthcoming RFP requirements.",
+      "co_bidding_opportunity": "3PL logistics providers, specialized pharmaceutical warehouse operators, and cold-chain telemetry vendors can form a consortium to submit comprehensive capability responses to this RFI and position for downstream RFPs.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "Connects federal public health emergency readiness procurement initiatives to specialized 3PL cold-chain infrastructure standards.",
+      "grounded_fact_ids": [],
+      "anchor_reference": null,
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-12-02T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "This Request for Information (RFI) seeks industry feedback on the availability and capacity of ultra-cold (-70°C to -90°C) pharmaceutical storage, warehousing, inventory management, and distribution services to support the Public Health Agency of Canada’s (PHAC) medical countermeasures stockpile program. Information gathered will be used for planning purposes and may inform future procurement strategies.",
+    "type": "New",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5998869276",
+    "notice_type": "Request for Information",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Not applicable",
+    "trade_agreements": "None",
+    "recommended_playbook": "Specification Shaping (RFI / EOI)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "W3371-255142 - Deployed Logistics Services",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031869?anId=ANONYMOUS",
+    "date": "2026-11-18T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "⚓ PSPC has opened a competitive Request for Standing Offer (WS4812391888) for deployed Pacific naval logistics—creating a strategic procurement gateway for defense-grade maritime supply chain operators.",
+      "strategic_value": "* Without verified contract ceilings disclosed in the solicitation, participating logistics providers face acute qualitative commercial liabilities including Standing Offer disqualification under Canadian Free Trade Agreement (CFTA) compliance rules, naval vessel turnaround delays, foreign port customs detention, and severe statutory exposure if international provisioning intersects with sanctioned entities or transshipment hubs.\n* Qualifying enterprises should leverage this Procurement Gateway Entry (RFSO) opportunity to formalize pre-vetted Pacific port husbandry arrangements, bonded warehouse buffering, pre-arrival electronic customs filings, and end-to-end vendor provenance screening aligned with active Special Economic Measures Act (SEMA) transshipment controls across Southeast Asian and Pacific maritime corridors.\n* **Consulting Pivot:** Defense procurement specialists and trade compliance advisors can package end-to-end RFSO bid preparation and operational readiness frameworks for Canadian logistics firms, integrating CFTA bid-compliance audits, multi-jurisdictional Pacific customs-clearance protocols, and SEMA counterparty screening to secure Standing Offer qualification for downstream DND call-ups.",
+      "co_bidding_opportunity": "Under this competitive open-bidding Request for Standing Offer (WS4812391888) governed by the Canadian Free Trade Agreement (CFTA), Canadian logistics operators can form prime-subcontractor consortia pairing domestic defense-compliant supply coordinators with maritime service providers maintaining established international Pacific infrastructure to support deployed DND naval vessels and support staff.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "This CanadaBuys logistics solicitation links federal defense maritime contracting under the CFTA directly to the operational reality of managing international Pacific supply chains under active SEMA sanctions and third-country transshipment enforcement.",
+      "grounded_fact_ids": [
+        7
+      ],
+      "anchor_reference": {
+        "source_name": "Global Affairs Canada",
+        "page_range": "SEMA Sanctions Registry",
+        "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/index.aspx?lang=eng"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-12-08T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "The Department of National Defence has a requirement for deployed logistic support services to naval vessels and support staff when deployed in pacific geographical locations internationally",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS4812391888",
+    "notice_type": "Request for Standing Offer",
+    "procurement_method": "Competitive - Open bidding",
+    "selection_criteria": "Variations or combinations of the above methods",
+    "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+    "recommended_playbook": "Procurement Gateway Entry (RFSO / RFSA)",
+    "ecosystem_stage": "general"
+  },
+  {
+    "source": "CanadaBuys_Logistics_Tenders",
+    "title": "Re-issued Solicitation of Offers - Third Party Logistics Niche Drug Pharmaceuticals",
+    "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030895?anId=ANONYMOUS",
+    "date": "2026-11-06T00:00:00Z",
+    "insight": {
+      "linkedin_hook": "❄️ PSPC has re-issued its selective-tendering solicitation for PHAC's National Emergency Strategic Stockpile—reopening high-stakes 3PL competition for specialized vaccines and therapeutics.",
+      "strategic_value": "* Re-issued Solicitation WS5719331093 (superseding the September 11, 2026 tender) restricts direct bidding to holders of Supply Arrangement No. 6D142-226332 across Health Products Logistics Services (HPLS) Streams 3, 4, and 5; non-compliance with strict pharmaceutical storage and timely national distribution mandates risks cold-chain excursions, inventory loss, and contractual default.\n* Qualified 3PL offerors should incorporate feedback from prior solicitation debriefings to sharpen technical merit scoring, validate end-to-end temperature-controlled warehousing across Canada, and ensure imported vaccines and therapeutics entering the stockpile clear border controls smoothly under active CBSA CARM RPP financial security protocols.\n* **Consulting Pivot:** Applying the Selective Partnering (Supply Arrangement) playbook, specialized cold-chain carriers, regional pharmaceutical warehouse operators, and Good Distribution Practices QA advisors should partner with pre-qualified SA No. 6D142-226332 holders to deliver compliant nationwide NESS distribution.",
+      "co_bidding_opportunity": "Under the Selective Partnering (Supply Arrangement) playbook, non-SA specialists—such as validated cold-chain freight carriers, regional niche-pharmaceutical storage operators, and regulatory quality-assurance SMEs—can pursue subcontracting roles with pre-qualified Supply Arrangement No. 6D142-226332 holders across HPLS Streams 3, 4, and 5.",
+      "mets_category": "Logistics & Infrastructure",
+      "mets_rationalization": "Sustaining nationwide emergency pharmaceutical warehousing and interprovincial distribution for the Public Health Agency of Canada intersects with domestic regulatory harmonization under Budget 2026's National Mutual Recognition Framework while upstream therapeutic imports remain anchored to CBSA's CARM RPP compliance infrastructure.",
+      "grounded_fact_ids": [
+        3,
+        9
+      ],
+      "anchor_reference": {
+        "source_name": "Canada Border Services Agency",
+        "page_range": "Customs Notice CN26-04",
+        "url": "https://www.cbsa-asfc.gc.ca/services/carm-gcra/menu-eng.html"
+      },
+      "program_validation_status": null,
+      "export_risk_advisory": null,
+      "macro_sector_trend": null
+    },
+    "closing_date": "2026-11-16T00:00:00Z",
+    "province": "National",
+    "province_abbrev": "NAT",
+    "category": "SRV",
+    "category_label": "Services",
+    "description": "Reissue of Solicitation of Offers. This solicitation of offers cancels and supersedes previous Solicitation of Offers No. WS5719331093 dated September 11, 2026 with a closing of October 7, 2026 at 2:00 p.m. A debriefing or feedback session has been provided upon request to Offeror's who offered on the previous solicitation of offers. Re-issued Solicitation no. WS5719331093, is issued under the framework of the Supply Arrangement (SA) No. 6D142-226332 for Third Party Logistics Services, for the p...",
+    "type": "Open",
+    "organization": "Department of Public Works and Government Services (PSPC)",
+    "solicitation_number": "WS5719331093",
+    "notice_type": "RFP against Supply Arrangement",
+    "procurement_method": "Competitive - Selective tendering",
+    "selection_criteria": "Highest Combined Rating of Technical Merit and Price",
+    "trade_agreements": "None",
+    "recommended_playbook": "Selective Partnering (Supply Arrangement)",
+    "ecosystem_stage": "general"
+  }
+]

@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mayAi | Canadian Grant Intelligence</title>
+    <meta name="description" content="mayAi: Delivering Golden Opportunities via daily intelligence on Canadian government grants, funding, and procurement.">
+    <meta property="og:title" content="mayAi | Canadian Grant Intelligence">
+    <meta property="og:description" content="mayAi: Delivering Golden Opportunities via daily intelligence on Canadian government grants and funding.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://4mayAi.github.io/canadian-grant-intelligence/">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-row">
+                <div class="logo-container">
+                    <div class="golden-egg"></div>
+                    <div class="egg-glow"></div>
+                </div>
+                <h1>may<span>Ai</span></h1>
+            </div>
+            <p>Canadian Grant Intelligence | Delivering Golden Opportunities Daily</p>
+
+            <!-- Cross Navigation Links -->
+            <div class="navigation-links">
+                <a href="#" class="nav-tab-link active">🇨🇦 Grant Intelligence</a>
+                <a href="clusters/" class="nav-tab-link">🇨🇦 Innovation Clusters</a>
+                <a href="mining-hubs/" class="nav-tab-link">🌎 Global Mining Hubs</a>
+                <a href="payments/" class="nav-tab-link">💳 Global Payments</a>
+                <a href="amr-simulation/" class="nav-tab-link">🧬 Health-Tech &amp; Biotech Simulation</a>
+                <a href="trade-compliance/" class="nav-tab-link">📦 Trade &amp; Supply Chain</a>
+            </div>
+            
+            <div id="hero-hook-container" class="hero-hook-container" style="display: none;">
+                <div class="hero-hook-glow"></div>
+                <p id="hero-hook-text">Synthesizing executive intelligence...</p>
+            </div>
+
+            <div class="header-controls">
+                <div class="status-badge" id="update-status">
+                    <span class="status-dot"></span>
+                    Updated: <span id="last-update-time">Loading...</span>
+                </div>
+                <div class="header-controls-row">
+                    <div class="mode-toggle">
+                        <label class="switch" title="Executive Mode: Prioritizes immediate opportunities by filtering for New tenders and those closing within 14 days. Applies 'Executive Priority' highlights.">
+                            <input type="checkbox" id="executive-mode" onchange="toggleExecutiveMode()">
+                            <span class="slider round"></span>
+                        </label>
+                        <span class="toggle-label">Executive Mode</span>
+                    </div>
+                    <div class="date-selector">
+                        <span class="toggle-label">Archive:</span>
+                        <select id="date-select" class="filter-select" onchange="selectHistoricalDate(this.value)">
+                            <option value="latest">Latest Run</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="kpi-container">
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-total">0</span>
+                <span class="kpi-label">Active Tenders</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-new-today">0</span>
+                <span class="kpi-label">New Today</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-closing-week">0</span>
+                <span class="kpi-label">Closing This Week</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-lead">N/A</span>
+                <span class="kpi-label">Top Category</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-value" id="kpi-provincial-split">N/A</span>
+                <span class="kpi-label">Provincial Split</span>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <button class="tab-btn active" id="btn-tenders" onclick="switchTab('tenders', event)">CanadaBuys Tenders</button>
+            <button class="tab-btn" id="btn-news" onclick="switchTab('news', event)">PMO Grants Digest</button>
+        </div>
+
+        <div id="tendersView">
+            <div class="filters">
+                <select id="timeFilter" class="filter-select" onchange="renderTenders()">
+                    <option value="All">All Time</option>
+                    <option value="24h">Last 24 Hours</option>
+                </select>
+                <select id="provinceFilter" class="filter-select" onchange="renderTenders()">
+                    <option value="All">All Provinces</option>
+                </select>
+                <select id="categoryFilter" class="filter-select" onchange="renderTenders()">
+                    <option value="All">All Categories</option>
+                </select>
+                <select id="organizationFilter" class="filter-select" onchange="renderTenders()">
+                    <option value="All">All Organizations</option>
+                </select>
+                <select id="expiryFilter" class="filter-select" onchange="renderTenders()">
+                    <option value="All">All Deadlines</option>
+                    <option value="<7">Closing < 7 Days</option>
+                    <option value="<30">Closing < 30 Days</option>
+                    <option value=">30">Long Lead (> 30 Days)</option>
+                    <option value="Closed">Closed</option>
+                </select>
+                <select id="sortFilter" class="filter-select" onchange="renderTenders()">
+                    <option value="newest">Sort: Newest First</option>
+                    <option value="closing">Sort: Closing Soonest</option>
+                </select>
+                <input type="text" id="searchQuery" class="search-input" placeholder="Search tenders..." oninput="renderTenders()">
+            </div>
+            <div id="tenderSummaryBar"></div>
+            <div id="tendersContent">
+                <div class="loading"><div class="spinner"></div><p>Loading active tenders...</p></div>
+            </div>
+        </div>
+
+        <div id="newsView" style="display: none;">
+            <nav class="report-nav" id="reportNav">
+                <!-- Populated by JS -->
+            </nav>
+            <main id="reportContent">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading intelligence reports...</p>
+                </div>
+            </main>
+        </div>
+
+        <footer>
+            <p>Powered by mayAi &middot; Built with GitHub Actions</p>
+            <p>Data sourced from CanadaBuys, PMO, ISED &amp; federal procurement feeds</p>
+        </footer>
+    </div>
+
+    <script>
+        const REPO = '4mayAi/canadian-grant-intelligence';
+        const API_BASE = `https://api.github.com/repos/${REPO}/contents/reports/grants`;
+        // Using raw.githubusercontent for data to avoid API rate limits on large JSON
+        const TENDERS_URL = `https://canadiangrants.blob.core.windows.net/data/tenders.json`;
+        const PMO_INSIGHTS_URL = `https://canadiangrants.blob.core.windows.net/data/pmo_insights.json`;
+        const KPIS_URL = `https://canadiangrants.blob.core.windows.net/data/kpis.json`;
+        const MANIFEST_URL = `https://canadiangrants.blob.core.windows.net/data/manifest.json`;
+
+        let reports = [];
+        let allTenders = [];
+        let activeReport = null;
+        let isExecutiveMode = false;
+        let currentDate = 'latest';
+
+        function getUrl(type) {
+            const base = 'https://canadiangrants.blob.core.windows.net/data';
+            const buster = `?t=${new Date().getTime()}`;
+            const urls = {
+                tenders: currentDate === 'latest' ? `${TENDERS_URL}${buster}` : `${base}/reports/tenders_${currentDate}.json`,
+                pmo:     currentDate === 'latest' ? `${PMO_INSIGHTS_URL}${buster}` : `${base}/reports/pmo_insights_${currentDate}.json`,
+                kpis:    currentDate === 'latest' ? `${KPIS_URL}${buster}` : `${base}/reports/kpis_${currentDate}.json`
+            };
+            if (!urls[type]) throw new Error(`getUrl: unknown data type "${type}"`);
+            return urls[type];
+        }
+
+        async function loadManifest() {
+            try {
+                const res = await fetch(`${MANIFEST_URL}?t=${new Date().getTime()}`);
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                const dates = await res.json();
+                if (Array.isArray(dates) && dates.length > 0) {
+                    const select = document.getElementById('date-select');
+                    let html = '<option value="latest">Latest Run</option>';
+                    dates.forEach(date => {
+                        const d = new Date(date + 'T12:00:00');
+                        const dateFormatted = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+                        html += `<option value="${date}">${dateFormatted}</option>`;
+                    });
+                    select.innerHTML = html;
+                }
+            } catch (e) {
+                console.error('Failed to load date manifest:', e);
+            }
+        }
+
+        async function selectHistoricalDate(date) {
+            currentDate = date;
+            
+            // Reset all filters to prevent stale values from hiding valid data
+            document.getElementById('timeFilter').value = 'All';
+            document.getElementById('provinceFilter').value = 'All';
+            document.getElementById('categoryFilter').value = 'All';
+            if (document.getElementById('organizationFilter')) document.getElementById('organizationFilter').value = 'All';
+            document.getElementById('expiryFilter').value = 'All';
+            document.getElementById('sortFilter').value = 'newest';
+            
+            // Show loading spinners in views
+            document.getElementById('tendersContent').innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading historical tenders...</p></div>';
+            document.getElementById('reportContent').innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading historical intelligence...</p></div>';
+            
+            await Promise.all([
+                loadKPIs(),
+                loadTenders(),
+                loadPmoInsights()
+            ]);
+        }
+
+        function switchTab(tab, event) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            const clickedBtn = (event && event.currentTarget) || (event && event.target) || document.getElementById(tab === 'tenders' ? 'btn-tenders' : 'btn-news');
+            if (clickedBtn) {
+                clickedBtn.classList.add('active');
+            }
+            
+            if (tab === 'tenders') {
+                document.getElementById('tendersView').style.display = 'block';
+                document.getElementById('newsView').style.display = 'none';
+            } else {
+                document.getElementById('tendersView').style.display = 'none';
+                document.getElementById('newsView').style.display = 'block';
+            }
+        }
+
+        async function init() {
+            updateTimestamp();
+            await loadManifest();
+            loadKPIs();
+            loadTenders();
+            loadPmoInsights();
+        }
+
+        async function loadKPIs() {
+            try {
+                let res = null;
+                if (currentDate === 'latest') {
+                    try {
+                        res = await fetch('data/canadian-grants/kpis.json');
+                        if (!res || !res.ok) res = await fetch('data/kpis.json');
+                    } catch {
+                        res = null;
+                    }
+                }
+                if (!res || !res.ok) {
+                    res = await fetch(getUrl('kpis'));
+                }
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                const data = await res.json();
+                
+                // Update KPI Cards
+                document.getElementById('kpi-total').innerText = data.total_active || 0;
+                document.getElementById('kpi-new-today').innerText = data.new_today || 0;
+                document.getElementById('kpi-closing-week').innerText = data.closing_this_week || 0;
+                document.getElementById('kpi-lead').innerText = data.top_category || 'Mixed';
+
+                // Update Hero Hook
+                if (data.hero_hook) {
+                    const hookContainer = document.getElementById('hero-hook-container');
+                    const hookText = document.getElementById('hero-hook-text');
+                    hookText.innerText = data.hero_hook;
+                    hookContainer.style.display = 'block';
+                }
+
+                // Update timestamp if available
+                const timeEl = document.getElementById('last-update-time');
+                if (timeEl && data.generated_at) {
+                    const d = new Date(data.generated_at);
+                    const dateStr = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
+                    const timeStr = d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false, timeZoneName: 'short', timeZone: 'UTC' });
+                    timeEl.innerText = `${dateStr} at ${timeStr}`;
+                }
+            } catch (e) {
+                console.error('Failed to load KPIs:', e);
+            }
+        }
+
+        function toggleExecutiveMode() {
+            isExecutiveMode = document.getElementById('executive-mode').checked;
+            const container = document.querySelector('.container');
+            if (isExecutiveMode) {
+                container.classList.add('executive-theme');
+            } else {
+                container.classList.remove('executive-theme');
+            }
+            renderTenders();
+        }
+
+        function updateTimestamp() {
+            const statusEl = document.getElementById('update-status');
+            if (statusEl) {
+                statusEl.innerHTML = `<span class="status-dot"></span>Updated: <span id="last-update-time">Synchronizing...</span>`;
+            }
+        }
+
+        async function loadTenders() {
+            try {
+                let res;
+                // Try local first for testing (only on 'latest' currentDate)
+                if (currentDate === 'latest') {
+                    try {
+                        res = await fetch('data/canadian-grants/tenders.json');
+                        if (!res || !res.ok) res = await fetch('data/tenders.json');
+                    } catch {
+                        res = null;
+                    }
+                }
+                
+                if (!res || !res.ok) {
+                    res = await fetch(getUrl('tenders'));
+                }
+
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                
+                allTenders = await res.json();
+                
+                if (!Array.isArray(allTenders)) throw new Error('Invalid JSON format');
+
+                // Clean up data for consistency
+                const VALID_PROVINCES = new Set([
+                    'Alberta', 'British Columbia', 'Manitoba', 'New Brunswick',
+                    'Newfoundland and Labrador', 'Nova Scotia', 'Ontario', 'Prince Edward Island',
+                    'Quebec', 'Saskatchewan', 'Northwest Territories', 'Nunavut', 'Yukon',
+                    'National', 'NCR (Ottawa/Gatineau)', 'Multiple Provinces'
+                ]);
+
+                const PROV_MAP = {
+                    "National": "NAT", "NCR (Ottawa/Gatineau)": "NCR", "Ontario": "ON",
+                    "British Columbia": "BC", "Newfoundland and Labrador": "NL",
+                    "Prince Edward Island": "PE", "Northwest Territories": "NT",
+                    "New Brunswick": "NB", "Nova Scotia": "NS", "Quebec": "QC",
+                    "Alberta": "AB", "Manitoba": "MB", "Saskatchewan": "SK",
+                    "Nunavut": "NU", "Yukon": "YT", "Multiple Provinces": "MULT"
+                };
+
+                allTenders.forEach(t => {
+                    if (t.province) {
+                        const starCount = (t.province.match(/\*/g) || []).length;
+                        if (starCount >= 2 || t.province.length > 50) {
+                            t.province = 'Multiple Provinces';
+                        } else {
+                            t.province = t.province.replace(/\*/g, '').trim();
+                        }
+                        // Whitelist guard: if province isn't in the canonical set, map to National
+                        if (!VALID_PROVINCES.has(t.province)) {
+                            t.province = 'National';
+                        }
+                    } else {
+                        t.province = 'National';
+                    }
+                    // Dynamically map province abbreviation on client for perfect integrity
+                    t.province_abbrev = PROV_MAP[t.province] || "NAT";
+                    t.category_label = getCategoryLabel(t.category_label || t.category);
+                });
+                
+                // Populate filters — provinces are now guaranteed clean
+                const provinces = [...new Set(allTenders.map(t => t.province))].filter(Boolean).sort();
+                const categories = [...new Set(allTenders.map(t => t.category_label))].filter(Boolean).sort();
+                const organizations = [...new Set(allTenders.map(t => t.organization || "Unknown"))].filter(Boolean).sort();
+                
+                const provSelect = document.getElementById('provinceFilter');
+                if (provSelect) {
+                    provSelect.innerHTML = '<option value="All">All Provinces</option>';
+                    provinces.forEach(p => provSelect.innerHTML += `<option value="${p}">${p}</option>`);
+                }
+                
+                const catSelect = document.getElementById('categoryFilter');
+                if (catSelect) {
+                    catSelect.innerHTML = '<option value="All">All Categories</option>';
+                    categories.forEach(c => catSelect.innerHTML += `<option value="${c}">${c}</option>`);
+                }
+
+                const orgSelect = document.getElementById('organizationFilter');
+                if (orgSelect) {
+                    orgSelect.innerHTML = '<option value="All">All Organizations</option>';
+                    organizations.forEach(o => orgSelect.innerHTML += `<option value="${escapeHtml(o)}">${escapeHtml(o)}</option>`);
+                }
+                
+                renderTenders();
+            } catch (e) {
+                console.error('Failed to load tenders:', e);
+            }
+        }
+
+        function renderTenders() {
+            const time = document.getElementById('timeFilter').value;
+            const prov = document.getElementById('provinceFilter').value;
+            const cat = document.getElementById('categoryFilter').value;
+            const org = document.getElementById('organizationFilter') ? document.getElementById('organizationFilter').value : 'All';
+            const expiry = document.getElementById('expiryFilter').value;
+            const sort = document.getElementById('sortFilter').value;
+            const searchQuery = document.getElementById('searchQuery') ? document.getElementById('searchQuery').value.toLowerCase().trim() : '';
+            
+            const now = new Date();
+            
+            let filtered = allTenders.filter(t => {
+                // In Executive Mode, we prioritize "New" or critical "Closing" tenders
+                // or just show everything but highlight differently if needed.
+                // For now, let's make it more selective in Executive Mode.
+                if (isExecutiveMode) {
+                    const closing = t.closing_date ? new Date(t.closing_date) : null;
+                    const daysLeft = closing ? Math.ceil((closing - now) / (1000 * 60 * 60 * 24)) : 999;
+                    if (t.type !== 'New' && daysLeft > 14) return false;
+                }
+
+                if (prov !== 'All' && t.province !== prov) return false;
+                if (cat !== 'All' && t.category_label !== cat) return false;
+                if (org !== 'All' && (t.organization || "Unknown") !== org) return false;
+                if (time === '24h' && t.type !== 'New') return false;
+                
+                if (expiry !== 'All') {
+                    if (!t.closing_date) return false;
+                    const closing = new Date(t.closing_date);
+                    const daysLeft = Math.ceil((closing - now) / (1000 * 60 * 60 * 24));
+                    if (expiry === '<7' && (daysLeft < 0 || daysLeft > 7)) return false;
+                    if (expiry === '<30' && (daysLeft < 0 || daysLeft > 30)) return false;
+                    if (expiry === '>30' && daysLeft <= 30) return false;
+                    if (expiry === 'Closed' && daysLeft >= 0) return false;
+                }
+                
+                if (searchQuery) {
+                    const text = `${t.title} ${t.description} ${t.province} ${t.category_label}`.toLowerCase();
+                    if (!text.includes(searchQuery)) return false;
+                }
+                
+                return true;
+            });
+            
+            updateTenderKPIs(filtered);
+            updateSummaryBar(filtered);
+            
+            if (filtered.length === 0) {
+                document.getElementById('tendersContent').innerHTML = '<div class="empty-state"><h3>No actionable tenders match your filters</h3><p>Pre-solicitation notices (APNs) are excluded — only biddable opportunities are shown.</p></div>';
+                return;
+            }
+
+            // Sorting
+            filtered.sort((a, b) => {
+                if (sort === 'closing') {
+                    if (!a.closing_date) return 1;
+                    if (!b.closing_date) return -1;
+                    return new Date(a.closing_date) - new Date(b.closing_date);
+                } else {
+                    // Prioritize 'New' type to the top
+                    if (a.type === 'New' && b.type !== 'New') return -1;
+                    if (b.type === 'New' && a.type !== 'New') return 1;
+                    
+                    // Then sort by publication date descending (newest first)
+                    const dateA = a.publication_date ? new Date(a.publication_date) : new Date(0);
+                    const dateB = b.publication_date ? new Date(b.publication_date) : new Date(0);
+                    if (dateB - dateA !== 0) {
+                        return dateB - dateA;
+                    }
+                    
+                    // Fallback to closing date descending
+                    const closeA = a.closing_date ? new Date(a.closing_date) : new Date(0);
+                    const closeB = b.closing_date ? new Date(b.closing_date) : new Date(0);
+                    return closeB - closeA;
+                }
+            });
+
+            const html = filtered.map(t => {
+                let deadlineBadge = '';
+                let urgencyClass = '';
+                if (t.closing_date) {
+                    const closing = new Date(t.closing_date);
+                    // Use UTC midnight for more consistent "days left" calculation matching CanadaBuys
+                    const today = new Date();
+                    today.setHours(0, 0, 0, 0);
+                    closing.setHours(0, 0, 0, 0);
+                    
+                    const diffTime = closing - today;
+                    const daysLeft = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+                    if (daysLeft < 0) {
+                        deadlineBadge = `<span class="badge badge-deadline-closed">Closed</span>`;
+                        urgencyClass = 'urgency-closed';
+                    } else if (daysLeft <= 7) {
+                        deadlineBadge = `<span class="badge badge-deadline-critical">Closing in ${daysLeft} days</span>`;
+                        urgencyClass = 'urgency-critical';
+                    } else if (daysLeft <= 30) {
+                        deadlineBadge = `<span class="badge badge-deadline-warning">${daysLeft} days left</span>`;
+                        urgencyClass = 'urgency-warning';
+                    } else {
+                        deadlineBadge = `<span class="badge badge-deadline-safe">${daysLeft} days left</span>`;
+                        urgencyClass = 'urgency-safe';
+                    }
+                }
+
+                const isHighlight = isExecutiveMode && (t.type === 'New' || urgencyClass === 'urgency-critical');
+
+                return `
+                <div class="tender-card ${t.type === 'Open' ? 'is-open' : ''} ${urgencyClass} ${isHighlight ? 'executive-highlight' : ''}">
+                    <div class="tender-card-header">
+                        <h3 class="tender-card-title">
+                            <span class="badge ${t.type === 'New' ? 'badge-new' : 'badge-open'}">${t.type}</span>
+                            ${escapeHtml(t.title)}
+                        </h3>
+                        <div class="tender-card-badge-container">${deadlineBadge || ''}</div>
+                    </div>
+                    <div style="margin-top: 6px; margin-bottom: 8px; font-size: 13px; color: var(--text-muted);">
+                        🏢 <strong>Org:</strong> ${escapeHtml(t.organization || 'Unknown')}
+                    </div>
+                    <div class="tender-description">${marked.parse(t.description || '')}</div>
+                    
+                    <details class="tender-details" style="margin-top: 12px; font-size: 12px; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 8px; margin-bottom: 8px;">
+                        <summary style="cursor: pointer; color: var(--gold); font-weight: 500; font-size: 11px; outline: none; margin-bottom: 4px;">View Opportunity Details</summary>
+                        <div style="margin-top: 6px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; background: rgba(255,255,255,0.02); padding: 8px; border-radius: 4px;">
+                            ${t.solicitation_number ? `<div><span style="color: var(--text-muted);">Solicitation #:</span> ${escapeHtml(t.solicitation_number)}</div>` : ''}
+                            ${t.notice_type ? `<div><span style="color: var(--text-muted);">Notice Type:</span> ${escapeHtml(t.notice_type)}</div>` : ''}
+                            ${t.procurement_method ? `<div><span style="color: var(--text-muted);">Procurement Method:</span> ${escapeHtml(t.procurement_method)}</div>` : ''}
+                            ${t.selection_criteria ? `<div><span style="color: var(--text-muted);">Selection Criteria:</span> ${escapeHtml(t.selection_criteria)}</div>` : ''}
+                            ${t.trade_agreements ? `<div style="grid-column: 1 / -1;"><span style="color: var(--text-muted);">Trade Agreements:</span> ${escapeHtml(t.trade_agreements)}</div>` : ''}
+                        </div>
+                    </details>
+
+                    <div class="tender-meta">
+                        <div class="tender-meta-col">
+                            <div class="tender-meta-label">Location</div>
+                            <div class="tender-meta-val">📍 ${escapeHtml(t.province)}</div>
+                        </div>
+                        <div class="tender-meta-col">
+                            <div class="tender-meta-label">Category</div>
+                            <div class="tender-meta-val">🏷️ ${escapeHtml(t.category_label)}</div>
+                        </div>
+                        <div class="tender-meta-col text-center">
+                            <div class="tender-meta-label">Published</div>
+                            <div class="tender-meta-val">📅 ${(t.publication_date || t.date) ? formatDate(t.publication_date || t.date) : 'N/A'}</div>
+                        </div>
+                    </div>
+                    <div class="tender-card-actions">
+                        <a href="${escapeHtml(t.link)}" target="_blank" class="opp-link">View Tender Docs ↗</a>
+                    </div>
+                </div>
+                `;
+            }).join('');
+            
+            document.getElementById('tendersContent').innerHTML = html;
+        }
+
+        // ── Direct Azure Data Path: Skips private GitHub API ──
+        async function loadPmoInsights() {
+            const content = document.getElementById('reportContent');
+            try {
+                let res = null;
+                if (currentDate === 'latest') {
+                    try {
+                        res = await fetch('data/canadian-grants/pmo_insights.json');
+                        if (!res || !res.ok) res = await fetch('data/pmo_insights.json');
+                    } catch {
+                        res = null;
+                    }
+                }
+                if (!res || !res.ok) {
+                    res = await fetch(getUrl('pmo'));
+                }
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                
+                const data = await res.json();
+                
+                // Set the 'Last Updated' timestamp from the JSON metadata
+                const timeEl = document.getElementById('last-update-time');
+                if (timeEl && data.generated_at) {
+                    const d = new Date(data.generated_at);
+                    const dateStr = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
+                    const timeStr = d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false, timeZoneName: 'short', timeZone: 'UTC' });
+                    timeEl.innerText = `${dateStr} at ${timeStr}`;
+                }
+
+                // Render report
+                renderPmoInsights(data, currentDate === 'latest' ? new Date().toISOString().split('T')[0] : currentDate);
+                
+                // Hide nav since we use dropdown now
+                document.getElementById('reportNav').style.display = 'none';
+
+            } catch (e) {
+                console.error('Failed to fetch intelligence from Azure:', e);
+                content.innerHTML = `<div class="empty-state">
+                    <h3>Intelligence Offline</h3>
+                    <p>Unable to fetch latest insights from Azure storage. The scraper may be in the middle of an update.</p>
+                    <p style="font-size: 11px; color: var(--text-muted); margin-top: 10px;">Error: ${e.message}</p>
+                </div>`;
+            }
+        }
+
+        async function loadReportByDate(fileName) {
+            // Deprecated: Moving to direct JSON fetch
+            console.log('Historical view currently limited to latest data.');
+        }
+
+        function getCategoryLabel(code) {
+            if (!code) return 'Uncategorized';
+            const cleanCode = code.replace(/\*/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
+            if (cleanCode === 'unknown' || cleanCode === 'uncategorized' || cleanCode === 'uncategorised') {
+                return 'Uncategorized';
+            }
+            const map = {
+                'cnst srv gd': 'Construction, Services & Goods',
+                'cnstsrvgd': 'Construction, Services & Goods',
+                'gd': 'Goods',
+                'srv': 'Services',
+                'cnst': 'Construction',
+                'cnst srv': 'Construction & Services',
+                'cnstsrv': 'Construction & Services',
+                'cnst gd': 'Construction & Goods',
+                'cnstgd': 'Construction & Goods',
+                'srv gd': 'Services & Goods',
+                'gd srv': 'Services & Goods',
+                'srvgd': 'Services & Goods',
+                'gdsrv': 'Services & Goods',
+                'srvtgd': 'Services (Goods-Related)',
+                'der': 'Defence & Security',
+                'it': 'Information Technology',
+                'rc srv': 'Research & Consulting Services',
+                'r&d': 'Research & Development',
+                'health': 'Health & Medical',
+                'env': 'Environmental Services',
+                'trans': 'Transportation & Logistics'
+            };
+            return map[cleanCode] || code.replace(/\*/g, '').replace(/\s+/g, ' ').trim();
+        }
+
+        function updateTenderKPIs(filtered) {
+            const kpiTotal = document.getElementById('kpi-total');
+            const kpiNewToday = document.getElementById('kpi-new-today');
+            const kpiClosingWeek = document.getElementById('kpi-closing-week');
+            const kpiLead = document.getElementById('kpi-lead');
+            if (!kpiTotal || !kpiLead) return;
+
+            kpiTotal.innerText = filtered.length;
+            
+            // New Today count
+            const newToday = filtered.filter(t => t.type === 'New').length;
+            if (kpiNewToday) kpiNewToday.innerText = newToday;
+            
+            // Closing this week count
+            const now = new Date();
+            const closingWeek = filtered.filter(t => {
+                if (!t.closing_date) return false;
+                const closing = new Date(t.closing_date);
+                const daysLeft = Math.ceil((closing - now) / (1000 * 60 * 60 * 24));
+                return daysLeft >= 0 && daysLeft <= 7;
+            }).length;
+            if (kpiClosingWeek) kpiClosingWeek.innerText = closingWeek;
+
+            const cats = filtered.reduce((acc, t) => {
+                const label = t.category_label;
+                acc[label] = (acc[label] || 0) + 1;
+                return acc;
+            }, {});
+            const sortedCats = Object.entries(cats).sort((a,b) => b[1] - a[1]);
+            const lead = sortedCats[0];
+            
+            let leadText = 'N/A';
+            if (lead) {
+                const percentage = Math.round((lead[1] / filtered.length) * 100);
+                const isTie = sortedCats.length > 1 && sortedCats[0][1] === sortedCats[1][1];
+                const isDiversified = sortedCats.length > 1 && percentage < 50;
+
+                if (isTie) {
+                    leadText = 'Mixed Sectors';
+                } else if (isDiversified) {
+                    leadText = 'Diversified';
+                } else {
+                    const leadName = lead[0].length > 18 ? lead[0].substring(0, 15) + '...' : lead[0];
+                    leadText = `${leadName} (${percentage}%)`;
+                }
+            }
+            kpiLead.innerText = leadText;
+
+            const kpiProvincialSplit = document.getElementById('kpi-provincial-split');
+            if (kpiProvincialSplit) {
+                const provs = filtered.reduce((acc, t) => {
+                    if (t.province_abbrev && t.province_abbrev !== 'NAT' && t.province_abbrev !== 'MULT') {
+                        acc[t.province_abbrev] = (acc[t.province_abbrev] || 0) + 1;
+                    }
+                    return acc;
+                }, {});
+                const sortedProvs = Object.entries(provs).sort((a,b) => b[1] - a[1]);
+                let provText = 'N/A';
+                if (sortedProvs.length > 0) {
+                    const top3 = sortedProvs.slice(0, 3);
+                    provText = top3.map(p => `${p[0]} ${Math.round((p[1] / filtered.length) * 100)}%`).join(' &middot; ');
+                }
+                kpiProvincialSplit.innerHTML = provText;
+            }
+        }
+
+        function updateSummaryBar(filtered) {
+            const bar = document.getElementById('tenderSummaryBar');
+            if (!bar) return;
+            
+            if (filtered.length === 0) {
+                bar.style.display = 'none';
+                return;
+            }
+            
+            const newCount = filtered.filter(t => t.type === 'New').length;
+            const cats = filtered.reduce((acc, t) => {
+                const label = t.category_label;
+                acc[label] = (acc[label] || 0) + 1;
+                return acc;
+            }, {});
+            const sortedCats = Object.entries(cats).sort((a,b) => b[1] - a[1]).slice(0, 4);
+            const catBreakdown = sortedCats.map(([name, count]) => {
+                const shortName = name.length > 20 ? name.substring(0, 17) + '...' : name;
+                return `${count} ${shortName}`;
+            }).join(' · ');
+            
+            bar.innerHTML = `🛡️ <strong>${filtered.length}</strong> High-Signal Opportunities <span style="color:var(--text-muted); font-size: 11px;">(Filtered from full 17.8k market)</span> · ${catBreakdown}`;
+            bar.style.display = 'block';
+        }
+
+        function updateNewsKPIs(count) {
+            const kpiStrat = document.getElementById('kpi-strategic');
+            if (kpiStrat) {
+                const finalCount = (count !== undefined) ? count : 
+                    document.querySelectorAll('#reportContent .report-section').length;
+                kpiStrat.innerText = finalCount;
+            }
+        }
+
+        function renderPmoInsights(data, date) {
+            const content = document.getElementById('reportContent');
+            let html = '';
+
+            const isToday = date === new Date().toISOString().split('T')[0];
+            const cardTitle = isToday ? "Today's Post" : `Strategic Hook (${formatDate(date)})`;
+
+            updateNewsKPIs(data.insights ? data.insights.length : 0);
+
+            if (data.linkedin_post) {
+                const socialCardUrl = currentDate === 'latest'
+                    ? `https://canadiangrants.blob.core.windows.net/data/latest_social_card.png`
+                    : `https://canadiangrants.blob.core.windows.net/data/social_card_${date}.png`;
+                
+                html += `
+                    <div class="report-section" style="padding: 28px 24px; max-width: 820px; margin: 0 auto 24px auto;">
+                        <div class="linkedin-card-header" style="margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center;">
+                            <h2>📋 PMO Grants Executive Digest</h2>
+                            <button class="copy-btn btn btn-sm" data-raw="${escapeHtml(data.linkedin_post)}" onclick="copyPost(this)">📋 Copy Digest</button>
+                        </div>
+
+                        <div style="text-align: center; margin-bottom: 24px;">
+                            <div class="social-card-banner" style="max-width: 580px; margin: 0 auto; position: relative;">
+                                <img src="${socialCardUrl}" 
+                                     alt="PMO Grants Visual Card"
+                                     style="width: 100%; border-radius: 10px; border: 1px solid rgba(255, 215, 0, 0.35); box-shadow: 0 8px 30px rgba(0,0,0,0.5); cursor: pointer; transition: transform 0.2s ease;"
+                                     onerror="this.closest('.social-card-banner').style.display='none'"
+                                     onclick="window.open(this.src, '_blank')">
+                            </div>
+                            <div style="margin-top: 12px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+                                <a href="${socialCardUrl}" target="_blank" rel="noopener" class="btn btn-sm" style="background: rgba(255, 215, 0, 0.12); color: #ffd700; border: 1px solid rgba(255, 215, 0, 0.3); font-weight: 600; padding: 6px 14px; text-decoration: none;">📥 Open High-Res Visual Card ↗</a>
+                                <button class="copy-btn btn btn-sm" data-raw="${escapeHtml(data.linkedin_post)}" onclick="copyPost(this)" style="background: rgba(255, 255, 255, 0.08); color: var(--text-primary); border: 1px solid rgba(255, 255, 255, 0.2); font-weight: 600; padding: 6px 14px;">📋 Copy Briefing Text</button>
+                            </div>
+                        </div>
+
+                        <div style="max-width: 780px; margin: 0 auto; font-size: 14.5px; line-height: 1.65; color: var(--text-primary);" id="linkedinPost">
+                            ${marked.parse((data.linkedin_post || '').replace(/([^\n])\n([^\n#\-\s])/g, '$1\n\n$2'))}
+                        </div>
+                    </div>
+                `;
+            }
+
+            let insightsHtml = '';
+            if (data.insights && data.insights.length > 0) {
+                data.insights.forEach(item => {
+                    let bodyHtml = '';
+                    const innerInsight = item.insight || {};
+                    if (innerInsight.strategic_value) {
+                        const stratText = Array.isArray(innerInsight.strategic_value) 
+                            ? innerInsight.strategic_value.join('\n') 
+                            : innerInsight.strategic_value;
+                        bodyHtml += `<h4>Strategic Value for Canadian Businesses</h4><div class="md-content">${marked.parse(stratText)}</div>`;
+                    }
+                    if (innerInsight.program_validation_status) {
+                        bodyHtml += `<div class="badge badge-verified" style="background:#0d9488;color:#fff;padding:4px 8px;border-radius:4px;display:inline-block;margin-bottom:8px;font-size:0.85rem;">✓ Verified Govt Program: ${escapeHtml(innerInsight.program_validation_status)}</div>`;
+                    }
+                    if (innerInsight.export_risk_advisory) {
+                        bodyHtml += `<h4>EDC Financial & Export Risk Advisory</h4><div class="md-content">${marked.parse(innerInsight.export_risk_advisory)}</div>`;
+                    }
+                    if (innerInsight.co_bidding_opportunity) {
+                        const cobidText = Array.isArray(innerInsight.co_bidding_opportunity) 
+                            ? innerInsight.co_bidding_opportunity.join('\n') 
+                            : innerInsight.co_bidding_opportunity;
+                        bodyHtml += `<h4>Co-Bidding Opportunity</h4><div class="md-content">${marked.parse(cobidText)}</div>`;
+                    }
+
+                    insightsHtml += `
+                        <details class="report-section">
+                            <summary class="report-summary">
+                                <h3>${escapeHtml(item.title)}</h3>
+                                ${innerInsight.linkedin_hook ? `<div class="hook-subtitle">${escapeHtml(innerInsight.linkedin_hook)}</div>` : ''}
+                                <div class="report-meta">
+                                    ${item.source ? `<span>📡 ${escapeHtml(item.source)}</span>` : ''}
+                                    ${item.date ? `<span>📅 ${escapeHtml(item.date)}</span>` : ''}
+                                </div>
+                            </summary>
+                            <div class="insight-content-wrapper">
+                                <div class="insight-content">${bodyHtml || '<p style="color: var(--text-muted)">No insight available.</p>'}</div>
+                                ${item.link ? `<a class="opp-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener">View Original ↗</a>` : ''}
+                            </div>
+                        </details>
+                    `;
+                });
+            }
+
+            if (!insightsHtml) {
+                insightsHtml = '<div class="empty-state" style="margin-top: 20px;"><h3>No Actionable Insights</h3><p>Today\'s scan yielded non-strategic or PR content which has been filtered out.</p></div>';
+            }
+
+            html += insightsHtml;
+            content.innerHTML = html;
+        }
+
+
+
+        function simpleMarkdown(text) {
+            if (!text) return '<p style="color: var(--text-muted)">No insight available.</p>';
+            return text
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+                .replace(/^#### (.+)$/gm, '<h4>$1</h4>')
+                .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+                .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.+?)\*/g, '<em>$1</em>')
+                .replace(/^\* (.+)$/gm, '<li>$1</li>')
+                .replace(/^- (.+)$/gm, '<li>$1</li>')
+                .replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>')
+                .replace(/^&gt; (.+)$/gm, '<blockquote>$1</blockquote>')
+                .replace(/\n\n/g, '<br><br>')
+                .replace(/\n/g, '<br>');
+        }
+
+        function decodeHtml(html) {
+            if (!html) return '';
+            const txt = document.createElement("textarea");
+            txt.innerHTML = html;
+            return txt.value;
+        }
+
+        function escapeHtml(text) {
+            if (!text) return '';
+            const decoded = decodeHtml(text);
+            const d = document.createElement('div');
+            d.textContent = decoded;
+            return d.innerHTML;
+        }
+
+        function copyPost(btn) {
+            const raw = btn.dataset.raw;
+            const text = raw ? decodeHtml(raw) : document.getElementById('linkedinPost').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                btn.textContent = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = 'Copy Post';
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+
+        function formatDate(dateStr) {
+            try {
+                if (!dateStr) return '';
+                const hasTime = dateStr.includes('T') || dateStr.includes(' ');
+                const d = hasTime ? new Date(dateStr) : new Date(dateStr + 'T12:00:00');
+                if (isNaN(d.getTime())) return dateStr;
+                return d.toLocaleDateString('en-CA', { month: 'short', day: 'numeric', year: 'numeric' });
+            } catch {
+                return dateStr;
+            }
+        }
+
+        function showEmpty(msg) {
+            document.getElementById('reportContent').innerHTML = `
+                <div class="empty-state">
+                    <h3>📭 ${msg}</h3>
+                    <p>Reports are generated daily at 08:00 UTC.</p>
+                </div>
+            `;
+        }
+
+        init();
+    </script>
+    <script data-goatcounter="https://mayai.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
