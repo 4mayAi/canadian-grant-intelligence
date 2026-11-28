@@ -1,0 +1,244 @@
+{
+  "generated_at": "2026-11-27T23:59:04.081401Z",
+  "linkedin_post": "Freshwater monitoring studies reveal significant measurement gaps across standard assays, while federal procurement authorities enforce hard submission cutoffs for regional health contracts. Research leads and vendors face direct pressure to align physical testing with predictive digital models while meeting strict bidding deadlines.\n\n### Molecular Analytics & Vector Design\nAnalysis of 816 water samples demonstrates that ELISA assays report roughly three times higher cyanotoxin levels than LC-MS/MS, while qPCR uniquely identifies toxin-gene-carrying strains. Reconciling these differences requires data-fusion platforms that feed physical outputs into dynamic predictive models, directly supporting [NRC](https://nrc.canada.ca/) Ideation Fund proposals.\n\nIn biomanufacturing, cryo-EM maps of human adenoviruses D36 (2.5 Å) and D56 (2.6 Å) resolved critical cement protein VIII interactions. These structural maps enable targeted simulations of capsid stability, supporting federal life science priorities. Meanwhile, gut microbiome data showing rapid two-hour bacterial shifts reinforces demand for digital twin modeling in antimicrobial research.\n\n### Healthcare Procurement\nPublic Services and Procurement Canada issued a binding amendment for Correctional Service Canada's Ontario mobility equipment standing offer (WS5816036092). Final bids must arrive by December 16, 2026, at 14:00 EST.\n\nThis revised cutoff overrides conflicting dates listed on Ariba Discovery. Evaluated on Lowest Price under CFTA, CETA, and CPTPP rules, late submissions will automatically be declared non-responsive.\n\n👉 Full dashboard with filters and strategic analysis: https://4mayAi.github.io/canadian-grant-intelligence/amr-simulation/\n#Microbiology #HealthcareProcurement #Biomanufacturing #LifeSciences\n\n### Featured News & Sources\n- [Advancing Cyanobacterial Toxin Monitoring Capacity: A Large-Scale Multi-Year Comparison of ELISA, LC-MS/MS, and qPCR in Temperate Waters](https://www.biorxiv.org/content/10.64898/2026.11.26.769442v1?rss=1) (bioRxiv Microbiology)\n- [Structures of human adenoviruses D36 and D56 provide insights into adenovirus diversity and cement protein networks](https://www.biorxiv.org/content/10.64898/2026.11.25.769168v1?rss=1) (bioRxiv Microbiology)\n- [Viral-bacterial arms race in the marine sponge Halichondria panicea](https://www.biorxiv.org/content/10.64898/2026.11.26.769407v1?rss=1) (bioRxiv Microbiology)\n- [From Substrate to Short Chain Fatty Acids: An In Vitro Investigation of Bacterial Dynamics in the Porcine Colon using the Modified Hohenheim Gas Test](https://www.biorxiv.org/content/10.64898/2026.11.26.769249v1?rss=1) (bioRxiv Microbiology)\n- [Mobility Medical Devices & Supplies](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032333?anId=ANONYMOUS) (CanadaBuys / MERX)\n",
+  "insights": [
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Advancing Cyanobacterial Toxin Monitoring Capacity: A Large-Scale Multi-Year Comparison of ELISA, LC-MS/MS, and qPCR in Temperate Waters",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.11.26.769442v1?rss=1",
+      "date": "2026-11-27T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🌊 816 samples across three summers reveal why single-method cyanotoxin testing misses critical bloom risks—and how computational modeling can bridge the gap.",
+        "strategic_value": "* **Multi-Modal Assay Discrepancy:** This bioRxiv preprint demonstrates across 816 freshwater, brackish, and marine samples that ELISA reports roughly 3x higher cyanotoxin concentrations than LC-MS/MS, while qPCR uniquely captures widespread toxin-gene-carrying cyanobacteria across microcystins, nodularin, cylindrospermopsins, anatoxins, and saxitoxins.\n* **Simulation & Risk Forecasting Space:** Integrating disparate ELISA, LC-MS/MS, and qPCR outputs into virtual bloom-dynamics and toxin-release models offers a strong technical opportunity to forecast waterborne public health hazards in temperate and Arctic-adjacent waters.\n* **Consulting Pivot:** Offer data-fusion and in silico environmental toxin-dynamics simulation platforms as a collaborative technology layer for prospective NRC Ideation Fund proposals and public health water-monitoring laboratory networks.",
+        "co_bidding_opportunity": "Grounded in the preprint's methodology and funding structure, potential partnering includes **water and marine environmental monitoring agencies, analytical chemistry labs running LC-MS/MS and ELISA, molecular qPCR diagnostics groups, and academic freshwater/marine researchers**.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Links multi-assay cyanobacterial bloom monitoring in cold/temperate waters to prospective NRC Ideation Fund collaborative simulation grants (Fact ID: 1001) and PHAC Infectious Disease Laboratory Network modeling capabilities (Fact ID: 1002).",
+        "grounded_fact_ids": [
+          1001,
+          1002
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Structures of human adenoviruses D36 and D56 provide insights into adenovirus diversity and cement protein networks",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.11.25.769168v1?rss=1",
+      "date": "2026-11-27T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🔬 Near-atomic cryo-EM maps of human adenoviruses D36 and D56 uncover a hidden capsid cement network—a blueprint for in silico viral vector design.",
+        "strategic_value": "* **Structural Breakthrough:** Researchers resolved cryo-EM structures of HAdV-D36 (2.5 A) and HAdV-D56 (2.6 A), reassigning a conserved hexon-interacting peptide to cement protein VIII and mapping novel interactions across proteins IIIa, VI, VII, and VIII.\n* **Biomanufacturing & Countermeasure Relevance:** Because species D adenoviruses include respiratory pathogens, neonatal infection agents, and clinical gene/vaccine vectors, these structural maps create an immediate technical opportunity for molecular dynamics simulations of virion assembly, disassembly, and capsid stability.\n* **Consulting Pivot:** Pitch in silico structural modeling and capsid-engineering simulation workflows to Canadian biologics and viral-vector teams aligning with HERC and NRC Biomanufacturing and Life Sciences Strategy priorities.",
+        "co_bidding_opportunity": "Based solely on the source preprint, partnership opportunities center on **cryo-EM structural virology teams, clinical viral vector developers, and respiratory/neonatal infectious disease researchers**.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Aligns high-resolution adenovirus capsid and vector structural data with Canada's Biomanufacturing and Life Sciences Strategy via HERC and the NRC Clinical Trial Material Facility for in silico medical countermeasures and biologics (Fact ID: 1004), as well as NRC Ideation Fund simulation platforms (Fact ID: 1001).",
+        "grounded_fact_ids": [
+          1001,
+          1004
+        ],
+        "anchor_reference": {
+          "source_name": "NRC Collaborative Science & Technology Program",
+          "page_range": "Page 2",
+          "url": "https://nrc.canada.ca/en/research-development/funding-collaborative-projects"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "Viral-bacterial arms race in the marine sponge Halichondria panicea",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.11.26.769407v1?rss=1",
+      "date": "2026-11-27T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🧬 A marine sponge virome reveals a real-time viral-bacterial arms race and horizontal gene transfer engine—prime training data for phage-defense simulations.",
+        "strategic_value": "* **Co-Evolutionary Mechanisms:** This bioRxiv preprint maps sponge-enriched viruses carrying auxiliary metabolic and bacterial cell-surface modification genes alongside diverse microbial defense systems and a gene transfer agent (GTA) in \"Candidatus Halichondribacter symbioticus\".\n* **In Silico Arms-Race Modeling:** Simulating how viral anti-defenses match bacterial defense classes and drive horizontal gene transfer provides a high-value computational biology testbed applicable to phage-bacteria dynamics and antimicrobial resistance gene mobility.\n* **Consulting Pivot:** Engage metagenomics and microbial ecology consortia to build agent-based and genomic simulation tools modeling phage-bacteria co-evolution and horizontal gene transfer for prospective One Health AMR and NRC collaborative R&D calls.",
+        "co_bidding_opportunity": "Strictly reflecting the preprint's scope, collaboration opportunities lie with **marine holobiont/microbiome genomics researchers and viral metagenomics laboratories** investigating host-microbe defense systems and gene transfer agents.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Translates viral-bacterial defense/anti-defense dynamics and horizontal gene transfer into virtual bacterial simulation workflows suited for CIHR One Health AMR networks (Fact ID: 1000) and NRC Ideation Fund simulation platforms (Fact ID: 1001).",
+        "grounded_fact_ids": [
+          1000,
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "CIHR One Health AMR Strategy 2025",
+          "page_range": "Page 4",
+          "url": "https://cihr-irsc.gc.ca/e/53000.html"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "bioRxiv_Microbiology",
+      "title": "From Substrate to Short Chain Fatty Acids: An In Vitro Investigation of Bacterial Dynamics in the Porcine Colon using the Modified Hohenheim Gas Test",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.11.26.769249v1?rss=1",
+      "date": "2026-11-27T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🐖 Rapid 2-hour bacterial shifts in a porcine colon model show why in vitro gut fermentation assays need digital twins for metabolic cross-feeding.",
+        "strategic_value": "* **Dynamic Microbiome Kinetics:** Using the modified Hohenheim Gas Test (modHGT) with HPLC, qPCR, and 16S rDNA sequencing, researchers tracked Firmicutes, Bacteroidota, and Proteobacteria shifts within 2 hours across wheat straw, inulin, sugar beet pulp, and potato starch.\n* **Standardization & Simulation Opportunity:** The authors explicitly highlight metabolic cross-feeding interdependencies and the need for standardized microbiome reference communities—creating a clear recommendation space for in silico metabolic flux and community-dynamics simulation software to complement in vitro screening.\n* **Consulting Pivot:** Propose computational gut-microbiome fermentation and cross-feeding simulators to agrifood, animal-health, and One Health research groups preparing prospective CIHR or NRC collaborative simulation proposals.",
+        "co_bidding_opportunity": "Based strictly on the preprint, potential consortium partners include **agrifood and animal nutrition research groups (such as feed-science organizations), chronic inflammation precision-medicine teams, and analytical laboratories providing HPLC, qPCR, and 16S rDNA amplicon sequencing**.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Connects porcine colonic bacterial dynamics and standardized microbiome cross-feeding data to One Health bacterial simulation initiatives under CIHR (Fact ID: 1000) and breakthrough simulation platform grants under the NRC Ideation Fund (Fact ID: 1001).",
+        "grounded_fact_ids": [
+          1000,
+          1001
+        ],
+        "anchor_reference": {
+          "source_name": "CIHR One Health AMR Strategy 2025",
+          "page_range": "Page 4",
+          "url": "https://cihr-irsc.gc.ca/e/53000.html"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "Canada_PHAC_AMR",
+      "title": "Vermont is experiencing its first measles outbreak in decades - WBUR",
+      "link": "https://www.wbur.org/news/2026/11/25/vermont-measles-outbreak-unvaccinated-travel",
+      "date": "2026-11-25T14:58:45Z",
+      "insight": {
+        "linkedin_hook": "🚨 Measles just returned to Vermont after decades—with the US losing elimination status as localized communities dip below the 95% immunity threshold.",
+        "strategic_value": "* **Cross-Border Epidemiological Signal:** With 13 confirmed cases in Vermont's Orleans County and the Pan American Health Organization (PAHO) revoking US measles elimination status, public health systems face heightened risk of cross-border airborne transmission into sub-95% immunization pockets.\n* **Simulation & Planning Opportunity:** Infectious disease simulation platforms can model household-cluster spillover, localized kindergarten vaccination gaps (below the 95% herd immunity threshold), and targeted immunization outreach strategies aligned with PHAC's Infectious Disease Laboratory Network (Fact ID: 1002).\n* **Consulting Pivot:** Position spatial outbreak simulation and vaccination-threshold analytics software to federal and provincial public health agencies seeking prospective alignment with PHAC simulation modeling initiatives (Fact ID: 1002).",
+        "co_bidding_opportunity": "Collaborate with public health epidemiologists, state and provincial immunization programs, and local pediatricians (such as the Vermont Department of Health teams and pediatric clinics addressing vaccine hesitancy mentioned in the report) to connect vaccination-status resources with outbreak transmission modeling.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Connects a live North American measles resurgence signal near the Canadian border to PHAC's dedicated funding for infectious disease simulation modeling under the Infectious Disease Laboratory Network (Fact ID: 1002).",
+        "grounded_fact_ids": [
+          1002
+        ],
+        "anchor_reference": {
+          "source_name": "PHAC Laboratory Biosafety Guidelines",
+          "page_range": "Page 15",
+          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "Canada_CanadaBuys_Procurement",
+      "title": "Mobility Medical Devices & Supplies",
+      "link": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032333?anId=ANONYMOUS",
+      "date": "2026-11-25T00:00:00Z",
+      "insight": {
+        "linkedin_hook": "🏥 Critical deadline alert for Ontario healthcare suppliers: PSPC has issued a closing-time amendment for Correctional Service Canada's Mobility Medical Devices & Supplies RFSO.",
+        "strategic_value": "* The Department of Public Works and Government Services (PSPC) issued an amendment to the closing time for Request for Standing Offer WS5816036092, setting a strict final submission deadline of December 16, 2026 at 14:00 EST that explicitly overrides conflicting closing times displayed on Ariba Discovery and CanadaBuys.\n* Evaluated on Lowest Price via competitive open bidding across multiple trade agreements (including CFTA, CETA, and CPTPP), the standing offer covers the procurement, delivery, and installation of medical supplies, mobility equipment, and assistive devices on an as-and-when-requested basis for Correctional Service Canada in Ontario.\n* **Consulting Pivot:** Support Ontario medical supply and assistive device vendors with Procurement Gateway Entry readiness—auditing Lowest Price bid structures and enforcing submission controls ahead of the amended December 16 cutoff to avoid automatic non-responsive disqualification.",
+        "co_bidding_opportunity": "Supplier and logistics coordination among Offerors capable of procuring, delivering, and installing medical supplies, mobility equipment, and assistive devices across Ontario to meet Correctional Service Canada's as-and-when-requested requirements under competitive Lowest Price RFSO terms.",
+        "mets_category": "METS-Ops",
+        "mets_rationalization": "Represents an active federal operational healthcare procurement by PSPC for physical medical supplies, mobility hardware, and installation services across Correctional Service Canada facilities in Ontario, operating outside Canada's specialized biomanufacturing, AI/ML SaMD, or AMR surveillance funding anchors.",
+        "grounded_fact_ids": [],
+        "anchor_reference": null,
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "closing_date": "2026-12-16T00:00:00Z",
+      "province": "National",
+      "province_abbrev": "NAT",
+      "category": "GD",
+      "category_label": "Goods",
+      "description": "AMENDMENT TO CLOSING TIME: Please disregard the Ariba Discovery posting response deadline closing time and CanadaBuys posting closing time. All required supporting documentation and bid submission must be submitted by December 16, 2026 at 14:00 EST. All bids submitted after 14:00 EST. will result in the bid being declared non-responsive. Canada is seeking offers from Offerors to procure, deliver and install medical supplies, mobility equipment, and assistive devices as required to Correctional S...",
+      "type": "Open",
+      "organization": "Department of Public Works and Government Services (PSPC)",
+      "solicitation_number": "WS5816036092",
+      "notice_type": "Request for Standing Offer",
+      "procurement_method": "Competitive - Open bidding",
+      "selection_criteria": "Lowest Price",
+      "trade_agreements": "World Trade Organization Agreement on Government Procurement (WTO GPA)Canada-Korea Free Trade Agreement (CKFTA)Canada-UK Trade Continuity Agreement (Canada-UK TCA)Canada-Peru Free Trade Agreement (CPFTA)Canada-Honduras Free Trade AgreementCanadian Free Trade Agreement (CFTA)Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)Canada-Panama Free Trade AgreementCanada-European Union Comprehensive Economic and Trade Agreement (CETA)Canada-Ukraine Free Trade Agreement (CUFTA)Canada-Colombia Free Trade AgreementNorth American Free Trade Agreement (NAFTA)Canada-Chile Free Trade Agreement (CCFTA)",
+      "recommended_playbook": "Procurement Gateway Entry (RFSO / RFSA)",
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "Canada_CIHR_AMR",
+      "title": "World AMR Awareness Week 2026 - World Health Organization (WHO)",
+      "link": "https://www.who.int/campaigns/world-amr-awareness-week/world-amr-awareness-week-2026",
+      "date": "2026-11-24T08:00:00Z",
+      "insight": {
+        "linkedin_hook": "🦠 WHO's World AMR Awareness Week 2026 and the updated 2026–2036 Global Action Plan put One Health wastewater and agrifood modeling front and center.",
+        "strategic_value": "* **One Health Convergence:** Running from November 18–24, 2026, WHO's World AMR Awareness Week and the updated Global Action Plan on AMR 2026–2036 explicitly link human health, animal health, agrifood systems, and wastewater management to curb drug-resistant bacteria, viruses, fungi, and parasites.\n* **Wastewater & Surveillance Opportunity:** The campaign's emphasis on WASH, wastewater management, and reducing environmental AMR pollution creates a clear technical opportunity to apply in silico wastewater pathogen modeling and cross-sector antimicrobial resistance transmission simulations.\n* **Consulting Pivot:** Position computational microbiology and pathogen-simulation platforms to support Canadian One Health consortia targeting prospective CIHR One Health AMR network calls and PHAC genomic/wastewater surveillance modernization initiatives.",
+        "co_bidding_opportunity": "Based strictly on the WHO campaign scope, consortium opportunities span **governments, human healthcare professionals, veterinarians, environmental experts, farmers/agrifood stakeholders, and WASH/wastewater practitioners** collaborating on integrated One Health AMR monitoring and mitigation.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Connects WHO's 2026–2036 One Health AMR mandate and wastewater focus directly to CIHR's One Health AMR simulation networks (Fact ID: 1000) and Canada's Pan-Canadian Action Plan / PHAC National Genomic and Wastewater Surveillance framework (Fact ID: 1003).",
+        "grounded_fact_ids": [
+          1000,
+          1003
+        ],
+        "anchor_reference": {
+          "source_name": "CIHR One Health AMR Strategy 2025",
+          "page_range": "Page 4",
+          "url": "https://cihr-irsc.gc.ca/e/53000.html"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "Canada_CIHR_AMR",
+      "title": "More countries have antimicrobial resistance plans but patients still lack testing and treatment - World Health Organization (WHO)",
+      "link": "https://www.who.int/news/item/16-11-2026-more-countries-have-antimicrobial-resistance-plans-but-patients-still-lack-testing-and-treatment",
+      "date": "2026-11-16T20:25:05Z",
+      "insight": {
+        "linkedin_hook": "🚨 WHO reports that while 173 countries have national antimicrobial resistance plans, only 22% report full implementation and funding! Are we tracking surveillance gaps effectively? 🦠",
+        "strategic_value": "* Comprehensive global data from the WHO TrACSS survey highlights critical vulnerabilities in diagnostic capacity, laboratory infrastructure, and national AMR implementation pipelines.\n* Public health agencies and international bodies must bridge the gap between static policy frameworks and active surveillance networks to prevent widespread treatment failures.\n* **Consulting Pivot:** Position your computational modeling platforms to help public health agencies integrate wastewater pathogen surveillance and real-time resistance tracking, aligning directly with national One Health AMR initiatives.",
+        "co_bidding_opportunity": "Collaborate with international public health agencies, national reference laboratories, and One Health surveillance consortia bidding on diagnostic capacity-building contracts and pathogen tracking initiatives.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Connects global WHO antimicrobial resistance surveillance data and diagnostic gaps to the requirement for advanced digital pathogen modeling and tracking platforms.",
+        "grounded_fact_ids": [
+          1003
+        ],
+        "anchor_reference": {
+          "source_name": "Public Health Agency of Canada AMR Action Plan",
+          "page_range": "Progress Report",
+          "url": "https://www.canada.ca/en/public-health/services/publications/drugs-health-products/pan-canadian-action-plan-antimicrobial-resistance.html"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    },
+    {
+      "source": "Canada_PHAC_AMR",
+      "title": "/C O R R E C T I O N - Public Health Agency of Canada (PHAC)/ - Yahoo! Finance Canada",
+      "link": "https://ca.finance.yahoo.com/news/c-o-r-r-e-133800384.html",
+      "date": "2026-10-29T13:38:00Z",
+      "insight": {
+        "linkedin_hook": "📊 Canada’s 2026 Chief Public Health Officer report highlights escalating infectious disease dynamics—from measles resurgences to STBBIs.",
+        "strategic_value": "* The CPHO's 2026 priorities explicitly prioritize strengthening prevention and preparedness for emerging infectious disease trends, requiring granular predictive simulation for outbreak containment.\n* Shifting demographic vulnerability and declining healthy lifespan metrics demand dynamic transmission modeling to forecast regional healthcare capacity constraints.\n* **Consulting Pivot:** Propose predictive infectious disease simulation platforms and analytics dashboards to provincial and federal agencies modernizing surveillance under PHAC laboratory and modeling networks.",
+        "co_bidding_opportunity": "Joint bidding with public health informatics providers and epidemiological research centers to supply dynamic STBBI and airborne transmission modeling software to public health agencies.",
+        "mets_category": "METS-Digital",
+        "mets_rationalization": "Directly links federal public health surveillance priorities to PHAC's infectious disease simulation modeling and analytical network investments.",
+        "grounded_fact_ids": [
+          1002
+        ],
+        "anchor_reference": {
+          "source_name": "PHAC Laboratory Biosafety Guidelines",
+          "page_range": "Page 15",
+          "url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity.html"
+        },
+        "program_validation_status": null,
+        "export_risk_advisory": null,
+        "macro_sector_trend": null
+      },
+      "ecosystem_stage": "general"
+    }
+  ]
+}
